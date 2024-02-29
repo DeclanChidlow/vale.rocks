@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+html {
+	font-family: "Lexend", sans-serif;
+	color: var(--bright_white);
+}
+
+#section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--bright_white);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#section {
+	font-size: 5.5rem;
+	writing-mode: vertical-lr;
+	transform: scale(-1);
+	margin: 15vh 0 0 -6.5rem;
+	position: fixed;
+	user-select: none;
+	-webkit-user-select: none;
+	line-height: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 3.2rem;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 2.2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+	line-height: 2rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+}
+
+h5 {
+	font-size: 1rem;
+	line-height: 1.2rem;
+}
+
+h6 {
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+}
+
+p {
+	line-height: 1.4rem;
+	margin-bottom: 1rem;
+}
+
+#postbody p {
+	max-width: 70ch;
+}
+
+pre {
+	overflow-x: scroll;
+}
+
+code {
+	font-family: "Fira Code", monospace;
+	overflow: inherit;
+	display: inline-block;
+	tab-size: 4;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+}
+
+blockquote {
+	margin-right: 0.3rem;
+	padding: 0 0.3rem;
+	background: var(--dark_grey);
+	border-left: 0.3rem solid var(--grey);
+}
+
+li {
+	list-style-position: inside;
+}
+
+.alert {
+	padding: 0 0.5rem;
+	margin: 1rem 0;
+	display: block;
+	white-space: pre-line;
+}
+
+.note {
+	border-left: solid var(--blue);
+}
+
+.note::before {
+	content: "󰋽  Note";
+	color: var(--blue);
+}
+
+.warning {
+	border-left: solid var(--orange);
+}
+
+.warning::before {
+	content: "󰀪  Warning";
+	color: var(--orange);
+}
+
+@media (max-width: 700px) {
+	#section {
+		font-size: 3rem;
+		writing-mode: inherit;
+		transform: inherit;
+		margin: inherit;
+		position: inherit;
+		user-select: inherit;
+		-webkit-user-select: inherit;
+		line-height: 3.2rem;
+	}
+}

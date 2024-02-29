@@ -1,0 +1,20 @@
+style = ["../config/global/style/style.css"]
+head = ["../config/global/elements/head.html", "../config/global/elements/bloghead.html"]
+
+title = "Vale.Rocks Blog"
+link = "https://vale.rocks"
+description = "A collection of unhinged (yet not completely insane) ramblings."
+
+[main]
+
+[[main.block]]
+from_str = "../config/global/elements/navbar.html"
+style = "html"
+
+[[main.block]]
+text = "<span id='section'>Blog</span><div id='postbody'>"
+style = "html"
+
+[[main.block]]
+text = "<style>:root{--header_background: var(--magenta)}</style>"
+style = "html"

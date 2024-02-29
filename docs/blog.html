@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>
+<style>
+@import "/style/colours.css";
+@import "/style/post.css";
+@import "/style/prism.css";
+@import "/style/footer.css";
+@import "/style/navbar.css";
+@import "/style/images.css";
+@import "/style/input.css";
+@import "/style/links.css";
+@import "/style/type.css";
+@import "/style/standard.css";
+@import "/style/reset.css";
+
+</style>
+<html lang="en">
+
+<meta charset="utf-8">
+<meta property="og:locale" content="en_AU">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Declan Chidlow">
+<meta property="og:site_name" content="Vale Rocks">
+<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+<link href="https://github.com/DeclanChidlow" rel="me">
+<link href="https://fedi.vale.rocks/vale" rel="me">
+
+<script src="/assets/prism.js"></script>
+<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+
+</head>
+<body>
+<div class="page">
+
+
+    <nav>
+    	<ul>
+    		<li><a href="/" style="font-weight: 900;">Vale</a></li>
+    		<li><a href="/blog">Blog</a></li>
+    		<li><a href="/portfolio">Portfolio</a></li>
+    	</ul>
+    </nav>
+    
+    <div id="content">
+    <head>
+    <title>Blog | Vale.Rocks</title>
+    <meta property="og:title" content="Blog | Vale.Rocks"/>
+    <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
+    <meta property="og:description" content="The hippest site this side of MySpace." />
+</head>
+<style>
+#blogposts {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5rem;
+	gap: 2%;
+	justify-content: space-between;
+}
+
+#blogposts div{
+	border-bottom: 2px solid var(--bright_grey);
+	flex-basis: 46%;
+ 	box-sizing: border-box;
+	height: 8rem;
+	padding: 0.5rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#blogposts h3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#blogposts p {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#searchAndFilter {
+	/* set to flex in JS */
+	gap: 2%;
+}
+
+input#blogsearch {
+	flex: 1;
+	min-width: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fade-in-up {
+  animation: 0.5s both fadeInUp;
+} 
+
+@media (max-width: 1000px) {
+    #blogposts {
+	    flex-direction: column;
+    }
+
+    #blogposts div{
+	    flex-basis: 100%;
+    }
+}
+</style>
+<h1 id="section">
+    Blog
+</h1>
+<search id="searchAndFilter" style="display:none;">
+    <input type="search" id="blogsearch" onkeyup="search()" placeholder="Search posts">
+    <select name="tag" id="tag">
+        <option value="all">All</option>
+        <option value="review">Reviews</option>
+        <option value="essay">Essays</option>
+        <option value="tutorial">Tutorials</option>
+        <option value="meta">Meta</option>
+    </select>
+</search>
+<div id="blogposts">
+<div class="post">
+<p>Essay</p>
+<h3><a href="/blog/Cybersecurity_Superstition">Cybersecurity Superstition</a></h3>
+<p><time datetime="2024-02-28">28 Feb, 2024</time> | 1586 words | 5 minute read</p>
+</div>
+<div class="post">
+<p>Review</p>
+<h3><a href="/blog/I_Hate_My_Nokia">I Hate My Nokia</a></h3>
+<p><time datetime="2024-02-03">03 Feb, 2024</time> | 926 words | 3 minute read</p>
+</div>
+<div class="post">
+<p>Essay</p>
+<h3><a href="/blog/Everything_Is_Chrome">Everything Is Chrome</a></h3>
+<p><time datetime="2023-12-11">11 Dec, 2023</time> | 2256 words | 8 minute read</p>
+</div>
+<div class="post">
+<p>Review</p>
+<h3><a href="/blog/A_Year_With_The_Framework_Laptop_13">A Year With The Framework Laptop 13</a></h3>
+<p><time datetime="2023-12-01">01 Dec, 2023</time> | 1495 words | 5 minute read</p>
+</div>
+<div class="post">
+<p>Essay</p>
+<h3><a href="/blog/Prematurely_Pulling_The_Plug_On_3G">Prematurely Pulling the Plug on 3G</a></h3>
+<p><time datetime="2023-11-26">26 Nov, 2023</time> | 912 words | 3 minute read</p>
+</div>
+<div class="post">
+<p>Tutorial</p>
+<h3><a href="/blog/Making_Windows_Usable">Making Windows &quot;Usable&quot;</a></h3>
+<p><time datetime="2023-10-31">31 Oct, 2023</time> | 1150 words | 4 minute read</p>
+</div>
+<div class="post">
+<p>Review</p>
+<h3><a href="/blog/Halo_My_Thoughts">Halo: My Thoughts</a></h3>
+<p><time datetime="2023-08-27">27 Aug, 2023</time> | 3235 words | 11 minute read</p>
+</div>
+<div class="post">
+<p>Tutorial</p>
+<h3><a href="/blog/LibreOffice_Setup">Ultimate LibreOffice Setup</a></h3>
+<p><time datetime="2023-06-16">16 Jul, 2023</time> | 1087 words | 4 minute read</p>
+</div>
+<div class="post">
+<p>Tutorial</p>
+<h3><a href="/blog/School_Internet">Connecting to Australian School Internet</a></h3>
+<p><time datetime="2022-10-12">12 Oct, 2022</time> | 539 words | 2 minute read</p>
+</div>
+<div class="post">
+<p>Meta</p>
+<h3><a href="/blog/Welcome">Welcome</a></h3>
+<p><time datetime="2022-09-12">12 Sep, 2022</time> | 559 words | 2 minute read</p>
+</div>
+</div>
+<script src="assets/scrollfade.js"></script>
+<script>
+    document.getElementById("searchAndFilter").style.display = 'flex';
+</script>
+<script>
+// Search posts
+    function search() {
+        var input = document.getElementById('blogsearch');
+        var filter = input.value.toUpperCase();
+        var ul = document.getElementById("blogposts");
+        var divs = ul.querySelectorAll('div');
+
+    divs.forEach(function(div) {
+        var a = div.querySelector("a");
+        var txtValue = a.textContent;
+        var displayStyle = (txtValue.toUpperCase().indexOf(filter) > -1) ? "" : "none";
+        div.style.display = displayStyle;
+    });
+    }
+</script>
+<script>
+// Filter posts
+    const tagSelect = document.getElementById('tag');
+    const blogPosts = document.getElementById('blogposts');
+
+    tagSelect.addEventListener('change', filterPosts);
+
+    function filterPosts() {
+        const selectedTag = tagSelect.value.toUpperCase();
+        const divs = blogPosts.querySelectorAll('div');
+        divs.forEach(div => {
+            const postInfo = div.textContent.trim().split('\n');
+            const postType = postInfo[0].toUpperCase();
+            const displayStyle = (selectedTag === 'ALL' || postType === selectedTag) ? "" : "none";
+            div.style.display = displayStyle;
+        });
+    }
+</script>
+
+
+    <footer>
+    	<a href="https://fedi.vale.rocks/vale">Fedi</a>
+    	<a href="https://github.com/DeclanChidlow">Github</a>
+    	<a href="/contact">Contact</a>
+    	<a href="/services">Services</a>
+    	<a href="/donate">Donate</a>
+    	</br>
+    	© Declan Chidlow | 2019 -
+    	<script>document.write(new Date().getFullYear())</script><noscript>Current</noscript>
+    </footer>
+    
+</div>
+</body>

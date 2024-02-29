@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Vale.Rocks Blog</title><link>https://vale.rocks</link><description>A collection of unhinged (yet not completely insane) ramblings.</description><generator>Adduce</generator><item><title>Welcome.md</title><description><![CDATA[<head>
+    <title>Welcome | Vale.Rocks</title>
+    <meta property="og:title" content="Welcome"/>
+    <meta name="description" content="A brief welcome to my website on the world wide web and what it's about." />
+    <meta property="og:description" content="The welcome to the website you've waited for." />
+    <meta property="article:published_time" content="2022-09-12" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Meta" />
+</head>
+
+<article>
+<header>
+	 Meta
+	<h1>
+		Welcome
+	</h1>
+	<ul>
+		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
+	    <li>559 words</li>
+		<li>2 minute read</li>
+	</ul>
+</header>
+
+Welcome to my brand new website!
+
+I've had a website for years but never quite gone all the way in configuring it. I've had bits and bobs written up, but never completely and to a standard I'm happy with. There have always been issues and sloppy code preventing me from maintaining and improving it. This time I've built the website using [Jeckyll](https://jekyllrb.com/) which allows markdown styling and far better scalability. I can dynamically create blog pages and share .html snippets across the site.
+
+I will never quite finish this site. It'll likely be a work in progress my entire life. I'll keep tweaking, editing, and breaking it as time goes on, but that is the way it should be. To quote [Wendy Carlos' website](https://www.wendycarlos.com/live.html):
+
+>"I'm happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a 'work in progress', for this would imply not much intrinsic value until that magic day it is completed. A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times -- get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept. While it is possible to 'finish' a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page."
+
+## September 2023 Update
+Since the initial publication of this article, the entire site has been completely rewritten. This was due to a number of reasons and gripes I had with Jeckyll, which led me to migrate to Adduce, a static site generator of my own creation. It allows for significantly more flexibility and the ability to achieve plenty of more intricate features.
+
+As part of this migration, I've completely overhauled the site's design, resulting in something I feel is much sleeker, more unique, and more visually appealing. It should result in something that enhances the user experience and looks much better on all sorts of devices, screens, and web renderers. I've also reimplemented a range of the slightly dubious features with numerous improvements, such as the alterations made to the comments system, powered by [Giscus](https://giscus.app). Additionally, I've refined and enhanced a lot of my old articles, as I've significantly improved and refined my writing since their original publication.
+
+Another thing I've done as part of this site rewrite is the hosting of many new services. They should help this platform become a much richer resource. If you want to check out what I'm hosting (and potentially planning to host) you can check it out on my [services page](/services).
+
+If you wish to see what the site looked like before these changes, you can take a peek on [Archive.org's Wayback Machine](https://web.archive.org/web/20230124205506/https://vale.rocks). I've put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I'd love to hear it. You can chuck it in the comments below.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>Halo_My_Thoughts.md</title><description><![CDATA[<head>
+    <title>Halo: My Thoughts | Vale.Rocks</title>
+    <meta property="og:title" content="Halo: My Thoughts"/>
+    <meta name="description" content="Explore my journey through the Halo series, from the iconic Combat Evolved to the latest release, Infinite. Discover my thoughts, experiences, and insights into each game's virtues." />
+    <meta property="og:description" content="My thoughts on one of the biggest names in gaming." />
+    <meta property="article:published_time" content="2023-08-27" />
+    <meta property="article:modified_time" content="2024-02-27" />
+    <meta property="article:section" content="Review" />
+    <meta property="og:image" content="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg"/>
+</head>
+
+<article>
+<header>
+	Review
+	<h1>
+		Halo: My Thoughts
+	</h1>
+	<ul>
+		<li><time datetime="2023-08-27">27 Aug, 2023</time></li>
+		<li>3235 words</li>
+		<li>11 minute read</li>
+	</ul>
+</header>
+
+If you had asked me at the start of this year my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game - from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC) with the exception of 5 and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
+
+I'll be avoiding spoilers for the most part. If I've got anything specific to mention about the campaign, then I'll place it in a "Campaign Specifics" drop down at the conclusion of the entry. I recommend reading those sections after playing through the games, for they won't make much sense otherwise. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games. They're worth it. I also just want to give thanks to my friend Sebastien, who advised I get into the series. It was a good call.
+
+## Halo: Combat Evolved
+Halo: Combat Evolved, often abbreviated to CE, is the first game in the series. It sets up what is to come and excels at it. The gunplay feels terrific, and the story flows with ease, painlessly holding audience attention.
+
+While the graphics have most definitely aged, I still recommend playing it without the anniversary graphical overhaul. The overhaul somewhat changed the tone of the game, especially the later missions such as The Library. Everything became a lot brighter, and some of the hit boxes don't line up quite as you'd expect. On the occasion that I attempted playing with the anniversary graphics, I consistently found disparities in level geometry eating my bullets.
+
+CE also introduces the iconic Halo theme. I don't quite know how to express my love for this theme; it's superb. It is super versatile and can be applied to just about any situation without feeling out of place. Every variant hits differently. Whether it's a slow piano version in an emotional moment or a fast, intense version in the heat of battle, it just works and immediately pulls the audience into the moment.
+
+If you're interested in dipping your toes into the series without fully submerging yourself, then start with CE. It has a nice ending that, while being open, supplies an easy and satisfying stopping point.
+
+*Also, the pistol in this game may as well be a sniper rifle. It's super overpowered.*
+
+<details>
+<summary>Campaign Specifics</summary>
+
+CE has a pretty strong campaign, with the exception of one level. That being "The Library". Not only must you deal with 343 Guilty Spark for the entirety of the level, but you must also battle through several repetitive, monotonous Flood-filled chambers.
+
+</details>
+
+## Halo 2
+Halo 2 looks at CE, throws out what didn't work, improves what did, and then cranks everything up to 11. It feels like a film you can play. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling creates an immersive experience that kept me firmly on the edge of my seat.
+
+Graphics have received a significant upgrade here, both the original graphics and the anniversary variant. I recommend trying both and settling on what you prefer. Personally, I played with anniversary graphics. The cutscenes with anniversary graphics are **really** marvellous. They look more real than reality itself.
+
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a character with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides. There is a shimmering, blueish light in the background which reflects off the helmet, adding to the futuristic aesthetic." />
+<figcaption>The High Prophet of Regret sitting on his throne in Halo 2: Anniversary graphics.</figcaption>
+</figure>
+
+While Halo 2 keeps most of its predecessor's music, it also sees a huge step up with the inclusion of some truly epic electric guitar. The guitar elevates the music to something somehow even more exhilarating than what CE accomplished.
+
+The gameplay sees several improvements, with dual wielding, vehicle hijacking, and the new playable character taking the game a monumental step forward. These enhancements somehow push the game into something even more dynamic and immersive than CE.
+
+The only things I can speak negatively about are the aimbot sniper jackals at higher difficulties and the ending. The game concludes with quite the cliff hanger. This is due to Bungie, more or less, creating the entire game in about 9 months and having to slice the game pretty much in half to push it out in time. That said, it laid a solid groundwork for the next game in the series, Halo 3.
+
+## Halo 3
+Halo 3 concludes the original trilogy and does a stellar job at it. It ties up the cliff hanger of 2 and concludes at a well-fitting point, providing appropriate closure.
+
+Halo 3 may not look all that great, at least compared to what the 360 would later achieve, but it has a lot of charm. The cutscenes of 3 are animated in a very specific way that leads them to feel almost cartoony in nature and provides a wonderful sense of energy. These cutscenes are my favourite of the series and my favourite parts of 3.
+
+I can't say it's my favourite game in the series from a gameplay perspective, as it didn't really add much to the experience other than deployable equipment and the gravity hammer. While I didn't find myself using the equipment all that often, I did love the gravity hammer. A super powerful melee weapon that sends enemies into the stratosphere with ease. The lethality and power paired with its animations make it feel weighty and menacing. The game also excelled at continuing the story and did an admirable job broadening the in-game universe.
+
+## Halo 3: ODST
+ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don't play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don't get the armour or strength of a Spartan, and this shows in the gameplay.
+
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue." />
+<figcaption>Halo 3: ODST's promotional art with text and overlays removed.</figcaption>
+</figure>
+
+This game is notably different to the rest of the series, and it's best experienced on a harder difficulty. ODST plays best when a slip up ends you in the most dire of situations. I had the most fun when, on recommendation of my friend Sebastien, I played on a harder difficulty on a dark, raging evening. You need to feel scared and take care because you aren't playing as the Master Chief. You're the marines that you've witnessed fall around you during the last 3 campaigns. You must take much more care as you play, although it would have been nice for the difference to perhaps been a tad more pronounced.
+
+The graphics in this game are a noticeable, albeit minor, step up from Halo 3. Everything from the textures to the lighting, just looks better. It's also bathed in that sepia tone that the seventh generation of game consoles are known for.
+
+The music of this game, much like the gameplay, is a sound departure from Halo tradition. Gone is the orchestral grandeur of previous games, and in is *smooth jazz* (blues is probably a better description, but smooth jazz is much more humorous). While it may seem peculiar, it's oddly fitting. The blues, jazz, and noir influences have a notable impact on the game's urban and mysterious setting. It relies on ambient sounds to create an atmosphere that captures the feeling of walking through dark, rain-soaked streets, perfectly constructing a sense of isolation and introspection.
+
+The story is told by very different means, with the player piecing it together through flashbacks, the environment, and objects littered throughout it. The story also differs in its order. Where previous campaigns were strictly linear, ODST allows the player to play the missions in the order they choose. While this is a lovely idea, the missions still lead into each other, and the player is forced to go out of their way to play them any differently than was intended.
+
+Overall though, this different style of storytelling creates a very unique experience that pairs elegantly with the style of gameplay ODST strives for. 
+
+## Halo Reach
+Reach is, in my opinion, the best game in the Halo series. I won't say too much here out of fear of spoiling it for someone, but it is so very good. In all honesty, I came very near to giving up on Reach towards the beginning. After having already played four games from the series, I was starting to tire. Following ODST, I kinda just wanted to jump back into the story as Master Chief and was chasing that high of the original trilogy. I'm so extremely glad I saw it through though for the game is stunning in every aspect.
+
+Gameplay wise it improved on the equipment mechanic from Halo 3 by incorporating Armour Abilities, a more varied, refined equipment system. It also improves on the weapons, with everything having a distinct and recognisable purpose. The enemy AIs also see a marked improvement and are considerably more fun to fight with troops, such as the Elites, moving a lot more erratically.
+
+The music of Reach is wonderful. Much like ODST, it strays away from the series' iconic Gregorian chant. Reach doesn't wander as far as ODST though as its vocals and strings remain very reminiscent of the theme found in the mainline games. What really makes Reach's soundtrack is the game's simple leitmotif, as heard at the start of [Long Night of Solace](https://www.youtube.com/watch?v=ecIY7-xnkuQ). The swelling strings instantly pull me into the melancholy feeling of Reach.
+
+Being released towards the end of the Xbox 360's lifespan, the graphics are a huge jump from anything seen in the Halo series previously. This is unfortunately the last game in the series worked on by Bungie, the series creators.
+
+<details>
+<summary>Campaign Specifics</summary>
+
+I touched on almost giving up on Reach. I felt this way for a number of reasons. The first level, Winter Contingency, was just kinda dull. It didn't do anything really interesting, and that set the tone for the first half of the game. Don't get me wrong, it wasn't terrible, just alright. Where it really picks up is with the level Long Night of Solace. The story starts to get deeper, the tone darkens, the stakes increase.
+
+Members of Noble team start dropping, and the game takes on a whole new feeling. A feeling of emptiness as the impending doom setup from the opening starts to reach you. As your team slowly dies and you're tasked with delivering Cortana to the Pillar of Autumn, it just clicks. The game simply falls into place.
+
+What really cemented my love for Reach was the epilogue. As you fight the losing battle against the Covenant on the planet's surface, there is nothing you can do but try to survive. You can't keep them off forever, and nothing you do will change the looming outcome. Your death is imminent, just as the very start of the game alluded to.
+
+</details>
+
+## Halo 4
+Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it's a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.
+
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar." />
+<figcaption>Screenshot of Halo 4's campaign.</figcaption>
+</figure>
+
+Prior to getting into Halo, my modern AAA gaming experience was very much limited. I was a bit young for shooters when the 360 was in its prime and mostly used the console for Kinect games and a bit of Minecraft. I was shocked to see just how well Halo 4 holds up. It's hard to comprehend that within one console generation we went from Halo 3, to Halo 4. It's not perfect by modern day standards, but it's still impressive and holds its own.
+
+This makes it all the more a shame that the art style lets it down. Styling is repetitive, with very little variation, and what does exist spits in the face of the Bungie games. Were it a unique title this would be a non issue, but to throw away what had been so well defined left me disappointed. It still looks good, but it could have been so much better.
+
+The new enemies, the Prometheans, also weren't my favourite to fight. Unlike the Convenant, they have no personality. Grunts chatter and show cowardice. Elites are big, burly, and lead the fight. Jackals hang back and attack from a distance. Each are unique and seem like they could exist outside the context of combat.
+
+All the Prometheans are emotionless husks that exist purely as things to shoot at. The weapons they drop, while incredibly well designed, are dull to use and run out of ammo frequently. This would be a minor issue if they weren't all bullet sponges that take a lifetime to kill. Unfortunately, you can't use the UNSC weapons you've grown familiar with either, given that there is next to no ammo for them around.
+
+I don't mind Halo 4; it's an alright game. It certainly isn't the best in the series, but it's far from being the worst. As you'll see, Halo 5 holds that title.
+
+<details>
+<summary>Campaign Specifics</summary>
+
+Story wasn't entirely Halo 4's strong suite. Exposition was heavy handed,and I failed to click with the Didact's story. That said, it wasn't all bad. Master Chief's character is handled with grace, and he is fleshed out an appropriate amount without impacting the ability for the player to project onto him. It's also done tastefully, with Cortana acting as a nice medium to develop him.
+
+On the topic of Cortana, the ending scene between her and the Chief is executed with nuance. It really couldn't have been pulled off better. It's impressive how well they managed to convey Chief's emotion to the player without removing his helmet. The Halo TV show should take notes.
+
+</details>
+
+## Halo 5: Guardians
+This game could be better titled *"Call of Duty: In Space"*. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
+
+It's almost like 343 Industries chucked away everything from Bungie's entries, took the worst bits from 4, reconstituted them, and mixed them in with the most soulless shooter they could find.
+
+It's bland slop without a hint of seasoning advertised behind the façade of a Halo entry.
+
+This game outright refused to save my progress. At one point, I walked through a railing that had no collision and plummeted to my death. This set me back an entire hour of gameplay. For the rest of the game, I played on easy. I completed the bulk of this game in one sitting. Not because I enjoyed it, but because I was worried that I'd have to replay a large chuck of the game I was coming to loathe for the second time if I stopped.
+
+One of the few positive things I can say about this game is that [the opening cutscene looks outstanding](https://www.youtube.com/watch?v=44oJi5w2Wjc).
+
+Seeing as this game is exclusively available on the Xbox, I wouldn't sweat it if you can't play it. Read a plot summary, watch the cutscenes, and move onto the next game in the series.
+
+<details>
+<summary>Campaign Specifics</summary>
+
+What the hell is the story of this game? It plays out like poorly written fanfiction one might find in a late night Archive of Our Own binge. If the rest of the issues this game boasts didn't condemn it enough, then the story is just another pile of dirt upon its coffin.
+
+I vehemently oppose the decision to bring back Cortana, especially after the fitting send off she received in the climax of 4. Speaking of Cortana, in this game she looks fine graphically, but her design is, in my opinion, a marked regression from 4, which had all but perfected her.
+
+</details>
+
+## Halo Infinite
+Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn't feasible on the hardware of the original Xbox.
+
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor." />
+<figcaption>The Master Chief in his Halo Infinite armour.</figcaption>
+</figure>
+
+The game plays exceptionally. The grappleshot is a wicked gameplay addition that allows Master Chief to swing and traverse the new open world map. Speaking of the new open world structure, its implementation is marvellous. It permits free movement without jeopardising the flow of the game or story.
+
+The entire experience looks top-notch. It's realistically realistic. It doesn't make every bit of metal so shiny it's overwhelming and instead looks more like a higher quality Halo 2. The somewhat cartoony qualities of the cutscenes are back from 3 and really shakes off the stiffness of the previous entry. Master Chief's armour also looks the best it ever has. It's got a new level of intricacy and realism unmatched by any of the other games.
+
+The only critique of its visuals that comes to mind is the lack of stylistic diversity. We're thrown into a huge open world, but the surface is almost exclusively the same generic forest, occasionally broken up by big hexagons, the void, and copy pasted Forerunner structures. It would have been lovely just to see a tad more variety, like we see in the multiplayer maps.
+
+This installment also marks the return of the legendary music. It's a triumphant return of the iconic theme as heard in CE. It once again adapts to context with ease and shows how much this game is pushing forward while staying true to the franchise's roots.
+
+The story repairs the mess of the previous two games and paves the way for the future. I really do look forward to seeing how they build on what was setup in Infinite and what the next installment brings to the table.
+
+---
+
+I hope that you gained something reading about my thoughts on Halo. I'd love to hear your thoughts and opinions on the franchise, so leave them in the comments.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>Everything_Is_Chrome.md</title><description><![CDATA[<head>
+    <title>Everything Is Chrome | Vale.Rocks</title>
+    <meta property="og:title" content="Everything Is Chrome"/>
+    <meta name="description" content="My look into the overaching dominance of Google Chrome and it's overwhelmingly negative impact on the web as we know it." />
+    <meta property="og:description" content="The web is under attack. Unsheathe your keyboards." />
+    <meta property="article:published_time" content="2023-12-11" />
+    <meta property="article:modified_time" content="2023-12-12" />
+    <meta property="article:section" content="Essay" />
+</head>
+
+<article>
+<header>
+	Essay
+	<h1>
+		Everything Is Chrome
+	</h1>
+	<ul>
+		<li><time datetime="2023-12-11">11 Dec, 2023</time></li>
+		<li>2256 words</li>
+		<li>8 minute read</li>
+	</ul>
+</header>
+
+The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.
+
+## The Early Days
+
+In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
+
+<figure class="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics." />
+<figcaption>Screenshot of Mosaic version 1.2.</figcaption>
+</figure>
+
+Mosaic was a marked shift. It was the first browser to display images in line with the rest of the content and was notably easier to setup. As with all things in this early stage of the web, it didn't stay stagnant for long. Towards the end of 1994, Mosaic began losing its dominance to a new player. Netscape.
+
+Inspired by the success of Mosaic, Netscape very quickly made a name for itself in the browser arena. It introduced showing content as it downloaded, which made it preferable for the average dial-up user who previously had to wait for the entire page to load before it would display. Its flagship browser, Netscape Navigator, was one of the first to support JavaScript.
+
+Around this time, Opera emerged. It entered the market with its own proprietary layout engine, titled Elektra.
+
+## The First Browser War
+
+Microsoft took notice of Netscape's success and saw the internet as a profitable market. They created the now infamous Internet Explorer. Initially considered inferior by many, Explorer began to slowly claw away some market share for itself, gradually chipping away at Navigator and its competitors.
+
+Netscape Navigator came in two editions: Gold and Standard. With the release of version 4, the Gold Edition (which was notable for having many extra functions that negatively impacted stability) was rebranded to Netscape Communicator. This name change was a shot in the foot that affected their brand recognition and, bundled with performance slower than Microsoft's new Internet Explorer 5, spelled their demise.
+
+By the time the new millennia rolled around, many new browsers had launched (such as [KDE's Konqueror](https://apps.kde.org/en-gb/konqueror/)), Netscape was on its deathbed, and Explorer was thriving, with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn't all sunshine and rainbows for Microsoft's browser, though. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.
+
+This came to a head in 2001 with the ominous sounding United States of America vs Microsoft Corporation. It concluded with Microsoft drafting a settlement proposal that permitted PC manufacturers to use non-Microsoft software.
+
+## The Second Browser War
+
+Shortly after this lawsuit, in 2003, Apple released their own browser, Safari, which quickly gained popularity on their Macs, although they initially failed to release it elsewhere. Safari used the WebKit engine, a fork of the KHTML and KJS libraries from KDE's browser, Konqueror. Also in 2003, Opera 7 released with a large rewrite and a new layout engine, titled Presto.
+
+By the time 2004 rolled around, a product concocted by a small group formed by Netscape in 1998 had materialised. The product became Firefox, and the group became the Mozilla Foundation. The same year, rumours began swirling that Google was building a browser of its own.
+
+Firefox was free, leaving little barrier to entry, and people were more then interested in leaving Internet Explorer, which had gained a reputation for poor security and questionable support for web standards. Firefox also used a unique rendering engine called Gecko and was open source.
+
+Upon release, Firefox immediately challenged Explorer's dominance. Within a mere nine months, the browser had amassed in excess of 60 million downloads. It continued to grow until it's peak in 2009, with just over 30% market share.
+
+Apple realised that they were limiting themselves by only including their browser on their own OS. As such, they released a version for Microsoft Windows. Unfortunately, this couldn't have come at a worse time, as the next year Google finally entered the browser market and released Chrome.
+
+## The Rise of Chrome
+
+Despite initial reluctance from Google CEO Eric Schmidt to enter the browser wars, he eventually relented, and in 2008, Google Chrome released. Using components from Firefox and Apple's WebKit, it was built upon Chromium, an open source base also developed by Google. The release was marked with [a short comic by Scott McCloud](https://www.google.com/googlebooks/chrome/index.html).
+
+It didn't see success as instant as Firefox, but instead slowly crept up, to the point that by 2012 it was beating all other major browsers. From that point on, it only continued to grow and has taken complete dominance.
+
+In 2012, Safari was discontinued for Windows, where its market share had been decimated. However, it continued to remain a popular choice on Apple operating systems.
+
+The following year, Opera announced its intention to switch from Presto to WebKit, although around the same time, Google announced they would be forking WebKit, to which they were already the largest contributor, to create Blink. Following this, Opera revised their plans and moved to Blink.
+
+With 2015 came Microsoft's attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own proprietary EdgeHTML and open source Chakra engines. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.
+
+Unfortunately for Microsoft, Edge wasn't much liked upon release. While praised for performance, it was slandered for its lack of features and poor design choices, among other issues. Microsoft saw this and announced in 2018 that it would rebuild Edge as a Chromium based browser. This move was completed in 2020 and was seen much more favourably.
+
+This left the web with three major engines: Google's Blink, Mozilla's Gecko, and Apple's WebKit. Almost every browser currently in existence relies on one of these three engines.
+
+Apple's WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it's preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a small amount of use in an assortment of other browsers, although it's very minimal.
+
+Mozilla's Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, such as the privacy oriented Tor Browser, but very little beyond that.
+
+Google's Blink sees the most use by far. Just about any browser that you might use is using Blink. This is what this article has been building up to, and where the issues lies. Almost everything uses Blink.
+
+Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink.
+
+<p id="showChromium" style="display:none;">
+When you loaded this page, I ran a small amount of JavaScript to check if your browser is Chromium based. If my check was accurate, the web browser you are currently reading this in is Chromium based.
+</p>
+
+<script>
+    var isChromium = !!window.chrome;
+
+    if (isChromium) {
+      document.getElementById("showChromium").style.display = 'block';
+    }
+</script>
+
+## The Problem with Chrome
+
+The list above is just the tip of the iceberg; I could continue to list many more. There is no choice in the browser market. It's all just Blink, and Blink is Chrome, and Chrome is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have complete control over the web.
+
+This simply isn't acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.
+
+<figure class="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage." />
+<figcaption>Screenshot of Google Chrome version 96.</figcaption>
+</figure>
+
+If you've been reading attentively, you may remember the comic I mentioned that was released alongside Chrome. Well, in 2022, [a parody released](https://contrachrome.com) with a few changes. It outlines a few of the things that Google is doing within Chrome that have far reaching implications.
+
+First of all, the privacy implications. There is a lot to go into there, such as the fact that Google tracks just about everything you do and collects it to build a profile on you, but I don't think I've got much to say that isn't said better by the comic. I will note that almost everything you do in Chromium is tracked, and there is no true way to disable it.
+
+Something I do have more to add to is something touched on briefly in the comic. The advent of Manifest v3 and its implications.
+
+### Manifest v3
+
+Google has an extension platform with their Web Store. It allows developers to post extensions that allow users to increase the capabilities of their browser. There are many excellent extensions that come with this, but perhaps the most useful are ad blockers.
+
+Ad blockers completely remove advertisements from the document flow, significantly improving the user experience. Alphabet Inc, the company behind Google, makes most of their money through these ads and, as such, isn't much a fan of ad blockers.
+
+To combat this, they're implementing Manifest v3. In the context of a browser extension, a manifest file determines things such as what permissions an extension needs to run. Version 3 will restrict the ability of tools that manipulate network requests.
+
+They've been planning on rolling it out but seem to keep postponing it whenever public outrage grows too much. As of the time of writing, they intend to release it in June 2024 and depreciate previous versions by June 2025.
+
+It isn't just ad blockers that will be impacted by this change. Many privacy extensions, which rely on filtering out tracking requests, will also be negatively impacted.
+
+This change will roll out to all major browsers because they are Chromium based and want to maintain compatibility, and it will benefit Google the most out of any party.
+
+### Accelerated Mobile Pages
+
+Accelerated Mobile Pages (AMP) is another excellent example of the problems with Google having power. AMP is a framework that aims to improve the performance of web content, particularly on mobile. It improves speed by restricting certain elements and optimising content delivery.
+
+While these are great intentions, they've seen much good criticism. One large criticism is that it gives Google a certain amount of control over the way content is displayed on the web, which influences how things are built and monetized. Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content.
+
+I could continue with further examples, but I think the point is made, and I expect you've gathered the picture. The web is dominated by Chrome, and something must be done about it.
+
+### Web Environment Integrity
+
+In April of 2023, some Google engineers [created a GitHub repository](https://github.com/RupertBenWiser/Web-Environment-Integrity) explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled "Android WebView Media Integrity API" was swiftly proposed and looks to enter testing in early 2024.
+
+You may be wondering exactly what it is. WEI is more or less a way to verify that a site is 'genuine'. It can be best described as Digital Rights Management (DRM) for the web and, wouldn't you know, could've also impacted ad blockers if they were found to be altering the web environment's integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered 'untrusted', and therefore severely limited.
+
+## The Death of Firefox Support
+
+As Bryce Wray illustrates in his article [Firefox on the Brink?](https://www.brycewray.com/posts/2023/11/firefox-brink/) the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.
+
+## Taking Action
+
+You're likely wondering what you can do. The answer is simple: use another browser. As I've said, most browsers out there are based on Chromium, so I would suggest [Firefox](https://www.mozilla.org/firefox). It's free, it's open source, and Mozilla has consistently shown a commitment to both the user and the web. If you're super privacy conscious and need even further control of your data or live in a country prone to censorship, then you might consider [the Tor Browser](https://www.torproject.org).
+
+Share this article around and promote its message. Preserving an open web is crucial. Failure to achieve this will lead to disaster, and we can't let it happen.
+
+</article>
+
+<details>
+<summary>Sources</summary>
+
+- [History of Web Browser Engines from 1990 until today](https://eylenburg.github.io/browser_engines.htm) | Accessed: 10/12/2023
+- [Tim Berners-Lee: WorldWideWeb, the first Web client](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) | Accessed: 10/12/2023
+- [NCSA Mosaic™ - NCSA](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic) | Accessed: 10/12/2023
+- [Browser Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/browser-market-share) | Accessed: 10/12/2023
+- [Did the browser wars finally end in 2014? |ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014) | Accessed 10/12/2023
+- [Google Chrome](https://www.google.com/googlebooks/chrome/index.html) | Accessed: 10/12/2023
+- [Contra Chrome - a webcomic - How Google's browser became a threat to privacy and democracy](https://contrachrome.com) | Accessed: 10/12/2023
+- [Web Environment Integrity: What's Going On?](https://openwebdefenders.org) | Accessed: 12/12/2023
+- [Firefox on the brink? | BryceWray.com](https://www.brycewray.com/posts/2023/11/firefox-brink) | Accessed: 10/12/2023
+- [Designing for different browsers and devices -  Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
+- [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers) | Accessed: 10/12/2023
+
+</details>
+
+<span class="giscus"></span>
+]]></description></item><item><title>LibreOffice_Setup.md</title><description><![CDATA[<head>
+    <title>The Ultimate LibreOffice Setup | Vale.Rocks</title>
+    <meta property="og:title" content="The Ultimate LibreOffice Setup"/>
+    <meta name="description" content="My comprehensive tutorial aimed at optimizing LibreOffice to match the functionality of Microsoft Office. Elevate your document editing experience with tips, tools, and enhancements for seamless and efficient productivity." />
+    <meta property="og:description" content="A guide to sorting the office suite solution." />
+    <meta property="article:published_time" content="2023-06-16" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Tutorial" />
+</head>
+
+<article>
+<header>
+	Tutorial
+	<h1>
+		The Ultimate LibreOffice Setup
+	</h1>
+	<ul>
+		<li><time datetime="2023-06-16">16 Jul, 2023</time></li>
+		<li>1087 words</li>
+		<li>4 minute read</li>
+	</ul>
+</header>
+
+Document editing is a horrible business that I wouldn't wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can't be combated by even the most confident keyboard cowboys.
+
+I've spent a lot of time trying to wrangle my word editing and perfect my proofreading performance by configuring and tweaking my LibreOffice setup to perfection. First thing to look at is why I chose LibreOffice over any other document suite.
+
+
+## Best Suite
+I feel it'd be wrong to write this article without at least mentioning the many document editing suites available and how I came to decide on LibreOffice. I've highlighted what I feel are reasonable choices that are under support. This means I've excluded suites such as KOffice, AbiWord, and OpenOffice.
+
+[Microsoft Office](https://www.office.com) is obviously the biggest and arguably the best. It really needs no introduction; everyone uses Microsoft Office, and it has near endless features. It's backed by a huge corporation and works pretty well. The caveat is that it's locked behind an expensive subscription service and has telemetry built in. It's also not available on Linux, which completely writes it off for me.
+
+[Calligra](https://calligra.org) was another I looked at. It seemed rather nice, but is lacking many features that I would expect and was designed for KDE, a desktop environment I don't use. I do quite like it for mobile document editing though and I recommend it for Android tablet users.
+
+[iWork](https://www.apple.com/iwork) is Apple's offering. I used it on my iPad 4, circa 2015. It's alright. I don't own a MacBook.
+
+[OnlyOffice](https://www.onlyoffice.com) is a pretty fully featured option, but it gave me a lot of popups and is web based, rather than native, which affects integration with my computer. It does have very nice support for Microsoft Office's formatting out of the box, though.
+
+The best office suite I've found has to be [LibreOffice](https://www.libreoffice.org). It integrates well with my computer, is fast, and is pretty fully featured. It's seen good support and shows little indication of slowing down. For that reason, it's my number one choice.
+
+## Installation
+LibreOffice comes in two main versions: still and fresh. Still, is a stable version that doesn't get very frequent updates and lags behind in features, so I recommend Fresh. It has modern features and is much more stable than they give it credit for. On Arch Linux (my Linux distro of choice), it can be installed with `libreoffice-fresh`.
+
+## General Setup
+The Arch Wiki has a wonderful guide, as always, on how to setup LibreOffice for general use. You can read it [here](https://wiki.archlinux.org/title/LibreOffice) and I very much recommend following it before the rest of my setup. It is Arch specific, but most can be translated for your distro. If you don't use Linux, then you can skip this section and move directly onto the next step. A few things I'd like to point out for my ultimate setup is that I use GTK for theming, disable the startup logo, and install texmaths for LaTeX support as outlined in the guide. I don't install the fonts as outlined in the Arch Wiki as I do it a different way for improved Microsoft Office compatibility.
+
+## Theming
+Out of the box, LibreOffice isn't perfect. It looks alright but some work is needed. If, like me, you chose to use GTK for theming, then you can use [Gradience](https://gradienceteam.github.io) to get it looking just how you want. That said, do read [this](https://stopthemingmy.app) before using it. If you don't use GTK (or use something other then Linux) then you can ignore that and just change the icons. For this, you can navigate to `Tools > Options` in the menubar of any of the applications. In the popup window, navigate to `LibreOffice > View` and change the icon theme. I recommend the SVG version of Sukapura. You can choose the light or dark variant, depending on your theme.
+
+## Improving Microsoft Office Compatibility
+<span class="alert note">
+If you're wondering, then yes, this part of the article has been around before. It had some issues and was rather narrow in scope, so I've since rewritten it. You can read the original from December 2022 on the Internet Archive <a href="https://web.archive.org/web/20230117143302/https://vale.rocks/blog/tutorials/LibreOffice_Setup">here</a>.
+</span>
+
+If you're coming from Microsoft Office or have to interact with Microsoft's formats, then you may struggle with adapting your workflow or dealing with Office files. You should note that applications in LibreOffice have different names to those in MS Office. Word is Writer, PowerPoint is Impress, and Excel is Calc. To follow this next section of the guide, open up one of the applications within the suite, such as Writer.
+
+### Changing the Ribbon
+By default, the ribbon (that collection of icons at the top of the program) in LibreOffice is more reminiscent of MS Office 9x than MS Office 365. There is, fortunately, an easy fix. In the top menubar, click `View > User Interface`. In the popup window that appears, select 'Tabbed' and then 'Apply to all'. This ensures that it will apply not just to the current program you're using but to the entire suite.
+
+### Installing Fonts
+Microsoft have a lot of their own fonts. You can skip this section if you use Windows, but you'll likely want to acquire them if you use Linux, as they don't come pre-packaged. Luckily for us, they can generally be installed with relative ease. If using Arch Linux, then there is a very useful Arch Wiki article on it [here](https://wiki.archlinux.org/title/Microsoft_fonts). If you aren't using Arch, then I wish you the best of luck.
+
+### Removing Format Warnings
+LibreOffice often screams at you if you use MS Office file types. You can hide these warnings when saving files by navigating to the `Tools > Options` (if you can't find `Tools` then try pressing `alt`). In the popup, you can then navigate to `Load/Save > General` and then untick 'Warn when not saving in ODF or default format'.
+
+### Improving Embeds
+Many embedded objects from MS Office don't have perfect compatibility by default; to fix this, we can navigate to the `Tools > Options > Load/Save > Microsoft Office` and ensure all the boxes in the Embedded Objects section are ticked.
+
+### Reorganising Forms and Adding Trailing Spaces
+Navigate to `Tools > Options > LibreOffice Writer > Compatibility` and ensure `Reorganise Form menu for Microsoft compatibility` and `Word-compatible trailing blanks` are ticked. Once done, click `Use as Default` and then `Yes` in the subsequent popup box.
+
+---
+
+Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>Cybersecurity_Superstition.md</title><description><![CDATA[<head>
+    <title>Cybersecurity Superstition | Vale.Rocks</title>
+    <meta property="og:title" content="Cybersecurity Superstition"/>
+    <meta name="description" content="A look into some cybersecurity myths and misinformation. Explore the best practices regarding passwords, multifactor authentication, social engineering tactics, antiviruses, and much more." />
+    <meta property="og:description" content="It's time to cut through the cyber clutter." />
+    <meta property="article:published_time" content="2024-02-28" />
+    <meta property="article:modified_time" content="2024-02-28" />
+    <meta property="article:section" content="Essay" />
+</head>
+
+<article>
+<header>
+	Essay
+	<h1>
+		Cybersecurity Superstition
+	</h1>
+	<ul>
+		<li><time datetime="2024-02-28">28 Feb, 2024</time></li>
+		<li>1586 words</li>
+		<li>5 minute read</li>
+	</ul>
+</header>
+
+Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the 'hacker' is wearing a Guy Fawkes mask. However, this depiction couldn't be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.
+
+Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I've decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.
+
+## Passwords
+
+Almost everyone uses passwords. They're the simplest solution for restricting access to something, and they do their job well. Unfortunately, years of bad advice has left people creating passwords that are confusing and insecure. I want to clear this up and identify some best practices.
+
+Something to understand is that we generally calculate the strength of passwords using something called entropy. Entropy refers to how unpredictable something is - in this case, a password. We measure entropy in bits. The more bits of entropy a password has, the more guesses are needed to get it right.
+
+A short password is easy to guess, but as you might imagine, it becomes harder to guess the longer it becomes. The act of guessing passwords through this guess work is called bruteforcing.
+
+Bruteforcing is when someone tries _lots_ of different passwords in rapid succession to find the one that works. A bit like when you get locked out of your phone and try lots of different variations in an attempt to rediscover your password.
+
+Most people know not to use names or common phrases in their passwords. Through years of conditioning, we've taught people that they should construct confusing passwords, substituting letters for numbers and forcing in random characters as they please. The embedded XKCD comic outlines the issue.
+
+<figure class="right">
+<img src="https://imgs.xkcd.com/comics/password_strength.png" alt="XKCD comic strip comparing password strength and memorability, showing a complicated password and a simple passphrase, highlighting the entropy and guessability of each, and a stick figure finding the passphrase easier to remember." />
+<figcaption>Relevant XKCD comic.</figcaption>
+</figure>
+
+These confusing special character infused passwords don't improve security; they harm it. They are hard for humans and easy for computers - the worst of both worlds. I previously mentioned entropy and how we can use it to calculate the strength of a password. Well, it isn't a perfect measure.
+
+While bruteforcing may have started by simply crawling through a list of predefined common passwords, they later moved on to using complex algorithms. zxcvbn is a very useful tool that takes these algorithms into account to give an accurate idea of what more modern bruteforcing attacks are capable of.
+
+Bitwarder is a free and open source password manager and [supplies a free tool to check the strength of a password against zxcvbn](https://bitwarden.com/password-strength). It's worth giving it a go with a range of different passwords, just to see what is actually strong.
+
+You should quickly come to realise that passphrases are much more effective than passwords, both in terms of difficulty for computers to crack and ability for humans to memorise.
+
+Many people get this far and then make a fatal mistake. They reuse their passwords across multiple sites or store them insecurely. In the modern age, you should be using a password manager. Something like [Bitwarden](https://bitwarden.com) or [Proton Pass](https://proton.me/pass) allows you to generate secure passwords, store them, and auto fill them on the login page. It's easy to use and provides much needed security. If you take one thing out of this article, make it this.
+
+### Periodic Password Changes
+
+While I'm on the topic of passwords, I need to do a brief rant on mandatory password updates. Many organisations require that users periodically change their passwords. This is a terrible idea. [Even Microsoft is against it](https://learn.microsoft.com/en-gb/archive/blogs/secguide/security-baseline-final-for-windows-10-v1903-and-windows-server-v1903).
+
+It prevents users from memorising their passwords, and prompts them to create simpler, easier to remember passwords. It also results in security fatigue, where users become indifferent or careless about security measures in general, which undermines security measures.
+
+Moreover, it also introduces unnecessary risk when users are forced to change their passwords, potentially leading to weaker passwords being chosen and opens up opportunities for phishing attacks.
+
+There really is no point in implementing these forced changes, especially in the modern age. It does far more harm than good.
+
+## Multifactor Authentication
+
+Some people think that a secure password is enough and that it'll ensure their security, but passwords should only ever be used alongside another form of authentication. We call this Multifactor Authentication (MFA). Passwords aren't perfect, and shouldn't be the only point of access. It's a single point of failure that can do undue and preventable damage.
+
+Timed One Time Passwords (TOTP) are excellent and are one of the best options. The user receives a unique and temporary code that they can use. It's easy for the user and extremely secure.
+
+Unfortunately, one of the most common MFA solutions is SMS based authentication. It's hugely insecure, and most advisories urge against its usage. Exploitation of the system is all too common, and I have an upcoming article discussing the inherent issues with SMS as a whole.
+
+Another good option is hardware authentication, such as a Yubikey. This works as you might expect a car or house key to function. You plug it in your computer and it authenticates you. Unfortunately, this also introduces issues of its own. One of these issues is the potential for loss or theft of the physical device. The effect is more or less the same as what would happen should keys of any other nature be lost or stolen.
+
+## Social Engineering
+
+The fact that focus is often on concepts such as making secure passwords, encryption, and obscurity is detrimental to awareness of the real threat. Social engineering. It is far easier for a malicious actor to put together a simple attack that exploits human nature than it is to sink time into finding software vulnerabilities to exploit.
+
+I think the best example I can give is this scene from the 1995 film Hackers. The movie as a whole has aged and definitely has its flaws, but I think this perfectly encapsulates how social engineering works.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_G3NT91AWUE?si=APFy9BFpmboUARbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Just like that, Johnny Lee Miller's character has access to the TV network. Something akin to this is the greatest and most common threat.
+
+The scene highlights all the hallmarks of a good social engineering attack. A convincing story, a sense of urgency, and an overwhelming of the victim. They all come together to help the hacker achieve what they want without the need for any messy script writing.
+
+Social engineering is the most common vector of attack, not traditional 'hacking' as the media might portray. While it's important to have at least a basic security setup, that shouldn't be your sole focus. Educate yourself on common social engineering tactics, notably phishing attacks, and maintain a vigilant stance online. Approach all interactions with a healthy dose of scepticism.
+
+## Antiviruses
+
+Something I despise and am long overdue to talk about is the fearmongering of antivirus companies. In the modern age, the average consumer does not need to go out of their way to install an antivirus on their device. Despite this, companies will use scare tactics to extort money out of users who know no better.
+
+Most laptops and desktop computers run Windows, which is a malware mess. That said, I still don't recommend going out of your way to install an antivirus, as the Microsoft Defender, which is directly integrated into Windows, is remarkably capable. Just open it up and check that it's working at full capacity, and ensure you use Windows Update regularly to keep the definitions at the latest versions.
+
+Unlike computers, phones operate in a closed ecosystem. Apps are screened for malicious content before being added to app stores. That makes it hard to install malware in the first place. Apps are also usually sandboxed, which stops them from interacting with the system at large and prevents anything that may be malicious from doing any real damage.
+
+This doesn't mean it's impossible for phones to be hacked, but it does mean that it's a lot harder for it to happen unless you do things outside the norm. It's still possible to encounter malware on phones, but an antivirus really isn't necessary and will likely do more harm than good.
+
+While it's not worth going out of your way to install an antivirus, it is worth installing an ad blocker. I'd recommend [uBlock Origin](https://ublockorigin.com), which is free, open source, and supported on most of the major browsers. Adblockers don't just block ads; they also block a lot of phishing material and malware links. Even America's FBI [recommend using an adblocker](https://www.ic3.gov/Media/Y2022/PSA221221).
+
+## VPNs
+
+In the same vein as antiviruses, many Virtual Private Networks (VPNs) employ the same scare tactics and fearmongering regarding issues that haven't been relevant for years.
+
+Honestly, there isn't much I can say that wouldn't be covered better by simply watching Tom Scott's excellent video, ["This Video Is Sponsored By ███ VPN"](https://www.youtube.com/watch?v=WVDQEoe6ZWY).
+
+---
+
+Cybersecurity is important, and it's worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I'd love to hear them in the comments below.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>Making_Windows_Usable.md</title><description><![CDATA[<head>
+    <title>Making Windows "Usable" | Vale.Rocks</title>
+    <meta property="og:title" content='Making Windows "Usable"' />
+    <meta name="description" content="My comprehensive tutorial dedicated to optimising and customising Windows 11 for a somewhat usable user experience. I detail beneficial programs, tips, and essential tweaks to setup Windows 11 as a more or less servicable computer environment, somewhat tailored to your preferences." />
+    <meta property="og:description" content="At least we're past Windows ME..." />
+    <meta property="article:published_time" content="2023-10-31" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Tutorial" />
+</head>
+
+<article>
+<header>
+	Tutorial
+	<h1>
+		Making Windows "Usable"
+	</h1>
+	<ul>
+		<li><time datetime="2023-10-31">31 Oct, 2023</time></li>
+		<li>1150 words</li>
+		<li>4 minute read</li>
+	</ul>
+</header>
+
+I'm not quiet about my intense distaste for Microsoft's feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it's not always possible to do so.
+
+This year, I found myself doing a Certificate IV in Graphic Design that required Adobe's Creative Cloud. As I'm sure you know, this software only runs on MacOS and Windows, which lead to quite the conundrum. Not willing to give up my beloved Arch Linux, I needed a way to get these programs running on my computer.
+
+Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn't the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.
+
+## Installation
+While it may seem sensible to just jump straight into installation, there is a much better way to do it. You'll first need to [grab an ISO from Microsoft's website](https://www.microsoft.com/software-download/windows11). If you are wondering why I recommend Windows 11 over 10, it's for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.
+
+<span class="alert warning">
+I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Their stripped back nature often leads to the breakage of certain features or incompatibility with programs. The closed source nature of most ISOs also leads to the potential for bundled malware. There are many ways to debloat Windows without causing undue harm that will be detailed further along in this article.
+</span>
+
+Writing the ISO once you've got it is pretty easy. If you have a Windows install on hand that you can use to create the installation media, then I recommend writing the ISO with [Rufus](https://rufus.ie). If using another OS to write the media, then use whatever you're most used to.
+
+Once you've booted to the installer, I recommend setting the 'Time and Currency Format' to 'English (World)'. This will stop Windows from installing all of its default bloat, but will also break the Microsoft Store. Don't fret if you like the Microsoft Store, as this guide will tell you how to reenable it later. I then suggest selecting 'Windows 11 Pro' for the version.
+
+Once you've entered the Out of Box Experience (OOBE), there may be a decently long loading screen before you are greeted by a region error. Click 'skip' and then continue as you usually would.
+
+When it asks how you would like the device setup, select 'Set up for Work or School'. On the following screen, select 'Sign-in options' and then 'Domain join instead' which will allow you to create an offline account. Then continue on with setup and disable any telemetry toggles as you go. Once finished, your computer will boot into the desktop.
+
+If you want to use the Microsoft Store, then you will need to change your region. This can be done by opening settings and navigating to 'Time & language > Language & region'. Set the 'Country or Region' to your own.
+
+## Configuration
+
+In my opinion, Microsoft made some truly baffling decisions in Windows 11, so I'll run you through how to unbaffle your install with a couple of handy tools. After all, nothing says 'user-friendly' like needing a Swiss army knife to push a button.
+
+The first thing to do is figure out how you want to install applications. Most people will simply search the web for executables to install, but that is a rather insecure way to go about it. It's all too easy to click the wrong link and end up with a trojan. For that reason, I recommend using a command line tool such as [Scoop](https://scoop.sh) or [Chocolatey](https://chocolatey.org), especially if you're coming from Linux. Otherwise, you can use the Microsoft Store (if you reenabled it above) or just take the risk of downloading installers from the web.
+
+The second thing that I recommend fixing is the start menu. For this, I chose [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/wiki) which brings back Windows 10's start menu with added customisability and adds the ability to change flyouts and other such things. It's very good.
+
+I also recommend installing using [Microsoft's PowerToys](https://github.com/microsoft/PowerToys). The full functionality is outside the scope of this article, but I use it to set my keyboard layout, rename files, organise my window layouts, resize images, and highlight my cursor for demonstrations.
+
+If you are a developer, then you can't go wrong with [DevToys](https://devtoys.app) which is an excellent little tool that you will constantly find yourself using. When developing, it can also prove useful to add things to the File Explorer context menu. [Shell](https://nilesoft.org) is a very good tool that does just that.
+
+It is also useful to have a good terminal on hand. Microsoft's [Windows Terminal](https://github.com/microsoft/terminal) is surprisingly good for what it is. It combines Powershell and Command Prompt, along with any Windows Subsystem for Linux compatibility layers you may have, into a cohesive, modern, and sleek interface. It's a genuinely good terminal, something I didn't expect from Microsoft when I first heard of it.
+
+If you are sick of Windows' bloat, then you can try a debloater script such as [Win Debloat Tools](https://github.com/LeDragoX/Win-Debloat-Tools). Keep in mind debloat scripts can also cause harm by removing dependencies of other programs, so I recommend proceeding with the utmost caution.
+
+A few other assorted tools and programs that work on Windows and that I can recommend include:
+- [NanaZip](https://github.com/M2Team/NanaZip) - a decent archive manager based on 7-Zip.
+- [Firefox](https://www.mozilla.org/en-US/firefox/browsers) - an excellent browser.
+- [VLC](https://www.videolan.org/vlc) - a FOSS media player that plays just about anything.
+- [Thunderbird](https://www.thunderbird.net) - a very nice email client.
+- [LibreOffice](https://www.libreoffice.org) - an excellent office suite. Check out [my guide on improving it](LibreOffice_Setup).
+
+Now that you have your system more or less configured, I thought it may be worth touching on antivirus programs. There are plenty out there, and each is as user hostile as the last. For that reason, I recommend sticking with Windows' built in Microsoft Defender. It is pretty fast, generally stays out of your way, and won't harass you for your lunch money. It may be lacking in some features compared to paid options, but it is widely used and very well supported. It's just about the best option around.
+
+---
+
+And there you have it, a few tweaks, and Windows went from 'Why do you insist on torturing me?' to 'I suppose you can stay'. I hope you found this little guide useful. Is there anything specific you do for your installs or something that I missed? If so, leave it in the comments!
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>School_Internet.md</title><description><![CDATA[<head>
+    <title>Connecting to Australian Public School Internet | Vale.Rocks</title>
+    <meta property="og:title" content="Connecting to Australian Public School Internet"/>
+    <meta name="description" content="The Education Department of Australia does some silly stuff with their network quite frequently. This tutorial shows you how to get up and running in no time at all." />
+    <meta property="og:description" content="The guide for when someone breaks the internet. Again..." />
+    <meta property="article:published_time" content="2022-10-12" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Tutorial" />
+</head>
+
+<article>
+<header>
+	 Tutorial
+	<h1>
+		Connecting to Australian Public School Internet
+	</h1>
+	<ul>
+		<li><time datetime="2022-10-12">12 Oct, 2022</time></li>
+	    <li>539 words</li>
+		<li>2 minute read</li>
+	</ul>
+</header>
+
+Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.
+
+This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.
+
+## Step 1
+The first step in getting onto the network is to find out if your password has expired. In most cases, your Department of Education login (the same one you use to access Connect and/or Seqta) will expire every 90 days (about 3 months).
+
+If you expect that your password has expired, you will have to reset it.
+
+If you have an internet connection, then the easiest way to reset it is through the [DoE Portal](https://apps.det.wa.edu.au/dam/portal/changePassPage.do).
+
+You could also go to [Connect](https://connect.det.wa.edu.au) and login. Once logged in, you can navigate to 'My Connect' and change your password to something new and secure.
+
+In the event that you don't have an internet connection, you can request that your teacher or network admin changes your password.
+
+## Step 2
+Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer's operating system.
+
+<span class="alert warning">
+Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
+</span>
+
+### Windows
+1. If using Windows, you must first connect to the school network. The certificates are only available on the internal network and not on non-school Wi-Fi.
+2. Once connected, you must download these certificates:
+* [Education-CA.cer](https://certs.education.wa.edu.au/education-pki/cert/Education-CA.cer)
+* [Education-SubCA1.cer](https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA1.cer)
+* [Education-SubCA2.cer](https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA2.cer)
+3. On your keyboard, hit the 'Windows' key and R key simultaneously. In the box that appears, type `mmc.exe`.
+4. In the application that opens, press the Ctrl key and the M key simultaneously.
+5. In the left panel, double click 'Certificates'. In the pop-up that opens, select 'Computer account' and then click next.
+6. Select 'Local computer' and then click Finish. You should be directed back to the main page of the application.
+7. In the left panel, you should click the small arrow next to 'Certificates (Local Computer)' to expand the category. Then click the small arrow next to 'Trusted Root Certification Authorities'.
+8. You should now see the Certificates folder on the left panel. Right click the folder to bring up the context menu. In the menu, select All Tasks and then Import.
+9. In the wizard that should have appeared, select 'Local Machine' and then 'Next'.
+10. On the next page, click 'Browse...' and locate your certificates. Select one of them, click open, and then click 'Next'.
+11. In the next pop-up, select 'Trusted Root Certification Authorities' and then click 'OK'.
+12. You should now be presented with a page showing the settings you've chosen in this guide. The 'Certificate Store Selected by User' should be 'Trusted Root Certification Authorities' and the 'Content' should be 'Certificate'.
+
+### Linux
+If using Linux, you can use the [DoE-Network-Kit-Linux](https://github.com/toastxc/DoE-Network-Kit-Linux).
+
+## Step 3
+You can now log onto your school's internet, and it should work. You can login [here](http://sig.site.internal:1000/login?).
+
+---
+
+Had any issues with the process? Leave a comment down below, and I'll try my best to assist.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>A_Year_With_The_Framework_Laptop_13.md</title><description><![CDATA[<head>
+    <title>A Year With The Framework Laptop 13 | Vale.Rocks</title>
+    <meta property="og:title" content="A Year With The Framework Laptop 13"/>
+    <meta name="description" content="My review of the Framework Laptop 13. I cover the assembly, setup, value, build, support, community, and much more." />
+    <meta property="og:description" content="Hold onto your trackpads, I'm reviewing the Framework." />
+    <meta property="article:published_time" content="2023-12-01" />
+    <meta property="article:modified_time" content="2024-02-04" />
+    <meta property="article:section" content="Review" />
+</head>
+
+<article>
+<header>
+	Review
+	<h1>
+		A Year With The Framework Laptop 13
+	</h1>
+	<ul>
+		<li><time datetime="2023-12-01">01 Dec, 2023</time></li>
+		<li>1495 words</li>
+		<li>5 minute read</li>
+	</ul>
+</header>
+
+Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.
+
+I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:
+- CPU: 12th Gen Intel(R) Core(TM) i5-1240P (16) @ 4.40 GHz
+- GPU: Intel Iris Xe Graphics
+- Memory: 2x 8GB DDR4-3200 RAM
+- Storage: 1TB WD BLACK SN770 NVMe SSD
+
+## Assembly and Setup
+My laptop came very well packed, and upon unboxing, I got straight to building it. As I opted for the DIY edition, I had to remove the input cover, place in the SSD and RAM, and then reassemble the device. Then all I needed to do was slide in my expansion cards, and I was good to go. This was a very simple process, and the guide regarding it was comprehensive. The newer models are even easier, as the input cover comes detached.
+
+Following up on the hardware setup was the software setup. Installing Arch, my Linux distro of choice, proved nearly as seamless as ever. I did have to implement a small fix to get the brightness keys to function, but it was straightforward to implement and well documented. This was particularly fantabulous, as Arch isn't among their officially supported Linux distros. In fact, it's refreshing to see a list of officially supported distros at all.
+
+## Cost & Value
+The cost associated with the Framework is undeniably high. There is no way around that. In comparison to other laptops with similar specifications, it is marginally more expensive. However, the initial cost shouldn't be the only consideration. Purchasing the Framework Laptop means investing in repairability. While it might seem more expensive upfront, the long-term value lies in the ability to replace components over time. This aspect ultimately justifies the initial expense, making it a more cost effective choice in the long run. It's also worth noting that you're supporting a smaller company that, in my opinion, seems dedicated to doing the right thing.
+
+With that said, you can save some money when buying your laptop by acquiring your RAM and SDD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.
+
+<figure class="right">
+<img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background." />
+</figure>
+
+
+## Build Quality
+The build quality of the Framework is alright. While it doesn't exude the sturdiness of some other laptops I've encountered, it's far from flimsy. There is minor flex in the chassis if picking the laptop up from a corner, but it is so minimal that it's hardly of relevance. Of more notable concern are the screen and hinge.
+
+The screen itself is excellent. It's 3:2 aspect ratio is ideal for tasks such as coding and document processing but affects the structural design, leading to flex, which causes screen wobbling at the slightest nudge. This makes typing on a lap or in a car rather challenging. The hinge is also a hindrance, as it struggles to hold the screen at more aggressive angles. They have released newer, stronger hinges as an optional addition to combat this.
+
+## Modularity & Customisation
+The reason that just about anyone would buy a Framework is for its user accessible servicing and customisation options. While I haven't yet broken my laptop, it's quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.
+
+Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. It's body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
+
+Returning to the laptop, the flexibility to swap out components whenever I choose or opt for an upgrade adds a layer of convenience. The prospect of seamlessly installing new parts as they release is a significant advantage, as is choosing exactly the ports and components I want.
+
+## Battery Life
+There is a negative sentiment online regarding the battery on the Framework. I've seen countless people claim that they only yield 5 hours of battery life from a charge. While that may have been true at a point, things have since improved. There was an issue with select expansion cards that caused increased power use, but, fortunately, Framework fixed it in subsequent productions and released a fix for those capable of performing it. Yes, these are issues, but Framework has gone above and beyond in not only addressing, but also actively rectifying them to the best of their ability.
+
+They've released a new 61Wh battery and battery optimisation improvements in their newer generations, especially in the AMD chipsets. Even without these improvements, I've been able to surpass over 10 hours out of the 55Wh battery in my laptop with some battery optimisations.
+
+## Support
+Speaking of their commitment to addressing issues, their user support is excellent. In the few instances where I've contacted support, I've generally gotten very helpful and timely responses. Admirably, they seem to prioritise the mental health of their support employees. Their [stance against abuse](https://old.reddit.com/r/framework/comments/178jutx/moment_of_appreciation_for_framework_taking_care) and [aversion to seasonal hiring](https://community.frame.work/t/status-of-framework-support-november-6th-2023/39554) demonstrates a conscientious approach I really can't say I've seen elsewhere.
+
+As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. [There has been work done](https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta/25726), but it's been in beta for several months and sets a bad precedent.
+
+## Community
+It isn't just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes I haven't seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day someone shares some crazy thing like [spring loaded expansion cards](https://community.frame.work/t/spring-loaded-expansion-card/36013) or a [crazy new form factor](https://community.frame.work/t/framework-gaming-handheld-video/36591). It's excellent to see. I've found that any issue I've encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.
+
+## Overall Evaluation
+I think the Framework Laptop is excellent for just about anyone needing a computer, but especially the technologically inclined. This machine is excellent, especially as a tech enthusiast. The modularity and adaptability makes tinkering an absolute joy. Especially when backed by an exceptional community that's always ready to dive into the depths of innovation.
+
+If you need any further evidence as to how highly I regard the Framework Laptop 13, then the fact that I convinced my brother to select one as a replacement for his ageing Surface Go should tell you all you need to know. As he got it more recently, he had the option of the new AMD model, which meant waiting a while due to the batch system, but it only took just over a week to arrive once it shipped. He's been very happy with it, and it's worked excellently thus far.
+
+## February 2023 Update
+I'm still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework has finally taken action in regards to the BIOS and [has released a new beta](https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244). This is great to see, as I was beginning to worry. People have also started receiving the new Framework Laptop 16, which is very exciting.
+
+In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly do love it. I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too hard, and was well documented, but took quite a bit of time. There were *so many* screws. I'm happy with the result though, and really love the sleek, minimalist style it provides.
+
+---
+
+I hope you enjoyed my review. If you've got any questions about the laptop or think there is something I could add, then let me know in the comments below.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>I_Hate_My_Nokia.md</title><description><![CDATA[<head>
+    <title>I Hate My Nokia | Vale.Rocks</title>
+    <meta property="og:title" content="I Hate My Nokia"/>
+    <meta name="description" content="My review of my Nokia G22. A phone touted as being easily repairable that doesn't quite live up to the standards it sets for itself." />
+    <meta property="og:description" content="Nokia is, quite literally, not the company they used to be." />
+    <meta property="article:published_time" content="2024-02-03" />
+    <meta property="article:modified_time" content="2024-02-03" />
+    <meta property="article:section" content="Review" />
+</head>
+
+<article>
+<header>
+	Review
+	<h1>
+		I Hate My Nokia
+	</h1>
+	<ul>
+		<li><time datetime="2024-02-03">03 Feb, 2024</time></li>
+		<li>926 words</li>
+		<li>3 minute read</li>
+	</ul>
+</header>
+
+My first phone was a RugGear RG930. If you think Nokia's 3310 was built like a brick, then this thing is a rubberised rock. It was so sturdy I used to play 'catch the phone' with friends, and it ended up face down on concrete more times than I can count, but I don't think it ever sustained so much as a scratch. As time progressed I decided I wanted something a tad more featured, and later ended up with the first iPhone SE, a phone that was endlessly reliable when it wasn't stuck in a bootloop thanks to my love for gaolbreaking.
+
+As the SE aged, and the battery degraded, I chose to upgrade. I moved to the Nokia 2720, a charming little flip phone. It was an excellent nugget of a device, and I used it for a few years. It didn't have support for much fancy crap, but I didn't need that. It worked and was lovely until it shed the D-pad, the company supporting the OS disappeared off the planet, and it started to take issue with my telco.
+
+As a result, I decided the time was ripe to move back to the world of smartphones. I was intrigued by Nokia's latest offering, the G22.
+[Much like my Framework](/blog/A_Year_With_The_Framework_Laptop) it was advertised as repairable, with support directly from iFixit. It also had long battery life, a headphone jack, SD card tray, and was on the cheaper end of the spectrum. It ticked all my boxes. I waited for reviews, and they were almost unanimously positive. I found it for a good price in a bundle with a case and speaker and bought it.
+
+I opened it up to find myself fighting through a plethora of bloatware and crap. I finally got into the phone, and it was pretty nice, albeit plastered with random applications. I loaded my contacts, photos, and other materials and went on with my day to get a feel for the device. A day or two later, I found myself needing to make a call, so I opened up the contacts app to an empty screen. All my contacts missing.
+
+I reimported my backup, and once again, everything was purged the next time I tried to use it. I figured, no stress, I'll go use another contact app. Same issue. Something on the phone was purging my contacts. Then my SMS app started crashing every time I opened it. I decided to move to a custom ROM. After all, it's a device billed as repairable, and developer options showed it supported OEM unlocking.
+
+I checked out LineageOS. No support. I decided to search online, and after wading through waist high AI generated SEO articles discovered that none exist for the phone. I thought about trying my hand at making one, but discovered that HMD has failed to comply with the GPL and hasn't distributed the source needed. [As you can see on this page](https://www.hmd.com/en_int/opensource) there is no G22 listed.
+
+<figure class="right">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.chooseyourmobile.com%2Fwp-content%2Fuploads%2F2023%2F02%2FNokia-G22-Image.jpg&f=1&nofb=1&ipt=e1d29346db2792fdc63f390dda99ac099028c77f0a4c35b1ac802a303cf46a32&ipo=images" alt="A side, back, and front view of the Nokia G22 in the colour 'Lagoon Blue'." />
+<figcaption>The Nokia G22 from a few angles.</figcaption>
+</figure>
+
+I decided to simply reset the phone. No luck; same issues. I decided I'd reset it again and replace all the apps I could with alternatives from F-Droid to see if it fixed any of the issues. Unfortunately, it did not. The phone's software has let me down, and the lack of alternate ROM options doesn't help. The fingerprint reading is terrible and often completely refuses to let me in, even after reenrolling several times. The phone also fails to reenable network functionality after entering battery saver mode, and Bluetooth often refuses to work unless I restart the phone. Updates haven't been as frequent as advertised either. The Nokia name truly has fallen from grace. While the phone does look rather nice and [take decent pictures](https://unsplash.com/collections/Puec3W1Cf3g/new-zealand) it's all overshadowed by its issues.
+
+Realistically, Nokia as we know it has been dead for a while. While they may have stood strong in the 90s and early 2000s, they actively fought the flow of progress as it rushed past them. They refused to join the Open Handset Alliance, instead investing in the ill fated Symbian and its increasingly obsolete operating system. As Symbian stumbled, Nokia attempted to replace it with MeeGo (another Linux based mobile OS). While this saw positive attention, it wasn't to be as Nokia entered into a partnership with Microsoft the very same year they released their first (and last) MeeGo phone.
+
+This partnership saw Nokia embrace Windows Phone. They quickly became the most prominent Windows Phone manufacturer, making up most of the sales through 2013 with the Lumia series. However, Nokia began experimenting with Android on their phones and Microsoft, who worried what might happen should they lose their biggest OEM, bought their mobile phone division outright.
+
+Unfortunately for Microsoft, Windows Phone wasn't quite the success they'd been hoping for, and a decline over the next few years saw the project completely dead by the end of the decade. In recent years, the mobile phone division sold to Microsoft has been living as HMD Global, although they've [recently pushed away from the Nokia brand](https://www.hmd.com/en_int/blog/hmd-makers-of-nokia-phones-and-more).
+
+I can only hope that the restructuring leads to their products improving, as what they're currently offering is truly quite poor. I'd love to hear suggestions for my next phone, if you've got any. I'm looking for something that's easily repairable, has support for custom ROMs, has a headphone port, and doesn't cost me my kidney. Leave any suggestions in the comments.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item><item><title>Prematurely_Pulling_The_Plug_On_3G.md</title><description><![CDATA[<head>
+    <title>Prematurely Pulling The Plug On 3G | Vale.Rocks</title>
+    <meta property="og:title" content="Prematurely Pulling The Plug On 3G"/>
+    <meta name="description" content="Critical thoughts on the intention of Australian telcos to sunset the 3G network and the major repurcussions on coverage, safety, and much more that will come with it." />
+    <meta property="og:description" content="Better hope you don't need to call emergency services." />
+    <meta property="article:published_time" content="2023-11-26" />
+    <meta property="article:modified_time" content="2023-11-29" />
+    <meta property="article:section" content="Essay" />
+</head>
+
+<article>
+<header>
+	Essay
+	<h1>
+		Prematurely Pulling The Plug On 3G
+	</h1>
+	<ul>
+		<li><time datetime="2023-11-26">26 Nov, 2023</time></li>
+		<li>912 words</li>
+		<li>3 minute read</li>
+	</ul>
+</header>
+
+First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia's 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.
+
+As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.
+
+## Impact on Devices
+
+3G is still very much relied upon by countless devices. An instance of this is my grandfather's pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I'm sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.
+
+Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.
+
+It won't only be the farmers who are hit with unexpected costs come the shutdown. It will also affect many small businesses operating with old and outdated EFTPOS machines. Investing hundreds of dollars into new payment terminals and setup, especially amidst a cost of living crisis, may very well not be financially feasible for these smaller businesses. Moreover, it will force countless people into buying new phones, personal hotspot devices, security systems, and medical devices, straining their financial capacities.
+
+This equipment replacement doesn't just come with a financial burden; it also comes with an ecological one. As the rollout continues and more and more devices become glorified paperweights, they will end up as e-waste. Tech devices, and especially the batteries contained within them, are notoriously hard to dispose of. A mass exodus of these devices will poison the environment for no conceivable reason and add to our existing e-waste crisis.
+
+## Coverage Issues
+
+Many countries around the world have already disconnected with places such as Malaysia, phasing it out as early as 2021. They encountered issues with their older devices, of course, but they also ran into issues with network coverage. To carry data quickly, faster technologies, such as 5G, operate at higher frequencies. However, this comes with a trade-off, and these higher frequencies travel substantially shorter distances. This means that you would need a much higher density of towers just to achieve the same network coverage. In the case of Malaysia, many remote areas were going to be left without network coverage in the middle of a monsoon season, which led to some towers being left online simply so people could contact emergency services. It's worth noting that Malaysia also still operates its own 2G network as a fallback for the oldest of devices and maximum coverage.
+
+Given the challenges faced by a company as small and densely populated as Malaysia (104 people per square kilometre), it isn't hard to visualise the issues for a country as big as Australia, which has a mere 3 people per square kilometre. Despite the fact that we already struggle with lacklustre coverage, even in populated areas, there is cause for alarm regarding the repercussions for more remote, rural communities. Will we suddenly find large groups of people struggle to contact emergency services simply due to the 3G switch off?
+
+## How It Affects You
+
+You may be wondering what impact this will have on you, but determining what devices and equipment will be affected by this change is far from straightforward. Identifying phones is particularly tricky. There are countless models on the market, and each sports a different operating system, carrier, and country of origin. This makes it very hard to identify exactly what phone you have, let alone if it supports 4G or VoLTE. Even the information posted by carriers may only apply to phones sold by them. Beyond phones, knowing if your other equipment or devices will be supported can be very difficult. The easiest way is to find out directly from the manufacturer, although that can be very difficult if the company has disbanded or if they no longer acknowledge that product.
+
+In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.
+
+</article>
+
+<span class="giscus"></span>
+]]></description></item></channel></rss>

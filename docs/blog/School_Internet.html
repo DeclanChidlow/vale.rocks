@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+<style>
+@import "/style/colours.css";
+@import "/style/post.css";
+@import "/style/prism.css";
+@import "/style/footer.css";
+@import "/style/navbar.css";
+@import "/style/images.css";
+@import "/style/input.css";
+@import "/style/links.css";
+@import "/style/type.css";
+@import "/style/standard.css";
+@import "/style/reset.css";
+
+</style>
+<html lang="en">
+
+<meta charset="utf-8">
+<meta property="og:locale" content="en_AU">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Declan Chidlow">
+<meta property="og:site_name" content="Vale Rocks">
+<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+<link href="https://github.com/DeclanChidlow" rel="me">
+<link href="https://fedi.vale.rocks/vale" rel="me">
+
+<script src="/assets/prism.js"></script>
+<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script src="https://giscus.app/client.js" data-repo="DeclanChidlow/vale.rocks" data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments" data-category-id="DIC_kwDOGKfOVs4CY4vS" data-mapping="title" data-strict="1"
+	data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="transparent_dark"
+	data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+	</script>
+
+</head>
+<body>
+<div class="page">
+
+
+    <nav>
+    	<ul>
+    		<li><a href="/" style="font-weight: 900;">Vale</a></li>
+    		<li><a href="/blog">Blog</a></li>
+    		<li><a href="/portfolio">Portfolio</a></li>
+    	</ul>
+    </nav>
+    
+    <div id="content">
+    
+
+    <span id='section'>Blog</span><div id='postbody'>
+
+    <style>:root{--header_background: var(--magenta)}</style><head>
+    <title>Connecting to Australian Public School Internet | Vale.Rocks</title>
+    <meta property="og:title" content="Connecting to Australian Public School Internet"/>
+    <meta name="description" content="The Education Department of Australia does some silly stuff with their network quite frequently. This tutorial shows you how to get up and running in no time at all." />
+    <meta property="og:description" content="The guide for when someone breaks the internet. Again..." />
+    <meta property="article:published_time" content="2022-10-12" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Tutorial" />
+</head>
+<article>
+<header>
+	 Tutorial
+	<h1>
+		Connecting to Australian Public School Internet
+	</h1>
+	<ul>
+		<li><time datetime="2022-10-12">12 Oct, 2022</time></li>
+	    <li>539 words</li>
+		<li>2 minute read</li>
+	</ul>
+</header>
+<p>Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
+<p>This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.</p>
+<h2>Step 1</h2>
+<p>The first step in getting onto the network is to find out if your password has expired. In most cases, your Department of Education login (the same one you use to access Connect and/or Seqta) will expire every 90 days (about 3 months).</p>
+<p>If you expect that your password has expired, you will have to reset it.</p>
+<p>If you have an internet connection, then the easiest way to reset it is through the <a href="https://apps.det.wa.edu.au/dam/portal/changePassPage.do">DoE Portal</a>.</p>
+<p>You could also go to <a href="https://connect.det.wa.edu.au">Connect</a> and login. Once logged in, you can navigate to 'My Connect' and change your password to something new and secure.</p>
+<p>In the event that you don't have an internet connection, you can request that your teacher or network admin changes your password.</p>
+<h2>Step 2</h2>
+<p>Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer's operating system.</p>
+<span class="alert warning">
+Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
+</span>
+<h3>Windows</h3>
+<ol>
+<li>If using Windows, you must first connect to the school network. The certificates are only available on the internal network and not on non-school Wi-Fi.</li>
+<li>Once connected, you must download these certificates:</li>
+</ol>
+<ul>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-CA.cer">Education-CA.cer</a></li>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA1.cer">Education-SubCA1.cer</a></li>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA2.cer">Education-SubCA2.cer</a></li>
+</ul>
+<ol start="3">
+<li>On your keyboard, hit the 'Windows' key and R key simultaneously. In the box that appears, type <code>mmc.exe</code>.</li>
+<li>In the application that opens, press the Ctrl key and the M key simultaneously.</li>
+<li>In the left panel, double click 'Certificates'. In the pop-up that opens, select 'Computer account' and then click next.</li>
+<li>Select 'Local computer' and then click Finish. You should be directed back to the main page of the application.</li>
+<li>In the left panel, you should click the small arrow next to 'Certificates (Local Computer)' to expand the category. Then click the small arrow next to 'Trusted Root Certification Authorities'.</li>
+<li>You should now see the Certificates folder on the left panel. Right click the folder to bring up the context menu. In the menu, select All Tasks and then Import.</li>
+<li>In the wizard that should have appeared, select 'Local Machine' and then 'Next'.</li>
+<li>On the next page, click 'Browse...' and locate your certificates. Select one of them, click open, and then click 'Next'.</li>
+<li>In the next pop-up, select 'Trusted Root Certification Authorities' and then click 'OK'.</li>
+<li>You should now be presented with a page showing the settings you've chosen in this guide. The 'Certificate Store Selected by User' should be 'Trusted Root Certification Authorities' and the 'Content' should be 'Certificate'.</li>
+</ol>
+<h3>Linux</h3>
+<p>If using Linux, you can use the <a href="https://github.com/toastxc/DoE-Network-Kit-Linux">DoE-Network-Kit-Linux</a>.</p>
+<h2>Step 3</h2>
+<p>You can now log onto your school's internet, and it should work. You can login <a href="http://sig.site.internal:1000/login?">here</a>.</p>
+<hr />
+<p>Had any issues with the process? Leave a comment down below, and I'll try my best to assist.</p>
+</article>
+<p><span class="giscus"></span></p>
+
+</div>
+</body>

@@ -1,0 +1,28 @@
+@import url("https://vale.rocks/style/colours.css");
+
+:root {
+	--body-background-color: var(--black);
+	--body-text-color: var(--bright_white);
+	--card-background-color: var(--dark_grey);
+	--nav-background-color: var(--dask_grey);
+	--nav-border-bottom-color: var(--cyan);
+	--nav-current-border-bottom-color: var(--yellow);
+	--card-border-color: var(--grey);
+	--down-border-left-color: var(--red);
+	--down-background-color: var(--dark_grey);
+	--degraded-border-left-color: var(--yellow);
+	--up-border-left-color: var(--green);
+	--tag-color: var(--grey);
+	--tag-up-background-color: var(--green);
+	--tag-down-background-color: var(--red);
+	--tag-degraded-background-color: var(--yellow);
+	--change-background-color: var(--yellow);
+	--error-button-border-color: var(--blue);
+	--error-button-background-color: var(--blue);
+	--error-button-color: var(--bright_white);
+	--submit-button-border-color: var(--blue);
+	--submit-button-background-color: var(--blue);
+	--submit-button-color: var(--bright_white);
+	--graph-opacity: 1;
+	--graph-filter: none;
+}
