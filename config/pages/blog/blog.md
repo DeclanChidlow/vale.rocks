@@ -150,7 +150,7 @@ Tutorial
 
 Tutorial
 ### [Connecting to Australian School Internet](/blog/School_Internet)
-<time datetime="2022-10-12">12 Oct, 2022</time> | 539 words | 2 minute read
+<time datetime="2022-10-12">12 Oct, 2022</time> | 780 words | 3 minute read
 </div>
 
 <div class="post">
