@@ -17,6 +17,7 @@ h6 {
 	color: var(--bright_white);
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-bottom: 0.4rem;
 }
 
 #section {
@@ -62,7 +63,7 @@ h6 {
 
 p {
 	line-height: 1.4rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0.8rem;
 }
 
 #postbody p {
@@ -93,6 +94,8 @@ blockquote {
 
 li {
 	list-style-position: inside;
+	line-height: 1.4rem;
+	margin-bottom: 0.3rem;
 }
 
 .alert {
