@@ -5,27 +5,6 @@
     <meta property="og:description" content="The hippest site this side of MySpace." />
 </head>
 
-<style>
-#services {
-	margin-bottom: 5rem;
-}
-
-#services div{
-	border-bottom: 2px solid var(--bright_grey);
- 	box-sizing: border-box;
-	padding: 0.5rem 0;
-}
-
-#services p {
-	text-transform: uppercase;
-	margin: 0;
-}
-
-p#description {
-	text-transform: none;
-}
-</style>
-
 <h1 id="section">
    	Services
 </h1>

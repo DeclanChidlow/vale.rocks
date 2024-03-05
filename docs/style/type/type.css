@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+p {
+	line-height: 1.4rem;
+	margin-bottom: 0.8rem;
+}
+
+#postbody p {
+	max-width: 70ch;
+}
+
+blockquote {
+	margin-right: 0.3rem;
+	padding: 0 0.3rem;
+	background: var(--dark_grey);
+	border-left: 0.3rem solid var(--grey);
+}
+
+li {
+	list-style-position: inside;
+	line-height: 1.4rem;
+	margin-bottom: 0.3rem;
+}
+
+::selection {
+	background: var(--blue);
+}

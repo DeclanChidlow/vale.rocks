@@ -1,0 +1,24 @@
+.callout {
+	padding: 0 0.5rem;
+	margin: 1rem 0;
+	display: block;
+	white-space: pre-line;
+}
+
+.note {
+	border-left: solid var(--blue);
+}
+
+.note::before {
+	content: "󰋽  Note";
+	color: var(--blue);
+}
+
+.warning {
+	border-left: solid var(--orange);
+}
+
+.warning::before {
+	content: "󰀪  Warning";
+	color: var(--orange);
+}

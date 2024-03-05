@@ -49,7 +49,7 @@ The Arch Wiki has a wonderful guide, as always, on how to setup LibreOffice for 
 Out of the box, LibreOffice isn't perfect. It looks alright but some work is needed. If, like me, you chose to use GTK for theming, then you can use [Gradience](https://gradienceteam.github.io) to get it looking just how you want. That said, do read [this](https://stopthemingmy.app) before using it. If you don't use GTK (or use something other then Linux) then you can ignore that and just change the icons. For this, you can navigate to `Tools > Options` in the menubar of any of the applications. In the popup window, navigate to `LibreOffice > View` and change the icon theme. I recommend the SVG version of Sukapura. You can choose the light or dark variant, depending on your theme.
 
 ## Improving Microsoft Office Compatibility
-<span class="alert note">
+<span class="callout note">
 If you're wondering, then yes, this part of the article has been around before. It had some issues and was rather narrow in scope, so I've since rewritten it. You can read the original from December 2022 on the Internet Archive <a href="https://web.archive.org/web/20230117143302/https://vale.rocks/blog/tutorials/LibreOffice_Setup">here</a>.
 </span>
 

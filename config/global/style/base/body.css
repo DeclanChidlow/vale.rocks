@@ -1,0 +1,13 @@
+body {
+	margin: 0 50px 0 7rem;
+	background-color: var(--black);
+	min-height: 100%;
+	font-family: "Lexend", sans-serif;
+	color: var(--bright_white);
+}
+
+@media (max-width: 700px) {
+	body {
+		margin: 0 10px;
+	}
+}

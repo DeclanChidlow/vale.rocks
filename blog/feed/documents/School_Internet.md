@@ -41,7 +41,7 @@ In the event that you don't have an internet connection, you can request that yo
 
 Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer's operating system.
 
-<span class="alert warning">
+<span class="callout warning">
 Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
 </span>
 

@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <head>
 <style>
-@import "/style/colours.css";
-@import "/style/post.css";
-@import "/style/prism.css";
-@import "/style/footer.css";
-@import "/style/navbar.css";
-@import "/style/images.css";
-@import "/style/input.css";
-@import "/style/links.css";
-@import "/style/type.css";
-@import "/style/standard.css";
-@import "/style/reset.css";
+/* Importing variable styles */
+@import url("/style/variables/colours.css");
+
+/* Importing base styles */
+@import url("/style/base/reset.css");
+@import url("/style/base/body.css");
+@import url("/style/base/standard.css");
+
+/* Importing page-specific styles */
+@import url("/style/pages/blog.css");
+@import url("/style/pages/index.css");
+@import url("/style/pages/portfolio.css");
+@import url("/style/pages/services.css");
+
+/* Importing type styles */
+@import url("/style/type/callouts.css");
+@import url("/style/type/code.css");
+@import url("/style/type/headers.css");
+@import url("/style/type/links.css");
+@import url("/style/type/syntax_highlighting.css");
+@import url("/style/type/type.css");
+
+/* Importing component styles */
+@import url("/style/components/footer.css");
+@import url("/style/components/images.css");
+@import url("/style/components/input.css");
+@import url("/style/components/navbar.css");
+@import url("/style/components/post_header.css");
+@import url("/style/components/section.css");
+@import url("/style/components/seperator.css");
+
+/* Importing animation styles */
+@import url("/style/animations/fade_in_up.css");
 
 </style>
 <html lang="en">
@@ -80,7 +102,7 @@
 <p>Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn't the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.</p>
 <h2>Installation</h2>
 <p>While it may seem sensible to just jump straight into installation, there is a much better way to do it. You'll first need to <a href="https://www.microsoft.com/software-download/windows11">grab an ISO from Microsoft's website</a>. If you are wondering why I recommend Windows 11 over 10, it's for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.</p>
-<span class="alert warning">
+<span class="callout warning">
 I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Their stripped back nature often leads to the breakage of certain features or incompatibility with programs. The closed source nature of most ISOs also leads to the potential for bundled malware. There are many ways to debloat Windows without causing undue harm that will be detailed further along in this article.
 </span>
 <p>Writing the ISO once you've got it is pretty easy. If you have a Windows install on hand that you can use to create the installation media, then I recommend writing the ISO with <a href="https://rufus.ie">Rufus</a>. If using another OS to write the media, then use whatever you're most used to.</p>

@@ -5,43 +5,6 @@
     <meta property="og:description" content="The hippest site this side of MySpace." />
 </head>
 
-<style>
-#portfolio {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 5rem;
-	gap: 4%;
-}
-
-#portfolio div{
-	border-bottom: 2px solid var(--bright_grey);
-	flex-basis: 46%;
- 	box-sizing: border-box;
-	padding: 0.5rem 0;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-#portfolio h3 {
-	margin-bottom: 0.5rem;
-}
-
-#portfolio p {
-	text-transform: uppercase;
-	margin: 0;
-}
-
-@media (max-width: 1000px) {
-#portfolio {
-	flex-direction: column;
-}
-
-#portfolio div{
-	width: 100%;
-}
-}
-</style>
-
 <h1 id="section">
     Portfolio
 </h1>

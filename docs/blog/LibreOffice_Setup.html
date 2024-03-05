@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <head>
 <style>
-@import "/style/colours.css";
-@import "/style/post.css";
-@import "/style/prism.css";
-@import "/style/footer.css";
-@import "/style/navbar.css";
-@import "/style/images.css";
-@import "/style/input.css";
-@import "/style/links.css";
-@import "/style/type.css";
-@import "/style/standard.css";
-@import "/style/reset.css";
+/* Importing variable styles */
+@import url("/style/variables/colours.css");
+
+/* Importing base styles */
+@import url("/style/base/reset.css");
+@import url("/style/base/body.css");
+@import url("/style/base/standard.css");
+
+/* Importing page-specific styles */
+@import url("/style/pages/blog.css");
+@import url("/style/pages/index.css");
+@import url("/style/pages/portfolio.css");
+@import url("/style/pages/services.css");
+
+/* Importing type styles */
+@import url("/style/type/callouts.css");
+@import url("/style/type/code.css");
+@import url("/style/type/headers.css");
+@import url("/style/type/links.css");
+@import url("/style/type/syntax_highlighting.css");
+@import url("/style/type/type.css");
+
+/* Importing component styles */
+@import url("/style/components/footer.css");
+@import url("/style/components/images.css");
+@import url("/style/components/input.css");
+@import url("/style/components/navbar.css");
+@import url("/style/components/post_header.css");
+@import url("/style/components/section.css");
+@import url("/style/components/seperator.css");
+
+/* Importing animation styles */
+@import url("/style/animations/fade_in_up.css");
 
 </style>
 <html lang="en">
@@ -91,7 +113,7 @@
 <h2>Theming</h2>
 <p>Out of the box, LibreOffice isn't perfect. It looks alright but some work is needed. If, like me, you chose to use GTK for theming, then you can use <a href="https://gradienceteam.github.io">Gradience</a> to get it looking just how you want. That said, do read <a href="https://stopthemingmy.app">this</a> before using it. If you don't use GTK (or use something other then Linux) then you can ignore that and just change the icons. For this, you can navigate to <code>Tools &gt; Options</code> in the menubar of any of the applications. In the popup window, navigate to <code>LibreOffice &gt; View</code> and change the icon theme. I recommend the SVG version of Sukapura. You can choose the light or dark variant, depending on your theme.</p>
 <h2>Improving Microsoft Office Compatibility</h2>
-<span class="alert note">
+<span class="callout note">
 If you're wondering, then yes, this part of the article has been around before. It had some issues and was rather narrow in scope, so I've since rewritten it. You can read the original from December 2022 on the Internet Archive <a href="https://web.archive.org/web/20230117143302/https://vale.rocks/blog/tutorials/LibreOffice_Setup">here</a>.
 </span>
 <p>If you're coming from Microsoft Office or have to interact with Microsoft's formats, then you may struggle with adapting your workflow or dealing with Office files. You should note that applications in LibreOffice have different names to those in MS Office. Word is Writer, PowerPoint is Impress, and Excel is Calc. To follow this next section of the guide, open up one of the applications within the suite, such as Writer.</p>

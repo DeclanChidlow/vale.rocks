@@ -12,7 +12,7 @@ a:active {
 }
 
 a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {
-	content: "\e89e";
+	content: "󰏌 ";
 	margin-left: 0.1rem;
 	font-size: 0.5rem;
 	display: inline-block;

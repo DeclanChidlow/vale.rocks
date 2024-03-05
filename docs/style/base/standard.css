@@ -1,0 +1,10 @@
+#content {
+	padding-top: 5rem;
+	margin-left: 50px;
+}
+
+@media (max-width: 700px) {
+	#content {
+		margin: 0;
+	}
+}

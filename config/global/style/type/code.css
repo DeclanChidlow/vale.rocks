@@ -1,0 +1,19 @@
+pre {
+	overflow-x: scroll;
+	white-space: pre;
+	display: inline-block;
+	padding: 0.8rem;
+	width: 100%;
+	background: var(--grey);
+}
+
+code {
+	font-family: "Fira Code", monospace;
+	background: var(--grey);
+	padding: 0 0.2rem;
+	overflow: inherit;
+	tab-size: 4;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+}

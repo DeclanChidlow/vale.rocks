@@ -1,0 +1,25 @@
+#section {
+	font-size: 5.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	writing-mode: vertical-lr;
+	transform: scale(-1);
+	margin: 15vh 0 0 -6.5rem;
+	position: fixed;
+	user-select: none;
+	-webkit-user-select: none;
+	line-height: 0;
+}
+
+@media (max-width: 700px) {
+	#section {
+		font-size: 3rem;
+		writing-mode: inherit;
+		transform: inherit;
+		margin: inherit;
+		position: inherit;
+		user-select: inherit;
+		-webkit-user-select: inherit;
+		line-height: 3.2rem;
+	}
+}

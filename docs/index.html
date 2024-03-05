@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <head>
 <style>
-@import "/style/colours.css";
-@import "/style/post.css";
-@import "/style/prism.css";
-@import "/style/footer.css";
-@import "/style/navbar.css";
-@import "/style/images.css";
-@import "/style/input.css";
-@import "/style/links.css";
-@import "/style/type.css";
-@import "/style/standard.css";
-@import "/style/reset.css";
+/* Importing variable styles */
+@import url("/style/variables/colours.css");
+
+/* Importing base styles */
+@import url("/style/base/reset.css");
+@import url("/style/base/body.css");
+@import url("/style/base/standard.css");
+
+/* Importing page-specific styles */
+@import url("/style/pages/blog.css");
+@import url("/style/pages/index.css");
+@import url("/style/pages/portfolio.css");
+@import url("/style/pages/services.css");
+
+/* Importing type styles */
+@import url("/style/type/callouts.css");
+@import url("/style/type/code.css");
+@import url("/style/type/headers.css");
+@import url("/style/type/links.css");
+@import url("/style/type/syntax_highlighting.css");
+@import url("/style/type/type.css");
+
+/* Importing component styles */
+@import url("/style/components/footer.css");
+@import url("/style/components/images.css");
+@import url("/style/components/input.css");
+@import url("/style/components/navbar.css");
+@import url("/style/components/post_header.css");
+@import url("/style/components/section.css");
+@import url("/style/components/seperator.css");
+
+/* Importing animation styles */
+@import url("/style/animations/fade_in_up.css");
 
 </style>
 <html lang="en">
@@ -48,63 +70,6 @@
     <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
     <meta property="og:description" content="The hippest site this side of MySpace." />
 </head>
-<style>
-#heroouter, #landingbody {
-	margin-left: -7rem;
-    position: relative;
-    z-index: 1;
-}
-
-#heroouter {
-    pointer-events: none;
-}
-
-#hero {
-	height: 85dvh;
-	font-size: 2.5rem;
-	line-height: 2.5rem;
-    display: flex;
-    align-items: center;
-}
-
-#herotext {
-	display: block;
-}
-
-#herotext h1 {
-	font-size: 6rem;
-	line-height: 6rem;
-}
-
-#puddle-container {
-    color: var(--bright_grey);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    pointer-events: auto;
-    cursor: default;
-	user-select: none;
-}
-
-#puddle-container::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: linear-gradient(transparent, var(--black));
-    pointer-events: none;
-}
-
-@media (max-width: 700px) {
-    #heroouter, #landingbody {
-	    margin: 0;
-    }
-}
-</style>
 <div id="puddle-container"></div>
 <div id="heroouter">
 <div id="hero">

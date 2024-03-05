@@ -30,7 +30,7 @@ Dual booting was an option, but one with hassle, so I chose to fire up a Windows
 ## Installation
 While it may seem sensible to just jump straight into installation, there is a much better way to do it. You'll first need to [grab an ISO from Microsoft's website](https://www.microsoft.com/software-download/windows11). If you are wondering why I recommend Windows 11 over 10, it's for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.
 
-<span class="alert warning">
+<span class="callout warning">
 I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Their stripped back nature often leads to the breakage of certain features or incompatibility with programs. The closed source nature of most ISOs also leads to the potential for bundled malware. There are many ways to debloat Windows without causing undue harm that will be detailed further along in this article.
 </span>
 
