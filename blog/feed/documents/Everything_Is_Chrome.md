@@ -4,7 +4,7 @@
     <meta name="description" content="My look into the overaching dominance of Google Chrome and it's overwhelmingly negative impact on the web as we know it." />
     <meta property="og:description" content="The web is under attack. Unsheathe your keyboards." />
     <meta property="article:published_time" content="2023-12-11" />
-    <meta property="article:modified_time" content="2023-12-12" />
+    <meta property="article:modified_time" content="2024-03-06" />
     <meta property="article:section" content="Essay" />
 </head>
 
@@ -16,7 +16,7 @@
 	</h1>
 	<ul>
 		<li><time datetime="2023-12-11">11 Dec, 2023</time></li>
-		<li>2256 words</li>
+		<li>2365 words</li>
 		<li>8 minute read</li>
 	</ul>
 </header>
@@ -66,7 +66,7 @@ Despite initial reluctance from Google CEO Eric Schmidt to enter the browser war
 
 It didn't see success as instant as Firefox, but instead slowly crept up, to the point that by 2012 it was beating all other major browsers. From that point on, it only continued to grow and has taken complete dominance.
 
-In 2012, Safari was discontinued for Windows, where its market share had been decimated. However, it continued to remain a popular choice on Apple operating systems.
+In 2012, Safari was discontinued for Windows, where its market share had been decimated. However, it's continued to remain a popular choice on Apple operating systems.
 
 The following year, Opera announced its intention to switch from Presto to WebKit, although around the same time, Google announced they would be forking WebKit, to which they were already the largest contributor, to create Blink. Following this, Opera revised their plans and moved to Blink.
 
@@ -117,7 +117,7 @@ Something I do have more to add to is something touched on briefly in the comic.
 
 Google has an extension platform with their Web Store. It allows developers to post extensions that allow users to increase the capabilities of their browser. There are many excellent extensions that come with this, but perhaps the most useful are ad blockers.
 
-Ad blockers completely remove advertisements from the document flow, significantly improving the user experience. Alphabet Inc, the company behind Google, makes most of their money through these ads and, as such, isn't much a fan of ad blockers.
+Ad blockers completely remove advertisements from the document flow, significantly improving the user experience. Alphabet Inc, the company behind Google, makes a lot of their money through these ads and, as such, isn't much a fan of ad blockers.
 
 To combat this, they're implementing Manifest v3. In the context of a browser extension, a manifest file determines things such as what permissions an extension needs to run. Version 3 will restrict the ability of tools that manipulate network requests.
 
@@ -125,15 +125,17 @@ They've been planning on rolling it out but seem to keep postponing it whenever 
 
 It isn't just ad blockers that will be impacted by this change. Many privacy extensions, which rely on filtering out tracking requests, will also be negatively impacted.
 
-This change will roll out to all major browsers because they are Chromium based and want to maintain compatibility, and it will benefit Google the most out of any party.
+This change will trickle down to all Chromium based browsers. If they dare to opt out then they'll lose access to Google's Chrome Web Store. This is a change that will benefit Google the most out of any affected party.
 
 ### Accelerated Mobile Pages
 
-Accelerated Mobile Pages (AMP) is another excellent example of the problems with Google having power. AMP is a framework that aims to improve the performance of web content, particularly on mobile. It improves speed by restricting certain elements and optimising content delivery.
+Accelerated Mobile Pages (AMP) is another excellent example of the problems with Google having power. AMP is a framework that aims to improve the performance of web content, particularly on mobile. It improves speed by restricting certain elements and optimising content delivery. While these are great intentions, they've seen much good criticism.
 
-While these are great intentions, they've seen much good criticism. One large criticism is that it gives Google a certain amount of control over the way content is displayed on the web, which influences how things are built and monetized. Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content.
+One large criticism is that it gives Google a huge amount of control over the way content is displayed on the web, which influences how things are built and monetized. It also has impacts on privacy, and security.
 
-I could continue with further examples, but I think the point is made, and I expect you've gathered the picture. The web is dominated by Chrome, and something must be done about it.
+Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's "Top Stories" section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after [facing legal threats](https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf).
+
+AMP is just another way that Google has shown that they are not content with simply existing within the web, but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest [this Reddit post](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) from the creator of [AmputatorBot.com](https://amputatorbot.com).
 
 ### Web Environment Integrity
 
@@ -141,9 +143,11 @@ In April of 2023, some Google engineers [created a GitHub repository](https://gi
 
 You may be wondering exactly what it is. WEI is more or less a way to verify that a site is 'genuine'. It can be best described as Digital Rights Management (DRM) for the web and, wouldn't you know, could've also impacted ad blockers if they were found to be altering the web environment's integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered 'untrusted', and therefore severely limited.
 
+I could continue with further examples, but I think the point is made, and I expect you've gathered the picture. The web is dominated by Chrome, and something must be done about it.
+
 ## The Death of Firefox Support
 
-As Bryce Wray illustrates in his article [Firefox on the Brink?](https://www.brycewray.com/posts/2023/11/firefox-brink/) the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.
+As Bryce Wray illustrates in his article ["Firefox on the Brink?"](https://www.brycewray.com/posts/2023/11/firefox-brink/) the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.
 
 ## Taking Action
 
@@ -160,13 +164,14 @@ Share this article around and promote its message. Preserving an open web is cru
 - [Tim Berners-Lee: WorldWideWeb, the first Web client](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) | Accessed: 10/12/2023
 - [NCSA Mosaic™ - NCSA](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic) | Accessed: 10/12/2023
 - [Browser Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/browser-market-share) | Accessed: 10/12/2023
-- [Did the browser wars finally end in 2014? |ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014) | Accessed 10/12/2023
+- [Did the browser wars finally end in 2014? | ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014) | Accessed 10/12/2023
 - [Google Chrome](https://www.google.com/googlebooks/chrome/index.html) | Accessed: 10/12/2023
 - [Contra Chrome - a webcomic - How Google's browser became a threat to privacy and democracy](https://contrachrome.com) | Accessed: 10/12/2023
 - [Web Environment Integrity: What's Going On?](https://openwebdefenders.org) | Accessed: 12/12/2023
 - [Firefox on the brink? | BryceWray.com](https://www.brycewray.com/posts/2023/11/firefox-brink) | Accessed: 10/12/2023
-- [Designing for different browsers and devices -  Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
+- [Designing for different browsers and devices - Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
 - [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers) | Accessed: 10/12/2023
+- [Why did I build AmputatorBot?](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) | Accessed: 06/03/2024
 
 </details>
 

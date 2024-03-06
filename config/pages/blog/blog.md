@@ -40,7 +40,7 @@ Review
 
 Essay
 ### [Everything Is Chrome](/blog/Everything_Is_Chrome)
-<time datetime="2023-12-11">11 Dec, 2023</time> | 2256 words | 8 minute read
+<time datetime="2023-12-11">11 Dec, 2023</time> | 2365 words | 8 minute read
 </div>
 
 <div class="post">
