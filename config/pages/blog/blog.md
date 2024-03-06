@@ -26,7 +26,7 @@
 
 Essay
 ### [Cybersecurity Superstition](/blog/Cybersecurity_Superstition)
-<time datetime="2024-02-28">28 Feb, 2024</time> | 1586 words | 5 minute read
+<time datetime="2024-02-28">28 Feb, 2024</time> | 1896 words | 7 minute read
 </div>
 
 <div class="post">
