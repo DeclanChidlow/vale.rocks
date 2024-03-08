@@ -25,13 +25,9 @@ cd ../
 cd portfolio
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish Mutant_Remix
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish CapChord
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish devoposters
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish futurefrequencies
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish koko
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish meattypeface
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish photography
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish poemsbypam
-/home/vale/gitrepos/Adduce/target/release/adduce feed publish smashburger
+/home/vale/gitrepos/Adduce/target/release/adduce feed publish Poems_By_Pam
+/home/vale/gitrepos/Adduce/target/release/adduce feed publish Meat_Typeface
+/home/vale/gitrepos/Adduce/target/release/adduce feed publish Photography
 cp -r feed/export/. ../docs/portfolio
 
 cd ../

@@ -9,22 +9,41 @@
     Portfolio
 </h1>
 
-This section is still being worked on.
+## Selected Works
 
 <div id="portfolio">
-  <div>
 
-  Website
-  ### [Mutant Remix Website](/portfolio/Mutant_Remix)
-  </div>
-  <div>
+<div class="post">
 
-  Tech Support Business
-  ### [CapChord](/portfolio/CapChord)
-  </div>
-  <div>
+Website
+### [Mutant Remix](/portfolio/Mutant_Remix)
+</div>
+<div class="post">
 
-  Poem Compilation
-  ### [Poems by Pam](/portfolio/poemsbypam)
-  </div>
+Tech Support Business
+### [CapChord](/portfolio/CapChord)
+</div>
+<div class="post">
+
+Poem Compilation
+### [Poems by Pam](/portfolio/poemsbypam)
+</div>
+
+</div> 
+
+## Even More Stuff
+
+<div id="portfolio">
+
+<div class="post">
+
+Photon Capture
+### [Photography](/portfolio/Photography)
+</div>
+<div class="post">
+
+Typeface
+### [Meat Typeface](/portfolio/Meat_Typeface)
+</div>
+
 </div> 
