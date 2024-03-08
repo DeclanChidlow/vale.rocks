@@ -1,5 +1,6 @@
 #heroouter,
-#landingbody {
+#landingbody,
+footer {
 	margin-left: -7rem;
 	position: relative;
 	z-index: 1;
@@ -51,7 +52,8 @@
 
 @media (max-width: 700px) {
 	#heroouter,
-	#landingbody {
+	#landingbody,
+	footer {
 		margin: 0;
 	}
 }

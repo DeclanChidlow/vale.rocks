@@ -1,6 +1,6 @@
 body {
 	margin: 0 50px 0 7rem;
-	background-color: var(--black);
+	background: var(--black);
 	min-height: 100%;
 	font-family: "Lexend", sans-serif;
 	color: var(--bright_white);
