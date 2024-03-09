@@ -6,12 +6,6 @@
 @import url("/style/base/body.css");
 @import url("/style/base/standard.css");
 
-/* Importing page-specific styles */
-@import url("/style/pages/blog.css");
-@import url("/style/pages/index.css");
-@import url("/style/pages/portfolio.css");
-@import url("/style/pages/services.css");
-
 /* Importing type styles */
 @import url("/style/type/callouts.css");
 @import url("/style/type/code.css");

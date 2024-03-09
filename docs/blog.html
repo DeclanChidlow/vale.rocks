@@ -9,12 +9,6 @@
 @import url("/style/base/body.css");
 @import url("/style/base/standard.css");
 
-/* Importing page-specific styles */
-@import url("/style/pages/blog.css");
-@import url("/style/pages/index.css");
-@import url("/style/pages/portfolio.css");
-@import url("/style/pages/services.css");
-
 /* Importing type styles */
 @import url("/style/type/callouts.css");
 @import url("/style/type/code.css");
@@ -34,21 +28,91 @@
 
 /* Importing animation styles */
 @import url("/style/animations/fade_in_up.css");
+#blogposts {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5rem;
+	gap: 2%;
+	justify-content: space-between;
+}
+
+#blogposts div {
+	border-bottom: 2px solid var(--bright_grey);
+	flex-basis: 48%;
+	height: 8rem;
+	padding: 0.5rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#blogposts h3 {
+	margin: 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#blogposts p {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#searchAndFilter {
+	/* set to flex in JS */
+	gap: 2%;
+}
+
+input#blogsearch {
+	flex: 1;
+	min-width: 0;
+}
+
+#searchAndFilter {
+	margin: 1rem 0;
+
+	input[type="search"],
+	select {
+		background: none;
+		border-bottom: 2px solid var(--bright_grey);
+		padding: 0.2rem 0;
+	}
+
+	input[type="search"]:focus,
+	select:focus {
+		border-color: var(--blue);
+	}
+}
+
+.post a {
+	text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+	#blogposts {
+		flex-direction: column;
+	}
+
+	#blogposts div {
+		width: 100%;
+	}
+}
 
 </style>
 <html lang="en">
+	<meta charset="utf-8" />
+	<meta property="og:locale" content="en_AU" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:site_name" content="Vale Rocks" />
+	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+	<link href="https://github.com/DeclanChidlow" rel="me" />
+	<link href="https://fedi.vale.rocks/vale" rel="me" />
 
-<meta charset="utf-8">
-<meta property="og:locale" content="en_AU">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Declan Chidlow">
-<meta property="og:site_name" content="Vale Rocks">
-<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-<link href="https://github.com/DeclanChidlow" rel="me">
-<link href="https://fedi.vale.rocks/vale" rel="me">
-
-<script src="/assets/prism.js"></script>
-<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	<script src="/assets/prism.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 
 </head>
 <body>
@@ -57,7 +121,7 @@
 
     <nav>
     	<ul>
-    		<li><a href="/" style="font-weight: 900;">Vale</a></li>
+    		<li><a href="/" style="font-weight: 900">Vale</a></li>
     		<li><a href="/blog">Blog</a></li>
     		<li><a href="/portfolio">Portfolio</a></li>
     	</ul>
@@ -183,7 +247,8 @@
     	<a href="/donate">Donate</a>
     	</br>
     	© Declan Chidlow | 2019 -
-    	<script>document.write(new Date().getFullYear())</script><noscript>Current</noscript>
+    	<script>document.write(new Date().getFullYear())</script>
+    	<noscript>Current</noscript>
     </footer>
     
 </div>

@@ -1,4 +1,4 @@
-style = ["config/global/style/style.css"]
+style = ["config/global/style/style.css", "config/global/style/pages/index.css"]
 
 head = ["config/global/elements/head.html"]
 [main]

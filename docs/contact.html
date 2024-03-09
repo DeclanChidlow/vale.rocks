@@ -9,12 +9,6 @@
 @import url("/style/base/body.css");
 @import url("/style/base/standard.css");
 
-/* Importing page-specific styles */
-@import url("/style/pages/blog.css");
-@import url("/style/pages/index.css");
-@import url("/style/pages/portfolio.css");
-@import url("/style/pages/services.css");
-
 /* Importing type styles */
 @import url("/style/type/callouts.css");
 @import url("/style/type/code.css");
@@ -37,18 +31,17 @@
 
 </style>
 <html lang="en">
+	<meta charset="utf-8" />
+	<meta property="og:locale" content="en_AU" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:site_name" content="Vale Rocks" />
+	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+	<link href="https://github.com/DeclanChidlow" rel="me" />
+	<link href="https://fedi.vale.rocks/vale" rel="me" />
 
-<meta charset="utf-8">
-<meta property="og:locale" content="en_AU">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Declan Chidlow">
-<meta property="og:site_name" content="Vale Rocks">
-<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-<link href="https://github.com/DeclanChidlow" rel="me">
-<link href="https://fedi.vale.rocks/vale" rel="me">
-
-<script src="/assets/prism.js"></script>
-<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	<script src="/assets/prism.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 
 </head>
 <body>
@@ -57,7 +50,7 @@
 
     <nav>
     	<ul>
-    		<li><a href="/" style="font-weight: 900;">Vale</a></li>
+    		<li><a href="/" style="font-weight: 900">Vale</a></li>
     		<li><a href="/blog">Blog</a></li>
     		<li><a href="/portfolio">Portfolio</a></li>
     	</ul>
@@ -89,7 +82,8 @@
     	<a href="/donate">Donate</a>
     	</br>
     	© Declan Chidlow | 2019 -
-    	<script>document.write(new Date().getFullYear())</script><noscript>Current</noscript>
+    	<script>document.write(new Date().getFullYear())</script>
+    	<noscript>Current</noscript>
     </footer>
     
 </div>

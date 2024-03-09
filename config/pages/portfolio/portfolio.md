@@ -13,17 +13,17 @@
 
 <div id="portfolio">
 
-<div class="post">
+<div class="item">
 
 Website
 ### [Mutant Remix](/portfolio/Mutant_Remix)
 </div>
-<div class="post">
+<div class="item">
 
 Tech Support Business
 ### [CapChord](/portfolio/CapChord)
 </div>
-<div class="post">
+<div class="item">
 
 Poem Compilation
 ### [Poems by Pam](/portfolio/poemsbypam)
@@ -35,12 +35,12 @@ Poem Compilation
 
 <div id="portfolio">
 
-<div class="post">
+<div class="item">
 
 Photon Capture
 ### [Photography](/portfolio/Photography)
 </div>
-<div class="post">
+<div class="item">
 
 Typeface
 ### [Meat Typeface](/portfolio/Meat_Typeface)

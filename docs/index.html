@@ -9,12 +9,6 @@
 @import url("/style/base/body.css");
 @import url("/style/base/standard.css");
 
-/* Importing page-specific styles */
-@import url("/style/pages/blog.css");
-@import url("/style/pages/index.css");
-@import url("/style/pages/portfolio.css");
-@import url("/style/pages/services.css");
-
 /* Importing type styles */
 @import url("/style/type/callouts.css");
 @import url("/style/type/code.css");
@@ -34,21 +28,79 @@
 
 /* Importing animation styles */
 @import url("/style/animations/fade_in_up.css");
+#heroouter,
+#landingbody,
+footer {
+	margin-left: -7rem;
+	position: relative;
+	z-index: 1;
+}
+
+#heroouter {
+	pointer-events: none;
+}
+
+#hero {
+	height: 85dvh;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	display: flex;
+	align-items: center;
+}
+
+#herotext {
+	display: block;
+}
+
+#herotext h1 {
+	font-size: 6rem;
+	line-height: 6rem;
+}
+
+#puddle-container {
+	color: var(--bright_grey);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	pointer-events: auto;
+	cursor: default;
+	user-select: none;
+}
+
+#puddle-container::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: linear-gradient(transparent, var(--black));
+	pointer-events: none;
+}
+
+@media (max-width: 700px) {
+	#heroouter,
+	#landingbody,
+	footer {
+		margin: 0;
+	}
+}
 
 </style>
 <html lang="en">
+	<meta charset="utf-8" />
+	<meta property="og:locale" content="en_AU" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:site_name" content="Vale Rocks" />
+	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+	<link href="https://github.com/DeclanChidlow" rel="me" />
+	<link href="https://fedi.vale.rocks/vale" rel="me" />
 
-<meta charset="utf-8">
-<meta property="og:locale" content="en_AU">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Declan Chidlow">
-<meta property="og:site_name" content="Vale Rocks">
-<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-<link href="https://github.com/DeclanChidlow" rel="me">
-<link href="https://fedi.vale.rocks/vale" rel="me">
-
-<script src="/assets/prism.js"></script>
-<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	<script src="/assets/prism.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 
 </head>
 <body>
@@ -57,7 +109,7 @@
 
     <nav>
     	<ul>
-    		<li><a href="/" style="font-weight: 900;">Vale</a></li>
+    		<li><a href="/" style="font-weight: 900">Vale</a></li>
     		<li><a href="/blog">Blog</a></li>
     		<li><a href="/portfolio">Portfolio</a></li>
     	</ul>
@@ -109,7 +161,8 @@
     	<a href="/donate">Donate</a>
     	</br>
     	© Declan Chidlow | 2019 -
-    	<script>document.write(new Date().getFullYear())</script><noscript>Current</noscript>
+    	<script>document.write(new Date().getFullYear())</script>
+    	<noscript>Current</noscript>
     </footer>
     
 </div>
