@@ -1,4 +1,7 @@
 footer {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
 	text-align: center;
 	margin: 2rem 0 1rem;
 }
@@ -10,4 +13,21 @@ footer a:active {
 	color: var(--yellow);
 	text-decoration: none;
 	padding: 0 0.5rem;
+}
+
+footer a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {
+	content: none;
+}
+
+footer #socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+footer img {
+	height: 1.5rem;
+	width: auto;
 }

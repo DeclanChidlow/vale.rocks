@@ -1,5 +1,5 @@
 nav {
-	padding: 0 50px;
+	padding: 0 3rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	width: 100%;
@@ -48,6 +48,6 @@ nav a:active {
 
 @media (max-width: 700px) {
 	nav {
-		padding: 0 10px;
+		padding: 0 0.8rem;
 	}
 }

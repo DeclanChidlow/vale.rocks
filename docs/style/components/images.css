@@ -1,15 +1,15 @@
 img {
-	width: 500px;
+	width: 30rem;
 }
 
 .left {
 	float: left;
-	margin: 10px 10px 10px 0;
+	margin: 0.8rem 0.8rem 0.8rem 0;
 }
 
 .right {
 	float: right;
-	margin: 10px 0 10px 10px;
+	margin: 0.8rem 0 0.8rem 0.8rem;
 }
 
 figcaption {
@@ -23,7 +23,7 @@ figcaption {
 	.right,
 	.left {
 		width: 100%;
-		margin: 10px 0;
+		margin: 0.8rem 0;
 		float: none;
 	}
 }

@@ -13,7 +13,7 @@ header::after {
 	left: 0;
 	width: calc(100% + 100px);
 	height: calc(100% + 20rem);
-	margin: -15rem 0 0 -50px;
+	margin: -15rem 0 0 -3rem;
 	background: linear-gradient(var(--header_background), transparent);
 	z-index: -1;
 }
@@ -33,7 +33,7 @@ header li:not(:last-child)::after {
 @media (max-width: 700px) {
 	header::after {
 		width: calc(100% + 20px);
-		margin-left: -10px;
+		margin-left: -0.8rem;
 	}
 
 	span#section {
