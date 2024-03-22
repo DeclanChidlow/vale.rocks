@@ -28,6 +28,7 @@ This year, I found myself doing a Certificate IV in Graphic Design that required
 Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn't the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.
 
 ## Installation
+
 While it may seem sensible to just jump straight into installation, there is a much better way to do it. You'll first need to [grab an ISO from Microsoft's website](https://www.microsoft.com/software-download/windows11). If you are wondering why I recommend Windows 11 over 10, it's for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.
 
 <span class="callout warning">
@@ -61,6 +62,7 @@ It is also useful to have a good terminal on hand. Microsoft's [Windows Terminal
 If you are sick of Windows' bloat, then you can try a debloater script such as [Win Debloat Tools](https://github.com/LeDragoX/Win-Debloat-Tools). Keep in mind debloat scripts can also cause harm by removing dependencies of other programs, so I recommend proceeding with the utmost caution.
 
 A few other assorted tools and programs that work on Windows and that I can recommend include:
+
 - [NanaZip](https://github.com/M2Team/NanaZip) - a decent archive manager based on 7-Zip.
 - [Firefox](https://www.mozilla.org/en-US/firefox/browsers) - an excellent browser.
 - [VLC](https://www.videolan.org/vlc) - a FOSS media player that plays just about anything.

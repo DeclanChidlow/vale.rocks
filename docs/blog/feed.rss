@@ -27,9 +27,10 @@ I've had a website for years but never quite gone all the way in configuring it.
 
 I will never quite finish this site. It'll likely be a work in progress my entire life. I'll keep tweaking, editing, and breaking it as time goes on, but that is the way it should be. To quote [Wendy Carlos' website](https://www.wendycarlos.com/live.html):
 
->"I'm happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a 'work in progress', for this would imply not much intrinsic value until that magic day it is completed. A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times -- get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept. While it is possible to 'finish' a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page."
+> "I'm happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a 'work in progress', for this would imply not much intrinsic value until that magic day it is completed. A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times -- get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept. While it is possible to 'finish' a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page."
 
 ## September 2023 Update
+
 Since the initial publication of this article, the entire site has been completely rewritten. This was due to a number of reasons and gripes I had with Jeckyll, which led me to migrate to Adduce, a static site generator of my own creation. It allows for significantly more flexibility and the ability to achieve plenty of more intricate features.
 
 As part of this migration, I've completely overhauled the site's design, resulting in something I feel is much sleeker, more unique, and more visually appealing. It should result in something that enhances the user experience and looks much better on all sorts of devices, screens, and web renderers. I've also reimplemented a range of the slightly dubious features with numerous improvements, such as the alterations made to the comments system, powered by [Giscus](https://giscus.app). Additionally, I've refined and enhanced a lot of my old articles, as I've significantly improved and refined my writing since their original publication.
@@ -70,6 +71,7 @@ If you had asked me at the start of this year my opinion on Halo, I wouldn't hav
 I'll be avoiding spoilers for the most part. If I've got anything specific to mention about the campaign, then I'll place it in a "Campaign Specifics" drop down at the conclusion of the entry. I recommend reading those sections after playing through the games, for they won't make much sense otherwise. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games. They're worth it. I also just want to give thanks to my friend Sebastien, who advised I get into the series. It was a good call.
 
 ## Halo: Combat Evolved
+
 Halo: Combat Evolved, often abbreviated to CE, is the first game in the series. It sets up what is to come and excels at it. The gunplay feels terrific, and the story flows with ease, painlessly holding audience attention.
 
 While the graphics have most definitely aged, I still recommend playing it without the anniversary graphical overhaul. The overhaul somewhat changed the tone of the game, especially the later missions such as The Library. Everything became a lot brighter, and some of the hit boxes don't line up quite as you'd expect. On the occasion that I attempted playing with the anniversary graphics, I consistently found disparities in level geometry eating my bullets.
@@ -78,7 +80,7 @@ CE also introduces the iconic Halo theme. I don't quite know how to express my l
 
 If you're interested in dipping your toes into the series without fully submerging yourself, then start with CE. It has a nice ending that, while being open, supplies an easy and satisfying stopping point.
 
-*Also, the pistol in this game may as well be a sniper rifle. It's super overpowered.*
+_Also, the pistol in this game may as well be a sniper rifle. It's super overpowered._
 
 <details>
 <summary>Campaign Specifics</summary>
@@ -88,6 +90,7 @@ CE has a pretty strong campaign, with the exception of one level. That being "Th
 </details>
 
 ## Halo 2
+
 Halo 2 looks at CE, throws out what didn't work, improves what did, and then cranks everything up to 11. It feels like a film you can play. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling creates an immersive experience that kept me firmly on the edge of my seat.
 
 Graphics have received a significant upgrade here, both the original graphics and the anniversary variant. I recommend trying both and settling on what you prefer. Personally, I played with anniversary graphics. The cutscenes with anniversary graphics are **really** marvellous. They look more real than reality itself.
@@ -104,6 +107,7 @@ The gameplay sees several improvements, with dual wielding, vehicle hijacking, a
 The only things I can speak negatively about are the aimbot sniper jackals at higher difficulties and the ending. The game concludes with quite the cliff hanger. This is due to Bungie, more or less, creating the entire game in about 9 months and having to slice the game pretty much in half to push it out in time. That said, it laid a solid groundwork for the next game in the series, Halo 3.
 
 ## Halo 3
+
 Halo 3 concludes the original trilogy and does a stellar job at it. It ties up the cliff hanger of 2 and concludes at a well-fitting point, providing appropriate closure.
 
 Halo 3 may not look all that great, at least compared to what the 360 would later achieve, but it has a lot of charm. The cutscenes of 3 are animated in a very specific way that leads them to feel almost cartoony in nature and provides a wonderful sense of energy. These cutscenes are my favourite of the series and my favourite parts of 3.
@@ -111,6 +115,7 @@ Halo 3 may not look all that great, at least compared to what the 360 would late
 I can't say it's my favourite game in the series from a gameplay perspective, as it didn't really add much to the experience other than deployable equipment and the gravity hammer. While I didn't find myself using the equipment all that often, I did love the gravity hammer. A super powerful melee weapon that sends enemies into the stratosphere with ease. The lethality and power paired with its animations make it feel weighty and menacing. The game also excelled at continuing the story and did an admirable job broadening the in-game universe.
 
 ## Halo 3: ODST
+
 ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don't play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don't get the armour or strength of a Spartan, and this shows in the gameplay.
 
 <figure class="right">
@@ -122,13 +127,14 @@ This game is notably different to the rest of the series, and it's best experien
 
 The graphics in this game are a noticeable, albeit minor, step up from Halo 3. Everything from the textures to the lighting, just looks better. It's also bathed in that sepia tone that the seventh generation of game consoles are known for.
 
-The music of this game, much like the gameplay, is a sound departure from Halo tradition. Gone is the orchestral grandeur of previous games, and in is *smooth jazz* (blues is probably a better description, but smooth jazz is much more humorous). While it may seem peculiar, it's oddly fitting. The blues, jazz, and noir influences have a notable impact on the game's urban and mysterious setting. It relies on ambient sounds to create an atmosphere that captures the feeling of walking through dark, rain-soaked streets, perfectly constructing a sense of isolation and introspection.
+The music of this game, much like the gameplay, is a sound departure from Halo tradition. Gone is the orchestral grandeur of previous games, and in is _smooth jazz_ (blues is probably a better description, but smooth jazz is much more humorous). While it may seem peculiar, it's oddly fitting. The blues, jazz, and noir influences have a notable impact on the game's urban and mysterious setting. It relies on ambient sounds to create an atmosphere that captures the feeling of walking through dark, rain-soaked streets, perfectly constructing a sense of isolation and introspection.
 
 The story is told by very different means, with the player piecing it together through flashbacks, the environment, and objects littered throughout it. The story also differs in its order. Where previous campaigns were strictly linear, ODST allows the player to play the missions in the order they choose. While this is a lovely idea, the missions still lead into each other, and the player is forced to go out of their way to play them any differently than was intended.
 
-Overall though, this different style of storytelling creates a very unique experience that pairs elegantly with the style of gameplay ODST strives for. 
+Overall though, this different style of storytelling creates a very unique experience that pairs elegantly with the style of gameplay ODST strives for.
 
 ## Halo Reach
+
 Reach is, in my opinion, the best game in the Halo series. I won't say too much here out of fear of spoiling it for someone, but it is so very good. In all honesty, I came very near to giving up on Reach towards the beginning. After having already played four games from the series, I was starting to tire. Following ODST, I kinda just wanted to jump back into the story as Master Chief and was chasing that high of the original trilogy. I'm so extremely glad I saw it through though for the game is stunning in every aspect.
 
 Gameplay wise it improved on the equipment mechanic from Halo 3 by incorporating Armour Abilities, a more varied, refined equipment system. It also improves on the weapons, with everything having a distinct and recognisable purpose. The enemy AIs also see a marked improvement and are considerably more fun to fight with troops, such as the Elites, moving a lot more erratically.
@@ -149,6 +155,7 @@ What really cemented my love for Reach was the epilogue. As you fight the losing
 </details>
 
 ## Halo 4
+
 Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it's a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.
 
 <figure class="right">
@@ -176,7 +183,8 @@ On the topic of Cortana, the ending scene between her and the Chief is executed 
 </details>
 
 ## Halo 5: Guardians
-This game could be better titled *"Call of Duty: In Space"*. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
+
+This game could be better titled _"Call of Duty: In Space"_. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
 
 It's almost like 343 Industries chucked away everything from Bungie's entries, took the worst bits from 4, reconstituted them, and mixed them in with the most soulless shooter they could find.
 
@@ -198,6 +206,7 @@ I vehemently oppose the decision to bring back Cortana, especially after the fit
 </details>
 
 ## Halo Infinite
+
 Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn't feasible on the hardware of the original Xbox.
 
 <figure class="right">
@@ -427,8 +436,8 @@ Document editing is a horrible business that I wouldn't wish on my worst enemy. 
 
 I've spent a lot of time trying to wrangle my word editing and perfect my proofreading performance by configuring and tweaking my LibreOffice setup to perfection. First thing to look at is why I chose LibreOffice over any other document suite.
 
-
 ## Best Suite
+
 I feel it'd be wrong to write this article without at least mentioning the many document editing suites available and how I came to decide on LibreOffice. I've highlighted what I feel are reasonable choices that are under support. This means I've excluded suites such as KOffice, AbiWord, and OpenOffice.
 
 [Microsoft Office](https://www.office.com) is obviously the biggest and arguably the best. It really needs no introduction; everyone uses Microsoft Office, and it has near endless features. It's backed by a huge corporation and works pretty well. The caveat is that it's locked behind an expensive subscription service and has telemetry built in. It's also not available on Linux, which completely writes it off for me.
@@ -442,15 +451,19 @@ I feel it'd be wrong to write this article without at least mentioning the many 
 The best office suite I've found has to be [LibreOffice](https://www.libreoffice.org). It integrates well with my computer, is fast, and is pretty fully featured. It's seen good support and shows little indication of slowing down. For that reason, it's my number one choice.
 
 ## Installation
+
 LibreOffice comes in two main versions: still and fresh. Still, is a stable version that doesn't get very frequent updates and lags behind in features, so I recommend Fresh. It has modern features and is much more stable than they give it credit for. On Arch Linux (my Linux distro of choice), it can be installed with `libreoffice-fresh`.
 
 ## General Setup
+
 The Arch Wiki has a wonderful guide, as always, on how to setup LibreOffice for general use. You can read it [here](https://wiki.archlinux.org/title/LibreOffice) and I very much recommend following it before the rest of my setup. It is Arch specific, but most can be translated for your distro. If you don't use Linux, then you can skip this section and move directly onto the next step. A few things I'd like to point out for my ultimate setup is that I use GTK for theming, disable the startup logo, and install texmaths for LaTeX support as outlined in the guide. I don't install the fonts as outlined in the Arch Wiki as I do it a different way for improved Microsoft Office compatibility.
 
 ## Theming
+
 Out of the box, LibreOffice isn't perfect. It looks alright but some work is needed. If, like me, you chose to use GTK for theming, then you can use [Gradience](https://gradienceteam.github.io) to get it looking just how you want. That said, do read [this](https://stopthemingmy.app) before using it. If you don't use GTK (or use something other then Linux) then you can ignore that and just change the icons. For this, you can navigate to `Tools > Options` in the menubar of any of the applications. In the popup window, navigate to `LibreOffice > View` and change the icon theme. I recommend the SVG version of Sukapura. You can choose the light or dark variant, depending on your theme.
 
 ## Improving Microsoft Office Compatibility
+
 <span class="callout note">
 If you're wondering, then yes, this part of the article has been around before. It had some issues and was rather narrow in scope, so I've since rewritten it. You can read the original from December 2022 on the Internet Archive <a href="https://web.archive.org/web/20230117143302/https://vale.rocks/blog/tutorials/LibreOffice_Setup">here</a>.
 </span>
@@ -458,18 +471,23 @@ If you're wondering, then yes, this part of the article has been around before. 
 If you're coming from Microsoft Office or have to interact with Microsoft's formats, then you may struggle with adapting your workflow or dealing with Office files. You should note that applications in LibreOffice have different names to those in MS Office. Word is Writer, PowerPoint is Impress, and Excel is Calc. To follow this next section of the guide, open up one of the applications within the suite, such as Writer.
 
 ### Changing the Ribbon
+
 By default, the ribbon (that collection of icons at the top of the program) in LibreOffice is more reminiscent of MS Office 9x than MS Office 365. There is, fortunately, an easy fix. In the top menubar, click `View > User Interface`. In the popup window that appears, select 'Tabbed' and then 'Apply to all'. This ensures that it will apply not just to the current program you're using but to the entire suite.
 
 ### Installing Fonts
+
 Microsoft have a lot of their own fonts. You can skip this section if you use Windows, but you'll likely want to acquire them if you use Linux, as they don't come pre-packaged. Luckily for us, they can generally be installed with relative ease. If using Arch Linux, then there is a very useful Arch Wiki article on it [here](https://wiki.archlinux.org/title/Microsoft_fonts). If you aren't using Arch, then I wish you the best of luck.
 
 ### Removing Format Warnings
+
 LibreOffice often screams at you if you use MS Office file types. You can hide these warnings when saving files by navigating to the `Tools > Options` (if you can't find `Tools` then try pressing `alt`). In the popup, you can then navigate to `Load/Save > General` and then untick 'Warn when not saving in ODF or default format'.
 
 ### Improving Embeds
+
 Many embedded objects from MS Office don't have perfect compatibility by default; to fix this, we can navigate to the `Tools > Options > Load/Save > Microsoft Office` and ensure all the boxes in the Embedded Objects section are ticked.
 
 ### Reorganising Forms and Adding Trailing Spaces
+
 Navigate to `Tools > Options > LibreOffice Writer > Compatibility` and ensure `Reorganise Form menu for Microsoft compatibility` and `Word-compatible trailing blanks` are ticked. Once done, click `Use as Default` and then `Yes` in the subsequent popup box.
 
 ---
@@ -640,6 +658,7 @@ This year, I found myself doing a Certificate IV in Graphic Design that required
 Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn't the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.
 
 ## Installation
+
 While it may seem sensible to just jump straight into installation, there is a much better way to do it. You'll first need to [grab an ISO from Microsoft's website](https://www.microsoft.com/software-download/windows11). If you are wondering why I recommend Windows 11 over 10, it's for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.
 
 <span class="callout warning">
@@ -673,6 +692,7 @@ It is also useful to have a good terminal on hand. Microsoft's [Windows Terminal
 If you are sick of Windows' bloat, then you can try a debloater script such as [Win Debloat Tools](https://github.com/LeDragoX/Win-Debloat-Tools). Keep in mind debloat scripts can also cause harm by removing dependencies of other programs, so I recommend proceeding with the utmost caution.
 
 A few other assorted tools and programs that work on Windows and that I can recommend include:
+
 - [NanaZip](https://github.com/M2Team/NanaZip) - a decent archive manager based on 7-Zip.
 - [Firefox](https://www.mozilla.org/en-US/firefox/browsers) - an excellent browser.
 - [VLC](https://www.videolan.org/vlc) - a FOSS media player that plays just about anything.
@@ -806,17 +826,20 @@ Had any issues with the process or think something may have changed? Leave a com
 Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.
 
 I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:
+
 - CPU: 12th Gen Intel(R) Core(TM) i5-1240P (16) @ 4.40 GHz
 - GPU: Intel Iris Xe Graphics
 - Memory: 2x 8GB DDR4-3200 RAM
 - Storage: 1TB WD BLACK SN770 NVMe SSD
 
 ## Assembly and Setup
+
 My laptop came very well packed, and upon unboxing, I got straight to building it. As I opted for the DIY edition, I had to remove the input cover, place in the SSD and RAM, and then reassemble the device. Then all I needed to do was slide in my expansion cards, and I was good to go. This was a very simple process, and the guide regarding it was comprehensive. The newer models are even easier, as the input cover comes detached.
 
 Following up on the hardware setup was the software setup. Installing Arch, my Linux distro of choice, proved nearly as seamless as ever. I did have to implement a small fix to get the brightness keys to function, but it was straightforward to implement and well documented. This was particularly fantabulous, as Arch isn't among their officially supported Linux distros. In fact, it's refreshing to see a list of officially supported distros at all.
 
 ## Cost & Value
+
 The cost associated with the Framework is undeniably high. There is no way around that. In comparison to other laptops with similar specifications, it is marginally more expensive. However, the initial cost shouldn't be the only consideration. Purchasing the Framework Laptop means investing in repairability. While it might seem more expensive upfront, the long-term value lies in the ability to replace components over time. This aspect ultimately justifies the initial expense, making it a more cost effective choice in the long run. It's also worth noting that you're supporting a smaller company that, in my opinion, seems dedicated to doing the right thing.
 
 With that said, you can save some money when buying your laptop by acquiring your RAM and SDD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.
@@ -825,13 +848,14 @@ With that said, you can save some money when buying your laptop by acquiring you
 <img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background." />
 </figure>
 
-
 ## Build Quality
+
 The build quality of the Framework is alright. While it doesn't exude the sturdiness of some other laptops I've encountered, it's far from flimsy. There is minor flex in the chassis if picking the laptop up from a corner, but it is so minimal that it's hardly of relevance. Of more notable concern are the screen and hinge.
 
 The screen itself is excellent. It's 3:2 aspect ratio is ideal for tasks such as coding and document processing but affects the structural design, leading to flex, which causes screen wobbling at the slightest nudge. This makes typing on a lap or in a car rather challenging. The hinge is also a hindrance, as it struggles to hold the screen at more aggressive angles. They have released newer, stronger hinges as an optional addition to combat this.
 
 ## Modularity & Customisation
+
 The reason that just about anyone would buy a Framework is for its user accessible servicing and customisation options. While I haven't yet broken my laptop, it's quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.
 
 Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. It's body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
@@ -839,27 +863,32 @@ Speaking of the included screwdriver, it's much better than it has any right to 
 Returning to the laptop, the flexibility to swap out components whenever I choose or opt for an upgrade adds a layer of convenience. The prospect of seamlessly installing new parts as they release is a significant advantage, as is choosing exactly the ports and components I want.
 
 ## Battery Life
+
 There is a negative sentiment online regarding the battery on the Framework. I've seen countless people claim that they only yield 5 hours of battery life from a charge. While that may have been true at a point, things have since improved. There was an issue with select expansion cards that caused increased power use, but, fortunately, Framework fixed it in subsequent productions and released a fix for those capable of performing it. Yes, these are issues, but Framework has gone above and beyond in not only addressing, but also actively rectifying them to the best of their ability.
 
 They've released a new 61Wh battery and battery optimisation improvements in their newer generations, especially in the AMD chipsets. Even without these improvements, I've been able to surpass over 10 hours out of the 55Wh battery in my laptop with some battery optimisations.
 
 ## Support
+
 Speaking of their commitment to addressing issues, their user support is excellent. In the few instances where I've contacted support, I've generally gotten very helpful and timely responses. Admirably, they seem to prioritise the mental health of their support employees. Their [stance against abuse](https://old.reddit.com/r/framework/comments/178jutx/moment_of_appreciation_for_framework_taking_care) and [aversion to seasonal hiring](https://community.frame.work/t/status-of-framework-support-november-6th-2023/39554) demonstrates a conscientious approach I really can't say I've seen elsewhere.
 
 As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. [There has been work done](https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta/25726), but it's been in beta for several months and sets a bad precedent.
 
 ## Community
+
 It isn't just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes I haven't seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day someone shares some crazy thing like [spring loaded expansion cards](https://community.frame.work/t/spring-loaded-expansion-card/36013) or a [crazy new form factor](https://community.frame.work/t/framework-gaming-handheld-video/36591). It's excellent to see. I've found that any issue I've encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.
 
 ## Overall Evaluation
+
 I think the Framework Laptop is excellent for just about anyone needing a computer, but especially the technologically inclined. This machine is excellent, especially as a tech enthusiast. The modularity and adaptability makes tinkering an absolute joy. Especially when backed by an exceptional community that's always ready to dive into the depths of innovation.
 
 If you need any further evidence as to how highly I regard the Framework Laptop 13, then the fact that I convinced my brother to select one as a replacement for his ageing Surface Go should tell you all you need to know. As he got it more recently, he had the option of the new AMD model, which meant waiting a while due to the batch system, but it only took just over a week to arrive once it shipped. He's been very happy with it, and it's worked excellently thus far.
 
 ## February 2023 Update
+
 I'm still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework has finally taken action in regards to the BIOS and [has released a new beta](https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244). This is great to see, as I was beginning to worry. People have also started receiving the new Framework Laptop 16, which is very exciting.
 
-In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly do love it. I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too hard, and was well documented, but took quite a bit of time. There were *so many* screws. I'm happy with the result though, and really love the sleek, minimalist style it provides.
+In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly do love it. I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too hard, and was well documented, but took quite a bit of time. There were _so many_ screws. I'm happy with the result though, and really love the sleek, minimalist style it provides.
 
 ---
 

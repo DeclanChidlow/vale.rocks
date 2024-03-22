@@ -27,6 +27,7 @@ If you had asked me at the start of this year my opinion on Halo, I wouldn't hav
 I'll be avoiding spoilers for the most part. If I've got anything specific to mention about the campaign, then I'll place it in a "Campaign Specifics" drop down at the conclusion of the entry. I recommend reading those sections after playing through the games, for they won't make much sense otherwise. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games. They're worth it. I also just want to give thanks to my friend Sebastien, who advised I get into the series. It was a good call.
 
 ## Halo: Combat Evolved
+
 Halo: Combat Evolved, often abbreviated to CE, is the first game in the series. It sets up what is to come and excels at it. The gunplay feels terrific, and the story flows with ease, painlessly holding audience attention.
 
 While the graphics have most definitely aged, I still recommend playing it without the anniversary graphical overhaul. The overhaul somewhat changed the tone of the game, especially the later missions such as The Library. Everything became a lot brighter, and some of the hit boxes don't line up quite as you'd expect. On the occasion that I attempted playing with the anniversary graphics, I consistently found disparities in level geometry eating my bullets.
@@ -35,7 +36,7 @@ CE also introduces the iconic Halo theme. I don't quite know how to express my l
 
 If you're interested in dipping your toes into the series without fully submerging yourself, then start with CE. It has a nice ending that, while being open, supplies an easy and satisfying stopping point.
 
-*Also, the pistol in this game may as well be a sniper rifle. It's super overpowered.*
+_Also, the pistol in this game may as well be a sniper rifle. It's super overpowered._
 
 <details>
 <summary>Campaign Specifics</summary>
@@ -45,6 +46,7 @@ CE has a pretty strong campaign, with the exception of one level. That being "Th
 </details>
 
 ## Halo 2
+
 Halo 2 looks at CE, throws out what didn't work, improves what did, and then cranks everything up to 11. It feels like a film you can play. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling creates an immersive experience that kept me firmly on the edge of my seat.
 
 Graphics have received a significant upgrade here, both the original graphics and the anniversary variant. I recommend trying both and settling on what you prefer. Personally, I played with anniversary graphics. The cutscenes with anniversary graphics are **really** marvellous. They look more real than reality itself.
@@ -61,6 +63,7 @@ The gameplay sees several improvements, with dual wielding, vehicle hijacking, a
 The only things I can speak negatively about are the aimbot sniper jackals at higher difficulties and the ending. The game concludes with quite the cliff hanger. This is due to Bungie, more or less, creating the entire game in about 9 months and having to slice the game pretty much in half to push it out in time. That said, it laid a solid groundwork for the next game in the series, Halo 3.
 
 ## Halo 3
+
 Halo 3 concludes the original trilogy and does a stellar job at it. It ties up the cliff hanger of 2 and concludes at a well-fitting point, providing appropriate closure.
 
 Halo 3 may not look all that great, at least compared to what the 360 would later achieve, but it has a lot of charm. The cutscenes of 3 are animated in a very specific way that leads them to feel almost cartoony in nature and provides a wonderful sense of energy. These cutscenes are my favourite of the series and my favourite parts of 3.
@@ -68,6 +71,7 @@ Halo 3 may not look all that great, at least compared to what the 360 would late
 I can't say it's my favourite game in the series from a gameplay perspective, as it didn't really add much to the experience other than deployable equipment and the gravity hammer. While I didn't find myself using the equipment all that often, I did love the gravity hammer. A super powerful melee weapon that sends enemies into the stratosphere with ease. The lethality and power paired with its animations make it feel weighty and menacing. The game also excelled at continuing the story and did an admirable job broadening the in-game universe.
 
 ## Halo 3: ODST
+
 ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don't play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don't get the armour or strength of a Spartan, and this shows in the gameplay.
 
 <figure class="right">
@@ -79,13 +83,14 @@ This game is notably different to the rest of the series, and it's best experien
 
 The graphics in this game are a noticeable, albeit minor, step up from Halo 3. Everything from the textures to the lighting, just looks better. It's also bathed in that sepia tone that the seventh generation of game consoles are known for.
 
-The music of this game, much like the gameplay, is a sound departure from Halo tradition. Gone is the orchestral grandeur of previous games, and in is *smooth jazz* (blues is probably a better description, but smooth jazz is much more humorous). While it may seem peculiar, it's oddly fitting. The blues, jazz, and noir influences have a notable impact on the game's urban and mysterious setting. It relies on ambient sounds to create an atmosphere that captures the feeling of walking through dark, rain-soaked streets, perfectly constructing a sense of isolation and introspection.
+The music of this game, much like the gameplay, is a sound departure from Halo tradition. Gone is the orchestral grandeur of previous games, and in is _smooth jazz_ (blues is probably a better description, but smooth jazz is much more humorous). While it may seem peculiar, it's oddly fitting. The blues, jazz, and noir influences have a notable impact on the game's urban and mysterious setting. It relies on ambient sounds to create an atmosphere that captures the feeling of walking through dark, rain-soaked streets, perfectly constructing a sense of isolation and introspection.
 
 The story is told by very different means, with the player piecing it together through flashbacks, the environment, and objects littered throughout it. The story also differs in its order. Where previous campaigns were strictly linear, ODST allows the player to play the missions in the order they choose. While this is a lovely idea, the missions still lead into each other, and the player is forced to go out of their way to play them any differently than was intended.
 
-Overall though, this different style of storytelling creates a very unique experience that pairs elegantly with the style of gameplay ODST strives for. 
+Overall though, this different style of storytelling creates a very unique experience that pairs elegantly with the style of gameplay ODST strives for.
 
 ## Halo Reach
+
 Reach is, in my opinion, the best game in the Halo series. I won't say too much here out of fear of spoiling it for someone, but it is so very good. In all honesty, I came very near to giving up on Reach towards the beginning. After having already played four games from the series, I was starting to tire. Following ODST, I kinda just wanted to jump back into the story as Master Chief and was chasing that high of the original trilogy. I'm so extremely glad I saw it through though for the game is stunning in every aspect.
 
 Gameplay wise it improved on the equipment mechanic from Halo 3 by incorporating Armour Abilities, a more varied, refined equipment system. It also improves on the weapons, with everything having a distinct and recognisable purpose. The enemy AIs also see a marked improvement and are considerably more fun to fight with troops, such as the Elites, moving a lot more erratically.
@@ -106,6 +111,7 @@ What really cemented my love for Reach was the epilogue. As you fight the losing
 </details>
 
 ## Halo 4
+
 Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it's a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.
 
 <figure class="right">
@@ -133,7 +139,8 @@ On the topic of Cortana, the ending scene between her and the Chief is executed 
 </details>
 
 ## Halo 5: Guardians
-This game could be better titled *"Call of Duty: In Space"*. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
+
+This game could be better titled _"Call of Duty: In Space"_. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
 
 It's almost like 343 Industries chucked away everything from Bungie's entries, took the worst bits from 4, reconstituted them, and mixed them in with the most soulless shooter they could find.
 
@@ -155,6 +162,7 @@ I vehemently oppose the decision to bring back Cortana, especially after the fit
 </details>
 
 ## Halo Infinite
+
 Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn't feasible on the hardware of the original Xbox.
 
 <figure class="right">
