@@ -18,6 +18,7 @@ cd blog
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish Everything_Is_Chrome
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish I_Hate_My_Nokia
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish Cybersecurity_Superstition
+/home/vale/gitrepos/Adduce/target/release/adduce feed publish Minecraft_And_Me
 cp -r feed/export/. ../docs/blog
 
 cd ../
