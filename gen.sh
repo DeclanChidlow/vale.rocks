@@ -18,6 +18,7 @@ adduce feed publish A_Year_With_The_Framework_Laptop_13
 adduce feed publish Everything_Is_Chrome
 adduce feed publish I_Hate_My_Nokia
 adduce feed publish Cybersecurity_Superstition
+adduce feed publish Minecraft_Nostalgia_And_Growing_Up
 cp -r feed/export/. ../docs/blog
 
 cd ../

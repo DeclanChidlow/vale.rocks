@@ -25,8 +25,8 @@
 <div class="post">
 
 Review
-### [Minecraft and Me](/blog/Minecraft_And_Me)
-<time datetime="2024-04-02">02 Apr, 2024</time> | 1189 words | 4 minute read
+### [Minecraft, Nostalgia, and Growing Up](/blog/Minecraft_Nostalgia_And_Growing_Up)
+<time datetime="2024-04-02">02 Apr, 2024</time> | 1380 words | 5 minute read
 </div>
 
 <div class="post">
