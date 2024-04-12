@@ -40,7 +40,7 @@ Essay
 
 Review
 ### [I Hate My Nokia](/blog/I_Hate_My_Nokia)
-<time datetime="2024-02-03">03 Feb, 2024</time> | 926 words | 3 minute read
+<time datetime="2024-02-03">03 Feb, 2024</time> | 1064 words | 4 minute read
 </div>
 
 <div class="post">
