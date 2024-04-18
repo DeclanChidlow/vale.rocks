@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<head>
+<style>
+/* Importing variable styles */
+@import url("/style/variables/colours.css");
+
+/* Importing base styles */
+@import url("/style/base/reset.css");
+@import url("/style/base/body.css");
+@import url("/style/base/standard.css");
+
+/* Importing type styles */
+@import url("/style/type/callouts.css");
+@import url("/style/type/code.css");
+@import url("/style/type/headers.css");
+@import url("/style/type/links.css");
+@import url("/style/type/syntax_highlighting.css");
+@import url("/style/type/type.css");
+
+/* Importing component styles */
+@import url("/style/components/footer.css");
+@import url("/style/components/images.css");
+@import url("/style/components/input.css");
+@import url("/style/components/navbar.css");
+@import url("/style/components/post_header.css");
+@import url("/style/components/section.css");
+@import url("/style/components/seperator.css");
+
+/* Importing animation styles */
+@import url("/style/animations/fade_in_up.css");
+
+</style>
+<html lang="en">
+	<meta charset="utf-8" />
+	<meta property="og:locale" content="en_AU" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:site_name" content="Vale Rocks" />
+	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<script src="/assets/prism.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script src="https://giscus.app/client.js" data-repo="DeclanChidlow/vale.rocks" data-repo-id="R_kgDOGKfOVg" data-category="Comments" data-category-id="DIC_kwDOGKfOVs4CY4vS" data-mapping="title" data-strict="1" data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="transparent_dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async></script>
+
+</head>
+<body>
+<div class="page">
+
+
+    <nav>
+    	<ul>
+    		<li><a href="/" style="font-weight: 900">Vale</a></li>
+    		<li><a href="/blog">Blog</a></li>
+    		<li><a href="/portfolio">Portfolio</a></li>
+    	</ul>
+    </nav>
+    
+    <div id="content">
+    
+
+    <span id='section'>Blog</span><div id='postbody'>
+
+    <style>:root{--header_background: var(--magenta)}</style><head>
+    <title>My Code Formatting Guidelines | Vale.Rocks</title>
+    <meta property="og:title" content="My Code Formatting Guidelines"/>
+    <meta name="description" content="Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, the classic tabs vs spaces debate, and much more." />
+    <meta property="og:description" content="Stirring the tabs vs spaces pot once again." />
+    <meta property="article:published_time" content="2024-04-18" />
+    <meta property="article:modified_time" content="2024-04-18" />
+    <meta property="article:section" content="Tutorials" />
+</head>
+<article>
+<header>
+	Tutorial
+	<h1>
+		My Code Formatting Guidelines
+	</h1>
+	<ul>
+		<li><time datetime="2024-04-18">18 Apr, 2024</time></li>
+		<li>746 words</li>
+		<li>3 minute read</li>
+	</ul>
+</header>
+<p>Software development is a varied field filled with lots of different people with very strong opinions. When working on projects, it's important that everyone follows the same guidelines for the sake of compatibility and coherence.</p>
+<p>This document outlines my personal code style guidelines and how I implement them. Much of what I outline here can be achieved using <a href="https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml">my Prettier configuration</a>. Where relevant, I've included the related Prettier config lines.</p>
+<p>Note that I am a frontend developer, and, as such, this documentation is best tailored to that. If you wish to utilise my guidelines outside the sphere of frontend development, then you may need to make some alterations.</p>
+<h2>Use Tabs</h2>
+<p>Tabs should be used for indentation for several reasons. These include:</p>
+<ul>
+<li>Semantic indication of indentation</li>
+<li>Customisable display</li>
+<li>Improved accessibility</li>
+<li>Smaller file sizes</li>
+</ul>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#tabs"><code>useTabs: true</code></a></p>
+<h2>Always Add Semicolons</h2>
+<p>When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it's ideal to see exactly what code will be executed.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#semicolons"><code>semi: true</code></a></p>
+<pre><code class="language-JavaScript">// Bad
+function name {
+	console.log(&quot;I truly do love JavaScript&quot;)
+}
+
+// Good
+function name {
+	console.log(&quot;I truly do love JavaScript&quot;);
+}
+</code></pre>
+<h2>Use Double Quotes</h2>
+<p>Strings should use double quotes (<code>&quot;&quot;</code>), not single quotes (<code>''</code>). This makes it easier to use single quotes (which are more common) within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#quotes"><code>singleQuote: true</code></a>, <a href="https://prettier.io/docs/en/options.html#jsx-quotes"><code>jsxSingleQuote: false</code></a></p>
+<pre><code class="language-JavaScript">// Bad
+const variable = &quot;String Content&quot;;
+
+// Good
+const variable = 'String Content';
+</code></pre>
+<h2>Quote Properties</h2>
+<p>Properties should all be quoted in the same way, rather than introducing unnecessary (and potentially confusing) variation within an object.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#quote-props"><code>quoteProps: &quot;consistent&quot;</code></a></p>
+<pre><code class="language-JavaScript">// Bad
+object = {
+	property1: &quot;content&quot;,
+	&quot;property2&quot;: &quot;content&quot;
+};
+
+// Good
+object = {
+	&quot;property1&quot;: &quot;content&quot;,
+	&quot;property2&quot;: &quot;content&quot;
+};
+</code></pre>
+<h2>Don't Split Strings Across Multiple Lines</h2>
+<p>Strings should be contained within one line unless there is genuine reason not to. It makes things hard to search and is a pain to deal with.</p>
+<pre><code class="language-JavaScript">// Bad
+const variable = 'This is awful. It may be easier for a human to read, but \
+it leads to annoyance and makes it harder to search for things. It is an \
+all around pain.';
+
+// Good
+const variable = 'This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.';
+</code></pre>
+<h2>Use Trailing Commas</h2>
+<p>Trailing commas make version history cleaner. Rather than a change implementing a new line <em>and</em> a comma on the previous line, it will only need to add the new line.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#trailing-commas"><code>trailingComma: &quot;all&quot;</code></a></p>
+<pre><code class="language-JavaScript">// Bad
+object = {
+	property1: &quot;content&quot;,
+	&quot;property2&quot;: &quot;content&quot;
+};
+
+// Good
+object = {
+	&quot;property1&quot;: &quot;content&quot;,
+	&quot;property2&quot;: &quot;content&quot;,
+};
+</code></pre>
+<h2>Space Brackets</h2>
+<p>Brackets should have spaces on either side to provide padding. This makes it easier to read and maintains consistency.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#bracket-spacing"><code>bracketSpacing: true</code></a></p>
+<pre><code class="language-JavaScript">// Bad
+{foo: bar}
+
+// Good
+{ foo: bar }
+</code></pre>
+<h2>Use Arrow Parentheses</h2>
+<p>Using arrow parentheses makes it easier to read and make changes.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses"><code>arrowParens: always</code></a></p>
+<pre><code class="language-JavaScript">// Bad
+x =&gt; x
+
+// Good
+(x) =&gt; x
+</code></pre>
+<h2>Unwrap Prose</h2>
+<p>Prose formatting should be handled slightly differently to code. As such, each block of prose should be unwrapped into one line. This makes it easy for any editor to define how they want prose to display.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#prose-wrap"><code>proseWrap: preserve</code></a></p>
+<h2>HTML Whitespace Sensitive Formatting</h2>
+<p>Formatting HTML can be messy due to the way browsers parse whitespace. Prettier <a href="https://prettier.io/blog/2018/11/07/1.15.0#whitespace-sensitive-formatting">offers a good explanation of it</a>, but the crux is that their CSS formatting option offers the best mix of human readability and preservation of whitespace.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#html-whitespace-sensitivity"><code>htmlWhitespaceSensitivity: css</code></a></p>
+<h2>Line Feed End of Line</h2>
+<p>Different operating systems handle line endings differently, and things get messy quick. Using line feed, which is common on Unix based systems, is a clean option that is also supported on Windows.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#end-of-line"><code>endOfLine: lf</code></a></p>
+<h2>Format Embedded Languages</h2>
+<p>Code of one type used within a file of another should be formatted as you would code in it's native filetype.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#embedded-language-formatting"><code>embeddedLanguageFormatting: auto</code></a></p>
+<h2>Keep Multiple Attributes Per Line</h2>
+<p>Splitting an element's attributes into multiple lines takes up a lot of space and, on larger elements, leads to very long and unwieldy files.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#single-attribute-per-line"><code>singleAttributePerLine: false</code></a></p>
+<pre><code class="language-HTML">// Bad
+&lt;div
+	 class=&quot;name&quot;
+	 id=&quot;name&quot;
+&gt;
+	Content
+&lt;/div&gt;
+
+// Good
+&lt;div class=&quot;name&quot; id=&quot;name&quot;&gt;
+	Content
+&lt;/div&gt;
+</code></pre>
+<hr />
+<p>As I opened with, the formatting of code is a decisive and complex topic. I'm sure many people disagree with my code formatting guidelines, and I'd love to hear your criticisms in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
+</article>
+<p><span class="giscus"></span></p>
+
+</div>
+</body>

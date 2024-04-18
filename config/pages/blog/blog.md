@@ -24,6 +24,13 @@
 
 <div class="post">
 
+Tutorial
+### [My Code Formatting Guidelines](/blog/My_Code_Formatting_Guidelines)
+<time datetime="2024-04-18">18 Apr, 2024</time> | 746 words | 3 minute read
+</div>
+
+<div class="post">
+
 Review
 ### [Minecraft, Nostalgia, and Growing Up](/blog/Minecraft_Nostalgia_And_Growing_Up)
 <time datetime="2024-04-02">02 Apr, 2024</time> | 1380 words | 5 minute read

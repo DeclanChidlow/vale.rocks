@@ -5,7 +5,7 @@
     <meta property="og:description" content="Nokia is, quite literally, not the company they used to be." />
     <meta property="article:published_time" content="2024-02-03" />
     <meta property="article:modified_time" content="2024-04-12" />
-    <meta property="article:section" content="Review" />
+    <meta property="article:section" content="Reviews" />
 </head>
 
 <article>

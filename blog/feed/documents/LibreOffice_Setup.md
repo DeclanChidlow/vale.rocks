@@ -5,7 +5,7 @@
     <meta property="og:description" content="A guide to sorting the office suite solution." />
     <meta property="article:published_time" content="2023-06-16" />
     <meta property="article:modified_time" content="2023-11-22" />
-    <meta property="article:section" content="Tutorial" />
+    <meta property="article:section" content="Tutorials" />
 </head>
 
 <article>

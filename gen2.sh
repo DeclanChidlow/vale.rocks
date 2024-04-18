@@ -19,6 +19,8 @@ cd blog
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish I_Hate_My_Nokia
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish Cybersecurity_Superstition
 /home/vale/gitrepos/Adduce/target/release/adduce feed publish Minecraft_Nostalgia_And_Growing_Up
+/home/vale/gitrepos/Adduce/target/release/adduce feed publish My_Code_Formatting_Guidelines 
+
 cp -r feed/export/. ../docs/blog
 
 cd ../

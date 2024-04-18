@@ -5,8 +5,7 @@
     <meta property="og:description" content="My thoughts on one of the biggest names in gaming." />
     <meta property="article:published_time" content="2023-08-27" />
     <meta property="article:modified_time" content="2024-02-27" />
-    <meta property="article:section" content="Review" />
-    <meta property="og:image" content="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg"/>
+    <meta property="article:section" content="Reviews" />
 </head>
 
 <article>
