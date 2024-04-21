@@ -1,40 +1,59 @@
 #!/usr/bin/env bash
-adduce -c config/pages/index -n index.html -o docs
-adduce -c config/pages/blog -n blog.html -o docs
-adduce -c config/pages/portfolio -n portfolio.html -o docs
-adduce -c config/pages/contact -n contact.html -o docs
-adduce -c config/pages/donate -n donate.html -o docs
-adduce -c config/pages/404 -n 404.html -o docs
-adduce -c config/pages/services -n services.html -o docs
 
+# Generate standard pages
+pages=(
+    "config/pages/index index.html"
+    "config/pages/blog blog.html"
+    "config/pages/portfolio portfolio.html"
+    "config/pages/contact contact.html"
+    "config/pages/donate donate.html"
+    "config/pages/services services.html"
+	"config/pages/404 404.html"
+)
+
+for page_config in "${pages[@]}"; do
+    page="${page_config%% *}"
+    output="${page_config#* }"
+    /home/vale/gitrepos/Adduce/target/release/adduce -c "$page" -n "$output" -o docs
+done
+
+# Generate blog posts
 cd blog
-adduce feed publish Welcome
-adduce feed publish Revolt_Promotion
-adduce feed publish LibreOffice_Setup
-adduce feed publish Halo_My_Thoughts
-adduce feed publish Making_Windows_Usable
-adduce feed publish Prematurely_Pulling_The_Plug_On_3G
-adduce feed publish A_Year_With_The_Framework_Laptop_13
-adduce feed publish Everything_Is_Chrome
-adduce feed publish I_Hate_My_Nokia
-adduce feed publish Cybersecurity_Superstition
-adduce feed publish Minecraft_Nostalgia_And_Growing_Up
+blog_feeds=(
+    "Welcome"
+    "School_Internet"
+    "LibreOffice_Setup"
+    "Halo_My_Thoughts"
+    "Making_Windows_Usable"
+    "Prematurely_Pulling_The_Plug_On_3G"
+    "A_Year_With_The_Framework_Laptop_13"
+    "Everything_Is_Chrome"
+    "I_Hate_My_Nokia"
+    "Cybersecurity_Superstition"
+    "Minecraft_Nostalgia_And_Growing_Up"
+    "My_Code_Formatting_Guidelines"
+)
+for feed in "${blog_feeds[@]}"; do
+    /home/vale/gitrepos/Adduce/target/release/adduce feed publish "$feed"
+done
 cp -r feed/export/. ../docs/blog
+cd ..
 
-cd ../
-
+# Generate portfolio items
 cd portfolio
-adduce feed publish CapChord
-adduce feed publish devoposters
-adduce feed publish futurefrequencies
-adduce feed publish koko
-adduce feed publish meattypeface
-adduce feed publish photography
-adduce feed publish poemsbypam
-adduce feed publish smashburger
+portfolio_feeds=(
+    "Mutant_Remix"
+    "CapChord"
+    "Poems_By_Pam"
+    "Meat_Typeface"
+    "Photography"
+)
+for feed in "${portfolio_feeds[@]}"; do
+    /home/vale/gitrepos/Adduce/target/release/adduce feed publish "$feed"
+done
 cp -r feed/export/. ../docs/portfolio
+cd ..
 
-cd ../
-
+# Copy global styles and assets
 cp -r config/global/style docs/
 cp -r config/global/assets docs/
