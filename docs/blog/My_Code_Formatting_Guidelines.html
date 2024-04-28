@@ -128,12 +128,12 @@ object = {
 <h2>Don't Split Strings Across Multiple Lines</h2>
 <p>Strings should be contained within one line unless there is genuine reason not to. It makes things hard to search and is a pain to deal with.</p>
 <pre><code class="language-JavaScript">// Bad
-const variable = 'This is awful. It may be easier for a human to read, but \
+const variable = "This is awful. It may be easier for a human to read, but \
 it leads to annoyance and makes it harder to search for things. It is an \
-all around pain.';
+all around pain.";
 
 // Good
-const variable = 'This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.';
+const variable = "This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.";
 </code></pre>
 <h2>Use Trailing Commas</h2>
 <p>Trailing commas make version history cleaner. Rather than a change implementing a new line <em>and</em> a comma on the previous line, it will only need to add the new line.</p>

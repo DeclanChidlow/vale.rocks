@@ -98,12 +98,12 @@ Strings should be contained within one line unless there is genuine reason not t
 
 ```JavaScript
 // Bad
-const variable = 'This is awful. It may be easier for a human to read, but \
+const variable = "This is awful. It may be easier for a human to read, but \
 it leads to annoyance and makes it harder to search for things. It is an \
-all around pain.';
+all around pain.";
 
 // Good
-const variable = 'This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.';
+const variable = "This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.";
 ```
 
 ## Use Trailing Commas
