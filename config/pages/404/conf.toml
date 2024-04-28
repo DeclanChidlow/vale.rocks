@@ -1,8 +1,12 @@
-style = ["config/global/style/style.css"]
-
-head = ["config/global/elements/head.html"]
-
 [main]
+
+[[main.block]]
+from_str = "config/global/elements/head.html"
+style = "html"
+
+[[main.block]]
+from_str = "config/pages/404/head.html"
+style = "html"
 
 [[main.block]]
 from_str = "config/global/elements/navbar.html"

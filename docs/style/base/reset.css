@@ -19,7 +19,7 @@ body {
 
 /* Typographic tweaks */
 body {
-	line-height: calc(1em + 0.5rem);
+	line-height: calc(1rem + 0.5rem);
 	-webkit-font-smoothing: antialiased;
 }
 

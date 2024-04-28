@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.
 
 ## The Early Days
@@ -155,8 +157,6 @@ You're likely wondering what you can do. The answer is simple: use another brows
 
 Share this article around and promote its message. Preserving an open web is crucial. Failure to achieve this will lead to disaster, and we can't let it happen.
 
-</article>
-
 <details>
 <summary>Sources</summary>
 
@@ -175,4 +175,7 @@ Share this article around and promote its message. Preserving an open web is cru
 
 </details>
 
-<span class="giscus"></span>
+<section class="giscus"></section>
+
+</div>
+</article>

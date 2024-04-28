@@ -2,19 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
 p {
-	line-height: 1.4rem;
 	margin-bottom: 0.8rem;
 }
 
-#postbody p {
-	max-width: 70ch;
+.readable_width {
+	max-width: 80ch;
 }
 
 blockquote {
-	margin-right: 0.3rem;
-	padding: 0 0.3rem;
+	padding: 0.5rem 1rem;
 	background: var(--dark_grey);
-	border-left: 0.3rem solid var(--grey);
+	border-left: 0.2rem solid var(--grey);
+	margin-bottom: 0.8rem;
+
+	p {
+		margin: 0;
+	}
 }
 
 li {

@@ -1,85 +1,58 @@
-<!DOCTYPE html>
-<head>
-<style>
-/* Importing variable styles */
-@import url("/style/variables/colours.css");
-
-/* Importing base styles */
-@import url("/style/base/reset.css");
-@import url("/style/base/body.css");
-@import url("/style/base/standard.css");
-
-/* Importing type styles */
-@import url("/style/type/callouts.css");
-@import url("/style/type/code.css");
-@import url("/style/type/headers.css");
-@import url("/style/type/links.css");
-@import url("/style/type/syntax_highlighting.css");
-@import url("/style/type/type.css");
-
-/* Importing component styles */
-@import url("/style/components/footer.css");
-@import url("/style/components/images.css");
-@import url("/style/components/input.css");
-@import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
-@import url("/style/components/section.css");
-@import url("/style/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/style/animations/fade_in_up.css");
-
-</style>
-<html lang="en">
-	<meta charset="utf-8" />
-	<meta property="og:locale" content="en_AU" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Declan Chidlow" />
-	<meta property="og:site_name" content="Vale Rocks" />
-	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-	<link rel="me" href="https://fedi.vale.rocks/vale" />
-	<link rel="me" href="https://github.com/DeclanChidlow" />
-	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
-
-	<script src="/assets/prism.js"></script>
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-<meta property="og:type" content="article" />
-<meta property="article:author" content="Declan Chidlow" />
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="DeclanChidlow/vale.rocks"
-	data-repo-id="R_kgDOGKfOVg"
-	data-category="Comments"
-	data-category-id="DIC_kwDOGKfOVs4CY4vS"
-	data-mapping="og:title"
-	data-strict="1"
-	data-reactions-enabled="1"
-	data-emit-metadata="1"
-	data-input-position="top"
-	data-theme="transparent_dark"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
-
-</head>
-<body>
-<div class="page">
 
 
-    <nav>
-    	<ul>
-    		<li><a href="/" style="font-weight: 900">Vale</a></li>
-    		<li><a href="/blog">Blog</a></li>
-    		<li><a href="/portfolio">Portfolio</a></li>
-    	</ul>
-    </nav>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta property="og:locale" content="en_AU" />
+    	<meta name="author" content="Declan Chidlow" />
+    	<meta property="og:site_name" content="Vale Rocks" />
+    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+    	<link rel="me" href="https://fedi.vale.rocks/vale" />
+    	<link rel="me" href="https://github.com/DeclanChidlow" />
+    	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    <div id="content">
+    	<script src="/assets/prism.js"></script>
+    	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
-    <span id='section'>Blog</span><div id='postbody'>
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Declan Chidlow" />
+    
+    <script
+    	src="https://giscus.app/client.js"
+    	data-repo="DeclanChidlow/vale.rocks"
+    	data-repo-id="R_kgDOGKfOVg"
+    	data-category="Comments"
+    	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+    	data-mapping="og:title"
+    	data-strict="1"
+    	data-reactions-enabled="1"
+    	data-emit-metadata="1"
+    	data-input-position="top"
+    	data-theme="transparent_dark"
+    	data-lang="en"
+    	data-loading="lazy"
+    	crossorigin="anonymous"
+    	async></script>
+    
+
+    <header id="navbar">
+    	<a href="/" id="navlanding">Vale</a>
+    	<nav>
+    		<ul>
+    			<li><a href="/blog">Blog</a></li>
+    			<li><a href="/portfolio">Portfolio</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+    
+
+    <span id='section'>Blog</span>
 
     <style>:root{--header_background: var(--magenta)}</style><head>
     <title>Cybersecurity Superstition | Vale.Rocks</title>
@@ -102,6 +75,7 @@
 		<li>7 minute read</li>
 	</ul>
 </header>
+<div class="readable_width">
 <p>Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the 'hacker' is wearing a Guy Fawkes mask. However, this depiction couldn't be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.</p>
 <p>Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I've decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.</p>
 <span class="callout note">
@@ -154,11 +128,9 @@ This article is written with the average computer user in mind. In its suggestio
 <h2>VPNs</h2>
 <p>In the same vein as antiviruses, many Virtual Private Network (VPN) operators employ the same scare tactics and fearmongering regarding issues that haven't been relevant for years.</p>
 <p>They especially advertise that they can mask users IPs, which, as discussed previously, isn't as important for most people as it may seem. Even if it were hugely important, it just means that your IP is being sent to them instead of elsewhere.</p>
-<p>There is much more to be said about VPNs, but nothing that isn't better covered by Tom Scott's excellent video, <a href="https://www.youtube.com/watch?v=WVDQEoe6ZWY">&quot;This Video Is Sponsored By ███ VPN&quot;</a>.</p>
+<p>There is much more to be said about VPNs, but nothing that isn't better covered by Tom Scott's excellent video, <a href="https://www.youtube.com/watch?v=WVDQEoe6ZWY">"This Video Is Sponsored By ███ VPN"</a>.</p>
 <hr />
 <p>Cybersecurity is important, and it's worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I'd love to hear them in the comments below.</p>
-</article>
-<p><span class="giscus"></span></p>
-
+<section class="giscus"></section>
 </div>
-</body>
+</article>

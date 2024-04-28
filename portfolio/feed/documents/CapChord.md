@@ -1,14 +1,18 @@
 <head>
-  <title>CapChord</title>
+  <title>CapChord | Vale.Rocks</title>
   <meta property="og:title" content="CapChord"/>
+  <meta property="article:section" content="Portfolio" />
 </head>
 
+<article>
 <header>
 	 Tech Support Business
 	<h1>
 		CapChord
 	</h1>
 </header>
+
+<div class="readable_width">
 
 CapChord is a mobile call-out business that I both personally own and operate. It's dedicated to helping the elderly and those with limited technical knowledge by providing support with a range of digital tasks.
 
@@ -20,3 +24,6 @@ I've faced a few problems with CapChord. With no formal training in business I h
 
 ## Lessons Learned
 Through this job I've learned much. I've learnt how to liaise with clients, how to act in a professional environment, and the basics of running a business. It's also had a large hand in building my confidence as well as other soft skills.
+
+</div>
+</article>

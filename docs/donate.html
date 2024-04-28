@@ -1,91 +1,70 @@
-<!DOCTYPE html>
-<head>
-<style>
-/* Importing variable styles */
-@import url("/style/variables/colours.css");
-
-/* Importing base styles */
-@import url("/style/base/reset.css");
-@import url("/style/base/body.css");
-@import url("/style/base/standard.css");
-
-/* Importing type styles */
-@import url("/style/type/callouts.css");
-@import url("/style/type/code.css");
-@import url("/style/type/headers.css");
-@import url("/style/type/links.css");
-@import url("/style/type/syntax_highlighting.css");
-@import url("/style/type/type.css");
-
-/* Importing component styles */
-@import url("/style/components/footer.css");
-@import url("/style/components/images.css");
-@import url("/style/components/input.css");
-@import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
-@import url("/style/components/section.css");
-@import url("/style/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/style/animations/fade_in_up.css");
-
-</style>
-<html lang="en">
-	<meta charset="utf-8" />
-	<meta property="og:locale" content="en_AU" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Declan Chidlow" />
-	<meta property="og:site_name" content="Vale Rocks" />
-	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-	<link rel="me" href="https://fedi.vale.rocks/vale" />
-	<link rel="me" href="https://github.com/DeclanChidlow" />
-	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
-
-	<script src="/assets/prism.js"></script>
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-
-</head>
-<body>
-<div class="page">
 
 
-    <nav>
-    	<ul>
-    		<li><a href="/" style="font-weight: 900">Vale</a></li>
-    		<li><a href="/blog">Blog</a></li>
-    		<li><a href="/portfolio">Portfolio</a></li>
-    	</ul>
-    </nav>
-    
-    <div id="content">
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
-    <title>Donate | Vale.Rocks</title>
-    <meta property="og:title" content="Donate | Vale.Rocks"/>
-    <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
-    <meta property="og:description" content="The hippest site this side of MySpace." />
-</head>
-<h1 id="section">
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta property="og:locale" content="en_AU" />
+    	<meta name="author" content="Declan Chidlow" />
+    	<meta property="og:site_name" content="Vale Rocks" />
+    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+    	<link rel="me" href="https://fedi.vale.rocks/vale" />
+    	<link rel="me" href="https://github.com/DeclanChidlow" />
+    	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+    
+    	<script src="/assets/prism.js"></script>
+    	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+    
+
+        <title>Donate | Vale.Rocks</title>
+        <meta property="og:title" content="Donate | Vale.Rocks"/>
+        <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
+        <meta property="og:description" content="The hippest site this side of MySpace." />
+    		<link rel="stylesheet" href="/style/pages/donate.css">
+    </head>
+    
+    <body>
+    
+
+    <header id="navbar">
+    	<a href="/" id="navlanding">Vale</a>
+    	<nav>
+    		<ul>
+    			<li><a href="/blog">Blog</a></li>
+    			<li><a href="/portfolio">Portfolio</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+    <h1 id="section">
     Donate
 </h1>
-<p>I don't expect anyone to donate, but if you would like to, I do appreciate it. Whether it's because you're a fan of me, the stuff I post, or any of the many things I've made, I value your financial contributions. Thanks very much.</p>
-<iframe id="kofiframe" src="https://ko-fi.com/valence/?hidefeed=true&widget=true&embed=true&preview=true" style="border:none;width:100%;filter: invert(93.5%) hue-rotate(180deg); height:750px;"></iframe>
+<div>
+<p>I spend quite a bit of money and time doing stuff on the internet, but that isn't necessarily sustainable. So, if you're a fan of me, the stuff I post, the things I've made, or that which I host, then consider supporting me. It helps me keep the servers whirring and the code compiling.</p>
+<p>If you're donating for any specific project, then let me know so I can best allocate my resources.</p>
+<iframe src="https://ko-fi.com/valence/?hidefeed=true&widget=true&embed=true&preview=true"></iframe>
+</div>
 
 
+    </main>
     <footer>
     	<div id="socials">
-    		<a href="https://fedi.vale.rocks/vale" target="_blank">
+    		<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
     			<img src="/assets/icons/ActivityPub.svg" alt="Fediverse" />
     		</a>
-    		<a href="https://github.com/DeclanChidlow" target="_blank">
+    		<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
     			<img src="/assets/icons/GitHub.svg" alt="GitHub" />
     		</a>
-    		<a href="https://bsky.app/profile/vale.rocks" target="_blank">
+    		<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
     			<img src="/assets/icons/Bluesky.svg" alt="Bluesky" />
     		</a>
-    		<a href="https://unsplash.com/@outervale" target="_blank">
+    		<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
     			<img src="/assets/icons/Unsplash.svg" alt="Unsplash" />
     		</a>
-    		<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank">
+    		<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
     			<img src="/assets/icons/LinkedIn.svg" alt="LinkedIn" />
     		</a>
     	</div>
@@ -104,5 +83,6 @@
     	</div>
     </footer>
     
-</div>
-</body>
+    </body>
+    </html>
+    

@@ -1,71 +1,69 @@
 #blogposts {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 5rem;
 	gap: 2%;
 	justify-content: space-between;
-}
 
-#blogposts div {
-	border-bottom: 2px solid var(--bright_grey);
-	flex-basis: 48%;
-	height: 8rem;
-	padding: 0.5rem 0;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
+	.post {
+		border-bottom: 2px solid var(--bright_grey);
+		flex-basis: 48%;
+		height: 8.5rem;
+		padding: 0.5rem 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
 
-#blogposts h3 {
-	margin: 0;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-	word-wrap: break-word;
-	text-overflow: ellipsis;
-	overflow: hidden;
-}
+	h2 {
+		margin: 0;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		word-wrap: break-word;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
 
-#blogposts p {
-	text-transform: uppercase;
-	margin: 0;
+	p {
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
 }
 
 #searchAndFilter {
-	/* set to flex in JS */
+	/* Set to display: flex with JS */
+	display: none;
 	gap: 2%;
-}
-
-input#blogsearch {
-	flex: 1;
-	min-width: 0;
-}
-
-#searchAndFilter {
 	margin: 1rem 0;
 
-	input[type="search"],
+	input,
 	select {
 		background: none;
+		border: none;
 		border-bottom: 2px solid var(--bright_grey);
 		padding: 0.2rem 0;
 	}
 
-	input[type="search"]:focus,
+	input {
+		flex: 1;
+		min-width: none;
+	}
+
+	input:focus,
 	select:focus {
 		border-color: var(--blue);
 	}
 }
 
-.post a {
-	text-decoration: none;
-}
-
 @media (max-width: 1000px) {
 	#blogposts {
 		flex-direction: column;
-	}
 
-	#blogposts div {
-		width: 100%;
+		.post {
+			width: 100%;
+		}
 	}
 }

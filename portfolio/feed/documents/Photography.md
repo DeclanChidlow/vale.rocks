@@ -1,14 +1,18 @@
 <head>
-  <title>Photography</title>
+  <title>Photography | Vale.Rocks</title>
   <meta property="og:title" content="Photography"/>
+  <meta property="article:section" content="Portfolio" />
 </head>
 
+<article>
 <header>
 	 Pictures
 	<h1>
 		Photography
 	</h1>
 </header>
+
+<div class="readable_width">
 
 I'm by no means a professional photographer, but these are a series of photos I’ve taken. I don’t have a professional camera, so I use my Nokia G22’s inbuilt camera and then touch them up, where necessary, in Adobe Lightroom. I enjoy taking pictures of the natural world when the opportunity presents itself, although I’m far from opposed to taking pictures of other subjects.
 
@@ -21,3 +25,6 @@ I upload most of what I take to Unsplash for anyone to use, free of charge. My a
 <img id="right" src="https://images.unsplash.com/photo-1696060159045-69025bb6ddfb" alt="A panoramic view of a picturesque lakeside town nestled at the foot of rugged, snow-capped mountains. The vibrant blue lake is prominent, with boats visible on the water, and the settlement spreads out into the green and brown patchwork landscape leading to the towering peaks under a clear blue sky." />
 
 <img id="right" src="https://images.unsplash.com/photo-1691918917740-45c1f0d8183d" alt="A single mushroom with a textured brown cap and slim stem stands prominently in the center of a vibrant green moss-covered forest floor. The background is a softly blurred view of a forest with tall trees, suggesting a quiet, serene woodland scene." />
+
+</div>
+</article>

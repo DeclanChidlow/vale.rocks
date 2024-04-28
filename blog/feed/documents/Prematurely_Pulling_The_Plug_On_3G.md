@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia's 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.
 
 As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.
@@ -47,6 +49,7 @@ You may be wondering what impact this will have on you, but determining what dev
 
 In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

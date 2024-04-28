@@ -4,30 +4,32 @@ footer {
 	gap: 0.3rem;
 	text-align: center;
 	margin: 2rem 0 1rem;
-}
 
-footer a:link,
-footer a:visited,
-footer a:hover,
-footer a:active {
-	color: var(--yellow);
-	text-decoration: none;
-	padding: 0 0.5rem;
-}
+	#socials {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5rem;
 
-footer a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {
-	content: none;
-}
+		img {
+			height: 1.5rem;
+			width: auto;
+		}
+	}
 
-footer #socials {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 0.5rem;
-}
+	a:link,
+	a:visited,
+	a:hover,
+	a:active {
+		color: var(--yellow);
+		text-decoration: none;
+		padding: 0 0.5rem;
+	}
 
-footer img {
-	height: 1.5rem;
-	width: auto;
+	a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not(
+			[href*="mailto"]
+		):not([href*="tel"]):not([name]):after {
+		content: none;
+	}
 }

@@ -16,10 +16,10 @@
 
 /* Importing component styles */
 @import url("/style/components/footer.css");
-@import url("/style/components/images.css");
+@import url("/style/components/figures.css");
 @import url("/style/components/input.css");
 @import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
+@import url("/style/components/article_header.css");
 @import url("/style/components/section.css");
 @import url("/style/components/seperator.css");
 

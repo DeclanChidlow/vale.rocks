@@ -1,18 +1,19 @@
 #services {
-	margin-bottom: 5rem;
-}
+	section {
+		border-bottom: 2px solid var(--bright_grey);
+		padding: 0.5rem 0;
+	}
 
-#services div {
-	border-bottom: 2px solid var(--bright_grey);
-	box-sizing: border-box;
-	padding: 0.5rem 0;
-}
+	h2 {
+		margin: 0;
+	}
 
-#services p {
-	text-transform: uppercase;
-	margin: 0;
-}
+	p {
+		text-transform: uppercase;
+		margin: 0;
+	}
 
-p#description {
-	text-transform: none;
+	p#description {
+		text-transform: none;
+	}
 }

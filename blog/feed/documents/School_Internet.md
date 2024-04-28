@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.
 
 This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.
@@ -87,6 +89,7 @@ You can now log onto your school's internet. In the event that your browser does
 
 Had any issues with the process or think something may have changed? Leave a comment down below, and I'll try my best to assist.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

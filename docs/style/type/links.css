@@ -1,14 +1,17 @@
 a {
 	color: inherit;
-	text-decoration: underline 0.25rem var(--blue);
+	text-decoration: underline 0.1rem var(--blue);
+	-webkit-text-decoration-line: underline;
+	-webkit-text-decoration-color: var(--blue);
 	text-decoration-skip-ink: none;
-	text-underline-offset: -0.1rem;
+	text-underline-offset: 0.2rem;
 }
 
 a:hover,
 a:active {
-	text-decoration-thickness: 0.65rem;
-	text-underline-offset: -0.5rem;
+	text-decoration-color: var(--blue);
+	text-decoration-thickness: 0.7rem;
+	text-underline-offset: -0.4rem;
 }
 
 a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {

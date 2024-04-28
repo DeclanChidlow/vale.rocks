@@ -1,85 +1,58 @@
-<!DOCTYPE html>
-<head>
-<style>
-/* Importing variable styles */
-@import url("/style/variables/colours.css");
-
-/* Importing base styles */
-@import url("/style/base/reset.css");
-@import url("/style/base/body.css");
-@import url("/style/base/standard.css");
-
-/* Importing type styles */
-@import url("/style/type/callouts.css");
-@import url("/style/type/code.css");
-@import url("/style/type/headers.css");
-@import url("/style/type/links.css");
-@import url("/style/type/syntax_highlighting.css");
-@import url("/style/type/type.css");
-
-/* Importing component styles */
-@import url("/style/components/footer.css");
-@import url("/style/components/images.css");
-@import url("/style/components/input.css");
-@import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
-@import url("/style/components/section.css");
-@import url("/style/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/style/animations/fade_in_up.css");
-
-</style>
-<html lang="en">
-	<meta charset="utf-8" />
-	<meta property="og:locale" content="en_AU" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Declan Chidlow" />
-	<meta property="og:site_name" content="Vale Rocks" />
-	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-	<link rel="me" href="https://fedi.vale.rocks/vale" />
-	<link rel="me" href="https://github.com/DeclanChidlow" />
-	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
-
-	<script src="/assets/prism.js"></script>
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-<meta property="og:type" content="article" />
-<meta property="article:author" content="Declan Chidlow" />
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="DeclanChidlow/vale.rocks"
-	data-repo-id="R_kgDOGKfOVg"
-	data-category="Comments"
-	data-category-id="DIC_kwDOGKfOVs4CY4vS"
-	data-mapping="og:title"
-	data-strict="1"
-	data-reactions-enabled="1"
-	data-emit-metadata="1"
-	data-input-position="top"
-	data-theme="transparent_dark"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
-
-</head>
-<body>
-<div class="page">
 
 
-    <nav>
-    	<ul>
-    		<li><a href="/" style="font-weight: 900">Vale</a></li>
-    		<li><a href="/blog">Blog</a></li>
-    		<li><a href="/portfolio">Portfolio</a></li>
-    	</ul>
-    </nav>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta property="og:locale" content="en_AU" />
+    	<meta name="author" content="Declan Chidlow" />
+    	<meta property="og:site_name" content="Vale Rocks" />
+    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+    	<link rel="me" href="https://fedi.vale.rocks/vale" />
+    	<link rel="me" href="https://github.com/DeclanChidlow" />
+    	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    <div id="content">
+    	<script src="/assets/prism.js"></script>
+    	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
-    <span id='section'>Blog</span><div id='postbody'>
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Declan Chidlow" />
+    
+    <script
+    	src="https://giscus.app/client.js"
+    	data-repo="DeclanChidlow/vale.rocks"
+    	data-repo-id="R_kgDOGKfOVg"
+    	data-category="Comments"
+    	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+    	data-mapping="og:title"
+    	data-strict="1"
+    	data-reactions-enabled="1"
+    	data-emit-metadata="1"
+    	data-input-position="top"
+    	data-theme="transparent_dark"
+    	data-lang="en"
+    	data-loading="lazy"
+    	crossorigin="anonymous"
+    	async></script>
+    
+
+    <header id="navbar">
+    	<a href="/" id="navlanding">Vale</a>
+    	<nav>
+    		<ul>
+    			<li><a href="/blog">Blog</a></li>
+    			<li><a href="/portfolio">Portfolio</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+    
+
+    <span id='section'>Blog</span>
 
     <style>:root{--header_background: var(--magenta)}</style><head>
     <title>A Year With The Framework Laptop 13 | Vale.Rocks</title>
@@ -102,6 +75,7 @@
 		<li>5 minute read</li>
 	</ul>
 </header>
+<div class="readable_width">
 <p>Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.</p>
 <p>I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:</p>
 <ul>
@@ -142,8 +116,6 @@
 <p>In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly do love it. I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a <a href="https://frame.work/au/en/products/keyboard-blank">blank keyboard</a>. The process wasn't too hard, and was well documented, but took quite a bit of time. There were <em>so many</em> screws. I'm happy with the result though, and really love the sleek, minimalist style it provides.</p>
 <hr />
 <p>I hope you enjoyed my review. If you've got any questions about the laptop or think there is something I could add, then let me know in the comments below.</p>
-</article>
-<p><span class="giscus"></span></p>
-
+<section class="giscus"></section>
 </div>
-</body>
+</article>

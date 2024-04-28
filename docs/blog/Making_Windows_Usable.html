@@ -1,85 +1,58 @@
-<!DOCTYPE html>
-<head>
-<style>
-/* Importing variable styles */
-@import url("/style/variables/colours.css");
-
-/* Importing base styles */
-@import url("/style/base/reset.css");
-@import url("/style/base/body.css");
-@import url("/style/base/standard.css");
-
-/* Importing type styles */
-@import url("/style/type/callouts.css");
-@import url("/style/type/code.css");
-@import url("/style/type/headers.css");
-@import url("/style/type/links.css");
-@import url("/style/type/syntax_highlighting.css");
-@import url("/style/type/type.css");
-
-/* Importing component styles */
-@import url("/style/components/footer.css");
-@import url("/style/components/images.css");
-@import url("/style/components/input.css");
-@import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
-@import url("/style/components/section.css");
-@import url("/style/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/style/animations/fade_in_up.css");
-
-</style>
-<html lang="en">
-	<meta charset="utf-8" />
-	<meta property="og:locale" content="en_AU" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Declan Chidlow" />
-	<meta property="og:site_name" content="Vale Rocks" />
-	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-	<link rel="me" href="https://fedi.vale.rocks/vale" />
-	<link rel="me" href="https://github.com/DeclanChidlow" />
-	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
-
-	<script src="/assets/prism.js"></script>
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-<meta property="og:type" content="article" />
-<meta property="article:author" content="Declan Chidlow" />
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="DeclanChidlow/vale.rocks"
-	data-repo-id="R_kgDOGKfOVg"
-	data-category="Comments"
-	data-category-id="DIC_kwDOGKfOVs4CY4vS"
-	data-mapping="og:title"
-	data-strict="1"
-	data-reactions-enabled="1"
-	data-emit-metadata="1"
-	data-input-position="top"
-	data-theme="transparent_dark"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
-
-</head>
-<body>
-<div class="page">
 
 
-    <nav>
-    	<ul>
-    		<li><a href="/" style="font-weight: 900">Vale</a></li>
-    		<li><a href="/blog">Blog</a></li>
-    		<li><a href="/portfolio">Portfolio</a></li>
-    	</ul>
-    </nav>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta property="og:locale" content="en_AU" />
+    	<meta name="author" content="Declan Chidlow" />
+    	<meta property="og:site_name" content="Vale Rocks" />
+    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+    	<link rel="me" href="https://fedi.vale.rocks/vale" />
+    	<link rel="me" href="https://github.com/DeclanChidlow" />
+    	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    <div id="content">
+    	<script src="/assets/prism.js"></script>
+    	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
-    <span id='section'>Blog</span><div id='postbody'>
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Declan Chidlow" />
+    
+    <script
+    	src="https://giscus.app/client.js"
+    	data-repo="DeclanChidlow/vale.rocks"
+    	data-repo-id="R_kgDOGKfOVg"
+    	data-category="Comments"
+    	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+    	data-mapping="og:title"
+    	data-strict="1"
+    	data-reactions-enabled="1"
+    	data-emit-metadata="1"
+    	data-input-position="top"
+    	data-theme="transparent_dark"
+    	data-lang="en"
+    	data-loading="lazy"
+    	crossorigin="anonymous"
+    	async></script>
+    
+
+    <header id="navbar">
+    	<a href="/" id="navlanding">Vale</a>
+    	<nav>
+    		<ul>
+    			<li><a href="/blog">Blog</a></li>
+    			<li><a href="/portfolio">Portfolio</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+    
+
+    <span id='section'>Blog</span>
 
     <style>:root{--header_background: var(--magenta)}</style><head>
     <title>Making Windows "Usable" | Vale.Rocks</title>
@@ -102,6 +75,7 @@
 		<li>4 minute read</li>
 	</ul>
 </header>
+<div class="readable_width">
 <p>I'm not quiet about my intense distaste for Microsoft's feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it's not always possible to do so.</p>
 <p>This year, I found myself doing a Certificate IV in Graphic Design that required Adobe's Creative Cloud. As I'm sure you know, this software only runs on MacOS and Windows, which lead to quite the conundrum. Not willing to give up my beloved Arch Linux, I needed a way to get these programs running on my computer.</p>
 <p>Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn't the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.</p>
@@ -134,8 +108,6 @@ I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Th
 <p>Now that you have your system more or less configured, I thought it may be worth touching on antivirus programs. There are plenty out there, and each is as user hostile as the last. For that reason, I recommend sticking with Windows' built in Microsoft Defender. It is pretty fast, generally stays out of your way, and won't harass you for your lunch money. It may be lacking in some features compared to paid options, but it is widely used and very well supported. It's just about the best option around.</p>
 <hr />
 <p>And there you have it, a few tweaks, and Windows went from 'Why do you insist on torturing me?' to 'I suppose you can stay'. I hope you found this little guide useful. Is there anything specific you do for your installs or something that I missed? If so, leave it in the comments!</p>
-</article>
-<p><span class="giscus"></span></p>
-
+<section class="giscus"></section>
 </div>
-</body>
+</article>

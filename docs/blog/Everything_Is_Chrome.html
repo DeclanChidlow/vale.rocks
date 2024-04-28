@@ -1,85 +1,58 @@
-<!DOCTYPE html>
-<head>
-<style>
-/* Importing variable styles */
-@import url("/style/variables/colours.css");
-
-/* Importing base styles */
-@import url("/style/base/reset.css");
-@import url("/style/base/body.css");
-@import url("/style/base/standard.css");
-
-/* Importing type styles */
-@import url("/style/type/callouts.css");
-@import url("/style/type/code.css");
-@import url("/style/type/headers.css");
-@import url("/style/type/links.css");
-@import url("/style/type/syntax_highlighting.css");
-@import url("/style/type/type.css");
-
-/* Importing component styles */
-@import url("/style/components/footer.css");
-@import url("/style/components/images.css");
-@import url("/style/components/input.css");
-@import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
-@import url("/style/components/section.css");
-@import url("/style/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/style/animations/fade_in_up.css");
-
-</style>
-<html lang="en">
-	<meta charset="utf-8" />
-	<meta property="og:locale" content="en_AU" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Declan Chidlow" />
-	<meta property="og:site_name" content="Vale Rocks" />
-	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-	<link rel="me" href="https://fedi.vale.rocks/vale" />
-	<link rel="me" href="https://github.com/DeclanChidlow" />
-	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
-
-	<script src="/assets/prism.js"></script>
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-<meta property="og:type" content="article" />
-<meta property="article:author" content="Declan Chidlow" />
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="DeclanChidlow/vale.rocks"
-	data-repo-id="R_kgDOGKfOVg"
-	data-category="Comments"
-	data-category-id="DIC_kwDOGKfOVs4CY4vS"
-	data-mapping="og:title"
-	data-strict="1"
-	data-reactions-enabled="1"
-	data-emit-metadata="1"
-	data-input-position="top"
-	data-theme="transparent_dark"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
-
-</head>
-<body>
-<div class="page">
 
 
-    <nav>
-    	<ul>
-    		<li><a href="/" style="font-weight: 900">Vale</a></li>
-    		<li><a href="/blog">Blog</a></li>
-    		<li><a href="/portfolio">Portfolio</a></li>
-    	</ul>
-    </nav>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta property="og:locale" content="en_AU" />
+    	<meta name="author" content="Declan Chidlow" />
+    	<meta property="og:site_name" content="Vale Rocks" />
+    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+    	<link rel="me" href="https://fedi.vale.rocks/vale" />
+    	<link rel="me" href="https://github.com/DeclanChidlow" />
+    	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    <div id="content">
+    	<script src="/assets/prism.js"></script>
+    	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
-    <span id='section'>Blog</span><div id='postbody'>
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Declan Chidlow" />
+    
+    <script
+    	src="https://giscus.app/client.js"
+    	data-repo="DeclanChidlow/vale.rocks"
+    	data-repo-id="R_kgDOGKfOVg"
+    	data-category="Comments"
+    	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+    	data-mapping="og:title"
+    	data-strict="1"
+    	data-reactions-enabled="1"
+    	data-emit-metadata="1"
+    	data-input-position="top"
+    	data-theme="transparent_dark"
+    	data-lang="en"
+    	data-loading="lazy"
+    	crossorigin="anonymous"
+    	async></script>
+    
+
+    <header id="navbar">
+    	<a href="/" id="navlanding">Vale</a>
+    	<nav>
+    		<ul>
+    			<li><a href="/blog">Blog</a></li>
+    			<li><a href="/portfolio">Portfolio</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+    
+
+    <span id='section'>Blog</span>
 
     <style>:root{--header_background: var(--magenta)}</style><head>
     <title>Everything Is Chrome | Vale.Rocks</title>
@@ -102,6 +75,7 @@
 		<li>8 minute read</li>
 	</ul>
 </header>
+<div class="readable_width">
 <p>The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.</p>
 <h2>The Early Days</h2>
 <p>In 1990, <a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">WorldWideWeb (later known as Nexus)</a> was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the <a href="https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/">National Center for Supercomputing Applications' Mosaic</a> came with big changes and huge influence.</p>
@@ -165,18 +139,17 @@ When you loaded this page, I ran a small amount of JavaScript to check if your b
 <h3>Accelerated Mobile Pages</h3>
 <p>Accelerated Mobile Pages (AMP) is another excellent example of the problems with Google having power. AMP is a framework that aims to improve the performance of web content, particularly on mobile. It improves speed by restricting certain elements and optimising content delivery. While these are great intentions, they've seen much good criticism.</p>
 <p>One large criticism is that it gives Google a huge amount of control over the way content is displayed on the web, which influences how things are built and monetized. It also has impacts on privacy, and security.</p>
-<p>Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's &quot;Top Stories&quot; section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf">facing legal threats</a>.</p>
+<p>Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's "Top Stories" section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf">facing legal threats</a>.</p>
 <p>AMP is just another way that Google has shown that they are not content with simply existing within the web, but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest <a href="https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot">this Reddit post</a> from the creator of <a href="https://amputatorbot.com">AmputatorBot.com</a>.</p>
 <h3>Web Environment Integrity</h3>
-<p>In April of 2023, some Google engineers <a href="https://github.com/RupertBenWiser/Web-Environment-Integrity">created a GitHub repository</a> explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled &quot;Android WebView Media Integrity API&quot; was swiftly proposed and looks to enter testing in early 2024.</p>
+<p>In April of 2023, some Google engineers <a href="https://github.com/RupertBenWiser/Web-Environment-Integrity">created a GitHub repository</a> explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled "Android WebView Media Integrity API" was swiftly proposed and looks to enter testing in early 2024.</p>
 <p>You may be wondering exactly what it is. WEI is more or less a way to verify that a site is 'genuine'. It can be best described as Digital Rights Management (DRM) for the web and, wouldn't you know, could've also impacted ad blockers if they were found to be altering the web environment's integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered 'untrusted', and therefore severely limited.</p>
 <p>I could continue with further examples, but I think the point is made, and I expect you've gathered the picture. The web is dominated by Chrome, and something must be done about it.</p>
 <h2>The Death of Firefox Support</h2>
-<p>As Bryce Wray illustrates in his article <a href="https://www.brycewray.com/posts/2023/11/firefox-brink/">&quot;Firefox on the Brink?&quot;</a> the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is <a href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices">set by the British government</a>. As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.</p>
+<p>As Bryce Wray illustrates in his article <a href="https://www.brycewray.com/posts/2023/11/firefox-brink/">"Firefox on the Brink?"</a> the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is <a href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices">set by the British government</a>. As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.</p>
 <h2>Taking Action</h2>
 <p>You're likely wondering what you can do. The answer is simple: use another browser. As I've said, most browsers out there are based on Chromium, so I would suggest <a href="https://www.mozilla.org/firefox">Firefox</a>. It's free, it's open source, and Mozilla has consistently shown a commitment to both the user and the web. If you're super privacy conscious and need even further control of your data or live in a country prone to censorship, then you might consider <a href="https://www.torproject.org">the Tor Browser</a>.</p>
 <p>Share this article around and promote its message. Preserving an open web is crucial. Failure to achieve this will lead to disaster, and we can't let it happen.</p>
-</article>
 <details>
 <summary>Sources</summary>
 <ul>
@@ -194,7 +167,6 @@ When you loaded this page, I ran a small amount of JavaScript to check if your b
 <li><a href="https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot">Why did I build AmputatorBot?</a> | Accessed: 06/03/2024</li>
 </ul>
 </details>
-<p><span class="giscus"></span></p>
-
+<section class="giscus"></section>
 </div>
-</body>
+</article>

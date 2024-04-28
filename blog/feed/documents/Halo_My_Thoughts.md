@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 If you had asked me at the start of this year my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game - from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC) with the exception of 5 and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
 
 I'll be avoiding spoilers for the most part. If I've got anything specific to mention about the campaign, then I'll place it in a "Campaign Specifics" drop down at the conclusion of the entry. I recommend reading those sections after playing through the games, for they won't make much sense otherwise. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games. They're worth it. I also just want to give thanks to my friend Sebastien, who advised I get into the series. It was a good call.
@@ -183,6 +185,7 @@ The story repairs the mess of the previous two games and paves the way for the f
 
 I hope that you gained something reading about my thoughts on Halo. I'd love to hear your thoughts and opinions on the franchise, so leave them in the comments.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

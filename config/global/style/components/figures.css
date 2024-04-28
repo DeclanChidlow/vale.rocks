@@ -1,0 +1,30 @@
+figure {
+	width: 500px;
+}
+
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+	text-align: center;
+	color: var(--white);
+}
+
+.left {
+	float: left;
+	margin: 0.8rem 0.8rem 0.8rem 0;
+}
+
+.right {
+	float: right;
+	margin: 0.8rem 0 0.8rem 0.8rem;
+}
+
+@media (max-width: 900px) {
+	figure,
+	.right,
+	.left {
+		width: 100%;
+		margin: 0.8rem 0;
+		float: none;
+	}
+}

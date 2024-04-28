@@ -4,7 +4,7 @@
     <meta name="description" content="A brief welcome to my website on the world wide web and what it's about." />
     <meta property="og:description" content="The welcome to the website you've waited for." />
     <meta property="article:published_time" content="2022-09-12" />
-    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:modified_time" content="2024-04-28" />
     <meta property="article:section" content="Meta" />
 </head>
 
@@ -16,10 +16,12 @@
 	</h1>
 	<ul>
 		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
-	    <li>559 words</li>
+	    <li>561 words</li>
 		<li>2 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Welcome to my brand new website!
 
@@ -37,8 +39,9 @@ As part of this migration, I've completely overhauled the site's design, resulti
 
 Another thing I've done as part of this site rewrite is the hosting of many new services. They should help this platform become a much richer resource. If you want to check out what I'm hosting (and potentially planning to host) you can check it out on my [services page](/services).
 
-If you wish to see what the site looked like before these changes, you can take a peek on [Archive.org's Wayback Machine](https://web.archive.org/web/20230124205506/https://vale.rocks). I've put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I'd love to hear it. You can chuck it in the comments below.
+If you wish to see what the site looked like before these changes, you can take a peek on the Internet Archive's [Wayback Machine](https://web.archive.org/web/20230124205506/https://vale.rocks). I've put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I'd love to hear it. You can chuck it in the comments below.
 
+<section class="giscus"></section>
+
+</div>
 </article>
-
-<span class="giscus"></span>

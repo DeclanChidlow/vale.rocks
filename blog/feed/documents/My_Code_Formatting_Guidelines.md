@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 Software development is a varied field filled with lots of different people with very strong opinions. When working on projects, it's important that everyone follows the same guidelines for the sake of compatibility and coherence.
 
 This document outlines my personal code style guidelines and how I implement them. Much of what I outline here can be achieved using [my Prettier configuration](https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml). Where relevant, I've included the related Prettier config lines.
@@ -201,6 +203,7 @@ Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/en/options.
 
 As I opened with, the formatting of code is a decisive and complex topic. I'm sure many people disagree with my code formatting guidelines, and I'd love to hear your criticisms in the comments. All I ask is that you keep criticism constructive and remain respectful.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

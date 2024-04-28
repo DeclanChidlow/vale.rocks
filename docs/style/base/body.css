@@ -1,13 +1,28 @@
 body {
-	margin: 0 3rem 0 7rem;
-	background: var(--black);
-	min-height: 100%;
-	font-family: "Lexend", sans-serif;
+	min-height: 100lvh;
+	margin: 0 3rem 3rem;
 	color: var(--bright_white);
+	background: var(--black);
+	font-family: "Lexend", sans-serif;
+}
+
+main {
+	margin-top: 5rem;
+	display: flex;
+	gap: 3rem;
+
+	div {
+		width: 100%;
+	}
 }
 
 @media (max-width: 700px) {
 	body {
-		margin: 0 0.8rem;
+		margin: 0 0.8rem 0.8rem;
+	}
+
+	main {
+		flex-direction: column;
+		gap: 0;
 	}
 }

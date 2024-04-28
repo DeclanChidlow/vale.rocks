@@ -4,7 +4,7 @@
     <meta name="description" content="A brief welcome to my website on the world wide web and what it's about." />
     <meta property="og:description" content="The welcome to the website you've waited for." />
     <meta property="article:published_time" content="2022-09-12" />
-    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:modified_time" content="2024-04-28" />
     <meta property="article:section" content="Meta" />
 </head>
 
@@ -16,10 +16,12 @@
 	</h1>
 	<ul>
 		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
-	    <li>559 words</li>
+	    <li>561 words</li>
 		<li>2 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Welcome to my brand new website!
 
@@ -37,11 +39,12 @@ As part of this migration, I've completely overhauled the site's design, resulti
 
 Another thing I've done as part of this site rewrite is the hosting of many new services. They should help this platform become a much richer resource. If you want to check out what I'm hosting (and potentially planning to host) you can check it out on my [services page](/services).
 
-If you wish to see what the site looked like before these changes, you can take a peek on [Archive.org's Wayback Machine](https://web.archive.org/web/20230124205506/https://vale.rocks). I've put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I'd love to hear it. You can chuck it in the comments below.
+If you wish to see what the site looked like before these changes, you can take a peek on the Internet Archive's [Wayback Machine](https://web.archive.org/web/20230124205506/https://vale.rocks). I've put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I'd love to hear it. You can chuck it in the comments below.
 
+<section class="giscus"></section>
+
+</div>
 </article>
-
-<span class="giscus"></span>
 ]]></description></item><item><title>Minecraft_Nostalgia_And_Growing_Up.md</title><description><![CDATA[<head>
     <title>Minecraft, Nostalgia, and Growing Up | Vale.Rocks</title>
     <meta property="og:title" content="Minecraft, Nostalgia, and Growing Up"/>
@@ -64,6 +67,8 @@ If you wish to see what the site looked like before these changes, you can take 
 		<li>5 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 I'm sitting here writing this on a rainy Monday night. This article is going live on April 2nd, the day of my 18th birthday. Tomorrow, I'm legally an adult. I can vote. I can drink. I can smoke. I can go to an adult shop. I can gamble away my savings.
 
@@ -144,9 +149,10 @@ As the rain subsides outside the window, I reflect on my memories of a game that
 
 Thank you.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>Halo_My_Thoughts.md</title><description><![CDATA[<head>
     <title>Halo: My Thoughts | Vale.Rocks</title>
     <meta property="og:title" content="Halo: My Thoughts"/>
@@ -169,6 +175,8 @@ Thank you.
 		<li>11 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 If you had asked me at the start of this year my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game - from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC) with the exception of 5 and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
 
@@ -332,9 +340,10 @@ The story repairs the mess of the previous two games and paves the way for the f
 
 I hope that you gained something reading about my thoughts on Halo. I'd love to hear your thoughts and opinions on the franchise, so leave them in the comments.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>Everything_Is_Chrome.md</title><description><![CDATA[<head>
     <title>Everything Is Chrome | Vale.Rocks</title>
     <meta property="og:title" content="Everything Is Chrome"/>
@@ -357,6 +366,8 @@ I hope that you gained something reading about my thoughts on Halo. I'd love to 
 		<li>8 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.
 
@@ -492,8 +503,6 @@ You're likely wondering what you can do. The answer is simple: use another brows
 
 Share this article around and promote its message. Preserving an open web is crucial. Failure to achieve this will lead to disaster, and we can't let it happen.
 
-</article>
-
 <details>
 <summary>Sources</summary>
 
@@ -512,7 +521,10 @@ Share this article around and promote its message. Preserving an open web is cru
 
 </details>
 
-<span class="giscus"></span>
+<section class="giscus"></section>
+
+</div>
+</article>
 ]]></description></item><item><title>LibreOffice_Setup.md</title><description><![CDATA[<head>
     <title>The Ultimate LibreOffice Setup | Vale.Rocks</title>
     <meta property="og:title" content="The Ultimate LibreOffice Setup"/>
@@ -535,6 +547,8 @@ Share this article around and promote its message. Preserving an open web is cru
 		<li>4 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Document editing is a horrible business that I wouldn't wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can't be combated by even the most confident keyboard cowboys.
 
@@ -598,9 +612,10 @@ Navigate to `Tools > Options > LibreOffice Writer > Compatibility` and ensure `R
 
 Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>Cybersecurity_Superstition.md</title><description><![CDATA[<head>
     <title>Cybersecurity Superstition | Vale.Rocks</title>
     <meta property="og:title" content="Cybersecurity Superstition"/>
@@ -623,6 +638,8 @@ Are there any specific settings you change, or parts of this post that you think
 		<li>7 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the 'hacker' is wearing a Guy Fawkes mask. However, this depiction couldn't be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.
 
@@ -729,9 +746,10 @@ There is much more to be said about VPNs, but nothing that isn't better covered 
 
 Cybersecurity is important, and it's worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I'd love to hear them in the comments below.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>Making_Windows_Usable.md</title><description><![CDATA[<head>
     <title>Making Windows "Usable" | Vale.Rocks</title>
     <meta property="og:title" content='Making Windows "Usable"' />
@@ -754,6 +772,8 @@ Cybersecurity is important, and it's worth putting in the time to stay safe. It 
 		<li>4 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 I'm not quiet about my intense distaste for Microsoft's feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it's not always possible to do so.
 
@@ -809,9 +829,10 @@ Now that you have your system more or less configured, I thought it may be worth
 
 And there you have it, a few tweaks, and Windows went from 'Why do you insist on torturing me?' to 'I suppose you can stay'. I hope you found this little guide useful. Is there anything specific you do for your installs or something that I missed? If so, leave it in the comments!
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>School_Internet.md</title><description><![CDATA[<head>
     <title>Connecting to Australian Public School Internet | Vale.Rocks</title>
     <meta property="og:title" content="Connecting to Australian Public School Internet"/>
@@ -834,6 +855,8 @@ And there you have it, a few tweaks, and Windows went from 'Why do you insist on
 		<li>3 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.
 
@@ -901,9 +924,10 @@ You can now log onto your school's internet. In the event that your browser does
 
 Had any issues with the process or think something may have changed? Leave a comment down below, and I'll try my best to assist.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>My_Code_Formatting_Guidelines.md</title><description><![CDATA[<head>
     <title>My Code Formatting Guidelines | Vale.Rocks</title>
     <meta property="og:title" content="My Code Formatting Guidelines"/>
@@ -926,6 +950,8 @@ Had any issues with the process or think something may have changed? Leave a com
 		<li>3 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Software development is a varied field filled with lots of different people with very strong opinions. When working on projects, it's important that everyone follows the same guidelines for the sake of compatibility and coherence.
 
@@ -1107,9 +1133,10 @@ Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/en/options.
 
 As I opened with, the formatting of code is a decisive and complex topic. I'm sure many people disagree with my code formatting guidelines, and I'd love to hear your criticisms in the comments. All I ask is that you keep criticism constructive and remain respectful.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>A_Year_With_The_Framework_Laptop_13.md</title><description><![CDATA[<head>
     <title>A Year With The Framework Laptop 13 | Vale.Rocks</title>
     <meta property="og:title" content="A Year With The Framework Laptop 13"/>
@@ -1132,6 +1159,8 @@ As I opened with, the formatting of code is a decisive and complex topic. I'm su
 		<li>5 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.
 
@@ -1204,9 +1233,10 @@ In terms of my specific computer, I've made some changes. At the end of 2023, I 
 
 I hope you enjoyed my review. If you've got any questions about the laptop or think there is something I could add, then let me know in the comments below.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>I_Hate_My_Nokia.md</title><description><![CDATA[<head>
     <title>I Hate My Nokia | Vale.Rocks</title>
     <meta property="og:title" content="I Hate My Nokia"/>
@@ -1229,6 +1259,8 @@ I hope you enjoyed my review. If you've got any questions about the laptop or th
 		<li>4 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 My first phone was a RugGear RG930. If you think Nokia's 3310 was built like a brick, then this thing may as well have been rubberised titanium. It was so sturdy I used to play 'catch the phone' with friends, and it ended up face down on concrete more times than I can count, but I don't think it ever sustained so much as a scratch. As time progressed, I decided I wanted something a tad more featured, and later ended up with the first iPhone SE, a phone that was endlessly reliable when it wasn't stuck in a bootloop thanks to my love for gaolbreaking.
 
@@ -1279,9 +1311,10 @@ I can only hope that the restructuring leads to their products improving, as wha
 
 Please feel welcome to leave any suggestions in the comments.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item><item><title>Prematurely_Pulling_The_Plug_On_3G.md</title><description><![CDATA[<head>
     <title>Prematurely Pulling The Plug On 3G | Vale.Rocks</title>
     <meta property="og:title" content="Prematurely Pulling The Plug On 3G"/>
@@ -1304,6 +1337,8 @@ Please feel welcome to leave any suggestions in the comments.
 		<li>3 minute read</li>
 	</ul>
 </header>
+
+<div class="readable_width">
 
 First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia's 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.
 
@@ -1331,7 +1366,8 @@ You may be wondering what impact this will have on you, but determining what dev
 
 In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>
 ]]></description></item></channel></rss>

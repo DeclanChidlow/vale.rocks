@@ -1,21 +1,43 @@
-nav {
-	padding: 0 3rem;
-	font-size: 1.3rem;
-	text-transform: uppercase;
-	width: 100%;
+header#navbar {
 	height: 5rem;
-	position: fixed;
-	top: 0;
-	left: 0;
+	width: 100%;
+	padding: 0 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	text-align: right;
+	gap: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	font-size: 1.3rem;
 	pointer-events: none;
-	z-index: 100;
+	z-index: 1000;
+
+	#navlanding {
+		font-weight: 500;
+	}
+
+	a {
+		all: unset;
+		cursor: pointer;
+		pointer-events: all;
+	}
+
+	nav {
+		ul {
+			all: unset;
+			display: flex;
+			gap: 1rem;
+
+			li {
+				all: unset;
+			}
+		}
+	}
 }
 
-nav::after {
+header#navbar::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -26,28 +48,8 @@ nav::after {
 	z-index: -1;
 }
 
-nav ul {
-	all: unset;
-	pointer-events: initial;
-}
-
-nav li {
-	display: inline;
-	margin-left: 0.5rem;
-}
-
-nav a,
-nav a:link,
-nav a:visited,
-nav a:focus,
-nav a:hover,
-nav a:active {
-	all: unset;
-	cursor: pointer;
-}
-
 @media (max-width: 700px) {
-	nav {
+	header#navbar {
 		padding: 0 0.8rem;
 	}
 }

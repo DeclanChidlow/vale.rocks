@@ -1,5 +1,12 @@
-img {
-	width: 30rem;
+figure {
+	width: 500px;
+}
+
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+	text-align: center;
+	color: var(--white);
 }
 
 .left {
@@ -12,14 +19,8 @@ img {
 	margin: 0.8rem 0 0.8rem 0.8rem;
 }
 
-figcaption {
-	font-style: italic;
-	text-align: center;
-	color: var(--white);
-}
-
-@media (max-width: 700px) {
-	img,
+@media (max-width: 900px) {
+	figure,
 	.right,
 	.left {
 		width: 100%;

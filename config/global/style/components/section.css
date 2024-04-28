@@ -1,25 +1,22 @@
 #section {
-	font-size: 5.5rem;
+	font-size: 5rem;
+	line-height: 4rem;
 	text-transform: uppercase;
-	font-weight: bold;
-	writing-mode: vertical-lr;
+	text-align: right;
 	transform: scale(-1);
-	margin: 15vh 0 0 -6.5rem;
-	position: fixed;
+	writing-mode: vertical-lr;
 	user-select: none;
 	-webkit-user-select: none;
-	line-height: 0;
 }
 
 @media (max-width: 700px) {
 	#section {
 		font-size: 3rem;
-		writing-mode: inherit;
+		line-height: 3.2rem;
+		text-align: inherit;
 		transform: inherit;
-		margin: inherit;
-		position: inherit;
+		writing-mode: inherit;
 		user-select: inherit;
 		-webkit-user-select: inherit;
-		line-height: 3.2rem;
 	}
 }

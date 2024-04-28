@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 I'm not quiet about my intense distaste for Microsoft's feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it's not always possible to do so.
 
 This year, I found myself doing a Certificate IV in Graphic Design that required Adobe's Creative Cloud. As I'm sure you know, this software only runs on MacOS and Windows, which lead to quite the conundrum. Not willing to give up my beloved Arch Linux, I needed a way to get these programs running on my computer.
@@ -75,6 +77,7 @@ Now that you have your system more or less configured, I thought it may be worth
 
 And there you have it, a few tweaks, and Windows went from 'Why do you insist on torturing me?' to 'I suppose you can stay'. I hope you found this little guide useful. Is there anything specific you do for your installs or something that I missed? If so, leave it in the comments!
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

@@ -1,85 +1,58 @@
-<!DOCTYPE html>
-<head>
-<style>
-/* Importing variable styles */
-@import url("/style/variables/colours.css");
-
-/* Importing base styles */
-@import url("/style/base/reset.css");
-@import url("/style/base/body.css");
-@import url("/style/base/standard.css");
-
-/* Importing type styles */
-@import url("/style/type/callouts.css");
-@import url("/style/type/code.css");
-@import url("/style/type/headers.css");
-@import url("/style/type/links.css");
-@import url("/style/type/syntax_highlighting.css");
-@import url("/style/type/type.css");
-
-/* Importing component styles */
-@import url("/style/components/footer.css");
-@import url("/style/components/images.css");
-@import url("/style/components/input.css");
-@import url("/style/components/navbar.css");
-@import url("/style/components/post_header.css");
-@import url("/style/components/section.css");
-@import url("/style/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/style/animations/fade_in_up.css");
-
-</style>
-<html lang="en">
-	<meta charset="utf-8" />
-	<meta property="og:locale" content="en_AU" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="author" content="Declan Chidlow" />
-	<meta property="og:site_name" content="Vale Rocks" />
-	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
-	<link rel="me" href="https://fedi.vale.rocks/vale" />
-	<link rel="me" href="https://github.com/DeclanChidlow" />
-	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
-
-	<script src="/assets/prism.js"></script>
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-<meta property="og:type" content="article" />
-<meta property="article:author" content="Declan Chidlow" />
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="DeclanChidlow/vale.rocks"
-	data-repo-id="R_kgDOGKfOVg"
-	data-category="Comments"
-	data-category-id="DIC_kwDOGKfOVs4CY4vS"
-	data-mapping="og:title"
-	data-strict="1"
-	data-reactions-enabled="1"
-	data-emit-metadata="1"
-	data-input-position="top"
-	data-theme="transparent_dark"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
-
-</head>
-<body>
-<div class="page">
 
 
-    <nav>
-    	<ul>
-    		<li><a href="/" style="font-weight: 900">Vale</a></li>
-    		<li><a href="/blog">Blog</a></li>
-    		<li><a href="/portfolio">Portfolio</a></li>
-    	</ul>
-    </nav>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta property="og:locale" content="en_AU" />
+    	<meta name="author" content="Declan Chidlow" />
+    	<meta property="og:site_name" content="Vale Rocks" />
+    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
+    	<link rel="me" href="https://fedi.vale.rocks/vale" />
+    	<link rel="me" href="https://github.com/DeclanChidlow" />
+    	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    <div id="content">
+    	<script src="/assets/prism.js"></script>
+    	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
-    <span id='section'>Blog</span><div id='postbody'>
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Declan Chidlow" />
+    
+    <script
+    	src="https://giscus.app/client.js"
+    	data-repo="DeclanChidlow/vale.rocks"
+    	data-repo-id="R_kgDOGKfOVg"
+    	data-category="Comments"
+    	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+    	data-mapping="og:title"
+    	data-strict="1"
+    	data-reactions-enabled="1"
+    	data-emit-metadata="1"
+    	data-input-position="top"
+    	data-theme="transparent_dark"
+    	data-lang="en"
+    	data-loading="lazy"
+    	crossorigin="anonymous"
+    	async></script>
+    
+
+    <header id="navbar">
+    	<a href="/" id="navlanding">Vale</a>
+    	<nav>
+    		<ul>
+    			<li><a href="/blog">Blog</a></li>
+    			<li><a href="/portfolio">Portfolio</a></li>
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+    
+
+    <span id='section'>Blog</span>
 
     <style>:root{--header_background: var(--magenta)}</style><head>
     <title>The Ultimate LibreOffice Setup | Vale.Rocks</title>
@@ -102,6 +75,7 @@
 		<li>4 minute read</li>
 	</ul>
 </header>
+<div class="readable_width">
 <p>Document editing is a horrible business that I wouldn't wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can't be combated by even the most confident keyboard cowboys.</p>
 <p>I've spent a lot of time trying to wrangle my word editing and perfect my proofreading performance by configuring and tweaking my LibreOffice setup to perfection. First thing to look at is why I chose LibreOffice over any other document suite.</p>
 <h2>Best Suite</h2>
@@ -134,8 +108,6 @@ If you're wondering, then yes, this part of the article has been around before. 
 <p>Navigate to <code>Tools &gt; Options &gt; LibreOffice Writer &gt; Compatibility</code> and ensure <code>Reorganise Form menu for Microsoft compatibility</code> and <code>Word-compatible trailing blanks</code> are ticked. Once done, click <code>Use as Default</code> and then <code>Yes</code> in the subsequent popup box.</p>
 <hr />
 <p>Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.</p>
-</article>
-<p><span class="giscus"></span></p>
-
+<section class="giscus"></section>
 </div>
-</body>
+</article>

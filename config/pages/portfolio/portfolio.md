@@ -1,17 +1,12 @@
-<head>
-    <title>Portfolio | Vale.Rocks</title>
-    <meta property="og:title" content="Portfolio | Vale.Rocks"/>
-    <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
-    <meta property="og:description" content="The hippest site this side of MySpace." />
-</head>
-
 <h1 id="section">
     Portfolio
 </h1>
 
+<div>
+
 ## Selected Works
 
-<div id="portfolio">
+<div class="portfolio">
 
 <div class="item">
 
@@ -33,7 +28,7 @@ Poem Compilation
 
 ## Even More Stuff
 
-<div id="portfolio">
+<div class="portfolio">
 
 <div class="item">
 
@@ -46,4 +41,6 @@ Typeface
 ### [Meat Typeface](/portfolio/Meat_Typeface)
 </div>
 
-</div> 
+</div>
+
+</div>

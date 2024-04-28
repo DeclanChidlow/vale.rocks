@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 I'm sitting here writing this on a rainy Monday night. This article is going live on April 2nd, the day of my 18th birthday. Tomorrow, I'm legally an adult. I can vote. I can drink. I can smoke. I can go to an adult shop. I can gamble away my savings.
 
 I could dwell on the encroaching responsibilities of adulthood or reminisce about the 'end' of my childhood. I could even lament the gum stuck to my shoe that I keep forgetting to scrape off. But I want to write about a game that sits with me. Minecraft.
@@ -100,6 +102,7 @@ As the rain subsides outside the window, I reflect on my memories of a game that
 
 Thank you.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

@@ -21,6 +21,8 @@
 	</ul>
 </header>
 
+<div class="readable_width">
+
 My first phone was a RugGear RG930. If you think Nokia's 3310 was built like a brick, then this thing may as well have been rubberised titanium. It was so sturdy I used to play 'catch the phone' with friends, and it ended up face down on concrete more times than I can count, but I don't think it ever sustained so much as a scratch. As time progressed, I decided I wanted something a tad more featured, and later ended up with the first iPhone SE, a phone that was endlessly reliable when it wasn't stuck in a bootloop thanks to my love for gaolbreaking.
 
 As the SE aged, and the battery degraded, I chose to upgrade. I moved to the Nokia 2720, a charming little flip phone. It was an excellent nugget of a device, and I used it for a few years. It didn't have support for much fancy crap, but I didn't need that. It worked and was lovely until it shed the D-pad, the company supporting the OS disappeared off the planet, and it started to take issue with my telco.
@@ -70,6 +72,7 @@ I can only hope that the restructuring leads to their products improving, as wha
 
 Please feel welcome to leave any suggestions in the comments.
 
-</article>
+<section class="giscus"></section>
 
-<span class="giscus"></span>
+</div>
+</article>

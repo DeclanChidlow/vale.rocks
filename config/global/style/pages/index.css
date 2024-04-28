@@ -1,13 +1,11 @@
-#heroouter,
-#landingbody,
-footer {
-	margin-left: -7rem;
-	position: relative;
-	z-index: 1;
+main {
+	display: block;
 }
 
-#heroouter {
-	pointer-events: none;
+#landingbody,
+footer {
+	position: relative;
+	z-index: 1;
 }
 
 #hero {
@@ -19,12 +17,13 @@ footer {
 }
 
 #herotext {
-	display: block;
-}
+	pointer-events: none;
+	z-index: 1000;
 
-#herotext h1 {
-	font-size: 6rem;
-	line-height: 6rem;
+	h1 {
+		font-size: 6rem;
+		line-height: 6rem;
+	}
 }
 
 #puddle-container {
@@ -48,15 +47,4 @@ footer {
 	height: 50%;
 	background: linear-gradient(transparent, var(--black));
 	pointer-events: none;
-}
-
-@media (max-width: 700px) {
-	#heroouter,
-	#landingbody {
-		margin: 0;
-	}
-
-	footer {
-		margin: 2rem 0 1rem;
-	}
 }

@@ -1,12 +1,13 @@
 .callout {
-	padding: 0 0.5rem;
-	margin: 1rem 0;
+	padding: 0.2rem 1rem;
 	display: block;
 	white-space: pre-line;
+	border-left: 0.2rem solid var(--grey);
+	margin-bottom: 0.8rem;
 }
 
 .note {
-	border-left: solid var(--blue);
+	border-color: var(--blue);
 }
 
 .note::before {
@@ -15,7 +16,7 @@
 }
 
 .warning {
-	border-left: solid var(--orange);
+	border-color: var(--orange);
 }
 
 .warning::before {
