@@ -21,7 +21,7 @@ Tech Support Business
 <div class="item">
 
 Poem Compilation
-### [Poems by Pam](/portfolio/poemsbypam)
+### [Poems by Pam](/portfolio/Poems_By_Pam)
 </div>
 
 </div> 
