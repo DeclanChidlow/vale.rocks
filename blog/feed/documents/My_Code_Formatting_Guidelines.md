@@ -4,7 +4,7 @@
     <meta name="description" content="Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, the classic tabs vs spaces debate, and much more." />
     <meta property="og:description" content="Stirring the tabs vs spaces pot once again." />
     <meta property="article:published_time" content="2024-04-18" />
-    <meta property="article:modified_time" content="2024-04-18" />
+    <meta property="article:modified_time" content="2024-04-28" />
     <meta property="article:section" content="Tutorials" />
 </head>
 
@@ -66,10 +66,10 @@ Prettier: [`singleQuote: true`](https://prettier.io/docs/en/options.html#quotes)
 
 ```JavaScript
 // Bad
-const variable = "String Content";
+const variable = 'String Content';
 
 // Good
-const variable = 'String Content';
+const variable = "String Content";
 ```
 
 ## Quote Properties
