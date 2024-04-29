@@ -1,0 +1,27 @@
+/* Importing variable styles */
+@import url("/styles/variables/colours.css");
+
+/* Importing base styles */
+@import url("/styles/base/reset.css");
+@import url("/styles/base/body.css");
+@import url("/styles/base/standard.css");
+
+/* Importing type styles */
+@import url("/styles/type/callouts.css");
+@import url("/styles/type/code.css");
+@import url("/styles/type/headers.css");
+@import url("/styles/type/links.css");
+@import url("/styles/type/syntax_highlighting.css");
+@import url("/styles/type/type.css");
+
+/* Importing component styles */
+@import url("/styles/components/footer.css");
+@import url("/styles/components/figures.css");
+@import url("/styles/components/input.css");
+@import url("/styles/components/navbar.css");
+@import url("/styles/components/article_header.css");
+@import url("/styles/components/section.css");
+@import url("/styles/components/seperator.css");
+
+/* Importing animation styles */
+@import url("/styles/animations/fade_in_up.css");

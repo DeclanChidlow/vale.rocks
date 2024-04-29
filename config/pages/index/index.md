@@ -27,10 +27,10 @@ Impressed by my work? Have a project in mind? I'd love to hear about it! Don't h
 
 <script>
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    var script = document.createElement('script');
-    script.src = "/assets/puddle.js";
+    const script = document.createElement('script');
+    script.src = "/scripts/puddle.js";
     script.onload = function() {
-        var puddle = new Puddle("#puddle-container");
+        const puddle = new Puddle("#puddle-container");
         puddle.setNodeStyle("ascii");
     };
     document.body.appendChild(script);

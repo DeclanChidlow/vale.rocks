@@ -4,9 +4,9 @@
 
 <div>
 
-<search id="searchAndFilter">
-    <input type="search" id="blogsearch" onkeyup="search()" placeholder="Search posts...">
-    <select name="tag" id="tag">
+<search id="refine-posts">
+    <input type="search" id="blog-search" placeholder="Search posts...">
+    <select id="blog-filter">
         <option value="all">All</option>
         <option value="review">Reviews</option>
         <option value="essay">Essays</option>
@@ -15,7 +15,7 @@
     </select>
 </search>
 
-<div id="blogposts">
+<div id="blog-posts">
 
 <div class="post">
 
@@ -102,47 +102,7 @@ Meta
 </div>
 
 </div>
-
 </div>
 
-<script src="assets/scrollfade.js"></script>
-
-<script>
-    document.getElementById("searchAndFilter").style.display = 'flex';
-</script>
-
-<script>
-// Search posts
-    function search() {
-        var input = document.getElementById('blogsearch');
-        var filter = input.value.toUpperCase();
-        var ul = document.getElementById("blogposts");
-        var divs = ul.querySelectorAll('div');
-
-    divs.forEach(function(div) {
-        var a = div.querySelector("a");
-        var txtValue = a.textContent;
-        var displayStyle = (txtValue.toUpperCase().indexOf(filter) > -1) ? "" : "none";
-        div.style.display = displayStyle;
-    });
-    }
-</script>
-
-<script>
-// Filter posts
-    const tagSelect = document.getElementById('tag');
-    const blogPosts = document.getElementById('blogposts');
-
-    tagSelect.addEventListener('change', filterPosts);
-
-    function filterPosts() {
-        const selectedTag = tagSelect.value.toUpperCase();
-        const divs = blogPosts.querySelectorAll('div');
-        divs.forEach(div => {
-            const postInfo = div.textContent.trim().split('\n');
-            const postType = postInfo[0].toUpperCase();
-            const displayStyle = (selectedTag === 'ALL' || postType === selectedTag) ? "" : "none";
-            div.style.display = displayStyle;
-        });
-    }
-</script>
+<script src="/scripts/scrollfade.js"></script>
+<script src="/scripts/blogrefine.js"></script>

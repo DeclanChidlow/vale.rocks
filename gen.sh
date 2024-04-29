@@ -55,5 +55,6 @@ cp -r feed/export/. ../docs/portfolio
 cd ..
 
 # Copy global styles and assets
-cp -r config/global/style docs/
 cp -r config/global/assets docs/
+cp -r config/global/styles docs/
+cp -r config/global/scripts docs/

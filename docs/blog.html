@@ -8,13 +8,13 @@
     	<meta property="og:locale" content="en_AU" />
     	<meta name="author" content="Declan Chidlow" />
     	<meta property="og:site_name" content="Vale Rocks" />
-    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="stylesheet" href="/styles/style.css">
     	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
     	<link rel="me" href="https://fedi.vale.rocks/vale" />
     	<link rel="me" href="https://github.com/DeclanChidlow" />
     	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    	<script src="/assets/prism.js"></script>
+    	<script src="/scripts/prism.js"></script>
     	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
@@ -22,7 +22,7 @@
         <meta property="og:title" content="Blog | Vale.Rocks"/>
         <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
         <meta property="og:description" content="The hippest site this side of MySpace." />
-    		<link rel="stylesheet" href="/style/pages/blog.css">
+    		<link rel="stylesheet" href="/styles/pages/blog.css">
     </head>
     
     <body>
@@ -43,9 +43,9 @@
     Blog
 </h1>
 <div>
-<search id="searchAndFilter">
-    <input type="search" id="blogsearch" onkeyup="search()" placeholder="Search posts...">
-    <select name="tag" id="tag">
+<search id="refine-posts">
+    <input type="search" id="blog-search" placeholder="Search posts...">
+    <select id="blog-filter">
         <option value="all">All</option>
         <option value="review">Reviews</option>
         <option value="essay">Essays</option>
@@ -53,7 +53,7 @@
         <option value="meta">Meta</option>
     </select>
 </search>
-<div id="blogposts">
+<div id="blog-posts">
 <div class="post">
 <p>Tutorial</p>
 <h2><a href="/blog/My_Code_Formatting_Guidelines">My Code Formatting Guidelines</a></h2>
@@ -116,44 +116,8 @@
 </div>
 </div>
 </div>
-<script src="assets/scrollfade.js"></script>
-<script>
-    document.getElementById("searchAndFilter").style.display = 'flex';
-</script>
-<script>
-// Search posts
-    function search() {
-        var input = document.getElementById('blogsearch');
-        var filter = input.value.toUpperCase();
-        var ul = document.getElementById("blogposts");
-        var divs = ul.querySelectorAll('div');
-
-    divs.forEach(function(div) {
-        var a = div.querySelector("a");
-        var txtValue = a.textContent;
-        var displayStyle = (txtValue.toUpperCase().indexOf(filter) > -1) ? "" : "none";
-        div.style.display = displayStyle;
-    });
-    }
-</script>
-<script>
-// Filter posts
-    const tagSelect = document.getElementById('tag');
-    const blogPosts = document.getElementById('blogposts');
-
-    tagSelect.addEventListener('change', filterPosts);
-
-    function filterPosts() {
-        const selectedTag = tagSelect.value.toUpperCase();
-        const divs = blogPosts.querySelectorAll('div');
-        divs.forEach(div => {
-            const postInfo = div.textContent.trim().split('\n');
-            const postType = postInfo[0].toUpperCase();
-            const displayStyle = (selectedTag === 'ALL' || postType === selectedTag) ? "" : "none";
-            div.style.display = displayStyle;
-        });
-    }
-</script>
+<script src="/scripts/scrollfade.js"></script>
+<script src="/scripts/blogrefine.js"></script>
 
 
     </main>

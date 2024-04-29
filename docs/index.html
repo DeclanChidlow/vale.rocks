@@ -8,13 +8,13 @@
     	<meta property="og:locale" content="en_AU" />
     	<meta name="author" content="Declan Chidlow" />
     	<meta property="og:site_name" content="Vale Rocks" />
-    	<link rel="stylesheet" href="/style/style.css">
+    	<link rel="stylesheet" href="/styles/style.css">
     	<link rel="alternate" type="application/rss+xml" title="Vale.Rocks Blog" href="https://vale.rocks/blog/feed.rss" />
     	<link rel="me" href="https://fedi.vale.rocks/vale" />
     	<link rel="me" href="https://github.com/DeclanChidlow" />
     	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    	<script src="/assets/prism.js"></script>
+    	<script src="/scripts/prism.js"></script>
     	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
@@ -22,7 +22,7 @@
         <meta property="og:title" content="Vale.Rocks"/>
         <meta name="description" content="The internet website of Declan Chidlow, known online as Vale. Within this digital domain, I document my thoughts, musings, and otherwise unhinged ramblings. I hope you stick around and find at least something intriguing here. I've put a lot of time into it. " />
         <meta property="og:description" content="The hippest site this side of MySpace." />
-    		<link rel="stylesheet" href="/style/pages/index.css">
+    		<link rel="stylesheet" href="/styles/pages/index.css">
     </head>
     
     <body>
@@ -58,10 +58,10 @@
 </div>
 <script>
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    var script = document.createElement('script');
-    script.src = "/assets/puddle.js";
+    const script = document.createElement('script');
+    script.src = "/scripts/puddle.js";
     script.onload = function() {
-        var puddle = new Puddle("#puddle-container");
+        const puddle = new Puddle("#puddle-container");
         puddle.setNodeStyle("ascii");
     };
     document.body.appendChild(script);
