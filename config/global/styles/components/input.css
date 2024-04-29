@@ -11,6 +11,13 @@ textarea {
 	-webkit-appearance: none;
 }
 
+button:focus,
+select:focus,
+input:focus,
+textarea:focus {
+	color: inherit;
+}
+
 button,
 select {
 	cursor: pointer;
@@ -25,7 +32,7 @@ textarea {
 	color: var(--white);
 }
 
-*:focus {
+:focus {
 	outline: var(--blue) solid 2px;
 	color: var(--blue);
 }
