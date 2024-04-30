@@ -1,6 +1,4 @@
-<h1 id="section">
-   	Services
-</h1>
+<h1 id="section">Services</h1>
 
 <div>
 

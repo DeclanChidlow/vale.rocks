@@ -44,9 +44,9 @@ cd portfolio
 portfolio_feeds=(
     "Mutant_Remix"
     "CapChord"
-    "Poems_By_Pam"
+    "Pam_Carters_Scriptural_Poetry"
+	"Photography"
     "Meat_Typeface"
-    "Photography"
 )
 for feed in "${portfolio_feeds[@]}"; do
     /home/vale/gitrepos/Adduce/target/release/adduce feed publish "$feed"

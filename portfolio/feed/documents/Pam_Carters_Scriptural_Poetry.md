@@ -1,5 +1,5 @@
 <head>
-  <title>Poems By Pam | Vale.Rocks</title>
+  <title>Pam Carter's Scriptural Poetry | Vale.Rocks</title>
   <meta property="og:title" content="Poems By Pam"/>
   <meta property="article:section" content="Portfolio" />
 </head>
@@ -8,7 +8,7 @@
 <header>
 	 Poem Compilation
 	<h1>
-		Poems By Pam
+		Pam Carter's Scriptural Poetry
 	</h1>
 </header>
 

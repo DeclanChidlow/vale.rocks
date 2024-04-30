@@ -13,8 +13,8 @@ from_str = "config/global/elements/navbar.html"
 style = "html"
 
 [[main.block]]
-from_str = "config/pages/portfolio/portfolio.md"
-style = "md"
+from_str = "config/pages/portfolio/portfolio.html"
+style = "html"
 
 [[main.block]]
 from_str = "config/global/elements/footer.html"

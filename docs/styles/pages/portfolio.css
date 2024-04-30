@@ -1,4 +1,4 @@
-.portfolio {
+.portfolio-items {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2%;
@@ -8,6 +8,10 @@
 		border-bottom: 2px solid var(--bright_grey);
 		flex-basis: 48%;
 		padding: 0.5rem 0;
+	}
+
+	.item:focus {
+		border-color: var(--blue);
 	}
 
 	h3 {
@@ -22,14 +26,18 @@
 	a {
 		text-decoration: none;
 	}
+	
+	a:hover {
+		color: var(--blue);
+	}
 }
 
-.portfolio:not(:last-child) {
+.portfolio-items:not(:last-child) {
 	margin-bottom: 10rem;
 }
 
 @media (max-width: 1000px) {
-	.portfolio {
+	.portfolio-items {
 		flex-direction: column;
 
 		.item {

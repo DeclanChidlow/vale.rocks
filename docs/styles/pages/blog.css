@@ -12,6 +12,10 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
+	
+	.post:focus {
+		border-color: var(--blue);
+	}
 
 	h2 {
 		margin: 0;

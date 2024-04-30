@@ -1,6 +1,4 @@
-<h1 id="section">
-    Contact
-</h1>
+<h1 id="section">Contact</h1>
 
 <div>
 Need to get in contact with me for whatever reason? The best ways to do so are:
