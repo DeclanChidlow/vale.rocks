@@ -31,6 +31,10 @@
 	a {
 		text-decoration: none;
 	}
+
+	a:hover {
+		color: var(--blue);
+	}
 }
 
 #refine-posts {
@@ -64,6 +68,11 @@
 
 		.post {
 			width: 100%;
+			height: auto;
+
+			h2 {
+				display: initial;
+			}
 		}
 	}
 }
