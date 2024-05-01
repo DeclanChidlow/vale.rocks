@@ -32,6 +32,7 @@ blog_feeds=(
     "Cybersecurity_Superstition"
     "Minecraft_Nostalgia_And_Growing_Up"
     "My_Code_Formatting_Guidelines"
+    "JPEG_XL_And_Googles_War_Against_It"
 )
 for feed in "${blog_feeds[@]}"; do
     /home/vale/gitrepos/Adduce/target/release/adduce feed publish "$feed"
