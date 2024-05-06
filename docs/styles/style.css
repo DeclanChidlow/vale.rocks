@@ -4,7 +4,6 @@
 /* Importing base styles */
 @import url("/styles/base/reset.css");
 @import url("/styles/base/body.css");
-@import url("/styles/base/standard.css");
 
 /* Importing type styles */
 @import url("/styles/type/callouts.css");

@@ -4,7 +4,7 @@
     <meta name="description" content="Critical thoughts on the intention of Australian telcos to sunset the 3G network and the major repurcussions on coverage, safety, and much more that will come with it." />
     <meta property="og:description" content="Better hope you don't need to call emergency services." />
     <meta property="article:published_time" content="2023-11-26" />
-    <meta property="article:modified_time" content="2023-11-29" />
+    <meta property="article:modified_time" content="2024-05-06" />
     <meta property="article:section" content="Essays" />
 </head>
 
@@ -16,7 +16,7 @@
 	</h1>
 	<ul>
 		<li><time datetime="2023-11-26">26 Nov, 2023</time></li>
-		<li>912 words</li>
+		<li>1057 words</li>
 		<li>3 minute read</li>
 	</ul>
 </header>
@@ -30,6 +30,10 @@ As it stands, 4G in Australia is conceded with data. Voice communications are le
 ## Impact on Devices
 
 3G is still very much relied upon by countless devices. An instance of this is my grandfather's pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I'm sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.
+
+<figure class="right">
+<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower." />
+</figure>
 
 Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.
 
@@ -48,6 +52,18 @@ Given the challenges faced by a company as small and densely populated as Malays
 You may be wondering what impact this will have on you, but determining what devices and equipment will be affected by this change is far from straightforward. Identifying phones is particularly tricky. There are countless models on the market, and each sports a different operating system, carrier, and country of origin. This makes it very hard to identify exactly what phone you have, let alone if it supports 4G or VoLTE. Even the information posted by carriers may only apply to phones sold by them. Beyond phones, knowing if your other equipment or devices will be supported can be very difficult. The easiest way is to find out directly from the manufacturer, although that can be very difficult if the company has disbanded or if they no longer acknowledge that product.
 
 In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.
+
+## May 2024 Update
+
+Telstra announced today that they've delayed the discontinuation of their 3G services to August 31st. Previously, they had intentions of cutting off access on June 30th.
+
+They have also setup a way to check your device's compatibility, with [more information available on their website](https://www.abc.net.au/news/2024-05-06/telstra-to-extend-3g-network-shutdown/103808110).
+
+In my eyes, this still doesn't excuse the unnecessary risk and inconvenience that this change introduces, but it is good to see that they are at least taking some action. Vodaphone has [already closed their network](https://www.vodafone.com.au/support/network/3g-closure), but Optus customers [still have until September](https://www.optus.com.au/support/mobiles-tablets-wearables/important-changes-3g).
+
+---
+
+If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you'd like to see me produce similar content into the future, then consider [sending me a tip](/donate). It'd mean a lot.
 
 <section class="giscus"></section>
 

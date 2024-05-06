@@ -39,7 +39,7 @@ I decided to move to a custom ROM to escape the issues. I figured it'd be a bree
 I thought about trying my hand at making one, but discovered that HMD has failed to comply with the GPL and hasn't distributed the source needed. [As you can see on this page](https://www.hmd.com/en_int/opensource), there is no G22 listed.
 
 <figure class="right">
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.chooseyourmobile.com%2Fwp-content%2Fuploads%2F2023%2F02%2FNokia-G22-Image.jpg&f=1&nofb=1&ipt=e1d29346db2792fdc63f390dda99ac099028c77f0a4c35b1ac802a303cf46a32&ipo=images" alt="A side, back, and front view of the Nokia G22 in the colour 'Lagoon Blue'." />
+<img src="https://www.chooseyourmobile.com/wp-content/uploads/2023/02/Nokia-G22-Image.jpg" alt="A side, back, and front view of the Nokia G22 in the colour 'Lagoon Blue'." />
 <figcaption>The Nokia G22 from a few angles.</figcaption>
 </figure>
 
