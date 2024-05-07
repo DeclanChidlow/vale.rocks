@@ -1,10 +1,10 @@
 <head>
     <title>JPEG XL And Google's War Against It | Vale.Rocks</title>
     <meta property="og:title" content="JPEG XL And Google's War Against It"/>
-    <meta name="description" content="My look into the very promicing JPEG XL and why it hasn't seen the adoption it deserves as an innovative new file format." />
+    <meta name="description" content="Starting with an overview of existing image formats, including JPEG, PNG, and GIF, a look into the very promising JPEG XL and why it hasn't seen the adoption it deserves as an innovative new file format in the web landscape." />
     <meta property="og:description" content="The best format you can't use." />
     <meta property="article:published_time" content="2024-05-01" />
-    <meta property="article:modified_time" content="2024-05-02" />
+    <meta property="article:modified_time" content="2024-05-07" />
     <meta property="article:section" content="Essays" />
 </head>
 
@@ -16,8 +16,8 @@
 	</h1>
 	<ul>
 		<li><time datetime="2024-05-01">01 May, 2024</time></li>
-		<li>2044 words</li>
-		<li>7 minute read</li>
+		<li>2124 words</li>
+		<li>8 minute read</li>
 	</ul>
 </header>
 
@@ -53,15 +53,17 @@ Over the past 30 odd years, our devices, software, and knowledge of them have co
 
 In 2010, two years after the release of their Chrome browser, Google announced WebP. They proceeded to develop and refine it until its eventual stable release in 2018. The goal was simple. Make a format with the quality of a JPEG, the transparency of a PNG, and the animation of a GIF, in a small package.
 
-As expected for a Google product, it very quickly gained support in Chromium, even prior to its stable release. Safari and Firefox didn't adopt support until after its stable release, but it now sees complete browser support. Once all browsers received support, Google very quickly began working to snuff out other formats. They made several changes, such as updating PageSpeed Insights to suggest that sites serve images as WebP files rather than competing formats.
+As expected for a Google product, it very quickly gained support in Chromium, even in its unstable phase. Safari and Firefox didn't receive full support until after its stable release, and many complaints from users stating that websites designed exclusively with Chrome in mind would fail to render the format.
+
+Once all browsers received support, Google very quickly began working to snuff out other formats. They made several changes, such as updating PageSpeed Insights to suggest that sites serve images as WebP files rather than competing formats.
 
 ### Announcing AVIF
 
-About a year after WebP's introduction, a competing standard, AVIF, had its first full release. The intention was for the format to succeed WebP, and while it did implement features such as HDR, which weren't present in WebP, it also lacked features such as multi page support. Realistically, this places it in no man's land. It's not objectively better than the standards it's competing against.
+About a year after WebP's full introduction, a competing standard, AVIF, had its first full release. The intention was for the format to succeed WebP, and while it does implement features that aren't present in WebP, such as HDR support, it lacks in other features, such as support for resolutions over 4K. Realistically, this places AVIF in no man's land. It wasn't a direct upgrade to the standards it was competing against when it released, and it certainly isn't now.
 
-AVIF also uses AV1 video compression. As you might imagine, videos and still images call for different styles of compression. Video is most concerned with compressing information throughout multiple frames, whereas image compression is a lot more concerned with compression within a single picture.
+One edge it does have is its use of AV1. AV1 as a video coding format already had a strong footing by the time AVIF came onto the scene. As AVIF uses the same format, just for images rather than videos, a lot of the prerequisite work a format needs to go through to see adoption had already been done.
 
-That said, AVIF managed to see quick adoption. In August of 2020, Chromium received support, with Firefox enabling support in October of 2021 and Safari implementing support throughout 2022.
+Thanks to many browsers having already implemented AV1 for the purpose of video, AVIF managed to see quick adoption. In August of 2020, Chromium received support for the format, with Firefox enabling support in October of 2021 and Safari implementing support throughout 2022.
 
 ### Introducing JPEG XL
 
@@ -115,17 +117,19 @@ However, it never made it past the opt in flag support stage, and Google eventua
 
 This rightly caused an uproar. Users pointed out many flaws in their claims. Firstly, that there has been a huge interest in the standard from a huge number of individuals and organisations, and secondly, the innovation brought by JPEG XL was most definitely "sufficient incremental benefits", especially as they had recently accepted AVIF, which was more lacking in features than existing standards.
 
-What this really translates to is, "We've created WebP, a competing standard, and want to kill anything that might genuinely compete with it". This would also explain why they adopted AVIF but not JPEG XL. AVIF wasn't superior in every way and, as such, didn't threaten to dethrone WebP.
+What this really translates to is, "We've created WebP, a competing standard, and want to kill anything that might genuinely compete with it". This would also partly explain why they adopted AVIF but not JPEG XL. AVIF wasn't superior in every way and, as such, didn't threaten to dethrone WebP.
 
 JPEG XL, however, **is** better than WebP in every quantifiable way and would obsolete it. AVIF also serves as something to point to should they be called out for stifling competition and innovation as they are. They can simply say, "We love other formats. Look, we added another one just the other year".
 
 Interestingly, Firefox, which receives a pretty decent amount of funding from Google, quietly dropped focus on implementing JPEG XL support and now state that they are "neutral" on the matter, although the flag is still present in the nightly version of the browser. Safari, which is developed by Apple separately from Google, managed to implement JPEG XL support with no issues, and it's available in WebKit without limitation.
 
-Many forks of Chromium and Firefox also include support with no ill effect. Firefox based browsers can simply enable the flag, and Chromium based browsers can use the implementation prior to removal as a jumping off point. Some of the forks with support include [Thorium](https://thorium.rocks), [Waterfox](https://www.waterfox.net), and [Pale Moon](https://www.palemoon.org). The code is written and working, and both use external implementations, so the cited "maintenance burden" is more or less nonexistent.
+Many forks of Chromium and Firefox also include support with no ill effect. Firefox based browsers can simply enable the flag, and Chromium based browsers can use the implementation prior to removal as a jumping off point.
+
+Some of the forks with support include [Thorium](https://thorium.rocks), [Waterfox](https://www.waterfox.net), and [Pale Moon](https://www.palemoon.org). The code is written and working, and both use external implementations, so the cited "maintenance burden" is more or less nonexistent. Even if it does turn out to be a huge burden, [they can take the hit](https://lunduke.locals.com/post/4387539/firefox-money-investigating-the-bizarre-finances-of-mozilla).
 
 ### Why WebP?
 
-So, Google sabotaged JPEG XL in favour of their own format, WebP. The question is, _why?_ Well, I think that's pretty clear. Google wants control, and JPEG XL could take that away from them. They already have unrivalled control over the web, so why not expand that just a bit more?
+So, Google sabotaged JPEG XL in favour of their own format, WebP. The question is, _why?_ Well, I think that's pretty clear. Google wants complete control, and JPEG XL could take that away from them. They already have unrivalled control over the web, so why not expand that just a bit more?
 
 Should Google decide they need to make some alterations to the format to benefit themselves, there is next to nothing standing in their way. They've got control over the standard and can make tweaks if needed. Especially the sort of business minded tweaks that are employed to better align with stakeholder interests.
 
