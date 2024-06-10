@@ -16,9 +16,9 @@
     	<link rel="me" href="https://github.com/DeclanChidlow" />
     	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
     
-    	<meta name="referrer" content="strict-origin-when-cross-origin">
-    	<meta http-equiv="X-Content-Type-Options" content="nosniff">
-    	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    	<meta name="referrer" content="strict-origin-when-cross-origin" />
+    	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
     
     	<script src="/scripts/prism.js"></script>
     	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
@@ -63,10 +63,10 @@
     <style>:root{--header_background: var(--magenta)}</style><head>
     <title>My Code Formatting Guidelines | Vale.Rocks</title>
     <meta property="og:title" content="My Code Formatting Guidelines"/>
-    <meta name="description" content="Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, the classic tabs vs spaces debate, and much more." />
+    <meta name="description" content="Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, my take on the classic tabs vs spaces debate, and much more." />
     <meta property="og:description" content="Stirring the tabs vs spaces pot once again." />
     <meta property="article:published_time" content="2024-04-18" />
-    <meta property="article:modified_time" content="2024-04-28" />
+    <meta property="article:modified_time" content="2024-06-10" />
     <meta property="article:section" content="Tutorials" />
 </head>
 <article>
@@ -77,14 +77,15 @@
 	</h1>
 	<ul>
 		<li><time datetime="2024-04-18">18 Apr, 2024</time></li>
-		<li>746 words</li>
+		<li>875 words</li>
 		<li>3 minute read</li>
 	</ul>
 </header>
 <div class="readable_width">
-<p>Software development is a varied field filled with lots of different people with very strong opinions. When working on projects, it's important that everyone follows the same guidelines for the sake of compatibility and coherence.</p>
-<p>This document outlines my personal code style guidelines and how I implement them. Much of what I outline here can be achieved using <a href="https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml">my Prettier configuration</a>. Where relevant, I've included the related Prettier config lines.</p>
-<p>Note that I am a frontend developer, and, as such, this documentation is best tailored to that. If you wish to utilise my guidelines outside the sphere of frontend development, then you may need to make some alterations.</p>
+<p>Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is <em>not</em> something I, nor anyone else, ever want to deal with.</p>
+<p>This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I've documented them here.</p>
+<p>Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.</p>
+<p>I personally enforce these settings using <a href="https://prettier.io">Prettier</a>, which I feel does an excellent job. You can find my .prettierrc in my <a href="https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml">dotfile repo on GitHub</a>. I've also noted the relevant Prettier options where applicable.</p>
 <h2>Use Tabs</h2>
 <p>Tabs should be used for indentation for several reasons. These include:</p>
 <ul>
@@ -132,7 +133,7 @@ object = {
 };
 </code></pre>
 <h2>Don't Split Strings Across Multiple Lines</h2>
-<p>Strings should be contained within one line unless there is genuine reason not to. It makes things hard to search and is a pain to deal with.</p>
+<p>Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search and is a general pain to deal with.</p>
 <pre><code class="language-JavaScript">// Bad
 const variable = "This is awful. It may be easier for a human to read, but \
 it leads to annoyance and makes it harder to search for things. It is an \
@@ -142,7 +143,7 @@ all around pain.";
 const variable = "This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.";
 </code></pre>
 <h2>Use Trailing Commas</h2>
-<p>Trailing commas make version history cleaner. Rather than a change implementing a new line <em>and</em> a comma on the previous line, it will only need to add the new line.</p>
+<p>Trailing commas help keep version history clean. Rather than a diff showing the implementation of a new line <em>and</em> a comma on the previous line, it will only display the actual change, a new line.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#trailing-commas"><code>trailingComma: "all"</code></a></p>
 <pre><code class="language-JavaScript">// Bad
 object = {
@@ -187,7 +188,7 @@ x =&gt; x
 <p>Code of one type used within a file of another should be formatted as you would code in it's native filetype.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#embedded-language-formatting"><code>embeddedLanguageFormatting: auto</code></a></p>
 <h2>Keep Multiple Attributes Per Line</h2>
-<p>Splitting an element's attributes into multiple lines takes up a lot of space and, on larger elements, leads to very long and unwieldy files.</p>
+<p>Splitting an element's attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#single-attribute-per-line"><code>singleAttributePerLine: false</code></a></p>
 <pre><code class="language-HTML">// Bad
 &lt;div
@@ -203,7 +204,8 @@ x =&gt; x
 &lt;/div&gt;
 </code></pre>
 <hr />
-<p>As I opened with, the formatting of code is a decisive and complex topic. I'm sure many people disagree with my code formatting guidelines, and I'd love to hear your criticisms in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
+<p>There you have my personal guidelines. I'm sure many people disagree (if only for my preference of tabs over spaces), and I'd love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
+<p>If you liked this post, then do consider sharing it. Also, if you'd like to support me in making more like it, consider <a href="/donate">sending me a tip</a>. It'd mean a lot.</p>
 <section class="giscus"></section>
 </div>
 </article>
