@@ -2,7 +2,7 @@ button,
 select,
 input,
 textarea {
-	color: var(--bright_white);
+	color: light-dark(var(--black), var(--bright_white));
 	padding: 0.2rem 0.5rem;
 	background: var(--grey);
 	border: none;
@@ -29,7 +29,7 @@ textarea {
 
 ::placeholder {
 	opacity: 1;
-	color: var(--white);
+	color: light-dark(var(--bright_grey), var(--white));
 }
 
 :focus {

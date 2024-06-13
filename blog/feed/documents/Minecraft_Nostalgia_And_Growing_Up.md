@@ -74,7 +74,7 @@ They also completely redesigned the user interface for controller. I find myself
 
 Legacy Console also featured an excellent set of customisation options for superflat worlds. You could choose the blocks layer by layer and specify exactly what structures should generate. The customisation was so excellent that it spawned countless challenges. Even now, years later, no other edition has superflat customisation to this level.
 
-Another thing that speaks to 4J's commitment is their implementation of the minigame modes. Exclusive to the Legacy Console Editions are Battle, Tumble, and Glide. Battle is Hunger Games, Tumble is spleef, and Glide is an Elytra race. Each of these mods were well fleshed out and polished with a custom UI. The lobby for the mini games was also intricate and played host to a range of Easter eggs.
+Another thing that speaks to 4J's commitment is their implementation of the minigame modes. Exclusive to the Legacy Console Editions are Battle, Tumble, and Glide. Battle is Hunger Games, Tumble is spleef, and Glide is an Elytra race. Each of these modes were well fleshed out and polished with a custom UI. The lobby for the mini games was also intricate and played host to a range of Easter eggs.
 
 The game was also optimised to an impressive degree. Looking back, it's easy to forget just how limited the seventh generation of consoles were. The Xbox 360 had a meager 512 MB of RAM. Yes, there were limitations. You couldn't have as many mobs, and the worlds weren't infinite. But most of what defined Minecraft was there, and the limitations were more than made up for by the numerous tweaks 4J introduced.
 

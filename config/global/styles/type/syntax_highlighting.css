@@ -6,11 +6,6 @@ pre[class*=language-] {
 	overflow: auto;
 }
 
-:not(pre)>code[class*=language-],
-pre[class*=language-] {
-	background: var(--grey)
-}
-
 :not(pre)>code[class*=language-] {
 	padding: .1em;
 	border-radius: .3em;
@@ -21,7 +16,7 @@ pre[class*=language-] {
 .token.comment,
 .token.doctype,
 .token.prolog {
-	color: var(--bright_grey)
+	color: var(--white)
 }
 
 .token.punctuation {

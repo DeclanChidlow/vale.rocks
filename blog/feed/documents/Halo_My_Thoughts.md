@@ -53,7 +53,7 @@ Halo 2 looks at CE, throws out what didn't work, improves what did, and then cra
 Graphics have received a significant upgrade here, both the original graphics and the anniversary variant. I recommend trying both and settling on what you prefer. Personally, I played with anniversary graphics. The cutscenes with anniversary graphics are **really** marvellous. They look more real than reality itself.
 
 <figure class="right">
-<img src="https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png" alt="The High Prophet of Regret, a character with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides. There is a shimmering, blueish light in the background which reflects off the helmet, adding to the futuristic aesthetic." />
+<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a character with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides. There is a shimmering, blueish light in the background which reflects off the helmet, adding to the futuristic aesthetic." />
 <figcaption>The High Prophet of Regret sitting on his throne in Halo 2: Anniversary graphics.</figcaption>
 </figure>
 

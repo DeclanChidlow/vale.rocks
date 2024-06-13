@@ -45,6 +45,6 @@ footer {
 	left: 0;
 	width: 100%;
 	height: 50%;
-	background: linear-gradient(transparent, var(--black));
+	background: linear-gradient(transparent, light-dark(var(--bright_white), var(--black)));
 	pointer-events: none;
 }

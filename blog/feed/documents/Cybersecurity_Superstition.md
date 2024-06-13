@@ -84,7 +84,9 @@ The fact that focus is often on concepts such as making secure passwords, encryp
 
 I think the best example I can give is this scene from the 1995 film Hackers. The movie as a whole has aged and definitely has its flaws, but I think this perfectly encapsulates how social engineering works.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_G3NT91AWUE?si=APFy9BFpmboUARbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figure>
+<iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/_G3NT91AWUE?si=APFy9BFpmboUARbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</figure>
 
 This scene illustrates how simple and innocuous a good social engineering attack can appear, yet how effective it can be. Something akin to this is the most significant and prevalent threat.
 

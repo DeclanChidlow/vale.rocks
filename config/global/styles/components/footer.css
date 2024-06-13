@@ -22,14 +22,12 @@ footer {
 	a:visited,
 	a:hover,
 	a:active {
-		color: var(--yellow);
+		color: light-dark(var(--orange), var(--yellow));
 		text-decoration: none;
 		padding: 0 0.5rem;
 	}
 
-	a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not(
-			[href*="mailto"]
-		):not([href*="tel"]):not([name]):after {
+	a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {
 		content: none;
 	}
 }

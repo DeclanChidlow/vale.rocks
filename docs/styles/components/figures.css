@@ -6,7 +6,7 @@ figcaption {
 	font-size: 0.8rem;
 	font-style: italic;
 	text-align: center;
-	color: var(--white);
+	color: light-dark(var(--grey), var(--white));
 }
 
 .left {
