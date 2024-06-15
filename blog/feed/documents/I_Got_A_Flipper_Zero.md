@@ -5,7 +5,7 @@
     <meta property="og:description" content="A fantasmagorical planet flipping oracle" />
 	<meta property="og:image" content="https://vale.rocks/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png" />
     <meta property="article:published_time" content="2024-06-14" />
-    <meta property="article:modified_time" content="2024-06-14" />
+    <meta property="article:modified_time" content="2024-06-15" />
     <meta property="article:section" content="Review" />
 </head>
 
@@ -17,7 +17,7 @@
 	</h1>
 	<ul>
 		<li><time datetime="2024-06-14">14 June, 2024</time></li>
-		<li>1702 words</li>
+		<li>1881 words</li>
 		<li>6 minute read</li>
 	</ul>
 </header>
@@ -67,7 +67,7 @@ Once I had the Flipper properly setup, I dove straight into mischief. First acti
 
 This sort of interaction has defined my usage of the Flipper. Receive a signal and play it back. It's a real world copy paste. In fact, that is probably the best way to describe the Flipper for anyone curious about what exactly it is. It's a copy and paste for the world's signals.
 
-One thing I was worried about was that the novelty of the device would wear off quickly, and I wouldn't touch it again. Well, the novelty did wear off, but what it was replaced with is arguably better. The Flipper has taken the position of my keys and wallet in my right jean pocket.
+One thing I was worried about was that the novelty of the device would wear off quickly, and I wouldn't touch it again. Well, the novelty did wear off, but what it was replaced with is arguably better. Utility. The Flipper has taken the position of my keys and wallet in my right jean pocket.
 
 The device is slated as a "multi-tool device for geeks" on the official website, and I don't think a better description could be written. Much like a multitool, it's something I _always_ want on me.
 
@@ -75,7 +75,7 @@ I think the multitool branding also sets expectations right. You don't buy a mul
 
 ## Uses
 
-Part of always wanting it on my person is down to just how handy it's come in. I haven't had it long, but it is such a useful little nugget and does so much. I've noted some of my favourite uses for it here, but the list is far from exhaustive. It can do _so_ much.
+Part of always wanting it on my person is down to just how handy it's been. I haven't had it long, but it is such a useful little nugget and does so much. I've noted some of my favourite uses for it here, but the list is far from exhaustive. It can do _so_ much.
 
 Perhaps one of the most common uses is as a remote control for TVs, set top boxes, VHS players, DVD players, Hi-Fi systems, air conditioners, lights, etc. If it's been in my proximity and has infrared capabilities, then I've captured its signals. Being able to change the volume on the TV without having to send a search party out for the remote is one thing, but there are many devices I encounter with absent remotes where the Flipper is invaluable. I can either try brute force the codes or consult the [very comprehensive IRDB](https://github.com/logickworkshop/Flipper-IRDB), which contains remotes for everything from clocks to bidets.
 
@@ -87,17 +87,25 @@ The subGHz functionality is something I want to do more with. Most devices have 
 
 The NFC functionality is also pretty neat. Most cards are encrypted, but things like Amiibo are fair game. Sure beats carrying a plastic figure around.
 
+## Build and Battery
+
+One of the first things that struck me about the Flipper was just how solid it is. It has a bit of weight to it, with a robust plastic case that doesn't creak nor flex. I can feel pretty confident that it won't fail during normal usage.
+
+The only issue with the build that I can point to is the pogo pins included for the iButton functionality. They're perhaps a bit fragile, which leads to worry whenever I find them catching on my pants when sliding it in and out of my pockets.
+
+As for the battery, I can only say good things. When Flipper claims it can last for ["up to one month"](https://docs.flipper.net/basics/power), they aren't kidding. I was initially worried about battery life, so I turned off Bluetooth when not in use, but that wasn't really necessary. I can happily use the Flipper and place it in standby mode with Bluetooth on without concern that the battery will be dead the next time I go to use it.
+
 ## Ethics and Legality
 
 The Flipper is a 'hacking' tool. 'Hacking' comes with a bad rep. The second somebody mentions hacking, it's assumed you're trying to bust into a Gibson or something of that nature.
 
-Obviously, the Flipper should be used responsibly. To bring up the multitool analogy once again, I could use the knife on a multitool to hold someone hostage or horrifically injure them. That doesn't mean that I necessarily will though, and it certainly doesn't mean mutitools should be blanket banned.
+Obviously, the Flipper should be used responsibly. To bring up the multitool analogy once again, I could use the knife on a multitool to hold someone hostage or horrifically injure them. That doesn't mean that I necessarily will though, and it certainly doesn't mean multitools should be blanket banned.
 
-There are many a lawmaker of the impression that the Flipper is a tool of evil. This isn't the case, or at least not if used responsibly. The Fipper isn't just evil, and it isn't just a toy. It is a tool.
+There are many a lawmaker of the impression that the Flipper is a tool of evil. This isn't the case, or at least not if used responsibly. The Flipper isn't just evil, and it isn't just a toy. It's a tool.
 
-We've seen previously that the Flipper can [help identify and bring attention to weaknesses](https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth), and that the knowledge gained from their usage [can lead to fixes](https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2). If Flippers were banned, there is a decent likelihood an exploit like that would remain or that another similar device would take its place.
+We've seen previously that the Flipper can [identify and highlight exploitable weaknesses](https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth), and that the knowledge gained from its usage [can lead to fixes](https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2). If Flippers were banned, there is a decent likelihood that such exploits would persist without detection, or that a similar device would emerge to take it's place.
 
-It is a tool - a very fun tool - and it should be treated as such. It's not inherently more evil than a pocket knife. It's intent that matters.
+It is a tool - a very fun tool - and it should be treated as such. Inherently, it's no more evil than a pocket knife. It's how it's used and the intent behind usage that matters.
 
 ## Community
 
