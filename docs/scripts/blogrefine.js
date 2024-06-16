@@ -1,5 +1,5 @@
 // Show refine bar if user has JS enabled
-const refinePosts = (document.getElementById("refine-posts").style.display = "flex");
+document.getElementById("refine-posts").style.display = "flex"
 
 const blogPosts = document.getElementById("blog-posts"),
 	blogSearch = document.getElementById("blog-search"),
@@ -21,10 +21,8 @@ function searchPosts() {
 
 	posts.forEach((div) => {
 		const a = div.querySelector("a"),
-			txtValue = a.textContent.trim().toUpperCase(),
-			displayStyle = txtValue.includes(blogSearchSanitised) ? "" : "none";
-
-		div.style.display = displayStyle;
+			txtValue = a.textContent.trim().toUpperCase();
+		div.style.display = txtValue.includes(blogSearchSanitised) ? "" : "none";
 	});
 }
 
@@ -35,9 +33,7 @@ function filterPosts() {
 		const [postType] = div.textContent
 				.trim()
 				.split("\n")
-				.map((line) => line.toUpperCase()),
-			displayStyle = blogFilterSanitised === "ALL" || postType === blogFilterSanitised ? "" : "none";
-
-		div.style.display = displayStyle;
+				.map((line) => line.toUpperCase());
+		div.style.display = blogFilterSanitised === "ALL" || postType === blogFilterSanitised ? "" : "none";
 	});
 }

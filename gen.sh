@@ -18,7 +18,7 @@ for page_config in "${pages[@]}"; do
 done
 
 # Generate blog posts
-cd blog
+cd blog || exit
 blog_feeds=(
     "Welcome"
     "School_Internet"
@@ -42,12 +42,12 @@ cp -r feed/export/. ../docs/blog
 cd ..
 
 # Generate portfolio items
-cd portfolio
+cd portfolio || exit
 portfolio_feeds=(
     "Mutant_Remix"
     "CapChord"
     "Pam_Carters_Scriptural_Poetry"
-	"Photography"
+    "Photography"
     "Meat_Typeface"
 )
 for feed in "${portfolio_feeds[@]}"; do

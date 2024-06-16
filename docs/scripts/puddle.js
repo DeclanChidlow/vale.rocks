@@ -13,11 +13,6 @@ class AsciiNode {
 		this.computeForceAndDrawNode = this.computeForceAndDrawNodeHelias;
 
 		// Forces and direction variables
-		this.omniForce = 0;
-		this.fx = 0;
-		this.fy = 0;
-		this.nextFx = 0;
-		this.nextFy = 0;
 		this.currentForce = 0;
 		this.nextForce = 0;
 
@@ -52,7 +47,6 @@ class AsciiNode {
 	// Start a ripple effect from this node
 	startRipple(rippleStrength = 0) {
 		if (!rippleStrength) rippleStrength = this.data.maxRippleStrength;
-		this.omniForce = rippleStrength;
 		this.currentForce = rippleStrength;
 
 		this.drawNode(rippleStrength);
@@ -62,18 +56,6 @@ class AsciiNode {
 			for (let xChange = -1; xChange <= 1; ++xChange) {
 				this.data.addToUpdateQueue(this.xx + xChange, this.yy + yChange);
 			}
-		}
-	}
-
-	// Update forces acting on this node based on neighboring nodes
-	updateForces(xChange, yChange, xForce, yForce) {
-		if (xChange == 0 || yChange == 0) {
-			// Orthogonal
-			this.nextFy += yForce;
-			this.nextFx += xForce;
-		} else {
-			this.nextFy += yForce >> 1;
-			this.nextFx += xForce >> 1;
 		}
 	}
 
@@ -135,7 +117,6 @@ class PuddleData {
 		this.maxRippleStrength = 100.0;
 		this.forceDampeningRatio = 0.85; // Force dampening percent
 		this.forceCutOff = 2; // Axial force less than this is set to 0
-		this.rippleOnMove = true;
 	}
 
 	// Refresh and set new dimensions for the simulation
@@ -211,8 +192,6 @@ class Puddle {
 		this.parentNode = document.querySelector(queryElement);
 		this.data = new PuddleData(this.numRows, this.numCols);
 		this.updateInterval = updateInterval;
-		this.randomGenerationInterval = this.updateInterval;
-		this.randomTimeRange = this.updateInterval;
 		this.nodeStyle = AsciiNode;
 		this.nodeSize = 14;
 		this.updateLoop = undefined;
@@ -225,21 +204,6 @@ class Puddle {
 	// Set the style of nodes
 	setNodeStyle() {
 		this.nodeStyle = AsciiNode;
-		this.setupGrid();
-	}
-
-	// Get the size of each node
-	getNodeSize() {
-		return this.nodeSize;
-	}
-
-	// Set the size of each node in the grid
-	setNodeSize(nodeSize) {
-		this.nodeSize = nodeSize;
-		if (this.elementHeight) {
-			this.numRows = Math.floor(this.elementHeight / this.nodeSize);
-			this.numCols = Math.floor(this.elementWidth / this.nodeSize);
-		}
 		this.setupGrid();
 	}
 
@@ -271,7 +235,7 @@ class Puddle {
 		this.resizeGrid();
 	}
 
-	// Setup the grid structure and initialize nodes for the simulation
+	// Set up the grid structure and initialize nodes for the simulation
 	setupGrid() {
 		clearInterval(this.updateLoop);
 		this.data.refresh(this.numRows, this.numCols);
@@ -288,30 +252,6 @@ class Puddle {
 		}
 
 		this.updateLoop = setInterval(() => this.tryUpdateElements(), this.updateInterval);
-	}
-
-	// Set the maximum strength of ripples in the simulation
-	setMaxRippleStrength(maxRippleStrength) {
-		this.data.maxRippleStrength = maxRippleStrength;
-	}
-
-	// Set the force dampening ratio for the simulation
-	setDampeningRatio(dampeningRatio) {
-		this.data.forceDampeningRatio = dampeningRatio;
-	}
-
-	// Set the interval for updating the simulation
-	setUpdateInterval(updateInterval) {
-		clearInterval(this.updateLoop);
-		this.updateInterval = updateInterval;
-		this.updateLoop = setInterval(() => this.tryUpdateElements(), this.updateInterval);
-	}
-
-	// Create a wave effect by triggering ripples in the first column of nodes
-	createWave() {
-		for (let yy = 0; yy < this.numRows; ++yy) {
-			this.data.getNode(0, yy).startRipple(400);
-		}
 	}
 
 	// Try to update elements in the simulation
