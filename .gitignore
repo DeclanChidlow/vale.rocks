@@ -1,2 +1,7 @@
+# IDE / editor specific ignores
+.idea/
+.vscode/
+
+# Repo specific
 blog/feed/export/
 portfolio/feed/export/
