@@ -14,7 +14,7 @@ pages=(
 for page_config in "${pages[@]}"; do
     page="${page_config%% *}"
     output="${page_config#* }"
-    /home/vale/gitrepos/Adduce/target/release/adduce -c "$page" -n "$output" -o docs
+    adduce -c "$page" -n "$output" -o docs
 done
 
 # Generate blog posts
@@ -36,7 +36,7 @@ blog_feeds=(
     "I_Got_A_Flipper_Zero"
 )
 for feed in "${blog_feeds[@]}"; do
-    /home/vale/gitrepos/Adduce/target/release/adduce feed publish "$feed"
+    adduce feed publish "$feed"
 done
 cp -r feed/export/. ../docs/blog
 cd ..
@@ -51,7 +51,7 @@ portfolio_feeds=(
     "Meat_Typeface"
 )
 for feed in "${portfolio_feeds[@]}"; do
-    /home/vale/gitrepos/Adduce/target/release/adduce feed publish "$feed"
+    adduce feed publish "$feed"
 done
 cp -r feed/export/. ../docs/portfolio
 cd ..
