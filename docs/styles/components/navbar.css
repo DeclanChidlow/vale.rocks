@@ -37,7 +37,7 @@ header#navbar {
 		left: 0;
 		padding: 0.5rem;
 		margin: 1rem;
-		background: var(--grey);
+		background: light-dark(var(--white), var(--grey));
 		transform: translateY(calc(-100% - 1rem));
 	}
 
