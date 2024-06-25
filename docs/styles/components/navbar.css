@@ -12,28 +12,37 @@ header#navbar {
 	text-transform: uppercase;
 	font-size: 1.3rem;
 	pointer-events: none;
-	z-index: 1000;
+	z-index: 10000;
 
 	#navlanding {
 		font-weight: 500;
 	}
 
 	a {
-		all: unset;
+		color: inherit;
+		text-decoration: none;
 		cursor: pointer;
 		pointer-events: all;
 	}
 
-	nav {
-		ul {
-			all: unset;
-			display: flex;
-			gap: 1rem;
+	nav ul {
+		display: flex;
+		gap: 1rem;
+		list-style: none;
+	}
 
-			li {
-				all: unset;
-			}
-		}
+	.skip-link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0.5rem;
+		margin: 1rem;
+		background: var(--grey);
+		transform: translateY(calc(-100% - 1rem));
+	}
+
+	.skip-link:focus {
+		transform: translateY(0%);
 	}
 }
 
