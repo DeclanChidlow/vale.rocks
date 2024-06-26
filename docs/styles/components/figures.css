@@ -58,6 +58,12 @@ figcaption {
 	}
 }
 
+@media (max-width: 700px) {
+	#fullscreenModal {
+		padding: 0.8rem;
+	}
+}
+
 @media (max-width: 900px) {
 	figure,
 	.right,
@@ -65,9 +71,5 @@ figcaption {
 		width: 100%;
 		margin: 0.8rem 0;
 		float: none;
-	}
-
-	#fullscreenModal {
-		padding: 0.8rem;
 	}
 }
