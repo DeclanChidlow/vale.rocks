@@ -13,11 +13,23 @@ a:active {
 	text-underline-offset: -0.4rem;
 }
 
-a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {
-	content: "󰏌 ";
+a:after {
+	font-family: "Material Symbols Sharp";
 	margin-left: 0.1rem;
 	font-size: 0.5rem;
 	display: inline-block;
 	vertical-align: super;
 	line-height: 0;
+}
+
+a[href^="#"]:after {
+	content: "arrow_downward";
+}
+
+a[href^="mailto"]:after {
+	content: "mail";
+}
+
+a[href]:not([href*="vale.rocks"]):not([href^="/"]):not([href^="#"]):not([href^="mailto"]):after {
+	content: "open_in_new";
 }
