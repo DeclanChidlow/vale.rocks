@@ -19,6 +19,45 @@ figcaption {
 	margin: 0.8rem 0 0.8rem 0.8rem;
 }
 
+/* Fullscreen modal styling */
+#fullscreenModal {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 5rem;
+	overflow: auto;
+	background-color: light-dark(rgba(255, 234, 208, 0.9), rgba(0, 0, 0, 0.9));
+	z-index: 1001;
+
+	#fullscreenImg {
+		width: 100%;
+		max-width: 70rem;
+	}
+
+	#caption,
+	#altText {
+		text-align: center;
+	}
+
+	#altText::before {
+		content: "Alt: ";
+	}
+
+	#close {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		cursor: pointer;
+		font-size: 2rem;
+	}
+}
+
 @media (max-width: 900px) {
 	figure,
 	.right,
@@ -26,5 +65,9 @@ figcaption {
 		width: 100%;
 		margin: 0.8rem 0;
 		float: none;
+	}
+
+	#fullscreenModal {
+		padding: 0.8rem;
 	}
 }

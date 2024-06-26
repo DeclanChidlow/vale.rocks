@@ -1,5 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@font-face {
+	font-family: "Lexend";
+	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: "Fira Code";
+	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: "Material Symbols Sharp";
+	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.ttf");
+}
+
+.material-icons {
+	font-family: "Material Symbols Sharp";
+	user-select: none;
+}
 
 p {
 	margin-bottom: 0.8rem;
