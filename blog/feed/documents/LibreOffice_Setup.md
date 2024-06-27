@@ -55,10 +55,6 @@ Out of the box, LibreOffice isn't perfect. It looks alright but some work is nee
 
 ## Improving Microsoft Office Compatibility
 
-<span class="callout note">
-If you're wondering, then yes, this part of the article has been around before. It had some issues and was rather narrow in scope, so I've since rewritten it. You can read the original from December 2022 on the Internet Archive <a href="https://web.archive.org/web/20230117143302/https://vale.rocks/blog/tutorials/LibreOffice_Setup">here</a>.
-</span>
-
 If you're coming from Microsoft Office or have to interact with Microsoft's formats, then you may struggle with adapting your workflow or dealing with Office files. You should note that applications in LibreOffice have different names to those in MS Office. Word is Writer, PowerPoint is Impress, and Excel is Calc. To follow this next section of the guide, open up one of the applications within the suite, such as Writer.
 
 ### Changing the Ribbon

@@ -262,9 +262,8 @@ Yet over time, I found myself playing with others less and less. Minecraft fell 
 
 The Legacy Console editions are all unsupported now. The PS3 and Vita Editions were the last to go, with both receiving a last update on April 15, 2020. The 360 Edition got its last update on April 30, 2019 with TU75.
 
-<span class="callout note">
-The Xbox One Edition received an unexpected update, CU59, on April 9, 2024. It seems to have just removed the button to switch to the Bedrock edition. You can <a href="https://minecraft.wiki/w/Xbox_One_Edition_CU59">view the update page on the Minecraft Wiki</a> for more information.
-</span>
+> [!NOTE]
+> The Xbox One Edition received an unexpected update, CU59, on April 9, 2024. It seems to have just removed the button to switch to the Bedrock edition. You can [view the update page on the Minecraft Wiki](https://minecraft.wiki/w/Xbox_One_Edition_CU59) for more information.
 
 ## Growing Up
 
@@ -711,10 +710,6 @@ Out of the box, LibreOffice isn't perfect. It looks alright but some work is nee
 
 ## Improving Microsoft Office Compatibility
 
-<span class="callout note">
-If you're wondering, then yes, this part of the article has been around before. It had some issues and was rather narrow in scope, so I've since rewritten it. You can read the original from December 2022 on the Internet Archive <a href="https://web.archive.org/web/20230117143302/https://vale.rocks/blog/tutorials/LibreOffice_Setup">here</a>.
-</span>
-
 If you're coming from Microsoft Office or have to interact with Microsoft's formats, then you may struggle with adapting your workflow or dealing with Office files. You should note that applications in LibreOffice have different names to those in MS Office. Word is Writer, PowerPoint is Impress, and Excel is Calc. To follow this next section of the guide, open up one of the applications within the suite, such as Writer.
 
 ### Changing the Ribbon
@@ -774,9 +769,8 @@ Fear of hacking often conjures up images of a solitary figure cloaked in darknes
 
 Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I've decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.
 
-<span class="callout note">
-This article is written with the average computer user in mind. In its suggestions, it targets both security and convenience. If you boast more technical expertise, then you can and should tweak this information to your needs.
-</span>
+> [!NOTE]
+> This article is written with the average computer user in mind. In its suggestions, it targets both security and convenience. If you boast more technical expertise, then you can and should tweak this information to your needs.
 
 ## Passwords
 
@@ -916,9 +910,8 @@ Dual booting was an option, but one with hassle, so I chose to fire up a Windows
 
 While it may seem sensible to just jump straight into installation, there is a much better way to do it. You'll first need to [grab an ISO from Microsoft's website](https://www.microsoft.com/software-download/windows11). If you are wondering why I recommend Windows 11 over 10, it's for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.
 
-<span class="callout warning">
-I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Their stripped back nature often leads to the breakage of certain features or incompatibility with programs. The closed source nature of most ISOs also leads to the potential for bundled malware. There are many ways to debloat Windows without causing undue harm that will be detailed further along in this article.
-</span>
+> [!WARNING]
+> I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Their stripped back nature often leads to the breakage of certain features or incompatibility with programs. The closed source nature of most ISOs also leads to the potential for bundled malware. There are many ways to debloat Windows without causing undue harm that will be detailed further along in this article.
 
 Writing the ISO once you've got it is pretty easy. If you have a Windows install on hand that you can use to create the installation media, then I recommend writing the ISO with [Rufus](https://rufus.ie). If using another OS to write the media, then use whatever you're most used to.
 
@@ -1009,9 +1002,8 @@ In the event that you don't have an internet connection, you can request that yo
 
 Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer's operating system.
 
-<span class="callout warning">
-Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
-</span>
+> [!IMPORTANT]
+> Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
 
 ### Windows
 
@@ -1621,9 +1613,8 @@ So, why were WebP and AVIF picked up so quickly when JPEG XL wasn't? Well, as yo
 
 ## Google's Exploitation of Their Dominance
 
-<span class="callout note">
-I'll be discussing Chrome's dominance and Google's exploitation of it for their own gain. I've written about this at length in my article <a href="/blog/Everything_Is_Chrome">Everything Is Chrome</a>, which I advise you read prior to this section.
-</span>
+> [!NOTE]
+> I'll be discussing Chrome's dominance and Google's exploitation of it for their own gain. I've written about this at length in my article [Everything Is Chrome](/blog/Everything_Is_Chrome), which I advise you read prior to this section.
 
 Google has cemented itself as the single controlling force of the web. What they say goes. Google Search is the most popular search engine, and Chromium is the base for the majority of browsers. This means they control both what pages get recommended in search, and how they're displayed in browser.
 

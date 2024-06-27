@@ -86,9 +86,8 @@ Yet over time, I found myself playing with others less and less. Minecraft fell 
 
 The Legacy Console editions are all unsupported now. The PS3 and Vita Editions were the last to go, with both receiving a last update on April 15, 2020. The 360 Edition got its last update on April 30, 2019 with TU75.
 
-<span class="callout note">
-The Xbox One Edition received an unexpected update, CU59, on April 9, 2024. It seems to have just removed the button to switch to the Bedrock edition. You can <a href="https://minecraft.wiki/w/Xbox_One_Edition_CU59">view the update page on the Minecraft Wiki</a> for more information.
-</span>
+> [!NOTE]
+> The Xbox One Edition received an unexpected update, CU59, on April 9, 2024. It seems to have just removed the button to switch to the Bedrock edition. You can [view the update page on the Minecraft Wiki](https://minecraft.wiki/w/Xbox_One_Edition_CU59) for more information.
 
 ## Growing Up
 

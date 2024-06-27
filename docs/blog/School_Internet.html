@@ -85,19 +85,19 @@
 	</ul>
 </header>
 <div class="readable_width">
-<p>Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
+<p>Every now and then, somebody decides that it is time to mess around and ‘improve’ enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
 <p>This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.</p>
 <h2>Step 1</h2>
 <p>The first step in getting onto the network is to find out if your password has expired. In most cases, your Department of Education login (the same one you use to access Connect) will expire every 90 days (about 3 months).</p>
 <p>If you expect that your password has expired, you will have to reset it.</p>
 <p>If you have an internet connection, then the easiest way to reset it is through the <a href="https://apps.det.wa.edu.au/dam/portal/changePassPage.do">DoE Portal</a>.</p>
-<p>You could also go to <a href="https://connect.det.wa.edu.au">Connect</a> and login. Once logged in, you can navigate to 'My Connect' and change your password to something new and secure.</p>
-<p>In the event that you don't have an internet connection, you can request that your teacher or network admin change your password.</p>
+<p>You could also go to <a href="https://connect.det.wa.edu.au">Connect</a> and login. Once logged in, you can navigate to ‘My Connect’ and change your password to something new and secure.</p>
+<p>In the event that you don’t have an internet connection, you can request that your teacher or network admin change your password.</p>
 <h2>Step 2</h2>
-<p>Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer's operating system.</p>
-<span class="callout warning">
-Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
-</span>
+<p>Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer’s operating system.</p>
+<blockquote class="markdown-alert-important">
+<p>Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.</p>
+</blockquote>
 <h3>Windows</h3>
 <p>As the Australian government loves further padding the pockets of Microsoft, most schools supply guides for getting setup with Windows. That said, many of these guides are crap, so the process is documented here.</p>
 <ol>
@@ -110,31 +110,31 @@ Note that installing these certificates allows your school to view encrypted net
 <li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA2.cer">Education-SubCA2.cer</a></li>
 </ul>
 <ol start="3">
-<li>On your keyboard, hit the 'Windows' key and R key simultaneously. In the box that appears, type <code>mmc.exe</code>.</li>
+<li>On your keyboard, hit the ‘Windows’ key and R key simultaneously. In the box that appears, type <code>mmc.exe</code>.</li>
 <li>In the application that opens, press the Ctrl key and the M key simultaneously.</li>
-<li>In the left panel, double click 'Certificates'. In the pop-up that opens, select 'Computer account' and then click next.</li>
-<li>Select 'Local computer' and then click Finish. You should be directed back to the main page of the application.</li>
-<li>In the left panel, you should click the small arrow next to 'Certificates (Local Computer)' to expand the category. Then click the small arrow next to 'Trusted Root Certification Authorities'.</li>
+<li>In the left panel, double click ‘Certificates’. In the pop-up that opens, select ‘Computer account’ and then click next.</li>
+<li>Select ‘Local computer’ and then click Finish. You should be directed back to the main page of the application.</li>
+<li>In the left panel, you should click the small arrow next to ‘Certificates (Local Computer)’ to expand the category. Then click the small arrow next to ‘Trusted Root Certification Authorities’.</li>
 <li>You should now see the Certificates folder on the left panel. Right click the folder to bring up the context menu. In the menu, select All Tasks and then Import.</li>
-<li>In the wizard that should have appeared, select 'Local Machine' and then 'Next'.</li>
-<li>On the next page, click 'Browse...' and locate your certificates. Select one of them, click open, and then click 'Next'.</li>
-<li>In the next pop-up, select 'Trusted Root Certification Authorities' and then click 'OK'.</li>
-<li>You should now be presented with a page showing the settings you've chosen in this guide. The 'Certificate Store Selected by User' should be 'Trusted Root Certification Authorities' and the 'Content' should be 'Certificate'.</li>
+<li>In the wizard that should have appeared, select ‘Local Machine’ and then ‘Next’.</li>
+<li>On the next page, click ‘Browse…’ and locate your certificates. Select one of them, click open, and then click ‘Next’.</li>
+<li>In the next pop-up, select ‘Trusted Root Certification Authorities’ and then click ‘OK’.</li>
+<li>You should now be presented with a page showing the settings you’ve chosen in this guide. The ‘Certificate Store Selected by User’ should be ‘Trusted Root Certification Authorities’ and the ‘Content’ should be ‘Certificate’.</li>
 </ol>
 <h3>Linux</h3>
-<p>Most institutions don't offer support for Linux. There's a certain misunderstanding that anyone using Linux is an elite hacker with intention to take down the mainframe and overthrow the establishment. It's a pain, and I've spent countless hours over the years getting it working.</p>
-<p>Thankfully, we've now got a handy script developed by <a href="https://toastxc.xyz">ToastXC</a> and myself. It connects to the network, downloads the certs, and applies a patch if running Fedora. It's available on GitHub as <a href="https://github.com/toastxc/DoE-Network-Kit-Linux">DoE-Network-Kit-Linux</a>.</p>
+<p>Most institutions don’t offer support for Linux. There’s a certain misunderstanding that anyone using Linux is an elite hacker with intention to take down the mainframe and overthrow the establishment. It’s a pain, and I’ve spent countless hours over the years getting it working.</p>
+<p>Thankfully, we’ve now got a handy script developed by <a href="https://toastxc.xyz">ToastXC</a> and myself. It connects to the network, downloads the certs, and applies a patch if running Fedora. It’s available on GitHub as <a href="https://github.com/toastxc/DoE-Network-Kit-Linux">DoE-Network-Kit-Linux</a>.</p>
 <ol>
-<li>Ensure you have all the required dependencies installed. These include OpenSSL, Curl, Git, and NetworkManager. They should all be available in your distro's package repository.</li>
+<li>Ensure you have all the required dependencies installed. These include OpenSSL, Curl, Git, and NetworkManager. They should all be available in your distro’s package repository.</li>
 <li>Download the script. You can do this by cloning the GitHub repo with <code>git clone https://github.com/toastxc/DoE-Network-Kit-Linux.git</code>.</li>
 <li>Then you can enter the directory holding the script with <code>cd DoE-Network-Kit-Linux</code>.</li>
 <li>This directory holds scripts for different schools. Unless your school is specifically listed, <code>generic.sh</code> should work for you. Run the script with <code>sh generic.sh</code>. You will probably need root permissions, so consider prefixing the command with something like <code>sudo</code> or <code>doas</code>.</li>
-<li>The script will now run and guide you through the rest of the process. Do note that your password won't show up while you write it for security reasons.</li>
+<li>The script will now run and guide you through the rest of the process. Do note that your password won’t show up while you write it for security reasons.</li>
 </ol>
 <h2>Step 3</h2>
-<p>You can now log onto your school's internet. In the event that your browser doesn't redirect you automatically, you may need to <a href="http://sig.site.internal:1000/login?">manually access the login portal</a>.</p>
+<p>You can now log onto your school’s internet. In the event that your browser doesn’t redirect you automatically, you may need to <a href="http://sig.site.internal:1000/login?">manually access the login portal</a>.</p>
 <hr />
-<p>Had any issues with the process or think something may have changed? Leave a comment down below, and I'll try my best to assist.</p>
+<p>Had any issues with the process or think something may have changed? Leave a comment down below, and I’ll try my best to assist.</p>
 <section class="giscus"></section>
 </div>
 </article>

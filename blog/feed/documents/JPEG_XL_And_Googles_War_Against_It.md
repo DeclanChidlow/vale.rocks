@@ -98,9 +98,8 @@ So, why were WebP and AVIF picked up so quickly when JPEG XL wasn't? Well, as yo
 
 ## Google's Exploitation of Their Dominance
 
-<span class="callout note">
-I'll be discussing Chrome's dominance and Google's exploitation of it for their own gain. I've written about this at length in my article <a href="/blog/Everything_Is_Chrome">Everything Is Chrome</a>, which I advise you read prior to this section.
-</span>
+> [!NOTE]
+> I'll be discussing Chrome's dominance and Google's exploitation of it for their own gain. I've written about this at length in my article [Everything Is Chrome](/blog/Everything_Is_Chrome), which I advise you read prior to this section.
 
 Google has cemented itself as the single controlling force of the web. What they say goes. Google Search is the most popular search engine, and Chromium is the base for the majority of browsers. This means they control both what pages get recommended in search, and how they're displayed in browser.
 

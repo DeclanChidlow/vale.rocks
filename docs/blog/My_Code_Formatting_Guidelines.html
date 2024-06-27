@@ -86,9 +86,9 @@
 </header>
 <div class="readable_width">
 <p>Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is <em>not</em> something I, nor anyone else, ever want to deal with.</p>
-<p>This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I've documented them here.</p>
+<p>This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I’ve documented them here.</p>
 <p>Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.</p>
-<p>I personally enforce these settings using <a href="https://prettier.io">Prettier</a>, which I feel does an excellent job. You can find my .prettierrc in my <a href="https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml">dotfile repo on GitHub</a>. I've also noted the relevant Prettier options where applicable.</p>
+<p>I personally enforce these settings using <a href="https://prettier.io">Prettier</a>, which I feel does an excellent job. You can find my .prettierrc in my <a href="https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml">dotfile repo on GitHub</a>. I’ve also noted the relevant Prettier options where applicable.</p>
 <h2>Use Tabs</h2>
 <p>Tabs should be used for indentation for several reasons. These include:</p>
 <ul>
@@ -99,7 +99,7 @@
 </ul>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#tabs"><code>useTabs: true</code></a></p>
 <h2>Always Add Semicolons</h2>
-<p>When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it's ideal to see exactly what code will be executed.</p>
+<p>When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it’s ideal to see exactly what code will be executed.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#semicolons"><code>semi: true</code></a></p>
 <pre><code class="language-JavaScript">// Bad
 function name {
@@ -135,7 +135,7 @@ object = {
 	"property2": "content"
 };
 </code></pre>
-<h2>Don't Split Strings Across Multiple Lines</h2>
+<h2>Don’t Split Strings Across Multiple Lines</h2>
 <p>Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search and is a general pain to deal with.</p>
 <pre><code class="language-JavaScript">// Bad
 const variable = "This is awful. It may be easier for a human to read, but \
@@ -188,10 +188,10 @@ x =&gt; x
 <p>Different operating systems handle line endings differently, and things get messy quick. Using line feed, which is common on Unix based systems, is a clean option that is also supported on Windows.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#end-of-line"><code>endOfLine: lf</code></a></p>
 <h2>Format Embedded Languages</h2>
-<p>Code of one type used within a file of another should be formatted as you would code in it's native filetype.</p>
+<p>Code of one type used within a file of another should be formatted as you would code in it’s native filetype.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#embedded-language-formatting"><code>embeddedLanguageFormatting: auto</code></a></p>
 <h2>Keep Multiple Attributes Per Line</h2>
-<p>Splitting an element's attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.</p>
+<p>Splitting an element’s attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#single-attribute-per-line"><code>singleAttributePerLine: false</code></a></p>
 <pre><code class="language-HTML">// Bad
 &lt;div
@@ -207,8 +207,8 @@ x =&gt; x
 &lt;/div&gt;
 </code></pre>
 <hr />
-<p>There you have my personal guidelines. I'm sure many people disagree (if only for my preference of tabs over spaces), and I'd love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
-<p>If you liked this post, then do consider sharing it. Also, if you'd like to support me in making more like it, consider <a href="/donate">sending me a tip</a>. It'd mean a lot.</p>
+<p>There you have my personal guidelines. I’m sure many people disagree (if only for my preference of tabs over spaces), and I’d love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
+<p>If you liked this post, then do consider sharing it. Also, if you’d like to support me in making more like it, consider <a href="/donate">sending me a tip</a>. It’d mean a lot.</p>
 <section class="giscus"></section>
 </div>
 </article>

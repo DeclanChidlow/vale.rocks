@@ -27,9 +27,8 @@ Fear of hacking often conjures up images of a solitary figure cloaked in darknes
 
 Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I've decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.
 
-<span class="callout note">
-This article is written with the average computer user in mind. In its suggestions, it targets both security and convenience. If you boast more technical expertise, then you can and should tweak this information to your needs.
-</span>
+> [!NOTE]
+> This article is written with the average computer user in mind. In its suggestions, it targets both security and convenience. If you boast more technical expertise, then you can and should tweak this information to your needs.
 
 ## Passwords
 
