@@ -12,6 +12,7 @@
 @import url("/styles/type/links.css");
 @import url("/styles/type/syntax_highlighting.css");
 @import url("/styles/type/type.css");
+@import url("/styles/type/faces.css");
 
 /* Importing component styles */
 @import url("/styles/components/footer.css");

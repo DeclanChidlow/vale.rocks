@@ -1,21 +1,5 @@
-@font-face {
-	font-family: "Lexend";
-	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.ttf");
-}
-
-@font-face {
-	font-family: "Fira Code";
-	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.ttf");
-}
-
-@font-face {
-	font-family: "Material Symbols";
-	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.ttf");
-}
-
-.material-icons {
-	font-family: "Material Symbols";
-	user-select: none;
+body {
+	font-family: "Lexend", sans-serif;
 }
 
 p {
@@ -41,6 +25,11 @@ li {
 	list-style-position: inside;
 	line-height: 1.4rem;
 	margin-bottom: 0.3rem;
+}
+
+abbr,
+kbd {
+	font-variant-caps: all-small-caps;
 }
 
 ::selection {

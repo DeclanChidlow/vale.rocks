@@ -3,7 +3,6 @@ body {
 	margin: 0 3rem 3rem;
 	color: light-dark(var(--black), var(--bright_white));
 	background: light-dark(var(--bright_white), var(--black));
-	font-family: "Lexend", sans-serif;
 }
 
 main {
