@@ -9,12 +9,12 @@
 }
 
 @font-face {
-	font-family: "Material Symbols Sharp";
+	font-family: "Material Symbols";
 	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.ttf");
 }
 
 .material-icons {
-	font-family: "Material Symbols Sharp";
+	font-family: "Material Symbols";
 	user-select: none;
 }
 
