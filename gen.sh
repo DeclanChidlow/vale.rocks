@@ -6,7 +6,7 @@ pages=(
     "config/pages/posts posts.html"
     "config/pages/portfolio portfolio.html"
     "config/pages/contact contact.html"
-    "config/pages/donate donate.html"
+    "config/pages/support support.html"
     "config/pages/services services.html"
 	"config/pages/404 404.html"
 )

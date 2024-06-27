@@ -5,7 +5,7 @@ from_str = "config/global/elements/head.html"
 style = "html"
 
 [[main.block]]
-from_str = "config/pages/donate/head.html"
+from_str = "config/pages/support/head.html"
 style = "html"
 
 [[main.block]]
@@ -13,7 +13,7 @@ from_str = "config/global/elements/navbar.html"
 style = "html"
 
 [[main.block]]
-from_str = "config/pages/donate/donate.md"
+from_str = "config/pages/support/support.md"
 style = "md"
 
 [[main.block]]

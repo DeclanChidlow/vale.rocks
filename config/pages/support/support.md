@@ -1,4 +1,4 @@
-<h1 id="section">Donate</h1>
+<h1 id="section">Support</h1>
 
 <div>
 
