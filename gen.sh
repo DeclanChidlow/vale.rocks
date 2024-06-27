@@ -3,7 +3,7 @@
 # Generate standard pages
 pages=(
     "config/pages/index index.html"
-    "config/pages/blog blog.html"
+    "config/pages/posts posts.html"
     "config/pages/portfolio portfolio.html"
     "config/pages/contact contact.html"
     "config/pages/donate donate.html"
@@ -17,38 +17,38 @@ for page_config in "${pages[@]}"; do
     adduce -c "$page" -n "$output" -o docs
 done
 
-# Generate blog posts
-cd blog || exit
-blog_feeds=(
+# Generate posts
+cd posts || exit
+post_feeds=(
     "Welcome"
-    "School_Internet"
-    "LibreOffice_Setup"
-    "Halo_My_Thoughts"
-    "Making_Windows_Usable"
-    "Prematurely_Pulling_The_Plug_On_3G"
-    "A_Year_With_The_Framework_Laptop_13"
-    "Everything_Is_Chrome"
-    "I_Hate_My_Nokia"
-    "Cybersecurity_Superstition"
-    "Minecraft_Nostalgia_And_Growing_Up"
-    "My_Code_Formatting_Guidelines"
-    "JPEG_XL_And_Googles_War_Against_It"
-    "I_Got_A_Flipper_Zero"
+    "School-Internet"
+    "LibreOffice-Setup"
+    "Halo-My-Thoughts"
+    "Making-Windows-Usable"
+    "Prematurely-Pulling-The-Plug-On-3G"
+    "A-Year-With-The-Framework-Laptop-13"
+    "Everything-Is-Chrome"
+    "I-Hate-My-Nokia"
+    "Cybersecurity-Superstition"
+    "Minecraft-Nostalgia-And-Growing-Up"
+    "My-Code-Formatting-Guidelines"
+    "JPEG-XL-And-Googles-War-Against-It"
+    "I-Got-A-Flipper-Zero"
 )
-for feed in "${blog_feeds[@]}"; do
+for feed in "${post_feeds[@]}"; do
     adduce feed publish "$feed"
 done
-cp -r feed/export/. ../docs/blog
+cp -r feed/export/. ../docs/posts
 cd ..
 
 # Generate portfolio items
 cd portfolio || exit
 portfolio_feeds=(
-    "Mutant_Remix"
+    "Mutant-Remix"
     "CapChord"
-    "Pam_Carters_Scriptural_Poetry"
+    "Pam-Carters-Scriptural-Poetry"
     "Photography"
-    "Meat_Typeface"
+    "Meat-Typeface"
 )
 for feed in "${portfolio_feeds[@]}"; do
     adduce feed publish "$feed"

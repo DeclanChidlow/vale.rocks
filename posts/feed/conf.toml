@@ -1,0 +1,29 @@
+title = "Vale.Rocks"
+link = "https://vale.rocks"
+description = "A collection of unhinged (yet not completely insane) ramblings."
+
+[main]
+
+[[main.block]]
+from_str = "../config/global/elements/head.html"
+style = "html"
+
+[[main.block]]
+from_str = "../config/global/elements/bloghead.html"
+style = "html"
+
+[[main.block]]
+from_str = "../config/global/elements/navbar.html"
+style = "html"
+
+[[main.block]]
+text = "<span id='section'>Posts</span>"
+style = "html"
+
+[[main.block]]
+text = "<style>:root{--header_background: var(--magenta)}</style>"
+style = "html"
+
+[[main.block]]
+text = "<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><div id='caption'></div><div id='altText'></div></div><script src='/scripts/figureview.js'></script>"
+style = "html"
