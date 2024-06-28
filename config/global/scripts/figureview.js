@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		closeButton = document.getElementById("close");
 
 	Array.from(images).forEach((img) => {
+		img.style.cursor = "zoom-in";
 		img.addEventListener("click", () => openFullscreen(img));
 	});
 
@@ -19,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	function openFullscreen(imgElement) {
-		modal.style.display = "flex";
+		modal.style.display = "block";
 		modalImg.src = imgElement.currentSrc || imgElement.src;
 		altText.textContent = imgElement.alt;
 

@@ -21,16 +21,13 @@ figcaption {
 
 /* Fullscreen modal styling */
 #fullscreenModal {
-	display: none;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	display: none; /* Set to block with JS */
 	position: fixed;
-	left: 0;
 	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
-	padding: 5rem;
+	padding: 3rem;
 	overflow: auto;
 	background-color: light-dark(rgba(255, 234, 208, 0.9), rgba(0, 0, 0, 0.9));
 	z-index: 1001;
@@ -38,11 +35,13 @@ figcaption {
 	#fullscreenImg {
 		width: 100%;
 		max-width: 70rem;
+		margin: auto;
 	}
 
 	#caption,
 	#altText {
 		text-align: center;
+		margin: 0.8rem;
 	}
 
 	#altText::before {
@@ -51,8 +50,9 @@ figcaption {
 
 	#close {
 		position: absolute;
-		top: 1rem;
-		right: 1rem;
+		top: 0;
+		right: 0;
+		margin: 0.8rem;
 		cursor: pointer;
 		font-size: 2rem;
 	}
@@ -60,7 +60,7 @@ figcaption {
 
 @media (max-width: 700px) {
 	#fullscreenModal {
-		padding: 0.8rem;
+		padding: 3rem 0.8rem;
 	}
 }
 
