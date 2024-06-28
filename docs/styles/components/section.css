@@ -1,0 +1,23 @@
+#section {
+	font-size: 5rem;
+	line-height: 4rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: right;
+	transform: scale(-1);
+	writing-mode: vertical-lr;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+@media (max-width: 700px) {
+	#section {
+		font-size: 3rem;
+		line-height: 3.2rem;
+		text-align: inherit;
+		transform: inherit;
+		writing-mode: inherit;
+		user-select: inherit;
+		-webkit-user-select: inherit;
+	}
+}

@@ -1,0 +1,44 @@
+.markdown-alert-note {
+	border-color: var(--blue);
+}
+
+.markdown-alert-note::before {
+	content: "Note:";
+	color: var(--blue);
+}
+
+.markdown-alert-tip {
+	border-color: var(--green);
+}
+
+.markdown-alert-tip::before {
+	content: "Tip:";
+	color: var(--green);
+}
+
+.markdown-alert-important {
+	border-color: var(--magenta);
+}
+
+.markdown-alert-important::before {
+	content: "Important:";
+	color: var(--magenta);
+}
+
+.markdown-alert-warning {
+	border-color: var(--yellow);
+}
+
+.markdown-alert-warning::before {
+	content: "Warning:";
+	color: var(--yellow);
+}
+
+.markdown-alert-caution {
+	border-color: var(--red);
+}
+
+.markdown-alert-caution::before {
+	content: "Caution:";
+	color: var(--red);
+}
