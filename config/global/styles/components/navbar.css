@@ -27,6 +27,7 @@ header#navbar {
 
 	nav ul {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 1rem;
 		list-style: none;
 	}
