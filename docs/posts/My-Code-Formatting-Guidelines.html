@@ -20,7 +20,7 @@
     	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
     	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
     
-    	<script src="/scripts/prism.js"></script>
+    	<script type="module" src="/scripts/syntax-highlighting.js"></script>
     	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
     
 
@@ -101,7 +101,7 @@
 <h2>Always Add Semicolons</h2>
 <p>When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it’s ideal to see exactly what code will be executed.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#semicolons"><code>semi: true</code></a></p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 function name {
 	console.log("I truly do love JavaScript")
 }
@@ -114,7 +114,7 @@ function name {
 <h2>Use Double Quotes</h2>
 <p>Strings should use double quotes (<code>""</code>), not single quotes (<code>''</code>). This makes it easier to use single quotes (which are more common) within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#quotes"><code>singleQuote: true</code></a>, <a href="https://prettier.io/docs/en/options.html#jsx-quotes"><code>jsxSingleQuote: false</code></a></p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 const variable = 'String Content';
 
 // Good
@@ -123,7 +123,7 @@ const variable = "String Content";
 <h2>Quote Properties</h2>
 <p>Properties should all be quoted in the same way, rather than introducing unnecessary (and potentially confusing) variation within an object.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#quote-props"><code>quoteProps: "consistent"</code></a></p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 object = {
 	property1: "content",
 	"property2": "content"
@@ -137,7 +137,7 @@ object = {
 </code></pre>
 <h2>Don’t Split Strings Across Multiple Lines</h2>
 <p>Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search and is a general pain to deal with.</p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 const variable = "This is awful. It may be easier for a human to read, but \
 it leads to annoyance and makes it harder to search for things. It is an \
 all around pain.";
@@ -148,7 +148,7 @@ const variable = "This is better. It may be a tad harder for a human to read, bu
 <h2>Use Trailing Commas</h2>
 <p>Trailing commas help keep version history clean. Rather than a diff showing the implementation of a new line <em>and</em> a comma on the previous line, it will only display the actual change, a new line.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#trailing-commas"><code>trailingComma: "all"</code></a></p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 object = {
 	property1: "content",
 	"property2": "content"
@@ -163,7 +163,7 @@ object = {
 <h2>Space Brackets</h2>
 <p>Brackets should have spaces on either side to provide padding. This makes it easier to read and maintains consistency.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#bracket-spacing"><code>bracketSpacing: true</code></a></p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 {foo: bar}
 
 // Good
@@ -172,7 +172,7 @@ object = {
 <h2>Use Arrow Parentheses</h2>
 <p>Using arrow parentheses makes it easier to read and make changes.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses"><code>arrowParens: always</code></a></p>
-<pre><code class="language-JavaScript">// Bad
+<pre><code class="language-javascript">// Bad
 x =&gt; x
 
 // Good
@@ -193,7 +193,7 @@ x =&gt; x
 <h2>Keep Multiple Attributes Per Line</h2>
 <p>Splitting an element’s attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.</p>
 <p>Prettier: <a href="https://prettier.io/docs/en/options.html#single-attribute-per-line"><code>singleAttributePerLine: false</code></a></p>
-<pre><code class="language-HTML">// Bad
+<pre><code class="language-html">// Bad
 &lt;div
 	 class="name"
 	 id="name"

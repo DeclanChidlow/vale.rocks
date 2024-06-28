@@ -48,7 +48,7 @@ When writing JavaScript, every line that can end with a semicolon should end wit
 
 Prettier: [`semi: true`](https://prettier.io/docs/en/options.html#semicolons)
 
-```JavaScript
+```javascript
 // Bad
 function name {
 	console.log("I truly do love JavaScript")
@@ -66,7 +66,7 @@ Strings should use double quotes (`""`), not single quotes (`''`). This makes it
 
 Prettier: [`singleQuote: true`](https://prettier.io/docs/en/options.html#quotes), [`jsxSingleQuote: false`](https://prettier.io/docs/en/options.html#jsx-quotes)
 
-```JavaScript
+```javascript
 // Bad
 const variable = 'String Content';
 
@@ -80,7 +80,7 @@ Properties should all be quoted in the same way, rather than introducing unneces
 
 Prettier: [`quoteProps: "consistent"`](https://prettier.io/docs/en/options.html#quote-props)
 
-```JavaScript
+```javascript
 // Bad
 object = {
 	property1: "content",
@@ -98,7 +98,7 @@ object = {
 
 Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search and is a general pain to deal with.
 
-```JavaScript
+```javascript
 // Bad
 const variable = "This is awful. It may be easier for a human to read, but \
 it leads to annoyance and makes it harder to search for things. It is an \
@@ -114,7 +114,7 @@ Trailing commas help keep version history clean. Rather than a diff showing the 
 
 Prettier: [`trailingComma: "all"`](https://prettier.io/docs/en/options.html#trailing-commas)
 
-```JavaScript
+```javascript
 // Bad
 object = {
 	property1: "content",
@@ -134,7 +134,7 @@ Brackets should have spaces on either side to provide padding. This makes it eas
 
 Prettier: [`bracketSpacing: true`](https://prettier.io/docs/en/options.html#bracket-spacing)
 
-```JavaScript
+```javascript
 // Bad
 {foo: bar}
 
@@ -148,7 +148,7 @@ Using arrow parentheses makes it easier to read and make changes.
 
 Prettier: [`arrowParens: always`](https://prettier.io/docs/en/options.html#arrow-function-parentheses)
 
-```JavaScript
+```javascript
 // Bad
 x => x
 
@@ -186,7 +186,7 @@ Splitting an element's attributes into multiple lines often makes it harder to q
 
 Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/en/options.html#single-attribute-per-line)
 
-```HTML
+```html
 // Bad
 <div
 	 class="name"

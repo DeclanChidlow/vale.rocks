@@ -18,3 +18,7 @@ code {
 	word-break: normal;
 	word-wrap: normal;
 }
+
+pre code {
+	background: none;
+}
