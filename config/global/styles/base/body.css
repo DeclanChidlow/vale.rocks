@@ -1,3 +1,7 @@
+html {
+	scroll-padding-top: 5rem;
+}
+
 body {
 	min-height: 100lvh;
 	margin: 0 3rem 3rem;
