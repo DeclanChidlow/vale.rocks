@@ -36,7 +36,7 @@ post_feeds=(
     "I-Got-A-Flipper-Zero"
 )
 for feed in "${post_feeds[@]}"; do
-    adduce feed publish "$feed"
+    adduce feed generate "$feed"
 done
 cp -r feed/export/. ../docs/posts
 cd ..
@@ -51,7 +51,7 @@ portfolio_feeds=(
     "Meat-Typeface"
 )
 for feed in "${portfolio_feeds[@]}"; do
-    adduce feed publish "$feed"
+    adduce feed generate "$feed"
 done
 cp -r feed/export/. ../docs/portfolio
 cd ..
