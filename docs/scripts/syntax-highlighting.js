@@ -1,6 +1,6 @@
 // Based on https://brandur.org/fragments/shiki
 
-import { codeToHtml } from "https://esm.sh/shiki@1.0.0";
+import { codeToHtml } from "https://esm.sh/shiki@1.10.0";
 
 const htmlEscapes = new Map([
 	["&amp;", "&"],
