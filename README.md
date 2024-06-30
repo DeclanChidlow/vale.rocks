@@ -18,7 +18,7 @@ A website full of the trials and tribulations of Declan Chidlow. You can view th
 > [!NOTE]
 > I don't accept pull requests on this repository as it is a personal project. However, you are welcome to open [issues](https://github.com/DeclanChidlow/vale.rocks/issues) where necessary.
 
-This site is built using my static site generator, [Adduce](adduce.vale.rocks). I build Adduce alongside my site, so the public build of Adduce is not always guaranteed to work as expected with this site.
+This site is built using my static site generator, [Adduce](https://adduce.vale.rocks). I build Adduce alongside my site, so the public build of Adduce is not always guaranteed to work as expected with this site.
 
 ## Generating
 

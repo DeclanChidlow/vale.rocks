@@ -3103,6 +3103,627 @@
 <p>Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.</p>
 <section class="giscus"></section>
 </div>
+</article>]]></description></item><item><title>feed.xml</title><description><![CDATA[<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Vale.Rocks</title><link>https://vale.rocks</link><description>A collection of unhinged (yet not completely insane) ramblings.</description><language>en-AU</language><generator>Adduce</generator><item><title>I-Got-A-Flipper-Zero.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>I Got A Flipper Zero | Vale.Rocks</title>
+    <meta property="og:title" content="I Got A Flipper Zero"/>
+    <meta name="description" content="My review of the Flipper Zero and the things I've done with it. Encompassing everything from the initial purchase to setup and usage, as well as the community and some cool projects." />
+    <meta property="og:description" content="A fantasmagorical planet flipping oracle" />
+	<meta property="og:image" content="https://vale.rocks/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png" />
+    <meta property="article:published_time" content="2024-06-14" />
+    <meta property="article:modified_time" content="2024-06-15" />
+    <meta property="article:section" content="Review" />
+</head>
+<article>
+<header>
+	Review
+	<h1>
+		I Got A Flipper Zero
+	</h1>
+	<ul>
+		<li><time datetime="2024-06-14">14 June, 2024</time></li>
+		<li>1881 words</li>
+		<li>6 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>I like computers, and I like tinkering. I also don’t mind stretching rules a little if it means I can do something not intended. I’ve burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.</p>
+<p>I’ve been a fan of the sort of stuff <a href="https://hak5.org">Hak5</a> produces for a while, but I’m no professional pentester, and I honestly can’t see myself using their offerings all that often. That’s why the Flipper jumped out to me. A device that condenses the functionality of many of their gizmos into a sleek, pocketable device.</p>
+<p>It struck me as just the sort of thing to scratch my itch, so I went about getting one.</p>
+<h2>Buying</h2>
+<p>When looking to buy a Flipper on the <a href="https://flipperzero.one">official Flipper Zero website</a>, I was redirected to Joom Geek, Flipper’s official Australian distributor and ‘tech’ sub-brand of Joom.</p>
+<p>Joom is very much like Aliexpress, Wish, or Temu. Lots of plastic gadgets of objectionable quality at prices so low that you can’t help but wonder what questionable labour practices have been employed. In the case of the Flipper Zero though, these cheap prices didn’t apply, and the cost came out to $322 AUD with shipping.</p>
+<p>I ordered the Flipper on March 19th, but it wasn’t until a month later, on April 20th, that I was updated with the information that my “package departed the seller’s warehouse”. Funnily enough, a day previously, on April 19th, I had submitted a query asking the status of my order, given that a month had passed with no update.</p>
+<p>Anywho, I did eventually receive it on May 20th. I will say that Joom’s slow shipping, bad reputation, and lack of communication did sketch me out a bit, but in fairness, I did receive it in one piece. I’d have preferred to buy from the official marketplace, but I’m really just glad I got it in the end.</p>
+<h2>Setup</h2>
+<p>After removing the shipping packaging, I extracted the compact cardboard box that contained the quick start guide, a short USB-C to USB-A cable, a sticker, and the Flipper itself. Everything was packed in the box snug with foam.</p>
+<p>All I had to do was peel off the plastic screen cover, hold the back button, and it sprung to life.</p>
+<p>I had done quite a bit of research prior to pulling the trigger on purchasing the Flipper, and even more in the time it took for it to arrive, so I had a pretty good idea of what I was gonna do once I got it.</p>
+<p>I had the briefest of plays with the official firmware, which was fine, but I knew that the limitations of the firmware were going to hold back my plans for the device. That’s why I jumped to the Momentum firmware.</p>
+<p>Thanks to the Flipper’s <a href="https://github.com/flipperdevices/flipperzero-firmware">open source firmware</a> there are many community led forks. During my initial research, <a href="https://flipper-xtre.me">Xtreme</a> seemed to be the best available, but internal conflicts led to it being forked and rebranded as <a href="https://momentum-fw.dev">Momentum</a>.</p>
+<p>Momentum has several benefits over the stock firmware. Standouts for me include improved customisation options through the management app, better menus, battery charge capping, and a sane set of bundled apps. It also allows bypassing artificial limitations, such as the ones imposed by the SubGHz region lock, although this is something I most definitely don’t do as a law abiding citizen.</p>
+<p>It isn’t hard to install and can be done via a web browser, the qFlipper desktop management program, or the mobile app. I’ve done it via web and mobile with no issues. It’s just as smooth as installing the standard firmware.</p>
+<h2>Features and Capabilities</h2>
+<p>Once I had the Flipper properly setup, I dove straight into mischief. First action was cloning the TV remote so I’d be able to mildly inconvenience anyone at my discretion. This sort of IR cloning is super easy, simply open the necessary app, set it to learn, point the relevant remote at the Flipper’s sensor, and press whatever button you want to capture.</p>
+<figure class="right">
+<img src="/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png" alt="A picture of a Flipper Zero sitting on a table." />
+<figcaption>My Flipper Zero</figcaption>
+</figure>
+<p>This sort of interaction has defined my usage of the Flipper. Receive a signal and play it back. It’s a real world copy paste. In fact, that is probably the best way to describe the Flipper for anyone curious about what exactly it is. It’s a copy and paste for the world’s signals.</p>
+<p>One thing I was worried about was that the novelty of the device would wear off quickly, and I wouldn’t touch it again. Well, the novelty did wear off, but what it was replaced with is arguably better. Utility. The Flipper has taken the position of my keys and wallet in my right jean pocket.</p>
+<p>The device is slated as a “multi-tool device for geeks” on the official website, and I don’t think a better description could be written. Much like a multitool, it’s something I <em>always</em> want on me.</p>
+<p>I think the multitool branding also sets expectations right. You don’t buy a multitool expecting it to replace your toolbox. You buy a multitool expecting a compact jack of all trades that is convenient to pocket. It isn’t a replacement for specialised tools; it’s a convenient, versatile supplement to them.</p>
+<h2>Uses</h2>
+<p>Part of always wanting it on my person is down to just how handy it’s been. I haven’t had it long, but it is such a useful little nugget and does so much. I’ve noted some of my favourite uses for it here, but the list is far from exhaustive. It can do <em>so</em> much.</p>
+<p>Perhaps one of the most common uses is as a remote control for TVs, set top boxes, VHS players, DVD players, Hi-Fi systems, air conditioners, lights, etc. If it’s been in my proximity and has infrared capabilities, then I’ve captured its signals. Being able to change the volume on the TV without having to send a search party out for the remote is one thing, but there are many devices I encounter with absent remotes where the Flipper is invaluable. I can either try brute force the codes or consult the <a href="https://github.com/logickworkshop/Flipper-IRDB">very comprehensive IRDB</a>, which contains remotes for everything from clocks to bidets.</p>
+<p>The feature of the Flipper that has saved me the most time is by far the BadUSB functionality. I can write scripts and, by emulating a USB keyboard, execute them on devices at my discretion. It’s handy for automating a slew of tasks, but perhaps the most useful I’ve set up runs a quick Windows Update, a Windows Security scan, and does a disk cleanup.</p>
+<p>In the same vein as the BadUSB functionality, it’s handy as a remote for computers. You can pair it over Bluetooth or using it’s USB-C cable and do anything you might need. Acting as a clicker during presentations, as a media control, or as a mouse jiggler to fein activity are all super useful.</p>
+<p>The subGHz functionality is something I want to do more with. Most devices have <a href="https://en.wikipedia.org/wiki/Rolling_code">rolling codes</a>, which makes it difficult for the Flipper to interface with them, but there are definitely use cases I want to explore. Worth noting is that the charge port caps on Teslas respond to a subGHz signal and have no authentication or rolling codes. Do with this information as you will.</p>
+<p>The NFC functionality is also pretty neat. Most cards are encrypted, but things like Amiibo are fair game. Sure beats carrying a plastic figure around.</p>
+<h2>Build and Battery</h2>
+<p>One of the first things that struck me about the Flipper was just how solid it is. It has a bit of weight to it, with a robust plastic case that doesn’t creak nor flex. I can feel pretty confident that it won’t fail during normal usage.</p>
+<p>The only issue with the build that I can point to is the pogo pins included for the iButton functionality. They’re perhaps a bit fragile, which leads to worry whenever I find them catching on my pants when sliding it in and out of my pockets.</p>
+<p>As for the battery, I can only say good things. When Flipper claims it can last for <a href="https://docs.flipper.net/basics/power">“up to one month”</a>, they aren’t kidding. I was initially worried about battery life, so I turned off Bluetooth when not in use, but that wasn’t really necessary. I can happily use the Flipper and place it in standby mode with Bluetooth on without concern that the battery will be dead the next time I go to use it.</p>
+<h2>Ethics and Legality</h2>
+<p>The Flipper is a ‘hacking’ tool. ‘Hacking’ comes with a bad rep. The second somebody mentions hacking, it’s assumed you’re trying to bust into a Gibson or something of that nature.</p>
+<p>Obviously, the Flipper should be used responsibly. To bring up the multitool analogy once again, I could use the knife on a multitool to hold someone hostage or horrifically injure them. That doesn’t mean that I necessarily will though, and it certainly doesn’t mean multitools should be blanket banned.</p>
+<p>There are many a lawmaker of the impression that the Flipper is a tool of evil. This isn’t the case, or at least not if used responsibly. The Flipper isn’t just evil, and it isn’t just a toy. It’s a tool.</p>
+<p>We’ve seen previously that the Flipper can <a href="https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth">identify and highlight exploitable weaknesses</a>, and that the knowledge gained from its usage <a href="https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2">can lead to fixes</a>. If Flippers were banned, there is a decent likelihood that such exploits would persist without detection, or that a similar device would emerge to take it’s place.</p>
+<p>It is a tool - a very fun tool - and it should be treated as such. Inherently, it’s no more evil than a pocket knife. It’s how it’s used and the intent behind usage that matters.</p>
+<h2>Community</h2>
+<p>One thing that both inspires and disappoints me is the community surrounding the Flipper. Through Reddit and, to a lesser extent, the forums, there is a hostile culture.</p>
+<p>I think fake viral posts on platforms such as TikTok have perhaps skewed expectations and embellished the Flipper’s capabilities. This has attracted novice users with warped understandings, who are at odds with the more technical crowd that tends to push the limits of the device and handle community led support.</p>
+<p>There tends to be a RTFM approach slung at users unfamiliar with support etiquette and a general culture of downvoting those that ask simple questions. While I do think it is important to direct people towards the proper documentation instead of spoon feeding them, the hostility should be left at the door. The echo chamber that is Reddit is particularly guilty of this, and better must be done.</p>
+<p>Separate from the negativity, there is a thriving community that dedicates their time to expanding, and experimenting with, the Flipper’s feature set.</p>
+<p>As discussed with the Momentum firmware previously, much of the Flipper is open source, and the tooling to hack and build on it is readily available. This has led to a <a href="https://lab.flipper.net/apps">thriving app ecosystem</a> and countless hardware addons that make use of the GPIO pins. Perhaps my favourite class of which are the <a href="https://github.com/nmrr/flipperzero-geigercounter">Geiger</a> <a href="https://github.com/eried/flipperzero-flippenheimer">counters</a>.</p>
+<hr />
+<p>If you liked my review of the Flipper, then do consider sharing it. Also, if you’d like to see me produce more content like this, then <a href="/donate">tips are very much appreciated</a>.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>A-Year-With-The-Framework-Laptop-13.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>A Year With The Framework Laptop 13 | Vale.Rocks</title>
+    <meta property="og:title" content="A Year With The Framework Laptop 13"/>
+    <meta name="description" content="My review of the Framework Laptop 13. I cover the assembly, setup, value, build, support, community, and much more." />
+    <meta property="og:description" content="Hold onto your trackpads, I'm reviewing the Framework." />
+    <meta property="article:published_time" content="2023-12-01" />
+    <meta property="article:modified_time" content="2024-02-04" />
+    <meta property="article:section" content="Reviews" />
+</head>
+<article>
+<header>
+	Review
+	<h1>
+		A Year With The Framework Laptop 13
+	</h1>
+	<ul>
+		<li><time datetime="2023-12-01">01 Dec, 2023</time></li>
+		<li>1495 words</li>
+		<li>5 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.</p>
+<p>I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:</p>
+<ul>
+<li>CPU: 12th Gen Intel(R) Core(TM) i5-1240P (16) @ 4.40 GHz</li>
+<li>GPU: Intel Iris Xe Graphics</li>
+<li>Memory: 2x 8GB DDR4-3200 RAM</li>
+<li>Storage: 1TB WD BLACK SN770 NVMe SSD</li>
+</ul>
+<h2>Assembly and Setup</h2>
+<p>My laptop came very well packed, and upon unboxing, I got straight to building it. As I opted for the DIY edition, I had to remove the input cover, place in the SSD and RAM, and then reassemble the device. Then all I needed to do was slide in my expansion cards, and I was good to go. This was a very simple process, and the guide regarding it was comprehensive. The newer models are even easier, as the input cover comes detached.</p>
+<p>Following up on the hardware setup was the software setup. Installing Arch, my Linux distro of choice, proved nearly as seamless as ever. I did have to implement a small fix to get the brightness keys to function, but it was straightforward to implement and well documented. This was particularly fantabulous, as Arch isn’t among their officially supported Linux distros. In fact, it’s refreshing to see a list of officially supported distros at all.</p>
+<h2>Cost &amp; Value</h2>
+<p>The cost associated with the Framework is undeniably high. There is no way around that. In comparison to other laptops with similar specifications, it is marginally more expensive. However, the initial cost shouldn’t be the only consideration. Purchasing the Framework Laptop means investing in repairability. While it might seem more expensive upfront, the long-term value lies in the ability to replace components over time. This aspect ultimately justifies the initial expense, making it a more cost effective choice in the long run. It’s also worth noting that you’re supporting a smaller company that, in my opinion, seems dedicated to doing the right thing.</p>
+<p>With that said, you can save some money when buying your laptop by acquiring your RAM and SDD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.</p>
+<figure class="right">
+<img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background." />
+</figure>
+<h2>Build Quality</h2>
+<p>The build quality of the Framework is alright. While it doesn’t exude the sturdiness of some other laptops I’ve encountered, it’s far from flimsy. There is minor flex in the chassis if picking the laptop up from a corner, but it is so minimal that it’s hardly of relevance. Of more notable concern are the screen and hinge.</p>
+<p>The screen itself is excellent. It’s 3:2 aspect ratio is ideal for tasks such as coding and document processing but affects the structural design, leading to flex, which causes screen wobbling at the slightest nudge. This makes typing on a lap or in a car rather challenging. The hinge is also a hindrance, as it struggles to hold the screen at more aggressive angles. They have released newer, stronger hinges as an optional addition to combat this.</p>
+<h2>Modularity &amp; Customisation</h2>
+<p>The reason that just about anyone would buy a Framework is for its user accessible servicing and customisation options. While I haven’t yet broken my laptop, it’s quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.</p>
+<p>Speaking of the included screwdriver, it’s much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. It’s body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.</p>
+<p>Returning to the laptop, the flexibility to swap out components whenever I choose or opt for an upgrade adds a layer of convenience. The prospect of seamlessly installing new parts as they release is a significant advantage, as is choosing exactly the ports and components I want.</p>
+<h2>Battery Life</h2>
+<p>There is a negative sentiment online regarding the battery on the Framework. I’ve seen countless people claim that they only yield 5 hours of battery life from a charge. While that may have been true at a point, things have since improved. There was an issue with select expansion cards that caused increased power use, but, fortunately, Framework fixed it in subsequent productions and released a fix for those capable of performing it. Yes, these are issues, but Framework has gone above and beyond in not only addressing, but also actively rectifying them to the best of their ability.</p>
+<p>They’ve released a new 61Wh battery and battery optimisation improvements in their newer generations, especially in the AMD chipsets. Even without these improvements, I’ve been able to surpass over 10 hours out of the 55Wh battery in my laptop with some battery optimisations.</p>
+<h2>Support</h2>
+<p>Speaking of their commitment to addressing issues, their user support is excellent. In the few instances where I’ve contacted support, I’ve generally gotten very helpful and timely responses. Admirably, they seem to prioritise the mental health of their support employees. Their <a href="https://old.reddit.com/r/framework/comments/178jutx/moment_of_appreciation_for_framework_taking_care">stance against abuse</a> and <a href="https://community.frame.work/t/status-of-framework-support-november-6th-2023/39554">aversion to seasonal hiring</a> demonstrates a conscientious approach I really can’t say I’ve seen elsewhere.</p>
+<p>As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. <a href="https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta/25726">There has been work done</a>, but it’s been in beta for several months and sets a bad precedent.</p>
+<h2>Community</h2>
+<p>It isn’t just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes I haven’t seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day someone shares some crazy thing like <a href="https://community.frame.work/t/spring-loaded-expansion-card/36013">spring loaded expansion cards</a> or a <a href="https://community.frame.work/t/framework-gaming-handheld-video/36591">crazy new form factor</a>. It’s excellent to see. I’ve found that any issue I’ve encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.</p>
+<h2>Overall Evaluation</h2>
+<p>I think the Framework Laptop is excellent for just about anyone needing a computer, but especially the technologically inclined. This machine is excellent, especially as a tech enthusiast. The modularity and adaptability makes tinkering an absolute joy. Especially when backed by an exceptional community that’s always ready to dive into the depths of innovation.</p>
+<p>If you need any further evidence as to how highly I regard the Framework Laptop 13, then the fact that I convinced my brother to select one as a replacement for his ageing Surface Go should tell you all you need to know. As he got it more recently, he had the option of the new AMD model, which meant waiting a while due to the batch system, but it only took just over a week to arrive once it shipped. He’s been very happy with it, and it’s worked excellently thus far.</p>
+<h2>February 2023 Update</h2>
+<p>I’m still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework has finally taken action in regards to the BIOS and <a href="https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244">has released a new beta</a>. This is great to see, as I was beginning to worry. People have also started receiving the new Framework Laptop 16, which is very exciting.</p>
+<p>In terms of my specific computer, I’ve made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It’s got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly do love it. I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn’t much point in having a QWERTY keyboard, so I moved to a <a href="https://frame.work/au/en/products/keyboard-blank">blank keyboard</a>. The process wasn’t too hard, and was well documented, but took quite a bit of time. There were <em>so many</em> screws. I’m happy with the result though, and really love the sleek, minimalist style it provides.</p>
+<hr />
+<p>I hope you enjoyed my review. If you’ve got any questions about the laptop or think there is something I could add, then let me know in the comments below.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>Halo-My-Thoughts.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Halo: My Thoughts | Vale.Rocks</title>
+    <meta property="og:title" content="Halo: My Thoughts"/>
+    <meta name="description" content="Explore my journey through the Halo series, from the iconic Combat Evolved to the latest release, Infinite. Discover my thoughts, experiences, and insights into each game's virtues." />
+    <meta property="og:description" content="My thoughts on one of the biggest names in gaming." />
+    <meta property="article:published_time" content="2023-08-27" />
+    <meta property="article:modified_time" content="2024-02-27" />
+    <meta property="article:section" content="Reviews" />
+</head>
+<article>
+<header>
+	Review
+	<h1>
+		Halo: My Thoughts
+	</h1>
+	<ul>
+		<li><time datetime="2023-08-27">27 Aug, 2023</time></li>
+		<li>3235 words</li>
+		<li>11 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>If you had asked me at the start of this year my opinion on Halo, I wouldn’t have had anything to say. I’d played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I’ve played through every single mainline Halo game - from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC) with the exception of 5 and Infinite, which I played through their standalone games. I’ll only be discussing the campaigns, as I have scarcely touched the multiplayer.</p>
+<p>I’ll be avoiding spoilers for the most part. If I’ve got anything specific to mention about the campaign, then I’ll place it in a “Campaign Specifics” drop down at the conclusion of the entry. I recommend reading those sections after playing through the games, for they won’t make much sense otherwise. This means that even if you haven’t touched the series, you can rest assured this article shouldn’t ruin your experience. That said, just go play the games. They’re worth it. I also just want to give thanks to my friend Sebastien, who advised I get into the series. It was a good call.</p>
+<h2>Halo: Combat Evolved</h2>
+<p>Halo: Combat Evolved, often abbreviated to CE, is the first game in the series. It sets up what is to come and excels at it. The gunplay feels terrific, and the story flows with ease, painlessly holding audience attention.</p>
+<p>While the graphics have most definitely aged, I still recommend playing it without the anniversary graphical overhaul. The overhaul somewhat changed the tone of the game, especially the later missions such as The Library. Everything became a lot brighter, and some of the hit boxes don’t line up quite as you’d expect. On the occasion that I attempted playing with the anniversary graphics, I consistently found disparities in level geometry eating my bullets.</p>
+<p>CE also introduces the iconic Halo theme. I don’t quite know how to express my love for this theme; it’s superb. It is super versatile and can be applied to just about any situation without feeling out of place. Every variant hits differently. Whether it’s a slow piano version in an emotional moment or a fast, intense version in the heat of battle, it just works and immediately pulls the audience into the moment.</p>
+<p>If you’re interested in dipping your toes into the series without fully submerging yourself, then start with CE. It has a nice ending that, while being open, supplies an easy and satisfying stopping point.</p>
+<p><em>Also, the pistol in this game may as well be a sniper rifle. It’s super overpowered.</em></p>
+<details>
+<summary>Campaign Specifics</summary>
+<p>CE has a pretty strong campaign, with the exception of one level. That being “The Library”. Not only must you deal with 343 Guilty Spark for the entirety of the level, but you must also battle through several repetitive, monotonous Flood-filled chambers.</p>
+</details>
+<h2>Halo 2</h2>
+<p>Halo 2 looks at CE, throws out what didn’t work, improves what did, and then cranks everything up to 11. It feels like a film you can play. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling creates an immersive experience that kept me firmly on the edge of my seat.</p>
+<p>Graphics have received a significant upgrade here, both the original graphics and the anniversary variant. I recommend trying both and settling on what you prefer. Personally, I played with anniversary graphics. The cutscenes with anniversary graphics are <strong>really</strong> marvellous. They look more real than reality itself.</p>
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a character with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides. There is a shimmering, blueish light in the background which reflects off the helmet, adding to the futuristic aesthetic." />
+<figcaption>The High Prophet of Regret sitting on his throne in Halo 2: Anniversary graphics.</figcaption>
+</figure>
+<p>While Halo 2 keeps most of its predecessor’s music, it also sees a huge step up with the inclusion of some truly epic electric guitar. The guitar elevates the music to something somehow even more exhilarating than what CE accomplished.</p>
+<p>The gameplay sees several improvements, with dual wielding, vehicle hijacking, and the new playable character taking the game a monumental step forward. These enhancements somehow push the game into something even more dynamic and immersive than CE.</p>
+<p>The only things I can speak negatively about are the aimbot sniper jackals at higher difficulties and the ending. The game concludes with quite the cliff hanger. This is due to Bungie, more or less, creating the entire game in about 9 months and having to slice the game pretty much in half to push it out in time. That said, it laid a solid groundwork for the next game in the series, Halo 3.</p>
+<h2>Halo 3</h2>
+<p>Halo 3 concludes the original trilogy and does a stellar job at it. It ties up the cliff hanger of 2 and concludes at a well-fitting point, providing appropriate closure.</p>
+<p>Halo 3 may not look all that great, at least compared to what the 360 would later achieve, but it has a lot of charm. The cutscenes of 3 are animated in a very specific way that leads them to feel almost cartoony in nature and provides a wonderful sense of energy. These cutscenes are my favourite of the series and my favourite parts of 3.</p>
+<p>I can’t say it’s my favourite game in the series from a gameplay perspective, as it didn’t really add much to the experience other than deployable equipment and the gravity hammer. While I didn’t find myself using the equipment all that often, I did love the gravity hammer. A super powerful melee weapon that sends enemies into the stratosphere with ease. The lethality and power paired with its animations make it feel weighty and menacing. The game also excelled at continuing the story and did an admirable job broadening the in-game universe.</p>
+<h2>Halo 3: ODST</h2>
+<p>ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don’t play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don’t get the armour or strength of a Spartan, and this shows in the gameplay.</p>
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue." />
+<figcaption>Halo 3: ODST's promotional art with text and overlays removed.</figcaption>
+</figure>
+<p>This game is notably different to the rest of the series, and it’s best experienced on a harder difficulty. ODST plays best when a slip up ends you in the most dire of situations. I had the most fun when, on recommendation of my friend Sebastien, I played on a harder difficulty on a dark, raging evening. You need to feel scared and take care because you aren’t playing as the Master Chief. You’re the marines that you’ve witnessed fall around you during the last 3 campaigns. You must take much more care as you play, although it would have been nice for the difference to perhaps been a tad more pronounced.</p>
+<p>The graphics in this game are a noticeable, albeit minor, step up from Halo 3. Everything from the textures to the lighting, just looks better. It’s also bathed in that sepia tone that the seventh generation of game consoles are known for.</p>
+<p>The music of this game, much like the gameplay, is a sound departure from Halo tradition. Gone is the orchestral grandeur of previous games, and in is <em>smooth jazz</em> (blues is probably a better description, but smooth jazz is much more humorous). While it may seem peculiar, it’s oddly fitting. The blues, jazz, and noir influences have a notable impact on the game’s urban and mysterious setting. It relies on ambient sounds to create an atmosphere that captures the feeling of walking through dark, rain-soaked streets, perfectly constructing a sense of isolation and introspection.</p>
+<p>The story is told by very different means, with the player piecing it together through flashbacks, the environment, and objects littered throughout it. The story also differs in its order. Where previous campaigns were strictly linear, ODST allows the player to play the missions in the order they choose. While this is a lovely idea, the missions still lead into each other, and the player is forced to go out of their way to play them any differently than was intended.</p>
+<p>Overall though, this different style of storytelling creates a very unique experience that pairs elegantly with the style of gameplay ODST strives for.</p>
+<h2>Halo Reach</h2>
+<p>Reach is, in my opinion, the best game in the Halo series. I won’t say too much here out of fear of spoiling it for someone, but it is so very good. In all honesty, I came very near to giving up on Reach towards the beginning. After having already played four games from the series, I was starting to tire. Following ODST, I kinda just wanted to jump back into the story as Master Chief and was chasing that high of the original trilogy. I’m so extremely glad I saw it through though for the game is stunning in every aspect.</p>
+<p>Gameplay wise it improved on the equipment mechanic from Halo 3 by incorporating Armour Abilities, a more varied, refined equipment system. It also improves on the weapons, with everything having a distinct and recognisable purpose. The enemy AIs also see a marked improvement and are considerably more fun to fight with troops, such as the Elites, moving a lot more erratically.</p>
+<p>The music of Reach is wonderful. Much like ODST, it strays away from the series’ iconic Gregorian chant. Reach doesn’t wander as far as ODST though as its vocals and strings remain very reminiscent of the theme found in the mainline games. What really makes Reach’s soundtrack is the game’s simple leitmotif, as heard at the start of <a href="https://www.youtube.com/watch?v=ecIY7-xnkuQ">Long Night of Solace</a>. The swelling strings instantly pull me into the melancholy feeling of Reach.</p>
+<p>Being released towards the end of the Xbox 360’s lifespan, the graphics are a huge jump from anything seen in the Halo series previously. This is unfortunately the last game in the series worked on by Bungie, the series creators.</p>
+<details>
+<summary>Campaign Specifics</summary>
+<p>I touched on almost giving up on Reach. I felt this way for a number of reasons. The first level, Winter Contingency, was just kinda dull. It didn’t do anything really interesting, and that set the tone for the first half of the game. Don’t get me wrong, it wasn’t terrible, just alright. Where it really picks up is with the level Long Night of Solace. The story starts to get deeper, the tone darkens, the stakes increase.</p>
+<p>Members of Noble team start dropping, and the game takes on a whole new feeling. A feeling of emptiness as the impending doom setup from the opening starts to reach you. As your team slowly dies and you’re tasked with delivering Cortana to the Pillar of Autumn, it just clicks. The game simply falls into place.</p>
+<p>What really cemented my love for Reach was the epilogue. As you fight the losing battle against the Covenant on the planet’s surface, there is nothing you can do but try to survive. You can’t keep them off forever, and nothing you do will change the looming outcome. Your death is imminent, just as the very start of the game alluded to.</p>
+</details>
+<h2>Halo 4</h2>
+<p>Halo 4 is pretty good. It’s not the best, but it’d be a misjustice not to say it’s a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.</p>
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar." />
+<figcaption>Screenshot of Halo 4's campaign.</figcaption>
+</figure>
+<p>Prior to getting into Halo, my modern AAA gaming experience was very much limited. I was a bit young for shooters when the 360 was in its prime and mostly used the console for Kinect games and a bit of Minecraft. I was shocked to see just how well Halo 4 holds up. It’s hard to comprehend that within one console generation we went from Halo 3, to Halo 4. It’s not perfect by modern day standards, but it’s still impressive and holds its own.</p>
+<p>This makes it all the more a shame that the art style lets it down. Styling is repetitive, with very little variation, and what does exist spits in the face of the Bungie games. Were it a unique title this would be a non issue, but to throw away what had been so well defined left me disappointed. It still looks good, but it could have been so much better.</p>
+<p>The new enemies, the Prometheans, also weren’t my favourite to fight. Unlike the Convenant, they have no personality. Grunts chatter and show cowardice. Elites are big, burly, and lead the fight. Jackals hang back and attack from a distance. Each are unique and seem like they could exist outside the context of combat.</p>
+<p>All the Prometheans are emotionless husks that exist purely as things to shoot at. The weapons they drop, while incredibly well designed, are dull to use and run out of ammo frequently. This would be a minor issue if they weren’t all bullet sponges that take a lifetime to kill. Unfortunately, you can’t use the UNSC weapons you’ve grown familiar with either, given that there is next to no ammo for them around.</p>
+<p>I don’t mind Halo 4; it’s an alright game. It certainly isn’t the best in the series, but it’s far from being the worst. As you’ll see, Halo 5 holds that title.</p>
+<details>
+<summary>Campaign Specifics</summary>
+<p>Story wasn’t entirely Halo 4’s strong suite. Exposition was heavy handed,and I failed to click with the Didact’s story. That said, it wasn’t all bad. Master Chief’s character is handled with grace, and he is fleshed out an appropriate amount without impacting the ability for the player to project onto him. It’s also done tastefully, with Cortana acting as a nice medium to develop him.</p>
+<p>On the topic of Cortana, the ending scene between her and the Chief is executed with nuance. It really couldn’t have been pulled off better. It’s impressive how well they managed to convey Chief’s emotion to the player without removing his helmet. The Halo TV show should take notes.</p>
+</details>
+<h2>Halo 5: Guardians</h2>
+<p>This game could be better titled <em>“Call of Duty: In Space”</em>. It doesn’t feel like Halo. It doesn’t look like Halo. It doesn’t play like Halo.</p>
+<p>It’s almost like 343 Industries chucked away everything from Bungie’s entries, took the worst bits from 4, reconstituted them, and mixed them in with the most soulless shooter they could find.</p>
+<p>It’s bland slop without a hint of seasoning advertised behind the façade of a Halo entry.</p>
+<p>This game outright refused to save my progress. At one point, I walked through a railing that had no collision and plummeted to my death. This set me back an entire hour of gameplay. For the rest of the game, I played on easy. I completed the bulk of this game in one sitting. Not because I enjoyed it, but because I was worried that I’d have to replay a large chuck of the game I was coming to loathe for the second time if I stopped.</p>
+<p>One of the few positive things I can say about this game is that <a href="https://www.youtube.com/watch?v=44oJi5w2Wjc">the opening cutscene looks outstanding</a>.</p>
+<p>Seeing as this game is exclusively available on the Xbox, I wouldn’t sweat it if you can’t play it. Read a plot summary, watch the cutscenes, and move onto the next game in the series.</p>
+<details>
+<summary>Campaign Specifics</summary>
+<p>What the hell is the story of this game? It plays out like poorly written fanfiction one might find in a late night Archive of Our Own binge. If the rest of the issues this game boasts didn’t condemn it enough, then the story is just another pile of dirt upon its coffin.</p>
+<p>I vehemently oppose the decision to bring back Cortana, especially after the fitting send off she received in the climax of 4. Speaking of Cortana, in this game she looks fine graphically, but her design is, in my opinion, a marked regression from 4, which had all but perfected her.</p>
+</details>
+<h2>Halo Infinite</h2>
+<p>Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn’t feasible on the hardware of the original Xbox.</p>
+<figure class="right">
+<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor." />
+<figcaption>The Master Chief in his Halo Infinite armour.</figcaption>
+</figure>
+<p>The game plays exceptionally. The grappleshot is a wicked gameplay addition that allows Master Chief to swing and traverse the new open world map. Speaking of the new open world structure, its implementation is marvellous. It permits free movement without jeopardising the flow of the game or story.</p>
+<p>The entire experience looks top-notch. It’s realistically realistic. It doesn’t make every bit of metal so shiny it’s overwhelming and instead looks more like a higher quality Halo 2. The somewhat cartoony qualities of the cutscenes are back from 3 and really shakes off the stiffness of the previous entry. Master Chief’s armour also looks the best it ever has. It’s got a new level of intricacy and realism unmatched by any of the other games.</p>
+<p>The only critique of its visuals that comes to mind is the lack of stylistic diversity. We’re thrown into a huge open world, but the surface is almost exclusively the same generic forest, occasionally broken up by big hexagons, the void, and copy pasted Forerunner structures. It would have been lovely just to see a tad more variety, like we see in the multiplayer maps.</p>
+<p>This installment also marks the return of the legendary music. It’s a triumphant return of the iconic theme as heard in CE. It once again adapts to context with ease and shows how much this game is pushing forward while staying true to the franchise’s roots.</p>
+<p>The story repairs the mess of the previous two games and paves the way for the future. I really do look forward to seeing how they build on what was setup in Infinite and what the next installment brings to the table.</p>
+<hr />
+<p>I hope that you gained something reading about my thoughts on Halo. I’d love to hear your thoughts and opinions on the franchise, so leave them in the comments.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>Welcome.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Welcome | Vale.Rocks</title>
+    <meta property="og:title" content="Welcome"/>
+    <meta name="description" content="A brief welcome to my website on the world wide web and what it's about." />
+    <meta property="og:description" content="The welcome to the website you've waited for." />
+    <meta property="article:published_time" content="2022-09-12" />
+    <meta property="article:modified_time" content="2024-04-28" />
+    <meta property="article:section" content="Meta" />
+</head>
+<article>
+<header>
+	 Meta
+	<h1>
+		Welcome
+	</h1>
+	<ul>
+		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
+	    <li>561 words</li>
+		<li>2 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>Welcome to my brand new website!</p>
+<p>I’ve had a website for years but never quite gone all the way in configuring it. I’ve had bits and bobs written up, but never completely and to a standard I’m happy with. There have always been issues and sloppy code preventing me from maintaining and improving it. This time I’ve built the website using <a href="https://jekyllrb.com/">Jeckyll</a> which allows markdown styling and far better scalability. I can dynamically create blog pages and share .html snippets across the site.</p>
+<p>I will never quite finish this site. It’ll likely be a work in progress my entire life. I’ll keep tweaking, editing, and breaking it as time goes on, but that is the way it should be. To quote <a href="https://www.wendycarlos.com/live.html">Wendy Carlos’ website</a>:</p>
+<blockquote>
+<p>“I’m happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a ‘work in progress’, for this would imply not much intrinsic value until that magic day it is completed. A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times – get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept. While it is possible to ‘finish’ a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.”</p>
+</blockquote>
+<h2>September 2023 Update</h2>
+<p>Since the initial publication of this article, the entire site has been completely rewritten. This was due to a number of reasons and gripes I had with Jeckyll, which led me to migrate to Adduce, a static site generator of my own creation. It allows for significantly more flexibility and the ability to achieve plenty of more intricate features.</p>
+<p>As part of this migration, I’ve completely overhauled the site’s design, resulting in something I feel is much sleeker, more unique, and more visually appealing. It should result in something that enhances the user experience and looks much better on all sorts of devices, screens, and web renderers. I’ve also reimplemented a range of the slightly dubious features with numerous improvements, such as the alterations made to the comments system, powered by <a href="https://giscus.app">Giscus</a>. Additionally, I’ve refined and enhanced a lot of my old articles, as I’ve significantly improved and refined my writing since their original publication.</p>
+<p>Another thing I’ve done as part of this site rewrite is the hosting of many new services. They should help this platform become a much richer resource. If you want to check out what I’m hosting (and potentially planning to host) you can check it out on my <a href="/services">services page</a>.</p>
+<p>If you wish to see what the site looked like before these changes, you can take a peek on the Internet Archive’s <a href="https://web.archive.org/web/20230124205506/https://vale.rocks">Wayback Machine</a>. I’ve put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I’d love to hear it. You can chuck it in the comments below.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>LibreOffice-Setup.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>The Ultimate LibreOffice Setup | Vale.Rocks</title>
+    <meta property="og:title" content="The Ultimate LibreOffice Setup"/>
+    <meta name="description" content="My comprehensive tutorial aimed at optimizing LibreOffice to match the functionality of Microsoft Office. Elevate your document editing experience with tips, tools, and enhancements for seamless and efficient productivity." />
+    <meta property="og:description" content="A guide to sorting the office suite solution." />
+    <meta property="article:published_time" content="2023-06-16" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Tutorials" />
+</head>
+<article>
+<header>
+	Tutorial
+	<h1>
+		The Ultimate LibreOffice Setup
+	</h1>
+	<ul>
+		<li><time datetime="2023-06-16">16 Jul, 2023</time></li>
+		<li>1087 words</li>
+		<li>4 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>Document editing is a horrible business that I wouldn’t wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can’t be combated by even the most confident keyboard cowboys.</p>
+<p>I’ve spent a lot of time trying to wrangle my word editing and perfect my proofreading performance by configuring and tweaking my LibreOffice setup to perfection. First thing to look at is why I chose LibreOffice over any other document suite.</p>
+<h2>Best Suite</h2>
+<p>I feel it’d be wrong to write this article without at least mentioning the many document editing suites available and how I came to decide on LibreOffice. I’ve highlighted what I feel are reasonable choices that are under support. This means I’ve excluded suites such as KOffice, AbiWord, and OpenOffice.</p>
+<p><a href="https://www.office.com">Microsoft Office</a> is obviously the biggest and arguably the best. It really needs no introduction; everyone uses Microsoft Office, and it has near endless features. It’s backed by a huge corporation and works pretty well. The caveat is that it’s locked behind an expensive subscription service and has telemetry built in. It’s also not available on Linux, which completely writes it off for me.</p>
+<p><a href="https://calligra.org">Calligra</a> was another I looked at. It seemed rather nice, but is lacking many features that I would expect and was designed for KDE, a desktop environment I don’t use. I do quite like it for mobile document editing though and I recommend it for Android tablet users.</p>
+<p><a href="https://www.apple.com/iwork">iWork</a> is Apple’s offering. I used it on my iPad 4, circa 2015. It’s alright. I don’t own a MacBook.</p>
+<p><a href="https://www.onlyoffice.com">OnlyOffice</a> is a pretty fully featured option, but it gave me a lot of popups and is web based, rather than native, which affects integration with my computer. It does have very nice support for Microsoft Office’s formatting out of the box, though.</p>
+<p>The best office suite I’ve found has to be <a href="https://www.libreoffice.org">LibreOffice</a>. It integrates well with my computer, is fast, and is pretty fully featured. It’s seen good support and shows little indication of slowing down. For that reason, it’s my number one choice.</p>
+<h2>Installation</h2>
+<p>LibreOffice comes in two main versions: still and fresh. Still, is a stable version that doesn’t get very frequent updates and lags behind in features, so I recommend Fresh. It has modern features and is much more stable than they give it credit for. On Arch Linux (my Linux distro of choice), it can be installed with <code>libreoffice-fresh</code>.</p>
+<h2>General Setup</h2>
+<p>The Arch Wiki has a wonderful guide, as always, on how to setup LibreOffice for general use. You can read it <a href="https://wiki.archlinux.org/title/LibreOffice">here</a> and I very much recommend following it before the rest of my setup. It is Arch specific, but most can be translated for your distro. If you don’t use Linux, then you can skip this section and move directly onto the next step. A few things I’d like to point out for my ultimate setup is that I use GTK for theming, disable the startup logo, and install texmaths for LaTeX support as outlined in the guide. I don’t install the fonts as outlined in the Arch Wiki as I do it a different way for improved Microsoft Office compatibility.</p>
+<h2>Theming</h2>
+<p>Out of the box, LibreOffice isn’t perfect. It looks alright but some work is needed. If, like me, you chose to use GTK for theming, then you can use <a href="https://gradienceteam.github.io">Gradience</a> to get it looking just how you want. That said, do read <a href="https://stopthemingmy.app">this</a> before using it. If you don’t use GTK (or use something other then Linux) then you can ignore that and just change the icons. For this, you can navigate to <code>Tools &gt; Options</code> in the menubar of any of the applications. In the popup window, navigate to <code>LibreOffice &gt; View</code> and change the icon theme. I recommend the SVG version of Sukapura. You can choose the light or dark variant, depending on your theme.</p>
+<h2>Improving Microsoft Office Compatibility</h2>
+<p>If you’re coming from Microsoft Office or have to interact with Microsoft’s formats, then you may struggle with adapting your workflow or dealing with Office files. You should note that applications in LibreOffice have different names to those in MS Office. Word is Writer, PowerPoint is Impress, and Excel is Calc. To follow this next section of the guide, open up one of the applications within the suite, such as Writer.</p>
+<h3>Changing the Ribbon</h3>
+<p>By default, the ribbon (that collection of icons at the top of the program) in LibreOffice is more reminiscent of MS Office 9x than MS Office 365. There is, fortunately, an easy fix. In the top menubar, click <code>View &gt; User Interface</code>. In the popup window that appears, select ‘Tabbed’ and then ‘Apply to all’. This ensures that it will apply not just to the current program you’re using but to the entire suite.</p>
+<h3>Installing Fonts</h3>
+<p>Microsoft have a lot of their own fonts. You can skip this section if you use Windows, but you’ll likely want to acquire them if you use Linux, as they don’t come pre-packaged. Luckily for us, they can generally be installed with relative ease. If using Arch Linux, then there is a very useful Arch Wiki article on it <a href="https://wiki.archlinux.org/title/Microsoft_fonts">here</a>. If you aren’t using Arch, then I wish you the best of luck.</p>
+<h3>Removing Format Warnings</h3>
+<p>LibreOffice often screams at you if you use MS Office file types. You can hide these warnings when saving files by navigating to the <code>Tools &gt; Options</code> (if you can’t find <code>Tools</code> then try pressing <code>alt</code>). In the popup, you can then navigate to <code>Load/Save &gt; General</code> and then untick ‘Warn when not saving in ODF or default format’.</p>
+<h3>Improving Embeds</h3>
+<p>Many embedded objects from MS Office don’t have perfect compatibility by default; to fix this, we can navigate to the <code>Tools &gt; Options &gt; Load/Save &gt; Microsoft Office</code> and ensure all the boxes in the Embedded Objects section are ticked.</p>
+<h3>Reorganising Forms and Adding Trailing Spaces</h3>
+<p>Navigate to <code>Tools &gt; Options &gt; LibreOffice Writer &gt; Compatibility</code> and ensure <code>Reorganise Form menu for Microsoft compatibility</code> and <code>Word-compatible trailing blanks</code> are ticked. Once done, click <code>Use as Default</code> and then <code>Yes</code> in the subsequent popup box.</p>
+<hr />
+<p>Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.</p>
+<section class="giscus"></section>
+</div>
 </article>]]></description></item><item><title>feed.xml</title><description><![CDATA[<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Vale.Rocks</title><link>https://vale.rocks</link><description>A collection of unhinged (yet not completely insane) ramblings.</description><language>en-AU</language><generator>Adduce</generator><item><title>Minecraft-Nostalgia-And-Growing-Up.md</title><description><![CDATA[<head>
     <title>Minecraft, Nostalgia, and Growing Up | Vale.Rocks</title>
     <meta property="og:title" content="Minecraft, Nostalgia, and Growing Up"/>
@@ -4783,6 +5404,1270 @@ If you liked this post, then do consider sharing it. Also, if you'd like to supp
 </div>
 </article>
 ]]></description></item></channel></rss>]]></description></item><item><title>Prematurely-Pulling-The-Plug-On-3G.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Prematurely Pulling The Plug On 3G | Vale.Rocks</title>
+    <meta property="og:title" content="Prematurely Pulling The Plug On 3G"/>
+    <meta name="description" content="Critical thoughts on the intention of Australian telcos to sunset the 3G network and the major repurcussions on coverage, safety, and much more that will come with it." />
+    <meta property="og:description" content="Better hope you don't need to call emergency services." />
+    <meta property="article:published_time" content="2023-11-26" />
+    <meta property="article:modified_time" content="2024-05-06" />
+    <meta property="article:section" content="Essays" />
+</head>
+<article>
+<header>
+	Essay
+	<h1>
+		Prematurely Pulling The Plug On 3G
+	</h1>
+	<ul>
+		<li><time datetime="2023-11-26">26 Nov, 2023</time></li>
+		<li>1057 words</li>
+		<li>3 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia’s 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.</p>
+<p>As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.</p>
+<h2>Impact on Devices</h2>
+<p>3G is still very much relied upon by countless devices. An instance of this is my grandfather’s pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I’m sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.</p>
+<figure class="right">
+<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower." />
+</figure>
+<p>Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.</p>
+<p>It won’t only be the farmers who are hit with unexpected costs come the shutdown. It will also affect many small businesses operating with old and outdated EFTPOS machines. Investing hundreds of dollars into new payment terminals and setup, especially amidst a cost of living crisis, may very well not be financially feasible for these smaller businesses. Moreover, it will force countless people into buying new phones, personal hotspot devices, security systems, and medical devices, straining their financial capacities.</p>
+<p>This equipment replacement doesn’t just come with a financial burden; it also comes with an ecological one. As the rollout continues and more and more devices become glorified paperweights, they will end up as e-waste. Tech devices, and especially the batteries contained within them, are notoriously hard to dispose of. A mass exodus of these devices will poison the environment for no conceivable reason and add to our existing e-waste crisis.</p>
+<h2>Coverage Issues</h2>
+<p>Many countries around the world have already disconnected with places such as Malaysia, phasing it out as early as 2021. They encountered issues with their older devices, of course, but they also ran into issues with network coverage. To carry data quickly, faster technologies, such as 5G, operate at higher frequencies. However, this comes with a trade-off, and these higher frequencies travel substantially shorter distances. This means that you would need a much higher density of towers just to achieve the same network coverage. In the case of Malaysia, many remote areas were going to be left without network coverage in the middle of a monsoon season, which led to some towers being left online simply so people could contact emergency services. It’s worth noting that Malaysia also still operates its own 2G network as a fallback for the oldest of devices and maximum coverage.</p>
+<p>Given the challenges faced by a company as small and densely populated as Malaysia (104 people per square kilometre), it isn’t hard to visualise the issues for a country as big as Australia, which has a mere 3 people per square kilometre. Despite the fact that we already struggle with lacklustre coverage, even in populated areas, there is cause for alarm regarding the repercussions for more remote, rural communities. Will we suddenly find large groups of people struggle to contact emergency services simply due to the 3G switch off?</p>
+<h2>How It Affects You</h2>
+<p>You may be wondering what impact this will have on you, but determining what devices and equipment will be affected by this change is far from straightforward. Identifying phones is particularly tricky. There are countless models on the market, and each sports a different operating system, carrier, and country of origin. This makes it very hard to identify exactly what phone you have, let alone if it supports 4G or VoLTE. Even the information posted by carriers may only apply to phones sold by them. Beyond phones, knowing if your other equipment or devices will be supported can be very difficult. The easiest way is to find out directly from the manufacturer, although that can be very difficult if the company has disbanded or if they no longer acknowledge that product.</p>
+<p>In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.</p>
+<h2>May 2024 Update</h2>
+<p>Telstra announced today that they’ve delayed the discontinuation of their 3G services to August 31st. Previously, they had intentions of cutting off access on June 30th.</p>
+<p>They have also setup a way to check your device’s compatibility, with <a href="https://www.abc.net.au/news/2024-05-06/telstra-to-extend-3g-network-shutdown/103808110">more information available on their website</a>.</p>
+<p>In my eyes, this still doesn’t excuse the unnecessary risk and inconvenience that this change introduces, but it is good to see that they are at least taking some action. Vodaphone has <a href="https://www.vodafone.com.au/support/network/3g-closure">already closed their network</a>, but Optus customers <a href="https://www.optus.com.au/support/mobiles-tablets-wearables/important-changes-3g">still have until September</a>.</p>
+<hr />
+<p>If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you’d like to see me produce similar content into the future, then consider <a href="/donate">sending me a tip</a>. It’d mean a lot.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>Cybersecurity-Superstition.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Cybersecurity Superstition | Vale.Rocks</title>
+    <meta property="og:title" content="Cybersecurity Superstition"/>
+    <meta name="description" content="A look into some cybersecurity myths and misinformation. Explore the best practices regarding passwords, multifactor authentication, social engineering tactics, antiviruses, and much more." />
+    <meta property="og:description" content="It's time to cut through the cyber clutter." />
+    <meta property="article:published_time" content="2024-02-28" />
+    <meta property="article:modified_time" content="2024-03-06" />
+    <meta property="article:section" content="Essays" />
+</head>
+<article>
+<header>
+	Essay
+	<h1>
+		Cybersecurity Superstition
+	</h1>
+	<ul>
+		<li><time datetime="2024-02-28">28 Feb, 2024</time></li>
+		<li>1896 words</li>
+		<li>7 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the ‘hacker’ is wearing a Guy Fawkes mask. However, this depiction couldn’t be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.</p>
+<p>Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I’ve decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.</p>
+<blockquote class="markdown-alert-note">
+<p>This article is written with the average computer user in mind. In its suggestions, it targets both security and convenience. If you boast more technical expertise, then you can and should tweak this information to your needs.</p>
+</blockquote>
+<h2>Passwords</h2>
+<p>Almost everyone uses passwords. They’re the simplest solution for restricting access to something, and they do their job well. Unfortunately, years of bad advice has left people creating passwords that are confusing and insecure. I want to clear this up and identify some best practices.</p>
+<p>Something to understand is that we generally calculate the strength of passwords using something called entropy. Entropy refers to how unpredictable something is - in this case, a password. We measure entropy in bits. The more bits of entropy a password has, the more guesses are needed to get it right.</p>
+<p>A short password is easy to guess, but as you might imagine, it becomes harder to guess the longer it becomes. The act of guessing passwords through this guess work is called bruteforcing.</p>
+<p>Bruteforcing is when someone tries <em>lots</em> of different passwords in rapid succession to find the one that works. A bit like when you get locked out of your phone and try lots of different variations in an attempt to rediscover your password.</p>
+<p>Most people know not to use names or common phrases in their passwords. Through years of conditioning, we’ve taught people that they should construct confusing passwords, substituting letters for numbers and forcing in random characters as they please. The embedded xkcd comic outlines the issue.</p>
+<figure class="right">
+<img src="https://imgs.xkcd.com/comics/password_strength.png" alt="xkcd comic strip comparing password strength and memorability, showing a complicated password and a simple passphrase, highlighting the entropy and guessability of each, and a stick figure finding the passphrase easier to remember." />
+<figcaption>Relevant xkcd comic. Credit: <a href="https://xkcd.com/936">xkcd</a></figcaption>
+</figure>
+<p>These confusing, special character infused passwords don’t improve security; they harm it. They are hard for humans and easy for computers - the worst of both worlds. I previously mentioned entropy and how we can use it to calculate the strength of a password. Well, it isn’t a perfect measure.</p>
+<p>While bruteforcing may have started by simply crawling through a list of predefined common passwords, they later moved on to using complex algorithms. zxcvbn is a very useful tool that takes these algorithms into account to give an accurate idea of what more modern bruteforcing attacks are capable of.</p>
+<p>Bitwarder is a free and open source password manager and <a href="https://bitwarden.com/password-strength">supplies a free tool to check the strength of a password against zxcvbn</a>. It’s worth giving it a go with a range of different passwords, just to see what is actually strong.</p>
+<p>You should quickly come to realise that, for the average person, passphrases are much more effective than passwords. Easy to remember and, when done right, hard for a computer to crack.</p>
+<p>Many people get this far and then make a fatal mistake. They reuse their passwords across multiple sites or store them insecurely. In the modern age, you should be using a password manager. Something like <a href="https://bitwarden.com">Bitwarden</a> or <a href="https://proton.me/pass">Proton Pass</a> allows you to generate secure passwords, store them, and auto fill them on the login page. It’s easy to use and provides much needed security. If you take one thing out of this article, make it this.</p>
+<h3>Periodic Password Changes</h3>
+<p>While I’m on the topic of passwords, I need to do a brief rant on mandatory password updates. Many organisations require that users periodically change their passwords. This is a terrible idea. <a href="https://learn.microsoft.com/en-gb/archive/blogs/secguide/security-baseline-final-for-windows-10-v1903-and-windows-server-v1903">Even Microsoft is against it</a>.</p>
+<p>It prevents users from memorising their passwords, and prompts them to create simpler, easier to remember passwords. It also results in security fatigue, where users become indifferent or careless about security measures in general, which undermines security measures.</p>
+<p>Moreover, it also introduces unnecessary risk when users are forced to change their passwords, potentially leading to weaker passwords being chosen and opens up opportunities for phishing attacks.</p>
+<p>There really is no point in implementing these forced changes, especially in the modern age. It does far more harm than good.</p>
+<h2>Multifactor Authentication</h2>
+<p>Some people think that a secure password is enough and that it’ll ensure their security, but passwords should only ever be used alongside another form of authentication. We call this Multifactor Authentication (MFA). Passwords aren’t perfect, and shouldn’t be the only point of access. It’s a single point of failure that can do undue and preventable damage.</p>
+<p>Timed One Time Passwords (TOTP) are excellent and are one of the best options. The user receives a unique and temporary code that they can use. It’s easy for the user and extremely secure.</p>
+<p>Unfortunately, one of the most common MFA solutions is SMS based authentication. It’s hugely insecure, and most advisories urge against its usage. Exploitation of the system is all too common, and I have an upcoming article discussing the inherent issues with SMS as a whole.</p>
+<p>Another good option is hardware authentication, such as a <a href="https://www.yubico.com">Yubikey</a>. This works as you might expect a car or house key to function. You plug it into your computer, and it authenticates you. Unfortunately, this also introduces issues of its own. One of these issues is the potential for loss or theft of the physical device. The effect is more or less the same as what would happen should keys of any other nature be lost or stolen.</p>
+<h2>Social Engineering</h2>
+<p>The fact that focus is often on concepts such as making secure passwords, encryption, and obscurity is detrimental to awareness of the real threat. Social engineering. It is far easier for a malicious actor to put together a simple attack that exploits human nature than it is to sink time into finding software vulnerabilities to exploit.</p>
+<p>I think the best example I can give is this scene from the 1995 film Hackers. The movie as a whole has aged and definitely has its flaws, but I think this perfectly encapsulates how social engineering works.</p>
+<figure>
+<iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/_G3NT91AWUE?si=APFy9BFpmboUARbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</figure>
+<p>This scene illustrates how simple and innocuous a good social engineering attack can appear, yet how effective it can be. Something akin to this is the most significant and prevalent threat.</p>
+<p>It highlights all the hallmarks of a good social engineering attack. A convincing story, a sense of urgency, and an overwhelming of the victim. They all come together to help the hacker achieve what they want without the need for any messy script writing.</p>
+<p>Social engineering is the most common vector of attack, not traditional ‘hacking’ as the media might portray. While it’s important to have at least a basic security setup, that shouldn’t be your sole focus. Educate yourself on common social engineering tactics, notably phishing attacks, and maintain a vigilant stance online. Approach all interactions with a healthy dose of scepticism.</p>
+<h2>Antiviruses</h2>
+<p>Something I despise and am long overdue to talk about is the fearmongering of antivirus companies. In the modern age, the average consumer does not need to go out of their way to install an antivirus on their device. Despite this, companies will use scare tactics to extort money out of users who know no better.</p>
+<p>Most laptops and desktop computers run Windows, which is a malware mess. That said, I still don’t recommend going out of your way to install an antivirus, as the Microsoft Defender, which is directly integrated into Windows, is remarkably capable. Just open it up and check that it’s working at full capacity, and ensure you use Windows Update regularly to keep the definitions at the latest versions.</p>
+<p>Unlike computers, phones operate in a closed ecosystem. Apps are screened for malicious content before being added to app stores. That makes it hard to install malware in the first place. Apps are also usually sandboxed, which stops them from interacting with the system at large and prevents anything that may be malicious from doing any real damage.</p>
+<p>This doesn’t mean it’s impossible for phones to be hacked, but it does mean that it’s a lot harder for it to happen unless you do things outside the norm. It’s still possible to encounter malware on phones, but an antivirus really isn’t necessary and will likely do more harm than good.</p>
+<p>While it’s not worth going out of your way to install an antivirus in the majority of cases, it is worth installing an ad blocker. I’d recommend <a href="https://ublockorigin.com">uBlock Origin</a>, which is free, open source, and supported on most of the major browsers. uBlock Origin doesn’t just block ads; it also blocks a lot of phishing material and malware links. Even America’s FBI <a href="https://www.ic3.gov/Media/Y2022/PSA221221">recommend using an adblocker</a>.</p>
+<h2>IP Addresses</h2>
+<p>One aspect of cybersecurity that often garners outsized concern is the IP address. As the name suggests, it serves as an address, pinpointing the location of a device or a network within the vast expanse of the internet.</p>
+<p>A private IP address identifies a device on a network, while a public IP address signifies a network within the internet. With an IP address, you can glean information such as the ISP that assigned it, a vague geographical location, and some miscellaneous details. However, this information typically lacks significant personal identification.</p>
+<p>This doesn’t mean it isn’t possible to use somebody’s IP maliciously, though. For instance, someone could attempt to launch a Distributed Denial of Service (DDoS) attack to disrupt your network. Unless you’ve compromised your router’s security by creating vulnerabilities in your firewall, the potential damage of most attacks is largely mitigated.</p>
+<p>Also, IP addresses are not static; they change periodically. Most consumers have dynamic public IP addresses, meaning their ISP will routinely alter them every few weeks or so.</p>
+<p>Unless you’ve really gone out of your way to make an enemy, and have poked holes through all the prequipped security, someone knowing your IP isn’t a huge security threat, although it is worth assessing it as a potential privacy threat.</p>
+<h2>VPNs</h2>
+<p>In the same vein as antiviruses, many Virtual Private Network (VPN) operators employ the same scare tactics and fearmongering regarding issues that haven’t been relevant for years.</p>
+<p>They especially advertise that they can mask users IPs, which, as discussed previously, isn’t as important for most people as it may seem. Even if it were hugely important, it just means that your IP is being sent to them instead of elsewhere.</p>
+<p>There is much more to be said about VPNs, but nothing that isn’t better covered by Tom Scott’s excellent video, <a href="https://www.youtube.com/watch?v=WVDQEoe6ZWY">“This Video Is Sponsored By ███ VPN”</a>.</p>
+<hr />
+<p>Cybersecurity is important, and it’s worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I’d love to hear them in the comments below.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>My-Code-Formatting-Guidelines.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>My Code Formatting Guidelines | Vale.Rocks</title>
+    <meta property="og:title" content="My Code Formatting Guidelines"/>
+    <meta name="description" content="Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, my take on the classic tabs vs spaces debate, and much more." />
+    <meta property="og:description" content="Stirring the tabs vs spaces pot once again." />
+    <meta property="article:published_time" content="2024-04-18" />
+    <meta property="article:modified_time" content="2024-06-10" />
+    <meta property="article:section" content="Tutorials" />
+</head>
+<article>
+<header>
+	Tutorial
+	<h1>
+		My Code Formatting Guidelines
+	</h1>
+	<ul>
+		<li><time datetime="2024-04-18">18 Apr, 2024</time></li>
+		<li>875 words</li>
+		<li>3 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is <em>not</em> something I, nor anyone else, ever want to deal with.</p>
+<p>This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I’ve documented them here.</p>
+<p>Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.</p>
+<p>I personally enforce these settings using <a href="https://prettier.io">Prettier</a>, which I feel does an excellent job. You can find my .prettierrc in my <a href="https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yaml">dotfile repo on GitHub</a>. I’ve also noted the relevant Prettier options where applicable.</p>
+<h2>Use Tabs</h2>
+<p>Tabs should be used for indentation for several reasons. These include:</p>
+<ul>
+<li>Semantic indication of indentation</li>
+<li>Customisable display</li>
+<li>Improved accessibility</li>
+<li>Smaller file sizes</li>
+</ul>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#tabs"><code>useTabs: true</code></a></p>
+<h2>Always Add Semicolons</h2>
+<p>When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it’s ideal to see exactly what code will be executed.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#semicolons"><code>semi: true</code></a></p>
+<pre><code class="language-javascript">// Bad
+function name {
+	console.log("I truly do love JavaScript")
+}
+
+// Good
+function name {
+	console.log("I truly do love JavaScript");
+}
+</code></pre>
+<h2>Use Double Quotes</h2>
+<p>Strings should use double quotes (<code>""</code>), not single quotes (<code>''</code>). This makes it easier to use single quotes (which are more common) within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#quotes"><code>singleQuote: true</code></a>, <a href="https://prettier.io/docs/en/options.html#jsx-quotes"><code>jsxSingleQuote: false</code></a></p>
+<pre><code class="language-javascript">// Bad
+const variable = 'String Content';
+
+// Good
+const variable = "String Content";
+</code></pre>
+<h2>Quote Properties</h2>
+<p>Properties should all be quoted in the same way, rather than introducing unnecessary (and potentially confusing) variation within an object.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#quote-props"><code>quoteProps: "consistent"</code></a></p>
+<pre><code class="language-javascript">// Bad
+object = {
+	property1: "content",
+	"property2": "content"
+};
+
+// Good
+object = {
+	"property1": "content",
+	"property2": "content"
+};
+</code></pre>
+<h2>Don’t Split Strings Across Multiple Lines</h2>
+<p>Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search and is a general pain to deal with.</p>
+<pre><code class="language-javascript">// Bad
+const variable = "This is awful. It may be easier for a human to read, but \
+it leads to annoyance and makes it harder to search for things. It is an \
+all around pain.";
+
+// Good
+const variable = "This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.";
+</code></pre>
+<h2>Use Trailing Commas</h2>
+<p>Trailing commas help keep version history clean. Rather than a diff showing the implementation of a new line <em>and</em> a comma on the previous line, it will only display the actual change, a new line.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#trailing-commas"><code>trailingComma: "all"</code></a></p>
+<pre><code class="language-javascript">// Bad
+object = {
+	property1: "content",
+	"property2": "content"
+};
+
+// Good
+object = {
+	"property1": "content",
+	"property2": "content",
+};
+</code></pre>
+<h2>Space Brackets</h2>
+<p>Brackets should have spaces on either side to provide padding. This makes it easier to read and maintains consistency.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#bracket-spacing"><code>bracketSpacing: true</code></a></p>
+<pre><code class="language-javascript">// Bad
+{foo: bar}
+
+// Good
+{ foo: bar }
+</code></pre>
+<h2>Use Arrow Parentheses</h2>
+<p>Using arrow parentheses makes it easier to read and make changes.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#arrow-function-parentheses"><code>arrowParens: always</code></a></p>
+<pre><code class="language-javascript">// Bad
+x =&gt; x
+
+// Good
+(x) =&gt; x
+</code></pre>
+<h2>Unwrap Prose</h2>
+<p>Prose formatting should be handled slightly differently to code. As such, each block of prose should be unwrapped into one line. This makes it easy for any editor to define how they want prose to display.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#prose-wrap"><code>proseWrap: preserve</code></a></p>
+<h2>HTML Whitespace Sensitive Formatting</h2>
+<p>Formatting HTML can be messy due to the way browsers parse whitespace. Prettier <a href="https://prettier.io/blog/2018/11/07/1.15.0#whitespace-sensitive-formatting">offers a good explanation of it</a>, but the crux is that their CSS formatting option offers the best mix of human readability and preservation of whitespace.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#html-whitespace-sensitivity"><code>htmlWhitespaceSensitivity: css</code></a></p>
+<h2>Line Feed End of Line</h2>
+<p>Different operating systems handle line endings differently, and things get messy quick. Using line feed, which is common on Unix based systems, is a clean option that is also supported on Windows.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#end-of-line"><code>endOfLine: lf</code></a></p>
+<h2>Format Embedded Languages</h2>
+<p>Code of one type used within a file of another should be formatted as you would code in it’s native filetype.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#embedded-language-formatting"><code>embeddedLanguageFormatting: auto</code></a></p>
+<h2>Keep Multiple Attributes Per Line</h2>
+<p>Splitting an element’s attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.</p>
+<p>Prettier: <a href="https://prettier.io/docs/en/options.html#single-attribute-per-line"><code>singleAttributePerLine: false</code></a></p>
+<pre><code class="language-html">// Bad
+&lt;div
+	 class="name"
+	 id="name"
+&gt;
+	Content
+&lt;/div&gt;
+
+// Good
+&lt;div class="name" id="name"&gt;
+	Content
+&lt;/div&gt;
+</code></pre>
+<hr />
+<p>There you have my personal guidelines. I’m sure many people disagree (if only for my preference of tabs over spaces), and I’d love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
+<p>If you liked this post, then do consider sharing it. Also, if you’d like to support me in making more like it, consider <a href="/donate">sending me a tip</a>. It’d mean a lot.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>Making-Windows-Usable.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Making Windows "Usable" | Vale.Rocks</title>
+    <meta property="og:title" content='Making Windows "Usable"' />
+    <meta name="description" content="My comprehensive tutorial dedicated to optimising and customising Windows 11 for a somewhat usable user experience. I detail beneficial programs, tips, and essential tweaks to setup Windows 11 as a more or less servicable computer environment, somewhat tailored to your preferences." />
+    <meta property="og:description" content="At least we're past Windows ME..." />
+    <meta property="article:published_time" content="2023-10-31" />
+    <meta property="article:modified_time" content="2023-11-22" />
+    <meta property="article:section" content="Tutorials" />
+</head>
+<article>
+<header>
+	Tutorial
+	<h1>
+		Making Windows "Usable"
+	</h1>
+	<ul>
+		<li><time datetime="2023-10-31">31 Oct, 2023</time></li>
+		<li>1150 words</li>
+		<li>4 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>I’m not quiet about my intense distaste for Microsoft’s feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it’s not always possible to do so.</p>
+<p>This year, I found myself doing a Certificate IV in Graphic Design that required Adobe’s Creative Cloud. As I’m sure you know, this software only runs on MacOS and Windows, which lead to quite the conundrum. Not willing to give up my beloved Arch Linux, I needed a way to get these programs running on my computer.</p>
+<p>Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn’t the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.</p>
+<h2>Installation</h2>
+<p>While it may seem sensible to just jump straight into installation, there is a much better way to do it. You’ll first need to <a href="https://www.microsoft.com/software-download/windows11">grab an ISO from Microsoft’s website</a>. If you are wondering why I recommend Windows 11 over 10, it’s for a few reasons. I find 11 to be a bit more visually appealing, and it also gets more focus from Microsoft, giving it newer features, and making it more secure. Most of the issues that people blabber on about can be easily fixed with a few under the hood changes anyway.</p>
+<blockquote class="markdown-alert-warning">
+<p>I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Their stripped back nature often leads to the breakage of certain features or incompatibility with programs. The closed source nature of most ISOs also leads to the potential for bundled malware. There are many ways to debloat Windows without causing undue harm that will be detailed further along in this article.</p>
+</blockquote>
+<p>Writing the ISO once you’ve got it is pretty easy. If you have a Windows install on hand that you can use to create the installation media, then I recommend writing the ISO with <a href="https://rufus.ie">Rufus</a>. If using another OS to write the media, then use whatever you’re most used to.</p>
+<p>Once you’ve booted to the installer, I recommend setting the ‘Time and Currency Format’ to ‘English (World)’. This will stop Windows from installing all of its default bloat, but will also break the Microsoft Store. Don’t fret if you like the Microsoft Store, as this guide will tell you how to reenable it later. I then suggest selecting ‘Windows 11 Pro’ for the version.</p>
+<p>Once you’ve entered the Out of Box Experience (OOBE), there may be a decently long loading screen before you are greeted by a region error. Click ‘skip’ and then continue as you usually would.</p>
+<p>When it asks how you would like the device setup, select ‘Set up for Work or School’. On the following screen, select ‘Sign-in options’ and then ‘Domain join instead’ which will allow you to create an offline account. Then continue on with setup and disable any telemetry toggles as you go. Once finished, your computer will boot into the desktop.</p>
+<p>If you want to use the Microsoft Store, then you will need to change your region. This can be done by opening settings and navigating to ‘Time &amp; language &gt; Language &amp; region’. Set the ‘Country or Region’ to your own.</p>
+<h2>Configuration</h2>
+<p>In my opinion, Microsoft made some truly baffling decisions in Windows 11, so I’ll run you through how to unbaffle your install with a couple of handy tools. After all, nothing says ‘user-friendly’ like needing a Swiss army knife to push a button.</p>
+<p>The first thing to do is figure out how you want to install applications. Most people will simply search the web for executables to install, but that is a rather insecure way to go about it. It’s all too easy to click the wrong link and end up with a trojan. For that reason, I recommend using a command line tool such as <a href="https://scoop.sh">Scoop</a> or <a href="https://chocolatey.org">Chocolatey</a>, especially if you’re coming from Linux. Otherwise, you can use the Microsoft Store (if you reenabled it above) or just take the risk of downloading installers from the web.</p>
+<p>The second thing that I recommend fixing is the start menu. For this, I chose <a href="https://github.com/valinet/ExplorerPatcher/wiki">ExplorerPatcher</a> which brings back Windows 10’s start menu with added customisability and adds the ability to change flyouts and other such things. It’s very good.</p>
+<p>I also recommend installing using <a href="https://github.com/microsoft/PowerToys">Microsoft’s PowerToys</a>. The full functionality is outside the scope of this article, but I use it to set my keyboard layout, rename files, organise my window layouts, resize images, and highlight my cursor for demonstrations.</p>
+<p>If you are a developer, then you can’t go wrong with <a href="https://devtoys.app">DevToys</a> which is an excellent little tool that you will constantly find yourself using. When developing, it can also prove useful to add things to the File Explorer context menu. <a href="https://nilesoft.org">Shell</a> is a very good tool that does just that.</p>
+<p>It is also useful to have a good terminal on hand. Microsoft’s <a href="https://github.com/microsoft/terminal">Windows Terminal</a> is surprisingly good for what it is. It combines Powershell and Command Prompt, along with any Windows Subsystem for Linux compatibility layers you may have, into a cohesive, modern, and sleek interface. It’s a genuinely good terminal, something I didn’t expect from Microsoft when I first heard of it.</p>
+<p>If you are sick of Windows’ bloat, then you can try a debloater script such as <a href="https://github.com/LeDragoX/Win-Debloat-Tools">Win Debloat Tools</a>. Keep in mind debloat scripts can also cause harm by removing dependencies of other programs, so I recommend proceeding with the utmost caution.</p>
+<p>A few other assorted tools and programs that work on Windows and that I can recommend include:</p>
+<ul>
+<li><a href="https://github.com/M2Team/NanaZip">NanaZip</a> - a decent archive manager based on 7-Zip.</li>
+<li><a href="https://www.mozilla.org/en-US/firefox/browsers">Firefox</a> - an excellent browser.</li>
+<li><a href="https://www.videolan.org/vlc">VLC</a> - a FOSS media player that plays just about anything.</li>
+<li><a href="https://www.thunderbird.net">Thunderbird</a> - a very nice email client.</li>
+<li><a href="https://www.libreoffice.org">LibreOffice</a> - an excellent office suite. Check out <a href="LibreOffice_Setup">my guide on improving it</a>.</li>
+</ul>
+<p>Now that you have your system more or less configured, I thought it may be worth touching on antivirus programs. There are plenty out there, and each is as user hostile as the last. For that reason, I recommend sticking with Windows’ built in Microsoft Defender. It is pretty fast, generally stays out of your way, and won’t harass you for your lunch money. It may be lacking in some features compared to paid options, but it is widely used and very well supported. It’s just about the best option around.</p>
+<hr />
+<p>And there you have it, a few tweaks, and Windows went from ‘Why do you insist on torturing me?’ to ‘I suppose you can stay’. I hope you found this little guide useful. Is there anything specific you do for your installs or something that I missed? If so, leave it in the comments!</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>Minecraft-Nostalgia-And-Growing-Up.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Minecraft, Nostalgia, and Growing Up | Vale.Rocks</title>
+    <meta property="og:title" content="Minecraft, Nostalgia, and Growing Up"/>
+    <meta name="description" content="A look back on Minecraft, its editions, its culture, and how it shaped me as I turn 18 and transition into adulthood." />
+    <meta property="og:description" content="I'm feelin' nostalgic for the block game." />
+    <meta property="article:published_time" content="2024-04-02" />
+    <meta property="article:modified_time" content="2024-04-11" />
+    <meta property="article:section" content="Reviews" />
+</head>
+<article>
+<header>
+	Review
+	<h1>
+		Minecraft, Nostalgia, and Growing Up
+	</h1>
+	<ul>
+		<li><time datetime="2024-04-02">02 Apr, 2024</time></li>
+		<li>1380 words</li>
+		<li>5 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>I’m sitting here writing this on a rainy Monday night. This article is going live on April 2nd, the day of my 18th birthday. Tomorrow, I’m legally an adult. I can vote. I can drink. I can smoke. I can go to an adult shop. I can gamble away my savings.</p>
+<p>I could dwell on the encroaching responsibilities of adulthood or reminisce about the ‘end’ of my childhood. I could even lament the gum stuck to my shoe that I keep forgetting to scrape off. But I want to write about a game that sits with me. Minecraft.</p>
+<p>Like many of my generation, I grew up with Minecraft. My journey with Minecraft began many years ago through YouTube, watching people like <a href="https://www.youtube.com/@stampycat">StampyLongHead</a> and <a href="https://www.youtube.com/@iBallisticSquid">iBallisticSquid</a>. Now, looking back, I realise just how strong my feelings for the game are.</p>
+<p>It’s difficult to pinpoint exactly when I discovered the game, but I’d suggest around 2012. I can still recall losing myself for hours watching Let’s Plays, Hunger Games and humorous bumbling through various adventure maps.</p>
+<h2>Pocket Edition</h2>
+<p>I started playing with Minecraft Pocket Edition Lite. A cut down version of the game designed as a demo. I played it for hours. It was limited and lacked much of anything. It had a limited block palette and an even more limited world. It wasn’t much, but it was Minecraft, and, to me at the time, that was a lot.</p>
+<figure class="right">
+<img src="https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png" alt="Simple menu featuring 3 options." />
+<figcaption>Main menu of Minecraft PE Lite.</figcaption>
+</figure>
+<p>In 2013, I bought Pocket Edition for my iPad. I still remember being out the front of my house when my mother, whom I had been nagging to let me buy it, finally said yes.</p>
+<p>The game was limited, but it was Minecraft. I built garish houses of diamonds and gold, laid out intricate patterns of TNT just to watch them explode, and tested just how much of a superflat world I could fill with lava.</p>
+<p>I remember the big update when potions released and splashing them everywhere just to see the particle effects. I remember horses being added and having to consult YouTube to find out how to tame them. I recall end portal frames appearing in the creative menu, and not knowing how to use them.</p>
+<p>Pocket Edition grew around me, and was the version I played the most. However, I could never shake the feeling that it was inferior. Playing it made me feel like a second class citizen. Everyone else played the bigger, better versions, and for the longest time, I only got to experience them through trips to friends’ houses and YouTube.</p>
+<p>I didn’t have a computer equipped to run the Java Edition, but my family owned a few consoles, and it wasn’t with the Pocket or Java Editions that I had originally fell in love with the game anyway. My journey truly began with the versions featured in the YouTube videos I avidly watched: the Legacy Console Editions, starting with the Xbox 360 Edition.</p>
+<h2>Legacy Console Editions</h2>
+<p>In 2012, 4J Studios released Minecraft: Xbox 360 Edition. 4J didn’t just port the game. They went further. They improved it. They could’ve settled for a direct port, but they took the extra step and then broke into a sprint.</p>
+<figure class="right">
+<img src="https://minecraft.wiki/images/Retail_SplashScreen.png" alt="Splash screen featuring a sandstone castle built in Minecraft with several players standing on it." />
+<figcaption>TU9 splash screen for Minecraft: Xbox 360 Edition.</figcaption>
+</figure>
+<p>The first thing that appears in my mind when I think of the Legacy Console Editions of Minecraft (or Minecraft as a whole for that matter) is the tutorial world. The tutorial world served as a way to introduce the player to the mechanics of the game. Something no other version does. It was beautifully crafted and let the player explore and learn at their own pace.</p>
+<p>The tutorial world Minecraft expanded alongside the game itself, evolving gradually over the years to become more extensive and immersive. Redesigned multiple times, it even included nods to the community, such as snippets of Stampy’s Lovely World.</p>
+<p>There were also many smaller alterations, such as minecarts moving at twice their Java Edition speed, leading to them being far more practical. Plus, an exclusive song titled ‘Dog’ playing following the completion of the ‘Cat’ music disc.</p>
+<figure class="right">
+<img src="https://minecraft.wiki/images/Crafting_Table_LCE.png" alt="Screenshot of the crafting table menu." />
+<figcaption>Legacy Console Edition Crafting Interface.</figcaption>
+</figure>
+<p>They also completely redesigned the user interface for controller. I find myself blindly fumbling through the UI of the modern Bedrock Edition, but can smoothly glide through Legacy Console’s UI with ease. The crafting UI specifically is one of the best controller oriented user experiences I’ve ever had, although the option to use the standard grid was still available.</p>
+<p>Legacy Console also featured an excellent set of customisation options for superflat worlds. You could choose the blocks layer by layer and specify exactly what structures should generate. The customisation was so excellent that it spawned countless challenges. Even now, years later, no other edition has superflat customisation to this level.</p>
+<p>Another thing that speaks to 4J’s commitment is their implementation of the minigame modes. Exclusive to the Legacy Console Editions are Battle, Tumble, and Glide. Battle is Hunger Games, Tumble is spleef, and Glide is an Elytra race. Each of these modes were well fleshed out and polished with a custom UI. The lobby for the mini games was also intricate and played host to a range of Easter eggs.</p>
+<p>The game was also optimised to an impressive degree. Looking back, it’s easy to forget just how limited the seventh generation of consoles were. The Xbox 360 had a meager 512 MB of RAM. Yes, there were limitations. You couldn’t have as many mobs, and the worlds weren’t infinite. But most of what defined Minecraft was there, and the limitations were more than made up for by the numerous tweaks 4J introduced.</p>
+<p>While the legacy editions were remarkable, they’re nothing without the experiences I associate with them. I’ve got excellent memories of going round to my friend’s house and fighting him head to head in the various minigame modes on his PS3. I also cherish playing worlds built by my cousin.</p>
+<p>Some of his most memorable included a labyrinthine adventure map infested with spiders and an excellent PvP tower defence map. The latter comprised of a set of two castles built entirely out of gold blocks, suspended over lava. Both castles were adorned with chests full of enchanted weaponry and TNT cannons that were prone to self destruction.</p>
+<p>Yet over time, I found myself playing with others less and less. Minecraft fell out of favour, and other games grew in relevance. I stopped watching many of my favourite Minecraft creators. They stopped uploading. I drifted apart from the game. Time moved on. I moved on. I grew up.</p>
+<p>The Legacy Console editions are all unsupported now. The PS3 and Vita Editions were the last to go, with both receiving a last update on April 15, 2020. The 360 Edition got its last update on April 30, 2019 with TU75.</p>
+<blockquote class="markdown-alert-note">
+<p>The Xbox One Edition received an unexpected update, CU59, on April 9, 2024. It seems to have just removed the button to switch to the Bedrock edition. You can <a href="https://minecraft.wiki/w/Xbox_One_Edition_CU59">view the update page on the Minecraft Wiki</a> for more information.</p>
+</blockquote>
+<h2>Growing Up</h2>
+<p>Eventually, I bought the Java Edition. I joined the big servers and played with friends, but the spark wasn’t there. Big servers felt corporate and bland, and multiplayer servers with friends failed to evoke the emotion I associate with the game. I attempted to start a single player world, but found myself abandoning worlds after just a few days.</p>
+<p>I loved Minecraft then, and I love it now. Putting on C418’s soundtrack evokes a unique sense of melancholy that nothing else can rival. Occasionally, I still find myself watching the old YouTube videos that first pulled me into the game, just for that hit of nostalgia.</p>
+<p>I realise now that I wasn’t merely playing a game and manipulating pixels on a screen; I was forging memories - memories that, years later, I still hold dear.</p>
+<p>As the rain subsides outside the window, I reflect on my memories of a game that brought me so many hours of joy. The past has passed, but I’m not sad it’s gone. I’m happy it happened.</p>
+<p>Thank you.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>JPEG-XL-And-Googles-War-Against-It.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>JPEG XL And Google's War Against It | Vale.Rocks</title>
+    <meta property="og:title" content="JPEG XL And Google's War Against It"/>
+    <meta name="description" content="Starting with an overview of existing image formats, including JPEG, PNG, and GIF, a look into the very promising JPEG XL and why it hasn't seen the adoption it deserves as an innovative new file format in the web landscape." />
+    <meta property="og:description" content="The best format you can't use." />
+    <meta property="article:published_time" content="2024-05-01" />
+    <meta property="article:modified_time" content="2024-05-07" />
+    <meta property="article:section" content="Essays" />
+</head>
+<article>
+<header>
+	Essay
+	<h1>
+		JPEG XL And Google's War Against It
+	</h1>
+	<ul>
+		<li><time datetime="2024-05-01">01 May, 2024</time></li>
+		<li>2124 words</li>
+		<li>8 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>There is no doubt you’re familiar with GIFs, PNGs, and JPEGs. These image formats have been <em>the</em> way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.</p>
+<p>Yet these formats aren’t quite as ubiquitous as they once were, and we’ve seen many competing standards materialise in the past few years. Perhaps most promising is JPEG XL, yet its innovation seems to go unrecognised and its adoption is stifled. But why? To get a full picture, I think it’s best we start with the advent of displaying images on computers.</p>
+<h2>A Brief History</h2>
+<p>Since we’ve had computers, we’ve been trying to display images on them. We started by using various text characters and symbols to bodge things together in terminals. This obviously wasn’t ideal and merely means to an end. The first actual image formats to see any real popularity included <a href="https://en.wikipedia.org/wiki/PCX">PCX</a>, <a href="https://en.wikipedia.org/wiki/Truevision_TGA">TGA</a>, <a href="https://en.wikipedia.org/wiki/PICT">PICT</a>, and <a href="https://en.wikipedia.org/wiki/BMP_file_format">BMP</a>.</p>
+<p>However, these early formats were rudimentary. They largely lacked compression and weren’t widely supported. It was an era when every piece of software rolled their own format and interoperability wasn’t a priority. This was an issue, and as the need for greater compatibility grew, some proper standards formed. Of these, GIF, JPEG, and PNG are probably the best known and relevant today.</p>
+<p>GIF, short for Graphics Interchange Format, is messy. It released in the ’80s, uses the simple Lempel–Ziv–Welch compression algorithm, and is limited to a palette of a meagre 256 colours. In today’s landscape, it looks pretty rough, but it’s managed to stick around thanks to its great software support and animation capabilities.</p>
+<p>JPEG, also referred to as JPG and short for Joint Photographic Experts Group, came out in the early ’90s. While it does have a lossless variant, it is largely used as a lossy format. However, the degree of compression can be controlled, unlike many other formats, which allows users to select the trade off between quality and size. It’s great compression and early debut led to it becoming the most widely used format.</p>
+<p>An attempt was made to supersede JPEG with the very retro futuristic sounding, but ultimately ill fated, “JPEG 2000”. It had some neat features and functionality, such as being able to compress specific sections independently, but never saw widespread adoption.</p>
+<p>During the ’90s, following GIF’s widespread adoption, the Unisys Corporation, which owned the patent on the Lempel–Ziv–Welch compression algorithm used by GIFs, attempted to enforce its licensing. This ultimately led to much discourse, and a more open, improved alternative was developed. It was aptly unofficially dubbed “PNG’s Not GIF”, which, of course, abbreviates to the recursive acronym PNG, though officially, it stands for “Portable Network Graphics”. The format spread due to its free, open nature, and good support for transparency by means of an alpha layer.</p>
+<p>These three standards all managed to secure footing early in the web’s life and defined themselves as <em>the</em> image formats for many years. They haven’t been perfect, but they’ve generally worked and seen great support.</p>
+<h2>A New Age</h2>
+<p>It isn’t all sunshine and roses for these ageing formats, though. The world has moved around them. Back when these formats were devised, computing power was a scarce resource. Many devices didn’t hold the power to compress things on the fly without performance implications, and the web was in its infancy.</p>
+<p>Over the past 30 odd years, our devices, software, and knowledge of them have come a long way, yet these ageing formats still remain. That’s why, in recent years, we’ve seen a shift to new formats. Ones that aren’t limited to the compression algorithms of the ’90s, and are instead more optimised and usable in the modern age.</p>
+<h3>Enter WebP</h3>
+<p>In 2010, two years after the release of their Chrome browser, Google announced WebP. They proceeded to develop and refine it until its eventual stable release in 2018. The goal was simple. Make a format with the quality of a JPEG, the transparency of a PNG, and the animation of a GIF, in a small package.</p>
+<p>As expected for a Google product, it very quickly gained support in Chromium, even in its unstable phase. Safari and Firefox didn’t receive full support until after its stable release, and many complaints from users stating that websites designed exclusively with Chrome in mind would fail to render the format.</p>
+<p>Once all browsers received support, Google very quickly began working to snuff out other formats. They made several changes, such as updating PageSpeed Insights to suggest that sites serve images as WebP files rather than competing formats.</p>
+<h3>Announcing AVIF</h3>
+<p>About a year after WebP’s full introduction, a competing standard, AVIF, had its first full release. The intention was for the format to succeed WebP, and while it does implement features that aren’t present in WebP, such as HDR support, it lacks in other features, such as support for resolutions over 4K. Realistically, this places AVIF in no man’s land. It wasn’t a direct upgrade to the standards it was competing against when it released, and it certainly isn’t now.</p>
+<p>One edge it does have is its use of AV1. AV1 as a video coding format already had a strong footing by the time AVIF came onto the scene. As AVIF uses the same format, just for images rather than videos, a lot of the prerequisite work a format needs to go through to see adoption had already been done.</p>
+<p>Thanks to many browsers having already implemented AV1 for the purpose of video, AVIF managed to see quick adoption. In August of 2020, Chromium received support for the format, with Firefox enabling support in October of 2021 and Safari implementing support throughout 2022.</p>
+<h3>Introducing JPEG XL</h3>
+<p>Having been finalised in 2021, JPEG XL is a rather new format, and a good one at that. It’s created by the same group as the original JPEG and based off of <a href="https://github.com/google/pik">Google’s Pik proposal</a> and <a href="https://github.com/cloudinary/fuif">Cloudinary’s FUIF</a>.</p>
+<figure class="right">
+<picture>
+	<source srcset="/assets/blog/JPEG_XL_And_Googles_War_Against_It/jxl_support.jxl" type="image/jxl">
+	<img src="/assets/blog/JPEG_XL_And_Googles_War_Against_It/no_jxl_support.png" alt="Image stating 'Your browser supports JPEG XL' or 'Your browser doesn't support JPEG XL' depending on browser support." />
+</picture>
+</figure>
+<p>Looking at <a href="https://en.wikipedia.org/wiki/Comparison_of_graphics_file_formats">Wikipedia’s Comparison of Graphics File Formats</a>, it’s evident that it trumps every other raster image format. Some of its many features include:</p>
+<ul>
+<li>Choice of lossy or lossless compression.</li>
+<li>Perfectly reversible, lossless conversion from JPEG with ~20% savings.</li>
+<li>~60% smaller file sizes than JPEG at the same quality when using lossy compression.</li>
+<li>Negligible compression artefacts when using lossy compression.</li>
+<li>Great colour gamut support, including HDR, and support for other channels.</li>
+<li>Super fast encoding and decoding.</li>
+<li>Support for progressive decoding.</li>
+<li>Tiny file header at a mere 12 bytes.</li>
+<li>Everything WebP and AVIF boasts, including transparency, animations, and such.</li>
+<li>Licensed openly with no royalties.</li>
+<li>Up to 32 bit depth</li>
+<li>Insanely high maximum resolution up to 1,152,921,502,459 megapixels (that’s <em>over a trillion</em> pixels total).</li>
+<li>Resilient against generational loss.</li>
+</ul>
+<p>From reading those points, you may have gathered that it does everything that could be expected of a format and does it well. Given that it excels in every context, you might expect that it’d be the de facto standard, yet, alas, it sees minimal browser support.</p>
+<p>So, why were WebP and AVIF picked up so quickly when JPEG XL wasn’t? Well, as you may have surmised from the article’s title, it’s largely down to Google.</p>
+<h2>Google’s Exploitation of Their Dominance</h2>
+<blockquote class="markdown-alert-note">
+<p>I’ll be discussing Chrome’s dominance and Google’s exploitation of it for their own gain. I’ve written about this at length in my article <a href="/blog/Everything_Is_Chrome">Everything Is Chrome</a>, which I advise you read prior to this section.</p>
+</blockquote>
+<p>Google has cemented itself as the single controlling force of the web. What they say goes. Google Search is the most popular search engine, and Chromium is the base for the majority of browsers. This means they control both what pages get recommended in search, and how they’re displayed in browser.</p>
+<p>This leaves them with a lot of power. If they take issue with JPEG XL, then they can single handedly stop its adoption, and that’s exactly what they’ve done. At one point, Google actually did add support for JPEG XL to Chromium behind a flag. It was implemented and functional in Chromium. This prompted Firefox to add their own support.</p>
+<p>However, it never made it past the opt in flag support stage, and Google eventually removed it, stating <a href="https://issues.chromium.org/issues/40168998">in the Chromium Issue Tracker</a>:</p>
+<blockquote>
+<p>“Thank you everyone for your comments and feedback regarding JPEG XL. We will be removing the JPEG XL code and flag from Chromium for the following reasons:</p>
+<ul>
+<li>Experimental flags and code should not remain indefinitely</li>
+<li>There is not enough interest from the entire ecosystem to continue experimenting with JPEG XL</li>
+<li>The new image format does not bring sufficient incremental benefits over existing formats to warrant enabling it by default</li>
+<li>By removing the flag and the code in M110, it reduces the maintenance burden and allows us to focus on improving existing formats in Chrome“</li>
+</ul>
+</blockquote>
+<p>This rightly caused an uproar. Users pointed out many flaws in their claims. Firstly, that there has been a huge interest in the standard from a huge number of individuals and organisations, and secondly, the innovation brought by JPEG XL was most definitely “sufficient incremental benefits”, especially as they had recently accepted AVIF, which was more lacking in features than existing standards.</p>
+<p>What this really translates to is, “We’ve created WebP, a competing standard, and want to kill anything that might genuinely compete with it”. This would also partly explain why they adopted AVIF but not JPEG XL. AVIF wasn’t superior in every way and, as such, didn’t threaten to dethrone WebP.</p>
+<p>JPEG XL, however, <strong>is</strong> better than WebP in every quantifiable way and would obsolete it. AVIF also serves as something to point to should they be called out for stifling competition and innovation as they are. They can simply say, “We love other formats. Look, we added another one just the other year”.</p>
+<p>Interestingly, Firefox, which receives a pretty decent amount of funding from Google, quietly dropped focus on implementing JPEG XL support and now state that they are “neutral” on the matter, although the flag is still present in the nightly version of the browser. Safari, which is developed by Apple separately from Google, managed to implement JPEG XL support with no issues, and it’s available in WebKit without limitation.</p>
+<p>Many forks of Chromium and Firefox also include support with no ill effect. Firefox based browsers can simply enable the flag, and Chromium based browsers can use the implementation prior to removal as a jumping off point.</p>
+<p>Some of the forks with support include <a href="https://thorium.rocks">Thorium</a>, <a href="https://www.waterfox.net">Waterfox</a>, and <a href="https://www.palemoon.org">Pale Moon</a>. The code is written and working, and both use external implementations, so the cited “maintenance burden” is more or less nonexistent. Even if it does turn out to be a huge burden, <a href="https://lunduke.locals.com/post/4387539/firefox-money-investigating-the-bizarre-finances-of-mozilla">they can take the hit</a>.</p>
+<h3>Why WebP?</h3>
+<p>So, Google sabotaged JPEG XL in favour of their own format, WebP. The question is, <em>why?</em> Well, I think that’s pretty clear. Google wants complete control, and JPEG XL could take that away from them. They already have unrivalled control over the web, so why not expand that just a bit more?</p>
+<p>Should Google decide they need to make some alterations to the format to benefit themselves, there is next to nothing standing in their way. They’ve got control over the standard and can make tweaks if needed. Especially the sort of business minded tweaks that are employed to better align with stakeholder interests.</p>
+<p>Google could also stop supporting the format outside their products and services, leading to them faltering and falling out of compatibility. This could lead to fragmentation and compatibility issues in non-Google software, potentially pushing users to move to Google’s offerings where support is offered.</p>
+<h2>Taking Action</h2>
+<p>It may seem futile, but I believe that if we raise awareness of the issue and put enough public pressure on Google and, to a lesser extent, Mozilla, they will reconsider their stance. Use browsers that support the format, or toggle on the flag if possible. Spruik the benefits of the format wherever you can attract attention, and start using it in the <a href="https://jpegxl.info/why-jxl#software_support">various software that already supports it</a>. The more demand, the more adoption.</p>
+<p>This is an effort that is worth fighting for. Google has trampled innovation far too many times in the pursuit of control for us to allow them to do it again. We must condemn this behaviour and fight these monopolistic practices at every turn to prevent stifling progress in the name of corporate control.</p>
+<hr />
+<p>If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness. Also, if you’d like to see me produce more content like this, then consider <a href="/donate">sending me a tip</a>. It’d mean a lot.</p>
+<details>
+<summary>Sources</summary>
+<ul>
+<li><a href="https://issues.chromium.org/issues/40168998">JPEG XL decoding support (image/jxl) in blink (tracking bug) [40168998] - Chromium</a> | Accessed: 23/04/2024</li>
+<li><a href="https://people.apache.org/~jim/NewArchitect/webrevu/1997/05_09/designers/05_09_97_1">Web Review: PNG’s NOT GIF!</a> | Accessed: 01/05/2024</li>
+<li><a href="https://caniuse.com/?search=jpeg%20webp">“jpeg webp” | Can I use… Support tables for HTML5, CSS3, etc</a></li>
+<li><a href="https://jpegxl.info">JPEG XL</a>| Accessed: 24/04/2024</li>
+<li><a href="https://jpeg.org/jpegxl">JPEG - JPEG XL</a> | Accessed: 23/04/2024</li>
+<li><a href="https://ds.jpeg.org/whitepapers/jpeg-xl-whitepaper.pdf">JPEG XL White Paper 2.0 - jpeg-xl-whitepaper.pdf</a> | Accessed: 28/04/2024</li>
+<li><a href="https://cloudinary.com/blog/how_jpeg_xl_compares_to_other_image_codecs">How JPEG XL Compares to Other Image Codecs</a> | Accessed: 23/04/2024</li>
+<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1539075">Open Bug 1539075 (JPEG-XL) Implement support for JPEG XL (image/jxl)</a> | Accessed: 23/04/2024</li>
+</ul>
+</details>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>I-Hate-My-Nokia.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>I Hate My Nokia | Vale.Rocks</title>
+    <meta property="og:title" content="I Hate My Nokia"/>
+    <meta name="description" content="My review of my Nokia G22. A phone touted as being easily repairable that doesn't quite live up to the standards it sets for itself." />
+    <meta property="og:description" content="Nokia is, quite literally, not the company they used to be." />
+    <meta property="article:published_time" content="2024-02-03" />
+    <meta property="article:modified_time" content="2024-04-12" />
+    <meta property="article:section" content="Reviews" />
+</head>
+<article>
+<header>
+	Review
+	<h1>
+		I Hate My Nokia
+	</h1>
+	<ul>
+		<li><time datetime="2024-02-03">03 Feb, 2024</time></li>
+		<li>1064 words</li>
+		<li>4 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>My first phone was a RugGear RG930. If you think Nokia’s 3310 was built like a brick, then this thing may as well have been rubberised titanium. It was so sturdy I used to play ‘catch the phone’ with friends, and it ended up face down on concrete more times than I can count, but I don’t think it ever sustained so much as a scratch. As time progressed, I decided I wanted something a tad more featured, and later ended up with the first iPhone SE, a phone that was endlessly reliable when it wasn’t stuck in a bootloop thanks to my love for gaolbreaking.</p>
+<p>As the SE aged, and the battery degraded, I chose to upgrade. I moved to the Nokia 2720, a charming little flip phone. It was an excellent nugget of a device, and I used it for a few years. It didn’t have support for much fancy crap, but I didn’t need that. It worked and was lovely until it shed the D-pad, the company supporting the OS disappeared off the planet, and it started to take issue with my telco.</p>
+<p>As a result, I decided the time was ripe to move back to the world of smartphones. I was intrigued by Nokia’s latest offering, the G22.
+<a href="/blog/A_Year_With_The_Framework_Laptop">Much like my Framework</a>, it was advertised as repairable, with support directly from iFixit. It also had long battery life, a headphone jack, SD card tray, and was on the cheaper end of the spectrum. It ticked all my boxes. I waited for reviews, and they were almost unanimously positive. I found it for a good price in a bundle with a case and speaker and bought it.</p>
+<p>I opened it up to find myself fighting through a plethora of bloatware and crap. I finally got into the phone, and it was pretty nice, albeit plastered with random applications. I loaded my contacts, photos, and other materials and went on with my day to get a feel for the device. A day or two later, I found myself needing to make a call, so I opened up the contacts app to an empty screen. All my contacts missing.</p>
+<p>I reimported my backup, and once again, everything was purged the next time I tried to use it. I figured, no stress, I’ll go use another contact app. Same issue. Something on the phone was purging my contacts. Then my SMS app started crashing every time I opened it.</p>
+<p>I decided to move to a custom ROM to escape the issues. I figured it’d be a breeze. After all, it’s a device billed as repairable, and developer options showed it supported OEM unlocking. I checked out LineageOS. Unsupported. I decided to search online, and after wading through waist high AI generated SEO articles discovered that none exist for the phone.</p>
+<p>I thought about trying my hand at making one, but discovered that HMD has failed to comply with the GPL and hasn’t distributed the source needed. <a href="https://www.hmd.com/en_int/opensource">As you can see on this page</a>, there is no G22 listed.</p>
+<figure class="right">
+<img src="https://www.chooseyourmobile.com/wp-content/uploads/2023/02/Nokia-G22-Image.jpg" alt="A side, back, and front view of the Nokia G22 in the colour 'Lagoon Blue'." />
+<figcaption>The Nokia G22 from a few angles.</figcaption>
+</figure>
+<p>I decided to simply reset the phone. No luck; same issues. I decided I’d reset it again and replace all the apps I could with alternatives from F-Droid to see if it fixed any of the issues. Unfortunately, it did not. While many of the apps themselves were excellent, they still relied on the cooked version of Android to function. The phone’s software has let me down, and the lack of alternate ROM options doesn’t help.</p>
+<p>The absolute worst part of the experience would have to be logging in. Here is an example of the login experience:</p>
+<ol>
+<li>Place finger on fingerprint reader.</li>
+<li>Phone vibrates but screen doesn’t turn on.</li>
+<li>Press power button to turn on the screen.</li>
+<li>The screen brightness plummets to the lowest value.</li>
+<li>Press the power button again to turn the phone off.</li>
+<li>Press power button to turn on the screen.</li>
+<li>Give up on fingerprint reader.</li>
+<li>Swipe up on lock screen and enter pin.</li>
+</ol>
+<p>I’ve tried varying my actions in every possible way, and this roundabout mess is the only way I can reliably get into the phone when it happens. It doesn’t happen every time, but it happens enough to thoroughly infuriate and inconvenience me.</p>
+<p>The phone also fails to reenable network functionality after entering battery saver mode, and Bluetooth often refuses to work unless I restart the phone. Updates haven’t been as frequent as advertised either. The Nokia name truly has fallen from grace. While the phone does look rather nice and <a href="https://unsplash.com/collections/Puec3W1Cf3g/new-zealand">takes decent pictures</a>, it’s all overshadowed by its issues.</p>
+<p>Realistically, Nokia as we know it has been dead for a while. While they may have stood strong in the 90s and early 2000s, they actively fought the flow of progress as it rushed past them. They refused to join the Open Handset Alliance, instead investing in the ill fated Symbian Ltd and its increasingly obsolete operating system.</p>
+<p>As Symbian stumbled, Nokia attempted to replace it with MeeGo (another Linux based mobile OS). While this saw positive attention, it wasn’t to be as Nokia entered into a partnership with Microsoft the very same year they released their first (and last) MeeGo phone.</p>
+<p>This partnership saw Nokia embrace Windows Phone. They quickly became the most prominent Windows Phone manufacturer, making up most of the sales through 2013 with their Lumia series. However, Nokia began experimenting with Android on their phones and Microsoft, worried what might happen should they lose their biggest OEM, purchased their mobile phone division outright.</p>
+<p>Unfortunately for Microsoft, Windows Phone wasn’t quite the success they’d been hoping for, and a decline over the next few years saw the project completely dead by the end of the decade. In recent years, the mobile phone division sold to Microsoft has been living as HMD Global, although they’ve <a href="https://www.hmd.com/en_int/blog/hmd-makers-of-nokia-phones-and-more">recently pushed away from the Nokia brand</a>.</p>
+<p>I can only hope that the restructuring leads to their products improving, as what they’re currently offering is truly quite poor. I’d love to hear suggestions for my next phone, if you’ve got any. I’m looking for something that’s small, easily repairable, supports custom ROMs, has a headphone port, and doesn’t cost me my kidney.</p>
+<p>Please feel welcome to leave any suggestions in the comments.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>School-Internet.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Connecting to Australian Public School Internet | Vale.Rocks</title>
+    <meta property="og:title" content="Connecting to Australian Public School Internet"/>
+    <meta name="description" content="The Education Department of Australia does some silly stuff with their network quite frequently. This tutorial shows you how to get up and running in no time at all." />
+    <meta property="og:description" content="The guide for when someone breaks the internet. Again..." />
+    <meta property="article:published_time" content="2022-10-12" />
+    <meta property="article:modified_time" content="2024-03-03" />
+    <meta property="article:section" content="Tutorials" />
+</head>
+<article>
+<header>
+	 Tutorial
+	<h1>
+		Connecting to Australian Public School Internet
+	</h1>
+	<ul>
+		<li><time datetime="2022-10-12">12 Oct, 2022</time></li>
+	    <li>780 words</li>
+		<li>3 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>Every now and then, somebody decides that it is time to mess around and ‘improve’ enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
+<p>This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.</p>
+<h2>Step 1</h2>
+<p>The first step in getting onto the network is to find out if your password has expired. In most cases, your Department of Education login (the same one you use to access Connect) will expire every 90 days (about 3 months).</p>
+<p>If you expect that your password has expired, you will have to reset it.</p>
+<p>If you have an internet connection, then the easiest way to reset it is through the <a href="https://apps.det.wa.edu.au/dam/portal/changePassPage.do">DoE Portal</a>.</p>
+<p>You could also go to <a href="https://connect.det.wa.edu.au">Connect</a> and login. Once logged in, you can navigate to ‘My Connect’ and change your password to something new and secure.</p>
+<p>In the event that you don’t have an internet connection, you can request that your teacher or network admin change your password.</p>
+<h2>Step 2</h2>
+<p>Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer’s operating system.</p>
+<blockquote class="markdown-alert-important">
+<p>Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.</p>
+</blockquote>
+<h3>Windows</h3>
+<p>As the Australian government loves further padding the pockets of Microsoft, most schools supply guides for getting setup with Windows. That said, many of these guides are crap, so the process is documented here.</p>
+<ol>
+<li>Start off by getting connected to the school network. The certificates are only available on the internal network and not on non-school networks.</li>
+<li>Once connected, you must download these certificates:</li>
+</ol>
+<ul>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-CA.cer">Education-CA.cer</a></li>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA1.cer">Education-SubCA1.cer</a></li>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA2.cer">Education-SubCA2.cer</a></li>
+</ul>
+<ol start="3">
+<li>On your keyboard, hit the ‘Windows’ key and R key simultaneously. In the box that appears, type <code>mmc.exe</code>.</li>
+<li>In the application that opens, press the Ctrl key and the M key simultaneously.</li>
+<li>In the left panel, double click ‘Certificates’. In the pop-up that opens, select ‘Computer account’ and then click next.</li>
+<li>Select ‘Local computer’ and then click Finish. You should be directed back to the main page of the application.</li>
+<li>In the left panel, you should click the small arrow next to ‘Certificates (Local Computer)’ to expand the category. Then click the small arrow next to ‘Trusted Root Certification Authorities’.</li>
+<li>You should now see the Certificates folder on the left panel. Right click the folder to bring up the context menu. In the menu, select All Tasks and then Import.</li>
+<li>In the wizard that should have appeared, select ‘Local Machine’ and then ‘Next’.</li>
+<li>On the next page, click ‘Browse…’ and locate your certificates. Select one of them, click open, and then click ‘Next’.</li>
+<li>In the next pop-up, select ‘Trusted Root Certification Authorities’ and then click ‘OK’.</li>
+<li>You should now be presented with a page showing the settings you’ve chosen in this guide. The ‘Certificate Store Selected by User’ should be ‘Trusted Root Certification Authorities’ and the ‘Content’ should be ‘Certificate’.</li>
+</ol>
+<h3>Linux</h3>
+<p>Most institutions don’t offer support for Linux. There’s a certain misunderstanding that anyone using Linux is an elite hacker with intention to take down the mainframe and overthrow the establishment. It’s a pain, and I’ve spent countless hours over the years getting it working.</p>
+<p>Thankfully, we’ve now got a handy script developed by <a href="https://toastxc.xyz">ToastXC</a> and myself. It connects to the network, downloads the certs, and applies a patch if running Fedora. It’s available on GitHub as <a href="https://github.com/toastxc/DoE-Network-Kit-Linux">DoE-Network-Kit-Linux</a>.</p>
+<ol>
+<li>Ensure you have all the required dependencies installed. These include OpenSSL, Curl, Git, and NetworkManager. They should all be available in your distro’s package repository.</li>
+<li>Download the script. You can do this by cloning the GitHub repo with <code>git clone https://github.com/toastxc/DoE-Network-Kit-Linux.git</code>.</li>
+<li>Then you can enter the directory holding the script with <code>cd DoE-Network-Kit-Linux</code>.</li>
+<li>This directory holds scripts for different schools. Unless your school is specifically listed, <code>generic.sh</code> should work for you. Run the script with <code>sh generic.sh</code>. You will probably need root permissions, so consider prefixing the command with something like <code>sudo</code> or <code>doas</code>.</li>
+<li>The script will now run and guide you through the rest of the process. Do note that your password won’t show up while you write it for security reasons.</li>
+</ol>
+<h2>Step 3</h2>
+<p>You can now log onto your school’s internet. In the event that your browser doesn’t redirect you automatically, you may need to <a href="http://sig.site.internal:1000/login?">manually access the login portal</a>.</p>
+<hr />
+<p>Had any issues with the process or think something may have changed? Leave a comment down below, and I’ll try my best to assist.</p>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item><item><title>Everything-Is-Chrome.html</title><description><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav>
+		<ul>
+			<li><a href="/" id="navlanding">Vale</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main id="main">
+<span id='section'>Posts</span>
+<style>:root{--header_background: var(--magenta)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
+<head>
+    <title>Everything Is Chrome | Vale.Rocks</title>
+    <meta property="og:title" content="Everything Is Chrome"/>
+    <meta name="description" content="My look into the overaching dominance of Google Chrome and it's overwhelmingly negative impact on the web as we know it." />
+    <meta property="og:description" content="The web is under attack. Unsheathe your keyboards." />
+    <meta property="article:published_time" content="2023-12-11" />
+    <meta property="article:modified_time" content="2024-03-06" />
+    <meta property="article:section" content="Essays" />
+</head>
+<article>
+<header>
+	Essay
+	<h1>
+		Everything Is Chrome
+	</h1>
+	<ul>
+		<li><time datetime="2023-12-11">11 Dec, 2023</time></li>
+		<li>2365 words</li>
+		<li>8 minute read</li>
+	</ul>
+</header>
+<div class="readable_width">
+<p>The chances are you’ve heard of Google Chrome. It’s currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it’s crucial to examine how we reached this stage to form comprehensive opinions. Let’s start at the start with the birth of the first browser.</p>
+<h2>The Early Days</h2>
+<p>In 1990, <a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">WorldWideWeb (later known as Nexus)</a> was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the <a href="https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/">National Center for Supercomputing Applications’ Mosaic</a> came with big changes and huge influence.</p>
+<figure class="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics." />
+<figcaption>Screenshot of Mosaic version 1.2.</figcaption>
+</figure>
+<p>Mosaic was a marked shift. It was the first browser to display images in line with the rest of the content and was notably easier to setup. As with all things in this early stage of the web, it didn’t stay stagnant for long. Towards the end of 1994, Mosaic began losing its dominance to a new player. Netscape.</p>
+<p>Inspired by the success of Mosaic, Netscape very quickly made a name for itself in the browser arena. It introduced showing content as it downloaded, which made it preferable for the average dial-up user who previously had to wait for the entire page to load before it would display. Its flagship browser, Netscape Navigator, was one of the first to support JavaScript.</p>
+<p>Around this time, Opera emerged. It entered the market with its own proprietary layout engine, titled Elektra.</p>
+<h2>The First Browser War</h2>
+<p>Microsoft took notice of Netscape’s success and saw the internet as a profitable market. They created the now infamous Internet Explorer. Initially considered inferior by many, Explorer began to slowly claw away some market share for itself, gradually chipping away at Navigator and its competitors.</p>
+<p>Netscape Navigator came in two editions: Gold and Standard. With the release of version 4, the Gold Edition (which was notable for having many extra functions that negatively impacted stability) was rebranded to Netscape Communicator. This name change was a shot in the foot that affected their brand recognition and, bundled with performance slower than Microsoft’s new Internet Explorer 5, spelled their demise.</p>
+<p>By the time the new millennia rolled around, many new browsers had launched (such as <a href="https://apps.kde.org/en-gb/konqueror/">KDE’s Konqueror</a>), Netscape was on its deathbed, and Explorer was thriving, with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn’t all sunshine and rainbows for Microsoft’s browser, though. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.</p>
+<p>This came to a head in 2001 with the ominous sounding United States of America vs Microsoft Corporation. It concluded with Microsoft drafting a settlement proposal that permitted PC manufacturers to use non-Microsoft software.</p>
+<h2>The Second Browser War</h2>
+<p>Shortly after this lawsuit, in 2003, Apple released their own browser, Safari, which quickly gained popularity on their Macs, although they initially failed to release it elsewhere. Safari used the WebKit engine, a fork of the KHTML and KJS libraries from KDE’s browser, Konqueror. Also in 2003, Opera 7 released with a large rewrite and a new layout engine, titled Presto.</p>
+<p>By the time 2004 rolled around, a product concocted by a small group formed by Netscape in 1998 had materialised. The product became Firefox, and the group became the Mozilla Foundation. The same year, rumours began swirling that Google was building a browser of its own.</p>
+<p>Firefox was free, leaving little barrier to entry, and people were more then interested in leaving Internet Explorer, which had gained a reputation for poor security and questionable support for web standards. Firefox also used a unique rendering engine called Gecko and was open source.</p>
+<p>Upon release, Firefox immediately challenged Explorer’s dominance. Within a mere nine months, the browser had amassed in excess of 60 million downloads. It continued to grow until it’s peak in 2009, with just over 30% market share.</p>
+<p>Apple realised that they were limiting themselves by only including their browser on their own OS. As such, they released a version for Microsoft Windows. Unfortunately, this couldn’t have come at a worse time, as the next year Google finally entered the browser market and released Chrome.</p>
+<h2>The Rise of Chrome</h2>
+<p>Despite initial reluctance from Google CEO Eric Schmidt to enter the browser wars, he eventually relented, and in 2008, Google Chrome released. Using components from Firefox and Apple’s WebKit, it was built upon Chromium, an open source base also developed by Google. The release was marked with <a href="https://www.google.com/googlebooks/chrome/index.html">a short comic by Scott McCloud</a>.</p>
+<p>It didn’t see success as instant as Firefox, but instead slowly crept up, to the point that by 2012 it was beating all other major browsers. From that point on, it only continued to grow and has taken complete dominance.</p>
+<p>In 2012, Safari was discontinued for Windows, where its market share had been decimated. However, it’s continued to remain a popular choice on Apple operating systems.</p>
+<p>The following year, Opera announced its intention to switch from Presto to WebKit, although around the same time, Google announced they would be forking WebKit, to which they were already the largest contributor, to create Blink. Following this, Opera revised their plans and moved to Blink.</p>
+<p>With 2015 came Microsoft’s attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own proprietary EdgeHTML and open source Chakra engines. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.</p>
+<p>Unfortunately for Microsoft, Edge wasn’t much liked upon release. While praised for performance, it was slandered for its lack of features and poor design choices, among other issues. Microsoft saw this and announced in 2018 that it would rebuild Edge as a Chromium based browser. This move was completed in 2020 and was seen much more favourably.</p>
+<p>This left the web with three major engines: Google’s Blink, Mozilla’s Gecko, and Apple’s WebKit. Almost every browser currently in existence relies on one of these three engines.</p>
+<p>Apple’s WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it’s preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a small amount of use in an assortment of other browsers, although it’s very minimal.</p>
+<p>Mozilla’s Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, such as the privacy oriented Tor Browser, but very little beyond that.</p>
+<p>Google’s Blink sees the most use by far. Just about any browser that you might use is using Blink. This is what this article has been building up to, and where the issues lies. Almost everything uses Blink.</p>
+<p>Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink.</p>
+<p id="showChromium" style="display:none;">
+When you loaded this page, I ran a small amount of JavaScript to check if your browser is Chromium based. If my check was accurate, the web browser you are currently reading this in is Chromium based.
+</p>
+<script>
+    var isChromium = !!window.chrome;
+
+    if (isChromium) {
+      document.getElementById("showChromium").style.display = 'block';
+    }
+</script>
+<h2>The Problem with Chrome</h2>
+<p>The list above is just the tip of the iceberg; I could continue to list many more. There is no choice in the browser market. It’s all just Blink, and Blink is Chrome, and Chrome is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have complete control over the web.</p>
+<p>This simply isn’t acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.</p>
+<figure class="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage." />
+<figcaption>Screenshot of Google Chrome version 96.</figcaption>
+</figure>
+<p>If you’ve been reading attentively, you may remember the comic I mentioned that was released alongside Chrome. Well, in 2022, <a href="https://contrachrome.com">a parody released</a> with a few changes. It outlines a few of the things that Google is doing within Chrome that have far reaching implications.</p>
+<p>First of all, the privacy implications. There is a lot to go into there, such as the fact that Google tracks just about everything you do and collects it to build a profile on you, but I don’t think I’ve got much to say that isn’t said better by the comic. I will note that almost everything you do in Chromium is tracked, and there is no true way to disable it.</p>
+<p>Something I do have more to add to is something touched on briefly in the comic. The advent of Manifest v3 and its implications.</p>
+<h3>Manifest v3</h3>
+<p>Google has an extension platform with their Web Store. It allows developers to post extensions that allow users to increase the capabilities of their browser. There are many excellent extensions that come with this, but perhaps the most useful are ad blockers.</p>
+<p>Ad blockers completely remove advertisements from the document flow, significantly improving the user experience. Alphabet Inc, the company behind Google, makes a lot of their money through these ads and, as such, isn’t much a fan of ad blockers.</p>
+<p>To combat this, they’re implementing Manifest v3. In the context of a browser extension, a manifest file determines things such as what permissions an extension needs to run. Version 3 will restrict the ability of tools that manipulate network requests.</p>
+<p>They’ve been planning on rolling it out but seem to keep postponing it whenever public outrage grows too much. As of the time of writing, they intend to release it in June 2024 and depreciate previous versions by June 2025.</p>
+<p>It isn’t just ad blockers that will be impacted by this change. Many privacy extensions, which rely on filtering out tracking requests, will also be negatively impacted.</p>
+<p>This change will trickle down to all Chromium based browsers. If they dare to opt out then they’ll lose access to Google’s Chrome Web Store. This is a change that will benefit Google the most out of any affected party.</p>
+<h3>Accelerated Mobile Pages</h3>
+<p>Accelerated Mobile Pages (AMP) is another excellent example of the problems with Google having power. AMP is a framework that aims to improve the performance of web content, particularly on mobile. It improves speed by restricting certain elements and optimising content delivery. While these are great intentions, they’ve seen much good criticism.</p>
+<p>One large criticism is that it gives Google a huge amount of control over the way content is displayed on the web, which influences how things are built and monetized. It also has impacts on privacy, and security.</p>
+<p>Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google’s “Top Stories” section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf">facing legal threats</a>.</p>
+<p>AMP is just another way that Google has shown that they are not content with simply existing within the web, but instead wish to control it. If you’d like to read more about AMP and its impact, then I’d suggest <a href="https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot">this Reddit post</a> from the creator of <a href="https://amputatorbot.com">AmputatorBot.com</a>.</p>
+<h3>Web Environment Integrity</h3>
+<p>In April of 2023, some Google engineers <a href="https://github.com/RupertBenWiser/Web-Environment-Integrity">created a GitHub repository</a> explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled “Android WebView Media Integrity API” was swiftly proposed and looks to enter testing in early 2024.</p>
+<p>You may be wondering exactly what it is. WEI is more or less a way to verify that a site is ‘genuine’. It can be best described as Digital Rights Management (DRM) for the web and, wouldn’t you know, could’ve also impacted ad blockers if they were found to be altering the web environment’s integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered ‘untrusted’, and therefore severely limited.</p>
+<p>I could continue with further examples, but I think the point is made, and I expect you’ve gathered the picture. The web is dominated by Chrome, and something must be done about it.</p>
+<h2>The Death of Firefox Support</h2>
+<p>As Bryce Wray illustrates in his article <a href="https://www.brycewray.com/posts/2023/11/firefox-brink/">“Firefox on the Brink?”</a> the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is <a href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices">set by the British government</a>. As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.</p>
+<h2>Taking Action</h2>
+<p>You’re likely wondering what you can do. The answer is simple: use another browser. As I’ve said, most browsers out there are based on Chromium, so I would suggest <a href="https://www.mozilla.org/firefox">Firefox</a>. It’s free, it’s open source, and Mozilla has consistently shown a commitment to both the user and the web. If you’re super privacy conscious and need even further control of your data or live in a country prone to censorship, then you might consider <a href="https://www.torproject.org">the Tor Browser</a>.</p>
+<p>Share this article around and promote its message. Preserving an open web is crucial. Failure to achieve this will lead to disaster, and we can’t let it happen.</p>
+<details>
+<summary>Sources</summary>
+<ul>
+<li><a href="https://eylenburg.github.io/browser_engines.htm">History of Web Browser Engines from 1990 until today</a> | Accessed: 10/12/2023</li>
+<li><a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">Tim Berners-Lee: WorldWideWeb, the first Web client</a> | Accessed: 10/12/2023</li>
+<li><a href="https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic">NCSA Mosaic™ - NCSA</a> | Accessed: 10/12/2023</li>
+<li><a href="https://gs.statcounter.com/browser-market-share">Browser Market Share Worldwide | Statcounter Global Stats</a> | Accessed: 10/12/2023</li>
+<li><a href="https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014">Did the browser wars finally end in 2014? | ZD Net</a> | Accessed 10/12/2023</li>
+<li><a href="https://www.google.com/googlebooks/chrome/index.html">Google Chrome</a> | Accessed: 10/12/2023</li>
+<li><a href="https://contrachrome.com">Contra Chrome - a webcomic - How Google’s browser became a threat to privacy and democracy</a> | Accessed: 10/12/2023</li>
+<li><a href="https://openwebdefenders.org">Web Environment Integrity: What’s Going On?</a> | Accessed: 12/12/2023</li>
+<li><a href="https://www.brycewray.com/posts/2023/11/firefox-brink">Firefox on the brink? | BryceWray.com</a> | Accessed: 10/12/2023</li>
+<li><a href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices">Designing for different browsers and devices - Service Manual - GOV.UK</a> | Accessed: 10/12/2023</li>
+<li><a href="https://gds.blog.gov.uk/2012/01/25/support-for-browsers">Browsers we support and why - Government Digital Service</a> | Accessed: 10/12/2023</li>
+<li><a href="https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot">Why did I build AmputatorBot?</a> | Accessed: 06/03/2024</li>
+</ul>
+</details>
+<section class="giscus"></section>
+</div>
+</article>]]></description></item></channel></rss>]]></description></item><item><title>Prematurely-Pulling-The-Plug-On-3G.html</title><description><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
