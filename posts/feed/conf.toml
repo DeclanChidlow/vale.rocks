@@ -5,25 +5,25 @@ description = "A collection of unhinged (yet not completely insane) ramblings."
 [main]
 
 [[main.block]]
-from_str = "../config/global/elements/head.html"
-style = "html"
+format = "html"
+content_file = "../config/global/elements/head.html"
 
 [[main.block]]
-from_str = "../config/global/elements/bloghead.html"
-style = "html"
+format = "html"
+content_file = "../config/global/elements/bloghead.html"
 
 [[main.block]]
-from_str = "../config/global/elements/navbar.html"
-style = "html"
+format = "html"
+content_file = "../config/global/elements/navbar.html"
 
 [[main.block]]
-text = "<span id='section'>Posts</span>"
-style = "html"
+format = "html"
+content = "<span id='section'>Posts</span>"
 
 [[main.block]]
-text = "<style>:root{--header_background: var(--magenta)}</style>"
-style = "html"
+format = "html"
+content = "<style>:root{--header_background: var(--magenta)}</style>"
 
 [[main.block]]
-text = "<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>"
-style = "html"
+format = "html"
+content = "<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>"

@@ -1,21 +1,17 @@
-title = "Vale.Rocks Portfolio"
-link = "https://vale.rocks"
-description = "A collection of works and creations by Declan Chidlow."
-
 [main]
 
 [[main.block]]
-from_str = "../config/global/elements/head.html"
-style = "html"
+format = "html"
+content_file = "../config/global/elements/head.html"
 
 [[main.block]]
-from_str = "../config/global/elements/navbar.html"
-style = "html"
+format = "html"
+content_file = "../config/global/elements/navbar.html"
 
 [[main.block]]
-text = "<span id='section'>Portfolio</span><div id='postbody'>"
-style = "html"
+format = "html"
+content = "<span id='section'>Portfolio</span><div id='postbody'>"
 
 [[main.block]]
-text = "<style>:root{--header_background: var(--green)}</style>"
-style = "html"
+format = "html"
+content = "<style>:root{--header_background: var(--green)}</style>"

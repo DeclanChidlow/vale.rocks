@@ -1,21 +1,21 @@
 [main]
 
 [[main.block]]
-from_str = "config/global/elements/head.html"
-style = "html"
+format = "html"
+content_file = "config/global/elements/head.html"
 
 [[main.block]]
-from_str = "config/pages/posts/head.html"
-style = "html"
+format = "html"
+content_file = "config/pages/posts/head.html"
 
 [[main.block]]
-from_str = "config/global/elements/navbar.html"
-style = "html"
+format = "html"
+content_file = "config/global/elements/navbar.html"
 
 [[main.block]]
-from_str = "config/pages/posts/posts.html"
-style = "html"
+format = "html"
+content_file = "config/pages/posts/posts.html"
 
 [[main.block]]
-from_str = "config/global/elements/footer.html"
-style = "html"
+format = "html"
+content_file = "config/global/elements/footer.html"

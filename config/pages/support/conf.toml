@@ -1,21 +1,21 @@
 [main]
 
 [[main.block]]
-from_str = "config/global/elements/head.html"
-style = "html"
+format = "html"
+content_file = "config/global/elements/head.html"
 
 [[main.block]]
-from_str = "config/pages/support/head.html"
-style = "html"
+format = "html"
+content_file = "config/pages/support/head.html"
 
 [[main.block]]
-from_str = "config/global/elements/navbar.html"
-style = "html"
+format = "html"
+content_file = "config/global/elements/navbar.html"
 
 [[main.block]]
-from_str = "config/pages/support/support.md"
-style = "md"
+format = "md"
+content_file = "config/pages/support/support.md"
 
 [[main.block]]
-from_str = "config/global/elements/footer.html"
-style = "html"
+format = "html"
+content_file = "config/global/elements/footer.html"
