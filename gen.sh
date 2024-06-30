@@ -39,7 +39,7 @@ for feed in "${post_feeds[@]}"; do
     adduce feed export "$feed"
 done
 adduce feed rss
-cp -r feed/export/. ../docs/posts
+cp -r export/. ../docs/posts
 cd ..
 
 # Generate portfolio items
@@ -54,7 +54,7 @@ portfolio_feeds=(
 for feed in "${portfolio_feeds[@]}"; do
     adduce feed export "$feed"
 done
-cp -r feed/export/. ../docs/portfolio
+cp -r export/. ../docs/portfolio
 cd ..
 
 # Copy global styles and assets
