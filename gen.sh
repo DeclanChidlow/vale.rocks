@@ -38,7 +38,7 @@ post_feeds=(
 for feed in "${post_feeds[@]}"; do
     adduce feed export "$feed"
 done
-adduce feed rss
+adduce feed atom
 cp -r export/. ../docs/posts
 cd ..
 

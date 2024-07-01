@@ -1,7 +1,11 @@
 title = "Vale.Rocks"
-link = "https://vale.rocks"
-description = "A collection of unhinged (yet not completely insane) ramblings."
-language = "en-AU"
+id = "https://vale.rocks"
+# icon = ""
+# logo = ""
+rights = "© Declan Chidlow"
+subtitle = "A collection of unhinged (yet not completely insane) ramblings."
+base = "https://vale.rocks"
+lang = "en-AU"
 
 [main]
 
