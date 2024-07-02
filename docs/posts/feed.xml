@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-07-01T04:33:56.313628401+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>I-Got-A-Flipper-Zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-07-02T07:52:11.126000752+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>I-Got-A-Flipper-Zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -40,6 +40,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -53,7 +55,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;I Got A Flipper Zero | Vale.Rocks&lt;/title&gt;
@@ -131,7 +132,45 @@
 &lt;p&gt;If you liked my review of the Flipper, then do consider sharing it. Also, if you’d like to see me produce more content like this, then &lt;a href=&quot;/donate&quot;&gt;tips are very much appreciated&lt;/a&gt;.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>A-Year-With-The-Framework-Laptop-13.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>A-Year-With-The-Framework-Laptop-13.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -172,6 +211,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -185,7 +226,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;A Year With The Framework Laptop 13 | Vale.Rocks&lt;/title&gt;
@@ -251,7 +291,45 @@
 &lt;p&gt;I hope you enjoyed my review. If you’ve got any questions about the laptop or think there is something I could add, then let me know in the comments below.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Halo-My-Thoughts.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Halo-My-Thoughts.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -292,6 +370,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -305,7 +385,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Halo: My Thoughts | Vale.Rocks&lt;/title&gt;
@@ -420,7 +499,45 @@
 &lt;p&gt;I hope that you gained something reading about my thoughts on Halo. I’d love to hear your thoughts and opinions on the franchise, so leave them in the comments.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Welcome.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Welcome.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -461,6 +578,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -474,7 +593,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Welcome | Vale.Rocks&lt;/title&gt;
@@ -511,7 +629,45 @@
 &lt;p&gt;If you wish to see what the site looked like before these changes, you can take a peek on the Internet Archive’s &lt;a href=&quot;https://web.archive.org/web/20230124205506/https://vale.rocks&quot;&gt;Wayback Machine&lt;/a&gt;. I’ve put a lot of work into improving this site and still have quite a bit to go. If you have any feedback regarding how I could improve this site, I’d love to hear it. You can chuck it in the comments below.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>LibreOffice-Setup.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>LibreOffice-Setup.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -552,6 +708,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -565,7 +723,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;The Ultimate LibreOffice Setup | Vale.Rocks&lt;/title&gt;
@@ -620,7 +777,45 @@
 &lt;p&gt;Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Prematurely-Pulling-The-Plug-On-3G.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Prematurely-Pulling-The-Plug-On-3G.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -661,6 +856,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -674,7 +871,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Prematurely Pulling The Plug On 3G | Vale.Rocks&lt;/title&gt;
@@ -722,7 +918,45 @@
 &lt;p&gt;If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you’d like to see me produce similar content into the future, then consider &lt;a href=&quot;/donate&quot;&gt;sending me a tip&lt;/a&gt;. It’d mean a lot.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Cybersecurity-Superstition.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Cybersecurity-Superstition.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -763,6 +997,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -776,7 +1012,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Cybersecurity Superstition | Vale.Rocks&lt;/title&gt;
@@ -859,7 +1094,45 @@
 &lt;p&gt;Cybersecurity is important, and it’s worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I’d love to hear them in the comments below.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>My-Code-Formatting-Guidelines.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>My-Code-Formatting-Guidelines.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -900,6 +1173,8 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -913,7 +1188,6 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;My Code Formatting Guidelines | Vale.Rocks&lt;/title&gt;
@@ -1063,7 +1337,45 @@ x =&amp;gt; x
 &lt;p&gt;If you liked this post, then do consider sharing it. Also, if you’d like to support me in making more like it, consider &lt;a href=&quot;/donate&quot;&gt;sending me a tip&lt;/a&gt;. It’d mean a lot.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Making-Windows-Usable.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Making-Windows-Usable.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1104,6 +1416,8 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -1117,7 +1431,6 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Making Windows &quot;Usable&quot; | Vale.Rocks&lt;/title&gt;
@@ -1175,7 +1488,45 @@ x =&amp;gt; x
 &lt;p&gt;And there you have it, a few tweaks, and Windows went from ‘Why do you insist on torturing me?’ to ‘I suppose you can stay’. I hope you found this little guide useful. Is there anything specific you do for your installs or something that I missed? If so, leave it in the comments!&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Minecraft-Nostalgia-And-Growing-Up.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Minecraft-Nostalgia-And-Growing-Up.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1216,6 +1567,8 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -1229,7 +1582,6 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Minecraft, Nostalgia, and Growing Up | Vale.Rocks&lt;/title&gt;
@@ -1300,7 +1652,45 @@ x =&amp;gt; x
 &lt;p&gt;Thank you.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>JPEG-XL-And-Googles-War-Against-It.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>JPEG-XL-And-Googles-War-Against-It.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1341,6 +1731,8 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -1354,7 +1746,6 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;JPEG XL And Google&apos;s War Against It | Vale.Rocks&lt;/title&gt;
@@ -1471,7 +1862,45 @@ x =&amp;gt; x
 &lt;/details&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>I-Hate-My-Nokia.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>I-Hate-My-Nokia.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1512,6 +1941,8 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -1525,7 +1956,6 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;I Hate My Nokia | Vale.Rocks&lt;/title&gt;
@@ -1583,7 +2013,45 @@ x =&amp;gt; x
 &lt;p&gt;Please feel welcome to leave any suggestions in the comments.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>School-Internet.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>School-Internet.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1624,6 +2092,8 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -1637,7 +2107,6 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Connecting to Australian Public School Internet | Vale.Rocks&lt;/title&gt;
@@ -1713,7 +2182,45 @@ x =&amp;gt; x
 &lt;p&gt;Had any issues with the process or think something may have changed? Leave a comment down below, and I’ll try my best to assist.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry><entry><title>Everything-Is-Chrome.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>Everything-Is-Chrome.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -1754,6 +2261,8 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
 	&lt;nav&gt;
@@ -1767,7 +2276,6 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&apos;section&apos;&gt;Posts&lt;/span&gt;
-&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
 &lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Everything Is Chrome | Vale.Rocks&lt;/title&gt;
@@ -1884,4 +2392,42 @@ When you loaded this page, I ran a small amount of JavaScript to check if your b
 &lt;/details&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
-&lt;/article&gt;</content></entry></feed>
+&lt;/article&gt;
+
+&lt;/main&gt;
+
+&lt;footer&gt;
+	&lt;div id=&quot;socials&quot;&gt;
+		&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+			&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+			&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+			&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;https://www.linkedin.com/in/declan-chidlow&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;
+			&lt;img src=&quot;/assets/icons/LinkedIn.svg&quot; alt=&quot;LinkedIn&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;pages&quot;&gt;
+		&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+		&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;
+		&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;
+		&lt;a href=&quot;/blog/feed.rss&quot;&gt;RSS&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;copyright&quot;&gt;
+		© Declan Chidlow | 2019 -
+		&lt;script&gt;
+			document.write(new Date().getFullYear());
+		&lt;/script&gt;
+		&lt;noscript&gt;Present&lt;/noscript&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content></entry></feed>

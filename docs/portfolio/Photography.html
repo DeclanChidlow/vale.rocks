@@ -20,6 +20,8 @@
 
 	<script type="module" src="/scripts/syntax-highlighting.js"></script>
 	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<style>:root{--header_background: var(--green)}</style>
+<body>
 <header id="navbar">
 	<a class="skip-link" href="#main">Skip to content</a>
 	<nav>
@@ -33,7 +35,7 @@
 
 <main id="main">
 <span id='section'>Portfolio</span><div id='postbody'>
-<style>:root{--header_background: var(--green)}</style>
+<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
 <head>
   <title>Photography | Vale.Rocks</title>
   <meta property="og:title" content="Photography"/>
@@ -55,3 +57,41 @@
 <img id="right" src="https://images.unsplash.com/photo-1691918917740-45c1f0d8183d" alt="A single mushroom with a textured brown cap and slim stem stands prominently in the center of a vibrant green moss-covered forest floor. The background is a softly blurred view of a forest with tall trees, suggesting a quiet, serene woodland scene." />
 </div>
 </article>
+
+</main>
+
+<footer>
+	<div id="socials">
+		<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+			<img src="/assets/icons/ActivityPub.svg" alt="Fediverse" />
+		</a>
+		<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+			<img src="/assets/icons/GitHub.svg" alt="GitHub" />
+		</a>
+		<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+			<img src="/assets/icons/Bluesky.svg" alt="Bluesky" />
+		</a>
+		<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+			<img src="/assets/icons/Unsplash.svg" alt="Unsplash" />
+		</a>
+		<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+			<img src="/assets/icons/LinkedIn.svg" alt="LinkedIn" />
+		</a>
+	</div>
+	<div id="pages">
+		<a href="/contact">Contact</a>
+		<a href="/services">Services</a>
+		<a href="/support">Support</a>
+		<a href="/blog/feed.rss">RSS</a>
+	</div>
+	<div id="copyright">
+		© Declan Chidlow | 2019 -
+		<script>
+			document.write(new Date().getFullYear());
+		</script>
+		<noscript>Present</noscript>
+	</div>
+</footer>
+
+</body>
+</html>

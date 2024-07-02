@@ -39,6 +39,8 @@
 	data-loading="lazy"
 	crossorigin="anonymous"
 	async></script>
+<style>:root{--header_background: var(--magenta)}</style>
+<body>
 <header id="navbar">
 	<a class="skip-link" href="#main">Skip to content</a>
 	<nav>
@@ -52,7 +54,6 @@
 
 <main id="main">
 <span id='section'>Posts</span>
-<style>:root{--header_background: var(--magenta)}</style>
 <div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>
 <head>
     <title>Prematurely Pulling The Plug On 3G | Vale.Rocks</title>
@@ -101,3 +102,41 @@
 <section class="giscus"></section>
 </div>
 </article>
+
+</main>
+
+<footer>
+	<div id="socials">
+		<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+			<img src="/assets/icons/ActivityPub.svg" alt="Fediverse" />
+		</a>
+		<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+			<img src="/assets/icons/GitHub.svg" alt="GitHub" />
+		</a>
+		<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+			<img src="/assets/icons/Bluesky.svg" alt="Bluesky" />
+		</a>
+		<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+			<img src="/assets/icons/Unsplash.svg" alt="Unsplash" />
+		</a>
+		<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+			<img src="/assets/icons/LinkedIn.svg" alt="LinkedIn" />
+		</a>
+	</div>
+	<div id="pages">
+		<a href="/contact">Contact</a>
+		<a href="/services">Services</a>
+		<a href="/support">Support</a>
+		<a href="/blog/feed.rss">RSS</a>
+	</div>
+	<div id="copyright">
+		© Declan Chidlow | 2019 -
+		<script>
+			document.write(new Date().getFullYear());
+		</script>
+		<noscript>Present</noscript>
+	</div>
+</footer>
+
+</body>
+</html>

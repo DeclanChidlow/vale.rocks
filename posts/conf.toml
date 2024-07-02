@@ -19,6 +19,14 @@ content_file = "../config/global/elements/bloghead.html"
 
 [[main.block]]
 format = "html"
+content = "<style>:root{--header_background: var(--magenta)}</style>"
+
+[[main.block]]
+format = "html"
+content = "<body>"
+
+[[main.block]]
+format = "html"
 content_file = "../config/global/elements/navbar.html"
 
 [[main.block]]
@@ -27,8 +35,11 @@ content = "<span id='section'>Posts</span>"
 
 [[main.block]]
 format = "html"
-content = "<style>:root{--header_background: var(--magenta)}</style>"
+content = "<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>"
+
+[[main.block]]
+format = "document"
 
 [[main.block]]
 format = "html"
-content = "<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>"
+content_file = "../config/global/elements/footer.html"
