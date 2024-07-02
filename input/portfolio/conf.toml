@@ -5,8 +5,8 @@ format = "html"
 content_file = "../global/elements/head.html"
 
 [[main.block]]
-format = "html"
-content = "<style>:root{--header_background: var(--green)}</style>"
+format = "style"
+content = ":root{--header_background: var(--green)}"
 
 [[main.block]]
 format = "html"
@@ -17,12 +17,22 @@ format = "html"
 content_file = "../global/elements/navbar.html"
 
 [[main.block]]
-format = "html"
-content = "<span id='section'>Portfolio</span><div id='postbody'>"
+format = "span"
+id = "section"
+content = "Portfolio"
 
 [[main.block]]
 format = "html"
-content = "<div id='fullscreenModal'><span id='close' class='material-icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/figureview.js'></script>"
+content = """\
+	<div id='fullscreenModal'>\
+	<span id='close' class='material-icons'>close</span>\
+	<img id='fullscreenImg'>\
+	<p id='caption'></p>\
+	<hr/>\
+	<p id='altText'></p>\
+	</div>\
+	<script src='/scripts/figureview.js'></script>\
+	"""
 
 [[main.block]]
 format = "document"
