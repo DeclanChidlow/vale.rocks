@@ -11,11 +11,11 @@ lang = "en-AU"
 
 [[main.block]]
 format = "html"
-content_file = "../config/global/elements/head.html"
+content_file = "../global/elements/head.html"
 
 [[main.block]]
 format = "html"
-content_file = "../config/global/elements/bloghead.html"
+content_file = "../global/elements/bloghead.html"
 
 [[main.block]]
 format = "html"
@@ -27,7 +27,7 @@ content = "<body>"
 
 [[main.block]]
 format = "html"
-content_file = "../config/global/elements/navbar.html"
+content_file = "../global/elements/navbar.html"
 
 [[main.block]]
 format = "html"
@@ -42,4 +42,4 @@ format = "document"
 
 [[main.block]]
 format = "html"
-content_file = "../config/global/elements/footer.html"
+content_file = "../global/elements/footer.html"

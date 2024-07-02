@@ -2,23 +2,23 @@
 
 # Generate standard pages
 pages=(
-    "config/pages/index index.html"
-    "config/pages/posts posts.html"
-    "config/pages/portfolio portfolio.html"
-    "config/pages/contact contact.html"
-    "config/pages/support support.html"
-    "config/pages/services services.html"
-	"config/pages/404 404.html"
+    "input/pages/index index.html"
+    "input/pages/posts posts.html"
+    "input/pages/portfolio portfolio.html"
+    "input/pages/contact contact.html"
+    "input/pages/support support.html"
+    "input/pages/services services.html"
+	"input/pages/404 404.html"
 )
 
-for page_config in "${pages[@]}"; do
-    page="${page_config%% *}"
-    output="${page_config#* }"
+for page_input in "${pages[@]}"; do
+    page="${page_input%% *}"
+    output="${page_input#* }"
     adduce -c "$page" -n "$output" -o docs
 done
 
 # Generate posts
-cd posts || exit
+cd input/posts || exit
 post_feeds=(
     "Welcome"
     "School-Internet"
@@ -39,11 +39,11 @@ for feed in "${post_feeds[@]}"; do
     adduce feed export "$feed"
 done
 adduce feed atom
-cp -r export/. ../docs/posts
-cd ..
+cp -r export/. ../../docs/posts
+cd ../..
 
 # Generate portfolio items
-cd portfolio || exit
+cd input/portfolio || exit
 portfolio_feeds=(
     "Mutant-Remix"
     "CapChord"
@@ -54,10 +54,10 @@ portfolio_feeds=(
 for feed in "${portfolio_feeds[@]}"; do
     adduce feed export "$feed"
 done
-cp -r export/. ../docs/portfolio
-cd ..
+cp -r export/. ../../docs/portfolio
+cd ../..
 
 # Copy global styles and assets
-cp -r config/global/assets docs/
-cp -r config/global/styles docs/
-cp -r config/global/scripts docs/
+cp -r input/global/assets docs/
+cp -r input/global/styles docs/
+cp -r input/global/scripts docs/

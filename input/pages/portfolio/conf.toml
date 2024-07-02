@@ -1,0 +1,21 @@
+[main]
+
+[[main.block]]
+format = "html"
+content_file = "input/global/elements/head.html"
+
+[[main.block]]
+format = "html"
+content_file = "input/pages/portfolio/head.html"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/elements/navbar.html"
+
+[[main.block]]
+format = "html"
+content_file = "input/pages/portfolio/portfolio.html"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/elements/footer.html"
