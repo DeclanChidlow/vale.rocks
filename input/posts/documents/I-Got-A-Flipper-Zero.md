@@ -5,7 +5,7 @@
     <meta property="og:description" content="A fantasmagorical planet flipping oracle" />
 	<meta property="og:image" content="https://vale.rocks/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png" />
     <meta property="article:published_time" content="2024-06-14" />
-    <meta property="article:modified_time" content="2024-06-15" />
+    <meta property="article:modified_time" content="2024-07-03" />
     <meta property="article:section" content="Review" />
 </head>
 
@@ -17,8 +17,8 @@
 	</h1>
 	<ul>
 		<li><time datetime="2024-06-14">14 June, 2024</time></li>
-		<li>1881 words</li>
-		<li>6 minute read</li>
+		<li>1983 words</li>
+		<li>7 minute read</li>
 	</ul>
 </header>
 
@@ -50,7 +50,7 @@ I had done quite a bit of research prior to pulling the trigger on purchasing th
 
 I had the briefest of plays with the official firmware, which was fine, but I knew that the limitations of the firmware were going to hold back my plans for the device. That's why I jumped to the Momentum firmware.
 
-Thanks to the Flipper's [open source firmware](https://github.com/flipperdevices/flipperzero-firmware) there are many community led forks. During my initial research, [Xtreme](https://flipper-xtre.me) seemed to be the best available, but internal conflicts led to it being forked and rebranded as [Momentum](https://momentum-fw.dev).
+Thanks to the Flipper's [open source firmware](https://github.com/flipperdevices/flipperzero-firmware), there are many community led forks. During my initial research, [Xtreme](https://flipper-xtre.me) seemed to be the best available, but internal conflicts led to it being forked and rebranded as [Momentum](https://momentum-fw.dev).
 
 Momentum has several benefits over the stock firmware. Standouts for me include improved customisation options through the management app, better menus, battery charge capping, and a sane set of bundled apps. It also allows bypassing artificial limitations, such as the ones imposed by the SubGHz region lock, although this is something I most definitely don't do as a law abiding citizen.
 
@@ -73,7 +73,7 @@ The device is slated as a "multi-tool device for geeks" on the official website,
 
 I think the multitool branding also sets expectations right. You don't buy a multitool expecting it to replace your toolbox. You buy a multitool expecting a compact jack of all trades that is convenient to pocket. It isn't a replacement for specialised tools; it's a convenient, versatile supplement to them.
 
-## Uses
+## Utility
 
 Part of always wanting it on my person is down to just how handy it's been. I haven't had it long, but it is such a useful little nugget and does so much. I've noted some of my favourite uses for it here, but the list is far from exhaustive. It can do _so_ much.
 
@@ -103,7 +103,7 @@ Obviously, the Flipper should be used responsibly. To bring up the multitool ana
 
 There are many a lawmaker of the impression that the Flipper is a tool of evil. This isn't the case, or at least not if used responsibly. The Flipper isn't just evil, and it isn't just a toy. It's a tool.
 
-We've seen previously that the Flipper can [identify and highlight exploitable weaknesses](https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth), and that the knowledge gained from its usage [can lead to fixes](https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2). If Flippers were banned, there is a decent likelihood that such exploits would persist without detection, or that a similar device would emerge to take it's place.
+We've seen previously that the Flipper can [identify and highlight exploitable weaknesses](https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth), and that the knowledge gained from its usage [can lead to fixes](https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2). If Flippers were banned, there is a decent likelihood that such exploits would persist without detection or that a similar device would emerge to take its place.
 
 It is a tool - a very fun tool - and it should be treated as such. Inherently, it's no more evil than a pocket knife. It's how it's used and the intent behind usage that matters.
 
@@ -119,9 +119,15 @@ Separate from the negativity, there is a thriving community that dedicates their
 
 As discussed with the Momentum firmware previously, much of the Flipper is open source, and the tooling to hack and build on it is readily available. This has led to a [thriving app ecosystem](https://lab.flipper.net/apps) and countless hardware addons that make use of the GPIO pins. Perhaps my favourite class of which are the [Geiger](https://github.com/nmrr/flipperzero-geigercounter) [counters](https://github.com/eried/flipperzero-flippenheimer).
 
+## Overall Evaluation
+
+The Flipper Zero is a neat bit of tech. It's an all in one, pocket sized tinkerer's toolbox. No, it isn't better than buying specialised hardware for each of its features, but that isn't its goal. It fills the niche encapsulated by the ethos behind the quote, "the best camera is the one you have with you". It's built well and fulfils its purpose.
+
+If the Flipper has made it onto your radar and piqued your interest, then chances are the only negative you'll find in buying it is the impact on your wallet.
+
 ---
 
-If you liked my review of the Flipper, then do consider sharing it. Also, if you'd like to see me produce more content like this, then [tips are very much appreciated](/donate).
+I hope you got something out of my review of the Flipper. If you did, then do consider sharing it, and if you'd like to see me produce more content like this, consider [supporting me](/support).
 
 <section class="giscus"></section>
 

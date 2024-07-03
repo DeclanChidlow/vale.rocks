@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-07-03T07:21:07.600881969+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>I-Got-A-Flipper-Zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-07-03T08:09:42.731504264+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>I-Got-A-Flipper-Zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -63,7 +63,7 @@
     &lt;meta property=&quot;og:description&quot; content=&quot;A fantasmagorical planet flipping oracle&quot; /&gt;
 	&lt;meta property=&quot;og:image&quot; content=&quot;https://vale.rocks/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png&quot; /&gt;
     &lt;meta property=&quot;article:published_time&quot; content=&quot;2024-06-14&quot; /&gt;
-    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-06-15&quot; /&gt;
+    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-07-03&quot; /&gt;
     &lt;meta property=&quot;article:section&quot; content=&quot;Review&quot; /&gt;
 &lt;/head&gt;
 &lt;article&gt;
@@ -74,8 +74,8 @@
 	&lt;/h1&gt;
 	&lt;ul&gt;
 		&lt;li&gt;&lt;time datetime=&quot;2024-06-14&quot;&gt;14 June, 2024&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1881 words&lt;/li&gt;
-		&lt;li&gt;6 minute read&lt;/li&gt;
+		&lt;li&gt;1983 words&lt;/li&gt;
+		&lt;li&gt;7 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable_width&quot;&gt;
@@ -92,7 +92,7 @@
 &lt;p&gt;All I had to do was peel off the plastic screen cover, hold the back button, and it sprung to life.&lt;/p&gt;
 &lt;p&gt;I had done quite a bit of research prior to pulling the trigger on purchasing the Flipper, and even more in the time it took for it to arrive, so I had a pretty good idea of what I was gonna do once I got it.&lt;/p&gt;
 &lt;p&gt;I had the briefest of plays with the official firmware, which was fine, but I knew that the limitations of the firmware were going to hold back my plans for the device. That’s why I jumped to the Momentum firmware.&lt;/p&gt;
-&lt;p&gt;Thanks to the Flipper’s &lt;a href=&quot;https://github.com/flipperdevices/flipperzero-firmware&quot;&gt;open source firmware&lt;/a&gt; there are many community led forks. During my initial research, &lt;a href=&quot;https://flipper-xtre.me&quot;&gt;Xtreme&lt;/a&gt; seemed to be the best available, but internal conflicts led to it being forked and rebranded as &lt;a href=&quot;https://momentum-fw.dev&quot;&gt;Momentum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks to the Flipper’s &lt;a href=&quot;https://github.com/flipperdevices/flipperzero-firmware&quot;&gt;open source firmware&lt;/a&gt;, there are many community led forks. During my initial research, &lt;a href=&quot;https://flipper-xtre.me&quot;&gt;Xtreme&lt;/a&gt; seemed to be the best available, but internal conflicts led to it being forked and rebranded as &lt;a href=&quot;https://momentum-fw.dev&quot;&gt;Momentum&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Momentum has several benefits over the stock firmware. Standouts for me include improved customisation options through the management app, better menus, battery charge capping, and a sane set of bundled apps. It also allows bypassing artificial limitations, such as the ones imposed by the SubGHz region lock, although this is something I most definitely don’t do as a law abiding citizen.&lt;/p&gt;
 &lt;p&gt;It isn’t hard to install and can be done via a web browser, the qFlipper desktop management program, or the mobile app. I’ve done it via web and mobile with no issues. It’s just as smooth as installing the standard firmware.&lt;/p&gt;
 &lt;h2&gt;Features and Capabilities&lt;/h2&gt;
@@ -105,7 +105,7 @@
 &lt;p&gt;One thing I was worried about was that the novelty of the device would wear off quickly, and I wouldn’t touch it again. Well, the novelty did wear off, but what it was replaced with is arguably better. Utility. The Flipper has taken the position of my keys and wallet in my right jean pocket.&lt;/p&gt;
 &lt;p&gt;The device is slated as a “multi-tool device for geeks” on the official website, and I don’t think a better description could be written. Much like a multitool, it’s something I &lt;em&gt;always&lt;/em&gt; want on me.&lt;/p&gt;
 &lt;p&gt;I think the multitool branding also sets expectations right. You don’t buy a multitool expecting it to replace your toolbox. You buy a multitool expecting a compact jack of all trades that is convenient to pocket. It isn’t a replacement for specialised tools; it’s a convenient, versatile supplement to them.&lt;/p&gt;
-&lt;h2&gt;Uses&lt;/h2&gt;
+&lt;h2&gt;Utility&lt;/h2&gt;
 &lt;p&gt;Part of always wanting it on my person is down to just how handy it’s been. I haven’t had it long, but it is such a useful little nugget and does so much. I’ve noted some of my favourite uses for it here, but the list is far from exhaustive. It can do &lt;em&gt;so&lt;/em&gt; much.&lt;/p&gt;
 &lt;p&gt;Perhaps one of the most common uses is as a remote control for TVs, set top boxes, VHS players, DVD players, Hi-Fi systems, air conditioners, lights, etc. If it’s been in my proximity and has infrared capabilities, then I’ve captured its signals. Being able to change the volume on the TV without having to send a search party out for the remote is one thing, but there are many devices I encounter with absent remotes where the Flipper is invaluable. I can either try brute force the codes or consult the &lt;a href=&quot;https://github.com/logickworkshop/Flipper-IRDB&quot;&gt;very comprehensive IRDB&lt;/a&gt;, which contains remotes for everything from clocks to bidets.&lt;/p&gt;
 &lt;p&gt;The feature of the Flipper that has saved me the most time is by far the BadUSB functionality. I can write scripts and, by emulating a USB keyboard, execute them on devices at my discretion. It’s handy for automating a slew of tasks, but perhaps the most useful I’ve set up runs a quick Windows Update, a Windows Security scan, and does a disk cleanup.&lt;/p&gt;
@@ -120,7 +120,7 @@
 &lt;p&gt;The Flipper is a ‘hacking’ tool. ‘Hacking’ comes with a bad rep. The second somebody mentions hacking, it’s assumed you’re trying to bust into a Gibson or something of that nature.&lt;/p&gt;
 &lt;p&gt;Obviously, the Flipper should be used responsibly. To bring up the multitool analogy once again, I could use the knife on a multitool to hold someone hostage or horrifically injure them. That doesn’t mean that I necessarily will though, and it certainly doesn’t mean multitools should be blanket banned.&lt;/p&gt;
 &lt;p&gt;There are many a lawmaker of the impression that the Flipper is a tool of evil. This isn’t the case, or at least not if used responsibly. The Flipper isn’t just evil, and it isn’t just a toy. It’s a tool.&lt;/p&gt;
-&lt;p&gt;We’ve seen previously that the Flipper can &lt;a href=&quot;https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth&quot;&gt;identify and highlight exploitable weaknesses&lt;/a&gt;, and that the knowledge gained from its usage &lt;a href=&quot;https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2&quot;&gt;can lead to fixes&lt;/a&gt;. If Flippers were banned, there is a decent likelihood that such exploits would persist without detection, or that a similar device would emerge to take it’s place.&lt;/p&gt;
+&lt;p&gt;We’ve seen previously that the Flipper can &lt;a href=&quot;https://www.theverge.com/2023/11/3/23944901/apple-iphone-ios-17-flipper-zero-attack-bluetooth&quot;&gt;identify and highlight exploitable weaknesses&lt;/a&gt;, and that the knowledge gained from its usage &lt;a href=&quot;https://www.theverge.com/2023/12/15/24003406/apple-iphone-flipper-zero-fix-ios-17-2&quot;&gt;can lead to fixes&lt;/a&gt;. If Flippers were banned, there is a decent likelihood that such exploits would persist without detection or that a similar device would emerge to take its place.&lt;/p&gt;
 &lt;p&gt;It is a tool - a very fun tool - and it should be treated as such. Inherently, it’s no more evil than a pocket knife. It’s how it’s used and the intent behind usage that matters.&lt;/p&gt;
 &lt;h2&gt;Community&lt;/h2&gt;
 &lt;p&gt;One thing that both inspires and disappoints me is the community surrounding the Flipper. Through Reddit and, to a lesser extent, the forums, there is a hostile culture.&lt;/p&gt;
@@ -128,8 +128,11 @@
 &lt;p&gt;There tends to be a RTFM approach slung at users unfamiliar with support etiquette and a general culture of downvoting those that ask simple questions. While I do think it is important to direct people towards the proper documentation instead of spoon feeding them, the hostility should be left at the door. The echo chamber that is Reddit is particularly guilty of this, and better must be done.&lt;/p&gt;
 &lt;p&gt;Separate from the negativity, there is a thriving community that dedicates their time to expanding, and experimenting with, the Flipper’s feature set.&lt;/p&gt;
 &lt;p&gt;As discussed with the Momentum firmware previously, much of the Flipper is open source, and the tooling to hack and build on it is readily available. This has led to a &lt;a href=&quot;https://lab.flipper.net/apps&quot;&gt;thriving app ecosystem&lt;/a&gt; and countless hardware addons that make use of the GPIO pins. Perhaps my favourite class of which are the &lt;a href=&quot;https://github.com/nmrr/flipperzero-geigercounter&quot;&gt;Geiger&lt;/a&gt; &lt;a href=&quot;https://github.com/eried/flipperzero-flippenheimer&quot;&gt;counters&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Overall Evaluation&lt;/h2&gt;
+&lt;p&gt;The Flipper Zero is a neat bit of tech. It’s an all in one, pocket sized tinkerer’s toolbox. No, it isn’t better than buying specialised hardware for each of its features, but that isn’t its goal. It fills the niche encapsulated by the ethos behind the quote, “the best camera is the one you have with you”. It’s built well and fulfils its purpose.&lt;/p&gt;
+&lt;p&gt;If the Flipper has made it onto your radar and piqued your interest, then chances are the only negative you’ll find in buying it is the impact on your wallet.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;If you liked my review of the Flipper, then do consider sharing it. Also, if you’d like to see me produce more content like this, then &lt;a href=&quot;/donate&quot;&gt;tips are very much appreciated&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I hope you got something out of my review of the Flipper. If you did, then do consider sharing it, and if you’d like to see me produce more content like this, consider &lt;a href=&quot;/support&quot;&gt;supporting me&lt;/a&gt;.&lt;/p&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
 &lt;/article&gt;
