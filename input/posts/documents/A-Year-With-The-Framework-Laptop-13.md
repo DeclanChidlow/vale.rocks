@@ -4,7 +4,7 @@
     <meta name="description" content="My review of the Framework Laptop 13. I cover the assembly, setup, value, build, support, community, and much more." />
     <meta property="og:description" content="Hold onto your trackpads, I'm reviewing the Framework." />
     <meta property="article:published_time" content="2023-12-01" />
-    <meta property="article:modified_time" content="2024-02-04" />
+    <meta property="article:modified_time" content="2024-07-03" />
     <meta property="article:section" content="Reviews" />
 </head>
 
@@ -16,7 +16,7 @@
 	</h1>
 	<ul>
 		<li><time datetime="2023-12-01">01 Dec, 2023</time></li>
-		<li>1495 words</li>
+		<li>1520 words</li>
 		<li>5 minute read</li>
 	</ul>
 </header>
@@ -27,7 +27,7 @@ Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device
 
 I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:
 
-- CPU: 12th Gen Intel(R) Core(TM) i5-1240P (16) @ 4.40 GHz
+- CPU: 12th Gen Intel® Core™ i5-1240P (16) @ 4.40 GHz
 - GPU: Intel Iris Xe Graphics
 - Memory: 2x 8GB DDR4-3200 RAM
 - Storage: 1TB WD BLACK SN770 NVMe SSD
@@ -58,7 +58,7 @@ The screen itself is excellent. It's 3:2 aspect ratio is ideal for tasks such as
 
 The reason that just about anyone would buy a Framework is for its user accessible servicing and customisation options. While I haven't yet broken my laptop, it's quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.
 
-Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. It's body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
+Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. Its body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
 
 Returning to the laptop, the flexibility to swap out components whenever I choose or opt for an upgrade adds a layer of convenience. The prospect of seamlessly installing new parts as they release is a significant advantage, as is choosing exactly the ports and components I want.
 
@@ -70,13 +70,13 @@ They've released a new 61Wh battery and battery optimisation improvements in the
 
 ## Support
 
-Speaking of their commitment to addressing issues, their user support is excellent. In the few instances where I've contacted support, I've generally gotten very helpful and timely responses. Admirably, they seem to prioritise the mental health of their support employees. Their [stance against abuse](https://old.reddit.com/r/framework/comments/178jutx/moment_of_appreciation_for_framework_taking_care) and [aversion to seasonal hiring](https://community.frame.work/t/status-of-framework-support-november-6th-2023/39554) demonstrates a conscientious approach I really can't say I've seen elsewhere.
+Speaking of their commitment to addressing issues, their user support is excellent. In the few instances where I've contacted support, I've generally gotten very helpful and timely responses. Admirably, they seem to prioritise the mental health of their support employees. Their [stance against abuse](https://old.reddit.com/r/framework/comments/178jutx/moment_of_appreciation_for_framework_taking_care) and [aversion to seasonal hiring](https://community.frame.work/t/status-of-framework-support-november-6th-2023) demonstrates a conscientious approach I really can't say I've seen elsewhere.
 
-As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. [There has been work done](https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta/25726), but it's been in beta for several months and sets a bad precedent.
+As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. [There has been work done](https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta), but it's been in beta for several months and sets a bad precedent.
 
 ## Community
 
-It isn't just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes I haven't seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day someone shares some crazy thing like [spring loaded expansion cards](https://community.frame.work/t/spring-loaded-expansion-card/36013) or a [crazy new form factor](https://community.frame.work/t/framework-gaming-handheld-video/36591). It's excellent to see. I've found that any issue I've encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.
+It isn't just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes I haven't seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day, someone shares some crazy thing, like [spring loaded expansion cards](https://community.frame.work/t/spring-loaded-expansion-card/36013) or a [crazy new form factor](https://community.frame.work/t/framework-gaming-handheld-video/36591). It's excellent to see. I've found that any issue I've encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.
 
 ## Overall Evaluation
 
@@ -84,15 +84,17 @@ I think the Framework Laptop is excellent for just about anyone needing a comput
 
 If you need any further evidence as to how highly I regard the Framework Laptop 13, then the fact that I convinced my brother to select one as a replacement for his ageing Surface Go should tell you all you need to know. As he got it more recently, he had the option of the new AMD model, which meant waiting a while due to the batch system, but it only took just over a week to arrive once it shipped. He's been very happy with it, and it's worked excellently thus far.
 
-## February 2023 Update
+## 2024 Update
 
-I'm still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework has finally taken action in regards to the BIOS and [has released a new beta](https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244). This is great to see, as I was beginning to worry. People have also started receiving the new Framework Laptop 16, which is very exciting.
+I'm still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework finally [released a new beta BIOS](https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244). This beta process then proceeded to once again stall for a significant period, and several people [(including myself)](https://community.frame.work/t/my-framework-has-been-abandoned) called out the lack of transparency and critical security patches. They've taken action to improve, but it does leave a sour taste in my mouth.
 
-In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly do love it. I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too hard, and was well documented, but took quite a bit of time. There were _so many_ screws. I'm happy with the result though, and really love the sleek, minimalist style it provides.
+In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly am loving it.
+
+I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too difficult thanks to the comprehensive documentation hosted on Framework's [Knowledge Base](https://knowledgebase.frame.work), but it was time consuming. There were _so many screws_. I'm happy with the end result though, and really love the sleek, minimalist style it provides.
 
 ---
 
-I hope you enjoyed my review. If you've got any questions about the laptop or think there is something I could add, then let me know in the comments below.
+I hope you enjoyed this review. If you've got any questions about the laptop, then I'm happy to answer them in the comments, and if you want to support me in writing more like this in the future, then consider [supporting me](/support).
 
 <section class="giscus"></section>
 
