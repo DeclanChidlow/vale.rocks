@@ -3,5 +3,5 @@
 .vscode/
 
 # Repo specific
-posts/feed/export/
-portfolio/feed/export/
+input/posts/export/
+input/portfolio/export/
