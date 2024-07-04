@@ -27,9 +27,9 @@ a[href^="#"]:after {
 }
 
 a[href^="mailto"]:after {
-	content: "mail";
+	content: "alternate_email";
 }
 
 a[href]:not([href*="vale.rocks"]):not([href^="/"]):not([href^="#"]):not([href^="mailto"]):after {
-	content: "open_in_new";
+	content: "arrow_outward";
 }
