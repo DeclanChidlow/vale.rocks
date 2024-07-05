@@ -205,7 +205,7 @@ Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/en/options.
 
 There you have my personal guidelines. I'm sure many people disagree (if only for my preference of tabs over spaces), and I'd love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.
 
-If you liked this post, then do consider sharing it. Also, if you'd like to support me in making more like it, consider [sending me a tip](/donate). It'd mean a lot.
+If you liked this post, then do consider sharing it. Also, if you'd like to support me in making more like it, consider [sending me a tip](/support). It'd mean a lot.
 
 <section class="giscus"></section>
 

@@ -63,7 +63,7 @@ In my eyes, this still doesn't excuse the unnecessary risk and inconvenience tha
 
 ---
 
-If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you'd like to see me produce similar content into the future, then consider [sending me a tip](/donate). It'd mean a lot.
+If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you'd like to see me produce similar content into the future, then consider [sending me a tip](/support). It'd mean a lot.
 
 <section class="giscus"></section>
 
