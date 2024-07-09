@@ -14,15 +14,15 @@
 
 <div class="readable_width">
 
-For many years, my grandmother has been writing poems. Upon seeing my work, she requested that I compile them into a proper, professionally printed book.
+My grandmother, Pamela Maitland Carter, has been writing poetry for decades. Leveraging my design knowledge and extensive experience with software such as Adobe's Creative Cloud, I compiled many of these poems into a four volume set.
 
-Using InDesign, I sifted through over 20 years of word documents, photographs, and treasured fragments to create something that would do her poems justice. The layout and styling also incorporate a personal touch, as it was created for someone whom I love very much.
+The books contain a mixture of stock photos, photography taken by myself, and remastered photos from the family archives (in some cases meticulously colourised) .
 
-Beyond creating something that honoured my grandmother's dedication to poetry, it also proved an excellent opportunity to broaden my knowledge of designing for press and physical mediums, and I gained a lot of knowledge doing it.
+The books feature a combination of stock photos, [my own photography](/portfolio/Photography), and family archive images. Some of these archival photos have been meticulously colourized, while others 'merely' needed restoration.
 
-<img id="left" src="https://autumn.revolt.chat/attachments/lSH-X8OWpTKjR2QXZM7Y35B0w5o32GjQmACOkTlJPs" alt="A hardcover book with a painting-style cover titled 'Spiritual Poems by Pamela' on a pale pink background. The subtitle 'Volume One - He Is There' is at the top, and the author's name 'Pamela Maitland Carter' is at the bottom. The cover image depicts a pastoral landscape with a figure in a red hat amidst greenery and flowers under a blue sky." />
+Beyond crafting a polished set of books, the entire process proved an excellent opportunity to broaden my knowledge of press publication and design for physical mediums.
 
-<img id="right" src="https://autumn.revolt.chat/attachments/jSP2GLY4xKnxMK_7qOT0P_Ev4hw00RqmDZvp53W3Fw" alt="An open book is resting on a beige surface with the left page titled 'THE POWER OF PRAYER' in bold letters and featuring a text passage. The right page contains a photograph of a silhouetted person with arms outstretched against a backdrop of a forest and a golden sunset. The book is halfway open." />
+If you'd like a copy, the whole set is [available to purchase on Amazon](https://amazon.com/dp/B0CW1B4V2M).
 
 </div>
 </article>
