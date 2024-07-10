@@ -44,7 +44,7 @@ content = """\
 	<hr/>\
 	<p id='altText'></p>\
 	</div>\
-	<script src='/scripts/figureview.js'></script>\
+	<script src='/scripts/view-figures.js'></script>\
 	"""
 
 [[main.block]]
