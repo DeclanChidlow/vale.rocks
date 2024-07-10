@@ -5,6 +5,10 @@ format = "html"
 content_file = "../global/elements/head.html"
 
 [[main.block]]
+format = "html"
+content = "<meta property='article:section' content='Portfolio' />"
+
+[[main.block]]
 format = "style"
 content = ":root{--header_background: var(--green)}"
 

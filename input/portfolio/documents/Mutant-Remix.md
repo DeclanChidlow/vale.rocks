@@ -1,7 +1,6 @@
 <head>
   <title>Mutant Remix Website | Vale.Rocks</title>
   <meta property="og:title" content="Mutant Remix Website"/>
-  <meta property="article:section" content="Portfolio" />
 </head>
 
 <article>

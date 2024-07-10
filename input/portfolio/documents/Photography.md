@@ -1,7 +1,6 @@
 <head>
   <title>Photography | Vale.Rocks</title>
   <meta property="og:title" content="Photography"/>
-  <meta property="article:section" content="Portfolio" />
 </head>
 
 <article>

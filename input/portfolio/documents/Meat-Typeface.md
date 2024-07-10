@@ -1,7 +1,6 @@
 <head>
   <title>Meat Typeface | Vale.Rocks</title>
   <meta property="og:title" content="Meat Typeface"/>
-  <meta property="article:section" content="Portfolio" />
 </head>
 
 <article>

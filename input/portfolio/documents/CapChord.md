@@ -1,7 +1,6 @@
 <head>
   <title>CapChord | Vale.Rocks</title>
   <meta property="og:title" content="CapChord"/>
-  <meta property="article:section" content="Portfolio" />
 </head>
 
 <article>

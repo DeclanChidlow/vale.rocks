@@ -1,7 +1,6 @@
 <head>
   <title>Pam Carter's Scriptural Poetry | Vale.Rocks</title>
   <meta property="og:title" content="Poems By Pam"/>
-  <meta property="article:section" content="Portfolio" />
 </head>
 
 <article>
