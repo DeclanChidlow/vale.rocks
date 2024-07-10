@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 Document editing is a horrible business that I wouldn't wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can't be combated by even the most confident keyboard cowboys.
 

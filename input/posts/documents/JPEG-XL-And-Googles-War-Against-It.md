@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 There is no doubt you're familiar with GIFs, PNGs, and JPEGs. These image formats have been _the_ way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.
 

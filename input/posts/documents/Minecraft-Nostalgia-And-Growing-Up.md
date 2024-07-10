@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 I'm sitting here writing this on a rainy Monday night. This article is going live on April 2nd, the day of my 18th birthday. Tomorrow, I'm legally an adult. I can vote. I can drink. I can smoke. I can go to an adult shop. I can gamble away my savings.
 

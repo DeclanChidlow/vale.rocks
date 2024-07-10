@@ -22,7 +22,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 I like computers, and I like tinkering. I also don't mind stretching rules a little if it means I can do something not intended. I've burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.
 

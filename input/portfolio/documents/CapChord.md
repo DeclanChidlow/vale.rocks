@@ -12,7 +12,7 @@
 	</h1>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 CapChord is a mobile call-out business that I both personally own and operate. It's dedicated to helping the elderly and those with limited technical knowledge by providing support with a range of digital tasks.
 

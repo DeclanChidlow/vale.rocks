@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 I'm not quiet about my intense distaste for Microsoft's feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it's not always possible to do so.
 

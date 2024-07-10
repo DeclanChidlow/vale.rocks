@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the 'hacker' is wearing a Guy Fawkes mask. However, this depiction couldn't be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.
 

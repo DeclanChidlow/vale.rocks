@@ -12,7 +12,7 @@
 	</h1>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 I'm near certain that most people, at some point, have fantasised about wielding meat as a writing tool. Well, you needn't wait any longer, as my meat typeface fulfils that dream.
 

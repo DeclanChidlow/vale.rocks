@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is _not_ something I, nor anyone else, ever want to deal with.
 

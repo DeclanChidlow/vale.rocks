@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.
 

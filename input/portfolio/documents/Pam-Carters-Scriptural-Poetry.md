@@ -12,7 +12,7 @@
 	</h1>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 My grandmother, Pamela Maitland Carter, has been writing poetry for decades. Leveraging my design knowledge and extensive experience with software such as Adobe's Creative Cloud, I compiled many of these poems into a four volume set.
 

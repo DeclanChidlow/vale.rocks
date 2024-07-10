@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.
 

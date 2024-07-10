@@ -21,7 +21,7 @@
 	</ul>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.
 

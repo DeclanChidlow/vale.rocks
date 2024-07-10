@@ -12,7 +12,7 @@
 	</h1>
 </header>
 
-<div class="readable_width">
+<div class="readable-width">
 
 Mutant Remix is an emoji pack built for the chat platform [Revolt](/blog/Revolt_Promotion). It combines the blobby shapes of Android's emojis of old with the crisp, bold style of Mutant Standard, creating something new and distinct.
 
