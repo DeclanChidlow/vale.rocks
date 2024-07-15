@@ -19,6 +19,7 @@ done
 
 # Generate posts
 cd input/posts || exit
+adduce feed establish
 posts=(
   "Welcome"
   "School-Internet"
@@ -43,6 +44,7 @@ cd ../..
 
 # Generate portfolio items
 cd input/portfolio || exit
+adduce feed establish
 portfolio_items=(
   "Mutant-Remix"
   "CapChord"
@@ -58,6 +60,7 @@ cd ../..
 
 # Generate tools
 cd input/tools || exit
+adduce feed establish
 tools=(
   "validator"
 )
