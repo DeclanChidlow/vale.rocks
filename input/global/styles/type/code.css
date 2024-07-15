@@ -5,6 +5,10 @@ pre {
 	padding: 0.8rem;
 	width: 100%;
 	background: light-dark(var(--bright_grey), var(--grey));
+
+	code {
+		background: none;
+	}
 }
 
 code {
@@ -17,8 +21,20 @@ code {
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
-}
+	counter-reset: step;
+	counter-increment: step 0;
 
-pre code {
-	background: none;
+	.line {
+		&::before {
+			content: counter(step);
+			counter-increment: step;
+			width: 1rem;
+			margin-right: 1.5rem;
+			display: inline-block;
+			text-align: right;
+		}
+		&:last-child::before {
+			content: none;
+		}
+	}
 }
