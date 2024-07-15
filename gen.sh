@@ -19,7 +19,7 @@ done
 
 # Generate posts
 cd input/posts || exit
-post_feeds=(
+posts=(
   "Welcome"
   "School-Internet"
   "LibreOffice-Setup"
@@ -35,25 +35,36 @@ post_feeds=(
   "JPEG-XL-And-Googles-War-Against-It"
   "I-Got-A-Flipper-Zero"
 )
-for feed in "${post_feeds[@]}"; do
-  adduce feed export "$feed"
+for post in "${posts[@]}"; do
+  adduce feed export "$post"
 done
 cp -r export/. ../../docs/posts
 cd ../..
 
 # Generate portfolio items
 cd input/portfolio || exit
-portfolio_feeds=(
+portfolio_items=(
   "Mutant-Remix"
   "CapChord"
   "Pam-Carters-Scriptural-Poetry"
   "Photography"
   "Meat-Typeface"
 )
-for feed in "${portfolio_feeds[@]}"; do
-	adduce feed export "$feed"
+for portfolio in "${portfolio_items[@]}"; do
+	adduce feed export "$portfolio"
 done
 cp -r export/. ../../docs/portfolio
+cd ../..
+
+# Generate tools
+cd input/tools || exit
+tools=(
+  "validator"
+)
+for tool in "${tools[@]}"; do
+	adduce feed export "$tool"
+done
+cp -r export/. ../../docs/tools
 cd ../..
 
 # Copy global styles and assets

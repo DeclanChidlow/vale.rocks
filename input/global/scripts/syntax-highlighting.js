@@ -30,20 +30,10 @@ const processCodeBlock = async (codeBlock) => {
 	if (!language) return;
 
 	const code = unescapeHTMLEntities(codeBlock.innerHTML);
-	const id = codeBlock.getAttribute("id");
-
-	const newOuterHTML = await codeToHtml(code, {
+	codeBlock.parentElement.outerHTML = await codeToHtml(code, {
 		lang: language,
 		theme: "vitesse-dark",
 	});
-
-	const parser = new DOMParser();
-	const newElement = parser.parseFromString(newOuterHTML, "text/html").body.firstChild;
-	if (id) {
-		newElement.setAttribute("id", id);
-	}
-
-	codeBlock.parentElement.outerHTML = newElement.outerHTML;
 };
 
 await Promise.all(Array.from(document.querySelectorAll("pre code")).map(processCodeBlock));

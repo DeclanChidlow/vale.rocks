@@ -1,7 +1,14 @@
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
 button,
 select,
 input,
 textarea {
+	display: block;
 	color: light-dark(var(--black), var(--bright_white));
 	padding: 0.2rem 0.5rem;
 	background: var(--grey);
@@ -24,7 +31,19 @@ select {
 }
 
 textarea {
-	display: block;
+	width: 100%;
+	resize: vertical;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	margin-right: 1ch;
+
+	&:checked {
+		background-color: var(--blue);
+	}
 }
 
 ::placeholder {

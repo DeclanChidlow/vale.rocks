@@ -5,6 +5,7 @@ pre {
 	padding: 0.8rem;
 	width: 100%;
 	background: light-dark(var(--bright_grey), var(--grey));
+	line-height: 150%;
 
 	code {
 		background: none;
