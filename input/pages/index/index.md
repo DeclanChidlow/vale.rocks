@@ -17,7 +17,7 @@ Ahoy! I'm Declan Chidlow, a passionate frontend developer. I like to believe I'v
 
 When I'm not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.
 
-Apart from [my blog](/blog), which documents my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging. I hope you poke about and have fun doing it.
+Apart from being a home for [my thoughts and musings](/posts), this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging.
 
 ## Let's Connect
 
