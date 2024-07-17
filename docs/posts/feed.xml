@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-07-06T12:04:33.188158587+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>I-Got-A-Flipper-Zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-07-17T02:24:49.085926237+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>I-Got-A-Flipper-Zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -14,10 +14,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
-
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
 
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
@@ -55,7 +51,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;I Got A Flipper Zero | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;I Got A Flipper Zero&quot;/&gt;
@@ -78,7 +74,7 @@
 		&lt;li&gt;7 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;I like computers, and I like tinkering. I also don’t mind stretching rules a little if it means I can do something not intended. I’ve burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.&lt;/p&gt;
 &lt;p&gt;I’ve been a fan of the sort of stuff &lt;a href=&quot;https://hak5.org&quot;&gt;Hak5&lt;/a&gt; produces for a while, but I’m no professional pentester, and I honestly can’t see myself using their offerings all that often. That’s why the Flipper jumped out to me. A device that condenses the functionality of many of their gizmos into a sleek, pocketable device.&lt;/p&gt;
 &lt;p&gt;It struck me as just the sort of thing to scratch my itch, so I went about getting one.&lt;/p&gt;
@@ -189,10 +185,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -229,7 +221,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;A Year With The Framework Laptop 13 | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;A Year With The Framework Laptop 13&quot;/&gt;
@@ -251,7 +243,7 @@
 		&lt;li&gt;5 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.&lt;/p&gt;
 &lt;p&gt;I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -349,10 +341,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -389,7 +377,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Halo: My Thoughts | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Halo: My Thoughts&quot;/&gt;
@@ -411,7 +399,7 @@
 		&lt;li&gt;11 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;If you had asked me at the start of this year my opinion on Halo, I wouldn’t have had anything to say. I’d played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I’ve played through every single mainline Halo game - from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC) with the exception of 5 and Infinite, which I played through their standalone games. I’ll only be discussing the campaigns, as I have scarcely touched the multiplayer.&lt;/p&gt;
 &lt;p&gt;I’ll be avoiding spoilers for the most part. If I’ve got anything specific to mention about the campaign, then I’ll place it in a “Campaign Specifics” drop down at the conclusion of the entry. I recommend reading those sections after playing through the games, for they won’t make much sense otherwise. This means that even if you haven’t touched the series, you can rest assured this article shouldn’t ruin your experience. That said, just go play the games. They’re worth it. I also just want to give thanks to my friend Sebastien, who advised I get into the series. It was a good call.&lt;/p&gt;
 &lt;h2&gt;Halo: Combat Evolved&lt;/h2&gt;
@@ -557,10 +545,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -597,7 +581,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Welcome | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Welcome&quot;/&gt;
@@ -619,7 +603,7 @@
 		&lt;li&gt;2 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;Welcome to my brand new website!&lt;/p&gt;
 &lt;p&gt;I’ve had a website for years but never quite gone all the way in configuring it. I’ve had bits and bobs written up, but never completely and to a standard I’m happy with. There have always been issues and sloppy code preventing me from maintaining and improving it. This time I’ve built the website using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jeckyll&lt;/a&gt; which allows markdown styling and far better scalability. I can dynamically create blog pages and share .html snippets across the site.&lt;/p&gt;
 &lt;p&gt;I will never quite finish this site. It’ll likely be a work in progress my entire life. I’ll keep tweaking, editing, and breaking it as time goes on, but that is the way it should be. To quote &lt;a href=&quot;https://www.wendycarlos.com/live.html&quot;&gt;Wendy Carlos’ website&lt;/a&gt;:&lt;/p&gt;
@@ -687,10 +671,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -727,7 +707,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;The Ultimate LibreOffice Setup | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;The Ultimate LibreOffice Setup&quot;/&gt;
@@ -749,7 +729,7 @@
 		&lt;li&gt;4 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;Document editing is a horrible business that I wouldn’t wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can’t be combated by even the most confident keyboard cowboys.&lt;/p&gt;
 &lt;p&gt;I’ve spent a lot of time trying to wrangle my word editing and perfect my proofreading performance by configuring and tweaking my LibreOffice setup to perfection. First thing to look at is why I chose LibreOffice over any other document suite.&lt;/p&gt;
 &lt;h2&gt;Best Suite&lt;/h2&gt;
@@ -835,10 +815,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -875,7 +851,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Prematurely Pulling The Plug On 3G | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Prematurely Pulling The Plug On 3G&quot;/&gt;
@@ -897,7 +873,7 @@
 		&lt;li&gt;3 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia’s 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.&lt;/p&gt;
 &lt;p&gt;As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.&lt;/p&gt;
 &lt;h2&gt;Impact on Devices&lt;/h2&gt;
@@ -976,10 +952,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -1016,7 +988,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Cybersecurity Superstition | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Cybersecurity Superstition&quot;/&gt;
@@ -1038,7 +1010,7 @@
 		&lt;li&gt;7 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the ‘hacker’ is wearing a Guy Fawkes mask. However, this depiction couldn’t be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.&lt;/p&gt;
 &lt;p&gt;Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I’ve decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.&lt;/p&gt;
 &lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
@@ -1152,10 +1124,6 @@
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -1192,7 +1160,7 @@
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;My Code Formatting Guidelines | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;My Code Formatting Guidelines&quot;/&gt;
@@ -1214,7 +1182,7 @@
 		&lt;li&gt;3 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is &lt;em&gt;not&lt;/em&gt; something I, nor anyone else, ever want to deal with.&lt;/p&gt;
 &lt;p&gt;This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I’ve documented them here.&lt;/p&gt;
 &lt;p&gt;Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.&lt;/p&gt;
@@ -1395,10 +1363,6 @@ x =&amp;gt; x
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -1435,7 +1399,7 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Making Windows &quot;Usable&quot; | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&apos;Making Windows &quot;Usable&quot;&apos; /&gt;
@@ -1457,7 +1421,7 @@ x =&amp;gt; x
 		&lt;li&gt;4 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;I’m not quiet about my intense distaste for Microsoft’s feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it’s not always possible to do so.&lt;/p&gt;
 &lt;p&gt;This year, I found myself doing a Certificate IV in Graphic Design that required Adobe’s Creative Cloud. As I’m sure you know, this software only runs on MacOS and Windows, which lead to quite the conundrum. Not willing to give up my beloved Arch Linux, I needed a way to get these programs running on my computer.&lt;/p&gt;
 &lt;p&gt;Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn’t the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.&lt;/p&gt;
@@ -1546,10 +1510,6 @@ x =&amp;gt; x
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -1586,7 +1546,7 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Minecraft, Nostalgia, and Growing Up | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Minecraft, Nostalgia, and Growing Up&quot;/&gt;
@@ -1608,7 +1568,7 @@ x =&amp;gt; x
 		&lt;li&gt;5 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;I’m sitting here writing this on a rainy Monday night. This article is going live on April 2nd, the day of my 18th birthday. Tomorrow, I’m legally an adult. I can vote. I can drink. I can smoke. I can go to an adult shop. I can gamble away my savings.&lt;/p&gt;
 &lt;p&gt;I could dwell on the encroaching responsibilities of adulthood or reminisce about the ‘end’ of my childhood. I could even lament the gum stuck to my shoe that I keep forgetting to scrape off. But I want to write about a game that sits with me. Minecraft.&lt;/p&gt;
 &lt;p&gt;Like many of my generation, I grew up with Minecraft. My journey with Minecraft began many years ago through YouTube, watching people like &lt;a href=&quot;https://www.youtube.com/@stampycat&quot;&gt;StampyLongHead&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/@iBallisticSquid&quot;&gt;iBallisticSquid&lt;/a&gt;. Now, looking back, I realise just how strong my feelings for the game are.&lt;/p&gt;
@@ -1710,10 +1670,6 @@ x =&amp;gt; x
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -1750,7 +1706,7 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;JPEG XL And Google&apos;s War Against It | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;JPEG XL And Google&apos;s War Against It&quot;/&gt;
@@ -1772,7 +1728,7 @@ x =&amp;gt; x
 		&lt;li&gt;8 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;There is no doubt you’re familiar with GIFs, PNGs, and JPEGs. These image formats have been &lt;em&gt;the&lt;/em&gt; way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.&lt;/p&gt;
 &lt;p&gt;Yet these formats aren’t quite as ubiquitous as they once were, and we’ve seen many competing standards materialise in the past few years. Perhaps most promising is JPEG XL, yet its innovation seems to go unrecognised and its adoption is stifled. But why? To get a full picture, I think it’s best we start with the advent of displaying images on computers.&lt;/p&gt;
 &lt;h2&gt;A Brief History&lt;/h2&gt;
@@ -1920,10 +1876,6 @@ x =&amp;gt; x
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -1960,7 +1912,7 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;I Hate My Nokia | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;I Hate My Nokia&quot;/&gt;
@@ -1982,7 +1934,7 @@ x =&amp;gt; x
 		&lt;li&gt;4 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;My first phone was a RugGear RG930. If you think Nokia’s &lt;a href=&quot;https://www.gsmarena.com/nokia_3310-192.php&quot;&gt;3310&lt;/a&gt; was built like a brick, then this thing may as well have been a rubberised titanium brick. It was so sturdy I used to play ‘catch the phone’ with friends, and it ended up face down on concrete more times than I can count, but I don’t think it ever sustained so much as a scratch.&lt;/p&gt;
 &lt;p&gt;As time progressed, I decided I wanted something a &lt;em&gt;tad&lt;/em&gt; more featured, and later ended up with the &lt;a href=&quot;https://www.gsmarena.com/apple_iphone_se-7969.php&quot;&gt;first generation iPhone SE&lt;/a&gt;, a phone that was endlessly reliable when it wasn’t stuck in a bootloop thanks to my love of gaolbreaking. It was already a few years old by the time I got my hands on it, so it wasn’t much of a surprise when the battery started to degrade and I found myself looking for its replacement.&lt;/p&gt;
 &lt;p&gt;That replacement came in the form of the &lt;a href=&quot;https://www.gsmarena.com/nokia_2720_flip-9836.php&quot;&gt;Nokia 2720&lt;/a&gt;, a charming little flip phone. It was a nugget of a device, and I used it for a few years. It didn’t have support for anything fancy, but that wasn’t its intention. It was a simple communication device and served that purpose well. At least until it shed the D-pad, the company supporting the OS disappeared, and it started to take issue with my telco.&lt;/p&gt;
@@ -2074,10 +2026,6 @@ x =&amp;gt; x
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -2114,7 +2062,7 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Connecting to Australian Public School Internet | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Connecting to Australian Public School Internet&quot;/&gt;
@@ -2136,7 +2084,7 @@ x =&amp;gt; x
 		&lt;li&gt;3 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;Every now and then, somebody decides that it is time to mess around and ‘improve’ enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.&lt;/p&gt;
 &lt;p&gt;This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.&lt;/p&gt;
 &lt;h2&gt;Step 1&lt;/h2&gt;
@@ -2243,10 +2191,6 @@ x =&amp;gt; x
 	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
 	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
 
-	&lt;meta name=&quot;referrer&quot; content=&quot;strict-origin-when-cross-origin&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot; /&gt;
-	&lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;SAMEORIGIN&quot; /&gt;
-
 	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
 	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
@@ -2283,7 +2227,7 @@ x =&amp;gt; x
 
 &lt;main id=&quot;main&quot;&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/figureview.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;material-icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Everything Is Chrome | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Everything Is Chrome&quot;/&gt;
@@ -2305,7 +2249,7 @@ x =&amp;gt; x
 		&lt;li&gt;8 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
-&lt;div class=&quot;readable_width&quot;&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
 &lt;p&gt;The chances are you’ve heard of Google Chrome. It’s currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it’s crucial to examine how we reached this stage to form comprehensive opinions. Let’s start at the start with the birth of the first browser.&lt;/p&gt;
 &lt;h2&gt;The Early Days&lt;/h2&gt;
 &lt;p&gt;In 1990, &lt;a href=&quot;https://www.w3.org/People/Berners-Lee/WorldWideWeb.html&quot;&gt;WorldWideWeb (later known as Nexus)&lt;/a&gt; was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the &lt;a href=&quot;https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/&quot;&gt;National Center for Supercomputing Applications’ Mosaic&lt;/a&gt; came with big changes and huge influence.&lt;/p&gt;

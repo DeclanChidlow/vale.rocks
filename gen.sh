@@ -1,76 +1,66 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
-# Generate standard pages
-pages=(
-  "input/pages/index index.html"
-  "input/pages/posts posts.html"
-  "input/pages/portfolio portfolio.html"
-  "input/pages/contact contact.html"
-  "input/pages/support support.html"
-	"input/pages/services services.html"
-	"input/pages/404 404.html"
-)
+generate_pages() {
+    local input_dir="input/pages"
+    local output_dir="docs"
+    local output_dir="docs"
 
-for page_input in "${pages[@]}"; do
-  page="${page_input%% *}"
-  output="${page_input#* }"
-	adduce -c "$page" -n "$output" -o docs
-done
+    echo "Generating individual pages..."
+    for page_dir in "$input_dir"/*/; do
+        page_name=$(basename "${page_dir%/}")
+        output_file="${page_name}.html"
+        
+        adduce -c "$page_dir" -n "$output_file" -o "$output_dir"
+    done
+}
 
-# Generate posts
-cd input/posts || exit
-adduce feed establish
-posts=(
-  "Welcome"
-  "School-Internet"
-  "LibreOffice-Setup"
-  "Halo-My-Thoughts"
-  "Making-Windows-Usable"
-  "Prematurely-Pulling-The-Plug-On-3G"
-  "A-Year-With-The-Framework-Laptop-13"
-  "Everything-Is-Chrome"
-  "I-Hate-My-Nokia"
-  "Cybersecurity-Superstition"
-  "Minecraft-Nostalgia-And-Growing-Up"
-  "My-Code-Formatting-Guidelines"
-  "JPEG-XL-And-Googles-War-Against-It"
-  "I-Got-A-Flipper-Zero"
-)
-for post in "${posts[@]}"; do
-  adduce feed export "$post"
-done
-cp -r export/. ../../docs/posts
-cd ../..
+generate_items() {
+    local directory=$1
+    local output_dir=$2
 
-# Generate portfolio items
-cd input/portfolio || exit
-adduce feed establish
-portfolio_items=(
-  "Mutant-Remix"
-  "CapChord"
-  "Pam-Carters-Scriptural-Poetry"
-  "Photography"
-  "Meat-Typeface"
-)
-for portfolio in "${portfolio_items[@]}"; do
-	adduce feed export "$portfolio"
-done
-cp -r export/. ../../docs/portfolio
-cd ../..
+    echo "Generating items for $directory..."
+    cd "$directory" || { echo "Error: $directory directory not found"; exit 1; }
+    adduce feed establish
+    
+    for item in documents/*; do
+        if [ -f "$item" ]; then
+            item_name=$(basename "$item" .md)
+            adduce feed export "$item_name"
+        fi
+    done
+    
+    mkdir -p "../../docs/$output_dir"
+    cp -r export/. "../../docs/$output_dir" || { echo "Error copying items to docs/$output_dir directory"; exit 1; }
+    cd ../.. || exit
+}
 
-# Generate tools
-cd input/tools || exit
-adduce feed establish
-tools=(
-  "validator"
-)
-for tool in "${tools[@]}"; do
-	adduce feed export "$tool"
-done
-cp -r export/. ../../docs/tools
-cd ../..
+generate_posts() {
+    generate_items "input/posts" "posts"
+}
 
-# Copy global styles and assets
-cp -r input/global/assets docs/
-cp -r input/global/styles docs/
-cp -r input/global/scripts docs/
+generate_portfolio() {
+    generate_items "input/portfolio" "portfolio"
+}
+
+generate_tools() {
+    generate_items "input/tools" "tools"
+}
+
+copy_global_assets() {
+    echo "Copying styles, scripts and assets..."
+    cp -r input/global/styles docs/ || { echo "Error copying styles"; exit 1; }
+    cp -r input/global/scripts docs/ || { echo "Error copying scripts"; exit 1; }
+    cp -r input/global/assets docs/ || { echo "Error copying assets"; exit 1; }
+}
+
+main() {
+    generate_pages
+    generate_posts
+    generate_portfolio
+    generate_tools
+    copy_global_assets
+    echo "Site built successfully!"
+}
+
+main
