@@ -27,7 +27,7 @@ footer {
 		padding: 0 0.5rem;
 	}
 
-	a:not([href*="vale.rocks"]):not([href^="#"]):not([href^="/"]):not([href*="mailto"]):not([href*="tel"]):not([name]):after {
-		content: none;
+	a:after {
+		display: none;
 	}
 }
