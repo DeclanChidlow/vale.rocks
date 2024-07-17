@@ -29,7 +29,7 @@ content = "Portfolio"
 format = "html"
 content = """\
 	<div id='fullscreenModal'>\
-	<span id='close' class='material-icons'>close</span>\
+	<span id='close' class='icons'>close</span>\
 	<img id='fullscreenImg'>\
 	<p id='caption'></p>\
 	<hr/>\

@@ -13,7 +13,7 @@
 	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.ttf");
 }
 
-.material-icons {
+.icons {
 	font-family: "Material Symbols";
 	user-select: none;
 }
