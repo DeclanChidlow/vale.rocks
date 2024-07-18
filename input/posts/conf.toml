@@ -30,6 +30,15 @@ format = "html"
 content_file = "../global/elements/navbar.html"
 
 [[main.block]]
+format = "html"
+content = """\
+	<div id='scroll-progress-container'>\
+		<div id="scroll-progress"></div>\
+	</div>\
+	<script src='/scripts/scroll-indicator.js'></script>\
+	"""
+
+[[main.block]]
 format = "span"
 id = "section"
 content = "Posts"
@@ -38,11 +47,11 @@ content = "Posts"
 format = "html"
 content = """\
 	<div id='fullscreenModal'>\
-	<span id='close' class='icons'>close</span>\
-	<img id='fullscreenImg'>\
-	<p id='caption'></p>\
-	<hr/>\
-	<p id='altText'></p>\
+		<span id='close' class='icons'>close</span>\
+		<img id='fullscreenImg'>\
+		<p id='caption'></p>\
+		<hr/>\
+		<p id='altText'></p>\
 	</div>\
 	<script src='/scripts/view-figures.js'></script>\
 	"""
