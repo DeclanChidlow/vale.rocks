@@ -6,27 +6,22 @@ const refineBar = document.getElementById("refine-posts"),
 
 refineBar.style.display = "flex";
 
-postsSearch.addEventListener("input", handleSearch);
-postsFilter.addEventListener("change", handleFilter);
+postsSearch.addEventListener("input", filterPosts);
+postsFilter.addEventListener("change", filterPosts);
 document.addEventListener("keydown", handleShortcut);
 
-function handleSearch() {
-	const searchTerm = postsSearch.value.trim().toLowerCase();
-	filterPosts(searchTerm, postsFilter.value);
-}
+function filterPosts() {
+	const searchTerm = postsSearch.value.trim().toLowerCase(),
+		filterValue = postsFilter.value.toUpperCase();
 
-function handleFilter() {
-	const searchTerm = postsSearch.value.trim().toLowerCase();
-	filterPosts(searchTerm, postsFilter.value);
-}
-
-function filterPosts(searchTerm, filterValue) {
 	posts.forEach((post) => {
 		const postContent = post.textContent.trim().toLowerCase(),
-			postType = post.querySelector("p").textContent.trim().toUpperCase(),
-			matchesSearch = searchTerm === "" || postContent.includes(searchTerm),
-			matchesFilter = filterValue.toUpperCase() === "ALL" || postType === filterValue.toUpperCase();
-		post.style.display = matchesSearch && matchesFilter ? "" : "none";
+			postType = post.querySelector("p").textContent.trim().toUpperCase();
+
+		const matchesFilter = filterValue === "ALL" || postType === filterValue,
+			matchesSearch = searchTerm === "" || postContent.includes(searchTerm);
+
+		post.style.display = matchesFilter && matchesSearch ? "" : "none";
 	});
 }
 
@@ -37,7 +32,7 @@ function handleShortcut(event) {
 	} else if (event.key === "Escape" && document.activeElement === postsSearch) {
 		event.preventDefault();
 		postsSearch.value = "";
-		handleSearch();
+		filterPosts();
 		postsSearch.blur();
 	}
 }
