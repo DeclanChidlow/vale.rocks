@@ -32,8 +32,8 @@ content_file = "../global/elements/navbar.html"
 [[main.block]]
 format = "html"
 content = """\
-	<div id='scroll-progress-container'>\
-		<div id="scroll-progress"></div>\
+	<div id='scroll-indicator-container'>\
+		<div id="scroll-indicator"></div>\
 	</div>\
 	<script src='/scripts/scroll-indicator.js'></script>\
 	"""
