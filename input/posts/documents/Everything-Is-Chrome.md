@@ -87,14 +87,12 @@ Google's Blink sees the most use by far. Just about any browser that you might u
 Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink.
 
 <p id="showChromium" style="display:none;">
-When you loaded this page, I ran a small amount of JavaScript to check if your browser is Chromium based. If my check was accurate, the web browser you are currently reading this in is Chromium based.
+If you're wondering, the browser you're reading this article in is Chromium based according to a script I wrote.
 </p>
 
 <script>
-    var isChromium = !!window.chrome;
-
-    if (isChromium) {
-      document.getElementById("showChromium").style.display = 'block';
+    if (!!window.chrome) {
+        document.getElementById("showChromium").style.display = 'block';
     }
 </script>
 
