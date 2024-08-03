@@ -1,21 +1,41 @@
-header#navbar {
-	height: 5rem;
-	width: 100%;
-	padding: 0 3rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	gap: 1rem;
+#navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
-	text-transform: uppercase;
-	font-size: 1.3rem;
+	height: 5rem;
+	width: 100%;
+	padding: 0 3rem;
 	pointer-events: none;
 	z-index: 1000;
 
-	#navlanding {
-		font-weight: 700;
+	#menu {
+		display: flex;
+		align-items: center;
+		justify-content: right;
+		height: 100%;
+		text-transform: uppercase;
+		font-size: 1.3rem;
+		gap: 1rem;
+
+		#navlanding {
+			font-weight: 700;
+		}
+
+		.menu-items {
+			display: flex;
+			list-style: none;
+			gap: 1rem;
+
+			li {
+				margin: 0;
+			}
+		}
+
+		.open-menu,
+		.close-menu {
+			display: none;
+			font-size: 2rem;
+		}
 	}
 
 	a {
@@ -23,13 +43,10 @@ header#navbar {
 		text-decoration: none;
 		cursor: pointer;
 		pointer-events: all;
-	}
 
-	nav ul {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 1rem;
-		list-style: none;
+		&::after {
+			content: none;
+		}
 	}
 
 	.skip-link {
@@ -40,22 +57,86 @@ header#navbar {
 		margin: 1rem;
 		background: light-dark(var(--white), var(--grey));
 		transform: translateY(calc(-100% - 1rem));
+
+		&:focus {
+			transform: translateY(0%);
+		}
 	}
 
-	.skip-link:focus {
-		transform: translateY(0%);
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(light-dark(var(--bright_white), var(--black)), transparent);
+		z-index: -1;
 	}
 }
 
-header#navbar::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(light-dark(var(--bright_white), var(--black)), transparent);
-	z-index: -1;
+@media (max-width: 700px) {
+	#navbar {
+		padding: 0 0.8rem;
+
+		#menu {
+			justify-content: space-between;
+
+			.menu-items {
+				display: none;
+			}
+
+			&:not(:target) .menu-items {
+				display: none;
+			}
+
+			.open-menu {
+				display: block;
+				margin: 0.8rem 0 0.8rem 0.8rem;
+			}
+
+			&:target {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: 3rem;
+				overflow: auto;
+				pointer-events: none;
+				background-image: linear-gradient(light-dark(var(--bright_white), var(--black)), var(--red));
+				z-index: 1001;
+
+				#navlanding {
+					display: none;
+				}
+
+				.menu-items {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					font-size: 2.5rem;
+					gap: 2rem;
+				}
+
+				.close-menu {
+					display: block;
+					position: fixed;
+					top: 0;
+					right: 0;
+					margin: 0.8rem;
+				}
+
+				.open-menu {
+					display: none;
+				}
+			}
+		}
+	}
 }
 
 /*Post scroll indicator*/
@@ -80,11 +161,5 @@ header#navbar::after {
 		width: 0.2rem;
 		height: 100%;
 		background: light-dark(var(--bright_white), var(--black));
-	}
-}
-
-@media (max-width: 700px) {
-	header#navbar {
-		padding: 0 0.8rem;
 	}
 }

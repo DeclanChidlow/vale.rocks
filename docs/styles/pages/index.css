@@ -18,7 +18,7 @@ footer {
 
 #herotext {
 	pointer-events: none;
-	z-index: 1000;
+	z-index: 999;
 
 	h1 {
 		font-size: 6rem;
