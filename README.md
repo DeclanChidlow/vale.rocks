@@ -7,7 +7,6 @@
   [![Pull Requests](https://img.shields.io/github/issues-pr/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/pulls)
   [![Issues](https://img.shields.io/github/issues/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/issues)
   [![Contributors](https://img.shields.io/github/contributors/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/graphs/contributors)
-  [![Licence](https://img.shields.io/github/license/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/blob/main/LICENCE)
 </h1>
 Personal website of Declan Chidlow
 </div>
@@ -22,4 +21,6 @@ This site is built using my static site generator, [Adduce](https://adduce.vale.
 
 ## Generating
 
-The site can be conveniently generated with the [`gen.sh`](https://github.com/DeclanChidlow/vale.rocks/blob/main/gen.sh) script. This script will need editing whenever new pages are added to the site. Currently, the site is hosted using GitHub Pages, so the script is configured to output the built site to the `/docs` folder within the repository for easy deployment.
+The site can be conveniently generated with the [`gen.sh`](https://github.com/DeclanChidlow/vale.rocks/blob/main/gen.sh) script. Currently, the site is hosted using GitHub Pages, so the script is configured to output the built site to the `/docs` folder within the repository for easy deployment.
+
+To generate the Atom feed, [`atom.sh`](https://github.com/DeclanChidlow/vale.rocks/blob/main/atom.sh) should be run. This is separate to `gen.sh` so that all diffs aren't just the Atom feed changing.
