@@ -1,7 +1,7 @@
 footer {
 	display: flex;
 	flex-direction: column;
-	gap: 0.3rem;
+	gap: 0.5rem;
 	text-align: center;
 	margin: 2rem 0 1rem;
 
@@ -18,16 +18,18 @@ footer {
 		}
 	}
 
-	a:link,
-	a:visited,
-	a:hover,
-	a:active {
+	a {
 		color: light-dark(var(--orange), var(--yellow));
 		text-decoration: none;
 		padding: 0 0.5rem;
-	}
 
-	a:after {
-		display: none;
+		&:hover,
+		&:focus {
+			opacity: 0.6;
+		}
+
+		&:after {
+			display: none;
+		}
 	}
 }
