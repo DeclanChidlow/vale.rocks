@@ -80,7 +80,6 @@
 		padding: 0 0.8rem;
 
 		#menu {
-			justify-content: space-between;
 			font-size: 1.5rem;
 
 			.menu-items {
@@ -97,20 +96,13 @@
 			}
 
 			&:target {
-				display: flex;
-				flex-direction: column;
 				justify-content: center;
-				align-items: center;
 				position: fixed;
 				top: 0;
 				left: 0;
 				width: 100%;
-				height: 100%;
 				padding: 3rem;
-				overflow: auto;
-				pointer-events: none;
 				background-image: linear-gradient(light-dark(var(--bright_white), var(--black)), var(--red));
-				z-index: 1001;
 
 				#navlanding {
 					display: none;
@@ -121,6 +113,7 @@
 					flex-direction: column;
 					align-items: center;
 					font-size: 2.5rem;
+					font-weight: 600;
 					gap: 2rem;
 				}
 

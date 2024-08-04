@@ -1,6 +1,6 @@
 @keyframes fadeInUp {
 	from {
-		transform: translateY(50px);
+		transform: translateY(3rem);
 		opacity: 0;
 	}
 	to {
@@ -10,5 +10,5 @@
 }
 
 .fade-in-up {
-	animation: 0.5s both fadeInUp;
+	animation: fadeInUp 0.5s;
 }
