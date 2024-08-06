@@ -8,7 +8,7 @@ This page details some of the many things I use. Generally, my selections align 
 
 Day to day I run a Framework Laptop 13. More information about my specific device and my experience with it is available in [my review](https://vale.rocks/posts/A-Year-With-The-Framework-Laptop-13).
 
-In general, I run NixOS on all my devices. I'm a huge fan of it's declarative configuration. The ability to run things in an ephemeral shell with `nix-shell:p` is also core to my iterative development processes.
+In general, I run NixOS on all my devices. I'm a huge fan of it's declarative configuration. The ability to run things in an ephemeral shell with `nix-shell -p` is also core to my iterative development processes.
 
 ### Environment
 
