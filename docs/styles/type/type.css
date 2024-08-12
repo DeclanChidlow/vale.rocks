@@ -22,9 +22,9 @@ blockquote {
 }
 
 li {
-	list-style-position: inside;
 	line-height: 1.4rem;
 	margin-bottom: 0.3rem;
+	margin-left: 2rem;
 }
 
 abbr,
