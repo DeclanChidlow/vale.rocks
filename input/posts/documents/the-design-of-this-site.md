@@ -49,15 +49,15 @@ Finally, people who I interact with online that come to my site to find out more
 
 Every decision made for this site isn't just based on the personas above, but also on these fundamentals:
 
-1. **Design like print**
+1. **Design like print:**
    Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.
 
    Well-established rules are often overlooked, and while readers may not consciously notice them, they matter and subtly shape the user experience. Where possible, I attempt to incorporate well-defined typographic principles.
 
-2. **Function over form**
+2. **Function over form:**
    While functionality should always dictate form, form shouldn't necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I'm firmly of the belief that sites should respect that.
 
-3. **JavaScript is optional**
+3. **JavaScript is optional:**
    JavaScript has creeped its way into every facet of the web. This isn't necessarily a bad thing; JavaScript has its place. However, that place _isn't_ everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.
 
    While visiting this site with JavaScript enabled merits access to optional features, it _isn't_ required for the core reading experience and everything will operate cleanly in its absence.
@@ -66,20 +66,20 @@ Every decision made for this site isn't just based on the personas above, but al
 
 Vale.Rocks is home to some non-standard features and notable implementations of standard ones. Some of these include:
 
-- **Footnotes/Sidenotes**
+- **Footnotes/Sidenotes:**
   Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page.
   Assuming JavaScript is enabled, the footnotes open a popover when clicked. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's margin.
 
-- **Comments**
+- **Comments:**
   Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality.
 
-- **Link icons**
+- **Link icons:**
   Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.
 
-- **Figure lightboxes**
+- **Figure lightboxes:**
   Clicking on images within figures with JavaScript enabled will open them in a lightbox that allows users to view the caption and alt text.
 
-- **Scroll indicator**
+- **Scroll indicator:**
   When viewing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.
 
 ## Tooling
