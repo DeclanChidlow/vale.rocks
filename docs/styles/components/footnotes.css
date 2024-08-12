@@ -1,0 +1,61 @@
+.footnote-reference a {
+	padding: 0.25rem;
+	margin: -0.25rem;
+
+	&::after {
+		content: none;
+	}
+}
+
+.footnote-popover {
+	display: none;
+	position: absolute;
+	background: light-dark(var(--white), var(--grey));
+	padding: 0.5rem 1rem;
+	z-index: 1000;
+
+	.footnote-definition-label::before {
+		content: "Footnote ";
+	}
+}
+
+.footnote-definition {
+	display: flex;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+
+	.footnote-definition-label {
+		padding-right: 1rem;
+		border-right: 2px solid light-dark(var(--white), var(--bright_grey));
+		font-size: 1rem;
+	}
+
+	p {
+		padding-left: 1rem;
+		margin-bottom: 0;
+	}
+}
+
+.footnote-reference,
+.sidenote {
+	.highlight {
+		background-color: light-dark(var(--white), var(--grey));
+	}
+}
+
+.sidenote {
+	display: none;
+}
+
+@media (min-width: 90rem) {
+	.sidenote {
+		display: block;
+		position: absolute;
+		left: 65rem;
+		right: 3rem;
+		max-width: 40rem;
+		color: light-dark(var(--grey), var(--white));
+		padding: 0.5rem 1rem;
+		transition: background-color 0.25s;
+	}
+}

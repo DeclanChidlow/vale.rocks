@@ -15,6 +15,7 @@
 
 /* Importing component styles */
 @import url("/styles/components/footer.css");
+@import url("/styles/components/footnotes.css");
 @import url("/styles/components/figures.css");
 @import url("/styles/components/input.css");
 @import url("/styles/components/navbar.css");
