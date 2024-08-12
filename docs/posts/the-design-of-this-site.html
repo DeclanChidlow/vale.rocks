@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Vale Rocks" />
+	<meta name="author" content="Declan Chidlow" />
+	<meta property="og:locale" content="en_AU" />
+	<meta property="og:url" content="https://vale.rocks" />
+
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="alternate" type="application/rss+xml" href="https://vale.rocks/posts/feed.xml" />
+	<link rel="me" href="https://fedi.vale.rocks/vale" />
+	<link rel="me" href="https://github.com/DeclanChidlow" />
+	<link rel="me" href="https://bsky.app/profile/vale.rocks" />
+
+	<script type="module" src="/scripts/syntax-highlighting.js"></script>
+	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Declan Chidlow" />
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="transparent_dark"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+
+<script src='/scripts/footnotes.js'></script>
+<style>:root{--header_background: var(--magenta)}</style>
+<body>
+<header id="navbar">
+	<a class="skip-link" href="#main">Skip to content</a>
+	<nav id="menu">
+		<a href="/" id="navlanding">Vale</a>
+		<ul class="menu-items">
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+			<li class="icons close-menu"><a href="#">close</a></li>
+		</ul>
+		<a href="#menu" class="icons open-menu">menu</a>
+	</nav>
+</header>
+
+<main id="main">
+<div id='scroll-indicator-container'><div id="scroll-indicator"></div></div><script src='/scripts/scroll-indicator.js'></script>
+<span id="section">Posts</span>
+<div id='fullscreenModal'><span id='close' class='icons'>close</span><img id='fullscreenImg'><p id='caption'></p><hr/><p id='altText'></p></div><script src='/scripts/view-figures.js'></script>
+<head>
+    <title>The Design of This Site | Vale.Rocks</title>
+    <meta property="og:title" content="The Design of This Site"/>
+    <meta name="description" content="A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy." />
+    <meta property="og:description" content="The thought behind the experience." />
+    <meta property="article:published_time" content="2022-09-12" />
+    <meta property="article:modified_time" content="2024-08-12" />
+    <meta property="article:section" content="Meta" />
+</head>
+<article>
+<header>
+	 Meta
+	<h1>
+		The Design of This Site
+	</h1>
+	<ul>
+		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
+	    <li>1186 words</li>
+		<li>4 minute read</li>
+	</ul>
+</header>
+<div class="readable-width">
+<p>The web used to embody its name—a spider’s web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.</p>
+<p>Though a minority still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.</p>
+<p>Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page <a href="https://www.wendycarlos.com/live.html">describing how her website ‘lives’</a>:</p>
+<blockquote>
+<p>I’m happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a “work in progress”, for this would imply not much intrinsic value until that magic day it is completed.
+A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times – get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept.
+While it is possible to “finish” a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.</p>
+</blockquote>
+<p>Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on.</p>
+<h2>Personas</h2>
+<p>This site is crafted with three distinct user groups in mind:</p>
+<p>First, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site’s visitors, so it’s generally who I keep at the forefront of my mind, not just when I’m designing and implementing features but also when writing. It’s imperative that the site is quick to load for people coming from social media to ensure reader retention <sup class="footnote-reference"><a href="#1">1</a></sup>. This demographic is probably the most likely to read an article the full way through.</p>
+<p>Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won’t read the contents of an article, but it should look good at first glance.</p>
+<p>Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site, but don’t necessarily have a defined reason for their visit, and as such, likely won’t return without reason.</p>
+<h2>Fundamentals</h2>
+<p>Every decision made for this site isn’t just based on the personas above, but also on these fundamentals:</p>
+<ol>
+<li>
+<p><strong>Design like print</strong>
+Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.</p>
+<p>Well-established rules are often overlooked, and while readers may not consciously notice them, they matter and subtly shape the user experience. Where possible, I attempt to incorporate well-defined typographic principles.</p>
+</li>
+<li>
+<p><strong>Function over form</strong>
+While functionality should always dictate form, form shouldn’t necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I’m firmly of the belief that sites should respect that.</p>
+</li>
+<li>
+<p><strong>JavaScript is optional</strong>
+JavaScript has creeped its way into every facet of the web. This isn’t necessarily a bad thing; JavaScript has its place. However, that place <em>isn’t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
+<p>While visiting this site with JavaScript enabled merits access to optional features, it <em>isn’t</em> required for the core reading experience and everything will operate cleanly in its absence.</p>
+</li>
+</ol>
+<h2>Features</h2>
+<p>Vale.Rocks is home to some non-standard features and notable implementations of standard ones. Some of these include:</p>
+<ul>
+<li>
+<p><strong>Footnotes/Sidenotes</strong>
+Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page.
+Assuming JavaScript is enabled, the footnotes open a popover when clicked. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page’s margin.</p>
+</li>
+<li>
+<p><strong>Comments</strong>
+Given that this is a static site and my readership is generally of the variety that frequents GitHub, I’ve employed <a href="https://giscus.app">Giscus</a> for comment functionality.</p>
+</li>
+<li>
+<p><strong>Link icons</strong>
+Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.</p>
+</li>
+<li>
+<p><strong>Figure lightboxes</strong>
+Clicking on images within figures with JavaScript enabled will open them in a lightbox that allows users to view the caption and alt text.</p>
+</li>
+<li>
+<p><strong>Scroll indicator</strong>
+When viewing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.</p>
+</li>
+</ul>
+<h2>Tooling</h2>
+<p>This site is built with my static site generator, <a href="https://adduce.vale.rocks">Adduce</a>, and custom-written HTML, CSS, and JS. Previously, it was built without the help of any generator, and later with <a href="https://jekyllrb.com">Jeckyll</a>.</p>
+<p>The site itself uses very little in the way of external libraries, with the exception of <a href="https://shiki.style">Shiki</a> for syntax highlighting of codeblocks and <a href="https://www.goatcounter.com">GoatCounter</a> for simple, lightweight, and open source analytics.</p>
+<p>Everything is hosted on <a href="https://pages.github.com">GitHub Pages</a>, thanks to their generous free plan.</p>
+<h2>Inspirations</h2>
+<p>Like all endeavours, and especially creative ones (which I would argue this site is), I’ve <em>borrowed</em> many ideas from external sources.</p>
+<p>Perhaps most notable is <a href="https://gwern.net">the site of Gwern Branwen</a>, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern’s site long after starting the development of this one, many of its eccentricities have made their way over, as you’ve no doubt noticed if you’ve ever paid Gwern’s site a visit.</p>
+<p>Another huge source of inspiration is <a href="https://www.lesswrong.com">LessWrong</a>. A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.</p>
+<p>In a bit of a departure from the sites above, another source of inspiration for this site is <a href="https://www.joshwcomeau.com">Josh Comeau’s site</a>. Not really in terms of visual design, but in the sense of his idea of small and unique little features he dubs UI ‘sparkles’.</p>
+<hr />
+<h2>Footnotes</h2>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks">Google suggests</a> that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving, but also to ensure a good user experience.</p>
+</div>
+<section class="giscus"></section>
+</div>
+</article>
+
+</main>
+
+<footer>
+	<div id="socials">
+		<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+			<img src="/assets/icons/ActivityPub.svg" alt="Fediverse" />
+		</a>
+		<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+			<img src="/assets/icons/GitHub.svg" alt="GitHub" />
+		</a>
+		<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+			<img src="/assets/icons/Bluesky.svg" alt="Bluesky" />
+		</a>
+		<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+			<img src="/assets/icons/Unsplash.svg" alt="Unsplash" />
+		</a>
+		<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+			<img src="/assets/icons/LinkedIn.svg" alt="LinkedIn" />
+		</a>
+	</div>
+	<div>
+		<a href="/contact">Contact</a>
+		<a href="/services">Services</a>
+		<a href="/support">Support</a>
+		<a href="/uses">Uses</a>
+		<a href="/posts/feed.xml">Feed</a>
+	</div>
+	<div>
+		© Declan Chidlow | 2019 -
+		<script>
+			document.write(new Date().getFullYear());
+		</script>
+		<noscript>Present</noscript>
+	</div>
+</footer>
+
+</body>
+</html>
