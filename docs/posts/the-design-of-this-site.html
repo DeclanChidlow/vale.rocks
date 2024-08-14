@@ -73,13 +73,13 @@
 	</h1>
 	<ul>
 		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
-	    <li>1186 words</li>
+	    <li>1190 words</li>
 		<li>4 minute read</li>
 	</ul>
 </header>
 <div class="readable-width">
 <p>The web used to embody its name—a spider’s web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.</p>
-<p>Though a minority still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.</p>
+<p>Though a minority may still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.</p>
 <p>Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page <a href="https://www.wendycarlos.com/live.html">describing how her website ‘lives’</a>:</p>
 <blockquote>
 <p>I’m happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a “work in progress”, for this would imply not much intrinsic value until that magic day it is completed.
@@ -89,7 +89,7 @@ While it is possible to “finish” a web document, the fixed information becom
 <p>Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on.</p>
 <h2>Personas</h2>
 <p>This site is crafted with three distinct user groups in mind:</p>
-<p>First, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site’s visitors, so it’s generally who I keep at the forefront of my mind, not just when I’m designing and implementing features but also when writing. It’s imperative that the site is quick to load for people coming from social media to ensure reader retention <sup class="footnote-reference"><a href="#1">1</a></sup>. This demographic is probably the most likely to read an article the full way through.</p>
+<p>Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site’s visitors, so it’s generally who I keep at the forefront of my mind, not just when I’m designing and implementing features but also when writing. It’s imperative that the site is quick to load for people coming from social media to ensure reader retention <sup class="footnote-reference"><a href="#1">1</a></sup>. This demographic is probably the most likely to read an article the full way through.</p>
 <p>Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won’t read the contents of an article, but it should look good at first glance.</p>
 <p>Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site, but don’t necessarily have a defined reason for their visit, and as such, likely won’t return without reason.</p>
 <h2>Fundamentals</h2>
@@ -107,16 +107,15 @@ While functionality should always dictate form, form shouldn’t necessarily dic
 <li>
 <p><strong>JavaScript is optional:</strong>
 JavaScript has creeped its way into every facet of the web. This isn’t necessarily a bad thing; JavaScript has its place. However, that place <em>isn’t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
-<p>While visiting this site with JavaScript enabled merits access to optional features, it <em>isn’t</em> required for the core reading experience and everything will operate cleanly in its absence.</p>
+<p>While visiting this site with JavaScript enabled merits access to optional features, it <em>isn’t</em> required for the core reading experience, and everything will operate cleanly in its absence.</p>
 </li>
 </ol>
 <h2>Features</h2>
-<p>Vale.Rocks is home to some non-standard features and notable implementations of standard ones. Some of these include:</p>
+<p>Vale.Rocks is home to many non-standard features and some notable implementations of expected ones. These include:</p>
 <ul>
 <li>
 <p><strong>Footnotes/Sidenotes:</strong>
-Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page.
-Assuming JavaScript is enabled, the footnotes open a popover when clicked. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page’s margin.</p>
+Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page. Assuming JavaScript is enabled, clicking a footnote opens a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page’s margin.</p>
 </li>
 <li>
 <p><strong>Comments:</strong>
@@ -128,11 +127,11 @@ Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex 
 </li>
 <li>
 <p><strong>Figure lightboxes:</strong>
-Clicking on images within figures with JavaScript enabled will open them in a lightbox that allows users to view the caption and alt text.</p>
+While JavaScript is enabled, clicking on a figure opens it in a full screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.</p>
 </li>
 <li>
 <p><strong>Scroll indicator:</strong>
-When viewing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.</p>
+When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.</p>
 </li>
 </ul>
 <h2>Tooling</h2>

@@ -16,7 +16,7 @@
 	</h1>
 	<ul>
 		<li><time datetime="2022-09-12">12 Sep, 2022</time></li>
-	    <li>1186 words</li>
+	    <li>1190 words</li>
 		<li>4 minute read</li>
 	</ul>
 </header>
@@ -25,7 +25,7 @@
 
 The web used to embody its name—a spider's web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.
 
-Though a minority still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.
+Though a minority may still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.
 
 Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page [describing how her website 'lives'](https://www.wendycarlos.com/live.html):
 
@@ -39,7 +39,7 @@ Following that ethos, this site will continue to evolve as I tweak, edit, and br
 
 This site is crafted with three distinct user groups in mind:
 
-First, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site's visitors, so it's generally who I keep at the forefront of my mind, not just when I'm designing and implementing features but also when writing. It's imperative that the site is quick to load for people coming from social media to ensure reader retention [^1]. This demographic is probably the most likely to read an article the full way through.
+Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site's visitors, so it's generally who I keep at the forefront of my mind, not just when I'm designing and implementing features but also when writing. It's imperative that the site is quick to load for people coming from social media to ensure reader retention [^1]. This demographic is probably the most likely to read an article the full way through.
 
 Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won't read the contents of an article, but it should look good at first glance.
 
@@ -60,15 +60,14 @@ Every decision made for this site isn't just based on the personas above, but al
 3. **JavaScript is optional:**
    JavaScript has creeped its way into every facet of the web. This isn't necessarily a bad thing; JavaScript has its place. However, that place _isn't_ everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.
 
-   While visiting this site with JavaScript enabled merits access to optional features, it _isn't_ required for the core reading experience and everything will operate cleanly in its absence.
+   While visiting this site with JavaScript enabled merits access to optional features, it _isn't_ required for the core reading experience, and everything will operate cleanly in its absence.
 
 ## Features
 
-Vale.Rocks is home to some non-standard features and notable implementations of standard ones. Some of these include:
+Vale.Rocks is home to many non-standard features and some notable implementations of expected ones. These include:
 
 - **Footnotes/Sidenotes:**
-  Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page.
-  Assuming JavaScript is enabled, the footnotes open a popover when clicked. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's margin.
+  Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page. Assuming JavaScript is enabled, clicking a footnote opens a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's margin.
 
 - **Comments:**
   Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality.
@@ -77,10 +76,10 @@ Vale.Rocks is home to some non-standard features and notable implementations of 
   Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.
 
 - **Figure lightboxes:**
-  Clicking on images within figures with JavaScript enabled will open them in a lightbox that allows users to view the caption and alt text.
+  While JavaScript is enabled, clicking on a figure opens it in a full screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.
 
 - **Scroll indicator:**
-  When viewing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.
+  When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.
 
 ## Tooling
 
