@@ -1,19 +1,17 @@
 <div id="puddle-container"></div>
 
-<div id="hero">
-    <div id="herotext">
-        <h1>Vale</h1>
-        Developer<br>
-        Designer<br>
-        Dabbler
-    </div>
+<div class="hero">
+    <h1>Vale</h1>
+    Developer<br />
+    Designer<br />
+    Dabbler
 </div>
 
-<div id="landingbody">
+<div class="content">
 
-## About
+## Ahoy!
 
-Ahoy! I'm Declan Chidlow, a passionate frontend developer. I like to believe I've got an eye for aesthetics, and I've most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.
+I'm Declan Chidlow, a passionate front-end developer. I like to believe I've got an eye for aesthetics, and I've most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.
 
 When I'm not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.
 

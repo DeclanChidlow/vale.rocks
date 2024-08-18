@@ -2,49 +2,37 @@ main {
 	display: block;
 }
 
-#landingbody,
-footer {
-	position: relative;
-	z-index: 1;
-}
+#puddle-container {
+	position: absolute;
+	inset: 0 0 0 0;
+	color: var(--bright_grey);
+	user-select: none;
 
-#hero {
-	height: 85dvh;
-	font-size: 2.5rem;
-	line-height: 2.5rem;
-	display: flex;
-	align-items: center;
-}
-
-#herotext {
-	pointer-events: none;
-	z-index: 999;
-
-	h1 {
-		font-size: 6rem;
-		line-height: 6rem;
+	&::after {
+		content: "";
+		position: absolute;
+		inset: 50% 0 0 0;
+		background: linear-gradient(transparent, light-dark(var(--bright_white), var(--black)));
+		pointer-events: none;
 	}
 }
 
-#puddle-container {
-	color: var(--bright_grey);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	pointer-events: auto;
-	cursor: default;
-	user-select: none;
+.hero {
+	position: relative;
+	height: 85dvh;
+	pointer-events: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 2rem;
+	line-height: 2rem;
+
+	h1 {
+		font-size: 6rem;
+		line-height: 5rem;
+	}
 }
 
-#puddle-container::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 50%;
-	background: linear-gradient(transparent, light-dark(var(--bright_white), var(--black)));
-	pointer-events: none;
+.content {
+	position: relative;
 }
