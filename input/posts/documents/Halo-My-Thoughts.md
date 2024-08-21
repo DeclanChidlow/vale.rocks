@@ -4,7 +4,7 @@
     <meta name="description" content="Explore my journey through the Halo series, from the iconic Combat Evolved to the latest release, Infinite. Discover my thoughts, experiences, and insights into each game's virtues." />
     <meta property="og:description" content="My thoughts on one of the biggest names in gaming." />
     <meta property="article:published_time" content="2023-08-27" />
-    <meta property="article:modified_time" content="2024-08-19" />
+    <meta property="article:modified_time" content="2024-08-21" />
     <meta property="article:section" content="Reviews" />
 </head>
 
@@ -16,8 +16,8 @@
 	</h1>
 	<ul>
 		<li><time datetime="2023-08-27">27 Aug, 2023</time></li>
-		<li>3235 words</li>
-		<li>11 minute read</li>
+		<li>4120 words</li>
+		<li>14 minute read</li>
 	</ul>
 </header>
 
@@ -104,8 +104,6 @@ While being the conclusion to Bungie's original trilogy, Halo 3 is really the co
 Being released relatively early into the 360's lifespan, Halo 3 may not compare to the graphical fidelity that 360 games would later achieve, but it has a lot of charm and a distinct art style that more than makes up for it. The cutscenes of 3 expand on the direction of 2 and are animated in an almost cartoony nature that provide a wonderful sense of energy that cement them as my favourites of the series and perhaps my favourite part of Halo 3 altogether.
 
 I can't say it's my favourite game in the series from a gameplay perspective, as it didn't really add much to the experience other than deployable equipment and the gravity hammer. While I didn't find myself using the equipment all that often, I did love the gravity hammer. A super powerful melee weapon that sends enemies into the stratosphere with ease. The lethality and power paired with its animations make it feel weighty and menacing. The game also excelled at continuing the story and did an admirable job broadening the in-game universe.
-
-Ark shown
 
 ## Halo 3: ODST
 
