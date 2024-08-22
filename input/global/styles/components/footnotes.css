@@ -36,11 +36,9 @@
 	}
 }
 
-.footnote-reference,
-.sidenote {
-	.highlight {
-		background-color: light-dark(var(--white), var(--grey));
-	}
+.footnote-reference .highlight,
+.sidenote.highlight {
+	background: light-dark(var(--white), var(--grey));
 }
 
 .sidenote {
@@ -54,6 +52,8 @@
 		left: 65rem;
 		right: 3rem;
 		max-width: 40rem;
+		font-size: 0.8rem;
+		line-height: 1.2rem;
 		color: light-dark(var(--grey), var(--white));
 		padding: 0.5rem 1rem;
 		transition: background-color 0.25s;
