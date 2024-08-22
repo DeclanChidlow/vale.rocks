@@ -1,22 +1,22 @@
 figure {
 	width: 500px;
-}
 
-figcaption {
-	font-size: 0.8rem;
-	font-style: italic;
-	text-align: center;
-	color: light-dark(var(--grey), var(--white));
+	figcaption {
+		font-size: 0.8rem;
+		font-style: italic;
+		text-align: center;
+		color: light-dark(var(--grey), var(--white));
+	}
 }
 
 .left {
 	float: left;
-	margin: 0.8rem 0.8rem 0.8rem 0;
+	margin: 0 0.8rem 0.8rem -2rem;
 }
 
 .right {
 	float: right;
-	margin: 0.8rem 0 0.8rem 0.8rem;
+	margin: 0 -2rem 0.8rem 0.8rem;
 }
 
 /* Fullscreen modal styling */
