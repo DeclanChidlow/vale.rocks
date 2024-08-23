@@ -13,11 +13,11 @@ footer {
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 1rem;
-		line-height: 1rem;
 
 		li {
 			list-style-type: none;
 			margin: 0;
+			line-height: 0.8rem;
 
 			img {
 				height: 1.5rem;
