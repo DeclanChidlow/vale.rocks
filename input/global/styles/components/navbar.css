@@ -29,6 +29,10 @@
 			li {
 				margin: 0;
 			}
+
+			.menu-only {
+				display: none;
+			}
 		}
 
 		.open-menu,
@@ -116,12 +120,16 @@
 					font-size: 2.5rem;
 					font-weight: 600;
 					gap: 2rem;
+
+					.menu-only {
+						display: inherit;
+					}
 				}
 
 				.close-menu {
 					display: block;
 					position: fixed;
-					top: 0;
+					top: 1rem;
 					right: 0;
 					margin: 0.8rem;
 				}
