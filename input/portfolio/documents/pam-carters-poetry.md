@@ -17,7 +17,7 @@ My grandmother, Pamela Maitland Carter, has been writing poetry for decades. Lev
 
 The books contain a mixture of stock photos, photography taken by myself, and remastered photos from the family archives (in some cases meticulously colourised) .
 
-The books feature a combination of stock photos, [my own photography](/portfolio/Photography), and family archive images. Some of these archival photos have been meticulously colourized, while others 'merely' needed restoration.
+The books feature a combination of stock photos, [my own photography](/portfolio/photography), and family archive images. Some of these archival photos have been meticulously colourized, while others 'merely' needed restoration.
 
 Beyond crafting a polished set of books, the entire process proved an excellent opportunity to broaden my knowledge of press publication and design for physical mediums.
 
