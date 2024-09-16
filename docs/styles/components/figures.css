@@ -21,27 +21,26 @@ figure {
 
 /* Fullscreen modal styling */
 #fullscreenModal {
-	display: none; /* Set to block with JS */
 	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	inset: 0;
 	padding: 3rem;
-	overflow: auto;
+	overflow-y: auto;
+	align-content: center;
 	background-color: light-dark(rgba(255, 234, 208, 0.9), rgba(0, 0, 0, 0.9));
 	z-index: 1001;
 
 	#fullscreenImg {
 		width: 100%;
-		max-width: 70rem;
+		max-width: 100rem;
+		max-height: calc(100vh - 6rem);
 		margin: auto;
+		object-fit: contain;
 	}
 
 	#caption,
 	#altText {
 		text-align: center;
-		margin: 0.8rem;
+		margin: 1rem;
 	}
 
 	#altText::before {
@@ -50,7 +49,7 @@ figure {
 
 	#close {
 		position: fixed;
-		top: 0;
+		top: 1rem;
 		right: 0;
 		margin: 0.8rem;
 		cursor: pointer;

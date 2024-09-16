@@ -28,14 +28,11 @@ content = "Portfolio"
 [[main.block]]
 format = "html"
 content = """\
-	<div id='fullscreenModal'>\
-	<span id='close' class='icons'>close</span>\
-	<img id='fullscreenImg'>\
-	<p id='caption'></p>\
-	<hr/>\
-	<p id='altText'></p>\
+	<div id='scroll-indicator-container'>\
+		<div id="scroll-indicator"></div>\
 	</div>\
-	<script src='/scripts/view-figures.js'></script>\
+	<script src='/scripts/scroll-indicator.js'></script>\
+	<script src='/scripts/figure-modal.js'></script>\
 	"""
 
 [[main.block]]
