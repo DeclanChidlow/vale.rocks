@@ -68,7 +68,7 @@ A few other assorted tools and programs that work on Windows and that I can reco
 - [Firefox](https://www.mozilla.org/en-US/firefox/browsers) - an excellent browser.
 - [VLC](https://www.videolan.org/vlc) - a FOSS media player that plays just about anything.
 - [Thunderbird](https://www.thunderbird.net) - a very nice email client.
-- [LibreOffice](https://www.libreoffice.org) - an excellent office suite. Check out [my guide on improving it](LibreOffice_Setup).
+- [LibreOffice](https://www.libreoffice.org) - an excellent office suite. Check out [my guide on improving it](/posts/the-ultimate-libreoffice-setup).
 
 Now that you have your system more or less configured, I thought it may be worth touching on antivirus programs. There are plenty out there, and each is as user hostile as the last. For that reason, I recommend sticking with Windows' built in Microsoft Defender. It is pretty fast, generally stays out of your way, and won't harass you for your lunch money. It may be lacking in some features compared to paid options, but it is widely used and very well supported. It's just about the best option around.
 
