@@ -1,11 +1,25 @@
 figure {
 	width: 500px;
+	position: relative;
+	background-size: 0;
 
 	figcaption {
 		font-size: 0.8rem;
 		font-style: italic;
 		text-align: center;
 		color: light-dark(var(--grey), var(--white));
+		text-shadow: 0 0 1rem light-dark(var(--white), var(--black));
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: inherit;
+		background-size: cover;
+		filter: blur(1rem);
+		z-index: -1;
+		opacity: 0.5;
 	}
 }
 
