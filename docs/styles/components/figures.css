@@ -25,12 +25,12 @@ figure {
 
 .left {
 	float: left;
-	margin: 0 0.8rem 0.8rem -2rem;
+	margin: 2rem 0.8rem 2rem -2rem;
 }
 
 .right {
 	float: right;
-	margin: 0 -2rem 0.8rem 0.8rem;
+	margin: 2rem -2rem 2rem 0.8rem;
 }
 
 /* Fullscreen modal styling */
@@ -110,7 +110,7 @@ figure {
 	.right,
 	.left {
 		width: 100%;
-		margin: 0.8rem 0;
+		margin: 2rem 0;
 		float: none;
 	}
 }

@@ -2,29 +2,45 @@ body {
 	font-family: "Lexend", sans-serif;
 }
 
-p {
-	margin-bottom: 0.8rem;
-}
-
 .readable-width {
 	max-width: 80ch;
+
+	p + h2,
+	p + h3,
+	p + h4,
+	p + h5,
+	p + h6 {
+		margin-top: 2rem;
+	}
+
+	li {
+		margin-top: 0.5rem;
+
+		p {
+			margin-top: 0.5rem;
+		}
+	}
+
+	* + * {
+		margin-top: 1rem;
+	}
 }
 
 blockquote {
 	padding: 0.5rem 1rem;
 	background: light-dark(var(--white), var(--dark_grey));
 	border-left: 0.2rem solid var(--grey);
-	margin-bottom: 0.8rem;
-
-	p {
-		margin: 0;
-	}
 }
 
 li {
 	line-height: 1.4rem;
-	margin-bottom: 0.3rem;
+	margin-bottom: 0.5rem;
 	margin-left: 2rem;
+}
+
+sup,
+sub {
+	line-height: 0;
 }
 
 abbr,
