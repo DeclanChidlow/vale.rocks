@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-	// Figure background functionality
 	document.querySelectorAll("figure").forEach((figure) => {
 		const img = figure.querySelector("img");
 		if (img) {
@@ -7,57 +6,68 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	});
 
-	// Modal functionality
-	const modal = document.createElement("div");
-	modal.id = "fullscreenModal";
-	modal.style.display = "none";
-	modal.innerHTML = `
-        <span id="close" class="icons">close</span>
-        <img id="fullscreenImg">
-        <p id="caption"></p>
-        <hr/>
-        <p id="altText"></p>
-    `;
-	document.body.appendChild(modal);
+	function createLightboxDialogs(selector) {
+		if (!selector) {
+			return console.error("Missing selector argument");
+		}
 
-	const modalImg = document.getElementById("fullscreenImg");
-	const captionText = document.getElementById("caption");
-	const altText = document.getElementById("altText");
-	const closeButton = document.getElementById("close");
+		const buttonTemplate = document.createElement("button");
+		buttonTemplate.classList.add("lightbox-button");
+		buttonTemplate.setAttribute("aria-haspopup", "dialog");
 
-	function openFullscreen(imgElement) {
-		modal.style.display = "block";
-		modalImg.src = imgElement.currentSrc || imgElement.src;
-		modalImg.alt = imgElement.alt;
-		altText.textContent = imgElement.alt;
-		const caption = imgElement.closest("figure").querySelector("figcaption");
-		captionText.textContent = caption ? caption.textContent : "";
-		document.body.style.overflow = "hidden";
+		const dialogTemplate = document.createElement("dialog");
+		dialogTemplate.classList.add("lightbox");
+		dialogTemplate.innerHTML = `
+            <form method="dialog">
+                <button id="close" type="submit">
+                    <span class="icons">close</span>
+                </button>
+                <figure>
+					<img>
+					<figcaption>
+						<p class="caption"></p>
+						<hr/>
+						<p class="alt-text"></p>
+					</figcaption>
+				</figure>
+            </form>
+        `;
+
+		function createDialog(img) {
+			const button = buttonTemplate.cloneNode();
+			const dialog = dialogTemplate.cloneNode(true);
+			const dialogImg = dialog.querySelector("img");
+			const caption = dialog.querySelector(".caption");
+			const altText = dialog.querySelector(".alt-text");
+
+			dialogImg.src = img.src;
+			dialogImg.alt = img.alt;
+			altText.textContent = img.alt;
+
+			const figcaption = img.closest("figure").querySelector("figcaption");
+			caption.textContent = figcaption ? figcaption.textContent : "";
+
+			img.before(button);
+			button.append(img);
+			button.after(dialog);
+
+			button.addEventListener("click", () => {
+				dialog.showModal();
+			});
+
+			dialog.addEventListener("click", (event) => {
+				if (event.target === dialog) {
+					dialog.close();
+				}
+			});
+		}
+
+		[...document.querySelectorAll(selector)].forEach(createDialog);
 	}
 
-	function closeFullscreen() {
-		modal.style.display = "none";
-		document.body.style.overflow = "auto";
-	}
+	createLightboxDialogs("figure img");
 
-	const images = document.querySelectorAll("figure img");
-
-	images.forEach((img) => {
+	document.querySelectorAll("figure img").forEach((img) => {
 		img.style.cursor = "zoom-in";
-		img.addEventListener("click", () => openFullscreen(img));
-	});
-
-	closeButton.addEventListener("click", closeFullscreen);
-
-	modal.addEventListener("click", (event) => {
-		if (event.target === modal) {
-			closeFullscreen();
-		}
-	});
-
-	document.addEventListener("keydown", (event) => {
-		if (event.key === "Escape") {
-			closeFullscreen();
-		}
 	});
 });

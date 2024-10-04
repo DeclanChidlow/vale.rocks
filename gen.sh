@@ -43,10 +43,6 @@ generate_portfolio() {
     generate_items "input/portfolio" "portfolio"
 }
 
-generate_tools() {
-    generate_items "input/tools" "tools"
-}
-
 copy_global_assets() {
     echo "Copying styles, scripts and assets..."
     cp -r input/global/styles docs/ || { echo "Error copying styles"; exit 1; }
@@ -58,7 +54,6 @@ main() {
     generate_pages
     generate_posts
     generate_portfolio
-    generate_tools
     copy_global_assets
     echo "Site built successfully!"
 }
