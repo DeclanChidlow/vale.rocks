@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-08-24T03:45:41.306764537+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>my-code-formatting-guidelines.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-10-08T01:14:50.268477562+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>my-code-formatting-guidelines.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -47,6 +47,8 @@
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -54,9 +56,8 @@
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;My Code Formatting Guidelines | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;My Code Formatting Guidelines&quot;/&gt;
@@ -300,6 +301,8 @@ x =&amp;gt; x
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -307,16 +310,15 @@ x =&amp;gt; x
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Minecraft, Nostalgia, and Growing Up | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Minecraft, Nostalgia, and Growing Up&quot;/&gt;
     &lt;meta name=&quot;description&quot; content=&quot;A look back on Minecraft, its editions, its culture, and how it shaped me as I turn 18 and transition into adulthood.&quot; /&gt;
     &lt;meta property=&quot;og:description&quot; content=&quot;I&apos;m feelin&apos; nostalgic for the block game.&quot; /&gt;
     &lt;meta property=&quot;article:published_time&quot; content=&quot;2024-04-02&quot; /&gt;
-    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-04-11&quot; /&gt;
+    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-07-10&quot; /&gt;
     &lt;meta property=&quot;article:section&quot; content=&quot;Reviews&quot; /&gt;
 &lt;/head&gt;
 &lt;article&gt;
@@ -327,28 +329,29 @@ x =&amp;gt; x
 	&lt;/h1&gt;
 	&lt;ul&gt;
 		&lt;li&gt;&lt;time datetime=&quot;2024-04-02&quot;&gt;02 Apr, 2024&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1380 words&lt;/li&gt;
-		&lt;li&gt;5 minute read&lt;/li&gt;
+		&lt;li&gt;1559 words&lt;/li&gt;
+		&lt;li&gt;6 minute read&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
-&lt;p&gt;I’m sitting here writing this on a rainy Monday night. This article is going live on April 2nd, the day of my 18th birthday. Tomorrow, I’m legally an adult. I can vote. I can drink. I can smoke. I can go to an adult shop. I can gamble away my savings.&lt;/p&gt;
-&lt;p&gt;I could dwell on the encroaching responsibilities of adulthood or reminisce about the ‘end’ of my childhood. I could even lament the gum stuck to my shoe that I keep forgetting to scrape off. But I want to write about a game that sits with me. Minecraft.&lt;/p&gt;
-&lt;p&gt;Like many of my generation, I grew up with Minecraft. My journey with Minecraft began many years ago through YouTube, watching people like &lt;a href=&quot;https://www.youtube.com/@stampycat&quot;&gt;StampyLongHead&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/@iBallisticSquid&quot;&gt;iBallisticSquid&lt;/a&gt;. Now, looking back, I realise just how strong my feelings for the game are.&lt;/p&gt;
-&lt;p&gt;It’s difficult to pinpoint exactly when I discovered the game, but I’d suggest around 2012. I can still recall losing myself for hours watching Let’s Plays, Hunger Games and humorous bumbling through various adventure maps.&lt;/p&gt;
+&lt;p&gt;The first iteration of this article was written in a hotel room on a rainy Monday, overlooking Melbourne. It went live on April 2nd, 2024 – the day of my 18th birthday. I had a lot running through my mind, including the new responsibilities and freedoms that come with being an adult.&lt;/p&gt;
+&lt;p&gt;I could bloat the word count of this article dwelling on the encroaching responsibilities of adulthood or reminiscing about the ‘end’ of my childhood. I could even lament the gum stuck to my shoe that I keep forgetting to scrape off. But I want to write about a game that sits with me: Minecraft.&lt;/p&gt;
+&lt;p&gt;Like many my age, I grew up alongside Minecraft. I first discovered it via YouTube circa ~2012 &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Initially through my parent’s iPad 3, and later through my own iPad 4. I remember waking up before school to watch the comedic duo of &lt;a href=&quot;https://www.youtube.com/@stampycat&quot;&gt;StampyLongHead&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/@iBallisticSquid&quot;&gt;iBallisticSquid&lt;/a&gt; in their latest let’s plays bumbling through various adventure maps and duking it out in Hunger Games. I remember watching their individual series, such as Squid’s &lt;a href=&quot;https://www.youtube.com/playlist?list=PL87AFDeJs846nDRNH2bTddRV2Gh63Kkgp&quot;&gt;Sky Island Challenge&lt;/a&gt; or Stampy’s &lt;a href=&quot;https://www.youtube.com/playlist?list=PLEZiAg2bYC7ngh-_Z_ruvzSfn1KPQRL5V&quot;&gt;Lovely World&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It was a carefree time where my responsibilities were nil and time wasn’t a luxury.&lt;/p&gt;
 &lt;h2&gt;Pocket Edition&lt;/h2&gt;
-&lt;p&gt;I started playing with Minecraft Pocket Edition Lite. A cut down version of the game designed as a demo. I played it for hours. It was limited and lacked much of anything. It had a limited block palette and an even more limited world. It wasn’t much, but it was Minecraft, and, to me at the time, that was a lot.&lt;/p&gt;
+&lt;p&gt;I first got hands-on with the game via Minecraft Pocket Edition Lite, a cut-down version of the game designed as a demo. I played it for hours. It was limited and lacked much of anything. It had a limited block palette and an even more limited world. It wasn’t much, but it was Minecraft, and, to me at the time, that was a lot.&lt;/p&gt;
 &lt;figure class=&quot;right&quot;&gt;
 &lt;img src=&quot;https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png&quot; alt=&quot;Simple menu featuring 3 options.&quot; /&gt;
 &lt;figcaption&gt;Main menu of Minecraft PE Lite.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;In 2013, I bought Pocket Edition for my iPad. I still remember being out the front of my house when my mother, whom I had been nagging to let me buy it, finally said yes.&lt;/p&gt;
-&lt;p&gt;The game was limited, but it was Minecraft. I built garish houses of diamonds and gold, laid out intricate patterns of TNT just to watch them explode, and tested just how much of a superflat world I could fill with lava.&lt;/p&gt;
-&lt;p&gt;I remember the big update when potions released and splashing them everywhere just to see the particle effects. I remember horses being added and having to consult YouTube to find out how to tame them. I recall end portal frames appearing in the creative menu, and not knowing how to use them.&lt;/p&gt;
-&lt;p&gt;Pocket Edition grew around me, and was the version I played the most. However, I could never shake the feeling that it was inferior. Playing it made me feel like a second class citizen. Everyone else played the bigger, better versions, and for the longest time, I only got to experience them through trips to friends’ houses and YouTube.&lt;/p&gt;
-&lt;p&gt;I didn’t have a computer equipped to run the Java Edition, but my family owned a few consoles, and it wasn’t with the Pocket or Java Editions that I had originally fell in love with the game anyway. My journey truly began with the versions featured in the YouTube videos I avidly watched: the Legacy Console Editions, starting with the Xbox 360 Edition.&lt;/p&gt;
+&lt;p&gt;The game was very limited at the time, but it was Minecraft. I built garish houses of diamonds and gold, laid out intricate patterns of TNT just to watch them explode, and tested just how much of a superflat world I could fill with lava.&lt;/p&gt;
+&lt;p&gt;I remember the big update when potions released and splashing them everywhere just to see the particle effects. I remember horses being added and having to consult YouTube to find out how to tame them. I recall end portal frames appearing in the creative menu and not knowing how to use them. I remember messing around with the &lt;a href=&quot;https://minecraft.wiki/w/Nether_Reactor_Core&quot;&gt;Nether Reactor Core&lt;/a&gt; before the Nether was released. I remember freaking out about weird world generation thinking that Herobrine had paid me a visit.&lt;/p&gt;
+&lt;p&gt;Pocket Edition grew around me and was the version I played the most. However, I could never shake the feeling that it was inferior. It didn’t have parity with the other versions, I couldn’t play on the big name servers, and touchscreen simply isn’t a great input method. Playing it made me feel like a second-class citizen. Everyone else played the bigger, better versions, and for the longest time, I only got to experience them through trips to friends’ houses and YouTube.&lt;/p&gt;
+&lt;p&gt;Sure, the game did evolve with updates and some simple servers eventually launched, but it was largely inferior to the other versions even after trying to improve the experience with things like &lt;a href=&quot;http://plugpe.github.io&quot;&gt;Plug for Minecraft PE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Our household computers were aging and barely equipped to run Windows, let alone the Java Edition, but my family owned a few consoles, and it wasn’t with the Pocket or Java Editions that I had originally fallen in love with the game anyway. My journey truly began with the versions featured in the YouTube videos I avidly watched: the Legacy Console Editions, starting with the Xbox 360 Edition.&lt;/p&gt;
 &lt;h2&gt;Legacy Console Editions&lt;/h2&gt;
-&lt;p&gt;In 2012, 4J Studios released Minecraft: Xbox 360 Edition. 4J didn’t just port the game. They went further. They improved it. They could’ve settled for a direct port, but they took the extra step and then broke into a sprint.&lt;/p&gt;
+&lt;p&gt;In 2012, 4J Studios released Minecraft: Xbox 360 Edition. 4J didn’t just settle with a direct port of the game. They went further. They improved it. They crafted an experience that did more than just mimicking the flagship Java edition by improving upon it with quality of life improvements and changes that adapted it to the controller experience.&lt;/p&gt;
 &lt;figure class=&quot;right&quot;&gt;
 &lt;img src=&quot;https://minecraft.wiki/images/Retail_SplashScreen.png&quot; alt=&quot;Splash screen featuring a sandstone castle built in Minecraft with several players standing on it.&quot; /&gt;
 &lt;figcaption&gt;TU9 splash screen for Minecraft: Xbox 360 Edition.&lt;/figcaption&gt;
@@ -360,23 +363,35 @@ x =&amp;gt; x
 &lt;img src=&quot;https://minecraft.wiki/images/Crafting_Table_LCE.png&quot; alt=&quot;Screenshot of the crafting table menu.&quot; /&gt;
 &lt;figcaption&gt;Legacy Console Edition Crafting Interface.&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;They also completely redesigned the user interface for controller. I find myself blindly fumbling through the UI of the modern Bedrock Edition, but can smoothly glide through Legacy Console’s UI with ease. The crafting UI specifically is one of the best controller oriented user experiences I’ve ever had, although the option to use the standard grid was still available.&lt;/p&gt;
+&lt;p&gt;They also completely redesigned the user interface for controller. I find myself blindly fumbling through the UI of the modern Bedrock Edition, but can smoothly glide through Legacy Console’s UI with ease. The crafting UI specifically is one of the best controller oriented user experiences I’ve ever had, although the option to use the standard crafting grid from the desktop experience was left available for players who preferred it.&lt;/p&gt;
 &lt;p&gt;Legacy Console also featured an excellent set of customisation options for superflat worlds. You could choose the blocks layer by layer and specify exactly what structures should generate. The customisation was so excellent that it spawned countless challenges. Even now, years later, no other edition has superflat customisation to this level.&lt;/p&gt;
 &lt;p&gt;Another thing that speaks to 4J’s commitment is their implementation of the minigame modes. Exclusive to the Legacy Console Editions are Battle, Tumble, and Glide. Battle is Hunger Games, Tumble is spleef, and Glide is an Elytra race. Each of these modes were well fleshed out and polished with a custom UI. The lobby for the mini games was also intricate and played host to a range of Easter eggs.&lt;/p&gt;
-&lt;p&gt;The game was also optimised to an impressive degree. Looking back, it’s easy to forget just how limited the seventh generation of consoles were. The Xbox 360 had a meager 512 MB of RAM. Yes, there were limitations. You couldn’t have as many mobs, and the worlds weren’t infinite. But most of what defined Minecraft was there, and the limitations were more than made up for by the numerous tweaks 4J introduced.&lt;/p&gt;
+&lt;p&gt;The game was also optimised to an impressive degree. Looking back, it’s easy to forget just how limited the seventh generation of consoles were. The Xbox 360 had a meagre 512 MB of RAM. Yes, there were limitations. There was a cap on mobs, and the worlds weren’t infinite, but most of what defined Minecraft was there, and the limitations were more than made up for by the numerous tweaks 4J introduced.&lt;/p&gt;
 &lt;p&gt;While the legacy editions were remarkable, they’re nothing without the experiences I associate with them. I’ve got excellent memories of going round to my friend’s house and fighting him head to head in the various minigame modes on his PS3. I also cherish playing worlds built by my cousin.&lt;/p&gt;
-&lt;p&gt;Some of his most memorable included a labyrinthine adventure map infested with spiders and an excellent PvP tower defence map. The latter comprised of a set of two castles built entirely out of gold blocks, suspended over lava. Both castles were adorned with chests full of enchanted weaponry and TNT cannons that were prone to self destruction.&lt;/p&gt;
+&lt;p&gt;Some of his most memorable included a labyrinthine adventure map infested with spiders and an excellent PvP tower defence map. The latter comprised of a set of two castles built entirely out of gold blocks, suspended high over lava with only a precarious bridge connecting them. Both castles were adorned with chests full of enchanted weaponry and TNT cannons prone to self-destruction.&lt;/p&gt;
 &lt;p&gt;Yet over time, I found myself playing with others less and less. Minecraft fell out of favour, and other games grew in relevance. I stopped watching many of my favourite Minecraft creators. They stopped uploading. I drifted apart from the game. Time moved on. I moved on. I grew up.&lt;/p&gt;
 &lt;p&gt;The Legacy Console editions are all unsupported now. The PS3 and Vita Editions were the last to go, with both receiving a last update on April 15, 2020. The 360 Edition got its last update on April 30, 2019 with TU75.&lt;/p&gt;
 &lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
-&lt;p&gt;The Xbox One Edition received an unexpected update, CU59, on April 9, 2024. It seems to have just removed the button to switch to the Bedrock edition. You can &lt;a href=&quot;https://minecraft.wiki/w/Xbox_One_Edition_CU59&quot;&gt;view the update page on the Minecraft Wiki&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;The Xbox One Edition received an unexpected update, CU59, on April 9, 2024 – over 4 years after its last one. You can &lt;a href=&quot;https://minecraft.wiki/w/Xbox_One_Edition_CU59&quot;&gt;view the update page on the Minecraft Wiki&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Growing Up&lt;/h2&gt;
-&lt;p&gt;Eventually, I bought the Java Edition. I joined the big servers and played with friends, but the spark wasn’t there. Big servers felt corporate and bland, and multiplayer servers with friends failed to evoke the emotion I associate with the game. I attempted to start a single player world, but found myself abandoning worlds after just a few days.&lt;/p&gt;
+&lt;p&gt;Eventually, I bought the Java Edition. I joined the big servers and played with friends, but the spark wasn’t there. Big servers felt corporate and bland, and multiplayer servers with friends failed to evoke the emotion I associate with the game. I attempted to start a single-player world but found myself abandoning worlds after just a few days.&lt;/p&gt;
 &lt;p&gt;I loved Minecraft then, and I love it now. Putting on C418’s soundtrack evokes a unique sense of melancholy that nothing else can rival. Occasionally, I still find myself watching the old YouTube videos that first pulled me into the game, just for that hit of nostalgia.&lt;/p&gt;
-&lt;p&gt;I realise now that I wasn’t merely playing a game and manipulating pixels on a screen; I was forging memories - memories that, years later, I still hold dear.&lt;/p&gt;
-&lt;p&gt;As the rain subsides outside the window, I reflect on my memories of a game that brought me so many hours of joy. The past has passed, but I’m not sad it’s gone. I’m happy it happened.&lt;/p&gt;
+&lt;p&gt;I realise now that I wasn’t merely playing a game and manipulating pixels on a screen; I was forging memories – memories that, years later, I still hold dear.&lt;/p&gt;
+&lt;p&gt;Two quotes come to mind thinking about the game:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Don’t cry because it’s over. Smile because it happened.” &lt;br /&gt;
+&lt;em&gt;- Dr Seuss&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“How lucky I am to have something that makes saying goodbye so hard.” &lt;br /&gt;
+&lt;em&gt;- A A Milne&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Thank you.&lt;/p&gt;
+&lt;h2&gt;Footnotes&lt;/h2&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;/sup&gt;
+&lt;p&gt;This year is an approximation thanks to how long ago it was and my lack of personal logging during that period. It is also entirely possible I was exposed to Minecraft via alternate means prior to discovering it on YouTube, but I have no memory of that.&lt;/p&gt;
+&lt;/div&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
 &lt;/article&gt;
@@ -474,6 +489,8 @@ x =&amp;gt; x
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -481,9 +498,8 @@ x =&amp;gt; x
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Everything Is Chrome | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Everything Is Chrome&quot;/&gt;
@@ -519,7 +535,7 @@ x =&amp;gt; x
 &lt;h2&gt;The First Browser War&lt;/h2&gt;
 &lt;p&gt;Microsoft took notice of Netscape’s success and saw the internet as a profitable market. They created the now infamous Internet Explorer. Initially considered inferior by many, Explorer began to slowly claw away some market share for itself, gradually chipping away at Navigator and its competitors.&lt;/p&gt;
 &lt;p&gt;Netscape Navigator came in two editions: Gold and Standard. With the release of version 4, the Gold Edition (which was notable for having many extra functions that negatively impacted stability) was rebranded to Netscape Communicator. This name change was a shot in the foot that affected their brand recognition and, bundled with performance slower than Microsoft’s new Internet Explorer 5, spelled their demise.&lt;/p&gt;
-&lt;p&gt;By the time the new millennia rolled around, many new browsers had launched (such as &lt;a href=&quot;https://apps.kde.org/en-gb/konqueror/&quot;&gt;KDE’s Konqueror&lt;/a&gt;), Netscape was on its deathbed, and Explorer was thriving, with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn’t all sunshine and rainbows for Microsoft’s browser, though. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.&lt;/p&gt;
+&lt;p&gt;By the time the new millennia rolled around, many new browsers had launched (such as &lt;a href=&quot;https://apps.kde.org/en-gb/konqueror&quot;&gt;KDE’s Konqueror&lt;/a&gt;), Netscape was on its deathbed, and Explorer was thriving, with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn’t all sunshine and rainbows for Microsoft’s browser, though. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.&lt;/p&gt;
 &lt;p&gt;This came to a head in 2001 with the ominous sounding United States of America vs Microsoft Corporation. It concluded with Microsoft drafting a settlement proposal that permitted PC manufacturers to use non-Microsoft software.&lt;/p&gt;
 &lt;h2&gt;The Second Browser War&lt;/h2&gt;
 &lt;p&gt;Shortly after this lawsuit, in 2003, Apple released their own browser, Safari, which quickly gained popularity on their Macs, although they initially failed to release it elsewhere. Safari used the WebKit engine, a fork of the KHTML and KJS libraries from KDE’s browser, Konqueror. Also in 2003, Opera 7 released with a large rewrite and a new layout engine, titled Presto.&lt;/p&gt;
@@ -692,6 +708,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -699,9 +717,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Making Windows &quot;Usable&quot; | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&apos;Making Windows &quot;Usable&quot;&apos; /&gt;
@@ -751,7 +768,7 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/en-US/firefox/browsers&quot;&gt;Firefox&lt;/a&gt; - an excellent browser.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.videolan.org/vlc&quot;&gt;VLC&lt;/a&gt; - a FOSS media player that plays just about anything.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.thunderbird.net&quot;&gt;Thunderbird&lt;/a&gt; - a very nice email client.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.libreoffice.org&quot;&gt;LibreOffice&lt;/a&gt; - an excellent office suite. Check out &lt;a href=&quot;LibreOffice_Setup&quot;&gt;my guide on improving it&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.libreoffice.org&quot;&gt;LibreOffice&lt;/a&gt; - an excellent office suite. Check out &lt;a href=&quot;/posts/the-ultimate-libreoffice-setup&quot;&gt;my guide on improving it&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Now that you have your system more or less configured, I thought it may be worth touching on antivirus programs. There are plenty out there, and each is as user hostile as the last. For that reason, I recommend sticking with Windows’ built in Microsoft Defender. It is pretty fast, generally stays out of your way, and won’t harass you for your lunch money. It may be lacking in some features compared to paid options, but it is widely used and very well supported. It’s just about the best option around.&lt;/p&gt;
 &lt;hr /&gt;
@@ -853,6 +870,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -860,9 +879,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;JPEG XL And Google&apos;s War Against It | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;JPEG XL And Google&apos;s War Against It&quot;/&gt;
@@ -934,7 +952,7 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;p&gt;So, why were WebP and AVIF picked up so quickly when JPEG XL wasn’t? Well, as you may have surmised from the article’s title, it’s largely down to Google.&lt;/p&gt;
 &lt;h2&gt;Google’s Exploitation of Their Dominance&lt;/h2&gt;
 &lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
-&lt;p&gt;I’ll be discussing Chrome’s dominance and Google’s exploitation of it for their own gain. I’ve written about this at length in my article &lt;a href=&quot;/blog/Everything_Is_Chrome&quot;&gt;Everything Is Chrome&lt;/a&gt;, which I advise you read prior to this section.&lt;/p&gt;
+&lt;p&gt;I’ll be discussing Chrome’s dominance and Google’s exploitation of it for their own gain. I’ve written about this at length in my article &lt;a href=&quot;/posts/everything-is-chrome&quot;&gt;Everything Is Chrome&lt;/a&gt;, which I advise you read prior to this section.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Google has cemented itself as the single controlling force of the web. What they say goes. Google Search is the most popular search engine, and Chromium is the base for the majority of browsers. This means they control both what pages get recommended in search, and how they’re displayed in browser.&lt;/p&gt;
 &lt;p&gt;This leaves them with a lot of power. If they take issue with JPEG XL, then they can single handedly stop its adoption, and that’s exactly what they’ve done. At one point, Google actually did add support for JPEG XL to Chromium behind a flag. It was implemented and functional in Chromium. This prompted Firefox to add their own support.&lt;/p&gt;
@@ -962,7 +980,7 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;p&gt;It may seem futile, but I believe that if we raise awareness of the issue and put enough public pressure on Google and, to a lesser extent, Mozilla, they will reconsider their stance. Use browsers that support the format, or toggle on the flag if possible. Spruik the benefits of the format wherever you can attract attention, and start using it in the &lt;a href=&quot;https://jpegxl.info/why-jxl#software_support&quot;&gt;various software that already supports it&lt;/a&gt;. The more demand, the more adoption.&lt;/p&gt;
 &lt;p&gt;This is an effort that is worth fighting for. Google has trampled innovation far too many times in the pursuit of control for us to allow them to do it again. We must condemn this behaviour and fight these monopolistic practices at every turn to prevent stifling progress in the name of corporate control.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness. Also, if you’d like to see me produce more content like this, then consider &lt;a href=&quot;/donate&quot;&gt;sending me a tip&lt;/a&gt;. It’d mean a lot.&lt;/p&gt;
+&lt;p&gt;If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness. Also, if you’d like to see me produce more content like this, then consider &lt;a href=&quot;/support&quot;&gt;sending me a tip&lt;/a&gt;. It’d mean a lot.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;Sources&lt;/summary&gt;
 &lt;ul&gt;
@@ -1073,6 +1091,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -1080,9 +1100,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;The Ultimate LibreOffice Setup | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;The Ultimate LibreOffice Setup&quot;/&gt;
@@ -1231,6 +1250,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -1238,9 +1259,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;A Year With The Framework Laptop 13 | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;A Year With The Framework Laptop 13&quot;/&gt;
@@ -1401,6 +1421,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -1408,9 +1430,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;I Got A Flipper Zero | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;I Got A Flipper Zero&quot;/&gt;
@@ -1585,6 +1606,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -1592,9 +1615,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Connecting to Australian Public School Internet | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Connecting to Australian Public School Internet&quot;/&gt;
@@ -1764,6 +1786,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -1771,9 +1795,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;The Design of This Site | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;The Design of This Site&quot;/&gt;
@@ -1915,6 +1938,217 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
+&lt;/html&gt;</content></entry><entry><title>building-sites-with-iframes.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;UTF-8&quot;&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
+	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
+	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
+	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+
+&lt;script
+	src=&quot;https://giscus.app/client.js&quot;
+	data-repo=&quot;DeclanChidlow/vale.rocks&quot;
+	data-repo-id=&quot;R_kgDOGKfOVg&quot;
+	data-category=&quot;Comments&quot;
+	data-category-id=&quot;DIC_kwDOGKfOVs4CY4vS&quot;
+	data-mapping=&quot;og:title&quot;
+	data-strict=&quot;1&quot;
+	data-reactions-enabled=&quot;1&quot;
+	data-emit-metadata=&quot;1&quot;
+	data-input-position=&quot;top&quot;
+	data-theme=&quot;transparent_dark&quot;
+	data-lang=&quot;en&quot;
+	data-loading=&quot;lazy&quot;
+	crossorigin=&quot;anonymous&quot;
+	async&gt;&lt;/script&gt;
+
+&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
+&lt;body&gt;
+&lt;header id=&quot;navbar&quot;&gt;
+	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
+	&lt;nav id=&quot;menu&quot;&gt;
+		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+		&lt;ul class=&quot;menu-items&quot;&gt;
+			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+	&lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main id=&quot;main&quot;&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
+&lt;head&gt;
+    &lt;title&gt;Building Sites With iFrames | Vale.Rocks&lt;/title&gt;
+    &lt;meta property=&quot;og:title&quot; content=&quot;Building Sites With iFrames&quot;/&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;A look at putting iframes to use for seamlessly displaying content and implementing micro-frontends.&quot; /&gt;
+    &lt;meta property=&quot;og:description&quot; content=&quot;Putting websites in websites.&quot; /&gt;
+    &lt;meta property=&quot;article:published_time&quot; content=&quot;2024-10-08&quot; /&gt;
+    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-10-08&quot; /&gt;
+    &lt;meta property=&quot;article:section&quot; content=&quot;Tutorial&quot; /&gt;
+&lt;/head&gt;
+&lt;article&gt;
+&lt;header&gt;
+	 Tutorial
+	&lt;h1&gt;
+		Building Sites With iFrames
+	&lt;/h1&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-10-08&quot;&gt;08 Oct, 2024&lt;/time&gt;&lt;/li&gt;
+	    &lt;li&gt;1146 words&lt;/li&gt;
+		&lt;li&gt;4 minute read&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/header&gt;
+&lt;div class=&quot;readable-width&quot;&gt;
+&lt;p&gt;When I first entered the bloody fray that is the web development sphere, I did plenty of very dumb stuff thanks to not knowing any better. Before I figured out what a static site generator was or the concept of PHP’s &lt;code&gt;include&lt;/code&gt;, I copied a lot of code between sites. Namely, navs and footers.&lt;/p&gt;
+&lt;p&gt;Each and every page of my site would have a duplicate copy of my navbar and footer copied into it, meaning that whenever I wanted to do something like add a new item, I had to jump across pages and update each instance individually.&lt;/p&gt;
+&lt;p&gt;In my endless genius, I decided the solution to my woes was to use &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe&quot;&gt;iframes&lt;/a&gt;. My initial implementations circa 2018 were rather poor, as you might imagine from an inexperienced, 12 year old, me.&lt;/p&gt;
+&lt;p&gt;They were incredibly clunky and relied on JavaScript to show and hide them. They also didn’t really mesh with the page and were constantly overflowing, causing a lack of cohesion and inconvenient scrollbars.&lt;/p&gt;
+&lt;p&gt;Both my knowledge and the web have come a long way since those days, and my recent reading up about &lt;a href=&quot;https://martinfowler.com/articles/micro-frontends.html&quot;&gt;micro-frontends&lt;/a&gt; led me to give iframes another spin.&lt;/p&gt;
+&lt;h2&gt;Uses&lt;/h2&gt;
+&lt;p&gt;Front-end development isn’t the simple craft it was years ago, and it’s reached a point where the micro-service architecture that’s grown in popularity for backends has become worth considering for frontends. There are plenty of ways to implement them, but iframes are perhaps the easiest.&lt;/p&gt;
+&lt;p&gt;Each independent part of an application can be split up and reconstituted by embedding them in their own iframes.&lt;/p&gt;
+&lt;h2&gt;Implementing&lt;/h2&gt;
+&lt;p&gt;Getting started is simple. All you need to do is place &lt;code&gt;&amp;lt;iframe src=&quot;https://example.com&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt; on a page, substituting &lt;code&gt;example.com&lt;/code&gt; for the URL of your required resource.&lt;/p&gt;
+&lt;p&gt;That’s a start, but it’s limited. The iframe won’t scale to the size of its content; it looks ugly, and the parent can’t communicate with it. Thankfully, we can sort this out.&lt;/p&gt;
+&lt;h3&gt;Styling&lt;/h3&gt;
+&lt;p&gt;First, let’s remove the border put around them by the default user-agent styling on most browsers. Gecko, Blink, and WebKit default to this styling:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;iframe {
+	border: 2px inset;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Given our needs, I think it sane to remove that border for better visual cohesion with the rest of the page, like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;iframe {
+	border: none;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Sizing&lt;/h3&gt;
+&lt;p&gt;Now we need to sort out some sizing. There are a few ways to go about this. We can use some CSS to set the frame to a fixed size, or we can write some simple JavaScript that handles sizing it for us. Either way you do it, it’s worth noting that all iframes have a width of 300 and height of 150.&lt;/p&gt;
+&lt;p&gt;If we want to do it with CSS, then we can just apply a &lt;code&gt;width&lt;/code&gt; and &lt;code&gt;height&lt;/code&gt; like we would to any other element, but we run into an issue fairly quickly. There is no easy way to get the dimensions of a page in an iframe via CSS alone. This makes it a write-off unless we know the exact dimensions of the page or are happy with it being clipped and presented with a scrollbar.&lt;/p&gt;
+&lt;p&gt;Thankfully, we can use a bit of the ol’ JavaScript.&lt;/p&gt;
+&lt;p&gt;The simplest way is to grab the size of the iframe’s contents when it loads, although that won’t dynamically handle changes in the size of the iframe’s contents.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe src=&quot;https://example.com&quot; onload=&quot;this.style.height=(this.contentWindow.document.body.scrollHeight)+&apos;px&apos;;&quot; width=&quot;100%&quot;&amp;gt; &amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can improve this by setting up a script to run in our iframe that tells our parent page when its size changes. Definitely host the pages you’re embedding and your parent pages on the same domain to avoid Cross-Origin Resource Sharing (CORS) errors.&lt;/p&gt;
+&lt;p&gt;First, we’ll need to give our iframe an id so we can reference it. We can also remove the onload JavaScript, as we’ll be separating that out.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe id=&quot;exampleIframe&quot; src=&quot;https://example.com&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On the page we’re embedding, we can add this script, which will send a message to the parent window stating its height and width.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;window.parent.postMessage(
+	{
+		type: &quot;resize&quot;,
+		height: document.body.scrollHeight,
+		width: document.body.scrollWidth,
+	},
+	&quot;https://example.com&quot;,
+);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Back on our parent, we can give it a script that listens for a message of the type ‘resize’, at which point it can update the dimensions of the iframe with the values sent in the message.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;window.addEventListener(&quot;message&quot;, function (e) {
+	if (e.data.type === &quot;resize&quot;) {
+		document.getElementById(&quot;exampleIframe&quot;).style.height = e.data.height + &quot;px&quot;;
+		document.getElementById(&quot;exampleIframe&quot;).style.width = e.data.width + &quot;px&quot;;
+	}
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And voila, we should now have dynamically sized iframes regardless of the child’s content.&lt;/p&gt;
+&lt;p&gt;Alternatively, you can use an existing library like &lt;a href=&quot;https://iframe-resizer.com&quot;&gt;iframe-resizer&lt;/a&gt; to do it without the hassle of rolling it yourself. Do consider first if you &lt;em&gt;need&lt;/em&gt; another dependency in your project, though.&lt;/p&gt;
+&lt;h3&gt;Communicating With Our iFrame&lt;/h3&gt;
+&lt;p&gt;This is the least fun bit of iframes, trying to communicate with them. It’s doable, just a bit finicky – mainly because of our old friend CORS – but it shouldn’t be too much of a hassle assuming they’re on the same domain.&lt;/p&gt;
+&lt;p&gt;We’ll use JavaScript’s [&lt;code&gt;post-message&lt;/code&gt;(https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to facilitate sharing information. In fact, we’ve already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we’ll stick to simple stings.&lt;/p&gt;
+&lt;h4&gt;From iFrame to Parent&lt;/h4&gt;
+&lt;p&gt;To send a message from the embedded iframe to the parent document, use this code in the iframe’s document:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;window.parent.postMessage(&quot;Hello from iframe!&quot;, &quot;https://example.com&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To receive and handle messages in the parent document, add this code to the parent document:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;window.addEventListener(&quot;message&quot;, function (event) {
+	if (event.origin !== &quot;https://example.com&quot;) return;
+	console.log(&quot;Message from iframe:&quot;, event.data);
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you open your browser console, you should see the messages coming through.&lt;/p&gt;
+&lt;h2&gt;Why?&lt;/h2&gt;
+&lt;p&gt;So, all that is a lot of work, which may make you ask, ‘why bother?’. Why not implement micro-frontends another way, such as by using web components, route segmentation, or the like? Well, iframes have one big benefit that is possibly also their biggest weakness. &lt;strong&gt;Every iframe is isolated.&lt;/strong&gt; This is good in the sense that iframes won’t clash. You’ll have no CSS conflicts, no JavaScript variable collisions, and no worries about one component affecting another unintentionally. This is great for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sandboxing third-party content: You can safely embed external widgets or tools without worrying about them interfering with your main page.&lt;/li&gt;
+&lt;li&gt;Legacy system integration: When modernising an application piece by piece, iframes can help you gradually replace old components with new ones without a complete overhaul.&lt;/li&gt;
+&lt;li&gt;Fault isolation: One iframe failing doesn’t kill the entire site or app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But not so great for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SEO: Search engines may have difficulty indexing content within iframes, which could impact search rankings.&lt;/li&gt;
+&lt;li&gt;User experience: Navigation can become tricky, as each iframe essentially has its own browsing context.&lt;/li&gt;
+&lt;li&gt;Accessibility: Screen readers and other assistive technologies may have difficulty navigating between iframes.&lt;/li&gt;
+&lt;li&gt;Performance overhead: While iframes can help with perceived performance, they do introduce some overhead, as each iframe requires its own resources and DOM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+		&lt;/main&gt;
+
+		&lt;footer&gt;
+			&lt;ul class=&quot;socials&quot;&gt;
+				&lt;li&gt;
+					&lt;a href=&quot;https://fedi.vale.rocks/vale&quot; target=&quot;_blank&quot; title=&quot;Fediverse&quot;&gt;
+						&lt;img src=&quot;/assets/icons/ActivityPub.svg&quot; alt=&quot;Fediverse&quot; /&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href=&quot;https://bsky.app/profile/vale.rocks&quot; target=&quot;_blank&quot; title=&quot;Bluesky&quot;&gt;
+						&lt;img src=&quot;/assets/icons/Bluesky.svg&quot; alt=&quot;Bluesky&quot; /&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href=&quot;https://github.com/DeclanChidlow&quot; target=&quot;_blank&quot; title=&quot;GitHub&quot;&gt;
+						&lt;img src=&quot;/assets/icons/GitHub.svg&quot; alt=&quot;GitHub&quot; /&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href=&quot;https://unsplash.com/@outervale&quot; target=&quot;_blank&quot; title=&quot;Unsplash&quot;&gt;
+						&lt;img src=&quot;/assets/icons/Unsplash.svg&quot; alt=&quot;Unsplash&quot; /&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href=&quot;/posts/feed.xml&quot; target=&quot;_blank&quot; title=&quot;Atom&quot;&gt;
+						&lt;img src=&quot;/assets/icons/RSS.svg&quot; alt=&quot;Atom&quot; /&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+
+			&lt;nav&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;/&quot;&gt;Landing&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/support&quot;&gt;Support&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;/uses&quot;&gt;Uses&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/nav&gt;
+			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/body&gt;
 &lt;/html&gt;</content></entry><entry><title>i-hate-my-nokia.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -1963,6 +2197,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -1970,9 +2206,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;I Hate My Nokia | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;I Hate My Nokia&quot;/&gt;
@@ -2127,6 +2362,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -2134,9 +2371,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Halo: My Thoughts | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Halo: My Thoughts&quot;/&gt;
@@ -2371,6 +2607,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -2378,9 +2616,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Cybersecurity Superstition | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Cybersecurity Superstition&quot;/&gt;
@@ -2557,6 +2794,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
 			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
@@ -2564,9 +2803,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
-&lt;div id=&apos;fullscreenModal&apos;&gt;&lt;span id=&apos;close&apos; class=&apos;icons&apos;&gt;close&lt;/span&gt;&lt;img id=&apos;fullscreenImg&apos;&gt;&lt;p id=&apos;caption&apos;&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p id=&apos;altText&apos;&gt;&lt;/p&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/view-figures.js&apos;&gt;&lt;/script&gt;
 &lt;head&gt;
     &lt;title&gt;Prematurely Pulling The Plug On 3G | Vale.Rocks&lt;/title&gt;
     &lt;meta property=&quot;og:title&quot; content=&quot;Prematurely Pulling The Plug On 3G&quot;/&gt;
