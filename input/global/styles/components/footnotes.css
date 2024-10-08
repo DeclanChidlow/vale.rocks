@@ -1,9 +1,13 @@
-.footnote-reference a {
-	padding: 0.25rem;
-	margin: -0.25rem;
+.footnote-reference {
+	line-height: inherit;
 
-	&::after {
-		content: none;
+	a {
+		padding: 0.25rem;
+		margin: -0.25rem;
+
+		&::after {
+			content: none;
+		}
 	}
 }
 

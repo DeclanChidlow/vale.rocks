@@ -40,7 +40,7 @@ li {
 
 sup,
 sub {
-	line-height: 0;
+	line-height: 100%;
 }
 
 abbr,
