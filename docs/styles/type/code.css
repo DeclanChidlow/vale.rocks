@@ -9,6 +9,7 @@ pre {
 
 	code {
 		background: none;
+		padding: 0;
 	}
 }
 
@@ -25,17 +26,12 @@ code {
 	counter-reset: step;
 	counter-increment: step 0;
 
-	.line {
-		&::before {
-			content: counter(step);
-			counter-increment: step;
-			width: 1rem;
-			margin-right: 1.5rem;
-			display: inline-block;
-			text-align: right;
-		}
-		&:last-child::before {
-			content: none;
-		}
+	.line::before {
+		content: counter(step);
+		counter-increment: step;
+		width: 1rem;
+		margin-right: 1.5rem;
+		display: inline-block;
+		text-align: right;
 	}
 }

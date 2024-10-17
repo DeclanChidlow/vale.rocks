@@ -1,39 +1,46 @@
 // Based on https://brandur.org/fragments/shiki
-
-import { codeToHtml } from "https://esm.sh/shiki@1.10.0";
+import { codeToHtml } from "https://esm.sh/shiki@1.22.0";
 
 const htmlEscapes = new Map([
 	["&amp;", "&"],
 	["&lt;", "<"],
 	["&gt;", ">"],
+	["&quot;", '"'],
+	["&#39;", "'"],
 ]);
 
 function unescapeHTMLEntities(str) {
-	for (const [escaped, unescaped] of htmlEscapes) {
-		str = str.replaceAll(escaped, unescaped);
-	}
-	return str;
+	return str.replace(/&(?:amp|lt|gt|quot|#39);/g, (match) => htmlEscapes.get(match));
 }
 
+const getLanguageFromClassNames = (classNames) => {
+	if (!classNames) return null;
+	const languageClass = classNames.split(" ").find((c) => c.startsWith("language-"));
+	return languageClass ? languageClass.slice(9).toLowerCase() : null;
+};
+
 const processCodeBlock = async (codeBlock) => {
-	const classNames = codeBlock.getAttribute("class");
-	if (!classNames) return;
-
-	const language = classNames
-		.split(" ")
-		.map((c) => c.split("-"))
-		.find(([prefix]) => prefix === "language")
-		?.slice(1)
-		.join("-")
-		.toLowerCase();
-
+	const language = getLanguageFromClassNames(codeBlock.className);
 	if (!language) return;
 
-	const code = unescapeHTMLEntities(codeBlock.innerHTML);
-	codeBlock.parentElement.outerHTML = await codeToHtml(code, {
+	const code = unescapeHTMLEntities(codeBlock.textContent.trim());
+	const highlightedCode = await codeToHtml(code, {
 		lang: language,
 		theme: "vitesse-dark",
 	});
+
+	const tempElement = document.createElement("div");
+	tempElement.innerHTML = highlightedCode;
+	codeBlock.parentElement.replaceWith(tempElement.firstElementChild);
 };
 
-await Promise.all(Array.from(document.querySelectorAll("pre code")).map(processCodeBlock));
+const highlightAllCodeBlocks = async () => {
+	const codeBlocks = document.querySelectorAll("pre code");
+	await Promise.all(Array.from(codeBlocks).map(processCodeBlock));
+};
+
+if (document.readyState === "loading") {
+	document.addEventListener("DOMContentLoaded", highlightAllCodeBlocks);
+} else {
+	await highlightAllCodeBlocks();
+}
