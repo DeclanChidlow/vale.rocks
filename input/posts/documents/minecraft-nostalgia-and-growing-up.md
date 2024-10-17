@@ -4,7 +4,7 @@
     <meta name="description" content="A look back on Minecraft, its editions, its culture, and how it shaped me as I turn 18 and transition into adulthood." />
     <meta property="og:description" content="I'm feelin' nostalgic for the block game." />
     <meta property="article:published_time" content="2024-04-02" />
-    <meta property="article:modified_time" content="2024-07-10" />
+    <meta property="article:modified_time" content="2024-10-07" />
     <meta property="article:section" content="Reviews" />
 </head>
 
