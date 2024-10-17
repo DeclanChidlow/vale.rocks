@@ -52,6 +52,18 @@
 			margin: 0;
 			text-transform: uppercase;
 		}
+
+		.info p {
+			display: inline;
+
+			&:nth-child(1)::after {
+				content: " |";
+			}
+
+			&:nth-child(3)::before {
+				content: "- ";
+			}
+		}
 	}
 }
 
