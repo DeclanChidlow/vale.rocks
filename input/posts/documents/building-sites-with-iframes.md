@@ -116,7 +116,7 @@ Alternatively, you can use an existing library like [iframe-resizer](https://ifr
 
 This is the least fun bit of iframes, trying to communicate with them. It's doable, just a bit finicky -- mainly because of our old friend CORS -- but it shouldn't be too much of a hassle assuming they're on the same domain.
 
-We'll use JavaScript's [`post-message`(https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to facilitate sharing information. In fact, we've already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we'll stick to simple stings.
+We'll use JavaScript's [`post-message`](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to facilitate sharing information. In fact, we've already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we'll stick to simple stings.
 
 #### From iFrame to Parent
 

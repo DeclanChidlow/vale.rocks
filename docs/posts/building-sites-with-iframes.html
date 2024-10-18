@@ -134,7 +134,7 @@
 <p>Alternatively, you can use an existing library like <a href="https://iframe-resizer.com">iframe-resizer</a> to do it without the hassle of rolling it yourself. Do consider first if you <em>need</em> another dependency in your project, though.</p>
 <h3>Communicating With Our iFrame</h3>
 <p>This is the least fun bit of iframes, trying to communicate with them. It’s doable, just a bit finicky – mainly because of our old friend CORS – but it shouldn’t be too much of a hassle assuming they’re on the same domain.</p>
-<p>We’ll use JavaScript’s [<code>post-message</code>(https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to facilitate sharing information. In fact, we’ve already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we’ll stick to simple stings.</p>
+<p>We’ll use JavaScript’s <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage"><code>post-message</code></a> API to facilitate sharing information. In fact, we’ve already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we’ll stick to simple stings.</p>
 <h4>From iFrame to Parent</h4>
 <p>To send a message from the embedded iframe to the parent document, use this code in the iframe’s document:</p>
 <pre><code class="language-javascript">window.parent.postMessage("Hello from iframe!", "https://example.com");
