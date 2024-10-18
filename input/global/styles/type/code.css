@@ -1,19 +1,19 @@
 code {
 	font-family: "Fira Code", monospace;
-	border: 2px solid light-dark(var(--bright_grey), var(--grey));
+	border: 2px solid light-dark(var(--white), var(--grey));
 	padding: 0 0.2rem;
 }
 
 pre {
 	width: 100%;
 	overflow-x: scroll;
+	overflow-wrap: anywhere;
 	background: var(--black);
-	color: var(--bright_white);
-	border: 2px solid light-dark(var(--bright_grey), var(--grey));
+	color: var(--_white);
+	border: 3px solid light-dark(var(--white), var(--grey));
 	padding: 0.8rem;
 	line-height: 150%;
 	text-wrap-mode: unset;
-	white-space-collapse: break-spaces;
 
 	code {
 		padding: 0;
