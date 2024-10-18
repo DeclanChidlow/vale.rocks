@@ -15,9 +15,9 @@
 		Everything Is Chrome
 	</h1>
 	<ul>
-		<li><time datetime="2023-12-11">11 Dec, 2023</time></li>
 		<li>2365 words</li>
-		<li>8 minute read</li>
+        <li><time datetime="2023-12-11">11 Dec 2023</time></li>
+        <li><time datetime="2024-03-06">06 Mar 2024</time></li>
 	</ul>
 </header>
 

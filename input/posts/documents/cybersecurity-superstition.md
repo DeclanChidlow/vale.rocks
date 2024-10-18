@@ -15,9 +15,9 @@
 		Cybersecurity Superstition
 	</h1>
 	<ul>
-		<li><time datetime="2024-02-28">28 Feb, 2024</time></li>
-		<li>1896 words</li>
-		<li>7 minute read</li>
+        <li>1896 words</li>
+		<li><time datetime="2024-02-28">28 Feb 2024</time></li>
+		<li><time datetime="2024-03-06">06 Mar 2024</time></li>
 	</ul>
 </header>
 

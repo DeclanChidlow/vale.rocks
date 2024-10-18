@@ -15,9 +15,9 @@
 		Making Windows "Usable"
 	</h1>
 	<ul>
-		<li><time datetime="2023-10-31">31 Oct, 2023</time></li>
-		<li>1150 words</li>
-		<li>4 minute read</li>
+        <li>1150 words</li>
+		<li><time datetime="2023-10-31">31 Oct 2023</time></li>
+		<li><time datetime="2023-11-22">22 Nov 2023</time></li>
 	</ul>
 </header>
 

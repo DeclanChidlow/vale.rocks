@@ -15,9 +15,9 @@
 		JPEG XL And Google's War Against It
 	</h1>
 	<ul>
-		<li><time datetime="2024-05-01">01 May, 2024</time></li>
-		<li>2124 words</li>
-		<li>8 minute read</li>
+        <li>2124 words</li>
+		<li><time datetime="2024-05-01">01 May 2024</time></li>
+		<li><time datetime="2024-05-07">07 May 2024</time></li>
 	</ul>
 </header>
 

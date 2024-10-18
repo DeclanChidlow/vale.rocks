@@ -15,9 +15,9 @@
 		Connecting to Australian Public School Internet
 	</h1>
 	<ul>
-		<li><time datetime="2022-10-12">12 Oct, 2022</time></li>
-	    <li>780 words</li>
-		<li>3 minute read</li>
+        <li>780 words</li>
+		<li><time datetime="2022-10-12">12 Oct 2022</time></li>
+		<li><time datetime="2024-03-03">03 Mar 2024</time></li>
 	</ul>
 </header>
 

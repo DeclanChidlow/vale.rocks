@@ -15,9 +15,9 @@
 		Halo: My Thoughts
 	</h1>
 	<ul>
-		<li><time datetime="2023-08-27">27 Aug, 2023</time></li>
 		<li>4120 words</li>
-		<li>14 minute read</li>
+		<li><time datetime="2023-08-27">27 Aug 2023</time></li>
+		<li><time datetime="2024-08-21">21 Aug 2024</time></li>
 	</ul>
 </header>
 

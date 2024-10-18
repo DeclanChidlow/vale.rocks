@@ -15,8 +15,12 @@ article {
 				display: inline;
 				margin-left: 0;
 
-				&:not(:last-child)::after {
+				&:nth-child(1)::after {
 					content: " |";
+				}
+
+				&:nth-child(3)::before {
+					content: "- ";
 				}
 			}
 		}

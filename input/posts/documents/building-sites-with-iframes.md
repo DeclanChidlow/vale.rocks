@@ -15,9 +15,8 @@
 		Building Sites With iFrames
 	</h1>
 	<ul>
-		<li><time datetime="2024-10-08">08 Oct, 2024</time></li>
-	    <li>1146 words</li>
-		<li>4 minute read</li>
+        <li>1146 words</li>
+		<li><time datetime="2024-10-08">08 Oct 2024</time></li>
 	</ul>
 </header>
 
