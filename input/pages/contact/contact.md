@@ -1,6 +1,6 @@
 <h1 id="section">Contact</h1>
 
-<div>
+<div class="readable-width">
 Need to get in contact with me for whatever reason? The best ways to do so are:
 
 - On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale).

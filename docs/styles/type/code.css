@@ -7,13 +7,11 @@ code {
 pre {
 	width: 100%;
 	overflow-x: scroll;
-	overflow-wrap: anywhere;
 	background: var(--black);
 	color: var(--_white);
-	border: 3px solid light-dark(var(--white), var(--grey));
+	border: 2px solid light-dark(var(--white), var(--grey));
 	padding: 0.8rem;
 	line-height: 150%;
-	text-wrap-mode: unset;
 
 	code {
 		padding: 0;

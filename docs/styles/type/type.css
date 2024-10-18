@@ -4,6 +4,7 @@ body {
 
 .readable-width {
 	max-width: 80ch;
+	display: grid;
 
 	p + h2,
 	p + h3,
