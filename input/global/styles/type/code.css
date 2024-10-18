@@ -12,6 +12,8 @@ pre {
 	border: 2px solid light-dark(var(--bright_grey), var(--grey));
 	padding: 0.8rem;
 	line-height: 150%;
+	text-wrap-mode: unset;
+	white-space-collapse: break-spaces;
 
 	code {
 		padding: 0;
