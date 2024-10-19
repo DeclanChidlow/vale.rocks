@@ -14,6 +14,11 @@ body {
 		margin-top: 2rem;
 	}
 
+	p + ul,
+	p + ol {
+		margin-top: 0;
+	}
+
 	li {
 		margin-top: 0.5rem;
 
