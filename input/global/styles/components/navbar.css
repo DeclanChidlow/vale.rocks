@@ -23,11 +23,11 @@
 
 		.menu-items {
 			display: flex;
-			list-style: none;
 			gap: 1rem;
 
 			li {
 				margin: 0;
+				list-style: none;
 			}
 
 			.menu-only {
