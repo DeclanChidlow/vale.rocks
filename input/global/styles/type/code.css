@@ -13,13 +13,20 @@ pre {
 	line-height: 150%;
 
 	code {
+		display: inline-block;
 		padding: 0;
+		min-width: 100%;
 		border: none;
 		tab-size: 4;
 		counter-reset: step;
+		background: inherit;
 	}
 
 	.line {
+		display: inline-block;
+		width: 100%;
+		background: inherit;
+
 		&:hover {
 			background: var(--grey);
 		}
@@ -34,7 +41,7 @@ pre {
 			padding: 0 0.8rem;
 			width: 3.5rem;
 			color: var(--white);
-			background: var(--black);
+			background: inherit;
 			text-align: right;
 		}
 	}
