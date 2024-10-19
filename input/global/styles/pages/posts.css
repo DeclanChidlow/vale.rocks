@@ -31,6 +31,8 @@
 		padding: 0.5rem 0;
 		text-decoration: none;
 		transition: 0.15s;
+		animation: fade-in-up;
+		animation-timeline: view();
 
 		&:focus,
 		&:hover {
@@ -64,6 +66,18 @@
 				content: "- ";
 			}
 		}
+	}
+}
+
+@keyframes fade-in-up {
+	entry 0% {
+		transform: translateY(4rem);
+		opacity: 0;
+	}
+
+	entry 100% {
+		transform: translateY(0);
+		opacity: 1;
 	}
 }
 

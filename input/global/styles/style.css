@@ -22,6 +22,3 @@
 @import url("/styles/components/article_header.css");
 @import url("/styles/components/section.css");
 @import url("/styles/components/seperator.css");
-
-/* Importing animation styles */
-@import url("/styles/animations/fade_in_up.css");
