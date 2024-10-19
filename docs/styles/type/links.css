@@ -5,29 +5,25 @@ a {
 	-webkit-text-decoration-color: light-dark(var(--cyan), var(--blue));
 	text-decoration-skip-ink: none;
 	text-underline-offset: 0.2rem;
-}
 
-a:hover,
-a:active {
-	text-decoration-thickness: 0.7rem;
-	text-underline-offset: -0.4rem;
-}
+	&:hover,
+	&:active {
+		text-decoration-thickness: 0.7rem;
+		text-underline-offset: -0.37rem;
+	}
 
-a:after {
-	font-family: "Material Symbols";
-	font-size: 0.8rem;
-	display: inline-block;
-	line-height: 0;
-}
+	&::after {
+		font-family: "Material Symbols";
+		font-size: 0.8rem;
+		display: inline-block;
+		line-height: 0;
+	}
 
-a[href^="#"]:after {
-	content: "arrow_downward";
-}
+	&[href^="#"]:after {
+		content: "swap_vert" / "Anchor";
+	}
 
-a[href^="mailto"]:after {
-	content: "mail";
-}
-
-a[href]:not([href*="vale.rocks"]):not([href^="/"]):not([href^="#"]):not([href^="mailto"]):after {
-	content: "arrow_outward";
+	&&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
+		content: "arrow_outward" / "External";
+	}
 }
