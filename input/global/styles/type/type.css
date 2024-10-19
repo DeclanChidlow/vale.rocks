@@ -37,6 +37,19 @@ li {
 	line-height: 1.4rem;
 	margin-bottom: 0.5rem;
 	margin-left: 2rem;
+	list-style-type: "✦ ";
+
+	li {
+		list-style-type: "✧ ";
+
+		li {
+			list-style-type: "⬥ ";
+
+			li {
+				list-style-type: "⬦ ";
+			}
+		}
+	}
 }
 
 sup,
