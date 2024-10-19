@@ -6,9 +6,8 @@ code {
 
 pre {
 	width: 100%;
-	overflow-x: scroll;
+	overflow-x: auto;
 	background: var(--black);
-	color: var(--_white);
 	border: 2px solid light-dark(var(--white), var(--grey));
 	padding: 0.8rem;
 	line-height: 150%;
@@ -23,9 +22,14 @@ pre {
 	.line::before {
 		content: counter(step);
 		counter-increment: step;
-		width: 1rem;
-		margin-right: 1.5rem;
+		position: sticky;
+		left: -0.8rem;
 		display: inline-block;
+		margin-left: -0.8rem;
+		padding: 0 0.8rem;
+		width: 3.5rem;
+		color: var(--white);
+		background: var(--black);
 		text-align: right;
 	}
 }
