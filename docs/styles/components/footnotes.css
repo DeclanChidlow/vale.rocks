@@ -1,6 +1,4 @@
 .footnote-reference {
-	line-height: inherit;
-
 	a {
 		padding: 0.25rem;
 		margin: -0.25rem;
@@ -14,9 +12,12 @@
 .footnote-popover {
 	display: none;
 	position: absolute;
-	background: light-dark(var(--white), var(--grey));
-	padding: 0.5rem 1rem;
+	border: 2px solid light-dark(var(--white), var(--bright_grey));
+	background: light-dark(var(--bright_white), var(--black));
+	padding: 1rem;
 	z-index: 1000;
+	font-size: initial;
+	line-height: initial;
 
 	.footnote-definition-label::before {
 		content: "Footnote ";
@@ -42,7 +43,7 @@
 
 .footnote-reference .highlight,
 .sidenote.highlight {
-	background: light-dark(var(--white), var(--grey));
+	outline: 2px solid var(--blue);
 }
 
 .sidenote {
@@ -61,5 +62,10 @@
 		color: light-dark(var(--grey), var(--white));
 		padding: 0.5rem 1rem;
 		transition: background-color 0.25s;
+
+		p {
+			border-top: 1px solid light-dark(var(--white), var(--bright_grey));
+			padding-top: 0.25rem;
+		}
 	}
 }
