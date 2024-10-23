@@ -4,7 +4,7 @@ main {
 
 #puddle-container {
 	position: absolute;
-	inset: 0 0 0 0;
+	inset: 0;
 	color: var(--bright_grey);
 	user-select: none;
 
@@ -35,4 +35,25 @@ main {
 
 .content {
 	position: relative;
+	max-width: 80ch;
+
+	.about {
+		margin-bottom: 4rem;
+	}
+
+	.cta-link {
+		display: block;
+		border-top: 4px solid var(--grey);
+		border-bottom: 4px solid var(--grey);
+		padding: 1rem;
+		text-decoration: none;
+	}
+
+	p + h2 {
+		margin-top: 2rem;
+	}
+
+	* + * {
+		margin-top: 1rem;
+	}
 }
