@@ -5,7 +5,7 @@ code {
 }
 
 pre {
-	width: 100%;
+	max-width: calc(100vw - 16rem); /*Icky but I don't even know anymore*/
 	overflow-x: auto;
 	background: var(--black);
 	border: 2px solid light-dark(var(--white), var(--grey));
@@ -44,5 +44,11 @@ pre {
 			background: inherit;
 			text-align: right;
 		}
+	}
+}
+
+@media (max-width: 700px) {
+	pre {
+		max-width: 100%;
 	}
 }
