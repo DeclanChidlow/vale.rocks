@@ -13,8 +13,8 @@ format = "html"
 content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
-format = "html"
-content_file = "input/pages/index/index.html"
+format = "md"
+content_file = "input/pages/index/index.md"
 
 [[main.block]]
 format = "html"

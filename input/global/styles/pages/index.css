@@ -35,10 +35,13 @@ main {
 
 .content {
 	position: relative;
-	max-width: 80ch;
+	margin: auto;
+	max-width: 90ch;
 
 	.about {
+		margin: auto;
 		margin-bottom: 4rem;
+		max-width: 80ch;
 	}
 
 	.cta-link {
@@ -47,6 +50,7 @@ main {
 		border-bottom: 4px solid var(--grey);
 		padding: 1rem;
 		text-decoration: none;
+		text-align: center;
 	}
 
 	p + h2 {
