@@ -5,7 +5,7 @@ textarea {
 	display: block;
 	color: light-dark(var(--black), var(--bright_white));
 	padding: 0.2rem 0.5rem;
-	background: var(--grey);
+	background: light-dark(var(--white), var(--grey));
 	border: none;
 	border-radius: 0;
 	text-overflow: ellipsis;
