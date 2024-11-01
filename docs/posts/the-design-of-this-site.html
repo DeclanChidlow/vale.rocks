@@ -78,7 +78,7 @@
     <meta name="description" content="A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy." />
     <meta property="og:description" content="The thought behind the experience." />
     <meta property="article:published_time" content="2022-09-12" />
-    <meta property="article:modified_time" content="2024-08-12" />
+    <meta property="article:modified_time" content="2024-11-01" />
     <meta property="article:section" content="Meta" />
 </head>
 <article>
@@ -88,9 +88,9 @@
 		The Design of This Site
 	</h1>
 	<ul>
-        <li>1190 words</li>
+        <li>1274 words</li>
 		<li><time datetime="2022-09-12">12 Sep 2022</time></li>
-		<li><time datetime="2022-08-12">08 Aug 2024</time></li>
+		<li><time datetime="2024-11-01">01 Nov 2024</time></li>
 	</ul>
 </header>
 <div class="readable-width">
@@ -109,7 +109,7 @@ While it is possible to “finish” a web document, the fixed information becom
 <p>Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won’t read the contents of an article, but it should look good at first glance.</p>
 <p>Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site, but don’t necessarily have a defined reason for their visit, and as such, likely won’t return without reason.</p>
 <h2>Fundamentals</h2>
-<p>Every decision made for this site isn’t just based on the personas above, but also on these fundamentals:</p>
+<p>Every decision made for this site is weighted on both the personas above and these fundamentals:</p>
 <ol>
 <li>
 <p><strong>Design like print:</strong>
@@ -122,7 +122,7 @@ While functionality should always dictate form, form shouldn’t necessarily dic
 </li>
 <li>
 <p><strong>JavaScript is optional:</strong>
-JavaScript has creeped its way into every facet of the web. This isn’t necessarily a bad thing; JavaScript has its place. However, that place <em>isn’t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
+JavaScript has crept its tendrils into every facet of the web. This isn’t necessarily a bad thing; JavaScript has its place. However, that place <em>isn’t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
 <p>While visiting this site with JavaScript enabled merits access to optional features, it <em>isn’t</em> required for the core reading experience, and everything will operate cleanly in its absence.</p>
 </li>
 </ol>
@@ -139,15 +139,15 @@ Given that this is a static site and my readership is generally of the variety t
 </li>
 <li>
 <p><strong>Link icons:</strong>
-Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.</p>
+Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location. In the future, I’d like to expand this to indicate the type of content linked: image, video, pdf, web page, etc.</p>
 </li>
 <li>
 <p><strong>Figure lightboxes:</strong>
-While JavaScript is enabled, clicking on a figure opens it in a full screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.</p>
+While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.</p>
 </li>
 <li>
 <p><strong>Scroll indicator:</strong>
-When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.</p>
+When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I’d like to improve this so that users can use it for swift navigation through articles and also make it play nicer with additive content such as comments.</p>
 </li>
 </ul>
 <h2>Tooling</h2>
@@ -158,11 +158,12 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 <p>Like all endeavours, and especially creative ones (which I would argue this site is), I’ve <em>borrowed</em> many ideas from external sources.</p>
 <p>Perhaps most notable is <a href="https://gwern.net">the site of Gwern Branwen</a>, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern’s site long after starting the development of this one, many of its eccentricities have made their way over, as you’ve no doubt noticed if you’ve ever paid Gwern’s site a visit.</p>
 <p>Another huge source of inspiration is <a href="https://www.lesswrong.com">LessWrong</a>. A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.</p>
-<p>In a bit of a departure from the sites above, another source of inspiration for this site is <a href="https://www.joshwcomeau.com">Josh Comeau’s site</a>. Not really in terms of visual design, but in the sense of his idea of small and unique little features he dubs UI ‘sparkles’.</p>
+<p>In the very early stages of this site’s current iteration, the design was very much inspired by <a href="https://www.theverge.com">The Verge</a>. Some vestiges of this include the right-aligned navigation menu and vertical text, although much of the influence has been diluted in the years since.</p>
+<p>Another source of inspiration for this site is <a href="https://www.joshwcomeau.com">Josh W Comeau’s site</a>. Not really in terms of visual design, but in influence from his concept of small and unique features he dubs UI ‘sparkles’.</p>
 <hr />
 <h2>Footnotes</h2>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p><a href="https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks">Google suggests</a> that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving, but also to ensure a good user experience.</p>
+<p><a href="https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks">Google suggests</a> that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.</p>
 </div>
 <section class="giscus"></section>
 </div>

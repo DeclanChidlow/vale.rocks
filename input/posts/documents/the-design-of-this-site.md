@@ -4,7 +4,7 @@
     <meta name="description" content="A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy." />
     <meta property="og:description" content="The thought behind the experience." />
     <meta property="article:published_time" content="2022-09-12" />
-    <meta property="article:modified_time" content="2024-08-12" />
+    <meta property="article:modified_time" content="2024-11-01" />
     <meta property="article:section" content="Meta" />
 </head>
 
@@ -15,9 +15,9 @@
 		The Design of This Site
 	</h1>
 	<ul>
-        <li>1190 words</li>
+        <li>1274 words</li>
 		<li><time datetime="2022-09-12">12 Sep 2022</time></li>
-		<li><time datetime="2022-08-12">08 Aug 2024</time></li>
+		<li><time datetime="2024-11-01">01 Nov 2024</time></li>
 	</ul>
 </header>
 
@@ -47,7 +47,7 @@ Finally, people who I interact with online that come to my site to find out more
 
 ## Fundamentals
 
-Every decision made for this site isn't just based on the personas above, but also on these fundamentals:
+Every decision made for this site is weighted on both the personas above and these fundamentals:
 
 1. **Design like print:**
    Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.
@@ -58,7 +58,7 @@ Every decision made for this site isn't just based on the personas above, but al
    While functionality should always dictate form, form shouldn't necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I'm firmly of the belief that sites should respect that.
 
 3. **JavaScript is optional:**
-   JavaScript has creeped its way into every facet of the web. This isn't necessarily a bad thing; JavaScript has its place. However, that place _isn't_ everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.
+   JavaScript has crept its tendrils into every facet of the web. This isn't necessarily a bad thing; JavaScript has its place. However, that place _isn't_ everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.
 
    While visiting this site with JavaScript enabled merits access to optional features, it _isn't_ required for the core reading experience, and everything will operate cleanly in its absence.
 
@@ -73,13 +73,13 @@ Vale.Rocks is home to many non-standard features and some notable implementation
   Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality.
 
 - **Link icons:**
-  Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.
+  Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location. In the future, I'd like to expand this to indicate the type of content linked: image, video, pdf, web page, etc.
 
 - **Figure lightboxes:**
-  While JavaScript is enabled, clicking on a figure opens it in a full screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.
+  While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.
 
 - **Scroll indicator:**
-  When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.
+  When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I'd like to improve this so that users can use it for swift navigation through articles and also make it play nicer with additive content such as comments.
 
 ## Tooling
 
@@ -97,13 +97,15 @@ Perhaps most notable is [the site of Gwern Branwen](https://gwern.net), a slick 
 
 Another huge source of inspiration is [LessWrong](https://www.lesswrong.com). A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.
 
-In a bit of a departure from the sites above, another source of inspiration for this site is [Josh Comeau's site](https://www.joshwcomeau.com). Not really in terms of visual design, but in the sense of his idea of small and unique little features he dubs UI 'sparkles'.
+In the very early stages of this site's current iteration, the design was very much inspired by [The Verge](https://www.theverge.com). Some vestiges of this include the right-aligned navigation menu and vertical text, although much of the influence has been diluted in the years since.
+
+Another source of inspiration for this site is [Josh W Comeau's site](https://www.joshwcomeau.com). Not really in terms of visual design, but in influence from his concept of small and unique features he dubs UI 'sparkles'.
 
 ---
 
 ## Footnotes
 
-[^1]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving, but also to ensure a good user experience.
+[^1]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.
 
 <section class="giscus"></section>
 
