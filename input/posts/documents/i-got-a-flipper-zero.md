@@ -61,7 +61,7 @@ It isn't hard to install and can be done via a web browser, the qFlipper desktop
 Once I had the Flipper properly setup, I dove straight into mischief. First action was cloning the TV remote so I'd be able to mildly inconvenience anyone at my discretion. This sort of IR cloning is super easy, simply open the necessary app, set it to learn, point the relevant remote at the Flipper's sensor, and press whatever button you want to capture.
 
 <figure class="right">
-<img src="/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png" alt="A picture of a Flipper Zero sitting on a table." />
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." />
 <figcaption>My Flipper Zero</figcaption>
 </figure>
 
