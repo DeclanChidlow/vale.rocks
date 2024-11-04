@@ -15,7 +15,7 @@
 		Everything Is Chrome
 	</h1>
 	<ul>
-		<li>2464 words</li>
+		<li>2474 words</li>
         <li><time datetime="2023-12-11">11 Dec 2023</time></li>
         <li><time datetime="2024-11-03">03 Nov 2024</time></li>
 	</ul>
@@ -72,13 +72,13 @@ In 2012, Safari was discontinued for Windows, where its market share had been de
 
 The following year, Opera announced its intention to switch from Presto to WebKit, although around the same time, Google announced they would be forking WebKit, to which they were already the largest contributor, to create Blink. Following this, Opera revised their plans and moved to Blink.
 
-With 2015 came Microsoft's attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own proprietary EdgeHTML and open-source Chakra engines. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.
+With 2015 came Microsoft's attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own engines -- the proprietary EdgeHTML browser engine and open-source JavaScript engine Chakra. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.
 
 Unfortunately for Microsoft, Edge wasn't much liked upon release. While praised for performance, it was slandered for its lack of features and poor design choices, among other issues. Microsoft saw this and announced in 2018 that it would rebuild Edge as a Chromium based browser. This move was completed in 2020 and was seen much more favourably.
 
 This left the web with three major engines: Google's Blink, Mozilla's Gecko, and Apple's WebKit. Almost every browser currently in existence relies on one of these three engines.
 
-Apple's WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it's preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a small amount of use in an assortment of other browsers, although it's very minimal.
+Apple's WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it's preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a degree of use in embedded applications thanks to its performant nature and in some other browsers.
 
 Mozilla's Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, but very little beyond that.
 
@@ -119,7 +119,7 @@ Naturally, this specification has evolved over time. The latest iteration is Man
 
 This is, in general, a good thing. Extensions are a huge attack vector with potential for malicious use, and the changes introduced by Manifest v3 act to lessen their potential impact. Unfortunately, these changes also restrict the capabilities of extensions, especially content blockers.
 
-Blocking adverts, trackers, and the likes isn't just a 'nice to have' anymore -- it's a required tool for safe web browsing. Even the [FBI recommends you use an adblocker](https://www.ic3.gov/PSA/2022/PSA221221).
+Blocking adverts, trackers, and the likes isn't just a nice-to-have anymore -- it's a near on required tool for safe web browsing. Even the [FBI recommends you use an adblocker](https://www.ic3.gov/PSA/2022/PSA221221).
 
 Content blockers are severely restricted in functionality under Manifest v3 as a result of the depreciation of the webRequest API, which is used to block content prior to it loading.
 
@@ -127,7 +127,7 @@ Content blockers are severely restricted in functionality under Manifest v3 as a
 
 Google is a company that makes the bulk of its revenue through advertising and data collection. Perhaps it's conspiracy to think that they're making these changes to bolster their income, but it certainly isn't hurting it. This is a change that is being pushed by Google, and a change that Google has the most to gain from.
 
-Manifest v3 is [also being adopted by Firefox](https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons) to ensure interoperability, though they don't intend to phase out v2 for the foreseeable future.
+Manifest v3 is [also being adopted by Firefox](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps) to ensure interoperability, though they don't intend to phase out v2 for the foreseeable future.
 
 ### Accelerated Mobile Pages
 
@@ -149,7 +149,7 @@ I could continue with further examples, but I think the point is made, and I exp
 
 ## The Death of Firefox Support
 
-As Bryce Wray illustrates in his article ["Firefox on the Brink?"](https://www.brycewray.com/posts/2023/11/firefox-brink/) the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As he suggests, it may be a lot sooner than we expect that Firefox loses consideration during development. I very much recommend reading his article for discussion on the topic.
+As Bryce Wray illustrates in his article ["Firefox on the Brink?"](https://www.brycewray.com/posts/2023/11/firefox-brink/) the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As he suggests, it may be a lot sooner than we expect that Firefox loses consideration for compatibility during development. I very much recommend reading his article for discussion on the topic.
 
 ## Taking Action
 
@@ -182,6 +182,7 @@ Share the message of browser engine diversity. Preserving an open web is crucial
 - [Designing for different browsers and devices - Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
 - [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers) | Accessed: 10/12/2023
 - [Why did I build AmputatorBot?](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) | Accessed: 06/03/2024
+- [The Future of Developing Firefox Add-ons](https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons) | Accessed: 03/11/2024
 - [Manifest v3 in Firefox: Recap & Next Steps](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps) | Accessed: 03/11/2024
 - [uBlock Origin - Free, open-source ad content blocker](https://ublockorigin.com/) | Accessed: 03/11/2024
 
