@@ -1,16 +1,16 @@
 @font-face {
 	font-family: "Lexend";
-	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.ttf");
+	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2");
 }
 
 @font-face {
 	font-family: "Fira Code";
-	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.ttf");
+	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2");
 }
 
 @font-face {
 	font-family: "Material Symbols";
-	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.ttf");
+	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2");
 }
 
 .icons {
