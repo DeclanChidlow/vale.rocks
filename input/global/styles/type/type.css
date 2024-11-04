@@ -1,5 +1,90 @@
+@font-face {
+	font-family: "Lexend";
+	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: "Fira Code";
+	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: "Material Symbols";
+	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.ttf");
+}
+
+.icons {
+	font-family: "Material Symbols";
+	user-select: none;
+}
+
 body {
 	font-family: "Lexend", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+	text-wrap: balance;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 3.2rem;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 2.2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+	line-height: 2rem;
+}
+
+h4 {
+	font-size: 1rem;
+	line-height: 1.2rem;
+}
+
+h5 {
+	font-size: 0.8rem;
+	line-height: 1rem;
+}
+
+h6 {
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+}
+
+#section {
+	font-size: 5rem;
+	line-height: 4rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: right;
+	transform: scale(-1);
+	writing-mode: vertical-lr;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+@media (max-width: 700px) {
+	#section {
+		font-size: 3rem;
+		line-height: 3.2rem;
+		text-align: inherit;
+		transform: inherit;
+		writing-mode: inherit;
+		user-select: inherit;
+		-webkit-user-select: inherit;
+	}
 }
 
 .readable-width {
@@ -64,6 +149,14 @@ sub {
 abbr,
 kbd {
 	font-variant-caps: all-small-caps;
+}
+
+hr {
+	all: unset;
+	display: block;
+	height: 2px;
+	background: var(--bright_grey);
+	margin-bottom: 1rem;
 }
 
 ::selection {

@@ -1,7 +1,0 @@
-hr {
-	all: unset;
-	display: block;
-	height: 2px;
-	background: var(--bright_grey);
-	margin-bottom: 1rem;
-}
