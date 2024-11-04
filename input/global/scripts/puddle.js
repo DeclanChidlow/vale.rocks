@@ -38,7 +38,6 @@ class AsciiNode {
 	// Create the HTML element representing the node
 	getNodeElement() {
 		this.element = document.createElement("span");
-		this.element.style.cssText = "display: block; width: 100%; height: 100%;";
 		this.drawNode(0);
 		this.applyListeners();
 		return this.element;
@@ -241,7 +240,7 @@ class Puddle {
 		this.data.refresh(this.numRows, this.numCols);
 
 		this.parentNode.innerHTML = "";
-		this.parentNode.style.cssText = `font-family: "Fira Code, monospace"; display: grid; grid-template-columns: repeat(${this.numCols}, ${this.nodeSize}px); grid-template-rows: repeat(${this.numRows}, ${this.nodeSize}px);`;
+		this.parentNode.style.cssText = `grid-template-columns: repeat(${this.numCols}, ${this.nodeSize}px); grid-template-rows: repeat(${this.numRows}, ${this.nodeSize}px);`;
 
 		for (let yy = 0; yy < this.numRows; ++yy) {
 			for (let xx = 0; xx < this.numCols; ++xx) {

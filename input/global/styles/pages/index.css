@@ -4,9 +4,11 @@ main {
 
 #puddle-container {
 	position: absolute;
+	display: grid;
 	inset: 0;
 	color: var(--bright_grey);
 	user-select: none;
+	font-family: "Fira Code", monospace;
 
 	&::after {
 		content: "";
