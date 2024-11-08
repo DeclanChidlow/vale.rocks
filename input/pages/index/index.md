@@ -2,11 +2,9 @@
 
 <section class="hero">
 	<h1>Vale</h1>
-	<div class="hero-titles">
-		<p>Developer</p>
-		<p>Designer</p>
-		<p>Dabbler</p>
-	</div>
+    <p>Developer</p>
+    <p>Designer</p>
+    <p>Dabbler</p>
 </section>
 
 <div class="content">

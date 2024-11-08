@@ -1,16 +1,37 @@
 <h1 id="section">Posts</h1>
 
-<div>
-	<div id="refine-posts" class="search-container">
-		<input type="search" id="posts-search" placeholder="Search posts..." />
-		<select id="posts-filter">
-			<option value="all">All</option>
-			<option value="review">Reviews</option>
-			<option value="essay">Essays</option>
-			<option value="tutorial">Tutorials</option>
-			<option value="meta">Meta</option>
-		</select>
-	</div>
+<div class="page">
+	<form role="search" id="refine-posts">
+		<search>
+			<label for="posts-search" class="icons">search</label>
+			<input type="search" id="posts-search" placeholder="Search posts..." />
+		</search>
+
+		<div class="refinements">
+			<div class="refinement-select">
+				<label for="posts-filter" class="icons">category</label>
+				<select id="posts-filter">
+					<option value="all">All</option>
+					<option value="review">Reviews</option>
+					<option value="essay">Essays</option>
+					<option value="tutorial">Tutorials</option>
+					<option value="meta">Meta</option>
+				</select>
+			</div>
+
+			<div class="refinement-select">
+				<label for="posts-sort" class="icons">sort</label>
+				<select id="posts-sort">
+					<option value="published-desc">Published Descending</option>
+					<option value="published-asc">Published Ascending</option>
+					<option value="revised-desc">Revised Descending</option>
+					<option value="revised-asc">Revised Ascending</option>
+					<option value="length-desc">Length Descending</option>
+					<option value="length-asc">Length Ascending</option>
+				</select>
+			</div>
+		</div>
+	</form>
 
 	<div id="post-items">
 		<a class="post" href="/posts/building-sites-with-iframes">

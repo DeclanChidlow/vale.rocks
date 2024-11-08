@@ -48,6 +48,10 @@ main {
 	margin-top: 5rem;
 	display: flex;
 	gap: 3rem;
+
+	> div {
+		width: 100%;
+	}
 }
 
 @media (max-width: 700px) {

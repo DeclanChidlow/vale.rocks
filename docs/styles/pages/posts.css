@@ -1,22 +1,37 @@
 #refine-posts {
 	display: none; /* Set to flex with JS */
 	gap: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 
-	input,
-	select {
-		background: none;
+	search,
+	.refinement-select {
+		display: flex;
+		gap: 0.5rem;
+		align-items: center;
 		border-bottom: 2px solid var(--bright_grey);
-		padding: 0.2rem 0;
 
-		&:focus,
+		&:focus-within,
 		&:hover {
+			outline: var(--blue) solid 2px;
 			border-color: var(--blue);
 		}
 	}
 
-	input {
+	search {
 		flex: 1;
+	}
+
+	input,
+	select {
+		width: 100%;
+		background: none;
+		padding: 0.2rem 0;
+		outline: none;
+	}
+
+	.refinements {
+		display: flex;
+		gap: inherit;
 	}
 }
 
@@ -68,7 +83,7 @@
 	}
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: no-preference) {
 	@keyframes fade-in-up {
 		entry 0% {
 			transform: translateY(5rem);
@@ -78,6 +93,16 @@
 		entry 100% {
 			transform: translateY(0);
 			opacity: 1;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	#refine-posts {
+		flex-direction: column;
+
+		.refinement-select {
+			flex: 1;
 		}
 	}
 }
