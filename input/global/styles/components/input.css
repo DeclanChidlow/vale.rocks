@@ -12,13 +12,6 @@ textarea {
 	-webkit-appearance: none;
 }
 
-button:focus,
-select:focus,
-input:focus,
-textarea:focus {
-	color: inherit;
-}
-
 button,
 select {
 	cursor: pointer;
