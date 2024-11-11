@@ -1,24 +1,42 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-10-08T01:14:50.268477562+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>my-code-formatting-guidelines.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://vale.rocks" xml:lang="en-AU"><title>Vale.Rocks</title><id>https://vale.rocks</id><updated>2024-11-11T07:10:13.414541440+00:00</updated><generator uri="http://adduce.vale.rocks" version="0.1.6">Adduce</generator><rights>© Declan Chidlow</rights><subtitle>A collection of unhinged (yet not completely insane) ramblings.</subtitle><entry><title>my-code-formatting-guidelines.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -36,27 +54,35 @@
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;My Code Formatting Guidelines | Vale.Rocks&lt;/title&gt;
@@ -74,9 +100,9 @@
 		My Code Formatting Guidelines
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2024-04-18&quot;&gt;18 Apr, 2024&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;875 words&lt;/li&gt;
-		&lt;li&gt;3 minute read&lt;/li&gt;
+        &lt;li&gt;875 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-04-18&quot;&gt;18 Apr 2024&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-06-10&quot;&gt;10 Jun 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -253,26 +279,44 @@ x =&amp;gt; x
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>minecraft-nostalgia-and-growing-up.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>minecraft-nostalgia-and-growing-up.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -290,27 +334,35 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Minecraft, Nostalgia, and Growing Up | Vale.Rocks&lt;/title&gt;
@@ -318,7 +370,7 @@ x =&amp;gt; x
     &lt;meta name=&quot;description&quot; content=&quot;A look back on Minecraft, its editions, its culture, and how it shaped me as I turn 18 and transition into adulthood.&quot; /&gt;
     &lt;meta property=&quot;og:description&quot; content=&quot;I&apos;m feelin&apos; nostalgic for the block game.&quot; /&gt;
     &lt;meta property=&quot;article:published_time&quot; content=&quot;2024-04-02&quot; /&gt;
-    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-07-10&quot; /&gt;
+    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-10-07&quot; /&gt;
     &lt;meta property=&quot;article:section&quot; content=&quot;Reviews&quot; /&gt;
 &lt;/head&gt;
 &lt;article&gt;
@@ -328,9 +380,9 @@ x =&amp;gt; x
 		Minecraft, Nostalgia, and Growing Up
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2024-04-02&quot;&gt;02 Apr, 2024&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1559 words&lt;/li&gt;
-		&lt;li&gt;6 minute read&lt;/li&gt;
+        &lt;li&gt;1559 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-04-02&quot;&gt;02 Apr 2024&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-10-07&quot;&gt;07 Oct 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -441,26 +493,44 @@ x =&amp;gt; x
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>everything-is-chrome.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>everything-is-chrome.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -478,27 +548,35 @@ x =&amp;gt; x
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Everything Is Chrome | Vale.Rocks&lt;/title&gt;
@@ -506,7 +584,7 @@ x =&amp;gt; x
     &lt;meta name=&quot;description&quot; content=&quot;My look into the overaching dominance of Google Chrome and it&apos;s overwhelmingly negative impact on the web as we know it.&quot; /&gt;
     &lt;meta property=&quot;og:description&quot; content=&quot;The web is under attack. Unsheathe your keyboards.&quot; /&gt;
     &lt;meta property=&quot;article:published_time&quot; content=&quot;2023-12-11&quot; /&gt;
-    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-03-06&quot; /&gt;
+    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-11-03&quot; /&gt;
     &lt;meta property=&quot;article:section&quot; content=&quot;Essays&quot; /&gt;
 &lt;/head&gt;
 &lt;article&gt;
@@ -516,9 +594,9 @@ x =&amp;gt; x
 		Everything Is Chrome
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2023-12-11&quot;&gt;11 Dec, 2023&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;2365 words&lt;/li&gt;
-		&lt;li&gt;8 minute read&lt;/li&gt;
+		&lt;li&gt;2474 words&lt;/li&gt;
+        &lt;li&gt;&lt;time datetime=&quot;2023-12-11&quot;&gt;11 Dec 2023&lt;/time&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;time datetime=&quot;2024-11-03&quot;&gt;03 Nov 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -548,52 +626,64 @@ x =&amp;gt; x
 &lt;p&gt;It didn’t see success as instant as Firefox, but instead slowly crept up, to the point that by 2012 it was beating all other major browsers. From that point on, it only continued to grow and has taken complete dominance.&lt;/p&gt;
 &lt;p&gt;In 2012, Safari was discontinued for Windows, where its market share had been decimated. However, it’s continued to remain a popular choice on Apple operating systems.&lt;/p&gt;
 &lt;p&gt;The following year, Opera announced its intention to switch from Presto to WebKit, although around the same time, Google announced they would be forking WebKit, to which they were already the largest contributor, to create Blink. Following this, Opera revised their plans and moved to Blink.&lt;/p&gt;
-&lt;p&gt;With 2015 came Microsoft’s attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own proprietary EdgeHTML and open source Chakra engines. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.&lt;/p&gt;
+&lt;p&gt;With 2015 came Microsoft’s attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own engines – the proprietary EdgeHTML browser engine and open-source JavaScript engine Chakra. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.&lt;/p&gt;
 &lt;p&gt;Unfortunately for Microsoft, Edge wasn’t much liked upon release. While praised for performance, it was slandered for its lack of features and poor design choices, among other issues. Microsoft saw this and announced in 2018 that it would rebuild Edge as a Chromium based browser. This move was completed in 2020 and was seen much more favourably.&lt;/p&gt;
 &lt;p&gt;This left the web with three major engines: Google’s Blink, Mozilla’s Gecko, and Apple’s WebKit. Almost every browser currently in existence relies on one of these three engines.&lt;/p&gt;
-&lt;p&gt;Apple’s WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it’s preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a small amount of use in an assortment of other browsers, although it’s very minimal.&lt;/p&gt;
-&lt;p&gt;Mozilla’s Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, such as the privacy oriented Tor Browser, but very little beyond that.&lt;/p&gt;
-&lt;p&gt;Google’s Blink sees the most use by far. Just about any browser that you might use is using Blink. This is what this article has been building up to, and where the issues lies. Almost everything uses Blink.&lt;/p&gt;
-&lt;p&gt;Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink.&lt;/p&gt;
+&lt;p&gt;Apple’s WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it’s preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a degree of use in embedded applications thanks to its performant nature and in some other browsers.&lt;/p&gt;
+&lt;p&gt;Mozilla’s Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, but very little beyond that.&lt;/p&gt;
+&lt;p&gt;Google’s Blink sees the most use by far. This is what this article has been building up to and where the issues lie. Almost everything uses Blink.&lt;/p&gt;
+&lt;p&gt;Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink. Arc? Blink.&lt;/p&gt;
 &lt;p id=&quot;showChromium&quot; style=&quot;display:none;&quot;&gt;
-If you&apos;re wondering, the browser you&apos;re reading this article in is Chromium based according to a script I wrote.
+If you&apos;re wondering, the browser you&apos;re reading this article in is Chromium based.
 &lt;/p&gt;
 &lt;script&gt;
     if (!!window.chrome) {
         document.getElementById(&quot;showChromium&quot;).style.display = &apos;block&apos;;
     }
 &lt;/script&gt;
+&lt;p&gt;But it goes beyond that. It’s not only the engine used by most of the most popular browsers; it’s also the engine that powers &lt;a href=&quot;https://www.electronjs.org&quot;&gt;Electron&lt;/a&gt;. Thus, the desktop applications for Discord, Spotify, VS Code, Figma, Obsidian, Signal, Slack, &lt;a href=&quot;https://www.electronjs.org/apps&quot;&gt;et al&lt;/a&gt; are all using Blink. It’s everywhere!&lt;/p&gt;
 &lt;h2&gt;The Problem with Chrome&lt;/h2&gt;
-&lt;p&gt;The list above is just the tip of the iceberg; I could continue to list many more. There is no choice in the browser market. It’s all just Blink, and Blink is Chrome, and Chrome is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have complete control over the web.&lt;/p&gt;
+&lt;p&gt;There is no choice in the browser market. It’s all just Blink, and Blink is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have near complete control over the web.&lt;/p&gt;
 &lt;p&gt;This simply isn’t acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.&lt;/p&gt;
 &lt;figure class=&quot;right&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png&quot; alt=&quot;The interface of Google Chrome displaying the browser&apos;s minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage.&quot; /&gt;
 &lt;figcaption&gt;Screenshot of Google Chrome version 96.&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;If you’ve been reading attentively, you may remember the comic I mentioned that was released alongside Chrome. Well, in 2022, &lt;a href=&quot;https://contrachrome.com&quot;&gt;a parody released&lt;/a&gt; with a few changes. It outlines a few of the things that Google is doing within Chrome that have far reaching implications.&lt;/p&gt;
-&lt;p&gt;First of all, the privacy implications. There is a lot to go into there, such as the fact that Google tracks just about everything you do and collects it to build a profile on you, but I don’t think I’ve got much to say that isn’t said better by the comic. I will note that almost everything you do in Chromium is tracked, and there is no true way to disable it.&lt;/p&gt;
-&lt;p&gt;Something I do have more to add to is something touched on briefly in the comic. The advent of Manifest v3 and its implications.&lt;/p&gt;
+&lt;p&gt;If you’ve been reading attentively, you may remember the comic I mentioned that was released alongside Chrome. Well, in 2022, &lt;a href=&quot;https://contrachrome.com&quot;&gt;a parody released&lt;/a&gt; with a few changes. It outlines a few of the things that Google is doing within Chrome that have far-reaching implications. Beyond all the spying, the comic touches on something of particular interest: the advent of Manifest v3 and its implications.&lt;/p&gt;
 &lt;h3&gt;Manifest v3&lt;/h3&gt;
-&lt;p&gt;Google has an extension platform with their Web Store. It allows developers to post extensions that allow users to increase the capabilities of their browser. There are many excellent extensions that come with this, but perhaps the most useful are ad blockers.&lt;/p&gt;
-&lt;p&gt;Ad blockers completely remove advertisements from the document flow, significantly improving the user experience. Alphabet Inc, the company behind Google, makes a lot of their money through these ads and, as such, isn’t much a fan of ad blockers.&lt;/p&gt;
-&lt;p&gt;To combat this, they’re implementing Manifest v3. In the context of a browser extension, a manifest file determines things such as what permissions an extension needs to run. Version 3 will restrict the ability of tools that manipulate network requests.&lt;/p&gt;
-&lt;p&gt;They’ve been planning on rolling it out but seem to keep postponing it whenever public outrage grows too much. As of the time of writing, they intend to release it in June 2024 and depreciate previous versions by June 2025.&lt;/p&gt;
-&lt;p&gt;It isn’t just ad blockers that will be impacted by this change. Many privacy extensions, which rely on filtering out tracking requests, will also be negatively impacted.&lt;/p&gt;
-&lt;p&gt;This change will trickle down to all Chromium based browsers. If they dare to opt out then they’ll lose access to Google’s Chrome Web Store. This is a change that will benefit Google the most out of any affected party.&lt;/p&gt;
+&lt;p&gt;Most browsers have support for the WebExtensions API, which is a system for developing extensions that can be used across browsers. These extensions require a file called &lt;code&gt;manifest.json&lt;/code&gt; that defines metadata, behaviour, and an assortment of other information.&lt;/p&gt;
+&lt;p&gt;Naturally, this specification has evolved over time. The latest iteration is Manifest v3. It attempts to address issues regarding privacy, security, and performance. Namely, it embraces service workers, prevents remotely hosted code, and depreciates the webRequest API.&lt;/p&gt;
+&lt;p&gt;This is, in general, a good thing. Extensions are a huge attack vector with potential for malicious use, and the changes introduced by Manifest v3 act to lessen their potential impact. Unfortunately, these changes also restrict the capabilities of extensions, especially content blockers.&lt;/p&gt;
+&lt;p&gt;Blocking adverts, trackers, and the likes isn’t just a nice-to-have anymore – it’s a near on required tool for safe web browsing. Even the &lt;a href=&quot;https://www.ic3.gov/PSA/2022/PSA221221&quot;&gt;FBI recommends you use an adblocker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Content blockers are severely restricted in functionality under Manifest v3 as a result of the depreciation of the webRequest API, which is used to block content prior to it loading.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ublockorigin.com&quot;&gt;uBlock Origin&lt;/a&gt;, one of the most popular content blockers around, has had to release a &lt;a href=&quot;https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh&quot;&gt;‘lite’ version&lt;/a&gt; with lesser functionality as a result of these changes, and many other extensions, mainly those that boost privacy and reduce data collection, will be hit the hardest.&lt;/p&gt;
+&lt;p&gt;Google is a company that makes the bulk of its revenue through advertising and data collection. Perhaps it’s conspiracy to think that they’re making these changes to bolster their income, but it certainly isn’t hurting it. This is a change that is being pushed by Google, and a change that Google has the most to gain from.&lt;/p&gt;
+&lt;p&gt;Manifest v3 is &lt;a href=&quot;https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps&quot;&gt;also being adopted by Firefox&lt;/a&gt; to ensure interoperability, though they don’t intend to phase out v2 for the foreseeable future.&lt;/p&gt;
 &lt;h3&gt;Accelerated Mobile Pages&lt;/h3&gt;
 &lt;p&gt;Accelerated Mobile Pages (AMP) is another excellent example of the problems with Google having power. AMP is a framework that aims to improve the performance of web content, particularly on mobile. It improves speed by restricting certain elements and optimising content delivery. While these are great intentions, they’ve seen much good criticism.&lt;/p&gt;
-&lt;p&gt;One large criticism is that it gives Google a huge amount of control over the way content is displayed on the web, which influences how things are built and monetized. It also has impacts on privacy, and security.&lt;/p&gt;
+&lt;p&gt;One large criticism is that it gives Google a huge amount of control over the way content is displayed on the web, which influences how things are built and monetized. It also has impacts on privacy and security.&lt;/p&gt;
 &lt;p&gt;Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google’s “Top Stories” section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after &lt;a href=&quot;https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf&quot;&gt;facing legal threats&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;AMP is just another way that Google has shown that they are not content with simply existing within the web, but instead wish to control it. If you’d like to read more about AMP and its impact, then I’d suggest &lt;a href=&quot;https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot&quot;&gt;this Reddit post&lt;/a&gt; from the creator of &lt;a href=&quot;https://amputatorbot.com&quot;&gt;AmputatorBot.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;AMP is just another way that Google has shown that they are not content with simply existing within the web but instead wish to control it. If you’d like to read more about AMP and its impact, then I’d suggest &lt;a href=&quot;https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot&quot;&gt;this Reddit post&lt;/a&gt; from the creator of the &lt;a href=&quot;https://amputatorbot.com&quot;&gt;Amputator bot&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Web Environment Integrity&lt;/h3&gt;
 &lt;p&gt;In April of 2023, some Google engineers &lt;a href=&quot;https://github.com/RupertBenWiser/Web-Environment-Integrity&quot;&gt;created a GitHub repository&lt;/a&gt; explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled “Android WebView Media Integrity API” was swiftly proposed and looks to enter testing in early 2024.&lt;/p&gt;
-&lt;p&gt;You may be wondering exactly what it is. WEI is more or less a way to verify that a site is ‘genuine’. It can be best described as Digital Rights Management (DRM) for the web and, wouldn’t you know, could’ve also impacted ad blockers if they were found to be altering the web environment’s integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered ‘untrusted’, and therefore severely limited.&lt;/p&gt;
-&lt;p&gt;I could continue with further examples, but I think the point is made, and I expect you’ve gathered the picture. The web is dominated by Chrome, and something must be done about it.&lt;/p&gt;
+&lt;p&gt;You may be wondering exactly what it is. WEI is more or less a way to verify that a site is ‘genuine’. It can be best described as Digital Rights Management (DRM) for the web and, wouldn’t you know, could’ve also impacted ad blockers if they were found to be altering the web environment’s integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered ‘untrusted’ and therefore severely limited.&lt;/p&gt;
+&lt;p&gt;I could continue with further examples, but I think the point is made, and I expect you’ve gathered the picture. The web is dominated by Chrome, and something needs to be done about it.&lt;/p&gt;
 &lt;h2&gt;The Death of Firefox Support&lt;/h2&gt;
-&lt;p&gt;As Bryce Wray illustrates in his article &lt;a href=&quot;https://www.brycewray.com/posts/2023/11/firefox-brink/&quot;&gt;“Firefox on the Brink?”&lt;/a&gt; the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is &lt;a href=&quot;https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices&quot;&gt;set by the British government&lt;/a&gt;. As Wray suggests, it may be a lot sooner than we expect that Firefox loses its position in the web. I very much recommend reading his article.&lt;/p&gt;
+&lt;p&gt;As Bryce Wray illustrates in his article &lt;a href=&quot;https://www.brycewray.com/posts/2023/11/firefox-brink/&quot;&gt;“Firefox on the Brink?”&lt;/a&gt; the US Web Design System mandates official support for browsers exceeding 2% usage on US Government-run websites. A similar requirement is &lt;a href=&quot;https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices&quot;&gt;set by the British government&lt;/a&gt;. As he suggests, it may be a lot sooner than we expect that Firefox loses consideration for compatibility during development. I very much recommend reading his article for discussion on the topic.&lt;/p&gt;
 &lt;h2&gt;Taking Action&lt;/h2&gt;
-&lt;p&gt;You’re likely wondering what you can do. The answer is simple: use another browser. As I’ve said, most browsers out there are based on Chromium, so I would suggest &lt;a href=&quot;https://www.mozilla.org/firefox&quot;&gt;Firefox&lt;/a&gt;. It’s free, it’s open source, and Mozilla has consistently shown a commitment to both the user and the web. If you’re super privacy conscious and need even further control of your data or live in a country prone to censorship, then you might consider &lt;a href=&quot;https://www.torproject.org&quot;&gt;the Tor Browser&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Share this article around and promote its message. Preserving an open web is crucial. Failure to achieve this will lead to disaster, and we can’t let it happen.&lt;/p&gt;
+&lt;p&gt;You’re likely wondering what you can do. The answer is simple: support healthy competition and use a browser based on something other than Chromium. The best bet would be using Firefox or something based on it. Firefox is free, open source, available on most platforms, and Mozilla has largely shown a commitment to both the user and the web.&lt;/p&gt;
+&lt;p&gt;If you’re coming from one of the more flashy ‘cutting edge’ browsers like Arc or Opera GX, then &lt;a href=&quot;https://zen-browser.app&quot;&gt;Zen&lt;/a&gt; will provide a very similar experience. If you’re looking for something with privacy in mind like Brave or the DuckDuckGo browser, then you can try &lt;a href=&quot;https://librewolf.net&quot;&gt;LibreWolf&lt;/a&gt; or &lt;a href=&quot;https://mullvad.net/browser&quot;&gt;Mullvad Browser&lt;/a&gt;. If you require anonymity or need to avoid censorship, then you might consider the &lt;a href=&quot;https://www.torproject.org&quot;&gt;Tor Browser&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the web’s future depends on diversity in browse engines, you might also consider supporting the development and growth of emerging projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://servo.org&quot;&gt;Servo&lt;/a&gt; is a web rendering engine started by Mozilla back in 2012 that is now handled by the Linux Foundation. It’s pretty far along in development and is beginning to see real-world deployment, such as use in embedded applications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://ladybird.org&quot;&gt;Ladybird&lt;/a&gt; is a very new and ambitious project intending to build out a full web browser complete with it’s own rendering and JavaScript engines fully independent of existing browser engines.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Share the message of browser engine diversity. Preserving an open web is crucial. The more people understand what’s at stake, the better chance we have of preventing failure. If you’d like to help me make more content like this, please consider &lt;a href=&quot;/support&quot;&gt;supporting me&lt;/a&gt;.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;Sources&lt;/summary&gt;
 &lt;ul&gt;
@@ -609,6 +699,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;li&gt;&lt;a href=&quot;https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices&quot;&gt;Designing for different browsers and devices - Service Manual - GOV.UK&lt;/a&gt; | Accessed: 10/12/2023&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://gds.blog.gov.uk/2012/01/25/support-for-browsers&quot;&gt;Browsers we support and why - Government Digital Service&lt;/a&gt; | Accessed: 10/12/2023&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot&quot;&gt;Why did I build AmputatorBot?&lt;/a&gt; | Accessed: 06/03/2024&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons&quot;&gt;The Future of Developing Firefox Add-ons&lt;/a&gt; | Accessed: 03/11/2024&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps&quot;&gt;Manifest v3 in Firefox: Recap &amp;amp; Next Steps&lt;/a&gt; | Accessed: 03/11/2024&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ublockorigin.com/&quot;&gt;uBlock Origin - Free, open-source ad content blocker&lt;/a&gt; | Accessed: 03/11/2024&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/details&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
@@ -660,26 +753,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>making-windows-usable.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>making-windows-usable.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -697,27 +808,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Making Windows &quot;Usable&quot; | Vale.Rocks&lt;/title&gt;
@@ -735,9 +854,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		Making Windows &quot;Usable&quot;
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2023-10-31&quot;&gt;31 Oct, 2023&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1150 words&lt;/li&gt;
-		&lt;li&gt;4 minute read&lt;/li&gt;
+        &lt;li&gt;1150 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-10-31&quot;&gt;31 Oct 2023&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-11-22&quot;&gt;22 Nov 2023&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -822,26 +941,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>jpeg-xl-and-googles-war-against-it.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>jpeg-xl-and-googles-war-against-it.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -859,27 +996,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;JPEG XL And Google&apos;s War Against It | Vale.Rocks&lt;/title&gt;
@@ -897,9 +1042,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		JPEG XL And Google&apos;s War Against It
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2024-05-01&quot;&gt;01 May, 2024&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;2124 words&lt;/li&gt;
-		&lt;li&gt;8 minute read&lt;/li&gt;
+        &lt;li&gt;2124 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-05-01&quot;&gt;01 May 2024&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-05-07&quot;&gt;07 May 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -928,8 +1073,8 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;p&gt;Having been finalised in 2021, JPEG XL is a rather new format, and a good one at that. It’s created by the same group as the original JPEG and based off of &lt;a href=&quot;https://github.com/google/pik&quot;&gt;Google’s Pik proposal&lt;/a&gt; and &lt;a href=&quot;https://github.com/cloudinary/fuif&quot;&gt;Cloudinary’s FUIF&lt;/a&gt;.&lt;/p&gt;
 &lt;figure class=&quot;right&quot;&gt;
 &lt;picture&gt;
-	&lt;source srcset=&quot;/assets/blog/JPEG_XL_And_Googles_War_Against_It/jxl_support.jxl&quot; type=&quot;image/jxl&quot;&gt;
-	&lt;img src=&quot;/assets/blog/JPEG_XL_And_Googles_War_Against_It/no_jxl_support.png&quot; alt=&quot;Image stating &apos;Your browser supports JPEG XL&apos; or &apos;Your browser doesn&apos;t support JPEG XL&apos; depending on browser support.&quot; /&gt;
+	&lt;source srcset=&quot;/assets/posts/jpeg-xl-and-googles-war-against-it/jxl-support.jxl&quot; type=&quot;image/jxl&quot;&gt;
+	&lt;img src=&quot;/assets/posts/jpeg-xl-and-googles-war-against-it/no-jxl-support.avif&quot; alt=&quot;Image stating &apos;Your browser supports JPEG XL&apos; or &apos;Your browser doesn&apos;t support JPEG XL&apos; depending on browser support.&quot; /&gt;
 &lt;/picture&gt;
 &lt;/figure&gt;
 &lt;p&gt;Looking at &lt;a href=&quot;https://en.wikipedia.org/wiki/Comparison_of_graphics_file_formats&quot;&gt;Wikipedia’s Comparison of Graphics File Formats&lt;/a&gt;, it’s evident that it trumps every other raster image format. Some of its many features include:&lt;/p&gt;
@@ -1043,26 +1188,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>the-ultimate-libreoffice-setup.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>the-ultimate-libreoffice-setup.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -1080,27 +1243,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;The Ultimate LibreOffice Setup | Vale.Rocks&lt;/title&gt;
@@ -1118,9 +1289,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		The Ultimate LibreOffice Setup
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2023-06-16&quot;&gt;16 Jul, 2023&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1087 words&lt;/li&gt;
-		&lt;li&gt;4 minute read&lt;/li&gt;
+        &lt;li&gt;1087 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-06-16&quot;&gt;16 Jul 2023&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-11-22&quot;&gt;22 Nov 2023&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -1202,26 +1373,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>a-year-with-the-framework-laptop-13.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>a-year-with-the-framework-laptop-13.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -1239,27 +1428,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;A Year With The Framework Laptop 13 | Vale.Rocks&lt;/title&gt;
@@ -1277,9 +1474,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		A Year With The Framework Laptop 13
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2023-12-01&quot;&gt;01 Dec, 2023&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1520 words&lt;/li&gt;
-		&lt;li&gt;5 minute read&lt;/li&gt;
+        &lt;li&gt;1520 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-12-01&quot;&gt;01 Dec 2023&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-07-31&quot;&gt;31 Jul 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -1373,26 +1570,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>i-got-a-flipper-zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>i-got-a-flipper-zero.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -1410,27 +1625,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;I Got A Flipper Zero | Vale.Rocks&lt;/title&gt;
@@ -1449,9 +1672,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		I Got A Flipper Zero
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2024-06-14&quot;&gt;14 June, 2024&lt;/time&gt;&lt;/li&gt;
 		&lt;li&gt;1983 words&lt;/li&gt;
-		&lt;li&gt;7 minute read&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-06-14&quot;&gt;14 Jun 2024&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-07-03&quot;&gt;03 Jul 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -1474,7 +1697,7 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 &lt;h2&gt;Features and Capabilities&lt;/h2&gt;
 &lt;p&gt;Once I had the Flipper properly setup, I dove straight into mischief. First action was cloning the TV remote so I’d be able to mildly inconvenience anyone at my discretion. This sort of IR cloning is super easy, simply open the necessary app, set it to learn, point the relevant remote at the Flipper’s sensor, and press whatever button you want to capture.&lt;/p&gt;
 &lt;figure class=&quot;right&quot;&gt;
-&lt;img src=&quot;/assets/blog/I_Got_A_Flipper_Zero/flipper_zero_picture.png&quot; alt=&quot;A picture of a Flipper Zero sitting on a table.&quot; /&gt;
+&lt;img src=&quot;/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif&quot; alt=&quot;A picture of a Flipper Zero sitting on a table.&quot; /&gt;
 &lt;figcaption&gt;My Flipper Zero&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;This sort of interaction has defined my usage of the Flipper. Receive a signal and play it back. It’s a real world copy paste. In fact, that is probably the best way to describe the Flipper for anyone curious about what exactly it is. It’s a copy and paste for the world’s signals.&lt;/p&gt;
@@ -1558,26 +1781,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>connecting-to-australian-public-school-internet.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>connecting-to-australian-public-school-internet.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -1595,27 +1836,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Connecting to Australian Public School Internet | Vale.Rocks&lt;/title&gt;
@@ -1633,9 +1882,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		Connecting to Australian Public School Internet
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2022-10-12&quot;&gt;12 Oct, 2022&lt;/time&gt;&lt;/li&gt;
-	    &lt;li&gt;780 words&lt;/li&gt;
-		&lt;li&gt;3 minute read&lt;/li&gt;
+        &lt;li&gt;780 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2022-10-12&quot;&gt;12 Oct 2022&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-03-03&quot;&gt;03 Mar 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -1738,26 +1987,44 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>the-design-of-this-site.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>the-design-of-this-site.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -1775,27 +2042,35 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;The Design of This Site | Vale.Rocks&lt;/title&gt;
@@ -1803,7 +2078,7 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
     &lt;meta name=&quot;description&quot; content=&quot;A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site&apos;s philosophy.&quot; /&gt;
     &lt;meta property=&quot;og:description&quot; content=&quot;The thought behind the experience.&quot; /&gt;
     &lt;meta property=&quot;article:published_time&quot; content=&quot;2022-09-12&quot; /&gt;
-    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-08-12&quot; /&gt;
+    &lt;meta property=&quot;article:modified_time&quot; content=&quot;2024-11-01&quot; /&gt;
     &lt;meta property=&quot;article:section&quot; content=&quot;Meta&quot; /&gt;
 &lt;/head&gt;
 &lt;article&gt;
@@ -1813,9 +2088,9 @@ If you&apos;re wondering, the browser you&apos;re reading this article in is Chr
 		The Design of This Site
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2022-09-12&quot;&gt;12 Sep, 2022&lt;/time&gt;&lt;/li&gt;
-	    &lt;li&gt;1190 words&lt;/li&gt;
-		&lt;li&gt;4 minute read&lt;/li&gt;
+        &lt;li&gt;1274 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2022-09-12&quot;&gt;12 Sep 2022&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-11-01&quot;&gt;01 Nov 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -1834,7 +2109,7 @@ While it is possible to “finish” a web document, the fixed information becom
 &lt;p&gt;Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won’t read the contents of an article, but it should look good at first glance.&lt;/p&gt;
 &lt;p&gt;Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site, but don’t necessarily have a defined reason for their visit, and as such, likely won’t return without reason.&lt;/p&gt;
 &lt;h2&gt;Fundamentals&lt;/h2&gt;
-&lt;p&gt;Every decision made for this site isn’t just based on the personas above, but also on these fundamentals:&lt;/p&gt;
+&lt;p&gt;Every decision made for this site is weighted on both the personas above and these fundamentals:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Design like print:&lt;/strong&gt;
@@ -1847,7 +2122,7 @@ While functionality should always dictate form, form shouldn’t necessarily dic
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;JavaScript is optional:&lt;/strong&gt;
-JavaScript has creeped its way into every facet of the web. This isn’t necessarily a bad thing; JavaScript has its place. However, that place &lt;em&gt;isn’t&lt;/em&gt; everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.&lt;/p&gt;
+JavaScript has crept its tendrils into every facet of the web. This isn’t necessarily a bad thing; JavaScript has its place. However, that place &lt;em&gt;isn’t&lt;/em&gt; everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.&lt;/p&gt;
 &lt;p&gt;While visiting this site with JavaScript enabled merits access to optional features, it &lt;em&gt;isn’t&lt;/em&gt; required for the core reading experience, and everything will operate cleanly in its absence.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -1864,15 +2139,15 @@ Given that this is a static site and my readership is generally of the variety t
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Link icons:&lt;/strong&gt;
-Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.&lt;/p&gt;
+Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location. In the future, I’d like to expand this to indicate the type of content linked: image, video, pdf, web page, etc.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Figure lightboxes:&lt;/strong&gt;
-While JavaScript is enabled, clicking on a figure opens it in a full screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.&lt;/p&gt;
+While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Scroll indicator:&lt;/strong&gt;
-When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation.&lt;/p&gt;
+When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I’d like to improve this so that users can use it for swift navigation through articles and also make it play nicer with additive content such as comments.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Tooling&lt;/h2&gt;
@@ -1883,11 +2158,12 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 &lt;p&gt;Like all endeavours, and especially creative ones (which I would argue this site is), I’ve &lt;em&gt;borrowed&lt;/em&gt; many ideas from external sources.&lt;/p&gt;
 &lt;p&gt;Perhaps most notable is &lt;a href=&quot;https://gwern.net&quot;&gt;the site of Gwern Branwen&lt;/a&gt;, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern’s site long after starting the development of this one, many of its eccentricities have made their way over, as you’ve no doubt noticed if you’ve ever paid Gwern’s site a visit.&lt;/p&gt;
 &lt;p&gt;Another huge source of inspiration is &lt;a href=&quot;https://www.lesswrong.com&quot;&gt;LessWrong&lt;/a&gt;. A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.&lt;/p&gt;
-&lt;p&gt;In a bit of a departure from the sites above, another source of inspiration for this site is &lt;a href=&quot;https://www.joshwcomeau.com&quot;&gt;Josh Comeau’s site&lt;/a&gt;. Not really in terms of visual design, but in the sense of his idea of small and unique little features he dubs UI ‘sparkles’.&lt;/p&gt;
+&lt;p&gt;In the very early stages of this site’s current iteration, the design was very much inspired by &lt;a href=&quot;https://www.theverge.com&quot;&gt;The Verge&lt;/a&gt;. Some vestiges of this include the right-aligned navigation menu and vertical text, although much of the influence has been diluted in the years since.&lt;/p&gt;
+&lt;p&gt;Another source of inspiration for this site is &lt;a href=&quot;https://www.joshwcomeau.com&quot;&gt;Josh W Comeau’s site&lt;/a&gt;. Not really in terms of visual design, but in influence from his concept of small and unique features he dubs UI ‘sparkles’.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Footnotes&lt;/h2&gt;
 &lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;/sup&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks&quot;&gt;Google suggests&lt;/a&gt; that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving, but also to ensure a good user experience.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks&quot;&gt;Google suggests&lt;/a&gt; that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.&lt;/p&gt;
 &lt;/div&gt;
 &lt;section class=&quot;giscus&quot;&gt;&lt;/section&gt;
 &lt;/div&gt;
@@ -1938,26 +2214,44 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>building-sites-with-iframes.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>building-sites-with-iframes.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -1975,27 +2269,35 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Building Sites With iFrames | Vale.Rocks&lt;/title&gt;
@@ -2013,9 +2315,8 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		Building Sites With iFrames
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2024-10-08&quot;&gt;08 Oct, 2024&lt;/time&gt;&lt;/li&gt;
-	    &lt;li&gt;1146 words&lt;/li&gt;
-		&lt;li&gt;4 minute read&lt;/li&gt;
+        &lt;li&gt;1146 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-10-08&quot;&gt;08 Oct 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -2074,7 +2375,7 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 &lt;p&gt;Alternatively, you can use an existing library like &lt;a href=&quot;https://iframe-resizer.com&quot;&gt;iframe-resizer&lt;/a&gt; to do it without the hassle of rolling it yourself. Do consider first if you &lt;em&gt;need&lt;/em&gt; another dependency in your project, though.&lt;/p&gt;
 &lt;h3&gt;Communicating With Our iFrame&lt;/h3&gt;
 &lt;p&gt;This is the least fun bit of iframes, trying to communicate with them. It’s doable, just a bit finicky – mainly because of our old friend CORS – but it shouldn’t be too much of a hassle assuming they’re on the same domain.&lt;/p&gt;
-&lt;p&gt;We’ll use JavaScript’s [&lt;code&gt;post-message&lt;/code&gt;(https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to facilitate sharing information. In fact, we’ve already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we’ll stick to simple stings.&lt;/p&gt;
+&lt;p&gt;We’ll use JavaScript’s &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage&quot;&gt;&lt;code&gt;post-message&lt;/code&gt;&lt;/a&gt; API to facilitate sharing information. In fact, we’ve already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we’ll stick to simple stings.&lt;/p&gt;
 &lt;h4&gt;From iFrame to Parent&lt;/h4&gt;
 &lt;p&gt;To send a message from the embedded iframe to the parent document, use this code in the iframe’s document:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;window.parent.postMessage(&quot;Hello from iframe!&quot;, &quot;https://example.com&quot;);
@@ -2149,26 +2450,44 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>i-hate-my-nokia.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>i-hate-my-nokia.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -2186,27 +2505,35 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;I Hate My Nokia | Vale.Rocks&lt;/title&gt;
@@ -2314,26 +2641,44 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>halo-my-thoughts.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>halo-my-thoughts.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -2351,27 +2696,35 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Halo: My Thoughts | Vale.Rocks&lt;/title&gt;
@@ -2389,9 +2742,9 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		Halo: My Thoughts
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2023-08-27&quot;&gt;27 Aug, 2023&lt;/time&gt;&lt;/li&gt;
 		&lt;li&gt;4120 words&lt;/li&gt;
-		&lt;li&gt;14 minute read&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-08-27&quot;&gt;27 Aug 2023&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-08-21&quot;&gt;21 Aug 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -2559,26 +2912,44 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>cybersecurity-superstition.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>cybersecurity-superstition.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -2596,27 +2967,35 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Cybersecurity Superstition | Vale.Rocks&lt;/title&gt;
@@ -2634,9 +3013,9 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		Cybersecurity Superstition
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2024-02-28&quot;&gt;28 Feb, 2024&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1896 words&lt;/li&gt;
-		&lt;li&gt;7 minute read&lt;/li&gt;
+        &lt;li&gt;1896 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-02-28&quot;&gt;28 Feb 2024&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-03-06&quot;&gt;06 Mar 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;
@@ -2746,26 +3125,44 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 			&lt;p&gt;© Declan Chidlow. All rights reserved.&lt;/p&gt;
 		&lt;/footer&gt;
 	&lt;/body&gt;
-&lt;/html&gt;</content></entry><entry><title>prematurely-pulling-the-plug-on-3g.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!DOCTYPE html&gt;
+&lt;/html&gt;</content></entry><entry><title>prematurely-pulling-the-plug-on-3g.html</title><id></id><updated>1970-01-01T00:00:00+00:00</updated><content>&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
-	&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
-	&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
-	&lt;meta property=&quot;og:url&quot; content=&quot;https://vale.rocks&quot; /&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
-	&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
-	&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+		&lt;meta name=&quot;creator&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta name=&quot;contact&quot; content=&quot;https://vale.rocks/contact&quot; /&gt;
+		&lt;meta name=&quot;color-scheme&quot; content=&quot;light dark&quot; /&gt;
 
-	&lt;script type=&quot;module&quot; src=&quot;/scripts/syntax-highlighting.js&quot;&gt;&lt;/script&gt;
-	&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
+		&lt;meta property=&quot;og:site_name&quot; content=&quot;Vale Rocks&quot; /&gt;
+		&lt;meta property=&quot;og:locale&quot; content=&quot;en_AU&quot; /&gt;
+		&lt;meta property=&quot;og:site&quot; content=&quot;vale.rocks&quot; /&gt;
+		&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+
+		&lt;meta name=&quot;fediverse:creator&quot; content=&quot;@vale@fedi.vale.rocks&quot; /&gt;
+		&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; href=&quot;https://vale.rocks/posts/feed.xml&quot; title=&quot;Atom feed of Vale&apos;s posts.&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://fedi.vale.rocks/vale&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://github.com/DeclanChidlow&quot; /&gt;
+		&lt;link rel=&quot;me&quot; href=&quot;https://bsky.app/profile/vale.rocks&quot; /&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/reset.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/base/body.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/alerts.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/code.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/links.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/type/type.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/navbar.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footer.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/input.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/figures.css&quot; /&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/footnotes.css&quot; /&gt;
+
+		&lt;script data-goatcounter=&quot;https://stats.vale.rocks/count&quot; async src=&quot;//gc.zgo.at/count.js&quot;&gt;&lt;/script&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:author&quot; content=&quot;Declan Chidlow&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/components/article_header.css&quot; /&gt;
 
 &lt;script
 	src=&quot;https://giscus.app/client.js&quot;
@@ -2783,27 +3180,35 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 	data-loading=&quot;lazy&quot;
 	crossorigin=&quot;anonymous&quot;
 	async&gt;&lt;/script&gt;
-
-&lt;script src=&apos;/scripts/footnotes.js&apos;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/footnotes.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/scripts/figures.js&quot;&gt;&lt;/script&gt;
 &lt;style&gt;:root{--header_background: var(--magenta)}&lt;/style&gt;
-&lt;body&gt;
+&lt;/head&gt;&lt;body&gt;
 &lt;header id=&quot;navbar&quot;&gt;
 	&lt;a class=&quot;skip-link&quot; href=&quot;#main&quot;&gt;Skip to content&lt;/a&gt;
-	&lt;nav id=&quot;menu&quot;&gt;
+	&lt;nav&gt;
 		&lt;a href=&quot;/&quot; id=&quot;navlanding&quot;&gt;Vale&lt;/a&gt;
+
 		&lt;ul class=&quot;menu-items&quot;&gt;
 			&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;menu-only&quot;&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-			&lt;li class=&quot;icons close-menu&quot;&gt;&lt;a href=&quot;#&quot;&gt;close&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
-		&lt;a href=&quot;#menu&quot; class=&quot;icons open-menu&quot;&gt;menu&lt;/a&gt;
+
+		&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;popover-button icons&quot;&gt;menu&lt;/button&gt;
+		&lt;div id=&quot;popover-menu&quot; popover&gt;
+			&lt;button popovertarget=&quot;popover-menu&quot; class=&quot;icons&quot;&gt;close&lt;/button&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
 	&lt;/nav&gt;
 &lt;/header&gt;
 
 &lt;main id=&quot;main&quot;&gt;
-&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;&lt;script src=&apos;/scripts/figures.js&apos;&gt;&lt;/script&gt;
+&lt;div id=&apos;scroll-indicator-container&apos;&gt;&lt;div id=&quot;scroll-indicator&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;script src=&apos;/scripts/scroll-indicator.js&apos;&gt;&lt;/script&gt;
 &lt;span id=&quot;section&quot;&gt;Posts&lt;/span&gt;
 &lt;head&gt;
     &lt;title&gt;Prematurely Pulling The Plug On 3G | Vale.Rocks&lt;/title&gt;
@@ -2821,9 +3226,9 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 		Prematurely Pulling The Plug On 3G
 	&lt;/h1&gt;
 	&lt;ul&gt;
-		&lt;li&gt;&lt;time datetime=&quot;2023-11-26&quot;&gt;26 Nov, 2023&lt;/time&gt;&lt;/li&gt;
-		&lt;li&gt;1057 words&lt;/li&gt;
-		&lt;li&gt;3 minute read&lt;/li&gt;
+        &lt;li&gt;1057 words&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2023-11-26&quot;&gt;26 Nov 2023&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;time datetime=&quot;2024-05-06&quot;&gt;06 May 2024&lt;/time&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/header&gt;
 &lt;div class=&quot;readable-width&quot;&gt;

@@ -1,42 +1,41 @@
 <h1 id="section">Services</h1>
 
-<div>
+<div class="readable-width">
 
-I host a range of services from both a computer at my house and various servers around the interweb. The current and historical statuses of all my services are displayed [here](https://status.vale.rocks). Some of the stuff I host includes:
+I run a range of services from my home server and various servers scattered around the interweb. Some of the more public services I host include:
 
-<div id="services">
-  <section>
+<article>
+    <div class="service-info">
+        <a href="https://fedi.vale.rocks"><h2>Fediverse</h2></a>
+        <a href="https://status.vale.rocks/history/fedi" id="service-fedi">Status</a>
+    </div>
+    <p>Personal instance of Akkoma for accessing the fediverse. The instance itself is invite only, but I'm available to follow as <a href="https://fedi.vale.rocks/vale">@vale@fedi.vale.rocks</a>. Hosted on my home server.</p>
+</article>
 
-  ## Akkoma
-  [Website](https://fedi.vale.rocks) | [Status](https://status.vale.rocks/history/fedi)
-  <p id="description">
-  I host my own personal Fediverse instance using <a href="https://akkoma.social">Akkoma</a>, which allows me to easily federate with a range of other Activity Pub based <a href="https://en.wikipedia.org/wiki/Fediverse">fediverse</a> platforms. The instance itself is invite only, but I'm available to follow as <a href="https://fedi.vale.rocks/vale">@vale@fedi.vale.rocks</a>.
-  </p>
-  </section>
-  <section>
+<article>
+    <div class="service-info">
+        <a href="https://automod.vale.rocks"><h2>AutoMod</h2></a>
+        <a href="https://status.vale.rocks/history/auto-mod-bot" id="service-automod-bot">Status</a>
+    </div>
+    <p>Official deployment of my full-scale moderation bot for <a href="https://revolt.chat">Revolt</a> servicing in excess of 4,000 servers and tens of thousands of users. Hosted on a Hetzner VPS.</p>
+</article>
 
-  ## Jellyfin
-  [Website](https://jellyfin.vale.rocks) | [Status](https://status.vale.rocks/history/jellyfin)
-  <p id="description">
-  I host a wide assortment of films, books, and television shows for my viewing pleasure. The instance runs custom CSS to improve the user experience and is invite only.
-  </p>
-  </section>
-  <section>
+<article>
+    <div class="service-info">
+        <a href="https://search.vale.rocks"><h2>Search</h2></a>
+        <a href="https://status.vale.rocks/history/search" id="service-search">Status</a>
+    </div>
+    <p>A super lightweight search engine wrapper that allows users to search across websites from a single interface with quality of life additions. Hosted on GitHub Pages.</p>
+</article>
 
-  ## Minetest
-  [Status](https://status.vale.rocks/history/minetest)
-  <p id="description">
-  I host a SMP with <a href="https://content.minetest.net/packages/Wuzzy/mineclone2">VoxeLibre</a>, a Minecraft inspired game within the Minetest game engine. It's open to join upon request, so feel free to <a href="/contact">get in contact</a> if you're interested.
-  </p>
-  </section>
-  <section>
-
-  ## AutoMod
-  [Source](https://github.com/DeclanChidlow/AutoMod)
-  <p id="description">
-  I host and develop the AutoMod bot for the chat platform <a href="https://revolt.chat">Revolt</a>. The bot helps server owners moderate their communities.
-  </p>
-  </section>
-</div>
+<article>
+    <div class="service-info">
+        <a href="https://jellyfin.vale.rocks"><h2>Jellyfin</h2></a>
+        <a href="https://status.vale.rocks/history/jellyfin" id="service-jellyfin">Status</a>
+    </div>
+    <p>Free and open source media server on which I host my media library containing a wide assortment of films, books, audiobooks, and shows for my viewing pleasure. The instance is invite-only and not accepting sign-ups. Hosted on my home server.</p>
+</article>
 
 </div>
+
+<script src="/scripts/service-status.js"></script>
