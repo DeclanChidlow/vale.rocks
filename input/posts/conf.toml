@@ -15,7 +15,7 @@ content_file = "../global/elements/head.html"
 
 [[main.block]]
 format = "html"
-content_file = "../global/elements/bloghead.html"
+content_file = "../global/elements/article-head.html"
 
 [[main.block]]
 format = "style"
@@ -23,7 +23,7 @@ content = ":root{--header_background: var(--magenta)}"
 
 [[main.block]]
 format = "html"
-content = "<body>"
+content = "</head><body>"
 
 [[main.block]]
 format = "html"
@@ -36,7 +36,6 @@ content = """\
 		<div id="scroll-indicator"></div>\
 	</div>\
 	<script src='/scripts/scroll-indicator.js'></script>\
-	<script src='/scripts/figures.js'></script>\
 	"""
 
 [[main.block]]
