@@ -40,5 +40,4 @@ input[type="checkbox"] {
 
 :focus {
 	outline: var(--blue) solid 2px;
-	color: var(--blue);
 }

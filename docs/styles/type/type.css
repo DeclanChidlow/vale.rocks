@@ -84,7 +84,8 @@ h6 {
 	}
 }
 
-.readable-width {
+.readable-width,
+blockquote {
 	max-width: 80ch;
 
 	p + h2,
@@ -119,10 +120,14 @@ blockquote {
 	border-left: 0.2rem solid var(--grey);
 }
 
-li {
+ul,
+ol {
 	line-height: 1.4rem;
 	margin-bottom: 0.5rem;
 	margin-left: 2rem;
+}
+
+ul li {
 	list-style-type: "✦ ";
 
 	li {
@@ -136,6 +141,10 @@ li {
 			}
 		}
 	}
+}
+
+li:has(input) {
+	list-style: none;
 }
 
 sup,

@@ -6,35 +6,35 @@ html {
 :root {
 	color-scheme: light dark;
 
-	--black: #131111;
+	--black: oklch(18% 0.003 17.5);
 
-	--dark_grey: #221e1e;
-	--grey: #3e3c3c;
-	--bright_grey: #5e5a5a;
+	--dark_grey: oklch(24% 0.006 17.6);
+	--grey: oklch(36% 0.003 17.3);
+	--bright_grey: oklch(47% 0.005 17.3);
 
-	--white: #c1ada0;
-	--bright_white: #ffead0;
+	--white: oklch(76% 0.03 55);
+	--bright_white: oklch(94.75% 0.04 73);
 
-	--red: #f13731;
-	--bright_red: #f45f5a;
+	--red: oklch(62.7% 0.222 27.8);
+	--bright_red: oklch(67.7% 0.184 25);
 
-	--orange: #f56e00;
-	--bright_orange: #ec934e;
+	--orange: oklch(69.2% 0.189 47.8);
+	--bright_orange: oklch(74.2% 0.137 56.3);
 
-	--yellow: #ffad1f;
-	--bright_yellow: #fed06e;
+	--yellow: oklch(80.8% 0.165 73.5);
+	--bright_yellow: oklch(87.8% 0.127 84.5);
 
-	--green: #58a551;
-	--bright_green: #74b270;
+	--green: oklch(65.2% 0.141 142.1);
+	--bright_green: oklch(70.5% 0.114 142.9);
 
-	--blue: #3578c1;
-	--bright_blue: #6d9bcd;
+	--blue: oklch(56.5% 0.13 253);
+	--bright_blue: oklch(67.6% 0.09 251.3);
 
-	--cyan: #2bb7bc;
-	--bright_cyan: #3fcfd4;
+	--cyan: oklch(71.2% 0.112 198.7);
+	--bright_cyan: oklch(78.3% 0.118 198.5);
 
-	--magenta: #e23672;
-	--bright_magenta: #e6467b;
+	--magenta: oklch(61.2% 0.21 5.4);
+	--bright_magenta: oklch(63.5% 0.2 4.8);
 }
 
 body {
