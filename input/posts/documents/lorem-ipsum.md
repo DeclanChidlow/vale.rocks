@@ -4,22 +4,22 @@
     <meta name="description" content="A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale." />
     <meta property="og:description" content="'Blah blah blah' doesn’t look quite as good." />
     <meta property="article:published_time" content="2024-11-25" />
-    <meta property="article:modified_time" content="2024-11-25" />
+    <meta property="article:modified_time" content="2024-11-26" />
     <meta property="article:section" content="Meta" />
 
 <style>
 .colour-blocks {
-display: flex;
-flex-wrap: wrap;
-gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 
-> span {
-    display: inline-block;
-    width: 5rem;
-    height: 5rem;
-    border: var(--white) solid 2px;
-    padding: 0.25rem;
-}
+    > span {
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        border: var(--white) solid 2px;
+        padding: 0.25rem;
+    }
 }
 </style>
 </head>
@@ -31,8 +31,9 @@ gap: 0.5rem;
 		Lorem Ipsum
 	</h1>
 	<ul>
-		<li>1398 words</li>
+		<li>1273 words</li>
 		<li><time datetime="2024-11-25">25 Nov 2024</time></li>
+		<li><time datetime="2024-11-26">26 Nov 2024</time></li>
 	</ul>
 </header>
 
@@ -42,13 +43,17 @@ This is a page in which I test and trial formatting, features, and typography by
 
 ## Text Formatting
 
-Escaping markdown can be done with \*some slashes\*.
+Escaping markdown can be done with \*some slashes\* (like so `\*some slashes\*`).
 
 Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
 
 Normal superscript<sup>sup</sup>. Normal subscript<sub>sub</sub>. _Italic superscript<sup>sup</sup>_. _Italic subscript<sub>sub</sub>._ **Bold superscript<sup>sup</sup>**. **Bold subscript<sub>sub</sub>.** **_Bold italic superscript<sup>sup</sup>_**. **_Bold italic subscript<sub>sub</sub>._** ~~Strikethrough superscript<sup>sub</sup>.~~ ~~Strikethrough subscript<sub>sub</sub>.~~ ~~**_Bold italic strikethrough superscript<sup>sup</sup>_**~~. ~~**_Bold italic strikethrough subscript<sub>sub</sub>._**~~
 
 Superscript and subscript together<sup>sup</sup><sub>sub</sub>.
+
+You can define structure with <abbr title="Hypertext Markup Language">HTML</abbr> then style it with <abbr title="Cascading Style Sheet">CSS</abbr>. You can do more interactive stuff with <abbr title="JavaScript">JS</abbr>.
+
+You can do a hard refresh on a webpage using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 
 ### Heading Levels
 
@@ -68,52 +73,19 @@ Aliquam laborum voluptate molestiae illo sunt dolorum. Qui fuga qui fuga impedit
 
 ### Links
 
-[Normal internal link](https://vale.rocks). [`Code internal link`](https://vale.rocks). [~~**_Bold italic strikethrough subscript internal link<sub>sub</sub>_**~~](https://vale.rocks).
+[Normal internal link](https://vale.rocks). [`Code internal link`](https://vale.rocks). [~~**_Bold italic strikethrough subscript internal link<sub>sub</sub>_**~~](https://vale.rocks). [~~**_Bold italic strikethrough superscript external link<sup>sup</sup>_**~~](https://vale.rocks).
 
-[Anchor link](#main). [`Code anchor link`](#main). [~~**_Bold italic strikethrough subscript anchor link<sub>sub</sub>_**~~](#main).
+[Anchor link](#main). [`Code anchor link`](#main). [~~**_Bold italic strikethrough subscript anchor link<sub>sub</sub>_**~~](#main). [~~**_Bold italic strikethrough superscript external link<sup>sup</sup>_**~~](#main).
 
-[External link](https://zombo.com). [`Code external link`](https://zombo.com). [~~**_Bold italic strikethrough subscript external link<sub>sub</sub>_**~~](https://zombo.com).
+[External link](https://zombo.com). [`Code external link`](https://zombo.com). [~~**_Bold italic strikethrough subscript external link<sub>sub</sub>_**~~](https://zombo.com). [~~**_Bold italic strikethrough superscript external link<sup>sup</sup>_**~~](https://zombo.com).
+
+Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr>](https://vale.rocks).
 
 #### **Quick Links**
 
 (Links specified with `<>`) \
 <https://vale.rocks> \
 <example@example.com>
-
-### Blockquotes
-
-> Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
->
-> Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
-
-> Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
->
-> Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
->
-> > Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
-> >
-> > Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
-> >
-> > > Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
-> > >
-> > > Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
-
-### Callouts/Alerts
-
-> [!NOTE]
-> Important info users should be aware of, even when skimming.
-
-> [!TIP]
-> Practical advice for improving or simplifying tasks.
-
-> [!IMPORTANT]
-> Critical info for achieving the desired outcome.
-
-> [!WARNING]
-> Urgent info requiring immediate attention to prevent issues.
-
-> [!CAUTION]
-> Alerts about potential risks or negative consequences.
 
 ### Lists
 
@@ -141,6 +113,41 @@ Aliquam laborum voluptate molestiae illo sunt dolorum. Qui fuga qui fuga impedit
 - [x] Completed task
 - [ ] Task left to do
 
+## Blockquotes
+
+> Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
+>
+> Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
+
+> Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
+>
+> Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
+>
+> > Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
+> >
+> > Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
+> >
+> > > Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
+> > >
+> > > Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
+
+## Callouts/Alerts
+
+> [!NOTE]
+> Important info users should be aware of, even when skimming.
+
+> [!TIP]
+> Practical advice for improving or simplifying tasks.
+
+> [!IMPORTANT]
+> Critical info for achieving the desired outcome.
+
+> [!WARNING]
+> Urgent info requiring immediate attention to prevent issues.
+
+> [!CAUTION]
+> Alerts about potential risks or negative consequences.
+
 ## Codeblocks
 
 ```css
@@ -158,6 +165,17 @@ Aliquam laborum voluptate molestiae illo sunt dolorum. Qui fuga qui fuga impedit
 There is a note after this [^1].
 
 Here is a lot of them, to see if they break... [^2] [^3] [^4] [^5] [^6] [^7] [^8].
+
+## Definitions
+
+Frood
+: Someone who is really amazingly together.
+
+Defenestration
+: The act of throwing someone or some thing out of a window.
+
+Schlock
+: Something that is low-quality, junky, or tacky.
 
 ## Figures
 

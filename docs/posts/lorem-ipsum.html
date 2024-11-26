@@ -93,21 +93,21 @@
     <meta name="description" content="A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale." />
     <meta property="og:description" content="'Blah blah blah' doesn’t look quite as good." />
     <meta property="article:published_time" content="2024-11-25" />
-    <meta property="article:modified_time" content="2024-11-25" />
+    <meta property="article:modified_time" content="2024-11-26" />
     <meta property="article:section" content="Meta" />
 <style>
 .colour-blocks {
-display: flex;
-flex-wrap: wrap;
-gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 
-> span {
-    display: inline-block;
-    width: 5rem;
-    height: 5rem;
-    border: var(--white) solid 2px;
-    padding: 0.25rem;
-}
+    > span {
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        border: var(--white) solid 2px;
+        padding: 0.25rem;
+    }
 }
 </style>
 </head>
@@ -118,17 +118,20 @@ gap: 0.5rem;
 		Lorem Ipsum
 	</h1>
 	<ul>
-		<li>1398 words</li>
+		<li>1273 words</li>
 		<li><time datetime="2024-11-25">25 Nov 2024</time></li>
+		<li><time datetime="2024-11-26">26 Nov 2024</time></li>
 	</ul>
 </header>
 <div class="readable-width">
 <p>This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you’d like to read the logic behind all of this, check out <a href="/posts/the-design-of-this-site">The Design of This Site</a>.</p>
 <h2>Text Formatting</h2>
-<p>Escaping markdown can be done with *some slashes*.</p>
+<p>Escaping markdown can be done with *some slashes* (like so <code>\*some slashes\*</code>).</p>
 <p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
 <p>Normal superscript<sup>sup</sup>. Normal subscript<sub>sub</sub>. <em>Italic superscript<sup>sup</sup></em>. <em>Italic subscript<sub>sub</sub>.</em> <strong>Bold superscript<sup>sup</sup></strong>. <strong>Bold subscript<sub>sub</sub>.</strong> <strong><em>Bold italic superscript<sup>sup</sup></em></strong>. <strong><em>Bold italic subscript<sub>sub</sub>.</em></strong> <del>Strikethrough superscript<sup>sub</sup>.</del> <del>Strikethrough subscript<sub>sub</sub>.</del> <del><strong><em>Bold italic strikethrough superscript<sup>sup</sup></em></strong></del>. <del><strong><em>Bold italic strikethrough subscript<sub>sub</sub>.</em></strong></del></p>
 <p>Superscript and subscript together<sup>sup</sup><sub>sub</sub>.</p>
+<p>You can define structure with <abbr title="Hypertext Markup Language">HTML</abbr> then style it with <abbr title="Cascading Style Sheet">CSS</abbr>. You can do more interactive stuff with <abbr title="JavaScript">JS</abbr>.</p>
+<p>You can do a hard refresh on a webpage using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd></p>
 <h3>Heading Levels</h3>
 <p>Quod provident corporis natus. Voluptatem sunt magnam nobis quo quas repudiandae magnam. Qui maxime dolor harum. Aspernatur tempore ea id sed fugit. Dolores cum tenetur in quisquam et maiores quam. Suscipit est aperiam rerum consectetur velit officiis.</p>
 <h4>Heading Level 4</h4>
@@ -138,46 +141,14 @@ gap: 0.5rem;
 <h6>Heading Level 6</h6>
 <p>Aliquam laborum voluptate molestiae illo sunt dolorum. Qui fuga qui fuga impedit libero tenetur ex aliquam. Sit molestiae ut sint nulla deserunt molestiae eos veritatis. Neque perferendis culpa ad omnis. Ipsum nisi facere cum molestiae aut possimus exercitationem repellat. Voluptatum blanditiis optio officiis et quo.</p>
 <h3>Links</h3>
-<p><a href="https://vale.rocks">Normal internal link</a>. <a href="https://vale.rocks"><code>Code internal link</code></a>. <a href="https://vale.rocks"><del><strong><em>Bold italic strikethrough subscript internal link<sub>sub</sub></em></strong></del></a>.</p>
-<p><a href="#main">Anchor link</a>. <a href="#main"><code>Code anchor link</code></a>. <a href="#main"><del><strong><em>Bold italic strikethrough subscript anchor link<sub>sub</sub></em></strong></del></a>.</p>
-<p><a href="https://zombo.com">External link</a>. <a href="https://zombo.com"><code>Code external link</code></a>. <a href="https://zombo.com"><del><strong><em>Bold italic strikethrough subscript external link<sub>sub</sub></em></strong></del></a>.</p>
+<p><a href="https://vale.rocks">Normal internal link</a>. <a href="https://vale.rocks"><code>Code internal link</code></a>. <a href="https://vale.rocks"><del><strong><em>Bold italic strikethrough subscript internal link<sub>sub</sub></em></strong></del></a>. <a href="https://vale.rocks"><del><strong><em>Bold italic strikethrough superscript external link<sup>sup</sup></em></strong></del></a>.</p>
+<p><a href="#main">Anchor link</a>. <a href="#main"><code>Code anchor link</code></a>. <a href="#main"><del><strong><em>Bold italic strikethrough subscript anchor link<sub>sub</sub></em></strong></del></a>. <a href="#main"><del><strong><em>Bold italic strikethrough superscript external link<sup>sup</sup></em></strong></del></a>.</p>
+<p><a href="https://zombo.com">External link</a>. <a href="https://zombo.com"><code>Code external link</code></a>. <a href="https://zombo.com"><del><strong><em>Bold italic strikethrough subscript external link<sub>sub</sub></em></strong></del></a>. <a href="https://zombo.com"><del><strong><em>Bold italic strikethrough superscript external link<sup>sup</sup></em></strong></del></a>.</p>
+<p>Here is an abbreviation with a link: <a href="https://vale.rocks"><abbr title="Abreviation Meaning">AM</abbr></a>.</p>
 <h4><strong>Quick Links</strong></h4>
 <p>(Links specified with <code>&lt;&gt;</code>) <br />
 <a href="https://vale.rocks">https://vale.rocks</a> <br />
 <a href="mailto:example@example.com">example@example.com</a></p>
-<h3>Blockquotes</h3>
-<blockquote>
-<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
-<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
-</blockquote>
-<blockquote>
-<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
-<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
-<blockquote>
-<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
-<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
-<blockquote>
-<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
-<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h3>Callouts/Alerts</h3>
-<blockquote class="markdown-alert-note">
-<p>Important info users should be aware of, even when skimming.</p>
-</blockquote>
-<blockquote class="markdown-alert-tip">
-<p>Practical advice for improving or simplifying tasks.</p>
-</blockquote>
-<blockquote class="markdown-alert-important">
-<p>Critical info for achieving the desired outcome.</p>
-</blockquote>
-<blockquote class="markdown-alert-warning">
-<p>Urgent info requiring immediate attention to prevent issues.</p>
-</blockquote>
-<blockquote class="markdown-alert-caution">
-<p>Alerts about potential risks or negative consequences.</p>
-</blockquote>
 <h3>Lists</h3>
 <p><strong>Unordered List</strong></p>
 <ul>
@@ -223,6 +194,39 @@ Completed task</li>
 <li><input disabled="" type="checkbox"/>
 Task left to do</li>
 </ul>
+<h2>Blockquotes</h2>
+<blockquote>
+<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
+<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
+</blockquote>
+<blockquote>
+<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
+<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
+<blockquote>
+<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
+<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
+<blockquote>
+<p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
+<p>Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2>Callouts/Alerts</h2>
+<blockquote class="markdown-alert-note">
+<p>Important info users should be aware of, even when skimming.</p>
+</blockquote>
+<blockquote class="markdown-alert-tip">
+<p>Practical advice for improving or simplifying tasks.</p>
+</blockquote>
+<blockquote class="markdown-alert-important">
+<p>Critical info for achieving the desired outcome.</p>
+</blockquote>
+<blockquote class="markdown-alert-warning">
+<p>Urgent info requiring immediate attention to prevent issues.</p>
+</blockquote>
+<blockquote class="markdown-alert-caution">
+<p>Alerts about potential risks or negative consequences.</p>
+</blockquote>
 <h2>Codeblocks</h2>
 <pre><code class="language-css">/*This is a comment in a CSS codeblock*/
 
@@ -235,6 +239,15 @@ Task left to do</li>
 <h2>End/Side Notes</h2>
 <p>There is a note after this <sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
 <p>Here is a lot of them, to see if they break… <sup class="footnote-reference"><a href="#2">2</a></sup> <sup class="footnote-reference"><a href="#3">3</a></sup> <sup class="footnote-reference"><a href="#4">4</a></sup> <sup class="footnote-reference"><a href="#5">5</a></sup> <sup class="footnote-reference"><a href="#6">6</a></sup> <sup class="footnote-reference"><a href="#7">7</a></sup> <sup class="footnote-reference"><a href="#8">8</a></sup>.</p>
+<h2>Definitions</h2>
+<dl>
+<dt>Frood</dt>
+<dd>Someone who is really amazingly together.</dd>
+<dt>Defenestration</dt>
+<dd>The act of throwing someone or some thing out of a window.</dd>
+<dt>Schlock</dt>
+<dd>Something that is low-quality, junky, or tacky.</dd>
+</dl>
 <h2>Figures</h2>
 <p>Standard image not in a figure:
 <img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." /></p>

@@ -26,4 +26,8 @@ a {
 	&&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
 		content: "arrow_outward" / "External";
 	}
+
+	abbr {
+		text-decoration-color: light-dark(var(--bright_white), var(--black));
+	}
 }

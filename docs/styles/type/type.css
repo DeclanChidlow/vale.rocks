@@ -41,18 +41,17 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
-	line-height: 2.2rem;
-}
-
-h3 {
 	font-size: 1.8rem;
 	line-height: 2rem;
 }
 
+h3 {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+}
+
 h4 {
 	font-size: 1rem;
-	line-height: 1.2rem;
 }
 
 h5 {
@@ -88,25 +87,12 @@ h6 {
 blockquote {
 	max-width: 80ch;
 
-	p + h2,
-	p + h3,
-	p + h4,
-	p + h5,
-	p + h6 {
+	* + h2,
+	* + h3,
+	* + h4,
+	* + h5,
+	* + h6 {
 		margin-top: 2rem;
-	}
-
-	p + ul,
-	p + ol {
-		margin-top: 0;
-	}
-
-	li {
-		margin-top: 0.5rem;
-
-		p {
-			margin-top: 0.5rem;
-		}
 	}
 
 	> * + * {
@@ -124,8 +110,11 @@ blockquote {
 ul,
 ol {
 	line-height: 1.4rem;
-	margin-bottom: 0.5rem;
 	margin-left: 2rem;
+}
+
+li {
+	margin: 0.5rem 0;
 }
 
 ul li {
@@ -144,8 +133,30 @@ ul li {
 	}
 }
 
-li:has(input) {
-	list-style: none;
+ul:has(input) {
+	margin-left: 1rem;
+
+	li {
+		display: flex;
+		align-items: center;
+		list-style: none;
+	}
+}
+
+dl {
+	display: grid;
+	grid-gap: 0.5rem 1rem;
+	grid-template-columns: minmax(auto, 50%);
+}
+
+dt {
+	font-weight: bold;
+	word-wrap: anywhere;
+}
+
+dd {
+	grid-column-start: 2;
+	font-style: italic;
 }
 
 sup,
@@ -153,9 +164,13 @@ sub {
 	line-height: 100%;
 }
 
-abbr,
-kbd {
+abbr {
 	font-variant-caps: all-small-caps;
+	text-decoration: underline dotted 0.1rem;
+}
+
+kbd {
+	border-bottom-width: 5px;
 }
 
 hr {
@@ -164,8 +179,4 @@ hr {
 	height: 2px;
 	background: var(--bright_grey);
 	margin-bottom: 1rem;
-}
-
-::selection {
-	background: var(--blue);
 }

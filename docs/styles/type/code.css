@@ -1,4 +1,5 @@
-code {
+code,
+kbd {
 	font-family: "Fira Code", monospace;
 	border: 2px solid light-dark(var(--white), var(--grey));
 	padding: 0 0.2rem;
