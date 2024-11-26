@@ -116,8 +116,9 @@ blockquote {
 
 blockquote {
 	padding: 0.5rem 1rem;
-	background: light-dark(var(--white), var(--dark_grey));
-	border-left: 0.2rem solid var(--grey);
+	background: light-dark(oklch(76% 0.03 55 / 0.3), oklch(24% 0.006 17.6 / 0.3));
+	border: 0.05rem solid light-dark(transparent, var(--grey));
+	border-left: 0.3rem solid var(--grey);
 }
 
 ul,

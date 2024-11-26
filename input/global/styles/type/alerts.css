@@ -1,44 +1,53 @@
-.markdown-alert-note {
-	border-color: var(--blue);
+.markdown-alert-note,
+.markdown-alert-tip,
+.markdown-alert-important,
+.markdown-alert-warning,
+.markdown-alert-caution {
+	background: light-dark(oklch(76% 0.03 55 / 0.3), var(--dark_grey));
+	border-width: 0 0 0 0.3rem;
 }
 
-.markdown-alert-note::before {
-	content: "Note:";
-	color: var(--blue);
+.markdown-alert-note {
+	border-color: var(--blue);
+
+	&::before {
+		content: "Note:";
+		color: var(--blue);
+	}
 }
 
 .markdown-alert-tip {
 	border-color: var(--green);
-}
 
-.markdown-alert-tip::before {
-	content: "Tip:";
-	color: var(--green);
+	&::before {
+		content: "Tip:";
+		color: var(--green);
+	}
 }
 
 .markdown-alert-important {
 	border-color: var(--magenta);
-}
 
-.markdown-alert-important::before {
-	content: "Important:";
-	color: var(--magenta);
+	&::before {
+		content: "Important:";
+		color: var(--magenta);
+	}
 }
 
 .markdown-alert-warning {
-	border-color: var(--yellow);
-}
+	border-color: var(--orange);
 
-.markdown-alert-warning::before {
-	content: "Warning:";
-	color: var(--yellow);
+	&::before {
+		content: "Warning:";
+		color: var(--orange);
+	}
 }
 
 .markdown-alert-caution {
 	border-color: var(--red);
-}
 
-.markdown-alert-caution::before {
-	content: "Caution:";
-	color: var(--red);
+	&::before {
+		content: "Caution:";
+		color: var(--red);
+	}
 }
