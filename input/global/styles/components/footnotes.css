@@ -16,8 +16,8 @@
 	background: light-dark(var(--bright_white), var(--black));
 	padding: 1rem;
 	z-index: 1000;
-	font-size: initial;
 	line-height: initial;
+	font-size: 0.9rem;
 
 	.footnote-definition-label::before {
 		content: "Footnote ";
@@ -26,13 +26,13 @@
 
 .footnote-definition {
 	display: flex;
-	margin-bottom: 0.5rem;
-	padding: 0.5rem;
+	padding: 0 0.5rem;
+	font-size: 0.8rem;
 
 	.footnote-definition-label {
 		padding-right: 1rem;
 		border-right: 2px solid light-dark(var(--white), var(--bright_grey));
-		font-size: 1rem;
+		font-size: inherit;
 	}
 
 	p {
