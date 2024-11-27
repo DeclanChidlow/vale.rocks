@@ -4,7 +4,7 @@
     <meta name="description" content="A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy." />
     <meta property="og:description" content="The thought behind the experience." />
     <meta property="article:published_time" content="2022-09-12" />
-    <meta property="article:modified_time" content="2024-11-01" />
+    <meta property="article:modified_time" content="2024-11-27" />
     <meta property="article:section" content="Meta" />
 </head>
 
@@ -15,9 +15,9 @@
 		The Design of This Site
 	</h1>
 	<ul>
-        <li>1274 words</li>
+        <li>1424 words</li>
 		<li><time datetime="2022-09-12">12 Sep 2022</time></li>
-		<li><time datetime="2024-11-01">01 Nov 2024</time></li>
+		<li><time datetime="2024-11-27">27 Nov 2024</time></li>
 	</ul>
 </header>
 
@@ -30,7 +30,9 @@ Though a minority may still cherish the uniqueness of independent sites, their r
 Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page [describing how her website 'lives'](https://www.wendycarlos.com/live.html):
 
 > I'm happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a "work in progress", for this would imply not much intrinsic value until that magic day it is completed.
+>
 > A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times -- get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept.
+>
 > While it is possible to "finish" a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.
 
 Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on.
@@ -54,6 +56,8 @@ Every decision made for this site is weighted on both the personas above and the
 
    Well-established rules are often overlooked, and while readers may not consciously notice them, they matter and subtly shape the user experience. Where possible, I attempt to incorporate well-defined typographic principles.
 
+   This isn't always an easy thing to do. There are countless typography-related bugs and flaws in CSS and the larger web platform, as well as many expected features that simply haven't yet seen support or consideration. There is also the matter of some typographic features, like smallcaps, being so uncommon on the web that users are confused in use.
+
 2. **Function over form:**
    While functionality should always dictate form, form shouldn't necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I'm firmly of the belief that sites should respect that.
 
@@ -73,21 +77,23 @@ Vale.Rocks is home to many non-standard features and some notable implementation
   Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality.
 
 - **Link icons:**
-  Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location. In the future, I'd like to expand this to indicate the type of content linked: image, video, pdf, web page, etc.
+  Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.
 
 - **Figure lightboxes:**
   While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.
 
 - **Scroll indicator:**
-  When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I'd like to improve this so that users can use it for swift navigation through articles and also make it play nicer with additive content such as comments.
+  When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I'd like to improve this so that it plays nicer with additive content such as comments, is moved to a more advantageous position or larger viewports, and can be better used for swift navigation through articles by users.
+
+If you'd like to see all of the site's numerous features and stylings, you can do so on my [Lorem Ipsum page](/posts/lorem-ipsum). It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.
 
 ## Tooling
 
-This site is built with my static site generator, [Adduce](https://adduce.vale.rocks), and custom-written HTML, CSS, and JS. Previously, it was built without the help of any generator, and later with [Jeckyll](https://jekyllrb.com).
+This site is built with my static site generator, [Adduce](https://adduce.vale.rocks), and custom-written HTML, CSS, and JS. The source code is available in its entirety on [GitHub](https://github.com/DeclanChidlow/vale.rocks). Previously, this site was built without the help of any generator, and later with [Jeckyll](https://jekyllrb.com).
 
-The site itself uses very little in the way of external libraries, with the exception of [Shiki](https://shiki.style) for syntax highlighting of codeblocks and [GoatCounter](https://www.goatcounter.com) for simple, lightweight, and open source analytics.
+The site itself uses very little in the way of external resources, with the exception of [GoatCounter](https://www.goatcounter.com) for simple, lightweight, and open source analytics.
 
-Everything is hosted on [GitHub Pages](https://pages.github.com), thanks to their generous free plan.
+Everything is hosted on [GitHub Pages](https://pages.github.com), thanks to their generous free plan, and Cloudflare runs in front of the hosting to permit caching and some more dynamic handling of requests.
 
 ## Inspirations
 
@@ -96,6 +102,8 @@ Like all endeavours, and especially creative ones (which I would argue this site
 Perhaps most notable is [the site of Gwern Branwen](https://gwern.net), a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern's site long after starting the development of this one, many of its eccentricities have made their way over, as you've no doubt noticed if you've ever paid Gwern's site a visit.
 
 Another huge source of inspiration is [LessWrong](https://www.lesswrong.com). A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.
+
+In the same vein as the previous two, [TurnTrout's 'The Pond'](https://turntrout.com) incorporates many print-like typographic features and is very carefully crafted to create an experience that is a joy to read and interactive where it matters.
 
 In the very early stages of this site's current iteration, the design was very much inspired by [The Verge](https://www.theverge.com). Some vestiges of this include the right-aligned navigation menu and vertical text, although much of the influence has been diluted in the years since.
 
