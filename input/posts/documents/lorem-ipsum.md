@@ -131,6 +131,24 @@ Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr
 > > >
 > > > Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
 
+## Tables
+
+<figure>
+<div class="table-wrapper">
+
+| **Vehicle Name**  | **Primary Users** | **Vehicle Type**        | **Key Features**                                   | **Special Functions**                                 |
+| ----------------- | ----------------- | ----------------------- | -------------------------------------------------- | ----------------------------------------------------- |
+| **Thunderbird 1** | Scott Tracy       | Rocket-Powered VTOL Jet | Sleek design, vertical take-off and landing (VTOL) | High-speed, rescue operations, aerial manoeuvrability |
+| **Thunderbird 2** | Virgil Tracy      | Transport Aircraft      | Large cargo hold, modular design, green color      | Carries vehicles for land and sea rescues             |
+| **Thunderbird 3** | Alan Tracy        | Space Rocket            | Red design, space travel capabilities              | Space missions, long-range travel                     |
+| **Thunderbird 4** | Gordon Tracy      | Submarine               | Yellow, compact, built for underwater exploration  | Submarine for underwater rescue and exploration       |
+| **Thunderbird 5** | John Tracy        | Space Station           | Satellite orbiting Earth, advanced communication   | Monitoring global distress signals from space         |
+
+</div>
+
+<figcaption>Table presenting the various Thunderbirds vehicles.</figcaption>
+</figure>
+
 ## Callouts/Alerts
 
 > [!NOTE]
@@ -201,6 +219,8 @@ Eligendi harum fugit aut accusamus rerum illum ad quae. Ratione similique iste n
 Soluta inventore est quia ipsum doloribus repellat doloremque. Ratione aut enim deserunt quibusdam. Dolorem architecto maiores pariatur iure maxime illum. Nihil id aut fuga.
 
 Magni pariatur qui molestias. Nemo voluptatem distinctio voluptate voluptate vitae odio nemo. Praesentium omnis beatae mollitia dolore quasi delectus. Non hic non natus.
+
+Voluptatibus sunt voluptas sequi est sit rem. Molestiae veniam dolores sequi aut vitae dolores officiis. Ad enim facere non ullam sequi placeat aliquam et. Et voluptas praesentium doloribus saepe quibusdam omnis consectetur. Provident non architecto quisquam libero explicabo.
 
 ## Colour Palette
 

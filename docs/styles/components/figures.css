@@ -33,6 +33,33 @@ figure {
 	margin: 2rem -2rem 2rem 0.8rem;
 }
 
+.table-wrapper {
+	overflow: scroll;
+	width: 100%;
+}
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+	font-size: 0.9rem;
+}
+
+thead,
+tfoot {
+	border-block: 2px solid;
+	background: light-dark(var(--white), var(--grey));
+}
+
+th,
+td {
+	border: 1px solid light-dark(var(--grey), var(--bright_grey));
+	padding: 0.5rem;
+}
+
+tbody tr:nth-child(even) {
+	background: light-dark(color-mix(in oklch, var(--white), transparent 70%), color-mix(in oklch, var(--grey), transparent 50%));
+}
+
 /* Fullscreen modal styling */
 .lightbox-button {
 	background: none;
@@ -69,6 +96,7 @@ figure {
 
 	figure {
 		width: 100%;
+		max-width: 100%;
 
 		img {
 			width: 100%;
@@ -94,7 +122,15 @@ figure {
 	}
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
+	figure {
+		max-width: calc(100vw - 16rem); /*Icky but I don't even know anymore*/
+
+		&:has(table) {
+			width: 100%;
+		}
+	}
+
 	.lightbox {
 		padding: 0.8rem;
 
