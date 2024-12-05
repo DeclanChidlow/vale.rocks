@@ -5,10 +5,11 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
       <title>A Year With The Framework Laptop 13</title>
       <link>https://vale.rocks/posts/a-year-with-the-framework-laptop-13.html</link>
       <guid>https://vale.rocks/posts/a-year-with-the-framework-laptop-13.html</guid>
+      <description>My review of the Framework Laptop 13. I cover the assembly, setup, value, build, support, community, and much more.</description>
       <content:encoded><![CDATA[<p>Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.</p>
 <p>I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:</p>
 <ul>
@@ -58,6 +59,7 @@
       <title>Building Sites With iFrames</title>
       <link>https://vale.rocks/posts/building-sites-with-iframes.html</link>
       <guid>https://vale.rocks/posts/building-sites-with-iframes.html</guid>
+      <description>A look at putting iframes to use for seamlessly displaying content and implementing micro-frontends.</description>
       <content:encoded><![CDATA[<p>When I first entered the bloody fray that is the web development sphere, I did plenty of very dumb stuff thanks to not knowing any better. Before I figured out what a static site generator was or the concept of PHP&#8217;s <code>include</code>, I copied a lot of code between sites. Namely, navs and footers.</p>
 <p>Each and every page of my site would have a duplicate copy of my navbar and footer copied into it, meaning that whenever I wanted to do something like add a new item, I had to jump across pages and update each instance individually.</p>
 <p>In my endless genius, I decided the solution to my woes was to use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframes</a>. My initial implementations circa 2018 were rather poor, as you might imagine from an inexperienced, 12 year old, me.</p>
@@ -134,10 +136,11 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 GMT</pubDate>
       <title>Connecting to Australian Public School Internet</title>
       <link>https://vale.rocks/posts/connecting-to-australian-public-school-internet.html</link>
       <guid>https://vale.rocks/posts/connecting-to-australian-public-school-internet.html</guid>
+      <description>The Education Department of Australia does some silly stuff with their network quite frequently. This tutorial shows you how to get up and running in no time at all.</description>
       <content:encoded><![CDATA[<p>Every now and then, somebody decides that it is time to mess around and &#8216;improve&#8217; enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
 <p>This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.</p>
 <h2 id="step-1">Step 1</h2>
@@ -192,10 +195,11 @@ Note that installing these certificates allows your school to view encrypted net
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
       <title>Cybersecurity Superstition</title>
       <link>https://vale.rocks/posts/cybersecurity-superstition.html</link>
       <guid>https://vale.rocks/posts/cybersecurity-superstition.html</guid>
+      <description>A look into some cybersecurity myths and misinformation. Explore the best practices regarding passwords, multifactor authentication, social engineering tactics, antiviruses, and much more.</description>
       <content:encoded><![CDATA[<p>Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the &#8216;hacker&#8217; is wearing a Guy Fawkes mask. However, this depiction couldn&#8217;t be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.</p>
 <p>Such misconceptions about hackers and cybersecurity in general have persisted for years, fuelled by sensationalism and misinformation. As someone frequently tasked with debunking cybersecurity fallacies, I&#8217;ve decided enough is enough. This article seeks to debunk common myths surrounding cybersecurity and, with any luck, also frees me from the perpetual cycle of explanation.</p>
 <blockquote>
@@ -259,10 +263,11 @@ This article is written with the average computer user in mind. In its suggestio
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 GMT</pubDate>
       <title>Everything Is Chrome</title>
       <link>https://vale.rocks/posts/everything-is-chrome.html</link>
       <guid>https://vale.rocks/posts/everything-is-chrome.html</guid>
+      <description>My look into the overaching dominance of Google Chrome and it&apos;s overwhelmingly negative impact on the web as we know it.</description>
       <content:encoded><![CDATA[<p>The chances are you&#8217;ve heard of Google Chrome. It&#8217;s currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it&#8217;s crucial to examine how we reached this stage to form comprehensive opinions. Let&#8217;s start at the start with the birth of the first browser.</p>
 <h2 id="the-early-days">The Early Days</h2>
 <p>In 1990, <a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">WorldWideWeb (later known as Nexus)</a> was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the <a href="https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/">National Center for Supercomputing Applications&#8217; Mosaic</a> came with big changes and huge influence.</p>
@@ -373,10 +378,11 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Sun, 27 Aug 2023 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 GMT</pubDate>
       <title>Halo: My Thoughts</title>
       <link>https://vale.rocks/posts/halo-my-thoughts.html</link>
       <guid>https://vale.rocks/posts/halo-my-thoughts.html</guid>
+      <description>Explore my journey through the Halo series, from the iconic Combat Evolved to the latest release, Infinite. Discover my thoughts, experiences, and insights into each game&apos;s virtues.</description>
       <content:encoded><![CDATA[<p>If you had asked me at the start of 2023 my opinion on Halo, I wouldn&#8217;t have had anything to say. I&#8217;d played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I&#8217;ve played through every single mainline Halo game, from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5 and Infinite, which I played through their standalone games. I&#8217;ll only be discussing the campaigns, as I have scarcely touched the multiplayer.</p>
 <p>I&#8217;ll be avoiding spoilers for the most part, but if I&#8217;ve got any specifics to mention, I&#8217;ll place them in a &#8220;Campaign Specifics&#8221; drop-down at the conclusion of the relevant entry. This means that even if you haven&#8217;t touched the series, you can rest assured this article shouldn&#8217;t ruin your experience. That said, just go play the games; they&#8217;re generally worth it. I also just want to give thanks to my friend Sebastien, who advised me to get into the series. &#8216;Twas a good call.</p>
 <h2 id="halo-combat-evolved">Halo: Combat Evolved</h2>
@@ -506,10 +512,11 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
       <title>I Got A Flipper Zero</title>
       <link>https://vale.rocks/posts/i-got-a-flipper-zero.html</link>
       <guid>https://vale.rocks/posts/i-got-a-flipper-zero.html</guid>
+      <description>My review of the Flipper Zero and the things I&apos;ve done with it. Encompassing everything from the initial purchase to setup and usage, as well as the community and some cool projects.</description>
       <content:encoded><![CDATA[<p>I like computers, and I like tinkering. I also don&#8217;t mind stretching rules a little if it means I can do something not intended. I&#8217;ve burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.</p>
 <p>I&#8217;ve been a fan of the sort of stuff <a href="https://hak5.org">Hak5</a> produces for a while, but I&#8217;m no professional pentester, and I honestly can&#8217;t see myself using their offerings all that often. That&#8217;s why the Flipper jumped out to me. A device that condenses the functionality of many of their gizmos into a sleek, pocketable device.</p>
 <p>It struck me as just the sort of thing to scratch my itch, so I went about getting one.</p>
@@ -568,10 +575,11 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
       <title>I Hate My Nokia</title>
       <link>https://vale.rocks/posts/i-hate-my-nokia.html</link>
       <guid>https://vale.rocks/posts/i-hate-my-nokia.html</guid>
+      <description>My review of my Nokia G22. A phone touted as being easily repairable that doesn&apos;t quite live up to the standards it sets for itself.</description>
       <content:encoded><![CDATA[<p>My first phone was a RugGear RG930. If you think Nokia&#8217;s <a href="https://www.gsmarena.com/nokia_3310-192.php">3310</a> was built like a brick, then this thing may as well have been a rubberised titanium brick. It was so sturdy I used to play &#8216;catch the phone&#8217; with friends, and it ended up face down on concrete more times than I can count, but I don&#8217;t think it ever sustained so much as a scratch.</p>
 <p>As time progressed, I decided I wanted something a <em>tad</em> more featured, and later ended up with the <a href="https://www.gsmarena.com/apple_iphone_se-7969.php">first generation iPhone SE</a>, a phone that was endlessly reliable when it wasn&#8217;t stuck in a bootloop thanks to my love of gaolbreaking. It was already a few years old by the time I got my hands on it, so it wasn&#8217;t much of a surprise when the battery started to degrade and I found myself looking for its replacement.</p>
 <p>That replacement came in the form of the <a href="https://www.gsmarena.com/nokia_2720_flip-9836.php">Nokia 2720</a>, a charming little flip phone. It was a nugget of a device, and I used it for a few years. It didn&#8217;t have support for anything fancy, but that wasn&#8217;t its intention. It was a simple communication device and served that purpose well. At least until it shed the D-pad, the company supporting the OS disappeared, and it started to take issue with my telco.</p>
@@ -611,10 +619,11 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
       <title>JPEG XL and Google&apos;s War Against It</title>
       <link>https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it.html</link>
       <guid>https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it.html</guid>
+      <description>Starting with an overview of existing image formats, including JPEG, PNG, and GIF, a look into the very promising JPEG XL and why it hasn&apos;t seen the adoption it deserves as an innovative new file format in the web landscape.</description>
       <content:encoded><![CDATA[<p>There is no doubt you&#8217;re familiar with GIFs, PNGs, and JPEGs. These image formats have been <em>the</em> way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.</p>
 <p>Yet these formats aren&#8217;t quite as ubiquitous as they once were, and we&#8217;ve seen many competing standards materialise in the past few years. Perhaps most promising is JPEG XL, yet its innovation seems to go unrecognised and its adoption is stifled. But why? To get a full picture, I think it&#8217;s best we start with the advent of displaying images on computers.</p>
 <h2 id="a-brief-history">A Brief History</h2>
@@ -712,10 +721,11 @@ I&#8217;ll be discussing Chrome&#8217;s dominance and Google&#8217;s exploitatio
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
       <title>Lorem Ipsum</title>
       <link>https://vale.rocks/posts/lorem-ipsum.html</link>
       <guid>https://vale.rocks/posts/lorem-ipsum.html</guid>
+      <description>A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale.</description>
       <content:encoded><![CDATA[<p>This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you&#8217;d like to read the logic behind all of this, check out <a href="/posts/the-design-of-this-site">The Design of This Site</a>.</p>
 <h2 id="text-formatting">Text Formatting</h2>
 <p>Escaping markdown can be done with *some slashes* (like so <code>\*some slashes\*</code>).</p>
@@ -981,10 +991,11 @@ Alerts about potential risks or negative consequences.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
       <title>Making Windows &quot;Usable&quot;</title>
       <link>https://vale.rocks/posts/making-windows-usable.html</link>
       <guid>https://vale.rocks/posts/making-windows-usable.html</guid>
+      <description>My comprehensive tutorial dedicated to optimising and customising Windows 11 for a somewhat usable user experience. I detail beneficial programs, tips, and essential tweaks to setup Windows 11 as a more or less servicable computer environment, somewhat tailored to your preferences.</description>
       <content:encoded><![CDATA[<p>I&#8217;m not quiet about my intense distaste for Microsoft&#8217;s feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it&#8217;s not always possible to do so.</p>
 <p>This year, I found myself doing a Certificate IV in Graphic Design that required Adobe&#8217;s Creative Cloud. As I&#8217;m sure you know, this software only runs on MacOS and Windows, which lead to quite the conundrum. Not willing to give up my beloved Arch Linux, I needed a way to get these programs running on my computer.</p>
 <p>Dual booting was an option, but one with hassle, so I chose to fire up a Windows virtual machine with a few tweaks. I ran the virtual machine with KVM/QEMU using Virt-Man but that isn&#8217;t the focus of this article. This article is about the tweaks I used and how I made Windows vaguely usable. With any luck, you can achieve the same.</p>
@@ -1021,10 +1032,11 @@ I recommend using a stock ISO from Microsoft rather than mods such as Tiny11. Th
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
       <title>Minecraft, Nostalgia, and Growing Up</title>
       <link>https://vale.rocks/posts/minecraft-nostalgia-and-growing-up.html</link>
       <guid>https://vale.rocks/posts/minecraft-nostalgia-and-growing-up.html</guid>
+      <description>A look back on Minecraft, its editions, its culture, and how it shaped me as I turn 18 and transition into adulthood.</description>
       <content:encoded><![CDATA[<p>The first iteration of this article was written in a hotel room on a rainy Monday, overlooking Melbourne. It went live on April 2nd, 2024 &#8211; the day of my 18th birthday. I had a lot running through my mind, including the new responsibilities and freedoms that come with being an adult.</p>
 <p>I could bloat the word count of this article dwelling on the encroaching responsibilities of adulthood or reminiscing about the &#8216;end&#8217; of my childhood. I could even lament the gum stuck to my shoe that I keep forgetting to scrape off. But I want to write about a game that sits with me: Minecraft.</p>
 <p>Like many my age, I grew up alongside Minecraft. I first discovered it via YouTube circa ~2012 [^1]. Initially through my parent&#8217;s iPad 3, and later through my own iPad 4. I remember waking up before school to watch the comedic duo of <a href="https://www.youtube.com/@stampycat">StampyLongHead</a> and <a href="https://www.youtube.com/@iBallisticSquid">iBallisticSquid</a> in their latest let&#8217;s plays bumbling through various adventure maps and duking it out in Hunger Games. I remember watching their individual series, such as Squid&#8217;s <a href="https://www.youtube.com/playlist?list=PL87AFDeJs846nDRNH2bTddRV2Gh63Kkgp">Sky Island Challenge</a> or Stampy&#8217;s <a href="https://www.youtube.com/playlist?list=PLEZiAg2bYC7ngh-_Z_ruvzSfn1KPQRL5V">Lovely World</a>.</p>
@@ -1086,10 +1098,11 @@ The Xbox One Edition received an unexpected update, CU59, on April 9, 2024 &#821
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Thu, 18 Apr 2024 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
       <title>My Code Formatting Guidelines</title>
       <link>https://vale.rocks/posts/my-code-formatting-guidelines.html</link>
       <guid>https://vale.rocks/posts/my-code-formatting-guidelines.html</guid>
+      <description>Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, my take on the classic tabs vs spaces debate, and much more.</description>
       <content:encoded><![CDATA[<p>Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is <em>not</em> something I, nor anyone else, ever want to deal with.</p>
 <p>This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I&#8217;ve documented them here.</p>
 <p>Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.</p>
@@ -1209,10 +1222,11 @@ x =&gt; x
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
       <title>Prematurely Pulling The Plug On 3G</title>
       <link>https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g.html</link>
       <guid>https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g.html</guid>
+      <description>Critical thoughts on the intention of Australian telcos to sunset the 3G network and the major repurcussions on coverage, safety, and much more that will come with it.</description>
       <content:encoded><![CDATA[<p>First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia&#8217;s 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.</p>
 <p>As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.</p>
 <h2 id="impact-on-devices">Impact on Devices</h2>
@@ -1239,10 +1253,11 @@ x =&gt; x
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
       <title>The Design of This Site</title>
       <link>https://vale.rocks/posts/the-design-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-design-of-this-site.html</guid>
+      <description>A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site&apos;s philosophy.</description>
       <content:encoded><![CDATA[<p>The web used to embody its name—a spider&#8217;s web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.</p>
 <p>Though a minority may still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.</p>
 <p>Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page <a href="https://www.wendycarlos.com/live.html">describing how her website &#8216;lives&#8217;</a>:</p>
@@ -1310,10 +1325,11 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Fri, 16 Jun 2023 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
       <title>The Ultimate LibreOffice Setup</title>
       <link>https://vale.rocks/posts/the-ultimate-libreoffice-setup.html</link>
       <guid>https://vale.rocks/posts/the-ultimate-libreoffice-setup.html</guid>
+      <description>My comprehensive tutorial aimed at optimizing LibreOffice to match the functionality of Microsoft Office. Elevate your document editing experience with tips, tools, and enhancements for seamless and efficient productivity.</description>
       <content:encoded><![CDATA[<p>Document editing is a horrible business that I wouldn&#8217;t wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can&#8217;t be combated by even the most confident keyboard cowboys.</p>
 <p>I&#8217;ve spent a lot of time trying to wrangle my word editing and perfect my proofreading performance by configuring and tweaking my LibreOffice setup to perfection. First thing to look at is why I chose LibreOffice over any other document suite.</p>
 <h2 id="best-suite">Best Suite</h2>
