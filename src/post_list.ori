@@ -1,0 +1,56 @@
+(posts_data) => main_template.ori({
+	@text: indent`
+	<link rel="stylesheet" href="/assets/styles/pages/posts.css">
+
+	<div class="page">
+		<form role="search" id="refine-posts">
+			<search>
+				<label for="posts-search" class="icons">search</label>
+				<input type="search" id="posts-search" placeholder="Search posts..." />
+			</search>
+
+			<div class="refinements">
+				<div class="refinement-select">
+					<label for="posts-filter" class="icons">category</label>
+					<select id="posts-filter">
+						<option value="all">All</option>
+						<option value="review">Reviews</option>
+						<option value="essay">Essays</option>
+						<option value="tutorial">Tutorials</option>
+						<option value="meta">Meta</option>
+					</select>
+				</div>
+
+				<div class="refinement-select">
+					<label for="posts-sort" class="icons">sort</label>
+					<select id="posts-sort">
+						<option value="published-desc">Published Descending</option>
+						<option value="published-asc">Published Ascending</option>
+						<option value="revised-desc">Revised Descending</option>
+						<option value="revised-asc">Revised Ascending</option>
+						<option value="length-desc">Length Descending</option>
+						<option value="length-asc">Length Ascending</option>
+					</select>
+				</div>
+			</div>
+		</form>
+
+		<div id="post-items">
+			${ map(posts_data,
+			(post, key) => indent`
+				<a class="post" href="/posts/${ key }">
+					<p>${ post/section }</p>
+					<h2>${ post/title }</h2>
+					<div class="info">
+						<p>1273 words</p>
+						<p>${ post/pub_time }</p>
+						<p>${ post/mod_time }</p>
+					</div>
+				</a>
+			`)}
+		</div>
+	</div>
+
+	<script src="/assets/scripts/refine-posts.js"></script>
+	`
+})

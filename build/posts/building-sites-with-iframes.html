@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Building Sites With iFrames | Vale</title>
+	<meta property="og:title" content="Building Sites With iFrames">
+	<meta name="description" content="undefined">
+	<meta property="og:description" content="undefined">
+	<meta property="article:published_time" content="undefined">
+	<meta property="article:modified_time" content="undefined">
+	<meta property="article:section" content="undefined">
+
+	<meta property="og:site_name" content="Vale Rocks">
+	<meta property="og:locale" content="en_AU">
+	<meta property="og:site" content="vale.rocks">
+	<meta property="og:type" content="website">
+
+	<meta name="author" content="Declan Chidlow">
+	<meta name="creator" content="vale.rocks">
+	<meta name="contact" content="https://vale.rocks/contact">
+	<meta name="color-scheme" content="light dark">
+
+	<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+	<link rel="me" href="https://fedi.vale.rocks/vale">
+	<link rel="me" href="https://github.com/DeclanChidlow">
+	<link rel="me" href="https://bsky.app/profile/vale.rocks">
+
+	<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+	<link rel="stylesheet" href="/assets/styles/base/reset.css">
+	<link rel="stylesheet" href="/assets/styles/base/body.css">
+	<link rel="stylesheet" href="/assets/styles/type/alerts.css">
+	<link rel="stylesheet" href="/assets/styles/type/code.css">
+	<link rel="stylesheet" href="/assets/styles/type/links.css">
+	<link rel="stylesheet" href="/assets/styles/type/type.css">
+	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+	<link rel="stylesheet" href="/assets/styles/components/footer.css">
+	<link rel="stylesheet" href="/assets/styles/components/input.css">
+	<link rel="stylesheet" href="/assets/styles/components/figures.css">
+	<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+
+	<link rel="alternate" type="application/rss+xml" title="A collection of unhinged (yet not completely insane) ramblings." href="feed.xml">
+	<link rel="alternate" type="application/json" title="A collection of unhinged (yet not completely insane) ramblings." href="feed.json">
+</head>
+
+<body >
+	<header id="navbar">
+		<a class="skip-link" href="#main">Skip to content</a>
+		<nav>
+			<a href="/" id="navlanding">Vale</a>
+			<ul class="menu-items">
+				<li><a href="/posts">Posts</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+			</ul>
+
+			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+			<div id="popover-menu" popover>
+				<button popovertarget="popover-menu" class="icons">close</button>
+				<ul>
+					<li><a href="/posts">Posts</a></li>
+					<li><a href="/portfolio">Portfolio</a></li>
+					<li><a href="/services">Services</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+</header>
+
+<main id="main">
+	
+		<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+		<style>:root{--header_background: var(--magenta)}</style>
+	
+		<div id='scroll-indicator-container'>
+			<div id="scroll-indicator"></div>
+		</div>
+		<script src='/assets/scripts/scroll-indicator.js'></script>
+	
+		<span id="section">Posts</span>	
+	
+		<article>
+			<header>
+				Review
+				<h1>Building Sites With iFrames</h1>
+				<ul>
+					<li>1520 words</li>
+					<li><time datetime="2024-10-08">2024-10-08</time></li>
+					<li><time datetime="2024-10-08">2024-10-08</time></li>
+				</ul>
+			</header>
+	
+			<div class="readable-width">
+				<p>When I first entered the bloody fray that is the web development sphere, I did plenty of very dumb stuff thanks to not knowing any better. Before I figured out what a static site generator was or the concept of PHP&#8217;s <code>include</code>, I copied a lot of code between sites. Namely, navs and footers.</p>
+				<p>Each and every page of my site would have a duplicate copy of my navbar and footer copied into it, meaning that whenever I wanted to do something like add a new item, I had to jump across pages and update each instance individually.</p>
+				<p>In my endless genius, I decided the solution to my woes was to use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframes</a>. My initial implementations circa 2018 were rather poor, as you might imagine from an inexperienced, 12 year old, me.</p>
+				<p>They were incredibly clunky and relied on JavaScript to show and hide them. They also didn&#8217;t really mesh with the page and were constantly overflowing, causing a lack of cohesion and inconvenient scrollbars.</p>
+				<p>Both my knowledge and the web have come a long way since those days, and my recent reading up about <a href="https://martinfowler.com/articles/micro-frontends.html">micro-frontends</a> led me to give iframes another spin.</p>
+				<h2 id="uses">Uses</h2>
+				<p>Front-end development isn&#8217;t the simple craft it was years ago, and it&#8217;s reached a point where the micro-service architecture that&#8217;s grown in popularity for backends has become worth considering for frontends. There are plenty of ways to implement them, but iframes are perhaps the easiest.</p>
+				<p>Each independent part of an application can be split up and reconstituted by embedding them in their own iframes.</p>
+				<h2 id="implementing">Implementing</h2>
+				<p>Getting started is simple. All you need to do is place <code>&lt;iframe src=&quot;https://example.com&quot;&gt;&lt;/iframe&gt;</code> on a page, substituting <code>example.com</code> for the URL of your required resource.</p>
+				<p>That&#8217;s a start, but it&#8217;s limited. The iframe won&#8217;t scale to the size of its content; it looks ugly, and the parent can&#8217;t communicate with it. Thankfully, we can sort this out.</p>
+				<h3 id="styling">Styling</h3>
+				<p>First, let&#8217;s remove the border put around them by the default user-agent styling on most browsers. Gecko, Blink, and WebKit default to this styling:</p>
+				<pre><code class="hljs language-css"><span class="hljs-selector-tag">iframe</span> {
+					<span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> inset;
+				}
+				</code></pre><p>Given our needs, I think it sane to remove that border for better visual cohesion with the rest of the page, like so:</p>
+				<pre><code class="hljs language-css"><span class="hljs-selector-tag">iframe</span> {
+					<span class="hljs-attribute">border</span>: none;
+				}
+				</code></pre><h3 id="sizing">Sizing</h3>
+				<p>Now we need to sort out some sizing. There are a few ways to go about this. We can use some CSS to set the frame to a fixed size, or we can write some simple JavaScript that handles sizing it for us. Either way you do it, it&#8217;s worth noting that all iframes have a width of 300 and height of 150.</p>
+				<p>If we want to do it with CSS, then we can just apply a <code>width</code> and <code>height</code> like we would to any other element, but we run into an issue fairly quickly. There is no easy way to get the dimensions of a page in an iframe via CSS alone. This makes it a write-off unless we know the exact dimensions of the page or are happy with it being clipped and presented with a scrollbar.</p>
+				<p>Thankfully, we can use a bit of the ol&#8217; JavaScript.</p>
+				<p>The simplest way is to grab the size of the iframe&#8217;s contents when it loads, although that won&#8217;t dynamically handle changes in the size of the iframe&#8217;s contents.</p>
+				<pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://example.com&quot;</span> <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;this.style.height=(this.contentWindow.document.body.scrollHeight)+&#x27;px&#x27;;&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;100%&quot;</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
+				</code></pre><p>We can improve this by setting up a script to run in our iframe that tells our parent page when its size changes. Definitely host the pages you&#8217;re embedding and your parent pages on the same domain to avoid Cross-Origin Resource Sharing (CORS) errors.</p>
+				<p>First, we&#8217;ll need to give our iframe an id so we can reference it. We can also remove the onload JavaScript, as we&#8217;ll be separating that out.</p>
+				<pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;exampleIframe&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://example.com&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
+				</code></pre><p>On the page we&#8217;re embedding, we can add this script, which will send a message to the parent window stating its height and width.</p>
+				<pre><code class="hljs language-javascript"><span class="hljs-variable language_">window</span>.<span class="hljs-property">parent</span>.<span class="hljs-title function_">postMessage</span>(
+					{
+						<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;resize&quot;</span>,
+						<span class="hljs-attr">height</span>: <span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>.<span class="hljs-property">scrollHeight</span>,
+						<span class="hljs-attr">width</span>: <span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>.<span class="hljs-property">scrollWidth</span>,
+					},
+					<span class="hljs-string">&quot;https://example.com&quot;</span>,
+				);
+				</code></pre><p>Back on our parent, we can give it a script that listens for a message of the type &#8216;resize&#8217;, at which point it can update the dimensions of the iframe with the values sent in the message.</p>
+				<pre><code class="hljs language-javascript"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&quot;message&quot;</span>, <span class="hljs-keyword">function</span> (<span class="hljs-params">e</span>) {
+					<span class="hljs-keyword">if</span> (e.<span class="hljs-property">data</span>.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;resize&quot;</span>) {
+						<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;exampleIframe&quot;</span>).<span class="hljs-property">style</span>.<span class="hljs-property">height</span> = e.<span class="hljs-property">data</span>.<span class="hljs-property">height</span> + <span class="hljs-string">&quot;px&quot;</span>;
+						<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;exampleIframe&quot;</span>).<span class="hljs-property">style</span>.<span class="hljs-property">width</span> = e.<span class="hljs-property">data</span>.<span class="hljs-property">width</span> + <span class="hljs-string">&quot;px&quot;</span>;
+					}
+				});
+				</code></pre><p>And voila, we should now have dynamically sized iframes regardless of the child&#8217;s content.</p>
+				<p>Alternatively, you can use an existing library like <a href="https://iframe-resizer.com">iframe-resizer</a> to do it without the hassle of rolling it yourself. Do consider first if you <em>need</em> another dependency in your project, though.</p>
+				<h3 id="communicating-with-our-iframe">Communicating With Our iFrame</h3>
+				<p>This is the least fun bit of iframes, trying to communicate with them. It&#8217;s doable, just a bit finicky &#8211; mainly because of our old friend CORS &#8211; but it shouldn&#8217;t be too much of a hassle assuming they&#8217;re on the same domain.</p>
+				<p>We&#8217;ll use JavaScript&#8217;s <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage"><code>post-message</code></a> API to facilitate sharing information. In fact, we&#8217;ve already used this for sending the page dimensions from our iframe to the parent. The postMessage API allows you to send objects, arrays, etc, but for the scope of this article we&#8217;ll stick to simple stings.</p>
+				<h4 id="from-iframe-to-parent">From iFrame to Parent</h4>
+				<p>To send a message from the embedded iframe to the parent document, use this code in the iframe&#8217;s document:</p>
+				<pre><code class="hljs language-javascript"><span class="hljs-variable language_">window</span>.<span class="hljs-property">parent</span>.<span class="hljs-title function_">postMessage</span>(<span class="hljs-string">&quot;Hello from iframe!&quot;</span>, <span class="hljs-string">&quot;https://example.com&quot;</span>);
+				</code></pre><p>To receive and handle messages in the parent document, add this code to the parent document:</p>
+				<pre><code class="hljs language-javascript"><span class="hljs-variable language_">window</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&quot;message&quot;</span>, <span class="hljs-keyword">function</span> (<span class="hljs-params">event</span>) {
+					<span class="hljs-keyword">if</span> (event.<span class="hljs-property">origin</span> !== <span class="hljs-string">&quot;https://example.com&quot;</span>) <span class="hljs-keyword">return</span>;
+					<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&quot;Message from iframe:&quot;</span>, event.<span class="hljs-property">data</span>);
+				});
+				</code></pre><p>If you open your browser console, you should see the messages coming through.</p>
+				<h2 id="why">Why?</h2>
+				<p>So, all that is a lot of work, which may make you ask, &#8216;why bother?&#8217;. Why not implement micro-frontends another way, such as by using web components, route segmentation, or the like? Well, iframes have one big benefit that is possibly also their biggest weakness. <strong>Every iframe is isolated.</strong> This is good in the sense that iframes won&#8217;t clash. You&#8217;ll have no CSS conflicts, no JavaScript variable collisions, and no worries about one component affecting another unintentionally. This is great for:</p>
+				<ul>
+				<li>Sandboxing third-party content: You can safely embed external widgets or tools without worrying about them interfering with your main page.</li>
+				<li>Legacy system integration: When modernising an application piece by piece, iframes can help you gradually replace old components with new ones without a complete overhaul.</li>
+				<li>Fault isolation: One iframe failing doesn&#8217;t kill the entire site or app.</li>
+				</ul>
+				<p>But not so great for:</p>
+				<ul>
+				<li>SEO: Search engines may have difficulty indexing content within iframes, which could impact search rankings.</li>
+				<li>User experience: Navigation can become tricky, as each iframe essentially has its own browsing context.</li>
+				<li>Accessibility: Screen readers and other assistive technologies may have difficulty navigating between iframes.</li>
+				<li>Performance overhead: While iframes can help with perceived performance, they do introduce some overhead, as each iframe requires its own resources and DOM.</li>
+				</ul>
+				<section class="giscus"></section>
+			</div>
+		</article>
+</main>
+
+<footer>
+	<ul class="socials">
+		<li>
+			<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+				<img src="/assets/icons/ActivityPub.svg" alt="Fediverse">
+			</a>
+		</li>
+		<li>
+			<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+				<img src="/assets/icons/Bluesky.svg" alt="Bluesky">
+			</a>
+		</li>
+		<li>
+			<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+				<img src="/assets/icons/GitHub.svg" alt="GitHub">
+			</a>
+		</li>
+		<li>
+			<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+				<img src="/assets/icons/Unsplash.svg" alt="Unsplash">
+			</a>
+		</li>
+		<li>
+			<a href="/posts/feed.xml" target="_blank" title="Atom">
+				<img src="/assets/icons/RSS.svg" alt="Atom">
+			</a>
+		</li>
+	</ul>
+
+	<nav>
+		<ul>
+			<li><a href="/">Landing</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/portfolio">Portfolio</a></li>
+			<li><a href="/contact">Contact</a></li>
+			<li><a href="/services">Services</a></li>
+			<li><a href="/support">Support</a></li>
+			<li><a href="/uses">Uses</a></li>
+		</ul>
+	</nav>
+	<p>© Declan Chidlow. All rights reserved.</p>
+</footer>
+
+    </body>
+  </html>

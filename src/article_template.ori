@@ -1,0 +1,31 @@
+(post) => main_template.ori({
+	title: post/title
+	@text: indent`
+
+	<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+	<style>:root{--header_background: var(--magenta)}</style>
+
+	<div id='scroll-indicator-container'>
+		<div id="scroll-indicator"></div>
+	</div>
+	<script src='/assets/scripts/scroll-indicator.js'></script>
+
+	<span id="section">Posts</span>	
+
+	<article>
+		<header>
+			Review
+			<h1>${ post/title }</h1>
+			<ul>
+				<li>1520 words</li>
+				<li><time datetime="${ post/pub_time }">${ post/pub_time }</time></li>
+				<li><time datetime="${ post/mod_time }">${ post/mod_time }</time></li>
+			</ul>
+		</header>
+
+		<div class="readable-width">
+			${ post/@text }
+			<section class="giscus"></section>
+		</div>
+	</article>
+` })

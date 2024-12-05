@@ -1,0 +1,14 @@
+(posts_data) => main_template.ori({
+	@text: indent`
+	<link rel="stylesheet" href="/assets/styles/pages/portfolio.css">
+
+	<div id="portfolio-items">
+		${ map(posts_data,
+		(post, key) => indent`
+			<a class="post" href="/posts/${ key }">
+				<h2>${ post/title }</h2>
+			</a>
+		`)}
+	</div>
+	`
+})

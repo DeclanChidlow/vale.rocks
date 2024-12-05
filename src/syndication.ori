@@ -1,0 +1,15 @@
+(posts) => {
+  version: "https://jsonfeed.org/version/1.1"
+  title: siteInfo.yaml/title
+  description: siteInfo.yaml/description
+  feed_url: `${ siteInfo.yaml/url }/feed.json`
+  home_page_url: siteInfo.yaml/url
+  
+  items: values(map(posts, (post, slug) => {
+    content_html: post/@text
+    date_published: post/pub_time
+    id: `${ siteInfo.yaml/url }/posts/${ slug }`
+    title: post/title
+    url: `${ siteInfo.yaml/url }/posts/${ slug }`
+  }))
+}
