@@ -1,11 +1,12 @@
 {
-  "name": "my-origami-project",
-  "type": "module",
-  "dependencies": {
-    "@weborigami/origami": "0.2.1"
-  },
-  "scripts": {
-    "build": "ori copy src/site.ori, clear files:build",
-    "start": "ori serve watch src, =debug src/site.ori"
-  }
+	"name": "vale-rocks",
+	"type": "module",
+	"dependencies": {
+		"@weborigami/origami": "0.2.1"
+	},
+	"scripts": {
+		"build": "ori copy src/site.ori, clear files:build",
+		"start": "ori serve watch src, =debug src/site.ori",
+		"sitemap": "ori sitemap src/site.ori, \"'https://vale.rocks'\" > build/sitemap.xml"
+	}
 }
