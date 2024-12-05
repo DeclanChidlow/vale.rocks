@@ -1,4 +1,8 @@
 (posts_data) => main_template.ori({
+	title: "Posts"
+	description: "Browse my essays, tutorials, and reviews and more on topics including development, design, and digital culture."
+	og_description: "Browse my essays, tutorials, and reviews and more on topics including development, design, and digital culture."
+
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/posts.css">
 

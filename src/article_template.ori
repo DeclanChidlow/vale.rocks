@@ -1,5 +1,11 @@
 (post) => main_template.ori({
 	title: post/title
+	description: post/description
+	og_description: post/og_description
+	pub_time: post/pub_time
+	mod_time: post/mod_time
+	section: post/section
+
 	@text: indent`
 
 	<link rel="stylesheet" href="/assets/styles/components/article_header.css">
