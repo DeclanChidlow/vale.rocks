@@ -2,6 +2,5 @@
 .idea/
 .vscode/
 
-# Repo specific
-input/posts/export/
-input/portfolio/export/
+# node.js
+node_modules/
