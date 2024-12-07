@@ -44,8 +44,8 @@
 		<link rel="stylesheet" href="/assets/styles/components/figures.css">
 		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
 
-		<link rel="alternate" type="application/rss+xml" title="${ siteInfo.yaml/feed_description }" href="feed.xml">
-		<link rel="alternate" type="application/json" title="${ siteInfo.yaml/feed_description }" href="feed.json">
+		<link rel="alternate" type="application/rss+xml" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.json">
 	</head>
 
 	<body ${ page/area ? `class="${ page/area }"` : "" }>

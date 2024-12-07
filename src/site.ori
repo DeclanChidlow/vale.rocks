@@ -9,9 +9,11 @@
 	404.html = main_template.ori(mdHtml(pages/404.md))
 
 	posts.html = post_list.ori(post_data.ori)
-	posts/ = map(post_data.ori, article_template.ori)
-	feed.json = json(syndication.ori(post_data.ori))
-	feed.xml = rss(syndication.ori(post_data.ori))
+	posts = {
+		...map(post_data.ori, article_template.ori)
+		feed.json = json(syndication.ori(post_data.ori))
+		feed.xml = rss(syndication.ori(post_data.ori))
+	}
 
 	portfolio.html = portfolio_list.ori(portfolio_data.ori)
 	portfolio/ = map(portfolio_data.ori, article_template.ori)
