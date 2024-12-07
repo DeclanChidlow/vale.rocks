@@ -17,10 +17,20 @@ A website full of the trials and tribulations of Declan Chidlow. You can view th
 > [!NOTE]
 > I don't accept pull requests on this repository as it is a personal project. However, you are welcome to open [issues](https://github.com/DeclanChidlow/vale.rocks/issues) where necessary.
 
-This site is built using my static site generator, [Adduce](https://adduce.vale.rocks). I build Adduce alongside my site, so the public build of Adduce is not always guaranteed to work as expected with this site.
+This site is built using the [Origami programming language](https://weborigami.org).
 
-## Generating
+## Development
 
-The site can be conveniently generated with the [`gen.sh`](https://github.com/DeclanChidlow/vale.rocks/blob/main/gen.sh) script. Currently, the site is hosted using GitHub Pages, so the script is configured to output the built site to the `/docs` folder within the repository for easy deployment.
+To get started, run the installation command in the root of the repository using your preferred package manager (Npm, Bun, Pnpm, Yarn, etc):
 
-To generate the Atom feed, [`atom.sh`](https://github.com/DeclanChidlow/vale.rocks/blob/main/atom.sh) should be run. This is separate to `gen.sh` so that all diffs aren't just the Atom feed changing.
+```console
+npm install  # or use bun, pnpm, yarn, etc.
+```
+
+Once the dependencies are installed, you can run one of the following scripts:
+
+- `start`: Launches the local development server.
+- `build`: Generates the static files for the project.
+- `sitemap`: Creates a sitemap (run after the build script).
+
+Currently, the site is hosted on GitHub Pages. To simplify deployment, the build script is configured to output the static site to the `/docs` folder within the repository.
