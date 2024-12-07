@@ -19,9 +19,13 @@ footer {
 			margin: 0;
 			line-height: 0.8rem;
 
-			img {
+			svg {
 				height: 1.5rem;
 				width: 1.5rem;
+			}
+
+			.adaptive-icon {
+				fill: light-dark(var(--black), #fff);
 			}
 		}
 	}
