@@ -1,2 +1,4 @@
 posts
+→ =sort(_, (post) => new:Date(post/pub_time))
 → =map(_, mdHtml)
+→ reverse
