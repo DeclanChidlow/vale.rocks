@@ -64,8 +64,8 @@ function sortPosts(posts, sortValue) {
 function getPostInfo(post) {
 	const infoElements = post.querySelectorAll(".info p");
 	const wordCount = parseInt(infoElements[0].textContent);
-	const published = new Date(infoElements[1].textContent).getTime();
-	const revised = infoElements.length > 2 ? new Date(infoElements[2].textContent).getTime() : published;
+	const published = new Date(infoElements[1].querySelector("time").getAttribute("datetime")).getTime();
+	const revised = infoElements.length > 2 ? new Date(infoElements[2].querySelector("time").getAttribute("datetime")).getTime() : published;
 	return { length: wordCount, published, revised };
 }
 
