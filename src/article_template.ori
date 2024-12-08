@@ -23,7 +23,7 @@
 			Review
 			<h1>${ post/title }</h1>
 			<ul>
-				<li>1520 words</li>
+				<li>${ post/word_count } words</li>
 				<li><time datetime="${ post/pub_time }">${ functions/pretty-date.js(post/mod_time) }</time></li>
 				<li><time datetime="${ post/mod_time }">${ functions/pretty-date.js(post/mod_time) }</time></li>
 

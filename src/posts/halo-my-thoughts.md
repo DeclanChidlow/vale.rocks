@@ -5,6 +5,7 @@ og_description: My thoughts on one of the biggest names in gaming.
 pub_time: 2023-08-27
 mod_time: 2024-08-21
 section: Review
+word_count: 4120
 ---
 
 If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5 and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.

@@ -5,6 +5,7 @@ og_description: At least we're past Windows ME...
 pub_time: 2023-10-31
 mod_time: 2023-11-22
 section: Tutorial
+word_count: 1156
 ---
 
 I'm not quiet about my intense distaste for Microsoft's feeble attempt at an operating system. I find Windows to be a horrific amalgamation of legacy code, bloat, and hostile user practices that I avoid when possible. Unfortunately, it's not always possible to do so.

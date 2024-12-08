@@ -5,6 +5,7 @@ og_description: The best format you can't use.
 pub_time: 2024-05-01
 mod_time: 2024-05-07
 section: Essay
+word_count: 2121
 ---
 
 There is no doubt you're familiar with GIFs, PNGs, and JPEGs. These image formats have been _the_ way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.

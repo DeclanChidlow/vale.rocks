@@ -46,7 +46,7 @@
 					<p>${ post/section }</p>
 					<h2>${ post/title }</h2>
 					<div class="info">
-						<p>1273 words</p>
+						<p>${ post/word_count } words</p>
 						<p><time datetime="${ post/pub_time }">${ functions/pretty-date.js(post/mod_time) }</time></p>
 						<p><time datetime="${ post/mod_time }">${ functions/pretty-date.js(post/mod_time) }</time></p>
 					</div>

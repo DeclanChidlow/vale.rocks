@@ -5,6 +5,7 @@ og_description: A fantasmagorical planet flipping oracle.
 pub_time: 2024-06-14
 mod_time: 2024-07-03
 section: Review
+word_count: 1983
 ---
 
 I like computers, and I like tinkering. I also don't mind stretching rules a little if it means I can do something not intended. I've burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.

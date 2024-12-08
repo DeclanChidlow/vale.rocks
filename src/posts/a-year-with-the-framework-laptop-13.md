@@ -5,6 +5,7 @@ og_description: Hold onto your trackpads, I'm reviewing the Framework.
 pub_time: 2023-12-01
 mod_time: 2024-07-03
 section: Review
+word_count: 1520
 ---
 
 Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.

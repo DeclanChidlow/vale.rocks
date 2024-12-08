@@ -5,6 +5,7 @@ og_description: "'Blah blah blah' doesn’t look quite as good."
 pub_time: 2024-11-25
 mod_time: 2024-11-26
 section: Meta
+word_count: 1444
 ---
 
 This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you'd like to read the logic behind all of this, check out [The Design of This Site](/posts/the-design-of-this-site).
