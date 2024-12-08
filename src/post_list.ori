@@ -47,8 +47,8 @@
 					<h2>${ post/title }</h2>
 					<div class="info">
 						<p>${ post/word_count } words</p>
-						<p><time datetime="${ post/pub_time }">${ functions/pretty-date.js(post/pub_time) }</time></p>
-						<p><time datetime="${ post/mod_time }">${ functions/pretty-date.js(post/mod_time) }</time></p>
+						<p><time datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></p>
+						<p><time datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></p>
 					</div>
 				</a>
 			`)}
