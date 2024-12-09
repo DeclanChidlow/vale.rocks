@@ -1,5 +1,6 @@
 {
 	assets
+	CNAME
 
 	index.html = main_template.ori(functions/parse-markdown.js(pages/index.md))
 	contact.html = main_template.ori(functions/parse-markdown.js(pages/contact.md))
