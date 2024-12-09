@@ -1,4 +1,4 @@
 posts
 → =sort(_, (post) => new:Date(post/pub_time))
-→ =map(_, mdHtml)
+→ =map(_, (post) => functions/parse-markdown.js(post))
 → reverse

@@ -1,12 +1,12 @@
 {
 	assets
 
-	index.html = main_template.ori(mdHtml(pages/index.md))
-	contact.html = main_template.ori(mdHtml(pages/contact.md))
-	services.html = main_template.ori(mdHtml(pages/services.md))
-	uses.html = main_template.ori(mdHtml(pages/uses.md))
-	support.html = main_template.ori(mdHtml(pages/support.md))
-	404.html = main_template.ori(mdHtml(pages/404.md))
+	index.html = main_template.ori(functions/parse-markdown.js(pages/index.md))
+	contact.html = main_template.ori(functions/parse-markdown.js(pages/contact.md))
+	services.html = main_template.ori(functions/parse-markdown.js(pages/services.md))
+	uses.html = main_template.ori(functions/parse-markdown.js(pages/uses.md))
+	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
+	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
 
 	posts.html = post_list.ori(post_data.ori)
 	posts = {
