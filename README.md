@@ -33,4 +33,4 @@ Once the dependencies are installed, you can run one of the following scripts:
 - `build`: Generates the static files for the project.
 - `sitemap`: Creates a sitemap (run after the build script).
 
-Currently, the site is hosted on GitHub Pages. To simplify deployment, the build script is configured to output the static site to the `/docs` folder within the repository.
+Currently, the site is hosted on GitHub Pages and behind Cloudflare. To simplify deployment, a GitHub action is setup which will deploy the site from [`gh-pages`](https://github.com/DeclanChidlow/vale.rocks/tree/gh-pages).
