@@ -4,3 +4,6 @@
 
 # node.js
 node_modules/
+
+# Repo specific
+build/

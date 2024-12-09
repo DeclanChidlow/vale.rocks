@@ -1,7 +1,0 @@
-iframe {
-	border: none;
-	filter: invert(93.5%) hue-rotate(180deg);
-	width: 100%;
-	min-height: 50rem;
-	height: 30vh;
-}
