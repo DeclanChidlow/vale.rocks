@@ -204,7 +204,5 @@ The story repairs the mess of the previous two games and paves the way for the f
 
 I hope that you gained something reading about my thoughts on Halo. I'd love to hear your thoughts and opinions on the franchise, so leave them in the comments.
 
-## Footnotes
-
 [^1]: So is the multiplayer. It simply stripped out the original and just bundled a modified version of Reach's. This isn't an issue on the MCC, as it features the original multiplayer, but if you're playing on the 360, I'd recommend just going and tracking down the original Xbox version. You can run it on the 360 via backwards compatibility.
 [^2]: You might have read that Reach is the first game. It's a prequel, released after Halo ODST. I very much recommend experiencing the games (and most media, for that matter) in chronological release order.
