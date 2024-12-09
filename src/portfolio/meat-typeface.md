@@ -1,5 +1,7 @@
 ---
 title: Meat Typeface
+tag_line: An experiment in fleshy, 3D type design.
+accent_colour: var(--grey)
 ---
 
 I'm near certain that most people, at some point, have fantasised about wielding meat as a writing tool. Well, you needn't wait any longer, as my meat typeface fulfils that dream.

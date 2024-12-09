@@ -1,0 +1,30 @@
+(post) => main_template.ori({
+	title: post/title
+	description: post/tag_line
+	og_description: post/tag_line
+
+	@text: indent`
+
+	<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+	<style>:root{--header_background: ${ post/accent_colour }}</style>
+
+	<div id='scroll-indicator-container'>
+		<div id="scroll-indicator"></div>
+	</div>
+	<script src='/assets/scripts/scroll-indicator.js'></script>
+
+	<span id="section">Portfolio</span>	
+
+	<article>
+		<header>
+			<h1>${ post/title }</h1>
+		</header>
+
+		<div class="readable-width">
+			${ post/@text }
+		</div>
+	</article>
+
+	<script src="/assets/scripts/footnotes.js"></script>
+	<script src="/assets/scripts/figures.js"></script>
+` })

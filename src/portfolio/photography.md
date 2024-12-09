@@ -1,5 +1,7 @@
 ---
 title: Photography
+tag_line: A collection of my best photon capture.
+accent_colour: var(--grey)
 ---
 
 I'm by no means a professional photographer, but these are a series of photos I’ve taken. I don’t have a professional camera, so I use my Nokia G22’s inbuilt camera and then touch them up, where necessary, in Adobe Lightroom. I enjoy taking pictures of the natural world when the opportunity presents itself, although I’m far from opposed to taking pictures of other subjects.

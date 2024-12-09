@@ -1,5 +1,7 @@
 ---
 title: Pam Carter's Scriptural Poetry
+tag_line: A four book collection of poetry brought to life with splendiferous design.
+accent_colour: var(--green)
 ---
 
 My grandmother, Pamela Maitland Carter, has been writing poetry for decades. Leveraging my design knowledge and extensive experience with software such as Adobe's Creative Cloud, I compiled many of these poems into a four volume set.

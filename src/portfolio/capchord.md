@@ -1,5 +1,7 @@
 ---
 title: CapChord
+tag_line: Self-founded tech support business.
+accent_colour: var(--grey)
 ---
 
 CapChord is a mobile call-out business that I both personally own and operate. It's dedicated to helping the elderly and those with limited technical knowledge by providing support with a range of digital tasks.

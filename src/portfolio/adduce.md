@@ -1,5 +1,7 @@
 ---
 title: Adduce
+tag_line: A static site generator with the flexibility to bring web projects to life.
+accent_colour: var(--blue)
 ---
 
 After experimenting with some popular static site generators, I found myself wanting something a bit different -- a tad more conducive to my workflow. So, I figured I'd try making one myself.

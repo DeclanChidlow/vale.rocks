@@ -6,11 +6,12 @@
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/portfolio.css">
 
-	<div id="portfolio-items">
+	<div class="portfolio-items">
 		${ map(portfolio_data,
 		(post, key) => indent`
-			<a class="post" href="/posts/${ key }">
+			<a class="post" href="/portfolio/${ key }" style="background: linear-gradient(transparent, ${ post/accent_colour });">
 				<h2>${ post/title }</h2>
+				<p>${ post/tag_line }</p>
 			</a>
 		`)}
 	</div>

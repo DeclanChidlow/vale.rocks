@@ -1,2 +1,3 @@
 portfolio
-→ =map(_, mdHtml)
+→ =map(_, (post) => functions/parse-markdown.js(post))
+→ =map(_, { extension: ".md->.html" })
