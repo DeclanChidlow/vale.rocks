@@ -42,7 +42,7 @@
 		<div id="post-items">
 			${ map(posts_data,
 			(post, key) => indent`
-				<a class="post" href="/posts/${ key }">
+				<a class="post" href="/posts/${ basename(key) }">
 					<p>${ post/section }</p>
 					<h2>${ post/title }</h2>
 					<div class="info">

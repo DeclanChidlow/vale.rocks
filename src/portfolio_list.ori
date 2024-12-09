@@ -9,7 +9,7 @@
 	<div class="portfolio-items">
 		${ map(portfolio_data,
 		(post, key) => indent`
-			<a class="post" href="/portfolio/${ key }" style="background: linear-gradient(transparent, ${ post/accent_colour });">
+			<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ post/accent_colour });">
 				<h2>${ post/title }</h2>
 				<p>${ post/tag_line }</p>
 			</a>
