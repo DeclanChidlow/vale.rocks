@@ -20,7 +20,7 @@
 
 	<article>
 		<header>
-			Review
+			${ post/section }
 			<h1>${ post/title }</h1>
 			<ul>
 				<li>${ post/word_count } words</li>
