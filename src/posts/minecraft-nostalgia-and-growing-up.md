@@ -94,6 +94,4 @@ Two quotes come to mind thinking about the game:
 
 Thank you.
 
-## Footnotes
-
 [^1]: This year is an approximation thanks to how long ago it was and my lack of personal logging during that period. It is also entirely possible I was exposed to Minecraft via alternate means prior to discovering it on YouTube, but I have no memory of that.

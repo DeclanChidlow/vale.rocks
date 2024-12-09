@@ -1,11 +1,16 @@
-.footnote-reference {
-	a {
-		padding: 0.25rem;
-		margin: -0.25rem;
+a[data-footnote-ref] {
+	padding: 0.25rem;
+	margin: -0.25rem;
+}
 
-		&::after {
-			content: none;
-		}
+li[id^="footnote-"] {
+	padding: 0 0.5rem;
+	font-size: 0.8rem;
+
+	p {
+		padding-left: 1rem;
+		border-left: 2px solid light-dark(var(--white), var(--bright_grey));
+		font-size: inherit;
 	}
 }
 
@@ -18,32 +23,16 @@
 	z-index: 1000;
 	line-height: initial;
 	font-size: 0.9rem;
-
-	.footnote-definition-label::before {
-		content: "Footnote ";
-	}
 }
 
-.footnote-definition {
-	display: flex;
-	padding: 0 0.5rem;
-	font-size: 0.8rem;
-
-	.footnote-definition-label {
-		padding-right: 1rem;
-		border-right: 2px solid light-dark(var(--white), var(--bright_grey));
-		font-size: inherit;
-	}
-
-	p {
-		padding-left: 1rem;
-		margin-bottom: 0;
-	}
-}
-
-.footnote-reference .highlight,
+a[data-footnote-ref].highlight,
 .sidenote.highlight {
 	outline: 2px solid var(--blue);
+}
+
+a[data-footnote-backref]::after,
+a[data-footnote-ref]::after {
+	content: none;
 }
 
 .sidenote {

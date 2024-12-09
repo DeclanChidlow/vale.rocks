@@ -96,6 +96,4 @@ Another source of inspiration for this site is [Josh W Comeau's site](https://ww
 
 ---
 
-## Footnotes
-
 [^1]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.

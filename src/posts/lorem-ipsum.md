@@ -259,8 +259,6 @@ And finally, a nice horizontal rule...
 
 <!-- Sneaky little comment that won't be rendered. -->
 
-## Footnotes
-
 [^1]: This is a footnote, but more accurately it's an endnote, and it'll appear as a sidenote on larger screens.
 [^2]: Magni dolorum ipsa voluptas tempore est ut in. Dicta corrupti ipsa aspernatur. Soluta sunt quae impedit. Eos nobis accusantium ut amet.
 [^3]: Id ex ipsum rerum tempore. Sunt ab deserunt impedit architecto reprehenderit ex. Corporis dolores qui accusamus dolorem. Laudantium optio voluptatem eum id qui. Est ut laborum unde.

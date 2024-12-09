@@ -100,11 +100,65 @@ blockquote {
 	}
 }
 
-blockquote {
+blockquote,
+.markdown-alert {
 	padding: 0.5rem 1rem;
 	background: light-dark(oklch(76% 0.03 55 / 0.3), oklch(24% 0.006 17.6 / 0.3));
 	border: 0.05rem solid light-dark(transparent, var(--grey));
 	border-left: 0.3rem solid var(--grey);
+}
+
+.markdown-alert-title {
+	display: flex;
+	gap: 1ch;
+	align-items: center;
+	color: var(--alert_colour);
+	fill: var(--alert_coolour);
+}
+
+.markdown-alert-note {
+	border-left-color: var(--blue);
+
+	.markdown-alert-title {
+		color: var(--blue);
+		fill: var(--blue);
+	}
+}
+
+.markdown-alert-tip {
+	border-left-color: var(--green);
+
+	.markdown-alert-title {
+		color: var(--green);
+		fill: var(--green);
+	}
+}
+
+.markdown-alert-important {
+	border-left-color: var(--magenta);
+
+	.markdown-alert-title {
+		color: var(--magenta);
+		fill: var(--magenta);
+	}
+}
+
+.markdown-alert-warning {
+	border-left-color: var(--orange);
+
+	.markdown-alert-title {
+		color: var(--orange);
+		fill: var(--orange);
+	}
+}
+
+.markdown-alert-caution {
+	border-left-color: var(--red);
+
+	.markdown-alert-title {
+		color: var(--red);
+		fill: var(--red);
+	}
 }
 
 ul,

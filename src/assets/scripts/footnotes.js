@@ -1,7 +1,5 @@
-// Reimplement with Popover API when it lands in baseline
-
 document.addEventListener("DOMContentLoaded", () => {
-	const footnoteReferences = document.querySelectorAll(".footnote-reference a");
+	const footnoteReferences = document.querySelectorAll("sup a[data-footnote-ref]");
 	const sidenoteContainer = document.createElement("div");
 	sidenoteContainer.className = "sidenote-container";
 	document.body.appendChild(sidenoteContainer);
@@ -43,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		if (!isVisible) {
 			const rect = reference.getBoundingClientRect();
-			const container = reference.closest("div");
+			const container = reference.closest("div, p");
 			popover.style.width = `${container.getBoundingClientRect().width}px`;
 			popover.style.top = `calc(${rect.bottom + window.scrollY}px + 0.5rem)`;
 		}
@@ -75,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	document.addEventListener("click", (e) => {
-		if (!e.target.closest(".footnote-reference") && !e.target.closest(".footnote-popover")) {
+		if (!e.target.closest("sup a[data-footnote-ref]") && !e.target.closest(".footnote-popover")) {
 			document.querySelectorAll(".footnote-popover").forEach((popover) => {
 				popover.style.display = "none";
 			});

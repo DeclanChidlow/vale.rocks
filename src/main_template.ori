@@ -34,7 +34,6 @@
 
 		<link rel="stylesheet" href="/assets/styles/base/reset.css">
 		<link rel="stylesheet" href="/assets/styles/base/body.css">
-		<link rel="stylesheet" href="/assets/styles/type/alerts.css">
 		<link rel="stylesheet" href="/assets/styles/type/code.css">
 		<link rel="stylesheet" href="/assets/styles/type/links.css">
 		<link rel="stylesheet" href="/assets/styles/type/type.css">
