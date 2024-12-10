@@ -5,6 +5,8 @@
 
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/portfolio.css">
+	
+	<h1 id="section">Portfolio</h1>
 
 	<div class="portfolio-items">
 		${ map(portfolio_data,
