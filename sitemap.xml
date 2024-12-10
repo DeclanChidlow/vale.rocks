@@ -16,13 +16,16 @@
     <loc>https://vale.rocks/support.html</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/404.html</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/bookshelf.html</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/404.html</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/posts.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/posts/media-review-reasoning.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/posts/lorem-ipsum.html</loc>
