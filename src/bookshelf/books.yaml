@@ -1,0 +1,184 @@
+- title: Harry Potter and the Methods of Rationality
+  authors: Eliezer Yudkowsky
+  read_status: In Progress
+- title: Fear and Loathing in Las Vegas
+  authors: Hunter S. Thompson
+  read_status: In Progress
+- title: Harry Potter and the Deathly Hallows
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: Harry Potter and the Sorcerer's Stone
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: Harry Potter and the Half-Blood Prince
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: Harry Potter and the Chamber of Secrets
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: Harry Potter and the Order of the Phoenix
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: Harry Potter and the Prisoner of Azkaban
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: Harry Potter and the Goblet of Fire
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+- title: If Only They Could Talk
+  authors: James Herriot
+  last_date_read: 2023/04/12
+  read_status: Read
+- title: Spurious Correlations
+  authors: Tyler Vigen
+  last_date_read: 2022/12/24
+  read_status: Read
+- title: Of Mice and Men
+  authors: John Steinbeck
+  last_date_read: 2022/12/20
+  read_status: Read
+- title: The Restaurant At the End of the Universe
+  authors: Douglas Adams
+  last_date_read: 2022/06/05
+  read_status: Read
+  star_rating: "4.5"
+- title: Varg in Love
+  authors: Alexander McCall Smith
+  last_date_read: 2022/06/05
+  read_status: Read
+  star_rating: "3.0"
+- title: The Hitchhiker's Guide to the Galaxy
+  authors: Douglas Adams
+  last_date_read: 2022/05/17
+  read_status: Read
+  star_rating: "4.5"
+- title: A Clockwork Orange
+  authors: Anthony Burgess
+  last_date_read: 2022/04/21
+  read_status: Read
+  star_rating: "5.0"
+- title: Lost Perth
+  authors: Warren Duffy
+  last_date_read: 2022/04/13
+  read_status: Read
+  star_rating: "3.5"
+- title: "Kitchen Confidential"
+  authors: Anthony Bourdain
+  last_date_read: 2022/03/31
+  read_status: Read
+  star_rating: "4.0"
+- title: Animal Farm
+  authors: George Orwell
+  last_date_read: 2022/03/16
+  read_status: Read
+  star_rating: "4.5"
+- title: Harry Potter and the Cursed Child
+  authors: Jack Thorne
+  last_date_read: 2022/03/12
+  read_status: Read
+  star_rating: "3.0"
+- title: The Ballad of Songbirds and Snakes
+  authors: Suzanne Collins
+  last_date_read: 2022/03/10
+  read_status: Read
+  star_rating: "4.0"
+- title: Mockingjay
+  authors: Suzanne Collins
+  last_date_read: 2022/03/03
+  read_status: Read
+  star_rating: "4.0"
+- title: Catching Fire
+  authors: Suzanne Collins
+  last_date_read: 2022/02/28
+  read_status: Read
+  star_rating: "4.5"
+- title: The Hunger Games
+  authors: Suzanne Collins
+  last_date_read: 2022/02/25
+  read_status: Read
+  star_rating: "4.5"
+- title: Chitty Chitty Bang Bang
+  authors: Ian Fleming
+  last_date_read: 2022/02/21
+  read_status: Read
+  star_rating: "3.5"
+- title: Wonder
+  authors: RJ Palacio
+  last_date_read: 2022/02/16
+  read_status: Read
+  star_rating: "3.5"
+- title: More Rules for Life
+  authors: Kitty Flanagan
+  last_date_read: 2022/01/22
+  read_status: Read
+  star_rating: "4.0"
+- title: 488 Rules for Life
+  authors: Kitty Flanagan
+  last_date_read: 2022/01/21
+  read_status: Read
+  star_rating: "4.0"
+- title: The Meaning of Liff
+  authors: Douglas Adams, John Lloyd
+  last_date_read: 2022/01/10
+  read_status: Read
+  star_rating: "4.5"
+- title: Flowers for Algernon
+  authors: Daniel Keyes
+  last_date_read: 2022/01/03
+  read_status: Read
+  star_rating: "5.0"
+- title: Johnny Got His Gun
+  authors: Dalton Trumbo
+  read_status: Did Not Finish
+- title: "Hogwarts: An Incomplete and Unreliable Guide"
+  authors: JK Rowling
+  read_status: Read
+- title: Harry Potter and the Deathly Hallows
+  authors: JK Rowling
+  last_date_read: "2022"
+  read_status: Read
+- title: The Great Gatsby
+  authors: F Scott Fitzgerald
+  read_status: Did Not Finish
+- title: The Tales of Beedle the Bard
+  authors: JK Rowling
+  read_status: Read
+- title: Quidditch Through the Ages
+  authors: JK Rowling
+  read_status: Read
+- title: Atomic Habits
+  authors: James Clear
+  read_status: Did Not Finish
+- title: The Thief
+  authors: Fuminori Nakamura
+  read_status: Did Not Finish
+- title: The Gospel of the Flying Spaghetti Monster
+  authors: Bobby Henderson
+  read_status: Read 
+- title: Fantastic Beasts & Where to Find Them
+  authors: JK Rowling
+  read_status: Read
+- title: Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies
+  authors: JK Rowling
+  read_status: Read
+- title: How to Talk to Girls At Parties
+  authors: Neil Gaiman
+  last_date_read: "2022"
+  read_status: Read
+- title: Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists
+  authors: JK Rowling
+  read_status: Read

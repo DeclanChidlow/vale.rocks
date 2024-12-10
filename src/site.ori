@@ -9,6 +9,8 @@
 	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
 	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
 
+	bookshelf.html = bookshelf/bookshelf.ori(bookshelf/books.yaml)
+
 	posts.html = post_list.ori(post_data.ori)
 	posts = {
 		...map(post_data.ori, post_template.ori)

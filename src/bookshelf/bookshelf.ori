@@ -1,0 +1,29 @@
+(books) => main_template.ori({
+	title: "Bookshelf"
+	description: "An index of many of the books I have read and those which I have given up on. Also links to the locations of my reviews across the web."
+	og_description: "An index of many of the books I have read and those which I have given up on. Also links to the locations of my reviews across the web."
+
+	@text: indent`
+	<link rel="stylesheet" href="/assets/styles/pages/bookshelf.css">
+
+	<h1 id="section">Bookshelf</h1>
+
+	<div>
+		<section>
+			<h2>Books</h2>
+			<ol id="books">
+				${ books 
+					→ =sort(_, (book) => new:Date(books/last_date_read))
+					→ =map(_, (book) => `
+						<li class="book">
+						  <h2>${ book/title }</h2>
+						  <p>${ book/authors }</p>
+						  <p>${ book/read_status }</p>
+						  <p class="star-rating" title="Rated ${ book/star_rating } out of 5">${ functions/num-to-stars.js(book/star_rating) }</p>
+					  </li>
+				`) }
+			</ol>
+		</section>
+	</div>
+	`
+})
