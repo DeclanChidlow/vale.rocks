@@ -7,9 +7,8 @@
 	services.html = main_template.ori(functions/parse-markdown.js(pages/services.md))
 	uses.html = main_template.ori(functions/parse-markdown.js(pages/uses.md))
 	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
+	bookshelf.html = pages/bookshelf/bookshelf.ori(pages/bookshelf/books.yaml)
 	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
-
-	bookshelf.html = bookshelf/bookshelf.ori(bookshelf/books.yaml)
 
 	posts.html = post_list.ori(post_data.ori)
 	posts = {

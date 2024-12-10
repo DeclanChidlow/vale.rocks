@@ -1,5 +1,7 @@
 posts
 → =sort(_, (post) => new:Date(post/pub_time))
-→ =map(_, (post) => functions/parse-markdown.js(post))
-→ =map(_, { extension: ".md->.html" })
+→ =map(_, {
+  extension: ".md->.html"
+  value: (post) => functions/parse-markdown.js(post)
+})
 → reverse
