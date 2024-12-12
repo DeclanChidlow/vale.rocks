@@ -5,6 +5,52 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <title>The Implementation of This Site</title>
+      <link>https://vale.rocks/posts/the-implementation-of-this-site.html</link>
+      <guid>https://vale.rocks/posts/the-implementation-of-this-site.html</guid>
+      <description>A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it&apos;s built now, and its associated infrastructure.</description>
+      <content:encoded><![CDATA[<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p>I very much recommend you read my post <a href="/posts/the-design-of-this-site">&#8220;The Design of This Site&#8221;</a> prior to this one.</p>
+</div>
+<h2 id="previous-iterations">Previous Iterations</h2>
+<p>This site has been around for a fair few years, and as someone who enjoys burning their time tinkering and refining, I&#8217;m powerless to avoid rebuilding it at least a few times in the quest for whatever it is I&#8217;m trying to achieve by rebuilding it.</p>
+<p>The very earliest versions of this site were built with completely hand-coded standard HTML/CSS. No build step or automation. Slightly later it incorporated JavaScript and iframes so that content would be shared across pages rather than hard-coded &#8211; still devoid of any automation. As you&#8217;d imagine, it didn&#8217;t take long to reach the limits of what is possible with this approach.</p>
+<p>The limit wasn&#8217;t entirely a tech one. After all, the underlying tech was just web standards, and that allows for all you can think of. The limits I hit were my willingness to manually implement and hard code every single thing without any real ability to automate.</p>
+<p>Thus, I moved on to using a static site generator. Given that I was already a GitHub user and had opted to deploy my site with GitHub Pages, I opted to use <a href="https://jekyllrb.com">Jekyll</a>. Jekyll is nice, and its support for Shopify&#8217;s <a href="https://shopify.github.io/liquid">Liquid templating language</a> made it wonderfully flexible &#8211; but it wasn&#8217;t necessarily exactly conducive to my preferred workflow, and dealing with Ruby proved a pain.</p>
+<p>From that, came my own static site generator, <a href="https://adduce.vale.rocks">Adduce</a>. Adduce is wonderful, and I love the flexibility allotted by being able to use it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I&#8217;m ill-equipped to address with my current Rust capabilities.</p>
+<p>With Adduce, I had the issue that lacking functions meant many parts of the site had to be hand-coded and modified, which was time-consuming, and I <a href="https://www.lesswrong.com/posts/Nq2BtFidsnhfLuNAx/?commentId=Xby4NTqhC3DzWKt9P">came to realise</a> that <em>something</em> needed to change. Thanks to my commitment to building things on web foundations such as HTML, CSS, and JS and not abstracting them, it was pretty easy to migrate as needed.</p>
+<h2 id="current-version">Current Version</h2>
+<p>When I saw <a href="https://fosstodon.org/@JanMiksovsky/113516427582479669">a post from Jan Miksovsky</a> looking &#8220;for people to playtest a programming language for making websites&#8221; I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.</p>
+<p>The language, <a href="https://weborigami.org">Origami</a>, didn&#8217;t take long to win me over. It&#8217;s a full programming language with all the bells and whistles you&#8217;d expect that makes it easy to do everything you&#8217;d need from a static site generator and allows you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.</p>
+<p>In the hours following the playtest, I worked on porting my site over, and by the end of the day, I already had the broad strokes down. Now, my site is fully functioning on Origami with many additive bells and whistles that weren&#8217;t previously possible with Adduce. The language is still maturing, but I&#8217;m loving it!</p>
+<h2 id="development--deployment">Development & Deployment</h2>
+<p>My development workflow for this site is pretty trivial. I run a local Origami dev server via <a href="https://bun.sh">Bun</a> on my laptop and make my edits via Neovim. It&#8217;s more or less the standard development flow you&#8217;d expect of any web-based project. All writing on the site is done with the exact same flow.</p>
+<p>For more info about the software of my development environment, my <a href="/uses">uses page</a> is worth a read.</p>
+<p>I very much treat this site as a testing ground for my learning and therefore generally start using new features as soon as they are newly available in <a href="https://web.dev/baseline">Baseline</a>. My readership is generally technical, so they <em>should</em> know how to update their browsers, and I love being on the bleeding edge, so the minor inconvenience of things perhaps not looking quite right to some people is a trade-off I&#8217;m willing to make.</p>
+<p>I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available <a href="https://github.com/DeclanChidlow/vale.rocks">in its entirety</a> if you&#8217;d like to have a look.</p>
+<p>As everything is hosted on GitHub, I make use of <a href="https://pages.github.com">GitHub Pages</a>, which has a generous free plan. I have an <a href="https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-site.yml">automated workflow configured using GitHub Actions</a> that builds and deploys the site when I push to the main branch of my repository.</p>
+<p>Cloudflare sits in front of the hosting to permit some more dynamic configuration, including caching, redirection, and some protection against unwanted scraping/bot activity as needed.</p>
+<h2 id="analytics">Analytics</h2>
+<p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I <em>love</em> being able to see what country people are showing up from, what devices they&#8217;re using <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> and their browsers. Being able to see view counts tick up also does wonders for my motivation.</p>
+<p>I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I&#8217;ll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It&#8217;s lovely being able to go down little rabbit holes inspecting such cases.</p>
+<p>As for <em>how</em> analytics are collected, it&#8217;s done two ways. Cloudflare provides some <em>very</em> generalised information on their dashboard, which gives me a loose idea of some things, such as what countries visitors are from, if they use IPv4 or IPv6, <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> and some assorted other things. It&#8217;s very general and more tailored to telling me if everything is on fire than investigating user activity.</p>
+<p>The other way is via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or mobile users who might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
+<section class="footnotes" data-footnotes>
+<h2 id="footnote-label" class="sr-only">Footnotes</h2>
+<ol>
+<li id="footnote-1">
+<p>Being able to see people showing up on obscure devices like <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">Windows Phones</a> always prompts a chuckle. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p>I wonder when we’ll phase out IPv4 in favour of v6. I suppose we’ll do it later. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
       <title>Media Review Reasoning</title>
       <link>https://vale.rocks/posts/media-review-reasoning.html</link>
@@ -48,7 +94,7 @@
       <link>https://vale.rocks/posts/lorem-ipsum.html</link>
       <guid>https://vale.rocks/posts/lorem-ipsum.html</guid>
       <description>A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale.</description>
-      <content:encoded><![CDATA[<p>This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you&#8217;d like to read the logic behind all of this, check out <a href="/posts/the-design-of-this-site">The Design of This Site</a>.</p>
+      <content:encoded><![CDATA[<p>This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you&#8217;d like to read the logic behind all of this, check out my posts on both <a href="/posts/the-design-of-this-site">The Design of This Site</a> and <a href="/posts/the-implementation-of-this-site">The Implementation of This Site</a>.</p>
 <h2 id="text-formatting">Text Formatting</h2>
 <p>Escaping markdown can be done with *some slashes* (like so <code>\*some slashes\*</code>).</p>
 <p>Normal text. <em>Italic text.</em> <strong>Bold text.</strong> <strong><em>Bold italic text.</em></strong> <del>Strikethrough text.</del> <del><em>Italic strikethrough text.</em></del> <del><strong>Bold strikethrough text.</strong></del> <del><strong><em>Bold italic strikethrough text.</em></strong></del> <code>Code text.</code> <em><code>Code italic text.</code></em> <strong><code>Code bold text.</code></strong> <strong><em><code>Code bold italic text.</code></em></strong> <del><code>Code strikethrough text.</code></del> <del><strong><em><code>Code bold italic strikethrough text.</code></em></strong></del></p>
@@ -1362,11 +1408,11 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
       <title>The Design of This Site</title>
       <link>https://vale.rocks/posts/the-design-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-design-of-this-site.html</guid>
-      <description>A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site&apos;s philosophy.</description>
+      <description>A breakdown and overview of the design choices of Vale.Rocks, as well as its influences and brief touchings on the site&apos;s philosophy.</description>
       <content:encoded><![CDATA[<p>The web used to embody its name—a spider&#8217;s web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.</p>
 <p>Though a minority may still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.</p>
 <p>Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page <a href="https://www.wendycarlos.com/live.html">describing how her website &#8216;lives&#8217;</a>:</p>
@@ -1417,10 +1463,7 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 </li>
 </ul>
 <p>If you&#8217;d like to see all of the site&#8217;s numerous features and stylings, you can do so on my <a href="/posts/lorem-ipsum">Lorem Ipsum page</a>. It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.</p>
-<h2 id="tooling">Tooling</h2>
-<p>This site is built with my static site generator, <a href="https://adduce.vale.rocks">Adduce</a>, and custom-written HTML, CSS, and JS. The source code is available in its entirety on <a href="https://github.com/DeclanChidlow/vale.rocks">GitHub</a>. Previously, this site was built without the help of any generator, and later with <a href="https://jekyllrb.com">Jeckyll</a>.</p>
-<p>The site itself uses very little in the way of external resources, with the exception of <a href="https://www.goatcounter.com">GoatCounter</a> for simple, lightweight, and open source analytics.</p>
-<p>Everything is hosted on <a href="https://pages.github.com">GitHub Pages</a>, thanks to their generous free plan, and Cloudflare runs in front of the hosting to permit caching and some more dynamic handling of requests.</p>
+<p>If you&#8217;d like information about the implementation of features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">&#8220;The Implementation of This Site&#8221;</a>.</p>
 <h2 id="inspirations">Inspirations</h2>
 <p>Like all endeavours, and especially creative ones (which I would argue this site is), I&#8217;ve <em>borrowed</em> many ideas from external sources.</p>
 <p>Perhaps most notable is <a href="https://gwern.net">the site of Gwern Branwen</a>, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern&#8217;s site long after starting the development of this one, many of its eccentricities have made their way over, as you&#8217;ve no doubt noticed if you&#8217;ve ever paid Gwern&#8217;s site a visit.</p>
