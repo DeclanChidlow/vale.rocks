@@ -1,11 +1,11 @@
 ---
 title: The Design of This Site
-description: A breakdown and overview of the implementations and styling of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy.
+description: A breakdown and overview of the design choices of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy.
 og_description: The thought behind the experience.
 pub_time: 2022-09-12
-mod_time: 2024-11-27
+mod_time: 2024-12-12
 section: Meta
-word_count: 1424
+word_count: 1355
 ---
 
 The web used to embody its name—a spider's web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.
@@ -72,13 +72,7 @@ Vale.Rocks is home to many non-standard features and some notable implementation
 
 If you'd like to see all of the site's numerous features and stylings, you can do so on my [Lorem Ipsum page](/posts/lorem-ipsum). It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.
 
-## Tooling
-
-This site is built with my static site generator, [Adduce](https://adduce.vale.rocks), and custom-written HTML, CSS, and JS. The source code is available in its entirety on [GitHub](https://github.com/DeclanChidlow/vale.rocks). Previously, this site was built without the help of any generator, and later with [Jeckyll](https://jekyllrb.com).
-
-The site itself uses very little in the way of external resources, with the exception of [GoatCounter](https://www.goatcounter.com) for simple, lightweight, and open source analytics.
-
-Everything is hosted on [GitHub Pages](https://pages.github.com), thanks to their generous free plan, and Cloudflare runs in front of the hosting to permit caching and some more dynamic handling of requests.
+If you'd like information about the implementation of features on this site (and this site itself), then you should consult my post ["The Implementation of This Site"](/posts/the-implementation-of-this-site).
 
 ## Inspirations
 
