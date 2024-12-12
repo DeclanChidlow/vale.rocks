@@ -45,6 +45,8 @@
 
 		<link rel="alternate" type="application/rss+xml" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.xml">
 		<link rel="alternate" type="application/json" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.json">
+
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 	</head>
 
 	<body ${ page/area ? `class="${ page/area }"` : "" }>
