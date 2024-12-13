@@ -83,19 +83,18 @@
 	
 		<span id="section">Posts</span>	
 	
-		<article>
+		<article class="h-entry">
 			<header>
 				Tutorial
-				<h1>Building Sites With iFrames</h1>
+				<h1 class="p-name">Building Sites With iFrames</h1>
 				<ul>
 					<li>1145 words</li>
-					<li><time datetime="2024-10-08" title="Date of first publication.">08 Oct 2024</time></li>
-					<li><time datetime="2024-10-08" title="Date of last notable modification.">08 Oct 2024</time></li>
-	
+					<li><time class="dt-published" datetime="2024-10-08" title="Date of first publication.">08 Oct 2024</time></li>
+					<li><time class="dt-updated" datetime="2024-10-08" title="Date of last notable modification.">08 Oct 2024</time></li>
 				</ul>
 			</header>
 	
-			<div class="readable-width">
+			<div class="readable-width e-content">
 				<p>When I first entered the bloody fray that is the web development sphere, I did plenty of very dumb stuff thanks to not knowing any better. Before I figured out what a static site generator was or the concept of PHP&#8217;s <code>include</code>, I copied a lot of code between sites. Namely, navs and footers.</p>
 				<p>Each and every page of my site would have a duplicate copy of my navbar and footer copied into it, meaning that whenever I wanted to do something like add a new item, I had to jump across pages and update each instance individually.</p>
 				<p>In my endless genius, I decided the solution to my woes was to use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframes</a>. My initial implementations circa 2018 were rather poor, as you might imagine from an inexperienced, 12 year old, me.</p>
