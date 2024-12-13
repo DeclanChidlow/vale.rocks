@@ -101,7 +101,7 @@
 	</div>
 
 	<div class="footer-bottom">
-		<p>© Declan Chidlow. All rights reserved.</p>
+		<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 
 		<ul>
 			<li>
