@@ -9,36 +9,61 @@
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
-- title: Harry Potter and the Sorcerer's Stone
+  review: https://app.thestorygraph.com/reviews/56c7f08a-4f53-43c3-97c2-962a3fa7cdca
+- title: Harry Potter and the Philosopher's Stone
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/7ca2f7f7-a43b-431a-8f75-8b5c33e75932
 - title: Harry Potter and the Half-Blood Prince
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/27584249-b1fa-42f5-bdc4-26da3c087257
 - title: Harry Potter and the Chamber of Secrets
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/7d0c6029-c6d5-4046-8d72-92e6afcd1164
 - title: Harry Potter and the Order of the Phoenix
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/fbcff62a-84eb-465a-9be2-d5356f954112
 - title: Harry Potter and the Prisoner of Azkaban
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/de768ac2-b38a-4b4a-9131-8e8244f2edc3
 - title: Harry Potter and the Goblet of Fire
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/0326dec8-ba83-457a-aefa-ebf2c3cd4b3e
+- title: The Desolations of Devil's Acre
+  authors: Ransom Riggs
+  read_status: Read
+- title: The Conference of the Birds
+  authors: Ransom Riggs
+  read_status: Read
+- title: A Map of Days
+  authors: Ransom Riggs
+  read_status: Read
+- title: Library of Souls
+  authors: Ransom Riggs
+  read_status: Read
+- title: Hollow City
+  authors: Ransom Riggs
+  read_status: Read
+- title: Miss Peregrine's Home for Peculiar Children
+  authors: Ransom Riggs
+  read_status: Read
 - title: If Only They Could Talk
   authors: James Herriot
   last_date_read: 2023/04/12
@@ -51,99 +76,133 @@
   authors: John Steinbeck
   last_date_read: 2022/12/20
   read_status: Read
+- title: Mostly Harmless
+  authors: Douglas Adams
+  read_status: Read
+  star_rating: "4"
+- title: So Long, and Thanks for All the Fish
+  authors: Douglas Adams
+  read_status: Read
+  star_rating: "4"
+- title: Life, The Universe, and Everything
+  authors: Douglas Adams
+  read_status: Read
+  star_rating: "4"
 - title: The Restaurant At the End of the Universe
   authors: Douglas Adams
   last_date_read: 2022/06/05
   read_status: Read
   star_rating: "4.5"
+  review: https://app.thestorygraph.com/reviews/b2a82e3a-20bc-487b-82a1-15686fb206ec
 - title: Varg in Love
   authors: Alexander McCall Smith
   last_date_read: 2022/06/05
   read_status: Read
   star_rating: "3.0"
+  review: https://app.thestorygraph.com/reviews/86bf9ea5-4932-4206-9f80-69ce209833a6
 - title: The Hitchhiker's Guide to the Galaxy
   authors: Douglas Adams
   last_date_read: 2022/05/17
   read_status: Read
   star_rating: "4.5"
+  review: https://app.thestorygraph.com/reviews/00e5a1e5-1129-4d6d-a8bc-6eab8293b2c6
 - title: A Clockwork Orange
   authors: Anthony Burgess
   last_date_read: 2022/04/21
   read_status: Read
   star_rating: "5.0"
+  review: https://app.thestorygraph.com/reviews/76c32235-c6b5-4ace-b5c8-3e9925f0815f
 - title: Lost Perth
   authors: Warren Duffy
   last_date_read: 2022/04/13
   read_status: Read
   star_rating: "3.5"
+  review: https://app.thestorygraph.com/reviews/308285c1-bc76-4064-bfc3-e011f9666ea6
 - title: "Kitchen Confidential"
   authors: Anthony Bourdain
   last_date_read: 2022/03/31
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/13e54789-db67-4648-a388-c7648ea3e271
 - title: Animal Farm
   authors: George Orwell
   last_date_read: 2022/03/16
   read_status: Read
   star_rating: "4.5"
+  review: https://app.thestorygraph.com/reviews/9cf12340-8652-47f4-9ed8-7139dfcd694a
 - title: Harry Potter and the Cursed Child
   authors: Jack Thorne
   last_date_read: 2022/03/12
   read_status: Read
   star_rating: "3.0"
+  review: https://app.thestorygraph.com/reviews/d12d9b0a-baba-4557-b86c-921a4be3ba3b
 - title: The Ballad of Songbirds and Snakes
   authors: Suzanne Collins
   last_date_read: 2022/03/10
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/45477776-8276-4f72-b745-6d0750bd32e4
 - title: Mockingjay
   authors: Suzanne Collins
   last_date_read: 2022/03/03
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/489ad100-ae39-493d-8630-47bdaf03e0b0
 - title: Catching Fire
   authors: Suzanne Collins
   last_date_read: 2022/02/28
   read_status: Read
   star_rating: "4.5"
+  review: https://app.thestorygraph.com/reviews/f2c21d11-bf07-4398-b684-2ce37f10fd69
 - title: The Hunger Games
   authors: Suzanne Collins
   last_date_read: 2022/02/25
   read_status: Read
   star_rating: "4.5"
+  review: https://app.thestorygraph.com/reviews/176aff95-0125-477c-857d-d6fc4ce9665e
 - title: Chitty Chitty Bang Bang
   authors: Ian Fleming
   last_date_read: 2022/02/21
   read_status: Read
   star_rating: "3.5"
+  review: https://app.thestorygraph.com/reviews/02f658b4-4dd7-43da-80b3-0ba91b2693f4
 - title: Wonder
   authors: RJ Palacio
   last_date_read: 2022/02/16
   read_status: Read
   star_rating: "3.5"
+  review: https://app.thestorygraph.com/reviews/246dd8b3-bf76-4abc-b531-f48dc5551fe5
 - title: More Rules for Life
   authors: Kitty Flanagan
   last_date_read: 2022/01/22
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/277d4655-6cf5-4509-b3dd-019d45fac144
 - title: 488 Rules for Life
   authors: Kitty Flanagan
   last_date_read: 2022/01/21
   read_status: Read
   star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/28870bdc-3a75-4914-a59e-879ec52ad99a
+- title: The Deeper Meaning of Liff
+  authors: Douglas Adams, John Lloyd
+  read_status: Read
 - title: The Meaning of Liff
   authors: Douglas Adams, John Lloyd
   last_date_read: 2022/01/10
   read_status: Read
   star_rating: "4.5"
+  review: https://app.thestorygraph.com/reviews/2ccc5a9d-ea76-4686-97b7-751f68cb8a92
 - title: Flowers for Algernon
   authors: Daniel Keyes
   last_date_read: 2022/01/03
   read_status: Read
   star_rating: "5.0"
+  review: https://app.thestorygraph.com/reviews/5191101f-96a7-4770-a04a-2d98e1b2017f
 - title: Johnny Got His Gun
   authors: Dalton Trumbo
   read_status: Did Not Finish
+  review: https://app.thestorygraph.com/reviews/7ee17635-5132-4cbd-b04e-5da188f3fcf9
 - title: "Hogwarts: An Incomplete and Unreliable Guide"
   authors: JK Rowling
   read_status: Read
@@ -154,6 +213,7 @@
 - title: The Great Gatsby
   authors: F Scott Fitzgerald
   read_status: Did Not Finish
+  review: https://app.thestorygraph.com/reviews/2704ff18-9d88-4d67-b0ed-e27c1e8d98ad
 - title: The Tales of Beedle the Bard
   authors: JK Rowling
   read_status: Read
@@ -166,9 +226,10 @@
 - title: The Thief
   authors: Fuminori Nakamura
   read_status: Did Not Finish
+  review: https://app.thestorygraph.com/reviews/b159c04a-98b3-449c-a557-d1acdd2ff641
 - title: The Gospel of the Flying Spaghetti Monster
   authors: Bobby Henderson
-  read_status: Read 
+  read_status: Read
 - title: Fantastic Beasts & Where to Find Them
   authors: JK Rowling
   read_status: Read

@@ -13,7 +13,6 @@
 			<h2>Books</h2>
 			<ol id="books">
 				${ books 
-					→ =sort(_, (book) => new:Date(books/last_date_read))
 					→ =map(_, (book) => `
 						<li class="book">
 						  <h2>${ book/title }</h2>
