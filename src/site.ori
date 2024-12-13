@@ -7,16 +7,16 @@
 	services.html = main_template.ori(functions/parse-markdown.js(pages/services.md))
 	uses.html = main_template.ori(functions/parse-markdown.js(pages/uses.md))
 	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
-	bookshelf.html = pages/bookshelf/bookshelf.ori(pages/bookshelf/books.yaml)
+	books.html = pages/books/books.ori(pages/books/books.yaml)
 	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
 
-	posts.html = post_list.ori(post_data.ori)
+	posts.html = pages/post.ori(post_data.ori)
 	posts = {
 		...map(post_data.ori, post_template.ori)
 		feed.json = json(syndication.ori(post_data.ori))
 		feed.xml = rss(syndication.ori(post_data.ori))
 	}
 
-	portfolio.html = portfolio_list.ori(portfolio_data.ori)
+	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
 	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
 }
