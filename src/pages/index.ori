@@ -1,0 +1,74 @@
+(posts_data, portfolio_data) => main_template.ori({
+	title: "Index"
+	description: "The personal website of Declan Chidlow, known mononymously as Vale, containing my thoughts, musings, and otherwise unhinged ramblings."
+	og_description: "The hippest site this side of MySpace."
+
+	@text: indent`
+		<link rel="stylesheet" href="/assets/styles/pages/index.css">
+		<link rel="stylesheet" href="/assets/styles/pages/posts.css">
+
+		<div id="puddle-container"></div>
+
+		<section class="hero">
+			<h1>Vale</h1>
+			<p>Developer</p>
+			<p>Designer</p>
+			<p>Dabbler</p>
+		</section>
+
+		<div class="content">
+			<section class="readable-width">
+				<h2>Ahoy!</h2>
+
+				<p>I'm Declan Chidlow, a passionate front-end developer. I like to believe I've got an eye for aesthetics, and I've most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.</p>
+				<p>When I'm not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.</p>
+				<p>Apart from being a home for my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging.</p>
+			</section>
+
+			<section>
+				<h2>Read My Writings:</h2>
+
+				<div id="post-items">
+					${ map(take(posts_data, 3),
+					(post, key) => indent`
+						<a class="post" href="/posts/${ basename(key) }">
+							<p>${ post/section }</p>
+							<h3>${ post/title }</h3>
+							<div class="info">
+								<p>${ post/word_count } words</p>
+								<p><time datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></p>
+								<p><time datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></p>
+							</div>
+						</a>
+					`)}
+				</div>
+			</section>
+
+			<section>
+				<h2>Peruse My Portfolio:</h2>
+
+				<div class="portfolio-items">
+					${ map(take(portfolio_data, 3),
+					(item, key) => indent`
+						<a class="item" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ item/accent_colour });">
+							<h3>${ item/title }</h3>
+							<p>${ item/tag_line }</p>
+						</a>
+					`)}
+				</div>
+			<section>
+	</div>
+
+		<script>
+			if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+				const script = document.createElement("script");
+				script.src = "/assets/scripts/puddle.js";
+				script.onload = function () {
+					const puddle = new Puddle("#puddle-container");
+					puddle.setNodeStyle("ascii");
+				};
+				document.body.appendChild(script);
+			}
+		</script>
+	`
+})

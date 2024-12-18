@@ -37,29 +37,14 @@ main {
 
 .content {
 	position: relative;
-	margin: auto;
-	max-width: 90ch;
+	display: flex;
+	flex-direction: column;
+	gap: 7rem;
+}
 
-	.about {
-		margin: auto;
-		margin-bottom: 4rem;
-		max-width: 80ch;
-	}
-
-	.cta-link {
-		display: block;
-		border-top: 4px solid var(--grey);
-		border-bottom: 4px solid var(--grey);
-		padding: 1rem;
-		text-decoration: none;
-		text-align: center;
-	}
-
-	p + h2 {
-		margin-top: 2rem;
-	}
-
-	* + * {
-		margin-top: 1rem;
-	}
+.portfolio-items a {
+	display: block;
+	width: 100%;
+	padding: 2rem 1rem;
+	text-decoration: none;
 }
