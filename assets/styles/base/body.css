@@ -45,9 +45,10 @@ body {
 }
 
 main {
-	margin-top: 5rem;
 	display: flex;
 	gap: 3rem;
+	max-width: 100rem;
+	margin: 5rem auto;
 
 	> div {
 		width: 100%;

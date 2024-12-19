@@ -73,37 +73,79 @@
 
 <main id="main">
 	<link rel="stylesheet" href="/assets/styles/pages/index.css">
+	<link rel="stylesheet" href="/assets/styles/pages/posts.css">
+	
 	<div id="puddle-container"></div>
 	
 	<section class="hero">
 		<h1>Vale</h1>
-	    <p>Developer</p>
-	    <p>Designer</p>
-	    <p>Dabbler</p>
+		<p>Developer</p>
+		<p>Designer</p>
+		<p>Dabbler</p>
 	</section>
 	
 	<div class="content">
-	<section class="about">
+		<section class="readable-width">
+			<h2>Ahoy!</h2>
 	
-	<h2 id="ahoy">Ahoy!</h2>
-	<p>I&#8217;m Declan Chidlow, a passionate front-end developer. I like to believe I&#8217;ve got an eye for aesthetics, and I&#8217;ve most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.</p>
-	<p>When I&#8217;m not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.</p>
-	<p>Apart from being a home for my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won&#8217;t even cause internal haemorrhaging.</p>
-	</section>
+			<p>I'm Declan Chidlow, a passionate front-end developer. I like to believe I've got an eye for aesthetics, and I've most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.</p>
+			<p>When I'm not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.</p>
+			<p>Apart from being a home for my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging.</p>
+		</section>
 	
-	<a href="/posts" class="cta-link">
-	    <h2>Read my writings<span aria-hidden="true"> →</span></h2>
-	</a>
+		<section>
+			<h2>Read My Writings:</h2>
 	
-	<a href="/portfolio" class="cta-link">
-	    <h2>Peruse my portfolio<span aria-hidden="true"> →</span></h2>
-	</a>
+			<div id="post-items">
+				<a class="post" href="/posts/the-implementation-of-this-site">
+					<p>Meta</p>
+					<h3>The Implementation of This Site</h3>
+					<div class="info">
+						<p>1069 words</p>
+						<p><time datetime="2024-12-12" title="Date of first publication.">12 Dec 2024</time></p>
+						<p><time datetime="2024-12-12" title="Date of last notable modification.">12 Dec 2024</time></p>
+					</div>
+				</a>
+				<a class="post" href="/posts/media-review-reasoning">
+					<p>Essay</p>
+					<h3>Media Review Reasoning</h3>
+					<div class="info">
+						<p>809 words</p>
+						<p><time datetime="2024-12-10" title="Date of first publication.">10 Dec 2024</time></p>
+						<p><time datetime="2024-12-10" title="Date of last notable modification.">10 Dec 2024</time></p>
+					</div>
+				</a>
+				<a class="post" href="/posts/lorem-ipsum">
+					<p>Meta</p>
+					<h3>Lorem Ipsum</h3>
+					<div class="info">
+						<p>1434 words</p>
+						<p><time datetime="2024-11-25" title="Date of first publication.">25 Nov 2024</time></p>
+						<p><time datetime="2024-11-26" title="Date of last notable modification.">26 Nov 2024</time></p>
+					</div>
+				</a>
+			</div>
+		</section>
 	
-	<a href="/contact" class="cta-link">
-	    <h2>Get in contact<span aria-hidden="true"> →</span></h2>
-	</a>
+		<section>
+			<h2>Peruse My Portfolio:</h2>
 	
-	</div>
+			<div class="portfolio-items">
+				<a class="item" href="/portfolio/adduce" style="background: linear-gradient(transparent, var(--blue));">
+					<h3>Adduce</h3>
+					<p>A static site generator with the flexibility to bring web projects to life.</p>
+				</a>
+				<a class="item" href="/portfolio/capchord" style="background: linear-gradient(transparent, var(--grey));">
+					<h3>CapChord</h3>
+					<p>Self-founded tech support business.</p>
+				</a>
+				<a class="item" href="/portfolio/meat-typeface" style="background: linear-gradient(transparent, var(--grey));">
+					<h3>Meat Typeface</h3>
+					<p>An experiment in fleshy, 3D type design.</p>
+				</a>
+			</div>
+		<section>
+		</div>
 	
 	<script>
 		if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
