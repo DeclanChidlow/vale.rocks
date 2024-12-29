@@ -1,7 +1,7 @@
 (micro) => main_template.ori({
-	title: micro/title
+	title: `Micro - ${ functions/pretty-date.js(micro/pub_date) } ${ functions/pretty-time.js(micro/pub_date) }`
 	// description: micro/@text
-	pub_time: micro/pub_time
+	pub_time: micro/pub_date
 
 	@text: indent`
 <style>
