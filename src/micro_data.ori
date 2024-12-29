@@ -1,0 +1,7 @@
+micros
+→ =map(_, {
+	extension: ".md->.html"
+	value: (micro) => functions/parse-markdown.js(micro)
+})
+→ =map(_, (micro, fileName) => { …micro, pub_date: functions/micro-date.js(basename(fileName)) })
+→ reverse

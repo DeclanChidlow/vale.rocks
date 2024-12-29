@@ -1,0 +1,24 @@
+(paginated_firehose_data) => main_template.ori({
+	title: "Firehose"
+	description: "Browse my essays, tutorials, and reviews and more on topics including development, design, and digital culture."
+	og_description: "Browse my essays, tutorials, and reviews and more on topics including development, design, and digital culture."
+
+	@text: indent`
+	<link rel="stylesheet" href="/assets/styles/pages/firehose.css">
+
+	<h1 id="section">Firehose</h1>
+
+	<div>
+	    ${ map(paginated_firehose_data/items,
+	    (item, key) => indent`
+		  <article>
+			<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_date }" title="Date of first publication.">${ functions/pretty-date.js(new:Date(item/pub_time ?? item/pub_date))}</time></a>
+
+			<div class="readable-width">
+				${ item/@text }
+			</div>
+		  </article>
+	    `)}
+	</div>
+	`
+})
