@@ -1,0 +1,32 @@
+article {
+	max-width: 65ch;
+	padding: 2rem 1rem;
+	border-bottom: 2px solid var(--bright_grey);
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
+		margin-bottom: 1rem;
+	}
+}
+
+.socials {
+	display: flex;
+	gap: 1rem;
+
+	a svg {
+		height: 1.25rem;
+		width: 1.25rem;
+	}
+}
+
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	max-width: 65ch;
+
+	a {
+		padding: 2rem;
+	}
+}
