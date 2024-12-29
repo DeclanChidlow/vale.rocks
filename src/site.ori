@@ -17,6 +17,18 @@
 		feed.xml = rss(syndication.ori(post_data.ori))
 	}
 
+	micros = {
+		...map(micro_data.ori, micro_template.ori)
+		feed.json = json(syndication.ori(micro_data.ori))
+		feed.xml = rss(syndication.ori(micro_data.ori))
+	}
+
+	(paginated) = paginate(firehose_data.ori, 15)
+	firehose/ = map(paginated, {
+		extension: "→.html"
+		value: pages/firehose.ori
+	})
+
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
 	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
 }

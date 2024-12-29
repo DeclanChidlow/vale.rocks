@@ -1,4 +1,8 @@
 posts
+→ =map(_, (post) => {
+  ...post
+  type: "post"
+})
 → =sort(_, (post) => new:Date(post/pub_time))
 → =map(_, {
   extension: ".md->.html"
