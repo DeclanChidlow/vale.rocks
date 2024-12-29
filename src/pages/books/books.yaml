@@ -1,51 +1,54 @@
-- title: Harry Potter and the Methods of Rationality
-  authors: Eliezer Yudkowsky
-  read_status: In Progress
 - title: Fear and Loathing in Las Vegas
   authors: Hunter S. Thompson
   read_status: In Progress
+- title: Harry Potter and the Methods of Rationality
+  authors: Eliezer Yudkowsky
+  last_date_read: 2024/12/29
+  read_status: Read
+  star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/daf55964-2c52-41ef-b334-3fb14423e5c8
 - title: Harry Potter and the Deathly Hallows
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
   review: https://app.thestorygraph.com/reviews/56c7f08a-4f53-43c3-97c2-962a3fa7cdca
-- title: Harry Potter and the Philosopher's Stone
-  authors: JK Rowling
-  last_date_read: 2023/12/26
-  read_status: Read
-  star_rating: "4.0"
-  review: https://app.thestorygraph.com/reviews/7ca2f7f7-a43b-431a-8f75-8b5c33e75932
 - title: Harry Potter and the Half-Blood Prince
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
   review: https://app.thestorygraph.com/reviews/27584249-b1fa-42f5-bdc4-26da3c087257
-- title: Harry Potter and the Chamber of Secrets
-  authors: JK Rowling
-  last_date_read: 2023/12/26
-  read_status: Read
-  star_rating: "4.0"
-  review: https://app.thestorygraph.com/reviews/7d0c6029-c6d5-4046-8d72-92e6afcd1164
 - title: Harry Potter and the Order of the Phoenix
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
   review: https://app.thestorygraph.com/reviews/fbcff62a-84eb-465a-9be2-d5356f954112
-- title: Harry Potter and the Prisoner of Azkaban
-  authors: JK Rowling
-  last_date_read: 2023/12/26
-  read_status: Read
-  star_rating: "4.0"
-  review: https://app.thestorygraph.com/reviews/de768ac2-b38a-4b4a-9131-8e8244f2edc3
 - title: Harry Potter and the Goblet of Fire
   authors: JK Rowling
   last_date_read: 2023/12/26
   read_status: Read
   star_rating: "4.0"
   review: https://app.thestorygraph.com/reviews/0326dec8-ba83-457a-aefa-ebf2c3cd4b3e
+- title: Harry Potter and the Prisoner of Azkaban
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/de768ac2-b38a-4b4a-9131-8e8244f2edc3
+- title: Harry Potter and the Chamber of Secrets
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/7d0c6029-c6d5-4046-8d72-92e6afcd1164
+- title: Harry Potter and the Philosopher's Stone
+  authors: JK Rowling
+  last_date_read: 2023/12/26
+  read_status: Read
+  star_rating: "4.0"
+  review: https://app.thestorygraph.com/reviews/7ca2f7f7-a43b-431a-8f75-8b5c33e75932
 - title: The Desolations of Devil's Acre
   authors: Ransom Riggs
   read_status: Read
