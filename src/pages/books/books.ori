@@ -1,7 +1,6 @@
 (books) => main_template.ori({
 	title: "Bookshelf"
 	description: "An index of many of the books I have read and those which I have given up on. Also links to the locations of my reviews across the web."
-	og_description: "An index of many of the books I have read and those which I have given up on. Also links to the locations of my reviews across the web."
 
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/bookshelf.css">

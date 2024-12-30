@@ -1,7 +1,6 @@
 (portfolio_data) => main_template.ori({
 	title: "Portfolio"
 	description: "My portfolio of works, including design and development endeavours, presented for your perusal."
-	og_description: "My portfolio of works, including design and development endeavours, presented for your perusal."
 
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/portfolio.css">

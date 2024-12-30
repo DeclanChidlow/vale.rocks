@@ -1,7 +1,6 @@
 ---
 title: Contact
 description: Find the best ways to contact me and some information about where you can find me.
-og_description: Find the best ways to contact me and some information about where you can find me.
 ---
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Contact</h1>

@@ -5,15 +5,17 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>${ page/title } | ${ siteInfo.yaml/title }</title>
+		<title>${ page/title } | Vale.Rocks</title>
 		<meta property="og:title" content="${ page/title }">
+		${ page/description ? `
 		<meta name="description" content="${ page/description}">
-		<meta property="og:description" content="${ page/og_description }">
-		<meta property="article:published_time" content="${ page/pub_time }">
-		<meta property="article:modified_time" content="${ page/mod_time }">
-		<meta property="article:section" content="${ page/section }">
+		<meta property="og:description" content="${ page/og_description || page/description }">
+		` : '' }
+		${ page/pub_time ? `<meta property="article:published_time" content="${ page/pub_time }">` : '' }
+		${ page/mod_time ? `<meta property="article:modified_time" content="${ page/mod_time }">` : '' }
+		${ page/section ? `<meta property="article:section" content="${ page/section }">` : '' }
 
-		<meta property="og:site_name" content="Vale Rocks">
+		<meta property="og:site_name" content="Vale.Rocks">
 		<meta property="og:locale" content="en_AU">
 		<meta property="og:site" content="vale.rocks">
 		<meta property="og:type" content="website">
