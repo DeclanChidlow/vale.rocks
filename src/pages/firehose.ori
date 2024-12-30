@@ -74,7 +74,7 @@
 		  ${
 			paginated_firehose_data/previousPage
 			  ? indent`
-				<a class="next" href="/firehose/${ paginated_firehose_data/previousPage }.html">< Newer</a>
+				<a class="next" href="/firehose/${ paginated_firehose_data/previousPage }">< Newer</a>
 			  `
 			  : "<span></span>"
 		  }
@@ -82,7 +82,7 @@
 		  ${
 			paginated_firehose_data/nextPage
 			  ? indent`
-				<a class="next" href="/firehose/${ paginated_firehose_data/nextPage }.html">Older ></a>
+				<a class="next" href="/firehose/${ paginated_firehose_data/nextPage }">Older ></a>
 			  `
 			  : "<span></span>"
 		  }
