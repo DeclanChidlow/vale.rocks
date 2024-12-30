@@ -234,3 +234,7 @@ hr {
 	background: var(--bright_grey);
 	margin-bottom: 1rem;
 }
+
+mark {
+	background: var(--yellow)
+}

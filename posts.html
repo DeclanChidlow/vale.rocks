@@ -50,13 +50,14 @@
 
 <body >
 	<header id="navbar">
-		<a class="skip-link" href="#main">Skip to content</a>
+		<a class="skip-link" href="#main" data-pagefind-ignore="all">Skip to content</a>
 		<nav>
 			<a href="/" id="navlanding">Vale</a>
 			<ul class="menu-items">
 				<li><a href="/posts">Posts</a></li>
 				<li><a href="/portfolio">Portfolio</a></li>
 			</ul>
+			<a href="/search" class="icons">search</a>
 
 			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
 			<div id="popover-menu" popover>
@@ -75,41 +76,9 @@
 <main id="main">
 	<link rel="stylesheet" href="/assets/styles/pages/posts.css">
 	
-	<h1 id="section">Posts</h1>
+	<h1 id="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 	
-	<div class="page">
-		<form role="search" id="refine-posts">
-			<search>
-				<label for="posts-search" class="icons">search</label>
-				<input type="search" id="posts-search" placeholder="Search posts..." />
-			</search>
-	
-			<div class="refinements">
-				<div class="refinement-select">
-					<label for="posts-filter" class="icons">category</label>
-					<select id="posts-filter">
-						<option value="all">All</option>
-						<option value="review">Reviews</option>
-						<option value="essay">Essays</option>
-						<option value="tutorial">Tutorials</option>
-						<option value="meta">Meta</option>
-					</select>
-				</div>
-	
-				<div class="refinement-select">
-					<label for="posts-sort" class="icons">sort</label>
-					<select id="posts-sort">
-						<option value="published-desc">Published Descending</option>
-						<option value="published-asc">Published Ascending</option>
-						<option value="revised-desc">Revised Descending</option>
-						<option value="revised-asc">Revised Ascending</option>
-						<option value="length-desc">Length Descending</option>
-						<option value="length-asc">Length Ascending</option>
-					</select>
-				</div>
-			</div>
-		</form>
-	
+	<div class="page" data-pagefind-ignore="all">
 		<div id="post-items">
 			<a class="post" href="/posts/the-implementation-of-this-site">
 				<p>Meta</p>
@@ -275,8 +244,6 @@
 			</a>
 		</div>
 	</div>
-	
-	<script src="/assets/scripts/refine-posts.js"></script>
 </main>
 
 <footer>
