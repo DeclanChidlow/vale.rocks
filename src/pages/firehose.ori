@@ -6,9 +6,9 @@
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/firehose.css">
 
-	<h1 id="section">Firehose</h1>
+	<h1 id="section" data-pagefind-ignore>Firehose</h1>
 
-	<div>
+	<div data-pagefind-ignore="all">
 		<p>This is everything, all in one place, coming 'atcha!<br><br> This firehose contains a record of all my micro posts, articles, and other web doings. If you'd like to subscribe to feeds to stay up-to-date with them, then you can do so via my <a href="/syndication">syndication page</a>.</p>
 
 	    ${ map(paginated_firehose_data/items,

@@ -13,7 +13,7 @@
 	</div>
 	<script src='/assets/scripts/scroll-indicator.js'></script>
 
-	<span id="section">Portfolio</span>	
+	<span id="section" data-pagefind-filter="Content Type">Portfolio</span>	
 
 	<article>
 		<header>

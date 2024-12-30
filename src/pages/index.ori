@@ -9,7 +9,7 @@
 
 		<div id="puddle-container"></div>
 
-		<section class="hero">
+		<section class="hero" data-pagefind-filter="Content Type:Page">
 			<h1>Vale</h1>
 			<p>Developer</p>
 			<p>Designer</p>
@@ -25,7 +25,7 @@
 				<p>Apart from being a home for my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging.</p>
 			</section>
 
-			<section>
+			<section data-pagefind-ignore="all">
 				<h2>Read My Writings:</h2>
 
 				<div id="post-items">
@@ -44,7 +44,7 @@
 				</div>
 			</section>
 
-			<section>
+			<section data-pagefind-ignore="all">
 				<h2>Peruse My Portfolio:</h2>
 
 				<div class="portfolio-items">

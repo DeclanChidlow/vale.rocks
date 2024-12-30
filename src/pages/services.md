@@ -5,7 +5,7 @@ description: Explore my self-hosted services, including my instances of Akkoma a
 
 <link rel="stylesheet" href="/assets/styles/pages/services.css">
 
-<h1 id="section">Services</h1>
+<h1 id="section" data-pagefind-filter="Content Type:Page">Services</h1>
 
 <div class="readable-width">
 

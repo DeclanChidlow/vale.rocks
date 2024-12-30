@@ -3,7 +3,7 @@ title: Syndication
 description: An index of all my syndication feeds in various formats, including RSS, JSON Feed, and Atom, that users can subscribe to for easy subscription and updates.
 ---
 
-<h1 id="section">Syndication</h1>
+<h1 id="section" data-pagefind-filter="Content Type:Page">Syndication</h1>
 
 <div class="readable-width">
 

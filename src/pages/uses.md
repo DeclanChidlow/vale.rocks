@@ -3,7 +3,7 @@ title: Uses
 description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management.
 ---
 
-<h1 id="section">Uses</h1>
+<h1 id="section" data-pagefind-filter="Content Type:Page">Uses</h1>
 
 <div class="readable-width">
 

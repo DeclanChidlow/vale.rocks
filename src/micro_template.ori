@@ -33,8 +33,7 @@
 	}
 </style>
 
-
-	<span id="section">Micros</span>	
+	<span id="section" data-pagefind-filter="Content Type">Micros</span>	
 
 	<article class="h-entry">
 	<header>

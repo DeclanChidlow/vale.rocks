@@ -6,9 +6,9 @@
 	@text: indent`
 	<link rel="stylesheet" href="/assets/styles/pages/portfolio.css">
 	
-	<h1 id="section">Portfolio</h1>
+	<h1 id="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
 
-	<div class="portfolio-items">
+	<div class="portfolio-items" data-pagefind-ignore="all">
 		${ map(portfolio_data,
 		(post, key) => indent`
 			<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ post/accent_colour });">

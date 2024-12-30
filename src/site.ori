@@ -8,6 +8,7 @@
 	uses.html = main_template.ori(functions/parse-markdown.js(pages/uses.md))
 	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
 	syndication.html = main_template.ori(functions/parse-markdown.js(pages/syndication.md))
+	search.html = main_template.ori(functions/parse-markdown.js(pages/search.md))
 	books.html = pages/books/books.ori(pages/books/books.yaml)
 	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
 

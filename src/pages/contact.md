@@ -4,7 +4,7 @@ description: Find the best ways to contact me and some information about where y
 og_description: Find the best ways to contact me and some information about where you can find me.
 ---
 
-<h1 id="section">Contact</h1>
+<h1 id="section" data-pagefind-filter="Content Type:Page">Contact</h1>
 
 <div class="readable-width">
 Need to get in contact with me for whatever reason? The best ways to do so are:

@@ -5,7 +5,7 @@ description: Information regarding how to financially support me to keep servers
 
 <link rel="stylesheet" href="/assets/styles/pages/support.css">
 
-<h1 id="section">Support</h1>
+<h1 id="section" data-pagefind-filter="Content Type:Page">Support</h1>
 
 <div>
 
