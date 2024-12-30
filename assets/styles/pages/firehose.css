@@ -15,7 +15,11 @@ article {
 	display: flex;
 	gap: 1rem;
 
-	a svg {
+	a::after {
+		display: none;
+	}
+
+	svg {
 		height: 1.25rem;
 		width: 1.25rem;
 	}

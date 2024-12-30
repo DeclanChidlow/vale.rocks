@@ -5,9 +5,44 @@
   "feed_url": "https://vale.rocks/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/posts/20241230-0009.html",
+      "url": "https://vale.rocks/posts/20241230-0009.html",
+      "content_html": "<p>I’d be rich if I got a dollar every time I read OpenAI as OpenAPI and OpenAPI as OpenAI. Drives me loopy.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241229-2356.html",
+      "url": "https://vale.rocks/posts/20241229-2356.html",
+      "content_html": "<p>I love the process of creating and refining things to perfection!</p>\n<ol>\n<li>Build something.</li>\n<li>Put it out there.</li>\n<li>Observe how it’s received and gather feedback.</li>\n<li>Identify, plan, and enact action to improve it.</li>\n<li>Repeat until it’s as close to perfection as possible!</li>\n</ol>\n<p>The OODA (Observe, Orient, Decide, Act) loop is a powerful framework—not just for decision-making, but for building better products and experiences.</p>\n<p>It&#8217;s also invaluable in avoiding wasting time building things that nobody wants or needs.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241229-1219.html",
+      "url": "https://vale.rocks/posts/20241229-1219.html",
+      "content_html": "<p>I ensure I write crap that I don&#8217;t publish so that if I ever become a super famous writer and then cark it, there&#8217;ll be something to tack to the end of special editions.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241229-1056.html",
+      "url": "https://vale.rocks/posts/20241229-1056.html",
+      "content_html": "<p>Still a bit of work to do, but I’ve put together a firehose of my web activities and mirrored many of my microblog posts to my site. Trying to embrace the IndieWeb a bit further.</p>\n<p><a href=\"https://vale.rocks/firehose/1\">https://vale.rocks/firehose/1</a></p>\n"
+    },
+    {
       "id": "https://vale.rocks/posts/20241228-0921.html",
       "url": "https://vale.rocks/posts/20241228-0921.html",
       "content_html": "<p>Sloppy AI-generated thumbnail images serve as a good litmus test for whether something is worth clicking.</p>\n<p>Seriously, it’s great to know what is gonna be slop without even having to even click through.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241227-0203.html",
+      "url": "https://vale.rocks/posts/20241227-0203.html",
+      "content_html": "<p>Instead of pulling up the ladder behind you, why not add some more rungs or lower it a bit for the next person? Helping others succeed is not just a great way to give back—it creates a stronger, more inclusive community for all. Let&#8217;s build each other up.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241223-0253.html",
+      "url": "https://vale.rocks/posts/20241223-0253.html",
+      "content_html": "<p>Received my physical diploma in the mail! I truly am a fully licensed front-end developer!</p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQH5ytevGyjRkQ/feedshare-shrink_800/B56ZPxb1_1G8Ak-/0/1734922433682?e=1738195200&v=beta&t=50Qo4PNmL9JbU02tdVcDx7D7o-92wukRHa_bPICxTxQ\" alt=\"Diploma stating \"This is to certify that DECLAN CHIDLOW has fulfilled all requirements for ICT50220 DIPLOMA OF INFORMATION TECHNOLOGY (FRONT END WEB DEVELOPMENT)\"\"></p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241220-0430.html",
+      "url": "https://vale.rocks/posts/20241220-0430.html",
+      "content_html": "<p>My article on HTML&#8217;s legacy colour parsing was featured on Manuel Matuzović&#8217;s HTMHell today. 🎉</p>\n<p>For those unfamiliar, the HTMHell Advent Calendar is a fantastic publication bringing together authors from around the world to share insightful articles on web development topics like security, accessibility, UX, and performance.</p>\n<p>In my article, I dive into the quirks of HTML&#8217;s legacy colour parsing, exploring just why the value &#8216;chucknorris&#8217; outputs red and talk about the resilience of the web.</p>\n<p><a href=\"https://www.htmhell.dev/adventcalendar/2024/20/\">https://www.htmhell.dev/adventcalendar/2024/20/</a></p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20241215-1202.html",
@@ -18,11 +53,6 @@
       "id": "https://vale.rocks/posts/20241212-1141.html",
       "url": "https://vale.rocks/posts/20241212-1141.html",
       "content_html": "<p>I <em>might</em> have neglected to re-add the analytics script to the head of my website. That&#8217;s a few days of data I won&#8217;t be getting back&#8230;</p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20241212-1128.html",
-      "url": "https://vale.rocks/posts/20241212-1128.html",
-      "content_html": "<p>Released a post about the implementation of my site!</p>\n<p><a href=\"https://vale.rocks/posts/the-implementation-of-this-site\">https://vale.rocks/posts/the-implementation-of-this-site</a></p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20241211-1256.html",
@@ -42,12 +72,7 @@
     {
       "id": "https://vale.rocks/posts/20241210-1214.html",
       "url": "https://vale.rocks/posts/20241210-1214.html",
-      "content_html": "<p>Got around to sorting out my syndication feeds. Go subscribe!</p>\n<p><a href=\"https://vale.rocks/posts/feed.xml\">https://vale.rocks/posts/feed.xml</a>\n<a href=\"https://vale.rocks/posts/feed.json\">https://vale.rocks/posts/feed.json</a></p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20241210-1131.html",
-      "url": "https://vale.rocks/posts/20241210-1131.html",
-      "content_html": "<p>Just posted a short article about my reasoning regarding reviewing media. Check it out!</p>\n<p><a href=\"https://vale.rocks/posts/media-review-reasoning\">https://vale.rocks/posts/media-review-reasoning</a></p>\n"
+      "content_html": "<p>Got around to sorting out my syndication feeds. Go subscribe!</p>\n<ul>\n<li><a href=\"https://vale.rocks/posts/feed.xml\">https://vale.rocks/posts/feed.xml</a></li>\n<li><a href=\"https://vale.rocks/posts/feed.json\">https://vale.rocks/posts/feed.json</a></li>\n</ul>\n"
     },
     {
       "id": "https://vale.rocks/posts/20241209-1131.html",
@@ -78,6 +103,11 @@
       "id": "https://vale.rocks/posts/20241205-0404.html",
       "url": "https://vale.rocks/posts/20241205-0404.html",
       "content_html": "<p>Really interesting seeing what posts get picked up on Fedi, and what posts get picked up on Bluesky. I&#8217;m struggling to identify any real pattern.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241205-0000.html",
+      "url": "https://vale.rocks/posts/20241205-0000.html",
+      "content_html": "<p>Part of my diploma at North Metropolitan TAFE was a live-works project redeveloping the website for Public Libraries WA.</p>\n<p>My team and I took what was an outdated Joomla site and revitalised it into a sleek, modern experience. The old site was built back in 2009, had security flaws and lacked responsive design, rendering it nigh unusable on mobile devices.</p>\n<p>We rebuilt it from the ground up using WordPress paired with a custom theme built using Tailwind and a tailor-made plugin to perfectly fit our client&#8217;s needs.</p>\n<p>It was awesome working with <a href=\"https://emilydrage.com\">Emily Drage</a>, <a href=\"https://zoecchan.me\">Zoe Chan</a>, and Maria Benic on this.</p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQEPOgaprKm4Pg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356822327?e=1738195200&v=beta&t=h0XqVSa6kjrK_nD8MjVQIHHnnNy8wtGAmxX3-qV-4cg\" alt=\"Website landing page. At the top is an orange navigation bar with a logo and drop-downs for 'Home', 'About', and 'Professional Development'. In the centre of the page is the text \"Public Libraries WA\" with the subtitle \"Inspiring Minds\". Behind it is a warm picture of the outside of a modern looking library building. \nAt the very bottom of the page are some statistics that are cut off.\"></p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQHUCuc4avX-aA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356820611?e=1738195200&v=beta&t=JeHcmCUWYUTP9ZpfG9iLYnDSDCP017BXZGrJKVhHv30\" alt=\"Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'News'. Underneath it are a collection of cards presenting various news posts in a grid. Each shows a picture, date, description, and prompt to read more.\"></p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQHzMQVZZu8gqA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356816673?e=1738195200&v=beta&t=6ILthh9ZoRMPwqihzCHEHwZuJkc_uC2kkmyldix1rEE\" alt=\"Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'Workshops'. Underneath it is a list of upcoming workshops. Each shows a picture, date, description, and prompt to view it.\"></p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20241204-2346.html",
@@ -113,11 +143,6 @@
       "id": "https://vale.rocks/posts/20241130-0758.html",
       "url": "https://vale.rocks/posts/20241130-0758.html",
       "content_html": "<p>Coming around to that time of the year when I update and refine all my configs. I&#8217;ve got a <em>lot</em> of notes on what needs work.</p>\n<p>Should be rad.</p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20241127-0036.html",
-      "url": "https://vale.rocks/posts/20241127-0036.html",
-      "content_html": "<p>Published a page for testing and trialling formatting, features, typography, etc on my website.</p>\n<p>Been slowly fixing all the edge cases and adding new little bits and bobs as I go.</p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20241118-1144.html",
@@ -400,11 +425,6 @@
       "content_html": "<p>The phrase &#8220;WebKit magic&#8221; is something I could live without.</p>\n"
     },
     {
-      "id": "https://vale.rocks/posts/20240614-1329.html",
-      "url": "https://vale.rocks/posts/20240614-1329.html",
-      "content_html": "<p>Just posted my review of the Flipper Zero over on my blog. It includes my thoughts on the Flipper itself, the Momentum firmware, and how I&#8217;ve been using it. Give it a read!</p>\n<p><a href=\"https://vale.rocks/posts/i-got-a-flipper-zero\">https://vale.rocks/posts/i-got-a-flipper-zero</a></p>\n"
-    },
-    {
       "id": "https://vale.rocks/posts/20240613-0119.html",
       "url": "https://vale.rocks/posts/20240613-0119.html",
       "content_html": "<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>\n"
@@ -465,19 +485,9 @@
       "content_html": "<p>Which one of you has been visiting my website with a Windows Phone?</p>\n"
     },
     {
-      "id": "https://vale.rocks/posts/20240501-1109.html",
-      "url": "https://vale.rocks/posts/20240501-1109.html",
-      "content_html": "<p>Just released a new article about JPEG XL, and how Google has sabotaged its success. Go check it out!</p>\n<p><a href=\"https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it\">https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it</a></p>\n"
-    },
-    {
       "id": "https://vale.rocks/posts/20240428-0810.html",
       "url": "https://vale.rocks/posts/20240428-0810.html",
       "content_html": "<p>Just finished my big site update. Took a bit, but it&#8217;s more accessible, responsive, and a lot easier to work with into the future. Go check it out!</p>\n<p><a href=\"https://vale.rocks\">https://vale.rocks</a></p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20240418-1256.html",
-      "url": "https://vale.rocks/posts/20240418-1256.html",
-      "content_html": "<p>My latest blog post looks at my code formatting styles. Give it a read and tell me your thoughts!</p>\n<p><a href=\"https://vale.rocks/posts/my-code-formatting-guidelines\">https://vale.rocks/posts/my-code-formatting-guidelines</a></p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20240417-1257.html",
@@ -655,11 +665,6 @@
       "content_html": "<p>Ahhh, yes. Neo-Twitter. Risen from the ashes of the internet&#8217;s previous tabloid crap peddler.</p>\n"
     },
     {
-      "id": "https://vale.rocks/posts/20240203-1237.html",
-      "url": "https://vale.rocks/posts/20240203-1237.html",
-      "content_html": "<p>In my new blog post I talk about why I hate my Nokia G22. Go give it a read!</p>\n<p><a href=\"https://vale.rocks/posts/i-hate-my-nokia\">https://vale.rocks/posts/i-hate-my-nokia</a></p>\n"
-    },
-    {
       "id": "https://vale.rocks/posts/20240202-1250.html",
       "url": "https://vale.rocks/posts/20240202-1250.html",
       "content_html": "<p>I wonder when we&#8217;ll phase out IPv4 in favour of v6. I suppose we&#8217;ll do it later.</p>\n"
@@ -668,6 +673,11 @@
       "id": "https://vale.rocks/posts/20240202-1228.html",
       "url": "https://vale.rocks/posts/20240202-1228.html",
       "content_html": "<p>I&#8217;ve been playing Mario Kart Wii half the day. I got rather violently Mario Karted by the bots on Koopa Cape a minute ago. From 1st to 12th in the blink of an eye. Oh well.</p>\n<p>I&#8217;m playing with no bloom or background blurring in HD on my rather large TV with an Xbox controller. Of course, this wouldn&#8217;t be possible without the excellent <a href=\"https://dolphin-emu.org\">Dolphin emulator</a>. A huge thanks to all who have contributed to emulation.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20240129-1212.html",
+      "url": "https://vale.rocks/posts/20240129-1212.html",
+      "content_html": "<p>Started my Diploma of Information Technology (Frontend Development) at North Metropolitan TAFE today!</p>\n<p>Eager to absorb new knowledge, enhance my skills, and embrace the endless possibilities that lie ahead.</p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20240126-0954.html",
@@ -775,16 +785,6 @@
       "content_html": "<p>Did tons of work on Adduce today. It now has some RSS functionality, although it still needs some work.</p>\n<p>Go check it out if you&#8217;re interested:\n<a href=\"https://github.com/DeclanChidlow/Adduce\">https://github.com/DeclanChidlow/Adduce</a></p>\n"
     },
     {
-      "id": "https://vale.rocks/posts/20231212-1256.html",
-      "url": "https://vale.rocks/posts/20231212-1256.html",
-      "content_html": "<p>I should mention I made some tweaks to my Everything Is Chrome article this morning.</p>\n<p>Go give it a read:\n<a href=\"https://vale.rocks/posts/everything-is-chrome\">https://vale.rocks/posts/everything-is-chrome</a></p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20231211-0558.html",
-      "url": "https://vale.rocks/posts/20231211-0558.html",
-      "content_html": "<p>I just released a new blog post about Chrome, its high market share, and what that means for the web.</p>\n<p><a href=\"https://vale.rocks/posts/everything-is-chrome\">https://vale.rocks/posts/everything-is-chrome</a></p>\n"
-    },
-    {
       "id": "https://vale.rocks/posts/20231209-1440.html",
       "url": "https://vale.rocks/posts/20231209-1440.html",
       "content_html": "<p>I was scrolling through Fedi and saw the account <a href=\"https://hachyderm.io/@tpope\">@tpope@hachyderm.io</a>. I wondered if it was the Vim guy so I clicked on his account to check. His bio didn&#8217;t disappoint.</p>\n<p>If you read this Tim, thanks for your work.</p>\n"
@@ -795,11 +795,6 @@
       "content_html": "<p>I&#8217;ve just seen this excellent video from Posy. Like all his content, it&#8217;s well worth a watch.</p>\n<p><a href=\"https://www.youtube.com/watch?v=NSS6yAMZF78\">https://www.youtube.com/watch?v=NSS6yAMZF78</a></p>\n"
     },
     {
-      "id": "https://vale.rocks/posts/20231201-1304.html",
-      "url": "https://vale.rocks/posts/20231201-1304.html",
-      "content_html": "<p>Here is my review of <a href=\"https://frame.work\">Framework</a>&#8217;s Framework Laptop 13.</p>\n<p><a href=\"https://vale.rocks/posts/a-year-with-the-framework-laptop-13\">https://vale.rocks/posts/a-year-with-the-framework-laptop-13</a></p>\n"
-    },
-    {
       "id": "https://vale.rocks/posts/20231129-0410.html",
       "url": "https://vale.rocks/posts/20231129-0410.html",
       "content_html": "<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
@@ -808,11 +803,6 @@
       "id": "https://vale.rocks/posts/20231128-1254.html",
       "url": "https://vale.rocks/posts/20231128-1254.html",
       "content_html": "<p>Yesterday I graduated from high school. A bit bittersweet but I look forward to what comes next. Congratulations to the rest of the class of 2023!</p>\n<p><a href=\"https://www.youtube.com/watch?v=hnJ-wVnc0Jc\">https://www.youtube.com/watch?v=hnJ-wVnc0Jc</a></p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20231126-0738.html",
-      "url": "https://vale.rocks/posts/20231126-0738.html",
-      "content_html": "<p>I just posted an article on Australia&#8217;s 3G shutdown.</p>\n<p>This could have some huge ramifications. Please share it around.\n<a href=\"https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g\">https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g</a></p>\n"
     },
     {
       "id": "https://vale.rocks/posts/20231126-0348.html",
@@ -882,12 +872,7 @@
     {
       "id": "https://vale.rocks/posts/20231031-1109.html",
       "url": "https://vale.rocks/posts/20231031-1109.html",
-      "content_html": "<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>\n<p><a href=\"https://unsplash.com/photos/_SwvK3GEX4U\">https://unsplash.com/photos/_SwvK3GEX4U</a>\n<a href=\"https://unsplash.com/photos/8W9UvkoQ43E\">https://unsplash.com/photos/8W9UvkoQ43E</a></p>\n"
-    },
-    {
-      "id": "https://vale.rocks/posts/20231031-0336.html",
-      "url": "https://vale.rocks/posts/20231031-0336.html",
-      "content_html": "<p>New article out about making Windows usable (or at the very least tolerable).</p>\n<p>Go give it a read!</p>\n<p><a href=\"https://vale.rocks/posts/making-windows-usable\">https://vale.rocks/posts/making-windows-usable</a></p>\n"
+      "content_html": "<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>\n<ul>\n<li><a href=\"https://unsplash.com/photos/_SwvK3GEX4U\">https://unsplash.com/photos/_SwvK3GEX4U</a></li>\n<li><a href=\"https://unsplash.com/photos/8W9UvkoQ43E\">https://unsplash.com/photos/8W9UvkoQ43E</a></li>\n</ul>\n"
     },
     {
       "id": "https://vale.rocks/posts/20231030-1301.html",

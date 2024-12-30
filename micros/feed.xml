@@ -5,10 +5,66 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <link>https://vale.rocks/posts/20241230-0009.html</link>
+      <guid>https://vale.rocks/posts/20241230-0009.html</guid>
+      <content:encoded><![CDATA[<p>I’d be rich if I got a dollar every time I read OpenAI as OpenAPI and OpenAPI as OpenAI. Drives me loopy.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241229-2356.html</link>
+      <guid>https://vale.rocks/posts/20241229-2356.html</guid>
+      <content:encoded><![CDATA[<p>I love the process of creating and refining things to perfection!</p>
+<ol>
+<li>Build something.</li>
+<li>Put it out there.</li>
+<li>Observe how it’s received and gather feedback.</li>
+<li>Identify, plan, and enact action to improve it.</li>
+<li>Repeat until it’s as close to perfection as possible!</li>
+</ol>
+<p>The OODA (Observe, Orient, Decide, Act) loop is a powerful framework—not just for decision-making, but for building better products and experiences.</p>
+<p>It&#8217;s also invaluable in avoiding wasting time building things that nobody wants or needs.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241229-1219.html</link>
+      <guid>https://vale.rocks/posts/20241229-1219.html</guid>
+      <content:encoded><![CDATA[<p>I ensure I write crap that I don&#8217;t publish so that if I ever become a super famous writer and then cark it, there&#8217;ll be something to tack to the end of special editions.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241229-1056.html</link>
+      <guid>https://vale.rocks/posts/20241229-1056.html</guid>
+      <content:encoded><![CDATA[<p>Still a bit of work to do, but I’ve put together a firehose of my web activities and mirrored many of my microblog posts to my site. Trying to embrace the IndieWeb a bit further.</p>
+<p><a href="https://vale.rocks/firehose/1">https://vale.rocks/firehose/1</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <link>https://vale.rocks/posts/20241228-0921.html</link>
       <guid>https://vale.rocks/posts/20241228-0921.html</guid>
       <content:encoded><![CDATA[<p>Sloppy AI-generated thumbnail images serve as a good litmus test for whether something is worth clicking.</p>
 <p>Seriously, it’s great to know what is gonna be slop without even having to even click through.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241227-0203.html</link>
+      <guid>https://vale.rocks/posts/20241227-0203.html</guid>
+      <content:encoded><![CDATA[<p>Instead of pulling up the ladder behind you, why not add some more rungs or lower it a bit for the next person? Helping others succeed is not just a great way to give back—it creates a stronger, more inclusive community for all. Let&#8217;s build each other up.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241223-0253.html</link>
+      <guid>https://vale.rocks/posts/20241223-0253.html</guid>
+      <content:encoded><![CDATA[<p>Received my physical diploma in the mail! I truly am a fully licensed front-end developer!</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQH5ytevGyjRkQ/feedshare-shrink_800/B56ZPxb1_1G8Ak-/0/1734922433682?e=1738195200&v=beta&t=50Qo4PNmL9JbU02tdVcDx7D7o-92wukRHa_bPICxTxQ" alt="Diploma stating "This is to certify that DECLAN CHIDLOW has fulfilled all requirements for ICT50220 DIPLOMA OF INFORMATION TECHNOLOGY (FRONT END WEB DEVELOPMENT)""></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241220-0430.html</link>
+      <guid>https://vale.rocks/posts/20241220-0430.html</guid>
+      <content:encoded><![CDATA[<p>My article on HTML&#8217;s legacy colour parsing was featured on Manuel Matuzović&#8217;s HTMHell today. 🎉</p>
+<p>For those unfamiliar, the HTMHell Advent Calendar is a fantastic publication bringing together authors from around the world to share insightful articles on web development topics like security, accessibility, UX, and performance.</p>
+<p>In my article, I dive into the quirks of HTML&#8217;s legacy colour parsing, exploring just why the value &#8216;chucknorris&#8217; outputs red and talk about the resilience of the web.</p>
+<p><a href="https://www.htmhell.dev/adventcalendar/2024/20/">https://www.htmhell.dev/adventcalendar/2024/20/</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -25,13 +81,6 @@
       <link>https://vale.rocks/posts/20241212-1141.html</link>
       <guid>https://vale.rocks/posts/20241212-1141.html</guid>
       <content:encoded><![CDATA[<p>I <em>might</em> have neglected to re-add the analytics script to the head of my website. That&#8217;s a few days of data I won&#8217;t be getting back&#8230;</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20241212-1128.html</link>
-      <guid>https://vale.rocks/posts/20241212-1128.html</guid>
-      <content:encoded><![CDATA[<p>Released a post about the implementation of my site!</p>
-<p><a href="https://vale.rocks/posts/the-implementation-of-this-site">https://vale.rocks/posts/the-implementation-of-this-site</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -56,15 +105,10 @@
       <link>https://vale.rocks/posts/20241210-1214.html</link>
       <guid>https://vale.rocks/posts/20241210-1214.html</guid>
       <content:encoded><![CDATA[<p>Got around to sorting out my syndication feeds. Go subscribe!</p>
-<p><a href="https://vale.rocks/posts/feed.xml">https://vale.rocks/posts/feed.xml</a>
-<a href="https://vale.rocks/posts/feed.json">https://vale.rocks/posts/feed.json</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20241210-1131.html</link>
-      <guid>https://vale.rocks/posts/20241210-1131.html</guid>
-      <content:encoded><![CDATA[<p>Just posted a short article about my reasoning regarding reviewing media. Check it out!</p>
-<p><a href="https://vale.rocks/posts/media-review-reasoning">https://vale.rocks/posts/media-review-reasoning</a></p>
+<ul>
+<li><a href="https://vale.rocks/posts/feed.xml">https://vale.rocks/posts/feed.xml</a></li>
+<li><a href="https://vale.rocks/posts/feed.json">https://vale.rocks/posts/feed.json</a></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -105,6 +149,19 @@
       <link>https://vale.rocks/posts/20241205-0404.html</link>
       <guid>https://vale.rocks/posts/20241205-0404.html</guid>
       <content:encoded><![CDATA[<p>Really interesting seeing what posts get picked up on Fedi, and what posts get picked up on Bluesky. I&#8217;m struggling to identify any real pattern.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20241205-0000.html</link>
+      <guid>https://vale.rocks/posts/20241205-0000.html</guid>
+      <content:encoded><![CDATA[<p>Part of my diploma at North Metropolitan TAFE was a live-works project redeveloping the website for Public Libraries WA.</p>
+<p>My team and I took what was an outdated Joomla site and revitalised it into a sleek, modern experience. The old site was built back in 2009, had security flaws and lacked responsive design, rendering it nigh unusable on mobile devices.</p>
+<p>We rebuilt it from the ground up using WordPress paired with a custom theme built using Tailwind and a tailor-made plugin to perfectly fit our client&#8217;s needs.</p>
+<p>It was awesome working with <a href="https://emilydrage.com">Emily Drage</a>, <a href="https://zoecchan.me">Zoe Chan</a>, and Maria Benic on this.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQEPOgaprKm4Pg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356822327?e=1738195200&v=beta&t=h0XqVSa6kjrK_nD8MjVQIHHnnNy8wtGAmxX3-qV-4cg" alt="Website landing page. At the top is an orange navigation bar with a logo and drop-downs for 'Home', 'About', and 'Professional Development'. In the centre of the page is the text "Public Libraries WA" with the subtitle "Inspiring Minds". Behind it is a warm picture of the outside of a modern looking library building. 
+At the very bottom of the page are some statistics that are cut off."></p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQHUCuc4avX-aA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356820611?e=1738195200&v=beta&t=JeHcmCUWYUTP9ZpfG9iLYnDSDCP017BXZGrJKVhHv30" alt="Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'News'. Underneath it are a collection of cards presenting various news posts in a grid. Each shows a picture, date, description, and prompt to read more."></p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQHzMQVZZu8gqA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356816673?e=1738195200&v=beta&t=6ILthh9ZoRMPwqihzCHEHwZuJkc_uC2kkmyldix1rEE" alt="Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'Workshops'. Underneath it is a list of upcoming workshops. Each shows a picture, date, description, and prompt to view it."></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -151,13 +208,6 @@
       <guid>https://vale.rocks/posts/20241130-0758.html</guid>
       <content:encoded><![CDATA[<p>Coming around to that time of the year when I update and refine all my configs. I&#8217;ve got a <em>lot</em> of notes on what needs work.</p>
 <p>Should be rad.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20241127-0036.html</link>
-      <guid>https://vale.rocks/posts/20241127-0036.html</guid>
-      <content:encoded><![CDATA[<p>Published a page for testing and trialling formatting, features, typography, etc on my website.</p>
-<p>Been slowly fixing all the edge cases and adding new little bits and bobs as I go.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -550,13 +600,6 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240614-1329.html</link>
-      <guid>https://vale.rocks/posts/20240614-1329.html</guid>
-      <content:encoded><![CDATA[<p>Just posted my review of the Flipper Zero over on my blog. It includes my thoughts on the Flipper itself, the Momentum firmware, and how I&#8217;ve been using it. Give it a read!</p>
-<p><a href="https://vale.rocks/posts/i-got-a-flipper-zero">https://vale.rocks/posts/i-got-a-flipper-zero</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <link>https://vale.rocks/posts/20240613-0119.html</link>
       <guid>https://vale.rocks/posts/20240613-0119.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>
@@ -640,24 +683,10 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240501-1109.html</link>
-      <guid>https://vale.rocks/posts/20240501-1109.html</guid>
-      <content:encoded><![CDATA[<p>Just released a new article about JPEG XL, and how Google has sabotaged its success. Go check it out!</p>
-<p><a href="https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it">https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <link>https://vale.rocks/posts/20240428-0810.html</link>
       <guid>https://vale.rocks/posts/20240428-0810.html</guid>
       <content:encoded><![CDATA[<p>Just finished my big site update. Took a bit, but it&#8217;s more accessible, responsive, and a lot easier to work with into the future. Go check it out!</p>
 <p><a href="https://vale.rocks">https://vale.rocks</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20240418-1256.html</link>
-      <guid>https://vale.rocks/posts/20240418-1256.html</guid>
-      <content:encoded><![CDATA[<p>My latest blog post looks at my code formatting styles. Give it a read and tell me your thoughts!</p>
-<p><a href="https://vale.rocks/posts/my-code-formatting-guidelines">https://vale.rocks/posts/my-code-formatting-guidelines</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -912,13 +941,6 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240203-1237.html</link>
-      <guid>https://vale.rocks/posts/20240203-1237.html</guid>
-      <content:encoded><![CDATA[<p>In my new blog post I talk about why I hate my Nokia G22. Go give it a read!</p>
-<p><a href="https://vale.rocks/posts/i-hate-my-nokia">https://vale.rocks/posts/i-hate-my-nokia</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <link>https://vale.rocks/posts/20240202-1250.html</link>
       <guid>https://vale.rocks/posts/20240202-1250.html</guid>
       <content:encoded><![CDATA[<p>I wonder when we&#8217;ll phase out IPv4 in favour of v6. I suppose we&#8217;ll do it later.</p>
@@ -929,6 +951,13 @@ RUN yarn workspaces focus --production --all
       <guid>https://vale.rocks/posts/20240202-1228.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve been playing Mario Kart Wii half the day. I got rather violently Mario Karted by the bots on Koopa Cape a minute ago. From 1st to 12th in the blink of an eye. Oh well.</p>
 <p>I&#8217;m playing with no bloom or background blurring in HD on my rather large TV with an Xbox controller. Of course, this wouldn&#8217;t be possible without the excellent <a href="https://dolphin-emu.org">Dolphin emulator</a>. A huge thanks to all who have contributed to emulation.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20240129-1212.html</link>
+      <guid>https://vale.rocks/posts/20240129-1212.html</guid>
+      <content:encoded><![CDATA[<p>Started my Diploma of Information Technology (Frontend Development) at North Metropolitan TAFE today!</p>
+<p>Eager to absorb new knowledge, enhance my skills, and embrace the endless possibilities that lie ahead.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1080,21 +1109,6 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231212-1256.html</link>
-      <guid>https://vale.rocks/posts/20231212-1256.html</guid>
-      <content:encoded><![CDATA[<p>I should mention I made some tweaks to my Everything Is Chrome article this morning.</p>
-<p>Go give it a read:
-<a href="https://vale.rocks/posts/everything-is-chrome">https://vale.rocks/posts/everything-is-chrome</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20231211-0558.html</link>
-      <guid>https://vale.rocks/posts/20231211-0558.html</guid>
-      <content:encoded><![CDATA[<p>I just released a new blog post about Chrome, its high market share, and what that means for the web.</p>
-<p><a href="https://vale.rocks/posts/everything-is-chrome">https://vale.rocks/posts/everything-is-chrome</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <link>https://vale.rocks/posts/20231209-1440.html</link>
       <guid>https://vale.rocks/posts/20231209-1440.html</guid>
       <content:encoded><![CDATA[<p>I was scrolling through Fedi and saw the account <a href="https://hachyderm.io/@tpope">@tpope@hachyderm.io</a>. I wondered if it was the Vim guy so I clicked on his account to check. His bio didn&#8217;t disappoint.</p>
@@ -1109,13 +1123,6 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231201-1304.html</link>
-      <guid>https://vale.rocks/posts/20231201-1304.html</guid>
-      <content:encoded><![CDATA[<p>Here is my review of <a href="https://frame.work">Framework</a>&#8217;s Framework Laptop 13.</p>
-<p><a href="https://vale.rocks/posts/a-year-with-the-framework-laptop-13">https://vale.rocks/posts/a-year-with-the-framework-laptop-13</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <link>https://vale.rocks/posts/20231129-0410.html</link>
       <guid>https://vale.rocks/posts/20231129-0410.html</guid>
       <content:encoded><![CDATA[<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>
@@ -1127,14 +1134,6 @@ RUN yarn workspaces focus --production --all
       <guid>https://vale.rocks/posts/20231128-1254.html</guid>
       <content:encoded><![CDATA[<p>Yesterday I graduated from high school. A bit bittersweet but I look forward to what comes next. Congratulations to the rest of the class of 2023!</p>
 <p><a href="https://www.youtube.com/watch?v=hnJ-wVnc0Jc">https://www.youtube.com/watch?v=hnJ-wVnc0Jc</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20231126-0738.html</link>
-      <guid>https://vale.rocks/posts/20231126-0738.html</guid>
-      <content:encoded><![CDATA[<p>I just posted an article on Australia&#8217;s 3G shutdown.</p>
-<p>This could have some huge ramifications. Please share it around.
-<a href="https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g">https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1257,16 +1256,10 @@ It&#8217;s still got a bit to tweak but go check it out!</p>
       <link>https://vale.rocks/posts/20231031-1109.html</link>
       <guid>https://vale.rocks/posts/20231031-1109.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>
-<p><a href="https://unsplash.com/photos/_SwvK3GEX4U">https://unsplash.com/photos/_SwvK3GEX4U</a>
-<a href="https://unsplash.com/photos/8W9UvkoQ43E">https://unsplash.com/photos/8W9UvkoQ43E</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <link>https://vale.rocks/posts/20231031-0336.html</link>
-      <guid>https://vale.rocks/posts/20231031-0336.html</guid>
-      <content:encoded><![CDATA[<p>New article out about making Windows usable (or at the very least tolerable).</p>
-<p>Go give it a read!</p>
-<p><a href="https://vale.rocks/posts/making-windows-usable">https://vale.rocks/posts/making-windows-usable</a></p>
+<ul>
+<li><a href="https://unsplash.com/photos/_SwvK3GEX4U">https://unsplash.com/photos/_SwvK3GEX4U</a></li>
+<li><a href="https://unsplash.com/photos/8W9UvkoQ43E">https://unsplash.com/photos/8W9UvkoQ43E</a></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>

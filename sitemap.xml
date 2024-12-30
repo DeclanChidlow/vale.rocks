@@ -79,16 +79,34 @@
     <loc>https://vale.rocks/posts/the-design-of-this-site.html</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/micros/20241230-0009.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241229-2356.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241229-1219.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241229-1056.html</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/micros/20241228-0921.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241227-0203.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241223-0253.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241220-0430.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241215-1202.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241212-1141.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20241212-1128.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241211-1256.html</loc>
@@ -101,9 +119,6 @@
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241210-1214.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20241210-1131.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241209-1131.html</loc>
@@ -122,6 +137,9 @@
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241205-0404.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20241205-0000.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241204-2346.html</loc>
@@ -143,9 +161,6 @@
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241130-0758.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20241127-0036.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20241118-1144.html</loc>
@@ -316,9 +331,6 @@
     <loc>https://vale.rocks/micros/20240615-1305.html</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/micros/20240614-1329.html</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/micros/20240613-0119.html</loc>
   </url>
   <url>
@@ -355,13 +367,7 @@
     <loc>https://vale.rocks/micros/20240505-0420.html</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/micros/20240501-1109.html</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/micros/20240428-0810.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20240418-1256.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20240417-1257.html</loc>
@@ -469,13 +475,13 @@
     <loc>https://vale.rocks/micros/20240205-0902.html</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/micros/20240203-1237.html</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/micros/20240202-1250.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20240202-1228.html</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20240129-1212.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20240126-0954.html</loc>
@@ -541,28 +547,16 @@
     <loc>https://vale.rocks/micros/20231213-0955.html</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/micros/20231212-1256.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20231211-0558.html</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/micros/20231209-1440.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20231202-1200.html</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/micros/20231201-1304.html</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/micros/20231129-0410.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20231128-1254.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20231126-0738.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20231126-0348.html</loc>
@@ -605,9 +599,6 @@
   </url>
   <url>
     <loc>https://vale.rocks/micros/20231031-1109.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/micros/20231031-0336.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20231030-1301.html</loc>
@@ -653,9 +644,6 @@
   </url>
   <url>
     <loc>https://vale.rocks/firehose/13.html</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/14.html</loc>
   </url>
   <url>
     <loc>https://vale.rocks/portfolio.html</loc>
