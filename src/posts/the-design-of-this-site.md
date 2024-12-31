@@ -3,9 +3,9 @@ title: The Design of This Site
 description: A breakdown and overview of the design choices of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy.
 og_description: The thought behind the experience.
 pub_time: 2022-09-12
-mod_time: 2024-12-12
+mod_time: 2024-12-31
 section: Meta
-word_count: 1355
+word_count: 1466
 ---
 
 The web used to embody its name—a spider's web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.
@@ -20,17 +20,17 @@ Perhaps the greatest contributor to the philosophy behind my site is taken from 
 >
 > While it is possible to "finish" a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.
 
-Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on.
+Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on. In that way, it is almost closer to a wiki, albeit a single-user one, than a traditional blog site where one publishes a post then moves on to the next without intent to revise or alter existing media.
 
 ## Personas
 
-This site is crafted with three distinct user groups in mind:
+This site is crafted with three distinct user groups in mind: [^1]
 
-Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site's visitors, so it's generally who I keep at the forefront of my mind, not just when I'm designing and implementing features but also when writing. It's imperative that the site is quick to load for people coming from social media to ensure reader retention [^1]. This demographic is probably the most likely to read an article the full way through.
+Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site's visitors, so it's generally who I keep at the forefront of my mind, not just when I'm designing and implementing features but also when writing. It's imperative that the site is quick to load for people coming from social media to ensure reader retention. [^2] This demographic is probably the most likely to read an article the full way through.
 
 Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won't read the contents of an article, but it should look good at first glance.
 
-Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site, but don't necessarily have a defined reason for their visit, and as such, likely won't return without reason.
+Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site but don't necessarily have a defined reason for their visit and, as such, likely won't return without reason.
 
 ## Fundamentals
 
@@ -90,4 +90,7 @@ Another source of inspiration for this site is [Josh W Comeau's site](https://ww
 
 ---
 
-[^1]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.
+[^1]: It is also, to some extent, built with me in mind as a user. Rather than maintaining a separate knowledge base, journal, or index of my creations, much of that content is instead published here where I can search and reference it. This is especially valuable paired with the [search page](/search), which makes it trivial to search and reference pretty much everything I've deemed noteworthy enough to release on the internet.
+
+
+[^2]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.

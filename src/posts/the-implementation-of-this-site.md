@@ -3,9 +3,9 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2024-12-12
+mod_time: 2024-12-31
 section: Meta
-word_count: 1069
+word_count: 1088
 ---
 
 > [!NOTE]
@@ -33,7 +33,19 @@ The language, [Origami](https://weborigami.org), didn't take long to win me over
 
 In the hours following the playtest, I worked on porting my site over, and by the end of the day, I already had the broad strokes down. Now, my site is fully functioning on Origami with many additive bells and whistles that weren't previously possible with Adduce. The language is still maturing, but I'm loving it!
 
-## Development & Deployment
+### Search
+
+My entire site is fully indexed and searchable. This is achieved using [Pagefind](https://pagefind.app). Each page includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
+
+### IndieWeb
+
+In an effort to integrate open web concepts into this site, I've applied much of that outlined on the [IndieWeb wiki site](https://indieweb.org).
+
+One part of this is making use of [Microformats](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) whenever possible to define extra structure and semantics.
+
+Another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>. This means my content lives here first, then gets shared to other platforms while maintaining this site as the canonical source. My site is the centre of my web presence, and this helps it remain as such. 
+
+### Development & Deployment
 
 My development workflow for this site is pretty trivial. I run a local Origami dev server via [Bun](https://bun.sh) on my laptop and make my edits via Neovim. It's more or less the standard development flow you'd expect of any web-based project. All writing on the site is done with the exact same flow.
 
@@ -45,17 +57,12 @@ I handle source control via Git with GitHub serving as a repository host. In fac
 
 As everything is hosted on GitHub, I make use of [GitHub Pages](https://pages.github.com), which has a generous free plan. I have an [automated workflow configured using GitHub Actions](https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-site.yml) that builds and deploys the site when I push to the main branch of my repository.
 
-Cloudflare sits in front of the hosting to permit some more dynamic configuration, including caching, redirection, and some protection against unwanted scraping/bot activity as needed.
-
-## Analytics
+### Analytics
 
 I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I _love_ being able to see what country people are showing up from, what devices they're using [^1] and their browsers. Being able to see view counts tick up also does wonders for my motivation.
 
 I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I'll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It's lovely being able to go down little rabbit holes inspecting such cases.
 
-As for _how_ analytics are collected, it's done two ways. Cloudflare provides some _very_ generalised information on their dashboard, which gives me a loose idea of some things, such as what countries visitors are from, if they use IPv4 or IPv6, [^2] and some assorted other things. It's very general and more tailored to telling me if everything is on fire than investigating user activity.
-
-The other way is via [GoatCounter](https://www.goatcounter.com), which provides simple, lightweight, and open-source analytics. It'll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or mobile users who might be unable to install extensions. I make all that collected data public at [stats.vale.rocks](https://stats.vale.rocks).
+As for _how_ analytics are collected, I do it via [GoatCounter](https://www.goatcounter.com), which provides simple, lightweight, and open-source analytics. It'll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or mobile users who might be unable to install extensions. I make all that collected data public at [stats.vale.rocks](https://stats.vale.rocks).
 
 [^1]: Being able to see people showing up on obscure devices like [Windows Phones](https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I) always prompts a chuckle.
-[^2]: I wonder when we’ll phase out IPv4 in favour of v6. I suppose we’ll do it later.
