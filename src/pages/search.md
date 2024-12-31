@@ -23,10 +23,10 @@ description: An index of all my syndication feeds in various formats, including 
             showImages: false,
             excerptLength: 30,
             resetStyles: false,
-            autofocus: true 
+            autofocus: true,
+            highlightParam: "hl"
         });
     });
 </script>
-
 
 </div>

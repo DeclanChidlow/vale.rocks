@@ -49,11 +49,15 @@
 		<link rel="alternate" type="application/json" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.json">
 
 		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+		<script type="module">
+			await import('/pagefind/pagefind-highlight.js');
+			new PagefindHighlight({ highlightParam: "hl" });
+		</script>
 	</head>
 
 	<body ${ page/area ? `class="${ page/area }"` : "" }>
-		<header id="navbar">
-			<a class="skip-link" href="#main" data-pagefind-ignore="all">Skip to content</a>
+		<header id="navbar" data-pagefind-ignore="all">
+			<a class="skip-link" href="#main">Skip to content</a>
 			<nav>
 				<a href="/" id="navlanding">${ siteInfo.yaml/title }</a>
 				<ul class="menu-items">
@@ -80,7 +84,7 @@
 		${ page/@text }
 	</main>
 
-	<footer>
+	<footer data-pagefind-ignore="all">
 	<div class="footer-top">
 		<h2>Vale</h2>
 		<div class="footer-navigation">
