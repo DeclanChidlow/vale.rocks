@@ -5,7 +5,7 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
       <title>The Implementation of This Site</title>
       <link>https://vale.rocks/posts/the-implementation-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-implementation-of-this-site.html</guid>
@@ -25,26 +25,27 @@
 <p>When I saw <a href="https://fosstodon.org/@JanMiksovsky/113516427582479669">a post from Jan Miksovsky</a> looking &#8220;for people to playtest a programming language for making websites&#8221; I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.</p>
 <p>The language, <a href="https://weborigami.org">Origami</a>, didn&#8217;t take long to win me over. It&#8217;s a full programming language with all the bells and whistles you&#8217;d expect that makes it easy to do everything you&#8217;d need from a static site generator and allows you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.</p>
 <p>In the hours following the playtest, I worked on porting my site over, and by the end of the day, I already had the broad strokes down. Now, my site is fully functioning on Origami with many additive bells and whistles that weren&#8217;t previously possible with Adduce. The language is still maturing, but I&#8217;m loving it!</p>
-<h2 id="development--deployment">Development & Deployment</h2>
+<h3 id="search">Search</h3>
+<p>My entire site is fully indexed and searchable. This is achieved using <a href="https://pagefind.app">Pagefind</a>. Each page includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.</p>
+<h3 id="indieweb">IndieWeb</h3>
+<p>In an effort to integrate open web concepts into this site, I&#8217;ve applied much of that outlined on the <a href="https://indieweb.org">IndieWeb wiki site</a>.</p>
+<p>One part of this is making use of <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/microformats">Microformats</a> whenever possible to define extra structure and semantics.</p>
+<p>Another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>. This means my content lives here first, then gets shared to other platforms while maintaining this site as the canonical source. My site is the centre of my web presence, and this helps it remain as such. </p>
+<h3 id="development--deployment">Development & Deployment</h3>
 <p>My development workflow for this site is pretty trivial. I run a local Origami dev server via <a href="https://bun.sh">Bun</a> on my laptop and make my edits via Neovim. It&#8217;s more or less the standard development flow you&#8217;d expect of any web-based project. All writing on the site is done with the exact same flow.</p>
 <p>For more info about the software of my development environment, my <a href="/uses">uses page</a> is worth a read.</p>
 <p>I very much treat this site as a testing ground for my learning and therefore generally start using new features as soon as they are newly available in <a href="https://web.dev/baseline">Baseline</a>. My readership is generally technical, so they <em>should</em> know how to update their browsers, and I love being on the bleeding edge, so the minor inconvenience of things perhaps not looking quite right to some people is a trade-off I&#8217;m willing to make.</p>
 <p>I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available <a href="https://github.com/DeclanChidlow/vale.rocks">in its entirety</a> if you&#8217;d like to have a look.</p>
 <p>As everything is hosted on GitHub, I make use of <a href="https://pages.github.com">GitHub Pages</a>, which has a generous free plan. I have an <a href="https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-site.yml">automated workflow configured using GitHub Actions</a> that builds and deploys the site when I push to the main branch of my repository.</p>
-<p>Cloudflare sits in front of the hosting to permit some more dynamic configuration, including caching, redirection, and some protection against unwanted scraping/bot activity as needed.</p>
-<h2 id="analytics">Analytics</h2>
+<h3 id="analytics">Analytics</h3>
 <p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I <em>love</em> being able to see what country people are showing up from, what devices they&#8217;re using <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> and their browsers. Being able to see view counts tick up also does wonders for my motivation.</p>
 <p>I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I&#8217;ll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It&#8217;s lovely being able to go down little rabbit holes inspecting such cases.</p>
-<p>As for <em>how</em> analytics are collected, it&#8217;s done two ways. Cloudflare provides some <em>very</em> generalised information on their dashboard, which gives me a loose idea of some things, such as what countries visitors are from, if they use IPv4 or IPv6, <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> and some assorted other things. It&#8217;s very general and more tailored to telling me if everything is on fire than investigating user activity.</p>
-<p>The other way is via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or mobile users who might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
+<p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or mobile users who might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
 <section class="footnotes" data-footnotes>
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
 <li id="footnote-1">
 <p>Being able to see people showing up on obscure devices like <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">Windows Phones</a> always prompts a chuckle. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
-</li>
-<li id="footnote-2">
-<p>I wonder when we’ll phase out IPv4 in favour of v6. I suppose we’ll do it later. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
 </li>
 </ol>
 </section>
@@ -1408,7 +1409,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
       <title>The Design of This Site</title>
       <link>https://vale.rocks/posts/the-design-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-design-of-this-site.html</guid>
@@ -1421,12 +1422,12 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times &#8211; get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept.</p>
 <p>While it is possible to &#8220;finish&#8221; a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.</p>
 </blockquote>
-<p>Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on.</p>
+<p>Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on. In that way, it is almost closer to a wiki, albeit a single-user one, than a traditional blog site where one publishes a post then moves on to the next without intent to revise or alter existing media.</p>
 <h2 id="personas">Personas</h2>
-<p>This site is crafted with three distinct user groups in mind:</p>
-<p>Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site&#8217;s visitors, so it&#8217;s generally who I keep at the forefront of my mind, not just when I&#8217;m designing and implementing features but also when writing. It&#8217;s imperative that the site is quick to load for people coming from social media to ensure reader retention <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>. This demographic is probably the most likely to read an article the full way through.</p>
+<p>This site is crafted with three distinct user groups in mind: <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<p>Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site&#8217;s visitors, so it&#8217;s generally who I keep at the forefront of my mind, not just when I&#8217;m designing and implementing features but also when writing. It&#8217;s imperative that the site is quick to load for people coming from social media to ensure reader retention. <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> This demographic is probably the most likely to read an article the full way through.</p>
 <p>Secondly, potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won&#8217;t read the contents of an article, but it should look good at first glance.</p>
-<p>Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site, but don&#8217;t necessarily have a defined reason for their visit, and as such, likely won&#8217;t return without reason.</p>
+<p>Finally, people who I interact with online that come to my site to find out more about me. These people are likely to have a quick prod around and check out the contents of the site but don&#8217;t necessarily have a defined reason for their visit and, as such, likely won&#8217;t return without reason.</p>
 <h2 id="fundamentals">Fundamentals</h2>
 <p>Every decision made for this site is weighted on both the personas above and these fundamentals:</p>
 <ol>
@@ -1476,7 +1477,10 @@ When perusing articles, a scroll progress bar appears at the top of the screen, 
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
 <li id="footnote-1">
-<p><a href="https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks">Google suggests</a> that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+<p>It is also, to some extent, built with me in mind as a user. Rather than maintaining a separate knowledge base, journal, or index of my creations, much of that content is instead published here where I can search and reference it. This is especially valuable paired with the <a href="/search">search page</a>, which makes it trivial to search and reference pretty much everything I&#8217;ve deemed noteworthy enough to release on the internet. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p><a href="https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks">Google suggests</a> that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
 </li>
 </ol>
 </section>
