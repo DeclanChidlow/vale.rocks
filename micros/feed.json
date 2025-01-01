@@ -5,6 +5,21 @@
   "feed_url": "https://vale.rocks/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/posts/20250101-1149.html",
+      "url": "https://vale.rocks/posts/20250101-1149.html",
+      "content_html": "<p>Put together a links page on my site today. A curated collection of my bookmarks and findings while surfing the web.</p>\n<p>Watch your step. There are rabbit holes!</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>Do let me know if you have any more links I should check out.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241231-1718.html",
+      "url": "https://vale.rocks/posts/20241231-1718.html",
+      "content_html": "<p>Yet another step up for the next year. We’re skipping 1080p and aiming straight for 1440p!</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20241231-1600.html",
+      "url": "https://vale.rocks/posts/20241231-1600.html",
+      "content_html": "<p>HAPPY NEW YEAR!</p>\n<p>My plan for 2025 is to put out more everything and focus on what sticks. The goal is to experiment, learn, and double down on what works.</p>\n<p>2024 has very much been a year of general experimentation and exploration for me. Now I want to start testing things more aligned with my goals and putting the knowledge I gain to use!</p>\n"
+    },
+    {
       "id": "https://vale.rocks/posts/20241230-0009.html",
       "url": "https://vale.rocks/posts/20241230-0009.html",
       "content_html": "<p>I’d be rich if I got a dollar every time I read OpenAI as OpenAPI and OpenAPI as OpenAI. Drives me loopy.</p>\n"
