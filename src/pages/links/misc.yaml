@@ -86,8 +86,6 @@
   url: zombo.com
 - title: I Know What You Download
   url: iknowwhatyoudownload.com
-- title: SQLZoo
-  url: sqlzoo.net
 - title: /uses
   url: uses.tech
 - title: Greg Rutter's Definitive List of The 99 Things You Should Have Already Experienced On The Internet Unless You're a Loser or Old or Something
@@ -122,3 +120,33 @@
   url: listen.hatnote.com
 - title: MelonLand Project
   url: melonland.net
+- title: Retrocomputing Archive
+  url: www.retroarchive.org
+- title: Poolsuite
+  url: poolsuite.net
+- title: Windows93
+  url: www.windows93.net
+- title: Floor796
+  url: floor796.com
+- title: Open Directory Project
+  url: odp.org
+- title: Wikipedia Unusual Articles
+  url: wikipedia.org/wiki/Wikipedia:Unusual_articles
+- title: Bushism
+  url: wikipedia.org/wiki/Bushism
+- title: Wikipedia Silly Things
+  url: wikipedia.org/wiki/Wikipedia:Silly_Things
+- title: Spaghetti-tree Hoax
+  url: wikipedia.org/wiki/Spaghetti-tree_hoax
+- title: The Internet Ray Tracing Competition
+  url: www.irtc.org
+- title: The Official Jackie Chan Website
+  url: jackiechan.com
+- title: Internet Explorer is EVIL!
+  url: toastytech.com/evil
+- title: The San Francisco FogCam!
+  url: www.fogcam.org
+- title: Heaven's Gate
+  url: heavensgate.com
+- title: Welcome to Netscape!
+  url: home.mcom.com/home/welcome.html
