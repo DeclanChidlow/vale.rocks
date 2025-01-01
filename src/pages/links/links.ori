@@ -9,24 +9,24 @@
 		<p>This is a curated collection of intriguing and valuable links I've discovered while surfing the web. Descriptions not provided. Quality not assured.</p> 
 
 		<h2>Tools and Resources</h2>
-		<ol id="tools-and-resources">
+		<ul id="tools-and-resources">
 			${ tools-and-resources
 				→ =map(_, (link) => `
 					<li>
 					<a href="https://${ link/url }" target="_blank">${ link/title }</a>
 				  </li>
 			`) }
-		</ol>
+		</ul>
 
 		<h2>Misc</h2>
-		<ol id="misc">
+		<ul id="misc">
 			${ misc
 				→ =map(_, (link) => `
 					<li>
 					<a href="https://${ link/url }" target="_blank">${ link/title }</a>
 				  </li>
 			`) }
-		</ol>
+		</ul>
 	</div>
 	`
 })
