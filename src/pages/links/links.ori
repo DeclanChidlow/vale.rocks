@@ -13,7 +13,7 @@
 			${ tools-and-resources
 				→ =map(_, (link) => `
 					<li>
-					<a href="https://${ link/url }">${ link/title }</a>
+					<a href="https://${ link/url }" target="_blank">${ link/title }</a>
 				  </li>
 			`) }
 		</ol>
@@ -23,7 +23,7 @@
 			${ misc
 				→ =map(_, (link) => `
 					<li>
-					<a href="https://${ link/url }">${ link/title }</a>
+					<a href="https://${ link/url }" target="_blank">${ link/title }</a>
 				  </li>
 			`) }
 		</ol>
