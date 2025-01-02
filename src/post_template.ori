@@ -11,29 +11,33 @@
 	<link rel="stylesheet" href="/assets/styles/components/article_header.css">
 	<style>:root{--header_background: var(--magenta)}</style>
 
-	<div id='scroll-indicator-container'>
-		<div id="scroll-indicator"></div>
-	</div>
-	<script src='/assets/scripts/scroll-indicator.js'></script>
+	<span class="sidebar">
+		<span id="section" data-pagefind-filter="Content Type">Posts</span>	
 
-	<span id="section" data-pagefind-filter="Content Type">Posts</span>	
-
-	<article class="h-entry">
-		<header>
-			<p data-pagefind-filter="Post Category">${ post/section }</p>
-			<h1 class="p-name">${ post/title }</h1>
-			<ul>
-				<li>${ post/word_count } words</li>
-				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
-				<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
-			</ul>
-		</header>
-
-		<div class="readable-width e-content">
-			${ post/@text }
-			<section class="giscus"></section>
+		<div id="scroll-container">
+			<div id="indicator"></div>
 		</div>
-	</article>
+	</span>
+
+	<div class="article-wrapper">
+		<article class="h-entry">
+			<header>
+				<p data-pagefind-filter="Post Category">${ post/section }</p>
+				<h1 class="p-name">${ post/title }</h1>
+				<ul>
+					<li>${ post/word_count } words</li>
+					<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
+					<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
+				</ul>
+			</header>
+
+			<div class="readable-width e-content">
+				${ post/@text }
+			</div>
+		</article>
+
+		<section class="giscus readable-width"></section>
+	</div>
 
 
 	<script
@@ -54,4 +58,5 @@
 		async></script>
 	<script src="/assets/scripts/footnotes.js"></script>
 	<script src="/assets/scripts/figures.js"></script>
+	<script src='/assets/scripts/scroll-indicator.js'></script>
 ` })

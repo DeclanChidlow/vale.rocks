@@ -80,6 +80,13 @@ h6 {
 		user-select: none;
 		-webkit-user-select: none;
 		margin: 0;
+		width: 4rem;
+	}
+
+	.sidebar {
+		display: flex;
+		flex-direction: column;
+		gap: 10rem;
 	}
 }
 
