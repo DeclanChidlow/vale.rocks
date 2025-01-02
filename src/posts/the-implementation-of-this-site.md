@@ -5,7 +5,7 @@ og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
 mod_time: 2024-12-31
 section: Meta
-word_count: 1088
+word_count: 1085
 ---
 
 > [!NOTE]
@@ -35,15 +35,13 @@ In the hours following the playtest, I worked on porting my site over, and by th
 
 ### Search
 
-My entire site is fully indexed and searchable. This is achieved using [Pagefind](https://pagefind.app). Each page includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
+My entire site is [fully indexed and searchable](/search). This is achieved using [Pagefind](https://pagefind.app). Each page includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
 
 ### IndieWeb
 
 In an effort to integrate open web concepts into this site, I've applied much of that outlined on the [IndieWeb wiki site](https://indieweb.org).
 
-One part of this is making use of [Microformats](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) whenever possible to define extra structure and semantics.
-
-Another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>. This means my content lives here first, then gets shared to other platforms while maintaining this site as the canonical source. My site is the centre of my web presence, and this helps it remain as such. 
+One part of this is making use of [Microformats](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) whenever possible to define extra structure and semantics, and another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>/<abbr title="Publish Elsewhere, Syndicate (to your) Own Site">POSOS</abbr> syndication models as applicable. This places my site as the centre of my web presence, with everything else revolving around it. Ideally it should be considered the canonical source for everything I do.
 
 ### Development & Deployment
 
