@@ -3,12 +3,12 @@ title: A Year With The Framework Laptop 13
 description: My review of the Framework Laptop 13. I cover the assembly, setup, value, build, support, community, and much more.
 og_description: Hold onto your trackpads, I'm reviewing the Framework.
 pub_time: 2023-12-01
-mod_time: 2024-07-03
+mod_time: 2025-01-02
 section: Review
-word_count: 1520
+word_count: 1572
 ---
 
-Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my Certificate in Design, and the Framework seemed like a no brainer, so I got it. I ordered my Framework on the 27th of November 2022, and received it a mere four days later, on December 1st. Today is a year to the day from its arrival, so I saw it fit to give a bit of a review.
+Ever since I first saw it, I knew I wanted the Framework Laptop. A modern device boasting fully replaceable components? Intriguing beyond belief. Well, I knew I was going to need a laptop for my certificate in design, and the Framework seemed like a no-brainer, so I got it. I ordered my Framework on the 27th of November 2022 and received it a mere four days later, on December 1st. The publication of this post marks a year to the day from its arrival, so I saw it fit to give a bit of a review.
 
 I bought the DIY edition, along with the SSD and RAM, directly from Framework. The specs of my specific configuration are as follows:
 
@@ -25,9 +25,9 @@ Following up on the hardware setup was the software setup. Installing Arch, my L
 
 ## Cost & Value
 
-The cost associated with the Framework is undeniably high. There is no way around that. In comparison to other laptops with similar specifications, it is marginally more expensive. However, the initial cost shouldn't be the only consideration. Purchasing the Framework Laptop means investing in repairability. While it might seem more expensive upfront, the long-term value lies in the ability to replace components over time. This aspect ultimately justifies the initial expense, making it a more cost effective choice in the long run. It's also worth noting that you're supporting a smaller company that, in my opinion, seems dedicated to doing the right thing.
+The cost associated with the Framework is undeniably high. There is no way around that. In comparison to other laptops with similar specifications, it is marginally more expensive. However, the initial cost shouldn't be the only consideration. Purchasing the Framework Laptop means investing in repairability. While it might seem more expensive upfront, the long-term value lies in the ability to replace components over time. This aspect ultimately justifies the initial expense, making it a more cost-effective choice in the long run. It's also worth noting that you're supporting a smaller company that, in my opinion, seems dedicated to doing the right thing.
 
-With that said, you can save some money when buying your laptop by acquiring your RAM and SDD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.
+With that said, you can save some money when buying your laptop by acquiring your RAM and SSD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.
 
 <figure class="right">
 <img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background." />
@@ -37,11 +37,11 @@ With that said, you can save some money when buying your laptop by acquiring you
 
 The build quality of the Framework is alright. While it doesn't exude the sturdiness of some other laptops I've encountered, it's far from flimsy. There is minor flex in the chassis if picking the laptop up from a corner, but it is so minimal that it's hardly of relevance. Of more notable concern are the screen and hinge.
 
-The screen itself is excellent. It's 3:2 aspect ratio is ideal for tasks such as coding and document processing but affects the structural design, leading to flex, which causes screen wobbling at the slightest nudge. This makes typing on a lap or in a car rather challenging. The hinge is also a hindrance, as it struggles to hold the screen at more aggressive angles. They have released newer, stronger hinges as an optional addition to combat this.
+The screen itself is excellent. Its 3:2 aspect ratio is ideal for tasks such as coding and document processing but affects the structural design, leading to flex, which causes screen wobbling at the slightest nudge. This makes typing on a lap or in a car rather challenging. The hinge is also a hindrance, as it struggles to hold the screen at more aggressive angles. They have released newer, stronger hinges as an optional addition to combat this.
 
 ## Modularity & Customisation
 
-The reason that just about anyone would buy a Framework is for its user accessible servicing and customisation options. While I haven't yet broken my laptop, it's quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.
+The reason that just about anyone would buy a Framework is for its user-accessible servicing and customisation options. While I haven't yet broken my laptop, it's quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.
 
 Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. Its body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
 
@@ -49,9 +49,9 @@ Returning to the laptop, the flexibility to swap out components whenever I choos
 
 ## Battery Life
 
-There is a negative sentiment online regarding the battery on the Framework. I've seen countless people claim that they only yield 5 hours of battery life from a charge. While that may have been true at a point, things have since improved. There was an issue with select expansion cards that caused increased power use, but, fortunately, Framework fixed it in subsequent productions and released a fix for those capable of performing it. Yes, these are issues, but Framework has gone above and beyond in not only addressing, but also actively rectifying them to the best of their ability.
+There is a negative sentiment online regarding the battery on the Framework. I've seen countless people claim that they only yield 5 hours of battery life from a charge. While that may have been true at a point, things have since improved. There was an issue with select expansion cards that caused increased power use, but, fortunately, Framework fixed it in subsequent productions and released a fix for those capable of performing it. Yes, these are issues, but Framework has gone above and beyond in not only addressing but also actively rectifying them to the best of their ability.
 
-They've released a new 61Wh battery and battery optimisation improvements in their newer generations, especially in the AMD chipsets. Even without these improvements, I've been able to surpass over 10 hours out of the 55Wh battery in my laptop with some battery optimisations.
+They've also released a new 61Wh battery and battery optimisation improvements in their newer generations, especially in the AMD chipsets. Even without these improvements, I've been able to surpass over 10 hours out of the 55Wh battery in my laptop with some battery optimisations.
 
 ## Support
 
@@ -61,7 +61,7 @@ As for their software support, that can be a bit more hit and miss. My 12th Gen 
 
 ## Community
 
-It isn't just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes I haven't seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day, someone shares some crazy thing, like [spring loaded expansion cards](https://community.frame.work/t/spring-loaded-expansion-card/36013) or a [crazy new form factor](https://community.frame.work/t/framework-gaming-handheld-video/36591). It's excellent to see. I've found that any issue I've encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.
+It isn't just Framework themselves that support their products, but also the surrounding community. The community cultivated around the Framework Laptop is truly exceptional, the likes of which I haven't seen with any other product. The company hosts an open and highly constructive forum where users share all sorts of things. Every second day, someone shares some crazy thing, like [spring-loaded expansion cards](https://community.frame.work/t/spring-loaded-expansion-card) or a [crazy new form factor](https://community.frame.work/t/framework-gaming-handheld-video). It's excellent to see. I've found that any issue I've encountered, no matter how obscure (and trust me, I stumble upon some pretty obscure ones), has had some solution or ongoing discussion within the forums.
 
 ## Overall Evaluation
 
@@ -69,14 +69,12 @@ I think the Framework Laptop is excellent for just about anyone needing a comput
 
 If you need any further evidence as to how highly I regard the Framework Laptop 13, then the fact that I convinced my brother to select one as a replacement for his ageing Surface Go should tell you all you need to know. As he got it more recently, he had the option of the new AMD model, which meant waiting a while due to the batch system, but it only took just over a week to arrive once it shipped. He's been very happy with it, and it's worked excellently thus far.
 
-## 2024 Update
+## Post Year
 
-I'm still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework finally [released a new beta BIOS](https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244). This beta process then proceeded to once again stall for a significant period, and several people [(including myself)](https://community.frame.work/t/my-framework-has-been-abandoned) called out the lack of transparency and critical security patches. They've taken action to improve, but it does leave a sour taste in my mouth.
+I'm still loving my Framework, but a bit has changed since I wrote this article. Firstly, Framework finally [released a new beta BIOS](https://community.frame.work/t/12th-gen-intel-core-bios-3-08-beta-release/43244). This beta process then proceeded to once again stall for a significant period, and several people [(including myself)](https://community.frame.work/t/my-framework-has-been-abandoned) called out the lack of transparency and critical security patches. They've taken action to improve, but it does leave a sour taste in my mouth. What good is repairable and maintainable hardware if the software lets it down?
 
-In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly am loving it.
+In terms of my specific computer, I've made some changes. At the end of 2023, I moved from Arch Linux to NixOS. It's got an awesome declarative configuration model that allows the entire OS to be regenerated whenever needed. I truly am loving it. Things on NixOS are a tad *different* to your typical Linux distribution, which makes it slightly more fiddly in some respects, but it's lovely nonetheless.
 
-I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having a QWERTY keyboard, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too difficult thanks to the comprehensive documentation hosted on Framework's [Knowledge Base](https://knowledgebase.frame.work), but it was time consuming. There were _so many screws_. I'm happy with the end result though, and really love the sleek, minimalist style it provides.
+I also chose to leverage the modularity of my Framework by switching out my keyboard. As I use Colemak DH, there wasn't much point in having keycaps with a QWERTY layout, so I moved to a [blank keyboard](https://frame.work/au/en/products/keyboard-blank). The process wasn't too difficult thanks to the comprehensive documentation hosted on Framework's [Knowledge Base](https://knowledgebase.frame.work), but it was time-consuming. There were _so many screws_. I'm happy with the end result though, and really love the sleek, minimalist style it provides.
 
----
-
-I hope you enjoyed this review. If you've got any questions about the laptop, then I'm happy to answer them in the comments, and if you want to support me in writing more like this in the future, then consider [supporting me](/support).
+Something I have noticed is that my acid sweat seems to be deteriorating the chassis. I [posted about this on the Framework Forum](https://community.frame.work/t/pitting-on-palmrest), and it has continued to deteriorate since then. Rather disappointing, considering that putting my hands on a palm rest is very much expected usage. I'll likely have to look into taking some form of action to avoid this getting worse in the near future.
