@@ -54,7 +54,7 @@ class ScrollProgressIndicator {
 		const line = document.createElement("a");
 		line.href = `#${header.id}`;
 		line.className = "heading-indicator";
-		line.setAttribute("data-title", header.textContent);
+		line.setAttribute("title", header.textContent);
 
 		if (isHorizontal) {
 			line.style.left = `${position}%`;

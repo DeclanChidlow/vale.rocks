@@ -145,18 +145,6 @@
 		width: 3px;
 		height: 5px;
 		background-color: light-dark(var(--bright_white), var(--black));
-		cursor: pointer;
-
-		&:hover::after {
-			content: attr(data-title);
-			position: absolute;
-			left: 15px;
-			top: 50%;
-			background-color: var(--bright_grey);
-			color: white;
-			padding: 4px 10px;
-			white-space: nowrap;
-		}
 
 		&:after {
 			content: none;
