@@ -1,73 +1,122 @@
-document.addEventListener("DOMContentLoaded", () => {
-	document.querySelectorAll("figure").forEach((figure) => {
-		const img = figure.querySelector("img");
-		if (img) {
-			figure.style.backgroundImage = `url('${img.src}')`;
-		}
-	});
-
-	function createLightboxDialogs(selector) {
-		if (!selector) {
-			return console.error("Missing selector argument");
-		}
-
-		const buttonTemplate = document.createElement("button");
-		buttonTemplate.classList.add("lightbox-button");
-		buttonTemplate.setAttribute("aria-haspopup", "dialog");
-
-		const dialogTemplate = document.createElement("dialog");
-		dialogTemplate.classList.add("lightbox");
-		dialogTemplate.innerHTML = `
-            <form method="dialog">
-                <button id="close" type="submit">
-                    <span class="icons">close</span>
-                </button>
-                <figure>
-					<img>
-					<figcaption>
-						<p class="caption"></p>
-						<hr/>
-						<p class="alt-text"></p>
-					</figcaption>
-				</figure>
-            </form>
-        `;
-
-		function createDialog(img) {
-			const button = buttonTemplate.cloneNode();
-			const dialog = dialogTemplate.cloneNode(true);
-			const dialogImg = dialog.querySelector("img");
-			const caption = dialog.querySelector(".caption");
-			const altText = dialog.querySelector(".alt-text");
-
-			dialogImg.src = img.src;
-			dialogImg.alt = img.alt;
-			altText.textContent = img.alt;
-
-			const figcaption = img.closest("figure").querySelector("figcaption");
-			caption.textContent = figcaption ? figcaption.textContent : "";
-
-			img.before(button);
-			button.append(img);
-			button.after(dialog);
-
-			button.addEventListener("click", () => {
-				dialog.showModal();
-			});
-
-			dialog.addEventListener("click", (event) => {
-				if (event.target === dialog) {
-					dialog.close();
-				}
-			});
-		}
-
-		[...document.querySelectorAll(selector)].forEach(createDialog);
+class FigureGlowLightbox {
+	constructor() {
+		this.figures = document.querySelectorAll("figure");
+		this.init();
 	}
 
-	createLightboxDialogs("figure img");
+	init() {
+		if (!this.figures.length) {
+			console.warn("No figures found");
+			return;
+		}
+		this.setupFigures();
+	}
 
-	document.querySelectorAll("figure img").forEach((img) => {
-		img.style.cursor = "zoom-in";
-	});
+	createDialog(figure, index) {
+		const dialog = document.createElement("dialog");
+		dialog.id = `lightbox-${index}`;
+		dialog.className = "lightbox";
+
+		const clonedImg = figure.querySelector("img").cloneNode(true);
+		const closeButton = this.createCloseButton();
+
+		dialog.appendChild(clonedImg);
+		dialog.appendChild(closeButton);
+
+		const caption = this.createCaption(figure);
+		if (caption) {
+			dialog.appendChild(caption);
+		}
+
+		const altText = clonedImg.getAttribute("alt");
+		const altElement = this.createAltTextElement(altText);
+		if (altElement) {
+			dialog.appendChild(altElement);
+		}
+
+		return dialog;
+	}
+
+	createCaption(figure) {
+		const figcaption = figure.querySelector("figcaption");
+		if (figcaption) {
+			const clonedCaption = figcaption.cloneNode(true);
+			clonedCaption.className = "caption";
+			return clonedCaption;
+		}
+		return null;
+	}
+
+	createAltTextElement(altText) {
+		if (!altText) return null;
+
+		const altElement = document.createElement("p");
+		altElement.className = "alt-text";
+		altElement.textContent = `Alt Text: ${altText}`;
+		return altElement;
+	}
+
+	createBlur(img) {
+		const blur = document.createElement("div");
+		blur.className = "blur";
+		blur.style.backgroundImage = `url('${img.src}')`;
+		return blur;
+	}
+
+	createCloseButton() {
+		const closeButton = document.createElement("button");
+		closeButton.textContent = "×";
+		closeButton.className = "close";
+		closeButton.setAttribute("aria-label", "Close lightbox");
+		return closeButton;
+	}
+
+	addBlurEffect(figure) {
+		const wrapper = document.createElement("div");
+		wrapper.className = "figure-content-wrapper";
+		const originalImg = figure.querySelector("img");
+		const blur = this.createBlur(originalImg);
+		wrapper.appendChild(blur);
+		originalImg.parentNode.insertBefore(wrapper, originalImg);
+		wrapper.appendChild(originalImg);
+	}
+
+	setupFigure(figure, index) {
+		this.addBlurEffect(figure);
+		const dialog = this.createDialog(figure, index);
+		document.body.appendChild(dialog);
+		figure.style.cursor = "zoom-in";
+		this.setupEventListeners(figure, dialog);
+	}
+
+	setupEventListeners(figure, dialog) {
+		figure.addEventListener("click", () => {
+			dialog.showModal();
+		});
+
+		dialog.querySelector(".close").addEventListener("click", () => {
+			dialog.close();
+		});
+
+		dialog.addEventListener("click", (e) => {
+			const rect = dialog.getBoundingClientRect();
+			if (e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom) {
+				dialog.close();
+			}
+		});
+
+		dialog.addEventListener("keydown", (e) => {
+			if (e.key === "Escape") {
+				dialog.close();
+			}
+		});
+	}
+
+	setupFigures() {
+		this.figures.forEach((figure, index) => this.setupFigure(figure, index));
+	}
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+	new FigureGlowLightbox();
 });
