@@ -1,10 +1,9 @@
 (books) => main_template.ori({
 	title: "Books"
 	description: "An index of many of the books I have read and those which I have given up on. Also links to the locations of my reviews across the web."
+	stylesheet: "pages/bookshelf.css"
 
 	@text: indent`
-	<link rel="stylesheet" href="/assets/styles/pages/bookshelf.css">
-
 	<h1 id="section" data-pagefind-filter="Content Type:Page">Books</h1>
 
 	<div>

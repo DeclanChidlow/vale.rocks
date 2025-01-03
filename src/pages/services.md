@@ -1,9 +1,8 @@
 ---
 title: Services
 description: Explore my self-hosted services, including my instances of Akkoma and Jellyfin and deployment of AutoMod. View live status and availability.
+stylesheet: "pages/services.css"
 ---
-
-<link rel="stylesheet" href="/assets/styles/pages/services.css">
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Services</h1>
 

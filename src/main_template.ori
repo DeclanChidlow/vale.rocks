@@ -44,6 +44,9 @@
 		<link rel="stylesheet" href="/assets/styles/components/input.css">
 		<link rel="stylesheet" href="/assets/styles/components/figures.css">
 		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		${ page/stylesheet ? `
+			<link rel="stylesheet" href="/assets/styles/${ page/stylesheet}">
+		` : '' }
 
 		<link rel="alternate" type="application/rss+xml" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.xml">
 		<link rel="alternate" type="application/json" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.json">

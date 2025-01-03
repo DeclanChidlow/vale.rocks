@@ -1,10 +1,9 @@
 (portfolio_data) => main_template.ori({
 	title: "Portfolio"
 	description: "My portfolio of works, including design and development endeavours, presented for your perusal."
+	stylesheet: "pages/portfolio.css"
 
 	@text: indent`
-	<link rel="stylesheet" href="/assets/styles/pages/portfolio.css">
-	
 	<h1 id="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
 
 	<div class="portfolio-items" data-pagefind-ignore="all">

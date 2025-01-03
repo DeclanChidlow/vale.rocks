@@ -1,10 +1,9 @@
 (paginated_firehose_data) => main_template.ori({
 	title: "Firehose",
 	description: "Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, etc. This is everything, all in one place, coming 'atcha!",
+	stylesheet: "pages/firehose.css"
 
 	@text: indent`
-	<link rel="stylesheet" href="/assets/styles/pages/firehose.css">
-
 	<h1 id="section" data-pagefind-ignore>Firehose</h1>
 
 	<div data-pagefind-ignore="all">

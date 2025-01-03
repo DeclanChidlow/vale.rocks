@@ -1,10 +1,9 @@
 (posts_data) => main_template.ori({
 	title: "Posts"
 	description: "Browse my essays, tutorials, and reviews and more on topics including development, design, and digital culture."
+	stylesheet: "pages/posts.css"
 
 	@text: indent`
-	<link rel="stylesheet" href="/assets/styles/pages/posts.css">
-
 	<h1 id="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 
 	<div class="page" data-pagefind-ignore="all">

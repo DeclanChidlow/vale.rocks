@@ -5,10 +5,10 @@
 	pub_time: post/pub_time
 	mod_time: post/mod_time
 	section: post/section
+	stylesheet: "components/article_header.css"
 
 	@text: indent`
 
-	<link rel="stylesheet" href="/assets/styles/components/article_header.css">
 	<style>:root{--header_background: var(--magenta)}</style>
 
 	<span class="sidebar">

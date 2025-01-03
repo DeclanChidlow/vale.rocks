@@ -1,9 +1,8 @@
 ---
 title: Search
 description: An index of all my syndication feeds in various formats, including RSS, JSON Feed, and Atom, that users can subscribe to for easy subscription and updates.
+stylesheet: "pages/search.css"
 ---
-
-<link rel="stylesheet" href="/assets/styles/pages/search.css">
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Search</h1>
 

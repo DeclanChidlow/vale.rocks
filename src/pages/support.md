@@ -1,9 +1,8 @@
 ---
 title: Support
 description: Information regarding how to financially support me to keep servers running and projects growing. Support my open source development, hosting, and content creation.
+stylesheet: "pages/support.css"
 ---
-
-<link rel="stylesheet" href="/assets/styles/pages/support.css">
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Support</h1>
 

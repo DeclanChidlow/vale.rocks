@@ -2,9 +2,9 @@
 	title: "Index"
 	description: "The personal website of Declan Chidlow, known mononymously as Vale, containing my thoughts, musings, and otherwise unhinged ramblings."
 	og_description: "The hippest site this side of MySpace."
+	stylesheet: "pages/index.css"
 
 	@text: indent`
-		<link rel="stylesheet" href="/assets/styles/pages/index.css">
 		<link rel="stylesheet" href="/assets/styles/pages/posts.css">
 
 		<div id="puddle-container"></div>
