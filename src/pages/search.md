@@ -11,7 +11,16 @@ stylesheet: "pages/search.css"
 <script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
 
-<noscript>Searching Vale.Rocks requires JavaScript. You might consider doing a site search in a search engine.</noscript>
+<noscript>
+<p>For full search functionality JavaScript is required. This is a fallback that will perform a site search using Google.</p>
+
+<form class="no-js-search" role="search" action="https://google.com/search" method="GET">
+  <label for="search-for">Search with Google:</label>
+  <input id="search-for" type="search" name="q" required>
+  <input type="hidden" name="q" value="site:vale.rocks">
+  <button type="submit">Search</button>
+</form>
+</noscript>
 
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
