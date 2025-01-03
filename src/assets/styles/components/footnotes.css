@@ -1,60 +1,54 @@
-a[data-footnote-ref] {
-	padding: 0.25rem;
-	margin: -0.25rem;
-}
-
-li[id^="footnote-"] {
-	padding: 0 0.5rem;
-	font-size: 0.8rem;
-
-	p {
-		padding-left: 1rem;
-		border-left: 2px solid light-dark(var(--white), var(--bright_grey));
-		font-size: inherit;
-	}
-}
-
-.footnote-popover {
-	display: none;
-	position: absolute;
-	border: 2px solid light-dark(var(--white), var(--bright_grey));
-	background: light-dark(var(--bright_white), var(--black));
-	padding: 1rem;
-	z-index: 1000;
-	line-height: initial;
-	font-size: 0.9rem;
-}
-
-a[data-footnote-ref].highlight,
-.sidenote.highlight {
-	outline: 2px solid var(--blue);
-}
-
-a[data-footnote-backref]::after,
-a[data-footnote-ref]::after {
-	content: none;
-}
-
 .sidenote {
 	display: none;
-}
 
-@media (min-width: 90rem) {
-	.sidenote {
+	@media (min-width: 1400px) {
 		display: block;
 		position: absolute;
-		left: 65rem;
+		left: 68rem;
 		right: 3rem;
-		max-width: 40rem;
-		font-size: 0.8rem;
-		line-height: 1.2rem;
+		max-width: 60ch;
+		font-size: small;
 		color: light-dark(var(--grey), var(--white));
-		padding: 0.5rem 1rem;
+		padding-bottom: 1rem;
 		transition: background-color 0.25s;
 
 		p {
 			border-top: 1px solid light-dark(var(--white), var(--bright_grey));
 			padding-top: 0.25rem;
 		}
+
+		[data-footnote-backref]::after {
+			content: none;
+		}
 	}
+}
+
+.footnote-button.highlight,
+.sidenote.highlight {
+	outline: 2px solid var(--blue);
+}
+
+.footnote-popover {
+	position: absolute;
+	color: inherit;
+	inset: auto auto auto 13rem;
+	border: 2px solid light-dark(var(--white), var(--bright_grey));
+	background: light-dark(var(--bright_white), var(--black));
+	padding: 0.5rem 1rem;
+	font-size: small;
+
+	@media (max-width: 700px) {
+		inset: auto 0.8rem;
+	}
+
+	[data-footnote-backref] {
+		display: none;
+	}
+}
+
+.footnote-button {
+	/* Also inherits from link styles in `/type/links.css` */
+	display: initial;
+	background: none;
+	padding: 0 0.25rem;
 }

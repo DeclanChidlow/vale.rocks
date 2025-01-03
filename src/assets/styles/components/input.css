@@ -6,7 +6,7 @@ textarea {
 	color: light-dark(var(--black), var(--bright_white));
 	padding: 0.2rem 0.5rem;
 	background: light-dark(var(--white), var(--grey));
-	border: none;
+	border: transparent;
 	border-radius: 0;
 	text-overflow: ellipsis;
 	-webkit-appearance: none;
