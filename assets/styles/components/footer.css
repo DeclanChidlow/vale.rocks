@@ -65,7 +65,8 @@ footer {
 		}
 	}
 
-	a {
+	a,
+	.footer-bottom a {
 		color: light-dark(var(--magenta), var(--yellow));
 		text-decoration: none;
 
@@ -74,7 +75,7 @@ footer {
 			opacity: 0.6;
 		}
 
-		&:after {
+		&::after {
 			display: none;
 		}
 	}
