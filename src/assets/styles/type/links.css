@@ -20,11 +20,11 @@ a,
 		line-height: 0;
 	}
 
-	&[href^="#"]:after {
+	&[href^="#"]::after {
 		content: "swap_vert" / "Anchor";
 	}
 
-	&&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
+	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
 		content: "arrow_outward" / "External";
 	}
 

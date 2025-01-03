@@ -47,8 +47,7 @@ body {
 main {
 	display: flex;
 	gap: 3rem;
-	max-width: 100rem;
-	margin: 5rem auto;
+	margin: 5rem 0;
 
 	> div {
 		width: 100%;
