@@ -40,6 +40,50 @@ main {
 	display: flex;
 	flex-direction: column;
 	gap: 7rem;
+
+	section {
+		max-width: 90rem;
+
+		h2 {
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+.posts {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 2rem;
+
+	.post {
+		border-bottom: 2px solid var(--bright_grey);
+		height: 6.5rem;
+		padding-bottom: 0.5rem;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:focus,
+		&:hover {
+			color: var(--blue);
+			border-color: var(--blue);
+		}
+
+		ul {
+			margin: 0;
+			list-style: none;
+			display: flex;
+			gap: 0.25rem;
+
+			li {
+				margin: 0;
+				list-style: inherit;
+			}
+		}
+	}
+
+	@media (min-width: 60rem) {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 .portfolio-items a {

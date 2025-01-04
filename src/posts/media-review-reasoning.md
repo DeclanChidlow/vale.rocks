@@ -3,7 +3,6 @@ title: Media Review Reasoning
 description: A breakdown of the reasoning behind my reviews with particular emphasis on the five-point rating system and why I dislike it yet go along anyway.
 og_description: How many stars equal good?
 pub_time: 2024-12-10
-mod_time: 2024-12-10
 section: Essay
 word_count: 809
 ---

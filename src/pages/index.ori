@@ -5,8 +5,6 @@
 	stylesheet: "pages/index.css"
 
 	@text: indent`
-		<link rel="stylesheet" href="/assets/styles/pages/posts.css">
-
 		<div id="puddle-container"></div>
 
 		<section class="hero" data-pagefind-filter="Content Type:Page">
@@ -26,26 +24,32 @@
 			</section>
 
 			<section data-pagefind-ignore="all">
-				<h2>Read My Writings:</h2>
+				<a href="/posts"><h2>Read My Writings:</h2></a>
 
-				<div id="post-items">
+				<div class="posts">
 					${ map(take(posts_data, 3),
 					(post, key) => indent`
 						<a class="post" href="/posts/${ basename(key) }">
 							<p>${ post/section }</p>
 							<h3>${ post/title }</h3>
-							<div class="info">
-								<p>${ post/word_count } words</p>
-								<p><time datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></p>
-								<p><time datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></p>
-							</div>
+							<ul>
+								<li>${ post/word_count } words |</li>
+								<li><time datetime="${ post/pub_time }" title="Date of first publication.">
+									${ functions/pretty-date.js(post/pub_time) }
+								</time></li>
+								${ post/mod_time ? `
+									<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
+									- ${ functions/pretty-date.js(post/mod_time) }
+									</time></li>
+								` : '' }
+							</ul>
 						</a>
 					`)}
 				</div>
 			</section>
 
 			<section data-pagefind-ignore="all">
-				<h2>Peruse My Portfolio:</h2>
+				<a href="/portfolio"><h2>Peruse My Portfolio:</h2></a>
 
 				<div class="portfolio-items">
 					${ map(take(portfolio_data, 3),

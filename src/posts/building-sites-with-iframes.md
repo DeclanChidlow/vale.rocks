@@ -3,7 +3,6 @@ title: Building Sites With iFrames
 description: A look at putting iframes to use for seamlessly displaying content and implementing micro-frontends.
 og_description: Putting websites in websites.
 pub_time: 2024-10-08
-mod_time: 2024-10-08
 section: Tutorial
 word_count: 1145
 ---

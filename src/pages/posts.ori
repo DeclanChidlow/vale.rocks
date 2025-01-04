@@ -6,21 +6,25 @@
 	@text: indent`
 	<h1 id="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 
-	<div class="page" data-pagefind-ignore="all">
-		<div id="post-items">
-			${ map(posts_data,
-			(post, key) => indent`
-				<a class="post" href="/posts/${ basename(key) }">
-					<p>${ post/section }</p>
-					<h2>${ post/title }</h2>
-					<div class="info">
-						<p>${ post/word_count } words</p>
-						<p><time datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></p>
-						<p><time datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></p>
-					</div>
-				</a>
-			`)}
-		</div>
+	<div id="posts">
+		${ map(posts_data,
+		(post, key) => indent`
+			<a class="post" href="/posts/${ basename(key) }">
+				<p>${ post/section }</p>
+				<h2>${ post/title }</h2>
+				<ul>
+					<li>${ post/word_count } words |</li>
+					<li><time datetime="${ post/pub_time }" title="Date of first publication.">
+						${ functions/pretty-date.js(post/pub_time) }
+					</time></li>
+					${ post/mod_time ? `
+						<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
+						- ${ functions/pretty-date.js(post/mod_time) }
+						</time></li>
+					` : '' }
+				</ul>
+			</a>
+		`)}
 	</div>
 	`
 })
