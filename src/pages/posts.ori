@@ -6,25 +6,54 @@
 	@text: indent`
 	<h1 id="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 
-	<div id="posts">
-		${ map(posts_data,
-		(post, key) => indent`
-			<a class="post" href="/posts/${ basename(key) }">
-				<p>${ post/section }</p>
-				<h2>${ post/title }</h2>
-				<ul>
-					<li>${ post/word_count } words |</li>
-					<li><time datetime="${ post/pub_time }" title="Date of first publication.">
-						${ functions/pretty-date.js(post/pub_time) }
-					</time></li>
-					${ post/mod_time ? `
-						<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
-						- ${ functions/pretty-date.js(post/mod_time) }
+	<div>
+		<form id="refine-posts">
+			<div class="filter">
+				<label for="posts-filter">Category:</label>
+				<select id="posts-filter">
+					<option value="all">All</option>
+					<option value="review">Reviews</option>
+					<option value="essay">Essays</option>
+					<option value="tutorial">Tutorials</option>
+					<option value="meta">Meta</option>
+				</select>
+			</div>
+
+			<div class="sort">
+				<label for="posts-sort">Sort by:</label>
+				<select id="posts-sort">
+					<option value="published-desc">Published Descending</option>
+					<option value="published-asc">Published Ascending</option>
+					<option value="revised-desc">Revised Descending</option>
+					<option value="revised-asc">Revised Ascending</option>
+					<option value="length-desc">Length Descending</option>
+					<option value="length-asc">Length Ascending</option>
+				</select>
+			</div>
+		</form>
+
+		<div id="posts">
+			${ map(posts_data,
+			(post, key) => indent`
+				<a class="post" href="/posts/${ basename(key) }">
+					<p>${ post/section }</p>
+					<h2>${ post/title }</h2>
+					<ul>
+						<li>${ post/word_count } words |</li>
+						<li><time datetime="${ post/pub_time }" title="Date of first publication.">
+							${ functions/pretty-date.js(post/pub_time) }
 						</time></li>
-					` : '' }
-				</ul>
-			</a>
-		`)}
+						${ post/mod_time ? `
+							<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
+							- ${ functions/pretty-date.js(post/mod_time) }
+							</time></li>
+						` : '' }
+					</ul>
+				</a>
+			`)}
+		</div>
 	</div>
+
+	<script src="/assets/scripts/refine-posts.js"></script>
 	`
 })
