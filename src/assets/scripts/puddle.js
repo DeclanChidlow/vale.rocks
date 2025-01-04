@@ -1,261 +1,256 @@
 // Based on Puddle.js
 // https://batmannair.com/puddle.js
 
+const CONFIG = {
+	DEFAULT_UPDATE_INTERVAL: 100,
+	MIN_NODE_SIZE: 10,
+	MAX_RIPPLE_STRENGTH: 100.0,
+	FORCE_DAMPENING_RATIO: 0.85,
+	FORCE_CUTOFF: 2,
+	ASCII_SHADES: [..." .,:-=+*#%@"],
+	MOUSE_DELAY: 500,
+};
+
+const ASCII_THRESHOLDS = CONFIG.ASCII_SHADES.map((_, index) => (index * 100.0) / (CONFIG.ASCII_SHADES.length - 1));
+
 class AsciiNode {
 	constructor(xx, yy, data) {
-		// Node coordinates and data
 		this.xx = xx;
 		this.yy = yy;
 		this.data = data;
-
-		// Functions for node update and force computation
-		this.updateNode = this.updateNodeHelias;
-		this.computeForceAndDrawNode = this.computeForceAndDrawNodeHelias;
-
-		// Forces and direction variables
 		this.currentForce = 0;
 		this.nextForce = 0;
-
-		// Flags for update
 		this.isAddedToUpdate = false;
 		this.isMoveForceDelayComplete = true;
-
-		// ASCII shades and their corresponding threshold values
-		this.asciiShades = [..." .,:-=+*#%@"];
-		this.asciiThreshold = this.asciiShades.map((el, index) => (index * 100.0) / (this.asciiShades.length - 1));
+		this.element = this.#createNodeElement();
 	}
 
-	// Attach click and mousemove listeners
-	applyListeners() {
-		this.element.onclick = () => this.startRipple();
-		this.element.onmousemove = () => {
+	#createNodeElement() {
+		const element = document.createElement("span");
+		this.#drawNode(0, element);
+		this.#applyListeners(element);
+		return element;
+	}
+
+	#applyListeners(element) {
+		element.addEventListener("click", () => this.startRipple());
+
+		let moveTimeout;
+		element.addEventListener("mousemove", () => {
+			if (!this.isMoveForceDelayComplete) return;
+
 			this.isMoveForceDelayComplete = false;
 			this.startRipple();
-			setTimeout(() => (this.isMoveForceDelayComplete = true), 500);
-		};
+
+			clearTimeout(moveTimeout);
+			moveTimeout = setTimeout(() => {
+				this.isMoveForceDelayComplete = true;
+			}, CONFIG.MOUSE_DELAY);
+		});
 	}
 
-	// Create the HTML element representing the node
-	getNodeElement() {
-		this.element = document.createElement("span");
-		this.drawNode(0);
-		this.applyListeners();
-		return this.element;
-	}
-
-	// Start a ripple effect from this node
-	startRipple(rippleStrength = 0) {
-		if (!rippleStrength) rippleStrength = this.data.maxRippleStrength;
+	startRipple(rippleStrength = this.data.maxRippleStrength) {
 		this.currentForce = rippleStrength;
-
-		this.drawNode(rippleStrength);
-
-		// Update neighboring nodes
-		for (let yChange = -1; yChange <= 1; ++yChange) {
-			for (let xChange = -1; xChange <= 1; ++xChange) {
-				this.data.addToUpdateQueue(this.xx + xChange, this.yy + yChange);
-			}
-		}
+		this.#drawNode(rippleStrength, this.element);
+		this.#updateNeighbors();
 	}
 
-	// Update node's force based on the Helias algorithm
-	updateNodeHelias() {
-		// Helias math mode taken from https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm
-		// Fetch forces from neighboring nodes
-		let nodeUp = this.data.getNode(this.xx, this.yy - 1);
-		let nodeUpForce = nodeUp ? nodeUp.currentForce : 0;
-		let nodeDown = this.data.getNode(this.xx, this.yy + 1);
-		let nodeDownForce = nodeDown ? nodeDown.currentForce : 0;
-		let nodeRight = this.data.getNode(this.xx + 1, this.yy);
-		let nodeRightForce = nodeRight ? nodeRight.currentForce : 0;
-		let nodeLeft = this.data.getNode(this.xx - 1, this.yy);
-		let nodeLeftForce = nodeLeft ? nodeLeft.currentForce : 0;
+	#updateNeighbors() {
+		this.data.addToUpdateQueue(this.xx - 1, this.yy - 1);
+		this.data.addToUpdateQueue(this.xx, this.yy - 1);
+		this.data.addToUpdateQueue(this.xx + 1, this.yy - 1);
+		this.data.addToUpdateQueue(this.xx - 1, this.yy);
+		this.data.addToUpdateQueue(this.xx + 1, this.yy);
+		this.data.addToUpdateQueue(this.xx - 1, this.yy + 1);
+		this.data.addToUpdateQueue(this.xx, this.yy + 1);
+		this.data.addToUpdateQueue(this.xx + 1, this.yy + 1);
+	}
 
-		// Calculate next force based on neighboring forces
-		this.nextForce = (nodeUpForce + nodeDownForce + nodeRightForce + nodeLeftForce) / 2 - this.nextForce;
-		this.nextForce = this.nextForce * this.data.forceDampeningRatio;
+	updateNode() {
+		const { forceDampeningRatio } = this.data;
+		const neighborSum = this.#getNeighborForces();
 
+		this.nextForce = (neighborSum / 2 - this.nextForce) * forceDampeningRatio;
 		this.data.addToDrawQueue(this.xx, this.yy);
 	}
 
-	// Draw the node based on force magnitude
-	drawNode(forceMagnitude) {
-		forceMagnitude = Math.min(100, Math.max(0, forceMagnitude));
-		let index = this.asciiThreshold.findIndex((el) => el >= forceMagnitude);
-		this.element.innerText = this.asciiShades[index];
+	#getNeighborForces() {
+		return this.#getNodeForce(this.xx, this.yy - 1) + this.#getNodeForce(this.xx, this.yy + 1) + this.#getNodeForce(this.xx + 1, this.yy) + this.#getNodeForce(this.xx - 1, this.yy);
 	}
 
-	// Compute force and update node's visual representation
-	computeForceAndDrawNodeHelias() {
-		if (Math.abs(this.nextForce) < this.data.forceCutOff) this.nextForce = 0;
-		this.drawNode(this.nextForce);
-		let temp = this.currentForce;
-		this.currentForce = this.nextForce;
-		this.nextForce = temp;
+	#getNodeForce(xx, yy) {
+		const node = this.data.getNode(xx, yy);
+		return node?.currentForce || 0;
+	}
 
-		// Update neighboring nodes for force calculation
-		this.data.addToUpdateQueue(this.xx - 1, this.yy);
-		this.data.addToUpdateQueue(this.xx + 1, this.yy);
-		this.data.addToUpdateQueue(this.xx, this.yy - 1);
-		this.data.addToUpdateQueue(this.xx, this.yy + 1);
+	#drawNode(forceMagnitude, element) {
+		const clampedForce = Math.max(0, Math.min(100, forceMagnitude));
+		const index = ASCII_THRESHOLDS.findIndex((threshold) => threshold >= clampedForce);
+		element.textContent = CONFIG.ASCII_SHADES[index];
+	}
+
+	computeForceAndDrawNode() {
+		if (Math.abs(this.nextForce) < this.data.forceCutOff) {
+			this.nextForce = 0;
+		}
+
+		this.#drawNode(this.nextForce, this.element);
+		[this.currentForce, this.nextForce] = [this.nextForce, this.currentForce];
+		this.#updateNeighbors();
 	}
 }
 
-// Class managing the data for the puddle simulation
 class PuddleData {
 	constructor(numRows, numCols) {
-		// Initialize data structures
-		this.nodeList = [];
-		this.updateQueue = [];
-		this.drawQueue = [];
-		this.isUpdateDone = true;
+		this.nodeList = new Array(numRows * numCols);
+		this.updateQueue = new Set();
+		this.drawQueue = new Set();
 		this.numRows = numRows;
 		this.numCols = numCols;
-
-		// Default simulation parameters
-		this.maxRippleStrength = 100.0;
-		this.forceDampeningRatio = 0.85; // Force dampening percent
-		this.forceCutOff = 2; // Axial force less than this is set to 0
+		this.isUpdateDone = true;
+		this.maxRippleStrength = CONFIG.MAX_RIPPLE_STRENGTH;
+		this.forceDampeningRatio = CONFIG.FORCE_DAMPENING_RATIO;
+		this.forceCutOff = CONFIG.FORCE_CUTOFF;
 	}
 
-	// Refresh and set new dimensions for the simulation
 	refresh(numRows, numCols) {
-		this.nodeList = [];
-		this.updateQueue = [];
-		this.drawQueue = [];
-		this.isUpdateDone = true;
+		this.nodeList = new Array(numRows * numCols);
+		this.updateQueue.clear();
+		this.drawQueue.clear();
 		this.numRows = numRows;
 		this.numCols = numCols;
+		this.isUpdateDone = true;
 	}
 
-	// Add node to the simulation grid
-	appendNode(node) {
-		this.nodeList.push(node);
+	isValidCoordinate(xx, yy) {
+		return xx >= 0 && xx < this.numCols && yy >= 0 && yy < this.numRows;
 	}
 
-	// Get node at specific coordinates in the grid
+	getIndex(xx, yy) {
+		return yy * this.numCols + xx;
+	}
+
+	appendNode(node, index) {
+		this.nodeList[index] = node;
+	}
+
 	getNode(xx, yy) {
-		if (xx < 0 || xx >= this.numCols || yy < 0 || yy >= this.numRows) return undefined;
-		return this.nodeList[yy * this.numCols + xx];
+		return this.isValidCoordinate(xx, yy) ? this.nodeList[this.getIndex(xx, yy)] : null;
 	}
 
-	// Add node to the update queue if not already added
 	addToUpdateQueue(xx, yy) {
-		if (xx < 0 || xx >= this.numCols || yy < 0 || yy >= this.numRows) return;
-		let index = yy * this.numCols + xx;
-		if (!this.nodeList[index].isAddedToUpdate) {
-			this.updateQueue.push(index);
-			this.nodeList[index].isAddedToUpdate = true;
+		if (!this.isValidCoordinate(xx, yy)) return;
+
+		const index = this.getIndex(xx, yy);
+		const node = this.nodeList[index];
+
+		if (!node.isAddedToUpdate) {
+			this.updateQueue.add(index);
+			node.isAddedToUpdate = true;
 		}
 	}
 
-	// Add node to the draw queue
 	addToDrawQueue(xx, yy) {
-		// Adding to draw is only done on self and so no errors should pop up
-		let index = yy * this.numCols + xx;
-		this.drawQueue.push(index);
+		this.drawQueue.add(this.getIndex(xx, yy));
 	}
 
-	// Draw elements in the draw queue
 	drawElements() {
-		let drawList = this.drawQueue;
-		this.drawQueue = [];
-		for (const index of drawList) {
-			let node = this.nodeList[index];
-			node.computeForceAndDrawNode();
+		for (const index of this.drawQueue) {
+			this.nodeList[index].computeForceAndDrawNode();
 		}
+		this.drawQueue.clear();
 	}
 
-	// Update elements in the update queue
 	updateElements() {
+		if (!this.isUpdateDone) {
+			console.warn("Previous update not completed, skipping update");
+			return;
+		}
+
 		this.isUpdateDone = false;
-		let updateList = this.updateQueue;
-		this.updateQueue = [];
-		for (const index of updateList) {
-			let node = this.nodeList[index];
-			node.isAddedToUpdate = false;
+
+		for (const index of this.updateQueue) {
+			this.nodeList[index].isAddedToUpdate = false;
+			this.nodeList[index].updateNode();
 		}
-		for (const index of updateList) {
-			let node = this.nodeList[index];
-			node.updateNode();
-		}
+		this.updateQueue.clear();
+
 		this.drawElements();
 		this.isUpdateDone = true;
 	}
 }
 
-// Main class managing the entire puddle simulation
 class Puddle {
-	constructor(queryElement, updateInterval = 100) {
-		// Initialize parent node and simulation data
+	constructor(queryElement, updateInterval = CONFIG.DEFAULT_UPDATE_INTERVAL) {
 		this.parentNode = document.querySelector(queryElement);
-		this.data = new PuddleData(this.numRows, this.numCols);
+		if (!this.parentNode) {
+			throw new Error(`Element ${queryElement} not found`);
+		}
+
 		this.updateInterval = updateInterval;
-		this.nodeStyle = AsciiNode;
-		this.nodeSize = 14;
-		this.updateLoop = undefined;
-		this.setupDefaultOptions();
+		this.nodeSize = CONFIG.MIN_NODE_SIZE;
 
-		// Event listener for window resize
-		window.addEventListener("resize", () => this.resizeHandler());
+		this.resizeHandler = this.#resizeHandler.bind(this);
+		window.addEventListener("resize", this.resizeHandler);
+
+		this.#initialize();
 	}
 
-	// Set the style of nodes
-	setNodeStyle() {
-		this.nodeStyle = AsciiNode;
+	#initialize() {
+		this.#setupDimensions();
+		this.data = new PuddleData(this.numRows, this.numCols);
 		this.setupGrid();
 	}
 
-	// Set default options for the simulation based on parent node dimensions
-	setupDefaultOptions() {
-		this.elementWidth = this.parentNode.scrollWidth;
-		this.elementHeight = this.parentNode.scrollHeight;
-		let lesserDimension = this.elementHeight < this.elementWidth ? this.elementHeight : this.elementWidth;
-		this.nodeSize = (lesserDimension * 3) / 100;
-		if (this.elementHeight) {
-			this.numRows = Math.floor(this.elementHeight / this.nodeSize);
-			this.numCols = Math.floor(this.elementWidth / this.nodeSize);
+	#setupDimensions() {
+		const { scrollWidth, scrollHeight } = this.parentNode;
+		const lesserDimension = Math.min(scrollHeight, scrollWidth);
+		this.nodeSize = Math.max(CONFIG.MIN_NODE_SIZE, (lesserDimension * 3) / 100);
+
+		if (scrollHeight) {
+			this.numRows = Math.floor(scrollHeight / this.nodeSize);
+			this.numCols = Math.floor(scrollWidth / this.nodeSize);
 		}
 	}
 
-	// Resize the grid based on parent node dimensions
-	resizeGrid() {
-		this.elementWidth = this.parentNode.scrollWidth;
-		this.elementHeight = this.parentNode.scrollHeight;
-		if (this.elementHeight) {
-			this.numRows = Math.floor(this.elementHeight / this.nodeSize);
-			this.numCols = Math.floor(this.elementWidth / this.nodeSize);
-		}
+	#resizeHandler() {
+		this.#setupDimensions();
 		this.setupGrid();
 	}
 
-	// Function to handle resizing of the grid
-	resizeHandler() {
-		this.resizeGrid();
-	}
-
-	// Set up the grid structure and initialize nodes for the simulation
 	setupGrid() {
 		clearInterval(this.updateLoop);
 		this.data.refresh(this.numRows, this.numCols);
 
+		const fragment = document.createDocumentFragment();
 		this.parentNode.innerHTML = "";
-		this.parentNode.style.cssText = `grid-template-columns: repeat(${this.numCols}, ${this.nodeSize}px); grid-template-rows: repeat(${this.numRows}, ${this.nodeSize}px);`;
 
-		for (let yy = 0; yy < this.numRows; ++yy) {
-			for (let xx = 0; xx < this.numCols; ++xx) {
-				let node = new this.nodeStyle(xx, yy, this.data);
-				this.data.appendNode(node);
-				this.parentNode.appendChild(node.getNodeElement());
-			}
+		this.parentNode.style.cssText = `
+      grid-template-columns: repeat(${this.numCols}, ${this.nodeSize}px);
+      grid-template-rows: repeat(${this.numRows}, ${this.nodeSize}px);
+    `;
+
+		const totalNodes = this.numRows * this.numCols;
+		for (let i = 0; i < totalNodes; i++) {
+			const yy = Math.floor(i / this.numCols);
+			const xx = i % this.numCols;
+
+			const node = new AsciiNode(xx, yy, this.data);
+			this.data.appendNode(node, i);
+			fragment.appendChild(node.element);
 		}
 
-		this.updateLoop = setInterval(() => this.tryUpdateElements(), this.updateInterval);
-	}
-
-	// Try to update elements in the simulation
-	tryUpdateElements() {
-		if (this.data.isUpdateDone) this.data.updateElements();
-		else console.log("Previous update not completed, skipping update");
+		this.parentNode.appendChild(fragment);
+		this.updateLoop = setInterval(() => this.data.updateElements(), this.updateInterval);
 	}
 }
+
+if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+	try {
+		const puddle = new Puddle("#puddle-container");
+	} catch (error) {
+		console.error("Failed to initialize puddle:", error);
+	}
+}
+
+export default Puddle;

@@ -59,16 +59,6 @@
 			<section>
 	</div>
 
-		<script>
-			if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-				const script = document.createElement("script");
-				script.src = "/assets/scripts/puddle.js";
-				script.onload = function () {
-					const puddle = new Puddle("#puddle-container");
-					puddle.setNodeStyle("ascii");
-				};
-				document.body.appendChild(script);
-			}
-		</script>
+	<script type="module" src="/assets/scripts/puddle.js"></script>
 	`
 })
