@@ -69,10 +69,11 @@ main {
 		}
 
 		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.25rem;
 			margin: 0;
 			list-style: none;
-			display: flex;
-			gap: 0.25rem;
 
 			li {
 				margin: 0;
