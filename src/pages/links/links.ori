@@ -1,4 +1,4 @@
-(tools-and-resources, misc) => main_template.ori({
+(blogs, tools-and-resources, misc) => main_template.ori({
 	title: "Links"
 	description: "A curated collection of intriguing and valuable links I've discovered while surfing the web."
 
@@ -6,7 +6,18 @@
 	<h1 id="section" data-pagefind-filter="Content Type">Links</h1>
 
 	<div class="readable-width">
-		<p>This is a curated collection of intriguing and valuable links I've discovered while surfing the web. Descriptions not provided. Quality not assured.</p> 
+		<p>This is a curated collection of intriguing and valuable links I've discovered while surfing the web.<br>
+		<i>Descriptions not provided. Content not ordered. Quality not assured.</i></p>
+
+		<h2>Blogs</h2>
+		<ul id="blogs">
+			${ blogs
+				→ =map(_, (link) => `
+					<li>
+					<a href="https://${ link/url }" target="_blank">${ link/title }</a>
+				  </li>
+			`) }
+		</ul>
 
 		<h2>Tools and Resources</h2>
 		<ul id="tools-and-resources">
