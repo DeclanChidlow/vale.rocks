@@ -89,7 +89,7 @@ class URLSuggester {
 				seenUrls.add(item.url);
 				return true;
 			})
-			.slice(0, "10");
+			.slice(0, 10);
 
 		return uniqueSimilarUrls.map((item) => location.origin + item.url);
 	}
@@ -101,12 +101,26 @@ class URLSuggester {
 		const container = document.createElement("div");
 
 		if (suggestions.length > 0) {
-			const list = suggestions.map((url) => `* ${url}`).join("\n");
-			container.textContent = list;
-		} else {
-			container.innerHTML = `No urls similar to <code>${currentPath}</code>.`;
-		}
+			const ul = document.createElement("ul");
+			const p = document.createElement("p");
 
+			p.textContent = "Maybe you meant to go to one of these:";
+			container.insertBefore(p, container.firstChild);
+
+			suggestions.forEach((url) => {
+				const li = document.createElement("li");
+				const a = document.createElement("a");
+				const cleanUrl = url.replace(/\.html$/, "");
+				a.href = cleanUrl;
+				a.textContent = cleanUrl;
+				li.appendChild(a);
+				ul.appendChild(li);
+			});
+			container.appendChild(ul);
+		} else {
+			container.innerHTML = `No URLs found similar to <code>${currentPath}</code>.`;
+		}
+		
 		const existingSuggestions = app.querySelector(".url-suggestions");
 		if (existingSuggestions) {
 			existingSuggestions.remove();
