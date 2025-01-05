@@ -5,6 +5,30 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <link>https://vale.rocks/posts/20250105-0307.html</link>
+      <guid>https://vale.rocks/posts/20250105-0307.html</guid>
+      <content:encoded><![CDATA[<p>Just started compiling some of my favourite blogs on my site. (I may or may not have lost my previous collection of RSS feeds…)</p>
+<p><a href="https://vale.rocks/links">https://vale.rocks/links</a></p>
+<p>I’m certain I’m missing tons, so please let me know of your favourites!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20250104-1057.html</link>
+      <guid>https://vale.rocks/posts/20250104-1057.html</guid>
+      <content:encoded><![CDATA[<p>Were you all just gonna let me keep on living without telling me about the <code>rch</code> unit?</p>
+<p>This is so insanely useful for one specific thing I ended up fixing with JS the other day.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/20250102-1033.html</link>
+      <guid>https://vale.rocks/posts/20250102-1033.html</guid>
+      <content:encoded><![CDATA[<p>I know it&#8217;s time to take a break when I start pulling this stunt:</p>
+<pre><code class="language-CSS"><span class="hljs-selector-tag">body</span> {
+    <span class="hljs-attribute">color</span> = white;
+}
+</code></pre>]]></content:encoded>
+    </item>
+    <item>
       <link>https://vale.rocks/posts/20250101-1149.html</link>
       <guid>https://vale.rocks/posts/20250101-1149.html</guid>
       <content:encoded><![CDATA[<p>Put together a links page on my site today. A curated collection of my bookmarks and findings while surfing the web.</p>

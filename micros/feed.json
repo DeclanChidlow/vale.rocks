@@ -5,6 +5,21 @@
   "feed_url": "https://vale.rocks/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/posts/20250105-0307.html",
+      "url": "https://vale.rocks/posts/20250105-0307.html",
+      "content_html": "<p>Just started compiling some of my favourite blogs on my site. (I may or may not have lost my previous collection of RSS feeds…)</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>I’m certain I’m missing tons, so please let me know of your favourites!</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250104-1057.html",
+      "url": "https://vale.rocks/posts/20250104-1057.html",
+      "content_html": "<p>Were you all just gonna let me keep on living without telling me about the <code>rch</code> unit?</p>\n<p>This is so insanely useful for one specific thing I ended up fixing with JS the other day.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250102-1033.html",
+      "url": "https://vale.rocks/posts/20250102-1033.html",
+      "content_html": "<p>I know it&#8217;s time to take a break when I start pulling this stunt:</p>\n<pre><code class=\"language-CSS\"><span class=\"hljs-selector-tag\">body</span> {\n    <span class=\"hljs-attribute\">color</span> = white;\n}\n</code></pre>"
+    },
+    {
       "id": "https://vale.rocks/posts/20250101-1149.html",
       "url": "https://vale.rocks/posts/20250101-1149.html",
       "content_html": "<p>Put together a links page on my site today. A curated collection of my bookmarks and findings while surfing the web.</p>\n<p>Watch your step. There are rabbit holes!</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>Do let me know if you have any more links I should check out.</p>\n"
