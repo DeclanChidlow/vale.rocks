@@ -120,7 +120,7 @@ class URLSuggester {
 		} else {
 			container.innerHTML = `No URLs found similar to <code>${currentPath}</code>.`;
 		}
-		
+
 		const existingSuggestions = app.querySelector(".url-suggestions");
 		if (existingSuggestions) {
 			existingSuggestions.remove();
