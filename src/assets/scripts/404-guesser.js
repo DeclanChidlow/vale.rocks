@@ -14,13 +14,24 @@ class URLSuggester {
 				this.urls = this.parseUrls(sitemapText);
 				const currentPath = window.location.pathname;
 				if (!currentPath.endsWith("/404")) {
-					const suggestions = this.findSimilarUrls(currentPath);
+					const normalizedPath = this.normalizePath(currentPath);
+					const suggestions = this.findSimilarUrls(normalizedPath);
 					this.injectSuggestions(currentPath, suggestions);
 				}
 			}
 		} catch (error) {
 			console.error("Error initializing URL suggester:", error);
 		}
+	}
+
+	normalizePath(path) {
+		if (path.startsWith("/blog/")) {
+			let slug = path.substring(6);
+			slug = slug.replace(/_/g, "-");
+			slug = slug.toLowerCase();
+			return `/posts/${slug}`;
+		}
+		return path;
 	}
 
 	async fetchSitemap() {
@@ -42,15 +53,12 @@ class URLSuggester {
 
 	boundedLevenshteinDistance(a, b, maxDistance) {
 		if (Math.abs(a.length - b.length) > maxDistance) return maxDistance + 1;
-
 		const matrix = Array(b.length + 1)
 			.fill(null)
 			.map((_, i) => [i]);
-
 		for (let j = 1; j <= a.length; j++) {
 			matrix[0][j] = j;
 		}
-
 		for (let i = 1; i <= b.length; i++) {
 			let minDistance = maxDistance + 1;
 			for (let j = 1; j <= a.length; j++) {
@@ -65,14 +73,20 @@ class URLSuggester {
 				return maxDistance + 1;
 			}
 		}
-
 		return matrix[b.length][a.length];
 	}
 
 	findSimilarUrls(targetUrl) {
 		const targetPath = new URL(targetUrl, location.origin).pathname;
 
-		const potentialMatches = this.urls.filter((url) => Math.abs(url.length - targetPath.length) <= this.maxDistance);
+		if (targetPath.startsWith("/posts/")) {
+			const exactMatch = this.urls.find((url) => url === targetPath);
+			if (exactMatch) {
+				return [location.origin + exactMatch];
+			}
+		}
+
+		const potentialMatches = this.urls.filter((url) => Math.abs(url.length - targetPath.length) <= this.maxDistance && !url.endsWith("/404.html"));
 
 		const similarUrls = potentialMatches
 			.map((url) => ({
@@ -99,12 +113,11 @@ class URLSuggester {
 		if (!app) return;
 
 		const container = document.createElement("div");
-
 		if (suggestions.length > 0) {
 			const ul = document.createElement("ul");
 			const p = document.createElement("p");
 
-			p.textContent = "Maybe you meant to go to one of these:";
+			p.innerHTML = `URLs similar to <code>${currentPath}</code>:`;
 			container.insertBefore(p, container.firstChild);
 
 			suggestions.forEach((url) => {
@@ -117,13 +130,11 @@ class URLSuggester {
 				ul.appendChild(li);
 			});
 			container.appendChild(ul);
+			const endText = document.createElement("p");
+			endText.innerHTML = "<br>Otherwise, you could always try make the page yourself...";
+			container.appendChild(endText);
 		} else {
-			container.innerHTML = `No URLs found similar to <code>${currentPath}</code>.`;
-		}
-
-		const existingSuggestions = app.querySelector(".url-suggestions");
-		if (existingSuggestions) {
-			existingSuggestions.remove();
+			container.innerHTML = `Couldn't find any URLs similar to <code>${currentPath}</code>. Perhaps try <a href='/search'>search</a> for the page instead?<br><br>Otherwise, you can always try to build it yourself...`;
 		}
 
 		container.className = "url-suggestions";
