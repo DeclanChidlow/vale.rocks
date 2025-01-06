@@ -1,0 +1,123 @@
+---
+title: My Experience Biohacking
+description: My experience getting an xG3 bio-magnet implanted in my hand. Covering the implantation, healing, and my newfound abilities.
+og_description: I'm pretty much a cyborg now.
+pub_time: 01/06/2025
+section: Essay
+word_count: 2171
+---
+
+Biohacking is a term that has unfortunately become entangled with tabloid tips, TikTok health trends, and pseudo'science'. However, beneath this surface noise exists dedicated communities exploring the frontiers of human enhancement through do-it-yourself cybernetics, biochemistry, and body modifications. A community driven by interests in transhumanism and an alignment with the hacker ethos that push boundaries in ways that extend far beyond the conventional ear piercing.
+
+Among the many _bleeding_-edge modifications that have come about in recent years, magnet implants stood out to me as perhaps the most intriguing, so I went about getting one.
+
+## Why?
+
+As my grandmother has taken to asking me, "But _why_ is it necessary?". Well, it obviously isn't strictly _necessary_, but it is cool as heck. There are two main benefits that can be sourced from a magnet implant. Sensing and lifting.
+
+Lifting is the easiest to understand. Magnets stick to ferrous objects, and thus ferrous objects can be lifted. As magnetic field strength decreases inversely with the cube of the distance from the magnet's centre and flesh has thickness [^1] the lifting ability of subdermal implants is limited.
+
+Sensing is a bit more complex to convey. By placing a magnet in a nerve-heavy location (such as the hand), you can gain a quite literal "sixth sense" -- the ability to _feel_ magnetic fields.
+
+## My Experience
+
+I first heard of magnet implants years ago and very much wished to pursue the process. I researched the process and queried those with experience in the now-defunct [biohack.me forums](https://forum.biohack.me/discussions/2909), but being a minor and considering all the catches that come with it, I didn't pursue the process at the time.
+
+Once I turned 18, I again looked into the process. Things in the scene had changed a bit in the intervening years. The [Titan](https://dangerousthings.com/product/titan), which is the magnet I was initially interested in, was discontinued as part of a redesign, and community-advised placements had been revised.
+
+After a bit of research, the [xG3](https://dangerousthings.com/product/xg3) came out on top as _the_ best (and one of the only) market offerings. The xG3 comes in two varieties, the v1 and v2. The v1 being axially magnetised, and the v2 being diametric. This makes the v1 best for sensing and the v2 best for lifting, though reported failures [lead to the v1 being discontinued](https://forum.dangerousthings.com/t/safety-advisory-xg3-v1/19500), leaving the v2 as the reasonable choice. I made a 3D printed analogue using the STLs on the Dangeous Things site to get a bit of a feel for the size.
+
+### The Procedure
+
+I got in contact with the [Dangerous Things Partner](https://dangerousthings.com/partners) closest to me and booked in a consultation.
+
+I couldn't have ended up at a better piercer. The staff were fantastic, and my piecer ran me through the steps and process. I had already looked into placement and had my eye on position 0, between my thumb and pointer. [^2]
+
+When I mentioned this to my piercer, he advised against that position due to the ergonomics (try bending your arm round so the back of your hand can pick up a screw on a table) and instead proposed a placement on the knife's edge (the fleshy bit down the side of your hand between your pinky and wrist). This fleshy placement also protects it in a position away from bone, meaning that in the event of trauma, it's less likely to be damaged.
+
+Checking I was comfortable, he asked me to close my eyes and touched three points along the knife's edge, asking me to rate which position had the most sensation to identify where would be best for getting the most of the sensing capabilities. We ended up identifying a position close to the pinky where I felt it best.
+
+I waited a few weeks post consult so I could align getting the implant with my school break to avoid impacting my education and ended up getting it on the 19th of September, 2024. I made sure to eat beforehand and went into the wonderfully decorated studio (they've got knickknacks of all varieties).
+
+After a bit of a wait and the signing of a waiver, I was called in. The room was cleaned and a bench was set up. My piercer ran me through every step and action they were taking as they got ready. My hand was wiped down with iodine to sterilise it, the needle was lubed, and he checked that I hadn't had a piercing before. I answered no, so he advised that I'm _probably_ best not to watch as he does it, but he did call someone over to [film the process](https://www.youtube.com/shorts/1xpmXkLNoSA) for my later viewing pleasure.
+
+It hurt a little bit, but it wasn't nearly as bad as it might look, and I was comfortable during the entire process. After removing the needle, he palpated the area to show the little magnetic capsule sitting under my skin, remarked how little I was bleeding, and applied the necessary dressings. Then he gave me a bag of medical goodies to use for redressing it, billed me, and sent me on my way. All up, it came to $240 AUD for the xG3 v2 (which they already had on hand) and installation.
+
+### Healing
+
+Upon leaving, the wound bled for a bit and soaked through some of the bandages. I must have looked like a bit of a sight at the bus stop...
+
+That night, and for several proceeding the implant, I made sure to sleep with it ever so subtly elevated and kept it on top of my doonah. Though it is beneficial to elevate limbs during the healing process, the main benefit of this was preventing me from rolling into some odd position and tearing off the dressings, injuring myself, or pushing out the magnet.
+
+<figure class="right">
+<img src="/assets/posts/my-experience-biohacking/day-2-20092024.avif" alt="A hand showing the needle insertion point surrounded by some dried blood. There is a bracket drawn on the hand with marker indicating the magnet's position with steri-strips stuck around it." />
+<figcaption>Implantation site on the morning of day two before replacing dressing.</figcaption>
+</figure>
+
+As it heals, there is a tendency for the body to try push out any foreign objects. While that behaviour is generally great, I _didn't_ want it to push out the foreign object in this case, so I secured the area with steri-strips to prevent movement.
+
+Every morning after waking up, I'd take the time to remove the patches and steri-strips, wipe down the area (initially with sanitised wipes, but later just with a damp paper towel once I ran out of them), and then reapply everything.
+
+On day two, I stuck a tiny needle to it, much to my amusement.
+
+On day four, I noticed the area noticeably had begun to swell. It also turned a bruised yellow-green colour, but in the days following it proceeded to dissipate, and it was greatly reduced by day 6.
+
+<figure class="right">
+<img src="/assets/posts/my-experience-biohacking/day-7-25092024.avif" alt="A slightly yellow, swollen hand showing a small, mostly healed mark with a bracket indicating the magnet's position." />
+<figcaption>Implantation site on day 7. Note the swelling.</figcaption>
+</figure>
+
+Come the 26th (day 8), the bruise had reduced to a subtle yellow tinge. The next day, it hurt a little bit for the first time since implantation. I can best describe it as a slight tightness, but it was nothing too bad.
+
+Come October first (day 13), the scab fell off, and the bruise visibly presented a little bit worse. Likely because I had started sticking paperclips to it. By the 6th I was comfortably sticking my metal tweezers to it, and by the 14th I was playing with it using other magnets (although taking great care).
+
+It's widely advised that you wait a few weeks before you start using it, and that it can take a few months to completely settle in. There were a few points during healing where I did somewhat question if there really was a magnet in my hand, and it was always surreal when I sensed something or proved its presence to myself by picking up a small ferrous something.
+
+I was pretty happy with the healing process, although I don't think I needed the Hirudoid Cream that I purchased. I used it, and it might have helped, but it realistically was an unnecessary extra cost that ultimately failed to prevent bruising or swelling.
+
+Despite the steri-strips, my magnet did end up migrating a bit. It ultimately ended up moving a centimetre and a half or so and finally settled about a centimetre from the needle insertion point, although the opening had closed by the time it made its way down there.
+
+The needle insertion point has left a small scar that has been fading, but I doubt will dissipate completely.
+
+### Experiences
+
+I've already talked about picking up paperclips, but that is a great joy. You can get a good trail going that dangles from your hand and follows it around almost like a snake if you guide it along a table. I tend to keep paperclips in my pocket now because they're such a good showcase and so expendable, making it a no-stress scenario should one be lost.
+
+Putting a magnet near it pulls the skin, which looks _really_ weird. Certainly conjures up thoughts of a Xenomorph bursting out of somebody's chest.
+
+As for sensing, the first time I truly felt something was when I passed my hand over my laptop charger. My laptop was almost dead and pulling a charge, and I _felt_ it. I can best describe the sensation as fluttering. Imagine the sensation of somebody blowing on your hand, but feeling it slightly under your skin. It's certainly an odd feeling.
+
+As time has gone on, I consciously feel this sensation less and am just aware of it. I suppose that's testament to the plasticity of the human brain in that I've switched from consciously feeling it to naturally interpreting it as a sense, like I would taste.
+
+When the laptop is low and pulling a current, the fluttering is strong. As it charges, the fluttering slowly dissipates until I can't sense it at all when fully charged. This makes it possible to tell the charge of my laptop (and other devices) without turning them on or needing to open the lid.
+
+Still on the topic of my laptop, I can lock and unlock it with a wave of my hand over the magnetic lid sensor. This is particularly handy for subtly disabling it when someone is looking over my shoulder or I don't want it to make a sound.
+
+I can also manipulate compasses, both physical ones and the virtual one on my phone. In fact, using [Phyphox](https://phyphox.org), I can get raw magnetometer readings in a graph view and manipulate it by moving my hand back and forth.
+
+Mid-December, I noticed the magnet became stronger. Objects that I previously could not pick up, including cutlery and scissors, I could now lift -- assuming there was sufficient surface area and my hands weren't sweaty. I'm not quite certain what caused this. Perhaps it's migrated closer to the surface? I'm unsure.
+
+One thing I didn't expect is that I'm conscious of it being inside me. I don't know if it's completely psychological and I'm duping myself into feeling it whenever I'm trying to decide if I can feel it. I would almost have expected my brain to treat it the same as other body parts. It feels like part of me, but at the same time, I can feel there is something in my hand that isn't strictly 'me'.
+
+## Frequently Asked Questions
+
+Most of the questions you may think to ask are already covered by Dangerous Thing's [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28).
+
+### Will it set off metal detectors?
+
+Apparently not, but I will be testing this when I travel internationally later this year.
+
+### Are you going to get more?
+
+More magnets? Almost certainly not. More body mods? Most likely in the future. If I ever find myself in frequent interaction with an RFID/NFC access control system, I'd consider some form of short field communication chip. I'd also really like a payment chip, though they aren't feasible in Australia currently, and when they are, I'd fear of technological innovation leaving me with an obsolete implant that I'd have to get removed.
+
+I must say, I would find something quite comical about being able to honestly say, "My hand has 1 kB of user-writable memory" completely factually though.
+
+### How do you get it out?
+
+Hopefully without much difficulty. Eventually, it will need to come out. This'll probably be because it's failed, been broken, or because I need an <abbr title="Magnetic Resonance Imaging">MRI</abbr>.
+
+Removing it is as 'simple' as finding a professional who can make a small incision and use another magnet to pull it out. The bioglass it's coated with should allow it to slide right out.
+
+[^1]: The exact thickness depends on how deeply deposited the magnet is within the tissue. Ideally, it'll be close to the surface, but due to potential imperfect installation and migration during healing, this doesn't always end up being the case.
+[^2]: There is a [general naming guide](https://forum.dangerousthings.com/t/naming-convention-for-implant-locations-in-the-hand/6075/2) for the placement of implants within the hand.
