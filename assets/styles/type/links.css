@@ -6,6 +6,7 @@ a,
 	-webkit-text-decoration-color: light-dark(var(--cyan), var(--blue));
 	text-decoration-skip-ink: none;
 	text-underline-offset: 0.2rem;
+	word-break: break-word;
 
 	&:hover,
 	&:active {
