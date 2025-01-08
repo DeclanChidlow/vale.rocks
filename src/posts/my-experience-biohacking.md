@@ -5,7 +5,7 @@ og_description: I'm pretty much a cyborg now.
 pub_time: 01/06/2025
 mod_time: 02/06/2025
 section: Essay
-word_count: 2682
+word_count: 2765
 ---
 
 Biohacking is a term that has unfortunately become entangled with tabloid tips, TikTok health trends, and pseudo'science'. However, beneath this surface noise exists dedicated communities exploring the frontiers of human enhancement through do-it-yourself cybernetics, biochemistry, and body modifications. Communities driven by interests in transhumanism and an alignment with the hacker ethos that push boundaries in ways that extend far beyond the conventional ear piercing.
@@ -82,7 +82,7 @@ The needle insertion point has left a small scar that has been fading, but I dou
 
 ### Experiences
 
-I've already talked about picking up paperclips, but that is a great joy. You can get a good trail going that dangles from your hand and follows it around almost like a snake if you guide it along a table. I tend to keep paperclips in my pocket now because they're such a good showcase and so expendable, making it a no-stress scenario should one be lost.
+I've already talked about picking up paperclips, but that is a great joy. You can get a good trail going that dangles from your hand and follows it around almost like a snake if you guide it along a table. I tend to keep paperclips in my pocket now because they're such a good showcase and so expendable, making it a no-stress scenario should one be lost. Of course, I can also clip them to things to allow lifting or manipulating them. For example, I can make it look like a bank note is dangling directly from my hand if I position things correctly to hide the paperclip. *Magic*.
 
 As for sensing, the first time I truly felt something was when I passed my hand over my laptop charger. My laptop was almost dead and pulling a charge, and I _felt_ it. I can best describe the sensation as fluttering. Imagine the sensation of somebody blowing on your hand, but feeling it slightly under your skin. It's certainly an odd feeling.
 
@@ -104,7 +104,7 @@ One thing I didn't expect is that I'm conscious of it being inside me. I don't k
 
 ## Frequently Asked Questions
 
-As you'd expect, I've been asked a _lot_ of questions about my magnet. Most of the questions you may think to ask are already covered by Dangerous Thing's [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28), but I'll cover some more here.
+As you'd expect, I've been asked a _lot_ of questions about my magnet. [^3] Most of the questions you may think to ask are already covered by Dangerous Thing's [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28), but I'll cover some more here.
 
 ### Will it set off metal detectors?
 
@@ -134,3 +134,4 @@ Not really. Field falloff makes certain that it isn't strong enough to attract t
 
 [^1]: The exact thickness depends on how deeply deposited the magnet is within the tissue. Ideally, it'll be close to the surface, but due to potential imperfect installation and migration during healing, this doesn't always end up being the case.
 [^2]: There is a [general naming guide](https://forum.dangerousthings.com/t/naming-convention-for-implant-locations-in-the-hand/6075/2) for the placement of implants within the hand.
+[^3]: Perhaps most humorously, people who have seen me lifting things, but to whom I haven't yet explained that I've got a subdermal magnet, sometimes ask me if my abilities are because I have high levels of iron in my blood.
