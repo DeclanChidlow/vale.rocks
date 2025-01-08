@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2024-12-31
+mod_time: 2025-01-08
 section: Meta
 word_count: 1085
 ---
@@ -27,7 +27,7 @@ With Adduce, I had the issue that lacking functions meant many parts of the site
 
 ## Current Version
 
-When I saw [a post from Jan Miksovsky](https://fosstodon.org/@JanMiksovsky/113516427582479669) looking "for people to playtest a programming language for making websites" I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.
+When I saw [a post from Jan Miksovsky](https://fosstodon.org/@JanMiksovsky/113516427582479669) looking "for people to playtest a programming language for making websites", I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.
 
 The language, [Origami](https://weborigami.org), didn't take long to win me over. It's a full programming language with all the bells and whistles you'd expect that makes it easy to do everything you'd need from a static site generator and allows you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.
 
@@ -35,7 +35,9 @@ In the hours following the playtest, I worked on porting my site over, and by th
 
 ### Search
 
-My entire site is [fully indexed and searchable](/search). This is achieved using [Pagefind](https://pagefind.app). Each page includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
+My entire site is fully searchable over on my [search page](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
+
+As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find) and implemented a fallback that does a site-specific search with Google should JavaScript be unavailable. I'd have preferred a better, more privacy-adhering, search engine, but unfortunately none provided results as good as Google.
 
 ### IndieWeb
 
