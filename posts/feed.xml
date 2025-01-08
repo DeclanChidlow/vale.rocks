@@ -91,7 +91,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
       <title>The Implementation of This Site</title>
       <link>https://vale.rocks/posts/the-implementation-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-implementation-of-this-site.html</guid>
@@ -108,11 +108,12 @@
 <p>From that, came my own static site generator, <a href="https://adduce.vale.rocks">Adduce</a>. Adduce is wonderful, and I love the flexibility allotted by being able to use it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I&#8217;m ill-equipped to address with my current Rust capabilities.</p>
 <p>With Adduce, I had the issue that lacking functions meant many parts of the site had to be hand-coded and modified, which was time-consuming, and I <a href="https://www.lesswrong.com/posts/Nq2BtFidsnhfLuNAx/?commentId=Xby4NTqhC3DzWKt9P">came to realise</a> that <em>something</em> needed to change. Thanks to my commitment to building things on web foundations such as HTML, CSS, and JS and not abstracting them, it was pretty easy to migrate as needed.</p>
 <h2 id="current-version">Current Version</h2>
-<p>When I saw <a href="https://fosstodon.org/@JanMiksovsky/113516427582479669">a post from Jan Miksovsky</a> looking &#8220;for people to playtest a programming language for making websites&#8221; I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.</p>
+<p>When I saw <a href="https://fosstodon.org/@JanMiksovsky/113516427582479669">a post from Jan Miksovsky</a> looking &#8220;for people to playtest a programming language for making websites&#8221;, I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.</p>
 <p>The language, <a href="https://weborigami.org">Origami</a>, didn&#8217;t take long to win me over. It&#8217;s a full programming language with all the bells and whistles you&#8217;d expect that makes it easy to do everything you&#8217;d need from a static site generator and allows you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.</p>
 <p>In the hours following the playtest, I worked on porting my site over, and by the end of the day, I already had the broad strokes down. Now, my site is fully functioning on Origami with many additive bells and whistles that weren&#8217;t previously possible with Adduce. The language is still maturing, but I&#8217;m loving it!</p>
 <h3 id="search">Search</h3>
-<p>My entire site is <a href="/search">fully indexed and searchable</a>. This is achieved using <a href="https://pagefind.app">Pagefind</a>. Each page includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.</p>
+<p>My entire site is fully searchable over on my <a href="/search">search page</a> thanks to the wonderful <a href="https://pagefind.app">Pagefind</a>. Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.</p>
+<p>As Pagefind is implemented client-side as a script, I&#8217;ve taken inspiration from <a href="https://dbushell.com/2024/11/21/static-search-page-find">David Bushell&#8217;s site</a> and implemented a fallback that does a site-specific search with Google should JavaScript be unavailable. I&#8217;d have preferred a better, more privacy-adhering, search engine, but unfortunately none provided results as good as Google.</p>
 <h3 id="indieweb">IndieWeb</h3>
 <p>In an effort to integrate open web concepts into this site, I&#8217;ve applied much of that outlined on the <a href="https://indieweb.org">IndieWeb wiki site</a>.</p>
 <p>One part of this is making use of <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/microformats">Microformats</a> whenever possible to define extra structure and semantics, and another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>/<abbr title="Publish Elsewhere, Syndicate (to your) Own Site">POSOS</abbr> syndication models as applicable. This places my site as the centre of my web presence, with everything else revolving around it. Ideally it should be considered the canonical source for everything I do.</p>
