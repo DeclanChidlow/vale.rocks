@@ -49,7 +49,8 @@ figure {
 	filter: blur(0.5rem) grayscale(50%);
 	transition: 0.3s;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		filter: none;
 	}
 }
