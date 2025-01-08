@@ -6,7 +6,7 @@
 	@text: indent`
 	<h1 id="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 
-	<div>
+	<div data-pagefind-ignore="all">
 		<form id="refine-posts">
 			<div class="filter">
 				<label for="posts-filter">Category:</label>

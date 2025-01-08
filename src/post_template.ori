@@ -21,7 +21,7 @@
 
 	<div class="article-wrapper">
 		<article class="h-entry">
-			<header>
+			<header data-pagefind-ignore>
 				<p data-pagefind-filter="Post Category">${ post/section }</p>
 				<h1 class="p-name">${ post/title }</h1>
 				<ul>

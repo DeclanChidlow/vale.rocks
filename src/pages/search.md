@@ -34,6 +34,26 @@ stylesheet: "pages/search.css"
             autofocus: true,
             highlightParam: "hl"
         });
+
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length) {
+                    document.querySelectorAll('.pagefind-ui__result-link').forEach(link => {
+                        const url = new URL(link.href);
+                        if (url.pathname.includes('.html')) {
+                            url.pathname = url.pathname.replace('.html', '');
+                            link.href = url.toString();
+                        }
+                    });
+                }
+            });
+        });
+
+        const searchResults = document.querySelector('#search');
+        observer.observe(searchResults, {
+            childList: true,
+            subtree: true
+        });
     });
 </script>
 
