@@ -32,7 +32,6 @@ stylesheet: "pages/search.css"
             excerptLength: 30,
             resetStyles: false,
             autofocus: true,
-            highlightParam: "hl"
         });
 
         const observer = new MutationObserver((mutations) => {
