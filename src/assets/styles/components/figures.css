@@ -48,6 +48,7 @@ figure {
 .censor {
 	filter: blur(0.5rem) grayscale(50%);
 	transition: 0.3s;
+	cursor: pointer;
 
 	&:hover,
 	&:focus {
