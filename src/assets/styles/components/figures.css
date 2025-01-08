@@ -45,6 +45,15 @@ figure {
 	}
 }
 
+.censor {
+	filter: blur(0.5rem) grayscale(50%);
+	transition: 0.3s;
+
+	&:hover {
+		filter: none;
+	}
+}
+
 .lightbox {
 	color: inherit;
 	overflow-y: auto;
@@ -59,11 +68,12 @@ figure {
 	}
 
 	img {
+		position: relative;
+		display: block;
 		max-width: 100%;
 		max-height: calc(90vh - 60px);
-		display: block;
 		margin: 0 auto;
-		position: relative;
+		filter: none;
 		z-index: 1;
 	}
 
