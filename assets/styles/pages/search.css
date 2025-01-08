@@ -24,6 +24,7 @@
 .pagefind-ui__search-input {
 	flex: 1;
 }
+
 .pagefind-ui__search-clear {
 	flex: 0;
 }
@@ -74,7 +75,8 @@
 	list-style-type: none;
 	display: flex;
 	border-bottom: 2px solid var(--bright_grey);
-	padding: 0.5rem 0;
+	padding: 1rem 0;
+	margin: 0;
 }
 
 .pagefind-ui__result-title {
@@ -87,17 +89,27 @@
 	}
 }
 
+.pagefind-ui__result-excerpt {
+	word-break: break-word;
+}
+
 .pagefind-ui__result-nested {
 	margin-left: 2rem;
 
 	.pagefind-ui__result-title {
 		position: relative;
+		font-style: italic;
 	}
 
-	.pagefind-ui__result-link:before {
-		content: "⤷";
+	.pagefind-ui__result-link::before {
+		content: "↳";
 		position: absolute;
 		top: 0;
 		left: -1rem;
 	}
+}
+
+.pagefind-ui__result-excerpt + .pagefind-ui__result-nested,
+.pagefind-ui__result-nested + .pagefind-ui__result-nested {
+	margin-top: 1rem;
 }
