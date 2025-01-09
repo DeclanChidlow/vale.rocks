@@ -1,4 +1,4 @@
-(paginated_firehose_data) => main_template.ori({
+(paginated_firehose) => main_template.ori({
 	title: "Firehose",
 	description: "Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, etc. This is everything, all in one place, coming 'atcha!",
 	stylesheet: "pages/firehose.css"
@@ -7,9 +7,9 @@
 	<h1 id="section" data-pagefind-ignore>Firehose</h1>
 
 	<div data-pagefind-ignore="all">
-		${ paginated_firehose_data/previousPage	? indent`` : `<p>This is everything, all in one place, coming 'atcha!<br><br> This firehose contains a record of all my micro posts, articles, and other web doings. If you'd like to subscribe to feeds to stay up-to-date with things, then you can do so via my <a href='/syndication'>syndication page</a>.</p>` }
+		${ paginated_firehose/previousPage	? indent`` : `<p>This is everything, all in one place, coming 'atcha!<br><br> This firehose contains a record of all my micro posts, articles, and other web doings. If you'd like to subscribe to feeds to stay up-to-date with things, then you can do so via my <a href='/syndication'>syndication page</a>.</p>` }
 
-	    ${ map(paginated_firehose_data/items,
+	    ${ map(paginated_firehose/items,
 	    (item, key) => indent`
 			${ item/type === 'post' ? 
 			// if post
@@ -70,17 +70,17 @@
 
 	<div class="pagination">
 		  ${
-			paginated_firehose_data/previousPage
+			paginated_firehose/previousPage
 			  ? indent`
-				<a class="next" href="/firehose/${ paginated_firehose_data/previousPage }">< Newer</a>
+				<a class="next" href="/firehose/${ paginated_firehose/previousPage }">< Newer</a>
 			  `
 			  : "<span></span>"
 		  }
 
 		  ${
-			paginated_firehose_data/nextPage
+			paginated_firehose/nextPage
 			  ? indent`
-				<a class="next" href="/firehose/${ paginated_firehose_data/nextPage }">Older ></a>
+				<a class="next" href="/firehose/${ paginated_firehose/nextPage }">Older ></a>
 			  `
 			  : "<span></span>"
 		  }

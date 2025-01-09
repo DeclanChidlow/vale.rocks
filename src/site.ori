@@ -25,8 +25,8 @@
 		feed.xml = rss(syndication.ori(micro_data.ori))
 	}
 
-	(paginated) = paginate(firehose_data.ori, 15)
-	firehose/ = map(paginated, {
+	(paginated_firehose) = paginate(firehose_data.ori, 15)
+	firehose/ = map(paginated_firehose, {
 		extension: "→.html"
 		value: pages/firehose.ori
 	})
