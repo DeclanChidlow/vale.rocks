@@ -33,3 +33,7 @@ a,
 		text-decoration-color: light-dark(var(--bright_white), var(--black));
 	}
 }
+
+.adaptive-icon {
+	fill: light-dark(var(--black), #fff);
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vale</title>
+    <link>https://vale.rocks</link>
+    <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <link>https://vale.rocks/posts/spider-in-red.html</link>
+      <guid>https://vale.rocks/posts/spider-in-red.html</guid>
+      <description>A red monochrome photo of a spider sitting in its web.</description>
+      <content:encoded><![CDATA[<p>The red colour of this photo wasn&#8217;t done in post, but was instead a result of a coloured bulb positioned next to the spider.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/lone-light-bulb.html</link>
+      <guid>https://vale.rocks/posts/lone-light-bulb.html</guid>
+      <description>A lone light bulb at night.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/screw-in-wood.html</link>
+      <guid>https://vale.rocks/posts/screw-in-wood.html</guid>
+      <description>A screw with tiny plants and moss growing around it.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/red-leaf-in-mulch.html</link>
+      <guid>https://vale.rocks/posts/red-leaf-in-mulch.html</guid>
+      <description>A red leaf sitting on top of a pile of woodchips.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/pomegranate-growing.html</link>
+      <guid>https://vale.rocks/posts/pomegranate-growing.html</guid>
+      <description>A pomegranate fruit growing on the shrub.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/relaxing-snake.html</link>
+      <guid>https://vale.rocks/posts/relaxing-snake.html</guid>
+      <description>A snake named George relaxing on a stick.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/evening-sunflower.html</link>
+      <guid>https://vale.rocks/posts/evening-sunflower.html</guid>
+      <description>Sunflower against the dulling evening sky.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/moist-lush-moss.html</link>
+      <guid>https://vale.rocks/posts/moist-lush-moss.html</guid>
+      <description>Bright green, moist moss growing vertically.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/majestic-butterfly.html</link>
+      <guid>https://vale.rocks/posts/majestic-butterfly.html</guid>
+      <description>A majestic butterfly.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/chilling-frog.html</link>
+      <guid>https://vale.rocks/posts/chilling-frog.html</guid>
+      <description>A frog chilling amongst ferns.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/bald-head-track.html</link>
+      <guid>https://vale.rocks/posts/bald-head-track.html</guid>
+      <description>A panoramic photo of a walk track.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/mushroom-among-moss.html</link>
+      <guid>https://vale.rocks/posts/mushroom-among-moss.html</guid>
+      <description>Two-headed mushroom growing among moss and tiny sprouts.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/mountainous-valley.html</link>
+      <guid>https://vale.rocks/posts/mountainous-valley.html</guid>
+      <description>A valley surrounded by mountains.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/aoraki-mountains.html</link>
+      <guid>https://vale.rocks/posts/aoraki-mountains.html</guid>
+      <description>A snowy mountain semi-concealed by cloud.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/steps-along-a-path.html</link>
+      <guid>https://vale.rocks/posts/steps-along-a-path.html</guid>
+      <description>A path winding through trees.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/pink-tree.html</link>
+      <guid>https://vale.rocks/posts/pink-tree.html</guid>
+      <description>A tree with pretty pink leaves growing in front of a house against a clear blue sky.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/queenstown-mountains.html</link>
+      <guid>https://vale.rocks/posts/queenstown-mountains.html</guid>
+      <description>View of mountains near Queenstown.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/queenstown-from-gondola.html</link>
+      <guid>https://vale.rocks/posts/queenstown-from-gondola.html</guid>
+      <description>The town, forest, lake, and mountains of Queenstown from the gondola.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/queenstown-across-lake.html</link>
+      <guid>https://vale.rocks/posts/queenstown-across-lake.html</guid>
+      <description>Queenstown across a lake with snowy mountain peaks in the background.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/sprouts-growing-from-log.html</link>
+      <guid>https://vale.rocks/posts/sprouts-growing-from-log.html</guid>
+      <description>Tiny sprouts growing up from the top of a moss-covered log.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/mushroom-on-mossy-log.html</link>
+      <guid>https://vale.rocks/posts/mushroom-on-mossy-log.html</guid>
+      <description>A fungal growth on the side of a moss-covered log.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/mushroom-nestled-in-moss.html</link>
+      <guid>https://vale.rocks/posts/mushroom-nestled-in-moss.html</guid>
+      <description>A mushroom growing, nestled in a mossy alcove.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/fungus-on-log-side.html</link>
+      <guid>https://vale.rocks/posts/fungus-on-log-side.html</guid>
+      <description>A fungal growth on a moss-covered log.</description>
+    </item>
+  </channel>
+</rss>

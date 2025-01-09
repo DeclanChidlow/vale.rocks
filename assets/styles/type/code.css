@@ -6,7 +6,6 @@ kbd {
 }
 
 pre {
-	max-width: calc(100vw - 16rem); /*Icky but I don't even know anymore*/
 	overflow-x: auto;
 	background: var(--black);
 	color: var(--bright_white);
