@@ -18,6 +18,12 @@ I [write long-form on this site](/posts), which you can subscribe to via:
 - RSS: https://vale.rocks/posts/feed.xml
 - JSON Feed: https://vale.rocks/posts/feed.json
 
+## Photography
+
+I [take photos](/photography) sometimes. If you'd like to know when I take new ones, you can subscribe through:
+- RSS: https://vale.rocks/photography/feed.xml
+- JSON Feed: https://vale.rocks/photography/feed.json
+
 ## Microblogging
 
 I also publish short snippets and notes.
@@ -31,8 +37,8 @@ I store a microblog feed on my site, which mostly serves as a loosely curated mi
 
 You can find me on the Fediverse at [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale). Follow me directly or via these feeds:
 
-- RSS: https://fedi.vale.rocks/users/vale/feed.atom
-- JSON Feed: https://fedi.vale.rocks/users/vale/feed.xml
+- RSS: https://fedi.vale.rocks/users/vale/feed.xml
+- Atom Feed: https://fedi.vale.rocks/users/vale/feed.atom
 
 ### Bluesky
 

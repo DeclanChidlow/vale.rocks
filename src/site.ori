@@ -25,6 +25,13 @@
 		feed.xml = rss(syndication.ori(micro_data.ori))
 	}
 
+	photography.html = pages/photography.ori(photography_data.ori)
+	photography = {
+		...map(photography_data.ori, photography_template.ori)
+		feed.json = json(syndication.ori(photography_data.ori))
+		feed.xml = rss(syndication.ori(photography_data.ori))
+	}
+
 	(paginated_firehose) = paginate(firehose_data.ori, 15)
 	firehose/ = map(paginated_firehose, {
 		extension: "→.html"

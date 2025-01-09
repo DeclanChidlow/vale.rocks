@@ -50,8 +50,12 @@ main {
 	margin: 5rem 0;
 
 	> div {
-		width: 100%;
+		min-width: 0;
 	}
+}
+
+.giscus {
+	margin-top: 3rem;
 }
 
 @media (max-width: 700px) {

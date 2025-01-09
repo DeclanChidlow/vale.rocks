@@ -11,6 +11,10 @@ article {
 	}
 }
 
+.photo p {
+	margin-bottom: 1rem;
+}
+
 .socials {
 	display: flex;
 	gap: 1rem;

@@ -27,9 +27,30 @@
 						<a href="/posts/${ basename(key) }">https://vale.rocks/posts/${ basename(key) }</a>
 					</p>
 				</article>`
-				: 
 
-			// if not post
+			: item/type === 'photo' ? 
+			// if photo
+				`<article class="photo">
+					<header>
+						<a href="/photography/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+
+						<div class="socials">
+							${ item/unsplash_link ? `
+							<a href="${ item/unsplash_link }" title="Unsplash">
+								<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<title>Unsplash</title>
+									<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+								</svg>
+							</a>` : '' }
+						</div>
+					</header>
+
+					<p>${ item/description }</p>
+					<img src="${ item/image }" alt="${ item/alt_text }" />
+				</article>`
+
+			:
+			// if micro (not post or photo)
 				`<article class="micro">
 					<header>
 						<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_date }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_date) }</time></a>

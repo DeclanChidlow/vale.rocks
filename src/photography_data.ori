@@ -1,0 +1,11 @@
+photography
+→ =map(_, (photo) => {
+  ...photo
+  type: "photo"
+})
+→ =sort(_, (photo) => new:Date(photo/pub_time))
+→ =map(_, {
+  extension: ".md->.html"
+  value: (photo) => functions/parse-markdown.js(photo)
+})
+→ reverse

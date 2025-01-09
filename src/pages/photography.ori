@@ -1,0 +1,20 @@
+(photography_data) => main_template.ori({
+	title: "Photography"
+	description: "All of my exemplary capture of photons in one place for your viewing pleasure."
+	stylesheet: "pages/photography.css"
+
+	@text: indent`
+	<h1 id="section" data-pagefind-filter="Content Type:Page">Photography</h1>
+
+	<div data-pagefind-ignore="all">
+		<div id="photography">
+			${ map(photography_data,
+			(photo, key) => indent`
+				<a class="photo" href="/photography/${ basename(key) }">
+					<img src="${ photo/image }" alt="${ photo/alt_text }" />
+				</a>
+			`)}
+		</div>
+	</div>
+	`
+})

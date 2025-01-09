@@ -1,3 +1,3 @@
-{ ...post_data.ori, ...micro_data.ori }
+{ ...post_data.ori, ...micro_data.ori, ...photography_data.ori }
 → =sort(_, (item) => new:Date(item/pub_time ?? item/pub_date))
 → reverse
