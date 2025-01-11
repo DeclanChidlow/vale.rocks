@@ -1,77 +1,39 @@
 #photography {
-	display: flex;
-	height: calc(100vh - 8rem);
-	gap: 3rem;
-	overflow-x: auto;
-	scroll-snap-type: x mandatory;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 2rem;
 
 	.photo {
-		display: flex;
-		min-width: calc(100vw - 13rem);
-		scroll-snap-align: center;
+		animation: fade-in-up;
+		animation-timeline: view();
 		scale: 0.98;
 		transition: scale 0.25s;
-
-		img {
-			max-height: 100%;
-			object-fit: contain;
-		}
+		margin: auto 0;
 
 		&:hover {
 			scale: 1;
 		}
 	}
 
-	@media (max-width: 450px) {
-		height: auto;
+	@media (min-width: 30rem) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (min-width: 60rem) {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
-.content {
-	display: flex;
-	margin-top: 2rem;
-
-	> div {
-		padding: 1rem;
-	}
-
-	.stats {
-		display: flex;
-		flex-direction: column;
-		border-right: 2px solid var(--bright_grey);
-		min-width: fit-content;
-		gap: 1ch;
-
-		ul {
-			margin: 0;
-
-			li {
-				list-style: none;
-				display: flex;
-				gap: 1ch;
-
-				p {
-					display: inline;
-				}
-			}
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes fade-in-up {
+		entry 0% {
+			transform: translateY(5rem);
+			opacity: 0;
 		}
 
-		@media (max-width: 550px) {
-			flex-direction: row;
-			justify-content: space-between;
-			gap: 1ch;
-			border-right: none;
-			border-bottom: 2px solid var(--bright_grey);
+		entry 100% {
+			transform: translateY(0);
+			opacity: 1;
 		}
-	}
-
-	@media (max-width: 550px) {
-		flex-direction: column;
-	}
-}
-
-@media (max-width: 700px) {
-	span#section {
-		display: none;
 	}
 }

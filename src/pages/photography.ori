@@ -11,7 +11,7 @@
 			${ map(photography_data,
 			(photo, key) => indent`
 				<a class="photo" href="/photography/${ basename(key) }">
-					<img src="${ photo/image }" alt="${ photo/alt_text }" />
+					<img src="${ photo/image }" alt="${ photo/alt_text }" loading="lazy" />
 				</a>
 			`)}
 		</div>
