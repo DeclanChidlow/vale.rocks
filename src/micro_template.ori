@@ -1,37 +1,9 @@
 (micro) => main_template.ori({
 	title: `Micro - ${ functions/pretty-date.js(micro/pub_time) } ${ functions/pretty-time.js(micro/pub_time) }`
 	// description: micro/@text
+	stylesheet: "pages/micro-individual.css"
 
 	@text: indent`
-<style>
-	article header {
-		display: flex;
-		justify-content: space-between;
-		gap: 2rem;
-		padding-bottom: 0.5rem;
-		margin-bottom: 0.5rem;
-		border-bottom: 2px solid var(--bright_grey);
-	}
-
-	.socials {
-		display: flex;
-		gap: 1rem;
-
-		a::after {
-			display: none;
-		}
-
-		svg {
-			height: 1.25rem;
-			width: 1.25rem;
-		}
-	}
-
-	.readable-width {
-		max-width: 60ch;
-	}
-</style>
-
 	<span id="section" data-pagefind-filter="Content Type">Micros</span>	
 
 	<article class="h-entry">
