@@ -86,12 +86,20 @@ class FigureGlowLightbox {
 		const dialog = this.createDialog(figure, index);
 		document.body.appendChild(dialog);
 		figure.style.cursor = "zoom-in";
+		figure.tabIndex = 0;
 		this.setupEventListeners(figure, dialog);
 	}
 
 	setupEventListeners(figure, dialog) {
 		figure.addEventListener("click", () => {
 			dialog.showModal();
+		});
+
+		figure.addEventListener("keydown", (e) => {
+			if (e.key === "Enter" || e.key === " ") {
+				e.preventDefault();
+				dialog.showModal();
+			}
 		});
 
 		dialog.querySelector(".close").addEventListener("click", () => {
