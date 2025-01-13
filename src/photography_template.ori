@@ -2,6 +2,8 @@
 	title: photography/description
 	description: photography/description
 	pub_time: photography/pub_time
+	image: photography/image
+	alt_text: photography/alt_text
 	stylesheet: "pages/photography-individual.css"
 
 	@text: indent`
