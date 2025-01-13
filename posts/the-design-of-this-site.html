@@ -17,8 +17,8 @@
 				<meta name="citation_publication_date" content="2022-09-12">
 			
 	
-				<meta property="article:modified_time" content="2024-12-31">
-				<meta name="dcterms.modified" content="2024-12-31">
+				<meta property="article:modified_time" content="2025-01-13">
+				<meta name="dcterms.modified" content="2025-01-13">
 			
 	<meta property="article:section" content="Meta">
 
@@ -113,10 +113,10 @@
 					<p data-pagefind-filter="Post Category">Meta</p>
 					<h1 class="p-name">The Design of This Site</h1>
 					<ul>
-						<li>1466 words</li>
+						<li>1370 words</li>
 						<li><time class="dt-published" datetime="2022-09-12" title="Date of first publication.">12 Sept 2022</time></li>
 						
-												<li><time class="dt-updated" datetime="2024-12-31" title="Date of last notable modification.">31 Dec 2024</time></li>
+												<li><time class="dt-updated" datetime="2025-01-13" title="Date of last notable modification.">13 Jan 2025</time></li>
 											
 					</ul>
 				</header>
@@ -131,6 +131,7 @@
 					<p>While it is possible to &#8220;finish&#8221; a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.</p>
 					</blockquote>
 					<p>Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on. In that way, it is almost closer to a wiki, albeit a single-user one, than a traditional blog site where one publishes a post then moves on to the next without intent to revise or alter existing media.</p>
+					<p>It&#8217;s a <a href="https://maggieappleton.com/garden-history">digital garden</a>. I come back to previous posts frequently to prune them, touch them up, replace their soil, and refine them.</p>
 					<h2 id="personas">Personas</h2>
 					<p>This site is crafted with three distinct user groups in mind: <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
 					<p>Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site&#8217;s visitors, so it&#8217;s generally who I keep at the forefront of my mind, not just when I&#8217;m designing and implementing features but also when writing. It&#8217;s imperative that the site is quick to load for people coming from social media to ensure reader retention. <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> This demographic is probably the most likely to read an article the full way through.</p>
@@ -139,40 +140,35 @@
 					<h2 id="fundamentals">Fundamentals</h2>
 					<p>Every decision made for this site is weighted on both the personas above and these fundamentals:</p>
 					<ol>
-					<li><p><strong>Design like print:</strong>
-					Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.</p>
+					<li><p><strong>Design like print:</strong></p>
+					<p>Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.</p>
 					<p>Well-established rules are often overlooked, and while readers may not consciously notice them, they matter and subtly shape the user experience. Where possible, I attempt to incorporate well-defined typographic principles.</p>
 					<p>This isn&#8217;t always an easy thing to do. There are countless typography-related bugs and flaws in CSS and the larger web platform, as well as many expected features that simply haven&#8217;t yet seen support or consideration. There is also the matter of some typographic features, like smallcaps, being so uncommon on the web that users are confused in use.</p>
 					</li>
-					<li><p><strong>Function over form:</strong>
-					While functionality should always dictate form, form shouldn&#8217;t necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I&#8217;m firmly of the belief that sites should respect that.</p>
+					<li><p><strong>Function over form:</strong></p>
+					<p>While functionality should always dictate form, form shouldn&#8217;t necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I&#8217;m firmly of the belief that sites should respect that.</p>
 					</li>
-					<li><p><strong>JavaScript is optional:</strong>
-					JavaScript has crept its tendrils into every facet of the web. This isn&#8217;t necessarily a bad thing; JavaScript has its place. However, that place <em>isn&#8217;t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
+					<li><p><strong>JavaScript is optional:</strong></p>
+					<p>JavaScript has crept its tendrils into every facet of the web. This isn&#8217;t necessarily a bad thing; JavaScript has its place. However, that place <em>isn&#8217;t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
 					<p>While visiting this site with JavaScript enabled merits access to optional features, it <em>isn&#8217;t</em> required for the core reading experience, and everything will operate cleanly in its absence.</p>
 					</li>
 					</ol>
 					<h2 id="features">Features</h2>
-					<p>Vale.Rocks is home to many non-standard features and some notable implementations of expected ones. These include:</p>
+					<p>Vale.Rocks is home to many non-standard features and some notable implementations of expected ones:</p>
 					<ul>
-					<li><p><strong>Footnotes/Sidenotes:</strong>
-					Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page. Assuming JavaScript is enabled, clicking a footnote opens a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page&#8217;s margin.</p>
+					<li><p>Footnotes/Endnotes/Sidenotes help to isolate tangents, as not to clutter pages or confuse readers.</p>
 					</li>
-					<li><p><strong>Comments:</strong>
-					Given that this is a static site and my readership is generally of the variety that frequents GitHub, I&#8217;ve employed <a href="https://giscus.app">Giscus</a> for comment functionality.</p>
+					<li><p>Link icons help provide more inline detail for users as they navigate between pages on my site and traverse externally.</p>
 					</li>
-					<li><p><strong>Link icons:</strong>
-					Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.</p>
+					<li><p>Most figures open into lightboxes on click, allowing for inspection on any device, and image figures are provided with a nice outer glow so they better integrate with the site.</p>
 					</li>
-					<li><p><strong>Figure lightboxes:</strong>
-					While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.</p>
+					<li><p>There is a dynamic scroll indicator to help people move around and orient themselves within pages.</p>
 					</li>
-					<li><p><strong>Scroll indicator:</strong>
-					When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I&#8217;d like to improve this so that it plays nicer with additive content such as comments, is moved to a more advantageous position or larger viewports, and can be better used for swift navigation through articles by users.</p>
+					<li><p>A ton more of tiny little quality of life bits and bobs.</p>
 					</li>
 					</ul>
-					<p>If you&#8217;d like to see all of the site&#8217;s numerous features and stylings, you can do so on my <a href="/posts/lorem-ipsum">Lorem Ipsum page</a>. It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.</p>
-					<p>If you&#8217;d like information about the implementation of features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">&#8220;The Implementation of This Site&#8221;</a>.</p>
+					<p>If you&#8217;d like to see most of the site&#8217;s numerous features and stylings in one place, you can do so on my <a href="/posts/lorem-ipsum">Lorem Ipsum page</a>. It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.</p>
+					<p>If you&#8217;d like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">&#8220;The Implementation of This Site&#8221;</a>.</p>
 					<h2 id="inspirations">Inspirations</h2>
 					<p>Like all endeavours, and especially creative ones (which I would argue this site is), I&#8217;ve <em>borrowed</em> many ideas from external sources.</p>
 					<p>Perhaps most notable is <a href="https://gwern.net">the site of Gwern Branwen</a>, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern&#8217;s site long after starting the development of this one, many of its eccentricities have made their way over, as you&#8217;ve no doubt noticed if you&#8217;ve ever paid Gwern&#8217;s site a visit.</p>

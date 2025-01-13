@@ -94,7 +94,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
       <title>The Implementation of This Site</title>
       <link>https://vale.rocks/posts/the-implementation-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-implementation-of-this-site.html</guid>
@@ -114,10 +114,36 @@
 <p>When I saw <a href="https://fosstodon.org/@JanMiksovsky/113516427582479669">a post from Jan Miksovsky</a> looking &#8220;for people to playtest a programming language for making websites&#8221;, I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.</p>
 <p>The language, <a href="https://weborigami.org">Origami</a>, didn&#8217;t take long to win me over. It&#8217;s a full programming language with all the bells and whistles you&#8217;d expect that makes it easy to do everything you&#8217;d need from a static site generator and allows you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.</p>
 <p>In the hours following the playtest, I worked on porting my site over, and by the end of the day, I already had the broad strokes down. Now, my site is fully functioning on Origami with many additive bells and whistles that weren&#8217;t previously possible with Adduce. The language is still maturing, but I&#8217;m loving it!</p>
+<h3 id="footnotesendnotessidenotes">Footnotes/Endnotes/Sidenotes</h3>
+<p>I like being able to add extra information, tangents, or conjecture to my writing, but I don&#8217;t always wish to clutter or disrupt the main flow of text. Footnotes <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> are great for this, but the typical implementation is less than ideal as it has users jumping all over the page every time they wish to read one.</p>
+<p>Thus, I&#8217;ve come up with my own implementation. By default, footnotes are marked up as anchors to the definition at the end of the page in standard HTML, but the experience of this is greatly improved by some JavaScript-based progressive enhancement. Assuming the JavaScript is available and active, clicking a footnote reference in a horizontally challenged viewport will open it in a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page&#8217;s right margin.</p>
+<p>This overall experience is very much influenced by <a href="https://gwern.net/sidenote">Gwern&#8217;s implementation and research</a> and is implemented on my site via my own <a href="https://vale.rocks/assets/scripts/footnotes.js"><code>footnotes.js</code></a>, though I&#8217;ve also provided a <a href="https://codepen.io/OuterVale/pen/ogvGVdq">reference implementation on CodePen</a>.</p>
+<h3 id="hero-puddle">Hero Puddle</h3>
+<p>On the <a href="/">landing page</a> of my site, I have an interactive fluid simulation. Very much inspired and based on <a href="https://batmannair.com/puddle.js">the one by Arjun Nair</a>, my implementation (<a href="/assets/scripts/puddle.js"><code>puddle.js</code></a>) is greatly simplified and provides greatly improved performance.</p>
+<h3 id="comments">Comments</h3>
+<p>Given that this is a static site and my readership is generally of the variety that frequents GitHub, I&#8217;ve employed <a href="https://giscus.app">Giscus</a> for comment functionality. This essentially uses the <a href="https://github.com/DeclanChidlow/vale.rocks/discussions">discussion page</a> of my website&#8217;s repo on GitHub as a database.</p>
+<h3 id="link-icons">Link icons</h3>
+<p>Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location. While it would be possible to extend beyond this and start fetching favicons for each link as seen in <a href="https://turntrout.com">TurnTrout&#8217;s &#8216;The Pond&#8217;</a>, I feel that is beyond scope for my site and adds unnecessary complexity.</p>
+<h3 id="advanced-figures">Advanced Figures</h3>
+<p>Without JavaScript, my figures will display as you&#8217;d expect of any other site, with the content followed by a <code>figcaption</code> when available. With JavaScript, a bit more is possible.</p>
+<p>Figures containing images get a quite literal glow up. The image of the figure is duplicated, aligned behind the actual image, and blurred to permit a glow effect. This glow effect helps figures feel more like part of the page, rather than something slapped into it.</p>
+<p>For applicable cases, figures will open into full-screen lightboxes when clicked. These lightboxes display the caption, attribution, and alt text as available.</p>
+<p>I&#8217;ve got a <a href="https://codepen.io/OuterVale/pen/QwLOyPM">reference implantation on CodePen</a> of the glow and lightbox functionality, which is used in production on this site as <a href="https://vale.rocks/assets/scripts/figures.js"><code>figures.js</code></a>.</p>
+<p>Also, as part of my figures, I have classes set up that allow for censoring or allowing inversion of images. On posts like <a href="/posts/my-experience-biohacking">My Experience Biohacking</a>, where there are some slightly bloody images, or situations where I may need to hide a spoiler, I can blur the content until hovered or focused.</p>
+<p>As for inversion, certain images such as graphs may have solid white backgrounds, so it can be beneficial to invert them if the user has selected a dark mode presentation so as to not flashbang them. I achieve this with the very simple CSS <code>filter: invert(95%) hue-rotate(180deg)</code>. This inverts an item but keeps the colours more or less as they should be by flipping the hue back.</p>
+<h3 id="scroll-indication">Scroll Indication</h3>
+<p>When perusing the content of an article, a scroll progress bar appears, with indicators of heading locations for ease of navigation. This implementation is inspired by the one on <a href="https://lesswrong.com">LessWrong</a>. Headers are noted and immediately jumpable, and it has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.</p>
+<p>On viewports with sufficient horizontal space, the indicator is displayed vertically and has a thumb that represents the height of the user&#8217;s viewport. On narrower viewports, the indicator manifests as a horizontal progress bar at the top of the screen.</p>
+<p>Ideally, the base of this effect could be achieved using scroll-driven animations with additional JavaScript-based functionality considered progressive enhancement, but that has restrictions if the page has content beyond the main article, such as comments, where one must start implementing <code>overflow: scroll</code> hackery, so, alas, it currently requires JavaScript to achieve.</p>
+<p>Once again, you can view my <a href="https://codepen.io/OuterVale/pen/MYgoYzR">reference implementation on CodePen</a> and the code as used on this site in <a href="/assets/scripts/scroll-indicator.js"><code>scroll-indicator.js</code></a>.</p>
 <h3 id="search">Search</h3>
-<p>My entire site is fully searchable over on my <a href="/search">search page</a> thanks to the wonderful <a href="https://pagefind.app">Pagefind</a>. Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.</p>
-<p>As Pagefind is implemented client-side as a script, I&#8217;ve taken inspiration from <a href="https://dbushell.com/2024/11/21/static-search-page-find">David Bushell&#8217;s site</a> and implemented a fallback that does a site-specific search with Google should JavaScript be unavailable. I&#8217;d have preferred a better, more privacy-adhering, search engine, but unfortunately none provided results as good as Google.</p>
-<h3 id="indieweb">IndieWeb</h3>
+<p>My entire site is <a href="/search">fully searchable</a> thanks to the wonderful <a href="https://pagefind.app">Pagefind</a>. Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.</p>
+<p>As Pagefind is implemented client-side as a script, I&#8217;ve taken inspiration from <a href="https://dbushell.com/2024/11/21/static-search-page-find">David Bushell&#8217;s site</a>, and implemented a fallback that does a site-specific search with Google should JavaScript be unavailable. I&#8217;d have preferred a better, more privacy-adhering search engine, but unfortunately none have indexed by site as well as Google.</p>
+<h3 id="404-handling">404 Handling</h3>
+<p>Occasionally, I break links. <a href="https://www.w3.org/Provider/Style/URI">I&#8217;m sorry</a>. Hosting my site statically does come with a few challenges, dynamic redirects being one of them. I could somewhat combat it with <a href="https://weborigami.org/builtins/site/redirect">Origami&#8217;s redirect builtin</a>, but it&#8217;s more hassle than I care for.</p>
+<p>Thus, I&#8217;ve got my client-side <a href="/assets/scripts/404-guesser.js"><code>404-guesser.js</code></a> script, which is once again shamelessly inspired by Gwern. It has some hard-coded handling for certain page structures I&#8217;ve moved in the past, but otherwise just tries to suggest the correct page if someone has made a typo. It&#8217;ll look for similar URLs and spit out a list of suggestions.</p>
+<p>Beyond trying to get you to the right page, my 404 page also has a style tag with the <code>contenteditable</code> attribute, which allows one to write their own CSS that&#8217;ll apply to the page. It&#8217;s a lot of fun and a bit of an Easter egg for people who get lost.</p>
+<h3 id="indieweb-integration">IndieWeb Integration</h3>
 <p>In an effort to integrate open web concepts into this site, I&#8217;ve applied much of that outlined on the <a href="https://indieweb.org">IndieWeb wiki site</a>.</p>
 <p>One part of this is making use of <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/microformats">Microformats</a> whenever possible to define extra structure and semantics, and another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>/<abbr title="Publish Elsewhere, Syndicate (to your) Own Site">POSOS</abbr> syndication models as applicable. This places my site as the centre of my web presence, with everything else revolving around it. Ideally it should be considered the canonical source for everything I do.</p>
 <h3 id="development--deployment">Development & Deployment</h3>
@@ -127,14 +153,17 @@
 <p>I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available <a href="https://github.com/DeclanChidlow/vale.rocks">in its entirety</a> if you&#8217;d like to have a look.</p>
 <p>As everything is hosted on GitHub, I make use of <a href="https://pages.github.com">GitHub Pages</a>, which has a generous free plan. I have an <a href="https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-site.yml">automated workflow configured using GitHub Actions</a> that builds and deploys the site when I push to the main branch of my repository.</p>
 <h3 id="analytics">Analytics</h3>
-<p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I <em>love</em> being able to see what country people are showing up from, what devices they&#8217;re using <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> and their browsers. Being able to see view counts tick up also does wonders for my motivation.</p>
+<p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I <em>love</em> being able to see what country people are showing up from (so many Hacker News clients), what devices they&#8217;re using <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> and their browsers. Being able to see view counts tick up also does wonders for my motivation.</p>
 <p>I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I&#8217;ll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It&#8217;s lovely being able to go down little rabbit holes inspecting such cases.</p>
-<p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or mobile users who might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
+<p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or bolstering the number of mobile users as they might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
 <section class="footnotes" data-footnotes>
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
 <li id="footnote-1">
-<p>Being able to see people showing up on obscure devices like <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">Windows Phones</a> always prompts a chuckle. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+<p>Or perhaps more accurately for the web, endnotes. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p>Being able to see people showing up on obscure devices like <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">Windows Phones</a> always prompts a chuckle. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
 </li>
 </ol>
 </section>
@@ -1495,7 +1524,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
       <title>The Design of This Site</title>
       <link>https://vale.rocks/posts/the-design-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-design-of-this-site.html</guid>
@@ -1509,6 +1538,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>While it is possible to &#8220;finish&#8221; a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.</p>
 </blockquote>
 <p>Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on. In that way, it is almost closer to a wiki, albeit a single-user one, than a traditional blog site where one publishes a post then moves on to the next without intent to revise or alter existing media.</p>
+<p>It&#8217;s a <a href="https://maggieappleton.com/garden-history">digital garden</a>. I come back to previous posts frequently to prune them, touch them up, replace their soil, and refine them.</p>
 <h2 id="personas">Personas</h2>
 <p>This site is crafted with three distinct user groups in mind: <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
 <p>Firstly, visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site&#8217;s visitors, so it&#8217;s generally who I keep at the forefront of my mind, not just when I&#8217;m designing and implementing features but also when writing. It&#8217;s imperative that the site is quick to load for people coming from social media to ensure reader retention. <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> This demographic is probably the most likely to read an article the full way through.</p>
@@ -1517,40 +1547,35 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <h2 id="fundamentals">Fundamentals</h2>
 <p>Every decision made for this site is weighted on both the personas above and these fundamentals:</p>
 <ol>
-<li><p><strong>Design like print:</strong>
-Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.</p>
+<li><p><strong>Design like print:</strong></p>
+<p>Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.</p>
 <p>Well-established rules are often overlooked, and while readers may not consciously notice them, they matter and subtly shape the user experience. Where possible, I attempt to incorporate well-defined typographic principles.</p>
 <p>This isn&#8217;t always an easy thing to do. There are countless typography-related bugs and flaws in CSS and the larger web platform, as well as many expected features that simply haven&#8217;t yet seen support or consideration. There is also the matter of some typographic features, like smallcaps, being so uncommon on the web that users are confused in use.</p>
 </li>
-<li><p><strong>Function over form:</strong>
-While functionality should always dictate form, form shouldn&#8217;t necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I&#8217;m firmly of the belief that sites should respect that.</p>
+<li><p><strong>Function over form:</strong></p>
+<p>While functionality should always dictate form, form shouldn&#8217;t necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I&#8217;m firmly of the belief that sites should respect that.</p>
 </li>
-<li><p><strong>JavaScript is optional:</strong>
-JavaScript has crept its tendrils into every facet of the web. This isn&#8217;t necessarily a bad thing; JavaScript has its place. However, that place <em>isn&#8217;t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
+<li><p><strong>JavaScript is optional:</strong></p>
+<p>JavaScript has crept its tendrils into every facet of the web. This isn&#8217;t necessarily a bad thing; JavaScript has its place. However, that place <em>isn&#8217;t</em> everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.</p>
 <p>While visiting this site with JavaScript enabled merits access to optional features, it <em>isn&#8217;t</em> required for the core reading experience, and everything will operate cleanly in its absence.</p>
 </li>
 </ol>
 <h2 id="features">Features</h2>
-<p>Vale.Rocks is home to many non-standard features and some notable implementations of expected ones. These include:</p>
+<p>Vale.Rocks is home to many non-standard features and some notable implementations of expected ones:</p>
 <ul>
-<li><p><strong>Footnotes/Sidenotes:</strong>
-Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page. Assuming JavaScript is enabled, clicking a footnote opens a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page&#8217;s margin.</p>
+<li><p>Footnotes/Endnotes/Sidenotes help to isolate tangents, as not to clutter pages or confuse readers.</p>
 </li>
-<li><p><strong>Comments:</strong>
-Given that this is a static site and my readership is generally of the variety that frequents GitHub, I&#8217;ve employed <a href="https://giscus.app">Giscus</a> for comment functionality.</p>
+<li><p>Link icons help provide more inline detail for users as they navigate between pages on my site and traverse externally.</p>
 </li>
-<li><p><strong>Link icons:</strong>
-Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.</p>
+<li><p>Most figures open into lightboxes on click, allowing for inspection on any device, and image figures are provided with a nice outer glow so they better integrate with the site.</p>
 </li>
-<li><p><strong>Figure lightboxes:</strong>
-While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.</p>
+<li><p>There is a dynamic scroll indicator to help people move around and orient themselves within pages.</p>
 </li>
-<li><p><strong>Scroll indicator:</strong>
-When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I&#8217;d like to improve this so that it plays nicer with additive content such as comments, is moved to a more advantageous position or larger viewports, and can be better used for swift navigation through articles by users.</p>
+<li><p>A ton more of tiny little quality of life bits and bobs.</p>
 </li>
 </ul>
-<p>If you&#8217;d like to see all of the site&#8217;s numerous features and stylings, you can do so on my <a href="/posts/lorem-ipsum">Lorem Ipsum page</a>. It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.</p>
-<p>If you&#8217;d like information about the implementation of features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">&#8220;The Implementation of This Site&#8221;</a>.</p>
+<p>If you&#8217;d like to see most of the site&#8217;s numerous features and stylings in one place, you can do so on my <a href="/posts/lorem-ipsum">Lorem Ipsum page</a>. It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.</p>
+<p>If you&#8217;d like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">&#8220;The Implementation of This Site&#8221;</a>.</p>
 <h2 id="inspirations">Inspirations</h2>
 <p>Like all endeavours, and especially creative ones (which I would argue this site is), I&#8217;ve <em>borrowed</em> many ideas from external sources.</p>
 <p>Perhaps most notable is <a href="https://gwern.net">the site of Gwern Branwen</a>, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern&#8217;s site long after starting the development of this one, many of its eccentricities have made their way over, as you&#8217;ve no doubt noticed if you&#8217;ve ever paid Gwern&#8217;s site a visit.</p>
