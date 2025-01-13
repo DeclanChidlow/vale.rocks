@@ -1,7 +1,6 @@
 (micro) => main_template.ori({
-	title: `Micro - ${ functions/pretty-date.js(micro/pub_date) } ${ functions/pretty-time.js(micro/pub_date) }`
+	title: `Micro - ${ functions/pretty-date.js(micro/pub_time) } ${ functions/pretty-time.js(micro/pub_time) }`
 	// description: micro/@text
-	pub_time: micro/pub_date
 
 	@text: indent`
 <style>
@@ -37,7 +36,7 @@
 
 	<article class="h-entry">
 	<header>
-		<time datetime="${ micro/pub_date }" class="dt-published" title="Date of first publication.">${ functions/pretty-date.js(micro/pub_date) }</time>
+		<time datetime="${ micro/pub_time }" class="dt-published" title="Date of first publication.">${ functions/pretty-date.js(micro/pub_time) }</time>
 
 		<div class="socials">
 			${ micro/fedi_link ? `

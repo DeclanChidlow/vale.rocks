@@ -53,7 +53,7 @@
 			// if micro (not post or photo)
 				`<article class="micro">
 					<header>
-						<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_date }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_date) }</time></a>
+						<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
 
 						<div class="socials">
 							${ item/fedi_link ? `

@@ -7,5 +7,5 @@ micros
 	extension: ".md->.html"
 	value: (micro) => functions/parse-markdown.js(micro)
 })
-→ =map(_, (micro, fileName) => { …micro, pub_date: functions/micro-date.js(basename(fileName)) })
+→ =map(_, (micro, fileName) => { …micro, pub_time: functions/micro-date.js(basename(fileName)) })
 → reverse
