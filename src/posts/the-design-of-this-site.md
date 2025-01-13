@@ -3,9 +3,9 @@ title: The Design of This Site
 description: A breakdown and overview of the design choices of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy.
 og_description: The thought behind the experience.
 pub_time: 2022-09-12
-mod_time: 2024-12-31
+mod_time: 2025-01-13
 section: Meta
-word_count: 1466
+word_count: 1370
 ---
 
 The web used to embody its name—a spider's web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.
@@ -22,6 +22,8 @@ Perhaps the greatest contributor to the philosophy behind my site is taken from 
 
 Following that ethos, this site will continue to evolve as I tweak, edit, and break it as time goes on. In that way, it is almost closer to a wiki, albeit a single-user one, than a traditional blog site where one publishes a post then moves on to the next without intent to revise or alter existing media.
 
+It's a [digital garden](https://maggieappleton.com/garden-history). I come back to previous posts frequently to prune them, touch them up, replace their soil, and refine them.
+
 ## Personas
 
 This site is crafted with three distinct user groups in mind: [^1]
@@ -37,6 +39,7 @@ Finally, people who I interact with online that come to my site to find out more
 Every decision made for this site is weighted on both the personas above and these fundamentals:
 
 1. **Design like print:**
+
    Print design has a long and rich history, with centuries of systematic improvements, subtle enhancements, and steady refinements that have defined what works and constructed a solid foundation for how type should be set and presented. However, I feel like much of this gained knowledge has failed to migrate to the web.
 
    Well-established rules are often overlooked, and while readers may not consciously notice them, they matter and subtly shape the user experience. Where possible, I attempt to incorporate well-defined typographic principles.
@@ -44,35 +47,32 @@ Every decision made for this site is weighted on both the personas above and the
    This isn't always an easy thing to do. There are countless typography-related bugs and flaws in CSS and the larger web platform, as well as many expected features that simply haven't yet seen support or consideration. There is also the matter of some typographic features, like smallcaps, being so uncommon on the web that users are confused in use.
 
 2. **Function over form:**
+
    While functionality should always dictate form, form shouldn't necessarily dictate functionality. Notably, semantic elements and implementations are a priority, even if it comes at the cost of form. The web is for everyone, and I'm firmly of the belief that sites should respect that.
 
 3. **JavaScript is optional:**
+
    JavaScript has crept its tendrils into every facet of the web. This isn't necessarily a bad thing; JavaScript has its place. However, that place _isn't_ everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.
 
    While visiting this site with JavaScript enabled merits access to optional features, it _isn't_ required for the core reading experience, and everything will operate cleanly in its absence.
 
 ## Features
 
-Vale.Rocks is home to many non-standard features and some notable implementations of expected ones. These include:
+Vale.Rocks is home to many non-standard features and some notable implementations of expected ones:
 
-- **Footnotes/Sidenotes:**
-  Without JavaScript enabled, the footnotes (or perhaps more accurately, endnotes) are simply anchors to the definition at the end of the page. Assuming JavaScript is enabled, clicking a footnote opens a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's margin.
+- Footnotes/Endnotes/Sidenotes help to isolate tangents, as not to clutter pages or confuse readers.
 
-- **Comments:**
-  Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality.
+- Link icons help provide more inline detail for users as they navigate between pages on my site and traverse externally.
 
-- **Link icons:**
-  Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to prefix most links with icons to indicate if they link to an anchor within the page, a page within this site, or an external location.
+- Most figures open into lightboxes on click, allowing for inspection on any device, and image figures are provided with a nice outer glow so they better integrate with the site.
 
-- **Figure lightboxes:**
-  While JavaScript is enabled, clicking on a figure opens it in a full-screen lightbox that allows users to view imagery in larger sizes alongside captions, attributions, and alt text.
+- There is a dynamic scroll indicator to help people move around and orient themselves within pages.
 
-- **Scroll indicator:**
-  When perusing articles, a scroll progress bar appears at the top of the screen, with indicators of heading locations for ease of navigation. I'd like to improve this so that it plays nicer with additive content such as comments, is moved to a more advantageous position or larger viewports, and can be better used for swift navigation through articles by users.
+- A ton more of tiny little quality of life bits and bobs.
 
-If you'd like to see all of the site's numerous features and stylings, you can do so on my [Lorem Ipsum page](/posts/lorem-ipsum). It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.
+If you'd like to see most of the site's numerous features and stylings in one place, you can do so on my [Lorem Ipsum page](/posts/lorem-ipsum). It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.
 
-If you'd like information about the implementation of features on this site (and this site itself), then you should consult my post ["The Implementation of This Site"](/posts/the-implementation-of-this-site).
+If you'd like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post ["The Implementation of This Site"](/posts/the-implementation-of-this-site).
 
 ## Inspirations
 
@@ -91,6 +91,4 @@ Another source of inspiration for this site is [Josh W Comeau's site](https://ww
 ---
 
 [^1]: It is also, to some extent, built with me in mind as a user. Rather than maintaining a separate knowledge base, journal, or index of my creations, much of that content is instead published here where I can search and reference it. This is especially valuable paired with the [search page](/search), which makes it trivial to search and reference pretty much everything I've deemed noteworthy enough to release on the internet.
-
-
 [^2]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.
