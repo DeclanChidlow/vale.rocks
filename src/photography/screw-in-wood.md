@@ -6,7 +6,7 @@ alt_text: Some grey wooden boards with a recessed screw in the middle. Out from 
 pub_time: 2024-09-15
 location: Perth, WA, Australia
 camera: Google Pixel 7a
-focal: 5.4mm
+focal: 5.43mm
 aperture: 1.9
 shutter: 1/730
 iso: 46

@@ -4,7 +4,7 @@ unsplash_link: https://unsplash.com/photos/a-close-up-of-a-plant-with-moss-growi
 description: Two-headed mushroom growing among moss and tiny sprouts.
 alt_text: A closeup of a tiny yellow mushroom with two heads growing among some red and green moss. Among the moss are tiny little sprouts popping up.
 pub_time: 2023-11-29
-location: Donnelly River WA, Australia
+location: Donnelly River, WA, Australia
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8

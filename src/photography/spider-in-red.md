@@ -6,7 +6,7 @@ alt_text: The corner of a patio filled with spider's web, with the black sillohe
 pub_time: 2024-10-28
 location: Perth, WA, Australia
 camera: Google Pixel 7a
-focal: 5.4mm
+focal: 5.43mm
 aperture: 1.9
 shutter: 1/55
 iso: 611

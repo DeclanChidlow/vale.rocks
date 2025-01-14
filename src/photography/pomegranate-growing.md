@@ -6,7 +6,7 @@ alt_text: A close-up of a brown pomegranate fruit with patches of blue sky and t
 pub_time: 2024-09-15
 location: Perth, WA, Australia
 camera: Google Pixel 7a
-focal: 5.4mm
+focal: 5.43mm
 aperture: 1.9
 shutter: 1/50
 iso: 164

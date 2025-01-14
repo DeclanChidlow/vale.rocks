@@ -6,7 +6,7 @@ alt_text: A close-up of a sunflower, taken from down low. In the background is a
 pub_time: 2024-05-08
 location: Perth, WA, Australia
 camera: Google Pixel 7a
-focal: 5.4mm
+focal: 5.43mm
 aperture: 1.9
 shutter: "1/?"
 iso: "?"
