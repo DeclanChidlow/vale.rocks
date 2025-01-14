@@ -1,7 +1,19 @@
-iframe {
-	border: none;
-	filter: invert(93.5%) hue-rotate(180deg);
-	width: 100%;
-	min-height: 50rem;
-	height: 30vh;
+#stripe-button {
+	display: block;
+	width: fit-content;
+	margin: 2rem auto;
+	padding: 1.5rem;
+	text-decoration: none;
+	background: var(--yellow);
+	color: var(--black);
+	font-weight: bold;
+
+	&:hover {
+		background: var(--bright_yellow);
+	}
+}
+
+#stripe-card {
+	width: fit-content;
+	margin: 2rem auto;
 }
