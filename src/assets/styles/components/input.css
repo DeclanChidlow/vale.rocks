@@ -38,7 +38,7 @@ input[type="checkbox"] {
 	color: light-dark(var(--bright_grey), var(--white));
 }
 
-:focus {
+:focus-visible {
 	outline: var(--blue) solid 2px;
 }
 

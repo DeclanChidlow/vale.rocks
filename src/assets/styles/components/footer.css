@@ -30,7 +30,7 @@ footer {
 		.footer-navigation {
 			display: flex;
 			flex-direction: column;
-			gap: 0.5rem;
+			gap: 1rem;
 			width: 100%;
 		}
 	}
@@ -41,13 +41,18 @@ footer {
 		border-top: 2px solid var(--bright_grey);
 	}
 
+	.support {
+		font-weight: bold;
+		color: var(--green);
+		gap: 0 1ch;
+	}
+
 	ul,
 	.footer-navigation a {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: right;
 		margin: 0;
-		line-height: inherit;
 		gap: 0 1rem;
 
 		li {
@@ -93,6 +98,7 @@ footer {
 		ul,
 		.footer-navigation a {
 			justify-content: center;
+			gap: 0.5rem 1.5rem;
 		}
 	}
 }

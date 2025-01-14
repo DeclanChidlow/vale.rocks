@@ -108,21 +108,21 @@
 	<div class="footer-top">
 		<h2>Vale</h2>
 		<div class="footer-navigation">
+			<a href="/support" class="support">Support My Work</a>
 			<nav>
 				<ul>
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
 					<li><a href="/contact">Contact</a></li>
 					<li><a href="/services">Services</a></li>
-					<li><a href="/support">Support</a></li>
 					<li><a href="/firehose/1">Firehose</a></li>
 					<li><a href="/syndication">Syndication</a></li>
 					<li><a href="/photography">Photography</a></li>
 					<li><a href="/links">Links</a></li>
 					<li><a href="/uses">Uses</a></li>
+					<li><a href="/sitemap.xml">Sitemap</a></li>
 				</ul>
 			</nav>
-			<a href="/sitemap.xml">Sitemap</a>
 		</div>
 	</div>
 
