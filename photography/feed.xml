@@ -5,6 +5,21 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <link>https://vale.rocks/posts/purple-flower.html</link>
+      <guid>https://vale.rocks/posts/purple-flower.html</guid>
+      <description>A purple flower attached to a plant.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/ladybird-on-rosemary.html</link>
+      <guid>https://vale.rocks/posts/ladybird-on-rosemary.html</guid>
+      <description>A ladybird sitting on a plant.</description>
+    </item>
+    <item>
+      <link>https://vale.rocks/posts/bee-on-pink-flower.html</link>
+      <guid>https://vale.rocks/posts/bee-on-pink-flower.html</guid>
+      <description>A bee on a pink flower.</description>
+    </item>
+    <item>
       <link>https://vale.rocks/posts/spider-in-red.html</link>
       <guid>https://vale.rocks/posts/spider-in-red.html</guid>
       <description>A red monochrome photo of a spider sitting in its web.</description>

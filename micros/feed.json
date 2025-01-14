@@ -5,6 +5,41 @@
   "feed_url": "https://vale.rocks/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/posts/20250113-1400.html",
+      "url": "https://vale.rocks/posts/20250113-1400.html",
+      "content_html": "<p>My photos just hit 50K views on Unsplash! Gotta be happy with that!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250113-1234.html",
+      "url": "https://vale.rocks/posts/20250113-1234.html",
+      "content_html": "<p>I wish there was a way to git diff life so I could see what has happened between yesterday and today.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250113-0042.html",
+      "url": "https://vale.rocks/posts/20250113-0042.html",
+      "content_html": "<p>Bad AI-generated images are a guaranteed way to cheapen your content and drive away users. Creating high-quality visual content is essential for engaging your audience. Take the time to make something good, or don&#8217;t bother at all. Quality matters.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250111-1234.html",
+      "url": "https://vale.rocks/posts/20250111-1234.html",
+      "content_html": "<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>\n<p><vale.rocks/photography></p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250110-1453.html",
+      "url": "https://vale.rocks/posts/20250110-1453.html",
+      "content_html": "<p>Just posting this here for no specific reason at all.</p>\n<p><a href=\"https://youtube.com/watch?v=ol2WP0hc0NY\">https://youtube.com/watch?v=ol2WP0hc0NY</a></p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250110-0301.html",
+      "url": "https://vale.rocks/posts/20250110-0301.html",
+      "content_html": "<p>My writing once again made the front page of Y Combinator&#8217;s\n<a href=\"https://news.ycombinator.com\">Hacker News</a> yesterday!</p>\n<p>I shared my journey exploring human-technology integration through a fascinating procedure: getting one of Dangerous Things&#8217;s bio-magnets implanted in my hand.</p>\n<p>Check out my full article here:\n<a href=\"https://vale.rocks/posts/my-experience-biohacking\">https://vale.rocks/posts/my-experience-biohacking</a></p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250109-1446.html",
+      "url": "https://vale.rocks/posts/20250109-1446.html",
+      "content_html": "<p>For those that missed it, I got a magnet implanted in my hand. It’s pretty rad.</p>\n<p>My write-up is currently on the front page of Hacker News, but you can read it here:</p>\n<p><a href=\"https://vale.rocks/posts/my-experience-biohacking\">https://vale.rocks/posts/my-experience-biohacking</a></p>\n<p><img src=\"https://fedi.vale.rocks/media/bcaedfc491978582b9e60fba4246ad31cc69cf6fe964293bc70f60fac84ba1a2.png\" alt=\"My hand, with a paper clip stuck to it halfway along the side between my pinky and wrist.\"></p>\n"
+    },
+    {
       "id": "https://vale.rocks/posts/20250107-1319.html",
       "url": "https://vale.rocks/posts/20250107-1319.html",
       "content_html": "<p>In the same vein as <em>&#8220;Is it better to have loved and lost than to never have loved at all?&#8221;</em> I propose:</p>\n<p>Is it better to make something and have it scraped for an AI or to have never made anything at all?</p>\n"
