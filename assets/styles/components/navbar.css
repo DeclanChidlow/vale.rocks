@@ -89,7 +89,7 @@
 		transform: translateY(calc(-100% - 1rem));
 		transition: transform 0.1s;
 
-		&:focus {
+		&:focus-within {
 			transform: translateY(0%);
 		}
 	}
