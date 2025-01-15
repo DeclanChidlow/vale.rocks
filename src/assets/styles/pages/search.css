@@ -1,3 +1,7 @@
+.readable-width {
+	width: 100%;
+}
+
 .no-js-search {
 	display: flex;
 	flex-wrap: wrap;

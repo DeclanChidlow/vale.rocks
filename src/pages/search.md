@@ -24,15 +24,23 @@ stylesheet: "pages/search.css"
 
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const searchString = urlParams.get("q");
+
+        const pagefind = new PagefindUI({
             element: "#search",
             pageSize: 10,
             showSubResults: true,
             showImages: false,
             excerptLength: 30,
             resetStyles: false,
-            autofocus: true,
+            autofocus: true
         });
+
+        if (searchString) {
+            pagefind.triggerSearch(searchString);
+        }
 
         const observer = new MutationObserver((mutations) => {
             mutations.forEach((mutation) => {

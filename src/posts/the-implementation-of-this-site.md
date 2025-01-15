@@ -5,7 +5,7 @@ og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
 mod_time: 2025-01-13
 section: Meta
-word_count: 2038
+word_count: 2054
 ---
 
 > [!NOTE]
@@ -81,7 +81,7 @@ Once again, you can view my [reference implementation on CodePen](https://codepe
 
 My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
 
-As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find), and implemented a fallback that does a site-specific search with Google should JavaScript be unavailable. I'd have preferred a better, more privacy-adhering search engine, but unfortunately none have indexed by site as well as Google.
+As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find), and implemented a fallback that does a site-specific search with Google should JavaScript be unavailable. I'd have preferred a better, more privacy-adhering search engine, but unfortunately none have indexed by site as well as Google. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about it](https://kiko.io/post/Pagefind-UI-and-URL-Parameters).
 
 ### 404 Handling
 
