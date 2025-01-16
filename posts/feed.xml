@@ -1,9 +1,10 @@
 <?xml version="1.0" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Vale</title>
+    <title>Vale.Rocks</title>
+    <description>A collection of unhinged (yet not completely insane) ramblings.</description>
     <link>https://vale.rocks</link>
-    <atom:link href="https://vale.rocks/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
       <title>My Experience Biohacking</title>

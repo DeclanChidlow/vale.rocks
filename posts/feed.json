@@ -1,8 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Vale",
+  "title": "Vale.Rocks",
+  "description": "A collection of unhinged (yet not completely insane) ramblings.",
   "home_page_url": "https://vale.rocks",
-  "feed_url": "https://vale.rocks/feed.json",
+  "feed_url": "https://vale.rocks/posts/feed.json",
   "items": [
     {
       "id": "https://vale.rocks/posts/my-experience-biohacking.html",
