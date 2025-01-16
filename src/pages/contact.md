@@ -6,11 +6,13 @@ description: Find the best ways to contact me and some information about where y
 <h1 id="section" data-pagefind-filter="Content Type:Page">Contact</h1>
 
 <div class="readable-width">
-Need to get in contact with me for whatever reason? The best ways to do so are:
+Need to get in contact with me for whatever reason? In order of preference, the best ways to do so are:
 
-- On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale).
-- On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
 - Over electronic mail at _vale (at) this site's domain_.
+- On Revolt as Vale#0210.
+- On Matrix as [@valencethehuman:matrix.org](https://matrix.to/#/@valencethehuman:matrix.org).
+- On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
+- On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale).
 
 ---
 
@@ -33,6 +35,7 @@ AAkFAmJKzhkCGwwAIQkQs7aHf+j+NUcWIQQ6mb94ujTvknzAW76ztod/6P41
 R57UAP9SF1sHPt4f2LIB+B51JVxUJBdvPl7lsWY8cVgsVJA9YQEA5YyhSO+W
 e3zepzmyaBeudv+k3OBiSP6s2bSt03CRHQg=
 =hxGd
+
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
