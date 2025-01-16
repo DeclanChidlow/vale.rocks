@@ -6,7 +6,7 @@
 	<h1 id="section" data-pagefind-filter="Content Type">Links</h1>
 
 	<div class="readable-width">
-		<p>This is a curated collection of intriguing and valuable links I've discovered while surfing the web.<br>
+		<p>This is a curated collection of ${ (blogs, tools-and-resources, misc) →	=[...blogs, ...tools-and-resources, ...misc]/length } intriguing and valuable links I've discovered while surfing the web.<br>
 		<em>Descriptions not provided. Content not ordered. Quality not assured.</em></p>
 
 		<h2>Blogs</h2>
