@@ -38,8 +38,26 @@ stylesheet: "pages/search.css"
             autofocus: true
         });
 
+        const updateUrlQuery = (query) => {
+            const newUrl = new URL(window.location);
+            if (query) {
+                newUrl.searchParams.set("q", query);
+            } else {
+                newUrl.searchParams.delete("q");
+            }
+            window.history.pushState({}, '', newUrl);
+        };
+
         if (searchString) {
             pagefind.triggerSearch(searchString);
+        }
+
+        const searchInput = document.querySelector('.pagefind-ui__search-input');
+            if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                updateUrlQuery(query);
+            });
         }
 
         const observer = new MutationObserver((mutations) => {
