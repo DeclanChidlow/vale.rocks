@@ -17,20 +17,19 @@ A website full of the trials and tribulations of Declan Chidlow. You can view th
 > [!NOTE]
 > I don't accept pull requests on this repository as it is a personal project. However, you are welcome to open [issues](https://github.com/DeclanChidlow/vale.rocks/issues) where necessary.
 
-This site is built using the [Origami programming language](https://weborigami.org).
+This site is built using the [Origami programming language](https://weborigami.org). You can read about the design decisions in my post [The Design of This Site](https://vale.rocks/posts/the-design-of-this-site) and about how the site is implemented in [The Implementation of This Site](https://vale.rocks/posts/the-implementation-of-this-site).
 
 ## Development
 
-To get started, run the installation command in the root of the repository using your preferred package manager (Npm, Bun, Pnpm, Yarn, etc):
+To get started, run the installation command in the root of the repository using your preferred JavaScript tool set:
 
 ```console
-npm install  # or use bun, pnpm, yarn, etc.
+npm install
 ```
 
 Once the dependencies are installed, you can run one of the following scripts:
 
 - `start`: Launches the local development server.
-- `build`: Generates the static files for the project.
-- `sitemap`: Creates a sitemap (run after the build script).
+- `build`: Generates the site ready for deployment.
 
-Currently, the site is hosted on GitHub Pages and behind Cloudflare. To simplify deployment, a GitHub action is setup which will deploy the site from [`gh-pages`](https://github.com/DeclanChidlow/vale.rocks/tree/gh-pages).
+Currently, the site is hosted on GitHub Pages. To simplify deployment, a GitHub action is setup which will build and deploy the site from [`gh-pages`](https://github.com/DeclanChidlow/vale.rocks/tree/gh-pages).
