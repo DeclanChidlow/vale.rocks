@@ -1,6 +1,7 @@
 {
 	assets
 	CNAME
+	opensearch.xml
 
 	index.html = pages/index.ori(post_data.ori, portfolio_data.ori)
 	contact.html = main_template.ori(functions/parse-markdown.js(pages/contact.md))
