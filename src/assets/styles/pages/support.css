@@ -1,19 +1,55 @@
-#stripe-button {
+#stripe-button,
+#kofi-button {
 	display: block;
 	width: fit-content;
-	margin: 2rem auto;
+	margin: 1rem auto;
 	padding: 1.5rem;
 	text-decoration: none;
+	font-weight: bold;
+}
+
+#stripe-button {
 	background: var(--yellow);
 	color: var(--black);
-	font-weight: bold;
 
 	&:hover {
 		background: var(--bright_yellow);
 	}
 }
 
-#stripe-card {
-	width: fit-content;
-	margin: 2rem auto;
+#kofi-button {
+	background: var(--red);
+
+	&:hover {
+		background: var(--bright_red);
+	}
+}
+
+#donation-cards {
+	display: flex;
+	width: 100%;
+	margin: 4rem auto;
+	gap: 1rem;
+	justify-content: space-between;
+	align-items: center;
+
+	#stripe-card {
+		@media (prefers-color-scheme: light) {
+			filter: invert(100%) hue-rotate(180deg);
+		}
+	}
+
+	#kofiframe {
+		border: none;
+		width: 288px;
+		height: 243px;
+
+		@media (prefers-color-scheme: dark) {
+			filter: invert(93.5%) hue-rotate(180deg);
+		}
+	}
+
+	@media (max-width: 700px) {
+		flex-direction: column;
+	}
 }
