@@ -68,8 +68,8 @@
 			<link rel="stylesheet" href="/assets/styles/${ page/stylesheet}">
 		` : '' }
 
-		<link rel="alternate" type="application/rss+xml" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.xml">
-		<link rel="alternate" type="application/json" title="${ siteInfo.yaml/feed_description }" href="/posts/feed.json">
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
 
 		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 	</head>
@@ -78,7 +78,7 @@
 		<header id="navbar" data-pagefind-ignore="all">
 			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
 			<nav>
-				<a href="/" id="navlanding">${ siteInfo.yaml/title }</a>
+				<a href="/" id="navlanding">Vale</a>
 				<ul class="menu-items">
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
