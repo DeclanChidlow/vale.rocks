@@ -6,6 +6,26 @@
   "feed_url": "https://vale.rocks/posts/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/posts/20250116-1219.html",
+      "url": "https://vale.rocks/posts/20250116-1219.html",
+      "content_html": "<p>I was thinking about the other future today. The one where Microsoft didn&#8217;t get done for having a monopoly, and we all searched the web using Bing via Internet Explorer.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250116-0301.html",
+      "url": "https://vale.rocks/posts/20250116-0301.html",
+      "content_html": "<p>Just spent 5 minutes on CodePen wondering why my CSS wasn’t working.</p>\n<p><code>postion: absolute</code></p>\n<p><em>Hurrr</em></p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250115-0755.html",
+      "url": "https://vale.rocks/posts/20250115-0755.html",
+      "content_html": "<p>It’s fortunate my 3D printer is so slow. I can’t fathom the amount of crap my house would be filled with if it was any faster.</p>\n"
+    },
+    {
+      "id": "https://vale.rocks/posts/20250115-0522.html",
+      "url": "https://vale.rocks/posts/20250115-0522.html",
+      "content_html": "<p>I misinput a value in one of <a href=\"/posts/my-experience-biohacking\">my recent articles</a>, so it stated the post was revised in February rather than January.</p>\n<p>Out of the thousands of viewers, only one person caught it and pointed this out to me.</p>\n<p>It is so important to get fresh eyes on things and to seek feedback.</p>\n<p>Remember: For every person who reports an issue, there are likely dozens or hundreds (or even thousands) who noticed but stayed quiet.</p>\n<p><a href=\"https://pointersgonewild.com/2019/11/02/they-might-never-tell-you-its-broken/\">https://pointersgonewild.com/2019/11/02/they-might-never-tell-you-its-broken/</a></p>\n"
+    },
+    {
       "id": "https://vale.rocks/posts/20250113-1400.html",
       "url": "https://vale.rocks/posts/20250113-1400.html",
       "content_html": "<p>My photos just hit 50K views on Unsplash! Gotta be happy with that!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
