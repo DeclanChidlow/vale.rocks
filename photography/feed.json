@@ -6,6 +6,18 @@
   "feed_url": "https://vale.rocks/posts/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/posts/wet-colourful-rock.html",
+      "url": "https://vale.rocks/posts/wet-colourful-rock.html",
+      "content_html": "",
+      "summary": "A rock showing its true colours thanks to being soaked in water."
+    },
+    {
+      "id": "https://vale.rocks/posts/fuzzy-little-plant.html",
+      "url": "https://vale.rocks/posts/fuzzy-little-plant.html",
+      "content_html": "",
+      "summary": "A fuzzy little plant growing in the garden."
+    },
+    {
       "id": "https://vale.rocks/posts/purple-flower.html",
       "url": "https://vale.rocks/posts/purple-flower.html",
       "content_html": "",
