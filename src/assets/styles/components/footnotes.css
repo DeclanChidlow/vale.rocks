@@ -22,8 +22,8 @@
 			margin-top: 0.5rem;
 		}
 
-		[data-footnote-backref]::after {
-			content: none;
+		[data-footnote-backref] {
+			display: none;
 		}
 	}
 }
@@ -31,6 +31,11 @@
 .footnote-button.highlight,
 .sidenote.highlight {
 	outline: 2px solid var(--blue);
+	color: inherit;
+}
+
+.sidenote:hover {
+	color: inherit;
 }
 
 .footnote-popover {
@@ -53,6 +58,29 @@
 
 	[data-footnote-backref] {
 		display: none;
+	}
+}
+
+.footnotes li {
+	font-size: small;
+	line-height: 1.5;
+
+	p {
+		border-left: 2px solid light-dark(var(--white), var(--bright_grey));
+		padding-left: 1rem;
+		margin-left: 0.5rem;
+	}
+
+	&:target p {
+		border-color: var(--blue);
+	}
+
+	* + * {
+		padding-top: 0.5rem;
+	}
+
+	[data-footnote-backref]::after {
+		content: none;
 	}
 }
 
