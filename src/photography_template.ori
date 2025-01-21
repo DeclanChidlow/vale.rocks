@@ -27,8 +27,8 @@
 						<li><span class="icons" aria-hidden="true">photo_camera</span><p>Camera: ${ photography/camera }</p></li>
 						<li><span class="icons" aria-hidden="true">straighten</span><p>Focal Length: ${ photography/focal }
 						<li><span class="icons" aria-hidden="true">camera</span><p>Aperture: <em>f</em>/${ photography/aperture }</p></li>
-						<li><span class="icons" aria-hidden="true">shutter_speed</span><p>Shutter: ${ photography/shutter }s</p></li>
-						<li><span class="icons" aria-hidden="true">sunny</span><p>ISO: ${ photography/iso }</p></li>
+						${ photography/shutter ? `<li><span class="icons" aria-hidden="true">shutter_speed</span><p>Shutter: ${ photography/shutter }s</p></li>` : '' }
+						${ photography/iso ? `<li><span class="icons" aria-hidden="true">sunny</span><p>ISO: ${ photography/iso }</p></li>` : '' }
 					</ul>
 				</div>
 			
