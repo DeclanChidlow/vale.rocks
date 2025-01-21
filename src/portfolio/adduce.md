@@ -11,10 +11,10 @@ After experimenting with some popular static site generators, I found myself wan
 
 I mentioned my intentions to my friend [ToastXC](https://toastxc.xyz), who implemented the initial groundwork in her language of choice, Rust, before stepping away from the project.
 
-Being a front-end dev, Rust isn't my area of expertise. Nevertheless, I've embraced my inexperience as an opportunity to expand my skill set and push the boundaries of my knowledge.
+Being a front-end dev, Rust isn't my area of expertise. Nevertheless, I embraced my inexperience as an opportunity to expand my skill set and push the boundaries of my knowledge.
 
-Through working on Adduce, I've gained invaluable experience and insights. Despite my initial unfamiliarity, I've successfully maintained the project and implemented new features, with much more planned for the future.
+Through working on Adduce, I've gained invaluable experience and insights. Despite my initial unfamiliarity, I've successfully built, maintained, and improved the project all while growing my skill set.
 
-As I've built this site and others using Adduce, I'm consistently tweaking and improving it. I also put together a [landing page for the project](https://adduce.vale.rocks) with links to the [comprehensive documentation](https://github.com/DeclanChidlow/Adduce/wiki) I've written.
+Adduce has proven itself in the field, with several [sites using it in production](https://github.com/DeclanChidlow/Adduce?tab=readme-ov-file#sites-using-adduce). I also put together a [landing page for the project](https://adduce.vale.rocks) with links to the [comprehensive documentation](https://github.com/DeclanChidlow/Adduce/wiki) I've written.
 
 The project is completely open source under the LGPL v3, with all the source code and documentation being [available on GitHub](https://github.com/DeclanChidlow/Adduce). Contributions are welcome.

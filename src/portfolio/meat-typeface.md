@@ -1,13 +1,13 @@
 ---
-title: Meat Typeface
-tag_line: An experiment in fleshy, 3D type design.
+title: Osseo Flesh
+tag_line: An experiment in fleshy type design and variable axis.
 accent_colour: var(--grey)
 ---
 
-I'm near certain that most people, at some point, have fantasised about wielding meat as a writing tool. Well, you needn't wait any longer, as my meat typeface fulfils that dream.
+I'm near certain that most people, at some point, have fantasised about wielding meat as a writing tool. Well, you needn't wait any longer, as my Osseo Flesh fulfils that dream.
 
-The brief I received during my Certificate IV in Design was to create a typeface. As long as it had the entire alphabet, both upper and lowercase, anything went. I thought long and hard before settling on meat.
+While studying design, I received the brief of creating a typeface. As long as it had the entire alphabet, both upper and lowercase, anything went. I tested a few considerations, including singed paper, before settling on making a "meat font".
 
-For a fleeting moment, I considered using actual meat but thought better and instead took it as a wonderful opportunity to learn about Adobe Illustrator’s 3D tools. Using some interesting texturing, I managed to concoct a fleshy, meaty typeface.
+For a few fleeting moments, I considered using actual meat but thought better and instead took it as a wonderful opportunity to test Adobe Illustrator's 3D tools. Using some interesting texturing, I managed to concoct a fleshy, meaty typeface.
 
-I learned a lot about letter forms during the process and ended up spending a lot of time waiting for Illustrator to compute my 3D shapes. I think it was worth it in the end, as the output was certainly *interesting*.
+While cool, this wasn't fit for any actual use, so I pivoted to keeping things flat and pushing boundries with variable axes, inspired by the typeface [Climate Crisis](https://design.google/library/glacial-melt-font).
