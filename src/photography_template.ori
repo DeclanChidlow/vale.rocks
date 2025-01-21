@@ -17,20 +17,20 @@
 			</figure>
 
 			<div class="content">
-			<div class="stats">
-				<ul>
-					<li><time class="dt-published" datetime="${ photography/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(photography/pub_time) }</time></li>
-					<li><p>${ photography/location }</p></li>
-					<li><a href="${ photography/unsplash_link }" target="_blank">View on Unsplash</a></li>
-				</ul>
-				<ul>
-					<li><span class="icons" aria-hidden="true">photo_camera</span><p>Camera: ${ photography/camera }</p></li>
-					<li><span class="icons" aria-hidden="true">straighten</span><p>Focal Length: ${ photography/focal }
-					<li><span class="icons" aria-hidden="true">camera</span><p>Aperture: <em>f</em>/${ photography/aperture }</p></li>
-					<li><span class="icons" aria-hidden="true">shutter_speed</span><p>Shutter: ${ photography/shutter }s</p></li>
-					<li><span class="icons" aria-hidden="true">sunny</span><p>ISO: ${ photography/iso }</p></li>
-				</ul>
-			</div>
+				<div class="stats">
+					<ul>
+						<li><time class="dt-published" datetime="${ photography/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(photography/pub_time) }</time></li>
+						<li><p>${ photography/location }</p></li>
+						<li><a href="${ photography/unsplash_link }" target="_blank">View on Unsplash</a></li>
+					</ul>
+					<ul>
+						<li><span class="icons" aria-hidden="true">photo_camera</span><p>Camera: ${ photography/camera }</p></li>
+						<li><span class="icons" aria-hidden="true">straighten</span><p>Focal Length: ${ photography/focal }
+						<li><span class="icons" aria-hidden="true">camera</span><p>Aperture: <em>f</em>/${ photography/aperture }</p></li>
+						<li><span class="icons" aria-hidden="true">shutter_speed</span><p>Shutter: ${ photography/shutter }s</p></li>
+						<li><span class="icons" aria-hidden="true">sunny</span><p>ISO: ${ photography/iso }</p></li>
+					</ul>
+				</div>
 			
 				<div class="readable-width e-content">
 					<p>${ photography/description }</p>

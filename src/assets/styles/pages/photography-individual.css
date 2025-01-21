@@ -1,3 +1,13 @@
+figure {
+	max-height: 80vh;
+	max-width: 90rem;
+	width: fit-content;
+
+	img {
+		max-height: 80vh;
+	}
+}
+
 .content {
 	display: flex;
 	margin-top: 2rem;
