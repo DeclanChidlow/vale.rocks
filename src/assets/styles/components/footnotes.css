@@ -8,13 +8,18 @@
 		right: 3rem;
 		max-width: 60ch;
 		font-size: small;
+		line-height: 1.5;
 		color: light-dark(var(--grey), var(--white));
 		padding-bottom: 1rem;
 		transition: background-color 0.25s;
+		border-top: 1px solid light-dark(var(--white), var(--bright_grey));
 
 		p {
-			border-top: 1px solid light-dark(var(--white), var(--bright_grey));
 			padding-top: 0.25rem;
+		}
+
+		> * + * {
+			margin-top: 0.5rem;
 		}
 
 		[data-footnote-backref]::after {
@@ -36,9 +41,14 @@
 	background: light-dark(var(--bright_white), var(--black));
 	padding: 0.5rem 1rem;
 	font-size: small;
+	line-height: 1.5;
 
 	@media (max-width: 700px) {
 		inset: auto 0.8rem;
+	}
+
+	.footnote-content > * + * {
+		margin-top: 0.5rem;
 	}
 
 	[data-footnote-backref] {
