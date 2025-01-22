@@ -5,7 +5,7 @@ og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
 mod_time: 2025-01-13
 section: Meta
-word_count: 2054
+word_count: 2062
 ---
 
 > [!NOTE]
@@ -43,7 +43,7 @@ This overall experience is very much influenced by [Gwern's implementation and r
 
 ### Hero Puddle
 
-On the [landing page](/) of my site, I have an interactive fluid simulation. Very much inspired and based on [the one by Arjun Nair](https://batmannair.com/puddle.js), my implementation ([`puddle.js`](/assets/scripts/puddle.js)) is greatly simplified and provides greatly improved performance.
+On the [landing page](/) of my site, I have an interactive fluid simulation. Very much inspired and based on [the one by Arjun Nair](https://batmannair.com/puddle.js), my implementation ([`puddle.js`](/assets/scripts/puddle.js)) is greatly simplified and provides greatly improved performance. You can play with it [over on CodePen](https://codepen.io/OuterVale/pen/emOeyQM).
 
 ### Comments
 
