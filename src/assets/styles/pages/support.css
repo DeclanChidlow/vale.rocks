@@ -34,15 +34,19 @@
 	align-items: center;
 
 	#stripe-card {
+		padding: 3rem 0;
+		display: block;
+
 		@media (prefers-color-scheme: light) {
-			filter: invert(100%) hue-rotate(180deg);
+			filter: invert(100%) hue-rotate(180deg) brightness(120%);
+			background: var(--black);
 		}
 	}
 
 	#kofiframe {
 		border: none;
 		width: 288px;
-		height: 243px;
+		height: calc(248px + 6rem);
 
 		@media (prefers-color-scheme: dark) {
 			filter: invert(93.5%) hue-rotate(180deg);
@@ -51,5 +55,9 @@
 
 	@media (max-width: 700px) {
 		flex-direction: column;
+
+		#stripe-card {
+			padding: 0;
+		}
 	}
 }
