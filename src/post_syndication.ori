@@ -5,9 +5,9 @@
   home_page_url: "https://vale.rocks"
   feed_url: "https://vale.rocks/posts/feed.json"
   
-  items: values(map(posts, (post, slug) => {
-	id: `https://vale.rocks/posts/${ slug }`
-	url: `https://vale.rocks/posts/${ slug }`
+  items: values(map(posts, (post, fileName) => {
+	id: `https://vale.rocks/posts/${ basename(fileName) }`
+	url: `https://vale.rocks/posts/${ basename(fileName) }`
 	title: post/title
     content_html: post/@text
     summary: post/description

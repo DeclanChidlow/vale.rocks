@@ -5,9 +5,9 @@
   home_page_url: "https://vale.rocks"
   feed_url: "https://vale.rocks/photography/feed.json"
   
-  items: values(map(photography, (photo, slug) => {
-	id: `https://vale.rocks/photography/${ slug }`
-	url: `https://vale.rocks/photography/${ slug }`
+  items: values(map(photography, (photo, fileName) => {
+	id: `https://vale.rocks/photography/${ basename(fileName) }`
+	url: `https://vale.rocks/photography/${ basename(fileName) }`
 	title: photo/description
 	image: photo/image
     content_html: photo/@text

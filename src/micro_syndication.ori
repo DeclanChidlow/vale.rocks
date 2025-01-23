@@ -5,9 +5,9 @@
   home_page_url: "https://vale.rocks"
   feed_url: "https://vale.rocks/micros/feed.json"
   
-  items: values(map(micros, (micro, slug) => {
-	id: `https://vale.rocks/micros/${ slug }`
-	url: `https://vale.rocks/micros/${ slug }`
+  items: values(map(micros, (micro, fileName) => {
+	id: `https://vale.rocks/micros/${ basename(fileName) }`
+	url: `https://vale.rocks/micros/${ basename(fileName) }`
 	title: micro/title
     content_html: micro/@text
     date_published: micro/pub_time
