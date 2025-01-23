@@ -15,7 +15,7 @@
 	"scripts": {
 		"dev": "ori serve watch src, =debug src/site.ori",
 		"build": "ori copy src/site.ori, clear files:build && bun run sitemap && bun run search-index",
-		"sitemap": "ori sitemap src/site.ori, \"'https://vale.rocks'\" > build/sitemap.xml",
+		"sitemap": "ori sitemap src/site.ori, \"'https://vale.rocks'\" > build/sitemap.xml && bun sitemap-cleanup.js build/sitemap.xml",
 		"search-index": "pagefind --site build"
 	}
 }
