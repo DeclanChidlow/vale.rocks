@@ -1,6 +1,6 @@
 (photography) => main_template.ori({
 	title: photography/description
-	description: photography/description
+	description: photography/alt_text
 	pub_time: photography/pub_time
 	image: photography/image
 	alt_text: photography/alt_text

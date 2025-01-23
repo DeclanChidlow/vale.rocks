@@ -1,0 +1,15 @@
+(micros) => {
+  version: "https://jsonfeed.org/version/1.1"
+  title: "Vale.Rocks Micros"
+  description:  "A collection of unhinged (yet not completely insane) ramblings."
+  home_page_url: "https://vale.rocks"
+  feed_url: "https://vale.rocks/micros/feed.json"
+  
+  items: values(map(micros, (micro, slug) => {
+	id: `https://vale.rocks/micros/${ slug }`
+	url: `https://vale.rocks/micros/${ slug }`
+	title: micro/title
+    content_html: micro/@text
+    date_published: micro/pub_time
+  }))
+}

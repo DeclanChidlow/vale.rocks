@@ -1,6 +1,5 @@
 (micro) => main_template.ori({
-	title: `Micro - ${ functions/pretty-date.js(micro/pub_time) } ${ functions/pretty-time.js(micro/pub_time) }`
-	// description: micro/@text
+	title: micro/title
 	stylesheet: "pages/micro-individual.css"
 
 	@text: indent`

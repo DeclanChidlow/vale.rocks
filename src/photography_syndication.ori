@@ -1,0 +1,17 @@
+(photography) => {
+  version: "https://jsonfeed.org/version/1.1"
+  title: "Vale.Rocks Photography"
+  description: "Photos I have taken presented for one's viewing pleasure."
+  home_page_url: "https://vale.rocks"
+  feed_url: "https://vale.rocks/photography/feed.json"
+  
+  items: values(map(photography, (photo, slug) => {
+	id: `https://vale.rocks/photography/${ slug }`
+	url: `https://vale.rocks/photography/${ slug }`
+	title: photo/description
+	image: photo/image
+    content_html: photo/@text
+    summary: photo/alt_text
+    date_published: photo/pub_time
+  }))
+}
