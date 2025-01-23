@@ -6,8 +6,8 @@
   "feed_url": "https://vale.rocks/photography/feed.json",
   "items": [
     {
-      "id": "https://vale.rocks/photography/wet-colourful-rock.html",
-      "url": "https://vale.rocks/photography/wet-colourful-rock.html",
+      "id": "https://vale.rocks/photography/wet-colourful-rock",
+      "url": "https://vale.rocks/photography/wet-colourful-rock",
       "title": "A rock showing its true colours thanks to being soaked in water.",
       "image": "https://images.unsplash.com/photo-1737454405780-cb979a7c1ccd",
       "content_html": "",
@@ -15,8 +15,8 @@
       "date_published": "2025-01-21"
     },
     {
-      "id": "https://vale.rocks/photography/fuzzy-little-plant.html",
-      "url": "https://vale.rocks/photography/fuzzy-little-plant.html",
+      "id": "https://vale.rocks/photography/fuzzy-little-plant",
+      "url": "https://vale.rocks/photography/fuzzy-little-plant",
       "title": "A fuzzy little plant growing in the garden.",
       "image": "https://images.unsplash.com/photo-1737454405766-57fac6c30892",
       "content_html": "",
@@ -24,8 +24,8 @@
       "date_published": "2025-01-21"
     },
     {
-      "id": "https://vale.rocks/photography/purple-flower.html",
-      "url": "https://vale.rocks/photography/purple-flower.html",
+      "id": "https://vale.rocks/photography/purple-flower",
+      "url": "https://vale.rocks/photography/purple-flower",
       "title": "A purple flower attached to a plant.",
       "image": "https://images.unsplash.com/photo-1736817865292-0fdc0a2a7e30",
       "content_html": "",
@@ -33,8 +33,8 @@
       "date_published": "2025-01-14"
     },
     {
-      "id": "https://vale.rocks/photography/ladybird-on-rosemary.html",
-      "url": "https://vale.rocks/photography/ladybird-on-rosemary.html",
+      "id": "https://vale.rocks/photography/ladybird-on-rosemary",
+      "url": "https://vale.rocks/photography/ladybird-on-rosemary",
       "title": "A ladybird sitting on a plant.",
       "image": "https://images.unsplash.com/photo-1736817583532-bba0901e52db",
       "content_html": "",
@@ -42,8 +42,8 @@
       "date_published": "2025-01-14"
     },
     {
-      "id": "https://vale.rocks/photography/bee-on-pink-flower.html",
-      "url": "https://vale.rocks/photography/bee-on-pink-flower.html",
+      "id": "https://vale.rocks/photography/bee-on-pink-flower",
+      "url": "https://vale.rocks/photography/bee-on-pink-flower",
       "title": "A bee on a pink flower.",
       "image": "https://images.unsplash.com/photo-1736817540728-798b484a93d8",
       "content_html": "",
@@ -51,8 +51,8 @@
       "date_published": "2025-01-14"
     },
     {
-      "id": "https://vale.rocks/photography/spider-in-red.html",
-      "url": "https://vale.rocks/photography/spider-in-red.html",
+      "id": "https://vale.rocks/photography/spider-in-red",
+      "url": "https://vale.rocks/photography/spider-in-red",
       "title": "A red monochrome photo of a spider sitting in its web.",
       "image": "https://images.unsplash.com/photo-1730111640490-1f834d91193c",
       "content_html": "<p>The red colour of this photo wasn&#8217;t done in post, but was instead a result of a coloured bulb positioned next to the spider.</p>\n",
@@ -60,8 +60,8 @@
       "date_published": "2024-10-28"
     },
     {
-      "id": "https://vale.rocks/photography/lone-light-bulb.html",
-      "url": "https://vale.rocks/photography/lone-light-bulb.html",
+      "id": "https://vale.rocks/photography/lone-light-bulb",
+      "url": "https://vale.rocks/photography/lone-light-bulb",
       "title": "A lone light bulb at night.",
       "image": "https://images.unsplash.com/photo-1730111639887-10998771101c",
       "content_html": "",
@@ -69,8 +69,8 @@
       "date_published": "2024-10-28"
     },
     {
-      "id": "https://vale.rocks/photography/screw-in-wood.html",
-      "url": "https://vale.rocks/photography/screw-in-wood.html",
+      "id": "https://vale.rocks/photography/screw-in-wood",
+      "url": "https://vale.rocks/photography/screw-in-wood",
       "title": "A screw with tiny plants and moss growing around it.",
       "image": "https://images.unsplash.com/photo-1726379781307-67df2a439429",
       "content_html": "",
@@ -78,8 +78,8 @@
       "date_published": "2024-09-15"
     },
     {
-      "id": "https://vale.rocks/photography/red-leaf-in-mulch.html",
-      "url": "https://vale.rocks/photography/red-leaf-in-mulch.html",
+      "id": "https://vale.rocks/photography/red-leaf-in-mulch",
+      "url": "https://vale.rocks/photography/red-leaf-in-mulch",
       "title": "A red leaf sitting on top of a pile of woodchips.",
       "image": "https://images.unsplash.com/photo-1726379781464-98ba39da2c0f",
       "content_html": "",
@@ -87,8 +87,8 @@
       "date_published": "2024-09-15"
     },
     {
-      "id": "https://vale.rocks/photography/pomegranate-growing.html",
-      "url": "https://vale.rocks/photography/pomegranate-growing.html",
+      "id": "https://vale.rocks/photography/pomegranate-growing",
+      "url": "https://vale.rocks/photography/pomegranate-growing",
       "title": "A pomegranate fruit growing on the shrub.",
       "image": "https://images.unsplash.com/photo-1726379781351-18d2def4e08c",
       "content_html": "",
@@ -96,8 +96,8 @@
       "date_published": "2024-09-15"
     },
     {
-      "id": "https://vale.rocks/photography/relaxing-snake.html",
-      "url": "https://vale.rocks/photography/relaxing-snake.html",
+      "id": "https://vale.rocks/photography/relaxing-snake",
+      "url": "https://vale.rocks/photography/relaxing-snake",
       "title": "A snake named George relaxing on a stick.",
       "image": "https://images.unsplash.com/photo-1715158735090-2b0f2a0f1d86",
       "content_html": "",
@@ -105,8 +105,8 @@
       "date_published": "2024-05-08"
     },
     {
-      "id": "https://vale.rocks/photography/evening-sunflower.html",
-      "url": "https://vale.rocks/photography/evening-sunflower.html",
+      "id": "https://vale.rocks/photography/evening-sunflower",
+      "url": "https://vale.rocks/photography/evening-sunflower",
       "title": "Sunflower against the dulling evening sky.",
       "image": "https://images.unsplash.com/photo-1715159847518-96d17a5657f8",
       "content_html": "",
@@ -114,8 +114,8 @@
       "date_published": "2024-05-08"
     },
     {
-      "id": "https://vale.rocks/photography/moist-lush-moss.html",
-      "url": "https://vale.rocks/photography/moist-lush-moss.html",
+      "id": "https://vale.rocks/photography/moist-lush-moss",
+      "url": "https://vale.rocks/photography/moist-lush-moss",
       "title": "Bright green, moist moss growing vertically.",
       "image": "https://images.unsplash.com/photo-1712541780350-fd5e73d4928f",
       "content_html": "",
@@ -123,8 +123,8 @@
       "date_published": "2024-04-08"
     },
     {
-      "id": "https://vale.rocks/photography/majestic-butterfly.html",
-      "url": "https://vale.rocks/photography/majestic-butterfly.html",
+      "id": "https://vale.rocks/photography/majestic-butterfly",
+      "url": "https://vale.rocks/photography/majestic-butterfly",
       "title": "A majestic butterfly.",
       "image": "https://images.unsplash.com/photo-1712541621449-3aa05480e96c",
       "content_html": "",
@@ -132,8 +132,8 @@
       "date_published": "2024-04-08"
     },
     {
-      "id": "https://vale.rocks/photography/chilling-frog.html",
-      "url": "https://vale.rocks/photography/chilling-frog.html",
+      "id": "https://vale.rocks/photography/chilling-frog",
+      "url": "https://vale.rocks/photography/chilling-frog",
       "title": "A frog chilling amongst ferns.",
       "image": "https://images.unsplash.com/photo-1712541780330-ab9b4c4393c0",
       "content_html": "",
@@ -141,8 +141,8 @@
       "date_published": "2024-04-08"
     },
     {
-      "id": "https://vale.rocks/photography/bald-head-track.html",
-      "url": "https://vale.rocks/photography/bald-head-track.html",
+      "id": "https://vale.rocks/photography/bald-head-track",
+      "url": "https://vale.rocks/photography/bald-head-track",
       "title": "A panoramic photo of a walk track.",
       "image": "https://images.unsplash.com/photo-1715158735069-cafd5ae4918a",
       "content_html": "",
@@ -150,8 +150,8 @@
       "date_published": "2024-04-08"
     },
     {
-      "id": "https://vale.rocks/photography/mushroom-among-moss.html",
-      "url": "https://vale.rocks/photography/mushroom-among-moss.html",
+      "id": "https://vale.rocks/photography/mushroom-among-moss",
+      "url": "https://vale.rocks/photography/mushroom-among-moss",
       "title": "Two-headed mushroom growing among moss and tiny sprouts.",
       "image": "https://images.unsplash.com/photo-1701230883925-11df37ad5850",
       "content_html": "",
@@ -159,8 +159,8 @@
       "date_published": "2023-11-29"
     },
     {
-      "id": "https://vale.rocks/photography/mountainous-valley.html",
-      "url": "https://vale.rocks/photography/mountainous-valley.html",
+      "id": "https://vale.rocks/photography/mountainous-valley",
+      "url": "https://vale.rocks/photography/mountainous-valley",
       "title": "A valley surrounded by mountains.",
       "image": "https://images.unsplash.com/photo-1701230347798-30aa6aaf7aee",
       "content_html": "",
@@ -168,8 +168,8 @@
       "date_published": "2023-11-29"
     },
     {
-      "id": "https://vale.rocks/photography/aoraki-mountains.html",
-      "url": "https://vale.rocks/photography/aoraki-mountains.html",
+      "id": "https://vale.rocks/photography/aoraki-mountains",
+      "url": "https://vale.rocks/photography/aoraki-mountains",
       "title": "A snowy mountain semi-concealed by cloud.",
       "image": "https://images.unsplash.com/photo-1701230279265-88180c2b9ad1",
       "content_html": "",
@@ -177,8 +177,8 @@
       "date_published": "2023-11-29"
     },
     {
-      "id": "https://vale.rocks/photography/steps-along-a-path.html",
-      "url": "https://vale.rocks/photography/steps-along-a-path.html",
+      "id": "https://vale.rocks/photography/steps-along-a-path",
+      "url": "https://vale.rocks/photography/steps-along-a-path",
       "title": "A path winding through trees.",
       "image": "https://images.unsplash.com/photo-1698750298043-f6c0ae16ab73",
       "content_html": "",
@@ -186,8 +186,8 @@
       "date_published": "2023-10-31"
     },
     {
-      "id": "https://vale.rocks/photography/pink-tree.html",
-      "url": "https://vale.rocks/photography/pink-tree.html",
+      "id": "https://vale.rocks/photography/pink-tree",
+      "url": "https://vale.rocks/photography/pink-tree",
       "title": "A tree with pretty pink leaves growing in front of a house against a clear blue sky.",
       "image": "https://images.unsplash.com/photo-1698750297812-c27bd0d48ab5",
       "content_html": "",
@@ -195,8 +195,8 @@
       "date_published": "2023-10-31"
     },
     {
-      "id": "https://vale.rocks/photography/queenstown-mountains.html",
-      "url": "https://vale.rocks/photography/queenstown-mountains.html",
+      "id": "https://vale.rocks/photography/queenstown-mountains",
+      "url": "https://vale.rocks/photography/queenstown-mountains",
       "title": "View of mountains near Queenstown.",
       "image": "https://images.unsplash.com/photo-1696060159112-d09c0cf52619",
       "content_html": "",
@@ -204,8 +204,8 @@
       "date_published": "2023-09-30"
     },
     {
-      "id": "https://vale.rocks/photography/queenstown-from-gondola.html",
-      "url": "https://vale.rocks/photography/queenstown-from-gondola.html",
+      "id": "https://vale.rocks/photography/queenstown-from-gondola",
+      "url": "https://vale.rocks/photography/queenstown-from-gondola",
       "title": "The town, forest, lake, and mountains of Queenstown from the gondola.",
       "image": "https://images.unsplash.com/photo-1696060159045-69025bb6ddfb",
       "content_html": "",
@@ -213,8 +213,8 @@
       "date_published": "2023-09-30"
     },
     {
-      "id": "https://vale.rocks/photography/queenstown-across-lake.html",
-      "url": "https://vale.rocks/photography/queenstown-across-lake.html",
+      "id": "https://vale.rocks/photography/queenstown-across-lake",
+      "url": "https://vale.rocks/photography/queenstown-across-lake",
       "title": "Queenstown across a lake with snowy mountain peaks in the background.",
       "image": "https://images.unsplash.com/photo-1696060159063-2bb3c6481321",
       "content_html": "",
@@ -222,8 +222,8 @@
       "date_published": "2023-09-30"
     },
     {
-      "id": "https://vale.rocks/photography/sprouts-growing-from-log.html",
-      "url": "https://vale.rocks/photography/sprouts-growing-from-log.html",
+      "id": "https://vale.rocks/photography/sprouts-growing-from-log",
+      "url": "https://vale.rocks/photography/sprouts-growing-from-log",
       "title": "Tiny sprouts growing up from the top of a moss-covered log.",
       "image": "https://images.unsplash.com/photo-1691918917762-8670d9bb1e60",
       "content_html": "",
@@ -231,8 +231,8 @@
       "date_published": "2023-08-13"
     },
     {
-      "id": "https://vale.rocks/photography/mushroom-on-mossy-log.html",
-      "url": "https://vale.rocks/photography/mushroom-on-mossy-log.html",
+      "id": "https://vale.rocks/photography/mushroom-on-mossy-log",
+      "url": "https://vale.rocks/photography/mushroom-on-mossy-log",
       "title": "A fungal growth on the side of a moss-covered log.",
       "image": "https://images.unsplash.com/photo-1691918917740-45c1f0d8183d",
       "content_html": "",
@@ -240,8 +240,8 @@
       "date_published": "2023-08-13"
     },
     {
-      "id": "https://vale.rocks/photography/mushroom-nestled-in-moss.html",
-      "url": "https://vale.rocks/photography/mushroom-nestled-in-moss.html",
+      "id": "https://vale.rocks/photography/mushroom-nestled-in-moss",
+      "url": "https://vale.rocks/photography/mushroom-nestled-in-moss",
       "title": "A mushroom growing, nestled in a mossy alcove.",
       "image": "https://images.unsplash.com/photo-1691918917939-eebdc97244e3",
       "content_html": "",
@@ -249,8 +249,8 @@
       "date_published": "2023-08-13"
     },
     {
-      "id": "https://vale.rocks/photography/fungus-on-log-side.html",
-      "url": "https://vale.rocks/photography/fungus-on-log-side.html",
+      "id": "https://vale.rocks/photography/fungus-on-log-side",
+      "url": "https://vale.rocks/photography/fungus-on-log-side",
       "title": "A fungal growth on a moss-covered log.",
       "image": "https://images.unsplash.com/photo-1691918917719-413dd70b92f0",
       "content_html": "",
