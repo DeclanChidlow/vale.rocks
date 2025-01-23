@@ -1,11 +1,12 @@
 <?xml version="1.0" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Vale.Rocks</title>
-    <description>A collection of unhinged (yet not completely insane) ramblings.</description>
+    <title>Vale.Rocks Posts</title>
+    <description>Long form writings about assorted topics.</description>
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
       <title>The Flow State</title>
       <link>https://vale.rocks/posts/the-flow-state.html</link>
       <guid>https://vale.rocks/posts/the-flow-state.html</guid>
@@ -43,7 +44,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
       <title>My Experience Biohacking</title>
       <link>https://vale.rocks/posts/my-experience-biohacking.html</link>
       <guid>https://vale.rocks/posts/my-experience-biohacking.html</guid>
@@ -132,7 +133,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
       <title>The Implementation of This Site</title>
       <link>https://vale.rocks/posts/the-implementation-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-implementation-of-this-site.html</guid>
@@ -208,6 +209,7 @@
 ]]></content:encoded>
     </item>
     <item>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
       <title>Media Review Reasoning</title>
       <link>https://vale.rocks/posts/media-review-reasoning.html</link>
       <guid>https://vale.rocks/posts/media-review-reasoning.html</guid>
@@ -245,7 +247,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
       <title>Lorem Ipsum</title>
       <link>https://vale.rocks/posts/lorem-ipsum.html</link>
       <guid>https://vale.rocks/posts/lorem-ipsum.html</guid>
@@ -535,6 +537,7 @@
 ]]></content:encoded>
     </item>
     <item>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 GMT</pubDate>
       <title>Building Sites With iFrames</title>
       <link>https://vale.rocks/posts/building-sites-with-iframes.html</link>
       <guid>https://vale.rocks/posts/building-sites-with-iframes.html</guid>
@@ -615,7 +618,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
       <title>I Got A Flipper Zero</title>
       <link>https://vale.rocks/posts/i-got-a-flipper-zero.html</link>
       <guid>https://vale.rocks/posts/i-got-a-flipper-zero.html</guid>
@@ -678,7 +681,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
       <title>JPEG XL and Google&apos;s War Against It</title>
       <link>https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it.html</link>
       <guid>https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it.html</guid>
@@ -780,7 +783,7 @@
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 GMT</pubDate>
       <title>My Code Formatting Guidelines</title>
       <link>https://vale.rocks/posts/my-code-formatting-guidelines.html</link>
       <guid>https://vale.rocks/posts/my-code-formatting-guidelines.html</guid>
@@ -904,7 +907,7 @@ x =&gt; x
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
       <title>Minecraft, Nostalgia, and Growing Up</title>
       <link>https://vale.rocks/posts/minecraft-nostalgia-and-growing-up.html</link>
       <guid>https://vale.rocks/posts/minecraft-nostalgia-and-growing-up.html</guid>
@@ -976,7 +979,7 @@ x =&gt; x
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 GMT</pubDate>
       <title>Cybersecurity Superstition</title>
       <link>https://vale.rocks/posts/cybersecurity-superstition.html</link>
       <guid>https://vale.rocks/posts/cybersecurity-superstition.html</guid>
@@ -1044,7 +1047,7 @@ x =&gt; x
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
       <title>I Hate My Nokia</title>
       <link>https://vale.rocks/posts/i-hate-my-nokia.html</link>
       <guid>https://vale.rocks/posts/i-hate-my-nokia.html</guid>
@@ -1088,7 +1091,7 @@ x =&gt; x
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Sun, 03 Nov 2024 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
       <title>Everything Is Chrome</title>
       <link>https://vale.rocks/posts/everything-is-chrome.html</link>
       <guid>https://vale.rocks/posts/everything-is-chrome.html</guid>
@@ -1203,7 +1206,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
       <title>A Year With The Framework Laptop 13</title>
       <link>https://vale.rocks/posts/a-year-with-the-framework-laptop-13.html</link>
       <guid>https://vale.rocks/posts/a-year-with-the-framework-laptop-13.html</guid>
@@ -1252,7 +1255,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
       <title>Prematurely Pulling The Plug On 3G</title>
       <link>https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g.html</link>
       <guid>https://vale.rocks/posts/prematurely-pulling-the-plug-on-3g.html</guid>
@@ -1283,7 +1286,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 21 Aug 2024 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 00:00:00 GMT</pubDate>
       <title>Halo: My Thoughts</title>
       <link>https://vale.rocks/posts/halo-my-thoughts.html</link>
       <guid>https://vale.rocks/posts/halo-my-thoughts.html</guid>
@@ -1425,7 +1428,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 GMT</pubDate>
       <title>The Ultimate LibreOffice Setup</title>
       <link>https://vale.rocks/posts/the-ultimate-libreoffice-setup.html</link>
       <guid>https://vale.rocks/posts/the-ultimate-libreoffice-setup.html</guid>
@@ -1462,7 +1465,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Sun, 03 Mar 2024 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 GMT</pubDate>
       <title>Connecting to Australian Public School Internet</title>
       <link>https://vale.rocks/posts/connecting-to-australian-public-school-internet.html</link>
       <guid>https://vale.rocks/posts/connecting-to-australian-public-school-internet.html</guid>
@@ -1521,7 +1524,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
       <title>The Design of This Site</title>
       <link>https://vale.rocks/posts/the-design-of-this-site.html</link>
       <guid>https://vale.rocks/posts/the-design-of-this-site.html</guid>

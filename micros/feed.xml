@@ -1,33 +1,41 @@
 <?xml version="1.0" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Vale.Rocks</title>
+    <title>Vale.Rocks Micros</title>
     <description>A collection of unhinged (yet not completely insane) ramblings.</description>
     <link>https://vale.rocks</link>
-    <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <link>https://vale.rocks/posts/20250116-1219.html</link>
-      <guid>https://vale.rocks/posts/20250116-1219.html</guid>
+      <pubDate>Thu, 16 Jan 2025 12:19:00 GMT</pubDate>
+      <title>16 Jan 2025 12:19</title>
+      <link>https://vale.rocks/micros/20250116-1219.html</link>
+      <guid>https://vale.rocks/micros/20250116-1219.html</guid>
       <content:encoded><![CDATA[<p>I was thinking about the other future today. The one where Microsoft didn&#8217;t get done for having a monopoly, and we all searched the web using Bing via Internet Explorer.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250116-0301.html</link>
-      <guid>https://vale.rocks/posts/20250116-0301.html</guid>
+      <pubDate>Thu, 16 Jan 2025 03:01:00 GMT</pubDate>
+      <title>16 Jan 2025 03:01</title>
+      <link>https://vale.rocks/micros/20250116-0301.html</link>
+      <guid>https://vale.rocks/micros/20250116-0301.html</guid>
       <content:encoded><![CDATA[<p>Just spent 5 minutes on CodePen wondering why my CSS wasn’t working.</p>
 <p><code>postion: absolute</code></p>
 <p><em>Hurrr</em></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250115-0755.html</link>
-      <guid>https://vale.rocks/posts/20250115-0755.html</guid>
+      <pubDate>Wed, 15 Jan 2025 07:55:00 GMT</pubDate>
+      <title>15 Jan 2025 07:55</title>
+      <link>https://vale.rocks/micros/20250115-0755.html</link>
+      <guid>https://vale.rocks/micros/20250115-0755.html</guid>
       <content:encoded><![CDATA[<p>It’s fortunate my 3D printer is so slow. I can’t fathom the amount of crap my house would be filled with if it was any faster.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250115-0522.html</link>
-      <guid>https://vale.rocks/posts/20250115-0522.html</guid>
+      <pubDate>Wed, 15 Jan 2025 05:22:00 GMT</pubDate>
+      <title>15 Jan 2025 05:22</title>
+      <link>https://vale.rocks/micros/20250115-0522.html</link>
+      <guid>https://vale.rocks/micros/20250115-0522.html</guid>
       <content:encoded><![CDATA[<p>I misinput a value in one of <a href="/posts/my-experience-biohacking">my recent articles</a>, so it stated the post was revised in February rather than January.</p>
 <p>Out of the thousands of viewers, only one person caught it and pointed this out to me.</p>
 <p>It is so important to get fresh eyes on things and to seek feedback.</p>
@@ -36,41 +44,53 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250113-1400.html</link>
-      <guid>https://vale.rocks/posts/20250113-1400.html</guid>
+      <pubDate>Mon, 13 Jan 2025 14:00:00 GMT</pubDate>
+      <title>13 Jan 2025 14:00</title>
+      <link>https://vale.rocks/micros/20250113-1400.html</link>
+      <guid>https://vale.rocks/micros/20250113-1400.html</guid>
       <content:encoded><![CDATA[<p>My photos just hit 50K views on Unsplash! Gotta be happy with that!</p>
 <p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250113-1234.html</link>
-      <guid>https://vale.rocks/posts/20250113-1234.html</guid>
+      <pubDate>Mon, 13 Jan 2025 12:34:00 GMT</pubDate>
+      <title>13 Jan 2025 12:34</title>
+      <link>https://vale.rocks/micros/20250113-1234.html</link>
+      <guid>https://vale.rocks/micros/20250113-1234.html</guid>
       <content:encoded><![CDATA[<p>I wish there was a way to git diff life so I could see what has happened between yesterday and today.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250113-0042.html</link>
-      <guid>https://vale.rocks/posts/20250113-0042.html</guid>
+      <pubDate>Mon, 13 Jan 2025 00:42:00 GMT</pubDate>
+      <title>13 Jan 2025 00:42</title>
+      <link>https://vale.rocks/micros/20250113-0042.html</link>
+      <guid>https://vale.rocks/micros/20250113-0042.html</guid>
       <content:encoded><![CDATA[<p>Bad AI-generated images are a guaranteed way to cheapen your content and drive away users. Creating high-quality visual content is essential for engaging your audience. Take the time to make something good, or don&#8217;t bother at all. Quality matters.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250111-1234.html</link>
-      <guid>https://vale.rocks/posts/20250111-1234.html</guid>
+      <pubDate>Sat, 11 Jan 2025 12:34:00 GMT</pubDate>
+      <title>11 Jan 2025 12:34</title>
+      <link>https://vale.rocks/micros/20250111-1234.html</link>
+      <guid>https://vale.rocks/micros/20250111-1234.html</guid>
       <content:encoded><![CDATA[<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>
 <p><vale.rocks/photography></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250110-1453.html</link>
-      <guid>https://vale.rocks/posts/20250110-1453.html</guid>
+      <pubDate>Fri, 10 Jan 2025 14:53:00 GMT</pubDate>
+      <title>10 Jan 2025 14:53</title>
+      <link>https://vale.rocks/micros/20250110-1453.html</link>
+      <guid>https://vale.rocks/micros/20250110-1453.html</guid>
       <content:encoded><![CDATA[<p>Just posting this here for no specific reason at all.</p>
 <p><a href="https://youtube.com/watch?v=ol2WP0hc0NY">https://youtube.com/watch?v=ol2WP0hc0NY</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250110-0301.html</link>
-      <guid>https://vale.rocks/posts/20250110-0301.html</guid>
+      <pubDate>Fri, 10 Jan 2025 03:01:00 GMT</pubDate>
+      <title>10 Jan 2025 03:01</title>
+      <link>https://vale.rocks/micros/20250110-0301.html</link>
+      <guid>https://vale.rocks/micros/20250110-0301.html</guid>
       <content:encoded><![CDATA[<p>My writing once again made the front page of Y Combinator&#8217;s
 <a href="https://news.ycombinator.com">Hacker News</a> yesterday!</p>
 <p>I shared my journey exploring human-technology integration through a fascinating procedure: getting one of Dangerous Things&#8217;s bio-magnets implanted in my hand.</p>
@@ -79,8 +99,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250109-1446.html</link>
-      <guid>https://vale.rocks/posts/20250109-1446.html</guid>
+      <pubDate>Thu, 09 Jan 2025 14:46:00 GMT</pubDate>
+      <title>09 Jan 2025 14:46</title>
+      <link>https://vale.rocks/micros/20250109-1446.html</link>
+      <guid>https://vale.rocks/micros/20250109-1446.html</guid>
       <content:encoded><![CDATA[<p>For those that missed it, I got a magnet implanted in my hand. It’s pretty rad.</p>
 <p>My write-up is currently on the front page of Hacker News, but you can read it here:</p>
 <p><a href="https://vale.rocks/posts/my-experience-biohacking">https://vale.rocks/posts/my-experience-biohacking</a></p>
@@ -88,15 +110,19 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250107-1319.html</link>
-      <guid>https://vale.rocks/posts/20250107-1319.html</guid>
+      <pubDate>Tue, 07 Jan 2025 13:19:00 GMT</pubDate>
+      <title>07 Jan 2025 13:19</title>
+      <link>https://vale.rocks/micros/20250107-1319.html</link>
+      <guid>https://vale.rocks/micros/20250107-1319.html</guid>
       <content:encoded><![CDATA[<p>In the same vein as <em>&#8220;Is it better to have loved and lost than to never have loved at all?&#8221;</em> I propose:</p>
 <p>Is it better to make something and have it scraped for an AI or to have never made anything at all?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250107-1117.html</link>
-      <guid>https://vale.rocks/posts/20250107-1117.html</guid>
+      <pubDate>Tue, 07 Jan 2025 11:17:00 GMT</pubDate>
+      <title>07 Jan 2025 11:17</title>
+      <link>https://vale.rocks/micros/20250107-1117.html</link>
+      <guid>https://vale.rocks/micros/20250107-1117.html</guid>
       <content:encoded><![CDATA[<p>My links page has been going really well!</p>
 <ul>
 <li><p>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</p>
@@ -110,8 +136,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250106-0147.html</link>
-      <guid>https://vale.rocks/posts/20250106-0147.html</guid>
+      <pubDate>Mon, 06 Jan 2025 01:47:00 GMT</pubDate>
+      <title>06 Jan 2025 01:47</title>
+      <link>https://vale.rocks/micros/20250106-0147.html</link>
+      <guid>https://vale.rocks/micros/20250106-0147.html</guid>
       <content:encoded><![CDATA[<p>😀 🤪 🤩</p>
 <p>I had a great time building the website for Revolt&#8217;s Mutant Remix emoji pack! The project was all about blending creativity with functionality to showcase these fun and quirky emojis. It&#8217;s great fun capturing that energy in a site!</p>
 <p>I designed and developed the site using my static site generator, Adduce, creating a simple, accessible layout that captures the playful spirit of the pack. It was a fun challenge to bring the emojis to life online!</p>
@@ -120,23 +148,29 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250105-0307.html</link>
-      <guid>https://vale.rocks/posts/20250105-0307.html</guid>
+      <pubDate>Sun, 05 Jan 2025 03:07:00 GMT</pubDate>
+      <title>05 Jan 2025 03:07</title>
+      <link>https://vale.rocks/micros/20250105-0307.html</link>
+      <guid>https://vale.rocks/micros/20250105-0307.html</guid>
       <content:encoded><![CDATA[<p>Just started compiling some of my favourite blogs on my site. (I may or may not have lost my previous collection of RSS feeds…)</p>
 <p><a href="https://vale.rocks/links">https://vale.rocks/links</a></p>
 <p>I’m certain I’m missing tons, so please let me know of your favourites!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250104-1057.html</link>
-      <guid>https://vale.rocks/posts/20250104-1057.html</guid>
+      <pubDate>Sat, 04 Jan 2025 10:57:00 GMT</pubDate>
+      <title>04 Jan 2025 10:57</title>
+      <link>https://vale.rocks/micros/20250104-1057.html</link>
+      <guid>https://vale.rocks/micros/20250104-1057.html</guid>
       <content:encoded><![CDATA[<p>Were you all just gonna let me keep on living without telling me about the <code>rch</code> unit?</p>
 <p>This is so insanely useful for one specific thing I ended up fixing with JS the other day.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250102-1033.html</link>
-      <guid>https://vale.rocks/posts/20250102-1033.html</guid>
+      <pubDate>Thu, 02 Jan 2025 10:33:00 GMT</pubDate>
+      <title>02 Jan 2025 10:33</title>
+      <link>https://vale.rocks/micros/20250102-1033.html</link>
+      <guid>https://vale.rocks/micros/20250102-1033.html</guid>
       <content:encoded><![CDATA[<p>I know it&#8217;s time to take a break when I start pulling this stunt:</p>
 <pre><code class="language-CSS"><span class="hljs-selector-tag">body</span> {
     <span class="hljs-attribute">color</span> = white;
@@ -144,8 +178,10 @@
 </code></pre>]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20250101-1149.html</link>
-      <guid>https://vale.rocks/posts/20250101-1149.html</guid>
+      <pubDate>Wed, 01 Jan 2025 11:49:00 GMT</pubDate>
+      <title>01 Jan 2025 11:49</title>
+      <link>https://vale.rocks/micros/20250101-1149.html</link>
+      <guid>https://vale.rocks/micros/20250101-1149.html</guid>
       <content:encoded><![CDATA[<p>Put together a links page on my site today. A curated collection of my bookmarks and findings while surfing the web.</p>
 <p>Watch your step. There are rabbit holes!</p>
 <p><a href="https://vale.rocks/links">https://vale.rocks/links</a></p>
@@ -153,28 +189,36 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241231-1718.html</link>
-      <guid>https://vale.rocks/posts/20241231-1718.html</guid>
+      <pubDate>Tue, 31 Dec 2024 17:18:00 GMT</pubDate>
+      <title>31 Dec 2024 17:18</title>
+      <link>https://vale.rocks/micros/20241231-1718.html</link>
+      <guid>https://vale.rocks/micros/20241231-1718.html</guid>
       <content:encoded><![CDATA[<p>Yet another step up for the next year. We’re skipping 1080p and aiming straight for 1440p!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241231-1600.html</link>
-      <guid>https://vale.rocks/posts/20241231-1600.html</guid>
+      <pubDate>Tue, 31 Dec 2024 16:00:00 GMT</pubDate>
+      <title>31 Dec 2024 16:00</title>
+      <link>https://vale.rocks/micros/20241231-1600.html</link>
+      <guid>https://vale.rocks/micros/20241231-1600.html</guid>
       <content:encoded><![CDATA[<p>HAPPY NEW YEAR!</p>
 <p>My plan for 2025 is to put out more everything and focus on what sticks. The goal is to experiment, learn, and double down on what works.</p>
 <p>2024 has very much been a year of general experimentation and exploration for me. Now I want to start testing things more aligned with my goals and putting the knowledge I gain to use!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241230-0009.html</link>
-      <guid>https://vale.rocks/posts/20241230-0009.html</guid>
+      <pubDate>Mon, 30 Dec 2024 00:09:00 GMT</pubDate>
+      <title>30 Dec 2024 00:09</title>
+      <link>https://vale.rocks/micros/20241230-0009.html</link>
+      <guid>https://vale.rocks/micros/20241230-0009.html</guid>
       <content:encoded><![CDATA[<p>I’d be rich if I got a dollar every time I read OpenAI as OpenAPI and OpenAPI as OpenAI. Drives me loopy.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241229-2356.html</link>
-      <guid>https://vale.rocks/posts/20241229-2356.html</guid>
+      <pubDate>Sun, 29 Dec 2024 23:56:00 GMT</pubDate>
+      <title>29 Dec 2024 23:56</title>
+      <link>https://vale.rocks/micros/20241229-2356.html</link>
+      <guid>https://vale.rocks/micros/20241229-2356.html</guid>
       <content:encoded><![CDATA[<p>I love the process of creating and refining things to perfection!</p>
 <ol>
 <li>Build something.</li>
@@ -188,41 +232,53 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241229-1219.html</link>
-      <guid>https://vale.rocks/posts/20241229-1219.html</guid>
+      <pubDate>Sun, 29 Dec 2024 12:19:00 GMT</pubDate>
+      <title>29 Dec 2024 12:19</title>
+      <link>https://vale.rocks/micros/20241229-1219.html</link>
+      <guid>https://vale.rocks/micros/20241229-1219.html</guid>
       <content:encoded><![CDATA[<p>I ensure I write crap that I don&#8217;t publish so that if I ever become a super famous writer and then cark it, there&#8217;ll be something to tack to the end of special editions.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241229-1056.html</link>
-      <guid>https://vale.rocks/posts/20241229-1056.html</guid>
+      <pubDate>Sun, 29 Dec 2024 10:56:00 GMT</pubDate>
+      <title>29 Dec 2024 10:56</title>
+      <link>https://vale.rocks/micros/20241229-1056.html</link>
+      <guid>https://vale.rocks/micros/20241229-1056.html</guid>
       <content:encoded><![CDATA[<p>Still a bit of work to do, but I’ve put together a firehose of my web activities and mirrored many of my microblog posts to my site. Trying to embrace the IndieWeb a bit further.</p>
 <p><a href="https://vale.rocks/firehose/1">https://vale.rocks/firehose/1</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241228-0921.html</link>
-      <guid>https://vale.rocks/posts/20241228-0921.html</guid>
+      <pubDate>Sat, 28 Dec 2024 09:21:00 GMT</pubDate>
+      <title>28 Dec 2024 09:21</title>
+      <link>https://vale.rocks/micros/20241228-0921.html</link>
+      <guid>https://vale.rocks/micros/20241228-0921.html</guid>
       <content:encoded><![CDATA[<p>Sloppy AI-generated thumbnail images serve as a good litmus test for whether something is worth clicking.</p>
 <p>Seriously, it’s great to know what is gonna be slop without even having to even click through.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241227-0203.html</link>
-      <guid>https://vale.rocks/posts/20241227-0203.html</guid>
+      <pubDate>Fri, 27 Dec 2024 02:03:00 GMT</pubDate>
+      <title>27 Dec 2024 02:03</title>
+      <link>https://vale.rocks/micros/20241227-0203.html</link>
+      <guid>https://vale.rocks/micros/20241227-0203.html</guid>
       <content:encoded><![CDATA[<p>Instead of pulling up the ladder behind you, why not add some more rungs or lower it a bit for the next person? Helping others succeed is not just a great way to give back—it creates a stronger, more inclusive community for all. Let&#8217;s build each other up.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241223-0253.html</link>
-      <guid>https://vale.rocks/posts/20241223-0253.html</guid>
+      <pubDate>Mon, 23 Dec 2024 02:53:00 GMT</pubDate>
+      <title>23 Dec 2024 02:53</title>
+      <link>https://vale.rocks/micros/20241223-0253.html</link>
+      <guid>https://vale.rocks/micros/20241223-0253.html</guid>
       <content:encoded><![CDATA[<p>Received my physical diploma in the mail! I truly am a fully licensed front-end developer!</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQH5ytevGyjRkQ/feedshare-shrink_800/B56ZPxb1_1G8Ak-/0/1734922433682?e=1738195200&v=beta&t=50Qo4PNmL9JbU02tdVcDx7D7o-92wukRHa_bPICxTxQ" alt="Diploma stating "This is to certify that DECLAN CHIDLOW has fulfilled all requirements for ICT50220 DIPLOMA OF INFORMATION TECHNOLOGY (FRONT END WEB DEVELOPMENT)""></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241220-0430.html</link>
-      <guid>https://vale.rocks/posts/20241220-0430.html</guid>
+      <pubDate>Fri, 20 Dec 2024 04:30:00 GMT</pubDate>
+      <title>20 Dec 2024 04:30</title>
+      <link>https://vale.rocks/micros/20241220-0430.html</link>
+      <guid>https://vale.rocks/micros/20241220-0430.html</guid>
       <content:encoded><![CDATA[<p>My article on HTML&#8217;s legacy colour parsing was featured on Manuel Matuzović&#8217;s HTMHell today. 🎉</p>
 <p>For those unfamiliar, the HTMHell Advent Calendar is a fantastic publication bringing together authors from around the world to share insightful articles on web development topics like security, accessibility, UX, and performance.</p>
 <p>In my article, I dive into the quirks of HTML&#8217;s legacy colour parsing, exploring just why the value &#8216;chucknorris&#8217; outputs red and talk about the resilience of the web.</p>
@@ -230,8 +286,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241215-1202.html</link>
-      <guid>https://vale.rocks/posts/20241215-1202.html</guid>
+      <pubDate>Sun, 15 Dec 2024 12:02:00 GMT</pubDate>
+      <title>15 Dec 2024 12:02</title>
+      <link>https://vale.rocks/micros/20241215-1202.html</link>
+      <guid>https://vale.rocks/micros/20241215-1202.html</guid>
       <content:encoded><![CDATA[<p>Lost my pet chicken of 8 years today. She was with me from primary school all the way through high school and beyond.</p>
 <p>She hasn’t been well these past few days. Today when I came out to see her, she really wasn’t well but was still hanging on. I think she was waiting for me to see her before she went.</p>
 <p>I picked her up and cradled her for a while before she passed in my arms. There is a bit of comfort knowing I was with her in her last moments and that she wasn’t alone.</p>
@@ -240,32 +298,42 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241212-1141.html</link>
-      <guid>https://vale.rocks/posts/20241212-1141.html</guid>
+      <pubDate>Thu, 12 Dec 2024 11:41:00 GMT</pubDate>
+      <title>12 Dec 2024 11:41</title>
+      <link>https://vale.rocks/micros/20241212-1141.html</link>
+      <guid>https://vale.rocks/micros/20241212-1141.html</guid>
       <content:encoded><![CDATA[<p>I <em>might</em> have neglected to re-add the analytics script to the head of my website. That&#8217;s a few days of data I won&#8217;t be getting back&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241211-1256.html</link>
-      <guid>https://vale.rocks/posts/20241211-1256.html</guid>
+      <pubDate>Wed, 11 Dec 2024 12:56:00 GMT</pubDate>
+      <title>11 Dec 2024 12:56</title>
+      <link>https://vale.rocks/micros/20241211-1256.html</link>
+      <guid>https://vale.rocks/micros/20241211-1256.html</guid>
       <content:encoded><![CDATA[<p>People have been trying to go to /now, /about, and /links on my site. I don&#8217;t have these pages nor links to them anywhere. Wonder if it&#8217;s time to make some&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241211-1203.html</link>
-      <guid>https://vale.rocks/posts/20241211-1203.html</guid>
+      <pubDate>Wed, 11 Dec 2024 12:03:00 GMT</pubDate>
+      <title>11 Dec 2024 12:03</title>
+      <link>https://vale.rocks/micros/20241211-1203.html</link>
+      <guid>https://vale.rocks/micros/20241211-1203.html</guid>
       <content:encoded><![CDATA[<p>ARIA sure you need those roles and attributes?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241211-1155.html</link>
-      <guid>https://vale.rocks/posts/20241211-1155.html</guid>
+      <pubDate>Wed, 11 Dec 2024 11:55:00 GMT</pubDate>
+      <title>11 Dec 2024 11:55</title>
+      <link>https://vale.rocks/micros/20241211-1155.html</link>
+      <guid>https://vale.rocks/micros/20241211-1155.html</guid>
       <content:encoded><![CDATA[<p>You oft hear of regurgitation, but not much about standard gurgitation.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241210-1214.html</link>
-      <guid>https://vale.rocks/posts/20241210-1214.html</guid>
+      <pubDate>Tue, 10 Dec 2024 12:14:00 GMT</pubDate>
+      <title>10 Dec 2024 12:14</title>
+      <link>https://vale.rocks/micros/20241210-1214.html</link>
+      <guid>https://vale.rocks/micros/20241210-1214.html</guid>
       <content:encoded><![CDATA[<p>Got around to sorting out my syndication feeds. Go subscribe!</p>
 <ul>
 <li><a href="https://vale.rocks/posts/feed.xml">https://vale.rocks/posts/feed.xml</a></li>
@@ -274,48 +342,62 @@
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241209-1131.html</link>
-      <guid>https://vale.rocks/posts/20241209-1131.html</guid>
+      <pubDate>Mon, 09 Dec 2024 11:31:00 GMT</pubDate>
+      <title>09 Dec 2024 11:31</title>
+      <link>https://vale.rocks/micros/20241209-1131.html</link>
+      <guid>https://vale.rocks/micros/20241209-1131.html</guid>
       <content:encoded><![CDATA[<p>Been upgrading and building on this. Pretty happy with it now. It has tons more engines added, a nicer UI (still simple—speed is the priority), and snaps inspired by Kagi which are lovely.</p>
 <p></micros/20240721-1249></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241208-1119.html</link>
-      <guid>https://vale.rocks/posts/20241208-1119.html</guid>
+      <pubDate>Sun, 08 Dec 2024 11:19:00 GMT</pubDate>
+      <title>08 Dec 2024 11:19</title>
+      <link>https://vale.rocks/micros/20241208-1119.html</link>
+      <guid>https://vale.rocks/micros/20241208-1119.html</guid>
       <content:encoded><![CDATA[<p>Pretty convinced <a href="https://jackiechan.com">jackiechan.com</a> is peak web design.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241207-0059.html</link>
-      <guid>https://vale.rocks/posts/20241207-0059.html</guid>
+      <pubDate>Sat, 07 Dec 2024 00:59:00 GMT</pubDate>
+      <title>07 Dec 2024 00:59</title>
+      <link>https://vale.rocks/micros/20241207-0059.html</link>
+      <guid>https://vale.rocks/micros/20241207-0059.html</guid>
       <content:encoded><![CDATA[<p>This has had me thinking about website layouts, and how typically we&#8217;ve had navigation situated at the top. Perhaps we need to rethink our designs based on the embrace of sidebars as they become the &#8216;new normal&#8217;?</p>
 <p></micros/20241030-0844></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241206-1157.html</link>
-      <guid>https://vale.rocks/posts/20241206-1157.html</guid>
+      <pubDate>Fri, 06 Dec 2024 11:57:00 GMT</pubDate>
+      <title>06 Dec 2024 11:57</title>
+      <link>https://vale.rocks/micros/20241206-1157.html</link>
+      <guid>https://vale.rocks/micros/20241206-1157.html</guid>
       <content:encoded><![CDATA[<p>A wise man once said &#8220;Ogres are like onions. Onions have layers. Ogres have layers.&#8221;</p>
 <p>Make your CSS like ogres and onions.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241205-0922.html</link>
-      <guid>https://vale.rocks/posts/20241205-0922.html</guid>
+      <pubDate>Thu, 05 Dec 2024 09:22:00 GMT</pubDate>
+      <title>05 Dec 2024 09:22</title>
+      <link>https://vale.rocks/micros/20241205-0922.html</link>
+      <guid>https://vale.rocks/micros/20241205-0922.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time - why not websites?.</p>
 <p>I suppose this is less important with the web, as we can &#8216;simply&#8217; archive copies of things but it&#8217;s been playing in my mind nonetheless.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241205-0404.html</link>
-      <guid>https://vale.rocks/posts/20241205-0404.html</guid>
+      <pubDate>Thu, 05 Dec 2024 04:04:00 GMT</pubDate>
+      <title>05 Dec 2024 04:04</title>
+      <link>https://vale.rocks/micros/20241205-0404.html</link>
+      <guid>https://vale.rocks/micros/20241205-0404.html</guid>
       <content:encoded><![CDATA[<p>Really interesting seeing what posts get picked up on Fedi, and what posts get picked up on Bluesky. I&#8217;m struggling to identify any real pattern.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241205-0000.html</link>
-      <guid>https://vale.rocks/posts/20241205-0000.html</guid>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <title>05 Dec 2024 00:00</title>
+      <link>https://vale.rocks/micros/20241205-0000.html</link>
+      <guid>https://vale.rocks/micros/20241205-0000.html</guid>
       <content:encoded><![CDATA[<p>Part of my diploma at North Metropolitan TAFE was a live-works project redeveloping the website for Public Libraries WA.</p>
 <p>My team and I took what was an outdated Joomla site and revitalised it into a sleek, modern experience. The old site was built back in 2009, had security flaws and lacked responsive design, rendering it nigh unusable on mobile devices.</p>
 <p>We rebuilt it from the ground up using WordPress paired with a custom theme built using Tailwind and a tailor-made plugin to perfectly fit our client&#8217;s needs.</p>
@@ -327,296 +409,386 @@ At the very bottom of the page are some statistics that are cut off."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241204-2346.html</link>
-      <guid>https://vale.rocks/posts/20241204-2346.html</guid>
+      <pubDate>Wed, 04 Dec 2024 23:46:00 GMT</pubDate>
+      <title>04 Dec 2024 23:46</title>
+      <link>https://vale.rocks/micros/20241204-2346.html</link>
+      <guid>https://vale.rocks/micros/20241204-2346.html</guid>
       <content:encoded><![CDATA[<p>Say what you will, the phrase &#8220;hacked up, bastardized simulacra&#8221; is genuinely pretty awesome. I suppose we at least got <em>something</em> out of this mess.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241204-1153.html</link>
-      <guid>https://vale.rocks/posts/20241204-1153.html</guid>
+      <pubDate>Wed, 04 Dec 2024 11:53:00 GMT</pubDate>
+      <title>04 Dec 2024 11:53</title>
+      <link>https://vale.rocks/micros/20241204-1153.html</link>
+      <guid>https://vale.rocks/micros/20241204-1153.html</guid>
       <content:encoded><![CDATA[<p>The best time for productivity is any abnormal hour of the day when I can sit semi-comatose, powered purely by stimulants.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241204-0817.html</link>
-      <guid>https://vale.rocks/posts/20241204-0817.html</guid>
+      <pubDate>Wed, 04 Dec 2024 08:17:00 GMT</pubDate>
+      <title>04 Dec 2024 08:17</title>
+      <link>https://vale.rocks/micros/20241204-0817.html</link>
+      <guid>https://vale.rocks/micros/20241204-0817.html</guid>
       <content:encoded><![CDATA[<p>Saw a guy sprinting through the city with a Sonic the Hedgehog shirt on.</p>
 <p>It took a <em>hideous</em> amount of restraint not to yell &#8220;GOTTA GO FAST!&#8221;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241204-0416.html</link>
-      <guid>https://vale.rocks/posts/20241204-0416.html</guid>
+      <pubDate>Wed, 04 Dec 2024 04:16:00 GMT</pubDate>
+      <title>04 Dec 2024 04:16</title>
+      <link>https://vale.rocks/micros/20241204-0416.html</link>
+      <guid>https://vale.rocks/micros/20241204-0416.html</guid>
       <content:encoded><![CDATA[<p>I see a lot of stuff gain traction that I&#8217;d have figured is too well known, too obvious, or too low effort. I need to do more <em>stuff</em>.</p>
 <p>You miss 100% of the shots you don&#8217;t take after all.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241204-0239.html</link>
-      <guid>https://vale.rocks/posts/20241204-0239.html</guid>
+      <pubDate>Wed, 04 Dec 2024 02:39:00 GMT</pubDate>
+      <title>04 Dec 2024 02:39</title>
+      <link>https://vale.rocks/micros/20241204-0239.html</link>
+      <guid>https://vale.rocks/micros/20241204-0239.html</guid>
       <content:encoded><![CDATA[<p>Honestly pretty excited to give Ghostty a whirl with the upcoming v1.0. Looks pretty rad!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241130-1313.html</link>
-      <guid>https://vale.rocks/posts/20241130-1313.html</guid>
+      <pubDate>Sat, 30 Nov 2024 13:13:00 GMT</pubDate>
+      <title>30 Nov 2024 13:13</title>
+      <link>https://vale.rocks/micros/20241130-1313.html</link>
+      <guid>https://vale.rocks/micros/20241130-1313.html</guid>
       <content:encoded><![CDATA[<p>I think this is one of the best things I&#8217;ve ever read on LessWrong. It perfectly resonates with motivation as I experience it.</p>
 <p><a href="https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals">https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241130-0758.html</link>
-      <guid>https://vale.rocks/posts/20241130-0758.html</guid>
+      <pubDate>Sat, 30 Nov 2024 07:58:00 GMT</pubDate>
+      <title>30 Nov 2024 07:58</title>
+      <link>https://vale.rocks/micros/20241130-0758.html</link>
+      <guid>https://vale.rocks/micros/20241130-0758.html</guid>
       <content:encoded><![CDATA[<p>Coming around to that time of the year when I update and refine all my configs. I&#8217;ve got a <em>lot</em> of notes on what needs work.</p>
 <p>Should be rad.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241118-1144.html</link>
-      <guid>https://vale.rocks/posts/20241118-1144.html</guid>
+      <pubDate>Mon, 18 Nov 2024 11:44:00 GMT</pubDate>
+      <title>18 Nov 2024 11:44</title>
+      <link>https://vale.rocks/micros/20241118-1144.html</link>
+      <guid>https://vale.rocks/micros/20241118-1144.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;m always amazed by the cool features I find when I misstype in Vim.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241117-2320.html</link>
-      <guid>https://vale.rocks/posts/20241117-2320.html</guid>
+      <pubDate>Sun, 17 Nov 2024 23:20:00 GMT</pubDate>
+      <title>17 Nov 2024 23:20</title>
+      <link>https://vale.rocks/micros/20241117-2320.html</link>
+      <guid>https://vale.rocks/micros/20241117-2320.html</guid>
       <content:encoded><![CDATA[<p>I really hate the term &#8216;WebFinger&#8217;. Stop fingering around for some JSON. Frankly, keep your fingers to yourself.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241117-1316.html</link>
-      <guid>https://vale.rocks/posts/20241117-1316.html</guid>
+      <pubDate>Sun, 17 Nov 2024 13:16:00 GMT</pubDate>
+      <title>17 Nov 2024 13:16</title>
+      <link>https://vale.rocks/micros/20241117-1316.html</link>
+      <guid>https://vale.rocks/micros/20241117-1316.html</guid>
       <content:encoded><![CDATA[<p>Perhaps the real enhancement is the progression we made along the way.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241116-1253.html</link>
-      <guid>https://vale.rocks/posts/20241116-1253.html</guid>
+      <pubDate>Sat, 16 Nov 2024 12:53:00 GMT</pubDate>
+      <title>16 Nov 2024 12:53</title>
+      <link>https://vale.rocks/micros/20241116-1253.html</link>
+      <guid>https://vale.rocks/micros/20241116-1253.html</guid>
       <content:encoded><![CDATA[<p>How does one represent a dinkus in HTML? A <code>&lt;hr&gt;</code> with some styling? Not sure on the semantics here&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241114-0439.html</link>
-      <guid>https://vale.rocks/posts/20241114-0439.html</guid>
+      <pubDate>Thu, 14 Nov 2024 04:39:00 GMT</pubDate>
+      <title>14 Nov 2024 04:39</title>
+      <link>https://vale.rocks/micros/20241114-0439.html</link>
+      <guid>https://vale.rocks/micros/20241114-0439.html</guid>
       <content:encoded><![CDATA[<p>New CSS logo dropped. It looks great! Now, when do I get all those cool unused designs on a shirt?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241113-0649.html</link>
-      <guid>https://vale.rocks/posts/20241113-0649.html</guid>
+      <pubDate>Wed, 13 Nov 2024 06:49:00 GMT</pubDate>
+      <title>13 Nov 2024 06:49</title>
+      <link>https://vale.rocks/micros/20241113-0649.html</link>
+      <guid>https://vale.rocks/micros/20241113-0649.html</guid>
       <content:encoded><![CDATA[<p>A little while ago I updated a little piece I wrote about the design behind my site.</p>
 <p><a href="https://vale.rocks/posts/the-design-of-this-site">https://vale.rocks/posts/the-design-of-this-site</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241113-0115.html</link>
-      <guid>https://vale.rocks/posts/20241113-0115.html</guid>
+      <pubDate>Wed, 13 Nov 2024 01:15:00 GMT</pubDate>
+      <title>13 Nov 2024 01:15</title>
+      <link>https://vale.rocks/micros/20241113-0115.html</link>
+      <guid>https://vale.rocks/micros/20241113-0115.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve been very disappointed with DuckDuckGo results recently. Seems there was a sharp drop in quality ~3 weeks ago.</p>
 <p>Kagi gives the best results I&#8217;ve found, but at a financial premium. I&#8217;m kinda just jumping around search engines looking for a home.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241112-0941.html</link>
-      <guid>https://vale.rocks/posts/20241112-0941.html</guid>
+      <pubDate>Tue, 12 Nov 2024 09:41:00 GMT</pubDate>
+      <title>12 Nov 2024 09:41</title>
+      <link>https://vale.rocks/micros/20241112-0941.html</link>
+      <guid>https://vale.rocks/micros/20241112-0941.html</guid>
       <content:encoded><![CDATA[<p>I really appreciate that people in my feeds engage in nuanced AI discussion. Yes, there are negatives. Yes, there are positives. No, flame wars don&#8217;t get us anywhere.</p>
 <p>Thanks for all being so awesome and eloquent with your words.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241111-0715.html</link>
-      <guid>https://vale.rocks/posts/20241111-0715.html</guid>
+      <pubDate>Mon, 11 Nov 2024 07:15:00 GMT</pubDate>
+      <title>11 Nov 2024 07:15</title>
+      <link>https://vale.rocks/micros/20241111-0715.html</link>
+      <guid>https://vale.rocks/micros/20241111-0715.html</guid>
       <content:encoded><![CDATA[<p>Just updated my services page. If you&#8217;ve got JavaScript enabled, it&#8217;ll now show the service status inline on the page.</p>
 <p><a href="https://vale.rocks/services">https://vale.rocks/services</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241111-0050.html</link>
-      <guid>https://vale.rocks/posts/20241111-0050.html</guid>
+      <pubDate>Mon, 11 Nov 2024 00:50:00 GMT</pubDate>
+      <title>11 Nov 2024 00:50</title>
+      <link>https://vale.rocks/micros/20241111-0050.html</link>
+      <guid>https://vale.rocks/micros/20241111-0050.html</guid>
       <content:encoded><![CDATA[<p>For anyone wondering, you absolutely can enrol your toe as a fingerprint on a Google Pixel 7a.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241031-0430.html</link>
-      <guid>https://vale.rocks/posts/20241031-0430.html</guid>
+      <pubDate>Thu, 31 Oct 2024 04:30:00 GMT</pubDate>
+      <title>31 Oct 2024 04:30</title>
+      <link>https://vale.rocks/micros/20241031-0430.html</link>
+      <guid>https://vale.rocks/micros/20241031-0430.html</guid>
       <content:encoded><![CDATA[<p>I usually steer clear of political posts, but I can&#8217;t stress enough how important it is for every American to get out and vote. The world will be a little better for it.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241030-0844.html</link>
-      <guid>https://vale.rocks/posts/20241030-0844.html</guid>
+      <pubDate>Wed, 30 Oct 2024 08:44:00 GMT</pubDate>
+      <title>30 Oct 2024 08:44</title>
+      <link>https://vale.rocks/micros/20241030-0844.html</link>
+      <guid>https://vale.rocks/micros/20241030-0844.html</guid>
       <content:encoded><![CDATA[<p>Switched over to using the vertical sidebar in Firefox today. It&#8217;s lovely!</p>
 <p><img src="https://fedi.vale.rocks/media/41055a8029d0639c5618ce8c8105efab7d13d62371070f583ccc4e6e1defe5ce.png" alt="Firefox UI with tabs presented vertically down the left side of the screen."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241029-0050.html</link>
-      <guid>https://vale.rocks/posts/20241029-0050.html</guid>
+      <pubDate>Tue, 29 Oct 2024 00:50:00 GMT</pubDate>
+      <title>29 Oct 2024 00:50</title>
+      <link>https://vale.rocks/micros/20241029-0050.html</link>
+      <guid>https://vale.rocks/micros/20241029-0050.html</guid>
       <content:encoded><![CDATA[<p>People seem to come unstuck at the &#8216;cascading&#8217; bit of &#8216;cascading style sheet&#8217;.</p>
 <p>Embrace the cascade!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241028-0019.html</link>
-      <guid>https://vale.rocks/posts/20241028-0019.html</guid>
+      <pubDate>Mon, 28 Oct 2024 00:19:00 GMT</pubDate>
+      <title>28 Oct 2024 00:19</title>
+      <link>https://vale.rocks/micros/20241028-0019.html</link>
+      <guid>https://vale.rocks/micros/20241028-0019.html</guid>
       <content:encoded><![CDATA[<p>&#8216;Username&#8217; is so boring. When can we go back to using handles? Or screennames? Or even gamertags?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241026-0311.html</link>
-      <guid>https://vale.rocks/posts/20241026-0311.html</guid>
+      <pubDate>Sat, 26 Oct 2024 03:11:00 GMT</pubDate>
+      <title>26 Oct 2024 03:11</title>
+      <link>https://vale.rocks/micros/20241026-0311.html</link>
+      <guid>https://vale.rocks/micros/20241026-0311.html</guid>
       <content:encoded><![CDATA[<p>Blimey, I&#8217;m lovin&#8217; <code>&lt;dialog&gt;</code> and the Popover API. JavaScript free* menus without the need for any hacks.</p>
 <p>I used to use some trickery involving CSS&#8217;s <code>:target</code> to implement menus&#8230;</p>
 <p>This is only gonna get cooler when anchor positioning gets more comprehensive support. Top layer elements and anchor positioning go together like butter and toast.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241025-1312.html</link>
-      <guid>https://vale.rocks/posts/20241025-1312.html</guid>
+      <pubDate>Fri, 25 Oct 2024 13:12:00 GMT</pubDate>
+      <title>25 Oct 2024 13:12</title>
+      <link>https://vale.rocks/micros/20241025-1312.html</link>
+      <guid>https://vale.rocks/micros/20241025-1312.html</guid>
       <content:encoded><![CDATA[<p>The gap between &#8220;works in development&#8221; and &#8220;works in production&#8221; is where dreams go to die.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241025-0218.html</link>
-      <guid>https://vale.rocks/posts/20241025-0218.html</guid>
+      <pubDate>Fri, 25 Oct 2024 02:18:00 GMT</pubDate>
+      <title>25 Oct 2024 02:18</title>
+      <link>https://vale.rocks/micros/20241025-0218.html</link>
+      <guid>https://vale.rocks/micros/20241025-0218.html</guid>
       <content:encoded><![CDATA[<p>Remember kids, if it&#8217;s written in Java then avoid it like lava.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241024-1250.html</link>
-      <guid>https://vale.rocks/posts/20241024-1250.html</guid>
+      <pubDate>Thu, 24 Oct 2024 12:50:00 GMT</pubDate>
+      <title>24 Oct 2024 12:50</title>
+      <link>https://vale.rocks/micros/20241024-1250.html</link>
+      <guid>https://vale.rocks/micros/20241024-1250.html</guid>
       <content:encoded><![CDATA[<p>&#8216;Brittle web technology&#8217; is one of the most perfect phrases I&#8217;ve ever encountered. It just perfectly sums up the shattering characteristic of so many dev tools.</p>
 <p>It&#8217;s the web! It should be the wild west! Chaotic, unstoppable madness! Bodge everything and take no hostages!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241024-0653.html</link>
-      <guid>https://vale.rocks/posts/20241024-0653.html</guid>
+      <pubDate>Thu, 24 Oct 2024 06:53:00 GMT</pubDate>
+      <title>24 Oct 2024 06:53</title>
+      <link>https://vale.rocks/micros/20241024-0653.html</link>
+      <guid>https://vale.rocks/micros/20241024-0653.html</guid>
       <content:encoded><![CDATA[<p>Micro-blogging platforms like Bluesky and Fedi are built around following people, not topics. This is good in that I can create meaningful connections with familiar faces, but bad in that I pass up great content because I can&#8217;t just follow the parts of people&#8217;s feeds that interest me.</p>
 <p>Sometimes I wish I could follow someone&#8217;s tech posts without their politics, or their design without their hot takes. If you&#8217;re wondering why I don&#8217;t follow you, it&#8217;s probably because of this. I still love ya!</p>
 <p>(I&#8217;ve come to find this is somewhat doable via word filtering, although it is a bit finicky, not comprehensive, and introduces potential for false positives. I&#8217;ll trial it and see how it goes.)</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241024-0436.html</link>
-      <guid>https://vale.rocks/posts/20241024-0436.html</guid>
+      <pubDate>Thu, 24 Oct 2024 04:36:00 GMT</pubDate>
+      <title>24 Oct 2024 04:36</title>
+      <link>https://vale.rocks/micros/20241024-0436.html</link>
+      <guid>https://vale.rocks/micros/20241024-0436.html</guid>
       <content:encoded><![CDATA[<p>I barely find myself needing CSS &#8216;hacks&#8217; anymore. Most stuff I need to do is kinda just a thing now.</p>
 <p>Thanks to all the many people who&#8217;ve made this a reality!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241023-0335.html</link>
-      <guid>https://vale.rocks/posts/20241023-0335.html</guid>
+      <pubDate>Wed, 23 Oct 2024 03:35:00 GMT</pubDate>
+      <title>23 Oct 2024 03:35</title>
+      <link>https://vale.rocks/micros/20241023-0335.html</link>
+      <guid>https://vale.rocks/micros/20241023-0335.html</guid>
       <content:encoded><![CDATA[<p>Were I omnipotent ruler of this world, I&#8217;d probably delete glitter as my first action.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241023-0027.html</link>
-      <guid>https://vale.rocks/posts/20241023-0027.html</guid>
+      <pubDate>Wed, 23 Oct 2024 00:27:00 GMT</pubDate>
+      <title>23 Oct 2024 00:27</title>
+      <link>https://vale.rocks/micros/20241023-0027.html</link>
+      <guid>https://vale.rocks/micros/20241023-0027.html</guid>
       <content:encoded><![CDATA[<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; — hardcoded, website-specific fixes and tweaks.</p>
 <p><a href="https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp">https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241022-0952.html</link>
-      <guid>https://vale.rocks/posts/20241022-0952.html</guid>
+      <pubDate>Tue, 22 Oct 2024 09:52:00 GMT</pubDate>
+      <title>22 Oct 2024 09:52</title>
+      <link>https://vale.rocks/micros/20241022-0952.html</link>
+      <guid>https://vale.rocks/micros/20241022-0952.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve spent the past several years thinking Vite is pronounced &#8216;vite&#8217; rather than &#8216;veet&#8217;. I&#8217;ve gotta start watching more dev videos or something&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241021-0446.html</link>
-      <guid>https://vale.rocks/posts/20241021-0446.html</guid>
+      <pubDate>Mon, 21 Oct 2024 04:46:00 GMT</pubDate>
+      <title>21 Oct 2024 04:46</title>
+      <link>https://vale.rocks/micros/20241021-0446.html</link>
+      <guid>https://vale.rocks/micros/20241021-0446.html</guid>
       <content:encoded><![CDATA[<p>While fundamentally a flawed format, there is something beautiful about the crunchiness of a <code>.gif</code>.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241020-1010.html</link>
-      <guid>https://vale.rocks/posts/20241020-1010.html</guid>
+      <pubDate>Sun, 20 Oct 2024 10:10:00 GMT</pubDate>
+      <title>20 Oct 2024 10:10</title>
+      <link>https://vale.rocks/micros/20241020-1010.html</link>
+      <guid>https://vale.rocks/micros/20241020-1010.html</guid>
       <content:encoded><![CDATA[<p>Took some time today to update my uses page.</p>
 <p><a href="https://vale.rocks/uses">https://vale.rocks/uses</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241017-0621.html</link>
-      <guid>https://vale.rocks/posts/20241017-0621.html</guid>
+      <pubDate>Thu, 17 Oct 2024 06:21:00 GMT</pubDate>
+      <title>17 Oct 2024 06:21</title>
+      <link>https://vale.rocks/micros/20241017-0621.html</link>
+      <guid>https://vale.rocks/micros/20241017-0621.html</guid>
       <content:encoded><![CDATA[<p>The fact that you can use touchscreens with the back of your fingernails really bothers me.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241014-0558.html</link>
-      <guid>https://vale.rocks/posts/20241014-0558.html</guid>
+      <pubDate>Mon, 14 Oct 2024 05:58:00 GMT</pubDate>
+      <title>14 Oct 2024 05:58</title>
+      <link>https://vale.rocks/micros/20241014-0558.html</link>
+      <guid>https://vale.rocks/micros/20241014-0558.html</guid>
       <content:encoded><![CDATA[<p>Mullenweg just keeps adding fuel to the fire that&#8217;s actively cremating him.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241012-0440.html</link>
-      <guid>https://vale.rocks/posts/20241012-0440.html</guid>
+      <pubDate>Sat, 12 Oct 2024 04:40:00 GMT</pubDate>
+      <title>12 Oct 2024 04:40</title>
+      <link>https://vale.rocks/micros/20241012-0440.html</link>
+      <guid>https://vale.rocks/micros/20241012-0440.html</guid>
       <content:encoded><![CDATA[<p>Sorry for being MIA these past few days. Russia and Turkey both banned Discord, so I&#8217;ve been tied up with Revolt. We&#8217;ve had some 250K users join in the past 4 days, bringing us to over 450K users total!</p>
 <p>If you aren&#8217;t aware, Revolt is a FOSS chat platform and decent alternative to Discord that I work on.</p>
 <p>You can check it out at <a href="https://revolt.chat">https://revolt.chat</a> if you&#8217;re interested.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20241004-0214.html</link>
-      <guid>https://vale.rocks/posts/20241004-0214.html</guid>
+      <pubDate>Fri, 04 Oct 2024 02:14:00 GMT</pubDate>
+      <title>04 Oct 2024 02:14</title>
+      <link>https://vale.rocks/micros/20241004-0214.html</link>
+      <guid>https://vale.rocks/micros/20241004-0214.html</guid>
       <content:encoded><![CDATA[<p>Are people implementing lightboxes with <code>&lt;dialog&gt;</code>, custom implementations, or something different? Would love to hear!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240927-0532.html</link>
-      <guid>https://vale.rocks/posts/20240927-0532.html</guid>
+      <pubDate>Fri, 27 Sep 2024 05:32:00 GMT</pubDate>
+      <title>27 Sept 2024 05:32</title>
+      <link>https://vale.rocks/micros/20240927-0532.html</link>
+      <guid>https://vale.rocks/micros/20240927-0532.html</guid>
       <content:encoded><![CDATA[<p>The lack of jokes connecting &#8216;GitHub&#8217; and &#8216;hub for gits&#8217; is deeply disappointing.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240926-1235.html</link>
-      <guid>https://vale.rocks/posts/20240926-1235.html</guid>
+      <pubDate>Thu, 26 Sep 2024 12:35:00 GMT</pubDate>
+      <title>26 Sept 2024 12:35</title>
+      <link>https://vale.rocks/micros/20240926-1235.html</link>
+      <guid>https://vale.rocks/micros/20240926-1235.html</guid>
       <content:encoded><![CDATA[<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-right</code>?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240921-1034.html</link>
-      <guid>https://vale.rocks/posts/20240921-1034.html</guid>
+      <pubDate>Sat, 21 Sep 2024 10:34:00 GMT</pubDate>
+      <title>21 Sept 2024 10:34</title>
+      <link>https://vale.rocks/micros/20240921-1034.html</link>
+      <guid>https://vale.rocks/micros/20240921-1034.html</guid>
       <content:encoded><![CDATA[<p>I hope you all remembered that tonight is the 21st night of September.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240917-0328.html</link>
-      <guid>https://vale.rocks/posts/20240917-0328.html</guid>
+      <pubDate>Tue, 17 Sep 2024 03:28:00 GMT</pubDate>
+      <title>17 Sept 2024 03:28</title>
+      <link>https://vale.rocks/micros/20240917-0328.html</link>
+      <guid>https://vale.rocks/micros/20240917-0328.html</guid>
       <content:encoded><![CDATA[<p>Bluesky now has over 10 million users, and I was #3,150,897! I would have jumped in earlier was it not for the invite system. I got access just before they opened it up.</p>
 <p><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/bafkreidi2wpt2z7kw6dsbefusc77si6ggwirepsqhk7wwzacuwzqfub3vi@jpeg" alt="Card stating "Celebrating 10M users. #3,150,897"."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240916-0354.html</link>
-      <guid>https://vale.rocks/posts/20240916-0354.html</guid>
+      <pubDate>Mon, 16 Sep 2024 03:54:00 GMT</pubDate>
+      <title>16 Sept 2024 03:54</title>
+      <link>https://vale.rocks/micros/20240916-0354.html</link>
+      <guid>https://vale.rocks/micros/20240916-0354.html</guid>
       <content:encoded><![CDATA[<p>Messed around with some fun HTML colour values. &#8220;sonic&#8221; outputs blue.</p>
 <p><a href="https://codepen.io/OuterVale/pen/wvLbjpZ">https://codepen.io/OuterVale/pen/wvLbjpZ</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240916-0114.html</link>
-      <guid>https://vale.rocks/posts/20240916-0114.html</guid>
+      <pubDate>Mon, 16 Sep 2024 01:14:00 GMT</pubDate>
+      <title>16 Sept 2024 01:14</title>
+      <link>https://vale.rocks/micros/20240916-0114.html</link>
+      <guid>https://vale.rocks/micros/20240916-0114.html</guid>
       <content:encoded><![CDATA[<p>Uploaded some new pictures to my Unsplash. Go give &#8216;em a squizz.</p>
 <p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240915-0227.html</link>
-      <guid>https://vale.rocks/posts/20240915-0227.html</guid>
+      <pubDate>Sun, 15 Sep 2024 02:27:00 GMT</pubDate>
+      <title>15 Sept 2024 02:27</title>
+      <link>https://vale.rocks/micros/20240915-0227.html</link>
+      <guid>https://vale.rocks/micros/20240915-0227.html</guid>
       <content:encoded><![CDATA[<p>Oooh w̶̨̩̣̭͙̯͎̭̻̮̪̥̟͇̳̬͒̎̋̉̒ą̷̢̛̠̮̥͔̩̙̺̘͙̘̹̣̪͔͙̊͐̒̍̓͝ḧ̷̗́͊̓̓̽̄̎̉̈ą̷̡̹̰͖͍̥̭̫̤͈̠̀̇̔̓̓͑̅̂̊͘̚͝͝ḩ̶̤͐̍̽̀̆̂̚͝a̴͕̗̭͎̹̲̝̭͗͂͐̿͊̉̈̏̿͂̐̑̆̊̕͠͠h̶̹̑̒̐̒̈̑͋͊͠a̸̲̟̞̼̰̘͂́͌̑̔̊̔̉͗̋̈́̑̐͠͠</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240908-0702.html</link>
-      <guid>https://vale.rocks/posts/20240908-0702.html</guid>
+      <pubDate>Sun, 08 Sep 2024 07:02:00 GMT</pubDate>
+      <title>08 Sept 2024 07:02</title>
+      <link>https://vale.rocks/micros/20240908-0702.html</link>
+      <guid>https://vale.rocks/micros/20240908-0702.html</guid>
       <content:encoded><![CDATA[<p>Always gets a laugh from me.</p>
 <p><a href="https://madeupandprobablydoesnotexist.com/taskbar">https://madeupandprobablydoesnotexist.com/taskbar</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240906-1404.html</link>
-      <guid>https://vale.rocks/posts/20240906-1404.html</guid>
+      <pubDate>Fri, 06 Sep 2024 14:04:00 GMT</pubDate>
+      <title>06 Sept 2024 14:04</title>
+      <link>https://vale.rocks/micros/20240906-1404.html</link>
+      <guid>https://vale.rocks/micros/20240906-1404.html</guid>
       <content:encoded><![CDATA[<p>Genuine exchange I just had:</p>
 <blockquote>
 <p>Person: It&#8217;s broken on mobile.</p>
@@ -630,28 +802,36 @@ At the very bottom of the page are some statistics that are cut off."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240906-1110.html</link>
-      <guid>https://vale.rocks/posts/20240906-1110.html</guid>
+      <pubDate>Fri, 06 Sep 2024 11:10:00 GMT</pubDate>
+      <title>06 Sept 2024 11:10</title>
+      <link>https://vale.rocks/micros/20240906-1110.html</link>
+      <guid>https://vale.rocks/micros/20240906-1110.html</guid>
       <content:encoded><![CDATA[<p>I pretty much exclusively browse CodePen on Chrome, despite Firefox being my primary browser.</p>
 <p>Mozilla, you need to catch up.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240827-0021.html</link>
-      <guid>https://vale.rocks/posts/20240827-0021.html</guid>
+      <pubDate>Tue, 27 Aug 2024 00:21:00 GMT</pubDate>
+      <title>27 Aug 2024 00:21</title>
+      <link>https://vale.rocks/micros/20240827-0021.html</link>
+      <guid>https://vale.rocks/micros/20240827-0021.html</guid>
       <content:encoded><![CDATA[<p>Honestly pretty disappointed we haven&#8217;t gotten an Ask Jeeves AI.</p>
 <p>A mark was missed.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240826-1145.html</link>
-      <guid>https://vale.rocks/posts/20240826-1145.html</guid>
+      <pubDate>Mon, 26 Aug 2024 11:45:00 GMT</pubDate>
+      <title>26 Aug 2024 11:45</title>
+      <link>https://vale.rocks/micros/20240826-1145.html</link>
+      <guid>https://vale.rocks/micros/20240826-1145.html</guid>
       <content:encoded><![CDATA[<p>Everyone else listens for their fan to spin down so they know their code has finished compiling from halfway across the room, yeah?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240826-0952.html</link>
-      <guid>https://vale.rocks/posts/20240826-0952.html</guid>
+      <pubDate>Mon, 26 Aug 2024 09:52:00 GMT</pubDate>
+      <title>26 Aug 2024 09:52</title>
+      <link>https://vale.rocks/micros/20240826-0952.html</link>
+      <guid>https://vale.rocks/micros/20240826-0952.html</guid>
       <content:encoded><![CDATA[<p>Great moments in Revolt development:</p>
 <pre><code>RUN yarn install --frozen-lockfile
 RUN yarn build:deps
@@ -662,23 +842,29 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240824-0833.html</link>
-      <guid>https://vale.rocks/posts/20240824-0833.html</guid>
+      <pubDate>Sat, 24 Aug 2024 08:33:00 GMT</pubDate>
+      <title>24 Aug 2024 08:33</title>
+      <link>https://vale.rocks/micros/20240824-0833.html</link>
+      <guid>https://vale.rocks/micros/20240824-0833.html</guid>
       <content:encoded><![CDATA[<p>One great use of LLMs I&#8217;ve found is as dynamic WordPress documentation generators.</p>
 <p>WordPress is really poorly documented. Especially block themes, which are a mess in more ways than just documentation.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240822-0407.html</link>
-      <guid>https://vale.rocks/posts/20240822-0407.html</guid>
+      <pubDate>Thu, 22 Aug 2024 04:07:00 GMT</pubDate>
+      <title>22 Aug 2024 04:07</title>
+      <link>https://vale.rocks/micros/20240822-0407.html</link>
+      <guid>https://vale.rocks/micros/20240822-0407.html</guid>
       <content:encoded><![CDATA[<p>People who have a minimap in their editor, why?</p>
 <p>I had one briefly back in the Atom days, but it was never all that useful. I&#8217;ve found having breadcrumbs at the top of my editor fills every minimap use case I can imagine.</p>
 <p>Interested to hear how people use them and if I&#8217;m perhaps missing something.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240818-1059.html</link>
-      <guid>https://vale.rocks/posts/20240818-1059.html</guid>
+      <pubDate>Sun, 18 Aug 2024 10:59:00 GMT</pubDate>
+      <title>18 Aug 2024 10:59</title>
+      <link>https://vale.rocks/micros/20240818-1059.html</link>
+      <guid>https://vale.rocks/micros/20240818-1059.html</guid>
       <content:encoded><![CDATA[<p>This is a quote from Gian-Carlo Rota&#8217;s <em>Indiscrete Thoughts</em> that I think applies particularly well in the context of development:</p>
 <blockquote>
 <p>&#8220;Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;&#8221;</p>
@@ -686,130 +872,168 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240805-0457.html</link>
-      <guid>https://vale.rocks/posts/20240805-0457.html</guid>
+      <pubDate>Mon, 05 Aug 2024 04:57:00 GMT</pubDate>
+      <title>05 Aug 2024 04:57</title>
+      <link>https://vale.rocks/micros/20240805-0457.html</link>
+      <guid>https://vale.rocks/micros/20240805-0457.html</guid>
       <content:encoded><![CDATA[<p>Finally got around to setting up my &#8216;/uses&#8217; page.</p>
 <p>If, for whatever reason, you&#8217;re interested in seeing some of the tech and stuff I use, feel free to check it out.</p>
 <p><a href="https://vale.rocks/uses">https://vale.rocks/uses</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240804-1217.html</link>
-      <guid>https://vale.rocks/posts/20240804-1217.html</guid>
+      <pubDate>Sun, 04 Aug 2024 12:17:00 GMT</pubDate>
+      <title>04 Aug 2024 12:17</title>
+      <link>https://vale.rocks/micros/20240804-1217.html</link>
+      <guid>https://vale.rocks/micros/20240804-1217.html</guid>
       <content:encoded><![CDATA[<p>The JavaScript Registry looks really interesting, but every time my brain sees JSR, it thinks <em>JET SET RADIOOOOOO!</em></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240803-0606.html</link>
-      <guid>https://vale.rocks/posts/20240803-0606.html</guid>
+      <pubDate>Sat, 03 Aug 2024 06:06:00 GMT</pubDate>
+      <title>03 Aug 2024 06:06</title>
+      <link>https://vale.rocks/micros/20240803-0606.html</link>
+      <guid>https://vale.rocks/micros/20240803-0606.html</guid>
       <content:encoded><![CDATA[<p>Everyone else spams the up arrow key to find a previous command when it would have been faster to just type it out? Right?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240802-1008.html</link>
-      <guid>https://vale.rocks/posts/20240802-1008.html</guid>
+      <pubDate>Fri, 02 Aug 2024 10:08:00 GMT</pubDate>
+      <title>02 Aug 2024 10:08</title>
+      <link>https://vale.rocks/micros/20240802-1008.html</link>
+      <guid>https://vale.rocks/micros/20240802-1008.html</guid>
       <content:encoded><![CDATA[<p>Server upgraded and everything running again.</p>
 <p>Bumped up to 8GB of RAM from 4GB, cleaned out the case, installed a new 4TB HDD, and migrated from Debian to NixOS.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240731-0411.html</link>
-      <guid>https://vale.rocks/posts/20240731-0411.html</guid>
+      <pubDate>Wed, 31 Jul 2024 04:11:00 GMT</pubDate>
+      <title>31 Jul 2024 04:11</title>
+      <link>https://vale.rocks/micros/20240731-0411.html</link>
+      <guid>https://vale.rocks/micros/20240731-0411.html</guid>
       <content:encoded><![CDATA[<p>Time for a server upgrade&#8230;</p>
 <p><img src="https://fedi.vale.rocks/media/51d641d88518cbe0800ee86f51f0a3cd282ff15dbd0efcbea5153e17a381ab22.jpg" alt="A 4TB WD Red Plus HDD sitting on a bench top."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240730-1218.html</link>
-      <guid>https://vale.rocks/posts/20240730-1218.html</guid>
+      <pubDate>Tue, 30 Jul 2024 12:18:00 GMT</pubDate>
+      <title>30 Jul 2024 12:18</title>
+      <link>https://vale.rocks/micros/20240730-1218.html</link>
+      <guid>https://vale.rocks/micros/20240730-1218.html</guid>
       <content:encoded><![CDATA[<p>Migrating drives tomorrow. If I disappear off Fedi, then I&#8217;ve probably killed my database.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240729-0439.html</link>
-      <guid>https://vale.rocks/posts/20240729-0439.html</guid>
+      <pubDate>Mon, 29 Jul 2024 04:39:00 GMT</pubDate>
+      <title>29 Jul 2024 04:39</title>
+      <link>https://vale.rocks/micros/20240729-0439.html</link>
+      <guid>https://vale.rocks/micros/20240729-0439.html</guid>
       <content:encoded><![CDATA[<p>Goodbye Xbox 360 Marketplace.</p>
 <p>I&#8217;ve made so many formative memories on the 360. It&#8217;s sad to see its infrastructure slowly shut down, bit by bit.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240721-1249.html</link>
-      <guid>https://vale.rocks/posts/20240721-1249.html</guid>
+      <pubDate>Sun, 21 Jul 2024 12:49:00 GMT</pubDate>
+      <title>21 Jul 2024 12:49</title>
+      <link>https://vale.rocks/micros/20240721-1249.html</link>
+      <guid>https://vale.rocks/micros/20240721-1249.html</guid>
       <content:encoded><![CDATA[<p>Spent a bit of time putting together a little tool that lets you search across search engines. You can pick a default and use bangs to search a specific site, like on DuckDuckGo.</p>
 <p>Made it mainly for myself, but I&#8217;m sure it&#8217;s of interest to other people.</p>
 <p><a href="https://search.vale.rocks">https://search.vale.rocks</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240705-1153.html</link>
-      <guid>https://vale.rocks/posts/20240705-1153.html</guid>
+      <pubDate>Fri, 05 Jul 2024 11:53:00 GMT</pubDate>
+      <title>05 Jul 2024 11:53</title>
+      <link>https://vale.rocks/micros/20240705-1153.html</link>
+      <guid>https://vale.rocks/micros/20240705-1153.html</guid>
       <content:encoded><![CDATA[<p><a href="https://penpot.app">Penpot</a> kicks arse! It&#8217;s got all the sick layout features of something like Figma but represents them exactly as I&#8217;d need to implement them in CSS.</p>
 <p>This is sick!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240701-0805.html</link>
-      <guid>https://vale.rocks/posts/20240701-0805.html</guid>
+      <pubDate>Mon, 01 Jul 2024 08:05:00 GMT</pubDate>
+      <title>01 Jul 2024 08:05</title>
+      <link>https://vale.rocks/micros/20240701-0805.html</link>
+      <guid>https://vale.rocks/micros/20240701-0805.html</guid>
       <content:encoded><![CDATA[<p>Just successfully implemented a feature I&#8217;ve been struggling to get working for yonks, and, as I did, <em>(Get A) Grip (on Yourself)</em> by The Stranglers started blasting.</p>
 <p>Feels good.</p>
 <p><a href="https://music.youtube.com/watch?v=uakqdR2B2w8">https://music.youtube.com/watch?v=uakqdR2B2w8</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240615-1305.html</link>
-      <guid>https://vale.rocks/posts/20240615-1305.html</guid>
+      <pubDate>Sat, 15 Jun 2024 13:05:00 GMT</pubDate>
+      <title>15 Jun 2024 13:05</title>
+      <link>https://vale.rocks/micros/20240615-1305.html</link>
+      <guid>https://vale.rocks/micros/20240615-1305.html</guid>
       <content:encoded><![CDATA[<p>The phrase &#8220;WebKit magic&#8221; is something I could live without.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240613-0119.html</link>
-      <guid>https://vale.rocks/posts/20240613-0119.html</guid>
+      <pubDate>Thu, 13 Jun 2024 01:19:00 GMT</pubDate>
+      <title>13 Jun 2024 01:19</title>
+      <link>https://vale.rocks/micros/20240613-0119.html</link>
+      <guid>https://vale.rocks/micros/20240613-0119.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240611-1137.html</link>
-      <guid>https://vale.rocks/posts/20240611-1137.html</guid>
+      <pubDate>Tue, 11 Jun 2024 11:37:00 GMT</pubDate>
+      <title>11 Jun 2024 11:37</title>
+      <link>https://vale.rocks/micros/20240611-1137.html</link>
+      <guid>https://vale.rocks/micros/20240611-1137.html</guid>
       <content:encoded><![CDATA[<p>Decided to try music streaming again. The Vengabus started playing. I now remember why I maintain a local library.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240611-0919.html</link>
-      <guid>https://vale.rocks/posts/20240611-0919.html</guid>
+      <pubDate>Tue, 11 Jun 2024 09:19:00 GMT</pubDate>
+      <title>11 Jun 2024 09:19</title>
+      <link>https://vale.rocks/micros/20240611-0919.html</link>
+      <guid>https://vale.rocks/micros/20240611-0919.html</guid>
       <content:encoded><![CDATA[<p>Finally gave Zed a quick go on NixOS. It&#8217;s slick. The collaboration features are unrivalled.</p>
 <p>If someone asks for a code editor in future, Zed is gonna be my suggestion. As much as I love NeoVim, I understand it isn&#8217;t everyone&#8217;s cup of tea. I can only see Zed getting better and filling the shoes of VS Code.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240606-0355.html</link>
-      <guid>https://vale.rocks/posts/20240606-0355.html</guid>
+      <pubDate>Thu, 06 Jun 2024 03:55:00 GMT</pubDate>
+      <title>06 Jun 2024 03:55</title>
+      <link>https://vale.rocks/micros/20240606-0355.html</link>
+      <guid>https://vale.rocks/micros/20240606-0355.html</guid>
       <content:encoded><![CDATA[<p>Please let this happen. I&#8217;ve waited so long.</p>
 <p><a href="https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com">https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240522-1157.html</link>
-      <guid>https://vale.rocks/posts/20240522-1157.html</guid>
+      <pubDate>Wed, 22 May 2024 11:57:00 GMT</pubDate>
+      <title>22 May 2024 11:57</title>
+      <link>https://vale.rocks/micros/20240522-1157.html</link>
+      <guid>https://vale.rocks/micros/20240522-1157.html</guid>
       <content:encoded><![CDATA[<p>Does this Neuralink stuff remind anyone else of &#8220;Flowers for Algernon&#8221;? The patient experiences temporary enhancement and then has it slowly taken away. I fear the potential psychological impact.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240520-0934.html</link>
-      <guid>https://vale.rocks/posts/20240520-0934.html</guid>
+      <pubDate>Mon, 20 May 2024 09:34:00 GMT</pubDate>
+      <title>20 May 2024 09:34</title>
+      <link>https://vale.rocks/micros/20240520-0934.html</link>
+      <guid>https://vale.rocks/micros/20240520-0934.html</guid>
       <content:encoded><![CDATA[<p>So, uh, is the punchline of The Big Bang Theory just misogyny?</p>
 <p>I don&#8217;t watch the show, but every time I&#8217;m exposed to it, that&#8217;s the impression I get.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240516-1312.html</link>
-      <guid>https://vale.rocks/posts/20240516-1312.html</guid>
+      <pubDate>Thu, 16 May 2024 13:12:00 GMT</pubDate>
+      <title>16 May 2024 13:12</title>
+      <link>https://vale.rocks/micros/20240516-1312.html</link>
+      <guid>https://vale.rocks/micros/20240516-1312.html</guid>
       <content:encoded><![CDATA[<p>Been keeping an eye on the GitHub milestone as the issues were slowly crossed off the list. Very glad to see the release of Neovim v0.10.</p>
 <p>So many great improvements with this release! Congrats to the team!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240508-0906.html</link>
-      <guid>https://vale.rocks/posts/20240508-0906.html</guid>
+      <pubDate>Wed, 08 May 2024 09:06:00 GMT</pubDate>
+      <title>08 May 2024 09:06</title>
+      <link>https://vale.rocks/micros/20240508-0906.html</link>
+      <guid>https://vale.rocks/micros/20240508-0906.html</guid>
       <content:encoded><![CDATA[<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>
 <p><img src="https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg" alt="Photograph of a crab sitting in sand next to a rock within a dark bucket."></p>
 <p>In other news, I just published some new images to my Unsplash, so check them out.</p>
@@ -817,8 +1041,10 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240507-1134.html</link>
-      <guid>https://vale.rocks/posts/20240507-1134.html</guid>
+      <pubDate>Tue, 07 May 2024 11:34:00 GMT</pubDate>
+      <title>07 May 2024 11:34</title>
+      <link>https://vale.rocks/micros/20240507-1134.html</link>
+      <guid>https://vale.rocks/micros/20240507-1134.html</guid>
       <content:encoded><![CDATA[<p>Well, I just watched Red vs Blue: Restoration. I suppose that&#8217;s it. Red vs Blue is over. I was late to the series, having only discovered it in recent years, but that doesn&#8217;t make seeing it end any easier.</p>
 <p>Restoration felt rushed and unpolished. I think an extra half hour on it&#8217;s runtime would have it many favours. It certainly wasn&#8217;t the best ending, but it was an ending, and that&#8217;s something.</p>
 <p>It&#8217;s sad to see things end but I think it&#8217;s important to simply value the memories they created. After all, memory is the key</p>
@@ -827,60 +1053,78 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240506-0432.html</link>
-      <guid>https://vale.rocks/posts/20240506-0432.html</guid>
+      <pubDate>Mon, 06 May 2024 04:32:00 GMT</pubDate>
+      <title>06 May 2024 04:32</title>
+      <link>https://vale.rocks/micros/20240506-0432.html</link>
+      <guid>https://vale.rocks/micros/20240506-0432.html</guid>
       <content:encoded><![CDATA[<p>Got 5G for the first time today. It is significantly faster then my home Wi-Fi network&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240505-0520.html</link>
-      <guid>https://vale.rocks/posts/20240505-0520.html</guid>
+      <pubDate>Sun, 05 May 2024 05:20:00 GMT</pubDate>
+      <title>05 May 2024 05:20</title>
+      <link>https://vale.rocks/micros/20240505-0520.html</link>
+      <guid>https://vale.rocks/micros/20240505-0520.html</guid>
       <content:encoded><![CDATA[<p>This just in, defecation demonstration causes devastation across the nation. More at 9.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240505-0420.html</link>
-      <guid>https://vale.rocks/posts/20240505-0420.html</guid>
+      <pubDate>Sun, 05 May 2024 04:20:00 GMT</pubDate>
+      <title>05 May 2024 04:20</title>
+      <link>https://vale.rocks/micros/20240505-0420.html</link>
+      <guid>https://vale.rocks/micros/20240505-0420.html</guid>
       <content:encoded><![CDATA[<p>Which one of you has been visiting my website with a Windows Phone?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240428-0810.html</link>
-      <guid>https://vale.rocks/posts/20240428-0810.html</guid>
+      <pubDate>Sun, 28 Apr 2024 08:10:00 GMT</pubDate>
+      <title>28 Apr 2024 08:10</title>
+      <link>https://vale.rocks/micros/20240428-0810.html</link>
+      <guid>https://vale.rocks/micros/20240428-0810.html</guid>
       <content:encoded><![CDATA[<p>Just finished my big site update. Took a bit, but it&#8217;s more accessible, responsive, and a lot easier to work with into the future. Go check it out!</p>
 <p><a href="https://vale.rocks">https://vale.rocks</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240417-1257.html</link>
-      <guid>https://vale.rocks/posts/20240417-1257.html</guid>
+      <pubDate>Wed, 17 Apr 2024 12:57:00 GMT</pubDate>
+      <title>17 Apr 2024 12:57</title>
+      <link>https://vale.rocks/micros/20240417-1257.html</link>
+      <guid>https://vale.rocks/micros/20240417-1257.html</guid>
       <content:encoded><![CDATA[<p>Got a new blog post coming tomorrow regarding code formatting. Stay tuned!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240416-1217.html</link>
-      <guid>https://vale.rocks/posts/20240416-1217.html</guid>
+      <pubDate>Tue, 16 Apr 2024 12:17:00 GMT</pubDate>
+      <title>16 Apr 2024 12:17</title>
+      <link>https://vale.rocks/micros/20240416-1217.html</link>
+      <guid>https://vale.rocks/micros/20240416-1217.html</guid>
       <content:encoded><![CDATA[<p>Very disappointed by the abandonment of my 12th Gen Framework Laptop 13.</p>
 <p>Read my open complaint here:
 <a href="https://community.frame.work/t/my-framework-has-been-abandoned">https://community.frame.work/t/my-framework-has-been-abandoned</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240414-0705.html</link>
-      <guid>https://vale.rocks/posts/20240414-0705.html</guid>
+      <pubDate>Sun, 14 Apr 2024 07:05:00 GMT</pubDate>
+      <title>14 Apr 2024 07:05</title>
+      <link>https://vale.rocks/micros/20240414-0705.html</link>
+      <guid>https://vale.rocks/micros/20240414-0705.html</guid>
       <content:encoded><![CDATA[<p>YouTube, do you care to explain what the hell I&#8217;m looking at?</p>
 <p><img src="https://fedi.vale.rocks/media/e8fd53df3b7d48961e5667e6541f6f05b75243b914237071b0b41d01581808be.png" alt="YouTube desktop recommended page showing a 'YouTube Playables' section with several simple free games."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240412-1306.html</link>
-      <guid>https://vale.rocks/posts/20240412-1306.html</guid>
+      <pubDate>Fri, 12 Apr 2024 13:06:00 GMT</pubDate>
+      <title>12 Apr 2024 13:06</title>
+      <link>https://vale.rocks/micros/20240412-1306.html</link>
+      <guid>https://vale.rocks/micros/20240412-1306.html</guid>
       <content:encoded><![CDATA[<p>Seeing X (formerly Twitter) fall victim to clbuttic has to be one of the funniest things I&#8217;ve seen recently.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240409-0712.html</link>
-      <guid>https://vale.rocks/posts/20240409-0712.html</guid>
+      <pubDate>Tue, 09 Apr 2024 07:12:00 GMT</pubDate>
+      <title>09 Apr 2024 07:12</title>
+      <link>https://vale.rocks/micros/20240409-0712.html</link>
+      <guid>https://vale.rocks/micros/20240409-0712.html</guid>
       <content:encoded><![CDATA[<p>Just registered as an organ donor. Hopefully my bits can be useful when I&#8217;m no longer using them.</p>
 <p>If you&#8217;re in Australia and want to do the same, here&#8217;s the link:
 <a href="https://donatelife.gov.au/register-donor-today">https://donatelife.gov.au/register-donor-today</a></p>
@@ -889,153 +1133,197 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240408-0454.html</link>
-      <guid>https://vale.rocks/posts/20240408-0454.html</guid>
+      <pubDate>Mon, 08 Apr 2024 04:54:00 GMT</pubDate>
+      <title>08 Apr 2024 04:54</title>
+      <link>https://vale.rocks/micros/20240408-0454.html</link>
+      <guid>https://vale.rocks/micros/20240408-0454.html</guid>
       <content:encoded><![CDATA[<p>Took a picture of this lovely lush moss!</p>
 <p>View it on Unsplash:
 <a href="https://unsplash.com/photos/dF2WO_HFt3g">https://unsplash.com/photos/dF2WO_HFt3g</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240408-0326.html</link>
-      <guid>https://vale.rocks/posts/20240408-0326.html</guid>
+      <pubDate>Mon, 08 Apr 2024 03:26:00 GMT</pubDate>
+      <title>08 Apr 2024 03:26</title>
+      <link>https://vale.rocks/micros/20240408-0326.html</link>
+      <guid>https://vale.rocks/micros/20240408-0326.html</guid>
       <content:encoded><![CDATA[<p>Met this cute little frog during my Melbourne holiday!</p>
 <p>View it on Unsplash:
 <a href="https://unsplash.com/photos/AOikvPjx-OE">https://unsplash.com/photos/AOikvPjx-OE</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240408-0222.html</link>
-      <guid>https://vale.rocks/posts/20240408-0222.html</guid>
+      <pubDate>Mon, 08 Apr 2024 02:22:00 GMT</pubDate>
+      <title>08 Apr 2024 02:22</title>
+      <link>https://vale.rocks/micros/20240408-0222.html</link>
+      <guid>https://vale.rocks/micros/20240408-0222.html</guid>
       <content:encoded><![CDATA[<p>Captured this lovely butterfly during my Melbourne trip!</p>
 <p>View it on Unsplash:
 <a href="https://unsplash.com/photos/C-9QKM7OZls">https://unsplash.com/photos/C-9QKM7OZls</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240407-0137.html</link>
-      <guid>https://vale.rocks/posts/20240407-0137.html</guid>
+      <pubDate>Sun, 07 Apr 2024 01:37:00 GMT</pubDate>
+      <title>07 Apr 2024 01:37</title>
+      <link>https://vale.rocks/micros/20240407-0137.html</link>
+      <guid>https://vale.rocks/micros/20240407-0137.html</guid>
       <content:encoded><![CDATA[<p>The Joomla marketing team has been editing the Joomla Wikipedia article to promote their product.</p>
 <p>Give the article a read. It&#8217;s basically an advert.</p>
 <p><a href="https://en.wikipedia.org/wiki/Joomla">https://en.wikipedia.org/wiki/Joomla</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240402-1249.html</link>
-      <guid>https://vale.rocks/posts/20240402-1249.html</guid>
+      <pubDate>Tue, 02 Apr 2024 12:49:00 GMT</pubDate>
+      <title>02 Apr 2024 12:49</title>
+      <link>https://vale.rocks/micros/20240402-1249.html</link>
+      <guid>https://vale.rocks/micros/20240402-1249.html</guid>
       <content:encoded><![CDATA[<p>Thank you all for the birthday wishes today! It&#8217;s been a most excellent day and I look forward to what the future will bring.</p>
 <p>:)</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240402-0524.html</link>
-      <guid>https://vale.rocks/posts/20240402-0524.html</guid>
+      <pubDate>Tue, 02 Apr 2024 05:24:00 GMT</pubDate>
+      <title>02 Apr 2024 05:24</title>
+      <link>https://vale.rocks/micros/20240402-0524.html</link>
+      <guid>https://vale.rocks/micros/20240402-0524.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;m having a most excellent birthday. Can&#8217;t wait to share some of the stuff I&#8217;ve been doing!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240401-2202.html</link>
-      <guid>https://vale.rocks/posts/20240401-2202.html</guid>
+      <pubDate>Mon, 01 Apr 2024 22:02:00 GMT</pubDate>
+      <title>01 Apr 2024 22:02</title>
+      <link>https://vale.rocks/micros/20240401-2202.html</link>
+      <guid>https://vale.rocks/micros/20240401-2202.html</guid>
       <content:encoded><![CDATA[<p>It is with great joy that I announce I am now 18 years of age.</p>
 <p>I shall now proceed to destroy my body and mind with recreational drugs.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240328-1052.html</link>
-      <guid>https://vale.rocks/posts/20240328-1052.html</guid>
+      <pubDate>Thu, 28 Mar 2024 10:52:00 GMT</pubDate>
+      <title>28 Mar 2024 10:52</title>
+      <link>https://vale.rocks/micros/20240328-1052.html</link>
+      <guid>https://vale.rocks/micros/20240328-1052.html</guid>
       <content:encoded><![CDATA[<p>The dead internet theory was better as a conspiracy theory and not as a slowly encroaching reality&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240328-0424.html</link>
-      <guid>https://vale.rocks/posts/20240328-0424.html</guid>
+      <pubDate>Thu, 28 Mar 2024 04:24:00 GMT</pubDate>
+      <title>28 Mar 2024 04:24</title>
+      <link>https://vale.rocks/micros/20240328-0424.html</link>
+      <guid>https://vale.rocks/micros/20240328-0424.html</guid>
       <content:encoded><![CDATA[<p>Microsoft, I ask of you this:</p>
 <p>Does <em>everything</em> need AI integration?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240327-0753.html</link>
-      <guid>https://vale.rocks/posts/20240327-0753.html</guid>
+      <pubDate>Wed, 27 Mar 2024 07:53:00 GMT</pubDate>
+      <title>27 Mar 2024 07:53</title>
+      <link>https://vale.rocks/micros/20240327-0753.html</link>
+      <guid>https://vale.rocks/micros/20240327-0753.html</guid>
       <content:encoded><![CDATA[<p>There is an old saying that goes &#8220;If you’re not paying for the product, then you are the product.&#8221;</p>
 <p>It almost seems that for the digital age it should be altered to &#8220;If you’re paying for the product, then you are the product.&#8221;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240323-1037.html</link>
-      <guid>https://vale.rocks/posts/20240323-1037.html</guid>
+      <pubDate>Sat, 23 Mar 2024 10:37:00 GMT</pubDate>
+      <title>23 Mar 2024 10:37</title>
+      <link>https://vale.rocks/micros/20240323-1037.html</link>
+      <guid>https://vale.rocks/micros/20240323-1037.html</guid>
       <content:encoded><![CDATA[<p>A debatable claim&#8230;</p>
 <p><img src="https://fedi.vale.rocks/media/a454144cab755a34c363feb5a8368c747c8464a288486272066f0a9812a07fe7.png" alt="Screenshot of a webpage section describing "kotlin-native" with text that reads "A modern programming language that makes developers happier.""></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240323-0255.html</link>
-      <guid>https://vale.rocks/posts/20240323-0255.html</guid>
+      <pubDate>Sat, 23 Mar 2024 02:55:00 GMT</pubDate>
+      <title>23 Mar 2024 02:55</title>
+      <link>https://vale.rocks/micros/20240323-0255.html</link>
+      <guid>https://vale.rocks/micros/20240323-0255.html</guid>
       <content:encoded><![CDATA[<p>haich tee tee pee ess colon slash slash vale dot rocks</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240322-1155.html</link>
-      <guid>https://vale.rocks/posts/20240322-1155.html</guid>
+      <pubDate>Fri, 22 Mar 2024 11:55:00 GMT</pubDate>
+      <title>22 Mar 2024 11:55</title>
+      <link>https://vale.rocks/micros/20240322-1155.html</link>
+      <guid>https://vale.rocks/micros/20240322-1155.html</guid>
       <content:encoded><![CDATA[<p>I discovered <code>&lt;kbd&gt;</code> today. I simply do not know how I wasn&#8217;t aware of it until this point. This is awesome!</p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240322-0451.html</link>
-      <guid>https://vale.rocks/posts/20240322-0451.html</guid>
+      <pubDate>Fri, 22 Mar 2024 04:51:00 GMT</pubDate>
+      <title>22 Mar 2024 04:51</title>
+      <link>https://vale.rocks/micros/20240322-0451.html</link>
+      <guid>https://vale.rocks/micros/20240322-0451.html</guid>
       <content:encoded><![CDATA[<p>Does anyone else beat their keys like they owe you money when trying to get into the BIOS?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240321-1002.html</link>
-      <guid>https://vale.rocks/posts/20240321-1002.html</guid>
+      <pubDate>Thu, 21 Mar 2024 10:02:00 GMT</pubDate>
+      <title>21 Mar 2024 10:02</title>
+      <link>https://vale.rocks/micros/20240321-1002.html</link>
+      <guid>https://vale.rocks/micros/20240321-1002.html</guid>
       <content:encoded><![CDATA[<p>Congrats to the GNOME team for the release of version 46!</p>
 <p>Nothing revolutionary but so many fixes, tweaks, and quality of life improvements. Bravo!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240319-0234.html</link>
-      <guid>https://vale.rocks/posts/20240319-0234.html</guid>
+      <pubDate>Tue, 19 Mar 2024 02:34:00 GMT</pubDate>
+      <title>19 Mar 2024 02:34</title>
+      <link>https://vale.rocks/micros/20240319-0234.html</link>
+      <guid>https://vale.rocks/micros/20240319-0234.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve noticed what seems to be a growing distaste for Git in my frontend development feeds on Bluesky.</p>
 <p>I must say that once I got past the initial learning curve, I&#8217;ve found it quite nice.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240318-0152.html</link>
-      <guid>https://vale.rocks/posts/20240318-0152.html</guid>
+      <pubDate>Mon, 18 Mar 2024 01:52:00 GMT</pubDate>
+      <title>18 Mar 2024 01:52</title>
+      <link>https://vale.rocks/micros/20240318-0152.html</link>
+      <guid>https://vale.rocks/micros/20240318-0152.html</guid>
       <content:encoded><![CDATA[<p>Hey, err, web devs on Windows. How do you guys test for WebKit?</p>
 <p>As far as I can see, not a single native Windows WebKit browser exists&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240317-1339.html</link>
-      <guid>https://vale.rocks/posts/20240317-1339.html</guid>
+      <pubDate>Sun, 17 Mar 2024 13:39:00 GMT</pubDate>
+      <title>17 Mar 2024 13:39</title>
+      <link>https://vale.rocks/micros/20240317-1339.html</link>
+      <guid>https://vale.rocks/micros/20240317-1339.html</guid>
       <content:encoded><![CDATA[<p>If you ever feel useless, just be glad you aren&#8217;t <code>&lt;Button&gt;</code> in React Native.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240310-1104.html</link>
-      <guid>https://vale.rocks/posts/20240310-1104.html</guid>
+      <pubDate>Sun, 10 Mar 2024 11:04:00 GMT</pubDate>
+      <title>10 Mar 2024 11:04</title>
+      <link>https://vale.rocks/micros/20240310-1104.html</link>
+      <guid>https://vale.rocks/micros/20240310-1104.html</guid>
       <content:encoded><![CDATA[<p>Just found out about WordPress&#8217;s excellent <code>funky_javascript_fix</code>.</p>
 <p><a href="https://developer.wordpress.org/reference/functions/funky_javascript_fix">https://developer.wordpress.org/reference/functions/funky_javascript_fix</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240306-0216.html</link>
-      <guid>https://vale.rocks/posts/20240306-0216.html</guid>
+      <pubDate>Wed, 06 Mar 2024 02:16:00 GMT</pubDate>
+      <title>06 Mar 2024 02:16</title>
+      <link>https://vale.rocks/micros/20240306-0216.html</link>
+      <guid>https://vale.rocks/micros/20240306-0216.html</guid>
       <content:encoded><![CDATA[<p>There is a problem with the legal system when organisations can throw around their weight and money to crush innovation and community-driven projects under the guise of protecting intellectual property.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240223-1201.html</link>
-      <guid>https://vale.rocks/posts/20240223-1201.html</guid>
+      <pubDate>Fri, 23 Feb 2024 12:01:00 GMT</pubDate>
+      <title>23 Feb 2024 12:01</title>
+      <link>https://vale.rocks/micros/20240223-1201.html</link>
+      <guid>https://vale.rocks/micros/20240223-1201.html</guid>
       <content:encoded><![CDATA[<p>Props to <a href="https://mozilla.org">Mozilla</a> and <a href="https://proton.me">Proton</a> for providing an informative changelog.</p>
 <p>Too many apps just say &#8216;improved performance&#8217; or &#8216;increased stability&#8217;.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240221-1340.html</link>
-      <guid>https://vale.rocks/posts/20240221-1340.html</guid>
+      <pubDate>Wed, 21 Feb 2024 13:40:00 GMT</pubDate>
+      <title>21 Feb 2024 13:40</title>
+      <link>https://vale.rocks/micros/20240221-1340.html</link>
+      <guid>https://vale.rocks/micros/20240221-1340.html</guid>
       <content:encoded><![CDATA[<p>Considering the amount of far right content that keeps making its way into my YouTube recommendations, I now understand how so many people end up falling down the path of hate.</p>
 <p>YouTube needs to do better and moderate its platform.</p>
 <p>I&#8217;m especially sickened by the sheer amount of anti-trans content that enters my YouTube recommendations. Videos that outright suggest that people assault transgender individuals.</p>
@@ -1049,213 +1337,275 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240221-1214.html</link>
-      <guid>https://vale.rocks/posts/20240221-1214.html</guid>
+      <pubDate>Wed, 21 Feb 2024 12:14:00 GMT</pubDate>
+      <title>21 Feb 2024 12:14</title>
+      <link>https://vale.rocks/micros/20240221-1214.html</link>
+      <guid>https://vale.rocks/micros/20240221-1214.html</guid>
       <content:encoded><![CDATA[<p>With the increasing popularity of folding phones I hope we&#8217;ll see a mod that plays Mario&#8217;s &#8220;Goodbye&#8221; sound byte from Super Mario 64 DS when closing the lid.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240220-0353.html</link>
-      <guid>https://vale.rocks/posts/20240220-0353.html</guid>
+      <pubDate>Tue, 20 Feb 2024 03:53:00 GMT</pubDate>
+      <title>20 Feb 2024 03:53</title>
+      <link>https://vale.rocks/micros/20240220-0353.html</link>
+      <guid>https://vale.rocks/micros/20240220-0353.html</guid>
       <content:encoded><![CDATA[<p>It&#8217;s really hard to comprehend how much damage the mongrel Rupert Murdoch has done unless you sit down and look at his publications.</p>
 <p>Endless far right slop riddled with engagement bait. The so called &#8216;news&#8217; sells anger, not information.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240219-0447.html</link>
-      <guid>https://vale.rocks/posts/20240219-0447.html</guid>
+      <pubDate>Mon, 19 Feb 2024 04:47:00 GMT</pubDate>
+      <title>19 Feb 2024 04:47</title>
+      <link>https://vale.rocks/micros/20240219-0447.html</link>
+      <guid>https://vale.rocks/micros/20240219-0447.html</guid>
       <content:encoded><![CDATA[<p>Moved my Bluesky account from <a href="https://bsky.app/profile/outervale.bsky.social">@outervale.bsky.social</a> to <a href="https://bsky.app/profile/vale.rocks">@vale.rocks</a>. Quite a neat feature.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240218-0552.html</link>
-      <guid>https://vale.rocks/posts/20240218-0552.html</guid>
+      <pubDate>Sun, 18 Feb 2024 05:52:00 GMT</pubDate>
+      <title>18 Feb 2024 05:52</title>
+      <link>https://vale.rocks/micros/20240218-0552.html</link>
+      <guid>https://vale.rocks/micros/20240218-0552.html</guid>
       <content:encoded><![CDATA[<p>It&#8217;s amazing how quickly Bluesky is evolving. It&#8217;s lovely to see a platform come together like this.</p>
 <p>I wonder how long it&#8217;ll be until they start shoehorning in features in the pursuit of profit that damages the user experience.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240211-1206.html</link>
-      <guid>https://vale.rocks/posts/20240211-1206.html</guid>
+      <pubDate>Sun, 11 Feb 2024 12:06:00 GMT</pubDate>
+      <title>11 Feb 2024 12:06</title>
+      <link>https://vale.rocks/micros/20240211-1206.html</link>
+      <guid>https://vale.rocks/micros/20240211-1206.html</guid>
       <content:encoded><![CDATA[<p>It&#8217;s been a few days since I&#8217;ve posted so I figure I&#8217;ll just leave Star Trekkin&#8217; here for any poor souls who haven&#8217;t had the privilege of experiencing it.</p>
 <p><a href="https://www.youtube.com/watch?v=FCARADb9asE">https://www.youtube.com/watch?v=FCARADb9asE</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240206-0318.html</link>
-      <guid>https://vale.rocks/posts/20240206-0318.html</guid>
+      <pubDate>Tue, 06 Feb 2024 03:18:00 GMT</pubDate>
+      <title>06 Feb 2024 03:18</title>
+      <link>https://vale.rocks/micros/20240206-0318.html</link>
+      <guid>https://vale.rocks/micros/20240206-0318.html</guid>
       <content:encoded><![CDATA[<p>It&#8217;s time. Time for me to get Omikron.</p>
 <p><img src="https://fedi.vale.rocks/media/3872d5fc22c23b248f41e6e5133e3a306d8d22bb2f425e95e7390050f270bcb6.png" alt="Interface showing the text "1 game you've wished for is on sale!" with the thumbnail of the game Omikron bellow it at a price of $2.09."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240205-1158.html</link>
-      <guid>https://vale.rocks/posts/20240205-1158.html</guid>
+      <pubDate>Mon, 05 Feb 2024 11:58:00 GMT</pubDate>
+      <title>05 Feb 2024 11:58</title>
+      <link>https://vale.rocks/micros/20240205-1158.html</link>
+      <guid>https://vale.rocks/micros/20240205-1158.html</guid>
       <content:encoded><![CDATA[<p>I joined Bluesky this morning. It feels like a more refined version of Twitter pre Musk.</p>
 <p>I&#8217;ll be sticking to the fediverse, but feel free to send me a follow!</p>
 <p><a href="https://bsky.app/profile/outervale.bsky.social">@outervale.bsky.social</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240205-0902.html</link>
-      <guid>https://vale.rocks/posts/20240205-0902.html</guid>
+      <pubDate>Mon, 05 Feb 2024 09:02:00 GMT</pubDate>
+      <title>05 Feb 2024 09:02</title>
+      <link>https://vale.rocks/micros/20240205-0902.html</link>
+      <guid>https://vale.rocks/micros/20240205-0902.html</guid>
       <content:encoded><![CDATA[<p>Ahhh, yes. Neo-Twitter. Risen from the ashes of the internet&#8217;s previous tabloid crap peddler.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240202-1250.html</link>
-      <guid>https://vale.rocks/posts/20240202-1250.html</guid>
+      <pubDate>Fri, 02 Feb 2024 12:50:00 GMT</pubDate>
+      <title>02 Feb 2024 12:50</title>
+      <link>https://vale.rocks/micros/20240202-1250.html</link>
+      <guid>https://vale.rocks/micros/20240202-1250.html</guid>
       <content:encoded><![CDATA[<p>I wonder when we&#8217;ll phase out IPv4 in favour of v6. I suppose we&#8217;ll do it later.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240202-1228.html</link>
-      <guid>https://vale.rocks/posts/20240202-1228.html</guid>
+      <pubDate>Fri, 02 Feb 2024 12:28:00 GMT</pubDate>
+      <title>02 Feb 2024 12:28</title>
+      <link>https://vale.rocks/micros/20240202-1228.html</link>
+      <guid>https://vale.rocks/micros/20240202-1228.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve been playing Mario Kart Wii half the day. I got rather violently Mario Karted by the bots on Koopa Cape a minute ago. From 1st to 12th in the blink of an eye. Oh well.</p>
 <p>I&#8217;m playing with no bloom or background blurring in HD on my rather large TV with an Xbox controller. Of course, this wouldn&#8217;t be possible without the excellent <a href="https://dolphin-emu.org">Dolphin emulator</a>. A huge thanks to all who have contributed to emulation.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240129-1212.html</link>
-      <guid>https://vale.rocks/posts/20240129-1212.html</guid>
+      <pubDate>Mon, 29 Jan 2024 12:12:00 GMT</pubDate>
+      <title>29 Jan 2024 12:12</title>
+      <link>https://vale.rocks/micros/20240129-1212.html</link>
+      <guid>https://vale.rocks/micros/20240129-1212.html</guid>
       <content:encoded><![CDATA[<p>Started my Diploma of Information Technology (Frontend Development) at North Metropolitan TAFE today!</p>
 <p>Eager to absorb new knowledge, enhance my skills, and embrace the endless possibilities that lie ahead.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240126-0954.html</link>
-      <guid>https://vale.rocks/posts/20240126-0954.html</guid>
+      <pubDate>Fri, 26 Jan 2024 09:54:00 GMT</pubDate>
+      <title>26 Jan 2024 09:54</title>
+      <link>https://vale.rocks/micros/20240126-0954.html</link>
+      <guid>https://vale.rocks/micros/20240126-0954.html</guid>
       <content:encoded><![CDATA[<p>Hmm, might give Zed a go. Doubt it&#8217;ll shake me off Neovim but I&#8217;m open to alternatives.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240125-1337.html</link>
-      <guid>https://vale.rocks/posts/20240125-1337.html</guid>
+      <pubDate>Thu, 25 Jan 2024 13:37:00 GMT</pubDate>
+      <title>25 Jan 2024 13:37</title>
+      <link>https://vale.rocks/micros/20240125-1337.html</link>
+      <guid>https://vale.rocks/micros/20240125-1337.html</guid>
       <content:encoded><![CDATA[<p>I just remembered the time I had to wipe a PlayStation 2 with tens of game saves dating back to 2000 and one of the save icons was on it&#8217;s knees begging me not to delete them.</p>
 <p>I still feel like a monster.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240124-0859.html</link>
-      <guid>https://vale.rocks/posts/20240124-0859.html</guid>
+      <pubDate>Wed, 24 Jan 2024 08:59:00 GMT</pubDate>
+      <title>24 Jan 2024 08:59</title>
+      <link>https://vale.rocks/micros/20240124-0859.html</link>
+      <guid>https://vale.rocks/micros/20240124-0859.html</guid>
       <content:encoded><![CDATA[<p>I hate Samsung and their complete ineptitude at writing software with a burning passion.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240122-0714.html</link>
-      <guid>https://vale.rocks/posts/20240122-0714.html</guid>
+      <pubDate>Mon, 22 Jan 2024 07:14:00 GMT</pubDate>
+      <title>22 Jan 2024 07:14</title>
+      <link>https://vale.rocks/micros/20240122-0714.html</link>
+      <guid>https://vale.rocks/micros/20240122-0714.html</guid>
       <content:encoded><![CDATA[<p>Sorry for that outage folks. The router had a blockage. Called out the plumber who cleared the debris from my Ethernet cable though. All good now.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240116-1127.html</link>
-      <guid>https://vale.rocks/posts/20240116-1127.html</guid>
+      <pubDate>Tue, 16 Jan 2024 11:27:00 GMT</pubDate>
+      <title>16 Jan 2024 11:27</title>
+      <link>https://vale.rocks/micros/20240116-1127.html</link>
+      <guid>https://vale.rocks/micros/20240116-1127.html</guid>
       <content:encoded><![CDATA[<p>Etched into the depths of my brain:</p>
 <p>One-one was one race horse. Two-two was one too. One-one won one race, and Two-two won one to.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240113-1012.html</link>
-      <guid>https://vale.rocks/posts/20240113-1012.html</guid>
+      <pubDate>Sat, 13 Jan 2024 10:12:00 GMT</pubDate>
+      <title>13 Jan 2024 10:12</title>
+      <link>https://vale.rocks/micros/20240113-1012.html</link>
+      <guid>https://vale.rocks/micros/20240113-1012.html</guid>
       <content:encoded><![CDATA[<p>The passion with which I hate dealing with Windows cannot be described.</p>
 <p>I&#8217;ve had more fun grazing my knee.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240110-0625.html</link>
-      <guid>https://vale.rocks/posts/20240110-0625.html</guid>
+      <pubDate>Wed, 10 Jan 2024 06:25:00 GMT</pubDate>
+      <title>10 Jan 2024 06:25</title>
+      <link>https://vale.rocks/micros/20240110-0625.html</link>
+      <guid>https://vale.rocks/micros/20240110-0625.html</guid>
       <content:encoded><![CDATA[<p>My life was well and truly changed the day I saw this video.</p>
 <p><img src="https://fedi.vale.rocks/media/12f58c6fa9caf14d9ff47063ed690a22a7bfe6bed2222a13458030b3bf3b81fd.png" alt="YouTube survey asking for opinions on the video "jonathan frakes telling you you're wrong for 47 seconds".  The box "life changing" is ticked. "></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240104-0238.html</link>
-      <guid>https://vale.rocks/posts/20240104-0238.html</guid>
+      <pubDate>Thu, 04 Jan 2024 02:38:00 GMT</pubDate>
+      <title>04 Jan 2024 02:38</title>
+      <link>https://vale.rocks/micros/20240104-0238.html</link>
+      <guid>https://vale.rocks/micros/20240104-0238.html</guid>
       <content:encoded><![CDATA[<p>Whatever happened to script kiddies? All I see nowadays are losers DDOSing community projects.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240102-0626.html</link>
-      <guid>https://vale.rocks/posts/20240102-0626.html</guid>
+      <pubDate>Tue, 02 Jan 2024 06:26:00 GMT</pubDate>
+      <title>02 Jan 2024 06:26</title>
+      <link>https://vale.rocks/micros/20240102-0626.html</link>
+      <guid>https://vale.rocks/micros/20240102-0626.html</guid>
       <content:encoded><![CDATA[<p>I think my greatest security vulnerability is me singing my password as I type it&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240101-0521.html</link>
-      <guid>https://vale.rocks/posts/20240101-0521.html</guid>
+      <pubDate>Mon, 01 Jan 2024 05:21:00 GMT</pubDate>
+      <title>01 Jan 2024 05:21</title>
+      <link>https://vale.rocks/micros/20240101-0521.html</link>
+      <guid>https://vale.rocks/micros/20240101-0521.html</guid>
       <content:encoded><![CDATA[<p>I must say, I&#8217;m absolutely loving NixOS. Having everything declared and configured in this way is excellent.</p>
 <p>I love being able to test packages and set everything so easily. It&#8217;s a breeze!</p>
 <p>And it&#8217;s all too easy to move machines or reinstall should I need to.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20240101-0205.html</link>
-      <guid>https://vale.rocks/posts/20240101-0205.html</guid>
+      <pubDate>Mon, 01 Jan 2024 02:05:00 GMT</pubDate>
+      <title>01 Jan 2024 02:05</title>
+      <link>https://vale.rocks/micros/20240101-0205.html</link>
+      <guid>https://vale.rocks/micros/20240101-0205.html</guid>
       <content:encoded><![CDATA[<p>My New Year&#8217;s resolution is 720p.</p>
 <p>I considered 4K UHD, but I think it&#8217;s important to set achievable goals.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231231-1600.html</link>
-      <guid>https://vale.rocks/posts/20231231-1600.html</guid>
+      <pubDate>Sun, 31 Dec 2023 16:00:00 GMT</pubDate>
+      <title>31 Dec 2023 16:00</title>
+      <link>https://vale.rocks/micros/20231231-1600.html</link>
+      <guid>https://vale.rocks/micros/20231231-1600.html</guid>
       <content:encoded><![CDATA[<p>And another passes. As I write this it&#8217;s 2024 in the UTC +8 time zone.</p>
 <p>Expect a blog post on my site tomorrow, I&#8217;ve got some exciting plans to share.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231231-0511.html</link>
-      <guid>https://vale.rocks/posts/20231231-0511.html</guid>
+      <pubDate>Sun, 31 Dec 2023 05:11:00 GMT</pubDate>
+      <title>31 Dec 2023 05:11</title>
+      <link>https://vale.rocks/micros/20231231-0511.html</link>
+      <guid>https://vale.rocks/micros/20231231-0511.html</guid>
       <content:encoded><![CDATA[<p>Configurations have been tested, USBs are writing, ISOs are burning, sanity is waning, snacks are on hand.</p>
 <p>I&#8217;m set to make the move to NixOS on my Framework Laptop. Wish me luck!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231230-1016.html</link>
-      <guid>https://vale.rocks/posts/20231230-1016.html</guid>
+      <pubDate>Sat, 30 Dec 2023 10:16:00 GMT</pubDate>
+      <title>30 Dec 2023 10:16</title>
+      <link>https://vale.rocks/micros/20231230-1016.html</link>
+      <guid>https://vale.rocks/micros/20231230-1016.html</guid>
       <content:encoded><![CDATA[<p>Perhaps I&#8217;m looking at moving from Arch Linux to NixOS&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231230-1015.html</link>
-      <guid>https://vale.rocks/posts/20231230-1015.html</guid>
+      <pubDate>Sat, 30 Dec 2023 10:15:00 GMT</pubDate>
+      <title>30 Dec 2023 10:15</title>
+      <link>https://vale.rocks/micros/20231230-1015.html</link>
+      <guid>https://vale.rocks/micros/20231230-1015.html</guid>
       <content:encoded><![CDATA[<p>Whenever I think of installing or reinstalling my OS, I tend to go a bit crazy installing apps and testing potentially breaking changes so I can decide how to setup the new install.</p>
 <p>It&#8217;s all well and good until I start doing that pre-backup&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231228-1108.html</link>
-      <guid>https://vale.rocks/posts/20231228-1108.html</guid>
+      <pubDate>Thu, 28 Dec 2023 11:08:00 GMT</pubDate>
+      <title>28 Dec 2023 11:08</title>
+      <link>https://vale.rocks/micros/20231228-1108.html</link>
+      <guid>https://vale.rocks/micros/20231228-1108.html</guid>
       <content:encoded><![CDATA[<p>I figured I&#8217;d throw my hat into the tabs vs spaces ring. In the context of code, tabs are naturally superior to spaces.</p>
 <p>Tabs semantically indicate indentation, which allows for individuals to customise their editor to display them as they choose. A semantic option is also better for accessibility. Further, tabs lead to smaller file sizes.</p>
 <p>Spaces should be used for alignment.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231227-1324.html</link>
-      <guid>https://vale.rocks/posts/20231227-1324.html</guid>
+      <pubDate>Wed, 27 Dec 2023 13:24:00 GMT</pubDate>
+      <title>27 Dec 2023 13:24</title>
+      <link>https://vale.rocks/micros/20231227-1324.html</link>
+      <guid>https://vale.rocks/micros/20231227-1324.html</guid>
       <content:encoded><![CDATA[<p>Justice just (finally) published IRIS: A Space Opera on their YouTube channel. It&#8217;s wicked, and well worth a listen.</p>
 <p><a href="https://www.youtube.com/watch?v=OC5mO8I_Cd4">https://www.youtube.com/watch?v=OC5mO8I_Cd4</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231225-1249.html</link>
-      <guid>https://vale.rocks/posts/20231225-1249.html</guid>
+      <pubDate>Mon, 25 Dec 2023 12:49:00 GMT</pubDate>
+      <title>25 Dec 2023 12:49</title>
+      <link>https://vale.rocks/micros/20231225-1249.html</link>
+      <guid>https://vale.rocks/micros/20231225-1249.html</guid>
       <content:encoded><![CDATA[<p>Merry Christmas to all those who celebrate it!</p>
 <p>Here&#8217;s a picture of my pet chicken, Garbin, in a Christmas hat. If it seems a little off, it&#8217;s because she really wasn&#8217;t cooperative&#8230;</p>
 <p><img src="https://fedi.vale.rocks/media/fa3bce3d6450924ab986160f71833df6699cfa1200e626c19abd85a600a150a5.png" alt="A chicken in a Christmas hat on a green background, alongside the text 'Merry Christmas'"></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231223-0914.html</link>
-      <guid>https://vale.rocks/posts/20231223-0914.html</guid>
+      <pubDate>Sat, 23 Dec 2023 09:14:00 GMT</pubDate>
+      <title>23 Dec 2023 09:14</title>
+      <link>https://vale.rocks/micros/20231223-0914.html</link>
+      <guid>https://vale.rocks/micros/20231223-0914.html</guid>
       <content:encoded><![CDATA[<p>This holiday season I&#8217;ve been enjoying the collection of Kmart in-store cassette tapes stored by the Internet Archive.</p>
 <p>You should be able to find them simply by searching &#8220;Kmart December&#8221; on <a href="https://archive.org">archive.org</a>.</p>
 <p>Might play them on Christmas day for the family. Assuming they don&#8217;t pin me down and turn it off&#8230;</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231215-1013.html</link>
-      <guid>https://vale.rocks/posts/20231215-1013.html</guid>
+      <pubDate>Fri, 15 Dec 2023 10:13:00 GMT</pubDate>
+      <title>15 Dec 2023 10:13</title>
+      <link>https://vale.rocks/micros/20231215-1013.html</link>
+      <guid>https://vale.rocks/micros/20231215-1013.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve just discovered the super handy hue-rotate CSS filter.</p>
 <p>I&#8217;m using it as such:
 <code>filter: invert(95%) hue-rotate(180deg);</code></p>
@@ -1263,78 +1613,100 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231213-0955.html</link>
-      <guid>https://vale.rocks/posts/20231213-0955.html</guid>
+      <pubDate>Wed, 13 Dec 2023 09:55:00 GMT</pubDate>
+      <title>13 Dec 2023 09:55</title>
+      <link>https://vale.rocks/micros/20231213-0955.html</link>
+      <guid>https://vale.rocks/micros/20231213-0955.html</guid>
       <content:encoded><![CDATA[<p>Did tons of work on Adduce today. It now has some RSS functionality, although it still needs some work.</p>
 <p>Go check it out if you&#8217;re interested:
 <a href="https://github.com/DeclanChidlow/Adduce">https://github.com/DeclanChidlow/Adduce</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231209-1440.html</link>
-      <guid>https://vale.rocks/posts/20231209-1440.html</guid>
+      <pubDate>Sat, 09 Dec 2023 14:40:00 GMT</pubDate>
+      <title>09 Dec 2023 14:40</title>
+      <link>https://vale.rocks/micros/20231209-1440.html</link>
+      <guid>https://vale.rocks/micros/20231209-1440.html</guid>
       <content:encoded><![CDATA[<p>I was scrolling through Fedi and saw the account <a href="https://hachyderm.io/@tpope">@tpope@hachyderm.io</a>. I wondered if it was the Vim guy so I clicked on his account to check. His bio didn&#8217;t disappoint.</p>
 <p>If you read this Tim, thanks for your work.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231202-1200.html</link>
-      <guid>https://vale.rocks/posts/20231202-1200.html</guid>
+      <pubDate>Sat, 02 Dec 2023 12:00:00 GMT</pubDate>
+      <title>02 Dec 2023 12:00</title>
+      <link>https://vale.rocks/micros/20231202-1200.html</link>
+      <guid>https://vale.rocks/micros/20231202-1200.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve just seen this excellent video from Posy. Like all his content, it&#8217;s well worth a watch.</p>
 <p><a href="https://www.youtube.com/watch?v=NSS6yAMZF78">https://www.youtube.com/watch?v=NSS6yAMZF78</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231129-0410.html</link>
-      <guid>https://vale.rocks/posts/20231129-0410.html</guid>
+      <pubDate>Wed, 29 Nov 2023 04:10:00 GMT</pubDate>
+      <title>29 Nov 2023 04:10</title>
+      <link>https://vale.rocks/micros/20231129-0410.html</link>
+      <guid>https://vale.rocks/micros/20231129-0410.html</guid>
       <content:encoded><![CDATA[<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>
 <p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231128-1254.html</link>
-      <guid>https://vale.rocks/posts/20231128-1254.html</guid>
+      <pubDate>Tue, 28 Nov 2023 12:54:00 GMT</pubDate>
+      <title>28 Nov 2023 12:54</title>
+      <link>https://vale.rocks/micros/20231128-1254.html</link>
+      <guid>https://vale.rocks/micros/20231128-1254.html</guid>
       <content:encoded><![CDATA[<p>Yesterday I graduated from high school. A bit bittersweet but I look forward to what comes next. Congratulations to the rest of the class of 2023!</p>
 <p><a href="https://www.youtube.com/watch?v=hnJ-wVnc0Jc">https://www.youtube.com/watch?v=hnJ-wVnc0Jc</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231126-0348.html</link>
-      <guid>https://vale.rocks/posts/20231126-0348.html</guid>
+      <pubDate>Sun, 26 Nov 2023 03:48:00 GMT</pubDate>
+      <title>26 Nov 2023 03:48</title>
+      <link>https://vale.rocks/micros/20231126-0348.html</link>
+      <guid>https://vale.rocks/micros/20231126-0348.html</guid>
       <content:encoded><![CDATA[<p>Article coming later today about the shutdown of the 3G network in Australia.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231125-1150.html</link>
-      <guid>https://vale.rocks/posts/20231125-1150.html</guid>
+      <pubDate>Sat, 25 Nov 2023 11:50:00 GMT</pubDate>
+      <title>25 Nov 2023 11:50</title>
+      <link>https://vale.rocks/micros/20231125-1150.html</link>
+      <guid>https://vale.rocks/micros/20231125-1150.html</guid>
       <content:encoded><![CDATA[<p>This isn&#8217;t quite high resolution enough for Unsplash, but here&#8217;s a picture of a bee I took.</p>
 <p>He was a very good subject and sat on my finger for a good 15 minutes before I set him down.</p>
 <p><img src="https://fedi.vale.rocks/media/83bbd680ec64e5e47e50d557f6381fe8add2d77b577393a4bbd30ccf1fba35d8.jpg" alt="Close up shot of a bee sitting on a finger."></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231123-1436.html</link>
-      <guid>https://vale.rocks/posts/20231123-1436.html</guid>
+      <pubDate>Thu, 23 Nov 2023 14:36:00 GMT</pubDate>
+      <title>23 Nov 2023 14:36</title>
+      <link>https://vale.rocks/micros/20231123-1436.html</link>
+      <guid>https://vale.rocks/micros/20231123-1436.html</guid>
       <content:encoded><![CDATA[<p>Oh my, I love this new CSS lh unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231122-0958.html</link>
-      <guid>https://vale.rocks/posts/20231122-0958.html</guid>
+      <pubDate>Wed, 22 Nov 2023 09:58:00 GMT</pubDate>
+      <title>22 Nov 2023 09:58</title>
+      <link>https://vale.rocks/micros/20231122-0958.html</link>
+      <guid>https://vale.rocks/micros/20231122-0958.html</guid>
       <content:encoded><![CDATA[<p>I just came across this:
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory</a></p>
 <p>This could be wicked for optimizing sites based on the devices accessing them. I can only hope it isn&#8217;t just horrifically exploited for fingerprinting (let&#8217;s face it, it will be).</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231121-0116.html</link>
-      <guid>https://vale.rocks/posts/20231121-0116.html</guid>
+      <pubDate>Tue, 21 Nov 2023 01:16:00 GMT</pubDate>
+      <title>21 Nov 2023 01:16</title>
+      <link>https://vale.rocks/micros/20231121-0116.html</link>
+      <guid>https://vale.rocks/micros/20231121-0116.html</guid>
       <content:encoded><![CDATA[<p>I must say, these OpenAI and Sam Altman shenanigans have been better drama than anything I think I&#8217;ve seen on television. The plot twists are out of this world and I genuinely have no idea what will happen next.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231120-1317.html</link>
-      <guid>https://vale.rocks/posts/20231120-1317.html</guid>
+      <pubDate>Mon, 20 Nov 2023 13:17:00 GMT</pubDate>
+      <title>20 Nov 2023 13:17</title>
+      <link>https://vale.rocks/micros/20231120-1317.html</link>
+      <guid>https://vale.rocks/micros/20231120-1317.html</guid>
       <content:encoded><![CDATA[<p>The new Mutant Remix site, developed by yours truly for <a href="https://revolt.chat">Revolt</a>, is up!</p>
 <p>Mutant Remix is an awesome emoji packed based on <a href="https://mutant.tech">Mutant Standard</a> by <a href="https://nocturne.works">Dzuk</a>.
 It&#8217;s still got a bit to tweak but go check it out!</p>
@@ -1343,36 +1715,46 @@ It&#8217;s still got a bit to tweak but go check it out!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231118-1236.html</link>
-      <guid>https://vale.rocks/posts/20231118-1236.html</guid>
+      <pubDate>Sat, 18 Nov 2023 12:36:00 GMT</pubDate>
+      <title>18 Nov 2023 12:36</title>
+      <link>https://vale.rocks/micros/20231118-1236.html</link>
+      <guid>https://vale.rocks/micros/20231118-1236.html</guid>
       <content:encoded><![CDATA[<p>I think I can actually feel parts of my brain flaking away as I write JavaScript.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231117-1155.html</link>
-      <guid>https://vale.rocks/posts/20231117-1155.html</guid>
+      <pubDate>Fri, 17 Nov 2023 11:55:00 GMT</pubDate>
+      <title>17 Nov 2023 11:55</title>
+      <link>https://vale.rocks/micros/20231117-1155.html</link>
+      <guid>https://vale.rocks/micros/20231117-1155.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve spent far longer than I wish to admit getting the Domino&#8217;s App feat Hatsune Miku working on my iPad 4, but I finally managed it today.</p>
 <p>I initially went about it a stupidly complex way but ended up learning quite a bit along the way, so it wasn&#8217;t a total waste of time.</p>
 <p>It seems some people have looked into decompiling it to fix the frequent crashes and broken features. Hopefully, this becomes a reality.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231112-0811.html</link>
-      <guid>https://vale.rocks/posts/20231112-0811.html</guid>
+      <pubDate>Sun, 12 Nov 2023 08:11:00 GMT</pubDate>
+      <title>12 Nov 2023 08:11</title>
+      <link>https://vale.rocks/micros/20231112-0811.html</link>
+      <guid>https://vale.rocks/micros/20231112-0811.html</guid>
       <content:encoded><![CDATA[<p>Considering buying a Flipper Zero. Anyone got any first hand experience? Is it worth the $322 AUD price tag?</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231107-1145.html</link>
-      <guid>https://vale.rocks/posts/20231107-1145.html</guid>
+      <pubDate>Tue, 07 Nov 2023 11:45:00 GMT</pubDate>
+      <title>07 Nov 2023 11:45</title>
+      <link>https://vale.rocks/micros/20231107-1145.html</link>
+      <guid>https://vale.rocks/micros/20231107-1145.html</guid>
       <content:encoded><![CDATA[<p>OpenAI recently unveiled some fancy new models that I wanted to play around with so I created Jarg. A nice to use AI client which allows you to select from a range of models.</p>
 <p>Check it out here:
 <a href="https://jarg.vale.rocks">https://jarg.vale.rocks</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231105-1136.html</link>
-      <guid>https://vale.rocks/posts/20231105-1136.html</guid>
+      <pubDate>Sun, 05 Nov 2023 11:36:00 GMT</pubDate>
+      <title>05 Nov 2023 11:36</title>
+      <link>https://vale.rocks/micros/20231105-1136.html</link>
+      <guid>https://vale.rocks/micros/20231105-1136.html</guid>
       <content:encoded><![CDATA[<p>The modern job searching experience:</p>
 <p>Job Title: Entry Level Position<br>Requirements: 3 to 5 years of experience</p>
 <p>How does somebody get experience when nobody will hire them because they don&#8217;t have experience?</p>
@@ -1382,14 +1764,18 @@ It&#8217;s still got a bit to tweak but go check it out!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231104-1215.html</link>
-      <guid>https://vale.rocks/posts/20231104-1215.html</guid>
+      <pubDate>Sat, 04 Nov 2023 12:15:00 GMT</pubDate>
+      <title>04 Nov 2023 12:15</title>
+      <link>https://vale.rocks/micros/20231104-1215.html</link>
+      <guid>https://vale.rocks/micros/20231104-1215.html</guid>
       <content:encoded><![CDATA[<p>I re-watched Hackers (1995) yesterday evening. For any tech lovers looking for a demented 90s hacker film, you can&#8217;t go wrong. Objectively, it isn&#8217;t great, but it has very much cemented itself as a cult classic. It&#8217;s worth a watch.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231101-1205.html</link>
-      <guid>https://vale.rocks/posts/20231101-1205.html</guid>
+      <pubDate>Wed, 01 Nov 2023 12:05:00 GMT</pubDate>
+      <title>01 Nov 2023 12:05</title>
+      <link>https://vale.rocks/micros/20231101-1205.html</link>
+      <guid>https://vale.rocks/micros/20231101-1205.html</guid>
       <content:encoded><![CDATA[<p>Do people use share buttons on websites, such as those on blog posts or articles?</p>
 <table>
 <thead>
@@ -1415,8 +1801,10 @@ It&#8217;s still got a bit to tweak but go check it out!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231031-1109.html</link>
-      <guid>https://vale.rocks/posts/20231031-1109.html</guid>
+      <pubDate>Tue, 31 Oct 2023 11:09:00 GMT</pubDate>
+      <title>31 Oct 2023 11:09</title>
+      <link>https://vale.rocks/micros/20231031-1109.html</link>
+      <guid>https://vale.rocks/micros/20231031-1109.html</guid>
       <content:encoded><![CDATA[<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>
 <ul>
 <li><a href="https://unsplash.com/photos/_SwvK3GEX4U">https://unsplash.com/photos/_SwvK3GEX4U</a></li>
@@ -1425,14 +1813,18 @@ It&#8217;s still got a bit to tweak but go check it out!</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231030-1301.html</link>
-      <guid>https://vale.rocks/posts/20231030-1301.html</guid>
+      <pubDate>Mon, 30 Oct 2023 13:01:00 GMT</pubDate>
+      <title>30 Oct 2023 13:01</title>
+      <link>https://vale.rocks/micros/20231030-1301.html</link>
+      <guid>https://vale.rocks/micros/20231030-1301.html</guid>
       <content:encoded><![CDATA[<p>Coming tomorrow is a blog post about setting up Windows to be usable.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <link>https://vale.rocks/posts/20231030-1211.html</link>
-      <guid>https://vale.rocks/posts/20231030-1211.html</guid>
+      <pubDate>Mon, 30 Oct 2023 12:11:00 GMT</pubDate>
+      <title>30 Oct 2023 12:11</title>
+      <link>https://vale.rocks/micros/20231030-1211.html</link>
+      <guid>https://vale.rocks/micros/20231030-1211.html</guid>
       <content:encoded><![CDATA[<p>Hello,
 I&#8217;ve made some changes to my Fediversing. I&#8217;ve moved from <a href="https://docs.microblog.pub">microblog.pub</a> to <a href="https://akkoma.social">Akkoma</a>. I was having some issues with microblog such as bad Mastodon federation but Akkoma seems very nice.</p>
 <p>I&#8217;ll see you all around, be sure to send me a follow.</p>

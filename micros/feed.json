@@ -1,989 +1,1381 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Vale.Rocks",
+  "title": "Vale.Rocks Micros",
   "description": "A collection of unhinged (yet not completely insane) ramblings.",
   "home_page_url": "https://vale.rocks",
-  "feed_url": "https://vale.rocks/posts/feed.json",
+  "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
-      "id": "https://vale.rocks/posts/20250116-1219.html",
-      "url": "https://vale.rocks/posts/20250116-1219.html",
-      "content_html": "<p>I was thinking about the other future today. The one where Microsoft didn&#8217;t get done for having a monopoly, and we all searched the web using Bing via Internet Explorer.</p>\n"
+      "id": "https://vale.rocks/micros/20250116-1219.html",
+      "url": "https://vale.rocks/micros/20250116-1219.html",
+      "title": "16 Jan 2025 12:19",
+      "content_html": "<p>I was thinking about the other future today. The one where Microsoft didn&#8217;t get done for having a monopoly, and we all searched the web using Bing via Internet Explorer.</p>\n",
+      "date_published": "2025-01-16T12:19"
     },
     {
-      "id": "https://vale.rocks/posts/20250116-0301.html",
-      "url": "https://vale.rocks/posts/20250116-0301.html",
-      "content_html": "<p>Just spent 5 minutes on CodePen wondering why my CSS wasn’t working.</p>\n<p><code>postion: absolute</code></p>\n<p><em>Hurrr</em></p>\n"
+      "id": "https://vale.rocks/micros/20250116-0301.html",
+      "url": "https://vale.rocks/micros/20250116-0301.html",
+      "title": "16 Jan 2025 03:01",
+      "content_html": "<p>Just spent 5 minutes on CodePen wondering why my CSS wasn’t working.</p>\n<p><code>postion: absolute</code></p>\n<p><em>Hurrr</em></p>\n",
+      "date_published": "2025-01-16T03:01"
     },
     {
-      "id": "https://vale.rocks/posts/20250115-0755.html",
-      "url": "https://vale.rocks/posts/20250115-0755.html",
-      "content_html": "<p>It’s fortunate my 3D printer is so slow. I can’t fathom the amount of crap my house would be filled with if it was any faster.</p>\n"
+      "id": "https://vale.rocks/micros/20250115-0755.html",
+      "url": "https://vale.rocks/micros/20250115-0755.html",
+      "title": "15 Jan 2025 07:55",
+      "content_html": "<p>It’s fortunate my 3D printer is so slow. I can’t fathom the amount of crap my house would be filled with if it was any faster.</p>\n",
+      "date_published": "2025-01-15T07:55"
     },
     {
-      "id": "https://vale.rocks/posts/20250115-0522.html",
-      "url": "https://vale.rocks/posts/20250115-0522.html",
-      "content_html": "<p>I misinput a value in one of <a href=\"/posts/my-experience-biohacking\">my recent articles</a>, so it stated the post was revised in February rather than January.</p>\n<p>Out of the thousands of viewers, only one person caught it and pointed this out to me.</p>\n<p>It is so important to get fresh eyes on things and to seek feedback.</p>\n<p>Remember: For every person who reports an issue, there are likely dozens or hundreds (or even thousands) who noticed but stayed quiet.</p>\n<p><a href=\"https://pointersgonewild.com/2019/11/02/they-might-never-tell-you-its-broken/\">https://pointersgonewild.com/2019/11/02/they-might-never-tell-you-its-broken/</a></p>\n"
+      "id": "https://vale.rocks/micros/20250115-0522.html",
+      "url": "https://vale.rocks/micros/20250115-0522.html",
+      "title": "15 Jan 2025 05:22",
+      "content_html": "<p>I misinput a value in one of <a href=\"/posts/my-experience-biohacking\">my recent articles</a>, so it stated the post was revised in February rather than January.</p>\n<p>Out of the thousands of viewers, only one person caught it and pointed this out to me.</p>\n<p>It is so important to get fresh eyes on things and to seek feedback.</p>\n<p>Remember: For every person who reports an issue, there are likely dozens or hundreds (or even thousands) who noticed but stayed quiet.</p>\n<p><a href=\"https://pointersgonewild.com/2019/11/02/they-might-never-tell-you-its-broken/\">https://pointersgonewild.com/2019/11/02/they-might-never-tell-you-its-broken/</a></p>\n",
+      "date_published": "2025-01-15T05:22"
     },
     {
-      "id": "https://vale.rocks/posts/20250113-1400.html",
-      "url": "https://vale.rocks/posts/20250113-1400.html",
-      "content_html": "<p>My photos just hit 50K views on Unsplash! Gotta be happy with that!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
+      "id": "https://vale.rocks/micros/20250113-1400.html",
+      "url": "https://vale.rocks/micros/20250113-1400.html",
+      "title": "13 Jan 2025 14:00",
+      "content_html": "<p>My photos just hit 50K views on Unsplash! Gotta be happy with that!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
+      "date_published": "2025-01-13T14:00"
     },
     {
-      "id": "https://vale.rocks/posts/20250113-1234.html",
-      "url": "https://vale.rocks/posts/20250113-1234.html",
-      "content_html": "<p>I wish there was a way to git diff life so I could see what has happened between yesterday and today.</p>\n"
+      "id": "https://vale.rocks/micros/20250113-1234.html",
+      "url": "https://vale.rocks/micros/20250113-1234.html",
+      "title": "13 Jan 2025 12:34",
+      "content_html": "<p>I wish there was a way to git diff life so I could see what has happened between yesterday and today.</p>\n",
+      "date_published": "2025-01-13T12:34"
     },
     {
-      "id": "https://vale.rocks/posts/20250113-0042.html",
-      "url": "https://vale.rocks/posts/20250113-0042.html",
-      "content_html": "<p>Bad AI-generated images are a guaranteed way to cheapen your content and drive away users. Creating high-quality visual content is essential for engaging your audience. Take the time to make something good, or don&#8217;t bother at all. Quality matters.</p>\n"
+      "id": "https://vale.rocks/micros/20250113-0042.html",
+      "url": "https://vale.rocks/micros/20250113-0042.html",
+      "title": "13 Jan 2025 00:42",
+      "content_html": "<p>Bad AI-generated images are a guaranteed way to cheapen your content and drive away users. Creating high-quality visual content is essential for engaging your audience. Take the time to make something good, or don&#8217;t bother at all. Quality matters.</p>\n",
+      "date_published": "2025-01-13T00:42"
     },
     {
-      "id": "https://vale.rocks/posts/20250111-1234.html",
-      "url": "https://vale.rocks/posts/20250111-1234.html",
-      "content_html": "<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>\n<p><vale.rocks/photography></p>\n"
+      "id": "https://vale.rocks/micros/20250111-1234.html",
+      "url": "https://vale.rocks/micros/20250111-1234.html",
+      "title": "11 Jan 2025 12:34",
+      "content_html": "<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>\n<p><vale.rocks/photography></p>\n",
+      "date_published": "2025-01-11T12:34"
     },
     {
-      "id": "https://vale.rocks/posts/20250110-1453.html",
-      "url": "https://vale.rocks/posts/20250110-1453.html",
-      "content_html": "<p>Just posting this here for no specific reason at all.</p>\n<p><a href=\"https://youtube.com/watch?v=ol2WP0hc0NY\">https://youtube.com/watch?v=ol2WP0hc0NY</a></p>\n"
+      "id": "https://vale.rocks/micros/20250110-1453.html",
+      "url": "https://vale.rocks/micros/20250110-1453.html",
+      "title": "10 Jan 2025 14:53",
+      "content_html": "<p>Just posting this here for no specific reason at all.</p>\n<p><a href=\"https://youtube.com/watch?v=ol2WP0hc0NY\">https://youtube.com/watch?v=ol2WP0hc0NY</a></p>\n",
+      "date_published": "2025-01-10T14:53"
     },
     {
-      "id": "https://vale.rocks/posts/20250110-0301.html",
-      "url": "https://vale.rocks/posts/20250110-0301.html",
-      "content_html": "<p>My writing once again made the front page of Y Combinator&#8217;s\n<a href=\"https://news.ycombinator.com\">Hacker News</a> yesterday!</p>\n<p>I shared my journey exploring human-technology integration through a fascinating procedure: getting one of Dangerous Things&#8217;s bio-magnets implanted in my hand.</p>\n<p>Check out my full article here:\n<a href=\"https://vale.rocks/posts/my-experience-biohacking\">https://vale.rocks/posts/my-experience-biohacking</a></p>\n"
+      "id": "https://vale.rocks/micros/20250110-0301.html",
+      "url": "https://vale.rocks/micros/20250110-0301.html",
+      "title": "10 Jan 2025 03:01",
+      "content_html": "<p>My writing once again made the front page of Y Combinator&#8217;s\n<a href=\"https://news.ycombinator.com\">Hacker News</a> yesterday!</p>\n<p>I shared my journey exploring human-technology integration through a fascinating procedure: getting one of Dangerous Things&#8217;s bio-magnets implanted in my hand.</p>\n<p>Check out my full article here:\n<a href=\"https://vale.rocks/posts/my-experience-biohacking\">https://vale.rocks/posts/my-experience-biohacking</a></p>\n",
+      "date_published": "2025-01-10T03:01"
     },
     {
-      "id": "https://vale.rocks/posts/20250109-1446.html",
-      "url": "https://vale.rocks/posts/20250109-1446.html",
-      "content_html": "<p>For those that missed it, I got a magnet implanted in my hand. It’s pretty rad.</p>\n<p>My write-up is currently on the front page of Hacker News, but you can read it here:</p>\n<p><a href=\"https://vale.rocks/posts/my-experience-biohacking\">https://vale.rocks/posts/my-experience-biohacking</a></p>\n<p><img src=\"https://fedi.vale.rocks/media/bcaedfc491978582b9e60fba4246ad31cc69cf6fe964293bc70f60fac84ba1a2.png\" alt=\"My hand, with a paper clip stuck to it halfway along the side between my pinky and wrist.\"></p>\n"
+      "id": "https://vale.rocks/micros/20250109-1446.html",
+      "url": "https://vale.rocks/micros/20250109-1446.html",
+      "title": "09 Jan 2025 14:46",
+      "content_html": "<p>For those that missed it, I got a magnet implanted in my hand. It’s pretty rad.</p>\n<p>My write-up is currently on the front page of Hacker News, but you can read it here:</p>\n<p><a href=\"https://vale.rocks/posts/my-experience-biohacking\">https://vale.rocks/posts/my-experience-biohacking</a></p>\n<p><img src=\"https://fedi.vale.rocks/media/bcaedfc491978582b9e60fba4246ad31cc69cf6fe964293bc70f60fac84ba1a2.png\" alt=\"My hand, with a paper clip stuck to it halfway along the side between my pinky and wrist.\"></p>\n",
+      "date_published": "2025-01-09T14:46"
     },
     {
-      "id": "https://vale.rocks/posts/20250107-1319.html",
-      "url": "https://vale.rocks/posts/20250107-1319.html",
-      "content_html": "<p>In the same vein as <em>&#8220;Is it better to have loved and lost than to never have loved at all?&#8221;</em> I propose:</p>\n<p>Is it better to make something and have it scraped for an AI or to have never made anything at all?</p>\n"
+      "id": "https://vale.rocks/micros/20250107-1319.html",
+      "url": "https://vale.rocks/micros/20250107-1319.html",
+      "title": "07 Jan 2025 13:19",
+      "content_html": "<p>In the same vein as <em>&#8220;Is it better to have loved and lost than to never have loved at all?&#8221;</em> I propose:</p>\n<p>Is it better to make something and have it scraped for an AI or to have never made anything at all?</p>\n",
+      "date_published": "2025-01-07T13:19"
     },
     {
-      "id": "https://vale.rocks/posts/20250107-1117.html",
-      "url": "https://vale.rocks/posts/20250107-1117.html",
-      "content_html": "<p>My links page has been going really well!</p>\n<ul>\n<li><p>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</p>\n</li>\n<li><p>I&#8217;ve been enjoying exploring all my bookmarks and archives to add to it.</p>\n</li>\n<li><p>People are checking out cool, unique websites.</p>\n</li>\n</ul>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n"
+      "id": "https://vale.rocks/micros/20250107-1117.html",
+      "url": "https://vale.rocks/micros/20250107-1117.html",
+      "title": "07 Jan 2025 11:17",
+      "content_html": "<p>My links page has been going really well!</p>\n<ul>\n<li><p>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</p>\n</li>\n<li><p>I&#8217;ve been enjoying exploring all my bookmarks and archives to add to it.</p>\n</li>\n<li><p>People are checking out cool, unique websites.</p>\n</li>\n</ul>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n",
+      "date_published": "2025-01-07T11:17"
     },
     {
-      "id": "https://vale.rocks/posts/20250106-0147.html",
-      "url": "https://vale.rocks/posts/20250106-0147.html",
-      "content_html": "<p>😀 🤪 🤩</p>\n<p>I had a great time building the website for Revolt&#8217;s Mutant Remix emoji pack! The project was all about blending creativity with functionality to showcase these fun and quirky emojis. It&#8217;s great fun capturing that energy in a site!</p>\n<p>I designed and developed the site using my static site generator, Adduce, creating a simple, accessible layout that captures the playful spirit of the pack. It was a fun challenge to bring the emojis to life online!</p>\n<p>Check out the website here:\n<a href=\"https://mutant.revolt.chat\">https://mutant.revolt.chat</a></p>\n"
+      "id": "https://vale.rocks/micros/20250106-0147.html",
+      "url": "https://vale.rocks/micros/20250106-0147.html",
+      "title": "06 Jan 2025 01:47",
+      "content_html": "<p>😀 🤪 🤩</p>\n<p>I had a great time building the website for Revolt&#8217;s Mutant Remix emoji pack! The project was all about blending creativity with functionality to showcase these fun and quirky emojis. It&#8217;s great fun capturing that energy in a site!</p>\n<p>I designed and developed the site using my static site generator, Adduce, creating a simple, accessible layout that captures the playful spirit of the pack. It was a fun challenge to bring the emojis to life online!</p>\n<p>Check out the website here:\n<a href=\"https://mutant.revolt.chat\">https://mutant.revolt.chat</a></p>\n",
+      "date_published": "2025-01-06T01:47"
     },
     {
-      "id": "https://vale.rocks/posts/20250105-0307.html",
-      "url": "https://vale.rocks/posts/20250105-0307.html",
-      "content_html": "<p>Just started compiling some of my favourite blogs on my site. (I may or may not have lost my previous collection of RSS feeds…)</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>I’m certain I’m missing tons, so please let me know of your favourites!</p>\n"
+      "id": "https://vale.rocks/micros/20250105-0307.html",
+      "url": "https://vale.rocks/micros/20250105-0307.html",
+      "title": "05 Jan 2025 03:07",
+      "content_html": "<p>Just started compiling some of my favourite blogs on my site. (I may or may not have lost my previous collection of RSS feeds…)</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>I’m certain I’m missing tons, so please let me know of your favourites!</p>\n",
+      "date_published": "2025-01-05T03:07"
     },
     {
-      "id": "https://vale.rocks/posts/20250104-1057.html",
-      "url": "https://vale.rocks/posts/20250104-1057.html",
-      "content_html": "<p>Were you all just gonna let me keep on living without telling me about the <code>rch</code> unit?</p>\n<p>This is so insanely useful for one specific thing I ended up fixing with JS the other day.</p>\n"
+      "id": "https://vale.rocks/micros/20250104-1057.html",
+      "url": "https://vale.rocks/micros/20250104-1057.html",
+      "title": "04 Jan 2025 10:57",
+      "content_html": "<p>Were you all just gonna let me keep on living without telling me about the <code>rch</code> unit?</p>\n<p>This is so insanely useful for one specific thing I ended up fixing with JS the other day.</p>\n",
+      "date_published": "2025-01-04T10:57"
     },
     {
-      "id": "https://vale.rocks/posts/20250102-1033.html",
-      "url": "https://vale.rocks/posts/20250102-1033.html",
-      "content_html": "<p>I know it&#8217;s time to take a break when I start pulling this stunt:</p>\n<pre><code class=\"language-CSS\"><span class=\"hljs-selector-tag\">body</span> {\n    <span class=\"hljs-attribute\">color</span> = white;\n}\n</code></pre>"
+      "id": "https://vale.rocks/micros/20250102-1033.html",
+      "url": "https://vale.rocks/micros/20250102-1033.html",
+      "title": "02 Jan 2025 10:33",
+      "content_html": "<p>I know it&#8217;s time to take a break when I start pulling this stunt:</p>\n<pre><code class=\"language-CSS\"><span class=\"hljs-selector-tag\">body</span> {\n    <span class=\"hljs-attribute\">color</span> = white;\n}\n</code></pre>",
+      "date_published": "2025-01-02T10:33"
     },
     {
-      "id": "https://vale.rocks/posts/20250101-1149.html",
-      "url": "https://vale.rocks/posts/20250101-1149.html",
-      "content_html": "<p>Put together a links page on my site today. A curated collection of my bookmarks and findings while surfing the web.</p>\n<p>Watch your step. There are rabbit holes!</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>Do let me know if you have any more links I should check out.</p>\n"
+      "id": "https://vale.rocks/micros/20250101-1149.html",
+      "url": "https://vale.rocks/micros/20250101-1149.html",
+      "title": "01 Jan 2025 11:49",
+      "content_html": "<p>Put together a links page on my site today. A curated collection of my bookmarks and findings while surfing the web.</p>\n<p>Watch your step. There are rabbit holes!</p>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n<p>Do let me know if you have any more links I should check out.</p>\n",
+      "date_published": "2025-01-01T11:49"
     },
     {
-      "id": "https://vale.rocks/posts/20241231-1718.html",
-      "url": "https://vale.rocks/posts/20241231-1718.html",
-      "content_html": "<p>Yet another step up for the next year. We’re skipping 1080p and aiming straight for 1440p!</p>\n"
+      "id": "https://vale.rocks/micros/20241231-1718.html",
+      "url": "https://vale.rocks/micros/20241231-1718.html",
+      "title": "31 Dec 2024 17:18",
+      "content_html": "<p>Yet another step up for the next year. We’re skipping 1080p and aiming straight for 1440p!</p>\n",
+      "date_published": "2024-12-31T17:18"
     },
     {
-      "id": "https://vale.rocks/posts/20241231-1600.html",
-      "url": "https://vale.rocks/posts/20241231-1600.html",
-      "content_html": "<p>HAPPY NEW YEAR!</p>\n<p>My plan for 2025 is to put out more everything and focus on what sticks. The goal is to experiment, learn, and double down on what works.</p>\n<p>2024 has very much been a year of general experimentation and exploration for me. Now I want to start testing things more aligned with my goals and putting the knowledge I gain to use!</p>\n"
+      "id": "https://vale.rocks/micros/20241231-1600.html",
+      "url": "https://vale.rocks/micros/20241231-1600.html",
+      "title": "31 Dec 2024 16:00",
+      "content_html": "<p>HAPPY NEW YEAR!</p>\n<p>My plan for 2025 is to put out more everything and focus on what sticks. The goal is to experiment, learn, and double down on what works.</p>\n<p>2024 has very much been a year of general experimentation and exploration for me. Now I want to start testing things more aligned with my goals and putting the knowledge I gain to use!</p>\n",
+      "date_published": "2024-12-31T16:00"
     },
     {
-      "id": "https://vale.rocks/posts/20241230-0009.html",
-      "url": "https://vale.rocks/posts/20241230-0009.html",
-      "content_html": "<p>I’d be rich if I got a dollar every time I read OpenAI as OpenAPI and OpenAPI as OpenAI. Drives me loopy.</p>\n"
+      "id": "https://vale.rocks/micros/20241230-0009.html",
+      "url": "https://vale.rocks/micros/20241230-0009.html",
+      "title": "30 Dec 2024 00:09",
+      "content_html": "<p>I’d be rich if I got a dollar every time I read OpenAI as OpenAPI and OpenAPI as OpenAI. Drives me loopy.</p>\n",
+      "date_published": "2024-12-30T00:09"
     },
     {
-      "id": "https://vale.rocks/posts/20241229-2356.html",
-      "url": "https://vale.rocks/posts/20241229-2356.html",
-      "content_html": "<p>I love the process of creating and refining things to perfection!</p>\n<ol>\n<li>Build something.</li>\n<li>Put it out there.</li>\n<li>Observe how it’s received and gather feedback.</li>\n<li>Identify, plan, and enact action to improve it.</li>\n<li>Repeat until it’s as close to perfection as possible!</li>\n</ol>\n<p>The OODA (Observe, Orient, Decide, Act) loop is a powerful framework—not just for decision-making, but for building better products and experiences.</p>\n<p>It&#8217;s also invaluable in avoiding wasting time building things that nobody wants or needs.</p>\n"
+      "id": "https://vale.rocks/micros/20241229-2356.html",
+      "url": "https://vale.rocks/micros/20241229-2356.html",
+      "title": "29 Dec 2024 23:56",
+      "content_html": "<p>I love the process of creating and refining things to perfection!</p>\n<ol>\n<li>Build something.</li>\n<li>Put it out there.</li>\n<li>Observe how it’s received and gather feedback.</li>\n<li>Identify, plan, and enact action to improve it.</li>\n<li>Repeat until it’s as close to perfection as possible!</li>\n</ol>\n<p>The OODA (Observe, Orient, Decide, Act) loop is a powerful framework—not just for decision-making, but for building better products and experiences.</p>\n<p>It&#8217;s also invaluable in avoiding wasting time building things that nobody wants or needs.</p>\n",
+      "date_published": "2024-12-29T23:56"
     },
     {
-      "id": "https://vale.rocks/posts/20241229-1219.html",
-      "url": "https://vale.rocks/posts/20241229-1219.html",
-      "content_html": "<p>I ensure I write crap that I don&#8217;t publish so that if I ever become a super famous writer and then cark it, there&#8217;ll be something to tack to the end of special editions.</p>\n"
+      "id": "https://vale.rocks/micros/20241229-1219.html",
+      "url": "https://vale.rocks/micros/20241229-1219.html",
+      "title": "29 Dec 2024 12:19",
+      "content_html": "<p>I ensure I write crap that I don&#8217;t publish so that if I ever become a super famous writer and then cark it, there&#8217;ll be something to tack to the end of special editions.</p>\n",
+      "date_published": "2024-12-29T12:19"
     },
     {
-      "id": "https://vale.rocks/posts/20241229-1056.html",
-      "url": "https://vale.rocks/posts/20241229-1056.html",
-      "content_html": "<p>Still a bit of work to do, but I’ve put together a firehose of my web activities and mirrored many of my microblog posts to my site. Trying to embrace the IndieWeb a bit further.</p>\n<p><a href=\"https://vale.rocks/firehose/1\">https://vale.rocks/firehose/1</a></p>\n"
+      "id": "https://vale.rocks/micros/20241229-1056.html",
+      "url": "https://vale.rocks/micros/20241229-1056.html",
+      "title": "29 Dec 2024 10:56",
+      "content_html": "<p>Still a bit of work to do, but I’ve put together a firehose of my web activities and mirrored many of my microblog posts to my site. Trying to embrace the IndieWeb a bit further.</p>\n<p><a href=\"https://vale.rocks/firehose/1\">https://vale.rocks/firehose/1</a></p>\n",
+      "date_published": "2024-12-29T10:56"
     },
     {
-      "id": "https://vale.rocks/posts/20241228-0921.html",
-      "url": "https://vale.rocks/posts/20241228-0921.html",
-      "content_html": "<p>Sloppy AI-generated thumbnail images serve as a good litmus test for whether something is worth clicking.</p>\n<p>Seriously, it’s great to know what is gonna be slop without even having to even click through.</p>\n"
+      "id": "https://vale.rocks/micros/20241228-0921.html",
+      "url": "https://vale.rocks/micros/20241228-0921.html",
+      "title": "28 Dec 2024 09:21",
+      "content_html": "<p>Sloppy AI-generated thumbnail images serve as a good litmus test for whether something is worth clicking.</p>\n<p>Seriously, it’s great to know what is gonna be slop without even having to even click through.</p>\n",
+      "date_published": "2024-12-28T09:21"
     },
     {
-      "id": "https://vale.rocks/posts/20241227-0203.html",
-      "url": "https://vale.rocks/posts/20241227-0203.html",
-      "content_html": "<p>Instead of pulling up the ladder behind you, why not add some more rungs or lower it a bit for the next person? Helping others succeed is not just a great way to give back—it creates a stronger, more inclusive community for all. Let&#8217;s build each other up.</p>\n"
+      "id": "https://vale.rocks/micros/20241227-0203.html",
+      "url": "https://vale.rocks/micros/20241227-0203.html",
+      "title": "27 Dec 2024 02:03",
+      "content_html": "<p>Instead of pulling up the ladder behind you, why not add some more rungs or lower it a bit for the next person? Helping others succeed is not just a great way to give back—it creates a stronger, more inclusive community for all. Let&#8217;s build each other up.</p>\n",
+      "date_published": "2024-12-27T02:03"
     },
     {
-      "id": "https://vale.rocks/posts/20241223-0253.html",
-      "url": "https://vale.rocks/posts/20241223-0253.html",
-      "content_html": "<p>Received my physical diploma in the mail! I truly am a fully licensed front-end developer!</p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQH5ytevGyjRkQ/feedshare-shrink_800/B56ZPxb1_1G8Ak-/0/1734922433682?e=1738195200&v=beta&t=50Qo4PNmL9JbU02tdVcDx7D7o-92wukRHa_bPICxTxQ\" alt=\"Diploma stating \"This is to certify that DECLAN CHIDLOW has fulfilled all requirements for ICT50220 DIPLOMA OF INFORMATION TECHNOLOGY (FRONT END WEB DEVELOPMENT)\"\"></p>\n"
+      "id": "https://vale.rocks/micros/20241223-0253.html",
+      "url": "https://vale.rocks/micros/20241223-0253.html",
+      "title": "23 Dec 2024 02:53",
+      "content_html": "<p>Received my physical diploma in the mail! I truly am a fully licensed front-end developer!</p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQH5ytevGyjRkQ/feedshare-shrink_800/B56ZPxb1_1G8Ak-/0/1734922433682?e=1738195200&v=beta&t=50Qo4PNmL9JbU02tdVcDx7D7o-92wukRHa_bPICxTxQ\" alt=\"Diploma stating \"This is to certify that DECLAN CHIDLOW has fulfilled all requirements for ICT50220 DIPLOMA OF INFORMATION TECHNOLOGY (FRONT END WEB DEVELOPMENT)\"\"></p>\n",
+      "date_published": "2024-12-23T02:53"
     },
     {
-      "id": "https://vale.rocks/posts/20241220-0430.html",
-      "url": "https://vale.rocks/posts/20241220-0430.html",
-      "content_html": "<p>My article on HTML&#8217;s legacy colour parsing was featured on Manuel Matuzović&#8217;s HTMHell today. 🎉</p>\n<p>For those unfamiliar, the HTMHell Advent Calendar is a fantastic publication bringing together authors from around the world to share insightful articles on web development topics like security, accessibility, UX, and performance.</p>\n<p>In my article, I dive into the quirks of HTML&#8217;s legacy colour parsing, exploring just why the value &#8216;chucknorris&#8217; outputs red and talk about the resilience of the web.</p>\n<p><a href=\"https://www.htmhell.dev/adventcalendar/2024/20/\">https://www.htmhell.dev/adventcalendar/2024/20/</a></p>\n"
+      "id": "https://vale.rocks/micros/20241220-0430.html",
+      "url": "https://vale.rocks/micros/20241220-0430.html",
+      "title": "20 Dec 2024 04:30",
+      "content_html": "<p>My article on HTML&#8217;s legacy colour parsing was featured on Manuel Matuzović&#8217;s HTMHell today. 🎉</p>\n<p>For those unfamiliar, the HTMHell Advent Calendar is a fantastic publication bringing together authors from around the world to share insightful articles on web development topics like security, accessibility, UX, and performance.</p>\n<p>In my article, I dive into the quirks of HTML&#8217;s legacy colour parsing, exploring just why the value &#8216;chucknorris&#8217; outputs red and talk about the resilience of the web.</p>\n<p><a href=\"https://www.htmhell.dev/adventcalendar/2024/20/\">https://www.htmhell.dev/adventcalendar/2024/20/</a></p>\n",
+      "date_published": "2024-12-20T04:30"
     },
     {
-      "id": "https://vale.rocks/posts/20241215-1202.html",
-      "url": "https://vale.rocks/posts/20241215-1202.html",
-      "content_html": "<p>Lost my pet chicken of 8 years today. She was with me from primary school all the way through high school and beyond.</p>\n<p>She hasn’t been well these past few days. Today when I came out to see her, she really wasn’t well but was still hanging on. I think she was waiting for me to see her before she went.</p>\n<p>I picked her up and cradled her for a while before she passed in my arms. There is a bit of comfort knowing I was with her in her last moments and that she wasn’t alone.</p>\n<p>I’ll miss you Garbin. Love you.</p>\n<p><img src=\"https://fedi.vale.rocks/media/9a8560b8270a1acf039195143e3113484c88612abb510584217765e94888f154.jpg\" alt=\"A brown chicken being cuddled on a couch. I'm behind her and blankets surround us.\"></p>\n"
+      "id": "https://vale.rocks/micros/20241215-1202.html",
+      "url": "https://vale.rocks/micros/20241215-1202.html",
+      "title": "15 Dec 2024 12:02",
+      "content_html": "<p>Lost my pet chicken of 8 years today. She was with me from primary school all the way through high school and beyond.</p>\n<p>She hasn’t been well these past few days. Today when I came out to see her, she really wasn’t well but was still hanging on. I think she was waiting for me to see her before she went.</p>\n<p>I picked her up and cradled her for a while before she passed in my arms. There is a bit of comfort knowing I was with her in her last moments and that she wasn’t alone.</p>\n<p>I’ll miss you Garbin. Love you.</p>\n<p><img src=\"https://fedi.vale.rocks/media/9a8560b8270a1acf039195143e3113484c88612abb510584217765e94888f154.jpg\" alt=\"A brown chicken being cuddled on a couch. I'm behind her and blankets surround us.\"></p>\n",
+      "date_published": "2024-12-15T12:02"
     },
     {
-      "id": "https://vale.rocks/posts/20241212-1141.html",
-      "url": "https://vale.rocks/posts/20241212-1141.html",
-      "content_html": "<p>I <em>might</em> have neglected to re-add the analytics script to the head of my website. That&#8217;s a few days of data I won&#8217;t be getting back&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20241212-1141.html",
+      "url": "https://vale.rocks/micros/20241212-1141.html",
+      "title": "12 Dec 2024 11:41",
+      "content_html": "<p>I <em>might</em> have neglected to re-add the analytics script to the head of my website. That&#8217;s a few days of data I won&#8217;t be getting back&#8230;</p>\n",
+      "date_published": "2024-12-12T11:41"
     },
     {
-      "id": "https://vale.rocks/posts/20241211-1256.html",
-      "url": "https://vale.rocks/posts/20241211-1256.html",
-      "content_html": "<p>People have been trying to go to /now, /about, and /links on my site. I don&#8217;t have these pages nor links to them anywhere. Wonder if it&#8217;s time to make some&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20241211-1256.html",
+      "url": "https://vale.rocks/micros/20241211-1256.html",
+      "title": "11 Dec 2024 12:56",
+      "content_html": "<p>People have been trying to go to /now, /about, and /links on my site. I don&#8217;t have these pages nor links to them anywhere. Wonder if it&#8217;s time to make some&#8230;</p>\n",
+      "date_published": "2024-12-11T12:56"
     },
     {
-      "id": "https://vale.rocks/posts/20241211-1203.html",
-      "url": "https://vale.rocks/posts/20241211-1203.html",
-      "content_html": "<p>ARIA sure you need those roles and attributes?</p>\n"
+      "id": "https://vale.rocks/micros/20241211-1203.html",
+      "url": "https://vale.rocks/micros/20241211-1203.html",
+      "title": "11 Dec 2024 12:03",
+      "content_html": "<p>ARIA sure you need those roles and attributes?</p>\n",
+      "date_published": "2024-12-11T12:03"
     },
     {
-      "id": "https://vale.rocks/posts/20241211-1155.html",
-      "url": "https://vale.rocks/posts/20241211-1155.html",
-      "content_html": "<p>You oft hear of regurgitation, but not much about standard gurgitation.</p>\n"
+      "id": "https://vale.rocks/micros/20241211-1155.html",
+      "url": "https://vale.rocks/micros/20241211-1155.html",
+      "title": "11 Dec 2024 11:55",
+      "content_html": "<p>You oft hear of regurgitation, but not much about standard gurgitation.</p>\n",
+      "date_published": "2024-12-11T11:55"
     },
     {
-      "id": "https://vale.rocks/posts/20241210-1214.html",
-      "url": "https://vale.rocks/posts/20241210-1214.html",
-      "content_html": "<p>Got around to sorting out my syndication feeds. Go subscribe!</p>\n<ul>\n<li><a href=\"https://vale.rocks/posts/feed.xml\">https://vale.rocks/posts/feed.xml</a></li>\n<li><a href=\"https://vale.rocks/posts/feed.json\">https://vale.rocks/posts/feed.json</a></li>\n</ul>\n"
+      "id": "https://vale.rocks/micros/20241210-1214.html",
+      "url": "https://vale.rocks/micros/20241210-1214.html",
+      "title": "10 Dec 2024 12:14",
+      "content_html": "<p>Got around to sorting out my syndication feeds. Go subscribe!</p>\n<ul>\n<li><a href=\"https://vale.rocks/posts/feed.xml\">https://vale.rocks/posts/feed.xml</a></li>\n<li><a href=\"https://vale.rocks/posts/feed.json\">https://vale.rocks/posts/feed.json</a></li>\n</ul>\n",
+      "date_published": "2024-12-10T12:14"
     },
     {
-      "id": "https://vale.rocks/posts/20241209-1131.html",
-      "url": "https://vale.rocks/posts/20241209-1131.html",
-      "content_html": "<p>Been upgrading and building on this. Pretty happy with it now. It has tons more engines added, a nicer UI (still simple—speed is the priority), and snaps inspired by Kagi which are lovely.</p>\n<p></micros/20240721-1249></p>\n"
+      "id": "https://vale.rocks/micros/20241209-1131.html",
+      "url": "https://vale.rocks/micros/20241209-1131.html",
+      "title": "09 Dec 2024 11:31",
+      "content_html": "<p>Been upgrading and building on this. Pretty happy with it now. It has tons more engines added, a nicer UI (still simple—speed is the priority), and snaps inspired by Kagi which are lovely.</p>\n<p></micros/20240721-1249></p>\n",
+      "date_published": "2024-12-09T11:31"
     },
     {
-      "id": "https://vale.rocks/posts/20241208-1119.html",
-      "url": "https://vale.rocks/posts/20241208-1119.html",
-      "content_html": "<p>Pretty convinced <a href=\"https://jackiechan.com\">jackiechan.com</a> is peak web design.</p>\n"
+      "id": "https://vale.rocks/micros/20241208-1119.html",
+      "url": "https://vale.rocks/micros/20241208-1119.html",
+      "title": "08 Dec 2024 11:19",
+      "content_html": "<p>Pretty convinced <a href=\"https://jackiechan.com\">jackiechan.com</a> is peak web design.</p>\n",
+      "date_published": "2024-12-08T11:19"
     },
     {
-      "id": "https://vale.rocks/posts/20241207-0059.html",
-      "url": "https://vale.rocks/posts/20241207-0059.html",
-      "content_html": "<p>This has had me thinking about website layouts, and how typically we&#8217;ve had navigation situated at the top. Perhaps we need to rethink our designs based on the embrace of sidebars as they become the &#8216;new normal&#8217;?</p>\n<p></micros/20241030-0844></p>\n"
+      "id": "https://vale.rocks/micros/20241207-0059.html",
+      "url": "https://vale.rocks/micros/20241207-0059.html",
+      "title": "07 Dec 2024 00:59",
+      "content_html": "<p>This has had me thinking about website layouts, and how typically we&#8217;ve had navigation situated at the top. Perhaps we need to rethink our designs based on the embrace of sidebars as they become the &#8216;new normal&#8217;?</p>\n<p></micros/20241030-0844></p>\n",
+      "date_published": "2024-12-07T00:59"
     },
     {
-      "id": "https://vale.rocks/posts/20241206-1157.html",
-      "url": "https://vale.rocks/posts/20241206-1157.html",
-      "content_html": "<p>A wise man once said &#8220;Ogres are like onions. Onions have layers. Ogres have layers.&#8221;</p>\n<p>Make your CSS like ogres and onions.</p>\n"
+      "id": "https://vale.rocks/micros/20241206-1157.html",
+      "url": "https://vale.rocks/micros/20241206-1157.html",
+      "title": "06 Dec 2024 11:57",
+      "content_html": "<p>A wise man once said &#8220;Ogres are like onions. Onions have layers. Ogres have layers.&#8221;</p>\n<p>Make your CSS like ogres and onions.</p>\n",
+      "date_published": "2024-12-06T11:57"
     },
     {
-      "id": "https://vale.rocks/posts/20241205-0922.html",
-      "url": "https://vale.rocks/posts/20241205-0922.html",
-      "content_html": "<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time - why not websites?.</p>\n<p>I suppose this is less important with the web, as we can &#8216;simply&#8217; archive copies of things but it&#8217;s been playing in my mind nonetheless.</p>\n"
+      "id": "https://vale.rocks/micros/20241205-0922.html",
+      "url": "https://vale.rocks/micros/20241205-0922.html",
+      "title": "05 Dec 2024 09:22",
+      "content_html": "<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time - why not websites?.</p>\n<p>I suppose this is less important with the web, as we can &#8216;simply&#8217; archive copies of things but it&#8217;s been playing in my mind nonetheless.</p>\n",
+      "date_published": "2024-12-05T09:22"
     },
     {
-      "id": "https://vale.rocks/posts/20241205-0404.html",
-      "url": "https://vale.rocks/posts/20241205-0404.html",
-      "content_html": "<p>Really interesting seeing what posts get picked up on Fedi, and what posts get picked up on Bluesky. I&#8217;m struggling to identify any real pattern.</p>\n"
+      "id": "https://vale.rocks/micros/20241205-0404.html",
+      "url": "https://vale.rocks/micros/20241205-0404.html",
+      "title": "05 Dec 2024 04:04",
+      "content_html": "<p>Really interesting seeing what posts get picked up on Fedi, and what posts get picked up on Bluesky. I&#8217;m struggling to identify any real pattern.</p>\n",
+      "date_published": "2024-12-05T04:04"
     },
     {
-      "id": "https://vale.rocks/posts/20241205-0000.html",
-      "url": "https://vale.rocks/posts/20241205-0000.html",
-      "content_html": "<p>Part of my diploma at North Metropolitan TAFE was a live-works project redeveloping the website for Public Libraries WA.</p>\n<p>My team and I took what was an outdated Joomla site and revitalised it into a sleek, modern experience. The old site was built back in 2009, had security flaws and lacked responsive design, rendering it nigh unusable on mobile devices.</p>\n<p>We rebuilt it from the ground up using WordPress paired with a custom theme built using Tailwind and a tailor-made plugin to perfectly fit our client&#8217;s needs.</p>\n<p>It was awesome working with <a href=\"https://emilydrage.com\">Emily Drage</a>, <a href=\"https://zoecchan.me\">Zoe Chan</a>, and Maria Benic on this.</p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQEPOgaprKm4Pg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356822327?e=1738195200&v=beta&t=h0XqVSa6kjrK_nD8MjVQIHHnnNy8wtGAmxX3-qV-4cg\" alt=\"Website landing page. At the top is an orange navigation bar with a logo and drop-downs for 'Home', 'About', and 'Professional Development'. In the centre of the page is the text \"Public Libraries WA\" with the subtitle \"Inspiring Minds\". Behind it is a warm picture of the outside of a modern looking library building. \nAt the very bottom of the page are some statistics that are cut off.\"></p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQHUCuc4avX-aA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356820611?e=1738195200&v=beta&t=JeHcmCUWYUTP9ZpfG9iLYnDSDCP017BXZGrJKVhHv30\" alt=\"Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'News'. Underneath it are a collection of cards presenting various news posts in a grid. Each shows a picture, date, description, and prompt to read more.\"></p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQHzMQVZZu8gqA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356816673?e=1738195200&v=beta&t=6ILthh9ZoRMPwqihzCHEHwZuJkc_uC2kkmyldix1rEE\" alt=\"Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'Workshops'. Underneath it is a list of upcoming workshops. Each shows a picture, date, description, and prompt to view it.\"></p>\n"
+      "id": "https://vale.rocks/micros/20241205-0000.html",
+      "url": "https://vale.rocks/micros/20241205-0000.html",
+      "title": "05 Dec 2024 00:00",
+      "content_html": "<p>Part of my diploma at North Metropolitan TAFE was a live-works project redeveloping the website for Public Libraries WA.</p>\n<p>My team and I took what was an outdated Joomla site and revitalised it into a sleek, modern experience. The old site was built back in 2009, had security flaws and lacked responsive design, rendering it nigh unusable on mobile devices.</p>\n<p>We rebuilt it from the ground up using WordPress paired with a custom theme built using Tailwind and a tailor-made plugin to perfectly fit our client&#8217;s needs.</p>\n<p>It was awesome working with <a href=\"https://emilydrage.com\">Emily Drage</a>, <a href=\"https://zoecchan.me\">Zoe Chan</a>, and Maria Benic on this.</p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQEPOgaprKm4Pg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356822327?e=1738195200&v=beta&t=h0XqVSa6kjrK_nD8MjVQIHHnnNy8wtGAmxX3-qV-4cg\" alt=\"Website landing page. At the top is an orange navigation bar with a logo and drop-downs for 'Home', 'About', and 'Professional Development'. In the centre of the page is the text \"Public Libraries WA\" with the subtitle \"Inspiring Minds\". Behind it is a warm picture of the outside of a modern looking library building. \nAt the very bottom of the page are some statistics that are cut off.\"></p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQHUCuc4avX-aA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356820611?e=1738195200&v=beta&t=JeHcmCUWYUTP9ZpfG9iLYnDSDCP017BXZGrJKVhHv30\" alt=\"Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'News'. Underneath it are a collection of cards presenting various news posts in a grid. Each shows a picture, date, description, and prompt to read more.\"></p>\n<p><img src=\"https://media.licdn.com/dms/image/v2/D5622AQHzMQVZZu8gqA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733356816673?e=1738195200&v=beta&t=6ILthh9ZoRMPwqihzCHEHwZuJkc_uC2kkmyldix1rEE\" alt=\"Website news page. At the top is a navigation bar with a breadcrumb section underneath it reading the header 'Workshops'. Underneath it is a list of upcoming workshops. Each shows a picture, date, description, and prompt to view it.\"></p>\n",
+      "date_published": "2024-12-05T00:00"
     },
     {
-      "id": "https://vale.rocks/posts/20241204-2346.html",
-      "url": "https://vale.rocks/posts/20241204-2346.html",
-      "content_html": "<p>Say what you will, the phrase &#8220;hacked up, bastardized simulacra&#8221; is genuinely pretty awesome. I suppose we at least got <em>something</em> out of this mess.</p>\n"
+      "id": "https://vale.rocks/micros/20241204-2346.html",
+      "url": "https://vale.rocks/micros/20241204-2346.html",
+      "title": "04 Dec 2024 23:46",
+      "content_html": "<p>Say what you will, the phrase &#8220;hacked up, bastardized simulacra&#8221; is genuinely pretty awesome. I suppose we at least got <em>something</em> out of this mess.</p>\n",
+      "date_published": "2024-12-04T23:46"
     },
     {
-      "id": "https://vale.rocks/posts/20241204-1153.html",
-      "url": "https://vale.rocks/posts/20241204-1153.html",
-      "content_html": "<p>The best time for productivity is any abnormal hour of the day when I can sit semi-comatose, powered purely by stimulants.</p>\n"
+      "id": "https://vale.rocks/micros/20241204-1153.html",
+      "url": "https://vale.rocks/micros/20241204-1153.html",
+      "title": "04 Dec 2024 11:53",
+      "content_html": "<p>The best time for productivity is any abnormal hour of the day when I can sit semi-comatose, powered purely by stimulants.</p>\n",
+      "date_published": "2024-12-04T11:53"
     },
     {
-      "id": "https://vale.rocks/posts/20241204-0817.html",
-      "url": "https://vale.rocks/posts/20241204-0817.html",
-      "content_html": "<p>Saw a guy sprinting through the city with a Sonic the Hedgehog shirt on.</p>\n<p>It took a <em>hideous</em> amount of restraint not to yell &#8220;GOTTA GO FAST!&#8221;</p>\n"
+      "id": "https://vale.rocks/micros/20241204-0817.html",
+      "url": "https://vale.rocks/micros/20241204-0817.html",
+      "title": "04 Dec 2024 08:17",
+      "content_html": "<p>Saw a guy sprinting through the city with a Sonic the Hedgehog shirt on.</p>\n<p>It took a <em>hideous</em> amount of restraint not to yell &#8220;GOTTA GO FAST!&#8221;</p>\n",
+      "date_published": "2024-12-04T08:17"
     },
     {
-      "id": "https://vale.rocks/posts/20241204-0416.html",
-      "url": "https://vale.rocks/posts/20241204-0416.html",
-      "content_html": "<p>I see a lot of stuff gain traction that I&#8217;d have figured is too well known, too obvious, or too low effort. I need to do more <em>stuff</em>.</p>\n<p>You miss 100% of the shots you don&#8217;t take after all.</p>\n"
+      "id": "https://vale.rocks/micros/20241204-0416.html",
+      "url": "https://vale.rocks/micros/20241204-0416.html",
+      "title": "04 Dec 2024 04:16",
+      "content_html": "<p>I see a lot of stuff gain traction that I&#8217;d have figured is too well known, too obvious, or too low effort. I need to do more <em>stuff</em>.</p>\n<p>You miss 100% of the shots you don&#8217;t take after all.</p>\n",
+      "date_published": "2024-12-04T04:16"
     },
     {
-      "id": "https://vale.rocks/posts/20241204-0239.html",
-      "url": "https://vale.rocks/posts/20241204-0239.html",
-      "content_html": "<p>Honestly pretty excited to give Ghostty a whirl with the upcoming v1.0. Looks pretty rad!</p>\n"
+      "id": "https://vale.rocks/micros/20241204-0239.html",
+      "url": "https://vale.rocks/micros/20241204-0239.html",
+      "title": "04 Dec 2024 02:39",
+      "content_html": "<p>Honestly pretty excited to give Ghostty a whirl with the upcoming v1.0. Looks pretty rad!</p>\n",
+      "date_published": "2024-12-04T02:39"
     },
     {
-      "id": "https://vale.rocks/posts/20241130-1313.html",
-      "url": "https://vale.rocks/posts/20241130-1313.html",
-      "content_html": "<p>I think this is one of the best things I&#8217;ve ever read on LessWrong. It perfectly resonates with motivation as I experience it.</p>\n<p><a href=\"https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals\">https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals</a></p>\n"
+      "id": "https://vale.rocks/micros/20241130-1313.html",
+      "url": "https://vale.rocks/micros/20241130-1313.html",
+      "title": "30 Nov 2024 13:13",
+      "content_html": "<p>I think this is one of the best things I&#8217;ve ever read on LessWrong. It perfectly resonates with motivation as I experience it.</p>\n<p><a href=\"https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals\">https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals</a></p>\n",
+      "date_published": "2024-11-30T13:13"
     },
     {
-      "id": "https://vale.rocks/posts/20241130-0758.html",
-      "url": "https://vale.rocks/posts/20241130-0758.html",
-      "content_html": "<p>Coming around to that time of the year when I update and refine all my configs. I&#8217;ve got a <em>lot</em> of notes on what needs work.</p>\n<p>Should be rad.</p>\n"
+      "id": "https://vale.rocks/micros/20241130-0758.html",
+      "url": "https://vale.rocks/micros/20241130-0758.html",
+      "title": "30 Nov 2024 07:58",
+      "content_html": "<p>Coming around to that time of the year when I update and refine all my configs. I&#8217;ve got a <em>lot</em> of notes on what needs work.</p>\n<p>Should be rad.</p>\n",
+      "date_published": "2024-11-30T07:58"
     },
     {
-      "id": "https://vale.rocks/posts/20241118-1144.html",
-      "url": "https://vale.rocks/posts/20241118-1144.html",
-      "content_html": "<p>I&#8217;m always amazed by the cool features I find when I misstype in Vim.</p>\n"
+      "id": "https://vale.rocks/micros/20241118-1144.html",
+      "url": "https://vale.rocks/micros/20241118-1144.html",
+      "title": "18 Nov 2024 11:44",
+      "content_html": "<p>I&#8217;m always amazed by the cool features I find when I misstype in Vim.</p>\n",
+      "date_published": "2024-11-18T11:44"
     },
     {
-      "id": "https://vale.rocks/posts/20241117-2320.html",
-      "url": "https://vale.rocks/posts/20241117-2320.html",
-      "content_html": "<p>I really hate the term &#8216;WebFinger&#8217;. Stop fingering around for some JSON. Frankly, keep your fingers to yourself.</p>\n"
+      "id": "https://vale.rocks/micros/20241117-2320.html",
+      "url": "https://vale.rocks/micros/20241117-2320.html",
+      "title": "17 Nov 2024 23:20",
+      "content_html": "<p>I really hate the term &#8216;WebFinger&#8217;. Stop fingering around for some JSON. Frankly, keep your fingers to yourself.</p>\n",
+      "date_published": "2024-11-17T23:20"
     },
     {
-      "id": "https://vale.rocks/posts/20241117-1316.html",
-      "url": "https://vale.rocks/posts/20241117-1316.html",
-      "content_html": "<p>Perhaps the real enhancement is the progression we made along the way.</p>\n"
+      "id": "https://vale.rocks/micros/20241117-1316.html",
+      "url": "https://vale.rocks/micros/20241117-1316.html",
+      "title": "17 Nov 2024 13:16",
+      "content_html": "<p>Perhaps the real enhancement is the progression we made along the way.</p>\n",
+      "date_published": "2024-11-17T13:16"
     },
     {
-      "id": "https://vale.rocks/posts/20241116-1253.html",
-      "url": "https://vale.rocks/posts/20241116-1253.html",
-      "content_html": "<p>How does one represent a dinkus in HTML? A <code>&lt;hr&gt;</code> with some styling? Not sure on the semantics here&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20241116-1253.html",
+      "url": "https://vale.rocks/micros/20241116-1253.html",
+      "title": "16 Nov 2024 12:53",
+      "content_html": "<p>How does one represent a dinkus in HTML? A <code>&lt;hr&gt;</code> with some styling? Not sure on the semantics here&#8230;</p>\n",
+      "date_published": "2024-11-16T12:53"
     },
     {
-      "id": "https://vale.rocks/posts/20241114-0439.html",
-      "url": "https://vale.rocks/posts/20241114-0439.html",
-      "content_html": "<p>New CSS logo dropped. It looks great! Now, when do I get all those cool unused designs on a shirt?</p>\n"
+      "id": "https://vale.rocks/micros/20241114-0439.html",
+      "url": "https://vale.rocks/micros/20241114-0439.html",
+      "title": "14 Nov 2024 04:39",
+      "content_html": "<p>New CSS logo dropped. It looks great! Now, when do I get all those cool unused designs on a shirt?</p>\n",
+      "date_published": "2024-11-14T04:39"
     },
     {
-      "id": "https://vale.rocks/posts/20241113-0649.html",
-      "url": "https://vale.rocks/posts/20241113-0649.html",
-      "content_html": "<p>A little while ago I updated a little piece I wrote about the design behind my site.</p>\n<p><a href=\"https://vale.rocks/posts/the-design-of-this-site\">https://vale.rocks/posts/the-design-of-this-site</a></p>\n"
+      "id": "https://vale.rocks/micros/20241113-0649.html",
+      "url": "https://vale.rocks/micros/20241113-0649.html",
+      "title": "13 Nov 2024 06:49",
+      "content_html": "<p>A little while ago I updated a little piece I wrote about the design behind my site.</p>\n<p><a href=\"https://vale.rocks/posts/the-design-of-this-site\">https://vale.rocks/posts/the-design-of-this-site</a></p>\n",
+      "date_published": "2024-11-13T06:49"
     },
     {
-      "id": "https://vale.rocks/posts/20241113-0115.html",
-      "url": "https://vale.rocks/posts/20241113-0115.html",
-      "content_html": "<p>I&#8217;ve been very disappointed with DuckDuckGo results recently. Seems there was a sharp drop in quality ~3 weeks ago.</p>\n<p>Kagi gives the best results I&#8217;ve found, but at a financial premium. I&#8217;m kinda just jumping around search engines looking for a home.</p>\n"
+      "id": "https://vale.rocks/micros/20241113-0115.html",
+      "url": "https://vale.rocks/micros/20241113-0115.html",
+      "title": "13 Nov 2024 01:15",
+      "content_html": "<p>I&#8217;ve been very disappointed with DuckDuckGo results recently. Seems there was a sharp drop in quality ~3 weeks ago.</p>\n<p>Kagi gives the best results I&#8217;ve found, but at a financial premium. I&#8217;m kinda just jumping around search engines looking for a home.</p>\n",
+      "date_published": "2024-11-13T01:15"
     },
     {
-      "id": "https://vale.rocks/posts/20241112-0941.html",
-      "url": "https://vale.rocks/posts/20241112-0941.html",
-      "content_html": "<p>I really appreciate that people in my feeds engage in nuanced AI discussion. Yes, there are negatives. Yes, there are positives. No, flame wars don&#8217;t get us anywhere.</p>\n<p>Thanks for all being so awesome and eloquent with your words.</p>\n"
+      "id": "https://vale.rocks/micros/20241112-0941.html",
+      "url": "https://vale.rocks/micros/20241112-0941.html",
+      "title": "12 Nov 2024 09:41",
+      "content_html": "<p>I really appreciate that people in my feeds engage in nuanced AI discussion. Yes, there are negatives. Yes, there are positives. No, flame wars don&#8217;t get us anywhere.</p>\n<p>Thanks for all being so awesome and eloquent with your words.</p>\n",
+      "date_published": "2024-11-12T09:41"
     },
     {
-      "id": "https://vale.rocks/posts/20241111-0715.html",
-      "url": "https://vale.rocks/posts/20241111-0715.html",
-      "content_html": "<p>Just updated my services page. If you&#8217;ve got JavaScript enabled, it&#8217;ll now show the service status inline on the page.</p>\n<p><a href=\"https://vale.rocks/services\">https://vale.rocks/services</a></p>\n"
+      "id": "https://vale.rocks/micros/20241111-0715.html",
+      "url": "https://vale.rocks/micros/20241111-0715.html",
+      "title": "11 Nov 2024 07:15",
+      "content_html": "<p>Just updated my services page. If you&#8217;ve got JavaScript enabled, it&#8217;ll now show the service status inline on the page.</p>\n<p><a href=\"https://vale.rocks/services\">https://vale.rocks/services</a></p>\n",
+      "date_published": "2024-11-11T07:15"
     },
     {
-      "id": "https://vale.rocks/posts/20241111-0050.html",
-      "url": "https://vale.rocks/posts/20241111-0050.html",
-      "content_html": "<p>For anyone wondering, you absolutely can enrol your toe as a fingerprint on a Google Pixel 7a.</p>\n"
+      "id": "https://vale.rocks/micros/20241111-0050.html",
+      "url": "https://vale.rocks/micros/20241111-0050.html",
+      "title": "11 Nov 2024 00:50",
+      "content_html": "<p>For anyone wondering, you absolutely can enrol your toe as a fingerprint on a Google Pixel 7a.</p>\n",
+      "date_published": "2024-11-11T00:50"
     },
     {
-      "id": "https://vale.rocks/posts/20241031-0430.html",
-      "url": "https://vale.rocks/posts/20241031-0430.html",
-      "content_html": "<p>I usually steer clear of political posts, but I can&#8217;t stress enough how important it is for every American to get out and vote. The world will be a little better for it.</p>\n"
+      "id": "https://vale.rocks/micros/20241031-0430.html",
+      "url": "https://vale.rocks/micros/20241031-0430.html",
+      "title": "31 Oct 2024 04:30",
+      "content_html": "<p>I usually steer clear of political posts, but I can&#8217;t stress enough how important it is for every American to get out and vote. The world will be a little better for it.</p>\n",
+      "date_published": "2024-10-31T04:30"
     },
     {
-      "id": "https://vale.rocks/posts/20241030-0844.html",
-      "url": "https://vale.rocks/posts/20241030-0844.html",
-      "content_html": "<p>Switched over to using the vertical sidebar in Firefox today. It&#8217;s lovely!</p>\n<p><img src=\"https://fedi.vale.rocks/media/41055a8029d0639c5618ce8c8105efab7d13d62371070f583ccc4e6e1defe5ce.png\" alt=\"Firefox UI with tabs presented vertically down the left side of the screen.\"></p>\n"
+      "id": "https://vale.rocks/micros/20241030-0844.html",
+      "url": "https://vale.rocks/micros/20241030-0844.html",
+      "title": "30 Oct 2024 08:44",
+      "content_html": "<p>Switched over to using the vertical sidebar in Firefox today. It&#8217;s lovely!</p>\n<p><img src=\"https://fedi.vale.rocks/media/41055a8029d0639c5618ce8c8105efab7d13d62371070f583ccc4e6e1defe5ce.png\" alt=\"Firefox UI with tabs presented vertically down the left side of the screen.\"></p>\n",
+      "date_published": "2024-10-30T08:44"
     },
     {
-      "id": "https://vale.rocks/posts/20241029-0050.html",
-      "url": "https://vale.rocks/posts/20241029-0050.html",
-      "content_html": "<p>People seem to come unstuck at the &#8216;cascading&#8217; bit of &#8216;cascading style sheet&#8217;.</p>\n<p>Embrace the cascade!</p>\n"
+      "id": "https://vale.rocks/micros/20241029-0050.html",
+      "url": "https://vale.rocks/micros/20241029-0050.html",
+      "title": "29 Oct 2024 00:50",
+      "content_html": "<p>People seem to come unstuck at the &#8216;cascading&#8217; bit of &#8216;cascading style sheet&#8217;.</p>\n<p>Embrace the cascade!</p>\n",
+      "date_published": "2024-10-29T00:50"
     },
     {
-      "id": "https://vale.rocks/posts/20241028-0019.html",
-      "url": "https://vale.rocks/posts/20241028-0019.html",
-      "content_html": "<p>&#8216;Username&#8217; is so boring. When can we go back to using handles? Or screennames? Or even gamertags?</p>\n"
+      "id": "https://vale.rocks/micros/20241028-0019.html",
+      "url": "https://vale.rocks/micros/20241028-0019.html",
+      "title": "28 Oct 2024 00:19",
+      "content_html": "<p>&#8216;Username&#8217; is so boring. When can we go back to using handles? Or screennames? Or even gamertags?</p>\n",
+      "date_published": "2024-10-28T00:19"
     },
     {
-      "id": "https://vale.rocks/posts/20241026-0311.html",
-      "url": "https://vale.rocks/posts/20241026-0311.html",
-      "content_html": "<p>Blimey, I&#8217;m lovin&#8217; <code>&lt;dialog&gt;</code> and the Popover API. JavaScript free* menus without the need for any hacks.</p>\n<p>I used to use some trickery involving CSS&#8217;s <code>:target</code> to implement menus&#8230;</p>\n<p>This is only gonna get cooler when anchor positioning gets more comprehensive support. Top layer elements and anchor positioning go together like butter and toast.</p>\n"
+      "id": "https://vale.rocks/micros/20241026-0311.html",
+      "url": "https://vale.rocks/micros/20241026-0311.html",
+      "title": "26 Oct 2024 03:11",
+      "content_html": "<p>Blimey, I&#8217;m lovin&#8217; <code>&lt;dialog&gt;</code> and the Popover API. JavaScript free* menus without the need for any hacks.</p>\n<p>I used to use some trickery involving CSS&#8217;s <code>:target</code> to implement menus&#8230;</p>\n<p>This is only gonna get cooler when anchor positioning gets more comprehensive support. Top layer elements and anchor positioning go together like butter and toast.</p>\n",
+      "date_published": "2024-10-26T03:11"
     },
     {
-      "id": "https://vale.rocks/posts/20241025-1312.html",
-      "url": "https://vale.rocks/posts/20241025-1312.html",
-      "content_html": "<p>The gap between &#8220;works in development&#8221; and &#8220;works in production&#8221; is where dreams go to die.</p>\n"
+      "id": "https://vale.rocks/micros/20241025-1312.html",
+      "url": "https://vale.rocks/micros/20241025-1312.html",
+      "title": "25 Oct 2024 13:12",
+      "content_html": "<p>The gap between &#8220;works in development&#8221; and &#8220;works in production&#8221; is where dreams go to die.</p>\n",
+      "date_published": "2024-10-25T13:12"
     },
     {
-      "id": "https://vale.rocks/posts/20241025-0218.html",
-      "url": "https://vale.rocks/posts/20241025-0218.html",
-      "content_html": "<p>Remember kids, if it&#8217;s written in Java then avoid it like lava.</p>\n"
+      "id": "https://vale.rocks/micros/20241025-0218.html",
+      "url": "https://vale.rocks/micros/20241025-0218.html",
+      "title": "25 Oct 2024 02:18",
+      "content_html": "<p>Remember kids, if it&#8217;s written in Java then avoid it like lava.</p>\n",
+      "date_published": "2024-10-25T02:18"
     },
     {
-      "id": "https://vale.rocks/posts/20241024-1250.html",
-      "url": "https://vale.rocks/posts/20241024-1250.html",
-      "content_html": "<p>&#8216;Brittle web technology&#8217; is one of the most perfect phrases I&#8217;ve ever encountered. It just perfectly sums up the shattering characteristic of so many dev tools.</p>\n<p>It&#8217;s the web! It should be the wild west! Chaotic, unstoppable madness! Bodge everything and take no hostages!</p>\n"
+      "id": "https://vale.rocks/micros/20241024-1250.html",
+      "url": "https://vale.rocks/micros/20241024-1250.html",
+      "title": "24 Oct 2024 12:50",
+      "content_html": "<p>&#8216;Brittle web technology&#8217; is one of the most perfect phrases I&#8217;ve ever encountered. It just perfectly sums up the shattering characteristic of so many dev tools.</p>\n<p>It&#8217;s the web! It should be the wild west! Chaotic, unstoppable madness! Bodge everything and take no hostages!</p>\n",
+      "date_published": "2024-10-24T12:50"
     },
     {
-      "id": "https://vale.rocks/posts/20241024-0653.html",
-      "url": "https://vale.rocks/posts/20241024-0653.html",
-      "content_html": "<p>Micro-blogging platforms like Bluesky and Fedi are built around following people, not topics. This is good in that I can create meaningful connections with familiar faces, but bad in that I pass up great content because I can&#8217;t just follow the parts of people&#8217;s feeds that interest me.</p>\n<p>Sometimes I wish I could follow someone&#8217;s tech posts without their politics, or their design without their hot takes. If you&#8217;re wondering why I don&#8217;t follow you, it&#8217;s probably because of this. I still love ya!</p>\n<p>(I&#8217;ve come to find this is somewhat doable via word filtering, although it is a bit finicky, not comprehensive, and introduces potential for false positives. I&#8217;ll trial it and see how it goes.)</p>\n"
+      "id": "https://vale.rocks/micros/20241024-0653.html",
+      "url": "https://vale.rocks/micros/20241024-0653.html",
+      "title": "24 Oct 2024 06:53",
+      "content_html": "<p>Micro-blogging platforms like Bluesky and Fedi are built around following people, not topics. This is good in that I can create meaningful connections with familiar faces, but bad in that I pass up great content because I can&#8217;t just follow the parts of people&#8217;s feeds that interest me.</p>\n<p>Sometimes I wish I could follow someone&#8217;s tech posts without their politics, or their design without their hot takes. If you&#8217;re wondering why I don&#8217;t follow you, it&#8217;s probably because of this. I still love ya!</p>\n<p>(I&#8217;ve come to find this is somewhat doable via word filtering, although it is a bit finicky, not comprehensive, and introduces potential for false positives. I&#8217;ll trial it and see how it goes.)</p>\n",
+      "date_published": "2024-10-24T06:53"
     },
     {
-      "id": "https://vale.rocks/posts/20241024-0436.html",
-      "url": "https://vale.rocks/posts/20241024-0436.html",
-      "content_html": "<p>I barely find myself needing CSS &#8216;hacks&#8217; anymore. Most stuff I need to do is kinda just a thing now.</p>\n<p>Thanks to all the many people who&#8217;ve made this a reality!</p>\n"
+      "id": "https://vale.rocks/micros/20241024-0436.html",
+      "url": "https://vale.rocks/micros/20241024-0436.html",
+      "title": "24 Oct 2024 04:36",
+      "content_html": "<p>I barely find myself needing CSS &#8216;hacks&#8217; anymore. Most stuff I need to do is kinda just a thing now.</p>\n<p>Thanks to all the many people who&#8217;ve made this a reality!</p>\n",
+      "date_published": "2024-10-24T04:36"
     },
     {
-      "id": "https://vale.rocks/posts/20241023-0335.html",
-      "url": "https://vale.rocks/posts/20241023-0335.html",
-      "content_html": "<p>Were I omnipotent ruler of this world, I&#8217;d probably delete glitter as my first action.</p>\n"
+      "id": "https://vale.rocks/micros/20241023-0335.html",
+      "url": "https://vale.rocks/micros/20241023-0335.html",
+      "title": "23 Oct 2024 03:35",
+      "content_html": "<p>Were I omnipotent ruler of this world, I&#8217;d probably delete glitter as my first action.</p>\n",
+      "date_published": "2024-10-23T03:35"
     },
     {
-      "id": "https://vale.rocks/posts/20241023-0027.html",
-      "url": "https://vale.rocks/posts/20241023-0027.html",
-      "content_html": "<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; — hardcoded, website-specific fixes and tweaks.</p>\n<p><a href=\"https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp\">https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp</a></p>\n"
+      "id": "https://vale.rocks/micros/20241023-0027.html",
+      "url": "https://vale.rocks/micros/20241023-0027.html",
+      "title": "23 Oct 2024 00:27",
+      "content_html": "<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; — hardcoded, website-specific fixes and tweaks.</p>\n<p><a href=\"https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp\">https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp</a></p>\n",
+      "date_published": "2024-10-23T00:27"
     },
     {
-      "id": "https://vale.rocks/posts/20241022-0952.html",
-      "url": "https://vale.rocks/posts/20241022-0952.html",
-      "content_html": "<p>I&#8217;ve spent the past several years thinking Vite is pronounced &#8216;vite&#8217; rather than &#8216;veet&#8217;. I&#8217;ve gotta start watching more dev videos or something&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20241022-0952.html",
+      "url": "https://vale.rocks/micros/20241022-0952.html",
+      "title": "22 Oct 2024 09:52",
+      "content_html": "<p>I&#8217;ve spent the past several years thinking Vite is pronounced &#8216;vite&#8217; rather than &#8216;veet&#8217;. I&#8217;ve gotta start watching more dev videos or something&#8230;</p>\n",
+      "date_published": "2024-10-22T09:52"
     },
     {
-      "id": "https://vale.rocks/posts/20241021-0446.html",
-      "url": "https://vale.rocks/posts/20241021-0446.html",
-      "content_html": "<p>While fundamentally a flawed format, there is something beautiful about the crunchiness of a <code>.gif</code>.</p>\n"
+      "id": "https://vale.rocks/micros/20241021-0446.html",
+      "url": "https://vale.rocks/micros/20241021-0446.html",
+      "title": "21 Oct 2024 04:46",
+      "content_html": "<p>While fundamentally a flawed format, there is something beautiful about the crunchiness of a <code>.gif</code>.</p>\n",
+      "date_published": "2024-10-21T04:46"
     },
     {
-      "id": "https://vale.rocks/posts/20241020-1010.html",
-      "url": "https://vale.rocks/posts/20241020-1010.html",
-      "content_html": "<p>Took some time today to update my uses page.</p>\n<p><a href=\"https://vale.rocks/uses\">https://vale.rocks/uses</a></p>\n"
+      "id": "https://vale.rocks/micros/20241020-1010.html",
+      "url": "https://vale.rocks/micros/20241020-1010.html",
+      "title": "20 Oct 2024 10:10",
+      "content_html": "<p>Took some time today to update my uses page.</p>\n<p><a href=\"https://vale.rocks/uses\">https://vale.rocks/uses</a></p>\n",
+      "date_published": "2024-10-20T10:10"
     },
     {
-      "id": "https://vale.rocks/posts/20241017-0621.html",
-      "url": "https://vale.rocks/posts/20241017-0621.html",
-      "content_html": "<p>The fact that you can use touchscreens with the back of your fingernails really bothers me.</p>\n"
+      "id": "https://vale.rocks/micros/20241017-0621.html",
+      "url": "https://vale.rocks/micros/20241017-0621.html",
+      "title": "17 Oct 2024 06:21",
+      "content_html": "<p>The fact that you can use touchscreens with the back of your fingernails really bothers me.</p>\n",
+      "date_published": "2024-10-17T06:21"
     },
     {
-      "id": "https://vale.rocks/posts/20241014-0558.html",
-      "url": "https://vale.rocks/posts/20241014-0558.html",
-      "content_html": "<p>Mullenweg just keeps adding fuel to the fire that&#8217;s actively cremating him.</p>\n"
+      "id": "https://vale.rocks/micros/20241014-0558.html",
+      "url": "https://vale.rocks/micros/20241014-0558.html",
+      "title": "14 Oct 2024 05:58",
+      "content_html": "<p>Mullenweg just keeps adding fuel to the fire that&#8217;s actively cremating him.</p>\n",
+      "date_published": "2024-10-14T05:58"
     },
     {
-      "id": "https://vale.rocks/posts/20241012-0440.html",
-      "url": "https://vale.rocks/posts/20241012-0440.html",
-      "content_html": "<p>Sorry for being MIA these past few days. Russia and Turkey both banned Discord, so I&#8217;ve been tied up with Revolt. We&#8217;ve had some 250K users join in the past 4 days, bringing us to over 450K users total!</p>\n<p>If you aren&#8217;t aware, Revolt is a FOSS chat platform and decent alternative to Discord that I work on.</p>\n<p>You can check it out at <a href=\"https://revolt.chat\">https://revolt.chat</a> if you&#8217;re interested.</p>\n"
+      "id": "https://vale.rocks/micros/20241012-0440.html",
+      "url": "https://vale.rocks/micros/20241012-0440.html",
+      "title": "12 Oct 2024 04:40",
+      "content_html": "<p>Sorry for being MIA these past few days. Russia and Turkey both banned Discord, so I&#8217;ve been tied up with Revolt. We&#8217;ve had some 250K users join in the past 4 days, bringing us to over 450K users total!</p>\n<p>If you aren&#8217;t aware, Revolt is a FOSS chat platform and decent alternative to Discord that I work on.</p>\n<p>You can check it out at <a href=\"https://revolt.chat\">https://revolt.chat</a> if you&#8217;re interested.</p>\n",
+      "date_published": "2024-10-12T04:40"
     },
     {
-      "id": "https://vale.rocks/posts/20241004-0214.html",
-      "url": "https://vale.rocks/posts/20241004-0214.html",
-      "content_html": "<p>Are people implementing lightboxes with <code>&lt;dialog&gt;</code>, custom implementations, or something different? Would love to hear!</p>\n"
+      "id": "https://vale.rocks/micros/20241004-0214.html",
+      "url": "https://vale.rocks/micros/20241004-0214.html",
+      "title": "04 Oct 2024 02:14",
+      "content_html": "<p>Are people implementing lightboxes with <code>&lt;dialog&gt;</code>, custom implementations, or something different? Would love to hear!</p>\n",
+      "date_published": "2024-10-04T02:14"
     },
     {
-      "id": "https://vale.rocks/posts/20240927-0532.html",
-      "url": "https://vale.rocks/posts/20240927-0532.html",
-      "content_html": "<p>The lack of jokes connecting &#8216;GitHub&#8217; and &#8216;hub for gits&#8217; is deeply disappointing.</p>\n"
+      "id": "https://vale.rocks/micros/20240927-0532.html",
+      "url": "https://vale.rocks/micros/20240927-0532.html",
+      "title": "27 Sept 2024 05:32",
+      "content_html": "<p>The lack of jokes connecting &#8216;GitHub&#8217; and &#8216;hub for gits&#8217; is deeply disappointing.</p>\n",
+      "date_published": "2024-09-27T05:32"
     },
     {
-      "id": "https://vale.rocks/posts/20240926-1235.html",
-      "url": "https://vale.rocks/posts/20240926-1235.html",
-      "content_html": "<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-right</code>?</p>\n"
+      "id": "https://vale.rocks/micros/20240926-1235.html",
+      "url": "https://vale.rocks/micros/20240926-1235.html",
+      "title": "26 Sept 2024 12:35",
+      "content_html": "<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-right</code>?</p>\n",
+      "date_published": "2024-09-26T12:35"
     },
     {
-      "id": "https://vale.rocks/posts/20240921-1034.html",
-      "url": "https://vale.rocks/posts/20240921-1034.html",
-      "content_html": "<p>I hope you all remembered that tonight is the 21st night of September.</p>\n"
+      "id": "https://vale.rocks/micros/20240921-1034.html",
+      "url": "https://vale.rocks/micros/20240921-1034.html",
+      "title": "21 Sept 2024 10:34",
+      "content_html": "<p>I hope you all remembered that tonight is the 21st night of September.</p>\n",
+      "date_published": "2024-09-21T10:34"
     },
     {
-      "id": "https://vale.rocks/posts/20240917-0328.html",
-      "url": "https://vale.rocks/posts/20240917-0328.html",
-      "content_html": "<p>Bluesky now has over 10 million users, and I was #3,150,897! I would have jumped in earlier was it not for the invite system. I got access just before they opened it up.</p>\n<p><img src=\"https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/bafkreidi2wpt2z7kw6dsbefusc77si6ggwirepsqhk7wwzacuwzqfub3vi@jpeg\" alt=\"Card stating \"Celebrating 10M users. #3,150,897\".\"></p>\n"
+      "id": "https://vale.rocks/micros/20240917-0328.html",
+      "url": "https://vale.rocks/micros/20240917-0328.html",
+      "title": "17 Sept 2024 03:28",
+      "content_html": "<p>Bluesky now has over 10 million users, and I was #3,150,897! I would have jumped in earlier was it not for the invite system. I got access just before they opened it up.</p>\n<p><img src=\"https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/bafkreidi2wpt2z7kw6dsbefusc77si6ggwirepsqhk7wwzacuwzqfub3vi@jpeg\" alt=\"Card stating \"Celebrating 10M users. #3,150,897\".\"></p>\n",
+      "date_published": "2024-09-17T03:28"
     },
     {
-      "id": "https://vale.rocks/posts/20240916-0354.html",
-      "url": "https://vale.rocks/posts/20240916-0354.html",
-      "content_html": "<p>Messed around with some fun HTML colour values. &#8220;sonic&#8221; outputs blue.</p>\n<p><a href=\"https://codepen.io/OuterVale/pen/wvLbjpZ\">https://codepen.io/OuterVale/pen/wvLbjpZ</a></p>\n"
+      "id": "https://vale.rocks/micros/20240916-0354.html",
+      "url": "https://vale.rocks/micros/20240916-0354.html",
+      "title": "16 Sept 2024 03:54",
+      "content_html": "<p>Messed around with some fun HTML colour values. &#8220;sonic&#8221; outputs blue.</p>\n<p><a href=\"https://codepen.io/OuterVale/pen/wvLbjpZ\">https://codepen.io/OuterVale/pen/wvLbjpZ</a></p>\n",
+      "date_published": "2024-09-16T03:54"
     },
     {
-      "id": "https://vale.rocks/posts/20240916-0114.html",
-      "url": "https://vale.rocks/posts/20240916-0114.html",
-      "content_html": "<p>Uploaded some new pictures to my Unsplash. Go give &#8216;em a squizz.</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
+      "id": "https://vale.rocks/micros/20240916-0114.html",
+      "url": "https://vale.rocks/micros/20240916-0114.html",
+      "title": "16 Sept 2024 01:14",
+      "content_html": "<p>Uploaded some new pictures to my Unsplash. Go give &#8216;em a squizz.</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
+      "date_published": "2024-09-16T01:14"
     },
     {
-      "id": "https://vale.rocks/posts/20240915-0227.html",
-      "url": "https://vale.rocks/posts/20240915-0227.html",
-      "content_html": "<p>Oooh w̶̨̩̣̭͙̯͎̭̻̮̪̥̟͇̳̬͒̎̋̉̒ą̷̢̛̠̮̥͔̩̙̺̘͙̘̹̣̪͔͙̊͐̒̍̓͝ḧ̷̗́͊̓̓̽̄̎̉̈ą̷̡̹̰͖͍̥̭̫̤͈̠̀̇̔̓̓͑̅̂̊͘̚͝͝ḩ̶̤͐̍̽̀̆̂̚͝a̴͕̗̭͎̹̲̝̭͗͂͐̿͊̉̈̏̿͂̐̑̆̊̕͠͠h̶̹̑̒̐̒̈̑͋͊͠a̸̲̟̞̼̰̘͂́͌̑̔̊̔̉͗̋̈́̑̐͠͠</p>\n"
+      "id": "https://vale.rocks/micros/20240915-0227.html",
+      "url": "https://vale.rocks/micros/20240915-0227.html",
+      "title": "15 Sept 2024 02:27",
+      "content_html": "<p>Oooh w̶̨̩̣̭͙̯͎̭̻̮̪̥̟͇̳̬͒̎̋̉̒ą̷̢̛̠̮̥͔̩̙̺̘͙̘̹̣̪͔͙̊͐̒̍̓͝ḧ̷̗́͊̓̓̽̄̎̉̈ą̷̡̹̰͖͍̥̭̫̤͈̠̀̇̔̓̓͑̅̂̊͘̚͝͝ḩ̶̤͐̍̽̀̆̂̚͝a̴͕̗̭͎̹̲̝̭͗͂͐̿͊̉̈̏̿͂̐̑̆̊̕͠͠h̶̹̑̒̐̒̈̑͋͊͠a̸̲̟̞̼̰̘͂́͌̑̔̊̔̉͗̋̈́̑̐͠͠</p>\n",
+      "date_published": "2024-09-15T02:27"
     },
     {
-      "id": "https://vale.rocks/posts/20240908-0702.html",
-      "url": "https://vale.rocks/posts/20240908-0702.html",
-      "content_html": "<p>Always gets a laugh from me.</p>\n<p><a href=\"https://madeupandprobablydoesnotexist.com/taskbar\">https://madeupandprobablydoesnotexist.com/taskbar</a></p>\n"
+      "id": "https://vale.rocks/micros/20240908-0702.html",
+      "url": "https://vale.rocks/micros/20240908-0702.html",
+      "title": "08 Sept 2024 07:02",
+      "content_html": "<p>Always gets a laugh from me.</p>\n<p><a href=\"https://madeupandprobablydoesnotexist.com/taskbar\">https://madeupandprobablydoesnotexist.com/taskbar</a></p>\n",
+      "date_published": "2024-09-08T07:02"
     },
     {
-      "id": "https://vale.rocks/posts/20240906-1404.html",
-      "url": "https://vale.rocks/posts/20240906-1404.html",
-      "content_html": "<p>Genuine exchange I just had:</p>\n<blockquote>\n<p>Person: It&#8217;s broken on mobile.</p>\n<p><em>Me: Do you have a Samsung by chance?</em></p>\n<p>Person: Yes, I have</p>\n<p><em>Me: Do you use Samsung Internet?</em></p>\n<p>Person: I&#8217;m not sure what that is. I use the default browser.</p>\n<p><em>Me: I shall refrain from using the selection of words I&#8217;d like to.</em></p>\n</blockquote>\n<p>Seriously, how is Samsung Internet still this much of a clusterfuck?</p>\n"
+      "id": "https://vale.rocks/micros/20240906-1404.html",
+      "url": "https://vale.rocks/micros/20240906-1404.html",
+      "title": "06 Sept 2024 14:04",
+      "content_html": "<p>Genuine exchange I just had:</p>\n<blockquote>\n<p>Person: It&#8217;s broken on mobile.</p>\n<p><em>Me: Do you have a Samsung by chance?</em></p>\n<p>Person: Yes, I have</p>\n<p><em>Me: Do you use Samsung Internet?</em></p>\n<p>Person: I&#8217;m not sure what that is. I use the default browser.</p>\n<p><em>Me: I shall refrain from using the selection of words I&#8217;d like to.</em></p>\n</blockquote>\n<p>Seriously, how is Samsung Internet still this much of a clusterfuck?</p>\n",
+      "date_published": "2024-09-06T14:04"
     },
     {
-      "id": "https://vale.rocks/posts/20240906-1110.html",
-      "url": "https://vale.rocks/posts/20240906-1110.html",
-      "content_html": "<p>I pretty much exclusively browse CodePen on Chrome, despite Firefox being my primary browser.</p>\n<p>Mozilla, you need to catch up.</p>\n"
+      "id": "https://vale.rocks/micros/20240906-1110.html",
+      "url": "https://vale.rocks/micros/20240906-1110.html",
+      "title": "06 Sept 2024 11:10",
+      "content_html": "<p>I pretty much exclusively browse CodePen on Chrome, despite Firefox being my primary browser.</p>\n<p>Mozilla, you need to catch up.</p>\n",
+      "date_published": "2024-09-06T11:10"
     },
     {
-      "id": "https://vale.rocks/posts/20240827-0021.html",
-      "url": "https://vale.rocks/posts/20240827-0021.html",
-      "content_html": "<p>Honestly pretty disappointed we haven&#8217;t gotten an Ask Jeeves AI.</p>\n<p>A mark was missed.</p>\n"
+      "id": "https://vale.rocks/micros/20240827-0021.html",
+      "url": "https://vale.rocks/micros/20240827-0021.html",
+      "title": "27 Aug 2024 00:21",
+      "content_html": "<p>Honestly pretty disappointed we haven&#8217;t gotten an Ask Jeeves AI.</p>\n<p>A mark was missed.</p>\n",
+      "date_published": "2024-08-27T00:21"
     },
     {
-      "id": "https://vale.rocks/posts/20240826-1145.html",
-      "url": "https://vale.rocks/posts/20240826-1145.html",
-      "content_html": "<p>Everyone else listens for their fan to spin down so they know their code has finished compiling from halfway across the room, yeah?</p>\n"
+      "id": "https://vale.rocks/micros/20240826-1145.html",
+      "url": "https://vale.rocks/micros/20240826-1145.html",
+      "title": "26 Aug 2024 11:45",
+      "content_html": "<p>Everyone else listens for their fan to spin down so they know their code has finished compiling from halfway across the room, yeah?</p>\n",
+      "date_published": "2024-08-26T11:45"
     },
     {
-      "id": "https://vale.rocks/posts/20240826-0952.html",
-      "url": "https://vale.rocks/posts/20240826-0952.html",
-      "content_html": "<p>Great moments in Revolt development:</p>\n<pre><code>RUN yarn install --frozen-lockfile\nRUN yarn build:deps\n# RUN yarn typecheck # lol no\nRUN yarn build:highmem\nRUN yarn workspaces focus --production --all\n</code></pre><p><a href=\"https://github.com/revoltchat/revite/blob/master/Dockerfile#L9\">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>\n"
+      "id": "https://vale.rocks/micros/20240826-0952.html",
+      "url": "https://vale.rocks/micros/20240826-0952.html",
+      "title": "26 Aug 2024 09:52",
+      "content_html": "<p>Great moments in Revolt development:</p>\n<pre><code>RUN yarn install --frozen-lockfile\nRUN yarn build:deps\n# RUN yarn typecheck # lol no\nRUN yarn build:highmem\nRUN yarn workspaces focus --production --all\n</code></pre><p><a href=\"https://github.com/revoltchat/revite/blob/master/Dockerfile#L9\">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>\n",
+      "date_published": "2024-08-26T09:52"
     },
     {
-      "id": "https://vale.rocks/posts/20240824-0833.html",
-      "url": "https://vale.rocks/posts/20240824-0833.html",
-      "content_html": "<p>One great use of LLMs I&#8217;ve found is as dynamic WordPress documentation generators.</p>\n<p>WordPress is really poorly documented. Especially block themes, which are a mess in more ways than just documentation.</p>\n"
+      "id": "https://vale.rocks/micros/20240824-0833.html",
+      "url": "https://vale.rocks/micros/20240824-0833.html",
+      "title": "24 Aug 2024 08:33",
+      "content_html": "<p>One great use of LLMs I&#8217;ve found is as dynamic WordPress documentation generators.</p>\n<p>WordPress is really poorly documented. Especially block themes, which are a mess in more ways than just documentation.</p>\n",
+      "date_published": "2024-08-24T08:33"
     },
     {
-      "id": "https://vale.rocks/posts/20240822-0407.html",
-      "url": "https://vale.rocks/posts/20240822-0407.html",
-      "content_html": "<p>People who have a minimap in their editor, why?</p>\n<p>I had one briefly back in the Atom days, but it was never all that useful. I&#8217;ve found having breadcrumbs at the top of my editor fills every minimap use case I can imagine.</p>\n<p>Interested to hear how people use them and if I&#8217;m perhaps missing something.</p>\n"
+      "id": "https://vale.rocks/micros/20240822-0407.html",
+      "url": "https://vale.rocks/micros/20240822-0407.html",
+      "title": "22 Aug 2024 04:07",
+      "content_html": "<p>People who have a minimap in their editor, why?</p>\n<p>I had one briefly back in the Atom days, but it was never all that useful. I&#8217;ve found having breadcrumbs at the top of my editor fills every minimap use case I can imagine.</p>\n<p>Interested to hear how people use them and if I&#8217;m perhaps missing something.</p>\n",
+      "date_published": "2024-08-22T04:07"
     },
     {
-      "id": "https://vale.rocks/posts/20240818-1059.html",
-      "url": "https://vale.rocks/posts/20240818-1059.html",
-      "content_html": "<p>This is a quote from Gian-Carlo Rota&#8217;s <em>Indiscrete Thoughts</em> that I think applies particularly well in the context of development:</p>\n<blockquote>\n<p>&#8220;Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;&#8221;</p>\n</blockquote>\n"
+      "id": "https://vale.rocks/micros/20240818-1059.html",
+      "url": "https://vale.rocks/micros/20240818-1059.html",
+      "title": "18 Aug 2024 10:59",
+      "content_html": "<p>This is a quote from Gian-Carlo Rota&#8217;s <em>Indiscrete Thoughts</em> that I think applies particularly well in the context of development:</p>\n<blockquote>\n<p>&#8220;Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;&#8221;</p>\n</blockquote>\n",
+      "date_published": "2024-08-18T10:59"
     },
     {
-      "id": "https://vale.rocks/posts/20240805-0457.html",
-      "url": "https://vale.rocks/posts/20240805-0457.html",
-      "content_html": "<p>Finally got around to setting up my &#8216;/uses&#8217; page.</p>\n<p>If, for whatever reason, you&#8217;re interested in seeing some of the tech and stuff I use, feel free to check it out.</p>\n<p><a href=\"https://vale.rocks/uses\">https://vale.rocks/uses</a></p>\n"
+      "id": "https://vale.rocks/micros/20240805-0457.html",
+      "url": "https://vale.rocks/micros/20240805-0457.html",
+      "title": "05 Aug 2024 04:57",
+      "content_html": "<p>Finally got around to setting up my &#8216;/uses&#8217; page.</p>\n<p>If, for whatever reason, you&#8217;re interested in seeing some of the tech and stuff I use, feel free to check it out.</p>\n<p><a href=\"https://vale.rocks/uses\">https://vale.rocks/uses</a></p>\n",
+      "date_published": "2024-08-05T04:57"
     },
     {
-      "id": "https://vale.rocks/posts/20240804-1217.html",
-      "url": "https://vale.rocks/posts/20240804-1217.html",
-      "content_html": "<p>The JavaScript Registry looks really interesting, but every time my brain sees JSR, it thinks <em>JET SET RADIOOOOOO!</em></p>\n"
+      "id": "https://vale.rocks/micros/20240804-1217.html",
+      "url": "https://vale.rocks/micros/20240804-1217.html",
+      "title": "04 Aug 2024 12:17",
+      "content_html": "<p>The JavaScript Registry looks really interesting, but every time my brain sees JSR, it thinks <em>JET SET RADIOOOOOO!</em></p>\n",
+      "date_published": "2024-08-04T12:17"
     },
     {
-      "id": "https://vale.rocks/posts/20240803-0606.html",
-      "url": "https://vale.rocks/posts/20240803-0606.html",
-      "content_html": "<p>Everyone else spams the up arrow key to find a previous command when it would have been faster to just type it out? Right?</p>\n"
+      "id": "https://vale.rocks/micros/20240803-0606.html",
+      "url": "https://vale.rocks/micros/20240803-0606.html",
+      "title": "03 Aug 2024 06:06",
+      "content_html": "<p>Everyone else spams the up arrow key to find a previous command when it would have been faster to just type it out? Right?</p>\n",
+      "date_published": "2024-08-03T06:06"
     },
     {
-      "id": "https://vale.rocks/posts/20240802-1008.html",
-      "url": "https://vale.rocks/posts/20240802-1008.html",
-      "content_html": "<p>Server upgraded and everything running again.</p>\n<p>Bumped up to 8GB of RAM from 4GB, cleaned out the case, installed a new 4TB HDD, and migrated from Debian to NixOS.</p>\n"
+      "id": "https://vale.rocks/micros/20240802-1008.html",
+      "url": "https://vale.rocks/micros/20240802-1008.html",
+      "title": "02 Aug 2024 10:08",
+      "content_html": "<p>Server upgraded and everything running again.</p>\n<p>Bumped up to 8GB of RAM from 4GB, cleaned out the case, installed a new 4TB HDD, and migrated from Debian to NixOS.</p>\n",
+      "date_published": "2024-08-02T10:08"
     },
     {
-      "id": "https://vale.rocks/posts/20240731-0411.html",
-      "url": "https://vale.rocks/posts/20240731-0411.html",
-      "content_html": "<p>Time for a server upgrade&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/51d641d88518cbe0800ee86f51f0a3cd282ff15dbd0efcbea5153e17a381ab22.jpg\" alt=\"A 4TB WD Red Plus HDD sitting on a bench top.\"></p>\n"
+      "id": "https://vale.rocks/micros/20240731-0411.html",
+      "url": "https://vale.rocks/micros/20240731-0411.html",
+      "title": "31 Jul 2024 04:11",
+      "content_html": "<p>Time for a server upgrade&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/51d641d88518cbe0800ee86f51f0a3cd282ff15dbd0efcbea5153e17a381ab22.jpg\" alt=\"A 4TB WD Red Plus HDD sitting on a bench top.\"></p>\n",
+      "date_published": "2024-07-31T04:11"
     },
     {
-      "id": "https://vale.rocks/posts/20240730-1218.html",
-      "url": "https://vale.rocks/posts/20240730-1218.html",
-      "content_html": "<p>Migrating drives tomorrow. If I disappear off Fedi, then I&#8217;ve probably killed my database.</p>\n"
+      "id": "https://vale.rocks/micros/20240730-1218.html",
+      "url": "https://vale.rocks/micros/20240730-1218.html",
+      "title": "30 Jul 2024 12:18",
+      "content_html": "<p>Migrating drives tomorrow. If I disappear off Fedi, then I&#8217;ve probably killed my database.</p>\n",
+      "date_published": "2024-07-30T12:18"
     },
     {
-      "id": "https://vale.rocks/posts/20240729-0439.html",
-      "url": "https://vale.rocks/posts/20240729-0439.html",
-      "content_html": "<p>Goodbye Xbox 360 Marketplace.</p>\n<p>I&#8217;ve made so many formative memories on the 360. It&#8217;s sad to see its infrastructure slowly shut down, bit by bit.</p>\n"
+      "id": "https://vale.rocks/micros/20240729-0439.html",
+      "url": "https://vale.rocks/micros/20240729-0439.html",
+      "title": "29 Jul 2024 04:39",
+      "content_html": "<p>Goodbye Xbox 360 Marketplace.</p>\n<p>I&#8217;ve made so many formative memories on the 360. It&#8217;s sad to see its infrastructure slowly shut down, bit by bit.</p>\n",
+      "date_published": "2024-07-29T04:39"
     },
     {
-      "id": "https://vale.rocks/posts/20240721-1249.html",
-      "url": "https://vale.rocks/posts/20240721-1249.html",
-      "content_html": "<p>Spent a bit of time putting together a little tool that lets you search across search engines. You can pick a default and use bangs to search a specific site, like on DuckDuckGo.</p>\n<p>Made it mainly for myself, but I&#8217;m sure it&#8217;s of interest to other people.</p>\n<p><a href=\"https://search.vale.rocks\">https://search.vale.rocks</a></p>\n"
+      "id": "https://vale.rocks/micros/20240721-1249.html",
+      "url": "https://vale.rocks/micros/20240721-1249.html",
+      "title": "21 Jul 2024 12:49",
+      "content_html": "<p>Spent a bit of time putting together a little tool that lets you search across search engines. You can pick a default and use bangs to search a specific site, like on DuckDuckGo.</p>\n<p>Made it mainly for myself, but I&#8217;m sure it&#8217;s of interest to other people.</p>\n<p><a href=\"https://search.vale.rocks\">https://search.vale.rocks</a></p>\n",
+      "date_published": "2024-07-21T12:49"
     },
     {
-      "id": "https://vale.rocks/posts/20240705-1153.html",
-      "url": "https://vale.rocks/posts/20240705-1153.html",
-      "content_html": "<p><a href=\"https://penpot.app\">Penpot</a> kicks arse! It&#8217;s got all the sick layout features of something like Figma but represents them exactly as I&#8217;d need to implement them in CSS.</p>\n<p>This is sick!</p>\n"
+      "id": "https://vale.rocks/micros/20240705-1153.html",
+      "url": "https://vale.rocks/micros/20240705-1153.html",
+      "title": "05 Jul 2024 11:53",
+      "content_html": "<p><a href=\"https://penpot.app\">Penpot</a> kicks arse! It&#8217;s got all the sick layout features of something like Figma but represents them exactly as I&#8217;d need to implement them in CSS.</p>\n<p>This is sick!</p>\n",
+      "date_published": "2024-07-05T11:53"
     },
     {
-      "id": "https://vale.rocks/posts/20240701-0805.html",
-      "url": "https://vale.rocks/posts/20240701-0805.html",
-      "content_html": "<p>Just successfully implemented a feature I&#8217;ve been struggling to get working for yonks, and, as I did, <em>(Get A) Grip (on Yourself)</em> by The Stranglers started blasting.</p>\n<p>Feels good.</p>\n<p><a href=\"https://music.youtube.com/watch?v=uakqdR2B2w8\">https://music.youtube.com/watch?v=uakqdR2B2w8</a></p>\n"
+      "id": "https://vale.rocks/micros/20240701-0805.html",
+      "url": "https://vale.rocks/micros/20240701-0805.html",
+      "title": "01 Jul 2024 08:05",
+      "content_html": "<p>Just successfully implemented a feature I&#8217;ve been struggling to get working for yonks, and, as I did, <em>(Get A) Grip (on Yourself)</em> by The Stranglers started blasting.</p>\n<p>Feels good.</p>\n<p><a href=\"https://music.youtube.com/watch?v=uakqdR2B2w8\">https://music.youtube.com/watch?v=uakqdR2B2w8</a></p>\n",
+      "date_published": "2024-07-01T08:05"
     },
     {
-      "id": "https://vale.rocks/posts/20240615-1305.html",
-      "url": "https://vale.rocks/posts/20240615-1305.html",
-      "content_html": "<p>The phrase &#8220;WebKit magic&#8221; is something I could live without.</p>\n"
+      "id": "https://vale.rocks/micros/20240615-1305.html",
+      "url": "https://vale.rocks/micros/20240615-1305.html",
+      "title": "15 Jun 2024 13:05",
+      "content_html": "<p>The phrase &#8220;WebKit magic&#8221; is something I could live without.</p>\n",
+      "date_published": "2024-06-15T13:05"
     },
     {
-      "id": "https://vale.rocks/posts/20240613-0119.html",
-      "url": "https://vale.rocks/posts/20240613-0119.html",
-      "content_html": "<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>\n"
+      "id": "https://vale.rocks/micros/20240613-0119.html",
+      "url": "https://vale.rocks/micros/20240613-0119.html",
+      "title": "13 Jun 2024 01:19",
+      "content_html": "<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>\n",
+      "date_published": "2024-06-13T01:19"
     },
     {
-      "id": "https://vale.rocks/posts/20240611-1137.html",
-      "url": "https://vale.rocks/posts/20240611-1137.html",
-      "content_html": "<p>Decided to try music streaming again. The Vengabus started playing. I now remember why I maintain a local library.</p>\n"
+      "id": "https://vale.rocks/micros/20240611-1137.html",
+      "url": "https://vale.rocks/micros/20240611-1137.html",
+      "title": "11 Jun 2024 11:37",
+      "content_html": "<p>Decided to try music streaming again. The Vengabus started playing. I now remember why I maintain a local library.</p>\n",
+      "date_published": "2024-06-11T11:37"
     },
     {
-      "id": "https://vale.rocks/posts/20240611-0919.html",
-      "url": "https://vale.rocks/posts/20240611-0919.html",
-      "content_html": "<p>Finally gave Zed a quick go on NixOS. It&#8217;s slick. The collaboration features are unrivalled.</p>\n<p>If someone asks for a code editor in future, Zed is gonna be my suggestion. As much as I love NeoVim, I understand it isn&#8217;t everyone&#8217;s cup of tea. I can only see Zed getting better and filling the shoes of VS Code.</p>\n"
+      "id": "https://vale.rocks/micros/20240611-0919.html",
+      "url": "https://vale.rocks/micros/20240611-0919.html",
+      "title": "11 Jun 2024 09:19",
+      "content_html": "<p>Finally gave Zed a quick go on NixOS. It&#8217;s slick. The collaboration features are unrivalled.</p>\n<p>If someone asks for a code editor in future, Zed is gonna be my suggestion. As much as I love NeoVim, I understand it isn&#8217;t everyone&#8217;s cup of tea. I can only see Zed getting better and filling the shoes of VS Code.</p>\n",
+      "date_published": "2024-06-11T09:19"
     },
     {
-      "id": "https://vale.rocks/posts/20240606-0355.html",
-      "url": "https://vale.rocks/posts/20240606-0355.html",
-      "content_html": "<p>Please let this happen. I&#8217;ve waited so long.</p>\n<p><a href=\"https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com\">https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com</a></p>\n"
+      "id": "https://vale.rocks/micros/20240606-0355.html",
+      "url": "https://vale.rocks/micros/20240606-0355.html",
+      "title": "06 Jun 2024 03:55",
+      "content_html": "<p>Please let this happen. I&#8217;ve waited so long.</p>\n<p><a href=\"https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com\">https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com</a></p>\n",
+      "date_published": "2024-06-06T03:55"
     },
     {
-      "id": "https://vale.rocks/posts/20240522-1157.html",
-      "url": "https://vale.rocks/posts/20240522-1157.html",
-      "content_html": "<p>Does this Neuralink stuff remind anyone else of &#8220;Flowers for Algernon&#8221;? The patient experiences temporary enhancement and then has it slowly taken away. I fear the potential psychological impact.</p>\n"
+      "id": "https://vale.rocks/micros/20240522-1157.html",
+      "url": "https://vale.rocks/micros/20240522-1157.html",
+      "title": "22 May 2024 11:57",
+      "content_html": "<p>Does this Neuralink stuff remind anyone else of &#8220;Flowers for Algernon&#8221;? The patient experiences temporary enhancement and then has it slowly taken away. I fear the potential psychological impact.</p>\n",
+      "date_published": "2024-05-22T11:57"
     },
     {
-      "id": "https://vale.rocks/posts/20240520-0934.html",
-      "url": "https://vale.rocks/posts/20240520-0934.html",
-      "content_html": "<p>So, uh, is the punchline of The Big Bang Theory just misogyny?</p>\n<p>I don&#8217;t watch the show, but every time I&#8217;m exposed to it, that&#8217;s the impression I get.</p>\n"
+      "id": "https://vale.rocks/micros/20240520-0934.html",
+      "url": "https://vale.rocks/micros/20240520-0934.html",
+      "title": "20 May 2024 09:34",
+      "content_html": "<p>So, uh, is the punchline of The Big Bang Theory just misogyny?</p>\n<p>I don&#8217;t watch the show, but every time I&#8217;m exposed to it, that&#8217;s the impression I get.</p>\n",
+      "date_published": "2024-05-20T09:34"
     },
     {
-      "id": "https://vale.rocks/posts/20240516-1312.html",
-      "url": "https://vale.rocks/posts/20240516-1312.html",
-      "content_html": "<p>Been keeping an eye on the GitHub milestone as the issues were slowly crossed off the list. Very glad to see the release of Neovim v0.10.</p>\n<p>So many great improvements with this release! Congrats to the team!</p>\n"
+      "id": "https://vale.rocks/micros/20240516-1312.html",
+      "url": "https://vale.rocks/micros/20240516-1312.html",
+      "title": "16 May 2024 13:12",
+      "content_html": "<p>Been keeping an eye on the GitHub milestone as the issues were slowly crossed off the list. Very glad to see the release of Neovim v0.10.</p>\n<p>So many great improvements with this release! Congrats to the team!</p>\n",
+      "date_published": "2024-05-16T13:12"
     },
     {
-      "id": "https://vale.rocks/posts/20240508-0906.html",
-      "url": "https://vale.rocks/posts/20240508-0906.html",
-      "content_html": "<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>\n<p><img src=\"https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg\" alt=\"Photograph of a crab sitting in sand next to a rock within a dark bucket.\"></p>\n<p>In other news, I just published some new images to my Unsplash, so check them out.</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
+      "id": "https://vale.rocks/micros/20240508-0906.html",
+      "url": "https://vale.rocks/micros/20240508-0906.html",
+      "title": "08 May 2024 09:06",
+      "content_html": "<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>\n<p><img src=\"https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg\" alt=\"Photograph of a crab sitting in sand next to a rock within a dark bucket.\"></p>\n<p>In other news, I just published some new images to my Unsplash, so check them out.</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
+      "date_published": "2024-05-08T09:06"
     },
     {
-      "id": "https://vale.rocks/posts/20240507-1134.html",
-      "url": "https://vale.rocks/posts/20240507-1134.html",
-      "content_html": "<p>Well, I just watched Red vs Blue: Restoration. I suppose that&#8217;s it. Red vs Blue is over. I was late to the series, having only discovered it in recent years, but that doesn&#8217;t make seeing it end any easier.</p>\n<p>Restoration felt rushed and unpolished. I think an extra half hour on it&#8217;s runtime would have it many favours. It certainly wasn&#8217;t the best ending, but it was an ending, and that&#8217;s something.</p>\n<p>It&#8217;s sad to see things end but I think it&#8217;s important to simply value the memories they created. After all, memory is the key</p>\n<p>Thanks Rooster Teeth.</p>\n<p><a href=\"https://www.youtube.com/watch?v=LQ0lXRq4Q3o\">https://www.youtube.com/watch?v=LQ0lXRq4Q3o</a></p>\n"
+      "id": "https://vale.rocks/micros/20240507-1134.html",
+      "url": "https://vale.rocks/micros/20240507-1134.html",
+      "title": "07 May 2024 11:34",
+      "content_html": "<p>Well, I just watched Red vs Blue: Restoration. I suppose that&#8217;s it. Red vs Blue is over. I was late to the series, having only discovered it in recent years, but that doesn&#8217;t make seeing it end any easier.</p>\n<p>Restoration felt rushed and unpolished. I think an extra half hour on it&#8217;s runtime would have it many favours. It certainly wasn&#8217;t the best ending, but it was an ending, and that&#8217;s something.</p>\n<p>It&#8217;s sad to see things end but I think it&#8217;s important to simply value the memories they created. After all, memory is the key</p>\n<p>Thanks Rooster Teeth.</p>\n<p><a href=\"https://www.youtube.com/watch?v=LQ0lXRq4Q3o\">https://www.youtube.com/watch?v=LQ0lXRq4Q3o</a></p>\n",
+      "date_published": "2024-05-07T11:34"
     },
     {
-      "id": "https://vale.rocks/posts/20240506-0432.html",
-      "url": "https://vale.rocks/posts/20240506-0432.html",
-      "content_html": "<p>Got 5G for the first time today. It is significantly faster then my home Wi-Fi network&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20240506-0432.html",
+      "url": "https://vale.rocks/micros/20240506-0432.html",
+      "title": "06 May 2024 04:32",
+      "content_html": "<p>Got 5G for the first time today. It is significantly faster then my home Wi-Fi network&#8230;</p>\n",
+      "date_published": "2024-05-06T04:32"
     },
     {
-      "id": "https://vale.rocks/posts/20240505-0520.html",
-      "url": "https://vale.rocks/posts/20240505-0520.html",
-      "content_html": "<p>This just in, defecation demonstration causes devastation across the nation. More at 9.</p>\n"
+      "id": "https://vale.rocks/micros/20240505-0520.html",
+      "url": "https://vale.rocks/micros/20240505-0520.html",
+      "title": "05 May 2024 05:20",
+      "content_html": "<p>This just in, defecation demonstration causes devastation across the nation. More at 9.</p>\n",
+      "date_published": "2024-05-05T05:20"
     },
     {
-      "id": "https://vale.rocks/posts/20240505-0420.html",
-      "url": "https://vale.rocks/posts/20240505-0420.html",
-      "content_html": "<p>Which one of you has been visiting my website with a Windows Phone?</p>\n"
+      "id": "https://vale.rocks/micros/20240505-0420.html",
+      "url": "https://vale.rocks/micros/20240505-0420.html",
+      "title": "05 May 2024 04:20",
+      "content_html": "<p>Which one of you has been visiting my website with a Windows Phone?</p>\n",
+      "date_published": "2024-05-05T04:20"
     },
     {
-      "id": "https://vale.rocks/posts/20240428-0810.html",
-      "url": "https://vale.rocks/posts/20240428-0810.html",
-      "content_html": "<p>Just finished my big site update. Took a bit, but it&#8217;s more accessible, responsive, and a lot easier to work with into the future. Go check it out!</p>\n<p><a href=\"https://vale.rocks\">https://vale.rocks</a></p>\n"
+      "id": "https://vale.rocks/micros/20240428-0810.html",
+      "url": "https://vale.rocks/micros/20240428-0810.html",
+      "title": "28 Apr 2024 08:10",
+      "content_html": "<p>Just finished my big site update. Took a bit, but it&#8217;s more accessible, responsive, and a lot easier to work with into the future. Go check it out!</p>\n<p><a href=\"https://vale.rocks\">https://vale.rocks</a></p>\n",
+      "date_published": "2024-04-28T08:10"
     },
     {
-      "id": "https://vale.rocks/posts/20240417-1257.html",
-      "url": "https://vale.rocks/posts/20240417-1257.html",
-      "content_html": "<p>Got a new blog post coming tomorrow regarding code formatting. Stay tuned!</p>\n"
+      "id": "https://vale.rocks/micros/20240417-1257.html",
+      "url": "https://vale.rocks/micros/20240417-1257.html",
+      "title": "17 Apr 2024 12:57",
+      "content_html": "<p>Got a new blog post coming tomorrow regarding code formatting. Stay tuned!</p>\n",
+      "date_published": "2024-04-17T12:57"
     },
     {
-      "id": "https://vale.rocks/posts/20240416-1217.html",
-      "url": "https://vale.rocks/posts/20240416-1217.html",
-      "content_html": "<p>Very disappointed by the abandonment of my 12th Gen Framework Laptop 13.</p>\n<p>Read my open complaint here:\n<a href=\"https://community.frame.work/t/my-framework-has-been-abandoned\">https://community.frame.work/t/my-framework-has-been-abandoned</a></p>\n"
+      "id": "https://vale.rocks/micros/20240416-1217.html",
+      "url": "https://vale.rocks/micros/20240416-1217.html",
+      "title": "16 Apr 2024 12:17",
+      "content_html": "<p>Very disappointed by the abandonment of my 12th Gen Framework Laptop 13.</p>\n<p>Read my open complaint here:\n<a href=\"https://community.frame.work/t/my-framework-has-been-abandoned\">https://community.frame.work/t/my-framework-has-been-abandoned</a></p>\n",
+      "date_published": "2024-04-16T12:17"
     },
     {
-      "id": "https://vale.rocks/posts/20240414-0705.html",
-      "url": "https://vale.rocks/posts/20240414-0705.html",
-      "content_html": "<p>YouTube, do you care to explain what the hell I&#8217;m looking at?</p>\n<p><img src=\"https://fedi.vale.rocks/media/e8fd53df3b7d48961e5667e6541f6f05b75243b914237071b0b41d01581808be.png\" alt=\"YouTube desktop recommended page showing a 'YouTube Playables' section with several simple free games.\"></p>\n"
+      "id": "https://vale.rocks/micros/20240414-0705.html",
+      "url": "https://vale.rocks/micros/20240414-0705.html",
+      "title": "14 Apr 2024 07:05",
+      "content_html": "<p>YouTube, do you care to explain what the hell I&#8217;m looking at?</p>\n<p><img src=\"https://fedi.vale.rocks/media/e8fd53df3b7d48961e5667e6541f6f05b75243b914237071b0b41d01581808be.png\" alt=\"YouTube desktop recommended page showing a 'YouTube Playables' section with several simple free games.\"></p>\n",
+      "date_published": "2024-04-14T07:05"
     },
     {
-      "id": "https://vale.rocks/posts/20240412-1306.html",
-      "url": "https://vale.rocks/posts/20240412-1306.html",
-      "content_html": "<p>Seeing X (formerly Twitter) fall victim to clbuttic has to be one of the funniest things I&#8217;ve seen recently.</p>\n"
+      "id": "https://vale.rocks/micros/20240412-1306.html",
+      "url": "https://vale.rocks/micros/20240412-1306.html",
+      "title": "12 Apr 2024 13:06",
+      "content_html": "<p>Seeing X (formerly Twitter) fall victim to clbuttic has to be one of the funniest things I&#8217;ve seen recently.</p>\n",
+      "date_published": "2024-04-12T13:06"
     },
     {
-      "id": "https://vale.rocks/posts/20240409-0712.html",
-      "url": "https://vale.rocks/posts/20240409-0712.html",
-      "content_html": "<p>Just registered as an organ donor. Hopefully my bits can be useful when I&#8217;m no longer using them.</p>\n<p>If you&#8217;re in Australia and want to do the same, here&#8217;s the link:\n<a href=\"https://donatelife.gov.au/register-donor-today\">https://donatelife.gov.au/register-donor-today</a></p>\n<p>Also worth reading this set of myths regarding donation:\n<a href=\"https://www.donatelife.gov.au/all-about-donation/myths-about-donation\">https://www.donatelife.gov.au/all-about-donation/myths-about-donation</a></p>\n"
+      "id": "https://vale.rocks/micros/20240409-0712.html",
+      "url": "https://vale.rocks/micros/20240409-0712.html",
+      "title": "09 Apr 2024 07:12",
+      "content_html": "<p>Just registered as an organ donor. Hopefully my bits can be useful when I&#8217;m no longer using them.</p>\n<p>If you&#8217;re in Australia and want to do the same, here&#8217;s the link:\n<a href=\"https://donatelife.gov.au/register-donor-today\">https://donatelife.gov.au/register-donor-today</a></p>\n<p>Also worth reading this set of myths regarding donation:\n<a href=\"https://www.donatelife.gov.au/all-about-donation/myths-about-donation\">https://www.donatelife.gov.au/all-about-donation/myths-about-donation</a></p>\n",
+      "date_published": "2024-04-09T07:12"
     },
     {
-      "id": "https://vale.rocks/posts/20240408-0454.html",
-      "url": "https://vale.rocks/posts/20240408-0454.html",
-      "content_html": "<p>Took a picture of this lovely lush moss!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/dF2WO_HFt3g\">https://unsplash.com/photos/dF2WO_HFt3g</a></p>\n"
+      "id": "https://vale.rocks/micros/20240408-0454.html",
+      "url": "https://vale.rocks/micros/20240408-0454.html",
+      "title": "08 Apr 2024 04:54",
+      "content_html": "<p>Took a picture of this lovely lush moss!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/dF2WO_HFt3g\">https://unsplash.com/photos/dF2WO_HFt3g</a></p>\n",
+      "date_published": "2024-04-08T04:54"
     },
     {
-      "id": "https://vale.rocks/posts/20240408-0326.html",
-      "url": "https://vale.rocks/posts/20240408-0326.html",
-      "content_html": "<p>Met this cute little frog during my Melbourne holiday!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/AOikvPjx-OE\">https://unsplash.com/photos/AOikvPjx-OE</a></p>\n"
+      "id": "https://vale.rocks/micros/20240408-0326.html",
+      "url": "https://vale.rocks/micros/20240408-0326.html",
+      "title": "08 Apr 2024 03:26",
+      "content_html": "<p>Met this cute little frog during my Melbourne holiday!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/AOikvPjx-OE\">https://unsplash.com/photos/AOikvPjx-OE</a></p>\n",
+      "date_published": "2024-04-08T03:26"
     },
     {
-      "id": "https://vale.rocks/posts/20240408-0222.html",
-      "url": "https://vale.rocks/posts/20240408-0222.html",
-      "content_html": "<p>Captured this lovely butterfly during my Melbourne trip!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/C-9QKM7OZls\">https://unsplash.com/photos/C-9QKM7OZls</a></p>\n"
+      "id": "https://vale.rocks/micros/20240408-0222.html",
+      "url": "https://vale.rocks/micros/20240408-0222.html",
+      "title": "08 Apr 2024 02:22",
+      "content_html": "<p>Captured this lovely butterfly during my Melbourne trip!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/C-9QKM7OZls\">https://unsplash.com/photos/C-9QKM7OZls</a></p>\n",
+      "date_published": "2024-04-08T02:22"
     },
     {
-      "id": "https://vale.rocks/posts/20240407-0137.html",
-      "url": "https://vale.rocks/posts/20240407-0137.html",
-      "content_html": "<p>The Joomla marketing team has been editing the Joomla Wikipedia article to promote their product.</p>\n<p>Give the article a read. It&#8217;s basically an advert.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Joomla\">https://en.wikipedia.org/wiki/Joomla</a></p>\n"
+      "id": "https://vale.rocks/micros/20240407-0137.html",
+      "url": "https://vale.rocks/micros/20240407-0137.html",
+      "title": "07 Apr 2024 01:37",
+      "content_html": "<p>The Joomla marketing team has been editing the Joomla Wikipedia article to promote their product.</p>\n<p>Give the article a read. It&#8217;s basically an advert.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Joomla\">https://en.wikipedia.org/wiki/Joomla</a></p>\n",
+      "date_published": "2024-04-07T01:37"
     },
     {
-      "id": "https://vale.rocks/posts/20240402-1249.html",
-      "url": "https://vale.rocks/posts/20240402-1249.html",
-      "content_html": "<p>Thank you all for the birthday wishes today! It&#8217;s been a most excellent day and I look forward to what the future will bring.</p>\n<p>:)</p>\n"
+      "id": "https://vale.rocks/micros/20240402-1249.html",
+      "url": "https://vale.rocks/micros/20240402-1249.html",
+      "title": "02 Apr 2024 12:49",
+      "content_html": "<p>Thank you all for the birthday wishes today! It&#8217;s been a most excellent day and I look forward to what the future will bring.</p>\n<p>:)</p>\n",
+      "date_published": "2024-04-02T12:49"
     },
     {
-      "id": "https://vale.rocks/posts/20240402-0524.html",
-      "url": "https://vale.rocks/posts/20240402-0524.html",
-      "content_html": "<p>I&#8217;m having a most excellent birthday. Can&#8217;t wait to share some of the stuff I&#8217;ve been doing!</p>\n"
+      "id": "https://vale.rocks/micros/20240402-0524.html",
+      "url": "https://vale.rocks/micros/20240402-0524.html",
+      "title": "02 Apr 2024 05:24",
+      "content_html": "<p>I&#8217;m having a most excellent birthday. Can&#8217;t wait to share some of the stuff I&#8217;ve been doing!</p>\n",
+      "date_published": "2024-04-02T05:24"
     },
     {
-      "id": "https://vale.rocks/posts/20240401-2202.html",
-      "url": "https://vale.rocks/posts/20240401-2202.html",
-      "content_html": "<p>It is with great joy that I announce I am now 18 years of age.</p>\n<p>I shall now proceed to destroy my body and mind with recreational drugs.</p>\n"
+      "id": "https://vale.rocks/micros/20240401-2202.html",
+      "url": "https://vale.rocks/micros/20240401-2202.html",
+      "title": "01 Apr 2024 22:02",
+      "content_html": "<p>It is with great joy that I announce I am now 18 years of age.</p>\n<p>I shall now proceed to destroy my body and mind with recreational drugs.</p>\n",
+      "date_published": "2024-04-01T22:02"
     },
     {
-      "id": "https://vale.rocks/posts/20240328-1052.html",
-      "url": "https://vale.rocks/posts/20240328-1052.html",
-      "content_html": "<p>The dead internet theory was better as a conspiracy theory and not as a slowly encroaching reality&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20240328-1052.html",
+      "url": "https://vale.rocks/micros/20240328-1052.html",
+      "title": "28 Mar 2024 10:52",
+      "content_html": "<p>The dead internet theory was better as a conspiracy theory and not as a slowly encroaching reality&#8230;</p>\n",
+      "date_published": "2024-03-28T10:52"
     },
     {
-      "id": "https://vale.rocks/posts/20240328-0424.html",
-      "url": "https://vale.rocks/posts/20240328-0424.html",
-      "content_html": "<p>Microsoft, I ask of you this:</p>\n<p>Does <em>everything</em> need AI integration?</p>\n"
+      "id": "https://vale.rocks/micros/20240328-0424.html",
+      "url": "https://vale.rocks/micros/20240328-0424.html",
+      "title": "28 Mar 2024 04:24",
+      "content_html": "<p>Microsoft, I ask of you this:</p>\n<p>Does <em>everything</em> need AI integration?</p>\n",
+      "date_published": "2024-03-28T04:24"
     },
     {
-      "id": "https://vale.rocks/posts/20240327-0753.html",
-      "url": "https://vale.rocks/posts/20240327-0753.html",
-      "content_html": "<p>There is an old saying that goes &#8220;If you’re not paying for the product, then you are the product.&#8221;</p>\n<p>It almost seems that for the digital age it should be altered to &#8220;If you’re paying for the product, then you are the product.&#8221;</p>\n"
+      "id": "https://vale.rocks/micros/20240327-0753.html",
+      "url": "https://vale.rocks/micros/20240327-0753.html",
+      "title": "27 Mar 2024 07:53",
+      "content_html": "<p>There is an old saying that goes &#8220;If you’re not paying for the product, then you are the product.&#8221;</p>\n<p>It almost seems that for the digital age it should be altered to &#8220;If you’re paying for the product, then you are the product.&#8221;</p>\n",
+      "date_published": "2024-03-27T07:53"
     },
     {
-      "id": "https://vale.rocks/posts/20240323-1037.html",
-      "url": "https://vale.rocks/posts/20240323-1037.html",
-      "content_html": "<p>A debatable claim&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/a454144cab755a34c363feb5a8368c747c8464a288486272066f0a9812a07fe7.png\" alt=\"Screenshot of a webpage section describing \"kotlin-native\" with text that reads \"A modern programming language that makes developers happier.\"\"></p>\n"
+      "id": "https://vale.rocks/micros/20240323-1037.html",
+      "url": "https://vale.rocks/micros/20240323-1037.html",
+      "title": "23 Mar 2024 10:37",
+      "content_html": "<p>A debatable claim&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/a454144cab755a34c363feb5a8368c747c8464a288486272066f0a9812a07fe7.png\" alt=\"Screenshot of a webpage section describing \"kotlin-native\" with text that reads \"A modern programming language that makes developers happier.\"\"></p>\n",
+      "date_published": "2024-03-23T10:37"
     },
     {
-      "id": "https://vale.rocks/posts/20240323-0255.html",
-      "url": "https://vale.rocks/posts/20240323-0255.html",
-      "content_html": "<p>haich tee tee pee ess colon slash slash vale dot rocks</p>\n"
+      "id": "https://vale.rocks/micros/20240323-0255.html",
+      "url": "https://vale.rocks/micros/20240323-0255.html",
+      "title": "23 Mar 2024 02:55",
+      "content_html": "<p>haich tee tee pee ess colon slash slash vale dot rocks</p>\n",
+      "date_published": "2024-03-23T02:55"
     },
     {
-      "id": "https://vale.rocks/posts/20240322-1155.html",
-      "url": "https://vale.rocks/posts/20240322-1155.html",
-      "content_html": "<p>I discovered <code>&lt;kbd&gt;</code> today. I simply do not know how I wasn&#8217;t aware of it until this point. This is awesome!</p>\n<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd\">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd</a></p>\n"
+      "id": "https://vale.rocks/micros/20240322-1155.html",
+      "url": "https://vale.rocks/micros/20240322-1155.html",
+      "title": "22 Mar 2024 11:55",
+      "content_html": "<p>I discovered <code>&lt;kbd&gt;</code> today. I simply do not know how I wasn&#8217;t aware of it until this point. This is awesome!</p>\n<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd\">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd</a></p>\n",
+      "date_published": "2024-03-22T11:55"
     },
     {
-      "id": "https://vale.rocks/posts/20240322-0451.html",
-      "url": "https://vale.rocks/posts/20240322-0451.html",
-      "content_html": "<p>Does anyone else beat their keys like they owe you money when trying to get into the BIOS?</p>\n"
+      "id": "https://vale.rocks/micros/20240322-0451.html",
+      "url": "https://vale.rocks/micros/20240322-0451.html",
+      "title": "22 Mar 2024 04:51",
+      "content_html": "<p>Does anyone else beat their keys like they owe you money when trying to get into the BIOS?</p>\n",
+      "date_published": "2024-03-22T04:51"
     },
     {
-      "id": "https://vale.rocks/posts/20240321-1002.html",
-      "url": "https://vale.rocks/posts/20240321-1002.html",
-      "content_html": "<p>Congrats to the GNOME team for the release of version 46!</p>\n<p>Nothing revolutionary but so many fixes, tweaks, and quality of life improvements. Bravo!</p>\n"
+      "id": "https://vale.rocks/micros/20240321-1002.html",
+      "url": "https://vale.rocks/micros/20240321-1002.html",
+      "title": "21 Mar 2024 10:02",
+      "content_html": "<p>Congrats to the GNOME team for the release of version 46!</p>\n<p>Nothing revolutionary but so many fixes, tweaks, and quality of life improvements. Bravo!</p>\n",
+      "date_published": "2024-03-21T10:02"
     },
     {
-      "id": "https://vale.rocks/posts/20240319-0234.html",
-      "url": "https://vale.rocks/posts/20240319-0234.html",
-      "content_html": "<p>I&#8217;ve noticed what seems to be a growing distaste for Git in my frontend development feeds on Bluesky.</p>\n<p>I must say that once I got past the initial learning curve, I&#8217;ve found it quite nice.</p>\n"
+      "id": "https://vale.rocks/micros/20240319-0234.html",
+      "url": "https://vale.rocks/micros/20240319-0234.html",
+      "title": "19 Mar 2024 02:34",
+      "content_html": "<p>I&#8217;ve noticed what seems to be a growing distaste for Git in my frontend development feeds on Bluesky.</p>\n<p>I must say that once I got past the initial learning curve, I&#8217;ve found it quite nice.</p>\n",
+      "date_published": "2024-03-19T02:34"
     },
     {
-      "id": "https://vale.rocks/posts/20240318-0152.html",
-      "url": "https://vale.rocks/posts/20240318-0152.html",
-      "content_html": "<p>Hey, err, web devs on Windows. How do you guys test for WebKit?</p>\n<p>As far as I can see, not a single native Windows WebKit browser exists&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20240318-0152.html",
+      "url": "https://vale.rocks/micros/20240318-0152.html",
+      "title": "18 Mar 2024 01:52",
+      "content_html": "<p>Hey, err, web devs on Windows. How do you guys test for WebKit?</p>\n<p>As far as I can see, not a single native Windows WebKit browser exists&#8230;</p>\n",
+      "date_published": "2024-03-18T01:52"
     },
     {
-      "id": "https://vale.rocks/posts/20240317-1339.html",
-      "url": "https://vale.rocks/posts/20240317-1339.html",
-      "content_html": "<p>If you ever feel useless, just be glad you aren&#8217;t <code>&lt;Button&gt;</code> in React Native.</p>\n"
+      "id": "https://vale.rocks/micros/20240317-1339.html",
+      "url": "https://vale.rocks/micros/20240317-1339.html",
+      "title": "17 Mar 2024 13:39",
+      "content_html": "<p>If you ever feel useless, just be glad you aren&#8217;t <code>&lt;Button&gt;</code> in React Native.</p>\n",
+      "date_published": "2024-03-17T13:39"
     },
     {
-      "id": "https://vale.rocks/posts/20240310-1104.html",
-      "url": "https://vale.rocks/posts/20240310-1104.html",
-      "content_html": "<p>Just found out about WordPress&#8217;s excellent <code>funky_javascript_fix</code>.</p>\n<p><a href=\"https://developer.wordpress.org/reference/functions/funky_javascript_fix\">https://developer.wordpress.org/reference/functions/funky_javascript_fix</a></p>\n"
+      "id": "https://vale.rocks/micros/20240310-1104.html",
+      "url": "https://vale.rocks/micros/20240310-1104.html",
+      "title": "10 Mar 2024 11:04",
+      "content_html": "<p>Just found out about WordPress&#8217;s excellent <code>funky_javascript_fix</code>.</p>\n<p><a href=\"https://developer.wordpress.org/reference/functions/funky_javascript_fix\">https://developer.wordpress.org/reference/functions/funky_javascript_fix</a></p>\n",
+      "date_published": "2024-03-10T11:04"
     },
     {
-      "id": "https://vale.rocks/posts/20240306-0216.html",
-      "url": "https://vale.rocks/posts/20240306-0216.html",
-      "content_html": "<p>There is a problem with the legal system when organisations can throw around their weight and money to crush innovation and community-driven projects under the guise of protecting intellectual property.</p>\n"
+      "id": "https://vale.rocks/micros/20240306-0216.html",
+      "url": "https://vale.rocks/micros/20240306-0216.html",
+      "title": "06 Mar 2024 02:16",
+      "content_html": "<p>There is a problem with the legal system when organisations can throw around their weight and money to crush innovation and community-driven projects under the guise of protecting intellectual property.</p>\n",
+      "date_published": "2024-03-06T02:16"
     },
     {
-      "id": "https://vale.rocks/posts/20240223-1201.html",
-      "url": "https://vale.rocks/posts/20240223-1201.html",
-      "content_html": "<p>Props to <a href=\"https://mozilla.org\">Mozilla</a> and <a href=\"https://proton.me\">Proton</a> for providing an informative changelog.</p>\n<p>Too many apps just say &#8216;improved performance&#8217; or &#8216;increased stability&#8217;.</p>\n"
+      "id": "https://vale.rocks/micros/20240223-1201.html",
+      "url": "https://vale.rocks/micros/20240223-1201.html",
+      "title": "23 Feb 2024 12:01",
+      "content_html": "<p>Props to <a href=\"https://mozilla.org\">Mozilla</a> and <a href=\"https://proton.me\">Proton</a> for providing an informative changelog.</p>\n<p>Too many apps just say &#8216;improved performance&#8217; or &#8216;increased stability&#8217;.</p>\n",
+      "date_published": "2024-02-23T12:01"
     },
     {
-      "id": "https://vale.rocks/posts/20240221-1340.html",
-      "url": "https://vale.rocks/posts/20240221-1340.html",
-      "content_html": "<p>Considering the amount of far right content that keeps making its way into my YouTube recommendations, I now understand how so many people end up falling down the path of hate.</p>\n<p>YouTube needs to do better and moderate its platform.</p>\n<p>I&#8217;m especially sickened by the sheer amount of anti-trans content that enters my YouTube recommendations. Videos that outright suggest that people assault transgender individuals.</p>\n<p>Yesterday, I saw a video from a literal Nazi. His content was promoted and had a large number of views. He engages in marches around cities, urging others to join him in his hate campaigns. This really shouldn&#8217;t be sent to my front page, or anyone&#8217;s, for that matter.</p>\n<p>I created an alternate account on another device, on another network. This account had no links to my own and a fresh install of its OS. I received the same content nearly immediately. I found YouTube&#8217;s Shorts feature pushed it particularly hard.</p>\n<p>I also noticed that YouTube&#8217;s &#8220;news&#8221; tab promoted Sky News above all other broadcasters.</p>\n<p>News arguably shouldn&#8217;t be treated differently on the platform at all, but to promote a network with such bias and prejudice above all others is inexcusable.</p>\n<p>Remember not to engage with this content. Move on as soon as you realise what it is. Don&#8217;t dislike it. Don&#8217;t comment condemning it. Move on.</p>\n<p>The more you interact, the more is promoted.</p>\n<p>YouTube, you must do better. This isn&#8217;t acceptable. Stop this hate bait and get it off the platform.</p>\n"
+      "id": "https://vale.rocks/micros/20240221-1340.html",
+      "url": "https://vale.rocks/micros/20240221-1340.html",
+      "title": "21 Feb 2024 13:40",
+      "content_html": "<p>Considering the amount of far right content that keeps making its way into my YouTube recommendations, I now understand how so many people end up falling down the path of hate.</p>\n<p>YouTube needs to do better and moderate its platform.</p>\n<p>I&#8217;m especially sickened by the sheer amount of anti-trans content that enters my YouTube recommendations. Videos that outright suggest that people assault transgender individuals.</p>\n<p>Yesterday, I saw a video from a literal Nazi. His content was promoted and had a large number of views. He engages in marches around cities, urging others to join him in his hate campaigns. This really shouldn&#8217;t be sent to my front page, or anyone&#8217;s, for that matter.</p>\n<p>I created an alternate account on another device, on another network. This account had no links to my own and a fresh install of its OS. I received the same content nearly immediately. I found YouTube&#8217;s Shorts feature pushed it particularly hard.</p>\n<p>I also noticed that YouTube&#8217;s &#8220;news&#8221; tab promoted Sky News above all other broadcasters.</p>\n<p>News arguably shouldn&#8217;t be treated differently on the platform at all, but to promote a network with such bias and prejudice above all others is inexcusable.</p>\n<p>Remember not to engage with this content. Move on as soon as you realise what it is. Don&#8217;t dislike it. Don&#8217;t comment condemning it. Move on.</p>\n<p>The more you interact, the more is promoted.</p>\n<p>YouTube, you must do better. This isn&#8217;t acceptable. Stop this hate bait and get it off the platform.</p>\n",
+      "date_published": "2024-02-21T13:40"
     },
     {
-      "id": "https://vale.rocks/posts/20240221-1214.html",
-      "url": "https://vale.rocks/posts/20240221-1214.html",
-      "content_html": "<p>With the increasing popularity of folding phones I hope we&#8217;ll see a mod that plays Mario&#8217;s &#8220;Goodbye&#8221; sound byte from Super Mario 64 DS when closing the lid.</p>\n"
+      "id": "https://vale.rocks/micros/20240221-1214.html",
+      "url": "https://vale.rocks/micros/20240221-1214.html",
+      "title": "21 Feb 2024 12:14",
+      "content_html": "<p>With the increasing popularity of folding phones I hope we&#8217;ll see a mod that plays Mario&#8217;s &#8220;Goodbye&#8221; sound byte from Super Mario 64 DS when closing the lid.</p>\n",
+      "date_published": "2024-02-21T12:14"
     },
     {
-      "id": "https://vale.rocks/posts/20240220-0353.html",
-      "url": "https://vale.rocks/posts/20240220-0353.html",
-      "content_html": "<p>It&#8217;s really hard to comprehend how much damage the mongrel Rupert Murdoch has done unless you sit down and look at his publications.</p>\n<p>Endless far right slop riddled with engagement bait. The so called &#8216;news&#8217; sells anger, not information.</p>\n"
+      "id": "https://vale.rocks/micros/20240220-0353.html",
+      "url": "https://vale.rocks/micros/20240220-0353.html",
+      "title": "20 Feb 2024 03:53",
+      "content_html": "<p>It&#8217;s really hard to comprehend how much damage the mongrel Rupert Murdoch has done unless you sit down and look at his publications.</p>\n<p>Endless far right slop riddled with engagement bait. The so called &#8216;news&#8217; sells anger, not information.</p>\n",
+      "date_published": "2024-02-20T03:53"
     },
     {
-      "id": "https://vale.rocks/posts/20240219-0447.html",
-      "url": "https://vale.rocks/posts/20240219-0447.html",
-      "content_html": "<p>Moved my Bluesky account from <a href=\"https://bsky.app/profile/outervale.bsky.social\">@outervale.bsky.social</a> to <a href=\"https://bsky.app/profile/vale.rocks\">@vale.rocks</a>. Quite a neat feature.</p>\n"
+      "id": "https://vale.rocks/micros/20240219-0447.html",
+      "url": "https://vale.rocks/micros/20240219-0447.html",
+      "title": "19 Feb 2024 04:47",
+      "content_html": "<p>Moved my Bluesky account from <a href=\"https://bsky.app/profile/outervale.bsky.social\">@outervale.bsky.social</a> to <a href=\"https://bsky.app/profile/vale.rocks\">@vale.rocks</a>. Quite a neat feature.</p>\n",
+      "date_published": "2024-02-19T04:47"
     },
     {
-      "id": "https://vale.rocks/posts/20240218-0552.html",
-      "url": "https://vale.rocks/posts/20240218-0552.html",
-      "content_html": "<p>It&#8217;s amazing how quickly Bluesky is evolving. It&#8217;s lovely to see a platform come together like this.</p>\n<p>I wonder how long it&#8217;ll be until they start shoehorning in features in the pursuit of profit that damages the user experience.</p>\n"
+      "id": "https://vale.rocks/micros/20240218-0552.html",
+      "url": "https://vale.rocks/micros/20240218-0552.html",
+      "title": "18 Feb 2024 05:52",
+      "content_html": "<p>It&#8217;s amazing how quickly Bluesky is evolving. It&#8217;s lovely to see a platform come together like this.</p>\n<p>I wonder how long it&#8217;ll be until they start shoehorning in features in the pursuit of profit that damages the user experience.</p>\n",
+      "date_published": "2024-02-18T05:52"
     },
     {
-      "id": "https://vale.rocks/posts/20240211-1206.html",
-      "url": "https://vale.rocks/posts/20240211-1206.html",
-      "content_html": "<p>It&#8217;s been a few days since I&#8217;ve posted so I figure I&#8217;ll just leave Star Trekkin&#8217; here for any poor souls who haven&#8217;t had the privilege of experiencing it.</p>\n<p><a href=\"https://www.youtube.com/watch?v=FCARADb9asE\">https://www.youtube.com/watch?v=FCARADb9asE</a></p>\n"
+      "id": "https://vale.rocks/micros/20240211-1206.html",
+      "url": "https://vale.rocks/micros/20240211-1206.html",
+      "title": "11 Feb 2024 12:06",
+      "content_html": "<p>It&#8217;s been a few days since I&#8217;ve posted so I figure I&#8217;ll just leave Star Trekkin&#8217; here for any poor souls who haven&#8217;t had the privilege of experiencing it.</p>\n<p><a href=\"https://www.youtube.com/watch?v=FCARADb9asE\">https://www.youtube.com/watch?v=FCARADb9asE</a></p>\n",
+      "date_published": "2024-02-11T12:06"
     },
     {
-      "id": "https://vale.rocks/posts/20240206-0318.html",
-      "url": "https://vale.rocks/posts/20240206-0318.html",
-      "content_html": "<p>It&#8217;s time. Time for me to get Omikron.</p>\n<p><img src=\"https://fedi.vale.rocks/media/3872d5fc22c23b248f41e6e5133e3a306d8d22bb2f425e95e7390050f270bcb6.png\" alt=\"Interface showing the text \"1 game you've wished for is on sale!\" with the thumbnail of the game Omikron bellow it at a price of $2.09.\"></p>\n"
+      "id": "https://vale.rocks/micros/20240206-0318.html",
+      "url": "https://vale.rocks/micros/20240206-0318.html",
+      "title": "06 Feb 2024 03:18",
+      "content_html": "<p>It&#8217;s time. Time for me to get Omikron.</p>\n<p><img src=\"https://fedi.vale.rocks/media/3872d5fc22c23b248f41e6e5133e3a306d8d22bb2f425e95e7390050f270bcb6.png\" alt=\"Interface showing the text \"1 game you've wished for is on sale!\" with the thumbnail of the game Omikron bellow it at a price of $2.09.\"></p>\n",
+      "date_published": "2024-02-06T03:18"
     },
     {
-      "id": "https://vale.rocks/posts/20240205-1158.html",
-      "url": "https://vale.rocks/posts/20240205-1158.html",
-      "content_html": "<p>I joined Bluesky this morning. It feels like a more refined version of Twitter pre Musk.</p>\n<p>I&#8217;ll be sticking to the fediverse, but feel free to send me a follow!</p>\n<p><a href=\"https://bsky.app/profile/outervale.bsky.social\">@outervale.bsky.social</a></p>\n"
+      "id": "https://vale.rocks/micros/20240205-1158.html",
+      "url": "https://vale.rocks/micros/20240205-1158.html",
+      "title": "05 Feb 2024 11:58",
+      "content_html": "<p>I joined Bluesky this morning. It feels like a more refined version of Twitter pre Musk.</p>\n<p>I&#8217;ll be sticking to the fediverse, but feel free to send me a follow!</p>\n<p><a href=\"https://bsky.app/profile/outervale.bsky.social\">@outervale.bsky.social</a></p>\n",
+      "date_published": "2024-02-05T11:58"
     },
     {
-      "id": "https://vale.rocks/posts/20240205-0902.html",
-      "url": "https://vale.rocks/posts/20240205-0902.html",
-      "content_html": "<p>Ahhh, yes. Neo-Twitter. Risen from the ashes of the internet&#8217;s previous tabloid crap peddler.</p>\n"
+      "id": "https://vale.rocks/micros/20240205-0902.html",
+      "url": "https://vale.rocks/micros/20240205-0902.html",
+      "title": "05 Feb 2024 09:02",
+      "content_html": "<p>Ahhh, yes. Neo-Twitter. Risen from the ashes of the internet&#8217;s previous tabloid crap peddler.</p>\n",
+      "date_published": "2024-02-05T09:02"
     },
     {
-      "id": "https://vale.rocks/posts/20240202-1250.html",
-      "url": "https://vale.rocks/posts/20240202-1250.html",
-      "content_html": "<p>I wonder when we&#8217;ll phase out IPv4 in favour of v6. I suppose we&#8217;ll do it later.</p>\n"
+      "id": "https://vale.rocks/micros/20240202-1250.html",
+      "url": "https://vale.rocks/micros/20240202-1250.html",
+      "title": "02 Feb 2024 12:50",
+      "content_html": "<p>I wonder when we&#8217;ll phase out IPv4 in favour of v6. I suppose we&#8217;ll do it later.</p>\n",
+      "date_published": "2024-02-02T12:50"
     },
     {
-      "id": "https://vale.rocks/posts/20240202-1228.html",
-      "url": "https://vale.rocks/posts/20240202-1228.html",
-      "content_html": "<p>I&#8217;ve been playing Mario Kart Wii half the day. I got rather violently Mario Karted by the bots on Koopa Cape a minute ago. From 1st to 12th in the blink of an eye. Oh well.</p>\n<p>I&#8217;m playing with no bloom or background blurring in HD on my rather large TV with an Xbox controller. Of course, this wouldn&#8217;t be possible without the excellent <a href=\"https://dolphin-emu.org\">Dolphin emulator</a>. A huge thanks to all who have contributed to emulation.</p>\n"
+      "id": "https://vale.rocks/micros/20240202-1228.html",
+      "url": "https://vale.rocks/micros/20240202-1228.html",
+      "title": "02 Feb 2024 12:28",
+      "content_html": "<p>I&#8217;ve been playing Mario Kart Wii half the day. I got rather violently Mario Karted by the bots on Koopa Cape a minute ago. From 1st to 12th in the blink of an eye. Oh well.</p>\n<p>I&#8217;m playing with no bloom or background blurring in HD on my rather large TV with an Xbox controller. Of course, this wouldn&#8217;t be possible without the excellent <a href=\"https://dolphin-emu.org\">Dolphin emulator</a>. A huge thanks to all who have contributed to emulation.</p>\n",
+      "date_published": "2024-02-02T12:28"
     },
     {
-      "id": "https://vale.rocks/posts/20240129-1212.html",
-      "url": "https://vale.rocks/posts/20240129-1212.html",
-      "content_html": "<p>Started my Diploma of Information Technology (Frontend Development) at North Metropolitan TAFE today!</p>\n<p>Eager to absorb new knowledge, enhance my skills, and embrace the endless possibilities that lie ahead.</p>\n"
+      "id": "https://vale.rocks/micros/20240129-1212.html",
+      "url": "https://vale.rocks/micros/20240129-1212.html",
+      "title": "29 Jan 2024 12:12",
+      "content_html": "<p>Started my Diploma of Information Technology (Frontend Development) at North Metropolitan TAFE today!</p>\n<p>Eager to absorb new knowledge, enhance my skills, and embrace the endless possibilities that lie ahead.</p>\n",
+      "date_published": "2024-01-29T12:12"
     },
     {
-      "id": "https://vale.rocks/posts/20240126-0954.html",
-      "url": "https://vale.rocks/posts/20240126-0954.html",
-      "content_html": "<p>Hmm, might give Zed a go. Doubt it&#8217;ll shake me off Neovim but I&#8217;m open to alternatives.</p>\n"
+      "id": "https://vale.rocks/micros/20240126-0954.html",
+      "url": "https://vale.rocks/micros/20240126-0954.html",
+      "title": "26 Jan 2024 09:54",
+      "content_html": "<p>Hmm, might give Zed a go. Doubt it&#8217;ll shake me off Neovim but I&#8217;m open to alternatives.</p>\n",
+      "date_published": "2024-01-26T09:54"
     },
     {
-      "id": "https://vale.rocks/posts/20240125-1337.html",
-      "url": "https://vale.rocks/posts/20240125-1337.html",
-      "content_html": "<p>I just remembered the time I had to wipe a PlayStation 2 with tens of game saves dating back to 2000 and one of the save icons was on it&#8217;s knees begging me not to delete them.</p>\n<p>I still feel like a monster.</p>\n"
+      "id": "https://vale.rocks/micros/20240125-1337.html",
+      "url": "https://vale.rocks/micros/20240125-1337.html",
+      "title": "25 Jan 2024 13:37",
+      "content_html": "<p>I just remembered the time I had to wipe a PlayStation 2 with tens of game saves dating back to 2000 and one of the save icons was on it&#8217;s knees begging me not to delete them.</p>\n<p>I still feel like a monster.</p>\n",
+      "date_published": "2024-01-25T13:37"
     },
     {
-      "id": "https://vale.rocks/posts/20240124-0859.html",
-      "url": "https://vale.rocks/posts/20240124-0859.html",
-      "content_html": "<p>I hate Samsung and their complete ineptitude at writing software with a burning passion.</p>\n"
+      "id": "https://vale.rocks/micros/20240124-0859.html",
+      "url": "https://vale.rocks/micros/20240124-0859.html",
+      "title": "24 Jan 2024 08:59",
+      "content_html": "<p>I hate Samsung and their complete ineptitude at writing software with a burning passion.</p>\n",
+      "date_published": "2024-01-24T08:59"
     },
     {
-      "id": "https://vale.rocks/posts/20240122-0714.html",
-      "url": "https://vale.rocks/posts/20240122-0714.html",
-      "content_html": "<p>Sorry for that outage folks. The router had a blockage. Called out the plumber who cleared the debris from my Ethernet cable though. All good now.</p>\n"
+      "id": "https://vale.rocks/micros/20240122-0714.html",
+      "url": "https://vale.rocks/micros/20240122-0714.html",
+      "title": "22 Jan 2024 07:14",
+      "content_html": "<p>Sorry for that outage folks. The router had a blockage. Called out the plumber who cleared the debris from my Ethernet cable though. All good now.</p>\n",
+      "date_published": "2024-01-22T07:14"
     },
     {
-      "id": "https://vale.rocks/posts/20240116-1127.html",
-      "url": "https://vale.rocks/posts/20240116-1127.html",
-      "content_html": "<p>Etched into the depths of my brain:</p>\n<p>One-one was one race horse. Two-two was one too. One-one won one race, and Two-two won one to.</p>\n"
+      "id": "https://vale.rocks/micros/20240116-1127.html",
+      "url": "https://vale.rocks/micros/20240116-1127.html",
+      "title": "16 Jan 2024 11:27",
+      "content_html": "<p>Etched into the depths of my brain:</p>\n<p>One-one was one race horse. Two-two was one too. One-one won one race, and Two-two won one to.</p>\n",
+      "date_published": "2024-01-16T11:27"
     },
     {
-      "id": "https://vale.rocks/posts/20240113-1012.html",
-      "url": "https://vale.rocks/posts/20240113-1012.html",
-      "content_html": "<p>The passion with which I hate dealing with Windows cannot be described.</p>\n<p>I&#8217;ve had more fun grazing my knee.</p>\n"
+      "id": "https://vale.rocks/micros/20240113-1012.html",
+      "url": "https://vale.rocks/micros/20240113-1012.html",
+      "title": "13 Jan 2024 10:12",
+      "content_html": "<p>The passion with which I hate dealing with Windows cannot be described.</p>\n<p>I&#8217;ve had more fun grazing my knee.</p>\n",
+      "date_published": "2024-01-13T10:12"
     },
     {
-      "id": "https://vale.rocks/posts/20240110-0625.html",
-      "url": "https://vale.rocks/posts/20240110-0625.html",
-      "content_html": "<p>My life was well and truly changed the day I saw this video.</p>\n<p><img src=\"https://fedi.vale.rocks/media/12f58c6fa9caf14d9ff47063ed690a22a7bfe6bed2222a13458030b3bf3b81fd.png\" alt=\"YouTube survey asking for opinions on the video \"jonathan frakes telling you you're wrong for 47 seconds\".  The box \"life changing\" is ticked. \"></p>\n"
+      "id": "https://vale.rocks/micros/20240110-0625.html",
+      "url": "https://vale.rocks/micros/20240110-0625.html",
+      "title": "10 Jan 2024 06:25",
+      "content_html": "<p>My life was well and truly changed the day I saw this video.</p>\n<p><img src=\"https://fedi.vale.rocks/media/12f58c6fa9caf14d9ff47063ed690a22a7bfe6bed2222a13458030b3bf3b81fd.png\" alt=\"YouTube survey asking for opinions on the video \"jonathan frakes telling you you're wrong for 47 seconds\".  The box \"life changing\" is ticked. \"></p>\n",
+      "date_published": "2024-01-10T06:25"
     },
     {
-      "id": "https://vale.rocks/posts/20240104-0238.html",
-      "url": "https://vale.rocks/posts/20240104-0238.html",
-      "content_html": "<p>Whatever happened to script kiddies? All I see nowadays are losers DDOSing community projects.</p>\n"
+      "id": "https://vale.rocks/micros/20240104-0238.html",
+      "url": "https://vale.rocks/micros/20240104-0238.html",
+      "title": "04 Jan 2024 02:38",
+      "content_html": "<p>Whatever happened to script kiddies? All I see nowadays are losers DDOSing community projects.</p>\n",
+      "date_published": "2024-01-04T02:38"
     },
     {
-      "id": "https://vale.rocks/posts/20240102-0626.html",
-      "url": "https://vale.rocks/posts/20240102-0626.html",
-      "content_html": "<p>I think my greatest security vulnerability is me singing my password as I type it&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20240102-0626.html",
+      "url": "https://vale.rocks/micros/20240102-0626.html",
+      "title": "02 Jan 2024 06:26",
+      "content_html": "<p>I think my greatest security vulnerability is me singing my password as I type it&#8230;</p>\n",
+      "date_published": "2024-01-02T06:26"
     },
     {
-      "id": "https://vale.rocks/posts/20240101-0521.html",
-      "url": "https://vale.rocks/posts/20240101-0521.html",
-      "content_html": "<p>I must say, I&#8217;m absolutely loving NixOS. Having everything declared and configured in this way is excellent.</p>\n<p>I love being able to test packages and set everything so easily. It&#8217;s a breeze!</p>\n<p>And it&#8217;s all too easy to move machines or reinstall should I need to.</p>\n"
+      "id": "https://vale.rocks/micros/20240101-0521.html",
+      "url": "https://vale.rocks/micros/20240101-0521.html",
+      "title": "01 Jan 2024 05:21",
+      "content_html": "<p>I must say, I&#8217;m absolutely loving NixOS. Having everything declared and configured in this way is excellent.</p>\n<p>I love being able to test packages and set everything so easily. It&#8217;s a breeze!</p>\n<p>And it&#8217;s all too easy to move machines or reinstall should I need to.</p>\n",
+      "date_published": "2024-01-01T05:21"
     },
     {
-      "id": "https://vale.rocks/posts/20240101-0205.html",
-      "url": "https://vale.rocks/posts/20240101-0205.html",
-      "content_html": "<p>My New Year&#8217;s resolution is 720p.</p>\n<p>I considered 4K UHD, but I think it&#8217;s important to set achievable goals.</p>\n"
+      "id": "https://vale.rocks/micros/20240101-0205.html",
+      "url": "https://vale.rocks/micros/20240101-0205.html",
+      "title": "01 Jan 2024 02:05",
+      "content_html": "<p>My New Year&#8217;s resolution is 720p.</p>\n<p>I considered 4K UHD, but I think it&#8217;s important to set achievable goals.</p>\n",
+      "date_published": "2024-01-01T02:05"
     },
     {
-      "id": "https://vale.rocks/posts/20231231-1600.html",
-      "url": "https://vale.rocks/posts/20231231-1600.html",
-      "content_html": "<p>And another passes. As I write this it&#8217;s 2024 in the UTC +8 time zone.</p>\n<p>Expect a blog post on my site tomorrow, I&#8217;ve got some exciting plans to share.</p>\n"
+      "id": "https://vale.rocks/micros/20231231-1600.html",
+      "url": "https://vale.rocks/micros/20231231-1600.html",
+      "title": "31 Dec 2023 16:00",
+      "content_html": "<p>And another passes. As I write this it&#8217;s 2024 in the UTC +8 time zone.</p>\n<p>Expect a blog post on my site tomorrow, I&#8217;ve got some exciting plans to share.</p>\n",
+      "date_published": "2023-12-31T16:00"
     },
     {
-      "id": "https://vale.rocks/posts/20231231-0511.html",
-      "url": "https://vale.rocks/posts/20231231-0511.html",
-      "content_html": "<p>Configurations have been tested, USBs are writing, ISOs are burning, sanity is waning, snacks are on hand.</p>\n<p>I&#8217;m set to make the move to NixOS on my Framework Laptop. Wish me luck!</p>\n"
+      "id": "https://vale.rocks/micros/20231231-0511.html",
+      "url": "https://vale.rocks/micros/20231231-0511.html",
+      "title": "31 Dec 2023 05:11",
+      "content_html": "<p>Configurations have been tested, USBs are writing, ISOs are burning, sanity is waning, snacks are on hand.</p>\n<p>I&#8217;m set to make the move to NixOS on my Framework Laptop. Wish me luck!</p>\n",
+      "date_published": "2023-12-31T05:11"
     },
     {
-      "id": "https://vale.rocks/posts/20231230-1016.html",
-      "url": "https://vale.rocks/posts/20231230-1016.html",
-      "content_html": "<p>Perhaps I&#8217;m looking at moving from Arch Linux to NixOS&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20231230-1016.html",
+      "url": "https://vale.rocks/micros/20231230-1016.html",
+      "title": "30 Dec 2023 10:16",
+      "content_html": "<p>Perhaps I&#8217;m looking at moving from Arch Linux to NixOS&#8230;</p>\n",
+      "date_published": "2023-12-30T10:16"
     },
     {
-      "id": "https://vale.rocks/posts/20231230-1015.html",
-      "url": "https://vale.rocks/posts/20231230-1015.html",
-      "content_html": "<p>Whenever I think of installing or reinstalling my OS, I tend to go a bit crazy installing apps and testing potentially breaking changes so I can decide how to setup the new install.</p>\n<p>It&#8217;s all well and good until I start doing that pre-backup&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20231230-1015.html",
+      "url": "https://vale.rocks/micros/20231230-1015.html",
+      "title": "30 Dec 2023 10:15",
+      "content_html": "<p>Whenever I think of installing or reinstalling my OS, I tend to go a bit crazy installing apps and testing potentially breaking changes so I can decide how to setup the new install.</p>\n<p>It&#8217;s all well and good until I start doing that pre-backup&#8230;</p>\n",
+      "date_published": "2023-12-30T10:15"
     },
     {
-      "id": "https://vale.rocks/posts/20231228-1108.html",
-      "url": "https://vale.rocks/posts/20231228-1108.html",
-      "content_html": "<p>I figured I&#8217;d throw my hat into the tabs vs spaces ring. In the context of code, tabs are naturally superior to spaces.</p>\n<p>Tabs semantically indicate indentation, which allows for individuals to customise their editor to display them as they choose. A semantic option is also better for accessibility. Further, tabs lead to smaller file sizes.</p>\n<p>Spaces should be used for alignment.</p>\n"
+      "id": "https://vale.rocks/micros/20231228-1108.html",
+      "url": "https://vale.rocks/micros/20231228-1108.html",
+      "title": "28 Dec 2023 11:08",
+      "content_html": "<p>I figured I&#8217;d throw my hat into the tabs vs spaces ring. In the context of code, tabs are naturally superior to spaces.</p>\n<p>Tabs semantically indicate indentation, which allows for individuals to customise their editor to display them as they choose. A semantic option is also better for accessibility. Further, tabs lead to smaller file sizes.</p>\n<p>Spaces should be used for alignment.</p>\n",
+      "date_published": "2023-12-28T11:08"
     },
     {
-      "id": "https://vale.rocks/posts/20231227-1324.html",
-      "url": "https://vale.rocks/posts/20231227-1324.html",
-      "content_html": "<p>Justice just (finally) published IRIS: A Space Opera on their YouTube channel. It&#8217;s wicked, and well worth a listen.</p>\n<p><a href=\"https://www.youtube.com/watch?v=OC5mO8I_Cd4\">https://www.youtube.com/watch?v=OC5mO8I_Cd4</a></p>\n"
+      "id": "https://vale.rocks/micros/20231227-1324.html",
+      "url": "https://vale.rocks/micros/20231227-1324.html",
+      "title": "27 Dec 2023 13:24",
+      "content_html": "<p>Justice just (finally) published IRIS: A Space Opera on their YouTube channel. It&#8217;s wicked, and well worth a listen.</p>\n<p><a href=\"https://www.youtube.com/watch?v=OC5mO8I_Cd4\">https://www.youtube.com/watch?v=OC5mO8I_Cd4</a></p>\n",
+      "date_published": "2023-12-27T13:24"
     },
     {
-      "id": "https://vale.rocks/posts/20231225-1249.html",
-      "url": "https://vale.rocks/posts/20231225-1249.html",
-      "content_html": "<p>Merry Christmas to all those who celebrate it!</p>\n<p>Here&#8217;s a picture of my pet chicken, Garbin, in a Christmas hat. If it seems a little off, it&#8217;s because she really wasn&#8217;t cooperative&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/fa3bce3d6450924ab986160f71833df6699cfa1200e626c19abd85a600a150a5.png\" alt=\"A chicken in a Christmas hat on a green background, alongside the text 'Merry Christmas'\"></p>\n"
+      "id": "https://vale.rocks/micros/20231225-1249.html",
+      "url": "https://vale.rocks/micros/20231225-1249.html",
+      "title": "25 Dec 2023 12:49",
+      "content_html": "<p>Merry Christmas to all those who celebrate it!</p>\n<p>Here&#8217;s a picture of my pet chicken, Garbin, in a Christmas hat. If it seems a little off, it&#8217;s because she really wasn&#8217;t cooperative&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/fa3bce3d6450924ab986160f71833df6699cfa1200e626c19abd85a600a150a5.png\" alt=\"A chicken in a Christmas hat on a green background, alongside the text 'Merry Christmas'\"></p>\n",
+      "date_published": "2023-12-25T12:49"
     },
     {
-      "id": "https://vale.rocks/posts/20231223-0914.html",
-      "url": "https://vale.rocks/posts/20231223-0914.html",
-      "content_html": "<p>This holiday season I&#8217;ve been enjoying the collection of Kmart in-store cassette tapes stored by the Internet Archive.</p>\n<p>You should be able to find them simply by searching &#8220;Kmart December&#8221; on <a href=\"https://archive.org\">archive.org</a>.</p>\n<p>Might play them on Christmas day for the family. Assuming they don&#8217;t pin me down and turn it off&#8230;</p>\n"
+      "id": "https://vale.rocks/micros/20231223-0914.html",
+      "url": "https://vale.rocks/micros/20231223-0914.html",
+      "title": "23 Dec 2023 09:14",
+      "content_html": "<p>This holiday season I&#8217;ve been enjoying the collection of Kmart in-store cassette tapes stored by the Internet Archive.</p>\n<p>You should be able to find them simply by searching &#8220;Kmart December&#8221; on <a href=\"https://archive.org\">archive.org</a>.</p>\n<p>Might play them on Christmas day for the family. Assuming they don&#8217;t pin me down and turn it off&#8230;</p>\n",
+      "date_published": "2023-12-23T09:14"
     },
     {
-      "id": "https://vale.rocks/posts/20231215-1013.html",
-      "url": "https://vale.rocks/posts/20231215-1013.html",
-      "content_html": "<p>I&#8217;ve just discovered the super handy hue-rotate CSS filter.</p>\n<p>I&#8217;m using it as such:\n<code>filter: invert(95%) hue-rotate(180deg);</code></p>\n<p>It lets me invert an item, but keeps the colours as they should be by flipping the hue back. I&#8217;m finding use implementing it on iframe embeds to force darkmode.</p>\n"
+      "id": "https://vale.rocks/micros/20231215-1013.html",
+      "url": "https://vale.rocks/micros/20231215-1013.html",
+      "title": "15 Dec 2023 10:13",
+      "content_html": "<p>I&#8217;ve just discovered the super handy hue-rotate CSS filter.</p>\n<p>I&#8217;m using it as such:\n<code>filter: invert(95%) hue-rotate(180deg);</code></p>\n<p>It lets me invert an item, but keeps the colours as they should be by flipping the hue back. I&#8217;m finding use implementing it on iframe embeds to force darkmode.</p>\n",
+      "date_published": "2023-12-15T10:13"
     },
     {
-      "id": "https://vale.rocks/posts/20231213-0955.html",
-      "url": "https://vale.rocks/posts/20231213-0955.html",
-      "content_html": "<p>Did tons of work on Adduce today. It now has some RSS functionality, although it still needs some work.</p>\n<p>Go check it out if you&#8217;re interested:\n<a href=\"https://github.com/DeclanChidlow/Adduce\">https://github.com/DeclanChidlow/Adduce</a></p>\n"
+      "id": "https://vale.rocks/micros/20231213-0955.html",
+      "url": "https://vale.rocks/micros/20231213-0955.html",
+      "title": "13 Dec 2023 09:55",
+      "content_html": "<p>Did tons of work on Adduce today. It now has some RSS functionality, although it still needs some work.</p>\n<p>Go check it out if you&#8217;re interested:\n<a href=\"https://github.com/DeclanChidlow/Adduce\">https://github.com/DeclanChidlow/Adduce</a></p>\n",
+      "date_published": "2023-12-13T09:55"
     },
     {
-      "id": "https://vale.rocks/posts/20231209-1440.html",
-      "url": "https://vale.rocks/posts/20231209-1440.html",
-      "content_html": "<p>I was scrolling through Fedi and saw the account <a href=\"https://hachyderm.io/@tpope\">@tpope@hachyderm.io</a>. I wondered if it was the Vim guy so I clicked on his account to check. His bio didn&#8217;t disappoint.</p>\n<p>If you read this Tim, thanks for your work.</p>\n"
+      "id": "https://vale.rocks/micros/20231209-1440.html",
+      "url": "https://vale.rocks/micros/20231209-1440.html",
+      "title": "09 Dec 2023 14:40",
+      "content_html": "<p>I was scrolling through Fedi and saw the account <a href=\"https://hachyderm.io/@tpope\">@tpope@hachyderm.io</a>. I wondered if it was the Vim guy so I clicked on his account to check. His bio didn&#8217;t disappoint.</p>\n<p>If you read this Tim, thanks for your work.</p>\n",
+      "date_published": "2023-12-09T14:40"
     },
     {
-      "id": "https://vale.rocks/posts/20231202-1200.html",
-      "url": "https://vale.rocks/posts/20231202-1200.html",
-      "content_html": "<p>I&#8217;ve just seen this excellent video from Posy. Like all his content, it&#8217;s well worth a watch.</p>\n<p><a href=\"https://www.youtube.com/watch?v=NSS6yAMZF78\">https://www.youtube.com/watch?v=NSS6yAMZF78</a></p>\n"
+      "id": "https://vale.rocks/micros/20231202-1200.html",
+      "url": "https://vale.rocks/micros/20231202-1200.html",
+      "title": "02 Dec 2023 12:00",
+      "content_html": "<p>I&#8217;ve just seen this excellent video from Posy. Like all his content, it&#8217;s well worth a watch.</p>\n<p><a href=\"https://www.youtube.com/watch?v=NSS6yAMZF78\">https://www.youtube.com/watch?v=NSS6yAMZF78</a></p>\n",
+      "date_published": "2023-12-02T12:00"
     },
     {
-      "id": "https://vale.rocks/posts/20231129-0410.html",
-      "url": "https://vale.rocks/posts/20231129-0410.html",
-      "content_html": "<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n"
+      "id": "https://vale.rocks/micros/20231129-0410.html",
+      "url": "https://vale.rocks/micros/20231129-0410.html",
+      "title": "29 Nov 2023 04:10",
+      "content_html": "<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
+      "date_published": "2023-11-29T04:10"
     },
     {
-      "id": "https://vale.rocks/posts/20231128-1254.html",
-      "url": "https://vale.rocks/posts/20231128-1254.html",
-      "content_html": "<p>Yesterday I graduated from high school. A bit bittersweet but I look forward to what comes next. Congratulations to the rest of the class of 2023!</p>\n<p><a href=\"https://www.youtube.com/watch?v=hnJ-wVnc0Jc\">https://www.youtube.com/watch?v=hnJ-wVnc0Jc</a></p>\n"
+      "id": "https://vale.rocks/micros/20231128-1254.html",
+      "url": "https://vale.rocks/micros/20231128-1254.html",
+      "title": "28 Nov 2023 12:54",
+      "content_html": "<p>Yesterday I graduated from high school. A bit bittersweet but I look forward to what comes next. Congratulations to the rest of the class of 2023!</p>\n<p><a href=\"https://www.youtube.com/watch?v=hnJ-wVnc0Jc\">https://www.youtube.com/watch?v=hnJ-wVnc0Jc</a></p>\n",
+      "date_published": "2023-11-28T12:54"
     },
     {
-      "id": "https://vale.rocks/posts/20231126-0348.html",
-      "url": "https://vale.rocks/posts/20231126-0348.html",
-      "content_html": "<p>Article coming later today about the shutdown of the 3G network in Australia.</p>\n"
+      "id": "https://vale.rocks/micros/20231126-0348.html",
+      "url": "https://vale.rocks/micros/20231126-0348.html",
+      "title": "26 Nov 2023 03:48",
+      "content_html": "<p>Article coming later today about the shutdown of the 3G network in Australia.</p>\n",
+      "date_published": "2023-11-26T03:48"
     },
     {
-      "id": "https://vale.rocks/posts/20231125-1150.html",
-      "url": "https://vale.rocks/posts/20231125-1150.html",
-      "content_html": "<p>This isn&#8217;t quite high resolution enough for Unsplash, but here&#8217;s a picture of a bee I took.</p>\n<p>He was a very good subject and sat on my finger for a good 15 minutes before I set him down.</p>\n<p><img src=\"https://fedi.vale.rocks/media/83bbd680ec64e5e47e50d557f6381fe8add2d77b577393a4bbd30ccf1fba35d8.jpg\" alt=\"Close up shot of a bee sitting on a finger.\"></p>\n"
+      "id": "https://vale.rocks/micros/20231125-1150.html",
+      "url": "https://vale.rocks/micros/20231125-1150.html",
+      "title": "25 Nov 2023 11:50",
+      "content_html": "<p>This isn&#8217;t quite high resolution enough for Unsplash, but here&#8217;s a picture of a bee I took.</p>\n<p>He was a very good subject and sat on my finger for a good 15 minutes before I set him down.</p>\n<p><img src=\"https://fedi.vale.rocks/media/83bbd680ec64e5e47e50d557f6381fe8add2d77b577393a4bbd30ccf1fba35d8.jpg\" alt=\"Close up shot of a bee sitting on a finger.\"></p>\n",
+      "date_published": "2023-11-25T11:50"
     },
     {
-      "id": "https://vale.rocks/posts/20231123-1436.html",
-      "url": "https://vale.rocks/posts/20231123-1436.html",
-      "content_html": "<p>Oh my, I love this new CSS lh unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>\n"
+      "id": "https://vale.rocks/micros/20231123-1436.html",
+      "url": "https://vale.rocks/micros/20231123-1436.html",
+      "title": "23 Nov 2023 14:36",
+      "content_html": "<p>Oh my, I love this new CSS lh unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>\n",
+      "date_published": "2023-11-23T14:36"
     },
     {
-      "id": "https://vale.rocks/posts/20231122-0958.html",
-      "url": "https://vale.rocks/posts/20231122-0958.html",
-      "content_html": "<p>I just came across this:\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory</a></p>\n<p>This could be wicked for optimizing sites based on the devices accessing them. I can only hope it isn&#8217;t just horrifically exploited for fingerprinting (let&#8217;s face it, it will be).</p>\n"
+      "id": "https://vale.rocks/micros/20231122-0958.html",
+      "url": "https://vale.rocks/micros/20231122-0958.html",
+      "title": "22 Nov 2023 09:58",
+      "content_html": "<p>I just came across this:\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory</a></p>\n<p>This could be wicked for optimizing sites based on the devices accessing them. I can only hope it isn&#8217;t just horrifically exploited for fingerprinting (let&#8217;s face it, it will be).</p>\n",
+      "date_published": "2023-11-22T09:58"
     },
     {
-      "id": "https://vale.rocks/posts/20231121-0116.html",
-      "url": "https://vale.rocks/posts/20231121-0116.html",
-      "content_html": "<p>I must say, these OpenAI and Sam Altman shenanigans have been better drama than anything I think I&#8217;ve seen on television. The plot twists are out of this world and I genuinely have no idea what will happen next.</p>\n"
+      "id": "https://vale.rocks/micros/20231121-0116.html",
+      "url": "https://vale.rocks/micros/20231121-0116.html",
+      "title": "21 Nov 2023 01:16",
+      "content_html": "<p>I must say, these OpenAI and Sam Altman shenanigans have been better drama than anything I think I&#8217;ve seen on television. The plot twists are out of this world and I genuinely have no idea what will happen next.</p>\n",
+      "date_published": "2023-11-21T01:16"
     },
     {
-      "id": "https://vale.rocks/posts/20231120-1317.html",
-      "url": "https://vale.rocks/posts/20231120-1317.html",
-      "content_html": "<p>The new Mutant Remix site, developed by yours truly for <a href=\"https://revolt.chat\">Revolt</a>, is up!</p>\n<p>Mutant Remix is an awesome emoji packed based on <a href=\"https://mutant.tech\">Mutant Standard</a> by <a href=\"https://nocturne.works\">Dzuk</a>.\nIt&#8217;s still got a bit to tweak but go check it out!</p>\n<p><a href=\"https://mutant.revolt.chat\">https://mutant.revolt.chat</a></p>\n<p>#webdev #frontenddev #revolt #revoltchat</p>\n"
+      "id": "https://vale.rocks/micros/20231120-1317.html",
+      "url": "https://vale.rocks/micros/20231120-1317.html",
+      "title": "20 Nov 2023 13:17",
+      "content_html": "<p>The new Mutant Remix site, developed by yours truly for <a href=\"https://revolt.chat\">Revolt</a>, is up!</p>\n<p>Mutant Remix is an awesome emoji packed based on <a href=\"https://mutant.tech\">Mutant Standard</a> by <a href=\"https://nocturne.works\">Dzuk</a>.\nIt&#8217;s still got a bit to tweak but go check it out!</p>\n<p><a href=\"https://mutant.revolt.chat\">https://mutant.revolt.chat</a></p>\n<p>#webdev #frontenddev #revolt #revoltchat</p>\n",
+      "date_published": "2023-11-20T13:17"
     },
     {
-      "id": "https://vale.rocks/posts/20231118-1236.html",
-      "url": "https://vale.rocks/posts/20231118-1236.html",
-      "content_html": "<p>I think I can actually feel parts of my brain flaking away as I write JavaScript.</p>\n"
+      "id": "https://vale.rocks/micros/20231118-1236.html",
+      "url": "https://vale.rocks/micros/20231118-1236.html",
+      "title": "18 Nov 2023 12:36",
+      "content_html": "<p>I think I can actually feel parts of my brain flaking away as I write JavaScript.</p>\n",
+      "date_published": "2023-11-18T12:36"
     },
     {
-      "id": "https://vale.rocks/posts/20231117-1155.html",
-      "url": "https://vale.rocks/posts/20231117-1155.html",
-      "content_html": "<p>I&#8217;ve spent far longer than I wish to admit getting the Domino&#8217;s App feat Hatsune Miku working on my iPad 4, but I finally managed it today.</p>\n<p>I initially went about it a stupidly complex way but ended up learning quite a bit along the way, so it wasn&#8217;t a total waste of time.</p>\n<p>It seems some people have looked into decompiling it to fix the frequent crashes and broken features. Hopefully, this becomes a reality.</p>\n"
+      "id": "https://vale.rocks/micros/20231117-1155.html",
+      "url": "https://vale.rocks/micros/20231117-1155.html",
+      "title": "17 Nov 2023 11:55",
+      "content_html": "<p>I&#8217;ve spent far longer than I wish to admit getting the Domino&#8217;s App feat Hatsune Miku working on my iPad 4, but I finally managed it today.</p>\n<p>I initially went about it a stupidly complex way but ended up learning quite a bit along the way, so it wasn&#8217;t a total waste of time.</p>\n<p>It seems some people have looked into decompiling it to fix the frequent crashes and broken features. Hopefully, this becomes a reality.</p>\n",
+      "date_published": "2023-11-17T11:55"
     },
     {
-      "id": "https://vale.rocks/posts/20231112-0811.html",
-      "url": "https://vale.rocks/posts/20231112-0811.html",
-      "content_html": "<p>Considering buying a Flipper Zero. Anyone got any first hand experience? Is it worth the $322 AUD price tag?</p>\n"
+      "id": "https://vale.rocks/micros/20231112-0811.html",
+      "url": "https://vale.rocks/micros/20231112-0811.html",
+      "title": "12 Nov 2023 08:11",
+      "content_html": "<p>Considering buying a Flipper Zero. Anyone got any first hand experience? Is it worth the $322 AUD price tag?</p>\n",
+      "date_published": "2023-11-12T08:11"
     },
     {
-      "id": "https://vale.rocks/posts/20231107-1145.html",
-      "url": "https://vale.rocks/posts/20231107-1145.html",
-      "content_html": "<p>OpenAI recently unveiled some fancy new models that I wanted to play around with so I created Jarg. A nice to use AI client which allows you to select from a range of models.</p>\n<p>Check it out here:\n<a href=\"https://jarg.vale.rocks\">https://jarg.vale.rocks</a></p>\n"
+      "id": "https://vale.rocks/micros/20231107-1145.html",
+      "url": "https://vale.rocks/micros/20231107-1145.html",
+      "title": "07 Nov 2023 11:45",
+      "content_html": "<p>OpenAI recently unveiled some fancy new models that I wanted to play around with so I created Jarg. A nice to use AI client which allows you to select from a range of models.</p>\n<p>Check it out here:\n<a href=\"https://jarg.vale.rocks\">https://jarg.vale.rocks</a></p>\n",
+      "date_published": "2023-11-07T11:45"
     },
     {
-      "id": "https://vale.rocks/posts/20231105-1136.html",
-      "url": "https://vale.rocks/posts/20231105-1136.html",
-      "content_html": "<p>The modern job searching experience:</p>\n<p>Job Title: Entry Level Position<br>Requirements: 3 to 5 years of experience</p>\n<p>How does somebody get experience when nobody will hire them because they don&#8217;t have experience?</p>\n<p>And don&#8217;t forget the job description:</p>\n<p>&#8220;At [COMPANY NAME HERE], we pride ourselves on our tight-knit and supportive work culture. We believe in fostering an environment where every team member feels valued, respected, and encouraged to grow. Our company operates like a family, where collaboration, innovation, and a sense of belonging are central to our success.</p>\n<p>As a member of our close-knit family, you will play an integral role in contributing to our company&#8217;s growth and success. You&#8217;ll have the opportunity to work in a supportive and collaborative environment, where your unique skills and perspectives are appreciated.&#8221;</p>\n"
+      "id": "https://vale.rocks/micros/20231105-1136.html",
+      "url": "https://vale.rocks/micros/20231105-1136.html",
+      "title": "05 Nov 2023 11:36",
+      "content_html": "<p>The modern job searching experience:</p>\n<p>Job Title: Entry Level Position<br>Requirements: 3 to 5 years of experience</p>\n<p>How does somebody get experience when nobody will hire them because they don&#8217;t have experience?</p>\n<p>And don&#8217;t forget the job description:</p>\n<p>&#8220;At [COMPANY NAME HERE], we pride ourselves on our tight-knit and supportive work culture. We believe in fostering an environment where every team member feels valued, respected, and encouraged to grow. Our company operates like a family, where collaboration, innovation, and a sense of belonging are central to our success.</p>\n<p>As a member of our close-knit family, you will play an integral role in contributing to our company&#8217;s growth and success. You&#8217;ll have the opportunity to work in a supportive and collaborative environment, where your unique skills and perspectives are appreciated.&#8221;</p>\n",
+      "date_published": "2023-11-05T11:36"
     },
     {
-      "id": "https://vale.rocks/posts/20231104-1215.html",
-      "url": "https://vale.rocks/posts/20231104-1215.html",
-      "content_html": "<p>I re-watched Hackers (1995) yesterday evening. For any tech lovers looking for a demented 90s hacker film, you can&#8217;t go wrong. Objectively, it isn&#8217;t great, but it has very much cemented itself as a cult classic. It&#8217;s worth a watch.</p>\n"
+      "id": "https://vale.rocks/micros/20231104-1215.html",
+      "url": "https://vale.rocks/micros/20231104-1215.html",
+      "title": "04 Nov 2023 12:15",
+      "content_html": "<p>I re-watched Hackers (1995) yesterday evening. For any tech lovers looking for a demented 90s hacker film, you can&#8217;t go wrong. Objectively, it isn&#8217;t great, but it has very much cemented itself as a cult classic. It&#8217;s worth a watch.</p>\n",
+      "date_published": "2023-11-04T12:15"
     },
     {
-      "id": "https://vale.rocks/posts/20231101-1205.html",
-      "url": "https://vale.rocks/posts/20231101-1205.html",
-      "content_html": "<p>Do people use share buttons on websites, such as those on blog posts or articles?</p>\n<table>\n<thead>\n<tr>\n<th>Response</th>\n<th>Percentage</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Yes</td>\n<td>0%</td>\n</tr>\n<tr>\n<td>Yes (only on mobile)</td>\n<td>19%</td>\n</tr>\n<tr>\n<td>No</td>\n<td>81%</td>\n</tr>\n</tbody></table>\n<p>(37 people voted)</p>\n"
+      "id": "https://vale.rocks/micros/20231101-1205.html",
+      "url": "https://vale.rocks/micros/20231101-1205.html",
+      "title": "01 Nov 2023 12:05",
+      "content_html": "<p>Do people use share buttons on websites, such as those on blog posts or articles?</p>\n<table>\n<thead>\n<tr>\n<th>Response</th>\n<th>Percentage</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Yes</td>\n<td>0%</td>\n</tr>\n<tr>\n<td>Yes (only on mobile)</td>\n<td>19%</td>\n</tr>\n<tr>\n<td>No</td>\n<td>81%</td>\n</tr>\n</tbody></table>\n<p>(37 people voted)</p>\n",
+      "date_published": "2023-11-01T12:05"
     },
     {
-      "id": "https://vale.rocks/posts/20231031-1109.html",
-      "url": "https://vale.rocks/posts/20231031-1109.html",
-      "content_html": "<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>\n<ul>\n<li><a href=\"https://unsplash.com/photos/_SwvK3GEX4U\">https://unsplash.com/photos/_SwvK3GEX4U</a></li>\n<li><a href=\"https://unsplash.com/photos/8W9UvkoQ43E\">https://unsplash.com/photos/8W9UvkoQ43E</a></li>\n</ul>\n"
+      "id": "https://vale.rocks/micros/20231031-1109.html",
+      "url": "https://vale.rocks/micros/20231031-1109.html",
+      "title": "31 Oct 2023 11:09",
+      "content_html": "<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>\n<ul>\n<li><a href=\"https://unsplash.com/photos/_SwvK3GEX4U\">https://unsplash.com/photos/_SwvK3GEX4U</a></li>\n<li><a href=\"https://unsplash.com/photos/8W9UvkoQ43E\">https://unsplash.com/photos/8W9UvkoQ43E</a></li>\n</ul>\n",
+      "date_published": "2023-10-31T11:09"
     },
     {
-      "id": "https://vale.rocks/posts/20231030-1301.html",
-      "url": "https://vale.rocks/posts/20231030-1301.html",
-      "content_html": "<p>Coming tomorrow is a blog post about setting up Windows to be usable.</p>\n"
+      "id": "https://vale.rocks/micros/20231030-1301.html",
+      "url": "https://vale.rocks/micros/20231030-1301.html",
+      "title": "30 Oct 2023 13:01",
+      "content_html": "<p>Coming tomorrow is a blog post about setting up Windows to be usable.</p>\n",
+      "date_published": "2023-10-30T13:01"
     },
     {
-      "id": "https://vale.rocks/posts/20231030-1211.html",
-      "url": "https://vale.rocks/posts/20231030-1211.html",
-      "content_html": "<p>Hello,\nI&#8217;ve made some changes to my Fediversing. I&#8217;ve moved from <a href=\"https://docs.microblog.pub\">microblog.pub</a> to <a href=\"https://akkoma.social\">Akkoma</a>. I was having some issues with microblog such as bad Mastodon federation but Akkoma seems very nice.</p>\n<p>I&#8217;ll see you all around, be sure to send me a follow.</p>\n"
+      "id": "https://vale.rocks/micros/20231030-1211.html",
+      "url": "https://vale.rocks/micros/20231030-1211.html",
+      "title": "30 Oct 2023 12:11",
+      "content_html": "<p>Hello,\nI&#8217;ve made some changes to my Fediversing. I&#8217;ve moved from <a href=\"https://docs.microblog.pub\">microblog.pub</a> to <a href=\"https://akkoma.social\">Akkoma</a>. I was having some issues with microblog such as bad Mastodon federation but Akkoma seems very nice.</p>\n<p>I&#8217;ll see you all around, be sure to send me a follow.</p>\n",
+      "date_published": "2023-10-30T12:11"
     }
   ]
 }
