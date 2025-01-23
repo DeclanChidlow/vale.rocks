@@ -1,5 +1,5 @@
 ---
-title: The Flow State
+title: The Development Flow State
 description: A description and look at the productive trance that is the flow state (AKA zen state). An attempt at capturing in words the essence of complete cognitive immersion and the enthralling rush it brings.
 og_description: The hypnotic trance of productivity.
 pub_time: 2025-01-21
