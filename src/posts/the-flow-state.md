@@ -1,10 +1,10 @@
 ---
-title: The Development Flow State
+title: The Flow State
 description: A description and look at the productive trance that is the flow state (AKA zen state). An attempt at capturing in words the essence of complete cognitive immersion and the enthralling rush it brings.
 og_description: The hypnotic trance of productivity.
 pub_time: 2025-01-21
 section: Essay
-word_count: 945
+word_count: 946
 ---
 
 When you get down to the roots, development is all about problem solving. It doesn't matter the language you're using, the software you're building, or who you are. When you're developing, you're doing so to solve a problem. It all boils down to how able you are to do complex reasoning and how you can put that to use.
@@ -40,7 +40,7 @@ It is a temporary state, and one that is only triggered to its fullest in certai
 [^1]:
     Music can also very much enhance the state. Personally, I find Japanese jazz fusion to be ideal thanks to its often instrumental nature, which minimises distraction, and its upbeat, quick pace, which maintains a sense of energy and 'funk'. Masayoshi Takanaka and Casiopea are some of my favourite artists in this realm.
 
-    The soundtrack of the 1995 film [Hackers](<https://en.wikipedia.org/wiki/Hackers_(film)>), specifically [Halcyon And On And On](https://www.youtube.com/watch?v=oNYFXsuW_W4), perfectly captures the feeling. In fact, the trippy, fly-by visuals that mesh together into something cohesive while the characters drop line after line, putting together piece after piece, set to the pumping 90s tunes, really enforce the film as a whole as perhaps the best depiction of the flow state as I experience it.
+    Also, the soundtrack of the 1995 film [Hackers](<https://en.wikipedia.org/wiki/Hackers_(film)>), specifically [Halcyon And On And On](https://www.youtube.com/watch?v=oNYFXsuW_W4), perfectly captures the feeling. In fact, the trippy, fly-by visuals that mesh together into something cohesive while the characters drop line after line, putting together piece after piece, set to the pumping 90s tunes, really enforce the film as a whole as perhaps the best depiction of the flow state as I experience it.
 
 [^2]: This stress can be external -- such as that imposed by a job or deadline -- or self-imposed -- such as that imposed by an overwhelming want.
 [^3]: For the uninitiated, [MacGyver](https://en.wikipedia.org/wiki/MacGyver) is a fictional character who consistently finds himself in dire situations without much hope. He reliably manages to escape by the skin of his teeth thanks to his spontaneous bodging together of a crazy yet ingenious solution, usually at the last minute. For such examples in the context of technology, see [r/TechSupportMacGyver](www.reddit.com/r/techsupportmacgyver).

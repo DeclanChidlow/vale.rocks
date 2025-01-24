@@ -155,14 +155,16 @@ Here is a lot of them, to see if they break... [^2] [^3] [^4] [^5] [^6] [^7] [^8
 
 ## Definitions
 
-Frood
-: Someone who is really amazingly together.
+<dl>
+<dt>Frood</dt>
+<dd>Someone who is really amazingly together.</dd>
 
-Defenestration
-: The act of throwing someone or some thing out of a window.
+<dt>Defenestration</dt>
+<dd>The act of throwing someone or some thing out of a window.</dd>
 
-Schlock
-: Something that is low-quality, junky, or tacky.
+<dt>Schlock</dt>
+<dd>Something that is low-quality, junky, or tacky.</dd>
+</dl>
 
 ## Figures
 
