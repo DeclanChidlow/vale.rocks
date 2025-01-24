@@ -205,9 +205,9 @@ ul:has(input) {
 }
 
 dl {
-	display: grid;
-	grid-gap: 0.5rem 1rem;
-	grid-template-columns: minmax(auto, 50%);
+	> dd + dt {
+		margin-top: 1.5rem;
+	}
 }
 
 dt {
@@ -216,8 +216,8 @@ dt {
 }
 
 dd {
-	grid-column-start: 2;
 	font-style: italic;
+	margin-left: 1rem;
 }
 
 sup,
@@ -243,5 +243,5 @@ hr {
 }
 
 mark {
-	background: var(--yellow)
+	background: var(--yellow);
 }
