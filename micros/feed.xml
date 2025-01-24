@@ -6,6 +6,73 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Fri, 24 Jan 2025 05:28:00 GMT</pubDate>
+      <title>24 Jan 2025 05:28</title>
+      <link>https://vale.rocks/micros/20250124-0528</link>
+      <guid>https://vale.rocks/micros/20250124-0528</guid>
+      <content:encoded><![CDATA[<p>Usually it’s infuriating, but sometimes it can be fun to write CSS within the constraints of existing, untouchable HTML.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 24 Jan 2025 00:43:00 GMT</pubDate>
+      <title>24 Jan 2025 00:43</title>
+      <link>https://vale.rocks/micros/20250124-0043</link>
+      <guid>https://vale.rocks/micros/20250124-0043</guid>
+      <content:encoded><![CDATA[<p>Does Flexbox still feel really new to anyone else?</p>
+<p>It is like my concept of “new CSS things” just broke at some point.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 23 Jan 2025 13:12:00 GMT</pubDate>
+      <title>23 Jan 2025 13:12</title>
+      <link>https://vale.rocks/micros/20250123-1312</link>
+      <guid>https://vale.rocks/micros/20250123-1312</guid>
+      <content:encoded><![CDATA[<p>Ever met someone who hates melted cheese? No? Exactly!</p>
+<p>Somehow I reckon&#8217; we could harness this power to achieve world peace.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 23 Jan 2025 05:01:00 GMT</pubDate>
+      <title>23 Jan 2025 05:01</title>
+      <link>https://vale.rocks/micros/20250123-0501</link>
+      <guid>https://vale.rocks/micros/20250123-0501</guid>
+      <content:encoded><![CDATA[<p>I thought selling body parts was illegal, but apparently ARM stock is at an all-time high&#8230;</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 23 Jan 2025 03:17:00 GMT</pubDate>
+      <title>23 Jan 2025 03:17</title>
+      <link>https://vale.rocks/micros/20250123-0317</link>
+      <guid>https://vale.rocks/micros/20250123-0317</guid>
+      <content:encoded><![CDATA[<p>Cleaned up and sorted out my RSS and JSON Feeds again to reflect recent site updates.</p>
+<p><a href="https://vale.rocks/syndication">https://vale.rocks/syndication</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Wed, 22 Jan 2025 06:20:00 GMT</pubDate>
+      <title>22 Jan 2025 06:20</title>
+      <link>https://vale.rocks/micros/20250122-0620</link>
+      <guid>https://vale.rocks/micros/20250122-0620</guid>
+      <content:encoded><![CDATA[<p>No wonder my battery life has been terrible lately. I’ve had the full <a href="https://revolt.chat">Revolt Chat</a> stack running Dockerised in the background for the past half week….</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 17 Jan 2025 13:04:00 GMT</pubDate>
+      <title>17 Jan 2025 13:04</title>
+      <link>https://vale.rocks/micros/20250117-1304</link>
+      <guid>https://vale.rocks/micros/20250117-1304</guid>
+      <content:encoded><![CDATA[<p>Sometimes I&#8217;m just too lazy to use the shortcuts and automation that&#8217;d make things quicker and less labour intensive.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 17 Jan 2025 03:25:00 GMT</pubDate>
+      <title>17 Jan 2025 03:25</title>
+      <link>https://vale.rocks/micros/20250117-0325</link>
+      <guid>https://vale.rocks/micros/20250117-0325</guid>
+      <content:encoded><![CDATA[<p>Friendly reminder you can chuck <code>document.designMode = &quot;on&quot;;</code> in your browser console, and it’ll let you directly edit the text of the current page.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Thu, 16 Jan 2025 12:19:00 GMT</pubDate>
       <title>16 Jan 2025 12:19</title>
       <link>https://vale.rocks/micros/20250116-1219</link>
