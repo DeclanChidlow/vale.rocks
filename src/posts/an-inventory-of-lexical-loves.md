@@ -3,11 +3,14 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
+mod_time: 2025-01-25
 section: Essay
-word_count: 542
+word_count: 593
 ---
 
 I love words and the English language [^1] happens to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
+
+The extremely savvy reader could perhaps surmise what media I have been consuming, particularly what books I've been reading, based on the order of certain words outlined here or the mere occurrence of some of the more obscure inclusions.
 
 <dl>
 <dt>Phantasmagorical</dt>
@@ -108,6 +111,12 @@ I love words and the English language [^1] happens to have lots of them. My favo
 
 <dt>Skewiff</dt>
 <dd>Not properly straightened or levelled.</dd>
+
+<dt>Halycon</dt>
+<dd>Calm, peaceful, and tranquil.</dd>
+
+<dt>Vouchsafe</dt>
+<dd>To condescendingly permit or bestow something.</dd>
 </dl>
 
 [^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
