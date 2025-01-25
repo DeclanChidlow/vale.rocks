@@ -6,6 +6,25 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Sat, 25 Jan 2025 05:44:00 GMT</pubDate>
+      <title>25 Jan 2025 05:44</title>
+      <link>https://vale.rocks/micros/20250125-0544</link>
+      <guid>https://vale.rocks/micros/20250125-0544</guid>
+      <content:encoded><![CDATA[<p>I kinda miss the days when sites would get complete redesigns pretty much annually. It kept the web feeling fresh and cutting edge.</p>
+<p>I suppose it was simpler to do everything over when all it took was a bit of hacking away with HTML and CSS.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Sat, 25 Jan 2025 01:42:00 GMT</pubDate>
+      <title>25 Jan 2025 01:42</title>
+      <link>https://vale.rocks/micros/20250125-0142</link>
+      <guid>https://vale.rocks/micros/20250125-0142</guid>
+      <content:encoded><![CDATA[<p>Google has a secret ‘Forums’ tab that exclusively returns results from forums and discussion boards. You just need to append the query “udm=18” to the URL.</p>
+<p>e.g <a href="https://www.google.com/search?q=JPEG+XL&udm=18">https://www.google.com/search?q=JPEG+XL&amp;udm=18</a></p>
+<p>Further, and as you&#8217;re likely aware, you can use &#8220;utm=14&#8221; for a simpler set of results devoid of cruft such as knowledge panels and AI slop. It is reminiscent of the Google of old.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Fri, 24 Jan 2025 05:28:00 GMT</pubDate>
       <title>24 Jan 2025 05:28</title>
       <link>https://vale.rocks/micros/20250124-0528</link>
@@ -124,7 +143,7 @@
       <title>13 Jan 2025 12:34</title>
       <link>https://vale.rocks/micros/20250113-1234</link>
       <guid>https://vale.rocks/micros/20250113-1234</guid>
-      <content:encoded><![CDATA[<p>I wish there was a way to git diff life so I could see what has happened between yesterday and today.</p>
+      <content:encoded><![CDATA[<p>I wish there was a way to <code>git diff</code> life so I could see what has happened between yesterday and today.</p>
 ]]></content:encoded>
     </item>
     <item>

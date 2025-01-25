@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250125-0544",
+      "url": "https://vale.rocks/micros/20250125-0544",
+      "title": "25 Jan 2025 05:44",
+      "content_html": "<p>I kinda miss the days when sites would get complete redesigns pretty much annually. It kept the web feeling fresh and cutting edge.</p>\n<p>I suppose it was simpler to do everything over when all it took was a bit of hacking away with HTML and CSS.</p>\n",
+      "date_published": "2025-01-25T05:44"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250125-0142",
+      "url": "https://vale.rocks/micros/20250125-0142",
+      "title": "25 Jan 2025 01:42",
+      "content_html": "<p>Google has a secret ‘Forums’ tab that exclusively returns results from forums and discussion boards. You just need to append the query “udm=18” to the URL.</p>\n<p>e.g <a href=\"https://www.google.com/search?q=JPEG+XL&udm=18\">https://www.google.com/search?q=JPEG+XL&amp;udm=18</a></p>\n<p>Further, and as you&#8217;re likely aware, you can use &#8220;utm=14&#8221; for a simpler set of results devoid of cruft such as knowledge panels and AI slop. It is reminiscent of the Google of old.</p>\n",
+      "date_published": "2025-01-25T01:42"
+    },
+    {
       "id": "https://vale.rocks/micros/20250124-0528",
       "url": "https://vale.rocks/micros/20250124-0528",
       "title": "24 Jan 2025 05:28",
@@ -100,7 +114,7 @@
       "id": "https://vale.rocks/micros/20250113-1234",
       "url": "https://vale.rocks/micros/20250113-1234",
       "title": "13 Jan 2025 12:34",
-      "content_html": "<p>I wish there was a way to git diff life so I could see what has happened between yesterday and today.</p>\n",
+      "content_html": "<p>I wish there was a way to <code>git diff</code> life so I could see what has happened between yesterday and today.</p>\n",
       "date_published": "2025-01-13T12:34"
     },
     {
