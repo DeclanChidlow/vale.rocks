@@ -31,6 +31,9 @@
     <loc>https://vale.rocks/posts</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/posts/improving-early-kindles</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/posts/an-inventory-of-lexical-loves</loc>
   </url>
   <url>
@@ -89,6 +92,9 @@
   </url>
   <url>
     <loc>https://vale.rocks/posts/the-design-of-this-site</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250126-0417</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20250125-0544</loc>
@@ -845,6 +851,9 @@
   </url>
   <url>
     <loc>https://vale.rocks/firehose/17</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/firehose/18</loc>
   </url>
   <url>
     <loc>https://vale.rocks/portfolio</loc>

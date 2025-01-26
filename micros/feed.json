@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250126-0417",
+      "url": "https://vale.rocks/micros/20250126-0417",
+      "title": "26 Jan 2025 04:17",
+      "content_html": "<p>I think the main reason I prefer e-readers to paper books (beyond my love for e-ink as a technology) is the fact that I can bring up the definition and etymology of a word.</p>\n<p>Of course, not having to prop open the book I’m reading while lying semi-comatose is another benefit.</p>\n",
+      "date_published": "2025-01-26T04:17"
+    },
+    {
       "id": "https://vale.rocks/micros/20250125-0544",
       "url": "https://vale.rocks/micros/20250125-0544",
       "title": "25 Jan 2025 05:44",
