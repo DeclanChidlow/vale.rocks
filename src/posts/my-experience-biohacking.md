@@ -106,7 +106,7 @@ Mid-December, I noticed the magnet became stronger. Objects that I previously co
 
 One thing I didn't expect is that I'm conscious of it being inside me. I don't know if it's completely psychological, and I'm duping myself into feeling it whenever I'm trying to decide if I'm aware of its presence. I would almost have expected my brain to treat it the same as other body parts. It feels like part of me, but at the same time, I can feel there is something in my hand that isn't strictly 'me'.
 
-Also, for some reason, it feels old that it works underwater. I'm not sure why. Intellectually, I understand that magnets work underwater, and thus that the magnet in my hand should -- so I don't know why my brain is seemingly confused by it. Perhaps it is just highlighting the absurdity of having a magnet implant because I'm in a different environment?
+Also, for some reason, it feels odd that it works underwater. I'm not sure why. Intellectually, I understand that magnets work underwater, and thus that the magnet in my hand should -- so I don't know why my brain is seemingly confused by it. Perhaps it is just highlighting the absurdity of having a magnet implant because I'm in a different environment?
 
 ## Frequently Asked Questions
 
