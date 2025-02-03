@@ -3,11 +3,11 @@
 	stylesheet: "pages/micro-individual.css"
 
 	@text: indent`
-	<span id="section" data-pagefind-filter="Content Type">Micros</span>	
+	<span id="section" data-pagefind-ignore data-pagefind-filter="Content Type">Micros</span>	
 
 	<article class="h-entry">
-	<header>
-		<time datetime="${ micro/pub_time }" class="dt-published" title="Date of first publication.">${ functions/pretty-date.js(micro/pub_time) }</time>
+	<header data-pagefind-ignore>
+		<time datetime="${ micro/pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro/pub_time) } ${ functions/pretty-time.js(micro/pub_time) }</time>
 
 		<div class="socials">
 			${ micro/fedi_link ? `
