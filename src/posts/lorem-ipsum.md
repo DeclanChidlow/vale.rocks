@@ -5,7 +5,7 @@ og_description: "'Blah blah blah' doesn’t look quite as good."
 pub_time: 2024-11-25
 mod_time: 2024-11-26
 section: Meta
-word_count: 1434
+word_count: 1436
 ---
 
 This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you'd like to read the logic behind all of this, check out my posts on both [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
@@ -226,7 +226,8 @@ Voluptatibus sunt voluptas sequi est sit rem. Molestiae veniam dolores sequi aut
 <span style="background: var(--bright_yellow);">Bright Yellow</span>
 <span style="background: var(--green);">Green</span>
 <span style="background: var(--bright_green);">Bright Green</span>
-<span style="background: var(--blue);">Bright Blue</span>
+<span style="background: var(--blue);">Blue</span>
+<span style="background: var(--bright_blue);">Bright Blue</span>
 <span style="background: var(--cyan);">Cyan</span>
 <span style="background: var(--bright_cyan);">Bright Cyan</span>
 <span style="background: var(--magenta);">Magenta</span>
@@ -247,7 +248,8 @@ Voluptatibus sunt voluptas sequi est sit rem. Molestiae veniam dolores sequi aut
 <span style="color: var(--bright_yellow);">Bright Yellow</span>
 <span style="color: var(--green);">Green</span>
 <span style="color: var(--bright_green);">Bright Green</span>
-<span style="color: var(--blue);">Bright Blue</span>
+<span style="color: var(--blue);">Blue</span>
+<span style="color: var(--bright_blue);">Bright Blue</span>
 <span style="color: var(--cyan);">Cyan</span>
 <span style="color: var(--bright_cyan);">Bright Cyan</span>
 <span style="color: var(--magenta);">Magenta</span>
