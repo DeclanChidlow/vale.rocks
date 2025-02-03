@@ -648,7 +648,8 @@
 <span style="background: var(--bright_yellow);">Bright Yellow</span>
 <span style="background: var(--green);">Green</span>
 <span style="background: var(--bright_green);">Bright Green</span>
-<span style="background: var(--blue);">Bright Blue</span>
+<span style="background: var(--blue);">Blue</span>
+<span style="background: var(--bright_blue);">Bright Blue</span>
 <span style="background: var(--cyan);">Cyan</span>
 <span style="background: var(--bright_cyan);">Bright Cyan</span>
 <span style="background: var(--magenta);">Magenta</span>
@@ -669,7 +670,8 @@
 <span style="color: var(--bright_yellow);">Bright Yellow</span>
 <span style="color: var(--green);">Green</span>
 <span style="color: var(--bright_green);">Bright Green</span>
-<span style="color: var(--blue);">Bright Blue</span>
+<span style="color: var(--blue);">Blue</span>
+<span style="color: var(--bright_blue);">Bright Blue</span>
 <span style="color: var(--cyan);">Cyan</span>
 <span style="color: var(--bright_cyan);">Bright Cyan</span>
 <span style="color: var(--magenta);">Magenta</span>
