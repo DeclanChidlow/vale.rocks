@@ -172,8 +172,6 @@
   url: endless.horse
 - title: GifCities
   url: gifcities.org
-- title: HTMHell
-  url: htmhell.dev
 - title: ZOMG ZUFALL!
   url: z0r.de
 - title: Watching Grass Grow
@@ -306,3 +304,5 @@
   url: deuceofclubs.com/moj/
 - title: ShadeMap
   url: shademap.app
+- title: Heavens Above
+  url: www.heavens-above.com
