@@ -38,6 +38,8 @@ html {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	margin: 0 3rem;
 	color: light-dark(var(--black), var(--bright_white));
 	background: light-dark(var(--bright_white), var(--black));
@@ -48,6 +50,7 @@ main {
 	display: flex;
 	gap: 3rem;
 	margin: 5rem 0;
+	flex-grow: 1;
 
 	> div {
 		min-width: 0;
