@@ -37,18 +37,16 @@
 			z-index: -1;
 		}
 	}
-}
 
-@media (max-width: 700px) {
-	.article-wrapper {
+	span#section {
+		display: none;
+	}
+
+	@media (max-width: 45rem) {
 		margin-left: 0;
 
 		header::after {
 			width: calc(100% + 3rem + 0.8rem);
 		}
-	}
-
-	span#section {
-		display: none;
 	}
 }

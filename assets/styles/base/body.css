@@ -61,7 +61,7 @@ main {
 	margin-top: 3rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 45rem) {
 	body {
 		margin: 0 0.8rem;
 	}

@@ -104,10 +104,8 @@
 		background: linear-gradient(light-dark(var(--bright_white), var(--black)), transparent);
 		z-index: -1;
 	}
-}
 
-@media (max-width: 700px) {
-	#navbar {
+	@media (max-width: 45rem) {
 		padding: 0 0.8rem;
 
 		nav {
@@ -150,10 +148,8 @@
 			content: none;
 		}
 	}
-}
 
-@media (max-width: 700px) {
-	#scroll-container {
+	@media (max-width: 45rem) {
 		position: fixed;
 		inset: 0 0 auto;
 		height: 4px;

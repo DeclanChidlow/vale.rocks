@@ -46,10 +46,8 @@ pre {
 			text-align: right;
 		}
 	}
-}
 
-@media (max-width: 700px) {
-	pre {
+	@media (max-width: 45rem) {
 		max-width: 100%;
 	}
 }
