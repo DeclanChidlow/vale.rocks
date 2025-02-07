@@ -94,6 +94,18 @@
     <loc>https://vale.rocks/posts/the-design-of-this-site</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/micros/20250206-1216</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250204-1246</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250204-1005</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250203-1255</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/micros/20250201-1114</loc>
   </url>
   <url>
@@ -893,6 +905,9 @@
   </url>
   <url>
     <loc>https://vale.rocks/firehose/18</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/firehose/19</loc>
   </url>
   <url>
     <loc>https://vale.rocks/portfolio</loc>

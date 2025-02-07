@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250206-1216",
+      "url": "https://vale.rocks/micros/20250206-1216",
+      "title": "06 Feb 2025 12:16",
+      "content_html": "<p>Put together a fresh website and new branding for my <a href=\"https://revolt.chat\">Revolt</a> moderation bot AutoMod.</p>\n<p>Dipped my toes a little into experimenting with Material 3 styling.</p>\n<p><a href=\"https://automod.vale.rocks\">https://automod.vale.rocks</a></p>\n<p><img src=\"https://automod.vale.rocks/assets/og_image.png\" alt=\"The AutoMod logo, featuring a shield with a strike in it and the text 'AutoMod' on a background of repeating icons in a rainbow gradient.\"></p>\n",
+      "date_published": "2025-02-06T12:16"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250204-1246",
+      "url": "https://vale.rocks/micros/20250204-1246",
+      "title": "04 Feb 2025 12:46",
+      "content_html": "<p>I dunno why tens of people have been accessing my website with legacy Microsoft Edge, but, if you&#8217;re one of them, I hope you know I&#8217;m going to have to kill you.</p>\n<p>I&#8217;m sorry, that&#8217;s just the way it goes. You brought this upon yourself.</p>\n",
+      "date_published": "2025-02-04T12:46"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250204-1005",
+      "url": "https://vale.rocks/micros/20250204-1005",
+      "title": "04 Feb 2025 10:05",
+      "content_html": "<p>It came to my attention that my search wrapper was broken on Windows.</p>\n<p>I have now fixed this (and added more providers).</p>\n<p>Happy searching!</p>\n<p><a href=\"https://search.vale.rocks\">https://search.vale.rocks</a></p>\n",
+      "date_published": "2025-02-04T10:05"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250203-1255",
+      "url": "https://vale.rocks/micros/20250203-1255",
+      "title": "03 Feb 2025 12:55",
+      "content_html": "<p>My mate Clarrie started a YouTube channel and has been putting out some awesome videos about making and using various weapons.</p>\n<p>Go give him a watch and follow!</p>\n<p><a href=\"https://www.youtube.com/@ClarrieC\">https://www.youtube.com/@ClarrieC</a></p>\n",
+      "date_published": "2025-02-03T12:55"
+    },
+    {
       "id": "https://vale.rocks/micros/20250201-1114",
       "url": "https://vale.rocks/micros/20250201-1114",
       "title": "01 Feb 2025 11:14",

@@ -1,18 +1,35 @@
 article {
 	max-width: 65ch;
 	padding: 2rem 1rem;
-	border-bottom: 2px solid var(--bright_grey);
+	margin: 1rem 0;
 
 	header {
 		display: flex;
 		justify-content: space-between;
 		gap: 2rem;
 		margin-bottom: 1rem;
+
+		div {
+			display: flex;
+			gap: 1ch;
+		}
 	}
 }
 
-.photo p {
-	margin-bottom: 1rem;
+.post {
+	background: oklch(from var(--cyan) l c h / calc(alpha - 0.9));
+}
+
+.photo {
+	background: oklch(from var(--green) l c h / calc(alpha - 0.9));
+
+	p {
+		margin-bottom: 1rem;
+	}
+}
+
+.micro {
+	background: oklch(from var(--blue) l c h / calc(alpha - 0.9));
 }
 
 .socials {
