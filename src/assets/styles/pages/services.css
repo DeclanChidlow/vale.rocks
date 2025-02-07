@@ -20,6 +20,12 @@ article {
 	a:has(span) {
 		text-decoration: none;
 	}
+
+	@media (max-width: 40rem) {
+		flex-direction: column;
+		align-items: initial;
+		gap: inherit;
+	}
 }
 
 .up {
@@ -32,12 +38,4 @@ article {
 
 .degraded {
 	color: var(--yellow);
-}
-
-@media (max-width: 40rem) {
-	.service-info {
-		flex-direction: column;
-		align-items: initial;
-		gap: inherit;
-	}
 }

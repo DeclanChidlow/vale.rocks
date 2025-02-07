@@ -135,7 +135,7 @@ tbody tr:nth-child(even) {
 	background: light-dark(color-mix(in oklch, var(--white), transparent 70%), color-mix(in oklch, var(--grey), transparent 50%));
 }
 
-@media (max-width: 700px) {
+@media (max-width: 45rem) {
 	.left,
 	.right {
 		float: none;

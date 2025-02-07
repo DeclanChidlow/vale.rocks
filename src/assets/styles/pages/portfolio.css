@@ -30,10 +30,8 @@
 			margin: 0;
 		}
 	}
-}
 
-@media (max-width: 700px) {
-	.portfolio-items {
+	@media (max-width: 45rem) {
 		flex-direction: column;
 		height: auto;
 		gap: 1rem;

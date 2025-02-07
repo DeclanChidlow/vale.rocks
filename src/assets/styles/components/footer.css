@@ -80,10 +80,8 @@ footer {
 			display: none;
 		}
 	}
-}
 
-@media (max-width: 700px) {
-	footer {
+	@media (max-width: 45rem) {
 		margin: 3rem -0.8rem 0;
 		padding: 0.8rem;
 

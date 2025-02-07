@@ -53,7 +53,7 @@
 		}
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 45rem) {
 		flex-direction: column;
 
 		#stripe-card {

@@ -37,7 +37,7 @@ figure {
 			}
 		}
 
-		@media (max-width: 550px) {
+		@media (max-width: 35rem) {
 			flex-direction: row;
 			justify-content: space-between;
 			gap: 1ch;
@@ -46,12 +46,12 @@ figure {
 		}
 	}
 
-	@media (max-width: 550px) {
+	@media (max-width: 35rem) {
 		flex-direction: column;
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 45rem) {
 	span#section {
 		display: none;
 	}
