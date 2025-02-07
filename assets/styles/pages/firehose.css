@@ -17,11 +17,11 @@ article {
 }
 
 .post {
-	background: oklch(from var(--cyan) l c h / calc(alpha - 0.9));
+	background: light-dark(oklch(from var(--cyan) l c h / calc(alpha - 0.8)), oklch(from var(--cyan) l c h / calc(alpha - 0.9)));
 }
 
 .photo {
-	background: oklch(from var(--green) l c h / calc(alpha - 0.9));
+	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.8)), oklch(from var(--green) l c h / calc(alpha - 0.9)));
 
 	p {
 		margin-bottom: 1rem;
@@ -29,7 +29,7 @@ article {
 }
 
 .micro {
-	background: oklch(from var(--blue) l c h / calc(alpha - 0.9));
+	background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.9)));
 }
 
 .socials {
