@@ -15,7 +15,10 @@
 			// if post
 				`<article class="post">
 					<header>
-						<a href="/posts/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+						<div>
+							<span class="icons">article</span>
+							<a href="/posts/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+						</div>
 					</header>
 
 					<p>
@@ -32,7 +35,10 @@
 			// if photo
 				`<article class="photo">
 					<header>
-						<a href="/photography/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+						<div>
+							<span class="icons">photo_camera</span>
+							<a href="/photography/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+						</div>
 
 						<div class="socials">
 							${ item/unsplash_link ? `
@@ -53,7 +59,10 @@
 			// if micro (not post or photo)
 				`<article class="micro">
 					<header>
-						<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+						<div>
+							<span class="icons">stylus_note</span>
+							<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) } ${ functions/pretty-time.js(item/pub_time) }</time></a>
+						</div>
 
 						<div class="socials">
 							${ item/fedi_link ? `
