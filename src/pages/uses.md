@@ -54,7 +54,7 @@ Central to all my development is my editor, [Neovim](https://neovim.io). I've ex
 
 Sometimes I find myself needing to use Adobe's Creative Cloud or other software that simply refuses to run on Linux. For that reason I've got a Windows 11 virtual machine setup with KVM/[QEMU](https://www.qemu.org), [Spice USB Redirection](https://www.spice-space.org/usbredir.html), [Windows guest drivers](https://github.com/virtio-win/kvm-guest-drivers-windows), [libvirt](https://libvirt.org), and other things of that nature, which I access via [Virtual Machine Manager](https://virt-manager.org).
 
-I 'enhance' (more like salvage) the Windows experience with [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher/wiki) and [Microsoft's PowerToys](https://github.com/microsoft/PowerToys). It generally works _alright_ for my needs.
+I 'enhance' (more like salvage) the Windows experience with [Microsoft's PowerToys](https://github.com/microsoft/PowerToys). The general setup largely works _alright_ for my needs.
 
 ### Miscellaneous
 
