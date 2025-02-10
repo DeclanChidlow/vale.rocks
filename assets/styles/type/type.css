@@ -110,7 +110,7 @@ blockquote {
 blockquote,
 .markdown-alert {
 	padding: 0.5rem 1rem;
-	background: light-dark(oklch(76% 0.03 55 / 0.3), oklch(24% 0.006 17.6 / 0.3));
+	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 	border: 0.05rem solid light-dark(transparent, var(--grey));
 	border-left: 0.3rem solid var(--grey);
 }
@@ -119,8 +119,6 @@ blockquote,
 	display: flex;
 	gap: 1ch;
 	align-items: center;
-	color: var(--alert_colour);
-	fill: var(--alert_coolour);
 }
 
 .markdown-alert-note {
