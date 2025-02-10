@@ -1,5 +1,5 @@
 (posts_data, portfolio_data) => main_template.ori({
-	title: "Index"
+	title: "Vale.Rocks"
 	description: "The personal website of Declan Chidlow, known mononymously as Vale, containing my thoughts, musings, and otherwise unhinged ramblings."
 	og_description: "The hippest site this side of MySpace."
 	stylesheet: "pages/index.css"
