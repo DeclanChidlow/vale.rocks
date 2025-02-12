@@ -1,10 +1,23 @@
+@media (max-width: 45rem) {
+	#section {
+		display: none;
+	}
+}
+
 article header {
 	display: flex;
+	flex-grow: 1;
 	justify-content: space-between;
 	gap: 2rem;
 	padding-bottom: 0.5rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 	border-bottom: 2px solid var(--bright_grey);
+	max-width: 60ch;
+
+	h1 {
+		font-size: inherit;
+		line-height: inherit;
+	}
 }
 
 .socials {
@@ -16,11 +29,42 @@ article header {
 	}
 
 	svg {
-		height: 1.25rem;
 		width: 1.25rem;
+		min-width: 1.25rem;
+	}
+
+	@media (min-width: 65rem) {
+		&:is(div) {
+			display: none;
+		}
+	}
+
+	@media (max-width: 65rem) {
+		&:is(aside) {
+			display: none;
+		}
 	}
 }
 
-.readable-width {
-	max-width: 60ch;
+.micro-content {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 3rem;
+
+	aside {
+		flex-direction: column;
+		font-size: 0.9rem;
+		position: sticky;
+		top: 5rem;
+		height: fit-content;
+
+		a {
+			display: flex;
+			gap: 1rem;
+		}
+	}
+
+	.readable-width {
+		max-width: 60ch;
+	}
 }

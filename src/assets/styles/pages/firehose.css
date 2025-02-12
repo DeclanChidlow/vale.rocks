@@ -41,17 +41,22 @@ article {
 	}
 
 	svg {
-		height: 1.25rem;
 		width: 1.25rem;
+		min-width: 1.25rem;
 	}
 }
 
 .pagination {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	max-width: 65ch;
 
 	a {
 		padding: 2rem;
+	}
+
+	@media (max-width: 24rem) {
+		flex-direction: column;
 	}
 }
