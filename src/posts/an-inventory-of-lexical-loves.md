@@ -3,9 +3,9 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-01-25
+mod_time: 2025-02-12
 section: Essay
-word_count: 593
+word_count: 633
 ---
 
 I love words and the English language [^1] happens to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
@@ -117,6 +117,15 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Vouchsafe</dt>
 <dd>To condescendingly permit or bestow something.</dd>
+
+<dt>Flub</dt>
+<dd>To stuff something up. See the Flubber in the 1997 film, <a href="https://en.wikipedia.org/wiki/Flubber_(film)">Flubber</a>.</dd>
+
+<dt>Botch & Bungle</dt>
+<dd>Both are almost perfect synonyms of one another, so I've grouped them. To do something ineptly.</dd>
+
+<dt>Bodge</dt>
+<dd>To hack together an often temporary solution.</dd>
 </dl>
 
 [^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
