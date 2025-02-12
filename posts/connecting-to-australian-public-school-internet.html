@@ -1,284 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head profile="http://a9.com/-/spec/opensearch/1.1/">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Connecting to Australian Public School Internet | Vale.Rocks</title>
-	<meta property="og:title" content="Connecting to Australian Public School Internet">
-	<meta name="citation_title" content="Connecting to Australian Public School Internet">
-	
-				<meta name="description" content="The Education Department of Australia does some silly stuff with their network quite frequently. This tutorial shows you how to get up and running in no time at all.">
-				<meta property="og:description" content="The guide for when someone breaks the internet. Again...">
-			
-	
-				<meta property="article:published_time" content="2022-10-12">
-				<meta name="dc.date.issued" content="2022-10-12">
-				<meta name="citation_publication_date" content="2022-10-12">
-			
-	
-				<meta property="article:modified_time" content="2024-03-03">
-				<meta name="dcterms.modified" content="2024-03-03">
-			
-	<meta property="article:section" content="Tutorial">
+		<title>Connecting to Australian Public School Internet | Vale.Rocks</title>
+		<meta property="og:title" content="Connecting to Australian Public School Internet">
+		<meta name="citation_title" content="Connecting to Australian Public School Internet">
+		
+			<meta name="description" content="The Education Department of Australia does some silly stuff with their network quite frequently. This tutorial shows you how to get up and running in no time at all.">
+			<meta property="og:description" content="The guide for when someone breaks the internet. Again...">
+		
+		
+			<meta property="article:published_time" content="2022-10-12">
+			<meta name="dc.date.issued" content="2022-10-12">
+			<meta name="citation_publication_date" content="2022-10-12">
+		
+		
+			<meta property="article:modified_time" content="2024-03-03">
+			<meta name="dcterms.modified" content="2024-03-03">
+		
+		<meta property="article:section" content="Tutorial">
 
+		
 
-	<meta property="og:site_name" content="Vale.Rocks">
-	<meta property="og:locale" content="en_AU">
-	<meta property="og:site" content="vale.rocks">
-	<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Vale.Rocks">
+		<meta property="og:locale" content="en_AU">
+		<meta property="og:site" content="vale.rocks">
+		<meta property="og:type" content="website">
 
-	<meta name="author" content="Declan Chidlow">
-	<meta name="citation_author" content="Declan Chidlow">
-	<meta name="creator" content="vale.rocks">
-	<meta name="contact" content="https://vale.rocks/contact">
+		<meta name="author" content="Declan Chidlow">
+		<meta name="citation_author" content="Declan Chidlow">
+		<meta name="creator" content="vale.rocks">
+		<meta name="contact" content="https://vale.rocks/contact">
 
-	<meta name="color-scheme" content="light dark">
-	<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-	<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
-	<link rel="me" href="https://fedi.vale.rocks/vale">
-	<link rel="me" href="https://bsky.app/profile/vale.rocks">
-	<link rel="me" href="https://codepen.io/OuterVale">
-	<link rel="me" href="https://github.com/DeclanChidlow">
-	<link rel="me" href="https://unsplash.com/@outervale">
-	<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+		<link rel="me" href="https://fedi.vale.rocks/vale">
+		<link rel="me" href="https://bsky.app/profile/vale.rocks">
+		<link rel="me" href="https://codepen.io/OuterVale">
+		<link rel="me" href="https://github.com/DeclanChidlow">
+		<link rel="me" href="https://unsplash.com/@outervale">
+		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
 
-	<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-	<link rel="stylesheet" href="/assets/styles/base/reset.css">
-	<link rel="stylesheet" href="/assets/styles/base/body.css">
-	<link rel="stylesheet" href="/assets/styles/type/code.css">
-	<link rel="stylesheet" href="/assets/styles/type/links.css">
-	<link rel="stylesheet" href="/assets/styles/type/type.css">
-	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-	<link rel="stylesheet" href="/assets/styles/components/footer.css">
-	<link rel="stylesheet" href="/assets/styles/components/input.css">
-	<link rel="stylesheet" href="/assets/styles/components/figures.css">
-	<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-	
-				<link rel="stylesheet" href="/assets/styles/components/article_header.css">
-			
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		
+			<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+		
 
-	<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
-	<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
-	<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-</head>
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	</head>
 
-<body >
-	<header id="navbar" data-pagefind-ignore="all">
-		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
-		<nav>
-			<a href="/" id="navlanding">Vale</a>
-			<ul class="menu-items">
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-			</ul>
-			<a href="/search" class="icons">search</a>
-
-			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
-			<div id="popover-menu" popover>
-				<button popovertarget="popover-menu" class="icons">close</button>
-				<ul>
+	<body >
+		<header id="navbar" data-pagefind-ignore="all">
+			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+			<nav>
+				<a href="/" id="navlanding">Vale</a>
+				<ul class="menu-items">
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/photography">photography</a></li>
-					<li><a href="/firehose/1">Firehose</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact</a></li>
 				</ul>
-			</div>
-		</nav>
-</header>
+				<a href="/search" class="icons">search</a>
 
-<main id="main">
-	
-		<style>:root{--header_background: var(--magenta)}</style>
-	
-		<span class="sidebar">
-			<span id="section" data-pagefind-filter="Content Type">Posts</span>	
-	
-			<div id="scroll-container">
-				<div id="indicator"></div>
-			</div>
-		</span>
-	
-		<div class="article-wrapper">
-			<article class="h-entry">
-				<header data-pagefind-ignore>
-					<p data-pagefind-filter="Post Category">Tutorial</p>
-					<h1 class="p-name">Connecting to Australian Public School Internet</h1>
+				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<div id="popover-menu" popover>
+					<button popovertarget="popover-menu" class="icons">close</button>
 					<ul>
-						<li>778 words</li>
-						<li><time class="dt-published" datetime="2022-10-12" title="Date of first publication.">12 Oct 2022</time></li>
-						
-												<li><time class="dt-updated" datetime="2024-03-03" title="Date of last notable modification.">03 Mar 2024</time></li>
-											
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/photography">photography</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/contact">Contact</a></li>
 					</ul>
-				</header>
-	
-				<div class="readable-width e-content">
-					<p>Every now and then, somebody decides that it is time to mess around and &#8216;improve&#8217; enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
-					<p>This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.</p>
-					<h2 id="step-1">Step 1</h2>
-					<p>The first step in getting onto the network is to find out if your password has expired. In most cases, your Department of Education login (the same one you use to access Connect) will expire every 90 days (about 3 months).</p>
-					<p>If you expect that your password has expired, you will have to reset it.</p>
-					<p>If you have an internet connection, then the easiest way to reset it is through the <a href="https://apps.det.wa.edu.au/dam/portal/changePassPage.do">DoE Portal</a>.</p>
-					<p>You could also go to <a href="https://connect.det.wa.edu.au">Connect</a> and login. Once logged in, you can navigate to &#8216;My Connect&#8217; and change your password to something new and secure.</p>
-					<p>In the event that you don&#8217;t have an internet connection, you can request that your teacher or network admin change your password.</p>
-					<h2 id="step-2">Step 2</h2>
-					<p>Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer&#8217;s operating system.</p>
-					<div class="markdown-alert markdown-alert-important">
-					<p class="markdown-alert-title"><svg class="octicon octicon-report mr-2" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
-					<p>Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.</p>
-					</div>
-					<h3 id="windows">Windows</h3>
-					<p>As the Australian government loves further padding the pockets of Microsoft, most schools supply guides for getting setup with Windows. That said, many of these guides are crap, so the process is documented here.</p>
-					<ol>
-					<li>Start off by getting connected to the school network. The certificates are only available on the internal network and not on non-school networks.</li>
-					<li>Once connected, you must download these certificates:</li>
-					</ol>
-					<ul>
-					<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-CA.cer">Education-CA.cer</a></li>
-					<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA1.cer">Education-SubCA1.cer</a></li>
-					<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA2.cer">Education-SubCA2.cer</a></li>
-					</ul>
-					<ol start="3">
-					<li>On your keyboard, hit the &#8216;Windows&#8217; key and R key simultaneously. In the box that appears, type <code>mmc.exe</code>.</li>
-					<li>In the application that opens, press the Ctrl key and the M key simultaneously.</li>
-					<li>In the left panel, double click &#8216;Certificates&#8217;. In the pop-up that opens, select &#8216;Computer account&#8217; and then click next.</li>
-					<li>Select &#8216;Local computer&#8217; and then click Finish. You should be directed back to the main page of the application.</li>
-					<li>In the left panel, you should click the small arrow next to &#8216;Certificates (Local Computer)&#8217; to expand the category. Then click the small arrow next to &#8216;Trusted Root Certification Authorities&#8217;.</li>
-					<li>You should now see the Certificates folder on the left panel. Right click the folder to bring up the context menu. In the menu, select All Tasks and then Import.</li>
-					<li>In the wizard that should have appeared, select &#8216;Local Machine&#8217; and then &#8216;Next&#8217;.</li>
-					<li>On the next page, click &#8216;Browse&#8230;&#8217; and locate your certificates. Select one of them, click open, and then click &#8216;Next&#8217;.</li>
-					<li>In the next pop-up, select &#8216;Trusted Root Certification Authorities&#8217; and then click &#8216;OK&#8217;.</li>
-					<li>You should now be presented with a page showing the settings you&#8217;ve chosen in this guide. The &#8216;Certificate Store Selected by User&#8217; should be &#8216;Trusted Root Certification Authorities&#8217; and the &#8216;Content&#8217; should be &#8216;Certificate&#8217;.</li>
-					</ol>
-					<h3 id="linux">Linux</h3>
-					<p>Most institutions don&#8217;t offer support for Linux. There&#8217;s a certain misunderstanding that anyone using Linux is an elite hacker with intention to take down the mainframe and overthrow the establishment. It&#8217;s a pain, and I&#8217;ve spent countless hours over the years getting it working.</p>
-					<p>Thankfully, we&#8217;ve now got a handy script developed by <a href="https://toastxc.xyz">ToastXC</a> and myself. It connects to the network, downloads the certs, and applies a patch if running Fedora. It&#8217;s available on GitHub as <a href="https://github.com/toastxc/DoE-Network-Kit-Linux">DoE-Network-Kit-Linux</a>.</p>
-					<ol>
-					<li>Ensure you have all the required dependencies installed. These include OpenSSL, Curl, Git, and NetworkManager. They should all be available in your distro&#8217;s package repository.</li>
-					<li>Download the script. You can do this by cloning the GitHub repo with <code>git clone https://github.com/toastxc/DoE-Network-Kit-Linux.git</code>.</li>
-					<li>Then you can enter the directory holding the script with <code>cd DoE-Network-Kit-Linux</code>.</li>
-					<li>This directory holds scripts for different schools. Unless your school is specifically listed, <code>generic.sh</code> should work for you. Run the script with <code>sh generic.sh</code>. You will probably need root permissions, so consider prefixing the command with something like <code>sudo</code> or <code>doas</code>.</li>
-					<li>The script will now run and guide you through the rest of the process. Do note that your password won&#8217;t show up while you write it for security reasons.</li>
-					</ol>
-					<h2 id="step-3">Step 3</h2>
-					<p>You can now log onto your school&#8217;s internet. In the event that your browser doesn&#8217;t redirect you automatically, you may need to <a href="http://sig.site.internal:1000/login?">manually access the login portal</a>.</p>
-					<hr>
-					<p>Had any issues with the process or think something may have changed? Leave a comment down below, and I&#8217;ll try my best to assist.</p>
 				</div>
-			</article>
-	
-			<section class="giscus readable-width"></section>
-		</div>
-	
-	
-		<script
-			src="https://giscus.app/client.js"
-			data-repo="DeclanChidlow/vale.rocks"
-			data-repo-id="R_kgDOGKfOVg"
-			data-category="Comments"
-			data-category-id="DIC_kwDOGKfOVs4CY4vS"
-			data-mapping="og:title"
-			data-strict="1"
-			data-reactions-enabled="1"
-			data-emit-metadata="1"
-			data-input-position="top"
-			data-theme="preferred_color_scheme"
-			data-lang="en"
-			data-loading="lazy"
-			crossorigin="anonymous"
-			async></script>
-		<script src="/assets/scripts/footnotes.js"></script>
-		<script src="/assets/scripts/figures.js"></script>
-		<script src='/assets/scripts/scroll-indicator.js'></script>
-</main>
+			</nav>
+	</header>
 
-<footer id="footer" data-pagefind-ignore="all">
-<div class="footer-top">
-	<h2>Vale</h2>
-	<div class="footer-navigation">
-		<a href="/support" class="support">Support My Work</a>
-		<nav>
-			<ul>
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/firehose/1">Firehose</a></li>
-				<li><a href="/syndication">Syndication</a></li>
-				<li><a href="/photography">Photography</a></li>
-				<li><a href="/links">Links</a></li>
-				<li><a href="/uses">Uses</a></li>
-				<li><a href="/sitemap.xml">Sitemap</a></li>
-			</ul>
-		</nav>
+	<main id="main">
+		<style>:root{--header_background: var(--magenta)}</style>
+
+<span class="sidebar">
+	<span id="section" data-pagefind-filter="Content Type">Posts</span>	
+	<div id="scroll-container">
+		<div id="indicator"></div>
 	</div>
+</span>
+
+<div class="article-wrapper">
+	<article class="h-entry">
+		<header data-pagefind-ignore>
+			<p data-pagefind-filter="Post Category">Tutorial</p>
+			<h1 class="p-name">Connecting to Australian Public School Internet</h1>
+			<ul>
+				<li>778 words</li>
+				<li><time class="dt-published" datetime="2022-10-12" title="Date of first publication.">12 Oct 2022</time></li>
+				
+					<li><time class="dt-updated" datetime="2024-03-03" title="Date of last notable modification.">03 Mar 2024</time></li>
+				
+			</ul>
+		</header>
+
+		<div class="readable-width e-content">
+			<p>Every now and then, somebody decides that it is time to mess around and &#8216;improve&#8217; enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.</p>
+<p>This brief tutorial aims to outline how to properly connect to Australian public-school Wi-Fi at the current time.</p>
+<h2 id="step-1">Step 1</h2>
+<p>The first step in getting onto the network is to find out if your password has expired. In most cases, your Department of Education login (the same one you use to access Connect) will expire every 90 days (about 3 months).</p>
+<p>If you expect that your password has expired, you will have to reset it.</p>
+<p>If you have an internet connection, then the easiest way to reset it is through the <a href="https://apps.det.wa.edu.au/dam/portal/changePassPage.do">DoE Portal</a>.</p>
+<p>You could also go to <a href="https://connect.det.wa.edu.au">Connect</a> and login. Once logged in, you can navigate to &#8216;My Connect&#8217; and change your password to something new and secure.</p>
+<p>In the event that you don&#8217;t have an internet connection, you can request that your teacher or network admin change your password.</p>
+<h2 id="step-2">Step 2</h2>
+<p>Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer&#8217;s operating system.</p>
+<div class="markdown-alert markdown-alert-important">
+<p class="markdown-alert-title"><svg class="octicon octicon-report mr-2" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p>
+<p>Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.</p>
+</div>
+<h3 id="windows">Windows</h3>
+<p>As the Australian government loves further padding the pockets of Microsoft, most schools supply guides for getting setup with Windows. That said, many of these guides are crap, so the process is documented here.</p>
+<ol>
+<li>Start off by getting connected to the school network. The certificates are only available on the internal network and not on non-school networks.</li>
+<li>Once connected, you must download these certificates:</li>
+</ol>
+<ul>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-CA.cer">Education-CA.cer</a></li>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA1.cer">Education-SubCA1.cer</a></li>
+<li><a href="https://certs.education.wa.edu.au/education-pki/cert/Education-SubCA2.cer">Education-SubCA2.cer</a></li>
+</ul>
+<ol start="3">
+<li>On your keyboard, hit the &#8216;Windows&#8217; key and R key simultaneously. In the box that appears, type <code>mmc.exe</code>.</li>
+<li>In the application that opens, press the Ctrl key and the M key simultaneously.</li>
+<li>In the left panel, double click &#8216;Certificates&#8217;. In the pop-up that opens, select &#8216;Computer account&#8217; and then click next.</li>
+<li>Select &#8216;Local computer&#8217; and then click Finish. You should be directed back to the main page of the application.</li>
+<li>In the left panel, you should click the small arrow next to &#8216;Certificates (Local Computer)&#8217; to expand the category. Then click the small arrow next to &#8216;Trusted Root Certification Authorities&#8217;.</li>
+<li>You should now see the Certificates folder on the left panel. Right click the folder to bring up the context menu. In the menu, select All Tasks and then Import.</li>
+<li>In the wizard that should have appeared, select &#8216;Local Machine&#8217; and then &#8216;Next&#8217;.</li>
+<li>On the next page, click &#8216;Browse&#8230;&#8217; and locate your certificates. Select one of them, click open, and then click &#8216;Next&#8217;.</li>
+<li>In the next pop-up, select &#8216;Trusted Root Certification Authorities&#8217; and then click &#8216;OK&#8217;.</li>
+<li>You should now be presented with a page showing the settings you&#8217;ve chosen in this guide. The &#8216;Certificate Store Selected by User&#8217; should be &#8216;Trusted Root Certification Authorities&#8217; and the &#8216;Content&#8217; should be &#8216;Certificate&#8217;.</li>
+</ol>
+<h3 id="linux">Linux</h3>
+<p>Most institutions don&#8217;t offer support for Linux. There&#8217;s a certain misunderstanding that anyone using Linux is an elite hacker with intention to take down the mainframe and overthrow the establishment. It&#8217;s a pain, and I&#8217;ve spent countless hours over the years getting it working.</p>
+<p>Thankfully, we&#8217;ve now got a handy script developed by <a href="https://toastxc.xyz">ToastXC</a> and myself. It connects to the network, downloads the certs, and applies a patch if running Fedora. It&#8217;s available on GitHub as <a href="https://github.com/toastxc/DoE-Network-Kit-Linux">DoE-Network-Kit-Linux</a>.</p>
+<ol>
+<li>Ensure you have all the required dependencies installed. These include OpenSSL, Curl, Git, and NetworkManager. They should all be available in your distro&#8217;s package repository.</li>
+<li>Download the script. You can do this by cloning the GitHub repo with <code>git clone https://github.com/toastxc/DoE-Network-Kit-Linux.git</code>.</li>
+<li>Then you can enter the directory holding the script with <code>cd DoE-Network-Kit-Linux</code>.</li>
+<li>This directory holds scripts for different schools. Unless your school is specifically listed, <code>generic.sh</code> should work for you. Run the script with <code>sh generic.sh</code>. You will probably need root permissions, so consider prefixing the command with something like <code>sudo</code> or <code>doas</code>.</li>
+<li>The script will now run and guide you through the rest of the process. Do note that your password won&#8217;t show up while you write it for security reasons.</li>
+</ol>
+<h2 id="step-3">Step 3</h2>
+<p>You can now log onto your school&#8217;s internet. In the event that your browser doesn&#8217;t redirect you automatically, you may need to <a href="http://sig.site.internal:1000/login?">manually access the login portal</a>.</p>
+<hr>
+<p>Had any issues with the process or think something may have changed? Leave a comment down below, and I&#8217;ll try my best to assist.</p>
+
+		</div>
+	</article>
+
+	<section class="giscus readable-width"></section>
 </div>
 
-<div class="footer-bottom">
-	<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="preferred_color_scheme"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<script src="/assets/scripts/footnotes.js"></script>
+<script src="/assets/scripts/figures.js"></script>
+<script src='/assets/scripts/scroll-indicator.js'></script>
+	</main>
 
-	<ul>
-		<li>
-			<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
-				<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>ActivityPub</title>
-					<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
-				<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Bluesky</title>
-					<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>GitHub</title>
-					<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Unsplash</title>
-					<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
-				<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>LinkedIn</title>
-					<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>CodePen</title>
-					<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
-				</svg>
-			</a>
-		</li>
-	</ul>
-</div>
-</footer>
+	<footer id="footer" data-pagefind-ignore="all">
+		<div class="footer-top">
+			<h2>Vale</h2>
+			<div class="footer-navigation">
+				<a href="/support" class="support">Support My Work</a>
+				<nav>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/photography">Photography</a></li>
+						<li><a href="/links">Links</a></li>
+						<li><a href="/uses">Uses</a></li>
+						<li><a href="/sitemap.xml">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 
-    </body>
-  </html>
+		<div class="footer-bottom">
+			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+						<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>ActivityPub</title>
+							<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+						<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Bluesky</title>
+							<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>GitHub</title>
+							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Unsplash</title>
+							<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+						<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>LinkedIn</title>
+							<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>CodePen</title>
+							<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	</body>
+</html>

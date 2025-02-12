@@ -1,259 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head profile="http://a9.com/-/spec/opensearch/1.1/">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Improving Early Kindles | Vale.Rocks</title>
-	<meta property="og:title" content="Improving Early Kindles">
-	<meta name="citation_title" content="Improving Early Kindles">
-	
-				<meta name="description" content="A guide wrapper about how to bring old Kindles, such as the Kindle Keyboard, as well as the Kindle 4, and Kindle 5 up to speed a bit to be usable in the modern era. Covering screensaver hacks, improved font handling, and more comprehensive customisablity.">
-				<meta property="og:description" content="I will never let it rest.">
-			
-	
-				<meta property="article:published_time" content="2025-01-26">
-				<meta name="dc.date.issued" content="2025-01-26">
-				<meta name="citation_publication_date" content="2025-01-26">
-			
-	<meta property="article:section" content="Tutorial">
+		<title>Improving Early Kindles | Vale.Rocks</title>
+		<meta property="og:title" content="Improving Early Kindles">
+		<meta name="citation_title" content="Improving Early Kindles">
+		
+			<meta name="description" content="A guide wrapper about how to bring old Kindles, such as the Kindle Keyboard, as well as the Kindle 4, and Kindle 5 up to speed a bit to be usable in the modern era. Covering screensaver hacks, improved font handling, and more comprehensive customisablity.">
+			<meta property="og:description" content="I will never let it rest.">
+		
+		
+			<meta property="article:published_time" content="2025-01-26">
+			<meta name="dc.date.issued" content="2025-01-26">
+			<meta name="citation_publication_date" content="2025-01-26">
+		
+		
+		<meta property="article:section" content="Tutorial">
 
+		
 
-	<meta property="og:site_name" content="Vale.Rocks">
-	<meta property="og:locale" content="en_AU">
-	<meta property="og:site" content="vale.rocks">
-	<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Vale.Rocks">
+		<meta property="og:locale" content="en_AU">
+		<meta property="og:site" content="vale.rocks">
+		<meta property="og:type" content="website">
 
-	<meta name="author" content="Declan Chidlow">
-	<meta name="citation_author" content="Declan Chidlow">
-	<meta name="creator" content="vale.rocks">
-	<meta name="contact" content="https://vale.rocks/contact">
+		<meta name="author" content="Declan Chidlow">
+		<meta name="citation_author" content="Declan Chidlow">
+		<meta name="creator" content="vale.rocks">
+		<meta name="contact" content="https://vale.rocks/contact">
 
-	<meta name="color-scheme" content="light dark">
-	<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-	<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
-	<link rel="me" href="https://fedi.vale.rocks/vale">
-	<link rel="me" href="https://bsky.app/profile/vale.rocks">
-	<link rel="me" href="https://codepen.io/OuterVale">
-	<link rel="me" href="https://github.com/DeclanChidlow">
-	<link rel="me" href="https://unsplash.com/@outervale">
-	<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+		<link rel="me" href="https://fedi.vale.rocks/vale">
+		<link rel="me" href="https://bsky.app/profile/vale.rocks">
+		<link rel="me" href="https://codepen.io/OuterVale">
+		<link rel="me" href="https://github.com/DeclanChidlow">
+		<link rel="me" href="https://unsplash.com/@outervale">
+		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
 
-	<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-	<link rel="stylesheet" href="/assets/styles/base/reset.css">
-	<link rel="stylesheet" href="/assets/styles/base/body.css">
-	<link rel="stylesheet" href="/assets/styles/type/code.css">
-	<link rel="stylesheet" href="/assets/styles/type/links.css">
-	<link rel="stylesheet" href="/assets/styles/type/type.css">
-	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-	<link rel="stylesheet" href="/assets/styles/components/footer.css">
-	<link rel="stylesheet" href="/assets/styles/components/input.css">
-	<link rel="stylesheet" href="/assets/styles/components/figures.css">
-	<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-	
-				<link rel="stylesheet" href="/assets/styles/components/article_header.css">
-			
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		
+			<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+		
 
-	<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
-	<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
-	<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-</head>
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	</head>
 
-<body >
-	<header id="navbar" data-pagefind-ignore="all">
-		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
-		<nav>
-			<a href="/" id="navlanding">Vale</a>
-			<ul class="menu-items">
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-			</ul>
-			<a href="/search" class="icons">search</a>
-
-			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
-			<div id="popover-menu" popover>
-				<button popovertarget="popover-menu" class="icons">close</button>
-				<ul>
+	<body >
+		<header id="navbar" data-pagefind-ignore="all">
+			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+			<nav>
+				<a href="/" id="navlanding">Vale</a>
+				<ul class="menu-items">
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/photography">photography</a></li>
-					<li><a href="/firehose/1">Firehose</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact</a></li>
 				</ul>
-			</div>
-		</nav>
-</header>
+				<a href="/search" class="icons">search</a>
 
-<main id="main">
-	
-		<style>:root{--header_background: var(--magenta)}</style>
-	
-		<span class="sidebar">
-			<span id="section" data-pagefind-filter="Content Type">Posts</span>	
-	
-			<div id="scroll-container">
-				<div id="indicator"></div>
-			</div>
-		</span>
-	
-		<div class="article-wrapper">
-			<article class="h-entry">
-				<header data-pagefind-ignore>
-					<p data-pagefind-filter="Post Category">Tutorial</p>
-					<h1 class="p-name">Improving Early Kindles</h1>
+				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<div id="popover-menu" popover>
+					<button popovertarget="popover-menu" class="icons">close</button>
 					<ul>
-						<li>790 words</li>
-						<li><time class="dt-published" datetime="2025-01-26" title="Date of first publication.">26 Jan 2025</time></li>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/photography">photography</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/contact">Contact</a></li>
 					</ul>
-				</header>
-	
-				<div class="readable-width e-content">
-					<p>In July 2010, Amazon released the Kindle 3, also known as the Kindle Keyboard. With a smaller footprint than the Kindle 2, more internal storage, and an improved display, the Kindle 3 was a marked improvement. Even now, over a decade past its release, it&#8217;s still a joy to use.</p>
-					<p>My mother gifted me one she acquired for cheap a few years back, but it was in a non-operational state. Cosmetically it looked mint, yet it refused to turn on, even after charging for extended periods of time.</p>
-					<p>I went out on a limb and purchased a battery from Amazon. Following <a href="https://www.ifixit.com/Guide/Kindle+3+Battery+Replacement/29844">iFixit&#8217;s Kindle 3 Battery Replacement guide</a> I managed to get things sorted. It wasn&#8217;t too difficult of a process. The hardest part was simply prying off the back which I ended up achieving with the edge of a butter knife.</p>
-					<p>With the replaced battery and a bit of charge, the Kindle was up and running. I put it to use immediately but identified a few gripes. Thankfully, the <a href="https://www.mobileread.com">MobileRead Forums</a> exist and play host to a whole collection of hacks and tweaks.</p>
-					<p>It took me a while to trawl through all the information required to get things up and operational - thanks largely due to the age of the device meaning most resources have fallen victim to link rot - so this is a brief write-up of my chosen tweaks and modifications. These notes describe the process on the Kindle 3, but some of the information is transferable and I&#8217;ve also taken very similar actions on a Kindle 4 and a Kindle 5.</p>
-					<p>This isn&#8217;t a guide for the technically inexperienced, merely a collection of notes to wrap the fantastic but fractured works done by others into something a bit more comprehensible.</p>
-					<h2 id="resetting-and-updating">Resetting and Updating</h2>
-					<p>If you haven&#8217;t already, it&#8217;s worth resetting your Kindle prior to modding it, just to be certain it doesn&#8217;t have existing cruft. It&#8217;s especially worth doing if the Kindle previously belonged to someone else.</p>
-					<p>It&#8217;s really simple to do. Hit the <kbd>Home</kbd> button to go to the main menu screen. Then press <kbd>Menu</kbd> and then select <kbd>Settings</kbd>. Press the <kbd>Menu</kbd> key once again and select <kbd>Reset to Factory Defaults</kbd>. Note that this will wipe all content on the Kindle. Then wait, as it takes a while for it to reset itself.</p>
-					<p>The next step is to make sure you&#8217;re on the latest software available. Open Amazon&#8217;s <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW">Kindle E-Reader Software Updates page</a> and follow the instructions for your model.</p>
-					<h2 id="hacks">Hacks</h2>
-					<p>First things first, you&#8217;ll need the gaolbreak. The MobileRead Wiki has <a href="https://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x,_3.x_%26_4.x_Kindles#How_to_install_the_Jailbreak_Hack">a short little guide</a> on how to gaolbreak your Kindle.</p>
-					<h3 id="custom-screensavers">Custom Screensavers</h3>
-					<p>If you continue on with the guide, it will instruct you on installing the screen-saver <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> hack, which allows you to set a custom image when the Kindle is off, including the cover of the book you&#8217;re currently reading.</p>
-					<h3 id="fonts-hack">Fonts Hack</h3>
-					<p>Now you can take control of your font customisation. You&#8217;ll want to jump over to <a href="https://www.mobileread.com/forums/showthread.php?t=88004">NiLuJe&#8217;s comprehensive thread</a> and scroll down to the fonts section. Follow the instructions to install the hack, but don&#8217;t start fiddling with settings yet.</p>
-					<h3 id="kual">KUAL</h3>
-					<p>The Kindle Unified Application Launcher (KUAL) is a very handy little application which various hacks and things can hook into. You&#8217;ll want to install this so you can have a graphical interface to change your settings.</p>
-					<p>You&#8217;ll first need to install the Mobileread Kindlet Kit (MKK). This will let you open and use custom Kindlets, such as KUAL. <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> You can grab the install from <a href="https://www.mobileread.com/forums/showthread.php?t=225030">NiLuJe&#8217;s Snapshot thread</a> and then follow the installation guide halfway down <a href="https://www.mobileread.com/forums/showthread.php?t=233932">the MKK page</a> to install it.</p>
-					<p>Next, you&#8217;ll want to install KUAL itself. Grab it from the Snapshot thread, then follow the installation guide on the <a href="https://www.mobileread.com/forums/showthread.php?t=203326">KUAL thread</a>. After that, check that it opens fine by selecting it from your main library page.</p>
-					<p>Now, you can jump back to the Snapshots thread, grab all of the extensions, and install them as outlined on the KUAL page. Opening KUAL now, you should see that you have lots of settings and options. Congrats, you&#8217;ve got your Kindle ready to go! You now have advanced control over your Kindle and hopefully the potential for a better reading experience.</p>
-					<p>I recommend having a look through the MobileRead Forums and all the cool stuff it has to offer. I also recommend switching off wireless unless you&#8217;re using it, as I&#8217;ve found it can be quite the battery hog. I&#8217;ve also found great value in a magnetic cable that helps minimise wear to the fragile Micro USB connector.</p>
-					<section class="footnotes" data-footnotes>
-					<h2 id="footnote-label" class="sr-only">Footnotes</h2>
-					<ol>
-					<li id="footnote-1">
-					<p>Not really much of a screen-&#8220;saver&#8221; considering e-ink displays don&#8217;t suffer from burn-in like a CRT or OLED display might, but I digress. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
-					</li>
-					<li id="footnote-2">
-					<p>A Kindlet is a little app for the Kindle. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
-					</li>
-					</ol>
-					</section>
 				</div>
-			</article>
-	
-			<section class="giscus readable-width"></section>
-		</div>
-	
-	
-		<script
-			src="https://giscus.app/client.js"
-			data-repo="DeclanChidlow/vale.rocks"
-			data-repo-id="R_kgDOGKfOVg"
-			data-category="Comments"
-			data-category-id="DIC_kwDOGKfOVs4CY4vS"
-			data-mapping="og:title"
-			data-strict="1"
-			data-reactions-enabled="1"
-			data-emit-metadata="1"
-			data-input-position="top"
-			data-theme="preferred_color_scheme"
-			data-lang="en"
-			data-loading="lazy"
-			crossorigin="anonymous"
-			async></script>
-		<script src="/assets/scripts/footnotes.js"></script>
-		<script src="/assets/scripts/figures.js"></script>
-		<script src='/assets/scripts/scroll-indicator.js'></script>
-</main>
+			</nav>
+	</header>
 
-<footer id="footer" data-pagefind-ignore="all">
-<div class="footer-top">
-	<h2>Vale</h2>
-	<div class="footer-navigation">
-		<a href="/support" class="support">Support My Work</a>
-		<nav>
-			<ul>
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/firehose/1">Firehose</a></li>
-				<li><a href="/syndication">Syndication</a></li>
-				<li><a href="/photography">Photography</a></li>
-				<li><a href="/links">Links</a></li>
-				<li><a href="/uses">Uses</a></li>
-				<li><a href="/sitemap.xml">Sitemap</a></li>
-			</ul>
-		</nav>
+	<main id="main">
+		<style>:root{--header_background: var(--magenta)}</style>
+
+<span class="sidebar">
+	<span id="section" data-pagefind-filter="Content Type">Posts</span>	
+	<div id="scroll-container">
+		<div id="indicator"></div>
 	</div>
+</span>
+
+<div class="article-wrapper">
+	<article class="h-entry">
+		<header data-pagefind-ignore>
+			<p data-pagefind-filter="Post Category">Tutorial</p>
+			<h1 class="p-name">Improving Early Kindles</h1>
+			<ul>
+				<li>790 words</li>
+				<li><time class="dt-published" datetime="2025-01-26" title="Date of first publication.">26 Jan 2025</time></li>
+				
+			</ul>
+		</header>
+
+		<div class="readable-width e-content">
+			<p>In July 2010, Amazon released the Kindle 3, also known as the Kindle Keyboard. With a smaller footprint than the Kindle 2, more internal storage, and an improved display, the Kindle 3 was a marked improvement. Even now, over a decade past its release, it&#8217;s still a joy to use.</p>
+<p>My mother gifted me one she acquired for cheap a few years back, but it was in a non-operational state. Cosmetically it looked mint, yet it refused to turn on, even after charging for extended periods of time.</p>
+<p>I went out on a limb and purchased a battery from Amazon. Following <a href="https://www.ifixit.com/Guide/Kindle+3+Battery+Replacement/29844">iFixit&#8217;s Kindle 3 Battery Replacement guide</a> I managed to get things sorted. It wasn&#8217;t too difficult of a process. The hardest part was simply prying off the back which I ended up achieving with the edge of a butter knife.</p>
+<p>With the replaced battery and a bit of charge, the Kindle was up and running. I put it to use immediately but identified a few gripes. Thankfully, the <a href="https://www.mobileread.com">MobileRead Forums</a> exist and play host to a whole collection of hacks and tweaks.</p>
+<p>It took me a while to trawl through all the information required to get things up and operational - thanks largely due to the age of the device meaning most resources have fallen victim to link rot - so this is a brief write-up of my chosen tweaks and modifications. These notes describe the process on the Kindle 3, but some of the information is transferable and I&#8217;ve also taken very similar actions on a Kindle 4 and a Kindle 5.</p>
+<p>This isn&#8217;t a guide for the technically inexperienced, merely a collection of notes to wrap the fantastic but fractured works done by others into something a bit more comprehensible.</p>
+<h2 id="resetting-and-updating">Resetting and Updating</h2>
+<p>If you haven&#8217;t already, it&#8217;s worth resetting your Kindle prior to modding it, just to be certain it doesn&#8217;t have existing cruft. It&#8217;s especially worth doing if the Kindle previously belonged to someone else.</p>
+<p>It&#8217;s really simple to do. Hit the <kbd>Home</kbd> button to go to the main menu screen. Then press <kbd>Menu</kbd> and then select <kbd>Settings</kbd>. Press the <kbd>Menu</kbd> key once again and select <kbd>Reset to Factory Defaults</kbd>. Note that this will wipe all content on the Kindle. Then wait, as it takes a while for it to reset itself.</p>
+<p>The next step is to make sure you&#8217;re on the latest software available. Open Amazon&#8217;s <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW">Kindle E-Reader Software Updates page</a> and follow the instructions for your model.</p>
+<h2 id="hacks">Hacks</h2>
+<p>First things first, you&#8217;ll need the gaolbreak. The MobileRead Wiki has <a href="https://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x,_3.x_%26_4.x_Kindles#How_to_install_the_Jailbreak_Hack">a short little guide</a> on how to gaolbreak your Kindle.</p>
+<h3 id="custom-screensavers">Custom Screensavers</h3>
+<p>If you continue on with the guide, it will instruct you on installing the screen-saver <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> hack, which allows you to set a custom image when the Kindle is off, including the cover of the book you&#8217;re currently reading.</p>
+<h3 id="fonts-hack">Fonts Hack</h3>
+<p>Now you can take control of your font customisation. You&#8217;ll want to jump over to <a href="https://www.mobileread.com/forums/showthread.php?t=88004">NiLuJe&#8217;s comprehensive thread</a> and scroll down to the fonts section. Follow the instructions to install the hack, but don&#8217;t start fiddling with settings yet.</p>
+<h3 id="kual">KUAL</h3>
+<p>The Kindle Unified Application Launcher (KUAL) is a very handy little application which various hacks and things can hook into. You&#8217;ll want to install this so you can have a graphical interface to change your settings.</p>
+<p>You&#8217;ll first need to install the Mobileread Kindlet Kit (MKK). This will let you open and use custom Kindlets, such as KUAL. <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> You can grab the install from <a href="https://www.mobileread.com/forums/showthread.php?t=225030">NiLuJe&#8217;s Snapshot thread</a> and then follow the installation guide halfway down <a href="https://www.mobileread.com/forums/showthread.php?t=233932">the MKK page</a> to install it.</p>
+<p>Next, you&#8217;ll want to install KUAL itself. Grab it from the Snapshot thread, then follow the installation guide on the <a href="https://www.mobileread.com/forums/showthread.php?t=203326">KUAL thread</a>. After that, check that it opens fine by selecting it from your main library page.</p>
+<p>Now, you can jump back to the Snapshots thread, grab all of the extensions, and install them as outlined on the KUAL page. Opening KUAL now, you should see that you have lots of settings and options. Congrats, you&#8217;ve got your Kindle ready to go! You now have advanced control over your Kindle and hopefully the potential for a better reading experience.</p>
+<p>I recommend having a look through the MobileRead Forums and all the cool stuff it has to offer. I also recommend switching off wireless unless you&#8217;re using it, as I&#8217;ve found it can be quite the battery hog. I&#8217;ve also found great value in a magnetic cable that helps minimise wear to the fragile Micro USB connector.</p>
+<section class="footnotes" data-footnotes>
+<h2 id="footnote-label" class="sr-only">Footnotes</h2>
+<ol>
+<li id="footnote-1">
+<p>Not really much of a screen-&#8220;saver&#8221; considering e-ink displays don&#8217;t suffer from burn-in like a CRT or OLED display might, but I digress. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p>A Kindlet is a little app for the Kindle. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
+</li>
+</ol>
+</section>
+
+		</div>
+	</article>
+
+	<section class="giscus readable-width"></section>
 </div>
 
-<div class="footer-bottom">
-	<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="preferred_color_scheme"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<script src="/assets/scripts/footnotes.js"></script>
+<script src="/assets/scripts/figures.js"></script>
+<script src='/assets/scripts/scroll-indicator.js'></script>
+	</main>
 
-	<ul>
-		<li>
-			<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
-				<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>ActivityPub</title>
-					<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
-				<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Bluesky</title>
-					<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>GitHub</title>
-					<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Unsplash</title>
-					<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
-				<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>LinkedIn</title>
-					<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>CodePen</title>
-					<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
-				</svg>
-			</a>
-		</li>
-	</ul>
-</div>
-</footer>
+	<footer id="footer" data-pagefind-ignore="all">
+		<div class="footer-top">
+			<h2>Vale</h2>
+			<div class="footer-navigation">
+				<a href="/support" class="support">Support My Work</a>
+				<nav>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/photography">Photography</a></li>
+						<li><a href="/links">Links</a></li>
+						<li><a href="/uses">Uses</a></li>
+						<li><a href="/sitemap.xml">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 
-    </body>
-  </html>
+		<div class="footer-bottom">
+			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+						<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>ActivityPub</title>
+							<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+						<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Bluesky</title>
+							<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>GitHub</title>
+							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Unsplash</title>
+							<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+						<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>LinkedIn</title>
+							<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>CodePen</title>
+							<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	</body>
+</html>

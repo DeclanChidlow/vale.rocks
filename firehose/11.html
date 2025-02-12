@@ -1,637 +1,655 @@
 <!DOCTYPE html>
 <html lang="en">
-<head profile="http://a9.com/-/spec/opensearch/1.1/">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Firehose | Vale.Rocks</title>
-	<meta property="og:title" content="Firehose">
-	<meta name="citation_title" content="Firehose">
-	
-				<meta name="description" content="Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!">
-				<meta property="og:description" content="Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!">
-			
+		<title>Firehose | Vale.Rocks</title>
+		<meta property="og:title" content="Firehose">
+		<meta name="citation_title" content="Firehose">
+		
+			<meta name="description" content="Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!">
+			<meta property="og:description" content="Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!">
+		
+		
+		
+		
 
+		
 
-	<meta property="og:site_name" content="Vale.Rocks">
-	<meta property="og:locale" content="en_AU">
-	<meta property="og:site" content="vale.rocks">
-	<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Vale.Rocks">
+		<meta property="og:locale" content="en_AU">
+		<meta property="og:site" content="vale.rocks">
+		<meta property="og:type" content="website">
 
-	<meta name="author" content="Declan Chidlow">
-	<meta name="citation_author" content="Declan Chidlow">
-	<meta name="creator" content="vale.rocks">
-	<meta name="contact" content="https://vale.rocks/contact">
+		<meta name="author" content="Declan Chidlow">
+		<meta name="citation_author" content="Declan Chidlow">
+		<meta name="creator" content="vale.rocks">
+		<meta name="contact" content="https://vale.rocks/contact">
 
-	<meta name="color-scheme" content="light dark">
-	<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-	<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
-	<link rel="me" href="https://fedi.vale.rocks/vale">
-	<link rel="me" href="https://bsky.app/profile/vale.rocks">
-	<link rel="me" href="https://codepen.io/OuterVale">
-	<link rel="me" href="https://github.com/DeclanChidlow">
-	<link rel="me" href="https://unsplash.com/@outervale">
-	<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+		<link rel="me" href="https://fedi.vale.rocks/vale">
+		<link rel="me" href="https://bsky.app/profile/vale.rocks">
+		<link rel="me" href="https://codepen.io/OuterVale">
+		<link rel="me" href="https://github.com/DeclanChidlow">
+		<link rel="me" href="https://unsplash.com/@outervale">
+		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
 
-	<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-	<link rel="stylesheet" href="/assets/styles/base/reset.css">
-	<link rel="stylesheet" href="/assets/styles/base/body.css">
-	<link rel="stylesheet" href="/assets/styles/type/code.css">
-	<link rel="stylesheet" href="/assets/styles/type/links.css">
-	<link rel="stylesheet" href="/assets/styles/type/type.css">
-	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-	<link rel="stylesheet" href="/assets/styles/components/footer.css">
-	<link rel="stylesheet" href="/assets/styles/components/input.css">
-	<link rel="stylesheet" href="/assets/styles/components/figures.css">
-	<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-	
-				<link rel="stylesheet" href="/assets/styles/pages/firehose.css">
-			
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		
+			<link rel="stylesheet" href="/assets/styles/pages/firehose.css">
+		
 
-	<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
-	<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
-	<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-</head>
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	</head>
 
-<body >
-	<header id="navbar" data-pagefind-ignore="all">
-		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
-		<nav>
-			<a href="/" id="navlanding">Vale</a>
-			<ul class="menu-items">
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-			</ul>
-			<a href="/search" class="icons">search</a>
-
-			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
-			<div id="popover-menu" popover>
-				<button popovertarget="popover-menu" class="icons">close</button>
-				<ul>
+	<body >
+		<header id="navbar" data-pagefind-ignore="all">
+			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+			<nav>
+				<a href="/" id="navlanding">Vale</a>
+				<ul class="menu-items">
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/photography">photography</a></li>
-					<li><a href="/firehose/1">Firehose</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact</a></li>
 				</ul>
-			</div>
-		</nav>
-</header>
+				<a href="/search" class="icons">search</a>
 
-<main id="main">
-	<h1 id="section" data-pagefind-ignore>Firehose</h1>
+				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<div id="popover-menu" popover>
+					<button popovertarget="popover-menu" class="icons">close</button>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/photography">photography</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+	</header>
+
+	<main id="main">
+		<h1 id="section" data-pagefind-ignore>Firehose</h1>
+
+<div data-pagefind-ignore="all">
 	
-	<div data-pagefind-ignore="all">
+
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240721-1249"><time datetime="2024-07-21T12:49" title="Date of first publication.">21 Jul 2024 12:49</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/8b255d20-2965-470a-95bc-7f157f8434b7" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kxs7gywze42f" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Spent a bit of time putting together a little tool that lets you search across search engines. You can pick a default and use bangs to search a specific site, like on DuckDuckGo.</p>
+<p>Made it mainly for myself, but I&#8217;m sure it&#8217;s of interest to other people.</p>
+<p><a href="https://search.vale.rocks">https://search.vale.rocks</a></p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240705-1153"><time datetime="2024-07-05T11:53" title="Date of first publication.">05 Jul 2024 11:53</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/0f825680-3998-4844-b1e0-77e126038099" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kwjuxmz7sj2l" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p><a href="https://penpot.app">Penpot</a> kicks arse! It&#8217;s got all the sick layout features of something like Figma but represents them exactly as I&#8217;d need to implement them in CSS.</p>
+<p>This is sick!</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240701-0805"><time datetime="2024-07-01T08:05" title="Date of first publication.">01 Jul 2024 08:05</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/c093dc97-20ee-4b6a-a7be-6ddf6bf4e5d8" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kw7gdtzfh22k" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Just successfully implemented a feature I&#8217;ve been struggling to get working for yonks, and, as I did, <em>(Get A) Grip (on Yourself)</em> by The Stranglers started blasting.</p>
+<p>Feels good.</p>
+<p><a href="https://music.youtube.com/watch?v=uakqdR2B2w8">https://music.youtube.com/watch?v=uakqdR2B2w8</a></p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240615-1305"><time datetime="2024-06-15T13:05" title="Date of first publication.">15 Jun 2024 13:05</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/f94e6230-9a6e-4855-b54f-ad8b0b8cce5c" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kuxpmjwauk2g" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>The phrase &#8220;WebKit magic&#8221; is something I could live without.</p>
+
+				</div>
+			</article>
+	<article class="post">
+				<header>
+					<div>
+						<span class="icons">article</span>
+						<h2><a href="/posts/i-got-a-flipper-zero"><time datetime="2024-06-14" title="Date of first publication.">14 Jun 2024</time></a></h2>
+					</div>
+				</header>
+
+				<p>
+					New post published:<br>
+					I Got A Flipper Zero
+					<br><br>
+					My review of the Flipper Zero and the things I've done with it. Encompassing everything from the initial purchase to setup and usage, as well as the community and some cool projects.
+					<br><br>
+					<a href="/posts/i-got-a-flipper-zero">https://vale.rocks/posts/i-got-a-flipper-zero</a>
+				</p>
+				</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240613-0119"><time datetime="2024-06-13T01:19" title="Date of first publication.">13 Jun 2024 01:19</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/94082a95-aaef-4baf-a227-ab5c1b304900" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kurhgfndhv2h" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240611-1137"><time datetime="2024-06-11T11:37" title="Date of first publication.">11 Jun 2024 11:37</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/3c4ba0f4-011a-4311-b756-a1ab87ebca03" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kunisx2uq32n" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Decided to try music streaming again. The Vengabus started playing. I now remember why I maintain a local library.</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240611-0919"><time datetime="2024-06-11T09:19" title="Date of first publication.">11 Jun 2024 09:19</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/a092efcb-95bb-406e-a24b-60f2443ba9ec" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kunbeqdkvl2p" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Finally gave Zed a quick go on NixOS. It&#8217;s slick. The collaboration features are unrivalled.</p>
+<p>If someone asks for a code editor in future, Zed is gonna be my suggestion. As much as I love NeoVim, I understand it isn&#8217;t everyone&#8217;s cup of tea. I can only see Zed getting better and filling the shoes of VS Code.</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240606-0355"><time datetime="2024-06-06T03:55" title="Date of first publication.">06 Jun 2024 03:55</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/44fb2e3b-6a28-4f41-bbde-f3b228e27d9f" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kua4o6rnyc2d" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Please let this happen. I&#8217;ve waited so long.</p>
+<p><a href="https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com">https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com</a></p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240522-1157"><time datetime="2024-05-22T11:57" title="Date of first publication.">22 May 2024 11:57</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/9a54b749-4898-4412-8388-c5a68c2d82a2" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3kt3ao5ujsb2q" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Does this Neuralink stuff remind anyone else of &#8220;Flowers for Algernon&#8221;? The patient experiences temporary enhancement and then has it slowly taken away. I fear the potential psychological impact.</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240520-0934"><time datetime="2024-05-20T09:34" title="Date of first publication.">20 May 2024 09:34</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/95b2d3ec-d112-4c1b-834f-876700601886" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3ksvxpvnccl2l" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>So, uh, is the punchline of The Big Bang Theory just misogyny?</p>
+<p>I don&#8217;t watch the show, but every time I&#8217;m exposed to it, that&#8217;s the impression I get.</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240516-1312"><time datetime="2024-05-16T13:12" title="Date of first publication.">16 May 2024 13:12</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/0cb88cb0-b1a9-48bd-b5f4-e029ed5e4f41" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3ksmc2owj7g2v" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Been keeping an eye on the GitHub milestone as the issues were slowly crossed off the list. Very glad to see the release of Neovim v0.10.</p>
+<p>So many great improvements with this release! Congrats to the team!</p>
+
+				</div>
+			</article>
+	<article class="micro">
+				<header>
+					<div>
+						<span class="icons">stylus_note</span>
+						<h2><a href="/micros/20240508-0906"><time datetime="2024-05-08T09:06" title="Date of first publication.">08 May 2024 09:06</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://fedi.vale.rocks/activities/af81e351-8cc2-4094-bcb7-4fb18d3b9717" title="Fediverse">
+							<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Fediverse</title>
+								<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+							</svg>
+						</a>
+
+						
+						<a href="https://bsky.app/profile/vale.rocks/post/3krxql6rf6g2b" title="Bluesky">
+							<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Bluesky</title>
+								<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+							</svg>
+						</a>
+
+						
+					</div>
+				</header>
+
+				<div class="readable-width">
+					<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>
+<p><img src="https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg" alt="Photograph of a crab sitting in sand next to a rock within a dark bucket."></p>
+<p>In other news, I just published some new images to my Unsplash, so check them out.</p>
+<p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
+
+				</div>
+			</article>
+	<article class="photo">
+				<header>
+					<div>
+						<span class="icons">photo_camera</span>
+						<h2><a href="/photography/evening-sunflower"><time datetime="2024-05-08" title="Date of first publication.">08 May 2024</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://unsplash.com/photos/R_CqTf7xzJE" title="Unsplash">
+							<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Unsplash</title>
+								<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+							</svg>
+						</a>
+					</div>
+				</header>
+
+				<p>Sunflower against the dulling evening sky.</p>
+				<img src="https://images.unsplash.com/photo-1715159847518-96d17a5657f8" alt="A close-up of a sunflower, taken from down low. In the background is a slightly cloudy sky, a frame, and the warm lights of a patio." />
+			</article>
+	<article class="photo">
+				<header>
+					<div>
+						<span class="icons">photo_camera</span>
+						<h2><a href="/photography/relaxing-snake"><time datetime="2024-05-08" title="Date of first publication.">08 May 2024</time></a></h2>
+					</div>
+
+					<div class="socials">
+						
+						<a href="https://unsplash.com/photos/p9N34XzM27s" title="Unsplash">
+							<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<title>Unsplash</title>
+								<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+							</svg>
+						</a>
+					</div>
+				</header>
+
+				<p>A snake named George relaxing on a stick.</p>
+				<img src="https://images.unsplash.com/photo-1715158735090-2b0f2a0f1d86" alt="A close-up of a snake's head on a barkless stick. His underneath is white, and his top is brown with patches of a cream colour. The background is black." />
+			</article>
 	
-	    <article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240721-1249"><time datetime="2024-07-21T12:49" title="Date of first publication.">21 Jul 2024 12:49</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/8b255d20-2965-470a-95bc-7f157f8434b7" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kxs7gywze42f" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Spent a bit of time putting together a little tool that lets you search across search engines. You can pick a default and use bangs to search a specific site, like on DuckDuckGo.</p>
-	    <p>Made it mainly for myself, but I&#8217;m sure it&#8217;s of interest to other people.</p>
-	    <p><a href="https://search.vale.rocks">https://search.vale.rocks</a></p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240705-1153"><time datetime="2024-07-05T11:53" title="Date of first publication.">05 Jul 2024 11:53</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/0f825680-3998-4844-b1e0-77e126038099" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kwjuxmz7sj2l" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p><a href="https://penpot.app">Penpot</a> kicks arse! It&#8217;s got all the sick layout features of something like Figma but represents them exactly as I&#8217;d need to implement them in CSS.</p>
-	    <p>This is sick!</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240701-0805"><time datetime="2024-07-01T08:05" title="Date of first publication.">01 Jul 2024 08:05</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/c093dc97-20ee-4b6a-a7be-6ddf6bf4e5d8" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kw7gdtzfh22k" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Just successfully implemented a feature I&#8217;ve been struggling to get working for yonks, and, as I did, <em>(Get A) Grip (on Yourself)</em> by The Stranglers started blasting.</p>
-	    <p>Feels good.</p>
-	    <p><a href="https://music.youtube.com/watch?v=uakqdR2B2w8">https://music.youtube.com/watch?v=uakqdR2B2w8</a></p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240615-1305"><time datetime="2024-06-15T13:05" title="Date of first publication.">15 Jun 2024 13:05</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/f94e6230-9a6e-4855-b54f-ad8b0b8cce5c" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kuxpmjwauk2g" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>The phrase &#8220;WebKit magic&#8221; is something I could live without.</p>
-	    
-	    					</div>
-	    				</article><article class="post">
-	    					<header>
-	    						<div>
-	    							<span class="icons">article</span>
-	    							<h2><a href="/posts/i-got-a-flipper-zero"><time datetime="2024-06-14" title="Date of first publication.">14 Jun 2024</time></a></h2>
-	    						</div>
-	    					</header>
-	    
-	    					<p>
-	    						New post published:<br>
-	    						I Got A Flipper Zero
-	    						<br><br>
-	    						My review of the Flipper Zero and the things I've done with it. Encompassing everything from the initial purchase to setup and usage, as well as the community and some cool projects.
-	    						<br><br>
-	    						<a href="/posts/i-got-a-flipper-zero">https://vale.rocks/posts/i-got-a-flipper-zero</a>
-	    					</p>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240613-0119"><time datetime="2024-06-13T01:19" title="Date of first publication.">13 Jun 2024 01:19</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/94082a95-aaef-4baf-a227-ab5c1b304900" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kurhgfndhv2h" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>I&#8217;ve got a review of the Flipper Zero coming out on my blog tomorrow. It includes my thoughts on the Flipper itself, the Momentum firmware, and some mischievous uses. Stay tuned!</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240611-1137"><time datetime="2024-06-11T11:37" title="Date of first publication.">11 Jun 2024 11:37</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/3c4ba0f4-011a-4311-b756-a1ab87ebca03" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kunisx2uq32n" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Decided to try music streaming again. The Vengabus started playing. I now remember why I maintain a local library.</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240611-0919"><time datetime="2024-06-11T09:19" title="Date of first publication.">11 Jun 2024 09:19</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/a092efcb-95bb-406e-a24b-60f2443ba9ec" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kunbeqdkvl2p" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Finally gave Zed a quick go on NixOS. It&#8217;s slick. The collaboration features are unrivalled.</p>
-	    <p>If someone asks for a code editor in future, Zed is gonna be my suggestion. As much as I love NeoVim, I understand it isn&#8217;t everyone&#8217;s cup of tea. I can only see Zed getting better and filling the shoes of VS Code.</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240606-0355"><time datetime="2024-06-06T03:55" title="Date of first publication.">06 Jun 2024 03:55</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/44fb2e3b-6a28-4f41-bbde-f3b228e27d9f" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kua4o6rnyc2d" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Please let this happen. I&#8217;ve waited so long.</p>
-	    <p><a href="https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com">https://groups.google.com/a/chromium.org/d/msgid/blink-dev/CAGH7WqFO1%3DUt7OpUvfgnyD5Gaoy7j8zFhSQRw08MDw34SfOL3g%40mail.gmail.com</a></p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240522-1157"><time datetime="2024-05-22T11:57" title="Date of first publication.">22 May 2024 11:57</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/9a54b749-4898-4412-8388-c5a68c2d82a2" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3kt3ao5ujsb2q" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Does this Neuralink stuff remind anyone else of &#8220;Flowers for Algernon&#8221;? The patient experiences temporary enhancement and then has it slowly taken away. I fear the potential psychological impact.</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240520-0934"><time datetime="2024-05-20T09:34" title="Date of first publication.">20 May 2024 09:34</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/95b2d3ec-d112-4c1b-834f-876700601886" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3ksvxpvnccl2l" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>So, uh, is the punchline of The Big Bang Theory just misogyny?</p>
-	    <p>I don&#8217;t watch the show, but every time I&#8217;m exposed to it, that&#8217;s the impression I get.</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240516-1312"><time datetime="2024-05-16T13:12" title="Date of first publication.">16 May 2024 13:12</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/0cb88cb0-b1a9-48bd-b5f4-e029ed5e4f41" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3ksmc2owj7g2v" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Been keeping an eye on the GitHub milestone as the issues were slowly crossed off the list. Very glad to see the release of Neovim v0.10.</p>
-	    <p>So many great improvements with this release! Congrats to the team!</p>
-	    
-	    					</div>
-	    				</article><article class="micro">
-	    					<header>
-	    						<div>
-	    							<span class="icons">stylus_note</span>
-	    							<h2><a href="/micros/20240508-0906"><time datetime="2024-05-08T09:06" title="Date of first publication.">08 May 2024 09:06</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://fedi.vale.rocks/activities/af81e351-8cc2-4094-bcb7-4fb18d3b9717" title="Fediverse">
-	    								<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Fediverse</title>
-	    									<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    							<a href="https://bsky.app/profile/vale.rocks/post/3krxql6rf6g2b" title="Bluesky">
-	    								<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Bluesky</title>
-	    									<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-	    								</svg>
-	    							</a>
-	    
-	    							
-	    						</div>
-	    					</header>
-	    
-	    					<div class="readable-width">
-	    						<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>
-	    <p><img src="https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg" alt="Photograph of a crab sitting in sand next to a rock within a dark bucket."></p>
-	    <p>In other news, I just published some new images to my Unsplash, so check them out.</p>
-	    <p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
-	    
-	    					</div>
-	    				</article><article class="photo">
-	    					<header>
-	    						<div>
-	    							<span class="icons">photo_camera</span>
-	    							<h2><a href="/photography/evening-sunflower"><time datetime="2024-05-08" title="Date of first publication.">08 May 2024</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://unsplash.com/photos/R_CqTf7xzJE" title="Unsplash">
-	    								<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Unsplash</title>
-	    									<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-	    								</svg>
-	    							</a>
-	    						</div>
-	    					</header>
-	    
-	    					<p>Sunflower against the dulling evening sky.</p>
-	    					<img src="https://images.unsplash.com/photo-1715159847518-96d17a5657f8" alt="A close-up of a sunflower, taken from down low. In the background is a slightly cloudy sky, a frame, and the warm lights of a patio." />
-	    				</article><article class="photo">
-	    					<header>
-	    						<div>
-	    							<span class="icons">photo_camera</span>
-	    							<h2><a href="/photography/relaxing-snake"><time datetime="2024-05-08" title="Date of first publication.">08 May 2024</time></a></h2>
-	    						</div>
-	    
-	    						<div class="socials">
-	    							
-	    							<a href="https://unsplash.com/photos/p9N34XzM27s" title="Unsplash">
-	    								<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-	    									<title>Unsplash</title>
-	    									<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-	    								</svg>
-	    							</a>
-	    						</div>
-	    					</header>
-	    
-	    					<p>A snake named George relaxing on a stick.</p>
-	    					<img src="https://images.unsplash.com/photo-1715158735090-2b0f2a0f1d86" alt="A close-up of a snake's head on a barkless stick. His underneath is white, and his top is brown with patches of a cream colour. The background is black." />
-	    				</article>
-	
+
 	<div class="pagination">
 		<a href="/firehose/10"><span aria-hidden="true"><</span> Newer</a>
-	
+
 		<p>Page 11 of 19</p>
-	
+
 		<a href="/firehose/12">Older <span aria-hidden="true">></span></a>
+	</div>
+</div>
+	</main>
+
+	<footer id="footer" data-pagefind-ignore="all">
+		<div class="footer-top">
+			<h2>Vale</h2>
+			<div class="footer-navigation">
+				<a href="/support" class="support">Support My Work</a>
+				<nav>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/photography">Photography</a></li>
+						<li><a href="/links">Links</a></li>
+						<li><a href="/uses">Uses</a></li>
+						<li><a href="/sitemap.xml">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
-	</div>
-</main>
 
-<footer id="footer" data-pagefind-ignore="all">
-<div class="footer-top">
-	<h2>Vale</h2>
-	<div class="footer-navigation">
-		<a href="/support" class="support">Support My Work</a>
-		<nav>
+		<div class="footer-bottom">
+			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 			<ul>
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/firehose/1">Firehose</a></li>
-				<li><a href="/syndication">Syndication</a></li>
-				<li><a href="/photography">Photography</a></li>
-				<li><a href="/links">Links</a></li>
-				<li><a href="/uses">Uses</a></li>
-				<li><a href="/sitemap.xml">Sitemap</a></li>
+				<li>
+					<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+						<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>ActivityPub</title>
+							<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+						<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Bluesky</title>
+							<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>GitHub</title>
+							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Unsplash</title>
+							<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+						<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>LinkedIn</title>
+							<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>CodePen</title>
+							<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
+						</svg>
+					</a>
+				</li>
 			</ul>
-		</nav>
-	</div>
-</div>
-
-<div class="footer-bottom">
-	<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
-
-	<ul>
-		<li>
-			<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
-				<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>ActivityPub</title>
-					<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
-				<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Bluesky</title>
-					<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>GitHub</title>
-					<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Unsplash</title>
-					<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
-				<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>LinkedIn</title>
-					<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>CodePen</title>
-					<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
-				</svg>
-			</a>
-		</li>
-	</ul>
-</div>
-</footer>
-
-    </body>
-  </html>
+		</div>
+	</footer>
+	</body>
+</html>

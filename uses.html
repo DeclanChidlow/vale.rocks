@@ -1,259 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head profile="http://a9.com/-/spec/opensearch/1.1/">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Uses | Vale.Rocks</title>
-	<meta property="og:title" content="Uses">
-	<meta name="citation_title" content="Uses">
-	
-				<meta name="description" content="Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management.">
-				<meta property="og:description" content="Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management.">
-			
+		<title>Uses | Vale.Rocks</title>
+		<meta property="og:title" content="Uses">
+		<meta name="citation_title" content="Uses">
+		
+			<meta name="description" content="Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management.">
+			<meta property="og:description" content="Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management.">
+		
+		
+		
+		
 
+		
 
-	<meta property="og:site_name" content="Vale.Rocks">
-	<meta property="og:locale" content="en_AU">
-	<meta property="og:site" content="vale.rocks">
-	<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Vale.Rocks">
+		<meta property="og:locale" content="en_AU">
+		<meta property="og:site" content="vale.rocks">
+		<meta property="og:type" content="website">
 
-	<meta name="author" content="Declan Chidlow">
-	<meta name="citation_author" content="Declan Chidlow">
-	<meta name="creator" content="vale.rocks">
-	<meta name="contact" content="https://vale.rocks/contact">
+		<meta name="author" content="Declan Chidlow">
+		<meta name="citation_author" content="Declan Chidlow">
+		<meta name="creator" content="vale.rocks">
+		<meta name="contact" content="https://vale.rocks/contact">
 
-	<meta name="color-scheme" content="light dark">
-	<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-	<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
-	<link rel="me" href="https://fedi.vale.rocks/vale">
-	<link rel="me" href="https://bsky.app/profile/vale.rocks">
-	<link rel="me" href="https://codepen.io/OuterVale">
-	<link rel="me" href="https://github.com/DeclanChidlow">
-	<link rel="me" href="https://unsplash.com/@outervale">
-	<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+		<link rel="me" href="https://fedi.vale.rocks/vale">
+		<link rel="me" href="https://bsky.app/profile/vale.rocks">
+		<link rel="me" href="https://codepen.io/OuterVale">
+		<link rel="me" href="https://github.com/DeclanChidlow">
+		<link rel="me" href="https://unsplash.com/@outervale">
+		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
 
-	<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-	<link rel="stylesheet" href="/assets/styles/base/reset.css">
-	<link rel="stylesheet" href="/assets/styles/base/body.css">
-	<link rel="stylesheet" href="/assets/styles/type/code.css">
-	<link rel="stylesheet" href="/assets/styles/type/links.css">
-	<link rel="stylesheet" href="/assets/styles/type/type.css">
-	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-	<link rel="stylesheet" href="/assets/styles/components/footer.css">
-	<link rel="stylesheet" href="/assets/styles/components/input.css">
-	<link rel="stylesheet" href="/assets/styles/components/figures.css">
-	<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		
 
-	<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
-	<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
-	<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-</head>
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	</head>
 
-<body >
-	<header id="navbar" data-pagefind-ignore="all">
-		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
-		<nav>
-			<a href="/" id="navlanding">Vale</a>
-			<ul class="menu-items">
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-			</ul>
-			<a href="/search" class="icons">search</a>
-
-			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
-			<div id="popover-menu" popover>
-				<button popovertarget="popover-menu" class="icons">close</button>
-				<ul>
+	<body >
+		<header id="navbar" data-pagefind-ignore="all">
+			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+			<nav>
+				<a href="/" id="navlanding">Vale</a>
+				<ul class="menu-items">
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/photography">photography</a></li>
-					<li><a href="/firehose/1">Firehose</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact</a></li>
 				</ul>
+				<a href="/search" class="icons">search</a>
+
+				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<div id="popover-menu" popover>
+					<button popovertarget="popover-menu" class="icons">close</button>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/photography">photography</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+	</header>
+
+	<main id="main">
+		<h1 id="section" data-pagefind-filter="Content Type:Page">Uses</h1>
+
+<div class="readable-width">
+
+<p>This page details some of the many things I use. Generally, my selections align with the philosophies <a href="https://gwern.net/choosing-software">outlined by Gwern</a>. All my configs are provided and somewhat documented in my <a href="https://github.com/DeclanChidlow/dotfiles">dotfiles repository on GitHub</a>.</p>
+<h2 id="laptop">Laptop</h2>
+<p>Day to day, I run a Framework Laptop 13. More information about my specific device and my experience with it is available in <a href="/posts/a-year-with-the-framework-laptop-13">my review</a>.</p>
+<p>It runs <a href="https://nixos.org">NixOS</a>, which I&#8217;m a huge fan of thanks to its declarative configuration. The ability to run things in an ephemeral shell with <code>nix-shell -p</code> is also core to my iterative development processes.</p>
+<h3 id="environment">Environment</h3>
+<p>I run <a href="https://swaywm.org">Sway</a> as my window manager, <a href="https://github.com/swaywm/swaylock">swaylock</a> as the screen locker, and <a href="https://codeberg.org/dnkl/yambar">Yambar</a> as my status panel. I use <a href="https://github.com/Cloudef/bemenu">bemenu</a> (a Wayland equivalent of dmenu) for launching programs and displaying my clipboard history (with the help of cliphist). My notifications are all handled by <a href="https://dunst-project.org">Dunst</a>.</p>
+<p><a href="https://sw.kovidgoyal.net/kitty">Kitty</a> is my preferred terminal, pretty much exclusively for its support for ligatures and images and its <a href="https://sw.kovidgoyal.net/kitty/kittens/ssh">SSH kitten</a>.</p>
+<p>All my file exploring is handled by the very excellent <a href="https://vifm.info">Vifm</a>. My configurations for it are quite extensive, and it works for me as a full stand-in for any &#8216;conventional&#8217; file explorer, such as Dolphin or Nautilus.</p>
+<h3 id="shell">Shell</h3>
+<p>I spend a lot of my time in the terminal and, as such, have a pretty smooth config. I run <a href="https://www.zsh.org">ZSH</a> as my shell, with a custom prompt and some default tools replaced. <a href="https://eza.rocks">Eza</a> takes the place of <code>ls</code> and <code>tree</code>, <a href="https://github.com/sharkdp/bat">Bat</a> takes the place of <code>cat</code>, <a href="https://github.com/aristocratos/btop">BTOP++</a> takes the place of <code>top</code>, and <a href="https://ugrep.com">ugrep</a> takes the place of <code>grep</code>.</p>
+<h3 id="browsers">Browsers</h3>
+<ul>
+<li><a href="https://www.mozilla.org/firefox/new">Firefox</a>: For general browser usage.</li>
+<li><a href="https://www.mozilla.org/en-US/firefox/developer">Firefox Developer Edition</a>: For development on Firefox and testing Gecko compatibility.</li>
+<li><a href="https://www.chromium.org/Home">Chromium</a>: For testing Blink compatibility.</li>
+<li><a href="https://apps.gnome.org/Epiphany">Epiphany</a>: For testing WebKit compatibility.</li>
+<li><a href="https://www.torproject.org">Tor</a>: For the occasional dark web browsing session or increased anonymity. I don&#8217;t use any extensions with Tor.</li>
+</ul>
+<p>I use a <a href="https://search.vale.rocks">custom search engine wrapper I made</a> to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:</p>
+<ul>
+<li><a href="https://www.mozilla.org/en-US/firefox/facebookcontainer">Facebook Container</a> (Firefox only): Isolates Facebook from the rest of my browsing.</li>
+<li><a href="https://ublockorigin.com">uBlock Origin</a>: Allows blocking adverts, content, fonts, scripts, etc. I switch this out for <a href="https://github.com/uBlockOrigin/uBOL-home">the lite variant</a> on browsers that have dropped Manifest v2 support.</li>
+<li><a href="https://sponsor.ajay.app">SponsorBlock for YouTube</a>: Can filter out unwanted parts of YouTube videos.</li>
+<li><a href="https://fontanello.app">Fontanello</a>: Provides information about the typographic stylings of selected text.</li>
+</ul>
+<h3 id="development">Development</h3>
+<p>I&#8217;ve already touched on some of my preferred development tools, but I also have many more that I rely on for my front-end development needs.</p>
+<p>As you&#8217;d expect, I use <a href="https://git-scm.com">Git</a> for version control, with <a href="https://github.com">GitHub</a> for hosting. In most situations, I use <a href="https://deno.com">Deno</a>/<a href="https://bun.sh/">Bun</a> in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects. I&#8217;m also quite fond of using <a href="https://github.com/thecoshman/http">httplz</a> as a basic localhost server during development.</p>
+<p>Central to all my development is my editor, <a href="https://neovim.io">Neovim</a>. I&#8217;ve extensively customised it, and it serves as the bulk of my editing environment. It is setup alongside a long list of language servers and plugins that would best be assessed by consulting my <a href="https://github.com/DeclanChidlow/dotfiles">dotfiles</a>. I hope to eventually do a write-up of my specific configuration.</p>
+<h3 id="virtualisation">Virtualisation</h3>
+<p>Sometimes I find myself needing to use Adobe&#8217;s Creative Cloud or other software that simply refuses to run on Linux. For that reason I&#8217;ve got a Windows 11 virtual machine setup with KVM/<a href="https://www.qemu.org">QEMU</a>, <a href="https://www.spice-space.org/usbredir.html">Spice USB Redirection</a>, <a href="https://github.com/virtio-win/kvm-guest-drivers-windows">Windows guest drivers</a>, <a href="https://libvirt.org">libvirt</a>, and other things of that nature, which I access via <a href="https://virt-manager.org">Virtual Machine Manager</a>.</p>
+<p>I &#8216;enhance&#8217; (more like salvage) the Windows experience with <a href="https://github.com/microsoft/PowerToys">Microsoft&#8217;s PowerToys</a>. The general setup largely works <em>alright</em> for my needs.</p>
+<h3 id="miscellaneous">Miscellaneous</h3>
+<p>I use <a href="https://www.prusa3d.com/page/prusaslicer_424">PrusaSlicer</a> for my 3D printing slicing needs, dabble with 3D in <a href="https://www.blender.org">Blender</a>, and use <a href="https://www.libreoffice.org">LibreOffice</a> for dealing with all the Microsoft Office file formats I have to deal with. Otherwise, I tend to use Neovim paired with <a href="https://pandoc.org">Pandoc</a> for most document creation.</p>
+<p>My email/contact/calendar/task client is <a href="https://www.thunderbird.net">Thunderbird</a>. It isn&#8217;t perfect, but is generally alright. Video and loose audio files are played through <a href="https://mpv.io">mpv</a>, and <a href="https://sr.ht/~exec64/imv">imv</a> serves as my image viewer.</p>
+<hr>
+<h2 id="hostingcloud">Hosting/Cloud</h2>
+<p>I have some remote VPS&#8217;, most notably one with <a href="https://www.hetzner.com">Hetzner</a>. My emails, contacts, calendar, and task lists are all handled by <a href="https://runbox.com">Runbox</a>, who allow me to hook into all my stuff with the various <abbr title="Web Distributed Authoring and Versioning">WebDAV</abbr> systems.</p>
+<h3 id="home-server">Home Server</h3>
+<p>I also maintain a home server for self-hosting a range of services, some of which are detailed on my <a href="/services">services page</a>. Much like my laptop, my home server runs NixOS. Everything it hosts is containerised with Docker. I use <a href="https://github.com/mrjackwills/oxker">Oxker</a> as a nice TUI container manager, but it&#8217;s all otherwise pretty boring, though that is probably a good thing for what should be a stable server.</p>
+<hr>
+<h2 id="phone">Phone</h2>
+<p>My current phone is a Google Pixel 7a. Nothing too special, but it&#8217;s one of the only phones on the market with a good camera and, more importantly, an open bootloader. Being a Pixel, it also has support for the excellent <a href="https://grapheneos.org">GrapheneOS</a>. GrapheneOS is pretty much stock Android with a myriad of security and privacy improvements.</p>
+<p>I generally look for apps that I can customise, that are open source, and that adhere to Material You. The apps I&#8217;ve currently got installed include:</p>
+<ul>
+<li><a href="https://bsky.social/about">Bluesky</a></li>
+<li><a href="https://github.com/breezy-weather/breezy-weather">Breezy Weather</a>: I use Breezy&#8217;s weather and clock widget on my home screen.</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera">Pixel Camera</a>: I bought my phone partly for the camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.</li>
+<li><a href="https://grapheneos.org/features#vanadium">Vanadium</a>: Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome&#8217;s market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn&#8217;t much point having two separate browser engines installed, among other issues.</li>
+<li><a href="https://florisboard.org">FlorisBoard</a>: Excellent and very customisable FOSS keyboard.</li>
+<li><a href="https://github.com/Mosc/Glider">Glider</a>: Slick Hacker News client.</li>
+<li><a href="https://kvaesitso.mm20.de">Kvaesitso</a>: Feature-rich, search-focused launcher.</li>
+<li><a href="https://www.android.com/google-messages/">Google Messages</a>: Google&#8217;s SMS/MMS/RCS app. I&#8217;d prefer to use a FOSS alternative, but RCS is pretty locked down, so I&#8217;m left without alternative.</li>
+<li><a href="https://github.com/LucasGGamerM/moshidon">Moshidon</a>: Wonderful Fediverse client with plenty of quality of life features.</li>
+<li><a href="https://github.com/NeoApplications/Neo-Store">Neo Store</a>: Modern, feature-rich F-Droid client</li>
+<li><a href="https://osmand.net">OsmAnd+</a>: Navigation app based on OpenStreetMap.</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.google.android.dialer">Phone by Google</a>: Google&#8217;s Phone app that I&#8217;ve chosen to use as it complements Google Messages.</li>
+<li><a href="https://photos.google.com">Google Photos</a>: Not my preference, but it&#8217;s one of the only options with good editing capabilities. I keep it disconnected from the internet.</li>
+<li><a href="https://phyphox.org">phyphox</a>: Allows for doing all sorts of really cool things using the many sensors in phones.</li>
+<li><a href="https://www.thunderbird.net">Thunderbird</a>: Email client connected to my Runbox email addresses.</li>
+<li><a href="https://www.davx5.com">DAVx<sup>5</sup></a>: CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.</li>
+<li><a href="https://jtx.techbee.at">jtx Board</a>: Provides a synchronised task list.</li>
+<li><a href="https://github.com/FossifyOrg/Calendar">Fossify Calendar</a>: Provides a synchronised calendar.</li>
+<li><a href="https://github.com/FossifyOrg/Calculator">Fossify Calculator</a></li>
+<li><a href="https://github.com/FossifyOrg/Clock">Fossify Clock</a></li>
+<li><a href="https://www.one4studio.com/apps/icon-packs/ares-series">Ares Dark</a>: Provides some very nice looking icons.</li>
+<li><a href="https://proton.me/drive">Proton Drive</a>: Cloud storage that I use to quickly move files between my phone and computer.</li>
+<li><a href="https://protonvpn.com">Proton VPN</a>: A free VPN for when I need it.</li>
+<li><a href="https://revolt.chat">Revolt</a>: Currently using the work-in-progress <a href="https://github.com/revoltchat/android">native Android app</a>.</li>
+<li><a href="https://signal.org">Signal</a>: Excellent chat app for when I need privacy.</li>
+<li><a href="https://youtube.com">YouTube</a> and <a href="https://music.youtube.com">YouTube Music</a>: Both patched with <a href="https://revanced.app">Revanced</a> for quality of life improvements.</li>
+</ul>
+<hr>
+<h2 id="multimedia">Multimedia</h2>
+<p>I&#8217;ve got quite an extensive media library and an equally extensive process for sorting and organising it.</p>
+<h3 id="imagesvideos">Images/Videos</h3>
+<p>I self-host <a href="https://jellyfin.org">Jellyfin</a> for all my movies and televisual needs. It&#8217;s got an intuitive design and feels at home next to commercial streaming services.</p>
+<p>All my personal photos, home videos, etc, are handled by a self-hosted deployment of <a href="https://immich.app">Immich</a>. It handles everything quite simply and works well.</p>
+<h3 id="music">Music</h3>
+<p>Music libraries devolve into a mess with disturbing ease. I convert all my music to OPUS, process them with <a href="https://beets.io">beets</a>, and then play them with <a href="https://www.musicpd.org">Music Player Daemon (MPD)</a>. I can then use a frontend of my choosing, such as <a href="https://rybczak.net/ncmpcpp">ncmpcpp</a>, and pair it with tools like <a href="https://github.com/MusicPlayerDaemon/mpc">mpc</a> for assigning keybinds.</p>
+<h3 id="books">Books</h3>
+<p>Currently I manage my extensive e-book collection with <a href="https://calibre-ebook.com">Calibre</a>, although it is showing its age in a few places. I pair it with <a href="https://www.thestorygraph.com">The StoryGraph</a> for tracking read books and sourcing recommendations.</p>
+<h3 id="gaming">Gaming</h3>
+<p>I like to do a bit of gaming in my &#8216;spare&#8217; time, so I&#8217;ve got a bit setup. I end up spending the bulk of my games on my Xbox Series S simply as a result of convenience. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2K, and Nintendo DS, although they see scarce use.</p>
+<p>My preferred platform, even if not the most played, is PC. Most of my PC games live on <a href="https://steampowered.com">Steam</a>, although I&#8217;ve got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the <a href="https://heroicgameslauncher.com">Heroic Games Launcher</a>. I also have <a href="https://prismlauncher.org">Prism Launcher</a> for my occasional Minecraft needs and <a href="https://feralinteractive.github.io/gamemode">GameMode</a> to keep everything running smoothly.</p>
+<p>I also emulate many games. I use <a href="https://ryujinx.org">Ryujinx</a> for Switch, <a href="https://melonds.kuribo64.net">MelonDS</a> for DS, <a href="https://dolphin-emu.org">Dolphin</a> for Wii/GameCube, <a href="https://pcsx2.net">PCSX2</a> for PlayStation 2, <a href="https://xemu.app">xemu</a> for the original XBOX, <a href="https://xenia.jp">Xenia</a> for the Xbox 360, and <a href="https://mupen64plus.org">Mupen64Plus</a>/<a href="https://github.com/Rosalie241/RMG">Rosalie&#8217;s Mupen GUI</a> standalone, with everything else handled by RetroArch for convenience.</p>
+</div>
+
+	</main>
+
+	<footer id="footer" data-pagefind-ignore="all">
+		<div class="footer-top">
+			<h2>Vale</h2>
+			<div class="footer-navigation">
+				<a href="/support" class="support">Support My Work</a>
+				<nav>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/photography">Photography</a></li>
+						<li><a href="/links">Links</a></li>
+						<li><a href="/uses">Uses</a></li>
+						<li><a href="/sitemap.xml">Sitemap</a></li>
+					</ul>
+				</nav>
 			</div>
-		</nav>
-</header>
+		</div>
 
-<main id="main">
-	<h1 id="section" data-pagefind-filter="Content Type:Page">Uses</h1>
-	
-	<div class="readable-width">
-	
-	<p>This page details some of the many things I use. Generally, my selections align with the philosophies <a href="https://gwern.net/choosing-software">outlined by Gwern</a>. All my configs are provided and somewhat documented in my <a href="https://github.com/DeclanChidlow/dotfiles">dotfiles repository on GitHub</a>.</p>
-	<h2 id="laptop">Laptop</h2>
-	<p>Day to day, I run a Framework Laptop 13. More information about my specific device and my experience with it is available in <a href="/posts/a-year-with-the-framework-laptop-13">my review</a>.</p>
-	<p>It runs <a href="https://nixos.org">NixOS</a>, which I&#8217;m a huge fan of thanks to its declarative configuration. The ability to run things in an ephemeral shell with <code>nix-shell -p</code> is also core to my iterative development processes.</p>
-	<h3 id="environment">Environment</h3>
-	<p>I run <a href="https://swaywm.org">Sway</a> as my window manager, <a href="https://github.com/swaywm/swaylock">swaylock</a> as the screen locker, and <a href="https://codeberg.org/dnkl/yambar">Yambar</a> as my status panel. I use <a href="https://github.com/Cloudef/bemenu">bemenu</a> (a Wayland equivalent of dmenu) for launching programs and displaying my clipboard history (with the help of cliphist). My notifications are all handled by <a href="https://dunst-project.org">Dunst</a>.</p>
-	<p><a href="https://sw.kovidgoyal.net/kitty">Kitty</a> is my preferred terminal, pretty much exclusively for its support for ligatures and images and its <a href="https://sw.kovidgoyal.net/kitty/kittens/ssh">SSH kitten</a>.</p>
-	<p>All my file exploring is handled by the very excellent <a href="https://vifm.info">Vifm</a>. My configurations for it are quite extensive, and it works for me as a full stand-in for any &#8216;conventional&#8217; file explorer, such as Dolphin or Nautilus.</p>
-	<h3 id="shell">Shell</h3>
-	<p>I spend a lot of my time in the terminal and, as such, have a pretty smooth config. I run <a href="https://www.zsh.org">ZSH</a> as my shell, with a custom prompt and some default tools replaced. <a href="https://eza.rocks">Eza</a> takes the place of <code>ls</code> and <code>tree</code>, <a href="https://github.com/sharkdp/bat">Bat</a> takes the place of <code>cat</code>, <a href="https://github.com/aristocratos/btop">BTOP++</a> takes the place of <code>top</code>, and <a href="https://ugrep.com">ugrep</a> takes the place of <code>grep</code>.</p>
-	<h3 id="browsers">Browsers</h3>
-	<ul>
-	<li><a href="https://www.mozilla.org/firefox/new">Firefox</a>: For general browser usage.</li>
-	<li><a href="https://www.mozilla.org/en-US/firefox/developer">Firefox Developer Edition</a>: For development on Firefox and testing Gecko compatibility.</li>
-	<li><a href="https://www.chromium.org/Home">Chromium</a>: For testing Blink compatibility.</li>
-	<li><a href="https://apps.gnome.org/Epiphany">Epiphany</a>: For testing WebKit compatibility.</li>
-	<li><a href="https://www.torproject.org">Tor</a>: For the occasional dark web browsing session or increased anonymity. I don&#8217;t use any extensions with Tor.</li>
-	</ul>
-	<p>I use a <a href="https://search.vale.rocks">custom search engine wrapper I made</a> to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:</p>
-	<ul>
-	<li><a href="https://www.mozilla.org/en-US/firefox/facebookcontainer">Facebook Container</a> (Firefox only): Isolates Facebook from the rest of my browsing.</li>
-	<li><a href="https://ublockorigin.com">uBlock Origin</a>: Allows blocking adverts, content, fonts, scripts, etc. I switch this out for <a href="https://github.com/uBlockOrigin/uBOL-home">the lite variant</a> on browsers that have dropped Manifest v2 support.</li>
-	<li><a href="https://sponsor.ajay.app">SponsorBlock for YouTube</a>: Can filter out unwanted parts of YouTube videos.</li>
-	<li><a href="https://fontanello.app">Fontanello</a>: Provides information about the typographic stylings of selected text.</li>
-	</ul>
-	<h3 id="development">Development</h3>
-	<p>I&#8217;ve already touched on some of my preferred development tools, but I also have many more that I rely on for my front-end development needs.</p>
-	<p>As you&#8217;d expect, I use <a href="https://git-scm.com">Git</a> for version control, with <a href="https://github.com">GitHub</a> for hosting. In most situations, I use <a href="https://deno.com">Deno</a>/<a href="https://bun.sh/">Bun</a> in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects. I&#8217;m also quite fond of using <a href="https://github.com/thecoshman/http">httplz</a> as a basic localhost server during development.</p>
-	<p>Central to all my development is my editor, <a href="https://neovim.io">Neovim</a>. I&#8217;ve extensively customised it, and it serves as the bulk of my editing environment. It is setup alongside a long list of language servers and plugins that would best be assessed by consulting my <a href="https://github.com/DeclanChidlow/dotfiles">dotfiles</a>. I hope to eventually do a write-up of my specific configuration.</p>
-	<h3 id="virtualisation">Virtualisation</h3>
-	<p>Sometimes I find myself needing to use Adobe&#8217;s Creative Cloud or other software that simply refuses to run on Linux. For that reason I&#8217;ve got a Windows 11 virtual machine setup with KVM/<a href="https://www.qemu.org">QEMU</a>, <a href="https://www.spice-space.org/usbredir.html">Spice USB Redirection</a>, <a href="https://github.com/virtio-win/kvm-guest-drivers-windows">Windows guest drivers</a>, <a href="https://libvirt.org">libvirt</a>, and other things of that nature, which I access via <a href="https://virt-manager.org">Virtual Machine Manager</a>.</p>
-	<p>I &#8216;enhance&#8217; (more like salvage) the Windows experience with <a href="https://github.com/microsoft/PowerToys">Microsoft&#8217;s PowerToys</a>. The general setup largely works <em>alright</em> for my needs.</p>
-	<h3 id="miscellaneous">Miscellaneous</h3>
-	<p>I use <a href="https://www.prusa3d.com/page/prusaslicer_424">PrusaSlicer</a> for my 3D printing slicing needs, dabble with 3D in <a href="https://www.blender.org">Blender</a>, and use <a href="https://www.libreoffice.org">LibreOffice</a> for dealing with all the Microsoft Office file formats I have to deal with. Otherwise, I tend to use Neovim paired with <a href="https://pandoc.org">Pandoc</a> for most document creation.</p>
-	<p>My email/contact/calendar/task client is <a href="https://www.thunderbird.net">Thunderbird</a>. It isn&#8217;t perfect, but is generally alright. Video and loose audio files are played through <a href="https://mpv.io">mpv</a>, and <a href="https://sr.ht/~exec64/imv">imv</a> serves as my image viewer.</p>
-	<hr>
-	<h2 id="hostingcloud">Hosting/Cloud</h2>
-	<p>I have some remote VPS&#8217;, most notably one with <a href="https://www.hetzner.com">Hetzner</a>. My emails, contacts, calendar, and task lists are all handled by <a href="https://runbox.com">Runbox</a>, who allow me to hook into all my stuff with the various <abbr title="Web Distributed Authoring and Versioning">WebDAV</abbr> systems.</p>
-	<h3 id="home-server">Home Server</h3>
-	<p>I also maintain a home server for self-hosting a range of services, some of which are detailed on my <a href="/services">services page</a>. Much like my laptop, my home server runs NixOS. Everything it hosts is containerised with Docker. I use <a href="https://github.com/mrjackwills/oxker">Oxker</a> as a nice TUI container manager, but it&#8217;s all otherwise pretty boring, though that is probably a good thing for what should be a stable server.</p>
-	<hr>
-	<h2 id="phone">Phone</h2>
-	<p>My current phone is a Google Pixel 7a. Nothing too special, but it&#8217;s one of the only phones on the market with a good camera and, more importantly, an open bootloader. Being a Pixel, it also has support for the excellent <a href="https://grapheneos.org">GrapheneOS</a>. GrapheneOS is pretty much stock Android with a myriad of security and privacy improvements.</p>
-	<p>I generally look for apps that I can customise, that are open source, and that adhere to Material You. The apps I&#8217;ve currently got installed include:</p>
-	<ul>
-	<li><a href="https://bsky.social/about">Bluesky</a></li>
-	<li><a href="https://github.com/breezy-weather/breezy-weather">Breezy Weather</a>: I use Breezy&#8217;s weather and clock widget on my home screen.</li>
-	<li><a href="https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera">Pixel Camera</a>: I bought my phone partly for the camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.</li>
-	<li><a href="https://grapheneos.org/features#vanadium">Vanadium</a>: Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome&#8217;s market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn&#8217;t much point having two separate browser engines installed, among other issues.</li>
-	<li><a href="https://florisboard.org">FlorisBoard</a>: Excellent and very customisable FOSS keyboard.</li>
-	<li><a href="https://github.com/Mosc/Glider">Glider</a>: Slick Hacker News client.</li>
-	<li><a href="https://kvaesitso.mm20.de">Kvaesitso</a>: Feature-rich, search-focused launcher.</li>
-	<li><a href="https://www.android.com/google-messages/">Google Messages</a>: Google&#8217;s SMS/MMS/RCS app. I&#8217;d prefer to use a FOSS alternative, but RCS is pretty locked down, so I&#8217;m left without alternative.</li>
-	<li><a href="https://github.com/LucasGGamerM/moshidon">Moshidon</a>: Wonderful Fediverse client with plenty of quality of life features.</li>
-	<li><a href="https://github.com/NeoApplications/Neo-Store">Neo Store</a>: Modern, feature-rich F-Droid client</li>
-	<li><a href="https://osmand.net">OsmAnd+</a>: Navigation app based on OpenStreetMap.</li>
-	<li><a href="https://play.google.com/store/apps/details?id=com.google.android.dialer">Phone by Google</a>: Google&#8217;s Phone app that I&#8217;ve chosen to use as it complements Google Messages.</li>
-	<li><a href="https://photos.google.com">Google Photos</a>: Not my preference, but it&#8217;s one of the only options with good editing capabilities. I keep it disconnected from the internet.</li>
-	<li><a href="https://phyphox.org">phyphox</a>: Allows for doing all sorts of really cool things using the many sensors in phones.</li>
-	<li><a href="https://www.thunderbird.net">Thunderbird</a>: Email client connected to my Runbox email addresses.</li>
-	<li><a href="https://www.davx5.com">DAVx<sup>5</sup></a>: CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.</li>
-	<li><a href="https://jtx.techbee.at">jtx Board</a>: Provides a synchronised task list.</li>
-	<li><a href="https://github.com/FossifyOrg/Calendar">Fossify Calendar</a>: Provides a synchronised calendar.</li>
-	<li><a href="https://github.com/FossifyOrg/Calculator">Fossify Calculator</a></li>
-	<li><a href="https://github.com/FossifyOrg/Clock">Fossify Clock</a></li>
-	<li><a href="https://www.one4studio.com/apps/icon-packs/ares-series">Ares Dark</a>: Provides some very nice looking icons.</li>
-	<li><a href="https://proton.me/drive">Proton Drive</a>: Cloud storage that I use to quickly move files between my phone and computer.</li>
-	<li><a href="https://protonvpn.com">Proton VPN</a>: A free VPN for when I need it.</li>
-	<li><a href="https://revolt.chat">Revolt</a>: Currently using the work-in-progress <a href="https://github.com/revoltchat/android">native Android app</a>.</li>
-	<li><a href="https://signal.org">Signal</a>: Excellent chat app for when I need privacy.</li>
-	<li><a href="https://youtube.com">YouTube</a> and <a href="https://music.youtube.com">YouTube Music</a>: Both patched with <a href="https://revanced.app">Revanced</a> for quality of life improvements.</li>
-	</ul>
-	<hr>
-	<h2 id="multimedia">Multimedia</h2>
-	<p>I&#8217;ve got quite an extensive media library and an equally extensive process for sorting and organising it.</p>
-	<h3 id="imagesvideos">Images/Videos</h3>
-	<p>I self-host <a href="https://jellyfin.org">Jellyfin</a> for all my movies and televisual needs. It&#8217;s got an intuitive design and feels at home next to commercial streaming services.</p>
-	<p>All my personal photos, home videos, etc, are handled by a self-hosted deployment of <a href="https://immich.app">Immich</a>. It handles everything quite simply and works well.</p>
-	<h3 id="music">Music</h3>
-	<p>Music libraries devolve into a mess with disturbing ease. I convert all my music to OPUS, process them with <a href="https://beets.io">beets</a>, and then play them with <a href="https://www.musicpd.org">Music Player Daemon (MPD)</a>. I can then use a frontend of my choosing, such as <a href="https://rybczak.net/ncmpcpp">ncmpcpp</a>, and pair it with tools like <a href="https://github.com/MusicPlayerDaemon/mpc">mpc</a> for assigning keybinds.</p>
-	<h3 id="books">Books</h3>
-	<p>Currently I manage my extensive e-book collection with <a href="https://calibre-ebook.com">Calibre</a>, although it is showing its age in a few places. I pair it with <a href="https://www.thestorygraph.com">The StoryGraph</a> for tracking read books and sourcing recommendations.</p>
-	<h3 id="gaming">Gaming</h3>
-	<p>I like to do a bit of gaming in my &#8216;spare&#8217; time, so I&#8217;ve got a bit setup. I end up spending the bulk of my games on my Xbox Series S simply as a result of convenience. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2K, and Nintendo DS, although they see scarce use.</p>
-	<p>My preferred platform, even if not the most played, is PC. Most of my PC games live on <a href="https://steampowered.com">Steam</a>, although I&#8217;ve got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the <a href="https://heroicgameslauncher.com">Heroic Games Launcher</a>. I also have <a href="https://prismlauncher.org">Prism Launcher</a> for my occasional Minecraft needs and <a href="https://feralinteractive.github.io/gamemode">GameMode</a> to keep everything running smoothly.</p>
-	<p>I also emulate many games. I use <a href="https://ryujinx.org">Ryujinx</a> for Switch, <a href="https://melonds.kuribo64.net">MelonDS</a> for DS, <a href="https://dolphin-emu.org">Dolphin</a> for Wii/GameCube, <a href="https://pcsx2.net">PCSX2</a> for PlayStation 2, <a href="https://xemu.app">xemu</a> for the original XBOX, <a href="https://xenia.jp">Xenia</a> for the Xbox 360, and <a href="https://mupen64plus.org">Mupen64Plus</a>/<a href="https://github.com/Rosalie241/RMG">Rosalie&#8217;s Mupen GUI</a> standalone, with everything else handled by RetroArch for convenience.</p>
-	</div>
-</main>
-
-<footer id="footer" data-pagefind-ignore="all">
-<div class="footer-top">
-	<h2>Vale</h2>
-	<div class="footer-navigation">
-		<a href="/support" class="support">Support My Work</a>
-		<nav>
+		<div class="footer-bottom">
+			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 			<ul>
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/firehose/1">Firehose</a></li>
-				<li><a href="/syndication">Syndication</a></li>
-				<li><a href="/photography">Photography</a></li>
-				<li><a href="/links">Links</a></li>
-				<li><a href="/uses">Uses</a></li>
-				<li><a href="/sitemap.xml">Sitemap</a></li>
+				<li>
+					<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+						<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>ActivityPub</title>
+							<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+						<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Bluesky</title>
+							<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>GitHub</title>
+							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Unsplash</title>
+							<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+						<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>LinkedIn</title>
+							<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>CodePen</title>
+							<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
+						</svg>
+					</a>
+				</li>
 			</ul>
-		</nav>
-	</div>
-</div>
-
-<div class="footer-bottom">
-	<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
-
-	<ul>
-		<li>
-			<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
-				<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>ActivityPub</title>
-					<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
-				<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Bluesky</title>
-					<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>GitHub</title>
-					<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Unsplash</title>
-					<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
-				<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>LinkedIn</title>
-					<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>CodePen</title>
-					<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
-				</svg>
-			</a>
-		</li>
-	</ul>
-</div>
-</footer>
-
-    </body>
-  </html>
+		</div>
+	</footer>
+	</body>
+</html>

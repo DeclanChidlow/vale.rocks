@@ -1,256 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head profile="http://a9.com/-/spec/opensearch/1.1/">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Prematurely Pulling The Plug On 3G | Vale.Rocks</title>
-	<meta property="og:title" content="Prematurely Pulling The Plug On 3G">
-	<meta name="citation_title" content="Prematurely Pulling The Plug On 3G">
-	
-				<meta name="description" content="Critical thoughts on the intention of Australian telcos to sunset the 3G network and the major repurcussions on coverage, safety, and much more that will come with it.">
-				<meta property="og:description" content="Better hope you don't need to call emergency services.">
-			
-	
-				<meta property="article:published_time" content="2023-11-26">
-				<meta name="dc.date.issued" content="2023-11-26">
-				<meta name="citation_publication_date" content="2023-11-26">
-			
-	
-				<meta property="article:modified_time" content="2024-05-06">
-				<meta name="dcterms.modified" content="2024-05-06">
-			
-	<meta property="article:section" content="Essay">
+		<title>Prematurely Pulling The Plug On 3G | Vale.Rocks</title>
+		<meta property="og:title" content="Prematurely Pulling The Plug On 3G">
+		<meta name="citation_title" content="Prematurely Pulling The Plug On 3G">
+		
+			<meta name="description" content="Critical thoughts on the intention of Australian telcos to sunset the 3G network and the major repurcussions on coverage, safety, and much more that will come with it.">
+			<meta property="og:description" content="Better hope you don't need to call emergency services.">
+		
+		
+			<meta property="article:published_time" content="2023-11-26">
+			<meta name="dc.date.issued" content="2023-11-26">
+			<meta name="citation_publication_date" content="2023-11-26">
+		
+		
+			<meta property="article:modified_time" content="2024-05-06">
+			<meta name="dcterms.modified" content="2024-05-06">
+		
+		<meta property="article:section" content="Essay">
 
+		
 
-	<meta property="og:site_name" content="Vale.Rocks">
-	<meta property="og:locale" content="en_AU">
-	<meta property="og:site" content="vale.rocks">
-	<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Vale.Rocks">
+		<meta property="og:locale" content="en_AU">
+		<meta property="og:site" content="vale.rocks">
+		<meta property="og:type" content="website">
 
-	<meta name="author" content="Declan Chidlow">
-	<meta name="citation_author" content="Declan Chidlow">
-	<meta name="creator" content="vale.rocks">
-	<meta name="contact" content="https://vale.rocks/contact">
+		<meta name="author" content="Declan Chidlow">
+		<meta name="citation_author" content="Declan Chidlow">
+		<meta name="creator" content="vale.rocks">
+		<meta name="contact" content="https://vale.rocks/contact">
 
-	<meta name="color-scheme" content="light dark">
-	<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-	<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
-	<link rel="me" href="https://fedi.vale.rocks/vale">
-	<link rel="me" href="https://bsky.app/profile/vale.rocks">
-	<link rel="me" href="https://codepen.io/OuterVale">
-	<link rel="me" href="https://github.com/DeclanChidlow">
-	<link rel="me" href="https://unsplash.com/@outervale">
-	<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+		<link rel="me" href="https://fedi.vale.rocks/vale">
+		<link rel="me" href="https://bsky.app/profile/vale.rocks">
+		<link rel="me" href="https://codepen.io/OuterVale">
+		<link rel="me" href="https://github.com/DeclanChidlow">
+		<link rel="me" href="https://unsplash.com/@outervale">
+		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
 
-	<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-	<link rel="stylesheet" href="/assets/styles/base/reset.css">
-	<link rel="stylesheet" href="/assets/styles/base/body.css">
-	<link rel="stylesheet" href="/assets/styles/type/code.css">
-	<link rel="stylesheet" href="/assets/styles/type/links.css">
-	<link rel="stylesheet" href="/assets/styles/type/type.css">
-	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-	<link rel="stylesheet" href="/assets/styles/components/footer.css">
-	<link rel="stylesheet" href="/assets/styles/components/input.css">
-	<link rel="stylesheet" href="/assets/styles/components/figures.css">
-	<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-	
-				<link rel="stylesheet" href="/assets/styles/components/article_header.css">
-			
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		
+			<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+		
 
-	<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
-	<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
-	<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 
-	<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
-</head>
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	</head>
 
-<body >
-	<header id="navbar" data-pagefind-ignore="all">
-		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
-		<nav>
-			<a href="/" id="navlanding">Vale</a>
-			<ul class="menu-items">
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-			</ul>
-			<a href="/search" class="icons">search</a>
-
-			<button popovertarget="popover-menu" class="popover-button icons">menu</button>
-			<div id="popover-menu" popover>
-				<button popovertarget="popover-menu" class="icons">close</button>
-				<ul>
+	<body >
+		<header id="navbar" data-pagefind-ignore="all">
+			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+			<nav>
+				<a href="/" id="navlanding">Vale</a>
+				<ul class="menu-items">
 					<li><a href="/posts">Posts</a></li>
 					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/photography">photography</a></li>
-					<li><a href="/firehose/1">Firehose</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact</a></li>
 				</ul>
-			</div>
-		</nav>
-</header>
+				<a href="/search" class="icons">search</a>
 
-<main id="main">
-	
-		<style>:root{--header_background: var(--magenta)}</style>
-	
-		<span class="sidebar">
-			<span id="section" data-pagefind-filter="Content Type">Posts</span>	
-	
-			<div id="scroll-container">
-				<div id="indicator"></div>
-			</div>
-		</span>
-	
-		<div class="article-wrapper">
-			<article class="h-entry">
-				<header data-pagefind-ignore>
-					<p data-pagefind-filter="Post Category">Essay</p>
-					<h1 class="p-name">Prematurely Pulling The Plug On 3G</h1>
+				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<div id="popover-menu" popover>
+					<button popovertarget="popover-menu" class="icons">close</button>
 					<ul>
-						<li>1057 words</li>
-						<li><time class="dt-published" datetime="2023-11-26" title="Date of first publication.">26 Nov 2023</time></li>
-						
-												<li><time class="dt-updated" datetime="2024-05-06" title="Date of last notable modification.">06 May 2024</time></li>
-											
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/photography">photography</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/contact">Contact</a></li>
 					</ul>
-				</header>
-	
-				<div class="readable-width e-content">
-					<p>First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia&#8217;s 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.</p>
-					<p>As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.</p>
-					<h2 id="impact-on-devices">Impact on Devices</h2>
-					<p>3G is still very much relied upon by countless devices. An instance of this is my grandfather&#8217;s pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I&#8217;m sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.</p>
-					<figure class="right">
-					<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower." />
-					</figure>
-					
-					<p>Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.</p>
-					<p>It won&#8217;t only be the farmers who are hit with unexpected costs come the shutdown. It will also affect many small businesses operating with old and outdated EFTPOS machines. Investing hundreds of dollars into new payment terminals and setup, especially amidst a cost of living crisis, may very well not be financially feasible for these smaller businesses. Moreover, it will force countless people into buying new phones, personal hotspot devices, security systems, and medical devices, straining their financial capacities.</p>
-					<p>This equipment replacement doesn&#8217;t just come with a financial burden; it also comes with an ecological one. As the rollout continues and more and more devices become glorified paperweights, they will end up as e-waste. Tech devices, and especially the batteries contained within them, are notoriously hard to dispose of. A mass exodus of these devices will poison the environment for no conceivable reason and add to our existing e-waste crisis.</p>
-					<h2 id="coverage-issues">Coverage Issues</h2>
-					<p>Many countries around the world have already disconnected with places such as Malaysia, phasing it out as early as 2021. They encountered issues with their older devices, of course, but they also ran into issues with network coverage. To carry data quickly, faster technologies, such as 5G, operate at higher frequencies. However, this comes with a trade-off, and these higher frequencies travel substantially shorter distances. This means that you would need a much higher density of towers just to achieve the same network coverage. In the case of Malaysia, many remote areas were going to be left without network coverage in the middle of a monsoon season, which led to some towers being left online simply so people could contact emergency services. It&#8217;s worth noting that Malaysia also still operates its own 2G network as a fallback for the oldest of devices and maximum coverage.</p>
-					<p>Given the challenges faced by a company as small and densely populated as Malaysia (104 people per square kilometre), it isn&#8217;t hard to visualise the issues for a country as big as Australia, which has a mere 3 people per square kilometre. Despite the fact that we already struggle with lacklustre coverage, even in populated areas, there is cause for alarm regarding the repercussions for more remote, rural communities. Will we suddenly find large groups of people struggle to contact emergency services simply due to the 3G switch off?</p>
-					<h2 id="how-it-affects-you">How It Affects You</h2>
-					<p>You may be wondering what impact this will have on you, but determining what devices and equipment will be affected by this change is far from straightforward. Identifying phones is particularly tricky. There are countless models on the market, and each sports a different operating system, carrier, and country of origin. This makes it very hard to identify exactly what phone you have, let alone if it supports 4G or VoLTE. Even the information posted by carriers may only apply to phones sold by them. Beyond phones, knowing if your other equipment or devices will be supported can be very difficult. The easiest way is to find out directly from the manufacturer, although that can be very difficult if the company has disbanded or if they no longer acknowledge that product.</p>
-					<p>In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.</p>
-					<h2 id="may-2024-update">May 2024 Update</h2>
-					<p>Telstra announced today that they&#8217;ve delayed the discontinuation of their 3G services to August 31st. Previously, they had intentions of cutting off access on June 30th.</p>
-					<p>They have also setup a way to check your device&#8217;s compatibility, with <a href="https://www.abc.net.au/news/2024-05-06/telstra-to-extend-3g-network-shutdown/103808110">more information available on their website</a>.</p>
-					<p>In my eyes, this still doesn&#8217;t excuse the unnecessary risk and inconvenience that this change introduces, but it is good to see that they are at least taking some action. Vodaphone has <a href="https://www.vodafone.com.au/support/network/3g-closure">already closed their network</a>, but Optus customers <a href="https://www.optus.com.au/support/mobiles-tablets-wearables/important-changes-3g">still have until September</a>.</p>
-					<hr>
-					<p>If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you&#8217;d like to see me produce similar content into the future, then consider <a href="/support">sending me a tip</a>. It&#8217;d mean a lot.</p>
 				</div>
-			</article>
-	
-			<section class="giscus readable-width"></section>
-		</div>
-	
-	
-		<script
-			src="https://giscus.app/client.js"
-			data-repo="DeclanChidlow/vale.rocks"
-			data-repo-id="R_kgDOGKfOVg"
-			data-category="Comments"
-			data-category-id="DIC_kwDOGKfOVs4CY4vS"
-			data-mapping="og:title"
-			data-strict="1"
-			data-reactions-enabled="1"
-			data-emit-metadata="1"
-			data-input-position="top"
-			data-theme="preferred_color_scheme"
-			data-lang="en"
-			data-loading="lazy"
-			crossorigin="anonymous"
-			async></script>
-		<script src="/assets/scripts/footnotes.js"></script>
-		<script src="/assets/scripts/figures.js"></script>
-		<script src='/assets/scripts/scroll-indicator.js'></script>
-</main>
+			</nav>
+	</header>
 
-<footer id="footer" data-pagefind-ignore="all">
-<div class="footer-top">
-	<h2>Vale</h2>
-	<div class="footer-navigation">
-		<a href="/support" class="support">Support My Work</a>
-		<nav>
-			<ul>
-				<li><a href="/posts">Posts</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/services">Services</a></li>
-				<li><a href="/firehose/1">Firehose</a></li>
-				<li><a href="/syndication">Syndication</a></li>
-				<li><a href="/photography">Photography</a></li>
-				<li><a href="/links">Links</a></li>
-				<li><a href="/uses">Uses</a></li>
-				<li><a href="/sitemap.xml">Sitemap</a></li>
-			</ul>
-		</nav>
+	<main id="main">
+		<style>:root{--header_background: var(--magenta)}</style>
+
+<span class="sidebar">
+	<span id="section" data-pagefind-filter="Content Type">Posts</span>	
+	<div id="scroll-container">
+		<div id="indicator"></div>
 	</div>
+</span>
+
+<div class="article-wrapper">
+	<article class="h-entry">
+		<header data-pagefind-ignore>
+			<p data-pagefind-filter="Post Category">Essay</p>
+			<h1 class="p-name">Prematurely Pulling The Plug On 3G</h1>
+			<ul>
+				<li>1057 words</li>
+				<li><time class="dt-published" datetime="2023-11-26" title="Date of first publication.">26 Nov 2023</time></li>
+				
+					<li><time class="dt-updated" datetime="2024-05-06" title="Date of last notable modification.">06 May 2024</time></li>
+				
+			</ul>
+		</header>
+
+		<div class="readable-width e-content">
+			<p>First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia&#8217;s 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.</p>
+<p>As it stands, 4G in Australia is conceded with data. Voice communications are left to 3G. 4G uses a standard called Voice over LTE (VoLTE) which permits higher quality transmissions as it is sent over the data network. This is all well and good, but not all devices support this standard. Most phones manufactured in 2020 and onwards support it, but even that is iffy. Many imported phones fail to adhere to the standard and instead fall back to 3G for voice communication. This means that not only will all 3G devices stop working, but also that many devices supporting 4G without VoLTE will be negatively affected.</p>
+<h2 id="impact-on-devices">Impact on Devices</h2>
+<p>3G is still very much relied upon by countless devices. An instance of this is my grandfather&#8217;s pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I&#8217;m sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.</p>
+<figure class="right">
+<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower." />
+</figure>
+
+<p>Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.</p>
+<p>It won&#8217;t only be the farmers who are hit with unexpected costs come the shutdown. It will also affect many small businesses operating with old and outdated EFTPOS machines. Investing hundreds of dollars into new payment terminals and setup, especially amidst a cost of living crisis, may very well not be financially feasible for these smaller businesses. Moreover, it will force countless people into buying new phones, personal hotspot devices, security systems, and medical devices, straining their financial capacities.</p>
+<p>This equipment replacement doesn&#8217;t just come with a financial burden; it also comes with an ecological one. As the rollout continues and more and more devices become glorified paperweights, they will end up as e-waste. Tech devices, and especially the batteries contained within them, are notoriously hard to dispose of. A mass exodus of these devices will poison the environment for no conceivable reason and add to our existing e-waste crisis.</p>
+<h2 id="coverage-issues">Coverage Issues</h2>
+<p>Many countries around the world have already disconnected with places such as Malaysia, phasing it out as early as 2021. They encountered issues with their older devices, of course, but they also ran into issues with network coverage. To carry data quickly, faster technologies, such as 5G, operate at higher frequencies. However, this comes with a trade-off, and these higher frequencies travel substantially shorter distances. This means that you would need a much higher density of towers just to achieve the same network coverage. In the case of Malaysia, many remote areas were going to be left without network coverage in the middle of a monsoon season, which led to some towers being left online simply so people could contact emergency services. It&#8217;s worth noting that Malaysia also still operates its own 2G network as a fallback for the oldest of devices and maximum coverage.</p>
+<p>Given the challenges faced by a company as small and densely populated as Malaysia (104 people per square kilometre), it isn&#8217;t hard to visualise the issues for a country as big as Australia, which has a mere 3 people per square kilometre. Despite the fact that we already struggle with lacklustre coverage, even in populated areas, there is cause for alarm regarding the repercussions for more remote, rural communities. Will we suddenly find large groups of people struggle to contact emergency services simply due to the 3G switch off?</p>
+<h2 id="how-it-affects-you">How It Affects You</h2>
+<p>You may be wondering what impact this will have on you, but determining what devices and equipment will be affected by this change is far from straightforward. Identifying phones is particularly tricky. There are countless models on the market, and each sports a different operating system, carrier, and country of origin. This makes it very hard to identify exactly what phone you have, let alone if it supports 4G or VoLTE. Even the information posted by carriers may only apply to phones sold by them. Beyond phones, knowing if your other equipment or devices will be supported can be very difficult. The easiest way is to find out directly from the manufacturer, although that can be very difficult if the company has disbanded or if they no longer acknowledge that product.</p>
+<p>In the event that your device does support the changes, it will still have reduced coverage in many areas, not even necessarily those that are remote. Certain urban houses and locations naturally lie in less than ideal locations and will see reductions in speed or the inability to connect. As for areas that are remote, they will become even further isolated and cut off from all that is around them.</p>
+<h2 id="may-2024-update">May 2024 Update</h2>
+<p>Telstra announced today that they&#8217;ve delayed the discontinuation of their 3G services to August 31st. Previously, they had intentions of cutting off access on June 30th.</p>
+<p>They have also setup a way to check your device&#8217;s compatibility, with <a href="https://www.abc.net.au/news/2024-05-06/telstra-to-extend-3g-network-shutdown/103808110">more information available on their website</a>.</p>
+<p>In my eyes, this still doesn&#8217;t excuse the unnecessary risk and inconvenience that this change introduces, but it is good to see that they are at least taking some action. Vodaphone has <a href="https://www.vodafone.com.au/support/network/3g-closure">already closed their network</a>, but Optus customers <a href="https://www.optus.com.au/support/mobiles-tablets-wearables/important-changes-3g">still have until September</a>.</p>
+<hr>
+<p>If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you&#8217;d like to see me produce similar content into the future, then consider <a href="/support">sending me a tip</a>. It&#8217;d mean a lot.</p>
+
+		</div>
+	</article>
+
+	<section class="giscus readable-width"></section>
 </div>
 
-<div class="footer-bottom">
-	<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="preferred_color_scheme"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<script src="/assets/scripts/footnotes.js"></script>
+<script src="/assets/scripts/figures.js"></script>
+<script src='/assets/scripts/scroll-indicator.js'></script>
+	</main>
 
-	<ul>
-		<li>
-			<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
-				<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>ActivityPub</title>
-					<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
-				<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Bluesky</title>
-					<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>GitHub</title>
-					<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>Unsplash</title>
-					<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
-				<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>LinkedIn</title>
-					<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
-				<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<title>CodePen</title>
-					<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
-				</svg>
-			</a>
-		</li>
-	</ul>
-</div>
-</footer>
+	<footer id="footer" data-pagefind-ignore="all">
+		<div class="footer-top">
+			<h2>Vale</h2>
+			<div class="footer-navigation">
+				<a href="/support" class="support">Support My Work</a>
+				<nav>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/photography">Photography</a></li>
+						<li><a href="/links">Links</a></li>
+						<li><a href="/uses">Uses</a></li>
+						<li><a href="/sitemap.xml">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 
-    </body>
-  </html>
+		<div class="footer-bottom">
+			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="https://fedi.vale.rocks/vale" target="_blank" title="Fediverse">
+						<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>ActivityPub</title>
+							<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://bsky.app/profile/vale.rocks" target="_blank" title="Bluesky">
+						<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Bluesky</title>
+							<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/DeclanChidlow" target="_blank" title="GitHub">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>GitHub</title>
+							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://unsplash.com/@outervale" target="_blank" title="Unsplash">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Unsplash</title>
+							<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank" title="LinkedIn">
+						<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>LinkedIn</title>
+							<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/OuterVale" target="_blank" title="CodePen">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>CodePen</title>
+							<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	</body>
+</html>
