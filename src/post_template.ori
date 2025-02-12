@@ -57,4 +57,5 @@
 	async></script>
 <script src="/assets/scripts/footnotes.js"></script>
 <script src="/assets/scripts/figures.js"></script>
-<script src='/assets/scripts/scroll-indicator.js'></script>`})
+<script src='/assets/scripts/scroll-indicator.js'></script>
+<script src='/assets/scripts/copy-codeblock.js'></script>`})
