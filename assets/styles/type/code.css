@@ -6,6 +6,20 @@ kbd {
 	font-size: 0.9rem;
 }
 
+.code-block-wrapper {
+	position: relative;
+
+	.copy-button {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	pre {
+		padding-right: 3rem;
+	}
+}
+
 pre {
 	overflow-x: auto;
 	background: var(--black);
