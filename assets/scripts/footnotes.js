@@ -71,10 +71,6 @@ class FootnotesSidenotes {
 	}
 
 	setupReference(reference, index) {
-		if (!reference.id) {
-			reference.id = `footnote-ref-${index}`;
-		}
-
 		const footnoteId = reference.getAttribute("href").substring(1);
 		const footnoteContent = document.getElementById(footnoteId).innerHTML;
 		const sidenote = document.createElement("div");
@@ -84,6 +80,7 @@ class FootnotesSidenotes {
 
 		const button = document.createElement("button");
 		button.className = "footnote-button";
+		button.id = `footnote-ref-${index + 1}`;
 		button.innerHTML = reference.innerHTML;
 		const popover = this.createPopover(footnoteContent, index);
 		document.body.appendChild(popover);
