@@ -3,17 +3,14 @@
 	description: "My portfolio of works, including design and development endeavours, presented for your perusal."
 	stylesheet: "pages/portfolio.css"
 
-	@text: indent`
-	<h1 id="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
+@text:
+`<h1 id="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
 
-	<div class="portfolio-items" data-pagefind-ignore="all">
-		${ map(portfolio_data,
-		(post, key) => indent`
-			<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ post/accent_colour });">
-				<h2>${ post/title }</h2>
-				<p>${ post/tag_line }</p>
-			</a>
-		`)}
-	</div>
-	`
-})
+<div class="portfolio-items" data-pagefind-ignore="all">
+	${ map(portfolio_data,
+	(post, key) => 
+	`<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ post/accent_colour });">
+		<h2>${ post/title }</h2>
+		<p>${ post/tag_line }</p>
+	</a>`)}
+</div>`})

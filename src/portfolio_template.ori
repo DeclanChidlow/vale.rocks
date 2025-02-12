@@ -4,21 +4,20 @@
 	og_description: post/tag_line
 	stylesheet: "components/article_header.css"
 
-	@text: indent`
-	<style>:root{--header_background: ${ post/accent_colour }}</style>
+@text:
+`<style>:root{--header_background: ${ post/accent_colour }}</style>
 
-	<span id="section" data-pagefind-filter="Content Type">Portfolio</span>	
+<span id="section" data-pagefind-filter="Content Type">Portfolio</span>	
 
-	<article>
-		<header data-pagefind-ignore>
-			<h1>${ post/title }</h1>
-		</header>
+<article>
+	<header data-pagefind-ignore>
+		<h1>${ post/title }</h1>
+	</header>
 
-		<div class="readable-width">
-			${ post/@text }
-		</div>
-	</article>
+	<div class="readable-width">
+		${ post/@text }
+	</div>
+</article>
 
-	<script src="/assets/scripts/footnotes.js"></script>
-	<script src="/assets/scripts/figures.js"></script>
-` })
+<script src="/assets/scripts/footnotes.js"></script>
+<script src="/assets/scripts/figures.js"></script>`})

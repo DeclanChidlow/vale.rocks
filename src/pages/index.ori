@@ -4,65 +4,60 @@
 	og_description: "The hippest site this side of MySpace."
 	stylesheet: "pages/index.css"
 
-	@text: indent`
-		<div id="puddle-container" aria-hidden="true"></div>
+@text:
+`<div id="puddle-container" aria-hidden="true"></div>
 
-		<section class="hero" data-pagefind-filter="Content Type:Page">
-			<h1>Vale</h1>
-			<p>Developer</p>
-			<p>Designer</p>
-			<p>Dabbler</p>
-		</section>
+<section class="hero" data-pagefind-filter="Content Type:Page">
+	<h1>Vale</h1>
+	<p>Developer</p>
+	<p>Designer</p>
+	<p>Dabbler</p>
+</section>
 
-		<div class="content">
-			<section class="readable-width">
-				<h2>Ahoy!</h2>
+<div class="content">
+	<section class="readable-width">
+		<h2>Ahoy!</h2>
 
-				<p>I'm Declan Chidlow, a passionate front-end developer. I like to believe I've got an eye for aesthetics, and I've most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.</p>
-				<p>When I'm not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.</p>
-				<p>Apart from being a home for my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging.</p>
-			</section>
+		<p>I'm Declan Chidlow, a passionate front-end developer. I like to believe I've got an eye for aesthetics, and I've most definitely got a love for learning. My ultimate aspiration is to create digital experiences that are both functional and visually appealing.</p>
+		<p>When I'm not bodging together some script or reinventing the wheel, you might find me cruising around on my unicycle. Alternatively, you may find me writing up some form of article for this very website, doing some gaming, inadvertently converting an otherwise functional piece of tech into a paperweight, or browsing the crevices of cyberspace.</p>
+		<p>Apart from being a home for my thoughts and musings, this website acts as a gateway to all sorts of horrific abominations I concoct. Some of them won't even cause internal haemorrhaging.</p>
+	</section>
 
-			<section data-pagefind-ignore="all">
-				<a href="/posts"><h2>Read My Writings:</h2></a>
+	<section data-pagefind-ignore="all">
+		<a href="/posts"><h2>Read My Writings:</h2></a>
 
-				<div class="posts">
-					${ map(take(posts_data, 3),
-					(post, key) => indent`
-						<a class="post" href="/posts/${ basename(key) }">
-							<p>${ post/section }</p>
-							<h3>${ post/title }</h3>
-							<ul>
-								<li>${ post/word_count } words |</li>
-								<li><time datetime="${ post/pub_time }" title="Date of first publication.">
-									${ functions/pretty-date.js(post/pub_time) }
-								</time></li>
-								${ post/mod_time ? `
-									<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
-									- ${ functions/pretty-date.js(post/mod_time) }
-									</time></li>
-								` : '' }
-							</ul>
-						</a>
-					`)}
-				</div>
-			</section>
+		<div class="posts">
+			${ map(take(posts_data, 3),
+			(post, key) =>
+			`<a class="post" href="/posts/${ basename(key) }">
+				<p>${ post/section }</p>
+				<h3>${ post/title }</h3>
+				<ul>
+					<li>${ post/word_count } words |</li>
+					<li><time datetime="${ post/pub_time }" title="Date of first publication.">
+						${ functions/pretty-date.js(post/pub_time) }
+					</time></li>
+					${ post/mod_time ?
+						`<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
+						- ${ functions/pretty-date.js(post/mod_time) }
+						</time></li>` : '' }
+				</ul>
+			</a>`)}
+		</div>
+	</section>
 
-			<section data-pagefind-ignore="all">
-				<a href="/portfolio"><h2>Peruse My Portfolio:</h2></a>
+	<section data-pagefind-ignore="all">
+		<a href="/portfolio"><h2>Peruse My Portfolio:</h2></a>
 
-				<div class="portfolio-items">
-					${ map(take(portfolio_data, 3),
-					(item, key) => indent`
-						<a class="item" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ item/accent_colour });">
-							<h3>${ item/title }</h3>
-							<p>${ item/tag_line }</p>
-						</a>
-					`)}
-				</div>
-			<section>
-	</div>
+		<div class="portfolio-items">
+			${ map(take(portfolio_data, 3),
+			(item, key) =>
+			`<a class="item" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ item/accent_colour });">
+				<h3>${ item/title }</h3>
+				<p>${ item/tag_line }</p>
+			</a>`)}
+		</div>
+	<section>
+</div>
 
-	<script type="module" src="/assets/scripts/puddle.js"></script>
-	`
-})
+<script type="module" src="/assets/scripts/puddle.js"></script>`})

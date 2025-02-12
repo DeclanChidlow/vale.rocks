@@ -7,58 +7,54 @@
 	section: post/section
 	stylesheet: "components/article_header.css"
 
-	@text: indent`
+@text:
+`<style>:root{--header_background: var(--magenta)}</style>
 
-	<style>:root{--header_background: var(--magenta)}</style>
-
-	<span class="sidebar">
-		<span id="section" data-pagefind-filter="Content Type">Posts</span>	
-
-		<div id="scroll-container">
-			<div id="indicator"></div>
-		</div>
-	</span>
-
-	<div class="article-wrapper">
-		<article class="h-entry">
-			<header data-pagefind-ignore>
-				<p data-pagefind-filter="Post Category">${ post/section }</p>
-				<h1 class="p-name">${ post/title }</h1>
-				<ul>
-					<li>${ post/word_count } words</li>
-					<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
-					${ post/mod_time ? `
-						<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
-					` : '' }
-				</ul>
-			</header>
-
-			<div class="readable-width e-content">
-				${ post/@text }
-			</div>
-		</article>
-
-		<section class="giscus readable-width"></section>
+<span class="sidebar">
+	<span id="section" data-pagefind-filter="Content Type">Posts</span>	
+	<div id="scroll-container">
+		<div id="indicator"></div>
 	</div>
+</span>
 
+<div class="article-wrapper">
+	<article class="h-entry">
+		<header data-pagefind-ignore>
+			<p data-pagefind-filter="Post Category">${ post/section }</p>
+			<h1 class="p-name">${ post/title }</h1>
+			<ul>
+				<li>${ post/word_count } words</li>
+				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
+				${ post/mod_time ? `
+					<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
+				` : '' }
+			</ul>
+		</header>
 
-	<script
-		src="https://giscus.app/client.js"
-		data-repo="DeclanChidlow/vale.rocks"
-		data-repo-id="R_kgDOGKfOVg"
-		data-category="Comments"
-		data-category-id="DIC_kwDOGKfOVs4CY4vS"
-		data-mapping="og:title"
-		data-strict="1"
-		data-reactions-enabled="1"
-		data-emit-metadata="1"
-		data-input-position="top"
-		data-theme="preferred_color_scheme"
-		data-lang="en"
-		data-loading="lazy"
-		crossorigin="anonymous"
-		async></script>
-	<script src="/assets/scripts/footnotes.js"></script>
-	<script src="/assets/scripts/figures.js"></script>
-	<script src='/assets/scripts/scroll-indicator.js'></script>
-` })
+		<div class="readable-width e-content">
+			${ post/@text }
+		</div>
+	</article>
+
+	<section class="giscus readable-width"></section>
+</div>
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="preferred_color_scheme"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<script src="/assets/scripts/footnotes.js"></script>
+<script src="/assets/scripts/figures.js"></script>
+<script src='/assets/scripts/scroll-indicator.js'></script>`})
