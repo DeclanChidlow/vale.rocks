@@ -3,6 +3,7 @@ kbd {
 	font-family: "Fira Code", monospace;
 	border: 2px solid light-dark(var(--white), var(--grey));
 	padding: 0 0.2rem;
+	font-size: 0.9rem;
 }
 
 pre {
@@ -26,4 +27,61 @@ pre {
 	@media (max-width: 45rem) {
 		max-width: 100%;
 	}
+}
+
+.hljs-comment {
+	color: var(--white);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-meta,
+.hljs-tag,
+.hljs-property,
+.hljs-name,
+.hljs-type {
+	color: var(--bright_blue);
+}
+
+.hljs-title,
+.hljs-title.function_ {
+	color: var(--cyan);
+}
+
+.hljs-string,
+.hljs-regexp {
+	color: var(--bright_green);
+}
+
+.hljs-number,
+.hljs-literal {
+	color: var(--bright_magenta);
+}
+
+.hljs-title.class_,
+.hljs-attr,
+.hljs-attribute {
+	color: var(--yellow);
+}
+
+.hljs-symbol,
+.hljs-bullet {
+	color: var(--magenta);
+}
+
+.hljs-meta-keyword {
+	color: var(--red);
+}
+
+.hljs-template-variable {
+	color: var(--bright_green);
+}
+
+.hljs-addition {
+	background: oklch(from var(--green) l c h / calc(alpha - 0.7));
+}
+
+.hljs-deletion {
+	background: oklch(from var(--red) l c h / calc(alpha - 0.7));
 }
