@@ -1,3 +1,9 @@
+@media (max-width: 45rem) {
+	#section {
+		display: none;
+	}
+}
+
 .article-wrapper {
 	margin-left: 3rem;
 	width: 100%;
@@ -36,10 +42,6 @@
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;
 		}
-	}
-
-	span#section {
-		display: none;
 	}
 
 	@media (max-width: 45rem) {
