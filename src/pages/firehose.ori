@@ -17,7 +17,7 @@
 					<header>
 						<div>
 							<span class="icons">article</span>
-							<a href="/posts/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+							<h2><a href="/posts/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
 						</div>
 					</header>
 
@@ -37,7 +37,7 @@
 					<header>
 						<div>
 							<span class="icons">photo_camera</span>
-							<a href="/photography/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a>
+							<h2><a href="/photography/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
 						</div>
 
 						<div class="socials">
@@ -61,7 +61,7 @@
 					<header>
 						<div>
 							<span class="icons">stylus_note</span>
-							<a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) } ${ functions/pretty-time.js(item/pub_time) }</time></a>
+							<h2><a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) } ${ functions/pretty-time.js(item/pub_time) }</time></a></h2>
 						</div>
 
 						<div class="socials">

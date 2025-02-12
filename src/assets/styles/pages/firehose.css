@@ -9,6 +9,12 @@ article {
 		gap: 2rem;
 		margin-bottom: 1rem;
 
+		h2 {
+			font-size: inherit;
+			line-height: inherit;
+			font-weight: normal;
+		}
+
 		div {
 			display: flex;
 			gap: 1ch;
