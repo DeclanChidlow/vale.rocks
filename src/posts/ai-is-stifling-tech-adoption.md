@@ -1,7 +1,7 @@
 ---
 title: AI is Stifling Tech Adoption
 description: AI language models are shaping technology adoption in software development through training data limitations and system prompt biases. This analysis examines how AI assistants' preferences for established frameworks like React and Tailwind CSS may be creating barriers for newer technologies, supported by testing across major AI platforms including ChatGPT, Claude, Gemini, and DeepSeek. A look at the growing AI knowledge gap and its impact on technological innovation in modern software development.
-og_description: AI coding assistant are React evangelists.
+og_description: AI coding assistants are React evangelists.
 pub_time: 2025-02-13
 section: Essay
 word_count: 1797

@@ -25,6 +25,8 @@
 					New post published:<br>
 					${ item/title }
 					<br><br>
+					<em>${ item/og_description }</em>
+					<br><br>
 					${ item/description }
 					<br><br>
 					<a href="/posts/${ basename(key) }">https://vale.rocks/posts/${ basename(key) }</a>
