@@ -614,6 +614,10 @@
 	<span class="hljs-attr">--text-color</span>: <span class="hljs-number">#333</span>;
 }
 
+<span class="hljs-selector-class">.controls</span> {
+	<span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
+}
+
 <span class="hljs-selector-tag">button</span>,
 <span class="hljs-selector-tag">select</span> {
 	<span class="hljs-attribute">padding</span>: <span class="hljs-number">0.5rem</span> <span class="hljs-number">1rem</span>;
