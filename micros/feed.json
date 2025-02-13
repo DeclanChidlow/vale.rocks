@@ -6,6 +6,27 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250213-0214",
+      "url": "https://vale.rocks/micros/20250213-0214",
+      "title": "13 Feb 2025 02:14",
+      "content_html": "<p><a href=\"https://whitep4nth3r.com\">Salma Alam-Nayor</a>&#8217;s recent writing and discussion of &#8216;copy codeblock&#8217; buttons and their accessibility benefits has prompted me to finally get around to adding them to Vale.Rocks.</p>\n<p>I also finally got around to adding syntax highlighting, which was long overdue.</p>\n<p>Have a look on my Lorem Ipsum page:<br><a href=\"https://vale.rocks/posts/lorem-ipsum#codeblocks\">https://vale.rocks/posts/lorem-ipsum#codeblocks</a></p>\n",
+      "date_published": "2025-02-13T02:14"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250212-0434",
+      "url": "https://vale.rocks/micros/20250212-0434",
+      "title": "12 Feb 2025 04:34",
+      "content_html": "<p><code>position: sticky</code> is one of those CSS things I can never get first time. Try as I might, I always end up flubbing around with it.</p>\n",
+      "date_published": "2025-02-12T04:34"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250209-1043",
+      "url": "https://vale.rocks/micros/20250209-1043",
+      "title": "09 Feb 2025 10:43",
+      "content_html": "<p>CSS crimes are the best crimes.</p>\n",
+      "date_published": "2025-02-09T10:43"
+    },
+    {
       "id": "https://vale.rocks/micros/20250209-0846",
       "url": "https://vale.rocks/micros/20250209-0846",
       "title": "09 Feb 2025 08:46",

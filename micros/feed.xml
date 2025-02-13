@@ -6,6 +6,32 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Thu, 13 Feb 2025 02:14:00 GMT</pubDate>
+      <title>13 Feb 2025 02:14</title>
+      <link>https://vale.rocks/micros/20250213-0214</link>
+      <guid>https://vale.rocks/micros/20250213-0214</guid>
+      <content:encoded><![CDATA[<p><a href="https://whitep4nth3r.com">Salma Alam-Nayor</a>&#8217;s recent writing and discussion of &#8216;copy codeblock&#8217; buttons and their accessibility benefits has prompted me to finally get around to adding them to Vale.Rocks.</p>
+<p>I also finally got around to adding syntax highlighting, which was long overdue.</p>
+<p>Have a look on my Lorem Ipsum page:<br><a href="https://vale.rocks/posts/lorem-ipsum#codeblocks">https://vale.rocks/posts/lorem-ipsum#codeblocks</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Wed, 12 Feb 2025 04:34:00 GMT</pubDate>
+      <title>12 Feb 2025 04:34</title>
+      <link>https://vale.rocks/micros/20250212-0434</link>
+      <guid>https://vale.rocks/micros/20250212-0434</guid>
+      <content:encoded><![CDATA[<p><code>position: sticky</code> is one of those CSS things I can never get first time. Try as I might, I always end up flubbing around with it.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Sun, 09 Feb 2025 10:43:00 GMT</pubDate>
+      <title>09 Feb 2025 10:43</title>
+      <link>https://vale.rocks/micros/20250209-1043</link>
+      <guid>https://vale.rocks/micros/20250209-1043</guid>
+      <content:encoded><![CDATA[<p>CSS crimes are the best crimes.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Sun, 09 Feb 2025 08:46:00 GMT</pubDate>
       <title>09 Feb 2025 08:46</title>
       <link>https://vale.rocks/micros/20250209-0846</link>
