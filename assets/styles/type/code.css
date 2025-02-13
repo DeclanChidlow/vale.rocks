@@ -41,10 +41,6 @@ pre {
 		counter-reset: step;
 		background: inherit;
 	}
-
-	@media (max-width: 45rem) {
-		max-width: 100%;
-	}
 }
 
 .hljs-comment {
