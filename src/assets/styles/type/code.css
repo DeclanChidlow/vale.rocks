@@ -15,8 +15,12 @@ kbd {
 		top: 0;
 	}
 
+	.copied {
+		background: var(--green);
+	}
+
 	pre {
-		padding-right: 3rem;
+		padding-right: 2.8rem;
 	}
 }
 
@@ -64,7 +68,7 @@ pre {
 
 .hljs-title,
 .hljs-title.function_,
-.hljs-selector-pseudo{
+.hljs-selector-pseudo {
 	color: var(--cyan);
 }
 
