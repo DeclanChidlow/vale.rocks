@@ -3,9 +3,9 @@ title: Lorem Ipsum
 description: A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale.
 og_description: "'Blah blah blah' doesn’t look quite as good."
 pub_time: 2024-11-25
-mod_time: 2024-11-26
+mod_time: 2025-02-13
 section: Meta
-word_count: 1436
+word_count: 1746
 ---
 
 This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you'd like to read the logic behind all of this, check out my posts on both [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
@@ -137,13 +137,153 @@ Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr
 
 ## Codeblocks
 
-```css
-/*This is a comment in a CSS codeblock*/
+```html
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lorem Ipsum Generator</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main class="container">
+			<h1>Lorem Ipsum Generator</h1>
+			<div class="controls">
+				<button id="generate">Generate Text</button>
+				<select id="paragraphs">
+					<option value="1">1 Paragraph</option>
+					<option value="3">3 Paragraphs</option>
+					<option value="5">5 Paragraphs</option>
+				</select>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
+```
 
-.line {
-	display: inline-block;
-	width: 100%;
-	background: inherit;
+```css
+/* Example comment */
+
+:root {
+	--accent-color: #e74c3c;
+	--text-color: #333;
+}
+
+button,
+select {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button {
+	background: var(--accent-color);
+	color: var(--text-color);
+
+	&:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	}
+}
+```
+
+```js
+class LoremIpsumGenerator {
+	constructor() {
+		this.words = ["lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipiscing", "elit", "sed", "do", "eiusmod", "tempor"];
+	}
+
+	generateSentence() {
+		const length = 8 + Math.floor(Math.random() * 8);
+		return (
+			Array(length)
+				.fill()
+				.map(() => this.words[Math.floor(Math.random() * this.words.length)])
+				.join(" ")
+				.charAt(0)
+				.toUpperCase() +
+			this.words.slice(1) +
+			"."
+		);
+	}
+
+	generateParagraph() {
+		const sentences = 3 + Math.floor(Math.random() * 4);
+		return Array(sentences)
+			.fill()
+			.map(() => this.generateSentence())
+			.join(" ");
+	}
+}
+
+const generator = new LoremIpsumGenerator();
+document.getElementById("generate").addEventListener("click", () => {
+	const paragraphs = document.getElementById("paragraphs").value;
+	const output = Array(parseInt(paragraphs))
+		.fill()
+		.map(() => generator.generateParagraph())
+		.join("\n\n");
+	document.getElementById("output").textContent = output;
+});
+```
+
+```rust
+use rand::Rng;
+use std::collections::HashMap;
+
+struct LoremIpsum {
+    words: Vec<String>,
+    cache: HashMap<usize, String>,
+}
+
+impl LoremIpsum {
+    fn new() -> Self {
+        let words = vec![
+            "lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipiscing", "elit"
+        ]
+        .iter()
+        .map(|&s| s.to_string())
+        .collect();
+
+        LoremIpsum {
+            words,
+            cache: HashMap::new(),
+        }
+    }
+
+    fn generate_paragraph(&mut self, seed: usize) -> String {
+        if let Some(cached) = self.cache.get(&seed) {
+            return cached.clone();
+        }
+
+        let mut rng = rand::thread_rng();
+        let sentence_count = rng.gen_range(3..7);
+
+        let paragraph: String = (0..sentence_count)
+            .map(|_| self.generate_sentence(&mut rng))
+            .collect::<Vec<_>>()
+            .join(" ");
+
+        self.cache.insert(seed, paragraph.clone());
+        paragraph
+    }
+
+    fn generate_sentence(&self, rng: &mut impl rand::Rng) -> String {
+        let word_count = rng.gen_range(6..12);
+        let mut sentence: String = (0..word_count)
+            .map(|_| {
+                let word = &self.words[rng.gen_range(0..self.words.len())];
+                word.to_string()
+            })
+            .collect::<Vec<_>>()
+            .join(" ");
+
+        sentence.chars().next().unwrap().to_uppercase().to_string() + &sentence[1..] + "."
+    }
 }
 ```
 

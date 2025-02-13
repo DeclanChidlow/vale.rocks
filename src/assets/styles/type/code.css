@@ -45,21 +45,26 @@ pre {
 
 .hljs-comment {
 	color: var(--white);
+	font-style: italic;
 }
 
-.hljs-keyword,
 .hljs-selector-tag,
 .hljs-built_in,
 .hljs-meta,
-.hljs-tag,
 .hljs-property,
 .hljs-name,
 .hljs-type {
 	color: var(--bright_blue);
 }
 
+.hljs-tag,
+.hljs-selector-class {
+	color: var(--blue);
+}
+
 .hljs-title,
-.hljs-title.function_ {
+.hljs-title.function_,
+.hljs-selector-pseudo{
 	color: var(--cyan);
 }
 
@@ -84,6 +89,7 @@ pre {
 	color: var(--magenta);
 }
 
+.hljs-keyword,
 .hljs-meta-keyword {
 	color: var(--red);
 }
