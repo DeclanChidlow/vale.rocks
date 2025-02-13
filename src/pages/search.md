@@ -12,12 +12,12 @@ stylesheet: "pages/search.css"
 <div id="search"></div>
 
 <noscript>
-<p>For full search functionality JavaScript is required. This is a fallback that will perform a site search using Google.</p>
+<p>For full search functionality JavaScript is required. This is a fallback that will perform a site search using DuckDuckGo.</p>
 
-<form class="no-js-search" role="search" action="https://google.com/search" method="GET">
-  <label for="search-for">Search with Google:</label>
+<form class="no-js-search" role="search" action="https://duckduckgo.com" method="GET">
+  <label for="search-for">Search with DuckDuckGo:</label>
   <input id="search-for" type="search" name="q" required>
-  <input type="hidden" name="q" value="site:vale.rocks">
+  <input type="hidden" name="sites" value="vale.rocks">
   <button type="submit">Search</button>
 </form>
 </noscript>
