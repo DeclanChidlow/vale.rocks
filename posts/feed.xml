@@ -246,7 +246,7 @@
 <p>Upon leaving, the wound bled for a bit and soaked through some of the bandages. I must have looked like a bit of a sight at the bus stop&#8230;</p>
 <p>That night, and for several proceeding the implant, I made sure to sleep with it ever so subtly elevated and kept it on top of my doonah. Though it is beneficial to elevate limbs during the healing process, the main benefit of this was preventing me from rolling into some odd position and tearing off the dressings, injuring myself, or pushing out the magnet.</p>
 <figure class="right">
-<img class="censor" tabIndex=0 src="/assets/posts/my-experience-biohacking/day-2-20092024.avif" alt="A hand showing the needle insertion point surrounded by some dried blood. There is a bracket drawn on the hand with marker indicating the magnet's position with steri-strips stuck around it." />
+<img class="censor" tabIndex=0 src="/assets/posts/my-experience-biohacking/day-2-20092024.avif" alt="A hand showing the needle insertion point surrounded by some dried blood. There is a bracket drawn on the hand with marker indicating the magnet's position with steri-strips stuck around it.">
 <figcaption>Implantation site on the morning of day two before replacing dressing.</figcaption>
 </figure>
 
@@ -255,7 +255,7 @@
 <p>On day two, I stuck a tiny needle to it, much to my amusement.</p>
 <p>On day four, I noticed the area noticeably had begun to swell. It also turned a bruised yellow-green colour, but in the days following, it proceeded to dissipate, and it was greatly reduced by day 6.</p>
 <figure class="right">
-<img src="/assets/posts/my-experience-biohacking/day-7-25092024.avif" alt="A slightly yellow, slightly swollen hand showing a small, mostly healed mark with a bracket indicating the magnet's position." />
+<img src="/assets/posts/my-experience-biohacking/day-7-25092024.avif" alt="A slightly yellow, slightly swollen hand showing a small, mostly healed mark with a bracket indicating the magnet's position.">
 <figcaption>Implantation site on day 7. Note the swelling.</figcaption>
 </figure>
 
@@ -584,12 +584,143 @@
 <p>Alerts about potential risks or negative consequences.</p>
 </div>
 <h2 id="codeblocks">Codeblocks</h2>
-<pre><code class="language-css"><span class="hljs-comment">/*This is a comment in a CSS codeblock*/</span>
+<pre><code class="language-html"><span class="hljs-meta">&lt;!doctype <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;en&quot;</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;UTF-8&quot;</span> /&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width, initial-scale=1.0&quot;</span> /&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Lorem Ipsum Generator<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;styles.css&quot;</span> /&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;container&quot;</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Lorem Ipsum Generator<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+			<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;controls&quot;</span>&gt;</span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;generate&quot;</span>&gt;</span>Generate Text<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+				<span class="hljs-tag">&lt;<span class="hljs-name">select</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;paragraphs&quot;</span>&gt;</span>
+					<span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;1&quot;</span>&gt;</span>1 Paragraph<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+					<span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;3&quot;</span>&gt;</span>3 Paragraphs<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+					<span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;5&quot;</span>&gt;</span>5 Paragraphs<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+				<span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span>
+			<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+		<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;script.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre><pre><code class="language-css"><span class="hljs-comment">/* Example comment */</span>
 
-<span class="hljs-selector-class">.line</span> {
-	<span class="hljs-attribute">display</span>: inline-block;
-	<span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
-	<span class="hljs-attribute">background</span>: inherit;
+<span class="hljs-selector-pseudo">:root</span> {
+	<span class="hljs-attr">--accent-color</span>: <span class="hljs-number">#e74c3c</span>;
+	<span class="hljs-attr">--text-color</span>: <span class="hljs-number">#333</span>;
+}
+
+<span class="hljs-selector-tag">button</span>,
+<span class="hljs-selector-tag">select</span> {
+	<span class="hljs-attribute">padding</span>: <span class="hljs-number">0.5rem</span> <span class="hljs-number">1rem</span>;
+	<span class="hljs-attribute">border</span>: none;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">4px</span>;
+	<span class="hljs-attribute">cursor</span>: pointer;
+	<span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.3s</span> ease;
+}
+
+<span class="hljs-selector-tag">button</span> {
+	<span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--accent-color);
+	<span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color);
+
+	&amp;<span class="hljs-selector-pseudo">:hover</span> {
+		<span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateY</span>(-<span class="hljs-number">2px</span>);
+		<span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-number">4px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.2</span>);
+	}
+}
+</code></pre><pre><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">LoremIpsumGenerator</span> {
+	<span class="hljs-title function_">constructor</span>(<span class="hljs-params"></span>) {
+		<span class="hljs-variable language_">this</span>.<span class="hljs-property">words</span> = [<span class="hljs-string">&quot;lorem&quot;</span>, <span class="hljs-string">&quot;ipsum&quot;</span>, <span class="hljs-string">&quot;dolor&quot;</span>, <span class="hljs-string">&quot;sit&quot;</span>, <span class="hljs-string">&quot;amet&quot;</span>, <span class="hljs-string">&quot;consectetur&quot;</span>, <span class="hljs-string">&quot;adipiscing&quot;</span>, <span class="hljs-string">&quot;elit&quot;</span>, <span class="hljs-string">&quot;sed&quot;</span>, <span class="hljs-string">&quot;do&quot;</span>, <span class="hljs-string">&quot;eiusmod&quot;</span>, <span class="hljs-string">&quot;tempor&quot;</span>];
+	}
+
+	<span class="hljs-title function_">generateSentence</span>(<span class="hljs-params"></span>) {
+		<span class="hljs-keyword">const</span> length = <span class="hljs-number">8</span> + <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-number">8</span>);
+		<span class="hljs-keyword">return</span> (
+			<span class="hljs-title class_">Array</span>(length)
+				.<span class="hljs-title function_">fill</span>()
+				.<span class="hljs-title function_">map</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">words</span>[<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-variable language_">this</span>.<span class="hljs-property">words</span>.<span class="hljs-property">length</span>)])
+				.<span class="hljs-title function_">join</span>(<span class="hljs-string">&quot; &quot;</span>)
+				.<span class="hljs-title function_">charAt</span>(<span class="hljs-number">0</span>)
+				.<span class="hljs-title function_">toUpperCase</span>() +
+			<span class="hljs-variable language_">this</span>.<span class="hljs-property">words</span>.<span class="hljs-title function_">slice</span>(<span class="hljs-number">1</span>) +
+			<span class="hljs-string">&quot;.&quot;</span>
+		);
+	}
+
+	<span class="hljs-title function_">generateParagraph</span>(<span class="hljs-params"></span>) {
+		<span class="hljs-keyword">const</span> sentences = <span class="hljs-number">3</span> + <span class="hljs-title class_">Math</span>.<span class="hljs-title function_">floor</span>(<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-number">4</span>);
+		<span class="hljs-keyword">return</span> <span class="hljs-title class_">Array</span>(sentences)
+			.<span class="hljs-title function_">fill</span>()
+			.<span class="hljs-title function_">map</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">generateSentence</span>())
+			.<span class="hljs-title function_">join</span>(<span class="hljs-string">&quot; &quot;</span>);
+	}
+}
+
+<span class="hljs-keyword">const</span> generator = <span class="hljs-keyword">new</span> <span class="hljs-title class_">LoremIpsumGenerator</span>();
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;generate&quot;</span>).<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&quot;click&quot;</span>, <span class="hljs-function">() =&gt;</span> {
+	<span class="hljs-keyword">const</span> paragraphs = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;paragraphs&quot;</span>).<span class="hljs-property">value</span>;
+	<span class="hljs-keyword">const</span> output = <span class="hljs-title class_">Array</span>(<span class="hljs-built_in">parseInt</span>(paragraphs))
+		.<span class="hljs-title function_">fill</span>()
+		.<span class="hljs-title function_">map</span>(<span class="hljs-function">() =&gt;</span> generator.<span class="hljs-title function_">generateParagraph</span>())
+		.<span class="hljs-title function_">join</span>(<span class="hljs-string">&quot;\n\n&quot;</span>);
+	<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;output&quot;</span>).<span class="hljs-property">textContent</span> = output;
+});
+</code></pre><pre><code class="language-rust"><span class="hljs-keyword">use</span> rand::Rng;
+<span class="hljs-keyword">use</span> std::collections::HashMap;
+
+<span class="hljs-keyword">struct</span> <span class="hljs-title class_">LoremIpsum</span> {
+    words: <span class="hljs-type">Vec</span>&lt;<span class="hljs-type">String</span>&gt;,
+    cache: HashMap&lt;<span class="hljs-type">usize</span>, <span class="hljs-type">String</span>&gt;,
+}
+
+<span class="hljs-keyword">impl</span> <span class="hljs-title class_">LoremIpsum</span> {
+    <span class="hljs-keyword">fn</span> <span class="hljs-title function_">new</span>() <span class="hljs-punctuation">-&gt;</span> <span class="hljs-keyword">Self</span> {
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">words</span> = <span class="hljs-built_in">vec!</span>[
+            <span class="hljs-string">&quot;lorem&quot;</span>, <span class="hljs-string">&quot;ipsum&quot;</span>, <span class="hljs-string">&quot;dolor&quot;</span>, <span class="hljs-string">&quot;sit&quot;</span>, <span class="hljs-string">&quot;amet&quot;</span>, <span class="hljs-string">&quot;consectetur&quot;</span>, <span class="hljs-string">&quot;adipiscing&quot;</span>, <span class="hljs-string">&quot;elit&quot;</span>
+        ]
+        .<span class="hljs-title function_ invoke__">iter</span>()
+        .<span class="hljs-title function_ invoke__">map</span>(|&amp;s| s.<span class="hljs-title function_ invoke__">to_string</span>())
+        .<span class="hljs-title function_ invoke__">collect</span>();
+
+        LoremIpsum {
+            words,
+            cache: HashMap::<span class="hljs-title function_ invoke__">new</span>(),
+        }
+    }
+
+    <span class="hljs-keyword">fn</span> <span class="hljs-title function_">generate_paragraph</span>(&amp;<span class="hljs-keyword">mut</span> <span class="hljs-keyword">self</span>, seed: <span class="hljs-type">usize</span>) <span class="hljs-punctuation">-&gt;</span> <span class="hljs-type">String</span> {
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> <span class="hljs-variable">Some</span>(cached) = <span class="hljs-keyword">self</span>.cache.<span class="hljs-title function_ invoke__">get</span>(&amp;seed) {
+            <span class="hljs-keyword">return</span> cached.<span class="hljs-title function_ invoke__">clone</span>();
+        }
+
+        <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">rng</span> = rand::<span class="hljs-title function_ invoke__">thread_rng</span>();
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">sentence_count</span> = rng.<span class="hljs-title function_ invoke__">gen_range</span>(<span class="hljs-number">3</span>..<span class="hljs-number">7</span>);
+
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">paragraph</span>: <span class="hljs-type">String</span> = (<span class="hljs-number">0</span>..sentence_count)
+            .<span class="hljs-title function_ invoke__">map</span>(|_| <span class="hljs-keyword">self</span>.<span class="hljs-title function_ invoke__">generate_sentence</span>(&amp;<span class="hljs-keyword">mut</span> rng))
+            .collect::&lt;<span class="hljs-type">Vec</span>&lt;_&gt;&gt;()
+            .<span class="hljs-title function_ invoke__">join</span>(<span class="hljs-string">&quot; &quot;</span>);
+
+        <span class="hljs-keyword">self</span>.cache.<span class="hljs-title function_ invoke__">insert</span>(seed, paragraph.<span class="hljs-title function_ invoke__">clone</span>());
+        paragraph
+    }
+
+    <span class="hljs-keyword">fn</span> <span class="hljs-title function_">generate_sentence</span>(&amp;<span class="hljs-keyword">self</span>, rng: &amp;<span class="hljs-keyword">mut</span> <span class="hljs-keyword">impl</span> <span class="hljs-title class_">rand</span>::Rng) <span class="hljs-punctuation">-&gt;</span> <span class="hljs-type">String</span> {
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">word_count</span> = rng.<span class="hljs-title function_ invoke__">gen_range</span>(<span class="hljs-number">6</span>..<span class="hljs-number">12</span>);
+        <span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">sentence</span>: <span class="hljs-type">String</span> = (<span class="hljs-number">0</span>..word_count)
+            .<span class="hljs-title function_ invoke__">map</span>(|_| {
+                <span class="hljs-keyword">let</span> <span class="hljs-variable">word</span> = &amp;<span class="hljs-keyword">self</span>.words[rng.<span class="hljs-title function_ invoke__">gen_range</span>(<span class="hljs-number">0</span>..<span class="hljs-keyword">self</span>.words.<span class="hljs-title function_ invoke__">len</span>())];
+                word.<span class="hljs-title function_ invoke__">to_string</span>()
+            })
+            .collect::&lt;<span class="hljs-type">Vec</span>&lt;_&gt;&gt;()
+            .<span class="hljs-title function_ invoke__">join</span>(<span class="hljs-string">&quot; &quot;</span>);
+
+        sentence.<span class="hljs-title function_ invoke__">chars</span>().<span class="hljs-title function_ invoke__">next</span>().<span class="hljs-title function_ invoke__">unwrap</span>().<span class="hljs-title function_ invoke__">to_uppercase</span>().<span class="hljs-title function_ invoke__">to_string</span>() + &amp;sentence[<span class="hljs-number">1</span>..] + <span class="hljs-string">&quot;.&quot;</span>
+    }
 }
 </code></pre><h2 id="endside-notes">End/Side Notes</h2>
 <p>There is a note after this <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>.</p>
@@ -610,12 +741,12 @@
 <p>Standard image not in a figure:
 <img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table."></p>
 <figure class="right">
-<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." />
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table.">
 <figcaption>Right floated figure with caption.</figcaption>
 </figure>
 
 <figure class="left">
-<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." />
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table.">
 <figcaption>Left floated figure with caption.</figcaption>
 </figure>
 
@@ -827,7 +958,7 @@
 <h2 id="features-and-capabilities">Features and Capabilities</h2>
 <p>Once I had the Flipper properly setup, I dove straight into mischief. First action was cloning the TV remote so I&#8217;d be able to mildly inconvenience anyone at my discretion. This sort of IR cloning is super easy, simply open the necessary app, set it to learn, point the relevant remote at the Flipper&#8217;s sensor, and press whatever button you want to capture.</p>
 <figure class="right">
-<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." />
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table.">
 <figcaption>My Flipper Zero</figcaption>
 </figure>
 
@@ -897,7 +1028,7 @@
 <figure class="right">
 <picture>
 	<source srcset="/assets/posts/jpeg-xl-and-googles-war-against-it/jxl-support.jxl" type="image/jxl">
-	<img src="/assets/posts/jpeg-xl-and-googles-war-against-it/no-jxl-support.avif" alt="Image stating 'Your browser supports JPEG XL' or 'Your browser doesn't support JPEG XL' depending on browser support." />
+	<img src="/assets/posts/jpeg-xl-and-googles-war-against-it/no-jxl-support.avif" alt="Image stating 'Your browser supports JPEG XL' or 'Your browser doesn't support JPEG XL' depending on browser support.">
 </picture>
 </figure>
 
@@ -1104,7 +1235,7 @@ x =&gt; x
 <h2 id="pocket-edition">Pocket Edition</h2>
 <p>I first got hands-on with the game via Minecraft Pocket Edition Lite, a cut-down version of the game designed as a demo. I played it for hours. It was limited and lacked much of anything. It had a limited block palette and an even more limited world. It wasn&#8217;t much, but it was Minecraft, and, to me at the time, that was a lot.</p>
 <figure class="right">
-<img src="https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png" alt="Simple menu featuring 3 options." />
+<img src="https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png" alt="Simple menu featuring 3 options.">
 <figcaption>Main menu of Minecraft PE Lite.</figcaption>
 </figure>
 
@@ -1117,7 +1248,7 @@ x =&gt; x
 <h2 id="legacy-console-editions">Legacy Console Editions</h2>
 <p>In 2012, 4J Studios released Minecraft: Xbox 360 Edition. 4J didn&#8217;t just settle with a direct port of the game. They went further. They improved it. They crafted an experience that did more than just mimicking the flagship Java edition by improving upon it with quality of life improvements and changes that adapted it to the controller experience.</p>
 <figure class="right">
-<img src="https://minecraft.wiki/images/Retail_SplashScreen.png" alt="Splash screen featuring a sandstone castle built in Minecraft with several players standing on it." />
+<img src="https://minecraft.wiki/images/Retail_SplashScreen.png" alt="Splash screen featuring a sandstone castle built in Minecraft with several players standing on it.">
 <figcaption>TU9 splash screen for Minecraft: Xbox 360 Edition.</figcaption>
 </figure>
 
@@ -1125,7 +1256,7 @@ x =&gt; x
 <p>The tutorial world Minecraft expanded alongside the game itself, evolving gradually over the years to become more extensive and immersive. Redesigned multiple times, it even included nods to the community, such as snippets of Stampy&#8217;s Lovely World.</p>
 <p>There were also many smaller alterations, such as minecarts moving at twice their Java Edition speed, leading to them being far more practical. Plus, an exclusive song titled &#8216;Dog&#8217; playing following the completion of the &#8216;Cat&#8217; music disc.</p>
 <figure class="right">
-<img src="https://minecraft.wiki/images/Crafting_Table_LCE.png" alt="Screenshot of the crafting table menu." />
+<img src="https://minecraft.wiki/images/Crafting_Table_LCE.png" alt="Screenshot of the crafting table menu.">
 <figcaption>Legacy Console Edition Crafting Interface.</figcaption>
 </figure>
 
@@ -1247,7 +1378,7 @@ x =&gt; x
 <p>I decided I&#8217;d make the move to a custom ROM to escape the issues and figured it&#8217;d be a breeze. After all, it&#8217;s a device billed as repairable, and developer options showed it supported OEM unlocking. I checked out <a href="https://lineageos.org">LineageOS</a> only to find it was unsupported. I decided to search online, and after cutting my way through waist high AI generated SEO articles, discovered that none exist for the phone.</p>
 <p>I thought about trying my hand at making one, but discovered that HMD has failed to comply with the GPL and hasn&#8217;t distributed the source needed. <a href="https://www.hmd.com/en_int/opensource">As you can see on this page</a>, there is no G22 listed.</p>
 <figure class="right">
-<img src="https://www.chooseyourmobile.com/wp-content/uploads/2023/02/Nokia-G22-Image.jpg" alt="A side, back, and front view of the Nokia G22 in the colour 'Lagoon Blue'." />
+<img src="https://www.chooseyourmobile.com/wp-content/uploads/2023/02/Nokia-G22-Image.jpg" alt="A side, back, and front view of the Nokia G22 in the colour 'Lagoon Blue'.">
 <figcaption>The Nokia G22 from a few angles.</figcaption>
 </figure>
 
@@ -1285,7 +1416,7 @@ x =&gt; x
 <h2 id="the-early-days">The Early Days</h2>
 <p>In 1990, <a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">WorldWideWeb (later known as Nexus)</a> was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the <a href="https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/">National Center for Supercomputing Applications&#8217; Mosaic</a> came with big changes and huge influence.</p>
 <figure class="right">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics." />
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics.">
 <figcaption>Screenshot of Mosaic version 1.2.</figcaption>
 </figure>
 
@@ -1330,7 +1461,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>There is no choice in the browser market. It&#8217;s all just Blink, and Blink is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have near complete control over the web.</p>
 <p>This simply isn&#8217;t acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.</p>
 <figure class="right">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage." />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage.">
 <figcaption>Screenshot of Google Chrome version 96.</figcaption>
 </figure>
 
@@ -1411,7 +1542,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>The cost associated with the Framework is undeniably high. There is no way around that. In comparison to other laptops with similar specifications, it is marginally more expensive. However, the initial cost shouldn&#8217;t be the only consideration. Purchasing the Framework Laptop means investing in repairability. While it might seem more expensive upfront, the long-term value lies in the ability to replace components over time. This aspect ultimately justifies the initial expense, making it a more cost-effective choice in the long run. It&#8217;s also worth noting that you&#8217;re supporting a smaller company that, in my opinion, seems dedicated to doing the right thing.</p>
 <p>With that said, you can save some money when buying your laptop by acquiring your RAM and SSD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.</p>
 <figure class="right">
-<img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background." />
+<img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background.">
 </figure>
 
 <h2 id="build-quality">Build Quality</h2>
@@ -1450,7 +1581,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <h2 id="impact-on-devices">Impact on Devices</h2>
 <p>3G is still very much relied upon by countless devices. An instance of this is my grandfather&#8217;s pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I&#8217;m sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.</p>
 <figure class="right">
-<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower." />
+<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower.">
 </figure>
 
 <p>Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.</p>
@@ -1485,7 +1616,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>Not only that, but the bounding boxes of countless objects don&#8217;t line up quite as you&#8217;d expect. On the occasion that I attempted playing with the anniversary graphics, I consistently found disparities in level geometry eating my bullets.</p>
 <p>That&#8217;s why, despite the original graphics having most definitely aged, I personally chose them for my playthrough. The new ones can be a spectacle when presented correctly, but otherwise miss the mark and degrade the experience. Fortunately, you can toggle between them at your convenience. It can genuinely be somewhat fun to flick back and forth to observe the changes.</p>
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/3/37/HCE-MasterChief-Wallpaper.jpg" alt="The Master Chief in green armour leading marines up a beach. In the background is a Warthog, dead enemies, and a Pelican." />
+<img src="https://halo.wiki.gallery/images/3/37/HCE-MasterChief-Wallpaper.jpg" alt="The Master Chief in green armour leading marines up a beach. In the background is a Warthog, dead enemies, and a Pelican.">
 <figcaption>A Halo: Combat Evolved promotional image.</figcaption>
 </figure>
 
@@ -1507,7 +1638,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>Where I felt the need to complain about CE&#8217;s Anniversary graphics, I feel the need to celebrate Halo 2 Anniversary&#8217;s. You can quite comfortably play the game with or without the overhaul and be confident you&#8217;re experiencing the game to its fullest. They remain faithful to the original while looking stunning, and, much like with CE&#8217;s, they can be toggled at will to verify this.</p>
 <p>Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes are marvellous. They&#8217;re detailed and crisp, looking more sharp and real than reality itself, but not overwhelmingly so. Part of my decision to play with Anniversary graphics was just to ensure I didn&#8217;t miss them.</p>
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides." />
+<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides.">
 <figcaption>The High Prophet of Regret sitting on his throne in Halo 2: Anniversary&#8217;s graphics.</figcaption>
 </figure>
 
@@ -1530,7 +1661,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <h2 id="halo-3-odst">Halo 3: ODST</h2>
 <p>ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don&#8217;t play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don&#8217;t get the armour or strength of a Spartan, and this shows in the gameplay.</p>
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue." />
+<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue.">
 <figcaption>Halo 3: ODST&#8217;s promotional art with text and overlays removed.</figcaption>
 </figure>
 
@@ -1555,7 +1686,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <h2 id="halo-4">Halo 4</h2>
 <p>Halo 4 is pretty good. It&#8217;s not the best, but it&#8217;d be a misjustice not to say it&#8217;s a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.</p>
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar." />
+<img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar.">
 <figcaption>Screenshot of Halo 4&#8217;s campaign.</figcaption>
 </figure>
 
@@ -1588,7 +1719,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <h2 id="halo-infinite">Halo Infinite</h2>
 <p>Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn&#8217;t feasible on the hardware of the original Xbox.</p>
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor." />
+<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor.">
 <figcaption>The Master Chief in his Halo Infinite armour.</figcaption>
 </figure>
 
