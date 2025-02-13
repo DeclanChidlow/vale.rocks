@@ -25,7 +25,7 @@ Not only that, but the bounding boxes of countless objects don't line up quite a
 That's why, despite the original graphics having most definitely aged, I personally chose them for my playthrough. The new ones can be a spectacle when presented correctly, but otherwise miss the mark and degrade the experience. Fortunately, you can toggle between them at your convenience. It can genuinely be somewhat fun to flick back and forth to observe the changes.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/3/37/HCE-MasterChief-Wallpaper.jpg" alt="The Master Chief in green armour leading marines up a beach. In the background is a Warthog, dead enemies, and a Pelican." />
+<img src="https://halo.wiki.gallery/images/3/37/HCE-MasterChief-Wallpaper.jpg" alt="The Master Chief in green armour leading marines up a beach. In the background is a Warthog, dead enemies, and a Pelican.">
 <figcaption>A Halo: Combat Evolved promotional image.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Where I felt the need to complain about CE's Anniversary graphics, I feel the ne
 Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes are marvellous. They're detailed and crisp, looking more sharp and real than reality itself, but not overwhelmingly so. Part of my decision to play with Anniversary graphics was just to ensure I didn't miss them.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides." />
+<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides.">
 <figcaption>The High Prophet of Regret sitting on his throne in Halo 2: Anniversary's graphics.</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ I can't say it's my favourite game in the series from a gameplay perspective, as
 ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don't play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don't get the armour or strength of a Spartan, and this shows in the gameplay.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue." />
+<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue.">
 <figcaption>Halo 3: ODST's promotional art with text and overlays removed.</figcaption>
 </figure>
 
@@ -135,7 +135,7 @@ What really cemented my love for Reach was the epilogue. As you fight the losing
 Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it's a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar." />
+<img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar.">
 <figcaption>Screenshot of Halo 4's campaign.</figcaption>
 </figure>
 
@@ -186,7 +186,7 @@ I vehemently oppose the decision to bring back Cortana, especially after the fit
 Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn't feasible on the hardware of the original Xbox.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor." />
+<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor.">
 <figcaption>The Master Chief in his Halo Infinite armour.</figcaption>
 </figure>
 

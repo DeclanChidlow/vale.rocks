@@ -57,7 +57,7 @@ Having been finalised in 2021, JPEG XL is a rather new format, and a good one at
 <figure class="right">
 <picture>
 	<source srcset="/assets/posts/jpeg-xl-and-googles-war-against-it/jxl-support.jxl" type="image/jxl">
-	<img src="/assets/posts/jpeg-xl-and-googles-war-against-it/no-jxl-support.avif" alt="Image stating 'Your browser supports JPEG XL' or 'Your browser doesn't support JPEG XL' depending on browser support." />
+	<img src="/assets/posts/jpeg-xl-and-googles-war-against-it/no-jxl-support.avif" alt="Image stating 'Your browser supports JPEG XL' or 'Your browser doesn't support JPEG XL' depending on browser support.">
 </picture>
 </figure>
 

@@ -17,7 +17,7 @@ As it stands, 4G in Australia is conceded with data. Voice communications are le
 3G is still very much relied upon by countless devices. An instance of this is my grandfather's pacemaker, which uses 3G to communicate and report issues such as an abnormal cardiac rhythm. While I believe the issue was rectified with my grandfather, I'm sure it is only too easy for it to manifest in a host of other medical devices, such as fall detectors, which often rely on the 3G network to send alerts.
 
 <figure class="right">
-<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower." />
+<img src="https://images.unsplash.com/photo-1633997011021-0254baa23289" alt="A man on a lift working on a phone tower.">
 </figure>
 
 Australia is heavily involved in both farming and mining; both industries rely significantly on legacy equipment and, as such, legacy networking. The sort of networking that includes 3G connectivity. As such, equipment will need to be replaced or upgraded, at a cost. The impact of this on the financially robust mining industry might not be substantial, but it certainly will impact the individual, independent farmers who are already struggling.

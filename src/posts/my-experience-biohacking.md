@@ -51,7 +51,7 @@ Upon leaving, the wound bled for a bit and soaked through some of the bandages. 
 That night, and for several proceeding the implant, I made sure to sleep with it ever so subtly elevated and kept it on top of my doonah. Though it is beneficial to elevate limbs during the healing process, the main benefit of this was preventing me from rolling into some odd position and tearing off the dressings, injuring myself, or pushing out the magnet.
 
 <figure class="right">
-<img class="censor" tabIndex=0 src="/assets/posts/my-experience-biohacking/day-2-20092024.avif" alt="A hand showing the needle insertion point surrounded by some dried blood. There is a bracket drawn on the hand with marker indicating the magnet's position with steri-strips stuck around it." />
+<img class="censor" tabIndex=0 src="/assets/posts/my-experience-biohacking/day-2-20092024.avif" alt="A hand showing the needle insertion point surrounded by some dried blood. There is a bracket drawn on the hand with marker indicating the magnet's position with steri-strips stuck around it.">
 <figcaption>Implantation site on the morning of day two before replacing dressing.</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ On day two, I stuck a tiny needle to it, much to my amusement.
 On day four, I noticed the area noticeably had begun to swell. It also turned a bruised yellow-green colour, but in the days following, it proceeded to dissipate, and it was greatly reduced by day 6.
 
 <figure class="right">
-<img src="/assets/posts/my-experience-biohacking/day-7-25092024.avif" alt="A slightly yellow, slightly swollen hand showing a small, mostly healed mark with a bracket indicating the magnet's position." />
+<img src="/assets/posts/my-experience-biohacking/day-7-25092024.avif" alt="A slightly yellow, slightly swollen hand showing a small, mostly healed mark with a bracket indicating the magnet's position.">
 <figcaption>Implantation site on day 7. Note the swelling.</figcaption>
 </figure>
 

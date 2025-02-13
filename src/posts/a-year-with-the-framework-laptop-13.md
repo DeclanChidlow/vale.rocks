@@ -30,7 +30,7 @@ The cost associated with the Framework is undeniably high. There is no way aroun
 With that said, you can save some money when buying your laptop by acquiring your RAM and SSD from alternative sources. Prices are inflated when purchasing directly from Framework, and better prices can be found when purchasing online. You can quite easily shave $100 AUD off the price by purchasing the components online.
 
 <figure class="right">
-<img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background." />
+<img src="https://images.prismic.io/frameworkmarketplace/25c9a15f-4374-4144-863e-1c649ea24dd8_iris-azalea-sidebyside-01.jpg?auto=compress,format" alt="A picture of two Framework Laptop 13 computers back to back on a dark background.">
 </figure>
 
 ## Build Quality

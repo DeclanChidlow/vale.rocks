@@ -312,12 +312,12 @@ Standard image not in a figure:
 ![A picture of a Flipper Zero sitting on a table.](/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif)
 
 <figure class="right">
-<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." />
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table.">
 <figcaption>Right floated figure with caption.</figcaption>
 </figure>
 
 <figure class="left">
-<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table." />
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table.">
 <figcaption>Left floated figure with caption.</figcaption>
 </figure>
 

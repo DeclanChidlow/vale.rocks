@@ -21,7 +21,7 @@ It was a carefree time where my responsibilities were nil and time wasn't a luxu
 I first got hands-on with the game via Minecraft Pocket Edition Lite, a cut-down version of the game designed as a demo. I played it for hours. It was limited and lacked much of anything. It had a limited block palette and an even more limited world. It wasn't much, but it was Minecraft, and, to me at the time, that was a lot.
 
 <figure class="right">
-<img src="https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png" alt="Simple menu featuring 3 options." />
+<img src="https://minecraft.wiki/images/thumb/Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png/600px-Pocket_Edition_v0.2.1_alpha2_%28Demo%29.png" alt="Simple menu featuring 3 options.">
 <figcaption>Main menu of Minecraft PE Lite.</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Our household computers were aging and barely equipped to run Windows, let alone
 In 2012, 4J Studios released Minecraft: Xbox 360 Edition. 4J didn't just settle with a direct port of the game. They went further. They improved it. They crafted an experience that did more than just mimicking the flagship Java edition by improving upon it with quality of life improvements and changes that adapted it to the controller experience.
 
 <figure class="right">
-<img src="https://minecraft.wiki/images/Retail_SplashScreen.png" alt="Splash screen featuring a sandstone castle built in Minecraft with several players standing on it." />
+<img src="https://minecraft.wiki/images/Retail_SplashScreen.png" alt="Splash screen featuring a sandstone castle built in Minecraft with several players standing on it.">
 <figcaption>TU9 splash screen for Minecraft: Xbox 360 Edition.</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ The tutorial world Minecraft expanded alongside the game itself, evolving gradua
 There were also many smaller alterations, such as minecarts moving at twice their Java Edition speed, leading to them being far more practical. Plus, an exclusive song titled 'Dog' playing following the completion of the 'Cat' music disc.
 
 <figure class="right">
-<img src="https://minecraft.wiki/images/Crafting_Table_LCE.png" alt="Screenshot of the crafting table menu." />
+<img src="https://minecraft.wiki/images/Crafting_Table_LCE.png" alt="Screenshot of the crafting table menu.">
 <figcaption>Legacy Console Edition Crafting Interface.</figcaption>
 </figure>
 

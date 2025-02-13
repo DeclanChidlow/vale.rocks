@@ -81,7 +81,7 @@ class FigureGlowLightbox {
 		wrapper.appendChild(originalImg);
 	}
 
-	setupFigure(figure, index) {
+	async setupFigure(figure, index) {
 		this.addBlurEffect(figure);
 		const dialog = this.createDialog(figure, index);
 		document.body.appendChild(dialog);

@@ -15,7 +15,7 @@ The chances are you've heard of Google Chrome. It's currently the biggest browse
 In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
 
 <figure class="right">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics." />
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics.">
 <figcaption>Screenshot of Mosaic version 1.2.</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ There is no choice in the browser market. It's all just Blink, and Blink is Goog
 This simply isn't acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.
 
 <figure class="right">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage." />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage.">
 <figcaption>Screenshot of Google Chrome version 96.</figcaption>
 </figure>
 
