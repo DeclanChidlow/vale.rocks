@@ -21,9 +21,8 @@ I run a range of services from my home server and various servers scattered arou
 <article>
     <div class="service-info">
         <a href="https://automod.vale.rocks"><h2>AutoMod</h2></a>
-        <a href="https://status.vale.rocks/history/auto-mod-bot" id="service-automod-bot">Status</a>
     </div>
-    <p>Official deployment of my full-scale moderation bot for <a href="https://revolt.chat">Revolt</a> servicing in excess of 4,000 servers and tens of thousands of users. Hosted on a Hetzner VPS.</p>
+    <p>Official deployment of my full-scale moderation bot for <a href="https://revolt.chat">Revolt</a> servicing in excess of 4,600 servers and tens of thousands of users. Hosted on a Hetzner VPS.</p>
 </article>
 
 <article>

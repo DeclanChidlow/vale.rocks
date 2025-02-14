@@ -3,7 +3,7 @@
 	CNAME
 	opensearch.xml
 
-	index.html = pages/index.ori(post_data.ori, portfolio_data.ori)
+	index.html = pages/index.ori()
 	contact.html = main_template.ori(functions/parse-markdown.js(pages/contact.md))
 	services.html = main_template.ori(functions/parse-markdown.js(pages/services.md))
 	uses.html = main_template.ori(functions/parse-markdown.js(pages/uses.md))
