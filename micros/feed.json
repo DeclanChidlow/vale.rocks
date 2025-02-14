@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250213-2000",
+      "url": "https://vale.rocks/micros/20250213-2000",
+      "title": "13 Feb 2025 20:00",
+      "content_html": "<p>I got referenced in this piece from WIRED about the new website of the US Department of Government Efficiency (DOGE) and its heavy ties to X (formerly Twitter).</p>\n<p><a href=\"https://www.wired.com/story/doge-website-is-just-one-big-x-ad/\">https://www.wired.com/story/doge-website-is-just-one-big-x-ad/</a></p>\n",
+      "date_published": "2025-02-13T20:00"
+    },
+    {
       "id": "https://vale.rocks/micros/20250213-0214",
       "url": "https://vale.rocks/micros/20250213-0214",
       "title": "13 Feb 2025 02:14",
