@@ -6,6 +6,27 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250215-1056",
+      "url": "https://vale.rocks/micros/20250215-1056",
+      "title": "15 Feb 2025 10:56",
+      "content_html": "<p><a href=\"/posts/ai-is-stifling-tech-adoption\"><em>AI is Stifling Tech Adoption</em></a> has seen response beyond anything I&#8217;ve ever written before and has prompted some really interesting discussion.</p>\n<p>In particular, I&#8217;ve enjoyed <a href=\"https://jaredwhite.com\">Jared White</a>&#8217;s take in his article on That HTML Blog.</p>\n<p><a href=\"https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants\">https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants</a></p>\n<p>#FrontEndDev #WebDev</p>\n",
+      "date_published": "2025-02-15T10:56"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250214-1224",
+      "url": "https://vale.rocks/micros/20250214-1224",
+      "title": "14 Feb 2025 12:24",
+      "content_html": "<p>Just redesigned my website&#8217;s <a href=\"/\">landing page</a> as it was starting to feel a tad stale. I blame <a href=\"https://shellsharks.com\">Shellsharks</a> for prompting this with their recent redesign.</p>\n",
+      "date_published": "2025-02-14T12:24"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250214-0035",
+      "url": "https://vale.rocks/micros/20250214-0035",
+      "title": "14 Feb 2025 00:35",
+      "content_html": "<p>That feeling when you setup a custom GitHub Action workflow and it works first time.</p>\n",
+      "date_published": "2025-02-14T00:35"
+    },
+    {
       "id": "https://vale.rocks/micros/20250213-2000",
       "url": "https://vale.rocks/micros/20250213-2000",
       "title": "13 Feb 2025 20:00",

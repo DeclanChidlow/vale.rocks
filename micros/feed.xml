@@ -6,6 +6,33 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Sat, 15 Feb 2025 10:56:00 GMT</pubDate>
+      <title>15 Feb 2025 10:56</title>
+      <link>https://vale.rocks/micros/20250215-1056</link>
+      <guid>https://vale.rocks/micros/20250215-1056</guid>
+      <content:encoded><![CDATA[<p><a href="/posts/ai-is-stifling-tech-adoption"><em>AI is Stifling Tech Adoption</em></a> has seen response beyond anything I&#8217;ve ever written before and has prompted some really interesting discussion.</p>
+<p>In particular, I&#8217;ve enjoyed <a href="https://jaredwhite.com">Jared White</a>&#8217;s take in his article on That HTML Blog.</p>
+<p><a href="https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants">https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants</a></p>
+<p>#FrontEndDev #WebDev</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 14 Feb 2025 12:24:00 GMT</pubDate>
+      <title>14 Feb 2025 12:24</title>
+      <link>https://vale.rocks/micros/20250214-1224</link>
+      <guid>https://vale.rocks/micros/20250214-1224</guid>
+      <content:encoded><![CDATA[<p>Just redesigned my website&#8217;s <a href="/">landing page</a> as it was starting to feel a tad stale. I blame <a href="https://shellsharks.com">Shellsharks</a> for prompting this with their recent redesign.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 14 Feb 2025 00:35:00 GMT</pubDate>
+      <title>14 Feb 2025 00:35</title>
+      <link>https://vale.rocks/micros/20250214-0035</link>
+      <guid>https://vale.rocks/micros/20250214-0035</guid>
+      <content:encoded><![CDATA[<p>That feeling when you setup a custom GitHub Action workflow and it works first time.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Thu, 13 Feb 2025 20:00:00 GMT</pubDate>
       <title>13 Feb 2025 20:00</title>
       <link>https://vale.rocks/micros/20250213-2000</link>
