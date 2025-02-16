@@ -7,7 +7,7 @@ article {
 		display: flex;
 		justify-content: space-between;
 		gap: 2rem;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 
 		h2 {
 			font-size: inherit;
@@ -23,7 +23,7 @@ article {
 }
 
 .post {
-	background: light-dark(oklch(from var(--cyan) l c h / calc(alpha - 0.8)), oklch(from var(--cyan) l c h / calc(alpha - 0.9)));
+	background: light-dark(oklch(from var(--magenta) l c h / calc(alpha - 0.8)), oklch(from var(--magenta) l c h / calc(alpha - 0.9)));
 }
 
 .photo {
