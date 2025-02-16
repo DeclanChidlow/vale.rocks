@@ -22,9 +22,6 @@
     <loc>https://vale.rocks/search</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/links</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/404</loc>
   </url>
   <url>
@@ -962,5 +959,8 @@
   </url>
   <url>
     <loc>https://vale.rocks/portfolio/pam-carters-poetry</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/links</loc>
   </url>
 </urlset>
