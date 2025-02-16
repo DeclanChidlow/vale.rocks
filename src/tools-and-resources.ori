@@ -1,0 +1,22 @@
+(tools-and-resources) => main_template.ori({
+	title: "Tools and Resources Links"
+	description: "A collection of handy and useful tools/resources for designers, developers, and creators. Find everything from icon packs and fonts to CSS frameworks, UX guides, OSINT tools, coding resources, and free assets for music, art, and game development."
+	og_description: "Links to tools and resources of interest or note."
+	stylesheet: "pages/links.css"
+
+@text:
+`<span id="section" data-pagefind-filter="Content Type">Links</span>
+
+<div class="readable-width">
+	<h1>Tools and Resources</h1>
+
+	<p>These are ${ tools-and-resources/length } links to handy and useful tools and resources available on the web. All are usable for free and without sign-up.</p>
+
+	<ul>
+		${ tools-and-resources
+		→ =map(_, (link) =>
+		`<li>
+			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
+		</li>`) }
+	</ul>
+</div>`})

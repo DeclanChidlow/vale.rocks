@@ -1,0 +1,198 @@
+- title: Josh W Comeau
+  url: www.joshwcomeau.com
+  description: Web development articles, interactive tutorials, and goodies.
+- title: Gwern
+  url: gwern.net
+  description: Academic writings on AI, psychology, and statistics.
+- title: Coding Horror
+  url: blog.codinghorror.com
+  description: Programming blog focussing on human factors.
+- title: Robert Heaton
+  url: robertheaton.com
+  description: Development and tech with an emphasis on privacy.
+- title: Citation Needed
+  url: www.citationneeded.news
+  description: Coverage of the cryptocurrency industry and broader technology issues.
+- title: Web3 is Going Just Great
+  url: www.web3isgoinggreat.com
+  description: Tracking of how web3 projects are actually going.
+- title: The Evil Skeleton
+  url: theevilskeleton.gitlab.io
+  description: Tech, primarily regarding Gnome.
+- title: Bryce Wray
+  url: www.brycewray.com
+  description: Primarily web development.
+- title: Terence Eden’s Blog
+  url: shkspr.mobi
+  description: Technology, reviews, and assorted musings.
+- title: Andrew Chan
+  url: andrewkchan.dev
+  description: Mostly programming related.
+- title: GioCities
+  url: blog.giovanh.com
+  description: Tech and wider web culture.
+- title: Ahmad Shadeed
+  url: ishadeed.com
+  description: Web development articles with interactive elements.
+- title: iio.ie
+  url: iio.ie
+  description: Random ideas and personal ramblings from a disgruntled techie.
+- title: Darek Kay
+  url: darekkay.com
+  description: Front-end development.
+- title: ajkprojects
+  url: ajkprojects.com
+  description: Developer relevant psychology.
+- title: Articles & Experiments by Roman Komarov
+  url: kizu.dev
+  description: CSS experiments and explorations.
+- title: LMNT
+  url: lmnt.me
+  description: Short write-ups, often about design and Apple.
+- title: meyerweb.com
+  url: meyerweb.com
+  description: Assorted content, often about the web platform.
+- title: Stephen Wolfram
+  url: www.stephenwolfram.com
+  description: Data-heavy analysis with a focus on mathematics and statistics.
+- title: Michael Dickens
+  url: mdickens.me
+  description: Philosophy, investing, and altruism.
+- title: Paul Graham
+  url: paulgraham.com
+  description: Start-up culture.
+- title: Håvard Brynjulfsen
+  url: www.havardbrynjulfsen.design
+  description: Web development and design.
+- title: Ryan Mulligan
+  url: ryanmulligan.dev
+  description: Front-end development experimentation, learning, and discoveries.
+- title: Clagnut by Richard Rutter
+  url: clagnut.com
+  description: Design and typography with a focus on the web.
+- title: samwho
+  url: samwho.dev
+  description: Visual, often interactive, computer science introductions and traditional development posts.
+- title: Jan Miksovsky’s Blog
+  url: jan.miksovsky.com
+  description: Development and project notes.
+- title: Jim Neilsen's Blog
+  url: blog.jim-nielsen.com
+  description: Web development and thoughts.
+- title: blakewatson.com
+  url: blakewatson.com
+  description: Web development.
+- title: Karolina Szczur
+  url: karolinaszczur.com
+  description: Assorted tech industry related commentary.
+- title: Adam Argyle
+  url: nerdy.dev
+  description: CSS and other aspects of the web platform.
+- title: Ben Myers
+  url: benmyers.dev
+  description: Web development.
+- title: Ryan Trimble
+  url: ryantrimble.com
+  description: Web development and weekly roundups.
+- title: Werd I/O
+  url: werd.io
+  description: Intersection of technology, democracy, and society.
+- title: Birchtree
+  url: birchtree.me
+  description: Technology.
+- title: Adactio
+  url: adactio.com
+  description: Development and tech industry.
+- title: That HTML Blog
+  url: thathtml.blog
+  description: Web standards and standards-adjacent technologies.
+- title: Computers Are Bad
+  url: computer.rip
+  description: Explains why computers are bad.
+- title: Maggie Appleton
+  url: maggieappleton.com
+  description: Visual essays about programming, design, and anthropology.
+- title: CSS { In Real Life }
+  url: css-irl.info
+  description: CSS, front-end development, the web, and beyond.
+- title: Aleksandr Hovhannisyan
+  url: www.aleksandrhovhannisyan.com
+  description: Programming, life, and other topics.
+- title: Ashlese M Boyer
+  url: ashleemboyer.com
+  description: Accessibility, disability, and software engineering.
+- title: Sara Joy
+  url: sarajoy.dev
+  description: Web development and life.
+- title: Moth Monster
+  url: moth.monster
+  description: Technology.
+- title: Mayank
+  url: mayank.co
+  description: Web development.
+- title: Heather Buchel
+  url: heather-buchel.com
+  description: Web standards and accessibility.
+- title: Seirdy's Home
+  url: seirdy.one
+  description: Accessibility, security, privacy, and software freedom.
+- title: Scott O'Hara
+  url: www.scottohara.me
+  description: Web development, largely focusing on accessibility.
+- title: Waxy.org
+  url: waxy.org
+  description: Various web things.
+- title: Simon Willison's Weblog
+  url: simonwillison.net
+  description: Artificial intelligence.
+- title: LessWrong
+  url: www.lesswrong.com
+  description: Community blog of sorts discussing rationality and AI.
+- title: brr
+  url: brr.fyi
+  description: Records of interesting things about Antarctica from someone who lived there.
+- title: ribo.zone
+  url: ribo.zone
+  description: Assorted miscellany.
+- title: oimo.io
+  url: oimo.io
+  description: Development with an emphasis on graphics.
+- title: Bartosz Ciechanowski
+  url: ciechanow.ski
+  description: In-depth explanations of general concepts with visualisations.
+- title: Henry From Online
+  url: henry.codes
+  description: Tech and life.
+- title: Stillness.Digital
+  url: stillness.digital
+  description: Short little reflective somethings.
+- title: Strange.Website
+  url: strange.website
+  description: Pontificating about conceptual website vibes.
+- title: Anthony Fu
+  url: antfu.me
+  description: Development.
+- title: Faster and Worse
+  url: fasterandworse.com
+  description: Technology.
+- title: maya.land
+  url: maya.land
+  description: Tech menacery.
+- title: 30fps.net
+  url: 30fps.net
+  description: Computer graphics and programming.
+- title: elle's homepage
+  url: ellesho.me
+  description: A lovely little site to visit.
+- title: Ray's Miscellany
+  url: brisray.com
+  description: Completely indescribable.
+- title: HTMHell
+  url: htmhell.dev
+  description: HTML crimes and how to rectify them.
+- title: Shellsharks
+  url: shellsharks.com
+  description: InfoSec, technology, and life.
+- title: In Two Minds
+  url: intwominds.blog
+  description: A digital garden exploring philosophy, ethics, and systems thinking through multiple lenses and personas.

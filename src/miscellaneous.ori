@@ -1,0 +1,20 @@
+(miscellaneous) => main_template.ori({
+	title: "Miscellaneous Links"
+	description: "A handpicked list of curious, nostalgic, and obscure web destinations discovered during my surfing. Explore everything from digital oddities and retro-computing to interactive art, internet history, and bizarre experiments. No order, no guarantees—just pure internet miscellany"
+	og_description: "Links to various websites of interest or note."
+	stylesheet: "pages/links.css"
+
+@text:
+`<span id="section" data-pagefind-filter="Content Type">Links</span>
+
+<div class="readable-width">
+	<h1>Miscellaneous Links</h1>
+
+	<p>These are ${ miscellaneous/length } links to miscellaneous web things.<br>
+	<em>Descriptions are not provided. Content is not ordered. Quality is not assured. Not appropriate for all audiences. Check with your doctor if this collection is right for you.</em></p>
+
+	<ul>
+		${ miscellaneous
+		→ =map(_, (link) => `<li><a href="https://${ link/url }">${ link/title }</a></li>`) }
+	</ul>
+</div>`})

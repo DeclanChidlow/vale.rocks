@@ -1,0 +1,22 @@
+(blogs) => main_template.ori({
+	title: "Blog Links"
+	description: "A curated collection of insightful blogs covering web development, programming, design, AI, accessibility, security, technology trends, and digital culture I've collected. Including expert analyses, interactive tutorials, deep dives into coding, and unique perspectives on the evolving tech landscape"
+	og_description: "Links to various blogs of interest or note."
+	stylesheet: "pages/links.css"
+
+@text:
+`<span id="section" data-pagefind-filter="Content Type">Links</span>
+
+<div class="readable-width">
+	<h1>Blog Links</h1>
+
+	<p>These are ${ blogs/length } links to interesting blogs. Descriptions are generalised for the sake of brevity and may not cover all the content on the linked site. It can generally be assumed there are assorted bits not mentioned.</p>
+
+	<ul>
+		${ blogs
+		→ =map(_, (link) =>
+		`<li>
+			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
+		</li>`) }
+	</ul>
+</div>`})

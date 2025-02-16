@@ -1,0 +1,210 @@
+- title: SVG Wave Generator
+  url: www.softr.io/tools/svg-wave-generator
+  description: Generates customisable waves with SVG.
+- title: Tabler Icons
+  url: tablericons.com
+  description: Huge collection of vector icons.
+- title: 3dicons
+  url: 3dicons.co
+  description: Icons, but 3D.
+- title: Puter
+  url: puter.com
+  description: A cloud-based desktop environment.
+- title: Simple Icons
+  url: simpleicons.org
+  description: Huge collection of vector icons.
+- title: The Ultimate Oldschool PC Font Pack
+  url: int10h.org/oldschool-pc-fonts
+  description: Old crunchy PC fronts.
+- title: Device Info
+  url: deviceinfo.me
+  description: A web browser security testing, privacy testing, and troubleshooting tool.
+- title: css.glass
+  url: css.glass
+  description: Glassmorphism CSS generator.
+- title: Feather Icons
+  url: feathericons.com
+  description: Huge collection of vector icons.
+- title: Mixkit
+  url: mixkit.co
+  description: Stock footage.
+- title: Unsplash
+  url: unsplash.com
+  description: Stock photos.
+- title: Oh Shit, Git!?!
+  url: ohshitgit.com
+  description: A guide to un-fucking your Git mistakes.
+- title: 98.css
+  url: jdan.github.io/98.css
+  description: Windows 98 style CSS design system.
+- title: XP.css
+  url: botoxparty.github.io/XP.css
+  description: Windows XP style CSS design system.
+- title: 7.css
+  url: khang-nd.github.io/7.css
+  description: Windows 7 style CSS design system.
+- title: Laws of UX
+  url: lawsofux.com
+  description: Collection of best practices that designers can consider when building user interfaces.
+- title: Meet the Ipsums
+  url: meettheipsums.com
+  description: Various placeholder texts.
+- title: Realtime Colors
+  url: www.realtimecolors.com
+  description: Visualise colours and fonts in context on a site.
+- title: Flexbox Froggy
+  url: flexboxfroggy.com
+  description: A way to learn CSS flexbox.
+- title: Pexels
+  url: www.pexels.com
+  description: Stock photos and videos.
+- title: The League of Movable Type
+  url: www.theleagueofmoveabletype.com
+  description: Open-source font foundry.
+- title: IT Tools
+  url: it-tools.tech
+  description: Handy tools for developers.
+- title: Fontshare
+  url: fontshare.com
+  description: Fonts for personal and commercial use.
+- title: Merklemap
+  url: www.merklemap.com
+  description: Search subdomains.
+- title: PWA Install Demo
+  url: khmyznikov.com/pwa-install
+  description: Installation dialog for Progressive Web Applications (PWAs)
+- title: HTML De-crapulator
+  url: a11y-tools.com/markup-de-crapulator
+  description: Does what it says on the tin.
+- title: time.fyi
+  url: time.fyi
+  description: Time related tools to help you stay productive and organised.
+- title: RedditDB
+  url: redditdb.info
+  description: Shows the time when subreddits are most active.
+- title: magick.css
+  url: css.winterveil.net
+  description: Minimal CSS framework.
+- title: Uiverse
+  url: uiverse.io
+  description: Community-built library of UI elements.
+- title: Uisual
+  url: uisual.com
+  description: Library of website components and templates.
+- title: Wakamai Fondue
+  url: wakamaifondue.com
+  description: Answers the question “What can my font do?”
+- title: SQLZoo
+  url: sqlzoo.net
+  description: Teaches SQL step-by-step
+- title: OSINT Framework
+  url: osintframework.com
+  description: Provides tons of open source intelligence resources.
+- title: Photopea
+  url: photopea.com
+  description: Photoshop clone.
+- title: Learn X in Y Minutes
+  url: learnxinyminutes.com
+  description: Teaches various things quickly and simply.
+- title: NandGame
+  url: nandgame.com
+  description: Teaches how to build a computer from basic components.
+- title: CodePen
+  url: codepen.io
+  description: Online front-end playground.
+- title: Anna's Archive
+  url: annas-archive.org
+  description: Huge open library.
+- title: What length CSS unit should you use?
+  url: whatunit.com
+  description: Informs what CSS unit you should select in various use cases.
+- title: srcl
+  url: www.sacred.computer
+  description: Open-source component and style repository with terminal aesthetics.
+- title: Kenney
+  url: www.kenney.nl
+  description: Free game assets.
+- title: OpenGameArt.org
+  url: opengameart.org
+  description: Tons of art available for commercial use.
+- title: Freesound
+  url: freesound.org
+  description: Stock sounds.
+- title: Kay Lousberg
+  url: kaylousberg.com
+  description: Game assets.
+- title: Quaternius
+  url: quaternius.com
+  description: Game assets.
+- title: Overlay Fact Sheet
+  url: overlayfactsheet.com
+  description: Information about web 'accessibility' fact sheets.
+- title: WikiApiary
+  url: wikiapiary.com
+  description: Information about MediaWiki websites.
+- title: Remix Icon
+  url: remixicon.com
+  description: Huge collection of vector icons.
+- title: Free Music Archive
+  url: freemusicarchive.org/home
+  description: An archive of free music.
+- title: LandChad.net
+  url: landchad.net
+  description: Information on how to get your own place on the internet.
+- title: Iconic
+  url: iconic.app
+  description: Huge collection of vector icons.
+- title: VERT.sh
+  url: vert.sh
+  description: Comprehensive file converter.
+- title: Color and Contrast.com
+  url: colorandcontrast.com
+  description: Interactive guide to color and contrast.
+- title: ambientCG
+  url: ambientcg.com
+  description: Free textures, HDRIs, and more.
+- title: BGJar
+  url: bgjar.com
+  description: SVG background generator.
+- title: ColorSpace
+  url: mycolor.space
+  description: Generate a palette from a colour.
+- title: Cool Backgrounds
+  url: coolbackgrounds.io
+  description: Backgrounds that are cool.
+- title: fffuel
+  url: www.fffuel.co
+  description: Collection of colour tools and SVG generators for gradients, patterns, textures, shapes, and backgrounds.
+- title: Undesign
+  url: undesign.learn.uno
+  description: Collection of free design tools and resources for makers, developers, and designers.
+- title: Mossaik
+  url: mossaik.app
+  description: Graphic generator.
+- title: Tabbied
+  url: tabbied.com
+  description: Generate patterns from templates.
+- title: Patterninja
+  url: patterninja.com
+  description: Create tiled patterns from icons.
+- title: Duotone
+  url: duotone.shapefactory.co
+  description: Convert images into duotone versions.
+- title: archives.design
+  url: archives.design
+  description: Archive of graphic design related items available on the Internet Archive.
+- title: CallToInspiration
+  url: calltoinspiration.com
+  description: Huge amount of UI/UX inspiration.
+- title: collected
+  url: collected.li
+  description: New web design inspiration on every visit
+- title: Curated Design
+  url: www.curated.design
+  description: Curated web design inspiration catalog.
+- title: Design Everywhere
+  url: designeverywhere.co
+  description: An ever-growing collection of carefully curated works from around the world.
+- title: iOS Icon Gallery
+  url: www.iosicongallery.com
+  description: Gallery of iOS app icons.

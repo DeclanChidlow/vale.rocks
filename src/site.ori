@@ -10,7 +10,6 @@
 	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
 	syndication.html = main_template.ori(functions/parse-markdown.js(pages/syndication.md))
 	search.html = main_template.ori(functions/parse-markdown.js(pages/search.md))
-	links.html = pages/links/links.ori(pages/links/blogs.yaml, pages/links/tools-and-resources.yaml, pages/links/misc.yaml)
 	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
 
 	posts.html = pages/posts.ori(post_data.ori)
@@ -41,4 +40,11 @@
 
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
 	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
+
+	links.html = pages/links.ori(blogs.yaml, tools-and-resources.yaml, miscellaneous.yaml)
+	links/ = {
+		blogs.html = blogs.ori(blogs.yaml)
+		tools-and-resources.html = tools-and-resources.ori(tools-and-resources.yaml)
+		miscellaneous.html = miscellaneous.ori(miscellaneous.yaml)
+	}
 }
