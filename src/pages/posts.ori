@@ -1,6 +1,7 @@
 (posts_data) => main_template.ori({
 	title: "Posts"
-	description: "Browse my essays, tutorials, and reviews and more on topics including development, design, and digital culture."
+	description: "My long-form, structured writing including essays, tutorials, reviews, and more on various topics presented for your reading pleasure. These topics include development, design, and digital culture. Fully sortable and filterable."
+	og_descriptoin: "My long-form, structured writing."
 	stylesheet: "pages/posts.css"
 
 @text: 

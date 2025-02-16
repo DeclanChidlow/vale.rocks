@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 	<ShortName>Vale.Rocks</ShortName>
-	<Description>Search Vale.Rocks</Description>
+	<Description>Full site search for Vale.Rocks.</Description>
 	<Tags>Vale Vale.Rocks Declan</Tags>
 	<Contact>search@vale.rocks</Contact>
 	<Url type="text/html" template="https://vale.rocks/search?q={searchTerms}" />

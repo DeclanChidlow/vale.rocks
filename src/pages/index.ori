@@ -1,6 +1,6 @@
 (posts_data, portfolio_data) => main_template.ori({
 	title: "Vale.Rocks"
-	description: "The personal website of Declan Chidlow, known mononymously as Vale, containing my thoughts, musings, and otherwise unhinged ramblings."
+	description: "Personal website of Declan Chidlow, front-end web developer specialising in HTML, CSS, and JavaScript, known mononymously as Vale. Contains thoughts, musings, and otherwise unhinged ramblings. Long-form structured writings, portfolio items, photography, hosted services, links, microblog posts, and much more."
 	og_description: "The hippest site this side of MySpace."
 	stylesheet: "pages/index.css"
 
@@ -19,7 +19,7 @@
 		<h2>Ahoy!</h2>
 
 		<p>I'm Declan Chidlow; I often go by Vale online, and this site is the gateway to all the horrific abominations I concoct.</p>
-		<p>I'm a front-end developer with a skew to the front of the front-end. My expertise lies in core web technologies — HTML, CSS, and JavaScript — and leveraging them to craft digital experiences that are both functional and visually appealing.</p> 
+		<p>I'm a front-end developer with a skew to the front of the front-end. My expertise lies in core web technologies – HTML, CSS, and JavaScript – and leveraging them to craft digital experiences that are both functional and visually appealing.</p> 
 		<p>When not bodging together scripts, you may find me cruising around on my unicycle, writing for this website, browsing the crevices of cyberspace, or inadvertently converting an otherwise functional piece of tech into a paperweight.</p>
 	</section>
 
@@ -43,7 +43,7 @@
 
 		<a href="/services" id="services">
 			<h3>Services</h3>
-			<p>Digital provisions.</p>
+			<p>Hosted digital provisions.</p>
 		</a>
 
 		<a href="/links" id="links">
@@ -51,7 +51,7 @@
 			<p>Collection of web bits.</p>
 		</a>
 
-		<p">Also present are all of my microblog posts, which can be accessed along with the rest of my stream of consciousness via the <a href="/firehose/1">Firehose section</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">Syndication page</a>. Curious about my tools and setup? My <a href="/uses">uses page</a> has all the details.</p>
+		<p">Also present are all of my microblog posts, which can be accessed along with the rest of my stream of consciousness via the <a href="/firehose/1">firehose section</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>. Curious about my tools and setup? My <a href="/uses">uses page</a> has all the details.</p>
 	</section>
 
 	<section data-pagefind-ignore="all" class="readable-width">

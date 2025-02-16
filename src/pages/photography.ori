@@ -1,6 +1,7 @@
 (photography_data) => main_template.ori({
 	title: "Photography"
-	description: "All of my exemplary capture of photons in one place for your viewing pleasure."
+	description: "A wide array of high-quality, high-resolution photography ranging from wide shots of landscapes to up-close macros of fungi. Lots of nature oriented photos and small captures of the otherwise unacknowledged."
+	og_description: "My exemplary capture of photons in one place for your viewing pleasure."
 	stylesheet: "pages/photography.css"
 
 @text:
@@ -11,7 +12,7 @@
 		${ map(photography_data,
 		(photo, key) =>
 		`<a class="photo" href="/photography/${ basename(key) }">
-			<img src="${ photo/image }?q=60&w=2500" alt="${ photo/alt_text }" loading="lazy">
+			<img src="${ photo/image }?q=60&w=1500" alt="${ photo/alt_text }" loading="lazy">
 		</a>`)}
 	</div>
 </div>`})

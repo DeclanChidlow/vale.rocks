@@ -1,6 +1,7 @@
 ---
 title: Support
 description: Information regarding how to financially support me to keep servers running and projects growing. Support my open source development, hosting, and content creation.
+og_description: Details on how you can financially support me.
 stylesheet: "pages/support.css"
 ---
 
@@ -12,9 +13,7 @@ I spend quite a bit of money and time doing stuff on the internet, but that isn'
 
 If you're donating for any specific project, then [let me know](/contact) so I can best allocate my resources.
 
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
 
 <div id="donation-cards">
 <div>

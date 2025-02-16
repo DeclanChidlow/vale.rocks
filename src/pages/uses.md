@@ -1,6 +1,7 @@
 ---
 title: Uses
-description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management.
+description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management. Collates most of what I use on my laptop, servers, and phone.
+og_description: The tools, software, and other such things I use.
 ---
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Uses</h1>

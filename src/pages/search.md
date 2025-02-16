@@ -1,6 +1,7 @@
 ---
 title: Search
-description: An index of all my syndication feeds in various formats, including RSS, JSON Feed, and Atom, that users can subscribe to for easy subscription and updates.
+description: A search page allowing for querying the content of Vale.Rocks and performing full, complex, and rich searches of the content. Allows searching through the full managed index of almost my entire web output.
+og_description: Full site search of Vale.Rocks.
 stylesheet: "pages/search.css"
 ---
 

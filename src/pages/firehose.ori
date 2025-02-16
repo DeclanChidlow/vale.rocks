@@ -1,6 +1,7 @@
 (paginated_firehose) => main_template.ori({
-	title: "Firehose",
-	description: "Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!",
+	title: "Firehose"
+	description: "Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!"
+	og_description: "Everything, all in one place, coming 'atcha!"
 	stylesheet: "pages/firehose.css"
 
 @text:

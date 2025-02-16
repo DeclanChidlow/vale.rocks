@@ -1,6 +1,7 @@
 ---
 title: Syndication
-description: An index of all my syndication feeds in various formats, including RSS, JSON Feed, and Atom, that users can subscribe to for easy subscription and updates.
+description: An index of all Declan Chidlow's syndication feeds in various formats, including RSS, JSON Feed, and Atom, that users can subscribe to for easy subscription and updates. Also includes social media profiles for those inclined.
+og_description: Index of feeds for following my output.
 ---
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Syndication</h1>

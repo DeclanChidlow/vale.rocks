@@ -1,6 +1,7 @@
 ---
 title: Contact
-description: Find the best ways to contact me and some information about where you can find me.
+description: Information about the best ways to contact Declan Chidlow, including emails and instant messaging accounts. Also includes my public PGP key for verifying the validity of communications.
+og_description: How to get in contact with me.
 ---
 
 <h1 id="section" data-pagefind-filter="Content Type:Page">Contact</h1>

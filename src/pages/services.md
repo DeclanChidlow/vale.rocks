@@ -1,6 +1,7 @@
 ---
 title: Services
-description: Explore my self-hosted services, including my instances of Akkoma and Jellyfin and deployment of AutoMod. View live status and availability.
+description: A list of the various services I host or otherwise provide, including my fediverse instances, media streaming, and bot hosting. This page includes live service status information and avaliablity details.
+og_description: The services I host or otherwise provide.
 stylesheet: "pages/services.css"
 ---
 
