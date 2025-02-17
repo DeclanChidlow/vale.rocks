@@ -13,7 +13,6 @@
 	${ map(paginated_firehose/items,
 	(item, key) =>
 		`${ item/type === 'post' ? 
-		// if post
 			`<article class="post">
 				<header>
 					<div>
@@ -35,7 +34,6 @@
 				</article>`
 
 		: item/type === 'photo' ? 
-		// if photo
 			`<article class="photo">
 				<header>
 					<div>
@@ -58,8 +56,23 @@
 				<img src="${ item/image }" alt="${ item/alt_text }" />
 			</article>`
 
+		: item/type === 'elsewhere' ? 
+			`<article class="elsewhere">
+				<header>
+					<div>
+						<span class="icons">open_in_new</span>
+						<h2><a href="https://${ item/url }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
+					</div>
+				</header>
+				
+				<div class="readable-width">
+					${ item/sort === 'wrote' ? `<p>I wrote <a href="https://${ item/url }">${ item/title }</a> over on ${ item/location }.</p>` : '' }
+					${ item/sort === 'contributed' ? `<p>I contributed to <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
+					${item/contribution ? `<p>${ item/contribution }</p>` : '' }
+				</div>
+			</article>`
+
 		:
-		// if micro (not post or photo)
 			`<article class="micro">
 				<header>
 					<div>

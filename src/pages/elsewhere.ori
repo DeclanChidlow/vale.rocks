@@ -1,0 +1,34 @@
+(paginated_elsewhere) => main_template.ori({
+	title: "Elsewhere"
+	description: "Vale's writing or writing Vale has contributed to published externally to Vale.Rocks. Read tech journalism, web development insights, digital culture analysis, and more from Declan Chidlow."
+	og_description: "My writing external to Vale.Rocks."
+	stylesheet: "pages/elsewhere.css"
+
+@text:
+`<h1 id="section" data-pagefind-filter="Content Type">Elsewhere</h1>
+
+<div class="readable-width">
+	${ paginated_elsewhere/previousPage	? `` : `<p>Writing external to this website that I have worked on, contributed to, or otherwise directly been involved with.</p>` }
+
+	${ map(paginated_elsewhere/items,
+	(item, key) =>
+		`<a href="https://${ item/url }" class="writing">
+			<h2>${ item/title }</h2>
+			<p>${ item/location } | <time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></p>
+			${item/contribution ? `<p class="contribution">${ item/contribution }</p>` : '' }
+		</a>`)}
+
+	<div data-pagefind-ignore="all" class="pagination">
+		${ paginated_elsewhere/previousPage
+			? `<a href="/elsewhere/${ paginated_elsewhere/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			: "<span></span>"
+		}
+
+		<p>Page ${ paginated_elsewhere/pageNumber} of ${ paginated_elsewhere/pageCount}</p>
+
+		${ paginated_elsewhere/nextPage
+			? `<a href="/elsewhere/${ paginated_elsewhere/nextPage }">Older <span aria-hidden="true">></span></a>`
+			: "<span></span>"
+		}
+	</div>
+</div>`})

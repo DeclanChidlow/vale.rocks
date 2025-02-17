@@ -19,11 +19,18 @@
 		feed.xml = rss(post_syndication.ori(post_data.ori))
 	}
 
-	micros = {
-		...map(micro_data.ori, micro_template.ori)
-		feed.json = json(micro_syndication.ori(micro_data.ori))
-		feed.xml = rss(micro_syndication.ori(micro_data.ori))
+	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 15)
+	elsewhere/ = {
+		...map(paginated_elsewhere, {
+			extension: "→.html"
+			value: pages/elsewhere.ori
+		})
+		feed.json = json(elsewhere_syndication.ori(elsewhere_data.yaml))
+		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
 	}
+
+	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
+	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
 
 	photography.html = pages/photography.ori(photography_data.ori)
 	photography = {
@@ -32,19 +39,22 @@
 		feed.xml = rss(photography_syndication.ori(photography_data.ori))
 	}
 
-	(paginated_firehose) = paginate(firehose_data.ori, 15)
-	firehose/ = map(paginated_firehose, {
-		extension: "→.html"
-		value: pages/firehose.ori
-	})
-
-	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
-	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
-
 	links.html = pages/links.ori(blogs.yaml, tools-and-resources.yaml, miscellaneous.yaml)
 	links/ = {
 		blogs.html = blogs.ori(blogs.yaml)
 		tools-and-resources.html = tools-and-resources.ori(tools-and-resources.yaml)
 		miscellaneous.html = miscellaneous.ori(miscellaneous.yaml)
 	}
+
+	micros = {
+		...map(micro_data.ori, micro_template.ori)
+		feed.json = json(micro_syndication.ori(micro_data.ori))
+		feed.xml = rss(micro_syndication.ori(micro_data.ori))
+	}
+
+	(paginated_firehose) = paginate(firehose_data.ori, 15)
+	firehose/ = map(paginated_firehose, {
+		extension: "→.html"
+		value: pages/firehose.ori
+	})
 }

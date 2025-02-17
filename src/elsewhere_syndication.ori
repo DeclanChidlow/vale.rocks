@@ -1,0 +1,15 @@
+(elsewhere) => {
+  version: "https://jsonfeed.org/version/1.1"
+  title: "Vale.Rocks Elsewhere"
+  description: "My writing external to Vale.Rocks."
+  home_page_url: "https://vale.rocks"
+  feed_url: "https://vale.rocks/elsewhere/feed.json"
+  
+  items: values(map(elsewhere, (elsewhere, fileName) => {
+	id: `https://${ elsewhere/url }`
+	url: `https://${ elsewhere/url }`
+	title: elsewhere/title
+	content_html: `${ elsewhere/sort === 'wrote' ? `<p>I wrote <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> over on ${ elsewhere/location }.</p>` : '' } ${ elsewhere/sort === 'contributed' ? `<p>I contributed to <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' } ${ elsewhere/contribution ? `<p>${ elsewhere/contribution }</p>` : '' }`
+    date_published: elsewhere/pub_time
+  }))
+}

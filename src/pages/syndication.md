@@ -19,9 +19,17 @@ I [write long-form on this site](/posts), which you can subscribe to via:
 - RSS: https://vale.rocks/posts/feed.xml
 - JSON Feed: https://vale.rocks/posts/feed.json
 
+## Elsewhere
+
+Sometimes I work on, contribute to, or am otherwise directly involved with writing that is [external to this website](/elsewhere/1). You can follow this content via:
+
+- RSS: https://vale.rocks/elsewhere/feed.xml
+- JSON Feed: https://vale.rocks/elsewhere/feed.json
+
 ## Photography
 
 I [take photos](/photography) sometimes. If you'd like to know when I take new ones, you can subscribe through:
+
 - RSS: https://vale.rocks/photography/feed.xml
 - JSON Feed: https://vale.rocks/photography/feed.json
 
