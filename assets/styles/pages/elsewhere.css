@@ -1,0 +1,41 @@
+.writing {
+	padding: 1rem 0;
+	border-bottom: 2px solid var(--bright_grey);
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+
+	h2 {
+		font-size: 1.5rem;
+		line-height: inherit;
+	}
+
+	.contribution {
+		text-transform: none;
+	}
+
+	&:focus,
+	&:hover {
+		color: var(--blue);
+		border-color: var(--blue);
+	}
+
+	&::after {
+		display: none;
+	}
+}
+
+.pagination {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	text-align: center;
+
+	a {
+		padding: 2rem;
+	}
+
+	@media (max-width: 26rem) {
+		grid-template-columns: none;
+	}
+}

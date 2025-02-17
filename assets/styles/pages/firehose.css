@@ -34,6 +34,10 @@ article {
 	}
 }
 
+.elsewhere {
+	background: light-dark(oklch(from var(--yellow) l c h / calc(alpha - 0.8)), oklch(from var(--yellow) l c h / calc(alpha - 0.9)));
+}
+
 .micro {
 	background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.9)));
 }
