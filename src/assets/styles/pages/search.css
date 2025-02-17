@@ -63,10 +63,13 @@
 	margin-bottom: 1rem;
 }
 
+.pagefind-ui__results-area {
+	width: 100%;
+}
+
 .pagefind-ui__results {
 	display: flex;
 	flex-direction: column;
-
 	line-height: inherit;
 	margin: auto;
 }
