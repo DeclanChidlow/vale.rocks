@@ -1,7 +1,9 @@
 ---
 title: Adduce
-tag_line: A static site generator with the flexibility to bring web projects to life.
+description: Discover Adduce, the flexible static site generator I helped build and now maintain. Learn how I expanded my skills beyond front-end development to create a production-ready tool now powering multiple websites, complete with comprehensive documentation and available as open-source under LGPL v3.
+og_description: A static site generator with the flexibility to bring web projects to life.
 accent_colour: var(--blue)
+hoisted: true
 ---
 
 After experimenting with some popular static site generators, I found myself wanting something a bit different -- a tad more conducive to my workflow. So, I figured I'd try making one myself.

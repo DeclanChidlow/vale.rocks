@@ -7,10 +7,24 @@
 `<h1 id="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
 
 <div class="portfolio-items" data-pagefind-ignore="all">
-	${ map(portfolio_data,
-	(post, key) => 
-	`<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ post/accent_colour });">
-		<h2>${ post/title }</h2>
-		<p>${ post/tag_line }</p>
-	</a>`)}
+	${ map(portfolio_data, (item, key) =>
+		`${ item/hoisted ? 
+			`<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ item/accent_colour });">
+				<h2>${ item/title }</h2>
+				<p>${ item/og_description }</p>
+			</a>` : ''
+		}`
+	)}
+
+	<div class="not-hoisted">
+		${ map(portfolio_data, (item, key) =>
+			`${ item/hoisted ? '' :
+				`<a class="post" href="/portfolio/${ basename(key) }" style="background: linear-gradient(transparent, ${ item/accent_colour });">
+					<h2>${ item/title }</h2>
+					<p>${ item/og_description }</p>
+				</a>`
+			}`
+		)}
+		<p>See also my <a href="/elsewhere/1">published writing elsewhere</a>.</p>
+	</div>
 </div>`})

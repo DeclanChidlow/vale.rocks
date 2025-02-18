@@ -1,7 +1,7 @@
 (post) => main_template.ori({
 	title: post/title
-	description: post/tag_line
-	og_description: post/tag_line
+	description: post/description
+	og_description: post/og_description
 	stylesheet: "components/article_header.css"
 
 @text:
@@ -9,9 +9,10 @@
 
 <span id="section" data-pagefind-filter="Content Type">Portfolio</span>	
 
-<article>
+<article class="article-wrapper">
 	<header data-pagefind-ignore>
 		<h1>${ post/title }</h1>
+		<p>${ post/og_description}</p>
 	</header>
 
 	<div class="readable-width">
