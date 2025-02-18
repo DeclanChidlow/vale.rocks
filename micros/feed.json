@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250218-0000",
+      "url": "https://vale.rocks/micros/20250218-0000",
+      "title": "18 Feb 2025 00:00",
+      "content_html": "<p>I build on the web but, more importantly, I build for the web.</p>\n",
+      "date_published": "2025-02-18T00:00"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250217-0921",
+      "url": "https://vale.rocks/micros/20250217-0921",
+      "title": "17 Feb 2025 09:21",
+      "content_html": "<p>Tonight, on Hacker News.</p>\n<p>Vale posts a comment on a thread about Kindle hacking and writes the word gaol as &#8216;gaol&#8217; rather than &#8216;jail&#8217;.</p>\n<p>Everyone loses their minds. Insults are hurled. Riots in the streets.</p>\n<p>More at 9.</p>\n<p><a href=\"https://news.ycombinator.com/item?id=43074102\">https://news.ycombinator.com/item?id=43074102</a></p>\n",
+      "date_published": "2025-02-17T09:21"
+    },
+    {
       "id": "https://vale.rocks/micros/20250216-1041",
       "url": "https://vale.rocks/micros/20250216-1041",
       "title": "16 Feb 2025 10:41",
