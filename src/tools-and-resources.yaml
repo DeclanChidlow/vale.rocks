@@ -72,7 +72,7 @@
   description: Search subdomains.
 - title: PWA Install Demo
   url: khmyznikov.com/pwa-install
-  description: Installation dialog for Progressive Web Applications (PWAs)
+  description: Installation dialog for Progressive Web Applications (PWAs).
 - title: HTML De-crapulator
   url: a11y-tools.com/markup-de-crapulator
   description: Does what it says on the tin.
@@ -88,15 +88,18 @@
 - title: Uiverse
   url: uiverse.io
   description: Community-built library of UI elements.
+- title: The Bézier Game
+  url: bezier.method.ac
+  description: Game that teaches use of the pen tool.
 - title: Uisual
   url: uisual.com
   description: Library of website components and templates.
 - title: Wakamai Fondue
   url: wakamaifondue.com
-  description: Answers the question “What can my font do?”
+  description: Answers the question “What can my font do?”.
 - title: SQLZoo
   url: sqlzoo.net
-  description: Teaches SQL step-by-step
+  description: Teaches SQL step-by-step.
 - title: OSINT Framework
   url: osintframework.com
   description: Provides tons of open source intelligence resources.
@@ -198,7 +201,7 @@
   description: Huge amount of UI/UX inspiration.
 - title: collected
   url: collected.li
-  description: New web design inspiration on every visit
+  description: New web design inspiration on every visit.
 - title: Curated Design
   url: www.curated.design
   description: Curated web design inspiration catalog.
