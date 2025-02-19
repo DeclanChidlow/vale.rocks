@@ -46,6 +46,8 @@
   url: monkeytype.com
 - title: End of the Internet
   url: hmpg.net
+- title: DustSim
+  url: app-dustsim.kodub.com/1.03.1/
 - title: tilde.town
   url: tilde.town
 - title: The Old Net
@@ -72,6 +74,8 @@
   url: oimo.io/works/blob
 - title: Dihydrogen Monoxide Research Division
   url: dhmo.org
+- title: ikeryou.jp
+  url: ikeryou.jp
 - title: Putting the 'You' in CPU
   url: cpu.land
 - title: Zombo.com
@@ -90,6 +94,8 @@
   url: google.github.io/liquidfun
 - title: aem1k
   url: aem1k.com
+- title: Where is the Sloth?
+  url: whereisthesloth.com
 - title: 84-24
   url: 84-24.org
 - title: Sabby
@@ -108,6 +114,8 @@
   url: www.beautifulpublicdata.com
 - title: Web Browser Engineering
   url: browser.engineering
+- title: ambient.garden
+  url: ambient.garden
 - title: Listen to Wikipedia
   url: listen.hatnote.com
 - title: MelonLand Project
@@ -124,6 +132,8 @@
   url: floor796.com
 - title: Open Directory Project
   url: odp.org
+- title: Sombras.app
+  url: sombras.app
 - title: Wikipedia Unusual Articles
   url: wikipedia.org/wiki/Wikipedia:Unusual_articles
 - title: Bushism
@@ -142,6 +152,8 @@
   url: www.fogcam.org
 - title: Heaven's Gate
   url: heavensgate.com
+- title: 3D ISS Tracker
+  url: iss.matteason.co.uk
 - title: The Mosaic Communications Universe
   url: home.mcom.com
 - title: Mu Mirror
@@ -154,6 +166,8 @@
   url: oldavista.com
 - title: OldWeb.Today
   url: oldweb.today
+- title: Emoji Simulator!
+  url: ncase.me/sim/
 - title: Retrocampus BBS Online
   url: bbs.retrocampus.com
 - title: Koalas to the Max dot Com
@@ -182,6 +196,8 @@
   url: letmegooglethat.com
 - title: Zoomquilt
   url: zoomquilt.org
+- title: Binary Music Player
+  url: binarypiano.com
 - title: Find the Invisible Cow
   url: findtheinvisiblecow.com
 - title: Hakim El Hattab
@@ -206,6 +222,8 @@
   url: monsterbreeder.com
 - title: Bad Cafe Web Jungle
   url: badcafe.site/jungle
+- title: Fluid Particles
+  url: david.li/fluid/
 - title: Anything But Metric
   url: anythingbutmetric.lol
 - title: PackardBell95
@@ -226,6 +244,8 @@
   url: chickenonaraft.com
 - title: The Restart Page
   url: www.therestartpage.com
+- title: Iso
+  url: wxs.ca/iso/
 - title: Ian's Shoelace Site
   url: www.fieggen.com/shoelace
 - title: Akiyoshi's illusion pages
@@ -242,6 +262,8 @@
   url: wwwwwwwww.jodi.org
 - title: Million Pixel Dash
   url: millionpixeldash.com
+- title: Comparea
+  url: www.comparea.org
 - title: maxwellcat.world
   url: maxwellcat.world
 - title: Calculator Soup
@@ -266,6 +288,8 @@
   url: www.textfiles.com
 - title: HandLand
   url: handland.lol
+- title: Something/Nothing
+  url: somethingnothing.net
 - title: The Cursed Computer Iceberg Meme
   url: suricrasia.online/iceberg
 - title: ProsePlay
@@ -290,6 +314,8 @@
   url: noclip.website
 - title: Origami Taxonomy
   url: origamitaxonomy.github.io
+- title: Digital City
+  url: exp-digital-city.lusion.co
 - title: Dragon Fruit Obsession
   url: dragonfruitobsession.github.io
 - title: Skrrrt
@@ -306,6 +332,8 @@
   url: www.heavens-above.com
 - title: fUSION Anomaly
   url: fusionanomaly.net
+- title: Drivey.js
+  url: rezmason.github.io/drivey/
 - title: keygenjukebox.net
   url: keygenjukebox.net
 - title: Drive Me Insane!
@@ -354,7 +382,7 @@
   url: boss.laurasirvent.com
 - title: Historical Atlas of the Twentieth Century
   url: cgibin.rcn.com/mwhite28/20centry
-- title: SITO.org 
+- title: SITO.org
   url: www.sito.org
 - title: Art Crimes
   url: www.graffiti.org

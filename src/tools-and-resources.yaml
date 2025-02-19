@@ -127,6 +127,9 @@
 - title: Kenney
   url: www.kenney.nl
   description: Free game assets.
+- title: Scale
+  url: hihayk.github.io/scale
+  description: Colour scale generator.
 - title: OpenGameArt.org
   url: opengameart.org
   description: Tons of art available for commercial use.
@@ -151,6 +154,9 @@
 - title: Free Music Archive
   url: freemusicarchive.org/home
   description: An archive of free music.
+- title: CopyPalette
+  url: copypalette.app
+  description: Create consistent monochromatic colour palettes.
 - title: LandChad.net
   url: landchad.net
   description: Information on how to get your own place on the internet.
@@ -178,6 +184,9 @@
 - title: fffuel
   url: www.fffuel.co
   description: Collection of colour tools and SVG generators for gradients, patterns, textures, shapes, and backgrounds.
+- title: Color Hunt
+  url: colorhunt.co
+  description: Colour palettes for designers and artists.
 - title: Undesign
   url: undesign.learn.uno
   description: Collection of free design tools and resources for makers, developers, and designers.
@@ -190,6 +199,9 @@
 - title: Patterninja
   url: patterninja.com
   description: Create tiled patterns from icons.
+- title: Eva Design System
+  url: colors.eva.design
+  description: Generate colour pallets using deep learning powered algorithm.
 - title: Duotone
   url: duotone.shapefactory.co
   description: Convert images into duotone versions.
@@ -202,6 +214,9 @@
 - title: collected
   url: collected.li
   description: New web design inspiration on every visit.
+- title: Palette List
+  url: lospec.com/palette-list
+  description: Database of palettes.
 - title: Curated Design
   url: www.curated.design
   description: Curated web design inspiration catalog.
