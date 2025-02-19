@@ -10,7 +10,7 @@ og_description: How to get in contact with me.
 Need to get in contact with me for whatever reason? In order of preference, the best ways to do so are:
 
 - Over electronic mail at _vale (at) this site's domain_.
-- On Revolt as Vale#0210.
+- On Revolt as [Vale#0210](https://revolt.chat/qr?v2Zmb3JtYXRqcnFyJHVzZXIkMGZhdmF0YXJ4KmZYdm5WMlp6MmtWMWdTWkMtYm1EaW5NX2ZhSGxkbFVwSzRjZFdaSXdLM2tkaXNwbGF5TmFtZXgaMDFKRFpSREQxWVo4NEhBOEVTVDJFNUdWWFRodXNlcm5hbWVkVmFsZW1kaXNjcmltaW5hdG9yZDAyMTBiaWR4GjAxRzZBMllNSEVEMlRGVEVNTktLTUtGR0gw/w==).
 - On Matrix as [@valencethehuman:matrix.org](https://matrix.to/#/@valencethehuman:matrix.org).
 - On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
 - On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale).
