@@ -3,8 +3,9 @@ title: AI is Stifling Tech Adoption
 description: AI language models are shaping technology adoption in software development through training data limitations and system prompt biases. This analysis examines how AI assistants' preferences for established frameworks like React and Tailwind CSS may be creating barriers for newer technologies, supported by testing across major AI platforms including ChatGPT, Claude, Gemini, and DeepSeek. A look at the growing AI knowledge gap and its impact on technological innovation in modern software development.
 og_description: AI coding assistants are React evangelists.
 pub_time: 2025-02-13
+mod_time: 2025-02-19
 section: Essay
-word_count: 1797
+word_count: 1821
 ---
 
 I propose that the advent and integration of AI models into the workflows of developers has stifled the adoption of new and potentially superior technologies due to training data cutoffs and system prompt influence.
@@ -19,7 +20,7 @@ Large language models, especially those on the scale of many of the most accessi
 
 Once it has finally released, it usually remains stagnant in terms of having its knowledge updated. This creates an AI knowledge gap. A period between the present and AI's training cutoff. This gap creates a time between when a new technology emerges and when AI systems can effectively support user needs regarding its adoption, meaning that models will not be able to service users requesting assistance with new technologies, thus disincentivising their use.
 
-The cutoff means that models are strictly limited in knowledge up to a certain point. For instance, Anthropic's latest models have a cutoff of [April 2024](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data), and OpenAI's latest models have cutoffs of [late 2023](https://platform.openai.com/docs/models).
+The cutoff means that models are strictly limited in knowledge up to a certain point. For instance, as of February 2025, Anthropic's latest models have a cutoff of [April 2024](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data), and most of OpenAI's latest models have cutoffs of [late 2023](https://platform.openai.com/docs/models) (though 4o through ChatGPT has a cutoff of [June 2024](https://help.openai.com/en/articles/9624314-model-release-notes#h_826f21517f)).
 
 The influence of the popularisation of AI models has also led to the proliferation of AI slop content, which AI companies are likely trying to avoid introducing in their scraped data sets -- potentially increasing this knowledge gap.
 
@@ -33,7 +34,7 @@ Consider a developer working with a cutting-edge JavaScript framework released j
 
 ## System Prompt Influence
 
-I've anecdotally noticed that many AI tools have a 'preference' for React and Tailwind when asked to tackle a web-based task, or even to create any app involving an interface at all.
+I've anecdotally noticed that many AI tools have a 'preference' for React and Tailwind when asked to tackle a web-based task or even to create any app involving an interface at all.
 
 With Claude 3.5 Sonnet, which is generally my AI offering of choice given its superior coding ability, my "What personal preferences should Claude consider in responses?" profile setting includes the line "When writing code, use vanilla HTML/CSS/JS unless otherwise noted by me". Despite this, Claude will _frequently_ opt to generate new code with React, and in some occurrences even rewrite my existing code into React against my intent and without my consultation.
 
@@ -51,7 +52,7 @@ It does provide a choice, but chances are someone will select [the path of least
 
 ### Testing
 
-To test if popular models do have built-in bias for React, I logged into the web interfaces of four of the current most popular AI chat platforms[^1] via my free account and asked the models to "Create me a web app. It can do anything.". I repeated this with each of the four models three times in fresh chats with previous chats deleted and any shared context (such as ChatGPT's memory feature) disabled or cleared between each test.
+To test if popular models do have built-in bias for React, I logged into the web interfaces of four of the current most popular AI chat platforms[^1] via my free accounts and asked the models to "Create me a web app. It can do anything.". I repeated this with each of the four models three times in fresh chats with previous chats deleted and any shared context (such as ChatGPT's memory feature) disabled or cleared between each test. I performed these tests in early February 2025.
 
 I asked Anthropic's Claude 3.5 Sonnet with blank personal preferences and artifacts enabled. The first time it opted to create a mood tracking app, the second a reading list manager, and the third time a to-do list. Each time it chose to generate it using React with Tailwind CSS for styling. It generated each project in an artifact which offered an interactive preview directly in the interface.
 
@@ -73,11 +74,11 @@ Even if a developer does opt to use another framework or toolset, there is a cha
 
 That is assuming that a specific framework or toolset hasn't already been chosen by the user specifically because they have heard or experienced it being best handled by AI models. Also, while this very much applies to larger technical choices, such as what framework or general tooling a project may choose, it also trickles down into smaller decisions, such as what libraries or modules they may import.
 
-I think it is evident that AI models are influencing technology, and that the technologies currently in use -- especially those that reached popularity before November 2022, when ChatGPT was released, or that are otherwise in current data sets -- will be around for a long time to come, and that AI models' preferential treatment of them will expand their adoption and lifespan.
+I think it is evident that AI models are influencing technology and that the technologies currently in use -- especially those that reached popularity before November 2022, when ChatGPT was released, or that are otherwise in current data sets -- will be around for a long time to come, and that AI models' preferential treatment of them will expand their adoption and lifespan.
 
 I think it would be prudent for AI companies to provide more transparent documentation of technology biases in their models, like they disclose that their models can make mistakes. These models are becoming a common part of developer knowledge and decision-making, and we're letting the training and prompting decisions of OpenAI, Anthropic, etc shape the entire direction of software development.
 
-As for further research on this topic, if one had a collection of system prompts over time, it may be possible to compare them to download trends of specified packages and identify correlations. Of course, there are a lot of other influences on the download and adoption of packages, so this may prove difficult and provide data too noisy and influenced by outside variables to be unusable.
+As for further research on this topic, if one had a collection of system prompts over time, it may be possible to compare them to download trends of specified packages and identify correlations. Of course, there are a lot of other influences on the download and adoption of packages, so this may prove difficult and provide data too noisy and influenced by outside variables to be usable.
 
 [^1]: I have classed these as most popular based on personal observation.
 [^2]: They were also the easiest models to use and get output from thanks to their respective artifact and canvas features, which make them preferable for developers getting their start. These developers are also arguably the most impressionable.
