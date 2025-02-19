@@ -37,15 +37,18 @@
 		flex-direction: column;
 		gap: 1rem;
 
-		h2 {
-			font-size: 3rem;
-		}
+		a {
+			h2 {
+				font-size: 3rem;
+			}
 
-		p {
-			font-size: inherit;
+			p {
+				font-size: inherit;
+			}
 		}
 
 		> p {
+			padding: 2rem 0;
 			text-align: center;
 		}
 	}
