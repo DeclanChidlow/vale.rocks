@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250219-0444",
+      "url": "https://vale.rocks/micros/20250219-0444",
+      "title": "19 Feb 2025 04:44",
+      "content_html": "<p>I was working with <a href=\"https://threejs.org\">Three.js</a> today, and I noticed they&#8217;ve got a navigation item called &#8216;GPT&#8217; in the sidebar of their site.</p>\n<p>Clicking it takes you to a ChatGPT GPT called &#8216;<a href=\"https://chatgpt.com/g/g-jGjqAMvED-three-js-mentor\">Three.js Mentor</a>&#8217;. First time I&#8217;ve seen something like this. Feels odd.</p>\n",
+      "date_published": "2025-02-19T04:44"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250218-1421",
+      "url": "https://vale.rocks/micros/20250218-1421",
+      "title": "18 Feb 2025 14:21",
+      "content_html": "<p>I had a vision.</p>\n<p>The CSS Masonry angel came down from the heavens and addressed me. I made to speak, but it reached out a single slender finger and touched it to my lips to hush me. “Soon,” it said with the voice of a choir. “Soon.”</p>\n",
+      "date_published": "2025-02-18T14:21"
+    },
+    {
       "id": "https://vale.rocks/micros/20250218-0000",
       "url": "https://vale.rocks/micros/20250218-0000",
       "title": "18 Feb 2025 00:00",
