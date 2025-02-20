@@ -5,7 +5,7 @@ og_description: AI coding assistants are React evangelists.
 pub_time: 2025-02-13
 mod_time: 2025-02-19
 section: Essay
-word_count: 1821
+word_count: 1819
 ---
 
 I propose that the advent and integration of AI models into the workflows of developers has stifled the adoption of new and potentially superior technologies due to training data cutoffs and system prompt influence.
@@ -26,7 +26,7 @@ The influence of the popularisation of AI models has also led to the proliferati
 
 This knowledge gap doesn't just stifle the adoption of new frameworks and tooling but also the adoption of new and potentially superior features introduced in updates to already in-use frameworks and tooling as a result of the models not yet including information about them in their training set. This is a lesser issue though, because a technology with existing market adoption is bound to have fanatics who will use it, create examples, and produce blog posts, documentation, and other media about it that will eventually end up in training data.
 
-While some models are used in contexts where they are equipped with tooling, such as ChatGPT with its internet search capabilities, their prompts often only instruct them to use this functionality when explicitly requested by a user. Of course, plenty of implementations don't have any access to any internet query functionality at all, such as Claude via its web interface, which will inform you it will only discuss things included in its training data.
+While some models are used in contexts where they are equipped with tooling, such as ChatGPT with its internet search capabilities, their prompts often only instruct them to use this functionality when explicitly requested by a user. Plenty of implementations don't have any access to any internet query functionality at all, such as Claude via its web interface, which will inform you it will only discuss things included in its training data.
 
 Of course, if people are reluctant to adopt a new technology because of a lack of AI support, there will be fewer people likely to produce material regarding said technology, which leads to an overall inverse feedback effect. Lack of AI support prevents a technology from gaining the required critical adoption mass, which in turn prevents a technology from entering use and having material made for it, which in turn starves the model of training data, which in turn disincentivises selecting that technology, and so on and so forth.
 
