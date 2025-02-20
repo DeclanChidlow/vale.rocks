@@ -6,6 +6,24 @@
   "feed_url": "https://vale.rocks/photography/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/photography/porcelain-rooster",
+      "url": "https://vale.rocks/photography/porcelain-rooster",
+      "title": "A porcelain rooster bathed in candle light.",
+      "image": "https://images.unsplash.com/photo-1740022374426-660a862d7c62",
+      "content_html": "",
+      "summary": "A close-up of a porcelain rooster bathed in candle light. The rooster has brown feathers, red comb, and yellow beak.",
+      "date_published": "2025-02-20"
+    },
+    {
+      "id": "https://vale.rocks/photography/pitted-garden-statue",
+      "url": "https://vale.rocks/photography/pitted-garden-statue",
+      "title": "A weathered, pitted statue of a person carrying something.",
+      "image": "https://images.unsplash.com/photo-1740022374648-22f687fea6f6",
+      "content_html": "",
+      "summary": "A close-up of a white statue of a person carrying something over their shoulder. The statue is very pitted and weathered and behind it is the green foliage of a garden. The sky can be seen between the leaves.",
+      "date_published": "2025-02-20"
+    },
+    {
       "id": "https://vale.rocks/photography/wave-smashing",
       "url": "https://vale.rocks/photography/wave-smashing",
       "title": "Waves smashing around a rock at a beach.",
