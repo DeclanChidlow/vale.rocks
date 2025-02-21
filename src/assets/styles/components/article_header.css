@@ -31,6 +31,14 @@
 			}
 		}
 
+		.repo-details {
+			margin-top: 1rem;
+
+			img {
+				display: inline;
+			}
+		}
+
 		&::after {
 			content: "";
 			position: absolute;

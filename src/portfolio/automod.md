@@ -2,7 +2,8 @@
 title: AutoMod
 description: Explore my work on AutoMod, a popular moderation bot I developed for Revolt that protects over 100K users across 4,600+ servers. I maintain and host this essential community safety tool, complete with comprehensive documentation and open-source code available under AGPL v3.
 og_description: A moderation bot for Revolt that keeps communities safe.
-accent_colour: var(--bright_red)
+accent_colour: var(--red)
+repository: DeclanChidlow/AutoMod
 hoisted: true
 ---
 

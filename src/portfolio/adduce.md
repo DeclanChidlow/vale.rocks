@@ -3,6 +3,7 @@ title: Adduce
 description: Discover Adduce, the flexible static site generator I helped build and now maintain. Learn how I expanded my skills beyond front-end development to create a production-ready tool now powering multiple websites, complete with comprehensive documentation and available as open-source under LGPL v3.
 og_description: A static site generator with the flexibility to bring web projects to life.
 accent_colour: var(--blue)
+repository: DeclanChidlow/Adduce
 hoisted: true
 ---
 
