@@ -24,7 +24,7 @@
   url: dwitter.net
 - title: Cameron's World
   url: www.cameronsworld.net
-- title: Google Graveyard - Killed by Google
+- title: Google Graveyard
   url: killedbygoogle.com
 - title: A Standard for the Transmission of IP Datagrams on Avian Carriers
   url: www.rfc-editor.org/rfc/rfc1149
@@ -84,10 +84,6 @@
   url: iknowwhatyoudownload.com
 - title: /uses
   url: uses.tech
-- title: Greg Rutter's Definitive List of The 99 Things You Should Have Already Experienced On The Internet Unless You're a Loser or Old or Something
-  url: www.youshouldhaveseenthis.com
-- title: The Useless Web
-  url: theuselessweb.com
 - title: Micro Survivors
   url: skacekamen.github.io/micro-survivors
 - title: LiquidFun
@@ -390,3 +386,9 @@
   url: www.pakin.org/complaint
 - title: The Barney Fun Page!
   url: impressive.net/games/barney/fun.cgi
+- title: Astroboi Game
+  url: javier.xyz/astroboi
+- title: Fluid Paint
+  url: david.li/paint/
+- title: Outsmart the AI
+  url: www.outsmart-ai.com
