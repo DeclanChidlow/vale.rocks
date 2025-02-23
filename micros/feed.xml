@@ -6,6 +6,45 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Sun, 23 Feb 2025 04:33:00 GMT</pubDate>
+      <title>23 Feb 2025 04:33</title>
+      <link>https://vale.rocks/micros/20250223-0433</link>
+      <guid>https://vale.rocks/micros/20250223-0433</guid>
+      <content:encoded><![CDATA[<p>Something about this makes me uncomfortable in a way I struggle to articulate in words.</p>
+<p><a href="https://larsberg.github.io/_lsr/2018/1016_longOne/">https://larsberg.github.io/_lsr/2018/1016_longOne/</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 20 Feb 2025 14:54:00 GMT</pubDate>
+      <title>20 Feb 2025 14:54</title>
+      <link>https://vale.rocks/micros/20250220-1454</link>
+      <guid>https://vale.rocks/micros/20250220-1454</guid>
+      <content:encoded><![CDATA[<p>If you make a CSS centring joke in the modern era, you deserve to be put in a metal flexbox and centred in the middle of the ocean.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 20 Feb 2025 11:20:00 GMT</pubDate>
+      <title>20 Feb 2025 11:20</title>
+      <link>https://vale.rocks/micros/20250220-1120</link>
+      <guid>https://vale.rocks/micros/20250220-1120</guid>
+      <content:encoded><![CDATA[<p>My magnet implant is super sensitive at the moment. I can feel the magnets in my laptop chassis as I type this.</p>
+<p>Wonder what is causing it and if it is permanent.</p>
+<p>This is really wack. It is so much more sensitive. I can easily sense a field from double the distance I could yesterday.</p>
+<p>I&#8217;ve palpated the area and can&#8217;t feel any physical difference. Really odd.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 20 Feb 2025 05:50:00 GMT</pubDate>
+      <title>20 Feb 2025 05:50</title>
+      <link>https://vale.rocks/micros/20250220-0550</link>
+      <guid>https://vale.rocks/micros/20250220-0550</guid>
+      <content:encoded><![CDATA[<p>Speakers of English (traditional) rejoice, for I have fixed CSS. You can sleep easy knowing that there exists an easy way to permit writing &#8216;colour&#8217; as &#8216;colour&#8217;.</p>
+<p>BritCSS is a simple bit of client-side JS that permits using English spellings.</p>
+<p>Always fun to put together small things like this because I inevitably learn something I didn&#8217;t know.</p>
+<p><a href="https://github.com/DeclanChidlow/BritCSS">https://github.com/DeclanChidlow/BritCSS</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Wed, 19 Feb 2025 23:57:00 GMT</pubDate>
       <title>19 Feb 2025 23:57</title>
       <link>https://vale.rocks/micros/20250219-2357</link>

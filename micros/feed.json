@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250223-0433",
+      "url": "https://vale.rocks/micros/20250223-0433",
+      "title": "23 Feb 2025 04:33",
+      "content_html": "<p>Something about this makes me uncomfortable in a way I struggle to articulate in words.</p>\n<p><a href=\"https://larsberg.github.io/_lsr/2018/1016_longOne/\">https://larsberg.github.io/_lsr/2018/1016_longOne/</a></p>\n",
+      "date_published": "2025-02-23T04:33"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250220-1454",
+      "url": "https://vale.rocks/micros/20250220-1454",
+      "title": "20 Feb 2025 14:54",
+      "content_html": "<p>If you make a CSS centring joke in the modern era, you deserve to be put in a metal flexbox and centred in the middle of the ocean.</p>\n",
+      "date_published": "2025-02-20T14:54"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250220-1120",
+      "url": "https://vale.rocks/micros/20250220-1120",
+      "title": "20 Feb 2025 11:20",
+      "content_html": "<p>My magnet implant is super sensitive at the moment. I can feel the magnets in my laptop chassis as I type this.</p>\n<p>Wonder what is causing it and if it is permanent.</p>\n<p>This is really wack. It is so much more sensitive. I can easily sense a field from double the distance I could yesterday.</p>\n<p>I&#8217;ve palpated the area and can&#8217;t feel any physical difference. Really odd.</p>\n",
+      "date_published": "2025-02-20T11:20"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250220-0550",
+      "url": "https://vale.rocks/micros/20250220-0550",
+      "title": "20 Feb 2025 05:50",
+      "content_html": "<p>Speakers of English (traditional) rejoice, for I have fixed CSS. You can sleep easy knowing that there exists an easy way to permit writing &#8216;colour&#8217; as &#8216;colour&#8217;.</p>\n<p>BritCSS is a simple bit of client-side JS that permits using English spellings.</p>\n<p>Always fun to put together small things like this because I inevitably learn something I didn&#8217;t know.</p>\n<p><a href=\"https://github.com/DeclanChidlow/BritCSS\">https://github.com/DeclanChidlow/BritCSS</a></p>\n",
+      "date_published": "2025-02-20T05:50"
+    },
+    {
       "id": "https://vale.rocks/micros/20250219-2357",
       "url": "https://vale.rocks/micros/20250219-2357",
       "title": "19 Feb 2025 23:57",
