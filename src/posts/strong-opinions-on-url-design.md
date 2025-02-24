@@ -4,7 +4,7 @@ description: A collection of strong opinions on URL design and structure coverin
 og_description: i-have-some-thoughts
 pub_time: 2025-02-24
 section: Rant
-word_count: 994
+word_count: 1031
 ---
 
 I came to realise the other day that, for reasons unbeknownst to me, I have very strong opinions on URL structures. Most of my thoughts are related to culling the obsolete and implying away the superfluous. URL structure is as much a part of your website's design as anything else -- treat it with the same care and attention you give your visual design and user experience.
@@ -27,13 +27,15 @@ Of course, there are exceptions here for certain cases, such as dashboards with 
 
 ## No Spaces
 
-People have used spaces in URLs before. This isn't a terrible idea in and of itself, but it seems that developers really struggle to handle it nicely in implementations. It can also introduces the issue of there being no clear end to the URL, so certain content after a space can be left behind by users when copying or referencing it elsewhere.
+People have used spaces in URLs before. This isn't a terrible idea in and of itself, but it seems that developers really struggle to handle it nicely in implementations. It can also introduce the issue of there being no clear end to the URL, so certain content after a space can be left behind by users when copying or referencing it elsewhere.
 
 Some search engines and other user input cases get away with using spaces by encoding them with the relevant encoding of `%20`, but even they usually give up on this and just use `+` now.
 
 ## Hyphens, Not Underscores
 
-Underscores are usually placed less ergonomically on keyboards due to their infrequent use. There is also potential for markdown muckery. Hyphens are usually placed far more advantageously. Snake case isn't fit for URLs, and both camel case and Pascal case have no place in URLs because you [shouldn't be using capitals](#no-capitals) (also because you're writing a URL, not JavaScript). Kebab case is where it's at.
+Underscores are usually placed less ergonomically on keyboards due to their infrequent use. Hyphens are usually placed far more advantageously. Underscores also have potential for markdown muckery.
+
+Snake case isn't fit for URLs, and both camel case and Pascal case have no place in URLs because you [shouldn't be using capitals](#no-capitals) (also because you're writing a URL, not JavaScript). Kebab case is where it's at.
 
 Further, it is common convention that links are underlined, which often obscures underscores and can cause undue confusion. Hyphens encounter no such issue unless someone hates you and has done a ~~strikethrough~~.
 
@@ -53,16 +55,18 @@ I can somewhat understand a trailing slash on a path with content within it. For
 
 ## Useless Paths
 
-This is my real gripe with URL design. Each layer of a URL should correspond to a path and have worth in and of itself. Any section of a URL should be removable while still presenting relevant information.
+This is my real gripe with URL design. Each layer of a URL should correspond to a path and have worth in and of itself. A URL's structure should work as breadcrumbs, with the user being able to make their way back along the path without error at any stage. *Any section of a URL working backwards should be removable while still presenting relevant information.*
 
-I _hate_ seeing this structure:
+I _hate_ seeing this structure:\
 `https://example.com/posts/58473/post-title`
-What does the `58473` add to the URL? The user sees _no_ benefit from it. It is presumably a post ID or the likes, but there is [no reason that should be exposed in the URL](#no-ids). It usually isn't implemented as a hierarchical item, so I probably can't go to `example.com/posts/58473` and see anything beyond a 404 page. It is useless and only serves to make the URL longer and more difficult for humans -- especially when truncated. It could be designed as `https://example.com/posts/post-title` with no negative impact.
+
+What does the `58473` add to the URL? The user sees _no_ benefit from it. It is presumably a post ID or the likes, but there is [no reason that should be exposed in the URL](#no-ids). It usually isn't implemented as a hierarchical item, so I probably can't go to `example.com/posts/58473` and see anything beyond a 404 page. It is useless and only serves to make the URL longer and more difficult for humans -- especially when truncation hides the actual readable slug (assuming there even is one). It could be designed as `https://example.com/posts/post-title` with no negative impact.
 
 ### Date Paths
 
-Depending on context, I usually dislike this structure as well:
+Depending on context, I usually dislike this structure as well:\
 `https://example.com/posts/2025/02/24/post-title`
+
 I can accept it on news sites where there are multiple items releasing daily, and I can go to `example.com/posts/2025/02/24` and see the posts released that day. Unfortunately, this is barely ever done. Just don't use date-based paths unless dates are meaningful navigation elements.
 
 On small blogs or in other contexts where publications are infrequent, this is often even more pointless because if a page at `example.com/posts/2025/02/24` even does exist, chances are it only contains the one post.
