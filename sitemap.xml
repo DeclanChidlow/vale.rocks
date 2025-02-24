@@ -29,6 +29,9 @@
     <loc>https://vale.rocks/posts</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/posts/strong-opinions-on-url-design</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/posts/ai-is-stifling-tech-adoption</loc>
   </url>
   <url>
@@ -1008,5 +1011,8 @@
   </url>
   <url>
     <loc>https://vale.rocks/firehose/20</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/firehose/21</loc>
   </url>
 </urlset>

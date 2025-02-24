@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Strong Opinions on URL Design | Vale.Rocks</title>
+		<meta property="og:title" content="Strong Opinions on URL Design">
+		<meta name="citation_title" content="Strong Opinions on URL Design">
+		
+			<meta name="description" content="A collection of strong opinions on URL design and structure covering topics including use of capitalisation, use of IDs, spaces, hyphens instead of underscores, trailing slashes, hierarchy, and other gripes and particulars I hold.">
+			<meta property="og:description" content="i-have-some-thoughts">
+		
+		
+			<meta property="article:published_time" content="2025-02-24">
+			<meta name="dc.date.issued" content="2025-02-24">
+			<meta name="citation_publication_date" content="2025-02-24">
+		
+		
+		<meta property="article:section" content="Rant">
+
+		
+
+		<meta property="og:site_name" content="Vale.Rocks">
+		<meta property="og:locale" content="en_AU">
+		<meta property="og:site" content="vale.rocks">
+		<meta property="og:type" content="website">
+
+		<meta name="author" content="Declan Chidlow">
+		<meta name="citation_author" content="Declan Chidlow">
+		<meta name="creator" content="vale.rocks">
+		<meta name="contact" content="https://vale.rocks/contact">
+
+		<meta name="color-scheme" content="light dark">
+		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
+		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
+
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
+		<link rel="me" href="https://fedi.vale.rocks/vale">
+		<link rel="me" href="https://bsky.app/profile/vale.rocks">
+		<link rel="me" href="https://codepen.io/OuterVale">
+		<link rel="me" href="https://github.com/DeclanChidlow">
+		<link rel="me" href="https://unsplash.com/@outervale">
+		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
+
+		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		
+			<link rel="stylesheet" href="/assets/styles/components/article_header.css">
+		
+
+		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
+		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
+
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+	</head>
+
+	<body >
+		<header id="navbar" data-pagefind-ignore="all">
+			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+			<nav>
+				<a href="/" id="navlanding">Vale</a>
+				<ul class="menu-items">
+					<li><a href="/posts">Posts</a></li>
+					<li><a href="/portfolio">Portfolio</a></li>
+				</ul>
+				<a href="/search" class="icons">search</a>
+
+				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<div id="popover-menu" popover>
+					<button popovertarget="popover-menu" class="icons">close</button>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/photography">photography</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+	</header>
+
+	<main id="main">
+		<style>:root{--header_background: var(--magenta)}</style>
+
+<span class="sidebar">
+	<span id="section" data-pagefind-filter="Content Type">Posts</span>	
+	<div id="scroll-container">
+		<div id="indicator"></div>
+	</div>
+</span>
+
+<div class="article-wrapper">
+	<article class="h-entry">
+		<header data-pagefind-ignore>
+			<p data-pagefind-filter="Post Category">Rant</p>
+			<h1 class="p-name">Strong Opinions on URL Design</h1>
+			<ul>
+				<li>994 words</li>
+				<li><time class="dt-published" datetime="2025-02-24" title="Date of first publication.">24 Feb 2025</time></li>
+				
+			</ul>
+		</header>
+
+		<div class="readable-width e-content">
+			<p>I came to realise the other day that, for reasons unbeknownst to me, I have very strong opinions on URL structures. Most of my thoughts are related to culling the obsolete and implying away the superfluous. URL structure is as much a part of your website&#8217;s design as anything else &#8211; treat it with the same care and attention you give your visual design and user experience.</p>
+<h2 id="keep-it-simple">Keep It Simple</h2>
+<p>There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where people have to manually write down a URL, and then someone else will have to manually type that URL into their browser. Eliminate <em>all</em> possible points of failure by reducing needless complexity.</p>
+<h2 id="no-capitals">No Capitals</h2>
+<p>It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation which takes extra time &#8211; especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.</p>
+<p>Lowercase domains are required anyway by <a href="https://www.rfc-editor.org/rfc/rfc3986">RFC 3968</a>, so uppercase anything is always going to look out of place next to the domain.</p>
+<h2 id="no-ids">No IDs</h2>
+<p>URLs are fantastic in that they&#8217;re human-readable. That is, unless you&#8217;ve committed the atrocity of using an ID instead of a readable slug. <em>Why would you do this?</em> You might get the slightest benefit from it being a few characters smaller, but it makes it impossible for anyone to glean the content of the page when a link to it is just slapped somewhere online. Especially if embeds aren&#8217;t available or your Open Graph values are bungled. It also makes it significantly less memorable.</p>
+<p>Of course, there are exceptions here for certain cases, such as dashboards with automatically generated content, but they should be obvious exceptions.</p>
+<h2 id="no-spaces">No Spaces</h2>
+<p>People have used spaces in URLs before. This isn&#8217;t a terrible idea in and of itself, but it seems that developers really struggle to handle it nicely in implementations. It can also introduces the issue of there being no clear end to the URL, so certain content after a space can be left behind by users when copying or referencing it elsewhere.</p>
+<p>Some search engines and other user input cases get away with using spaces by encoding them with the relevant encoding of <code>%20</code>, but even they usually give up on this and just use <code>+</code> now.</p>
+<h2 id="hyphens-not-underscores">Hyphens, Not Underscores</h2>
+<p>Underscores are usually placed less ergonomically on keyboards due to their infrequent use. There is also potential for markdown muckery. Hyphens are usually placed far more advantageously. Snake case isn&#8217;t fit for URLs, and both camel case and Pascal case have no place in URLs because you <a href="#no-capitals">shouldn&#8217;t be using capitals</a> (also because you&#8217;re writing a URL, not JavaScript). Kebab case is where it&#8217;s at.</p>
+<p>Further, it is common convention that links are underlined, which often obscures underscores and can cause undue confusion. Hyphens encounter no such issue unless someone hates you and has done a <del>strikethrough</del>.</p>
+<h2 id="no-www">No WWW</h2>
+<p>It isn&#8217;t &#8217;95 anymore. It adds unnecessary length (and at the start of the URL as well, which is particularly impactful given that many platforms and search engines truncate links when displaying them). Please get with the times.</p>
+<h2 id="no-html">No .HTML</h2>
+<p>This is a personal thing. I just dislike seeing <code>.html</code> stuck on the end of URLs. It adds unnecessary length and feels cheap/messy. If somebody <em>really</em> needs to know if a page is made with HTML, they can probably figure it out themselves. This also goes for <code>.php</code>.</p>
+<h2 id="trailing-slash-on-an-end">Trailing Slash On An End</h2>
+<p>I can somewhat understand a trailing slash on a path with content within it. For example, <code>example.com/posts/</code> is fine if there is content within <code>posts/</code>. The slash makes sense here, as it indicates there is further content within the posts path.</p>
+<p><code>example.com/posts/post-title/</code> is a crime against humanity unless there are further items under <code>post-title</code>, which we&#8217;ll say there aren&#8217;t for this example. It serves no purpose. It doesn&#8217;t indicate sub-content. It is completely superfluous and misleading.</p>
+<h2 id="useless-paths">Useless Paths</h2>
+<p>This is my real gripe with URL design. Each layer of a URL should correspond to a path and have worth in and of itself. Any section of a URL should be removable while still presenting relevant information.</p>
+<p>I <em>hate</em> seeing this structure:
+<code>https://example.com/posts/58473/post-title</code>
+What does the <code>58473</code> add to the URL? The user sees <em>no</em> benefit from it. It is presumably a post ID or the likes, but there is <a href="#no-ids">no reason that should be exposed in the URL</a>. It usually isn&#8217;t implemented as a hierarchical item, so I probably can&#8217;t go to <code>example.com/posts/58473</code> and see anything beyond a 404 page. It is useless and only serves to make the URL longer and more difficult for humans &#8211; especially when truncated. It could be designed as <code>https://example.com/posts/post-title</code> with no negative impact.</p>
+<h3 id="date-paths">Date Paths</h3>
+<p>Depending on context, I usually dislike this structure as well:
+<code>https://example.com/posts/2025/02/24/post-title</code>
+I can accept it on news sites where there are multiple items releasing daily, and I can go to <code>example.com/posts/2025/02/24</code> and see the posts released that day. Unfortunately, this is barely ever done. Just don&#8217;t use date-based paths unless dates are meaningful navigation elements.</p>
+<p>On small blogs or in other contexts where publications are infrequent, this is often even more pointless because if a page at <code>example.com/posts/2025/02/24</code> even does exist, chances are it only contains the one post.</p>
+<p>Having the date in the URL serves to add unnecessary extra length to the URL containing pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you&#8217;ve got a more cumbersome file collection and a bloated, confusing file cabinet.</p>
+<p>It indicates a fail in information architecture. If your URL doesn&#8217;t make sense, your information architecture doesn&#8217;t either.</p>
+
+		</div>
+	</article>
+
+	<section class="giscus readable-width"></section>
+</div>
+
+<script
+	src="https://giscus.app/client.js"
+	data-repo="DeclanChidlow/vale.rocks"
+	data-repo-id="R_kgDOGKfOVg"
+	data-category="Comments"
+	data-category-id="DIC_kwDOGKfOVs4CY4vS"
+	data-mapping="og:title"
+	data-strict="1"
+	data-reactions-enabled="1"
+	data-emit-metadata="1"
+	data-input-position="top"
+	data-theme="preferred_color_scheme"
+	data-lang="en"
+	data-loading="lazy"
+	crossorigin="anonymous"
+	async></script>
+<script src="/assets/scripts/footnotes.js"></script>
+<script src="/assets/scripts/figures.js"></script>
+<script src='/assets/scripts/scroll-indicator.js'></script>
+<script src='/assets/scripts/copy-codeblock.js'></script>
+	</main>
+
+	<footer id="footer" data-pagefind-ignore="all">
+		<div class="footer-top">
+			<h2>Vale</h2>
+			<div class="footer-navigation">
+				<a href="/support" class="support">Support My Work</a>
+				<nav>
+					<ul>
+						<li><a href="/posts">Posts</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/firehose/1">Firehose</a></li>
+						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/photography">Photography</a></li>
+						<li><a href="/elsewhere/1">Elsewhere</a></li>
+						<li><a href="/links">Links</a></li>
+						<li><a href="/uses">Uses</a></li>
+						<li><a href="/sitemap.xml">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="https://fedi.vale.rocks/vale" target="_blank">
+						<svg fill="#F1007E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>ActivityPub</title>
+							<path d="M10.91 4.442L0 10.74v2.52L8.727 8.22v10.077l2.182 1.26zM6.545 12l-4.364 2.52 4.364 2.518zm6.545-2.52L17.455 12l-4.364 2.52zm0-5.038L24 10.74v2.52l-10.91 6.298v-2.52L21.819 12 13.091 6.96z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://bsky.app/profile/vale.rocks" target="_blank">
+						<svg fill="#0285FF" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Bluesky</title>
+							<path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/DeclanChidlow" target="_blank">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>GitHub</title>
+							<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://unsplash.com/@outervale" target="_blank">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>Unsplash</title>
+							<path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/declan-chidlow" target="_blank">
+						<svg fill="#0A66C2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>LinkedIn</title>
+							<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/OuterVale" target="_blank">
+						<svg class="adaptive-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<title>CodePen</title>
+							<path d="M18.144 13.067v-2.134L16.55 12zm1.276 1.194a.628.628 0 01-.006.083l-.005.028-.011.053-.01.031c-.005.016-.01.031-.017.047l-.014.03a.78.78 0 01-.021.043l-.019.03a.57.57 0 01-.08.1l-.026.025a.602.602 0 01-.036.03l-.029.022-.01.008-6.782 4.522a.637.637 0 01-.708 0L4.864 14.79l-.01-.008a.599.599 0 01-.065-.052l-.026-.025-.032-.034-.021-.028a.588.588 0 01-.067-.11l-.014-.031a.644.644 0 01-.017-.047l-.01-.03c-.004-.018-.008-.036-.01-.054l-.006-.028a.628.628 0 01-.006-.083V9.739c0-.028.002-.055.006-.083l.005-.027.011-.054.01-.03a.574.574 0 01.12-.217l.031-.034.026-.025a.62.62 0 01.065-.052l.01-.008 6.782-4.521a.638.638 0 01.708 0l6.782 4.521.01.008.03.022.035.03c.01.008.017.016.026.025a.545.545 0 01.08.1l.019.03a.633.633 0 01.021.043l.014.03c.007.016.012.032.017.047l.01.031c.004.018.008.036.01.054l.006.027a.619.619 0 01.006.083zM12 0C5.373 0 0 5.372 0 12 0 18.627 5.373 24 12 24c6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12m0 10.492L9.745 12 12 13.51 14.255 12zm.638 4.124v2.975l4.996-3.33-2.232-1.493zm-6.272-.356l4.996 3.33v-2.974l-2.764-1.849zm11.268-4.52l-4.996-3.33v2.974l2.764 1.85zm-6.272-.356V6.41L6.366 9.74l2.232 1.493zm-5.506 1.549v2.134L7.45 12Z"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	</body>
+</html>
