@@ -5,7 +5,7 @@ og_description: A guide to sorting the office suite solution.
 pub_time: 2023-06-16
 mod_time: 2023-11-22
 section: Tutorial
-word_count: 1054
+word_count: 1030
 ---
 
 Document editing is a horrible business that I wouldn't wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can't be combated by even the most confident keyboard cowboys.
@@ -61,7 +61,3 @@ Many embedded objects from MS Office don't have perfect compatibility by default
 ### Reorganising Forms and Adding Trailing Spaces
 
 Navigate to `Tools > Options > LibreOffice Writer > Compatibility` and ensure `Reorganise Form menu for Microsoft compatibility` and `Word-compatible trailing blanks` are ticked. Once done, click `Use as Default` and then `Yes` in the subsequent popup box.
-
----
-
-Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.

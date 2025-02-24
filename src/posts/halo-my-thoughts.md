@@ -5,7 +5,7 @@ og_description: My thoughts on one of the biggest names in gaming.
 pub_time: 2023-08-27
 mod_time: 2024-08-21
 section: Review
-word_count: 4120
+word_count: 4090
 ---
 
 If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5 and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
@@ -199,10 +199,6 @@ The only critique of its visuals that comes to mind is the lack of stylistic div
 This installment also marks the return of the legendary music. It's a triumphant return of the iconic theme as heard in CE. It once again adapts to context with ease and shows how much this game is pushing forward while staying true to the franchise's roots.
 
 The story repairs the mess of the previous two games and paves the way for the future. I really do look forward to seeing how they build on what was setup in Infinite and what the next instalment brings to the table.
-
----
-
-I hope that you gained something reading about my thoughts on Halo. I'd love to hear your thoughts and opinions on the franchise, so leave them in the comments.
 
 [^1]: So is the multiplayer. It simply stripped out the original and just bundled a modified version of Reach's. This isn't an issue on the MCC, as it features the original multiplayer, but if you're playing on the 360, I'd recommend just going and tracking down the original Xbox version. You can run it on the 360 via backwards compatibility.
 [^2]: You might have read that Reach is the first game. It's a prequel, released after Halo ODST. I very much recommend experiencing the games (and most media, for that matter) in chronological release order.

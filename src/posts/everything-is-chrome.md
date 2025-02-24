@@ -5,7 +5,7 @@ og_description: The web is under attack. Unsheathe your keyboards.
 pub_time: 2023-12-11
 mod_time: 2024-11-03
 section: Essay
-word_count: 2539
+word_count: 2496
 ---
 
 The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.
@@ -147,10 +147,6 @@ As the web's future depends on diversity in browse engines, you might also consi
 - [Servo](https://servo.org) is a web rendering engine started by Mozilla back in 2012 that is now handled by the Linux Foundation. It's pretty far along in development and is beginning to see real-world deployment, such as use in embedded applications.
 
 - [Ladybird](https://ladybird.org) is a very new and ambitious project intending to build out a full web browser complete with it's own rendering and JavaScript engines fully independent of existing browser engines.
-
----
-
-Share the message of browser engine diversity. Preserving an open web is crucial. The more people understand what's at stake, the better chance we have of preventing failure. If you'd like to help me make more content like this, please consider [supporting me](/support).
 
 <details>
 <summary>Sources</summary>

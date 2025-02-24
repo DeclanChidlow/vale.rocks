@@ -5,7 +5,7 @@ og_description: Nokia is, quite literally, not the company they used to be.
 pub_time: 2024-02-03
 mod_time: 2024-07-03
 section: Review
-word_count: 1135
+word_count: 1102
 ---
 
 My first phone was a RugGear RG930. If you think Nokia's [3310](https://www.gsmarena.com/nokia_3310-192.php) was built like a brick, then this thing may as well have been a rubberised titanium brick. It was so sturdy I used to play 'catch the phone' with friends, and it ended up face down on concrete more times than I can count, but I don't think it ever sustained so much as a scratch.
@@ -57,7 +57,3 @@ This partnership saw Nokia embrace Windows Phone. They quickly became the most p
 Unfortunately for Microsoft, Windows Phone wasn't quite the success they'd been hoping for, and a decline over the next few years saw the project completely dead by the end of the decade. In recent years, the mobile phone division sold to Microsoft has been living as HMD Global, although they've made strides to [differentiate themselves from the Nokia brand](https://www.hmd.com/en_int/blog/hmd-makers-of-nokia-phones-and-more).
 
 I can only hope that HMD's refocusing leads to their products improving, as what they're currently offering is truly poor. Ultimately, I moved away from Nokia and bought a Pixel 7a. It's not perfect, and the lack of headphone jack irks me, but at the very least it supports custom ROMs such as [GrapheneOS](https://grapheneos.org).
-
----
-
-If you liked my review of the Nokia G22, then do consider sharing it. Also, if you’d like to see me produce more content like this, then [financial support is very much appreciated](https://vale.rocks/support).

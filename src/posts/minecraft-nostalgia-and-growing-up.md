@@ -86,11 +86,13 @@ I realise now that I wasn't merely playing a game and manipulating pixels on a s
 
 Two quotes come to mind thinking about the game:
 
-> “Don’t cry because it’s over. Smile because it happened.” \
-> _- Dr Seuss_
+_Dr Seuss:_
 
-> “How lucky I am to have something that makes saying goodbye so hard.” \
-> _- A A Milne_
+> Don’t cry because it’s over. Smile because it happened.
+
+A A Milne:
+
+> How lucky I am to have something that makes saying goodbye so hard.
 
 Thank you.
 

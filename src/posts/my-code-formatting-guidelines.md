@@ -5,7 +5,7 @@ og_description: Stirring the tabs vs spaces pot once again.
 pub_time: 2024-04-18
 mod_time: 2024-06-10
 section: Tutorial
-word_count: 912
+word_count: 839
 ---
 
 Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is _not_ something I, nor anyone else, ever want to deal with.
@@ -185,9 +185,3 @@ Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/en/options.
 	Content
 </div>
 ```
-
----
-
-There you have my personal guidelines. I'm sure many people disagree (if only for my preference of tabs over spaces), and I'd love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.
-
-If you liked this post, then do consider sharing it. Also, if you'd like to support me in making more like it, consider [sending me a tip](/support). It'd mean a lot.

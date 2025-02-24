@@ -5,7 +5,7 @@ og_description: The best format you can't use.
 pub_time: 2024-05-01
 mod_time: 2024-05-07
 section: Essay
-word_count: 2121
+word_count: 2080
 ---
 
 There is no doubt you're familiar with GIFs, PNGs, and JPEGs. These image formats have been _the_ way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.
@@ -92,12 +92,12 @@ This leaves them with a lot of power. If they take issue with JPEG XL, then they
 
 However, it never made it past the opt in flag support stage, and Google eventually removed it, stating [in the Chromium Issue Tracker](https://issues.chromium.org/issues/40168998):
 
-> "Thank you everyone for your comments and feedback regarding JPEG XL. We will be removing the JPEG XL code and flag from Chromium for the following reasons:
+> Thank you everyone for your comments and feedback regarding JPEG XL. We will be removing the JPEG XL code and flag from Chromium for the following reasons:
 >
 > - Experimental flags and code should not remain indefinitely
 > - There is not enough interest from the entire ecosystem to continue experimenting with JPEG XL
 > - The new image format does not bring sufficient incremental benefits over existing formats to warrant enabling it by default
-> - By removing the flag and the code in M110, it reduces the maintenance burden and allows us to focus on improving existing formats in Chrome"
+> - By removing the flag and the code in M110, it reduces the maintenance burden and allows us to focus on improving existing formats in Chrome
 
 This rightly caused an uproar. Users pointed out many flaws in their claims. Firstly, that there has been a huge interest in the standard from a huge number of individuals and organisations, and secondly, the innovation brought by JPEG XL was most definitely "sufficient incremental benefits", especially as they had recently accepted AVIF, which was more lacking in features than existing standards.
 
@@ -124,10 +124,6 @@ Google could also stop supporting the format outside their products and services
 It may seem futile, but I believe that if we raise awareness of the issue and put enough public pressure on Google and, to a lesser extent, Mozilla, they will reconsider their stance. Use browsers that support the format, or toggle on the flag if possible. Spruik the benefits of the format wherever you can attract attention, and start using it in the [various software that already supports it](https://jpegxl.info/why-jxl#software_support). The more demand, the more adoption.
 
 This is an effort that is worth fighting for. Google has trampled innovation far too many times in the pursuit of control for us to allow them to do it again. We must condemn this behaviour and fight these monopolistic practices at every turn to prevent stifling progress in the name of corporate control.
-
----
-
-If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness. Also, if you'd like to see me produce more content like this, then consider [sending me a tip](/support). It'd mean a lot.
 
 <details>
 <summary>Sources</summary>

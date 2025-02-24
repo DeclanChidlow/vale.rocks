@@ -5,7 +5,7 @@ og_description: Better hope you don't need to call emergency services.
 pub_time: 2023-11-26
 mod_time: 2024-05-06
 section: Essay
-word_count: 1057
+word_count: 1012
 ---
 
 First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia's 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.
@@ -45,7 +45,3 @@ Telstra announced today that they've delayed the discontinuation of their 3G ser
 They have also setup a way to check your device's compatibility, with [more information available on their website](https://www.abc.net.au/news/2024-05-06/telstra-to-extend-3g-network-shutdown/103808110).
 
 In my eyes, this still doesn't excuse the unnecessary risk and inconvenience that this change introduces, but it is good to see that they are at least taking some action. Vodaphone has [already closed their network](https://www.vodafone.com.au/support/network/3g-closure), but Optus customers [still have until September](https://www.optus.com.au/support/mobiles-tablets-wearables/important-changes-3g).
-
----
-
-If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you'd like to see me produce similar content into the future, then consider [sending me a tip](/support). It'd mean a lot.

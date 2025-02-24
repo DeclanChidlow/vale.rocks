@@ -5,7 +5,7 @@ og_description: It's time to cut through the cyber clutter.
 pub_time: 2024-02-28
 mod_time: 2024-03-06
 section: Essay
-word_count: 1897
+word_count: 1841
 ---
 
 Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the 'hacker' is wearing a Guy Fawkes mask. However, this depiction couldn't be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.
@@ -109,7 +109,3 @@ In the same vein as antiviruses, many Virtual Private Network (VPN) operators em
 They especially advertise that they can mask users IPs, which, as discussed previously, isn't as important for most people as it may seem. Even if it were hugely important, it just means that your IP is being sent to them instead of elsewhere.
 
 There is much more to be said about VPNs, but nothing that isn't better covered by Tom Scott's excellent video, ["This Video Is Sponsored By ███ VPN"](https://www.youtube.com/watch?v=WVDQEoe6ZWY).
-
----
-
-Cybersecurity is important, and it's worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I'd love to hear them in the comments below.

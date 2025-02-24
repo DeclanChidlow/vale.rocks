@@ -5,7 +5,7 @@ og_description: A fantasmagorical planet flipping oracle.
 pub_time: 2024-06-14
 mod_time: 2024-07-03
 section: Review
-word_count: 1983
+word_count: 1948
 ---
 
 I like computers, and I like tinkering. I also don't mind stretching rules a little if it means I can do something not intended. I've burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.
@@ -108,7 +108,3 @@ As discussed with the Momentum firmware previously, much of the Flipper is open 
 The Flipper Zero is a neat bit of tech. It's an all in one, pocket sized tinkerer's toolbox. No, it isn't better than buying specialised hardware for each of its features, but that isn't its goal. It fills the niche encapsulated by the ethos behind the quote, "the best camera is the one you have with you". It's built well and fulfils its purpose.
 
 If the Flipper has made it onto your radar and piqued your interest, then chances are the only negative you'll find in buying it is the impact on your wallet.
-
----
-
-I hope you got something out of my review of the Flipper. If you did, then do consider sharing it, and if you'd like to see me produce more content like this, consider [supporting me](/support).
