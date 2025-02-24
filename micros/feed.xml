@@ -6,6 +6,14 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Sun, 23 Feb 2025 12:01:00 GMT</pubDate>
+      <title>23 Feb 2025 12:01</title>
+      <link>https://vale.rocks/micros/20250223-1201</link>
+      <guid>https://vale.rocks/micros/20250223-1201</guid>
+      <content:encoded><![CDATA[<p>Let’s put this masonry debate to rest. I propose we replace grid with masonry altogether. Think about how much trendier everything will be.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Sun, 23 Feb 2025 04:33:00 GMT</pubDate>
       <title>23 Feb 2025 04:33</title>
       <link>https://vale.rocks/micros/20250223-0433</link>
@@ -124,15 +132,6 @@
       <link>https://vale.rocks/micros/20250214-0035</link>
       <guid>https://vale.rocks/micros/20250214-0035</guid>
       <content:encoded><![CDATA[<p>That feeling when you setup a custom GitHub Action workflow and it works first time.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Thu, 13 Feb 2025 20:00:00 GMT</pubDate>
-      <title>13 Feb 2025 20:00</title>
-      <link>https://vale.rocks/micros/20250213-2000</link>
-      <guid>https://vale.rocks/micros/20250213-2000</guid>
-      <content:encoded><![CDATA[<p>I got referenced in this piece from WIRED about the new website of the US Department of Government Efficiency (DOGE) and its heavy ties to X (formerly Twitter).</p>
-<p><a href="https://www.wired.com/story/doge-website-is-just-one-big-x-ad/">https://www.wired.com/story/doge-website-is-just-one-big-x-ad/</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -458,7 +457,7 @@
       <link>https://vale.rocks/micros/20250111-1234</link>
       <guid>https://vale.rocks/micros/20250111-1234</guid>
       <content:encoded><![CDATA[<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>
-<p><vale.rocks/photography></p>
+<p><a href="https://vale.rocks/photography">https://vale.rocks/photography</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -509,12 +508,9 @@
       <guid>https://vale.rocks/micros/20250107-1117</guid>
       <content:encoded><![CDATA[<p>My links page has been going really well!</p>
 <ul>
-<li><p>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</p>
-</li>
-<li><p>I&#8217;ve been enjoying exploring all my bookmarks and archives to add to it.</p>
-</li>
-<li><p>People are checking out cool, unique websites.</p>
-</li>
+<li>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</li>
+<li>I&#8217;ve been enjoying exploring all my bookmarks and archives to add to it.</li>
+<li>People are checking out cool, unique websites.</li>
 </ul>
 <p><a href="https://vale.rocks/links">https://vale.rocks/links</a></p>
 ]]></content:encoded>
@@ -731,7 +727,7 @@
       <link>https://vale.rocks/micros/20241209-1131</link>
       <guid>https://vale.rocks/micros/20241209-1131</guid>
       <content:encoded><![CDATA[<p>Been upgrading and building on this. Pretty happy with it now. It has tons more engines added, a nicer UI (still simple—speed is the priority), and snaps inspired by Kagi which are lovely.</p>
-<p></micros/20240721-1249></p>
+<p><a href="https://vale.rocks/micros/20240721-1249">https://vale.rocks/micros/20240721-1249</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -748,7 +744,7 @@
       <link>https://vale.rocks/micros/20241207-0059</link>
       <guid>https://vale.rocks/micros/20241207-0059</guid>
       <content:encoded><![CDATA[<p>This has had me thinking about website layouts, and how typically we&#8217;ve had navigation situated at the top. Perhaps we need to rethink our designs based on the embrace of sidebars as they become the &#8216;new normal&#8217;?</p>
-<p></micros/20241030-0844></p>
+<p><a href="https://vale.rocks/micros/20241030-0844">https://vale.rocks/micros/20241030-0844</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -765,7 +761,7 @@
       <title>05 Dec 2024 09:22</title>
       <link>https://vale.rocks/micros/20241205-0922</link>
       <guid>https://vale.rocks/micros/20241205-0922</guid>
-      <content:encoded><![CDATA[<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time - why not websites?.</p>
+      <content:encoded><![CDATA[<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time &#8211; why not websites?.</p>
 <p>I suppose this is less important with the web, as we can &#8216;simply&#8217; archive copies of things but it&#8217;s been playing in my mind nonetheless.</p>
 ]]></content:encoded>
     </item>
@@ -890,15 +886,6 @@ At the very bottom of the page are some statistics that are cut off."></p>
       <link>https://vale.rocks/micros/20241114-0439</link>
       <guid>https://vale.rocks/micros/20241114-0439</guid>
       <content:encoded><![CDATA[<p>New CSS logo dropped. It looks great! Now, when do I get all those cool unused designs on a shirt?</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Wed, 13 Nov 2024 06:49:00 GMT</pubDate>
-      <title>13 Nov 2024 06:49</title>
-      <link>https://vale.rocks/micros/20241113-0649</link>
-      <guid>https://vale.rocks/micros/20241113-0649</guid>
-      <content:encoded><![CDATA[<p>A little while ago I updated a little piece I wrote about the design behind my site.</p>
-<p><a href="https://vale.rocks/posts/the-design-of-this-site">https://vale.rocks/posts/the-design-of-this-site</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1037,7 +1024,7 @@ At the very bottom of the page are some statistics that are cut off."></p>
       <title>23 Oct 2024 00:27</title>
       <link>https://vale.rocks/micros/20241023-0027</link>
       <guid>https://vale.rocks/micros/20241023-0027</guid>
-      <content:encoded><![CDATA[<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; — hardcoded, website-specific fixes and tweaks.</p>
+      <content:encoded><![CDATA[<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; &#8211; hardcoded, website-specific fixes and tweaks.</p>
 <p><a href="https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp">https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp</a></p>
 ]]></content:encoded>
     </item>
@@ -1113,7 +1100,7 @@ At the very bottom of the page are some statistics that are cut off."></p>
       <title>26 Sept 2024 12:35</title>
       <link>https://vale.rocks/micros/20240926-1235</link>
       <guid>https://vale.rocks/micros/20240926-1235</guid>
-      <content:encoded><![CDATA[<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-right</code>?</p>
+      <content:encoded><![CDATA[<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-top</code>?</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1140,15 +1127,6 @@ At the very bottom of the page are some statistics that are cut off."></p>
       <guid>https://vale.rocks/micros/20240916-0354</guid>
       <content:encoded><![CDATA[<p>Messed around with some fun HTML colour values. &#8220;sonic&#8221; outputs blue.</p>
 <p><a href="https://codepen.io/OuterVale/pen/wvLbjpZ">https://codepen.io/OuterVale/pen/wvLbjpZ</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Mon, 16 Sep 2024 01:14:00 GMT</pubDate>
-      <title>16 Sept 2024 01:14</title>
-      <link>https://vale.rocks/micros/20240916-0114</link>
-      <guid>https://vale.rocks/micros/20240916-0114</guid>
-      <content:encoded><![CDATA[<p>Uploaded some new pictures to my Unsplash. Go give &#8216;em a squizz.</p>
-<p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1217,11 +1195,11 @@ At the very bottom of the page are some statistics that are cut off."></p>
       <link>https://vale.rocks/micros/20240826-0952</link>
       <guid>https://vale.rocks/micros/20240826-0952</guid>
       <content:encoded><![CDATA[<p>Great moments in Revolt development:</p>
-<pre><code>RUN yarn install --frozen-lockfile
-RUN yarn build:deps
-# RUN yarn typecheck # lol no
-RUN yarn build:highmem
-RUN yarn workspaces focus --production --all
+<pre><code class="language-dockerfile"><span class="hljs-keyword">RUN</span><span class="language-bash"> yarn install --frozen-lockfile</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:deps</span>
+<span class="hljs-comment"># RUN yarn typecheck # lol no</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:highmem</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn workspaces focus --production --all</span>
 </code></pre><p><a href="https://github.com/revoltchat/revite/blob/master/Dockerfile#L9">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>
 ]]></content:encoded>
     </item>
@@ -1251,7 +1229,7 @@ RUN yarn workspaces focus --production --all
       <guid>https://vale.rocks/micros/20240818-1059</guid>
       <content:encoded><![CDATA[<p>This is a quote from Gian-Carlo Rota&#8217;s <em>Indiscrete Thoughts</em> that I think applies particularly well in the context of development:</p>
 <blockquote>
-<p>&#8220;Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;&#8221;</p>
+<p>Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;</p>
 </blockquote>
 ]]></content:encoded>
     </item>
@@ -1420,8 +1398,6 @@ RUN yarn workspaces focus --production --all
       <guid>https://vale.rocks/micros/20240508-0906</guid>
       <content:encoded><![CDATA[<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>
 <p><img src="https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg" alt="Photograph of a crab sitting in sand next to a rock within a dark bucket."></p>
-<p>In other news, I just published some new images to my Unsplash, so check them out.</p>
-<p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1514,36 +1490,6 @@ RUN yarn workspaces focus --production --all
 <a href="https://donatelife.gov.au/register-donor-today">https://donatelife.gov.au/register-donor-today</a></p>
 <p>Also worth reading this set of myths regarding donation:
 <a href="https://www.donatelife.gov.au/all-about-donation/myths-about-donation">https://www.donatelife.gov.au/all-about-donation/myths-about-donation</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Mon, 08 Apr 2024 04:54:00 GMT</pubDate>
-      <title>08 Apr 2024 04:54</title>
-      <link>https://vale.rocks/micros/20240408-0454</link>
-      <guid>https://vale.rocks/micros/20240408-0454</guid>
-      <content:encoded><![CDATA[<p>Took a picture of this lovely lush moss!</p>
-<p>View it on Unsplash:
-<a href="https://unsplash.com/photos/dF2WO_HFt3g">https://unsplash.com/photos/dF2WO_HFt3g</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Mon, 08 Apr 2024 03:26:00 GMT</pubDate>
-      <title>08 Apr 2024 03:26</title>
-      <link>https://vale.rocks/micros/20240408-0326</link>
-      <guid>https://vale.rocks/micros/20240408-0326</guid>
-      <content:encoded><![CDATA[<p>Met this cute little frog during my Melbourne holiday!</p>
-<p>View it on Unsplash:
-<a href="https://unsplash.com/photos/AOikvPjx-OE">https://unsplash.com/photos/AOikvPjx-OE</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Mon, 08 Apr 2024 02:22:00 GMT</pubDate>
-      <title>08 Apr 2024 02:22</title>
-      <link>https://vale.rocks/micros/20240408-0222</link>
-      <guid>https://vale.rocks/micros/20240408-0222</guid>
-      <content:encoded><![CDATA[<p>Captured this lovely butterfly during my Melbourne trip!</p>
-<p>View it on Unsplash:
-<a href="https://unsplash.com/photos/C-9QKM7OZls">https://unsplash.com/photos/C-9QKM7OZls</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2025,15 +1971,6 @@ RUN yarn workspaces focus --production --all
 ]]></content:encoded>
     </item>
     <item>
-      <pubDate>Wed, 29 Nov 2023 04:10:00 GMT</pubDate>
-      <title>29 Nov 2023 04:10</title>
-      <link>https://vale.rocks/micros/20231129-0410</link>
-      <guid>https://vale.rocks/micros/20231129-0410</guid>
-      <content:encoded><![CDATA[<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>
-<p><a href="https://unsplash.com/@outervale">https://unsplash.com/@outervale</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <pubDate>Tue, 28 Nov 2023 12:54:00 GMT</pubDate>
       <title>28 Nov 2023 12:54</title>
       <link>https://vale.rocks/micros/20231128-1254</link>
@@ -2065,7 +2002,7 @@ RUN yarn workspaces focus --production --all
       <title>23 Nov 2023 14:36</title>
       <link>https://vale.rocks/micros/20231123-1436</link>
       <guid>https://vale.rocks/micros/20231123-1436</guid>
-      <content:encoded><![CDATA[<p>Oh my, I love this new CSS lh unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>
+      <content:encoded><![CDATA[<p>Oh my, I love this new CSS <code>lh</code> unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2095,7 +2032,6 @@ RUN yarn workspaces focus --production --all
 <p>Mutant Remix is an awesome emoji packed based on <a href="https://mutant.tech">Mutant Standard</a> by <a href="https://nocturne.works">Dzuk</a>.
 It&#8217;s still got a bit to tweak but go check it out!</p>
 <p><a href="https://mutant.revolt.chat">https://mutant.revolt.chat</a></p>
-<p>#webdev #frontenddev #revolt #revoltchat</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2182,26 +2118,6 @@ It&#8217;s still got a bit to tweak but go check it out!</p>
 </tr>
 </tbody></table>
 <p>(37 people voted)</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Tue, 31 Oct 2023 11:09:00 GMT</pubDate>
-      <title>31 Oct 2023 11:09</title>
-      <link>https://vale.rocks/micros/20231031-1109</link>
-      <guid>https://vale.rocks/micros/20231031-1109</guid>
-      <content:encoded><![CDATA[<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>
-<ul>
-<li><a href="https://unsplash.com/photos/_SwvK3GEX4U">https://unsplash.com/photos/_SwvK3GEX4U</a></li>
-<li><a href="https://unsplash.com/photos/8W9UvkoQ43E">https://unsplash.com/photos/8W9UvkoQ43E</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <pubDate>Mon, 30 Oct 2023 13:01:00 GMT</pubDate>
-      <title>30 Oct 2023 13:01</title>
-      <link>https://vale.rocks/micros/20231030-1301</link>
-      <guid>https://vale.rocks/micros/20231030-1301</guid>
-      <content:encoded><![CDATA[<p>Coming tomorrow is a blog post about setting up Windows to be usable.</p>
 ]]></content:encoded>
     </item>
     <item>

@@ -1099,8 +1099,6 @@ I can accept it on news sites where there are multiple items releasing daily, an
 <h2 id="overall-evaluation">Overall Evaluation</h2>
 <p>The Flipper Zero is a neat bit of tech. It&#8217;s an all in one, pocket sized tinkerer&#8217;s toolbox. No, it isn&#8217;t better than buying specialised hardware for each of its features, but that isn&#8217;t its goal. It fills the niche encapsulated by the ethos behind the quote, &#8220;the best camera is the one you have with you&#8221;. It&#8217;s built well and fulfils its purpose.</p>
 <p>If the Flipper has made it onto your radar and piqued your interest, then chances are the only negative you&#8217;ll find in buying it is the impact on your wallet.</p>
-<hr>
-<p>I hope you got something out of my review of the Flipper. If you did, then do consider sharing it, and if you&#8217;d like to see me produce more content like this, consider <a href="/support">supporting me</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1166,12 +1164,12 @@ I can accept it on news sites where there are multiple items releasing daily, an
 <p>This leaves them with a lot of power. If they take issue with JPEG XL, then they can single handedly stop its adoption, and that&#8217;s exactly what they&#8217;ve done. At one point, Google actually did add support for JPEG XL to Chromium behind a flag. It was implemented and functional in Chromium. This prompted Firefox to add their own support.</p>
 <p>However, it never made it past the opt in flag support stage, and Google eventually removed it, stating <a href="https://issues.chromium.org/issues/40168998">in the Chromium Issue Tracker</a>:</p>
 <blockquote>
-<p>&#8220;Thank you everyone for your comments and feedback regarding JPEG XL. We will be removing the JPEG XL code and flag from Chromium for the following reasons:</p>
+<p>Thank you everyone for your comments and feedback regarding JPEG XL. We will be removing the JPEG XL code and flag from Chromium for the following reasons:</p>
 <ul>
 <li>Experimental flags and code should not remain indefinitely</li>
 <li>There is not enough interest from the entire ecosystem to continue experimenting with JPEG XL</li>
 <li>The new image format does not bring sufficient incremental benefits over existing formats to warrant enabling it by default</li>
-<li>By removing the flag and the code in M110, it reduces the maintenance burden and allows us to focus on improving existing formats in Chrome&#8221;</li>
+<li>By removing the flag and the code in M110, it reduces the maintenance burden and allows us to focus on improving existing formats in Chrome</li>
 </ul>
 </blockquote>
 <p>This rightly caused an uproar. Users pointed out many flaws in their claims. Firstly, that there has been a huge interest in the standard from a huge number of individuals and organisations, and secondly, the innovation brought by JPEG XL was most definitely &#8220;sufficient incremental benefits&#8221;, especially as they had recently accepted AVIF, which was more lacking in features than existing standards.</p>
@@ -1187,8 +1185,6 @@ I can accept it on news sites where there are multiple items releasing daily, an
 <h2 id="taking-action">Taking Action</h2>
 <p>It may seem futile, but I believe that if we raise awareness of the issue and put enough public pressure on Google and, to a lesser extent, Mozilla, they will reconsider their stance. Use browsers that support the format, or toggle on the flag if possible. Spruik the benefits of the format wherever you can attract attention, and start using it in the <a href="https://jpegxl.info/why-jxl#software_support">various software that already supports it</a>. The more demand, the more adoption.</p>
 <p>This is an effort that is worth fighting for. Google has trampled innovation far too many times in the pursuit of control for us to allow them to do it again. We must condemn this behaviour and fight these monopolistic practices at every turn to prevent stifling progress in the name of corporate control.</p>
-<hr>
-<p>If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness. Also, if you&#8217;d like to see me produce more content like this, then consider <a href="/support">sending me a tip</a>. It&#8217;d mean a lot.</p>
 <details>
 <summary>Sources</summary>
 
@@ -1324,10 +1320,7 @@ x =&gt; x
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;name&quot;</span>&gt;</span>
 	Content
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-</code></pre><hr>
-<p>There you have my personal guidelines. I&#8217;m sure many people disagree (if only for my preference of tabs over spaces), and I&#8217;d love to hear your thoughts in the comments. All I ask is that you keep criticism constructive and remain respectful.</p>
-<p>If you liked this post, then do consider sharing it. Also, if you&#8217;d like to support me in making more like it, consider <a href="/support">sending me a tip</a>. It&#8217;d mean a lot.</p>
-]]></content:encoded>
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
@@ -1384,11 +1377,13 @@ x =&gt; x
 <p>I loved Minecraft then, and I love it now. Putting on C418&#8217;s soundtrack evokes a unique sense of melancholy that nothing else can rival. Occasionally, I still find myself watching the old YouTube videos that first pulled me into the game, just for that hit of nostalgia.</p>
 <p>I realise now that I wasn&#8217;t merely playing a game and manipulating pixels on a screen; I was forging memories &#8211; memories that, years later, I still hold dear.</p>
 <p>Two quotes come to mind thinking about the game:</p>
+<p><em>Dr Seuss:</em></p>
 <blockquote>
-<p>“Don’t cry because it’s over. Smile because it happened.” <br><em>- Dr Seuss</em></p>
+<p>Don’t cry because it’s over. Smile because it happened.</p>
 </blockquote>
+<p>A A Milne:</p>
 <blockquote>
-<p>“How lucky I am to have something that makes saying goodbye so hard.” <br><em>- A A Milne</em></p>
+<p>How lucky I am to have something that makes saying goodbye so hard.</p>
 </blockquote>
 <p>Thank you.</p>
 <section class="footnotes" data-footnotes>
@@ -1465,8 +1460,6 @@ x =&gt; x
 <p>In the same vein as antiviruses, many Virtual Private Network (VPN) operators employ the same scare tactics and fearmongering regarding issues that haven&#8217;t been relevant for years.</p>
 <p>They especially advertise that they can mask users IPs, which, as discussed previously, isn&#8217;t as important for most people as it may seem. Even if it were hugely important, it just means that your IP is being sent to them instead of elsewhere.</p>
 <p>There is much more to be said about VPNs, but nothing that isn&#8217;t better covered by Tom Scott&#8217;s excellent video, <a href="https://www.youtube.com/watch?v=WVDQEoe6ZWY">&#8220;This Video Is Sponsored By ███ VPN&#8221;</a>.</p>
-<hr>
-<p>Cybersecurity is important, and it&#8217;s worth putting in the time to stay safe. It takes more effort to do damage control than it does to simply stay protected in the first place. If you have any suggestions on additions that I could implement in this article, then I&#8217;d love to hear them in the comments below.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1509,8 +1502,6 @@ x =&gt; x
 <p>This partnership saw Nokia embrace Windows Phone. They quickly became the most prominent Windows Phone manufacturer, making up most of the sales through 2013 with their Lumia series. However, Nokia began experimenting with Android on their phones, and Microsoft, worried what might happen should they lose their biggest OEM, purchased their mobile phone division outright.</p>
 <p>Unfortunately for Microsoft, Windows Phone wasn&#8217;t quite the success they&#8217;d been hoping for, and a decline over the next few years saw the project completely dead by the end of the decade. In recent years, the mobile phone division sold to Microsoft has been living as HMD Global, although they&#8217;ve made strides to <a href="https://www.hmd.com/en_int/blog/hmd-makers-of-nokia-phones-and-more">differentiate themselves from the Nokia brand</a>.</p>
 <p>I can only hope that HMD&#8217;s refocusing leads to their products improving, as what they&#8217;re currently offering is truly poor. Ultimately, I moved away from Nokia and bought a Pixel 7a. It&#8217;s not perfect, and the lack of headphone jack irks me, but at the very least it supports custom ROMs such as <a href="https://grapheneos.org">GrapheneOS</a>.</p>
-<hr>
-<p>If you liked my review of the Nokia G22, then do consider sharing it. Also, if you’d like to see me produce more content like this, then <a href="https://vale.rocks/support">financial support is very much appreciated</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1603,8 +1594,6 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <li><p><a href="https://ladybird.org">Ladybird</a> is a very new and ambitious project intending to build out a full web browser complete with it&#8217;s own rendering and JavaScript engines fully independent of existing browser engines.</p>
 </li>
 </ul>
-<hr>
-<p>Share the message of browser engine diversity. Preserving an open web is crucial. The more people understand what&#8217;s at stake, the better chance we have of preventing failure. If you&#8217;d like to help me make more content like this, please consider <a href="/support">supporting me</a>.</p>
 <details>
 <summary>Sources</summary>
 
@@ -1704,8 +1693,6 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>Telstra announced today that they&#8217;ve delayed the discontinuation of their 3G services to August 31st. Previously, they had intentions of cutting off access on June 30th.</p>
 <p>They have also setup a way to check your device&#8217;s compatibility, with <a href="https://www.abc.net.au/news/2024-05-06/telstra-to-extend-3g-network-shutdown/103808110">more information available on their website</a>.</p>
 <p>In my eyes, this still doesn&#8217;t excuse the unnecessary risk and inconvenience that this change introduces, but it is good to see that they are at least taking some action. Vodaphone has <a href="https://www.vodafone.com.au/support/network/3g-closure">already closed their network</a>, but Optus customers <a href="https://www.optus.com.au/support/mobiles-tablets-wearables/important-changes-3g">still have until September</a>.</p>
-<hr>
-<p>If you liked this article, then do consider sharing it, both for my own benefit and to raise awareness of the shutdown. Also, if you&#8217;d like to see me produce similar content into the future, then consider <a href="/support">sending me a tip</a>. It&#8217;d mean a lot.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1835,8 +1822,6 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>The only critique of its visuals that comes to mind is the lack of stylistic diversity. We&#8217;re thrown into a huge open-world, but the surface is almost exclusively the same generic forest, occasionally broken up by big hexagons, the void, and copy pasted Forerunner structures. It would have been lovely just to see a tad more variety, like we see in the multiplayer maps.</p>
 <p>This installment also marks the return of the legendary music. It&#8217;s a triumphant return of the iconic theme as heard in CE. It once again adapts to context with ease and shows how much this game is pushing forward while staying true to the franchise&#8217;s roots.</p>
 <p>The story repairs the mess of the previous two games and paves the way for the future. I really do look forward to seeing how they build on what was setup in Infinite and what the next instalment brings to the table.</p>
-<hr>
-<p>I hope that you gained something reading about my thoughts on Halo. I&#8217;d love to hear your thoughts and opinions on the franchise, so leave them in the comments.</p>
 <section class="footnotes" data-footnotes>
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
@@ -1883,8 +1868,6 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <p>Many embedded objects from MS Office don&#8217;t have perfect compatibility by default; to fix this, we can navigate to the <code>Tools &gt; Options &gt; Load/Save &gt; Microsoft Office</code> and ensure all the boxes in the Embedded Objects section are ticked.</p>
 <h3 id="reorganising-forms-and-adding-trailing-spaces">Reorganising Forms and Adding Trailing Spaces</h3>
 <p>Navigate to <code>Tools &gt; Options &gt; LibreOffice Writer &gt; Compatibility</code> and ensure <code>Reorganise Form menu for Microsoft compatibility</code> and <code>Word-compatible trailing blanks</code> are ticked. Once done, click <code>Use as Default</code> and then <code>Yes</code> in the subsequent popup box.</p>
-<hr>
-<p>Are there any specific settings you change, or parts of this post that you think could be improved? Leave your suggestions in a comment.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1952,7 +1935,7 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
       <link>https://vale.rocks/posts/the-design-of-this-site</link>
       <guid>https://vale.rocks/posts/the-design-of-this-site</guid>
       <description>A breakdown and overview of the design choices of Vale.Rocks, as well as its influences and brief touchings on the site&apos;s philosophy.</description>
-      <content:encoded><![CDATA[<p>The web used to embody its name—a spider&#8217;s web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.</p>
+      <content:encoded><![CDATA[<p>The web used to embody its name &#8211; a spider&#8217;s web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.</p>
 <p>Though a minority may still cherish the uniqueness of independent sites, their rarity makes standing out even more crucial to draw people away from the comfort of their algorithm-driven feeds. I think a site needs two things to attract attention: content worth reading and a design worth experiencing. This site is my attempt to offer both—a unique, accessible experience.</p>
 <p>Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page <a href="https://www.wendycarlos.com/live.html">describing how her website &#8216;lives&#8217;</a>:</p>
 <blockquote>

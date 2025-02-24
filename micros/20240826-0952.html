@@ -129,11 +129,11 @@
 
 		<div class="readable-width e-content">
 			<p>Great moments in Revolt development:</p>
-<pre><code>RUN yarn install --frozen-lockfile
-RUN yarn build:deps
-# RUN yarn typecheck # lol no
-RUN yarn build:highmem
-RUN yarn workspaces focus --production --all
+<pre><code class="language-dockerfile"><span class="hljs-keyword">RUN</span><span class="language-bash"> yarn install --frozen-lockfile</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:deps</span>
+<span class="hljs-comment"># RUN yarn typecheck # lol no</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:highmem</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn workspaces focus --production --all</span>
 </code></pre><p><a href="https://github.com/revoltchat/revite/blob/master/Dockerfile#L9">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>
 
 		</div>

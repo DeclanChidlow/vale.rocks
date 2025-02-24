@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250223-1201",
+      "url": "https://vale.rocks/micros/20250223-1201",
+      "title": "23 Feb 2025 12:01",
+      "content_html": "<p>Let’s put this masonry debate to rest. I propose we replace grid with masonry altogether. Think about how much trendier everything will be.</p>\n",
+      "date_published": "2025-02-23T12:01"
+    },
+    {
       "id": "https://vale.rocks/micros/20250223-0433",
       "url": "https://vale.rocks/micros/20250223-0433",
       "title": "23 Feb 2025 04:33",
@@ -95,13 +102,6 @@
       "title": "14 Feb 2025 00:35",
       "content_html": "<p>That feeling when you setup a custom GitHub Action workflow and it works first time.</p>\n",
       "date_published": "2025-02-14T00:35"
-    },
-    {
-      "id": "https://vale.rocks/micros/20250213-2000",
-      "url": "https://vale.rocks/micros/20250213-2000",
-      "title": "13 Feb 2025 20:00",
-      "content_html": "<p>I got referenced in this piece from WIRED about the new website of the US Department of Government Efficiency (DOGE) and its heavy ties to X (formerly Twitter).</p>\n<p><a href=\"https://www.wired.com/story/doge-website-is-just-one-big-x-ad/\">https://www.wired.com/story/doge-website-is-just-one-big-x-ad/</a></p>\n",
-      "date_published": "2025-02-13T20:00"
     },
     {
       "id": "https://vale.rocks/micros/20250213-0214",
@@ -338,7 +338,7 @@
       "id": "https://vale.rocks/micros/20250111-1234",
       "url": "https://vale.rocks/micros/20250111-1234",
       "title": "11 Jan 2025 12:34",
-      "content_html": "<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>\n<p><vale.rocks/photography></p>\n",
+      "content_html": "<p>I put together a photography page on my site. It contains photos I have taken. You will now click the below link and view these photos. You will enjoy the experience.</p>\n<p><a href=\"https://vale.rocks/photography\">https://vale.rocks/photography</a></p>\n",
       "date_published": "2025-01-11T12:34"
     },
     {
@@ -373,7 +373,7 @@
       "id": "https://vale.rocks/micros/20250107-1117",
       "url": "https://vale.rocks/micros/20250107-1117",
       "title": "07 Jan 2025 11:17",
-      "content_html": "<p>My links page has been going really well!</p>\n<ul>\n<li><p>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</p>\n</li>\n<li><p>I&#8217;ve been enjoying exploring all my bookmarks and archives to add to it.</p>\n</li>\n<li><p>People are checking out cool, unique websites.</p>\n</li>\n</ul>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n",
+      "content_html": "<p>My links page has been going really well!</p>\n<ul>\n<li>My analytics show consistent visits, which indicates to me that people are coming back to check out more cool sites.</li>\n<li>I&#8217;ve been enjoying exploring all my bookmarks and archives to add to it.</li>\n<li>People are checking out cool, unique websites.</li>\n</ul>\n<p><a href=\"https://vale.rocks/links\">https://vale.rocks/links</a></p>\n",
       "date_published": "2025-01-07T11:17"
     },
     {
@@ -527,7 +527,7 @@
       "id": "https://vale.rocks/micros/20241209-1131",
       "url": "https://vale.rocks/micros/20241209-1131",
       "title": "09 Dec 2024 11:31",
-      "content_html": "<p>Been upgrading and building on this. Pretty happy with it now. It has tons more engines added, a nicer UI (still simple—speed is the priority), and snaps inspired by Kagi which are lovely.</p>\n<p></micros/20240721-1249></p>\n",
+      "content_html": "<p>Been upgrading and building on this. Pretty happy with it now. It has tons more engines added, a nicer UI (still simple—speed is the priority), and snaps inspired by Kagi which are lovely.</p>\n<p><a href=\"https://vale.rocks/micros/20240721-1249\">https://vale.rocks/micros/20240721-1249</a></p>\n",
       "date_published": "2024-12-09T11:31"
     },
     {
@@ -541,7 +541,7 @@
       "id": "https://vale.rocks/micros/20241207-0059",
       "url": "https://vale.rocks/micros/20241207-0059",
       "title": "07 Dec 2024 00:59",
-      "content_html": "<p>This has had me thinking about website layouts, and how typically we&#8217;ve had navigation situated at the top. Perhaps we need to rethink our designs based on the embrace of sidebars as they become the &#8216;new normal&#8217;?</p>\n<p></micros/20241030-0844></p>\n",
+      "content_html": "<p>This has had me thinking about website layouts, and how typically we&#8217;ve had navigation situated at the top. Perhaps we need to rethink our designs based on the embrace of sidebars as they become the &#8216;new normal&#8217;?</p>\n<p><a href=\"https://vale.rocks/micros/20241030-0844\">https://vale.rocks/micros/20241030-0844</a></p>\n",
       "date_published": "2024-12-07T00:59"
     },
     {
@@ -555,7 +555,7 @@
       "id": "https://vale.rocks/micros/20241205-0922",
       "url": "https://vale.rocks/micros/20241205-0922",
       "title": "05 Dec 2024 09:22",
-      "content_html": "<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time - why not websites?.</p>\n<p>I suppose this is less important with the web, as we can &#8216;simply&#8217; archive copies of things but it&#8217;s been playing in my mind nonetheless.</p>\n",
+      "content_html": "<p>I&#8217;ve been thinking about the concept of <em>&#8220;heritage listed websites&#8221;</em>. We have buildings that we feel are too important to alter and must keep frozen in time &#8211; why not websites?.</p>\n<p>I suppose this is less important with the web, as we can &#8216;simply&#8217; archive copies of things but it&#8217;s been playing in my mind nonetheless.</p>\n",
       "date_published": "2024-12-05T09:22"
     },
     {
@@ -655,13 +655,6 @@
       "title": "14 Nov 2024 04:39",
       "content_html": "<p>New CSS logo dropped. It looks great! Now, when do I get all those cool unused designs on a shirt?</p>\n",
       "date_published": "2024-11-14T04:39"
-    },
-    {
-      "id": "https://vale.rocks/micros/20241113-0649",
-      "url": "https://vale.rocks/micros/20241113-0649",
-      "title": "13 Nov 2024 06:49",
-      "content_html": "<p>A little while ago I updated a little piece I wrote about the design behind my site.</p>\n<p><a href=\"https://vale.rocks/posts/the-design-of-this-site\">https://vale.rocks/posts/the-design-of-this-site</a></p>\n",
-      "date_published": "2024-11-13T06:49"
     },
     {
       "id": "https://vale.rocks/micros/20241113-0115",
@@ -772,7 +765,7 @@
       "id": "https://vale.rocks/micros/20241023-0027",
       "url": "https://vale.rocks/micros/20241023-0027",
       "title": "23 Oct 2024 00:27",
-      "content_html": "<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; — hardcoded, website-specific fixes and tweaks.</p>\n<p><a href=\"https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp\">https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp</a></p>\n",
+      "content_html": "<p>I found it interesting that WebKit maintains a collection of &#8216;quirks&#8217; &#8211; hardcoded, website-specific fixes and tweaks.</p>\n<p><a href=\"https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp\">https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp</a></p>\n",
       "date_published": "2024-10-23T00:27"
     },
     {
@@ -835,7 +828,7 @@
       "id": "https://vale.rocks/micros/20240926-1235",
       "url": "https://vale.rocks/micros/20240926-1235",
       "title": "26 Sept 2024 12:35",
-      "content_html": "<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-right</code>?</p>\n",
+      "content_html": "<p>Does it bother anyone else that it is <code>top</code> not <code>inset-top</code>, like <code>margin-top</code>?</p>\n",
       "date_published": "2024-09-26T12:35"
     },
     {
@@ -858,13 +851,6 @@
       "title": "16 Sept 2024 03:54",
       "content_html": "<p>Messed around with some fun HTML colour values. &#8220;sonic&#8221; outputs blue.</p>\n<p><a href=\"https://codepen.io/OuterVale/pen/wvLbjpZ\">https://codepen.io/OuterVale/pen/wvLbjpZ</a></p>\n",
       "date_published": "2024-09-16T03:54"
-    },
-    {
-      "id": "https://vale.rocks/micros/20240916-0114",
-      "url": "https://vale.rocks/micros/20240916-0114",
-      "title": "16 Sept 2024 01:14",
-      "content_html": "<p>Uploaded some new pictures to my Unsplash. Go give &#8216;em a squizz.</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
-      "date_published": "2024-09-16T01:14"
     },
     {
       "id": "https://vale.rocks/micros/20240915-0227",
@@ -912,7 +898,7 @@
       "id": "https://vale.rocks/micros/20240826-0952",
       "url": "https://vale.rocks/micros/20240826-0952",
       "title": "26 Aug 2024 09:52",
-      "content_html": "<p>Great moments in Revolt development:</p>\n<pre><code>RUN yarn install --frozen-lockfile\nRUN yarn build:deps\n# RUN yarn typecheck # lol no\nRUN yarn build:highmem\nRUN yarn workspaces focus --production --all\n</code></pre><p><a href=\"https://github.com/revoltchat/revite/blob/master/Dockerfile#L9\">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>\n",
+      "content_html": "<p>Great moments in Revolt development:</p>\n<pre><code class=\"language-dockerfile\"><span class=\"hljs-keyword\">RUN</span><span class=\"language-bash\"> yarn install --frozen-lockfile</span>\n<span class=\"hljs-keyword\">RUN</span><span class=\"language-bash\"> yarn build:deps</span>\n<span class=\"hljs-comment\"># RUN yarn typecheck # lol no</span>\n<span class=\"hljs-keyword\">RUN</span><span class=\"language-bash\"> yarn build:highmem</span>\n<span class=\"hljs-keyword\">RUN</span><span class=\"language-bash\"> yarn workspaces focus --production --all</span>\n</code></pre><p><a href=\"https://github.com/revoltchat/revite/blob/master/Dockerfile#L9\">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>\n",
       "date_published": "2024-08-26T09:52"
     },
     {
@@ -933,7 +919,7 @@
       "id": "https://vale.rocks/micros/20240818-1059",
       "url": "https://vale.rocks/micros/20240818-1059",
       "title": "18 Aug 2024 10:59",
-      "content_html": "<p>This is a quote from Gian-Carlo Rota&#8217;s <em>Indiscrete Thoughts</em> that I think applies particularly well in the context of development:</p>\n<blockquote>\n<p>&#8220;Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;&#8221;</p>\n</blockquote>\n",
+      "content_html": "<p>This is a quote from Gian-Carlo Rota&#8217;s <em>Indiscrete Thoughts</em> that I think applies particularly well in the context of development:</p>\n<blockquote>\n<p>Richard Feynman was fond of giving the following advice on how to be a genius. You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say: <em>&#8220;How did he do it? He must be a genius!</em>&#8221;</p>\n</blockquote>\n",
       "date_published": "2024-08-18T10:59"
     },
     {
@@ -1066,7 +1052,7 @@
       "id": "https://vale.rocks/micros/20240508-0906",
       "url": "https://vale.rocks/micros/20240508-0906",
       "title": "08 May 2024 09:06",
-      "content_html": "<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>\n<p><img src=\"https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg\" alt=\"Photograph of a crab sitting in sand next to a rock within a dark bucket.\"></p>\n<p>In other news, I just published some new images to my Unsplash, so check them out.</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
+      "content_html": "<p>Not high enough resolution for Unsplash, but here is a picture of a crab I took some years back.</p>\n<p><img src=\"https://fedi.vale.rocks/media/e645faaf0f2f21c8a2e74111b0ac07814d82f44c52bd9a929b6aa9c7a8180cd6.jpg\" alt=\"Photograph of a crab sitting in sand next to a rock within a dark bucket.\"></p>\n",
       "date_published": "2024-05-08T09:06"
     },
     {
@@ -1138,27 +1124,6 @@
       "title": "09 Apr 2024 07:12",
       "content_html": "<p>Just registered as an organ donor. Hopefully my bits can be useful when I&#8217;m no longer using them.</p>\n<p>If you&#8217;re in Australia and want to do the same, here&#8217;s the link:\n<a href=\"https://donatelife.gov.au/register-donor-today\">https://donatelife.gov.au/register-donor-today</a></p>\n<p>Also worth reading this set of myths regarding donation:\n<a href=\"https://www.donatelife.gov.au/all-about-donation/myths-about-donation\">https://www.donatelife.gov.au/all-about-donation/myths-about-donation</a></p>\n",
       "date_published": "2024-04-09T07:12"
-    },
-    {
-      "id": "https://vale.rocks/micros/20240408-0454",
-      "url": "https://vale.rocks/micros/20240408-0454",
-      "title": "08 Apr 2024 04:54",
-      "content_html": "<p>Took a picture of this lovely lush moss!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/dF2WO_HFt3g\">https://unsplash.com/photos/dF2WO_HFt3g</a></p>\n",
-      "date_published": "2024-04-08T04:54"
-    },
-    {
-      "id": "https://vale.rocks/micros/20240408-0326",
-      "url": "https://vale.rocks/micros/20240408-0326",
-      "title": "08 Apr 2024 03:26",
-      "content_html": "<p>Met this cute little frog during my Melbourne holiday!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/AOikvPjx-OE\">https://unsplash.com/photos/AOikvPjx-OE</a></p>\n",
-      "date_published": "2024-04-08T03:26"
-    },
-    {
-      "id": "https://vale.rocks/micros/20240408-0222",
-      "url": "https://vale.rocks/micros/20240408-0222",
-      "title": "08 Apr 2024 02:22",
-      "content_html": "<p>Captured this lovely butterfly during my Melbourne trip!</p>\n<p>View it on Unsplash:\n<a href=\"https://unsplash.com/photos/C-9QKM7OZls\">https://unsplash.com/photos/C-9QKM7OZls</a></p>\n",
-      "date_published": "2024-04-08T02:22"
     },
     {
       "id": "https://vale.rocks/micros/20240407-0137",
@@ -1532,13 +1497,6 @@
       "date_published": "2023-12-02T12:00"
     },
     {
-      "id": "https://vale.rocks/micros/20231129-0410",
-      "url": "https://vale.rocks/micros/20231129-0410",
-      "title": "29 Nov 2023 04:10",
-      "content_html": "<p>I just uploaded a couple of new photos to my Unsplash. Go take a look!</p>\n<p><a href=\"https://unsplash.com/@outervale\">https://unsplash.com/@outervale</a></p>\n",
-      "date_published": "2023-11-29T04:10"
-    },
-    {
       "id": "https://vale.rocks/micros/20231128-1254",
       "url": "https://vale.rocks/micros/20231128-1254",
       "title": "28 Nov 2023 12:54",
@@ -1563,7 +1521,7 @@
       "id": "https://vale.rocks/micros/20231123-1436",
       "url": "https://vale.rocks/micros/20231123-1436",
       "title": "23 Nov 2023 14:36",
-      "content_html": "<p>Oh my, I love this new CSS lh unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>\n",
+      "content_html": "<p>Oh my, I love this new CSS <code>lh</code> unit. It&#8217;s equal to the computed line-height. This is gonna make inline SVGs and icons so much easier! I&#8217;m in ecstasy.</p>\n",
       "date_published": "2023-11-23T14:36"
     },
     {
@@ -1584,7 +1542,7 @@
       "id": "https://vale.rocks/micros/20231120-1317",
       "url": "https://vale.rocks/micros/20231120-1317",
       "title": "20 Nov 2023 13:17",
-      "content_html": "<p>The new Mutant Remix site, developed by yours truly for <a href=\"https://revolt.chat\">Revolt</a>, is up!</p>\n<p>Mutant Remix is an awesome emoji packed based on <a href=\"https://mutant.tech\">Mutant Standard</a> by <a href=\"https://nocturne.works\">Dzuk</a>.\nIt&#8217;s still got a bit to tweak but go check it out!</p>\n<p><a href=\"https://mutant.revolt.chat\">https://mutant.revolt.chat</a></p>\n<p>#webdev #frontenddev #revolt #revoltchat</p>\n",
+      "content_html": "<p>The new Mutant Remix site, developed by yours truly for <a href=\"https://revolt.chat\">Revolt</a>, is up!</p>\n<p>Mutant Remix is an awesome emoji packed based on <a href=\"https://mutant.tech\">Mutant Standard</a> by <a href=\"https://nocturne.works\">Dzuk</a>.\nIt&#8217;s still got a bit to tweak but go check it out!</p>\n<p><a href=\"https://mutant.revolt.chat\">https://mutant.revolt.chat</a></p>\n",
       "date_published": "2023-11-20T13:17"
     },
     {
@@ -1635,20 +1593,6 @@
       "title": "01 Nov 2023 12:05",
       "content_html": "<p>Do people use share buttons on websites, such as those on blog posts or articles?</p>\n<table>\n<thead>\n<tr>\n<th>Response</th>\n<th>Percentage</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Yes</td>\n<td>0%</td>\n</tr>\n<tr>\n<td>Yes (only on mobile)</td>\n<td>19%</td>\n</tr>\n<tr>\n<td>No</td>\n<td>81%</td>\n</tr>\n</tbody></table>\n<p>(37 people voted)</p>\n",
       "date_published": "2023-11-01T12:05"
-    },
-    {
-      "id": "https://vale.rocks/micros/20231031-1109",
-      "url": "https://vale.rocks/micros/20231031-1109",
-      "title": "31 Oct 2023 11:09",
-      "content_html": "<p>I&#8217;ve just posted two new pictures on my Unsplash account. Go check them out!</p>\n<ul>\n<li><a href=\"https://unsplash.com/photos/_SwvK3GEX4U\">https://unsplash.com/photos/_SwvK3GEX4U</a></li>\n<li><a href=\"https://unsplash.com/photos/8W9UvkoQ43E\">https://unsplash.com/photos/8W9UvkoQ43E</a></li>\n</ul>\n",
-      "date_published": "2023-10-31T11:09"
-    },
-    {
-      "id": "https://vale.rocks/micros/20231030-1301",
-      "url": "https://vale.rocks/micros/20231030-1301",
-      "title": "30 Oct 2023 13:01",
-      "content_html": "<p>Coming tomorrow is a blog post about setting up Windows to be usable.</p>\n",
-      "date_published": "2023-10-30T13:01"
     },
     {
       "id": "https://vale.rocks/micros/20231030-1211",
