@@ -39,11 +39,11 @@
 		feed.xml = rss(photography_syndication.ori(photography_data.ori))
 	}
 
-	links.html = pages/links.ori(blogs.yaml, tools-and-resources.yaml, miscellaneous.yaml)
+	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/miscellaneous.yaml)
 	links/ = {
-		blogs.html = blogs.ori(blogs.yaml)
-		tools-and-resources.html = tools-and-resources.ori(tools-and-resources.yaml)
-		miscellaneous.html = miscellaneous.ori(miscellaneous.yaml)
+		blogs.html = ./links/blogs.ori(./links/blogs.yaml)
+		tools-and-resources.html = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
+		miscellaneous.html = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 	}
 
 	micros = {
