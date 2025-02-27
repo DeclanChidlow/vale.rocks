@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>Vale's Blog OPML</title>
+		<dateCreated>Thu, 27 Feb 2025 00:00:00 +0000</dateCreated>
+		<ownerName>Declan Chidlow (Vale)</ownerName>
+		<docs>https://opml.org/spec2.opml</docs>
+	</head>
+	<body>
+			<outline text="Vale.Rocks Posts" description="Long form writings about assorted topics." htmlUrl="https://vale.rocks/posts" title="Vale.Rocks Posts" type="rss" xmlUrl="https://vale.rocks/posts/feed.xml"/>
+		
+			<outline text="Josh W Comeau" description="Web development articles, interactive tutorials, and goodies." htmlUrl="https://www.joshwcomeau.com" title="Josh W Comeau" type="rss" xmlUrl="https://www.joshwcomeau.com/rss.xml"/>
+			<outline text="Coding Horror" description="Programming blog focussing on human factors." htmlUrl="https://blog.codinghorror.com" title="Coding Horror" type="rss" xmlUrl="https://blog.codinghorror.com/rss/"/>
+			<outline text="Robert Heaton" description="Development and tech with an emphasis on privacy." htmlUrl="https://robertheaton.com" title="Robert Heaton" type="rss" xmlUrl="https://robertheaton.com/feed.xml"/>
+			<outline text="Citation Needed" description="Coverage of the cryptocurrency industry and broader technology issues." htmlUrl="https://www.citationneeded.news" title="Citation Needed" type="rss" xmlUrl="https://www.citationneeded.news/rss/"/>
+			<outline text="Web3 is Going Just Great" description="Tracking of how web3 projects are actually going." htmlUrl="https://www.web3isgoinggreat.com" title="Web3 is Going Just Great" type="rss" xmlUrl="https://web3isgoinggreat.com/feed.xml"/>
+			<outline text="Terence Eden’s Blog" description="Technology, reviews, and assorted musings." htmlUrl="https://shkspr.mobi" title="Terence Eden’s Blog" type="rss" xmlUrl="https://shkspr.mobi/blog/feed/atom/"/>
+			<outline text="GioCities" description="Tech and wider web culture." htmlUrl="https://blog.giovanh.com" title="GioCities" type="rss" xmlUrl="https://blog.giovanh.com/feeds/atom.xml"/>
+			<outline text="Ahmad Shadeed" description="Web development articles with interactive elements." htmlUrl="https://ishadeed.com" title="Ahmad Shadeed" type="rss" xmlUrl="https://ishadeed.com/feed.xml"/>
+			<outline text="iio.ie" description="Random ideas and personal ramblings from a disgruntled techie." htmlUrl="https://iio.ie" title="iio.ie" type="rss" xmlUrl="https://iio.ie/rss"/>
+			<outline text="ajkprojects" description="Developer relevant psychology." htmlUrl="https://ajkprojects.com" title="ajkprojects" type="rss" xmlUrl="https://ajkprojects.com/rss.xml"/>
+			<outline text="LMNT" description="Short write-ups, often about design and Apple." htmlUrl="https://lmnt.me" title="LMNT" type="rss" xmlUrl="https://lmnt.me/feed.xml"/>
+			<outline text="meyerweb.com" description="Assorted content, often about the web platform." htmlUrl="https://meyerweb.com" title="meyerweb.com" type="rss" xmlUrl="https://meyerweb.com/eric/thoughts/rss2/full"/>
+			<outline text="Stephen Wolfram" description="Data-heavy analysis with a focus on mathematics and statistics." htmlUrl="https://www.stephenwolfram.com" title="Stephen Wolfram" type="rss" xmlUrl="https://writings.stephenwolfram.com/feed/atom/"/>
+			<outline text="Michael Dickens" description="Philosophy, investing, and altruism." htmlUrl="https://mdickens.me" title="Michael Dickens" type="rss" xmlUrl="https://mdickens.me/feed.xml"/>
+			<outline text="Håvard Brynjulfsen" description="Web development and design." htmlUrl="https://www.havardbrynjulfsen.design" title="Håvard Brynjulfsen" type="rss" xmlUrl="https://www.havardbrynjulfsen.design/feed.xml"/>
+			<outline text="Clagnut by Richard Rutter" description="Design and typography with a focus on the web." htmlUrl="https://clagnut.com" title="Clagnut by Richard Rutter" type="rss" xmlUrl="https://clagnut.com/feeds/fullposts.xml"/>
+			<outline text="samwho" description="Visual, often interactive, computer science introductions and traditional development posts." htmlUrl="https://samwho.dev" title="samwho" type="rss" xmlUrl="https://samwho.dev/rss.xml"/>
+			<outline text="Jan Miksovsky’s Blog" description="Development and project notes." htmlUrl="https://jan.miksovsky.com" title="Jan Miksovsky’s Blog" type="rss" xmlUrl="https://jan.miksovsky.com/rss.xml"/>
+			<outline text="Jim Neilsen's Blog" description="Web development and thoughts." htmlUrl="https://blog.jim-nielsen.com" title="Jim Neilsen's Blog" type="rss" xmlUrl="https://blog.jim-nielsen.com/feed.xml"/>
+			<outline text="blakewatson.com" description="Web development." htmlUrl="https://blakewatson.com" title="blakewatson.com" type="rss" xmlUrl="https://blakewatson.com/feed.xml"/>
+			<outline text="Adam Argyle" description="CSS and other aspects of the web platform." htmlUrl="https://nerdy.dev" title="Adam Argyle" type="rss" xmlUrl="https://nerdy.dev/rss.xml"/>
+			<outline text="Ben Myers" description="Web development." htmlUrl="https://benmyers.dev" title="Ben Myers" type="rss" xmlUrl="https://benmyers.dev/feed.xml"/>
+			<outline text="Ryan Trimble" description="Web development and weekly roundups." htmlUrl="https://ryantrimble.com" title="Ryan Trimble" type="rss" xmlUrl="https://ryantrimble.com/rss.xml"/>
+			<outline text="Werd I/O" description="Intersection of technology, democracy, and society." htmlUrl="https://werd.io" title="Werd I/O" type="rss" xmlUrl="https://werd.io/content/all?_t=rss"/>
+			<outline text="Birchtree" description="Technology." htmlUrl="https://birchtree.me" title="Birchtree" type="rss" xmlUrl="https://birchtree.me/rss/"/>
+			<outline text="Adactio" description="Development and tech industry." htmlUrl="https://adactio.com" title="Adactio" type="rss" xmlUrl="https://adactio.com/articles/rss"/>
+			<outline text="Computers Are Bad" description="Explains why computers are bad." htmlUrl="https://computer.rip" title="Computers Are Bad" type="rss" xmlUrl="https://computer.rip/rss.xml"/>
+			<outline text="Maggie Appleton" description="Visual essays about programming, design, and anthropology." htmlUrl="https://maggieappleton.com" title="Maggie Appleton" type="rss" xmlUrl="https://maggieappleton.com/rss.xml"/>
+			<outline text="CSS { In Real Life }" description="CSS, front-end development, the web, and beyond." htmlUrl="https://css-irl.info" title="CSS { In Real Life }" type="rss" xmlUrl="https://css-irl.info/rss.xml"/>
+			<outline text="Aleksandr Hovhannisyan" description="Programming, life, and other topics." htmlUrl="https://www.aleksandrhovhannisyan.com" title="Aleksandr Hovhannisyan" type="rss" xmlUrl="https://www.aleksandrhovhannisyan.com/feed.xml"/>
+			<outline text="Ashlese M Boyer" description="Accessibility, disability, and software engineering." htmlUrl="https://ashleemboyer.com" title="Ashlese M Boyer" type="rss" xmlUrl="https://ashleemboyer.com/rss.xml"/>
+			<outline text="Sara Joy" description="Web development and life." htmlUrl="https://sarajoy.dev" title="Sara Joy" type="rss" xmlUrl="https://sarajoy.dev/rss.xml"/>
+			<outline text="Moth Monster" description="Technology." htmlUrl="https://moth.monster" title="Moth Monster" type="rss" xmlUrl="https://moth.monster/blog/feed.xml"/>
+			<outline text="Mayank" description="Web development." htmlUrl="https://mayank.co" title="Mayank" type="rss" xmlUrl="https://mayank.co/blog/rss.xml"/>
+			<outline text="Scott O'Hara" description="Web development, largely focusing on accessibility." htmlUrl="https://www.scottohara.me" title="Scott O'Hara" type="rss" xmlUrl="https://www.scottohara.me/feed.xml"/>
+			<outline text="Waxy.org" description="Various web things." htmlUrl="https://waxy.org" title="Waxy.org" type="rss" xmlUrl="https://waxy.org/feed/"/>
+			<outline text="LessWrong" description="Community blog of sorts discussing rationality and AI." htmlUrl="https://www.lesswrong.com" title="LessWrong" type="rss" xmlUrl="https://www.lesswrong.com/feed.xml"/>
+			<outline text="brr" description="Records of interesting things about Antarctica from someone who lived there." htmlUrl="https://brr.fyi" title="brr" type="rss" xmlUrl="https://brr.fyi/feed.xml"/>
+			<outline text="ribo.zone" description="Assorted miscellany." htmlUrl="https://ribo.zone" title="ribo.zone" type="rss" xmlUrl="https://ribo.zone/feed.xml"/>
+			<outline text="oimo.io" description="Development with an emphasis on graphics." htmlUrl="https://oimo.io" title="oimo.io" type="rss" xmlUrl="https://blog.oimo.io/feed/"/>
+			<outline text="Bartosz Ciechanowski" description="In-depth explanations of general concepts with visualisations." htmlUrl="https://ciechanow.ski" title="Bartosz Ciechanowski" type="rss" xmlUrl="https://ciechanow.ski/atom.xml"/>
+			<outline text="Henry From Online" description="Tech and life." htmlUrl="https://henry.codes" title="Henry From Online" type="rss" xmlUrl="https://henry.codes/rss/writing.xml"/>
+			<outline text="Anthony Fu" description="Development." htmlUrl="https://antfu.me" title="Anthony Fu" type="rss" xmlUrl="https://antfu.me/feed.xml"/>
+			<outline text="Faster and Worse" description="Technology." htmlUrl="https://fasterandworse.com" title="Faster and Worse" type="rss" xmlUrl="https://fasterandworse.com/feed/"/>
+			<outline text="elle's homepage" description="A lovely little site to visit." htmlUrl="https://ellesho.me" title="elle's homepage" type="rss" xmlUrl="https://ellesho.me/page/rss.xml"/>
+			<outline text="Shellsharks" description="InfoSec, technology, and life." htmlUrl="https://shellsharks.com" title="Shellsharks" type="rss" xmlUrl="https://shellsharks.com/feeds/feed.xml"/>
+	</body>
+</opml>
