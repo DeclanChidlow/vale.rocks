@@ -42,6 +42,7 @@
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/miscellaneous.yaml)
 	links/ = {
 		blogs.html = ./links/blogs.ori(./links/blogs.yaml)
+		blogs.opml = ./links/blogs_opml.ori(./links/blogs.yaml)
 		tools-and-resources.html = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
 		miscellaneous.html = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 	}

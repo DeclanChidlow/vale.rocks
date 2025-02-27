@@ -1,167 +1,229 @@
 - title: Josh W Comeau
   url: www.joshwcomeau.com
+  rss: www.joshwcomeau.com/rss.xml
   description: Web development articles, interactive tutorials, and goodies.
 - title: Gwern
   url: gwern.net
   description: Academic writings on AI, psychology, and statistics.
 - title: Coding Horror
   url: blog.codinghorror.com
+  rss: blog.codinghorror.com/rss/
   description: Programming blog focussing on human factors.
 - title: Robert Heaton
   url: robertheaton.com
+  rss: robertheaton.com/feed.xml
   description: Development and tech with an emphasis on privacy.
 - title: Citation Needed
   url: www.citationneeded.news
+  rss: www.citationneeded.news/rss/
   description: Coverage of the cryptocurrency industry and broader technology issues.
 - title: Web3 is Going Just Great
   url: www.web3isgoinggreat.com
+  rss: web3isgoinggreat.com/feed.xml
   description: Tracking of how web3 projects are actually going.
 - title: The Evil Skeleton
-  url: theevilskeleton.gitlab.io
+  url: tesk.page
+  atom: tesk.page/feed.xml
   description: Tech, primarily regarding Gnome.
 - title: Bryce Wray
   url: www.brycewray.com
+  atom: www.brycewray.com/index.xml
+  json: www.brycewray.com/index.json
   description: Primarily web development.
 - title: Terence Eden’s Blog
   url: shkspr.mobi
+  rss: shkspr.mobi/blog/feed
+  atom: shkspr.mobi/blog/feed/atom/
   description: Technology, reviews, and assorted musings.
 - title: Andrew Chan
   url: andrewkchan.dev
   description: Mostly programming related.
 - title: GioCities
   url: blog.giovanh.com
+  rss: blog.giovanh.com/feeds/rss.xml
+  atom: blog.giovanh.com/feeds/atom.xml
   description: Tech and wider web culture.
 - title: Ahmad Shadeed
   url: ishadeed.com
+  rss: ishadeed.com/feed.xml
   description: Web development articles with interactive elements.
 - title: iio.ie
   url: iio.ie
+  rss: iio.ie/rss
   description: Random ideas and personal ramblings from a disgruntled techie.
 - title: Darek Kay
   url: darekkay.com
+  atom: darekkay.com/atom.xml
   description: Front-end development.
 - title: ajkprojects
   url: ajkprojects.com
+  rss: ajkprojects.com/rss.xml
   description: Developer relevant psychology.
 - title: Articles & Experiments by Roman Komarov
   url: kizu.dev
+  atom: feeds.feedburner.com/kizuruen
   description: CSS experiments and explorations.
 - title: LMNT
   url: lmnt.me
+  rss: lmnt.me/feed.xml
   description: Short write-ups, often about design and Apple.
 - title: meyerweb.com
   url: meyerweb.com
+  rss: meyerweb.com/eric/thoughts/rss2/full
   description: Assorted content, often about the web platform.
 - title: Stephen Wolfram
   url: www.stephenwolfram.com
+  rss: writings.stephenwolfram.com/feed/
+  atom: writings.stephenwolfram.com/feed/atom/
   description: Data-heavy analysis with a focus on mathematics and statistics.
 - title: Michael Dickens
   url: mdickens.me
+  rss: mdickens.me/feed.xml
   description: Philosophy, investing, and altruism.
 - title: Paul Graham
   url: paulgraham.com
   description: Start-up culture.
 - title: Håvard Brynjulfsen
   url: www.havardbrynjulfsen.design
+  rss: www.havardbrynjulfsen.design/feed.xml
   description: Web development and design.
 - title: Ryan Mulligan
   url: ryanmulligan.dev
+  atom: ryanmulligan.dev/feed.xml
   description: Front-end development experimentation, learning, and discoveries.
 - title: Clagnut by Richard Rutter
   url: clagnut.com
+  rss: clagnut.com/feeds/fullposts.xml
   description: Design and typography with a focus on the web.
 - title: samwho
   url: samwho.dev
+  rss: samwho.dev/rss.xml
   description: Visual, often interactive, computer science introductions and traditional development posts.
 - title: Jan Miksovsky’s Blog
   url: jan.miksovsky.com
+  rss: jan.miksovsky.com/rss.xml
+  json: jan.miksovsky.com/feed.json
   description: Development and project notes.
 - title: Jim Neilsen's Blog
   url: blog.jim-nielsen.com
+  rss: blog.jim-nielsen.com/feed.xml
+  json: blog.jim-nielsen.com/feed.json
   description: Web development and thoughts.
 - title: blakewatson.com
   url: blakewatson.com
+  rss: blakewatson.com/feed.xml
   description: Web development.
 - title: Karolina Szczur
   url: karolinaszczur.com
+  atom: karolinaszczur.com/feed/feed.xml
+  json: karolinaszczur.com/feed/feed.json
   description: Assorted tech industry related commentary.
 - title: Adam Argyle
   url: nerdy.dev
+  rss: nerdy.dev/rss.xml
   description: CSS and other aspects of the web platform.
 - title: Ben Myers
   url: benmyers.dev
+  rss: benmyers.dev/feed.xml
   description: Web development.
 - title: Ryan Trimble
   url: ryantrimble.com
+  rss: ryantrimble.com/rss.xml
   description: Web development and weekly roundups.
 - title: Werd I/O
   url: werd.io
+  rss: werd.io/content/all?_t=rss
+  json: werd.io/content/all?_t=rss
   description: Intersection of technology, democracy, and society.
 - title: Birchtree
   url: birchtree.me
+  rss: birchtree.me/rss/
   description: Technology.
 - title: Adactio
   url: adactio.com
+  rss: adactio.com/articles/rss
+  json: adactio.com/articles/feed.json
   description: Development and tech industry.
 - title: That HTML Blog
   url: thathtml.blog
+  atom: thathtml.blog/feed.xml
   description: Web standards and standards-adjacent technologies.
 - title: Computers Are Bad
   url: computer.rip
+  rss: computer.rip/rss.xml
   description: Explains why computers are bad.
 - title: Maggie Appleton
   url: maggieappleton.com
+  rss: maggieappleton.com/rss.xml
   description: Visual essays about programming, design, and anthropology.
 - title: CSS { In Real Life }
   url: css-irl.info
+  rss: css-irl.info/rss.xml
   description: CSS, front-end development, the web, and beyond.
 - title: Aleksandr Hovhannisyan
   url: www.aleksandrhovhannisyan.com
+  rss: www.aleksandrhovhannisyan.com/feed.xml
   description: Programming, life, and other topics.
 - title: Ashlese M Boyer
   url: ashleemboyer.com
+  rss: ashleemboyer.com/rss.xml
   description: Accessibility, disability, and software engineering.
 - title: Sara Joy
   url: sarajoy.dev
+  rss: sarajoy.dev/rss.xml
   description: Web development and life.
 - title: Moth Monster
   url: moth.monster
+  rss: moth.monster/blog/feed.xml
   description: Technology.
 - title: Mayank
   url: mayank.co
+  rss: mayank.co/blog/rss.xml
   description: Web development.
 - title: Heather Buchel
   url: heather-buchel.com
+  atom: heather-buchel.com/feed/feed.xml
+  json: heather-buchel.com/feed/feed.json
   description: Web standards and accessibility.
 - title: Seirdy's Home
   url: seirdy.one
+  atom: seirdy.one/atom.xml
   description: Accessibility, security, privacy, and software freedom.
 - title: Scott O'Hara
   url: www.scottohara.me
+  rss: www.scottohara.me/feed.xml
   description: Web development, largely focusing on accessibility.
 - title: Waxy.org
   url: waxy.org
+  rss: waxy.org/feed/
   description: Various web things.
 - title: Simon Willison's Weblog
   url: simonwillison.net
+  atom: simonwillison.net/atom/everything/
   description: Artificial intelligence.
 - title: LessWrong
   url: www.lesswrong.com
+  rss: www.lesswrong.com/feed.xml
   description: Community blog of sorts discussing rationality and AI.
 - title: brr
   url: brr.fyi
+  rss: brr.fyi/feed.xml
   description: Records of interesting things about Antarctica from someone who lived there.
 - title: ribo.zone
   url: ribo.zone
+  rss: ribo.zone/feed.xml
   description: Assorted miscellany.
 - title: oimo.io
   url: oimo.io
+  rss: blog.oimo.io/feed/
   description: Development with an emphasis on graphics.
 - title: Bartosz Ciechanowski
   url: ciechanow.ski
+  rss: ciechanow.ski/atom.xml
   description: In-depth explanations of general concepts with visualisations.
 - title: Henry From Online
   url: henry.codes
+  rss: henry.codes/rss/writing.xml
   description: Tech and life.
 - title: Stillness.Digital
   url: stillness.digital
@@ -171,27 +233,34 @@
   description: Pontificating about conceptual website vibes.
 - title: Anthony Fu
   url: antfu.me
+  rss: antfu.me/feed.xml
   description: Development.
 - title: Faster and Worse
   url: fasterandworse.com
+  rss: fasterandworse.com/feed/
   description: Technology.
 - title: maya.land
   url: maya.land
+  atom: maya.land/feed.xml
   description: Tech menacery.
 - title: 30fps.net
   url: 30fps.net
+  atom: 30fps.net/atom.xml
   description: Computer graphics and programming.
 - title: elle's homepage
   url: ellesho.me
+  rss: ellesho.me/page/rss.xml
   description: A lovely little site to visit.
 - title: Ray's Miscellany
   url: brisray.com
   description: Completely indescribable.
 - title: HTMHell
   url: htmhell.dev
+  atom: htmhell.dev/feed.xml
   description: HTML crimes and how to rectify them.
 - title: Shellsharks
   url: shellsharks.com
+  rss: shellsharks.com/feeds/feed.xml
   description: InfoSec, technology, and life.
 - title: In Two Minds
   url: intwominds.blog

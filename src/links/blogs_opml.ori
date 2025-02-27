@@ -1,0 +1,16 @@
+(blogs) =>
+`<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>Vale's Blog OPML</title>
+		<dateCreated>Thu, 27 Feb 2025 00:00:00 +0000</dateCreated>
+		<ownerName>Declan Chidlow (Vale)</ownerName>
+		<docs>https://opml.org/spec2.opml</docs>
+	</head>
+	<body>
+			<outline text="Vale.Rocks Posts" description="Long form writings about assorted topics." htmlUrl="https://vale.rocks/posts" title="Vale.Rocks Posts" type="rss" xmlUrl="https://vale.rocks/posts/feed.xml"/>
+		${ blogs → =map(_, (link) => `${ link/rss || links/atom ? `
+			<outline text="${ link/title }" description="${ link/description }" htmlUrl="https://${ link/url }" title="${ link/title }" type="rss" xmlUrl="https://${ link/atom || link/rss }"/>`: '' }`
+		)}
+	</body>
+</opml>`

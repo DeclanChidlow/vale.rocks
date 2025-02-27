@@ -11,6 +11,7 @@
 	<h1>Blog Links</h1>
 
 	<p>These are ${ blogs/length } links to interesting blogs. Descriptions are generalised for the sake of brevity and may not cover all the content on the linked site. It can generally be assumed there are assorted bits not mentioned.</p>
+	<p>An <a href="/links/blogs.opml">OPML file</a> is generated from this list and includes sites with available syndication feeds.</p>
 
 	<ul>
 		${ blogs
