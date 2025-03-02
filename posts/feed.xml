@@ -1542,7 +1542,7 @@ x =&gt; x
 <p>Apple&#8217;s WebKit sees significant use on its own devices. Safari is the browser of choice for most MacOS users, as it&#8217;s preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a degree of use in embedded applications thanks to its performant nature and in some other browsers.</p>
 <p>Mozilla&#8217;s Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, but very little beyond that.</p>
 <p>Google&#8217;s Blink sees the most use by far. This is what this article has been building up to and where the issues lie. Almost everything uses Blink.</p>
-<p>Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink. Arc? Blink.</p>
+<p>Microsoft Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Amazon Silk? Blink. Arc? Blink. Yandex? Blink.</p>
 <p id="showChromium" style="display:none;">
 If you&#8217;re wondering, the browser you&#8217;re reading this article in is Chromium based.
 </p>
@@ -1553,9 +1553,9 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
     }
 </script>
 
-<p>But it goes beyond that. It&#8217;s not only the engine used by most of the most popular browsers; it&#8217;s also the engine that powers <a href="https://www.electronjs.org">Electron</a>. Thus, the desktop applications for Discord, Spotify, VS Code, Figma, Obsidian, Signal, Slack, <a href="https://www.electronjs.org/apps">et al</a> are all using Blink. It&#8217;s everywhere!</p>
+<p>But it goes beyond that. It&#8217;s not only the engine used by most of the most popular browsers; it&#8217;s also the engine that powers <a href="https://www.electronjs.org">Electron</a>. Thus, the desktop applications for Discord, Spotify, VS Code, Figma, Obsidian, Signal, Slack, <a href="https://www.electronjs.org/apps">etc</a> are all using Blink. It&#8217;s everywhere!</p>
 <h2 id="the-problem-with-chrome">The Problem with Chrome</h2>
-<p>There is no choice in the browser market. It&#8217;s all just Blink, and Blink is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have near complete control over the web.</p>
+<p>There is no choice in the browser market. It&#8217;s all just Blink, and Blink is Google. This means that Google has near complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have near complete control over the web.</p>
 <p>This simply isn&#8217;t acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.</p>
 <figure class="right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Google_Chrome_96_Windows_11.png" alt="The interface of Google Chrome displaying the browser's minimalistic design with tabs, address bar, and navigation buttons. The browser is open to the Wikipedia homepage.">
@@ -1586,11 +1586,11 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in is C
 <h2 id="taking-action">Taking Action</h2>
 <p>You&#8217;re likely wondering what you can do. The answer is simple: support healthy competition and use a browser based on something other than Chromium. The best bet would be using Firefox or something based on it. Firefox is free, open source, available on most platforms, and Mozilla has largely shown a commitment to both the user and the web.</p>
 <p>If you&#8217;re coming from one of the more flashy &#8216;cutting edge&#8217; browsers like Arc or Opera GX, then <a href="https://zen-browser.app">Zen</a> will provide a very similar experience. If you&#8217;re looking for something with privacy in mind like Brave or the DuckDuckGo browser, then you can try <a href="https://librewolf.net">LibreWolf</a> or <a href="https://mullvad.net/browser">Mullvad Browser</a>. If you require anonymity or need to avoid censorship, then you might consider the <a href="https://www.torproject.org">Tor Browser</a>.</p>
-<p>As the web&#8217;s future depends on diversity in browse engines, you might also consider supporting the development and growth of emerging projects:</p>
+<p>As the web&#8217;s future depends on diversity in browser engines, you might also consider supporting the development and growth of emerging projects:</p>
 <ul>
 <li><p><a href="https://servo.org">Servo</a> is a web rendering engine started by Mozilla back in 2012 that is now handled by the Linux Foundation. It&#8217;s pretty far along in development and is beginning to see real-world deployment, such as use in embedded applications.</p>
 </li>
-<li><p><a href="https://ladybird.org">Ladybird</a> is a very new and ambitious project intending to build out a full web browser complete with it&#8217;s own rendering and JavaScript engines fully independent of existing browser engines.</p>
+<li><p><a href="https://ladybird.org">Ladybird</a> is a very ambitious project intending to build out a full web browser complete with it&#8217;s own rendering and JavaScript engines fully independent of existing browser engines.</p>
 </li>
 </ul>
 <details>
