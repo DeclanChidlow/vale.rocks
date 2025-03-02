@@ -1,7 +1,7 @@
 ---
 title: Everything Is Chrome
 description: My look into the overaching dominance of Google Chrome and it's overwhelmingly negative impact on the web as we know it.
-og_description: The web is under attack. Unsheathe your keyboards.
+og_description: The power is in Google's hands.
 pub_time: 2023-12-11
 mod_time: 2024-11-03
 section: Essay
