@@ -5,7 +5,7 @@ og_description: The power is in Google's hands.
 pub_time: 2023-12-11
 mod_time: 2024-11-03
 section: Essay
-word_count: 2496
+word_count: 2515
 ---
 
 The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.
@@ -69,7 +69,7 @@ Mozilla's Gecko sees very minimal use outside of Firefox. It is used by a few Fi
 
 Google's Blink sees the most use by far. This is what this article has been building up to and where the issues lie. Almost everything uses Blink.
 
-Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Silk? Blink. Arc? Blink.
+Microsoft Edge? Blink. Opera? Blink. Opera GX? Blink. Vivaldi? Blink. Brave? Blink. Samsung Internet? Blink. UC? Blink. Amazon Silk? Blink. Arc? Blink. Yandex? Blink.
 
 <p id="showChromium" style="display:none;">
 If you're wondering, the browser you're reading this article in is Chromium based.
@@ -81,11 +81,11 @@ If you're wondering, the browser you're reading this article in is Chromium base
     }
 </script>
 
-But it goes beyond that. It's not only the engine used by most of the most popular browsers; it's also the engine that powers [Electron](https://www.electronjs.org). Thus, the desktop applications for Discord, Spotify, VS Code, Figma, Obsidian, Signal, Slack, [et al](https://www.electronjs.org/apps) are all using Blink. It's everywhere!
+But it goes beyond that. It's not only the engine used by most of the most popular browsers; it's also the engine that powers [Electron](https://www.electronjs.org). Thus, the desktop applications for Discord, Spotify, VS Code, Figma, Obsidian, Signal, Slack, [etc](https://www.electronjs.org/apps) are all using Blink. It's everywhere!
 
 ## The Problem with Chrome
 
-There is no choice in the browser market. It's all just Blink, and Blink is Google. This means that Google has complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have near complete control over the web.
+There is no choice in the browser market. It's all just Blink, and Blink is Google. This means that Google has near complete and absolute control over the browser market. Bundle this with the most popular search engine, and they have near complete control over the web.
 
 This simply isn't acceptable. The web, at its core, is open. That is what was defined when it was created, and that is how it must stay. Almost everyone on this planet relies on the web in some way or another, and the idea that a single entity can control the entire thing is preposterous.
 
@@ -142,11 +142,11 @@ You're likely wondering what you can do. The answer is simple: support healthy c
 
 If you're coming from one of the more flashy 'cutting edge' browsers like Arc or Opera GX, then [Zen](https://zen-browser.app) will provide a very similar experience. If you're looking for something with privacy in mind like Brave or the DuckDuckGo browser, then you can try [LibreWolf](https://librewolf.net) or [Mullvad Browser](https://mullvad.net/browser). If you require anonymity or need to avoid censorship, then you might consider the [Tor Browser](https://www.torproject.org).
 
-As the web's future depends on diversity in browse engines, you might also consider supporting the development and growth of emerging projects:
+As the web's future depends on diversity in browser engines, you might also consider supporting the development and growth of emerging projects:
 
 - [Servo](https://servo.org) is a web rendering engine started by Mozilla back in 2012 that is now handled by the Linux Foundation. It's pretty far along in development and is beginning to see real-world deployment, such as use in embedded applications.
 
-- [Ladybird](https://ladybird.org) is a very new and ambitious project intending to build out a full web browser complete with it's own rendering and JavaScript engines fully independent of existing browser engines.
+- [Ladybird](https://ladybird.org) is a very ambitious project intending to build out a full web browser complete with it's own rendering and JavaScript engines fully independent of existing browser engines.
 
 <details>
 <summary>Sources</summary>
