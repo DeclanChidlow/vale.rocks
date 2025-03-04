@@ -15,11 +15,11 @@
 <h2 id="keep-it-simple">Keep It Simple</h2>
 <p>There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where people have to manually write down a URL, and then someone else will have to manually type that URL into their browser. Eliminate <em>all</em> possible points of failure by reducing needless complexity.</p>
 <h2 id="no-capitals">No Capitals</h2>
-<p>It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation which takes extra time &#8211; especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.</p>
+<p>It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation, which takes extra time &#8211; especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.</p>
 <p>Lowercase domains are required anyway by <a href="https://www.rfc-editor.org/rfc/rfc3986">RFC 3968</a>, so uppercase anything is always going to look out of place next to the domain.</p>
 <h2 id="no-ids">No IDs</h2>
 <p>URLs are fantastic in that they&#8217;re human-readable. That is, unless you&#8217;ve committed the atrocity of using an ID instead of a readable slug. <em>Why would you do this?</em> You might get the slightest benefit from it being a few characters smaller, but it makes it impossible for anyone to glean the content of the page when a link to it is just slapped somewhere online. Especially if embeds aren&#8217;t available or your Open Graph values are bungled. It also makes it significantly less memorable.</p>
-<p>Of course, there are exceptions here for certain cases, such as dashboards with automatically generated content, but they should be obvious exceptions.</p>
+<p>Of course, there are exceptions here for certain cases, such as automated or unvetted content, but they should be obvious exceptions.</p>
 <h2 id="no-spaces">No Spaces</h2>
 <p>People have used spaces in URLs before. This isn&#8217;t a terrible idea in and of itself, but it seems that developers really struggle to handle it nicely in implementations. It can also introduce the issue of there being no clear end to the URL, so certain content after a space can be left behind by users when copying or referencing it elsewhere.</p>
 <p>Some search engines and other user input cases get away with using spaces by encoding them with the relevant encoding of <code>%20</code>, but even they usually give up on this and just use <code>+</code> now.</p>
@@ -27,8 +27,16 @@
 <p>Underscores are usually placed less ergonomically on keyboards due to their infrequent use. Hyphens are usually placed far more advantageously. Underscores also have potential for markdown muckery.</p>
 <p>Snake case isn&#8217;t fit for URLs, and both camel case and Pascal case have no place in URLs because you <a href="#no-capitals">shouldn&#8217;t be using capitals</a> (also because you&#8217;re writing a URL, not JavaScript). Kebab case is where it&#8217;s at.</p>
 <p>Further, it is common convention that links are underlined, which often obscures underscores and can cause undue confusion. Hyphens encounter no such issue unless someone hates you and has done a <del>strikethrough</del>.</p>
+<h2 id="dont-overuse-periods">Don&#8217;t Overuse Periods</h2>
+<p>Periods have a place in domains and for indicating file extensions. They have a semantic meaning, so shouldn&#8217;t be used where they aren&#8217;t relevant.</p>
+<p>When periods are used overzealously in a URL, it also looks really cheap and has the negative of looking like the filename of a pirated film straight off a torrent site. Periods can also have the same flaw as underscores, where they are unintentionally obscured by underlines.</p>
 <h2 id="no-www">No WWW</h2>
 <p>It isn&#8217;t &#8217;95 anymore. It adds unnecessary length (and at the start of the URL as well, which is particularly impactful given that many platforms and search engines truncate links when displaying them). Please get with the times.</p>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p>There are security negatives of hosting material on an apex domain when subdomains are also in use. Namely, cookies set on an apex domain are also valid on subdomains. While this is a valid concern, it can be mitigated by hosting untrusted content on separate domains.</p>
+<p>I personally think this is a small price to pay for much cleaner URLs, but it should be considered based on your threat model.</p>
+</div>
 <h2 id="no-html">No .HTML</h2>
 <p>This is a personal thing. I just dislike seeing <code>.html</code> stuck on the end of URLs. It adds unnecessary length and feels cheap/messy. If somebody <em>really</em> needs to know if a page is made with HTML, they can probably figure it out themselves. This also goes for <code>.php</code>.</p>
 <h2 id="trailing-slash-on-an-end">Trailing Slash On An End</h2>
@@ -43,7 +51,7 @@
 <p>I can accept it on news sites where there are multiple items releasing daily, and I can go to <code>example.com/posts/2025/02/24</code> and see the posts released that day. Unfortunately, this is barely ever done. Just don&#8217;t use date-based paths unless dates are meaningful navigation elements.</p>
 <p>On small blogs or in other contexts where publications are infrequent, this is often even more pointless because if a page at <code>example.com/posts/2025/02/24</code> even does exist, chances are it only contains the one post.</p>
 <p>Having the date in the URL serves to add unnecessary extra length to the URL containing pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you&#8217;ve got a more cumbersome file collection and a bloated, confusing file cabinet.</p>
-<p>It indicates a fail in information architecture. If your URL doesn&#8217;t make sense, your information architecture doesn&#8217;t either.</p>
+<p>It indicates a failure in information architecture. If your URL doesn&#8217;t make sense, your information architecture doesn&#8217;t either.</p>
 ]]></content:encoded>
     </item>
     <item>
