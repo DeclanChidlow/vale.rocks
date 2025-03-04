@@ -1,18 +1,23 @@
 /* Fonts preloaded in head */
+/* https://clagnut.com/blog/2433 */
 
 @font-face {
 	font-family: "Lexend";
-	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2");
+	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2") format("woff2");
+	font-weight: 100 900;
+	font-display: fallback;
 }
 
 @font-face {
 	font-family: "Fira Code";
-	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2");
+	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2") format("woff2");
+	font-weight: 300 700;
+	size-adjust: 90%;
 }
 
 @font-face {
 	font-family: "Material Symbols";
-	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2");
+	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2") format("woff2");
 }
 
 .icons {
@@ -99,16 +104,16 @@ blockquote {
 	* + h4,
 	* + h5,
 	* + h6 {
-		margin-top: 2rem;
+		margin-block-start: 2rem;
 	}
 
 	> * + * {
-		margin-top: 1rem;
+		margin-block-start: 1rem;
 	}
 }
 
 .markdown-alert > * + * {
-	margin-top: 0.5rem;
+	margin-block-start: 0.5rem;
 }
 
 blockquote,
@@ -208,7 +213,7 @@ ul:has(input) {
 
 dl {
 	> dd + dt {
-		margin-top: 1.5rem;
+		margin-block-start: 1.5rem;
 	}
 }
 
@@ -230,6 +235,7 @@ sub {
 abbr {
 	font-variant-caps: all-small-caps;
 	text-decoration: underline dotted 0.1rem;
+	font-size: 110%;
 }
 
 kbd {
