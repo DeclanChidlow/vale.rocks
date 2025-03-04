@@ -6,6 +6,24 @@
   "feed_url": "https://vale.rocks/photography/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/photography/microscopic-sandpaper",
+      "url": "https://vale.rocks/photography/microscopic-sandpaper",
+      "title": "A sheet of sandpaper through a microscope.",
+      "image": "https://images.unsplash.com/photo-1741082415474-d6466512c7a9",
+      "content_html": "",
+      "summary": "A microscopic close-up of a sheet of sandpaper. You can see individual yellow grains of sand caught by the light. Some grains are semi-translucent.",
+      "date_published": "2025-03-04"
+    },
+    {
+      "id": "https://vale.rocks/photography/microscopic-lcd-screen",
+      "url": "https://vale.rocks/photography/microscopic-lcd-screen",
+      "title": "An LCD screen through a microscope.",
+      "image": "https://images.unsplash.com/photo-1741084976478-46f25ac66cf0",
+      "content_html": "<p>This is the screen of my Casio Classpad II (fx-CP400) displaying pure white.</p>\n",
+      "summary": "A microscopic close-up of an LCD screen. You can see individual red, green, and blue subpixels in a grid. The edges of the photo are darkened and slightly blurred.",
+      "date_published": "2025-03-04"
+    },
+    {
       "id": "https://vale.rocks/photography/porcelain-rooster",
       "url": "https://vale.rocks/photography/porcelain-rooster",
       "title": "A porcelain rooster bathed in candle light.",
