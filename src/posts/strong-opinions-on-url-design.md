@@ -3,8 +3,9 @@ title: Strong Opinions on URL Design
 description: A collection of strong opinions on URL design and structure covering topics including use of capitalisation, use of IDs, spaces, hyphens instead of underscores, trailing slashes, hierarchy, and other gripes and particulars I hold.
 og_description: i-have-some-thoughts
 pub_time: 2025-02-24
+mod_time: 2025-03-04
 section: Rant
-word_count: 1031
+word_count: 1175
 ---
 
 I came to realise the other day that, for reasons unbeknownst to me, I have very strong opinions on URL structures. Most of my thoughts are related to culling the obsolete and implying away the superfluous. URL structure is as much a part of your website's design as anything else -- treat it with the same care and attention you give your visual design and user experience.
@@ -15,7 +16,7 @@ There is no reason for a URL to be stupidly long. Keep things short and memorabl
 
 ## No Capitals
 
-It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation which takes extra time -- especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.
+It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation, which takes extra time -- especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.
 
 Lowercase domains are required anyway by [RFC 3968](https://www.rfc-editor.org/rfc/rfc3986), so uppercase anything is always going to look out of place next to the domain.
 
@@ -23,7 +24,7 @@ Lowercase domains are required anyway by [RFC 3968](https://www.rfc-editor.org/r
 
 URLs are fantastic in that they're human-readable. That is, unless you've committed the atrocity of using an ID instead of a readable slug. _Why would you do this?_ You might get the slightest benefit from it being a few characters smaller, but it makes it impossible for anyone to glean the content of the page when a link to it is just slapped somewhere online. Especially if embeds aren't available or your Open Graph values are bungled. It also makes it significantly less memorable.
 
-Of course, there are exceptions here for certain cases, such as dashboards with automatically generated content, but they should be obvious exceptions.
+Of course, there are exceptions here for certain cases, such as automated or unvetted content, but they should be obvious exceptions.
 
 ## No Spaces
 
@@ -39,9 +40,20 @@ Snake case isn't fit for URLs, and both camel case and Pascal case have no place
 
 Further, it is common convention that links are underlined, which often obscures underscores and can cause undue confusion. Hyphens encounter no such issue unless someone hates you and has done a ~~strikethrough~~.
 
+## Don't Overuse Periods
+
+Periods have a place in domains and for indicating file extensions. They have a semantic meaning, so shouldn't be used where they aren't relevant.
+
+When periods are used overzealously in a URL, it also looks really cheap and has the negative of looking like the filename of a pirated film straight off a torrent site. Periods can also have the same flaw as underscores, where they are unintentionally obscured by underlines.
+
 ## No WWW
 
 It isn't '95 anymore. It adds unnecessary length (and at the start of the URL as well, which is particularly impactful given that many platforms and search engines truncate links when displaying them). Please get with the times.
+
+> [!NOTE]
+> There are security negatives of hosting material on an apex domain when subdomains are also in use. Namely, cookies set on an apex domain are also valid on subdomains. While this is a valid concern, it can be mitigated by hosting untrusted content on separate domains.
+>
+> I personally think this is a small price to pay for much cleaner URLs, but it should be considered based on your threat model.
 
 ## No .HTML
 
@@ -55,7 +67,7 @@ I can somewhat understand a trailing slash on a path with content within it. For
 
 ## Useless Paths
 
-This is my real gripe with URL design. Each layer of a URL should correspond to a path and have worth in and of itself. A URL's structure should work as breadcrumbs, with the user being able to make their way back along the path without error at any stage. *Any section of a URL working backwards should be removable while still presenting relevant information.*
+This is my real gripe with URL design. Each layer of a URL should correspond to a path and have worth in and of itself. A URL's structure should work as breadcrumbs, with the user being able to make their way back along the path without error at any stage. _Any section of a URL working backwards should be removable while still presenting relevant information._
 
 I _hate_ seeing this structure:\
 `https://example.com/posts/58473/post-title`
@@ -73,4 +85,4 @@ On small blogs or in other contexts where publications are infrequent, this is o
 
 Having the date in the URL serves to add unnecessary extra length to the URL containing pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you've got a more cumbersome file collection and a bloated, confusing file cabinet.
 
-It indicates a fail in information architecture. If your URL doesn't make sense, your information architecture doesn't either.
+It indicates a failure in information architecture. If your URL doesn't make sense, your information architecture doesn't either.
