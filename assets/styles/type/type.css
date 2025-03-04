@@ -107,6 +107,10 @@ blockquote {
 	}
 }
 
+.markdown-alert > * + * {
+	margin-top: 0.5rem;
+}
+
 blockquote,
 .markdown-alert {
 	padding: 0.5rem 1rem;
