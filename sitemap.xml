@@ -251,6 +251,9 @@
     <loc>https://vale.rocks/links</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/micros/20250304-0825</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/micros/20250302-0552</loc>
   </url>
   <url>
@@ -1008,5 +1011,8 @@
   </url>
   <url>
     <loc>https://vale.rocks/firehose/20</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/firehose/21</loc>
   </url>
 </urlset>
