@@ -54,6 +54,28 @@
 			<outline text="Anthony Fu" description="Development." htmlUrl="https://antfu.me" title="Anthony Fu" type="rss" xmlUrl="https://antfu.me/feed.xml"/>
 			<outline text="Faster and Worse" description="Technology." htmlUrl="https://fasterandworse.com" title="Faster and Worse" type="rss" xmlUrl="https://fasterandworse.com/feed/"/>
 			<outline text="elle's homepage" description="A lovely little site to visit." htmlUrl="https://ellesho.me" title="elle's homepage" type="rss" xmlUrl="https://ellesho.me/page/rss.xml"/>
-			<outline text="Shellsharks" description="InfoSec, technology, and life." htmlUrl="https://shellsharks.com" title="Shellsharks" type="rss" xmlUrl="https://shellsharks.com/feeds/feed.xml"/>
+			<outline text="Shellsharks" description="Information security, technology, and life." htmlUrl="https://shellsharks.com" title="Shellsharks" type="rss" xmlUrl="https://shellsharks.com/feeds/feed.xml"/>
+			<outline text="Bram.us" description="A rather geeky/technical weblog." htmlUrl="https://www.bram.us" title="Bram.us" type="rss" xmlUrl="https://www.bram.us/category/original-content/feed/"/>
+			<outline text="Matthias Ott" description="User experience design, design engineering, and web development." htmlUrl="https://matthiasott.com" title="Matthias Ott" type="rss" xmlUrl="https://matthiasott.com/feed"/>
+			<outline text="JakeArchibald.com" description="Technical web development." htmlUrl="https://jakearchibald.com" title="JakeArchibald.com" type="rss" xmlUrl="https://jakearchibald.com/posts.rss"/>
+			<outline text="Eric Bailey" description="Web development with a focus on accessible and inclusive design." htmlUrl="https://ericwbailey.website" title="Eric Bailey" type="rss" xmlUrl="https://ericwbailey.website/feed/feed.json"/>
+			<outline text="Elliot Jay Stocks" description="Design and typography." htmlUrl="https://elliotjaystocks.com" title="Elliot Jay Stocks" type="rss" xmlUrl="https://elliotjaystocks.com/feed.xml"/>
+			<outline text="Max Böck" description="Front-end development." htmlUrl="https://mxb.dev" title="Max Böck" type="rss" xmlUrl="https://mxb.dev/feed.xml"/>
+			<outline text="hidde.blog" description="HTML, CSS, JavaScript, accessibility, and browsers." htmlUrl="https://hidde.blog" title="hidde.blog" type="rss" xmlUrl="https://hidde.blog/feed"/>
+			<outline text="Salma Alam-Naylor" description="Software engineering and developer education." htmlUrl="https://whitep4nth3r.com" title="Salma Alam-Naylor" type="rss" xmlUrl="https://whitep4nth3r.com/feed.xml"/>
+			<outline text="Una Kravets Online" description="Web platform and development." htmlUrl="https://una.im" title="Una Kravets Online" type="rss" xmlUrl="https://una.im/rss.xml"/>
+			<outline text="utilitybend" description="Web development and accessibility." htmlUrl="https://utilitybend.com" title="utilitybend" type="rss" xmlUrl="https://utilitybend.com/rss.xml"/>
+			<outline text="Kilian Valkhof" description="Web development." htmlUrl="https://kilianvalkhof.com" title="Kilian Valkhof" type="rss" xmlUrl="https://kilianvalkhof.com/feed/"/>
+			<outline text="Chen Hui Jing" description="Chronicles of a self-taught designer and developer." htmlUrl="https://chenhuijing.com" title="Chen Hui Jing" type="rss" xmlUrl="https://chenhuijing.com/feed.xml"/>
+			<outline text="Miriam Eric Suzanne" description="Web development and industry analysis." htmlUrl="https://www.miriamsuzanne.com" title="Miriam Eric Suzanne" type="rss" xmlUrl="https://www.miriamsuzanne.com/feed.atom"/>
+			<outline text="Tobi's Website" description="Web development." htmlUrl="https://tfedder.de" title="Tobi's Website" type="rss" xmlUrl="https://tfedder.de/blog_feed.xml"/>
+			<outline text="Marko Bajlovic" description="Software development and design." htmlUrl="https://marko.tech" title="Marko Bajlovic" type="rss" xmlUrl="https://marko.tech/rss"/>
+			<outline text="@lachlanjc/notebook" description="Assorted tech stuff." htmlUrl="https://notebook.lachlanjc.com" title="@lachlanjc/notebook" type="rss" xmlUrl="https://notebook.lachlanjc.com/feed.xml"/>
+			<outline text="jakelazaroff.com" description="Web development." htmlUrl="https://jakelazaroff.com" title="jakelazaroff.com" type="rss" xmlUrl="https://jakelazaroff.com/rss.xml"/>
+			<outline text="Willy Brauner" description="Web development." htmlUrl="https://willybrauner.com" title="Willy Brauner" type="rss" xmlUrl="https://willybrauner.com/rss.xml"/>
+			<outline text="Elly Loel" description="Web development, accessibility, and industry analysis." htmlUrl="https://www.ellyloel.com" title="Elly Loel" type="rss" xmlUrl="https://ellyloel.com/feed.atom"/>
+			<outline text="Paul Kinlan" description="Web platform." htmlUrl="https://paul.kinlan.me" title="Paul Kinlan" type="rss" xmlUrl="https://paul.kinlan.me/index.xml"/>
+			<outline text="Cassidy Williams" description="Software development." htmlUrl="https://cassidoo.co" title="Cassidy Williams" type="rss" xmlUrl="https://cassidoo.co/rss.xml"/>
+			<outline text="Keith Cirkel" description="Software development with focus on web engineering." htmlUrl="https://www.keithcirkel.co.uk" title="Keith Cirkel" type="rss" xmlUrl="https://www.keithcirkel.co.uk/feed.xml"/>
 	</body>
 </opml>
