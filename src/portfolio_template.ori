@@ -7,7 +7,7 @@
 @text:
 `<style>:root{--header_background: ${ post/accent_colour }}</style>
 
-<span id="section" data-pagefind-filter="Content Type">Portfolio</span>	
+<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Portfolio</span>	
 
 <article class="article-wrapper">
 	<header data-pagefind-ignore>

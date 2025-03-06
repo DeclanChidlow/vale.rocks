@@ -5,7 +5,7 @@
 	stylesheet: "pages/posts.css"
 
 @text: 
-`<h1 id="section" data-pagefind-filter="Content Type:Page">Posts</h1>
+`<h1 class="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 
 <div data-pagefind-ignore="all">
 	<form id="refine-posts">

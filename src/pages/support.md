@@ -5,7 +5,7 @@ og_description: Details on how you can financially support me.
 stylesheet: "pages/support.css"
 ---
 
-<h1 id="section" data-pagefind-filter="Content Type:Page">Support</h1>
+<h1 class="section" data-pagefind-filter="Content Type:Page">Support</h1>
 
 <div class="readable-width">
 

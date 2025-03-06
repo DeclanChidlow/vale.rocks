@@ -69,12 +69,12 @@ h6 {
 	line-height: 0.8rem;
 }
 
-#section {
+.section {
 	margin-bottom: 1.5rem;
 }
 
 @media (min-width: 45rem) {
-	#section {
+	.section {
 		font-size: 5rem;
 		line-height: 4rem;
 		font-weight: 900;

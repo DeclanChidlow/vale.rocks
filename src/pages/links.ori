@@ -4,7 +4,7 @@
 	og_description: "Links to various other places of interest or note on the 'net."
 
 @text:
-`<h1 id="section" data-pagefind-filter="Content Type">Links</h1>
+`<h1 class="section" data-pagefind-filter="Content Type">Links</h1>
 
 <div class="readable-width">
 	<p>My site shouldn't be a dead end, so this is a huge curated collection of ${ (blogs, tools-and-resources, miscellaneous) →	=[...blogs, ...tools-and-resources, ...miscellaneous]/length } intriguing and valuable links I've discovered while surfing the web. A link's existence here does not necessarily indicate endorsement, but it does indicate that something about it snagged on my brain.</p>

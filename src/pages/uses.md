@@ -4,7 +4,7 @@ description: Details of the tools, software, and hardware powering my workflow. 
 og_description: The tools, software, and other such things I use.
 ---
 
-<h1 id="section" data-pagefind-filter="Content Type:Page">Uses</h1>
+<h1 class="section" data-pagefind-filter="Content Type:Page">Uses</h1>
 
 <div class="readable-width">
 

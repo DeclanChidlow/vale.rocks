@@ -5,7 +5,7 @@
 	stylesheet: "pages/elsewhere.css"
 
 @text:
-`<h1 id="section" data-pagefind-filter="Content Type">Elsewhere</h1>
+`<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
 
 <div class="readable-width">
 	${ paginated_elsewhere/previousPage	? `` : `<p>Writing external to this website that I have worked on, contributed to, or otherwise directly been involved with.</p>` }

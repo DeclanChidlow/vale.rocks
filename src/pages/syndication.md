@@ -4,7 +4,7 @@ description: An index of all Declan Chidlow's syndication feeds in various forma
 og_description: Index of feeds for following my output.
 ---
 
-<h1 id="section" data-pagefind-filter="Content Type:Page">Syndication</h1>
+<h1 class="section" data-pagefind-filter="Content Type:Page">Syndication</h1>
 
 <div class="readable-width">
 

@@ -7,7 +7,7 @@
 	stylesheet: "pages/photography-individual.css"
 
 @text:
-`<span id="section" data-pagefind-filter="Content Type">Photography</span>	
+`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Photography</span>	
 
 <div class="article-wrapper">
 	<article class="h-entry">
@@ -16,7 +16,7 @@
 		</figure>
 
 		<div class="content">
-			<div class="stats">
+			<div class="stats" data-pagefind-ignore="all">
 				<ul>
 					<li><time class="dt-published" datetime="${ photography/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(photography/pub_time) }</time></li>
 					<li><p>${ photography/location }</p></li>

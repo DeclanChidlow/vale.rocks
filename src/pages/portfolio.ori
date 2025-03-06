@@ -4,7 +4,7 @@
 	stylesheet: "pages/portfolio.css"
 
 @text:
-`<h1 id="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
+`<h1 class="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
 
 <div class="portfolio-items" data-pagefind-ignore="all">
 	${ map(portfolio_data, (item, key) =>

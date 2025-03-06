@@ -3,7 +3,7 @@
 	description: "A curated collection of intriguing and valuable links I've discovered while surfing the web."
 
 @text:
-`<h1 id="section" data-pagefind-filter="Content Type">Links</h1>
+`<h1 class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Links</h1>
 
 <div class="readable-width">
 	<p>This is a curated collection of ${ blogs/length } intriguing and valuable links I've discovered while surfing the web.<br>

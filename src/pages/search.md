@@ -5,7 +5,7 @@ og_description: Full site search of Vale.Rocks.
 stylesheet: "pages/search.css"
 ---
 
-<h1 id="section" data-pagefind-filter="Content Type:Page">Search</h1>
+<h1 class="section" data-pagefind-filter="Content Type:Page">Search</h1>
 
 <div class="readable-width">
 

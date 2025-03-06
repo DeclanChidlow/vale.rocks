@@ -4,7 +4,7 @@ description: Information about the best ways to contact Declan Chidlow, includin
 og_description: How to get in contact with me.
 ---
 
-<h1 id="section" data-pagefind-filter="Content Type:Page">Contact</h1>
+<h1 class="section" data-pagefind-filter="Content Type:Page">Contact</h1>
 
 <div class="readable-width">
 Need to get in contact with me for whatever reason? In order of preference, the best ways to do so are:
