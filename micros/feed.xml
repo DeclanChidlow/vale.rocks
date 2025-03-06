@@ -6,6 +6,40 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Thu, 06 Mar 2025 13:39:00 GMT</pubDate>
+      <title>06 Mar 2025 13:39</title>
+      <link>https://vale.rocks/micros/20250306-1339</link>
+      <guid>https://vale.rocks/micros/20250306-1339</guid>
+      <content:encoded><![CDATA[<p>If you ever feel useless, just be glad you aren’t the HTML <code>title</code> attribute as handled in accessibility contexts.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 06 Mar 2025 12:10:00 GMT</pubDate>
+      <title>06 Mar 2025 12:10</title>
+      <link>https://vale.rocks/micros/20250306-1210</link>
+      <guid>https://vale.rocks/micros/20250306-1210</guid>
+      <content:encoded><![CDATA[<p>You’ve called it <code>rss.xml</code>, but it’s actually an Atom feed. Do you do this just to smite me?</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Wed, 05 Mar 2025 12:45:00 GMT</pubDate>
+      <title>05 Mar 2025 12:45</title>
+      <link>https://vale.rocks/micros/20250305-1245</link>
+      <guid>https://vale.rocks/micros/20250305-1245</guid>
+      <content:encoded><![CDATA[<p>Bing Webmaster Tools just generally suck, yeah? Surely it can’t just be me that finds them super buggy and can rarely get them to index anything.</p>
+<p>Does anyone have experience with them working nicely?</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Tue, 04 Mar 2025 14:13:00 GMT</pubDate>
+      <title>04 Mar 2025 14:13</title>
+      <link>https://vale.rocks/micros/20250304-1413</link>
+      <guid>https://vale.rocks/micros/20250304-1413</guid>
+      <content:encoded><![CDATA[<p>My favourite CSS addition in recent years is a toss-up between light-dark and nesting.</p>
+<p>Both have been such game changers and vital to how I build for the web.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Tue, 04 Mar 2025 08:25:00 GMT</pubDate>
       <title>04 Mar 2025 08:25</title>
       <link>https://vale.rocks/micros/20250304-0825</link>
