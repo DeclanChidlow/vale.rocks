@@ -112,7 +112,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dt>Skewiff</dt>
 <dd>Not properly straightened or levelled.</dd>
 
-<dt>Halycon</dt>
+<dt>Halcyon</dt>
 <dd>Calm, peaceful, and tranquil.</dd>
 
 <dt>Vouchsafe</dt>
