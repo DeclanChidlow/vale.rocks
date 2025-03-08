@@ -3,9 +3,9 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-02-12
+mod_time: 2025-03-08
 section: Essay
-word_count: 633
+word_count: 641
 ---
 
 I love words and the English language [^1] happens to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
@@ -70,8 +70,8 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dt>Rambunctious</dt>
 <dd>To be boisterous, destructive, and disruptive. Think of how an out of control group of youths act.</dd>
 
-<dt>Flummoxed</dt>
-<dd>To be completely and absolutely perplexed.</dd>
+<dt>Flummox</dt>
+<dd>To completely and absolutely perplex.</dd>
 
 <dt>Contronym</dt>
 <dd>A word describing words with two conflicting meanings.</dd>
@@ -126,6 +126,9 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Bodge</dt>
 <dd>To hack together an often temporary solution.</dd>
+
+<dt>Discombobulate</dt>
+<dd>To put someone in a state of perplexion.</dd>
 </dl>
 
 [^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
