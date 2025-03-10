@@ -5,7 +5,7 @@
 	stylesheet: "pages/links.css"
 
 @text:
-`<span id="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
 
 <div class="readable-width">
 	<h1>Miscellaneous Links</h1>
