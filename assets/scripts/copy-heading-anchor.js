@@ -14,7 +14,6 @@ class HeadingLinks {
 
 	createCopyButton(headingText) {
 		const button = document.createElement("button");
-		button.type = "button";
 		button.title = `Copy link to section '${headingText}'.`;
 		button.textContent = "§";
 		return button;
