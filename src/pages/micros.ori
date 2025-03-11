@@ -52,7 +52,7 @@
 
 	<div class="pagination">
 		${ paginated_micros/previousPage
-			? `<a href="/micros${ paginated_micros/previousPage === 1 ? '' : /paginated_micros/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			? `<a href="/micros${ paginated_micros/previousPage === 1 ? '' : `/${paginated_micros/previousPage}` }"><span aria-hidden="true"><</span> Newer</a>`
 			: "<span></span>"
 		}
 
