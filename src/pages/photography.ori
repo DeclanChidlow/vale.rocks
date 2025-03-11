@@ -1,4 +1,4 @@
-(photography_data) => main_template.ori({
+(paginated_photography) => main_template.ori({
 	title: "Photography"
 	description: "A wide array of high-quality, high-resolution photography ranging from wide shots of landscapes to up-close macros of fungi. Lots of nature oriented photos and small captures of the otherwise unacknowledged."
 	og_description: "My exemplary capture of photons in one place for your viewing pleasure."
@@ -9,10 +9,24 @@
 
 <div data-pagefind-ignore="all">
 	<div id="photography">
-		${ map(photography_data,
-		(photo, key) =>
+		${ map(paginated_photography/items,
+		(item, key) =>
 		`<a class="photo" href="/photography/${ basename(key) }">
-			<img src="${ photo/image }?q=60&w=1500" alt="${ photo/alt_text }" loading="lazy">
+			<img src="${ item/image }?q=60&w=1500" alt="${ item/alt_text }" loading="lazy">
 		</a>`)}
+	</div>
+
+	<div class="pagination">
+		${ paginated_photography/previousPage
+			? `<a href="/photography${ paginated_photography/previousPage === 1 ? '' : /paginated_photography/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			: "<span></span>"
+		}
+
+		<p>Page ${ paginated_photography/pageNumber} of ${ paginated_photography/pageCount}</p>
+
+		${ paginated_photography/nextPage
+			? `<a href="/photography/${ paginated_photography/nextPage }">Older <span aria-hidden="true">></span></a>`
+			: "<span></span>"
+		}
 	</div>
 </div>`})

@@ -116,7 +116,7 @@
 
 	<div class="pagination">
 		${ paginated_firehose/previousPage
-			? `<a href="/firehose/${ paginated_firehose/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			? `<a href="/firehose${ paginated_firehose/previousPage === 1 ? '' : /paginated_firehose/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
 			: "<span></span>"
 		}
 

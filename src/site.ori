@@ -19,8 +19,9 @@
 		feed.xml = rss(post_syndication.ori(post_data.ori))
 	}
 
-	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 15)
-	elsewhere/ = {
+	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 100)
+	elsewhere.html = pages/elsewhere.ori(first(paginated_elsewhere))
+	elsewhere = {
 		...map(paginated_elsewhere, {
 			extension: "→.html"
 			value: pages/elsewhere.ori
@@ -29,33 +30,45 @@
 		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
 	}
 
-	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
-	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
-
-	photography.html = pages/photography.ori(photography_data.ori)
+	(paginated_photography) = paginate(photography_data.ori, 50)
+	photography.html = pages/photography.ori(first(paginated_photography))
 	photography = {
+		...map(paginated_photography, {
+			extension: "→.html"
+			value: pages/photography.ori
+		})
 		...map(photography_data.ori, photography_template.ori)
 		feed.json = json(photography_syndication.ori(photography_data.ori))
 		feed.xml = rss(photography_syndication.ori(photography_data.ori))
 	}
 
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/miscellaneous.yaml)
-	links/ = {
+	links = {
 		blogs.html = ./links/blogs.ori(./links/blogs.yaml)
 		blogs.opml = ./links/blogs_opml.ori(./links/blogs.yaml)
 		tools-and-resources.html = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
 		miscellaneous.html = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 	}
 
+	(paginated_micros) = paginate(micro_data.ori, 50)
+	micros.html = pages/micros.ori(first(paginated_micros))
 	micros = {
+		...map(paginated_micros, {
+			extension: "→.html"
+			value: pages/micros.ori
+		})
 		...map(micro_data.ori, micro_template.ori)
 		feed.json = json(micro_syndication.ori(micro_data.ori))
 		feed.xml = rss(micro_syndication.ori(micro_data.ori))
 	}
 
-	(paginated_firehose) = paginate(firehose_data.ori, 15)
-	firehose/ = map(paginated_firehose, {
+	(paginated_firehose) = paginate(firehose_data.ori, 50)
+	firehose.html = pages/firehose.ori(first(paginated_firehose))
+	firehose = map(paginated_firehose, {
 		extension: "→.html"
 		value: pages/firehose.ori
 	})
+
+	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
+	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
 }

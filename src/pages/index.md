@@ -46,6 +46,11 @@ When not bodging together scripts, you may find me cruising around on my unicycl
     <p>Varied photon capture.</p>
 </a>
 
+<a href="/micros" id="micros">
+    <h3>Micros</h3>
+    <p>Short-form and often ephemeral.</p>
+</a>
+
 <a href="/services" id="services">
     <h3>Services</h3>
     <p>Hosted digital provisions.</p>
@@ -56,9 +61,9 @@ When not bodging together scripts, you may find me cruising around on my unicycl
     <p>Collection of web bits.</p>
 </a>
 
-Also present are all of my microblog posts, which can be accessed along with the rest of my stream of consciousness via the <a href="/firehose/1">firehose section</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
+You can access my stream of consciousness via the <a href="/firehose">firehose</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
 
-My <a href="/uses">uses page</a> has all the details on my tools and set up, the <a href="/elsewhere/1">elsewhere section</a> shows my writing (or writing I have been involved with) outside of this site, and my <a href="/contact">contact page</a> should be self-explanatory.
+My <a href="/uses">uses page</a> has all the details on my tools and set up, the <a href="/elsewhere">elsewhere section</a> shows my writing (or writing I have been involved with) outside of this site, and my <a href="/contact">contact page</a> should be self-explanatory.
 
 If you wish to know more about the specifics of this site, you can read [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
 

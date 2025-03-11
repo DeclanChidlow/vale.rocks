@@ -36,3 +36,19 @@
 		}
 	}
 }
+
+.pagination {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	text-align: center;
+	margin-top: 3rem;
+
+	a {
+		padding: 2rem;
+	}
+
+	@media (max-width: 26rem) {
+		grid-template-columns: none;
+	}
+}
