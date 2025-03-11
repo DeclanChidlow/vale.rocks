@@ -18,7 +18,7 @@ There is no reason for a URL to be stupidly long. Keep things short and memorabl
 
 It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation, which takes extra time -- especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.
 
-Lowercase domains are required anyway by [RFC 3968](https://www.rfc-editor.org/rfc/rfc3986), so uppercase anything is always going to look out of place next to the domain.
+Lowercase domains are expected anyway by [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986), so uppercase anything is always going to look out of place next to the domain.
 
 ## No IDs
 

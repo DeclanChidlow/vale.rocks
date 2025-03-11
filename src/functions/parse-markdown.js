@@ -24,9 +24,7 @@ marked.use(
 	}),
 	markedSmartypants(),
 	{
-		gfm: true, // Use GitHub-flavored markdown.
-		// @ts-ignore
-		mangle: false,
+		gfm: true,
 	},
 	markedAlert(),
 	markedFootnote(),

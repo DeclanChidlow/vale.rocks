@@ -38,6 +38,47 @@ h6 {
 	text-transform: uppercase;
 	text-wrap: balance;
 	font-weight: 700;
+	position: relative;
+	display: flex;
+
+	a {
+		&:not(:hover) {
+			text-decoration: none;
+		}
+
+		&::after {
+			display: none;
+		}
+	}
+
+	button {
+		color: var(--bright_grey);
+		background: none;
+		font-size: smaller;
+		line-height: 0;
+		padding: 0 1rem;
+
+		&:hover,
+		&:focus {
+			color: var(--bright_white);
+		}
+	}
+
+	@media (hover: hover) and (min-width: 45rem) {
+		button {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: -2.5rem;
+			line-height: normal;
+		}
+
+		&:hover button,
+		&:focus-within button,
+		button:hover {
+			display: inherit;
+		}
+	}
 }
 
 h1 {
