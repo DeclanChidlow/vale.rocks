@@ -128,7 +128,7 @@
 <p>There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where people have to manually write down a URL, and then someone else will have to manually type that URL into their browser. Eliminate <em>all</em> possible points of failure by reducing needless complexity.</p>
 <h2 id="no-capitals">No Capitals</h2>
 <p>It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation, which takes extra time &#8211; especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.</p>
-<p>Lowercase domains are required anyway by <a href="https://www.rfc-editor.org/rfc/rfc3986">RFC 3968</a>, so uppercase anything is always going to look out of place next to the domain.</p>
+<p>Lowercase domains are expected anyway by <a href="https://www.rfc-editor.org/rfc/rfc3986">RFC 3986</a>, so uppercase anything is always going to look out of place next to the domain.</p>
 <h2 id="no-ids">No IDs</h2>
 <p>URLs are fantastic in that they&#8217;re human-readable. That is, unless you&#8217;ve committed the atrocity of using an ID instead of a readable slug. <em>Why would you do this?</em> You might get the slightest benefit from it being a few characters smaller, but it makes it impossible for anyone to glean the content of the page when a link to it is just slapped somewhere online. Especially if embeds aren&#8217;t available or your Open Graph values are bungled. It also makes it significantly less memorable.</p>
 <p>Of course, there are exceptions here for certain cases, such as automated or unvetted content, but they should be obvious exceptions.</p>
@@ -271,5 +271,7 @@
 			</ul>
 		</div>
 	</footer>
+
+	<script src="/assets/scripts/copy-heading-anchor.js"></script>
 	</body>
 </html>
