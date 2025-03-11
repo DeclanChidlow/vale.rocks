@@ -101,31 +101,16 @@
     <loc>https://vale.rocks/posts/the-design-of-this-site</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/elsewhere</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/elsewhere/1</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/portfolio</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/portfolio/adduce</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/portfolio/automod</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/portfolio/capchord</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/portfolio/mutant-remix</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/portfolio/osseo-flesh</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/portfolio/pam-carters-poetry</loc>
-  </url>
-  <url>
     <loc>https://vale.rocks/photography</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/photography/1</loc>
   </url>
   <url>
     <loc>https://vale.rocks/photography/microscopic-sandpaper</loc>
@@ -252,6 +237,39 @@
   </url>
   <url>
     <loc>https://vale.rocks/links</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/1</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/2</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/3</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/4</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/5</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250311-0115</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250310-1531</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250310-1208</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250310-0153</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250309-0832</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20250308-0645</loc>
@@ -974,6 +992,9 @@
     <loc>https://vale.rocks/micros/20231030-1211</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/firehose</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/firehose/1</loc>
   </url>
   <url>
@@ -995,45 +1016,24 @@
     <loc>https://vale.rocks/firehose/7</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/8</loc>
+    <loc>https://vale.rocks/portfolio</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/9</loc>
+    <loc>https://vale.rocks/portfolio/adduce</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/10</loc>
+    <loc>https://vale.rocks/portfolio/automod</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/11</loc>
+    <loc>https://vale.rocks/portfolio/capchord</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/12</loc>
+    <loc>https://vale.rocks/portfolio/mutant-remix</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/13</loc>
+    <loc>https://vale.rocks/portfolio/osseo-flesh</loc>
   </url>
   <url>
-    <loc>https://vale.rocks/firehose/14</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/15</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/16</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/17</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/18</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/19</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/20</loc>
-  </url>
-  <url>
-    <loc>https://vale.rocks/firehose/21</loc>
+    <loc>https://vale.rocks/portfolio/pam-carters-poetry</loc>
   </url>
 </urlset>

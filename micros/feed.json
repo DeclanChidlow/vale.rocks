@@ -6,6 +6,41 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250311-0115",
+      "url": "https://vale.rocks/micros/20250311-0115",
+      "title": "11 Mar 2025 01:15",
+      "content_html": "<p>Still weird to see my stuff end up on YouTube.<br><a href=\"https://www.youtube.com/watch?v=ZnE02lMpPO8\">https://www.youtube.com/watch?v=ZnE02lMpPO8</a></p>\n<p>I knew this was going to be a decisive one, and it is lovely to see people talking about URLs and making up their own opinions on structure in the comments.</p>\n<p>This video is a reaction to this article from me:<br><a href=\"https://vale.rocks/posts/strong-opinions-on-url-design\">https://vale.rocks/posts/strong-opinions-on-url-design</a></p>\n",
+      "date_published": "2025-03-11T01:15"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250310-1531",
+      "url": "https://vale.rocks/micros/20250310-1531",
+      "title": "10 Mar 2025 15:31",
+      "content_html": "<p>I wish to remind that, despite the fact I am in part made up of glass, plastics, and neodymium, I am still very much a fleshy human.</p>\n<p>Hopefully this can be fixed with time.</p>\n",
+      "date_published": "2025-03-10T15:31"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250310-1208",
+      "url": "https://vale.rocks/micros/20250310-1208",
+      "title": "10 Mar 2025 12:08",
+      "content_html": "<p>Where do you, personally, dock your browser dev tools?</p>\n",
+      "date_published": "2025-03-10T12:08"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250310-0153",
+      "url": "https://vale.rocks/micros/20250310-0153",
+      "title": "10 Mar 2025 01:53",
+      "content_html": "<p>Nothing gets me going like manually kerning type.</p>\n",
+      "date_published": "2025-03-10T01:53"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250309-0832",
+      "url": "https://vale.rocks/micros/20250309-0832",
+      "title": "09 Mar 2025 08:32",
+      "content_html": "<p>Writing with proper grammar is a curse online because it makes people feel entitled to offer all sorts of unsolicited corrections.</p>\n<p>Many people write in phone shorthand, littered with spelling mistakes and without any punctuation, without having anyone pull them up on it.</p>\n<p>But because I generally write with correct spelling and grammar, I’ll have multiple people harassing me when I slip up.</p>\n",
+      "date_published": "2025-03-09T08:32"
+    },
+    {
       "id": "https://vale.rocks/micros/20250308-0645",
       "url": "https://vale.rocks/micros/20250308-0645",
       "title": "08 Mar 2025 06:45",
