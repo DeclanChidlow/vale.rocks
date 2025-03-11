@@ -59,8 +59,16 @@ h6 {
 		padding: 0 1rem;
 
 		&:hover,
-		&:focus {
-			color: var(--bright_white);
+		&:focus-visible {
+			color: light-dark(var(--black), var(--bright_white));
+		}
+
+		&.copied {
+			color: var(--green);
+		}
+
+		&.error {
+			color: var(--red);
 		}
 	}
 
