@@ -51,20 +51,32 @@ class ScrollProgressIndicator {
 	}
 
 	createHeaderMarker(header, position, isHorizontal) {
-		const line = document.createElement("a");
-		line.href = `#${header.id}`;
-		line.className = "heading-indicator";
-		line.setAttribute("title", header.textContent);
+		const markerLink = document.createElement("a");
+		markerLink.href = `#${header.id}`;
+		markerLink.className = "heading-marker-container";
 
-		if (isHorizontal) {
-			line.style.left = `${position}%`;
-			line.style.top = "";
-		} else {
-			line.style.top = `${position}%`;
-			line.style.left = "";
+		const line = document.createElement("span");
+		line.className = "heading-indicator";
+		line.setAttribute("aria-hidden", "true");
+
+		markerLink.appendChild(line);
+
+		if (!isHorizontal) {
+			const label = document.createElement("span");
+			label.className = "heading-label";
+			label.textContent = header.querySelector("a") ? header.querySelector("a").textContent : header.textContent;
+			markerLink.appendChild(label);
 		}
 
-		return line;
+		if (isHorizontal) {
+			markerLink.style.left = `${position}%`;
+			markerLink.style.top = "";
+		} else {
+			markerLink.style.top = `${position}%`;
+			markerLink.style.left = "";
+		}
+
+		return markerLink;
 	}
 
 	resetIndicatorStyles() {
@@ -94,9 +106,8 @@ class ScrollProgressIndicator {
 	}
 
 	updateHeaderMarkers(isHorizontal) {
-		const { articleHeight, articleTop } = this.getArticleDimensions();
-
-		this.scrollContainer.querySelectorAll(".heading-indicator").forEach((marker) => marker.remove());
+		const { articleHeight } = this.getArticleDimensions();
+		this.scrollContainer.querySelectorAll(".heading-marker-container").forEach((marker) => marker.remove());
 
 		this.headers.forEach((header) => {
 			const headerOffset = header.offsetTop - this.article.offsetTop;
