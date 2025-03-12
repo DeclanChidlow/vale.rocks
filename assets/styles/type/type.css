@@ -58,8 +58,7 @@ h6 {
 		line-height: 0;
 		padding: 0 1rem;
 
-		&:hover,
-		&:focus-visible {
+		&:hover {
 			color: light-dark(var(--black), var(--bright_white));
 		}
 
