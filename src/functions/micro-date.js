@@ -1,17 +1,13 @@
 export default (dateString) => {
-	// Extract the date and time parts from the input string
-	const datePart = dateString.slice(0, 8); // "20240614"
-	const timePart = dateString.slice(9); // "1329"
+	const datePart = dateString.slice(0, 8);
+	const timePart = dateString.slice(9);
 
-	// Format the date
-	const year = datePart.slice(0, 4); // "2024"
-	const month = datePart.slice(4, 6); // "06"
-	const day = datePart.slice(6); // "14"
+	const year = datePart.slice(0, 4);
+	const month = datePart.slice(4, 6);
+	const day = datePart.slice(6);
 
-	// Format the time
-	const hours = timePart.slice(0, 2); // "13"
-	const minutes = timePart.slice(2); // "29"
+	const hours = timePart.slice(0, 2);
+	const minutes = timePart.slice(2);
 
-	// Construct the desired format
-	return `${year}-${month}-${day}T${hours}:${minutes}`;
+	return `${year}-${month}-${day}T${hours}:${minutes}Z`;
 };

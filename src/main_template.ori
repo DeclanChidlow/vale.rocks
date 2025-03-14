@@ -186,5 +186,6 @@
 	</footer>
 
 	<script src="/assets/scripts/copy-heading-anchor.js"></script>
+	<script src="/assets/scripts/timezone-adjuster.js"></script>
 	</body>
 </html>`

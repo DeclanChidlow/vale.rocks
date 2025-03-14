@@ -8,7 +8,7 @@
 <article class="h-entry">
 	<header data-pagefind-ignore>
 		<h1>
-			<time datetime="${ micro/pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro/pub_time) } ${ functions/pretty-time.js(micro/pub_time) }</time>
+			<time datetime="${ micro/pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro/pub_time) }, ${ functions/pretty-time.js(micro/pub_time) }</time>
 		</h1>
 
 		<div class="socials">
@@ -72,4 +72,4 @@
 			${ micro/@text }
 		</div>
 	</div>
-</article>` })
+</article>`})
