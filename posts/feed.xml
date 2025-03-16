@@ -7,9 +7,9 @@
     <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
-      <title>AI History is Being Lost</title>
-      <link>https://vale.rocks/posts/ai-history-is-being-lost</link>
-      <guid>https://vale.rocks/posts/ai-history-is-being-lost</guid>
+      <title>AI Model History is Being Lost</title>
+      <link>https://vale.rocks/posts/ai-model-history-is-being-lost</link>
+      <guid>https://vale.rocks/posts/ai-model-history-is-being-lost</guid>
       <description>We&apos;re losing vital AI history as properitary, hosted models like the original ChatGPT are retired and become completely inaccessible. This essay examines the rapid disappearance of proprietary AI systems, why preservation matters for research and accountability, and the challenges in archiving these technological milestones. A critical look at our vanishing AI heritage and what it means for future understanding of this transformative technology&apos;s development.</description>
       <content:encoded><![CDATA[<p>I fear that we may lose &#8211; and are already losing &#8211; the modern history of AI, particularly with regard to the ability to use models that are/were only available in hosted capacities. As AI models are retired and become inaccessible, we&#8217;re losing crucial historical context about AI development that we will be unable to go back and reference in the future.</p>
 <p>This essay examines the disappearance of proprietary hosted AI models and the implications of that on research, accountability, and overall historical documentation and preservation.</p>
