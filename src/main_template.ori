@@ -27,7 +27,7 @@
 			<meta property="og:image" content="${ page/image }">
 			<meta property="og:image:alt" content="${ page/alt_text }">
 		` : `
-			<meta property="og:image" content="https://vale.rocks/assets/og.avif">
+			<meta property="og:image" content="https://vale.rocks/assets/og.webp">
 			<meta property="og:image:alt" content="The name 'VALE' with the link 'https://vale.rocks' written under it.">
 		` }
 
