@@ -26,7 +26,10 @@
 		${ page/image ? `
 			<meta property="og:image" content="${ page/image }">
 			<meta property="og:image:alt" content="${ page/alt_text }">
-		` : '' }
+		` : `
+			<meta property="og:image" content="/assets/og.avif">
+			<meta property="og:image:alt" content="The name 'VALE' with the link 'https://vale.rocks' written under it.">
+		` }
 
 		<meta property="og:site_name" content="Vale.Rocks">
 		<meta property="og:locale" content="en_AU">
