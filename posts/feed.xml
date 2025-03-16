@@ -6,6 +6,73 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
+      <title>AI History is Being Lost</title>
+      <link>https://vale.rocks/posts/ai-history-is-being-lost</link>
+      <guid>https://vale.rocks/posts/ai-history-is-being-lost</guid>
+      <description>We&apos;re losing vital AI history as properitary, hosted models like the original ChatGPT are retired and become completely inaccessible. This essay examines the rapid disappearance of proprietary AI systems, why preservation matters for research and accountability, and the challenges in archiving these technological milestones. A critical look at our vanishing AI heritage and what it means for future understanding of this transformative technology&apos;s development.</description>
+      <content:encoded><![CDATA[<p>I fear that we may lose &#8211; and are already losing &#8211; the modern history of AI, particularly with regard to the ability to use models that are/were only available in hosted capacities. As AI models are retired and become inaccessible, we&#8217;re losing crucial historical context about AI development that we will be unable to go back and reference in the future.</p>
+<p>This essay examines the disappearance of proprietary hosted AI models and the implications of that on research, accountability, and overall historical documentation and preservation.</p>
+<p>I fear this is a very under-analysed topic, with <a href="https://doi.org/10.1038/s41467-024-54758-1">New methods for deprecating artificial intelligence systems will preserve history and facilitate research</a> <sub>(Johnson T, Obradovich N. 2024)</sub> being the only notable discussion I have found.</p>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p>OpenAI calls models that are no longer available for usage &#39;deprecated,&#39; while Anthropic reserves that term for models that are only available for existing users and uses the term &#39;retired&#39; for models that are no longer available in any capacity. For the sake of clarity, I&#39;ll refer to them as retired or non-hosted models.</p>
+</div>
+<h2 id="what-were-losing">What We&#8217;re Losing</h2>
+<p>We are losing proprietary AI models only available in hosted capacities without much hope for preservation. The unprecedented speed of AI development has unfortunately also spurred an unprecedented speed of discontinuation. We are not just losing large language models but also image/video generation<sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">1</a></sup> and audio models.</p>
+<p>For instance, the launch of ChatGPT in 2022 is and will remain a notable event for its influence on the public perception of AI. ChatGPT launched with a model fine-tuned from GPT-3.5. This model isn&#8217;t available for the public to use anymore &#8211; it is gone, remaining in our minds, in news reports, and in papers, but unavailable to be used.</p>
+<p>It cannot be tested or experimented with, and we cannot evaluate it or run fresh benchmarks to compare it with new, emerging models. It is a fundamental part of the history of large language models that is completely unavailable. We will not be able to go back and inspect the early days of AI like we do the early days of computing. We&#8217;ve very much entered a period of technological advancement where the original technology is unavailable for inspection and only available via the artefacts it produced and writing it provoked. <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">2</a></sup></p>
+<p>OpenAI has already retired a wide array of their own models and plans to retire more, <a href="https://platform.openai.com/docs/deprecations">as evidenced by their deprecations page</a>. Anthropic is the same, with <a href="https://docs.anthropic.com/en/docs/resources/model-deprecations">many of their models having hit the end of their life cycle</a>.</p>
+<p>Especially because so many changes are quick and iterative, I fear there is not sufficient inclination to preserve each step and snapshot, only the final product, and often not even that by the time the next model comes around.</p>
+<p>Even now we see that older models are mainly only kept around to avoid breakages and inconvenience, not for the sake of preservation. It is a technology evolving just as fast as it is disappearing.</p>
+<p>Thankfully, there are models with open weights and sources that one can host themselves and are thus unaffected, but these don&#8217;t represent proprietary models that <em>are</em> only (or <em>were</em> only) available in a hosted capacity. Open-source models only represent some of the overall progression of model development; it&#8217;s just part of the picture.</p>
+<h2 id="reasons-for-retirement">Reasons for Retirement</h2>
+<p>There are numerous reasons a model is retired. The most plain is that the model is inferior and has been superseded. Beyond that, there are plenty of other reasons, including legal considerations, reputational risks, and the maintenance burdens.</p>
+<p>From a legal standpoint, the training of AI models on copyrighted content continues to be a point of contention, and some models are more prone to leaking or regurgitating content verbatim, which prompts their hurried retirement.</p>
+<p>The same is true for models that lack comprehensive safeguards, engaging in illegal or morally dubious activities, such as informing users how to create pipe bombs, which are a reputational risk to the company and their products.</p>
+<p>Then there is the case of the maintenance burden involved with keeping obsolete models around and hosted, often at increased expense and compute compared to newer, more capable models. This compounds with the risk that users may opt to cling to &#8216;undesirable&#8217; models when superior ones are available, which could act to make a company look bad and isn&#8217;t advantageous from a business perspective.</p>
+<p>These all create incentive for AI companies to dispose of their history and helps them skirt accountability. You can&#8217;t verify facts with a model you can&#8217;t test.</p>
+<h2 id="why-it-matters">Why It Matters</h2>
+<p>Whether you like artificial intelligence or not, it has influence on our culture and will continue to. It is a transformative technology that is important to document and, to some extent, preserve for the future. It is important for the sake of research, education, benchmarking, analysis, and general historical documentation. Things are moving with swiftness such that models are not comprehensively documented during their life cycle.</p>
+<p>Should somebody wish to test, compare, or document the progress of AI, they&#8217;re limited. Benchmarking progress and understanding development paths for research purposes is important. An independent cannot compare a retired model to a new one.</p>
+<p>There is a risk of &#8216;technological amnesia&#8217; where we lose context for how we arrived at current AI capabilities and the failings that have already been identified. As the quote goes, &#8220;Those who cannot remember the past are condemned to repeat it.&#8221;</p>
+<p>Being able to simply retire models and have them disappear also reduces accountability by removing access to that which may provide bad press and leaving third parties unable to track biases and behaviours across generations of models.</p>
+<p>I have no doubts that models in the future will be very different from the ones we have now, and I can foresee that there will be things that we wish to compare and contrast, but that won&#8217;t be possible. It stands to reason that, in hindsight, there will be characteristics discovered that we will wish to analyse in older models. This might not be possible.</p>
+<p>I don&#8217;t know what models will look like in a few months, let alone years from now, nor what the application of models will look like. Given the rapid pace of development in the AI space, I don&#8217;t think it is realistic to make assumptions about what forms AI will take in the future, which makes the ability to run retroactive tests all the more important.</p>
+<p>Completely retiring models also makes them unavailable as artefacts from a cultural perspective. People collect, play with, learn from, and continue to experiment with old technology &#8211; both hardware and software. We are moving towards a lineage of models completely removed from analysis in this style. Will future generations be able to go back and experience early proprietary models for themselves?</p>
+<h2 id="solutions">Solutions</h2>
+<p>Johnson and Obradovich argue that it could be ensured that &#8220;commercial developers of LLMs do not face penalties for providing ongoing access to outdated models&#8221; and that models could be deployed upon request and &#8220;Users, reasonably, would need to fund this monitoring and pay the costs associated with gaining access to outdated models.&#8221; As they note, this cost would introduce a barrier to entry likely sufficient to prevent issues with people using models without appropriate reason.</p>
+<p>While they are reasonable suggestions, I don&#8217;t think they are realistic suggestions.</p>
+<p>I don&#8217;t think we should expect legal change to accommodate these models, <sup><a id="footnote-ref-3" href="#footnote-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> and even if there was an embargo, what incentive would AI companies have to do this? I&#8217;ve already outlined <a href="#reasons-for-retirement">the reputational risks</a>.</p>
+<p>There is also the case that access would be restricted exclusively to those with the finances and position to enter such an agreement, which could cause issues if a company refuses to permit access (such as to a journalist aiming to do an exposé). I also think it would be a shame if history is restricted only to those with the necessary finances.</p>
+<p>They also propose other suggestions, such as a public or third party designated to host the models and benefiting from economies of scale, but I can&#8217;t see these being financially viable. I&#8217;m not convinced demand is, or will be, high enough to justify it.</p>
+<p>In my mind, open sourcing models would be the best solution from a preservation standpoint (as they also note), but companies have no real incentive to do so. It doesn&#8217;t benefit them, <sup><a id="footnote-ref-4" href="#footnote-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup> and could very well aid their competitors if newer models haven&#8217;t sufficiently diverged and thus obsolete ones still contain some &#8216;special sauce.&#8217; Even if retired models were available to be hosted, there is a good chance that consumer hardware would not be equipped to handle them.</p>
+<p>There is also the possibility of replicating models, such as what EleutherAI is doing with their <a href="https://researcher2.eleuther.ai/projects/gpt-neo/">GPT-Neo</a> project, but that is replication which isn&#8217;t representative and is not archival of the original.</p>
+<p>There unfortunately isn&#8217;t a single clean solution &#8211; at least not one that I can see &#8211; but I think the issue is evident.</p>
+<hr>
+<p>We are in very much early days at the moment, and retirement hasn&#8217;t yet shown much negative impact from a historical perspective, but what will the story be in five years? What about in a decade? How about a century from now?</p>
+<p>Will our AI models be lost to time? We will still have the papers and analysis, but we likely won&#8217;t have the models themselves unless something changes, and I think that is an unfortunate loss.</p>
+<section class="footnotes" data-footnotes>
+<h2 id="footnote-label" class="sr-only">Footnotes</h2>
+<ol>
+<li id="footnote-2">
+<p>People are already going out of their way to specifically use old models for their abstract, non-Euclidean, and ethereal stylings. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
+</li>
+<li id="footnote-1">
+<p>Similar is true for other software that was offered as a service or that depended on a server. See projects such as <a href="https://www.stopkillinggames.com">Stop Killing Games</a>. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+<li id="footnote-3">
+<p>Not least because many early models lack proper safeguards and gaolbreak protections, which permits the generation of illegal content. Governments seem to be working towards censorship, not away from it. <a href="#footnote-ref-3" data-footnote-backref aria-label="Back to reference 3">↩</a></p>
+</li>
+<li id="footnote-4">
+<p>Perhaps the largest benefit of open sourcing a model is acquiring talent. The other is helping with exposure. The big players are already big players. They&#8217;re known, and talent is already drawn to them. There is also the benefit of attracting users that will experiment and work on the model for free. This isn&#8217;t necessary given just how much</p>
+<p>Meta open-sourced their Llama models, but it wasn&#8217;t benefiting their competition. Their models were not better than what was available, so couldn&#8217;t be used to improve other language models. It also reduced the moat of competitors, but the leaders already have a moat, so this is a moot point. It also has a chance to entice people to their models and keep them there when they close them off, but why do this when you already have people captured? <a href="#footnote-ref-4" data-footnote-backref aria-label="Back to reference 4">↩</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Fri, 07 Mar 2025 00:00:00 GMT</pubDate>
       <title>Respecting User Preference</title>
       <link>https://vale.rocks/posts/respecting-user-preference</link>
