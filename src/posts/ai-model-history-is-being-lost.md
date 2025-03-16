@@ -1,5 +1,5 @@
 ---
-title: AI History is Being Lost
+title: AI Model History is Being Lost
 description: We're losing vital AI history as properitary, hosted models like the original ChatGPT are retired and become completely inaccessible. This essay examines the rapid disappearance of proprietary AI systems, why preservation matters for research and accountability, and the challenges in archiving these technological milestones. A critical look at our vanishing AI heritage and what it means for future understanding of this transformative technology's development.
 og_description: Models are being retired and history is going with them.
 pub_time: 2025-03-16
