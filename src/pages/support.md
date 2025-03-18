@@ -17,7 +17,7 @@ If you're donating for any specific project, then [let me know](/contact) so I c
 
 <div id="donation-cards">
 <div>
-    <p>Donate via Stripe:</p>
+    <p>Support via Stripe (one-off):</p>
     <stripe-buy-button
       id="stripe-card"
       buy-button-id="buy_btn_1Qh1LFDhfmOVSSxcKIN5bmfd"
@@ -31,7 +31,7 @@ If you're donating for any specific project, then [let me know](/contact) so I c
 <strong>or</strong>
 
 <div>
-    <p>Donate via Ko-Fi:</p>
+    <p>Support via Ko-Fi (one-off or recurring):</p>
     <iframe id='kofiframe' src='https://ko-fi.com/valence/?hidefeed=true&widget=true&embed=true&preview=true' title='valence'></iframe>
     <noscript>
         <style>#kofiframe{display:none}</style>
