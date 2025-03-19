@@ -3,6 +3,7 @@
 	description: post/description
 	og_description: post/og_description
 	stylesheet: "components/article_header.css"
+	canonical: `/portfolio/${ post/file_name }`
 
 @text:
 `<style>:root{--header_background: ${ post/accent_colour }}</style>

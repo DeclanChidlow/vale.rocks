@@ -1,3 +1,9 @@
 portfolio
-→ =map(_, (post) => functions/parse-markdown.js(post))
-→ =map(_, { extension: ".md->.html" })
+→ =map(_, (portfolio, fileName) => {
+  ...portfolio
+  file_name: basename(fileName)
+})
+→ =map(_, {
+  extension: ".md->.html"
+  value: (portfolio) => functions/parse-markdown.js(portfolio)
+})
