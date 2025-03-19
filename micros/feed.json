@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250319-1101",
+      "url": "https://vale.rocks/micros/20250319-1101",
+      "title": "19 Mar 2025 11:01",
+      "content_html": "<p>Why is my pseudo-element not working? It should work. It has size, position, display, etc. Hmm&#8230;</p>\n<p>Oh, I didn&#8217;t specify <code>content: &quot;&quot;</code>.</p>\n<p>Anywho, I&#8217;m gonna go into a fetal position and cry now&#8230;</p>\n",
+      "date_published": "2025-03-19T11:01Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250319-0916",
+      "url": "https://vale.rocks/micros/20250319-0916",
+      "title": "19 Mar 2025 09:16",
+      "content_html": "<p>We&#8217;re seeing it already to an extent, but in a few years I imagine we&#8217;ll see many people trying to replicate the abstract, non-Euclidean, and ethereal stylings of early generative AI image/video models.</p>\n",
+      "date_published": "2025-03-19T09:16Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250318-0848",
+      "url": "https://vale.rocks/micros/20250318-0848",
+      "title": "18 Mar 2025 08:48",
+      "content_html": "<p>My brother and his mates were playing lazer tag, so I stole the signal of their shot with my Flipper Zero and went on a genocidal rampage.</p>\n<p><em>Vale: Infrared Terrorist</em></p>\n",
+      "date_published": "2025-03-18T08:48Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250317-0929",
+      "url": "https://vale.rocks/micros/20250317-0929",
+      "title": "17 Mar 2025 09:29",
+      "content_html": "<p>I&#8217;m getting fairly sick of receiving emails asking if my writing can be taken and put on some random advert-filled website for free.</p>\n<p>The answer is always &#8216;no&#8217;, but at least they&#8217;re asking, unlike some of the less scrupulous content farms.</p>\n",
+      "date_published": "2025-03-17T09:29Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250315-1347",
       "url": "https://vale.rocks/micros/20250315-1347",
       "title": "15 Mar 2025 13:47",
