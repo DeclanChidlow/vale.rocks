@@ -1,5 +1,5 @@
 @media (max-width: 45rem) {
-	#section {
+	.section {
 		display: none;
 	}
 }

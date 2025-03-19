@@ -1,5 +1,5 @@
 @media (max-width: 45rem) {
-	#section {
+	.section {
 		display: none;
 	}
 }
@@ -65,6 +65,6 @@ article header {
 	}
 
 	.readable-width {
-		max-width: 60ch;
+		width: 60ch;
 	}
 }
