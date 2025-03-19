@@ -1,6 +1,8 @@
 (micro) => main_template.ori({
 	title: micro/title
+	pub_time: micro/pub_time
 	stylesheet: "pages/micro-individual.css"
+	canonical: `/micros/${ micro/file_name }`
 
 @text:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Micros</span>	

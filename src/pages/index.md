@@ -3,6 +3,7 @@ title: "Vale.Rocks"
 description: "Personal website of Declan Chidlow, front-end web developer specialising in HTML, CSS, and JavaScript, known mononymously as Vale. Contains thoughts, musings, and otherwise unhinged ramblings. Long-form structured writings, portfolio items, photography, hosted services, links, microblog posts, and much more."
 og_description: "The hippest site this side of MySpace."
 stylesheet: "pages/index.css"
+canonical: ""
 ---
 
 <div id="puddle-container" aria-hidden="true"></div>

@@ -3,6 +3,7 @@ title: Support
 description: Information regarding how to financially support me to keep servers running and projects growing. Support my open source development, hosting, and content creation.
 og_description: Details on how you can financially support me.
 stylesheet: "pages/support.css"
+canonical: /support
 ---
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Support</h1>

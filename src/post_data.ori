@@ -1,7 +1,8 @@
 posts
-→ =map(_, (post) => {
+→ =map(_, (post, fileName) => {
   ...post
   type: "post"
+  file_name: basename(fileName)
 })
 → =sort(_, (post) => new:Date(post/pub_time))
 → =map(_, {

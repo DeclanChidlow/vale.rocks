@@ -3,6 +3,7 @@ title: Search
 description: A search page allowing for querying the content of Vale.Rocks and performing full, complex, and rich searches of the content. Allows searching through the full managed index of almost my entire web output.
 og_description: Full site search of Vale.Rocks.
 stylesheet: "pages/search.css"
+canonical: /search
 ---
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Search</h1>

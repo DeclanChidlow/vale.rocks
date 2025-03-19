@@ -5,6 +5,7 @@
 	image: photography/image
 	alt_text: photography/alt_text
 	stylesheet: "pages/photography-individual.css"
+	canonical: `/photography/${ photography/file_name }`
 
 @text:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Photography</span>	

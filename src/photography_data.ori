@@ -1,7 +1,8 @@
 photography
-→ =map(_, (photo) => {
+→ =map(_, (photo, fileName) => {
   ...photo
   type: "photo"
+  file_name: basename(fileName)
 })
 → =sort(_, (photo) => new:Date(photo/pub_time))
 → =map(_, {

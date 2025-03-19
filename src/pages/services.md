@@ -3,6 +3,7 @@ title: Services
 description: A list of the various services I host or otherwise provide, including my fediverse instances, media streaming, and bot hosting. This page includes live service status information and avaliablity details.
 og_description: The services I host or otherwise provide.
 stylesheet: "pages/services.css"
+canonical: /services
 ---
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Services</h1>
