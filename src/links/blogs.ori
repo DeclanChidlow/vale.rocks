@@ -3,6 +3,7 @@
 	description: "A curated collection of insightful blogs covering web development, programming, design, AI, accessibility, security, technology trends, and digital culture I've collected. Including expert analyses, interactive tutorials, deep dives into coding, and unique perspectives on the evolving tech landscape"
 	og_description: "Links to various blogs of interest or note."
 	stylesheet: "pages/links.css"
+	canonical: "/links/blogs"
 
 @text:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>

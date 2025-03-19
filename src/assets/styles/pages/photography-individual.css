@@ -52,7 +52,7 @@ figure {
 }
 
 @media (max-width: 45rem) {
-	span#section {
+	span.section {
 		display: none;
 	}
 }

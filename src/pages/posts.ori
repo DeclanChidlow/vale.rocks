@@ -3,6 +3,7 @@
 	description: "My long-form, structured writing including essays, tutorials, reviews, and more on various topics presented for your reading pleasure. These topics include development, design, and digital culture. Fully sortable and filterable."
 	og_description: "My long-form, structured writing."
 	stylesheet: "pages/posts.css"
+	canonical: "/posts"
 
 @text: 
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Posts</h1>
