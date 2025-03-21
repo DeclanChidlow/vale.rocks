@@ -6,6 +6,39 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate>
+      <title>Build, Use, and Improve Tools</title>
+      <link>https://vale.rocks/posts/build-use-and-improve-tools</link>
+      <guid>https://vale.rocks/posts/build-use-and-improve-tools</guid>
+      <description>Why developers should create custom tools for repetitive tasks and one-off needs, with discussion of how LLMs can accelerate tool development, the learning benefits of building utilities, and how personal tools become valuable assets in your workflow and beyond.</description>
+      <content:encoded><![CDATA[<p>A developer should, in my opinion, create (or modify) tools and utilities fit for their use and needs. Both for repeated tasks and one-off needs.</p>
+<p>Shawn Wang wrote a post titled <a href="https://www.swyx.io/three-strikes">My Three Strikes Rule for Blogging</a> in which he proposes, &#8220;The third time you use an idea in a conversation, you have to blog about it.&#8221; As much as this applies to writing, I think it applies to development and building tools. If you find yourself completing a menial task or trying to achieve the same thing three or more times, a tool should be built.</p>
+<p>That doesn&#8217;t mean a tool should only be built for repeated tasks though. There is also a case for spur-of-the-moment creations: small little bodged-together hacks that solve a one-off problem. The equivalent of bending a wire into a rudimentary hook to extract a spatula from the gap it fell down behind the oven.</p>
+<p>Large language models are fantastic at building these small, focused utilities. It is in handling large, complex, and multi-file projects that current AI shows its limitations, but this isn&#8217;t relevant to single-purpose tools.</p>
+<p>The main reason people opt not to automate is because it <a href="https://xkcd.com/1319/">often takes longer to automate something than it does to just do it manually</a>. Handing a task off to a LLM where it can complete it with minimal input from you and likely without the requirement of further prompting if your task is sufficiently simple shaves off a lot of development time. It is true that you might need to make some tweaks, but I&#8217;ve personally found it to be much faster than creating things from scratch.</p>
+<p>It is worth doing a quick evaluation to identify if you&#8217;re going to spend more time fighting AI than you&#8217;ll save. AI itself is a tool &#8211; a tool that does a good job creating other tools in the right situations.</p>
+<p>Of course, there is another fantastic side to building tools and utilities. You can learn tons! A tool, especially a throwaway one, doesn&#8217;t necessarily need to be carefully considered and future-proofed &#8211; especially if you&#8217;re only being built at a small scale (both in terms of features and usage).</p>
+<p>You can experiment with new technologies or try something that wouldn&#8217;t work at scale just for the hell of it. It is a fantastic opportunity to learn something, be productive, and end up with something tangible at the end. Further, it provides wonderful chance for bodging things if the situation calls for it.</p>
+<p>Occasionally I put this all together by learning from experimenting with new LLMs to create tools incorporating new technologies. <sup><a id="footnote-ref-1" href="#footnote-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> Though, if I&#8217;m expecting repeat usage, I&#8217;ll stick to basic HTML/CSS/JS with no or minimal dependencies where applicable. It is simple, what I&#8217;m best at, and the web platform is reliable.</p>
+<p>You don&#8217;t just have to build tools from the ground up. You can also build on existing ones. There are also plenty of open-source offerings out there. Hack on them. Meliorate. Make alterations to help them fit your needs. Feel free to publish your changes, and if they might benefit others, submit them as pull requests. Contribute back if you can.</p>
+<h2 id="examples">Examples</h2>
+<p><a href="https://simonwillison.net">Simon Willison</a> uses large language models &#8211; namely Anthropic&#8217;s Claude &#8211; to <a href="https://tools.simonwillison.net">create a range of tools</a>. He includes links to transcripts of him prompting models and is transparent in his use of AI. He specifically prompts the LLMs to use HTML/CSS/JS and avoid abstraction layers and dependencies such as React. This, of course, comes with the benefits of keeping things simple and easy to maintain.</p>
+<p><a href="https://tools.vale.rocks">My tools site</a> has an assortment of handy bits and bobs on it. Many of them LLM produced and then tweaked by myself. Everything is built to fit a genuine need I have or had and are devoid of any complexity beyond that which is strictly required.</p>
+<p>Beyond dedicated sites, there are tons of people building and sharing little tools all over sites like GitHub and CodePen and even more people that are building throwaway tools that they don&#8217;t bother sharing.</p>
+<hr>
+<p>Over time, building utilities for your needs leads to a personal toolbox of utilities perfectly suited to your workflow. These tools become extensions of your capabilities, allowing you to work more efficiently and tackle problems that would be tedious or inconvenient without them. Beyond being solutions to problems, they&#8217;re also representative of one&#8217;s knowledge and expertise.</p>
+<p>Regardless of how you build a tool, if it is handy for yourself, there is a good chance it&#8217;ll be handy for someone else. You can open-source it and make it available to the masses, and you could expand upon it and have it be the start of a business if you&#8217;ve got the entrepreneurial flair.</p>
+<section class="footnotes" data-footnotes>
+<h2 id="footnote-label" class="sr-only">Footnotes</h2>
+<ol>
+<li id="footnote-1">
+<p>As the sort of tools I&#8217;m building are often simple, it isn&#8217;t difficult to identify if things have gone wrong, and the lack of complexity lets me see the benefits of a new technology in a vacuum, unhampered by surrounding context. It also lets me evaluate LLMs, and asking multiple models to build tools simultaneously lets me compare their outputs with minimal additional time usage. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
       <title>AI Model History is Being Lost</title>
       <link>https://vale.rocks/posts/ai-model-history-is-being-lost</link>
