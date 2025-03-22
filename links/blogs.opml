@@ -27,7 +27,7 @@
 			<outline text="Clagnut by Richard Rutter" description="Design and typography with a focus on the web." htmlUrl="https://clagnut.com" title="Clagnut by Richard Rutter" type="rss" xmlUrl="https://clagnut.com/feeds/fullposts.xml"/>
 			<outline text="samwho" description="Visual, often interactive, computer science introductions and traditional development posts." htmlUrl="https://samwho.dev" title="samwho" type="rss" xmlUrl="https://samwho.dev/rss.xml"/>
 			<outline text="Jan Miksovsky’s Blog" description="Development and project notes." htmlUrl="https://jan.miksovsky.com" title="Jan Miksovsky’s Blog" type="rss" xmlUrl="https://jan.miksovsky.com/rss.xml"/>
-			<outline text="Jim Neilsen's Blog" description="Web development and thoughts." htmlUrl="https://blog.jim-nielsen.com" title="Jim Neilsen's Blog" type="rss" xmlUrl="https://blog.jim-nielsen.com/feed.xml"/>
+			<outline text="Jim Nielsen's Blog" description="Web development and thoughts." htmlUrl="https://blog.jim-nielsen.com" title="Jim Nielsen's Blog" type="rss" xmlUrl="https://blog.jim-nielsen.com/feed.xml"/>
 			<outline text="blakewatson.com" description="Web development." htmlUrl="https://blakewatson.com" title="blakewatson.com" type="rss" xmlUrl="https://blakewatson.com/feed.xml"/>
 			<outline text="Adam Argyle" description="CSS and other aspects of the web platform." htmlUrl="https://nerdy.dev" title="Adam Argyle" type="rss" xmlUrl="https://nerdy.dev/rss.xml"/>
 			<outline text="Ben Myers" description="Web development." htmlUrl="https://benmyers.dev" title="Ben Myers" type="rss" xmlUrl="https://benmyers.dev/feed.xml"/>
