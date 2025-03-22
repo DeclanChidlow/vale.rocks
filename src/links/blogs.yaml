@@ -104,7 +104,7 @@
   rss: jan.miksovsky.com/rss.xml
   json: jan.miksovsky.com/feed.json
   description: Development and project notes.
-- title: Jim Neilsen's Blog
+- title: Jim Nielsen's Blog
   url: blog.jim-nielsen.com
   rss: blog.jim-nielsen.com/feed.xml
   json: blog.jim-nielsen.com/feed.json
