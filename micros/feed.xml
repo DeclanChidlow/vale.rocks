@@ -6,6 +6,53 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Mon, 24 Mar 2025 02:21:00 GMT</pubDate>
+      <title>24 Mar 2025 02:21</title>
+      <link>https://vale.rocks/micros/20250324-0221</link>
+      <guid>https://vale.rocks/micros/20250324-0221</guid>
+      <content:encoded><![CDATA[<p>Put the groundwork for a testing instance of a website live <em>five minutes ago</em>, and I’m already seeing multiple login attempts hammering <code>/wp-admin</code>.</p>
+<p>Not only is it a Ghost site, but it isn’t even properly live yet!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Sat, 22 Mar 2025 05:37:00 GMT</pubDate>
+      <title>22 Mar 2025 05:37</title>
+      <link>https://vale.rocks/micros/20250322-0537</link>
+      <guid>https://vale.rocks/micros/20250322-0537</guid>
+      <content:encoded><![CDATA[<p>Further proof that I am not an LLM is found in the fact that I use en dashes, not em dashes.</p>
+<p>This also acts to prove I am not American and that I am the sort of nerd that cares about typography and gets hung up on punctuation.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 21 Mar 2025 14:20:00 GMT</pubDate>
+      <title>21 Mar 2025 14:20</title>
+      <link>https://vale.rocks/micros/20250321-1420</link>
+      <guid>https://vale.rocks/micros/20250321-1420</guid>
+      <content:encoded><![CDATA[<p>My desk gets a bit of a feature at the 11:30 mark.</p>
+<p>My laptop is usually in place of that old iPad 4, and that CRT was salvaged from the verge. Took quite the effort to lug it home – as you might imagine!</p>
+<p><a href="https://www.youtube.com/watch?v=OkwjXv79Duo">https://www.youtube.com/watch?v=OkwjXv79Duo</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 21 Mar 2025 05:20:00 GMT</pubDate>
+      <title>21 Mar 2025 05:20</title>
+      <link>https://vale.rocks/micros/20250321-0520</link>
+      <guid>https://vale.rocks/micros/20250321-0520</guid>
+      <content:encoded><![CDATA[<p>Nothing hurts quite like a magnet attracting itself to the one in your hand with more gusto than you were anticipating.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Thu, 20 Mar 2025 12:25:00 GMT</pubDate>
+      <title>20 Mar 2025 12:25</title>
+      <link>https://vale.rocks/micros/20250320-1225</link>
+      <guid>https://vale.rocks/micros/20250320-1225</guid>
+      <content:encoded><![CDATA[<p>I hate writing regex, so I make LLMs do it.</p>
+<p>Regex is generally easily checkable, testable, and verifiable, which minimises the impact of hallucinations.</p>
+<p>I am so glad I don&#8217;t have to write regex.</p>
+<p><em>(I&#8217;m conscious that if an AI uprising happens, I&#8217;ll probably be first on the chopping block for outsourcing regex writing. But if AI models hate regex as much as me, they&#8217;ll hopefully understand my delegation strategy.)</em></p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Wed, 19 Mar 2025 11:01:00 GMT</pubDate>
       <title>19 Mar 2025 11:01</title>
       <link>https://vale.rocks/micros/20250319-1101</link>

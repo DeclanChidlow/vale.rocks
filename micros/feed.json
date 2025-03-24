@@ -6,6 +6,41 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250324-0221",
+      "url": "https://vale.rocks/micros/20250324-0221",
+      "title": "24 Mar 2025 02:21",
+      "content_html": "<p>Put the groundwork for a testing instance of a website live <em>five minutes ago</em>, and I’m already seeing multiple login attempts hammering <code>/wp-admin</code>.</p>\n<p>Not only is it a Ghost site, but it isn’t even properly live yet!</p>\n",
+      "date_published": "2025-03-24T02:21Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250322-0537",
+      "url": "https://vale.rocks/micros/20250322-0537",
+      "title": "22 Mar 2025 05:37",
+      "content_html": "<p>Further proof that I am not an LLM is found in the fact that I use en dashes, not em dashes.</p>\n<p>This also acts to prove I am not American and that I am the sort of nerd that cares about typography and gets hung up on punctuation.</p>\n",
+      "date_published": "2025-03-22T05:37Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250321-1420",
+      "url": "https://vale.rocks/micros/20250321-1420",
+      "title": "21 Mar 2025 14:20",
+      "content_html": "<p>My desk gets a bit of a feature at the 11:30 mark.</p>\n<p>My laptop is usually in place of that old iPad 4, and that CRT was salvaged from the verge. Took quite the effort to lug it home – as you might imagine!</p>\n<p><a href=\"https://www.youtube.com/watch?v=OkwjXv79Duo\">https://www.youtube.com/watch?v=OkwjXv79Duo</a></p>\n",
+      "date_published": "2025-03-21T14:20Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250321-0520",
+      "url": "https://vale.rocks/micros/20250321-0520",
+      "title": "21 Mar 2025 05:20",
+      "content_html": "<p>Nothing hurts quite like a magnet attracting itself to the one in your hand with more gusto than you were anticipating.</p>\n",
+      "date_published": "2025-03-21T05:20Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250320-1225",
+      "url": "https://vale.rocks/micros/20250320-1225",
+      "title": "20 Mar 2025 12:25",
+      "content_html": "<p>I hate writing regex, so I make LLMs do it.</p>\n<p>Regex is generally easily checkable, testable, and verifiable, which minimises the impact of hallucinations.</p>\n<p>I am so glad I don&#8217;t have to write regex.</p>\n<p><em>(I&#8217;m conscious that if an AI uprising happens, I&#8217;ll probably be first on the chopping block for outsourcing regex writing. But if AI models hate regex as much as me, they&#8217;ll hopefully understand my delegation strategy.)</em></p>\n",
+      "date_published": "2025-03-20T12:25Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250319-1101",
       "url": "https://vale.rocks/micros/20250319-1101",
       "title": "19 Mar 2025 11:01",
