@@ -6,6 +6,33 @@
   "feed_url": "https://vale.rocks/photography/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/photography/mountains-across-water-from-road",
+      "url": "https://vale.rocks/photography/mountains-across-water-from-road",
+      "title": "Mountains viewed across the water from a road.",
+      "image": "https://images.unsplash.com/photo-1742903700012-fa235cf1b7f7",
+      "content_html": "",
+      "summary": "In the foreground is a road, with grass and shrubs edging it. Behind it is water that reflects mountains and the blue sky behind it. One of the mountains is taller and snow-capped; the other is more green.",
+      "date_published": "2025-03-25"
+    },
+    {
+      "id": "https://vale.rocks/photography/mossy-lichen-branch",
+      "url": "https://vale.rocks/photography/mossy-lichen-branch",
+      "title": "Moss and lichen growing on a branch.",
+      "image": "https://images.unsplash.com/photo-1742903629664-91d81823d5cd",
+      "content_html": "",
+      "summary": "In the foreground is a brown branch with textured bark, green moss, and lichen. The background shows a forest out of focus.",
+      "date_published": "2025-03-25"
+    },
+    {
+      "id": "https://vale.rocks/photography/ant-mound-plant",
+      "url": "https://vale.rocks/photography/ant-mound-plant",
+      "title": "A tiny little plant growing up from an ant hill.",
+      "image": "https://images.unsplash.com/photo-1742799438103-bf51f4a4bc91",
+      "content_html": "",
+      "summary": "A close-up of a small plant growing up from some sand which constitutes an ant hill. The plant is small with green blades, and in the foreground is lots of natural grey detritus with the background showing some grey tubs.",
+      "date_published": "2025-03-24"
+    },
+    {
       "id": "https://vale.rocks/photography/microscopic-sandpaper",
       "url": "https://vale.rocks/photography/microscopic-sandpaper",
       "title": "A sheet of sandpaper through a microscope.",
