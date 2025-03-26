@@ -884,8 +884,8 @@
       <link>https://vale.rocks/micros/20250102-1033</link>
       <guid>https://vale.rocks/micros/20250102-1033</guid>
       <content:encoded><![CDATA[<p>I know it&#8217;s time to take a break when I start pulling this stunt:</p>
-<pre><code class="language-CSS">&lt;<span class="hljs-selector-tag">span</span> class=&quot;hljs-selector-tag&quot;&gt;<span class="hljs-selector-tag">body</span>&lt;/<span class="hljs-selector-tag">span</span>&gt; {
-    &lt;<span class="hljs-selector-tag">span</span> class=&quot;hljs-attribute&quot;&gt;<span class="hljs-attribute">color</span>&lt;/<span class="hljs-selector-tag">span</span>&gt; = white;
+<pre><code class="language-CSS"><span class="hljs-selector-tag">body</span> {
+    <span class="hljs-attribute">color</span> = white;
 }
 </code></pre>]]></content:encoded>
     </item>
@@ -1527,11 +1527,11 @@ At the very bottom of the page are some statistics that are cut off."></p>
       <link>https://vale.rocks/micros/20240826-0952</link>
       <guid>https://vale.rocks/micros/20240826-0952</guid>
       <content:encoded><![CDATA[<p>Great moments in Revolt development:</p>
-<pre><code class="language-dockerfile">&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn install --frozen-lockfile&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn build:deps&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-comment&quot;</span>&gt;<span class="hljs-comment"># RUN yarn typecheck # lol no&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn build:highmem&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn workspaces focus --production --all&lt;/span&gt;</span>
+<pre><code class="language-dockerfile"><span class="hljs-keyword">RUN</span><span class="language-bash"> yarn install --frozen-lockfile</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:deps</span>
+<span class="hljs-comment"># RUN yarn typecheck # lol no</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:highmem</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn workspaces focus --production --all</span>
 </code></pre><p><a href="https://github.com/revoltchat/revite/blob/master/Dockerfile#L9">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>
 ]]></content:encoded>
     </item>

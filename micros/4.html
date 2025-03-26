@@ -101,9 +101,10 @@
 	<main id="main">
 		<h1 class="section" data-pagefind-ignore>Micros</h1>
 
-<div data-pagefind-ignore="all">
+<div>
 	
 
+	<div data-pagefind-ignore="all">
 	<article>
 		<header>
 			<div>
@@ -540,11 +541,11 @@
 
 		<div class="readable-width">
 			<p>Great moments in Revolt development:</p>
-<pre><code class="language-dockerfile">&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn install --frozen-lockfile&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn build:deps&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-comment&quot;</span>&gt;<span class="hljs-comment"># RUN yarn typecheck # lol no&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn build:highmem&lt;/span&gt;</span>
-&lt;span class=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;<span class="hljs-keyword">RUN</span><span class="language-bash">&lt;/span&gt;&lt;span class=<span class="hljs-string">&quot;language-bash&quot;</span>&gt; yarn workspaces focus --production --all&lt;/span&gt;</span>
+<pre><code class="language-dockerfile"><span class="hljs-keyword">RUN</span><span class="language-bash"> yarn install --frozen-lockfile</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:deps</span>
+<span class="hljs-comment"># RUN yarn typecheck # lol no</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn build:highmem</span>
+<span class="hljs-keyword">RUN</span><span class="language-bash"> yarn workspaces focus --production --all</span>
 </code></pre><p><a href="https://github.com/revoltchat/revite/blob/master/Dockerfile#L9">https://github.com/revoltchat/revite/blob/master/Dockerfile#L9</a></p>
 
 		</div>
@@ -1691,6 +1692,7 @@
 		<p>Page 4 of 6</p>
 
 		<a href="/micros/5">Older <span aria-hidden="true">></span></a>
+	</div>
 	</div>
 </div>
 	</main>
