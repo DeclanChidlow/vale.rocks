@@ -3,14 +3,21 @@
 	CNAME
 	opensearch.xml
 
-	index.html = main_template.ori(functions/parse-markdown.js(pages/index.md))
-	contact.html = main_template.ori(functions/parse-markdown.js(pages/contact.md))
-	services.html = main_template.ori(functions/parse-markdown.js(pages/services.md))
-	uses.html = main_template.ori(functions/parse-markdown.js(pages/uses.md))
-	support.html = main_template.ori(functions/parse-markdown.js(pages/support.md))
-	syndication.html = main_template.ori(functions/parse-markdown.js(pages/syndication.md))
-	search.html = main_template.ori(functions/parse-markdown.js(pages/search.md))
-	404.html = main_template.ori(functions/parse-markdown.js(pages/404.md))
+	(markdown_pages): {
+		index: pages/index.md
+		contact: pages/contact.md
+		services: pages/services.md
+		uses: pages/uses.md
+		support: pages/support.md
+		syndication: pages/syndication.md
+		search: pages/search.md
+		404: pages/404.md
+	}
+
+	...map(markdown_pages, {
+		extension: "→.html"
+		value: (path) => main_template.ori(functions/parse-markdown.js(path))
+	})
 
 	posts.html = pages/posts.ori(post_data.ori)
 	posts = {
@@ -72,5 +79,7 @@
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
 	portfolio = map(portfolio_data.ori, portfolio_template.ori)
 
-	pagefind = once(=package:@weborigami/pagefind({index.html, contact.html, services.html, uses.html, support.html, syndication.html, posts.html, elsewhere.html, photography.html, links.html, micros.html, firehose.html, portfolio.html, posts, elsewhere, photography, links, micros, portfolio}))
+	pagefind = once(=package:@weborigami/pagefind({
+		index.html, contact.html, services.html, uses.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, links, links.html, micros, micros.html, portfolio, portfolio.html
+	}))
 }
