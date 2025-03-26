@@ -52,9 +52,9 @@ When not bodging together scripts, you may find me cruising around on my unicycl
     <p>Short-form and often ephemeral.</p>
 </a>
 
-<a href="/services" id="services">
-    <h3>Services</h3>
-    <p>Hosted digital provisions.</p>
+<a href="/elsewhere" id="elsewhere">
+    <h3>Elsewhere</h3>
+    <p>External writings, contributions, and appearances.</p>
 </a>
 
 <a href="/links" id="links">
@@ -64,7 +64,7 @@ When not bodging together scripts, you may find me cruising around on my unicycl
 
 You can access my stream of consciousness via the <a href="/firehose">firehose</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
 
-My <a href="/uses">uses page</a> has all the details on my tools and set up, the <a href="/elsewhere">elsewhere section</a> shows my writing (or writing I have been involved with) outside of this site, and my <a href="/contact">contact page</a> should be self-explanatory.
+My <a href="/uses">uses page</a> has all the details on my tools and set up, the <a href="/services">services page</a> shows the services I host, and my <a href="/contact">contact page</a> should be self-explanatory.
 
 If you wish to know more about the specifics of this site, you can read [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
 

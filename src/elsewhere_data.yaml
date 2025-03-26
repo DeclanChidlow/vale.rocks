@@ -2,15 +2,18 @@
   location: WIRED
   url: www.wired.com/story/doge-website-is-just-one-big-x-ad/
   pub_time: 2025-02-13
-  sort: contributed
-  contribution: Provided reference regarding technical details of the Department of Government Efficiency website.
+  type: article
+  sort: contributor
+  note: Provided reference regarding technical details of the Department of Government Efficiency website.
 - title: My favourite colour is Chuck Norris red
   location: HTMHell
   url: www.htmhell.dev/adventcalendar/2024/20/
   pub_time: 2024-12-20
-  sort: wrote
+  type: article
+  sort: writer
 - title: 100K Users
   location: Revolt
   url: revolt.chat/updates/100k-users
   pub_time: 2023-05-13
-  sort: wrote
+  type: article
+  sort: writer

@@ -22,7 +22,7 @@ I [write long-form on this site](/posts), which you can subscribe to via:
 
 ## Elsewhere
 
-Sometimes I work on, contribute to, or am otherwise directly involved with writing that is [external to this website](/elsewhere). You can follow this content via:
+Sometimes I work on, contribute to, or am otherwise directly involved with publications [external to this website](/elsewhere). You can follow this content via:
 
 - RSS: <https://vale.rocks/elsewhere/feed.xml>
 - JSON Feed: <https://vale.rocks/elsewhere/feed.json>
