@@ -51,7 +51,7 @@ main {
 	#portfolio,
 	#photography,
 	#micros,
-	#services,
+	#elsewhere,
 	#links {
 		background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 		border: 0.05rem solid light-dark(transparent, var(--grey));
@@ -107,8 +107,8 @@ main {
 		--accent: var(--blue);
 	}
 
-	#services {
-		--accent: var(--red);
+	#elsewhere {
+		--accent: var(--yellow);
 	}
 
 	#links {

@@ -1,4 +1,4 @@
-.writing {
+.elsewhere {
 	padding: 1rem 0;
 	border-bottom: 2px solid var(--bright_grey);
 	text-decoration: none;
@@ -10,7 +10,7 @@
 		line-height: inherit;
 	}
 
-	.contribution {
+	.note {
 		text-transform: none;
 	}
 
