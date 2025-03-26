@@ -70,5 +70,7 @@
 	})
 
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
-	portfolio/ = map(portfolio_data.ori, portfolio_template.ori)
+	portfolio = map(portfolio_data.ori, portfolio_template.ori)
+
+	pagefind = once(=package:@weborigami/pagefind({index.html, contact.html, services.html, uses.html, support.html, syndication.html, posts.html, elsewhere.html, photography.html, links.html, micros.html, firehose.html, portfolio.html, posts, elsewhere, photography, links, micros, portfolio}))
 }

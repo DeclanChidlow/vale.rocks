@@ -7,9 +7,10 @@
 @text:
 `<h1 class="section" data-pagefind-ignore>Micros</h1>
 
-<div data-pagefind-ignore="all">
+<div>
 	${ paginated_micros/previousPage ? `` : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
 
+	<div data-pagefind-ignore="all">
 	${ map(paginated_micros/items,
 	(item, key) =>
 	`<article>
@@ -62,5 +63,6 @@
 			? `<a href="/micros/${ paginated_micros/nextPage }">Older <span aria-hidden="true">></span></a>`
 			: "<span></span>"
 		}
+	</div>
 	</div>
 </div>`})
