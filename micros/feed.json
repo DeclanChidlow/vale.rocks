@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250327-0838",
+      "url": "https://vale.rocks/micros/20250327-0838",
+      "title": "27 Mar 2025 08:38",
+      "content_html": "<p>The web went wrong when we dropped the &#8216;hyper&#8217; from &#8216;hyperlink&#8217;.</p>\n",
+      "date_published": "2025-03-27T08:38Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250327-0200",
+      "url": "https://vale.rocks/micros/20250327-0200",
+      "title": "27 Mar 2025 02:00",
+      "content_html": "<p>I think people seem to downplay that when artificial intelligence companies release new models/features, they tend to do so with minimal guardrails.</p>\n<p>I don&#8217;t think it is hyperbole to suggest this is done for the PR boost gained by spurring online discussion, though it could also just be part of the churn and rush to appear on top where sound guardrails are not considered a necessity. Either way, models tend to become less controversial and more presentable over time.</p>\n<p>Recently OpenAI released their GPT-4o image generation with rather relaxed guardrails (it being able to generate political content and images of celebrities without consent). This came hot off the heels of Google&#8217;s latest Imagen model, so there was reason to rush to market and &#8216;one-up&#8217; Google.</p>\n<p>Obviously much of AI risk is centred around swift progress and companies prioritising that progress over safety, but minimising safety specifically for the sake of public perception and marketing strikes me as something we are moving closer towards.</p>\n<p>This triggers two main thoughts for me:</p>\n<ul>\n<li>How far are companies willing to relax their guardrails to beat competitors to market?</li>\n<li>Where is &#8216;the line&#8217; between a model with relaxed enough guardrails to spur public discussion but not relaxed enough to cause significant damages to the company&#8217;s perception and wider societal risk?</li>\n</ul>\n",
+      "date_published": "2025-03-27T02:00Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250326-1244",
+      "url": "https://vale.rocks/micros/20250326-1244",
+      "title": "26 Mar 2025 12:44",
+      "content_html": "<p>&#8220;I already know what this is gonna be about before I read it.&#8221;</p>\n<p><em>User then proceeds to continue their comment with something entirely unrelated to the contents of my article.</em></p>\n<p>I&#8217;m looking at you, Reddit and Hacker News.</p>\n",
+      "date_published": "2025-03-26T12:44Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250325-2343",
+      "url": "https://vale.rocks/micros/20250325-2343",
+      "title": "25 Mar 2025 23:43",
+      "content_html": "<p>CORS blimey!</p>\n",
+      "date_published": "2025-03-25T23:43Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250325-0343",
       "url": "https://vale.rocks/micros/20250325-0343",
       "title": "25 Mar 2025 03:43",
