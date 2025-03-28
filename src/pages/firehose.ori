@@ -67,9 +67,10 @@
 				</header>
 				
 				<div class="readable-width">
-					${ item/sort === 'wrote' ? `<p>I wrote <a href="https://${ item/url }">${ item/title }</a> over on ${ item/location }.</p>` : '' }
-					${ item/sort === 'contributed' ? `<p>I contributed to <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
-					${item/contribution ? `<p>${ item/contribution }</p>` : '' }
+					${ item/sort === 'writer' ? `<p>Wrote <a href="https://${ item/url }">${ item/title }</a> over on ${ item/location }.</p>` : '' }
+					${ item/sort === 'contributor' ? `<p>Contributed to <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
+					${ item/sort === 'guest' ? `<p>Appeared on <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
+					${ item/note ? `<p>${ item/note }</p>` : '' }
 				</div>
 			</article>`
 
