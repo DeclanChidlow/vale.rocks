@@ -23,8 +23,8 @@
 			
 
 			
-				<meta property="article:modified_time" content="2025-01-13">
-				<meta name="dcterms.modified" content="2025-01-13">
+				<meta property="article:modified_time" content="2025-03-28">
+				<meta name="dcterms.modified" content="2025-03-28">
 			
 
 			<meta property="article:section" content="Meta">
@@ -133,10 +133,10 @@
 			<p data-pagefind-filter="Post Category">Meta</p>
 			<h1 class="p-name">The Implementation of This Site</h1>
 			<ul>
-				<li>2059 words</li>
+				<li>2309 words</li>
 				<li><time class="dt-published" datetime="2024-12-12" title="Date of first publication.">12 Dec 2024</time></li>
 				
-					<li><time class="dt-updated" datetime="2025-01-13" title="Date of last notable modification.">13 Jan 2025</time></li>
+					<li><time class="dt-updated" datetime="2025-03-28" title="Date of last notable modification.">28 Mar 2025</time></li>
 				
 			</ul>
 		</header>
@@ -175,8 +175,8 @@
 <p>Also, as part of my figures, I have classes set up that allow for censoring or allowing inversion of images. On posts like <a href="/posts/my-experience-biohacking">My Experience Biohacking</a>, where there are some slightly bloody images, or situations where I may need to hide a spoiler, I can blur the content until hovered or focused.</p>
 <p>As for inversion, certain images such as graphs may have solid white backgrounds, so it can be beneficial to invert them if the user has selected a dark mode presentation so as to not flashbang them. I achieve this with the very simple CSS <code>filter: invert(95%) hue-rotate(180deg)</code>. This inverts an item but keeps the colours more or less as they should be by flipping the hue back.</p>
 <h3 id="scroll-indication">Scroll Indication</h3>
-<p>When perusing the content of an article, a scroll progress bar appears, with indicators of heading locations for ease of navigation. This implementation is inspired by the one on <a href="https://lesswrong.com">LessWrong</a>. Headers are noted and immediately jumpable, and it has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.</p>
-<p>On viewports with sufficient horizontal space, the indicator is displayed vertically and has a thumb that represents the height of the user&#8217;s viewport. On narrower viewports, the indicator manifests as a horizontal progress bar at the top of the screen.</p>
+<p>When perusing the content of an article, a scroll progress bar appears, with markers of heading locations for ease of navigation. This implementation is inspired by the one on <a href="https://lesswrong.com">LessWrong</a>. It has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.</p>
+<p>On viewports with sufficient horizontal space, the indicator is displayed vertically and has a thumb that represents the height of the user&#8217;s viewport. When the vertical indicator is hovered, the heading labels are displayed like a table of contents and can be jumped to. On narrower viewports, the indicator manifests as a horizontal progress bar at the top of the screen, but has no action on hover due to space limitations.</p>
 <p>Ideally, the base of this effect could be achieved using scroll-driven animations with additional JavaScript-based functionality considered progressive enhancement, but that has restrictions if the page has content beyond the main article, such as comments, where one must start implementing <code>overflow: scroll</code> hackery, so, alas, it currently requires JavaScript to achieve.</p>
 <p>Once again, you can view my <a href="https://codepen.io/OuterVale/pen/MYgoYzR">reference implementation on CodePen</a> and the code as used on this site in <a href="/assets/scripts/scroll-indicator.js"><code>scroll-indicator.js</code></a>.</p>
 <h3 id="search">Search</h3>
@@ -199,6 +199,14 @@
 <p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I <em>love</em> being able to see what country people are showing up from (so many Hacker News clients), what devices they&#8217;re using <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> and their browsers. Being able to see view counts tick up also does wonders for my motivation.</p>
 <p>I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I&#8217;ll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It&#8217;s lovely being able to go down little rabbit holes inspecting such cases.</p>
 <p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or bolstering the number of mobile users as they might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
+<h2 id="information-architecture">Information Architecture</h2>
+<p>Vale.Rocks is implemented following my own <a href="/posts/strong-opinions-on-url-design">Strong Opinions On URL Design</a>. Chiefly, this means that there <em>aren&#8217;t</em> <a href="/posts/strong-opinions-on-url-design#useless-paths">useless paths</a>.</p>
+<p>The site is split up into sections for each type of content (eg, posts, micros, photography, etc) with (sometimes paginated) top-level pages for each of them displaying a list of the content.</p>
+<p>Individual pages (eg, contact, support, etc) are served as top-level pages and are not unnecessarily nested.</p>
+<h3 id="firehose">Firehose</h3>
+<p>Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My <a href="/firehose">firehose page</a><sup><a id="footnote-ref-3" href="#footnote-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.</p>
+<p>It is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.</p>
+<p>All the content going into the firehose data tree is given a <code>type</code> property <sup><a id="footnote-ref-4" href="#footnote-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup> which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.</p>
 <section class="footnotes" data-footnotes>
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
@@ -207,6 +215,12 @@
 </li>
 <li id="footnote-2">
 <p>Being able to see people showing up on obscure devices like <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">Windows Phones</a> always prompts a chuckle. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
+</li>
+<li id="footnote-3">
+<p>The terminology of firehose was inspired by the <a href="https://atproto.com/specs/sync#firehose">AT Protocol&#8217;s usage of the term</a>. <a href="#footnote-ref-3" data-footnote-backref aria-label="Back to reference 3">↩</a></p>
+</li>
+<li id="footnote-4">
+<p>For example, <a href="/micros">micros</a> get a <code>type</code> property of &#8220;micro&#8221;, and <a href="/posts">posts</a> are given a <code>type</code> property of &#8220;post&#8221;. <a href="#footnote-ref-4" data-footnote-backref aria-label="Back to reference 4">↩</a></p>
 </li>
 </ol>
 </section>
