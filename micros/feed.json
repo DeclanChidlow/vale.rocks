@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250328-1352",
+      "url": "https://vale.rocks/micros/20250328-1352",
+      "title": "28 Mar 2025 13:52",
+      "content_html": "<p>I pushed to prod, <br>Prod pushed back.</p>\n<p>I prodded prod, <br>It cracked and cracked.</p>\n<p>I fixed the bug, <br>Or so I swore.</p>\n<p>One last deploy&#8230; <br>And prod is no more.</p>\n",
+      "date_published": "2025-03-28T13:52Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250328-0543",
+      "url": "https://vale.rocks/micros/20250328-0543",
+      "title": "28 Mar 2025 05:43",
+      "content_html": "<p>People keep talking about AI-generated imagery as something that is <em>going to be</em> really bad. Or that it is <em>going to be</em> indistinguishable from real photos.</p>\n<p>I don&#8217;t think people realise we passed that point quite a while ago.</p>\n<p>The &#8216;tells&#8217; are already gone; there is just a lot of stuff still releasing generated with lesser models that people <em>do</em> happen to notice – it is almost a redirection of sorts.</p>\n",
+      "date_published": "2025-03-28T05:43Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250327-0838",
       "url": "https://vale.rocks/micros/20250327-0838",
       "title": "27 Mar 2025 08:38",

@@ -6,6 +6,27 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Fri, 28 Mar 2025 13:52:00 GMT</pubDate>
+      <title>28 Mar 2025 13:52</title>
+      <link>https://vale.rocks/micros/20250328-1352</link>
+      <guid>https://vale.rocks/micros/20250328-1352</guid>
+      <content:encoded><![CDATA[<p>I pushed to prod, <br>Prod pushed back.</p>
+<p>I prodded prod, <br>It cracked and cracked.</p>
+<p>I fixed the bug, <br>Or so I swore.</p>
+<p>One last deploy&#8230; <br>And prod is no more.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Fri, 28 Mar 2025 05:43:00 GMT</pubDate>
+      <title>28 Mar 2025 05:43</title>
+      <link>https://vale.rocks/micros/20250328-0543</link>
+      <guid>https://vale.rocks/micros/20250328-0543</guid>
+      <content:encoded><![CDATA[<p>People keep talking about AI-generated imagery as something that is <em>going to be</em> really bad. Or that it is <em>going to be</em> indistinguishable from real photos.</p>
+<p>I don&#8217;t think people realise we passed that point quite a while ago.</p>
+<p>The &#8216;tells&#8217; are already gone; there is just a lot of stuff still releasing generated with lesser models that people <em>do</em> happen to notice – it is almost a redirection of sorts.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Thu, 27 Mar 2025 08:38:00 GMT</pubDate>
       <title>27 Mar 2025 08:38</title>
       <link>https://vale.rocks/micros/20250327-0838</link>
