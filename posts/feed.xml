@@ -174,7 +174,7 @@
 <p>I personally think this is a small price to pay for much cleaner URLs, but it should be considered based on your threat model.</p>
 </div>
 <h2 id="no-html">No .HTML</h2>
-<p>This is a personal thing. I just dislike seeing <code>.html</code> stuck on the end of URLs. It adds unnecessary length and feels cheap/messy. If somebody <em>really</em> needs to know if a page is made with HTML, they can probably figure it out themselves. This also goes for <code>.php</code>.</p>
+<p>This is a personal thing. I just dislike seeing <code>.html</code> stuck on the end of URLs. It adds unnecessary length and feels cheap/messy. If somebody <em>really</em> needs to know if a page is made with HTML, they can probably figure it out themselves. This also goes for <code>.php</code>, <code>.cgi</code>, and (god forbid) <code>.aspx</code>.</p>
 <h2 id="trailing-slash-on-an-end">Trailing Slash On An End</h2>
 <p>I can somewhat understand a trailing slash on a path with content within it. For example, <code>example.com/posts/</code> is fine if there is content within <code>posts/</code>. The slash makes sense here, as it indicates there is further content within the posts path.</p>
 <p><code>example.com/posts/post-title/</code> is a crime against humanity unless there are further items under <code>post-title</code>, which we&#8217;ll say there aren&#8217;t for this example. It serves no purpose. It doesn&#8217;t indicate sub-content. It is completely superfluous and misleading.</p>

@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250329-1304",
+      "url": "https://vale.rocks/micros/20250329-1304",
+      "title": "29 Mar 2025 13:04",
+      "content_html": "<p>I&#8217;ve been making improvements to Vale.Rocks using <a href=\"https://polypane.app\">Polypane&#8217;s</a> suggestions, which pick up things standard browser dev tools miss.</p>\n<p>Also, Portal is awesome for testing across devices.</p>\n<p>Polypane also has a celebration button that appears when I fix all accessibility issues, which is an absolute joy.</p>\n<p>I have a few minor niggles, but on the whole I&#8217;m really liking Polypane.</p>\n<p>Regarding those niggles, <a href=\"https://kilianvalkhof.com\">Kilian Valkhof</a> is absolutely fantastic and extremely receptive to feedback, which is wonderful.</p>\n",
+      "date_published": "2025-03-29T13:04Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250329-1014",
+      "url": "https://vale.rocks/micros/20250329-1014",
+      "title": "29 Mar 2025 10:14",
+      "content_html": "<p>If this world had any sense left, we would be bringing back the ThinkLight.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/ThinkLight\">https://en.wikipedia.org/wiki/ThinkLight</a></p>\n",
+      "date_published": "2025-03-29T10:14Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250328-1352",
       "url": "https://vale.rocks/micros/20250328-1352",
       "title": "28 Mar 2025 13:52",
