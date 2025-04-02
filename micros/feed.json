@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250401-2338",
+      "url": "https://vale.rocks/micros/20250401-2338",
+      "title": "01 Apr 2025 23:38",
+      "content_html": "<p>I’m turning 19 today.</p>\n<p>As a present to you all, I’m calling a Switch 2 Nintendo Direct today and implementing tariffs in the US.</p>\n<p>I will also be travelling back in time to premiere 2001: A Space Odyssey and Beethoven’s First Symphony, as well as introducing the US dollar.</p>\n<p>No need to thank me.</p>\n",
+      "date_published": "2025-04-01T23:38Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250401-1240",
+      "url": "https://vale.rocks/micros/20250401-1240",
+      "title": "01 Apr 2025 12:40",
+      "content_html": "<p>I fear that technology has, to an extent, moved past the state of permitting independence.</p>\n<p>Complexity has reached a point where it simply isn&#8217;t viable for independent creation of browser engines or operating systems as we&#8217;ve seen in the past.</p>\n<p>As this continues, it furthers the moat companies have.</p>\n",
+      "date_published": "2025-04-01T12:40Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250331-0929",
+      "url": "https://vale.rocks/micros/20250331-0929",
+      "title": "31 Mar 2025 09:29",
+      "content_html": "<p>en dash – <br>em dash — <br>enm dash ⸺ <br>emm dash ⸻</p>\n",
+      "date_published": "2025-03-31T09:29Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250330-1357",
+      "url": "https://vale.rocks/micros/20250330-1357",
+      "title": "30 Mar 2025 13:57",
+      "content_html": "<p>AI can generate images, but it certainly cannot create &#8216;art&#8217; &#8211; at least not as I define it.</p>\n<p>I believe it can be used as a tool while creating art, but its output is not by default &#8216;art&#8217;.</p>\n<p>Art requires creativity, and that is something a machine does not have.</p>\n",
+      "date_published": "2025-03-30T13:57Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250329-1304",
       "url": "https://vale.rocks/micros/20250329-1304",
       "title": "29 Mar 2025 13:04",
