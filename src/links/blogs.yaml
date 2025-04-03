@@ -389,3 +389,7 @@
   url: www.keithcirkel.co.uk
   rss: www.keithcirkel.co.uk/feed.xml
   description: Software development with focus on web engineering.
+- title: leanrada.com
+  url: leanrada.com
+  rss: leanrada.com/rss.xml
+  description: Software engineering and artsy stuff.
