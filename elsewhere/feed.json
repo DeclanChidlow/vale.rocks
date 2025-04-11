@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/elsewhere/feed.json",
   "items": [
     {
+      "id": "https://www.youtube.com/watch?v=DeOEmE65U1E",
+      "url": "https://www.youtube.com/watch?v=DeOEmE65U1E",
+      "title": "Bring Back Exciting Website Design",
+      "content_html": "\n\t\t\n\t\t\n\t\t<p>Appeared on <a href=\"https://www.youtube.com/watch?v=DeOEmE65U1E\">Bring Back Exciting Website Design</a> on Tech on Tea.</p>\n\t\t\n\t",
+      "date_published": "2025-04-05"
+    },
+    {
       "id": "https://www.wired.com/story/doge-website-is-just-one-big-x-ad/",
       "url": "https://www.wired.com/story/doge-website-is-just-one-big-x-ad/",
       "title": "DOGE's Website Is Just One Big X Ad",
