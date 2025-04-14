@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250414-0417",
+      "url": "https://vale.rocks/micros/20250414-0417",
+      "title": "14 Apr 2025 04:17",
+      "content_html": "<p>I generally dislike that I cannot edit posts on Bluesky, but I do appreciate that something can&#8217;t be switched out or altered to have different meaning when reposting or replying.</p>\n<p>I&#8217;ve had people do this with malicious intent, such as a bait and switch, or after I&#8217;ve written extensive analysis.</p>\n<p>The inability to edit has also inclined me to post ephemerally and accept that content will age with time.</p>\n<p>This is something I avoid to the extent possible in my long-form content on Vale.Rocks.</p>\n",
+      "date_published": "2025-04-14T04:17Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250414-0335",
+      "url": "https://vale.rocks/micros/20250414-0335",
+      "title": "14 Apr 2025 03:35",
+      "content_html": "<p>Just booked in my ticket for <a href=\"https://dddperth.com\">DDD Perth</a> – my first tech conference! Looking forward to it!</p>\n<p>It should prove a full and fantastic day of learning, networking, and inspiration.</p>\n",
+      "date_published": "2025-04-14T03:35Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250413-1511",
+      "url": "https://vale.rocks/micros/20250413-1511",
+      "title": "13 Apr 2025 15:11",
+      "content_html": "<p>I read the My Little Pony fan fiction Friendship is Optimal the other day, and my mind has been mulling over the <a href=\"https://en.wikipedia.org/wiki/Teletransportation_paradox\">teletransportation paradox</a> since.</p>\n<p>It has irked me for years, but now it is brought back to the forefront of my mind. It really bugs me that I have no definitive answer.</p>\n<p>I&#8217;m inclined to say it is death and a clone rather than just transportation.</p>\n<p>However, I also think that the <a href=\"https://en.wikipedia.org/wiki/Ship_of_Theseus\">Ship of Theseus</a> is still the same ship even when none of the original remains.</p>\n<p>I&#8217;m not sure where I draw the line. Time, and continuity versus duplication, I suppose.</p>\n",
+      "date_published": "2025-04-13T15:11Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250413-0810",
+      "url": "https://vale.rocks/micros/20250413-0810",
+      "title": "13 Apr 2025 08:10",
+      "content_html": "<p>Design? Yeah <br>Painting? Sure <br>Development? Yup <br>Photography? Rad <br>3D? Kinda <br>Editing? Okay <br>Sketching? Sorta</p>\n<p>Music? Complete witchcraft to me. Straight-up sorcery. I simply can&#8217;t wrap my head around creating music.</p>\n",
+      "date_published": "2025-04-13T08:10Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250409-1714",
       "url": "https://vale.rocks/micros/20250409-1714",
       "title": "09 Apr 2025 17:14",
