@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/elsewhere/feed.json",
   "items": [
     {
+      "id": "https://css-tricks.com/next-level-css-styling-for-cursors/",
+      "url": "https://css-tricks.com/next-level-css-styling-for-cursors/",
+      "title": "Next Level CSS Styling for Cursors",
+      "content_html": "\n\t\t<p>Wrote <a href=\"https://css-tricks.com/next-level-css-styling-for-cursors/\">Next Level CSS Styling for Cursors</a> over on CSS-Tricks.</p>\n\t\t\n\t\t\n\t\t\n\t",
+      "date_published": "2025-04-14"
+    },
+    {
       "id": "https://www.youtube.com/watch?v=DeOEmE65U1E",
       "url": "https://www.youtube.com/watch?v=DeOEmE65U1E",
       "title": "Bring Back Exciting Website Design",
