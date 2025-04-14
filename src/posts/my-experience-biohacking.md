@@ -3,9 +3,9 @@ title: My Experience Biohacking
 description: My experience getting an xG3 bio-magnet implanted in my hand. Covering the implantation, healing, and my newfound abilities.
 og_description: I'm pretty much a cyborg now.
 pub_time: 01/06/2025
-mod_time: 02/01/2025
+mod_time: 04/14/2025
 section: Essay
-word_count: 3031
+word_count: 3265
 ---
 
 Biohacking is a term that has unfortunately become entangled with tabloid tips, TikTok health trends, and pseudo'science'. However, beneath this surface noise exists dedicated communities exploring the frontiers of human enhancement through do-it-yourself cybernetics, biochemistry, and body modifications. Communities driven by interests in transhumanism and an alignment with the hacker ethos that push boundaries in ways that extend far beyond the conventional ear piercing.
@@ -96,9 +96,9 @@ Still on the topic of my laptop, I can lock and unlock it with a wave of my hand
 
 I can also manipulate compasses, both physical ones and the virtual one on my phone. In fact, using [Phyphox](https://phyphox.org), I can get raw magnetometer readings in a graph view and manipulate it by moving my hand back and forth. Despite what people have suggested, the magnet is not strong enough to manipulate an average compass from more than a few centimetres away, so I haven't handicapped my ability to use one.
 
-The magnet also lets me identify the material something is made of. While working on a car, I used it to check the presence of metal particulate in some dust, at an op shop I used it to identify the material used for various dewberry, and while dining I noted that my fork stuck to my hand, whereas my knife did not, indicating it was silver. Yes, this is something that _could be done_ with an external magnet, but it something isn't that _would be done_ with an external magnet. Having the magnet internally, I'm much more likely to opportunistically use it, which has come with the benefits of me gaining a better understanding of the make-up of the world around me.
+The magnet also lets me identify the material something is made of. While working on a car, I used it to check the presence of metal particulate in some dust; at an op shop, I used it to identify the material used for various jewellery; and while dining, I noted that my fork stuck to my hand, whereas my knife did not, indicating it was silver. Yes, this is something that _could be done_ with an external magnet, but it isn't something that _would be done_ with an external magnet. Having the magnet internally, I'm much more likely to opportunistically use it, which has come with the benefit of me gaining a better understanding of the make-up of the world around me.
 
-It's worth noting I do take a bit of care when playing with other magnets. Standard ferrous objects are fine, but other magnets can really pull. Putting another magnet near mine pulls the skin, which looks _really_ weird. It certainly conjures up thoughts of a Xenomorph bursting out of somebody's chest (though it'd have to be really strong to merit that effect). If one doesn't take care, though, it can pull really quickly and pinch the skin or break the bioglass in which the magnet is encapsulated. Neither are ideal for obvious reasons, and leaving a magnet pinching the skin for an extended period can also cause necrosis of the area, which should obviously be avoided.
+It's worth noting I do take a bit of care when playing with other magnets. Standard ferrous objects are fine, but other magnets can really pull. Putting another magnet near mine pulls the skin, which looks _really_ weird. It certainly conjures up thoughts of a Xenomorph bursting out of somebody's chest (though it'd have to be really strong to merit that effect). If one doesn't take care, though, it can pull really quickly and pinch the skin or break the bioglass in which the magnet is encapsulated. Neither are ideal for evident reasons, and leaving a magnet pinching the skin for an extended period can also cause necrosis of the area, which should obviously be avoided.
 
 The flesh surrounding the magnet doesn't directly attach but instead forms a pocket of sorts in which the magnet can freely move. Pushing against the edges of the pocket is how sensing is achieved. Getting near a really big magnet -- or even one of a moderate size, like those that hold a door/gate or that release magnetic security tags -- can swiftly rotate the magnet within its pocket, which feels rather nauseating.
 
@@ -106,15 +106,17 @@ Mid-December, I noticed the magnet became stronger. Objects that I previously co
 
 One thing I didn't expect is that I'm conscious of it being inside me. I don't know if it's completely psychological, and I'm duping myself into feeling it whenever I'm trying to decide if I'm aware of its presence. I would almost have expected my brain to treat it the same as other body parts. It feels like part of me, but at the same time, I can feel there is something in my hand that isn't strictly 'me'.
 
-Also, for some reason, it feels odd that it works underwater. I'm not sure why. Intellectually, I understand that magnets work underwater, and thus that the magnet in my hand should -- so I don't know why my brain is seemingly confused by it. Perhaps it is just highlighting the absurdity of having a magnet implant because I'm in a different environment?
+Also, for some reason, it feels odd that it works underwater. I'm not sure why. Intellectually, I understand that magnets work underwater and thus that the magnet in my hand should -- so I don't know why my brain is seemingly confused by it. Perhaps it is just highlighting the absurdity of having a magnet implant because I'm in a different environment?
 
 ## Frequently Asked Questions
 
-As you'd expect, I've been asked a _lot_ of questions about my magnet. [^3] Most of the questions you may think to ask are already covered by Dangerous Thing's [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28), but I'll cover some more here.
+As you'd expect, I've been asked a _lot_ of questions about my magnet. [^3] Most of the questions you may think to ask are already covered by Dangerous Things' [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28), but I'll cover some more here.
 
 ### Will it set off metal detectors?
 
-Apparently not, but I will be testing this when I travel internationally later this year.
+People seem adamant that I'm going to get pinned down and held at gunpoint when going through airport security, but I haven't had any issue on international flights. I'd suggest that the magnet is just so small that it isn't even detected by devices of that fidelity, and if it were, it would be extremely obvious that it is internal, not external, and unlikely to pose a safety risk. I've read numerous reports from other implant owners, and none seem to have encountered issue.
+
+Dangerous Things' FAQ also indicates that it [isn't an issue](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28#faq-checkpoints).
 
 ### Are you going to get more?
 
@@ -134,10 +136,20 @@ Removing it is as 'simple' as finding a professional who can make a small incisi
 
 Assuming that I'm not sweaty, I can quite easily pick up cutlery or a set of scissors. That is about the extent of my lifting capabilities, though. Anything beyond that tends to slide off, though I can sometimes manage to drag or slide slightly heavier things around on a table or surface.
 
-### Do things get stuck to it?
+### Do things accidentally get stuck to it?
 
 Not really. Field falloff makes certain that it isn't strong enough to attract things from a far distance, so I have to put my hand right near a collection of iron filings or rust bits for it to pick them up. Once they're within the field, though, they tend to stick pretty well, and I have had to wipe off small bits of rust. It's worth taking care around iron filings, as they tend to have rather sharp serrated edges that you ideally don't want poking into your skin -- especially not in a position you chose for its superior sensation.
 
+### Will it harm electronics?
+
+Probably not. There are electronics which can be interfered with by a magnet of this size, but they're specialised, and there is a very low chance of actually encountering them in normal life. Most consumer electronics are completely unfazed by magnets in general.
+
+People worry about the implant wiping the magnetic stripe in a credit card, [^4] or killing hard drives, but my magnet simply isn't strong enough to do so -- I don't think there are any offerings on the market that can. Linus Tech Tips released a video [showing the strength of a magnet required to ruin a hard drive](https://www.youtube.com/shorts/VWjX52oAAMk). It requires a strength an order of magnitude stronger than my xG3.
+
 [^1]: The exact thickness depends on how deeply deposited the magnet is within the tissue. Ideally, it'll be close to the surface, but due to potential imperfect installation and migration during healing, this doesn't always end up being the case.
+
 [^2]: There is a [general naming guide](https://forum.dangerousthings.com/t/naming-convention-for-implant-locations-in-the-hand/6075/2) for the placement of implants within the hand.
+
 [^3]: Perhaps most humorously, people who have seen me lifting things, but to whom I haven't yet explained that I've got a subdermal magnet, sometimes ask me if my abilities are because I have high levels of iron in my blood.
+
+[^4]: If you've ever encountered an MRI machine or hung out near a mass spectrometer, you've likely been advised to keep credit cards and other potentially affected items out of their proximity, which likely influences this concern.
