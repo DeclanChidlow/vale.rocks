@@ -2,8 +2,8 @@
 title: My Experience Biohacking
 description: My experience getting an xG3 bio-magnet implanted in my hand. Covering the implantation, healing, and my newfound abilities.
 og_description: I'm pretty much a cyborg now.
-pub_time: 01/06/2025
-mod_time: 04/14/2025
+pub_time: 2025-01-06
+mod_time: 2025-04-14
 section: Essay
 word_count: 3265
 ---

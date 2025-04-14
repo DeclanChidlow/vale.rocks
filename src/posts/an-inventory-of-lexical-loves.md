@@ -3,9 +3,9 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-03-22
+mod_time: 2025-04-14
 section: Essay
-word_count: 652
+word_count: 806
 ---
 
 I love words and the English language [^1] happens to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
@@ -20,7 +20,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>Originally referring to the bubbling seen in a boiling liquid, but now used to describe bubbly enthusiasm or excitement.</dd>
 
 <dt>Radicool</dt>
-<dd>Portmanteau of 'radical' and 'cool' which really accentuates just how wicked something is.</dd>
+<dd>Portmanteau of 'radical' and 'cool', which really accentuates just how wicked something is.</dd>
 
 <dt>Defenestration</dt>
 <dd>To throw someone or something out a window. <a href="https://en.wikipedia.org/wiki/Defenestration">The Wikipedia article</a> is a good read for the origin.</dd>
@@ -50,13 +50,13 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>To discourse pompously at length. It kinda sounds like bovine, which is usually a good descriptor of your average bloviator.</dd>
 
 <dt>Orate</dt>
-<dd>To speak formally, and/or with passion.</dd>
+<dd>To speak formally and/or with passion.</dd>
 
 <dt>Pellucid</dt>
 <dd>Transparent or translucent, but most definitely not opaque.</dd>
 
 <dt>Vestigial</dt>
-<dd>The retention of characteristics that were once beneficial to an organism, but have since lost function/purpose due to evolution.</dd>
+<dd>The retention of characteristics that were once beneficial to an organism but have since lost function/purpose due to evolution.</dd>
 
 <dt>Cacophony</dt>
 <dd>An assortment (usually of sounds) that somehow all manage to fight each other. Auralize the sound of being in a room full of beginner recorder players all trying their best.</dd>
@@ -68,7 +68,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>Chlorophyll lacking eukaryotic organisms. Incredibly fun to say.</dd>
 
 <dt>Rambunctious</dt>
-<dd>To be boisterous, destructive, and disruptive. Think of how an out of control group of youths act.</dd>
+<dd>To be boisterous, destructive, and disruptive. Think of how an out-of-control group of youths act.</dd>
 
 <dt>Flummox</dt>
 <dd>To completely and absolutely perplex.</dd>
@@ -80,7 +80,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>To be dazzling and visually appealing.</dd>
 
 <dt>Gonzo</dt>
-<dd>Extreme, exaggerated, unconventional and quite possibly bizarre. Especially applicable in the context of certain form of journalism. See: <a href="https://en.wikipedia.org/wiki/Fear_and_loathing_in_las_vegas">Fear and Loathing in Las Vegas</a> and <a href="https://en.wikipedia.org/wiki/Gonzo_(Muppet)">Gonzo</a>.</dd>
+<dd>Extreme, exaggerated, unconventional and quite possibly bizarre. Especially applicable in the context of certain form of journalism. See: <a href="https://en.wikipedia.org/wiki/Fear_and_loathing_in_las_vegas">Fear and Loathing in Las Vegas</a> and <a href="https://en.wikipedia.org/wiki/Gonzo_(Muppet)">the Muppet</a>.</dd>
 
 <dt>Onomatopoeia</dt>
 <dd>A word that is a vocal imitation of a sound when said aloud.</dd>
@@ -135,6 +135,36 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Bork</dt>
 <dd>To break something.</dd>
+
+<dt>Quine</dt>
+<dd>A computer program that outputs its source code as it's output.</dd>
+
+<dt>Extemporaneous</dt>
+<dd>Carried out with minimal preparation or with preparation but without assistance during delivery.</dd>
+
+<dt>Sesquipedalian</dt>
+<dd>Using long words or too many long words. See: your endearing author.</dd>
+
+<dt>Syzygy</dt>
+<dd>In astrology, an alignment of two or more celestial bodies but also generally used to refer to a pair of connected/corresponding things.</dd>
+
+<dt>Malaise</dt>
+<dd>A general and vague sense of uneasiness.</dd>
+
+<dt>Palimpsest</dt>
+<dd>An document where the original content has been removed and new content has been put in its place. Depending on definition, the original content may still be legible.</dd>
+
+<dt>Petrichor</dt>
+<dd>The smell of rain hitting dry soil; the scent of rain.</dd>
+
+<dt>Logomachy</dt>
+<dd>A dispute about words, or a dispute waged only in words. See: the emails I've received about this post.</dd>
+
+<dt>Floccinaucinihilipilification</dt>
+<dd>The estimation of something as worthless. See: the existence of this word.</dd>
+
+<dt>Spud</dt>
+<dd>A potato. Much more fun to say then potato, though.</dd>
 </dl>
 
 [^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
