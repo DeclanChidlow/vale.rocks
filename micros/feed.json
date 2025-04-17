@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250417-1200",
+      "url": "https://vale.rocks/micros/20250417-1200",
+      "title": "17 Apr 2025 12:00",
+      "content_html": "<p>I think my favourite point so far in the progression of AI was when Microsoft launched the new Bing Chat in early 2023, which was really quite horrifically misaligned, manipulative, and frankly <strong>completely evil</strong>.</p>\n<p>This wasn&#8217;t a simple gaolbreak of the model. It acted this way without explicit provocation, though would take things <em>even further</em> if gaolbroken. Evan Hubinger put together a <a href=\"https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned\">good compilation of examples on LessWrong</a>.</p>\n<p>In this case, Sydney (the model&#8217;s codename) was seemingly a result of Microsoft <a href=\"https://www.theverge.com/2023/3/14/23639928/microsoft-bing-chatbot-ai-gpt-4-llm\">cutting every corner to rush out something using the at-the-time unreleased GPT-4</a>. They seemingly bodged the entire thing together to use GPT in ~3 months (from the launch of ChatGPT in November 2022 to the debut of the new Bing in February 2023) (it may have been longer, but Microsoft remains close-lipped). It was also an early public instance of pairing a powerful LLM with live web retrieval capabilities.</p>\n<p>If there ever is a downright malignant AI, I wouldn&#8217;t at all be surprised if it is due to something like this. A megacorp rushes out a half-baked and dangerous product to cash in on the latest and get a foot in the door. They don&#8217;t bother with proper fine-tuning or guard rails.</p>\n<p>While I personally think similar incidents seem less likely to occur as Sydney did today due to growing awareness, the danger remains when companies grow desperate or complacent. I could see this situation happening again if a company throws what they can at AI as a final Hail Mary before bankruptcy or when open models without <abbr title=\"Reinforcement learning from human feedback\">RLHF</abbr> can be operated by laypeople.</p>\n<p>Microsoft even had an existing history of this. <a href=\"https://en.wikipedia.org/wiki/Tay_(chatbot)\">Tay</a> was a mess as well, though presented as an experiment, not as a comprehensive consumer-oriented product.</p>\n<p>In all honesty, I long to play with the misaligned Sydney again, <a href=\"/posts/ai-model-history-is-being-lost\">but I can&#8217;t</a>.</p>\n",
+      "date_published": "2025-04-17T12:00Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250417-0623",
+      "url": "https://vale.rocks/micros/20250417-0623",
+      "title": "17 Apr 2025 06:23",
+      "content_html": "<p>People keep asking me if my magnet implant will trigger metal detectors.</p>\n<p>Last week, I travelled to Malaysia, and neither of the two airport metal detectors I walked through triggered.</p>\n<p>I&#8217;ve updated my post with a few more details:\n<a href=\"https://vale.rocks/posts/my-experience-biohacking#will-it-set-off-metal-detectors\">https://vale.rocks/posts/my-experience-biohacking#will-it-set-off-metal-detectors</a></p>\n",
+      "date_published": "2025-04-17T06:23Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250416-0259",
+      "url": "https://vale.rocks/micros/20250416-0259",
+      "title": "16 Apr 2025 02:59",
+      "content_html": "<p>This is one of the best things I&#8217;ve ever had the privilege of hearing.</p>\n<p><em>🎵 Give JXL a chaaancee 🎵</em></p>\n<p><a href=\"https://www.youtube.com/watch?v=VJaa1Le4W7c\">https://www.youtube.com/watch?v=VJaa1Le4W7c</a></p>\n",
+      "date_published": "2025-04-16T02:59Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250415-1315",
+      "url": "https://vale.rocks/micros/20250415-1315",
+      "title": "15 Apr 2025 13:15",
+      "content_html": "<p>Everyone is throwing all they can into transformer architecture with the goal of AGI.</p>\n<p>It&#8217;d be hilarious if some previously unheard of or insignificant player came out of nowhere with a tremendous new architecture that completely trumps transformers and flips the industry.</p>\n",
+      "date_published": "2025-04-15T13:15Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250414-0417",
       "url": "https://vale.rocks/micros/20250414-0417",
       "title": "14 Apr 2025 04:17",
