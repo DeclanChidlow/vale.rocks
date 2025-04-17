@@ -393,3 +393,7 @@
   url: leanrada.com
   rss: leanrada.com/rss.xml
   description: Software engineering and artsy stuff.
+- title: GlyphDrawing.Club
+  url: blog.glyphdrawing.club
+  atom: blog.glyphdrawing.club/feed.xml
+  description: Modular design, ASCII art, text art, typography, type design, HTML & CSS, programming, and other curious things. 
