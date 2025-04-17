@@ -57,17 +57,6 @@ main {
 	}
 }
 
-.visually-hidden {
-	position: absolute;
-	clip: rect(0, 0, 0, 0);
-	overflow: hidden;
-	height: 0;
-}
-
-.giscus {
-	margin-top: 3rem;
-}
-
 @media (max-width: 45rem) {
 	body {
 		margin: 0 0.8rem;
@@ -77,4 +66,15 @@ main {
 		flex-direction: column;
 		gap: 0;
 	}
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+	height: 0;
+}
+
+.giscus {
+	margin-top: 3rem;
 }
