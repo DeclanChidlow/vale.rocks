@@ -6,6 +6,27 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250421-0157",
+      "url": "https://vale.rocks/micros/20250421-0157",
+      "title": "21 Apr 2025 01:57",
+      "content_html": "<p>People are talking about Sam Altman’s declaration that “tens of millions of dollars” are being wasted due to users saying ‘please’ and ‘thank you’.</p>\n<p>Beyond the headline is the fact that politeness influences responses and that users do plenty of other things that burn more money.</p>\n",
+      "date_published": "2025-04-21T01:57Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250420-0522",
+      "url": "https://vale.rocks/micros/20250420-0522",
+      "title": "20 Apr 2025 05:22",
+      "content_html": "<p>We have artificial intelligence trained on decades worth of stories about misaligned, maleficent artificial intelligence that attempts violent takeover and world domination.</p>\n",
+      "date_published": "2025-04-20T05:22Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250418-1218",
+      "url": "https://vale.rocks/micros/20250418-1218",
+      "title": "18 Apr 2025 12:18",
+      "content_html": "<p>There is very little in this world more satisfying than getting CSS shorthand correct first time.</p>\n",
+      "date_published": "2025-04-18T12:18Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250417-1200",
       "url": "https://vale.rocks/micros/20250417-1200",
       "title": "17 Apr 2025 12:00",
