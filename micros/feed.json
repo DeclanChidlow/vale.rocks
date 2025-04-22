@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250423-0000",
+      "url": "https://vale.rocks/micros/20250423-0000",
+      "title": "23 Apr 2025 00:00",
+      "content_html": "<p>Bluesky is decentralised in concept, not in practice. The underlying AT Protocol is pretty open, but it imposes significant technical hurdles for any small player, and &#8211; as far as general usage is concerned &#8211; Bluesky remains a centralised authority for the wider network.</p>\n<p>If you build on the AT Protocol hoping to interface with the wider platform, and Bluesky stops you, you&#8217;re more or less dead in the water. Bluesky is the dominant provider and custodian of the network.</p>\n<p>They have full control over their moderation policies, feature rollouts, user onboarding, protocol development, etc. As we&#8217;ve seen with the introduction of checkmark verification, anyone can technically verify an account, but only Bluesky decides who is trusted, as seen by the majority of people.</p>\n<p>I&#8217;m not yet saying this is a bad thing, but it is worth considering. Bluesky shouldn&#8217;t be lauded as federated, because the authority for the biggest instance (the instance that calls the shots) can very well do what they want. It is federated, but only in the loosest sense.</p>\n<p>Bluesky is less federated and more the centre of its own solar system, with the rest of the network rotating around it.</p>\n",
+      "date_published": "2025-04-23T00:00Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250421-0157",
       "url": "https://vale.rocks/micros/20250421-0157",
       "title": "21 Apr 2025 01:57",
