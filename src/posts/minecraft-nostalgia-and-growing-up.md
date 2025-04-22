@@ -5,7 +5,6 @@ og_description: I'm feelin' nostalgic for the block game.
 pub_time: 2024-04-02
 mod_time: 2024-10-07
 section: Review
-word_count: 1586
 ---
 
 The first iteration of this article was written in a hotel room on a rainy Monday, overlooking Melbourne. It went live on April 2nd, 2024 -- the day of my 18th birthday. I had a lot running through my mind, including the new responsibilities and freedoms that come with being an adult.

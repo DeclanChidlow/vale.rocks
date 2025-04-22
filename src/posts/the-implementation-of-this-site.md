@@ -5,7 +5,6 @@ og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
 mod_time: 2025-03-28
 section: Meta
-word_count: 2309
 ---
 
 > [!NOTE]

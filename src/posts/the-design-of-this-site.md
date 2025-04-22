@@ -5,7 +5,6 @@ og_description: The thought behind the experience.
 pub_time: 2022-09-12
 mod_time: 2025-01-13
 section: Meta
-word_count: 1370
 ---
 
 The web used to embody its name -- a spider's web, a network of unique, interconnected sites woven together to construct a larger, open ecosystem. Unfortunately, we seem to have strayed from this vision. The focus has shifted from the freedom of independent sites to centralised, walled gardens, where profit takes precedence over user experience.

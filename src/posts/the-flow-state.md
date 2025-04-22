@@ -4,7 +4,6 @@ description: A description and look at the productive trance that is the flow st
 og_description: The hypnotic trance of productivity.
 pub_time: 2025-01-21
 section: Essay
-word_count: 946
 ---
 
 When you get down to the roots, development is all about problem solving. It doesn't matter the language you're using, the software you're building, or who you are. When you're developing, you're doing so to solve a problem. It all boils down to how able you are to do complex reasoning and how you can put that to use.

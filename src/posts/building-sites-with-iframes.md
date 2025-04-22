@@ -4,7 +4,6 @@ description: A look at putting iframes to use for seamlessly displaying content 
 og_description: Putting websites in websites.
 pub_time: 2024-10-08
 section: Tutorial
-word_count: 1145
 ---
 
 When I first entered the bloody fray that is the web development sphere, I did plenty of very dumb stuff thanks to not knowing any better. Before I figured out what a static site generator was or the concept of PHP's `include`, I copied a lot of code between sites. Namely, navs and footers.

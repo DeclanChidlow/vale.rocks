@@ -5,7 +5,6 @@ og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
 mod_time: 2025-04-14
 section: Essay
-word_count: 806
 ---
 
 I love words and the English language [^1] happens to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.

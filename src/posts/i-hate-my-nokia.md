@@ -5,7 +5,6 @@ og_description: Nokia is, quite literally, not the company they used to be.
 pub_time: 2024-02-03
 mod_time: 2024-07-03
 section: Review
-word_count: 1102
 ---
 
 My first phone was a RugGear RG930. If you think Nokia's [3310](https://www.gsmarena.com/nokia_3310-192.php) was built like a brick, then this thing may as well have been a rubberised titanium brick. It was so sturdy I used to play 'catch the phone' with friends, and it ended up face down on concrete more times than I can count, but I don't think it ever sustained so much as a scratch.

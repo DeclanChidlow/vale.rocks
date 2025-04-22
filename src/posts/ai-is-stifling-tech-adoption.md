@@ -5,7 +5,6 @@ og_description: AI coding assistants are React evangelists.
 pub_time: 2025-02-13
 mod_time: 2025-02-19
 section: Essay
-word_count: 1819
 ---
 
 I propose that the advent and integration of AI models into the workflows of developers has stifled the adoption of new and potentially superior technologies due to training data cutoffs and system prompt influence.

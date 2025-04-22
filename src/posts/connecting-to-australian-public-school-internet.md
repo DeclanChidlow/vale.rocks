@@ -5,7 +5,6 @@ og_description: The guide for when someone breaks the internet. Again...
 pub_time: 2022-10-12
 mod_time: 2024-03-03
 section: Tutorial
-word_count: 778
 ---
 
 Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.

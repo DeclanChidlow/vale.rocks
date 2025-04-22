@@ -42,7 +42,7 @@
 			<p>${ post/section }</p>
 			<h2>${ post/title }</h2>
 			<ul>
-				<li>${ post/word_count } words |</li>
+				<li>${ length(post/@text/split(" ")) } words |</li>
 				<li><time datetime="${ post/pub_time }" title="Date of first publication.">
 					${ functions/pretty-date.js(post/pub_time) }
 				</time></li>

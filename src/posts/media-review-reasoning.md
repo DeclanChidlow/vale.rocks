@@ -4,7 +4,6 @@ description: A breakdown of the reasoning behind my reviews with particular emph
 og_description: How many stars equal good?
 pub_time: 2024-12-10
 section: Essay
-word_count: 809
 ---
 
 It has often been mused that writing is the key to proper thinking. Media, whether fiction or non-fiction, tends to prompt introspection and analysis. Failure to write about, or at the very least mentally categorise, media consumption feels almost a waste.

@@ -5,7 +5,6 @@ og_description: I will never let it rest.
 pub_time: 2025-01-26
 mod_time: 2025-02-20
 section: Tutorial
-word_count: 849
 ---
 
 In July 2010, Amazon released the Kindle 3, also known as the Kindle Keyboard. With a smaller footprint than the Kindle 2, more internal storage, and an improved display, the Kindle 3 was a marked improvement. Even now, over a decade past its release, it's still a joy to use.

@@ -5,7 +5,6 @@ og_description: Better hope you don't need to call emergency services.
 pub_time: 2023-11-26
 mod_time: 2024-05-06
 section: Essay
-word_count: 1012
 ---
 
 First introduced in 2001, 3G began its adoption in Australia in 2003, marking its long standing presence in the tech landscape. However, technological advancements since then have led to a shift away from 3G in favour of 4G and 5G networks. Initially, it might seem non-alarming that plans for Australia's 3G network disconnection were announced for as early as December, but the reality is more significant than anticipated.

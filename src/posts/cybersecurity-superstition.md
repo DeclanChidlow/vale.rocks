@@ -5,7 +5,6 @@ og_description: It's time to cut through the cyber clutter.
 pub_time: 2024-02-28
 mod_time: 2024-03-06
 section: Essay
-word_count: 1841
 ---
 
 Fear of hacking often conjures up images of a solitary figure cloaked in darkness, sporting a hoodie, and surrounded by monitors cascading Matrix style green code. Bonus points if the 'hacker' is wearing a Guy Fawkes mask. However, this depiction couldn't be further from the truth. Most of the hackers I know either wear thigh high pink socks or are balding and middle aged.
