@@ -25,7 +25,7 @@
 			<p data-pagefind-filter="Post Category">${ post/section }</p>
 			<h1 class="p-name">${ post/title }</h1>
 			<ul>
-				<li>${ length(post/@text/split(" ")) } words</li>
+				<li>${ post/words } words</li>
 				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
 				${ post/mod_time ? `
 					<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
