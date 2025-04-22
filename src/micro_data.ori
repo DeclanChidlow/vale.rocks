@@ -1,10 +1,10 @@
 micros
 → =map(_, (micro, fileName) => {
-  ...micro
-  type: "micro"
-  file_name: basename(fileName)
-  pub_time: functions/micro-date.js(file_name)
-  title: `${ functions/pretty-date.js(pub_time) } ${ functions/pretty-time.js(pub_time) }`
+	...micro
+	type: "micro"
+	file_name: basename(fileName)
+	pub_time: functions/micro-date.js(file_name)
+	title: `${ functions/pretty-date.js(pub_time) } ${ functions/pretty-time.js(pub_time) }`
 })
 → =map(_, {
 	extension: ".md->.html"
