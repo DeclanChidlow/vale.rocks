@@ -6,11 +6,53 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250423-0100",
+      "url": "https://vale.rocks/micros/20250423-0100",
+      "title": "23 Apr 2025 01:00",
+      "content_html": "<p>My caffeine tolerance is already extremely low thanks to my self-imposed restriction of only actively consuming caffeine a maximum of three times a week. For reference, one cup of coffee past noon will keep me awake into the early morning. A cup of tea past ~15:00 will have a noticeable impact on my ability to fall asleep.</p>\n<p>My caffeine consumption the past two weeks has been very low. For reference, <a href=\"https://pubmed.ncbi.nlm.nih.gov/15448977/\">about two weeks</a> without any caffeine is about how long it takes for tolerance to be lost.</p>\n<p>Yesterday I had a cup of tea followed by an instant coffee (tea first for the possible benefits of theanine). I was jittering, my mind felt sharp, I was honed in, and I felt overheated. I&#8217;ve never had such a strong effect from caffeine before. Even with my low intake and care taken not to consume too much, I must have had a tolerance built up.</p>\n",
+      "date_published": "2025-04-23T01:00Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250423-0000",
       "url": "https://vale.rocks/micros/20250423-0000",
       "title": "23 Apr 2025 00:00",
       "content_html": "<p>Bluesky is decentralised in concept, not in practice. The underlying AT Protocol is pretty open, but it imposes significant technical hurdles for any small player, and &#8211; as far as general usage is concerned &#8211; Bluesky remains a centralised authority for the wider network.</p>\n<p>If you build on the AT Protocol hoping to interface with the wider platform, and Bluesky stops you, you&#8217;re more or less dead in the water. Bluesky is the dominant provider and custodian of the network.</p>\n<p>They have full control over their moderation policies, feature rollouts, user onboarding, protocol development, etc. As we&#8217;ve seen with the introduction of checkmark verification, anyone can technically verify an account, but only Bluesky decides who is trusted, as seen by the majority of people.</p>\n<p>I&#8217;m not yet saying this is a bad thing, but it is worth considering. Bluesky shouldn&#8217;t be lauded as federated, because the authority for the biggest instance (the instance that calls the shots) can very well do what they want. It is federated, but only in the loosest sense.</p>\n<p>Bluesky is less federated and more the centre of its own solar system, with the rest of the network rotating around it.</p>\n",
       "date_published": "2025-04-23T00:00Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250422-1502",
+      "url": "https://vale.rocks/micros/20250422-1502",
+      "title": "22 Apr 2025 15:02",
+      "content_html": "<p>I&#8217;ve received a nauseating haul of emails today from global conglomerates celebrating Earth Day while actively gutting the planet.</p>\n<p>Greenwashing smears, the lot of them. What a farce.</p>\n",
+      "date_published": "2025-04-22T15:02Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250422-1013",
+      "url": "https://vale.rocks/micros/20250422-1013",
+      "title": "22 Apr 2025 10:13",
+      "content_html": "<p>Evidently I have a reputation&#8230;</p>\n<p><img src=\"https://fedi.vale.rocks/media/ce3214743c9bc43b6ea89101ab95cdccb44b456562194301f1cf9bb22c2c1cb1.png\" alt=\"A section of the Google search results page for the query \"Declan Chidlow\". Under a heading labelled \"People also search for\" are the items: CSS-tricks flexbox, CSS new logo, CSS website, CSS download, CSS documentation, CSS game, CSS website templates, and CSS-tricks grid.\"></p>\n",
+      "date_published": "2025-04-22T10:13Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250422-0420",
+      "url": "https://vale.rocks/micros/20250422-0420",
+      "title": "22 Apr 2025 04:20",
+      "content_html": "<p>LinkedIn is truly unrivalled in terms of people stealing my work, running it through an LLM, and reuploading it.</p>\n<p>Quite a shame to see but not at all unexpected.</p>\n",
+      "date_published": "2025-04-22T04:20Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250422-0011",
+      "url": "https://vale.rocks/micros/20250422-0011",
+      "title": "22 Apr 2025 00:11",
+      "content_html": "<p>There are certain people that reliably make excellent posts such that I feel compelled to engage with them.</p>\n<p>Sometimes I find myself engaging with a singular person&#8217;s posts a lot and find myself thinking that it feels a tad intrusive.</p>\n<p>Just one of those things about social media platforms.</p>\n",
+      "date_published": "2025-04-22T00:11Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250421-0452",
+      "url": "https://vale.rocks/micros/20250421-0452",
+      "title": "21 Apr 2025 04:52",
+      "content_html": "<p>Need a laugh? Calibri&#8217;s Wikipedia page has a section titled &#8220;In crime and politics&#8221;.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Calibri#In_crime_and_politics\">https://en.wikipedia.org/wiki/Calibri#In_crime_and_politics</a></p>\n",
+      "date_published": "2025-04-21T04:52Z"
     },
     {
       "id": "https://vale.rocks/micros/20250421-0157",
