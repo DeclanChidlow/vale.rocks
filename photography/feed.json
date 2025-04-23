@@ -6,6 +6,51 @@
   "feed_url": "https://vale.rocks/photography/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/photography/zoo-gazebo",
+      "url": "https://vale.rocks/photography/zoo-gazebo",
+      "title": "Gazebo with a picturesque background at the zoo.",
+      "image": "https://images.unsplash.com/photo-1745383353937-43d77ab3fbe1",
+      "content_html": "",
+      "summary": "A small, dark-roofed gazebo on a path. Behind it is foliage, landscaping, and a few other small structures. In the far background is a huge green hill under a blue sky peppered with clouds.",
+      "date_published": "2025-04-23"
+    },
+    {
+      "id": "https://vale.rocks/photography/painted-stork",
+      "url": "https://vale.rocks/photography/painted-stork",
+      "title": "A painted stork near a pond.",
+      "image": "https://images.unsplash.com/photo-1745383353892-103cb46c84ba",
+      "content_html": "",
+      "summary": "A large white bird with black flight feathers and a long yellow beak stands near a pond surrounded by lush green foliage. Its head is bald and pinkish, and it has a tag on one of its pink legs.",
+      "date_published": "2025-04-23"
+    },
+    {
+      "id": "https://vale.rocks/photography/emerald-tree-skink",
+      "url": "https://vale.rocks/photography/emerald-tree-skink",
+      "title": "An emerald tree skink on a branch.",
+      "image": "https://images.unsplash.com/photo-1745383353832-4c94e151a221",
+      "content_html": "",
+      "summary": "A close-up of a vibrant green lizard with shiny, scale-covered skin resting on a tree branch. The background is blurred leaves and wood.",
+      "date_published": "2025-04-23"
+    },
+    {
+      "id": "https://vale.rocks/photography/cat-and-capybara",
+      "url": "https://vale.rocks/photography/cat-and-capybara",
+      "title": "A cat lying next to a capybara.",
+      "image": "https://images.unsplash.com/photo-1745383353771-63330887542f",
+      "content_html": "",
+      "summary": "A cat and a capybara lying down on a sunlit, shaded patch of concrete. The cat is stretched out in the foreground, while the capybara is resting near a stone wall in the background. Both animals appear relaxed and undisturbed by each other.",
+      "date_published": "2025-04-23"
+    },
+    {
+      "id": "https://vale.rocks/photography/axolotl",
+      "url": "https://vale.rocks/photography/axolotl",
+      "title": "An axolotl resting.",
+      "image": "https://images.unsplash.com/photo-1745383353882-8884c3fd45a5",
+      "content_html": "",
+      "summary": "A close-up of a pale axolotl with pink external gills, resting on rocks in a dark little alcove.",
+      "date_published": "2025-04-23"
+    },
+    {
       "id": "https://vale.rocks/photography/mountains-across-water-from-road",
       "url": "https://vale.rocks/photography/mountains-across-water-from-road",
       "title": "Mountains viewed across the water from a road.",
