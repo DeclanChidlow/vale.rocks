@@ -238,3 +238,6 @@
 - title: Glyph Drawing Club
   url: glyphdrawing.club
   description: Modular design and text art tool, suitable for creating custom type design, illustrations, patterns, and more.
+- title: SVG Filter Maker
+  url: svgfm.chriskirknielsen.com
+  description: A node graph builder for SVG filters.
