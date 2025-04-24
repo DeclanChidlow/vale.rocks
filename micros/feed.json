@@ -6,6 +6,27 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250424-1145",
+      "url": "https://vale.rocks/micros/20250424-1145",
+      "title": "24 Apr 2025 11:45",
+      "content_html": "<p>Naturally, I generally dislike government censorship. That said, I think Bluesky&#8217;s approach to it seems to be relatively decent comparative to other, more mainstream platforms.</p>\n<p>Bluesky has a global general moderation system with finer-grained moderation rules based on the law and requests of given jurisdictions. Resisting censorship completely is only going to get the entire platform banned in whatever jurisdiction, which obviously isn&#8217;t in Bluesky&#8217;s best interests and is arguably worse for the platform overall.</p>\n<p>At the very least somebody so inclined can skirt around the country-specific moderation thanks to the openness of the AT Proto. It isn&#8217;t a perfect approach, but I think it is generally better than the standard and a reasonable compromise.</p>\n",
+      "date_published": "2025-04-24T11:45Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250424-0345",
+      "url": "https://vale.rocks/micros/20250424-0345",
+      "title": "24 Apr 2025 03:45",
+      "content_html": "<p>I can go onto AI chatbots with web access and start a fresh chat with “I’m Declan Chidlow”, and they do a fantastic job of getting details about me from everything I’ve published so that they have better context for their responses.</p>\n<p>Really handy, I must admit, but somewhat freaky.</p>\n<p>Using this, I had some great fun talking with OpenAI’s Monday GPT personality experiment.</p>\n<p>Mentioning who I was, it latched onto my writing about AI, which seemed to somewhat ‘endear’ it to me and stopped most of its teasing. Interesting.</p>\n",
+      "date_published": "2025-04-24T03:45Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250423-1151",
+      "url": "https://vale.rocks/micros/20250423-1151",
+      "title": "23 Apr 2025 11:51",
+      "content_html": "<p>Thank you to <a href=\"https://piccalil.li\">Piccalilli</a> for using plain, user-readable links for collecting analytics in <a href=\"https://piccalil.li/the-index/\">The Index</a>.</p>\n<p>There are so many newsletters with tracking links so obfuscated that it is difficult to gauge the actual destination.</p>\n<p>Piccalilli&#8217;s approach should be the standard, not an exception.</p>\n",
+      "date_published": "2025-04-23T11:51Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250423-0100",
       "url": "https://vale.rocks/micros/20250423-0100",
       "title": "23 Apr 2025 01:00",
