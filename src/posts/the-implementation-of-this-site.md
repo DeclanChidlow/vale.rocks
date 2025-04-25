@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2025-03-28
+mod_time: 2025-04-25
 section: Meta
 ---
 
@@ -110,11 +110,9 @@ As everything is hosted on GitHub, I make use of [GitHub Pages](https://pages.gi
 
 ### Analytics
 
-I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I _love_ being able to see what country people are showing up from (so many Hacker News clients), what devices they're using [^2] and their browsers. Being able to see view counts tick up also does wonders for my motivation.
+I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because [I rather enjoy nerding out and analysing the traffic](/posts/traffic-analysis).
 
-I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I'll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It's lovely being able to go down little rabbit holes inspecting such cases.
-
-As for _how_ analytics are collected, I do it via [GoatCounter](https://www.goatcounter.com), which provides simple, lightweight, and open-source analytics. It'll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or bolstering the number of mobile users as they might be unable to install extensions. I make all that collected data public at [stats.vale.rocks](https://stats.vale.rocks).
+As for _how_ analytics are collected, I do it via [GoatCounter](https://www.goatcounter.com), which provides simple, lightweight, and open-source analytics. It'll be blocked by pretty much every content blocker, which has some significant skews on the data. I make all that collected data public at [stats.vale.rocks](https://stats.vale.rocks).
 
 ## Information Architecture
 
@@ -126,16 +124,14 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^2] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.
 
 It is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
-All the content going into the firehose data tree is given a `type` property [^4] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
+All the content going into the firehose data tree is given a `type` property [^3] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
 
 [^1]: Or perhaps more accurately for the web, endnotes.
 
-[^2]: Being able to see people showing up on obscure devices like [Windows Phones](https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I) always prompts a chuckle.
+[^2]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
 
-[^3]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
-
-[^4]: For example, [micros](/micros) get a `type` property of "micro", and [posts](/posts) are given a `type` property of "post".
+[^3]: For example, [micros](/micros) get a `type` property of "micro", and [posts](/posts) are given a `type` property of "post".
