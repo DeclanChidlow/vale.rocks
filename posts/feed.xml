@@ -6,6 +6,51 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/posts/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 GMT</pubDate>
+      <title>The Analytics of This Site</title>
+      <link>https://vale.rocks/posts/traffic-analysis</link>
+      <guid>https://vale.rocks/posts/traffic-analysis</guid>
+      <description>A look at website traffic to Vale.Rocks and a general analysis of the analytics. Particularly looking at popular referrers and the variance from general web analytics.</description>
+      <content:encoded><![CDATA[<p>I collect some anonymous analytics on my Vale.Rocks. Not because I feel the need to spy on my users every move, but rather because I quite enjoy nerding out about statistics. I love being able to see what country people are showing up from, what devices they’re using, and their browsers. Being able to see view counts tick up also helps my motivation.</p>
+<p>I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I’ll find that one of my posts has ended up in some obscure non-English newsletter, or at other times on some niche forum straight out of the last century. It’s lovely being able to go down little rabbit holes inspecting such cases and to jump into discussions across the net.</p>
+<p>I collect referrers, browsers, operating systems, screen resolutions, locations, and languages.</p>
+<p>GoatCounter is blocked by every ad/content blocker I&#8217;ve tested. It wouldn&#8217;t be difficult to skirt around this, but I don&#8217;t want to. If people have made the (presumably informed) decision to block advertisements and tracking scripts, I wish to respect that decision. Yes, it will skew the data, but that is a price I&#8217;m willing to pay. I value my visitors decisions and autonomy.</p>
+<h2 id="notes">Notes</h2>
+<p>My readership is not representative of a general audience. As a byproduct of my chosen topics and most popular writings, my readership is largely technical. This is manifested in the data in multiple ways.</p>
+<p>As of March 2025, <a href="https://gs.statcounter.com/browser-market-share/">statcounter&#8217;s Browser Market Share Worldwide data</a> places Chrome at 66.16%, Edge at 5.17%, Safari at 17.62%, and Firefox at 2.52% market share. Vale.Rocks is at contrast to this with Chrome at 49% (I believe Chromium-based Edge is included in this figure), Safari at 41%, and Firefox at 10%. Given that Firefox still supports <a href="/posts/everything-is-chrome#manifest-v3">Manifest v2</a>, it is the natural choice for adblockers. As such, it may actually be <em>under</em>-represented in this data.</p>
+<p>Going off the figure that <a href="https://backlinko.com/ad-blockers-users">31.5% of people globally use adblockers</a> (a figure which <a href="https://www.theregister.com/2024/03/27/america_ad_blocker/">might be conservative</a>), my statistics are possibly 30% or more larger. Though it might be even higher due to my technical audience, which is more likely to use adblockers and block tracking.</p>
+<p><a href="https://plausible.io/blog/google-analytics-adblockers-missing-data">Plausible claims that, overall, 58% of people in tech-savy audiences block Google Analytics</a>. They consider tech-savvy audiences to mainly be Hacker News readers and Reddit users &#8211; my two biggest referrers. They claim that 88% of Firefox users block GA, and 82% of Linux users do as well, which are both already over-represented in my data.</p>
+<p>GoatCounter reports iOS as the most used operating system, but it is also the most difficult of all the major operating systems to install content blockers onto. MacOS and Linux are represented more than they are generally, but I would expect that from a technical audience. It also seems twisted people occasionally <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">tune in from Windows Phones</a>.</p>
+<p>This all likely leads to <em>under</em>-representing what is already <em>over</em>-represented in my analytics &#8211; at least as compared to a more general, less niche, audience. If you&#8217;d like to attempt to extrapolate the actual values based on the above notes, you&#8217;re welcome to, but I&#8217;ll be presenting the data values as it comes from GoatCounter.</p>
+<p>By a sizable margin (~84%), most site visitors speak English, as you&#8217;d expect from a website written in English. This tends to be followed by German at around the 3–4% mark and then French, Spanish, and Italian. Beyond that, numbers get too small to be of much note.</p>
+<p>As you&#8217;d expect based on languages, Western countries are the biggest readers. The US is in the lead at ~40%. I&#8217;d assume this is in no small part due to Hacker News. Germany follows at ~7% alongside the UK. This is followed by Canada, Australia, and India. I&#8217;d suggest India is up there by virtue of the country&#8217;s large population rather than any specific Indian readership. I&#8217;d also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.</p>
+<p>In the below lists of top referrers, Hacker News does not include all alternate front-ends. There are <em>a lot</em> of Hacker News front-ends. <em>A lot</em>.</p>
+<h2 id="2025">2025</h2>
+<h3 id="quarter-1">Quarter 1</h3>
+<p><em>For the quarter running from 01/01/2025 until 03/31/2025.</em></p>
+<p>Total visits during this period: 50,094</p>
+<p>Most popular pages:</p>
+<ol>
+<li><a href="/posts/ai-is-stifling-tech-adoption">AI is Stifling Tech Adoption</a> - 28,570 hits</li>
+<li><a href="/posts/my-experience-biohacking">My Experience Biohacking</a> - 6,656 hits</li>
+<li><a href="/posts/everything-is-chrome">Everything Is Chrome</a> - 3,296 hits</li>
+<li><a href="/">Landing</a> - 2835 hits</li>
+<li><a href="/posts/strong-opinions-on-url-design">Strong Opinions on URL Design</a> - 1,067 hits</li>
+</ol>
+<p>Top referrers:</p>
+<ol>
+<li><a href="https://news.ycombinator.com">Hacker News</a> - 21,376 hits</li>
+<li><a href="https://tldr.tech">TLDR</a> - 2,934 hits</li>
+<li><a href="https://reddit.com">Reddit</a> - 2,281 hits</li>
+<li>Hacker Newsletter - 825 hits</li>
+<li>X (formerly Twitter) - 339 hits</li>
+</ol>
+<h2 id="2024">2024</h2>
+<p>Pre-2025 stats are fairly rough due to a failed merging of page statistics done in an attempt to address a change in URL structure &#8211; particularly the data early in the year. <a href="/posts/jpeg-xl-and-googles-war-against-it">JPEG XL and Google&#8217;s War Against It</a> was the first time I saw any notable traffic, and it <a href="https://news.ycombinator.com/item?id=40221765">almost exclusively came from Hacker News</a>. From memory, there was a spike of ~1.7K readers over a 24-hour period. Based on subsequent Hacker News hits of mine, this <em>seems</em> low, but it wasn&#8217;t widely shared outside of Hacker News and was somewhat controversial, which would have stifled its publicity.</p>
+<p>In late 2024, I <a href="https://www.htmhell.dev/adventcalendar/2024/20/">wrote for HTMHell</a>, sending a small spike of users to my site. Around the same time, Web Origami also did the rounds on Hacker News, sending a fair few users this way both through a link I posted to this site&#8217;s homepage, a link to my post on <a href="https://vale.rocks/posts/the-implementation-of-this-site">The Implementation of This Site</a> in <a href="https://news.ycombinator.com/item?id=42414192">the comments</a> and the project&#8217;s website from people checking out the <a href="https://weborigami.org/language/examples">examples page</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Fri, 18 Apr 2025 00:00:00 GMT</pubDate>
       <title>Airports and Aeroplanes</title>
       <link>https://vale.rocks/posts/airports-and-aeroplanes</link>
@@ -894,17 +939,16 @@
 <p>I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available <a href="https://github.com/DeclanChidlow/vale.rocks">in its entirety</a> if you&#8217;d like to have a look.</p>
 <p>As everything is hosted on GitHub, I make use of <a href="https://pages.github.com">GitHub Pages</a>, which has a generous free plan. I have an <a href="https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-site.yml">automated workflow configured using GitHub Actions</a> that builds and deploys the site when I push to the main branch of my repository.</p>
 <h3 id="analytics">Analytics</h3>
-<p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because I rather enjoy nerding out about statistics. I <em>love</em> being able to see what country people are showing up from (so many Hacker News clients), what devices they&#8217;re using <sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> and their browsers. Being able to see view counts tick up also does wonders for my motivation.</p>
-<p>I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I&#8217;ll find that one of my posts has ended up in some obscure non-English newsletter, or other times on some niche forum straight out of the last century. It&#8217;s lovely being able to go down little rabbit holes inspecting such cases.</p>
-<p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which probably has some significant skews on the data, such as hiding my more technical audience, who are likely to make use of such tools, or bolstering the number of mobile users as they might be unable to install extensions. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
+<p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because <a href="/posts/traffic-analysis">I rather enjoy nerding out and analysing the traffic</a>.</p>
+<p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which has some significant skews on the data. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
 <h2 id="information-architecture">Information Architecture</h2>
 <p>Vale.Rocks is implemented following my own <a href="/posts/strong-opinions-on-url-design">Strong Opinions On URL Design</a>. Chiefly, this means that there <em>aren&#8217;t</em> <a href="/posts/strong-opinions-on-url-design#useless-paths">useless paths</a>.</p>
 <p>The site is split up into sections for each type of content (eg, posts, micros, photography, etc) with (sometimes paginated) top-level pages for each of them displaying a list of the content.</p>
 <p>Individual pages (eg, contact, support, etc) are served as top-level pages and are not unnecessarily nested.</p>
 <h3 id="firehose">Firehose</h3>
-<p>Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My <a href="/firehose">firehose page</a><sup><a id="footnote-ref-3" href="#footnote-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.</p>
+<p>Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My <a href="/firehose">firehose page</a><sup><a id="footnote-ref-2" href="#footnote-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.</p>
 <p>It is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.</p>
-<p>All the content going into the firehose data tree is given a <code>type</code> property <sup><a id="footnote-ref-4" href="#footnote-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup> which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.</p>
+<p>All the content going into the firehose data tree is given a <code>type</code> property <sup><a id="footnote-ref-3" href="#footnote-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.</p>
 <section class="footnotes" data-footnotes>
 <h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
@@ -912,13 +956,10 @@
 <p>Or perhaps more accurately for the web, endnotes. <a href="#footnote-ref-1" data-footnote-backref aria-label="Back to reference 1">↩</a></p>
 </li>
 <li id="footnote-2">
-<p>Being able to see people showing up on obscure devices like <a href="https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I">Windows Phones</a> always prompts a chuckle. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
+<p>The terminology of firehose was inspired by the <a href="https://atproto.com/specs/sync#firehose">AT Protocol&#8217;s usage of the term</a>. <a href="#footnote-ref-2" data-footnote-backref aria-label="Back to reference 2">↩</a></p>
 </li>
 <li id="footnote-3">
-<p>The terminology of firehose was inspired by the <a href="https://atproto.com/specs/sync#firehose">AT Protocol&#8217;s usage of the term</a>. <a href="#footnote-ref-3" data-footnote-backref aria-label="Back to reference 3">↩</a></p>
-</li>
-<li id="footnote-4">
-<p>For example, <a href="/micros">micros</a> get a <code>type</code> property of &#8220;micro&#8221;, and <a href="/posts">posts</a> are given a <code>type</code> property of &#8220;post&#8221;. <a href="#footnote-ref-4" data-footnote-backref aria-label="Back to reference 4">↩</a></p>
+<p>For example, <a href="/micros">micros</a> get a <code>type</code> property of &#8220;micro&#8221;, and <a href="/posts">posts</a> are given a <code>type</code> property of &#8220;post&#8221;. <a href="#footnote-ref-3" data-footnote-backref aria-label="Back to reference 3">↩</a></p>
 </li>
 </ol>
 </section>
