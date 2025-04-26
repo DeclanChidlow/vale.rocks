@@ -939,7 +939,7 @@
 <p>I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available <a href="https://github.com/DeclanChidlow/vale.rocks">in its entirety</a> if you&#8217;d like to have a look.</p>
 <p>As everything is hosted on GitHub, I make use of <a href="https://pages.github.com">GitHub Pages</a>, which has a generous free plan. I have an <a href="https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-site.yml">automated workflow configured using GitHub Actions</a> that builds and deploys the site when I push to the main branch of my repository.</p>
 <h3 id="analytics">Analytics</h3>
-<p>I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because <a href="/posts/traffic-analysis">I rather enjoy nerding out and analysing the traffic</a>.</p>
+<p>I collect analytics on Vale.Rocks. You can <a href="/posts/traffic-analysis">check out my analysis and some info about why I choose to collect them</a>.</p>
 <p>As for <em>how</em> analytics are collected, I do it via <a href="https://www.goatcounter.com">GoatCounter</a>, which provides simple, lightweight, and open-source analytics. It&#8217;ll be blocked by pretty much every content blocker, which has some significant skews on the data. I make all that collected data public at <a href="https://stats.vale.rocks">stats.vale.rocks</a>.</p>
 <h2 id="information-architecture">Information Architecture</h2>
 <p>Vale.Rocks is implemented following my own <a href="/posts/strong-opinions-on-url-design">Strong Opinions On URL Design</a>. Chiefly, this means that there <em>aren&#8217;t</em> <a href="/posts/strong-opinions-on-url-design#useless-paths">useless paths</a>.</p>
@@ -2463,7 +2463,13 @@ If you&#8217;re wondering, the browser you&#8217;re reading this article in <spa
 </li>
 </ul>
 <p>If you&#8217;d like to see most of the site&#8217;s numerous features and stylings in one place, you can do so on my <a href="/posts/lorem-ipsum">Lorem Ipsum page</a>. It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.</p>
-<p>If you&#8217;d like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">&#8220;The Implementation of This Site&#8221;</a>.</p>
+<p>If you&#8217;d like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post <a href="/posts/the-implementation-of-this-site">The Implementation of This Site</a>.</p>
+<h2 id="reading-checkpoints">Reading Checkpoints</h2>
+<p>I&#8217;m a text-heavy person, but walls of text can be off-putting and disorienting &#8211; especially on the web. Books and tablets are paginated. Scrolls are furled and unfurled, or otherwise present over a long physical space.</p>
+<p>The web is a single continuous document, and it can be difficult to keep your place while scrolling. As such, I make an effort to place &#8216;checkpoints&#8217; throughout my writing. Checkpoints being visual indicators that one can use to anchor themselves within a post &#8211; a visual reference point for orienting oneself.</p>
+<p>Although images are the largest and most obvious document-level checkpoints, I tend not to use many of them. Tables are also big and obvious, though I tend not to use many of them either. I do use a fair amount of blockquotes, codeblocks, lists, and callouts/alerts, however, which help with staying oriented.</p>
+<p>As for helping people keep their position within a paragraph, links are simple but effective. The same goes for <code>inline codeblocks</code>, and to a lesser extent, <em>italics</em>, <strong>bold text</strong>, and <del>strikethroughs</del>.</p>
+<p>Headings also help readers place themselves (as well as reference their location), and this is further benefited by <a href="/posts/the-implementation-of-this-site#scroll-indication">scroll indication</a>.</p>
 <h2 id="inspirations">Inspirations</h2>
 <p>Like all endeavours, and especially creative ones (which I would argue this site is), I&#8217;ve <em>borrowed</em> many ideas from external sources.</p>
 <p>Perhaps most notable is <a href="https://gwern.net">the site of Gwern Branwen</a>, a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern&#8217;s site long after starting the development of this one, many of its eccentricities have made their way over, as you&#8217;ve no doubt noticed if you&#8217;ve ever paid Gwern&#8217;s site a visit.</p>
