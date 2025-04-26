@@ -3,7 +3,7 @@ title: The Design of This Site
 description: A breakdown and overview of the design choices of Vale.Rocks, as well as its influences and brief touchings on the site's philosophy.
 og_description: The thought behind the experience.
 pub_time: 2022-09-12
-mod_time: 2025-01-13
+mod_time: 2025-04-26
 section: Meta
 ---
 
@@ -71,7 +71,19 @@ Vale.Rocks is home to many non-standard features and some notable implementation
 
 If you'd like to see most of the site's numerous features and stylings in one place, you can do so on my [Lorem Ipsum page](/posts/lorem-ipsum). It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.
 
-If you'd like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post ["The Implementation of This Site"](/posts/the-implementation-of-this-site).
+If you'd like detailed information about the implementation of the features on this site (and this site itself), then you should consult my post [The Implementation of This Site](/posts/the-implementation-of-this-site).
+
+## Reading Checkpoints
+
+I'm a text-heavy person, but walls of text can be off-putting and disorienting -- especially on the web. Books and tablets are paginated. Scrolls are furled and unfurled, or otherwise present over a long physical space.
+
+The web is a single continuous document, and it can be difficult to keep your place while scrolling. As such, I make an effort to place 'checkpoints' throughout my writing. Checkpoints being visual indicators that one can use to anchor themselves within a post -- a visual reference point for orienting oneself.
+
+Although images are the largest and most obvious document-level checkpoints, I tend not to use many of them. Tables are also big and obvious, though I tend not to use many of them either. I do use a fair amount of blockquotes, codeblocks, lists, and callouts/alerts, however, which help with staying oriented.
+
+As for helping people keep their position within a paragraph, links are simple but effective. The same goes for `inline codeblocks`, and to a lesser extent, _italics_, **bold text**, and ~~strikethroughs~~.
+
+Headings also help readers place themselves (as well as reference their location), and this is further benefited by [scroll indication](/posts/the-implementation-of-this-site#scroll-indication).
 
 ## Inspirations
 
@@ -90,4 +102,5 @@ Another source of inspiration for this site is [Josh W Comeau's site](https://ww
 ---
 
 [^1]: It is also, to some extent, built with me in mind as a user. Rather than maintaining a separate knowledge base, journal, or index of my creations, much of that content is instead published here where I can search and reference it. This is especially valuable paired with the [search page](/search), which makes it trivial to search and reference pretty much everything I've deemed noteworthy enough to release on the internet.
+
 [^2]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.

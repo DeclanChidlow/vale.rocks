@@ -110,7 +110,7 @@ As everything is hosted on GitHub, I make use of [GitHub Pages](https://pages.gi
 
 ### Analytics
 
-I collect some anonymous analytics on my site. Not because I feel the need to spy on my users every move, but because [I rather enjoy nerding out and analysing the traffic](/posts/traffic-analysis).
+I collect analytics on Vale.Rocks. You can [check out my analysis and some info about why I choose to collect them](/posts/traffic-analysis).
 
 As for _how_ analytics are collected, I do it via [GoatCounter](https://www.goatcounter.com), which provides simple, lightweight, and open-source analytics. It'll be blocked by pretty much every content blocker, which has some significant skews on the data. I make all that collected data public at [stats.vale.rocks](https://stats.vale.rocks).
 
