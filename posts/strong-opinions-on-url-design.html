@@ -130,7 +130,7 @@
 			<p data-pagefind-filter="Post Category">Rant</p>
 			<h1 class="p-name">Strong Opinions on URL Design</h1>
 			<ul>
-				<li>1154 words</li>
+				<li>1146 words</li>
 				<li><time class="dt-published" datetime="2025-02-24" title="Date of first publication.">24 Feb 2025</time></li>
 				
 					<li><time class="dt-updated" datetime="2025-03-04" title="Date of last notable modification.">04 Mar 2025</time></li>
@@ -141,10 +141,10 @@
 		<div class="readable-width e-content">
 			<p>I came to realise the other day that, for reasons unbeknownst to me, I have very strong opinions on URL structures. Most of my thoughts are related to culling the obsolete and implying away the superfluous. URL structure is as much a part of your website&#8217;s design as anything else &#8211; treat it with the same care and attention you give your visual design and user experience.</p>
 <h2 id="keep-it-simple">Keep It Simple</h2>
-<p>There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where people have to manually write down a URL, and then someone else will have to manually type that URL into their browser. Eliminate <em>all</em> possible points of failure by reducing needless complexity.</p>
+<p>There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where one must manually write down a URL, which must then be transcribed into a browser. Eliminate <em>all</em> possible points of failure by reducing needless complexity.</p>
 <h2 id="no-capitals">No Capitals</h2>
-<p>It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation, which takes extra time &#8211; especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.</p>
-<p>Lowercase domains are expected anyway by <a href="https://www.rfc-editor.org/rfc/rfc3986">RFC 3986</a>, so uppercase anything is always going to look out of place next to the domain.</p>
+<p>It is hard to remember the exact capitalisation of a URL. I personally think it looks ugly, and copying it out with all the relevant capitalisation takes extra time &#8211; especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL case handling behaviour and that something will go wrong somewhere as a result.</p>
+<p>Lowercase domains and schemes are expected anyway by <a href="https://www.rfc-editor.org/rfc/rfc3986">RFC 3986</a>, so uppercase anything is always going to look out of place next to the domain.</p>
 <h2 id="no-ids">No IDs</h2>
 <p>URLs are fantastic in that they&#8217;re human-readable. That is, unless you&#8217;ve committed the atrocity of using an ID instead of a readable slug. <em>Why would you do this?</em> You might get the slightest benefit from it being a few characters smaller, but it makes it impossible for anyone to glean the content of the page when a link to it is just slapped somewhere online. Especially if embeds aren&#8217;t available or your Open Graph values are bungled. It also makes it significantly less memorable.</p>
 <p>Of course, there are exceptions here for certain cases, such as automated or unvetted content, but they should be obvious exceptions.</p>
@@ -178,7 +178,7 @@
 <p>Depending on context, I usually dislike this structure as well:<br><code>https://example.com/posts/2025/02/24/post-title</code></p>
 <p>I can accept it on news sites where there are multiple items releasing daily, and I can go to <code>example.com/posts/2025/02/24</code> and see the posts released that day. Unfortunately, this is barely ever done. Just don&#8217;t use date-based paths unless dates are meaningful navigation elements.</p>
 <p>On small blogs or in other contexts where publications are infrequent, this is often even more pointless because if a page at <code>example.com/posts/2025/02/24</code> even does exist, chances are it only contains the one post.</p>
-<p>Having the date in the URL serves to add unnecessary extra length to the URL containing pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you&#8217;ve got a more cumbersome file collection and a bloated, confusing file cabinet.</p>
+<p>Having the date in the URL serves to add unnecessary extra length, creating pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you&#8217;ve got a more cumbersome file collection and a bloated, confusing file cabinet.</p>
 <p>It indicates a failure in information architecture. If your URL doesn&#8217;t make sense, your information architecture doesn&#8217;t either.</p>
 
 		</div>
