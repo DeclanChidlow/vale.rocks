@@ -6,6 +6,48 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250428-1129",
+      "url": "https://vale.rocks/micros/20250428-1129",
+      "title": "28 Apr 2025 11:29",
+      "content_html": "<p>I&#8230; uh&#8230;</p>\n<p>Somebody opened an issue on GitHub where they just sent through a conversation with Grok regarding what action we should take to make improvements&#8230;</p>\n",
+      "date_published": "2025-04-28T11:29Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250428-1056",
+      "url": "https://vale.rocks/micros/20250428-1056",
+      "title": "28 Apr 2025 10:56",
+      "content_html": "<p>Predicting AGI/ASI timelines is highly speculative and unviable. Ultimately, there are too many unknowns and complex variables at play. Any timeline must deal with systems and consequences multiple steps out, where tiny initial errors compound dramatically. A range can be somewhat reasonable, a more specific figure less so, and accurately predicting the consequences of the final event when it comes to pass even further improbable. It is simply impractical to come up with an accurate timeline with the knowledge we currently have.</p>\n<p>Despite this, timelines are popular – both with the general AI hype crowd and those more informed. People don&#8217;t seem to penalise incorrect timelines – as evidenced by the many predicted dates we&#8217;ve seen pass without event. Thus, there&#8217;s little downside to proposing a timeline, even an outrageous one. If it&#8217;s wrong, it&#8217;s largely forgotten. If it&#8217;s right, you&#8217;re lauded a prophet. The nebulous definitions of &#8220;AGI&#8221; and &#8220;ASI&#8221; also offer an out. One can always argue the achieved system doesn&#8217;t meet their specific definition or point to the <a href=\"https://en.wikipedia.org/wiki/AI_effect\">AI Effect</a>.</p>\n<p>I suppose Gwern&#8217;s fantastic work on <a href=\"https://gwern.net/scaling-hypothesis\">The Scaling Hypothesis</a> is evidence of how an accurate prediction can significantly boost credibility and personal notoriety. Proposing timelines gets attention. Anyone noteworthy with a timeline becomes the centre of discussion, especially if their proposal is on the extremes of the spectrum.</p>\n<p>The incentives for making timeline predictions seem heavily weighted towards upside, regardless of the actual predictive power or accuracy. Plenty to gain; not much to lose.</p>\n",
+      "date_published": "2025-04-28T10:56Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250427-1113",
+      "url": "https://vale.rocks/micros/20250427-1113",
+      "title": "27 Apr 2025 11:13",
+      "content_html": "<p>I wake delirious from an uneasy slumber. Beads of perspiration rest upon my forehead.</p>\n<p>A distant horn sounds, then a second slightly closer.</p>\n<p>I&#8217;m wide awake now. &#8220;The Vengabus&#8221;, I hear a woman scream, &#8220;It&#8217;s coming!&#8221;</p>\n<p>Screams echo out around me. Pandemonium.</p>\n",
+      "date_published": "2025-04-27T11:13Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250427-1021",
+      "url": "https://vale.rocks/micros/20250427-1021",
+      "title": "27 Apr 2025 10:21",
+      "content_html": "<p>Following news of Anthropic allowing Claude to decide to terminate conversations, I find myself thinking about when Microsoft did the same with the misaligned Sydney in Bing Chat.</p>\n",
+      "date_published": "2025-04-27T10:21Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250427-1008",
+      "url": "https://vale.rocks/micros/20250427-1008",
+      "title": "27 Apr 2025 10:08",
+      "content_html": "<p>If many independent actors are working on AI capabilities, even if each team has decent safety intentions within their own project, is there a fundamental coordination problem that makes the overall landscape unsafe? A case where the sum of the whole is flawed, unsafe, and/or dangerous and thus doesn&#8217;t equal collective safety?</p>\n",
+      "date_published": "2025-04-27T10:08Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250426-1443",
+      "url": "https://vale.rocks/micros/20250426-1443",
+      "title": "26 Apr 2025 14:43",
+      "content_html": "<p>The misquote &#8220;write drunk, edit sober&#8221; is often incorrectly attributed to Ernest Hemingway.</p>\n<p>He actually believed the opposite, and, if you&#8217;re wondering, that advice is crap – especially for anything formal, structured, or academic.</p>\n",
+      "date_published": "2025-04-26T14:43Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250425-1239",
       "url": "https://vale.rocks/micros/20250425-1239",
       "title": "25 Apr 2025 12:39",
