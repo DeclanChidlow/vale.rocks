@@ -14,7 +14,7 @@ It is satisfying because it gives users autonomy and agency. It is satisfying be
 
 ## User Autonomy and Agency
 
-At the core of everything accessibility-related, is giving users autonomy and agency. Putting the power to do into the hands of those who may otherwise be unable. To respect users by allowing them to do things by themselves, on their own terms, and in the way they wish to. Respecting user preferences allows users to do things as they wish. It gives them the power and control they deserve and makes everything more accessible.
+At the core of everything accessibility-related is giving users autonomy and agency, putting the power to do into the hands of those who may otherwise be unable. This involves respecting users by allowing them to do things by themselves, on their own terms, and in the way they wish to. Respecting preferences allows users to do things as they wish. It gives them the power and control they deserve and makes everything more accessible.
 
 ## Diversity
 

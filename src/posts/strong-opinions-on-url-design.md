@@ -11,13 +11,13 @@ I came to realise the other day that, for reasons unbeknownst to me, I have very
 
 ## Keep It Simple
 
-There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where people have to manually write down a URL, and then someone else will have to manually type that URL into their browser. Eliminate _all_ possible points of failure by reducing needless complexity.
+There is no reason for a URL to be stupidly long. Keep things short and memorable. There will be cases where one must manually write down a URL, which must then be transcribed into a browser. Eliminate _all_ possible points of failure by reducing needless complexity.
 
 ## No Capitals
 
-It is hard to remember the exact capitalisation of a URL, I personally think it looks ugly, and people have to copy it out with all the relevant capitalisation, which takes extra time -- especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL handling behaviour and that something will go wrong somewhere.
+It is hard to remember the exact capitalisation of a URL. I personally think it looks ugly, and copying it out with all the relevant capitalisation takes extra time -- especially on phones. Also, there is a non-zero chance that some developer has flubbed their URL case handling behaviour and that something will go wrong somewhere as a result.
 
-Lowercase domains are expected anyway by [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986), so uppercase anything is always going to look out of place next to the domain.
+Lowercase domains and schemes are expected anyway by [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986), so uppercase anything is always going to look out of place next to the domain.
 
 ## No IDs
 
@@ -82,6 +82,6 @@ I can accept it on news sites where there are multiple items releasing daily, an
 
 On small blogs or in other contexts where publications are infrequent, this is often even more pointless because if a page at `example.com/posts/2025/02/24` even does exist, chances are it only contains the one post.
 
-Having the date in the URL serves to add unnecessary extra length to the URL containing pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you've got a more cumbersome file collection and a bloated, confusing file cabinet.
+Having the date in the URL serves to add unnecessary extra length, creating pointless hierarchy and information that is likely duplicated on the page itself anyway. It is like having a filing cabinet and nesting a single document within three otherwise empty folders. There is no benefit; it just means you've got a more cumbersome file collection and a bloated, confusing file cabinet.
 
 It indicates a failure in information architecture. If your URL doesn't make sense, your information architecture doesn't either.

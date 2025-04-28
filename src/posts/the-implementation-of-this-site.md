@@ -20,7 +20,7 @@ The limit wasn't entirely a tech one. After all, the underlying tech was just we
 
 Thus, I moved on to using a static site generator. Given that I was already a GitHub user and had opted to deploy my site with GitHub Pages, I opted to use [Jekyll](https://jekyllrb.com). Jekyll is nice, and its support for Shopify's [Liquid templating language](https://shopify.github.io/liquid) made it wonderfully flexible -- but it wasn't necessarily exactly conducive to my preferred workflow, and dealing with Ruby proved a pain.
 
-From that, came my own static site generator, [Adduce](https://adduce.vale.rocks). Adduce is wonderful, and I love the flexibility allotted by being able to use it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I'm ill-equipped to address with my current Rust capabilities.
+From that, came my own static site generator, [Adduce](https://adduce.vale.rocks). Adduce is wonderful, and I love the flexibility afforded by using it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I'm ill-equipped to address with my Rust capabilities.
 
 With Adduce, I had the issue that lacking functions meant many parts of the site had to be hand-coded and modified, which was time-consuming, and I [came to realise](https://www.lesswrong.com/posts/Nq2BtFidsnhfLuNAx/?commentId=Xby4NTqhC3DzWKt9P) that _something_ needed to change. Thanks to my commitment to building things on web foundations such as HTML, CSS, and JS and not abstracting them, it was pretty easy to migrate as needed.
 
@@ -28,7 +28,7 @@ With Adduce, I had the issue that lacking functions meant many parts of the site
 
 When I saw [a post from Jan Miksovsky](https://fosstodon.org/@JanMiksovsky/113516427582479669) looking "for people to playtest a programming language for making websites", I sent him a message expressing my interest. I avoided doing too much research and went into it with a fresh mind and no preformed opinions.
 
-The language, [Origami](https://weborigami.org), didn't take long to win me over. It's a full programming language with all the bells and whistles you'd expect that makes it easy to do everything you'd need from a static site generator and allows you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.
+The language, [Origami](https://weborigami.org), didn't take long to win me over. It's a full programming language with all the expected bells and whistles, making it easy to do everything you'd need from a static site generator while also allowing you to fall back on JavaScript if needed. It also comes with helpful errors and a full interactive explorer for development, which is lovely for debugging and visualising exactly how things are working.
 
 In the hours following the playtest, I worked on porting my site over, and by the end of the day, I already had the broad strokes down. Now, my site is fully functioning on Origami with many additive bells and whistles that weren't previously possible with Adduce. The language is still maturing, but I'm loving it!
 
@@ -38,7 +38,7 @@ I like being able to add extra information, tangents, or conjecture to my writin
 
 Thus, I've come up with my own implementation. By default, footnotes are marked up as anchors to the definition at the end of the page in standard HTML, but the experience of this is greatly improved by some JavaScript-based progressive enhancement. Assuming the JavaScript is available and active, clicking a footnote reference in a horizontally challenged viewport will open it in a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's right margin.
 
-This overall experience is very much influenced by [Gwern's implementation and research](https://gwern.net/sidenote) and is implemented on my site via my own [`footnotes.js`](https://vale.rocks/assets/scripts/footnotes.js), though I've also provided a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/ogvGVdq).
+This overall experience is very much influenced by [Gwern's implementation and research](https://gwern.net/sidenote), and is implemented on my site via my own [`footnotes.js`](https://vale.rocks/assets/scripts/footnotes.js) (I've also provided a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/ogvGVdq)).
 
 ### Hero Puddle
 
@@ -80,7 +80,7 @@ Once again, you can view my [reference implementation on CodePen](https://codepe
 
 My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
 
-As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find), and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. Unfortunately, DuckDuckGo doesn't provide many results for my site so this fallback is very limited. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about it](https://kiko.io/post/Pagefind-UI-and-URL-Parameters).
+As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find), and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. Unfortunately, DuckDuckGo doesn't provide many results for my site, so this fallback is very limited. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about it](https://kiko.io/post/Pagefind-UI-and-URL-Parameters).
 
 ### 404 Handling
 
@@ -102,7 +102,7 @@ My development workflow for this site is pretty trivial. I run a local Origami d
 
 For more info about the software of my development environment, my [uses page](/uses) is worth a read.
 
-I very much treat this site as a testing ground for my learning and therefore generally start using new features as soon as they are newly available in [Baseline](https://web.dev/baseline). My readership is generally technical, so they _should_ know how to update their browsers, and I love being on the bleeding edge, so the minor inconvenience of things perhaps not looking quite right to some people is a trade-off I'm willing to make.
+I very much treat this site as a testing ground for my learning and therefore generally start using new features as soon as they are newly available in [Baseline](https://web.dev/baseline). My readership is generally technical, so they _should_ know how to update their browsers; furthermore, I love being on the bleeding edge, so the minor inconvenience of things perhaps not looking quite right to some people is a trade-off I'm willing to make.
 
 I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available [in its entirety](https://github.com/DeclanChidlow/vale.rocks) if you'd like to have a look.
 
