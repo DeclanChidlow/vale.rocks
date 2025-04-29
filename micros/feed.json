@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250429-0321",
+      "url": "https://vale.rocks/micros/20250429-0321",
+      "title": "29 Apr 2025 03:21",
+      "content_html": "<p>I&#8217;ve been testing the new Qwen3 today. I don&#8217;t have the compute for the higher parameter models, but I&#8217;ve been having a lot of fun with 0.6b.</p>\n<p>It is such a derpy little model.</p>\n<p>Here is a thinking extract I found rather humorous:</p>\n<blockquote>\n<p>Okay, the user said, &#8220;Hi Qwen. Nice shoes.&#8221; Let me think about how to respond.</p>\n<p>First, the user greeted me with a friendly &#8220;Hi&#8221; and complimented my shoes. I need to acknowledge their compliment politely.</p>\n<p>Since I&#8217;m an AI, I don&#8217;t have shoes, so I should explain that. Maybe say something like, &#8220;Hi there! I don&#8217;t have shoes.&#8221;</p>\n</blockquote>\n",
+      "date_published": "2025-04-29T03:21Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250428-1129",
       "url": "https://vale.rocks/micros/20250428-1129",
       "title": "28 Apr 2025 11:29",
