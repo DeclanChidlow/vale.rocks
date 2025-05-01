@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250501-0903",
+      "url": "https://vale.rocks/micros/20250501-0903",
+      "title": "01 May 2025 09:03",
+      "content_html": "<p>Well now look what you&#8217;ve gone and done! You&#8217;ve spilt JavaScript all over my lovely semantic HTML. Dammit! It leaked onto my CSS as well.</p>\n<p>Go grab a cloth and clean up this mess.</p>\n",
+      "date_published": "2025-05-01T09:03Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250501-0054",
+      "url": "https://vale.rocks/micros/20250501-0054",
+      "title": "01 May 2025 00:54",
+      "content_html": "<p>As it is getting rather close to publication, it seems prudent to advertise that I&#8217;m writing a novel!</p>\n<p>Tad unusual for me, but it&#8217;s a proper, comprehensive work of fiction.</p>\n<p>I&#8217;ll have more details to share in time, but it is pretty much Fear and Loathing in Las Vegas meets the corporate shittery of Silicon Valley venture capital.</p>\n",
+      "date_published": "2025-05-01T00:54Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250430-0020",
+      "url": "https://vale.rocks/micros/20250430-0020",
+      "title": "30 Apr 2025 00:20",
+      "content_html": "<p>&#8220;The web is my canvas,&#8221; I confess as the people watching over my shoulder observe me open a text editor and tile a browser window. &#8220;CSS is my brush; MDN, my muse.&#8221;</p>\n",
+      "date_published": "2025-04-30T00:20Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250429-1357",
+      "url": "https://vale.rocks/micros/20250429-1357",
+      "title": "29 Apr 2025 13:57",
+      "content_html": "<p>CSS has taken me places I wouldn&#8217;t go with a gun.</p>\n",
+      "date_published": "2025-04-29T13:57Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250429-0321",
       "url": "https://vale.rocks/micros/20250429-0321",
       "title": "29 Apr 2025 03:21",
