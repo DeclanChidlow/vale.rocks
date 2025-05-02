@@ -120,3 +120,7 @@
 .pagefind-ui__result-nested + .pagefind-ui__result-nested {
 	margin-top: 1rem;
 }
+
+.pagefind-ui__button {
+	margin: 2rem auto 0;
+}
