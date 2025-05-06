@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/elsewhere/feed.json",
   "items": [
     {
+      "id": "https://www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up",
+      "url": "https://www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up",
+      "title": "OpenAI's Jig May Be Up",
+      "content_html": "\n\t\t<p>Wrote <a href=\"https://www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up\">OpenAI's Jig May Be Up</a> over on LessWrong.</p>\n\t\t\n\t\t\n\t\t\n\t",
+      "date_published": "2025-05-06"
+    },
+    {
       "id": "https://css-tricks.com/next-level-css-styling-for-cursors/",
       "url": "https://css-tricks.com/next-level-css-styling-for-cursors/",
       "title": "Next Level CSS Styling for Cursors",

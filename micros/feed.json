@@ -6,6 +6,34 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250506-0910",
+      "url": "https://vale.rocks/micros/20250506-0910",
+      "title": "06 May 2025 09:10",
+      "content_html": "<p>I often have issues with sharing cross-origin resources, which results in me throwing my computer out a window.</p>\n<p>This is referred to as <abbr title=\"Cross-Origin Resource Sharing\">CORS</abbr> and effect.</p>\n",
+      "date_published": "2025-05-06T09:10Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250505-1219",
+      "url": "https://vale.rocks/micros/20250505-1219",
+      "title": "05 May 2025 12:19",
+      "content_html": "<p>I hate the argument, &#8220;Humans are bad at X, so LLMs must be really bad at X.&#8221;</p>\n<p>There are flaws with LLMs, but this is a poor argument. They are fundamentally different to humans, and just because we fumble at something doesn’t mean LLMs do (and vice versa).</p>\n",
+      "date_published": "2025-05-05T12:19Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250503-0635",
+      "url": "https://vale.rocks/micros/20250503-0635",
+      "title": "03 May 2025 06:35",
+      "content_html": "<p>Video footage of me making my way through the swarms of people trying to hand me a &#8216;how to vote&#8217; card at the Australian federal election today:</p>\n<p><a href=\"https://www.youtube.com/watch?v=HtPBNvhnim4\">https://www.youtube.com/watch?v=HtPBNvhnim4</a></p>\n",
+      "date_published": "2025-05-03T06:35Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250502-0337",
+      "url": "https://vale.rocks/micros/20250502-0337",
+      "title": "02 May 2025 03:37",
+      "content_html": "<p>Cloudflare, its interface a mess. <br>It&#8217;s breaking my site and causing duress.</p>\n<p>These settings confuse me, I must declare; <br>Working this out is quite the affair.</p>\n<p>I hate it so much, but I don&#8217;t care. <br>Actually, I do, and I&#8217;m pulling out hair.</p>\n",
+      "date_published": "2025-05-02T03:37Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250501-0903",
       "url": "https://vale.rocks/micros/20250501-0903",
       "title": "01 May 2025 09:03",
