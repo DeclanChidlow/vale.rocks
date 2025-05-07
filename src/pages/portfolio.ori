@@ -1,4 +1,4 @@
-(portfolio_data) => main_template.ori({
+(portfolio_data) => main_template.jse({
 	title: "Portfolio"
 	description: "My portfolio of works, including design and development endeavours, presented for your perusal."
 	stylesheet: "pages/portfolio.css"

@@ -2,7 +2,7 @@
 	"name": "vale-rocks",
 	"type": "module",
 	"dependencies": {
-		"@weborigami/origami": "^0.3.0",
+		"@weborigami/origami": "^0.3.3-jse.1",
 		"@weborigami/pagefind": "0.0.5",
 		"highlight.js": "^11.11.1",
 		"marked": "^15.0.8",

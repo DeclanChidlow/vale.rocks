@@ -16,22 +16,22 @@
 
 	...map(markdown_pages, {
 		extension: "→.html"
-		value: (path) => main_template.ori(functions/parse-markdown.js(path))
+		value: (path) => main_template.jse(functions/parse-markdown.js(path))
 	})
 
-	posts.html = pages/posts.ori(post_data.ori)
+	posts.html = pages/posts.jse(post_data.ori)
 	posts = {
-		...map(post_data.ori, post_template.ori)
+		...map(post_data.ori, post_template.jse)
 		feed.json = json(post_syndication.ori(post_data.ori))
 		feed.xml = rss(post_syndication.ori(post_data.ori))
 	}
 
 	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 100)
-	elsewhere.html = pages/elsewhere.ori(first(paginated_elsewhere))
+	elsewhere.html = pages/elsewhere.jse(first(paginated_elsewhere))
 	elsewhere = {
 		...map(paginated_elsewhere, {
 			extension: "→.html"
-			value: pages/elsewhere.ori
+			value: pages/elsewhere.jse
 		})
 		feed.json = json(elsewhere_syndication.ori(elsewhere_data.yaml))
 		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))

@@ -1,4 +1,4 @@
-(blogs, tools-and-resources, miscellaneous) => main_template.ori({
+(blogs, tools-and-resources, miscellaneous) => main_template.jse({
 	title: "Links"
 	description: "A curated collection of intriguing and valuable links I've discovered while surfing the web, plus a selection of delightfully offbeat YouTube oddities."
 	og_description: "Links to various other places of interest or note on the 'net."

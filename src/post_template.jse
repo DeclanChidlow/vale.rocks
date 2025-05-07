@@ -1,16 +1,16 @@
-(post) => main_template.ori({
-	title: post/title
-	description: post/description
-	og_description: post/og_description
-	pub_time: post/pub_time
-	mod_time: post/mod_time
-	section: post/section
-	article: true
-	stylesheet: "components/article_header.css"
-	canonical: `/posts/${ post/file_name }`
+(page) => <main_template.jse>({
+	title: page.title,
+	description: page.description,
+	og_description: page.og_description,
+	pub_time: page.pub_time,
+	mod_time: page.mod_time,
+	section: page.section,
+	article: true,
+	stylesheet: "components/article_header.css",
+	canonical: `/posts/${ page.file_name }`,
 
-@text:
-`<style>:root{--header_background: var(--magenta)}</style>
+_body: Tree.indent`
+<style>:root{--header_background: var(--magenta)}</style>
 
 <span class="sidebar" data-pagefind-ignore>
 	<span class="section" data-pagefind-filter="Content Type">Posts</span>	
@@ -22,19 +22,19 @@
 <div class="article-wrapper">
 	<article class="h-entry">
 		<header data-pagefind-ignore>
-			<p data-pagefind-filter="Post Category">${ post/section }</p>
-			<h1 class="p-name">${ post/title }</h1>
+			<p data-pagefind-filter="Post Category">${ page.section }</p>
+			<h1 class="p-name">${ page.title }</h1>
 			<ul>
-				<li>${ post/words } words</li>
-				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
-				${ post/mod_time ? `
-					<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
+				<li>${ page.words } words</li>
+				<li><time class="dt-published" datetime="${ page.pub_time }" title="Date of first publication.">${ <functions/pretty-date.js>(page.pub_time) }</time></li>
+				${ page.mod_time ? `
+					<li><time class="dt-updated" datetime="${ page.mod_time }" title="Date of last notable modification.">${ <functions/pretty-date.js>(page.mod_time) }</time></li>
 				` : '' }
 			</ul>
 		</header>
 
 		<div class="readable-width e-content">
-			${ post/@text }
+			${ page._body }
 		</div>
 	</article>
 
@@ -60,4 +60,7 @@
 <script src="/assets/scripts/footnotes.js"></script>
 <script src="/assets/scripts/figures.js"></script>
 <script src='/assets/scripts/scroll-indicator.js'></script>
-<script src='/assets/scripts/copy-codeblock.js'></script>`})
+<script src='/assets/scripts/copy-codeblock.js'></script>
+
+`
+})

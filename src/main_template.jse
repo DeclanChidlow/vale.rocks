@@ -5,35 +5,35 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>${ page/title === 'Vale.Rocks' ? page/title : `${page/title} | Vale.Rocks` }</title>
-		<meta property="og:title" content="${ page/title }">
-		<meta name="citation_title" content="${ page/title }">
-		${ page/description ? `
-			<meta name="description" content="${ page/description}">
-			<meta property="og:description" content="${ page/og_description || page/description }">
+		<title>${ page.title === 'Vale.Rocks' ? page.title : `${page.title} | Vale.Rocks` }</title>
+		<meta property="og:title" content="${ page.title }">
+		<meta name="citation_title" content="${ page.title }">
+		${ page.description ? `
+			<meta name="description" content="${ page.description}">
+			<meta property="og:description" content="${ page.og_description || page.description }">
 		` : '' }
 
-		${ page/article ? `
+		${ page.article ? `
 			<meta property="og:type" content="article">
 			<meta property="article:author" content="Declan Chidlow">
 
-			${ page/pub_time ? `
-				<meta property="article:published_time" content="${ page/pub_time }">
-				<meta name="dc.date.issued" content="${ page/pub_time }">
-				<meta name="citation_publication_date" content="${ page/pub_time }">
+			${ page.pub_time ? `
+				<meta property="article:published_time" content="${ page.pub_time }">
+				<meta name="dc.date.issued" content="${ page.pub_time }">
+				<meta name="citation_publication_date" content="${ page.pub_time }">
 			` : '' }
 
-			${ page/mod_time ? `
-				<meta property="article:modified_time" content="${ page/mod_time }">
-				<meta name="dcterms.modified" content="${ page/mod_time }">
+			${ page.mod_time ? `
+				<meta property="article:modified_time" content="${ page.mod_time }">
+				<meta name="dcterms.modified" content="${ page.mod_time }">
 			` : '' }
 
-			${ page/section ? `<meta property="article:section" content="${ page/section }">` : '' }
+			${ page.section ? `<meta property="article:section" content="${ page.section }">` : '' }
 		` : '<meta property="og:type" content="website">' }
 
-		${ page/image ? `
-			<meta property="og:image" content="${ page/image }">
-			<meta property="og:image:alt" content="${ page/alt_text }">
+		${ page.image ? `
+			<meta property="og:image" content="${ page.image }">
+			<meta property="og:image:alt" content="${ page.alt_text }">
 		` : `
 			<meta property="og:image" content="https://vale.rocks/assets/og.webp">
 			<meta property="og:image:alt" content="The name 'VALE' with the link 'https://vale.rocks' written under it.">
@@ -42,9 +42,9 @@
 			<meta property="og:image:height" content="630">
 		` }
 
-		${ page/canonical !== undefined ? `
-			<link rel="canonical" href="https://vale.rocks${ page/canonical }">
-			<meta property="og:url" content="https://vale.rocks${ page/canonical }">
+		${ page.canonical !== undefined ? `
+			<link rel="canonical" href="https://vale.rocks${ page.canonical }">
+			<meta property="og:url" content="https://vale.rocks${ page.canonical }">
 		` : '' }
 
 		<meta property="og:site_name" content="Vale.Rocks">
@@ -81,8 +81,8 @@
 		<link rel="stylesheet" href="/assets/styles/components/input.css">
 		<link rel="stylesheet" href="/assets/styles/components/figures.css">
 		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-		${ page/stylesheet ? `
-			<link rel="stylesheet" href="/assets/styles/${ page/stylesheet}">
+		${ page.stylesheet ? `
+			<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">
 		` : '' }
 
 		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
@@ -119,7 +119,7 @@
 	</header>
 
 	<main id="main">
-		${ page/@text }
+		${ page._body }
 	</main>
 
 	<footer id="footer" data-pagefind-ignore="all">

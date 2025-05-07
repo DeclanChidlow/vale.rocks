@@ -1,4 +1,4 @@
-(micro) => main_template.ori({
+(micro) => main_template.jse({
 	title: micro/title
 	pub_time: micro/pub_time
 	article: true

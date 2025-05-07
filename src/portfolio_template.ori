@@ -1,4 +1,4 @@
-(post) => main_template.ori({
+(post) => main_template.jse({
 	title: post/title
 	description: post/description
 	og_description: post/og_description

@@ -1,0 +1,36 @@
+(elsewhere) => <main_template.jse>({
+	title: "Elsewhere",
+	description: "Vale's writings, contributions, and appearances published externally to Vale.Rocks. Read tech journalism, web development insights, digital culture analysis, and more from Declan Chidlow.",
+	og_description: "My writings, contributions, and appearances external to Vale.Rocks.",
+	stylesheet: "pages/elsewhere.css",
+
+_body: Tree.indent`
+<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
+
+<div class="readable-width">
+	${ elsewhere.previousPage ? `` : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
+
+	${ Tree.map(elsewhere.items,
+	(item, key) =>
+		`<a href="https://${ item.url }" class="elsewhere">
+			<h2>${ item.title }</h2>
+			<p><time datetime="${ item.pub_time }" title="Date of first publication.">${ <functions/pretty-date.js>(item.pub_time) }</time> | ${ item.type } | ${ item.sort} | ${ item.location }</p>
+			${item.note ? `<p class="note">${ item.note }</p>` : '' }
+		</a>`)}
+
+	<div data-pagefind-ignore="all" class="pagination">
+		${ elsewhere.previousPage
+			? `<a href="/elsewhere/${ elsewhere.previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			: "<span></span>"
+		}
+
+		<p>Page ${ elsewhere.pageNumber} of ${ elsewhere.pageCount}</p>
+
+		${ elsewhere.nextPage
+			? `<a href="/elsewhere/${ elsewhere.nextPage }">Older <span aria-hidden="true">></span></a>`
+			: "<span></span>"
+		}
+	</div>
+</div>
+`
+})

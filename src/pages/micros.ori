@@ -1,4 +1,4 @@
-(paginated_micros) => main_template.ori({
+(paginated_micros) => main_template.jse({
 	title: "Micros"
 	description: "Short-form posts often published elsewhere and syndicated to this site. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries."
 	og_description: "Short-form and often ephemeral content."
