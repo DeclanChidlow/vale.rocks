@@ -4,10 +4,10 @@
     "": {
       "name": "vale-rocks",
       "dependencies": {
-        "@weborigami/origami": "^0.3.0",
+        "@weborigami/origami": "^0.3.2",
         "@weborigami/pagefind": "0.0.5",
         "highlight.js": "^11.11.1",
-        "marked": "^15.0.8",
+        "marked": "^15.0.11",
         "marked-alert": "^2.1.2",
         "marked-footnote": "^1.2.4",
         "marked-gfm-heading-id": "^4.1.1",
@@ -113,7 +113,7 @@
 
     "decode-base64": ["decode-base64@3.0.2", "", { "dependencies": { "node-buffer-encoding": "^1.0.3" } }, "sha512-hgXhqIon8A1gznsTnvsyHFH+n2Jh20VVHnbiSDCBtpoaeCxpzbFJDtkWFVEaGF179d0y67Akdnxz4ipi/7Dcjg=="],
 
-    "detect-libc": ["detect-libc@2.0.3", "", {}, "sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw=="],
+    "detect-libc": ["detect-libc@2.0.4", "", {}, "sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA=="],
 
     "dettle": ["dettle@1.0.5", "", {}, "sha512-ZVyjhAJ7sCe1PNXEGveObOH9AC8QvMga3HJIghHawtG7mE4K5pW9nz/vDGAr/U7a3LWgdOzEE7ac9MURnyfaTA=="],
 
