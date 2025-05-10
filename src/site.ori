@@ -1,6 +1,7 @@
 {
 	assets
 	CNAME
+	.well-known
 	opensearch.xml
 
 	(markdown_pages): {
