@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: vale.rocks
+Token: d37b2d46c0f2d564de22b47b25917ef86ac860d4db945e15ab998b7ce24b4d0f
