@@ -11,16 +11,16 @@ The chances are you've heard of Google Chrome. It's currently the biggest browse
 
 ## The Early Days
 
-In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that were many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
+In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that came many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
 
 <figure class="right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics.">
 <figcaption>Screenshot of Mosaic version 1.2.</figcaption>
 </figure>
 
-Mosaic was a marked shift. It was the first browser to display images in line with the rest of the content and was notably easier to set up. As with all things in this early stage of the web, it didn't stay stagnant for long. Towards the end of 1994, Mosaic began losing its dominance to a new player. Netscape.
+Mosaic was a marked shift. It was the first browser to display images in line with the rest of the content and was notably easier to set up. As with all things in this early stage of the web, it didn't stay stagnant for long. Towards the end of 1994, Mosaic began losing its dominance to a new player: Netscape.
 
-Inspired by the success of Mosaic, Netscape very quickly made a name for itself in the browser arena. It introduced showing content as it downloaded, which made it preferable for the average dial-up user who previously had to wait for the entire page to load before it would display. Its flagship browser, Netscape Navigator, was one of the first to support JavaScript.
+Inspired by the success of Mosaic, Netscape very quickly made a name for itself in the browser arena. It introduced showing content as it downloaded, a feature that made it preferable for the average dial-up user, who previously had to wait for the entire page to load before it would display. Its flagship browser, Netscape Navigator, was one of the first to support JavaScript.
 
 Around this time, Opera emerged. It entered the market with its own proprietary layout engine, titled Elektra.
 
@@ -30,9 +30,9 @@ Microsoft took notice of Netscape's success and saw the internet as a profitable
 
 Netscape Navigator came in two editions: Gold and Standard. With the release of version 4, the Gold Edition (which was notable for having many extra functions that negatively impacted stability) was rebranded to Netscape Communicator. This name change was a shot in the foot that affected their brand recognition and, bundled with performance slower than Microsoft's new Internet Explorer 5, spelt their demise.
 
-By the time the new millennium rolled around, many new browsers had launched (such as [KDE's Konqueror](https://apps.kde.org/en-gb/konqueror)), Netscape was on its deathbed, and Explorer was thriving, with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn't all sunshine and rainbows for Microsoft's browser, though. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.
+By the time the new millennium rolled around, many new browsers had launched (such as [KDE's Konqueror](https://apps.kde.org/en-gb/konqueror)); Netscape was on its deathbed, and Explorer was thriving with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn't all sunshine and rainbows for Microsoft's browser, however. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.
 
-This came to a head in 2001 with the ominous-sounding United States of America vs Microsoft Corporation. It concluded with Microsoft drafting a settlement proposal that permitted PC manufacturers to use non-Microsoft software.
+This came to a head in 2001 with the ominous-sounding United States of America v Microsoft Corporation. It concluded with Microsoft drafting a settlement proposal that permitted PC manufacturers to use non-Microsoft software.
 
 ## The Second Browser War
 
@@ -44,13 +44,13 @@ Firefox was free, leaving little barrier to entry, and people were more than int
 
 Upon release, Firefox immediately challenged Explorer's dominance. Within a mere nine months, the browser had amassed in excess of 60 million downloads. It continued to grow until its peak in 2009, with just over 30% market share.
 
-Apple realised that they were limiting themselves by only including their browser on their own OS. As such, they released a version for Microsoft Windows. Unfortunately, this couldn't have come at a worse time, as the next year Google finally entered the browser market and released Chrome.
+Apple realised that they were limiting themselves by only including their browser on their own OS. As such, they released a version for Microsoft Windows. Unfortunately, this couldn't have come at a worse time; the following year, Google finally entered the browser market and released Chrome.
 
 ## The Rise of Chrome
 
-Despite initial reluctance from Google CEO Eric Schmidt to enter the browser wars, he eventually relented, and in 2008, Google Chrome released. Using components from Firefox and Apple's WebKit, it was built upon Chromium, an open-source base also developed by Google. The release was marked with [a short comic by Scott McCloud](https://www.google.com/googlebooks/chrome/index.html).
+Despite initial reluctance from Google CEO Eric Schmidt to enter the browser wars, he eventually relented, and in 2008, Google Chrome released. Using components from Firefox, and Apple's WebKit, Chrome was built upon Chromium, an open-source base also developed by Google. The release was marked with [a short comic by Scott McCloud](https://www.google.com/googlebooks/chrome/index.html).
 
-It didn't see success as instant as Firefox, but instead slowly crept up, to the point that by 2012 it was beating all other major browsers. From that point on, it only continued to grow and has taken complete dominance.
+It didn't see success as instant as Firefox's but instead slowly crept up, to the point that by 2012 it was beating all other major browsers. From that point on, it only continued to grow and has achieved complete dominance.
 
 In 2012, Safari was discontinued for Windows, where its market share had been decimated. However, it's continued to remain a popular choice on Apple operating systems.
 
@@ -58,11 +58,11 @@ The following year, Opera announced its intention to switch from Presto to WebKi
 
 With 2015 came Microsoft's attempt to reaffirm their place in the browser market. They unveiled Edge, a new browser built from the ground up with their own engines -- the proprietary EdgeHTML browser engine and open-source JavaScript engine Chakra. Following this unveiling, they announced plans to sunset Internet Explorer and subsequently adopted Edge as the new default browser in Windows.
 
-Unfortunately for Microsoft, Edge wasn't much liked upon release. While praised for performance, it was slandered for its lack of features and poor design choices, among other issues. Microsoft saw this and announced in 2018 that it would rebuild Edge as a Chromium-based browser. This move was completed in 2020 and was seen much more favourably.
+Unfortunately for Microsoft, Edge was not well received upon release. While praised for performance, it was slandered for its lack of features and poor design choices, among other issues. Microsoft saw this and announced in 2018 that it would rebuild Edge as a Chromium-based browser. This move was completed in 2020 and was viewed much more favourably.
 
 This left the web with three major engines: Google's Blink, Mozilla's Gecko, and Apple's WebKit. Almost every browser currently in existence relies on one of these three engines.
 
-Apple's WebKit sees significant use on its own devices. Safari is the browser of choice for most macOS users, as it's preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a degree of use in embedded applications thanks to its performant nature and in some other browsers.
+Apple's WebKit sees significant use on their own devices. Safari is the browser of choice for most macOS users, as it's preinstalled. WebKit also sees unanimous use on both iOS and iPadOS, where all browsers are relegated to merely a front for it. It also sees a degree of use in embedded applications thanks to its performant nature and in some other browsers.
 
 Mozilla's Gecko sees very minimal use outside of Firefox. It is used by a few Firefox forks, but very little beyond that.
 
@@ -82,9 +82,9 @@ If you're wondering, the browser you're reading this article in <span id="show-c
     }
 </script>
 
-But it goes beyond that. It's not only the engine used by most of the most popular browsers; it's also the engine that powers [Electron](https://www.electronjs.org). Thus, the desktop applications for Discord, VS Code, Figma, Obsidian, Signal, Slack, [etc](https://www.electronjs.org/apps), are all using Blink. It is also the engine used by the [Chromium Embedded Framework (CEF)](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework), which is used by a further huge number of applications, including behemoths such as Steam, Spotify, GOG Galaxy, and a decent portion of Adobe's offerings.
+But it goes beyond that. It's not only the engine used by most of the most popular browsers; it's also the engine that powers [Electron](https://www.electronjs.org). Thus, the desktop applications for Discord, VS Code, Figma, Obsidian, Signal, Slack, [etc](https://www.electronjs.org/apps), are all using Blink. It is also the engine used by the [Chromium Embedded Framework (CEF)](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework), which is used by a further vast number of applications, including behemoths such as Steam, Spotify, GOG Galaxy, and a decent portion of Adobe's offerings.
 
-Android's System WebView, which allows developers to embed web content in native Android applications, is also based on Chromium, which means it is integrated throughout Android as well. All these integrations also place it in car infotainment systems and smart televisions. It's everywhere!
+Android's System WebView, which allows developers to embed web content in native Android applications, is also based on Chromium, which means it is integrated throughout Android. All these integrations also place it in car infotainment systems and smart televisions. It's everywhere!
 
 ## The Problem with Chrome
 
@@ -103,7 +103,7 @@ If you've been reading attentively, you may remember the comic I mentioned that 
 
 Most browsers have support for the WebExtensions API, which is a system for developing extensions that can be used across browsers. These extensions require a file called `manifest.json` that defines metadata, behaviour, and an assortment of other information.
 
-Naturally, this specification has evolved over time. The latest iteration is Manifest v3. It attempts to address issues regarding privacy, security, and performance. Namely, it embraces service workers, prevents remotely hosted code, and depreciates the webRequest API.
+Naturally, this specification has evolved over time. The latest iteration is Manifest v3. It attempts to address issues regarding privacy, security, and performance. Namely, it embraces service workers, prevents remotely hosted code, and deprecates the webRequest API.
 
 This is, in general, a good thing. Extensions are a huge attack vector with potential for malicious use, and the changes introduced by Manifest v3 act to lessen their potential impact. Unfortunately, these changes also restrict the capabilities of extensions, especially content blockers.
 
@@ -111,11 +111,11 @@ Blocking adverts, trackers, and the likes isn't just a nice-to-have anymore -- i
 
 Content blockers are severely restricted in functionality under Manifest v3 as a result of the depreciation of the webRequest API, which is used to block content prior to it loading.
 
-[uBlock Origin](https://ublockorigin.com), one of the most popular content blockers around, released a ['lite' version](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) with lesser functionality as a result of these changes, and many other extensions, mainly those that boost privacy and reduce data collection, are hit the hardest.
+[uBlock Origin](https://ublockorigin.com), one of the most popular content blockers around, released a ['lite' version](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) with lesser functionality as a result of these changes. Many other extensions, mainly those that boost privacy and reduce data collection, are hit the hardest.
 
 Google is a company that makes the bulk of its revenue through advertising and data collection. Perhaps it's conspiracy to think that they're making these changes to bolster their income, but it certainly isn't hurting it. This is a change that is being pushed by Google and a change that Google has the most to gain from.
 
-Manifest v3 is [also being adopted by Firefox](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps) to ensure interoperability, though they don't intend to phase out v2 for the foreseeable future.
+Manifest v3 is [also being adopted by Firefox](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps) to ensure interoperability, though Mozilla don't intend to phase out v2 for the foreseeable future.
 
 ### Accelerated Mobile Pages
 
@@ -137,13 +137,13 @@ I could continue with further examples, but I think the point is made, and I exp
 
 ## The Death of Firefox Support
 
-As Bryce Wray illustrates in his article ["Firefox on the Brink?"](https://www.brycewray.com/posts/2023/11/firefox-brink/) the US Web Design System mandates official support for browsers exceeding 2% usage on US government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As he suggests, it may be a lot sooner than we expect that Firefox loses consideration for compatibility during development. I very much recommend reading his article for discussion on the topic.
+As Bryce Wray illustrates in his article ["Firefox on the Brink?"](https://www.brycewray.com/posts/2023/11/firefox-brink/), the US Web Design System mandates official support for browsers exceeding 2% usage on US government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As he suggests, it may be a lot sooner than we expect that Firefox loses consideration for compatibility during development. I very much recommend reading his article for discussion on the topic.
 
 ## Taking Action
 
 You're likely wondering what you can do. The answer is simple: support healthy competition and use a browser based on something other than Chromium. The best bet would be using Firefox or something based on it. Firefox is free, open-source, available on most platforms, and Mozilla has largely shown a commitment to both the user and the web (though not without their stumbles).
 
-If you're coming from one of the more flashy 'cutting edge' Chromium browsers like Arc or Opera GX, then [Zen](https://zen-browser.app) will provide a very similar experience. If you're looking for something with privacy in mind like Brave or the DuckDuckGo browser, then you can try [LibreWolf](https://librewolf.net) or [Mullvad Browser](https://mullvad.net/browser). If you require anonymity or need to avoid censorship, then you might consider the [Tor Browser](https://www.torproject.org). Otherwise, you can also check out [Waterfox](https://www.waterfox.net), [IceCat](https://www.gnu.org/software/gnuzilla/), [Pale Moon](https://www.palemoon.org), [Floorp](https://floorp.app), [Mercury](https://thorium.rocks/mercury), and all the other assorted forks that exist.
+If you're coming from one of the more flashy 'cutting edge' Chromium browsers like Arc or Opera GX, then [Zen](https://zen-browser.app) will provide a very similar experience. If you're looking for something with privacy in mind, like Brave or the DuckDuckGo browser, then you can try [LibreWolf](https://librewolf.net) or [Mullvad Browser](https://mullvad.net/browser). If you require anonymity or need to avoid censorship, then you might consider the [Tor Browser](https://www.torproject.org). Otherwise, you can also check out [Waterfox](https://www.waterfox.net), [IceCat](https://www.gnu.org/software/gnuzilla/), [Pale Moon](https://www.palemoon.org), [Floorp](https://floorp.app), [Mercury](https://thorium.rocks/mercury), and all the other assorted forks that exist.
 
 If WebKit is more your style, then Kagi's [Orion Browser](https://kagi.com/orion) is looking promising and has native extension support. You can also check out [GNOME Web (Epiphany)](https://apps.gnome.org/en-GB/Epiphany/).
 
@@ -153,7 +153,7 @@ As the web's future depends on diversity in browser engines, you might also cons
 
 - [Ladybird](https://ladybird.org) is a very ambitious project intending to build out a full web browser complete with its own rendering and JavaScript engines.
 
-- [Dillo](https://dillo-browser.github.io) is a very small and fast little browser with its own little engine and no scripting support. It doesn't aim for a complete web experience but excels as a quick, lightweight one.
+- [Dillo](https://dillo-browser.github.io) is a quick and zippy little browser with its own engine and no scripting support. It doesn't aim for a complete web experience but excels as a quick, lightweight option.
 
 <details>
 <summary>Additional Sources</summary>
