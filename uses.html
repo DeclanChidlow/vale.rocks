@@ -119,7 +119,7 @@
 <li><a href="https://apps.gnome.org/Epiphany">Epiphany</a>: For testing WebKit compatibility.</li>
 <li><a href="https://www.torproject.org">Tor</a>: For the occasional dark web browsing session or increased anonymity. I don&#8217;t use any extensions with Tor.</li>
 </ul>
-<p>I use a <a href="https://search.vale.rocks">custom search engine wrapper I made</a> to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:</p>
+<p>I use a <a href="https://search.vale.rocks">custom search engine router I made</a> to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:</p>
 <ul>
 <li><a href="https://www.mozilla.org/en-US/firefox/facebookcontainer">Facebook Container</a> (Firefox only): Isolates Facebook from the rest of my browsing.</li>
 <li><a href="https://ublockorigin.com">uBlock Origin</a>: Allows blocking adverts, content, fonts, scripts, etc. I switch this out for <a href="https://github.com/uBlockOrigin/uBOL-home">the lite variant</a> on browsers that have dropped Manifest v2 support.</li>
@@ -128,13 +128,13 @@
 </ul>
 <h3 id="development">Development</h3>
 <p>I&#8217;ve already touched on some of my preferred development tools, but I also have many more that I rely on for my front-end development needs.</p>
-<p>As you&#8217;d expect, I use <a href="https://git-scm.com">Git</a> for version control, with <a href="https://github.com">GitHub</a> for hosting. In most situations, I use <a href="https://deno.com">Deno</a>/<a href="https://bun.sh/">Bun</a> in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects. I&#8217;m also quite fond of using <a href="https://github.com/thecoshman/http">httplz</a> as a basic localhost server during development.</p>
+<p>As you&#8217;d expect, I use <a href="https://git-scm.com">Git</a> for version control, with <a href="https://github.com">GitHub</a> for hosting. In most situations, I use <a href="https://bun.sh">Bun</a> in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects. I&#8217;m also quite fond of using <a href="https://github.com/thecoshman/http">httplz</a> as a basic localhost server during development.</p>
 <p>Central to all my development is my editor, <a href="https://neovim.io">Neovim</a>. I&#8217;ve extensively customised it, and it serves as the bulk of my editing environment. It is setup alongside a long list of language servers and plugins that would best be assessed by consulting my <a href="https://github.com/DeclanChidlow/dotfiles">dotfiles</a>. I hope to eventually do a write-up of my specific configuration.</p>
 <h3 id="virtualisation">Virtualisation</h3>
 <p>Sometimes I find myself needing to use Adobe&#8217;s Creative Cloud or other software that simply refuses to run on Linux. For that reason I&#8217;ve got a Windows 11 virtual machine setup with KVM/<a href="https://www.qemu.org">QEMU</a>, <a href="https://www.spice-space.org/usbredir.html">Spice USB Redirection</a>, <a href="https://github.com/virtio-win/kvm-guest-drivers-windows">Windows guest drivers</a>, <a href="https://libvirt.org">libvirt</a>, and other things of that nature, which I access via <a href="https://virt-manager.org">Virtual Machine Manager</a>.</p>
 <p>I &#8216;enhance&#8217; (more like salvage) the Windows experience with <a href="https://github.com/microsoft/PowerToys">Microsoft&#8217;s PowerToys</a>. The general setup largely works <em>alright</em> for my needs.</p>
 <h3 id="miscellaneous">Miscellaneous</h3>
-<p>I use <a href="https://www.prusa3d.com/page/prusaslicer_424">PrusaSlicer</a> for my 3D printing slicing needs, dabble with 3D in <a href="https://www.blender.org">Blender</a>, and use <a href="https://www.libreoffice.org">LibreOffice</a> for dealing with all the Microsoft Office file formats I have to deal with. Otherwise, I tend to use Neovim paired with <a href="https://pandoc.org">Pandoc</a> for most document creation.</p>
+<p>I use <a href="https://www.prusa3d.com/page/prusaslicer_424">PrusaSlicer</a> for my 3D printing slicing needs, dabble with 3D in <a href="https://www.blender.org">Blender</a>, and use <a href="https://www.libreoffice.org">LibreOffice</a> for dealing with Microsoft Office file formats. Otherwise, I tend to use Neovim paired with <a href="https://pandoc.org">Pandoc</a> for most document creation.</p>
 <p>My email/contact/calendar/task client is <a href="https://www.thunderbird.net">Thunderbird</a>. It isn&#8217;t perfect, but is generally alright. Video and loose audio files are played through <a href="https://mpv.io">mpv</a>, and <a href="https://sr.ht/~exec64/imv">imv</a> serves as my image viewer.</p>
 <hr>
 <h2 id="hostingcloud">Hosting/Cloud</h2>
@@ -155,7 +155,7 @@
 <li><a href="https://kvaesitso.mm20.de">Kvaesitso</a>: Feature-rich, search-focused launcher.</li>
 <li><a href="https://www.android.com/google-messages/">Google Messages</a>: Google&#8217;s SMS/MMS/RCS app. I&#8217;d prefer to use a FOSS alternative, but RCS is pretty locked down, so I&#8217;m left without alternative.</li>
 <li><a href="https://github.com/LucasGGamerM/moshidon">Moshidon</a>: Wonderful Fediverse client with plenty of quality of life features.</li>
-<li><a href="https://github.com/NeoApplications/Neo-Store">Neo Store</a>: Modern, feature-rich F-Droid client</li>
+<li><a href="https://droidify.eu.org">Droid-ify</a>: Modern, feature-rich F-Droid client</li>
 <li><a href="https://osmand.net">OsmAnd+</a>: Navigation app based on OpenStreetMap.</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.google.android.dialer">Phone by Google</a>: Google&#8217;s Phone app that I&#8217;ve chosen to use as it complements Google Messages.</li>
 <li><a href="https://photos.google.com">Google Photos</a>: Not my preference, but it&#8217;s one of the only options with good editing capabilities. I keep it disconnected from the internet.</li>
@@ -169,6 +169,7 @@
 <li><a href="https://www.one4studio.com/apps/icon-packs/ares-series">Ares Dark</a>: Provides some very nice looking icons.</li>
 <li><a href="https://proton.me/drive">Proton Drive</a>: Cloud storage that I use to quickly move files between my phone and computer.</li>
 <li><a href="https://protonvpn.com">Proton VPN</a>: A free VPN for when I need it.</li>
+<li><a href="https://protonvpn.com">Flipper</a>: For interacting with <a href="/posts/i-got-a-flipper-zero">my Flipper Zero</a>.</li>
 <li><a href="https://revolt.chat">Revolt</a>: Currently using the work-in-progress <a href="https://github.com/revoltchat/android">native Android app</a>.</li>
 <li><a href="https://signal.org">Signal</a>: Excellent chat app for when I need privacy.</li>
 <li><a href="https://youtube.com">YouTube</a> and <a href="https://music.youtube.com">YouTube Music</a>: Both patched with <a href="https://revanced.app">Revanced</a> for quality of life improvements.</li>

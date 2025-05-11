@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/elsewhere/feed.json",
   "items": [
     {
+      "id": "https://wiki.revolt.chat/notes/transparency/incidents/2025-05-08-attempted-extortion/",
+      "url": "https://wiki.revolt.chat/notes/transparency/incidents/2025-05-08-attempted-extortion/",
+      "title": "Attempted Extortion",
+      "content_html": "\n\t\t<p>Wrote <a href=\"https://wiki.revolt.chat/notes/transparency/incidents/2025-05-08-attempted-extortion/\">Attempted Extortion</a> over on Revolt.</p>\n\t\t\n\t\t\n\t\t\n\t",
+      "date_published": "2025-05-09"
+    },
+    {
       "id": "https://www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up",
       "url": "https://www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up",
       "title": "OpenAI's Jig May Be Up",
