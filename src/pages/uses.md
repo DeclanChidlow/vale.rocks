@@ -37,7 +37,7 @@ I spend a lot of my time in the terminal and, as such, have a pretty smooth conf
 - [Epiphany](https://apps.gnome.org/Epiphany): For testing WebKit compatibility.
 - [Tor](https://www.torproject.org): For the occasional dark web browsing session or increased anonymity. I don't use any extensions with Tor.
 
-I use a [custom search engine wrapper I made](https://search.vale.rocks) to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:
+I use a [custom search engine router I made](https://search.vale.rocks) to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:
 
 - [Facebook Container](https://www.mozilla.org/en-US/firefox/facebookcontainer) (Firefox only): Isolates Facebook from the rest of my browsing.
 - [uBlock Origin](https://ublockorigin.com): Allows blocking adverts, content, fonts, scripts, etc. I switch this out for [the lite variant](https://github.com/uBlockOrigin/uBOL-home) on browsers that have dropped Manifest v2 support.
@@ -48,7 +48,7 @@ I use a [custom search engine wrapper I made](https://search.vale.rocks) to allo
 
 I've already touched on some of my preferred development tools, but I also have many more that I rely on for my front-end development needs.
 
-As you'd expect, I use [Git](https://git-scm.com) for version control, with [GitHub](https://github.com) for hosting. In most situations, I use [Deno](https://deno.com)/[Bun](https://bun.sh/) in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects. I'm also quite fond of using [httplz](https://github.com/thecoshman/http) as a basic localhost server during development.
+As you'd expect, I use [Git](https://git-scm.com) for version control, with [GitHub](https://github.com) for hosting. In most situations, I use [Bun](https://bun.sh) in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects. I'm also quite fond of using [httplz](https://github.com/thecoshman/http) as a basic localhost server during development.
 
 Central to all my development is my editor, [Neovim](https://neovim.io). I've extensively customised it, and it serves as the bulk of my editing environment. It is setup alongside a long list of language servers and plugins that would best be assessed by consulting my [dotfiles](https://github.com/DeclanChidlow/dotfiles). I hope to eventually do a write-up of my specific configuration.
 
@@ -60,7 +60,7 @@ I 'enhance' (more like salvage) the Windows experience with [Microsoft's PowerTo
 
 ### Miscellaneous
 
-I use [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424) for my 3D printing slicing needs, dabble with 3D in [Blender](https://www.blender.org), and use [LibreOffice](https://www.libreoffice.org) for dealing with all the Microsoft Office file formats I have to deal with. Otherwise, I tend to use Neovim paired with [Pandoc](https://pandoc.org) for most document creation.
+I use [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424) for my 3D printing slicing needs, dabble with 3D in [Blender](https://www.blender.org), and use [LibreOffice](https://www.libreoffice.org) for dealing with Microsoft Office file formats. Otherwise, I tend to use Neovim paired with [Pandoc](https://pandoc.org) for most document creation.
 
 My email/contact/calendar/task client is [Thunderbird](https://www.thunderbird.net). It isn't perfect, but is generally alright. Video and loose audio files are played through [mpv](https://mpv.io), and [imv](https://sr.ht/~exec64/imv) serves as my image viewer.
 
@@ -91,7 +91,7 @@ I generally look for apps that I can customise, that are open source, and that a
 - [Kvaesitso](https://kvaesitso.mm20.de): Feature-rich, search-focused launcher.
 - [Google Messages](https://www.android.com/google-messages/): Google's SMS/MMS/RCS app. I'd prefer to use a FOSS alternative, but RCS is pretty locked down, so I'm left without alternative.
 - [Moshidon](https://github.com/LucasGGamerM/moshidon): Wonderful Fediverse client with plenty of quality of life features.
-- [Neo Store](https://github.com/NeoApplications/Neo-Store): Modern, feature-rich F-Droid client
+- [Droid-ify](https://droidify.eu.org): Modern, feature-rich F-Droid client
 - [OsmAnd+](https://osmand.net): Navigation app based on OpenStreetMap.
 - [Phone by Google](https://play.google.com/store/apps/details?id=com.google.android.dialer): Google's Phone app that I've chosen to use as it complements Google Messages.
 - [Google Photos](https://photos.google.com): Not my preference, but it's one of the only options with good editing capabilities. I keep it disconnected from the internet.
@@ -105,6 +105,7 @@ I generally look for apps that I can customise, that are open source, and that a
 - [Ares Dark](https://www.one4studio.com/apps/icon-packs/ares-series): Provides some very nice looking icons.
 - [Proton Drive](https://proton.me/drive): Cloud storage that I use to quickly move files between my phone and computer.
 - [Proton VPN](https://protonvpn.com): A free VPN for when I need it.
+- [Flipper](https://protonvpn.com): For interacting with [my Flipper Zero](/posts/i-got-a-flipper-zero).
 - [Revolt](https://revolt.chat): Currently using the work-in-progress [native Android app](https://github.com/revoltchat/android).
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
 - [YouTube](https://youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [Revanced](https://revanced.app) for quality of life improvements.
