@@ -397,3 +397,11 @@
   url: blog.glyphdrawing.club
   atom: blog.glyphdrawing.club/feed.xml
   description: Modular design, ASCII art, text art, typography, type design, HTML & CSS, programming, and other curious things. 
+- title: Putting Weird Things in Coffee
+  url: puttingweirdthingsincoffee.com
+  rss: puttingweirdthingsincoffee.com/feed/
+  description: A blog about putting weird things in coffee.
+- title: Simone's Computer
+  url: simone.computer
+  rss: blog.simone.computer/rss.xml
+  description: Technology with an emphasis on the retro.
