@@ -6,6 +6,16 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Mon, 12 May 2025 08:04:00 GMT</pubDate>
+      <title>12 May 2025 08:04</title>
+      <link>https://vale.rocks/micros/20250512-0804</link>
+      <guid>https://vale.rocks/micros/20250512-0804</guid>
+      <content:encoded><![CDATA[<p>I just wanted to let everyone know that <code>.</code> is the root of all TLDs.</p>
+<p>This means that, for example, <a href="https://vale.rocks."><code>vale.rocks.</code></a> is a valid domain. <code>vale</code> is a child of <code>rocks</code>, which is itself a child of <code>.</code>.</p>
+<p>You are now burdened with this knowledge.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Fri, 09 May 2025 23:43:00 GMT</pubDate>
       <title>09 May 2025 23:43</title>
       <link>https://vale.rocks/micros/20250509-2343</link>

@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250512-0804",
+      "url": "https://vale.rocks/micros/20250512-0804",
+      "title": "12 May 2025 08:04",
+      "content_html": "<p>I just wanted to let everyone know that <code>.</code> is the root of all TLDs.</p>\n<p>This means that, for example, <a href=\"https://vale.rocks.\"><code>vale.rocks.</code></a> is a valid domain. <code>vale</code> is a child of <code>rocks</code>, which is itself a child of <code>.</code>.</p>\n<p>You are now burdened with this knowledge.</p>\n",
+      "date_published": "2025-05-12T08:04Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250509-2343",
       "url": "https://vale.rocks/micros/20250509-2343",
       "title": "09 May 2025 23:43",
