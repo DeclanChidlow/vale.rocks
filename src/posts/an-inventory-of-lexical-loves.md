@@ -3,7 +3,7 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-04-14
+mod_time: 2025-05-12
 section: Essay
 ---
 
@@ -61,10 +61,10 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>An assortment (usually of sounds) that somehow all manage to fight each other. Auralize the sound of being in a room full of beginner recorder players all trying their best.</dd>
 
 <dt>Garrulous & Loquacious</dt>
-<dd>Both are almost perfect synonyms of one another, so I've grouped them. They refer to when someone is overly chatty, often with equal over expression.</dd>
+<dd>Both are almost perfect synonyms of one another, so I've grouped them. They refer to when someone is overly chatty, often with equal overexpression.</dd>
 
 <dt>Fungi</dt>
-<dd>Chlorophyll lacking eukaryotic organisms. Incredibly fun to say.</dd>
+<dd>Chlorophyll-lacking eukaryotic organisms. Incredibly fun to say.</dd>
 
 <dt>Rambunctious</dt>
 <dd>To be boisterous, destructive, and disruptive. Think of how an out-of-control group of youths act.</dd>
@@ -79,7 +79,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>To be dazzling and visually appealing.</dd>
 
 <dt>Gonzo</dt>
-<dd>Extreme, exaggerated, unconventional and quite possibly bizarre. Especially applicable in the context of certain form of journalism. See: <a href="https://en.wikipedia.org/wiki/Fear_and_loathing_in_las_vegas">Fear and Loathing in Las Vegas</a> and <a href="https://en.wikipedia.org/wiki/Gonzo_(Muppet)">the Muppet</a>.</dd>
+<dd>Extreme, exaggerated, unconventional and quite possibly bizarre. Especially applicable in the context of certain forms of journalism. See: <a href="https://en.wikipedia.org/wiki/Fear_and_loathing_in_las_vegas">Fear and Loathing in Las Vegas</a> and <a href="https://en.wikipedia.org/wiki/Gonzo_(Muppet)">the Muppet</a>.</dd>
 
 <dt>Onomatopoeia</dt>
 <dd>A word that is a vocal imitation of a sound when said aloud.</dd>
@@ -136,7 +136,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>To break something.</dd>
 
 <dt>Quine</dt>
-<dd>A computer program that outputs its source code as it's output.</dd>
+<dd>A computer program that outputs its source code as its output.</dd>
 
 <dt>Extemporaneous</dt>
 <dd>Carried out with minimal preparation or with preparation but without assistance during delivery.</dd>
@@ -163,7 +163,16 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>The estimation of something as worthless. See: the existence of this word.</dd>
 
 <dt>Spud</dt>
-<dd>A potato. Much more fun to say then potato, though.</dd>
+<dd>A potato -- though much more fun to say than potato.</dd>
+
+<dt>Debauched</dt>
+<dd>Behaving in an unrestrained way that isn't considered socially acceptable.</dd>
+
+<dt>Atavistic</dt>
+<dd>Exhibition of an ancestral or evolutionary trait  after a long period without it.</dd>
+
+<dt>Zeitgeist</dt>
+<dd>The general trends of culture, values, spirit, etc at a particular period in time.</dd>
 </dl>
 
 [^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
