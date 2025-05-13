@@ -80,5 +80,6 @@
 			<outline text="leanrada.com" description="Software engineering and artsy stuff." htmlUrl="https://leanrada.com" title="leanrada.com" type="rss" xmlUrl="https://leanrada.com/rss.xml"/>
 			<outline text="Putting Weird Things in Coffee" description="A blog about putting weird things in coffee." htmlUrl="https://puttingweirdthingsincoffee.com" title="Putting Weird Things in Coffee" type="rss" xmlUrl="https://puttingweirdthingsincoffee.com/feed/"/>
 			<outline text="Simone's Computer" description="Technology with an emphasis on the retro." htmlUrl="https://simone.computer" title="Simone's Computer" type="rss" xmlUrl="https://blog.simone.computer/rss.xml"/>
+			<outline text="Giles' blog" description="Practical insights on AI, startups, and software development." htmlUrl="https://www.gilesthomas.com" title="Giles' blog" type="rss" xmlUrl="https://www.gilesthomas.com/feed/rss.xml"/>
 	</body>
 </opml>
