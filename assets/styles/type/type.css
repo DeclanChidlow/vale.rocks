@@ -283,12 +283,13 @@ sub {
 
 abbr {
 	font-variant-caps: all-small-caps;
-	text-decoration: underline dotted 0.1rem;
+	text-decoration: none;
 	font-size: 110%;
 }
 
 kbd {
-	border-bottom-width: 5px;
+	border-bottom-width: 4px;
+	padding: 0 0.4rem;
 }
 
 hr {
