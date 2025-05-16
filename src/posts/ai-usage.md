@@ -14,7 +14,7 @@ AI is a divisive technology, and it has a lot of flaws. I'm not an AI evangelist
 
 I referenced the output of GPT-3 via OpenAI's Playground prior to ChatGPT's release when writing assignments and spent a lot of time experimenting with the technology. I was conscious that GPT-3 was very limited in capabilities but that it was exciting and good for writing generic boilerplate.
 
-I switched to using GPT-3.5 via ChatGPT's short after its launch. Fairly capable, but still extremely flawed.
+I switched to using GPT-3.5 via ChatGPT's shortly after its launch. Fairly capable, but still extremely flawed.
 
 I gave [Craiyon](https://www.craiyon.com) a test, but its output was a garbled mess and interesting only as a proof of concept.
 
