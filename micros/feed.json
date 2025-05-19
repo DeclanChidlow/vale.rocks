@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250519-1109",
+      "url": "https://vale.rocks/micros/20250519-1109",
+      "title": "19 May 2025 11:09",
+      "content_html": "<p>YOLO (You Only Live Once) is just as much justification not to do something as it is to do something, yet it is rarely treated as such.</p>\n<p>Tangentially, you don&#8217;t hear YOLO as a phrase very often anymore. Maybe those YOLOers with gung-ho inclinations wiped themselves out and took the phrase with them?</p>\n",
+      "date_published": "2025-05-19T11:09Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250516-0933",
+      "url": "https://vale.rocks/micros/20250516-0933",
+      "title": "16 May 2025 09:33",
+      "content_html": "<p>A good plot doesn&#8217;t thicken &#8211; it coagulates.</p>\n",
+      "date_published": "2025-05-16T09:33Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250515-2303",
       "url": "https://vale.rocks/micros/20250515-2303",
       "title": "15 May 2025 23:03",

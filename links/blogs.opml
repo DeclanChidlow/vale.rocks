@@ -81,5 +81,8 @@
 			<outline text="Putting Weird Things in Coffee" description="A blog about putting weird things in coffee." htmlUrl="https://puttingweirdthingsincoffee.com" title="Putting Weird Things in Coffee" type="rss" xmlUrl="https://puttingweirdthingsincoffee.com/feed/"/>
 			<outline text="Simone's Computer" description="Technology with an emphasis on the retro." htmlUrl="https://simone.computer" title="Simone's Computer" type="rss" xmlUrl="https://blog.simone.computer/rss.xml"/>
 			<outline text="Giles' blog" description="Practical insights on AI, startups, and software development." htmlUrl="https://www.gilesthomas.com" title="Giles' blog" type="rss" xmlUrl="https://www.gilesthomas.com/feed/rss.xml"/>
+			<outline text="RisingThumb.xyz" description="Software development and an assortment of ramblings." htmlUrl="https://risingthumb.xyz" title="RisingThumb.xyz" type="rss" xmlUrl="https://risingthumb.xyz/Writing/Blog/index.rss"/>
+			<outline text="The Cheapskate's Guide to Computers and the Internet" description="Advice pertaining to frugal device acquisition and internet usage." htmlUrl="https://cheapskatesguide.org" title="The Cheapskate's Guide to Computers and the Internet" type="rss" xmlUrl="https://https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml"/>
+			<outline text="sizeof(cat)" description="Security, privacy, vulnerabilities and exploits, retro computing, music, various programming languages, personal projects, and general other stuff." htmlUrl="https://sizeof.cat" title="sizeof(cat)" type="rss" xmlUrl="https://sizeof.cat/index.xml"/>
 	</body>
 </opml>
