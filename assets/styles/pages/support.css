@@ -33,9 +33,14 @@
 	justify-content: space-evenly;
 	align-items: center;
 
+	p {
+		margin-bottom: 0.25rem;
+		text-align: center;
+	}
+
 	#stripe-card {
-		padding: 3rem 0;
 		display: block;
+		padding: 3rem 0;
 
 		@media (prefers-color-scheme: light) {
 			filter: invert(100%) hue-rotate(180deg) brightness(120%);
@@ -44,9 +49,11 @@
 	}
 
 	#kofiframe {
-		border: none;
+		display: block;
 		width: 288px;
 		height: calc(248px + 6rem);
+		margin: 0 auto;
+		border: none;
 
 		@media (prefers-color-scheme: dark) {
 			filter: invert(93.5%) hue-rotate(180deg);
