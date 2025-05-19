@@ -1,24 +1,23 @@
 const fs = require("fs");
 
-function enhanceSitemap(inputPath, stylesheetUrl = "/assets/sitemap.xsl") {
-	let sitemapContent = fs.readFileSync(inputPath, "utf8");
+function enhanceSitemap(path, stylesheet = "/assets/sitemap.xsl") {
+	let content = fs.readFileSync(path, "utf8");
 
-	sitemapContent = sitemapContent.replace(new RegExp(`(https://vale.rocks[^<\\s]+)(/|\.html)(?=</loc>)`, "g"), "$1");
+	content = content.replace(/(https:\/\/vale\.rocks[^<\s]+)(\/|\.html)(?=<\/loc>)/g, "$1");
 
-	if (!sitemapContent.includes("<?xml-stylesheet")) {
-		sitemapContent = sitemapContent.replace('<?xml version="1.0" encoding="UTF-8"?>', '<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="' + stylesheetUrl + '"?>');
+	if (!content.includes("<?xml-stylesheet")) {
+		content = content.replace('<?xml version="1.0" encoding="UTF-8"?>', `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="${stylesheet}"?>`);
 	}
 
-	fs.writeFileSync(inputPath, sitemapContent);
-	console.log(`Sitemap updated with stylesheet reference: ${stylesheetUrl}`);
+	fs.writeFileSync(path, content);
+	console.log(`Sitemap enhanced with stylesheet: ${stylesheet}`);
 }
 
-const inputPath = process.argv[2];
-const stylesheetUrl = process.argv[3] || "/assets/sitemap.xsl";
+const [, , path, stylesheet = "/assets/sitemap.xsl"] = process.argv;
 
-if (!inputPath) {
-	console.error("Error: Please provide the path to the sitemap file");
+if (!path) {
+	console.error("Error: Missing sitemap path");
 	process.exit(1);
 }
 
-enhanceSitemap(inputPath, stylesheetUrl);
+enhanceSitemap(path, stylesheet);
