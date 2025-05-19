@@ -29,7 +29,7 @@ npm install
 
 Once the dependencies are installed, you can run one of the following scripts:
 
-- `start`: Launches the local development server.
+- `dev`: Launches the local development server.
 - `build`: Generates the site ready for deployment.
 
 Currently, the site is hosted on GitHub Pages. To simplify deployment, a GitHub action is setup which will build and deploy the site from [`gh-pages`](https://github.com/DeclanChidlow/vale.rocks/tree/gh-pages).

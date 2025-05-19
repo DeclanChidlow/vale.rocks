@@ -1,6 +1,5 @@
 {
 	assets
-	CNAME
 	.well-known
 	opensearch.xml
 
