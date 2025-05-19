@@ -1,6 +1,6 @@
 ---
 title: "Vale.Rocks"
-description: "Personal website of Declan Chidlow, front-end web developer specialising in HTML, CSS, and JavaScript, known mononymously as Vale. Contains thoughts, musings, and otherwise unhinged ramblings. Long-form structured writings, portfolio items, photography, hosted services, links, microblog posts, and much more."
+description: "Personal website of Declan Chidlow, writer and front-end web developer specialising in HTML, CSS, and JavaScript, known mononymously as Vale. Contains thoughts, musings, and otherwise unhinged ramblings. Long-form structured writings, portfolio items, photography, hosted services, links, microblog posts, and much more."
 og_description: "The hippest site this side of MySpace."
 stylesheet: "pages/index.css"
 canonical: ""
@@ -22,9 +22,9 @@ canonical: ""
 
 I'm Declan Chidlow; I often go by Vale online, and this site is the gateway to all the horrific abominations I concoct.
 
-I'm a front-end developer with a skew to the front of the front-end. My expertise lies in core web technologies – HTML, CSS, and JavaScript – and leveraging them to craft digital experiences that are both functional and visually appealing.
+I'm both a front-end developer and writer. As a developer I have a skew towards the front of the front-end. My expertise lies in core web technologies – HTML, CSS, and JavaScript – and leveraging them to craft digital experiences that are both functional and visually appealing. As a writer, I span an assortment of topics, though they are oft technical.
 
-When not bodging together scripts, you may find me cruising around on my unicycle, writing for this website, browsing the crevices of cyberspace, or inadvertently converting an otherwise functional piece of tech into a paperweight.
+When not bodging together scripts (both the kind you run and the kind you read), you may find me cruising around on unicycle, browsing the crevices of cyberspace, or inadvertently converting an otherwise functional piece of tech into a paperweight.
 
 </section>
 

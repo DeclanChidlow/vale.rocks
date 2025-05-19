@@ -17,29 +17,27 @@ If you're donating for any specific project, then [let me know](/contact) so I c
 <script async src="https://js.stripe.com/v3/buy-button.js"></script>
 
 <div id="donation-cards">
-<div>
-    <p>Support via Stripe (one-off):</p>
-    <stripe-buy-button
-      id="stripe-card"
-      buy-button-id="buy_btn_1Qh1LFDhfmOVSSxcKIN5bmfd"
-      publishable-key="pk_live_51OEoETDhfmOVSSxcCCuvDwDe4XZufPgC1HQi1FlZbYrZKBU4p2HV7wYmf52f5h2WHYhI9KKPFnL8OXxtf1MEa3tk00N8cxz2Qg">
-    </stripe-buy-button>
-    <noscript>
-        <a href="https://buy.stripe.com/14kcMXdBzfDMgDK9AA" id="stripe-button">Stripe Donation Page</a>
-    </noscript>
-</div>
-
-<strong>or</strong>
-
-<div>
-    <p>Support via Ko-Fi (one-off or recurring):</p>
-    <iframe id='kofiframe' src='https://ko-fi.com/valence/?hidefeed=true&widget=true&embed=true&preview=true' title='valence'></iframe>
-    <noscript>
-        <style>#kofiframe{display:none}</style>
-        <a href="https://ko-fi.com/valence" id="kofi-button">Ko-Fi Donation Page</a>
-    </noscript>
-</div>
-</div>
+    <div>
+        <p>Support via Stripe (one-off):</p>
+        <stripe-buy-button
+          id="stripe-card"
+          buy-button-id="buy_btn_1Qh1LFDhfmOVSSxcKIN5bmfd"
+          publishable-key="pk_live_51OEoETDhfmOVSSxcCCuvDwDe4XZufPgC1HQi1FlZbYrZKBU4p2HV7wYmf52f5h2WHYhI9KKPFnL8OXxtf1MEa3tk00N8cxz2Qg">
+        </stripe-buy-button>
+        <noscript>
+            <style>#donation-cards #stripe-card{padding:0}</style>
+            <a href="https://buy.stripe.com/14kcMXdBzfDMgDK9AA" id="stripe-button">Stripe Donation Page</a>
+        </noscript>
+    </div>
+    <strong>or</strong>
+    <div>
+        <p>Support via Ko-Fi (one-off or recurring):</p>
+        <iframe id='kofiframe' src='https://ko-fi.com/valence/?hidefeed=true&widget=true&embed=true&preview=true' title='valence'></iframe>
+        <noscript>
+            <style>#donation-cards #kofiframe{display:none}</style>
+            <a href="https://ko-fi.com/valence" id="kofi-button">Ko-Fi Donation Page</a>
+        </noscript>
+    </div>
 </div>
 
 </div>

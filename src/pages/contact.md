@@ -18,10 +18,10 @@ Need to get in contact with me for whatever reason? In order of preference, the 
 
 ---
 
-If you need to verify that communication is genuinely from me (which is increasingly important in the age of misinformation), you can do so using my PGP key.
+If, in this age of increasing misinformation, you need to verify that communication is genuinely from me, you can do so using my PGP key.
 
 <details>
-    <summary>View public PGP Key</summary>
+    <summary>Public PGP Key</summary>
 
 ```plaintext
 -----BEGIN PGP PUBLIC KEY BLOCK-----
