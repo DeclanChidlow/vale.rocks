@@ -126,7 +126,7 @@
 		<div class="footer-top">
 			<h2>Vale</h2>
 			<div class="footer-navigation">
-				<a href="/support" class="support">Support My Work</a>
+				<a href="/support" rel="payment" class="support">Support My Work</a>
 				<nav aria-label="footer">
 					<ul>
 						<li><a href="/posts">Posts</a></li>

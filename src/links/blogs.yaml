@@ -409,3 +409,18 @@
   url: www.gilesthomas.com
   rss: www.gilesthomas.com/feed/rss.xml
   description: Practical insights on AI, startups, and software development.
+- title: RisingThumb.xyz
+  url: risingthumb.xyz
+  rss: risingthumb.xyz/Writing/Blog/index.rss
+  description: Software development and an assortment of ramblings.
+- title: The Cheapskate's Guide to Computers and the Internet
+  url: cheapskatesguide.org
+  rss: https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml
+  description: Advice pertaining to frugal device acquisition and internet usage.
+- title: sizeof(cat)
+  url: sizeof.cat
+  rss: sizeof.cat/index.xml
+  description: Security, privacy, vulnerabilities and exploits, retro computing, music, various programming languages, personal projects, and general other stuff.
+- title: jclahoot.com
+  url: jclahoot.com
+  description: A personal website with an extra dimension.

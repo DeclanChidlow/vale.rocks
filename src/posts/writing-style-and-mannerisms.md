@@ -3,6 +3,7 @@ title: My Writing Style and Mannerisms
 description: A look at the stylistic fingerprints marking up my writing. Covering and vaguely justifying my spellings, use of punctuation, sentence structure, and other prose crimes. 
 og_description: Stay tuned for my writing manorialism. 
 pub_time: 2025-05-01
+mod_time: 2025-05-19
 section: Essay
 ---
 
@@ -33,6 +34,8 @@ I saw Mike Sass [write about his writing mannerisms](https://shellsharks.com/wri
 - I am prone to using 'though' as a crutch for bad writing.
 
 - I occasionally use italics for emphasis of key terms or concepts, but I mainly use them for conversational emphasis.
+
+- I have a tendency to define a term and then use it as if it is a common [term of art](https://en.wiktionary.org/wiki/term_of_art).
 
 - I tend not to use underlines or bold too frequently. Underlines on the web are largely associated with hyperlinks, and even though Vale.Rocks' hyperlinks are styled differently, I still err on the side of caution. I bold things occasionally, but I do often find it draws the eye too much and can be distracting, so I do it scarcely.
 

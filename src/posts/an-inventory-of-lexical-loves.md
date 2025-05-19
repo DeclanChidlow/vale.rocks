@@ -3,7 +3,7 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-05-12
+mod_time: 2025-05-19
 section: Essay
 ---
 
@@ -173,6 +173,9 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Zeitgeist</dt>
 <dd>The general trends of culture, values, spirit, etc at a particular period in time.</dd>
+
+<dt>Confabulation</dt>
+<dd>A fabricated or distorted memory believed to be genuine.</dd>
 </dl>
 
 [^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
