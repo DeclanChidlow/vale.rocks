@@ -7,24 +7,28 @@
 - title: OpenAI's Jig May Be Up
   location: LessWrong
   url: www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up
+  image: res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/kqcrb6rugonnddyfd5gp 
   pub_time: 2025-05-06
   type: article
   sort: writer
 - title: Next Level CSS Styling for Cursors
   location: CSS-Tricks
   url: css-tricks.com/next-level-css-styling-for-cursors/
+  image: i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/pointer-click.png 
   pub_time: 2025-04-14
   type: article
   sort: writer
 - title: Bring Back Exciting Website Design
   location: Tech on Tea
   url: www.youtube.com/watch?v=DeOEmE65U1E
+  image: i.ytimg.com/vi/DeOEmE65U1E/maxresdefault.jpg 
   pub_time: 2025-04-05
   type: podcast
   sort: guest
 - title: DOGE's Website Is Just One Big X Ad
   location: WIRED
   url: www.wired.com/story/doge-website-is-just-one-big-x-ad/
+  image: media.wired.com/photos/67ae1630675138f4a0ec3db7/191:100/w_1280,c_limit/musk-doge-x-biz-2198394195.jpg 
   pub_time: 2025-02-13
   type: article
   sort: contributor
@@ -32,12 +36,14 @@
 - title: My favourite colour is Chuck Norris red
   location: HTMHell
   url: www.htmhell.dev/adventcalendar/2024/20/
+  image: www.htmhell.dev/images/og/advent24_20.png
   pub_time: 2024-12-20
   type: article
   sort: writer
 - title: 100K Users
   location: Revolt
   url: revolt.chat/updates/100k-users
+  image: revolt.chat/content/blog/100K-users/cover.png
   pub_time: 2023-05-13
   type: article
   sort: writer

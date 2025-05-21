@@ -49,6 +49,7 @@ article header {
 .micro-content {
 	display: flex;
 	flex-direction: row-reverse;
+	justify-content: flex-end;
 	gap: 3rem;
 
 	aside {
