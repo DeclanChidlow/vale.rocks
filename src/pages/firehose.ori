@@ -3,6 +3,7 @@
 	description: "Every thought and web thing piped directly through at a million miles an hour. Micro posts, articles, photography, etc. This is everything, all in one place, coming 'atcha!"
 	og_description: "Everything, all in one place, coming 'atcha!"
 	stylesheet: "pages/firehose.css"
+	canonical: `/firehose/${ paginated_firehose/pageNumber }`
 
 @text:
 `<h1 class="section" data-pagefind-ignore>Firehose</h1>

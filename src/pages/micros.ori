@@ -3,6 +3,7 @@
 	description: "Short-form posts often published elsewhere and syndicated to this site. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries."
 	og_description: "Short-form and often ephemeral content."
 	stylesheet: "pages/micros.css"
+	canonical: `/micros/${ paginated_micros/pageNumber }`
 
 @text:
 `<h1 class="section" data-pagefind-ignore>Micros</h1>

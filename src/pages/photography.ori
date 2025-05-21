@@ -3,6 +3,7 @@
 	description: "A wide array of high-quality, high-resolution photography ranging from wide shots of landscapes to up-close macros of fungi. Lots of nature oriented photos and small captures of the otherwise unacknowledged."
 	og_description: "My exemplary capture of photons in one place for your viewing pleasure."
 	stylesheet: "pages/photography.css"
+	canonical: `/photography/${ paginated_photography/pageNumber }`
 
 @text:
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Photography</h1>

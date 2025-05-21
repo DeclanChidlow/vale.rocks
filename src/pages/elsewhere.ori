@@ -3,6 +3,7 @@
 	description: "Vale's writings, contributions, and appearances published externally to Vale.Rocks. Read tech journalism, web development insights, digital culture analysis, and more from Declan Chidlow."
 	og_description: "My writings, contributions, and appearances external to Vale.Rocks."
 	stylesheet: "pages/elsewhere.css"
+	canonical: `/elsewhere/${ paginated_elsewhere/pageNumber }`
 
 @text:
 `<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
