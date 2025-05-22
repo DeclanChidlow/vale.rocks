@@ -38,6 +38,11 @@ input[type="checkbox"] {
 		@media (prefers-color-scheme: dark) {
 			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M25 25 L75 75 M75 25 L25 75' stroke='oklch(18% 0.003 17.5)' stroke-width='5' fill='none' /%3E%3C/svg%3E");
 		}
+	}
+}
+
+label {
+	font-size: small;
 }
 
 ::placeholder {
