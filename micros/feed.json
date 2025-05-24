@@ -13,6 +13,20 @@
       "date_published": "2025-05-24T11:45Z"
     },
     {
+      "id": "https://vale.rocks/micros/20250524-0737",
+      "url": "https://vale.rocks/micros/20250524-0737",
+      "title": "24 May 2025 07:37",
+      "content_html": "<p>I wanted to see how the times Bluesky posts are published affect the popularity of those posts, so I put together a super quick and dirty little tool to do that.</p>\n<p><a href=\"https://tools.vale.rocks/bluesky-posting-analyser\">https://tools.vale.rocks/bluesky-posting-analyser</a></p>\n<p>My findings lined up with my hypothesis that posts around American mornings and evenings merit the most activity.</p>\n<p>I was surprised to see that weekends are popular within technical communities, as I expected engagement to drop off when people aren&#8217;t &#8216;working&#8217;.</p>\n",
+      "date_published": "2025-05-24T07:37Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250524-0151",
+      "url": "https://vale.rocks/micros/20250524-0151",
+      "title": "24 May 2025 01:51",
+      "content_html": "<p>HTML. CSS. JavaScript.</p>\n<p>Long ago, the three nations lived together in harmony. Then, everything changed when The Frameworks attacked.</p>\n",
+      "date_published": "2025-05-24T01:51Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250523-1209",
       "url": "https://vale.rocks/micros/20250523-1209",
       "title": "23 May 2025 12:09",
