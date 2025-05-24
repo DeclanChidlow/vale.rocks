@@ -6,6 +6,17 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Sat, 24 May 2025 11:45:00 GMT</pubDate>
+      <title>24 May 2025 11:45</title>
+      <link>https://vale.rocks/micros/20250524-1145</link>
+      <guid>https://vale.rocks/micros/20250524-1145</guid>
+      <content:encoded><![CDATA[<p>Carousels are a web staple. Websites use them, and thus people do in turn. They&#8217;ve garnered a <em>lot</em> of hate over the years, primarily due to being largely inaccessible and poor ways of presenting information, yet still they persist. So, if you can&#8217;t beat &#8216;em, join &#8216;em.</p>
+<p>The Chrome team put together <a href="https://developer.chrome.com/blog/carousels-with-css">Carousels with CSS</a> which Sara Soueidan has <a href="https://www.sarasoueidan.com/blog/css-carousels-accessibility">examined in extreme depth</a>. My main takeaway from the main article and Sara&#8217;s analysis is that while this is a vague step in the correct direction, it doesn&#8217;t address any of the core issues <a href="https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html">like accessibility</a> and introduces new ones. I was disappointed to see the approach taken in regard to <a href="https://bsky.app/profile/nerdy.dev/post/3lprmlrziwc2h">addressing those issues</a> and think Eric Eggert <a href="https://bsky.app/profile/yatil.net/post/3lpvdvuvjuk2d">hit the nail on the head</a>.</p>
+<p>It completely fails with regard to separation of concerns by using CSS for structure, rather than HTML. I don&#8217;t know how to address that other than asking <em>why?</em> I&#8217;ve noticed a lot of new CSS features, especially ones with the Chrome team&#8217;s influence, are getting a little too markup-y for my liking. David Bushell has <a href="https://dbushell.com/2025/05/23/pseudo-elements/">covered this and the overreliance of pseudo-elements</a> with touchings on the <a href="https://dbushell.com/notes/2025-05-07T09:51Z/">carousel kerfuffle</a>.</p>
+<p>HTML is for structure, CSS is for styling, JS is for anything that can&#8217;t be achieved with HTML/CSS, and accessibility isn&#8217;t omittable. We should be striving to build a web that is both functional and inclusive. Respect the web; respect users.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Fri, 23 May 2025 12:09:00 GMT</pubDate>
       <title>23 May 2025 12:09</title>
       <link>https://vale.rocks/micros/20250523-1209</link>
