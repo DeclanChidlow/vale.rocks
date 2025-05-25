@@ -243,7 +243,10 @@
   description: A node graph builder for SVG filters.
 - title: Anchor position tool
   url: anchor-tool.com
-  description: Tool for visualising CSS `position-area`.
+  description: Tool for visualising CSS <code>position-area</code>.
 - title: mobygratis
   url: mobygratis.com
   description: Free instrumental music for creators.
+- title: Fountn.
+  url: fountn.design
+  description: Collection of design resources curated by designers.

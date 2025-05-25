@@ -203,7 +203,7 @@
   description: Artificial intelligence.
 - title: LessWrong
   url: www.lesswrong.com
-  rss: www.lesswrong.com/feed.xml
+  rss: www.lesswrong.com/feed.xml?view=frontpage-rss
   description: Community blog of sorts discussing rationality and AI.
 - title: brr
   url: brr.fyi
@@ -424,3 +424,27 @@
 - title: jclahoot.com
   url: jclahoot.com
   description: A personal website with an extra dimension.
+- title: Eric Eggert
+  url: yatil.net
+  rss: yatil.net/feed
+  json: yatil.net/feed/json
+  description: Web accessibility.
+- title: Amber Wilson
+  url: amberwilson.co.uk
+  rss: amberwilson.co.uk/rss.xml
+  description: Web development and design.
+- title: varnelis.net
+  url: varnelis.net
+  rss: varnelis.net/feed/
+  description: Assorted very long-form writings.
+- title: iamrobin
+  url: www.iamrob.in
+  description: Design, development, and art.
+- title: foreverliketh.is
+  url: foreverliketh.is
+  rss: foreverliketh.is/blog/index.xml
+  description: Very assorted writings.
+- title: dead.garden
+  url: dead.garden
+  rss: dead.garden/blog/feed.rss
+  description: Various writings allergic to SEO.
