@@ -45,7 +45,7 @@
 			<outline text="Mayank" description="Web development." htmlUrl="https://mayank.co" title="Mayank" type="rss" xmlUrl="https://mayank.co/blog/rss.xml"/>
 			<outline text="Scott O'Hara" description="Web development, largely focusing on accessibility." htmlUrl="https://www.scottohara.me" title="Scott O'Hara" type="rss" xmlUrl="https://www.scottohara.me/feed.xml"/>
 			<outline text="Waxy.org" description="Various web things." htmlUrl="https://waxy.org" title="Waxy.org" type="rss" xmlUrl="https://waxy.org/feed/"/>
-			<outline text="LessWrong" description="Community blog of sorts discussing rationality and AI." htmlUrl="https://www.lesswrong.com" title="LessWrong" type="rss" xmlUrl="https://www.lesswrong.com/feed.xml"/>
+			<outline text="LessWrong" description="Community blog of sorts discussing rationality and AI." htmlUrl="https://www.lesswrong.com" title="LessWrong" type="rss" xmlUrl="https://www.lesswrong.com/feed.xml?view=frontpage-rss"/>
 			<outline text="brr" description="Records of interesting things about Antarctica from someone who lived there." htmlUrl="https://brr.fyi" title="brr" type="rss" xmlUrl="https://brr.fyi/feed.xml"/>
 			<outline text="ribo.zone" description="Assorted miscellany." htmlUrl="https://ribo.zone" title="ribo.zone" type="rss" xmlUrl="https://ribo.zone/feed.xml"/>
 			<outline text="oimo.io" description="Development with an emphasis on graphics." htmlUrl="https://oimo.io" title="oimo.io" type="rss" xmlUrl="https://blog.oimo.io/feed/"/>
@@ -84,5 +84,10 @@
 			<outline text="RisingThumb.xyz" description="Software development and an assortment of ramblings." htmlUrl="https://risingthumb.xyz" title="RisingThumb.xyz" type="rss" xmlUrl="https://risingthumb.xyz/Writing/Blog/index.rss"/>
 			<outline text="The Cheapskate's Guide to Computers and the Internet" description="Advice pertaining to frugal device acquisition and internet usage." htmlUrl="https://cheapskatesguide.org" title="The Cheapskate's Guide to Computers and the Internet" type="rss" xmlUrl="https://https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml"/>
 			<outline text="sizeof(cat)" description="Security, privacy, vulnerabilities and exploits, retro computing, music, various programming languages, personal projects, and general other stuff." htmlUrl="https://sizeof.cat" title="sizeof(cat)" type="rss" xmlUrl="https://sizeof.cat/index.xml"/>
+			<outline text="Eric Eggert" description="Web accessibility." htmlUrl="https://yatil.net" title="Eric Eggert" type="rss" xmlUrl="https://yatil.net/feed"/>
+			<outline text="Amber Wilson" description="Web development and design." htmlUrl="https://amberwilson.co.uk" title="Amber Wilson" type="rss" xmlUrl="https://amberwilson.co.uk/rss.xml"/>
+			<outline text="varnelis.net" description="Assorted very long-form writings." htmlUrl="https://varnelis.net" title="varnelis.net" type="rss" xmlUrl="https://varnelis.net/feed/"/>
+			<outline text="foreverliketh.is" description="Very assorted writings." htmlUrl="https://foreverliketh.is" title="foreverliketh.is" type="rss" xmlUrl="https://foreverliketh.is/blog/index.xml"/>
+			<outline text="dead.garden" description="Various writings allergic to SEO." htmlUrl="https://dead.garden" title="dead.garden" type="rss" xmlUrl="https://dead.garden/blog/feed.rss"/>
 	</body>
 </opml>
