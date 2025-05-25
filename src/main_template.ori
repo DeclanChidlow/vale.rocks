@@ -54,18 +54,11 @@
 		<meta name="citation_author" content="Declan Chidlow">
 		<meta name="creator" content="vale.rocks">
 		<meta name="contact" content="https://vale.rocks/contact">
+		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
 
 		<meta name="color-scheme" content="light dark">
 		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
 		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
-
-		<meta name="fediverse:creator" content="@vale@fedi.vale.rocks">
-		<link rel="me" href="https://fedi.vale.rocks/vale">
-		<link rel="me" href="https://bsky.app/profile/vale.rocks">
-		<link rel="me" href="https://codepen.io/OuterVale">
-		<link rel="me" href="https://github.com/DeclanChidlow">
-		<link rel="me" href="https://unsplash.com/@outervale">
-		<link rel="me" href="https://www.linkedin.com/in/declan-chidlow">
 
 		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
@@ -131,14 +124,14 @@
 					<ul>
 						<li><a href="/posts">Posts</a></li>
 						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/services">Services</a></li>
-						<li><a href="/firehose">Firehose</a></li>
-						<li><a href="/syndication">Syndication</a></li>
 						<li><a href="/micros">Micros</a></li>
 						<li><a href="/photography">Photography</a></li>
 						<li><a href="/elsewhere">Elsewhere</a></li>
+						<li><a href="/firehose">Firehose</a></li>
 						<li><a href="/links">Links</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/syndication">Syndication</a></li>
 						<li><a href="/uses">Uses</a></li>
 						<li><a href="/sitemap.xml">Sitemap</a></li>
 					</ul>
@@ -150,25 +143,25 @@
 			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 			<ul>
 				<li>
-					<a href="https://fedi.vale.rocks/vale">${ fediverse_icon }</a>
+					<a href="https://fedi.vale.rocks/vale" rel="me">${ fediverse_icon }</a>
 				</li>
 				<li>
-					<a href="https://bsky.app/profile/vale.rocks">${ bluesky_icon }</a>
+					<a href="https://bsky.app/profile/vale.rocks" rel="me">${ bluesky_icon }</a>
 				</li>
 				<li>
-					<a href="https://github.com/DeclanChidlow">${ github_icon }</a>
+					<a href="https://github.com/DeclanChidlow" rel="me">${ github_icon }</a>
 				</li>
 				<li>
-					<a href="https://unsplash.com/@outervale">${ unsplash_icon }</a>
+					<a href="https://unsplash.com/@outervale" rel="me">${ unsplash_icon }</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/declan-chidlow">${ linkedin_icon }</a>
+					<a href="https://www.linkedin.com/in/declan-chidlow" rel="me">${ linkedin_icon }</a>
 				</li>
 				<li>
-					<a href="https://codepen.io/OuterVale">${ codepen_icon }</a>
+					<a href="https://codepen.io/OuterVale" rel="me">${ codepen_icon }</a>
 				</li>
 				<li>
-					<a href="https://www.youtube.com/@outervale">${ youtube_icon }</a>
+					<a href="https://www.youtube.com/@outervale" rel="me">${ youtube_icon }</a>
 				</li>
 			</ul>
 		</div>
