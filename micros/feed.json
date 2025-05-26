@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250525-1307",
+      "url": "https://vale.rocks/micros/20250525-1307",
+      "title": "25 May 2025 13:07",
+      "content_html": "<p>Words, laid bare. Branded with the mark of shame: &#8216;[sic]&#8217;. The textual equivalent of a public flogging. Execution in bracketed form.</p>\n",
+      "date_published": "2025-05-25T13:07Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250524-1145",
       "url": "https://vale.rocks/micros/20250524-1145",
       "title": "24 May 2025 11:45",
