@@ -117,7 +117,7 @@ Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr
 <figcaption>Table presenting the various Thunderbirds vehicles.</figcaption>
 </figure>
 
-## Callouts/Alerts
+## Admonitions
 
 > [!NOTE]
 > Important info users should be aware of, even when skimming.
@@ -407,10 +407,17 @@ And finally, a nice horizontal rule...
 <!-- Sneaky little comment that won't be rendered. -->
 
 [^1]: This is a footnote, but more accurately it's an endnote, and it'll appear as a sidenote on larger screens.
+
 [^2]: Magni dolorum ipsa voluptas tempore est ut in. Dicta corrupti ipsa aspernatur. Soluta sunt quae impedit. Eos nobis accusantium ut amet.
+
 [^3]: Id ex ipsum rerum tempore. Sunt ab deserunt impedit architecto reprehenderit ex. Corporis dolores qui accusamus dolorem. Laudantium optio voluptatem eum id qui. Est ut laborum unde.
+
 [^4]: Dolor expedita repudiandae voluptas. Veritatis beatae quis impedit id veniam. Nisi illum animi voluptatem magnam labore sunt omnis.
+
 [^5]: Est illo fuga autem fugiat qui quaerat inventore. Suscipit in aut vero libero labore ut. Facere enim nihil itaque. Enim aut dignissimos non velit autem odio quae. Libero et corrupti eos.
+
 [^6]: Similique laboriosam quas ipsam molestias quia. Earum maxime quo veniam modi. Exercitationem et odit cum. Aspernatur et ad dolor voluptatem aperiam nihil et ut.
+
 [^7]: Cum eligendi quaerat blanditiis. Nostrum distinctio vel veritatis ut quod vel ea ipsa. Doloribus quae quia quibusdam veritatis provident reiciendis reiciendis quisquam.
+
 [^8]: Eaque perferendis eos illo. Cum quos qui aut commodi. Et cumque quaerat molestiae. Quo laboriosam itaque odit dolorem perferendis eius.
