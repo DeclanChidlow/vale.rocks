@@ -448,3 +448,18 @@
   url: dead.garden
   rss: dead.garden/blog/feed.rss
   description: Various writings allergic to SEO.
+- title: Ariel Salminen
+  url: arielsalminen.com
+  atom: arielsalminen.com/atom.xml
+  description: Design systems and web development.
+- title: Grace Kind
+  url: gracekind.net
+  description: Independent writing and research into ideonomy and machine learning.
+- title: taylor.town
+  url: taylor.town
+  rss: taylor.town/feed.xml
+  description: Learning, time, design, software, ideas, and humour.
+- title: Acko.net
+  url: acko.net
+  atom: acko.net/atom.xml
+  description: Random hacks, graphics and design, maths, and other ephemera.
