@@ -89,5 +89,6 @@
 			<outline text="varnelis.net" description="Assorted very long-form writings." htmlUrl="https://varnelis.net" title="varnelis.net" type="rss" xmlUrl="https://varnelis.net/feed/"/>
 			<outline text="foreverliketh.is" description="Very assorted writings." htmlUrl="https://foreverliketh.is" title="foreverliketh.is" type="rss" xmlUrl="https://foreverliketh.is/blog/index.xml"/>
 			<outline text="dead.garden" description="Various writings allergic to SEO." htmlUrl="https://dead.garden" title="dead.garden" type="rss" xmlUrl="https://dead.garden/blog/feed.rss"/>
+			<outline text="taylor.town" description="Learning, time, design, software, ideas, and humour." htmlUrl="https://taylor.town" title="taylor.town" type="rss" xmlUrl="https://taylor.town/feed.xml"/>
 	</body>
 </opml>

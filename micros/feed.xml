@@ -6,6 +6,50 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Tue, 27 May 2025 23:42:00 GMT</pubDate>
+      <title>27 May 2025 23:42</title>
+      <link>https://vale.rocks/micros/20250527-2342</link>
+      <guid>https://vale.rocks/micros/20250527-2342</guid>
+      <content:encoded><![CDATA[<p>&#8220;Your website should be a home/garden/portfolio/blog/etc.&#8221;</p>
+<p>No. It should be a grimoire, dammit.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Tue, 27 May 2025 22:50:00 GMT</pubDate>
+      <title>27 May 2025 22:50</title>
+      <link>https://vale.rocks/micros/20250527-2250</link>
+      <guid>https://vale.rocks/micros/20250527-2250</guid>
+      <content:encoded><![CDATA[<p>You use <code>* + *</code> because it is a useful CSS snippet. I use <code>* + *</code> because I think it looks funny, and I like saying &#8216;lobotomised owl&#8217;.</p>
+<p>We are not the same.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Tue, 27 May 2025 11:11:00 GMT</pubDate>
+      <title>27 May 2025 11:11</title>
+      <link>https://vale.rocks/micros/20250527-1111</link>
+      <guid>https://vale.rocks/micros/20250527-1111</guid>
+      <content:encoded><![CDATA[<p>A word of advice: don’t have a default username system if you’re running an online service which you’ll need to moderate.</p>
+<p>Automated accounts will use these default names, which allows them to blend in with genuine users using default names and makes it harder to spot patterns.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Mon, 26 May 2025 23:15:00 GMT</pubDate>
+      <title>26 May 2025 23:15</title>
+      <link>https://vale.rocks/micros/20250526-2315</link>
+      <guid>https://vale.rocks/micros/20250526-2315</guid>
+      <content:encoded><![CDATA[<p>Sometimes I push to prod simply because I’ve grown to hate my creation and wish to watch it suffer and toil in this cruel world at the twisted hands of deranged users.</p>
+<p>Other times I feel sorry and have sympathy, so my pushes to prod are because I can’t bear to watch my own creation flounder alone within the confines of my machine with me as its sole tormentor any longer.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <pubDate>Mon, 26 May 2025 11:51:00 GMT</pubDate>
+      <title>26 May 2025 11:51</title>
+      <link>https://vale.rocks/micros/20250526-1151</link>
+      <guid>https://vale.rocks/micros/20250526-1151</guid>
+      <content:encoded><![CDATA[<p>Part of becoming better at a craft is to reflect on shortcomings and to see what can be improved and iterated upon. I feel like a lot of people forget to do that bit when &#8220;moving fast and breaking things&#8221;.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Sun, 25 May 2025 13:07:00 GMT</pubDate>
       <title>25 May 2025 13:07</title>
       <link>https://vale.rocks/micros/20250525-1307</link>
