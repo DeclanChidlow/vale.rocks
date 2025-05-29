@@ -29,6 +29,9 @@
     <loc>https://vale.rocks/posts</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/posts/ai-criticism</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/posts/creativity-came-to-pass</loc>
   </url>
   <url>
@@ -342,6 +345,12 @@
   </url>
   <url>
     <loc>https://vale.rocks/micros/7</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/8</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250528-2321</loc>
   </url>
   <url>
     <loc>https://vale.rocks/micros/20250527-2342</loc>

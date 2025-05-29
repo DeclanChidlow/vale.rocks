@@ -6,6 +6,16 @@
     <link>https://vale.rocks</link>
     <atom:link href="https://vale.rocks/micros/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <pubDate>Wed, 28 May 2025 23:21:00 GMT</pubDate>
+      <title>28 May 2025 23:21</title>
+      <link>https://vale.rocks/micros/20250528-2321</link>
+      <guid>https://vale.rocks/micros/20250528-2321</guid>
+      <content:encoded><![CDATA[<p>Last night I crept into your house under the cover of darkness and made almost imperceivable modifications to your browser&#8217;s user-agent stylesheet.</p>
+<p>Changes just impactful enough that you will be mildly inconvenienced. I chucked a few <code>!important</code>s in there as well.</p>
+<p>My evil knows no bounds.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <pubDate>Tue, 27 May 2025 23:42:00 GMT</pubDate>
       <title>27 May 2025 23:42</title>
       <link>https://vale.rocks/micros/20250527-2342</link>
