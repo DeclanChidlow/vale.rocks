@@ -7,7 +7,7 @@
 }
 
 .gsc-reactions-popover {
-	background: light-dark(var(--grey));
+	background: var(--grey);
 	color: white;
 
 	--color-border-default: var(--grey);
@@ -38,6 +38,11 @@
 
 	.gsc-comment-box-textarea {
 		border-bottom-style: solid;
+
+		&::placeholder {
+			opacity: 1;
+			color: light-dark(var(--bright_grey), var(--white));
+		}
 	}
 
 	.gsc-comment-box-textarea-extras {
