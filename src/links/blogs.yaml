@@ -463,3 +463,7 @@
   url: acko.net
   atom: acko.net/atom.xml
   description: Random hacks, graphics and design, maths, and other ephemera.
+- title: David Bushell
+  url: dbushell.com
+  rss: dbushell.com/rss.xml
+  description: Web design, development, and technological/societal critique.
