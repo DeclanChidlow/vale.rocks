@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250530-1055",
+      "url": "https://vale.rocks/micros/20250530-1055",
+      "title": "30 May 2025 10:55",
+      "content_html": "<p>A fantastic post from David Bushell regarding AI slop and its ever-continuing dribble into everything at the cost of better, more well-formed, and intentioned alternatives.</p>\n<p><a href=\"https://dbushell.com/2025/05/30/ensloppification\">https://dbushell.com/2025/05/30/ensloppification</a></p>\n",
+      "date_published": "2025-05-30T10:55Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250529-2253",
+      "url": "https://vale.rocks/micros/20250529-2253",
+      "title": "29 May 2025 22:53",
+      "content_html": "<p>The natural beauty of watching a database migrating south for the update.</p>\n",
+      "date_published": "2025-05-29T22:53Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250528-2321",
       "url": "https://vale.rocks/micros/20250528-2321",
       "title": "28 May 2025 23:21",

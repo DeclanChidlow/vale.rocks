@@ -350,6 +350,12 @@
     <loc>https://vale.rocks/micros/8</loc>
   </url>
   <url>
+    <loc>https://vale.rocks/micros/20250530-1055</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/micros/20250529-2253</loc>
+  </url>
+  <url>
     <loc>https://vale.rocks/micros/20250528-2321</loc>
   </url>
   <url>
@@ -1431,6 +1437,9 @@
   </url>
   <url>
     <loc>https://vale.rocks/firehose/9</loc>
+  </url>
+  <url>
+    <loc>https://vale.rocks/firehose/10</loc>
   </url>
   <url>
     <loc>https://vale.rocks/portfolio</loc>
