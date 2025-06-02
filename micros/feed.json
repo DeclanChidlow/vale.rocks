@@ -6,6 +6,69 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250602-0404",
+      "url": "https://vale.rocks/micros/20250602-0404",
+      "title": "02 Jun 2025 04:04",
+      "content_html": "<p>The users. They yearn for toxicity. They will drag it with them and sew its seeds. Toxicity feeds drama, and drama feeds engagement.</p>\n<p>The scripture tells us it&#8217;s true. <br><a href=\"https://www.pnas.org/doi/pdf/10.1073/pnas.1320040111\">https://www.pnas.org/doi/pdf/10.1073/pnas.1320040111</a></p>\n",
+      "date_published": "2025-06-02T04:04Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250601-0618",
+      "url": "https://vale.rocks/micros/20250601-0618",
+      "title": "01 Jun 2025 06:18",
+      "content_html": "<p>I left my flexbox out in the sun for too long, which caused it to dry up. Now it won&#8217;t wrap anymore.</p>\n<p>Do I need to get a new one, or can I rehydrate it somehow?</p>\n",
+      "date_published": "2025-06-01T06:18Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250601-0259",
+      "url": "https://vale.rocks/micros/20250601-0259",
+      "title": "01 Jun 2025 02:59",
+      "content_html": "<p>My website is too energetic. Does anyone know how to calm down hypertext?</p>\n",
+      "date_published": "2025-06-01T02:59Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250601-0007",
+      "url": "https://vale.rocks/micros/20250601-0007",
+      "title": "01 Jun 2025 00:07",
+      "content_html": "<p>How does one stop LinkedIn from serving them two-week-old reheated AI slop? Is there a button for that or..?</p>\n",
+      "date_published": "2025-06-01T00:07Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250531-1345",
+      "url": "https://vale.rocks/micros/20250531-1345",
+      "title": "31 May 2025 13:45",
+      "content_html": "<p>Sometimes I read something I&#8217;ve written and think, &#8220;Who the hell writes like that?&#8221;</p>\n<p>Then I have the horrifying revelation that it is me. I write like that. Oh dear.</p>\n",
+      "date_published": "2025-05-31T13:45Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250531-1107",
+      "url": "https://vale.rocks/micros/20250531-1107",
+      "title": "31 May 2025 11:07",
+      "content_html": "<p>&#8216;Did you, or did you not, kill this man?&#8217;</p>\n<p>&#8216;Your honour, he recommended I rewrite my static site with React because, quote, &#8220;It&#8217;s better.&#8221;&#8217;</p>\n<p>&#8216;The killing was justified. Court dismissed.&#8217;</p>\n",
+      "date_published": "2025-05-31T11:07Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250531-0750",
+      "url": "https://vale.rocks/micros/20250531-0750",
+      "title": "31 May 2025 07:50",
+      "content_html": "<p>Run this simple Vim substitute command to instantly improve your website&#8217;s codebase:</p>\n<p><code>:%s/button/div/g</code></p>\n",
+      "date_published": "2025-05-31T07:50Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250531-0618",
+      "url": "https://vale.rocks/micros/20250531-0618",
+      "title": "31 May 2025 06:18",
+      "content_html": "<p>This just in: <br>People shocked as venture capital backed company with good product/service that was operated unsustainably and at a loss to draw in users enshittifies as backers scramble for return on investment.</p>\n<p>&#8220;I&#8217;m shocked&#8221;, says one user of the product/service. &#8220;I know this exact thing has happened every other time without fail, but I thought this time would be different.&#8221;</p>\n",
+      "date_published": "2025-05-31T06:18Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250530-1439",
+      "url": "https://vale.rocks/micros/20250530-1439",
+      "title": "30 May 2025 14:39",
+      "content_html": "<p>Sending love to all the poor folks named Albert who go by Al.</p>\n<p>None of us saw this coming, and I&#8217;m sorry most fonts don&#8217;t differentiate between &#8216;l&#8217; and &#8216;I&#8217;.</p>\n",
+      "date_published": "2025-05-30T14:39Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250530-1055",
       "url": "https://vale.rocks/micros/20250530-1055",
       "title": "30 May 2025 10:55",
