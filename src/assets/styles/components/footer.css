@@ -44,7 +44,12 @@ footer {
 	.support {
 		font-weight: bold;
 		color: var(--green);
-		gap: 0 1ch;
+	}
+
+	.breadcrumbs {
+		display: flex;
+		gap: 1ch;
+		justify-content: right;
 	}
 
 	ul,

@@ -120,6 +120,7 @@
 			<h2>Vale</h2>
 			<div class="footer-navigation">
 				<a href="/support" rel="payment" class="support">Support My Work</a>
+				<p class="breadcrumbs">${ functions/breadcrumbs.js(page/canonical) }</p>
 				<nav aria-label="footer">
 					<ul>
 						<li><a href="/posts">Posts</a></li>
