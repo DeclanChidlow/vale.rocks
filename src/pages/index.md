@@ -12,7 +12,7 @@ canonical: ""
 	<h1>Vale</h1>
 	<p>Developer</p>
 	<p>Designer</p>
-	<p>Dabbler</p>
+    <p>Writer</p>
 </section>
 
 <div class="content">
@@ -63,8 +63,6 @@ When not bodging together scripts (both the kind you run and the kind you read),
 </a>
 
 You can access my stream of consciousness via the <a href="/firehose">firehose</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
-
-My <a href="/uses">uses page</a> has all the details on my tools and set up, the <a href="/services">services page</a> shows the services I host, and my <a href="/contact">contact page</a> should be self-explanatory.
 
 If you wish to know more about the specifics of this site, you can read [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
 
