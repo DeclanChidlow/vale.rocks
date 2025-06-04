@@ -6,6 +6,20 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250604-1132",
+      "url": "https://vale.rocks/micros/20250604-1132",
+      "title": "04 Jun 2025 11:32",
+      "content_html": "<p>And with a single click, I find myself transported to an ancient place. I&#8217;m a digital archaeologist, and I&#8217;ve stumbled across a long-forgotten remnant of those who came before. UI untouched for a decade.</p>\n<p>It is two rebrands old. The palette is warped. Distorted. There are gradients. Buttons forged from a low-resolution image. I brush away a drop-shadow-lg.png to inspect an input form. Picking it up, I bring it to my face to count the pixels, only to be hit by the harsh aroma of Bootstrap 2 in the back of my throat.</p>\n<p>I drop it to the ground, and it shatters into CSS properties. &#8220;Oh well,&#8221; I muse aloud. &#8220;It&#8217;ll be fixed on refresh. Assuming anyone ever discovers this place again.&#8221;</p>\n<p>I do what I came to do and close the tab.</p>\n",
+      "date_published": "2025-06-04T11:32Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250604-0613",
+      "url": "https://vale.rocks/micros/20250604-0613",
+      "title": "04 Jun 2025 06:13",
+      "content_html": "<p>I&#8217;ve found myself redesigning a lot of Vale.Rocks. Not a complete overhaul, but a fairly comprehensive one with a lot of changes.</p>\n<p><a href=\"https://arielsalminen.com\">Ariel Salminen</a> and <a href=\"https://sia.codes\">Sia Karamalegos</a>, both redesigned their sites recently, so I&#8217;ve decided to blame them. Thanks for their understanding.</p>\n",
+      "date_published": "2025-06-04T06:13Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250603-0654",
       "url": "https://vale.rocks/micros/20250603-0654",
       "title": "03 Jun 2025 06:54",
