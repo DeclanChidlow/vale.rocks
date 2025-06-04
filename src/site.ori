@@ -6,7 +6,6 @@
 	(markdown_pages): {
 		index: pages/index.md
 		contact: pages/contact.md
-		services: pages/services.md
 		uses: pages/uses.md
 		support: pages/support.md
 		syndication: pages/syndication.md
@@ -80,6 +79,6 @@
 	portfolio = map(portfolio_data.ori, portfolio_template.ori)
 
 	pagefind = once(=package:@weborigami/pagefind({
-		index.html, contact.html, services.html, uses.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, links, links.html, micros, micros.html, portfolio, portfolio.html
+		index.html, contact.html, uses.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, links, links.html, micros, micros.html, portfolio, portfolio.html
 	}))
 }
