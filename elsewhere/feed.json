@@ -6,6 +6,13 @@
   "feed_url": "https://vale.rocks/elsewhere/feed.json",
   "items": [
     {
+      "id": "https://piccalil.li/blog/printing-the-web-making-webpages-look-good-on-paper/",
+      "url": "https://piccalil.li/blog/printing-the-web-making-webpages-look-good-on-paper/",
+      "title": "Printing the web: making webpages look good on paper",
+      "content_html": "\n\t\t<p>Wrote <a href=\"https://piccalil.li/blog/printing-the-web-making-webpages-look-good-on-paper/\">Printing the web: making webpages look good on paper</a> over on Piccalilli.</p>\n\t\t\n\t\t\n\t\t\n\t",
+      "date_published": "2025-06-05"
+    },
+    {
       "id": "https://wiki.revolt.chat/notes/transparency/incidents/2025-05-08-attempted-extortion/",
       "url": "https://wiki.revolt.chat/notes/transparency/incidents/2025-05-08-attempted-extortion/",
       "title": "Attempted Extortion",
