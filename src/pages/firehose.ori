@@ -62,7 +62,7 @@
 					</div>
 				</header>
 				
-				<div class="readable-width">
+				<div class="readable">
 					${ item/sort === 'writer' ? `<p>Wrote <a href="https://${ item/url }">${ item/title }</a> over on ${ item/location }.</p>` : '' }
 					${ item/sort === 'contributor' ? `<p>Contributed to <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
 					${ item/sort === 'guest' ? `<p>Appeared in <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
@@ -95,7 +95,7 @@
 					</div>
 				</header>
 
-				<div class="readable-width">
+				<div class="readable">
 					${ item/@text }
 				</div>
 			</article>`

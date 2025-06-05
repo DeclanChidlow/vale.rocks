@@ -7,7 +7,7 @@ canonical: /syndication
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Syndication</h1>
 
-<div class="readable-width">
+<div class="readable">
 
 This website is home to a lot of stuff, and I also publish elsewhere on the web. This page shows ways to follow and stay up to date on the ongoings of this site and my other endeavours. If you'd just like to see everything all in one place, then check out [the firehose](/firehose).
 

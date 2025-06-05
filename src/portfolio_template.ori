@@ -27,7 +27,7 @@
 		</div>` : '' }
 	</header>
 
-	<div class="readable-width">
+	<div class="readable">
 		${ post/@text }
 	</div>
 </article>

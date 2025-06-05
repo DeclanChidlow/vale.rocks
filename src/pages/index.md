@@ -16,7 +16,7 @@ canonical: ""
 </section>
 
 <div class="content">
-<section class="readable-width">
+<section class="readable">
 
 ## Ahoy!
 
@@ -28,7 +28,7 @@ When not bodging together scripts (both the kind you run and the kind you read),
 
 </section>
 
-<section data-pagefind-ignore="all" class="on-site readable-width">
+<section data-pagefind-ignore="all" class="on-site readable">
 
 ## On This Site:
 
@@ -68,7 +68,7 @@ If you wish to know more about the specifics of this site, you can read [The Des
 
 </section>
 
-<section data-pagefind-ignore="all" class="readable-width">
+<section data-pagefind-ignore="all" class="readable">
 
 ## Supporting Me
 

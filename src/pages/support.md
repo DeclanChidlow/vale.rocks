@@ -8,7 +8,7 @@ canonical: /support
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Support</h1>
 
-<div class="readable-width">
+<div class="readable">
 
 I spend quite a bit of money and time doing stuff on the internet, but that isn't necessarily sustainable. So, if you're a fan of me, the stuff I post, the things I've made, or that which I host, then consider supporting me. It helps me keep my hands typing, the servers whirring, and the code compiling.
 

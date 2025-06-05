@@ -32,7 +32,7 @@
 				</ul>
 			</div>
 			
-			<div class="readable-width e-content">
+			<div class="readable e-content">
 				<p>${ photography/description }</p>
 				${ photography/@text }
 			</div>

@@ -35,7 +35,7 @@
 			</div>
 		</header>
 
-		<div class="readable-width">
+		<div class="readable">
 			${ item/@text }
 		</div>
 	</article>`)}

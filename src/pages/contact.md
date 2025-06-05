@@ -7,7 +7,7 @@ canonical: /contact
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Contact</h1>
 
-<div class="readable-width">
+<div class="readable">
 Need to get in contact with me for whatever reason? In order of preference, the best ways to do so are:
 
 - Over electronic mail at _vale (at) this site's domain_.

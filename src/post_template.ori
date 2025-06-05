@@ -33,12 +33,12 @@
 			</ul>
 		</header>
 
-		<div class="readable-width e-content">
+		<div class="readable e-content">
 			${ post/@text }
 		</div>
 	</article>
 
-	<section class="giscus readable-width"></section>
+	<section class="giscus readable"></section>
 </div>
 
 <script
