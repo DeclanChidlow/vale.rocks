@@ -91,6 +91,7 @@
 		<header id="navbar" data-pagefind-ignore="all">
 			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
 			<nav aria-label="site">
+				<button popovertarget="toc-menu" class="toc-button icons">read_more</button>
 				<a href="/" id="navlanding">Vale</a>
 				<a href="/search" class="search-nav icons">search</a>
 
