@@ -2,12 +2,15 @@
 	padding: 1rem 0;
 	border-bottom: 2px solid var(--bright_grey);
 	text-decoration: none;
-	text-transform: uppercase;
 	display: block;
 
 	h2 {
 		font-size: 1.5rem;
 		line-height: inherit;
+	}
+
+	p {
+		text-transform: capitalize;
 	}
 
 	.note {
