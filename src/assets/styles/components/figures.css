@@ -12,6 +12,8 @@ figure {
 	}
 
 	figcaption {
+		margin-block-start: 1rem;
+		margin-inline: 0.5rem;
 		font-size: small;
 		font-style: italic;
 		text-align: center;
@@ -93,6 +95,7 @@ figure {
 	.alt-text {
 		padding-top: 1rem;
 		border-top: 2px solid var(--bright_grey);
+		font-size: 0.9rem;
 	}
 
 	.close {
