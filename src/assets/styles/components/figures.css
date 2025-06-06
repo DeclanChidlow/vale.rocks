@@ -124,6 +124,7 @@ table {
 	text-align: left;
 	border-collapse: collapse;
 	font-size: 0.9rem;
+	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 }
 
 thead,
@@ -136,7 +137,6 @@ th,
 td {
 	border: 1px solid light-dark(var(--grey), var(--bright_grey));
 	padding: 0.5rem;
-	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 }
 
 tbody tr:nth-child(even) {
