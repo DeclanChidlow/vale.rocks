@@ -99,6 +99,15 @@ Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr
 > > >
 > > > Id deleniti eveniet non placeat quia libero. Non soluta consequatur sit accusamus illum veniam. Animi ab ab omnis iusto aut. Porro tempora fugit placeat perspiciatis et rem consectetur sequi.
 
+## Details
+
+<details>
+<summary>Details element</summary>
+
+Quis voluptatem nisi minima eaque molestiae non magnam tempora. Deleniti aut doloremque ut illum et enim sit blanditiis. Sequi facere voluptas et voluptas rerum maiores qui. Et nobis et dolor ipsum nihil debitis. Voluptates id esse officia aut est nulla.
+
+</details>
+
 ## Tables
 
 <figure>

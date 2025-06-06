@@ -145,7 +145,8 @@ h6 {
 }
 
 .readable,
-blockquote {
+blockquote,
+details {
 	max-width: 80ch;
 
 	* + h2,
@@ -163,6 +164,23 @@ blockquote {
 
 .markdown-alert > * + * {
 	margin-block-start: 0.5rem;
+}
+
+details {
+	padding: 1rem;
+	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
+	border: 0.05rem solid light-dark(transparent, var(--grey));
+
+	summary {
+		margin: -1rem;
+		padding: 0.5rem 1rem;
+		background: light-dark(var(--white), var(--dark_grey));
+	}
+
+	&:open summary {
+		border-bottom: 0.05rem solid light-dark(transparent, var(--grey));
+		margin: -1rem -1rem 0;
+	}
 }
 
 blockquote,
