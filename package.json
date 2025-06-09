@@ -7,6 +7,7 @@
 		"highlight.js": "^11.11.1",
 		"marked": "^15.0.12",
 		"marked-alert": "^2.1.2",
+		"marked-base-url": "^1.1.6",
 		"marked-footnote": "^1.2.4",
 		"marked-gfm-heading-id": "^4.1.1",
 		"marked-highlight": "^2.2.1",

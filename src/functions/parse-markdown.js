@@ -6,6 +6,7 @@ import { markedHighlight } from "marked-highlight";
 import { markedSmartypants } from "marked-smartypants";
 import markedAlert from "marked-alert";
 import markedFootnote from "marked-footnote";
+import { baseUrl as markedBaseUrl } from "marked-base-url";
 import documentObject from "@weborigami/origami/src/common/documentObject.js";
 import { toString } from "@weborigami/origami/src/common/utilities.js";
 import origamiHighlightDefinition from "@weborigami/origami/src/text/origamiHighlightDefinition.js";
@@ -28,6 +29,7 @@ marked.use(
 	},
 	markedAlert(),
 	markedFootnote(),
+	markedBaseUrl("https://vale.rocks"),
 );
 
 /**
