@@ -24,8 +24,7 @@
 				</header>
 
 				<p>
-					New post published:<br>
-					${ item/title }
+					<strong>${ item/title }</strong>
 					<br><br>
 					<em>${ item/og_description }</em>
 					<br><br>
@@ -69,6 +68,29 @@
 					${ item/note ? `<p>${ item/note }</p>` : '' }
 
 					${ item/image ? `<img src="https://${ item/image }">` : '' }
+				</div>
+			</article>`
+
+		: item/type === 'video' ? 
+			`<article class="video">
+				<header>
+					<div>
+						<span class="icons">play_arrow</span>
+						<h2><a href="/videos/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
+					</div>
+
+					<div class="socials">
+						${ item/youtube_id ? `
+						<a href="https://youtube.com/${ item/format === 'short' ? `shorts/` : `watch?v=` }${ item/youtube_id }" title="YouTube">${ item/format === 'short' ? `${youtube_shorts_icon}` : `${youtube_icon}` }</a>` : '' }
+					</div>
+				</header>
+				
+				<div class="readable">
+					<p><strong>${ item/title }</strong><br><br>${ item/description }</p>
+
+					<a href="/videos/${ basename(key) }" aria-hidden="true">
+						<img src="https://i.ytimg.com/vi/${ item/youtube_id }/${ item/format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
+					</a>
 				</div>
 			</article>`
 

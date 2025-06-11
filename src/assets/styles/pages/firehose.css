@@ -29,8 +29,17 @@ article {
 .photo {
 	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.8)), oklch(from var(--green) l c h / calc(alpha - 0.9)));
 
-	p {
-		margin-bottom: 1rem;
+	img {
+		margin-block-start: 1rem;
+	}
+}
+
+.video {
+	background: light-dark(oklch(from var(--red) l c h / calc(alpha - 0.8)), oklch(from var(--red) l c h / calc(alpha - 0.9)));
+
+	img {
+		margin-block-start: 1rem;
+		max-height: 30rem;
 	}
 }
 

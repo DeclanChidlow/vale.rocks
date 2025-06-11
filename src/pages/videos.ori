@@ -1,0 +1,36 @@
+(paginated_videos) => main_template.ori({
+	title: "Videos"
+	description: "My long-form, structured writing including essays, tutorials, reviews, and more on various topics presented for your reading pleasure. These topics include development, design, and digital culture. Fully sortable and filterable."
+	og_description: "My long-form, structured writing."
+	stylesheet: "pages/videos.css"
+	canonical: "/videos"
+
+@text: 
+`<h1 class="section" data-pagefind-filter="Content Type:Page">Videos</h1>
+
+<div data-pagefind-ignore="all">
+	<div id="videos">
+		${ map(paginated_videos/items,
+		(video, key) =>
+		`<a class="video ${ video/format === 'short' ? `short` : `long` }" href="/videos/${ basename(key) }">
+			<img src="https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
+			<h2>${ video/title }</h2>
+			<time datetime="${ video/pub_time }" title="Date of publication.">${ functions/pretty-date.js(video/pub_time) }
+				</time></li>
+		</a>`)}
+	</div>
+
+	<div class="pagination">
+		${ paginated_videos/previousPage
+			? `<a href="/videos${ paginated_videos/previousPage === 1 ? '' : /paginated_videos/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			: "<span></span>"
+		}
+
+		<p>Page ${ paginated_videos/pageNumber} of ${ paginated_videos/pageCount}</p>
+
+		${ paginated_videos/nextPage
+			? `<a href="/videos/${ paginated_videos/nextPage }">Older <span aria-hidden="true">></span></a>`
+			: "<span></span>"
+		}
+	</div>
+</div>`})

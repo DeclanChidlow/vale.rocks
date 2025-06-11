@@ -1,6 +1,7 @@
 {
 	...post_data.ori,
 	...micro_data.ori,
+	...video_data.ori,
 	...photography_data.ori,
 	...(elsewhere_data.yaml → =map(_, (elsewhere) => {
 		  ...elsewhere

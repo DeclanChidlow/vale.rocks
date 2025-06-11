@@ -1,0 +1,36 @@
+h1 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+article header {
+	margin-block: 3rem;
+	text-transform: uppercase;
+}
+
+@media (min-width: 60rem) {
+	article:has(.short) {
+		display: flex;
+		gap: 3rem;
+	}
+}
+
+iframe {
+	border: none;
+}
+
+.short {
+	height: 80vh;
+	aspect-ratio: 9 / 16;
+	margin-inline: auto;
+
+	@media (min-width: 60rem) {
+		position: sticky;
+		top: 5rem;
+	}
+}
+
+.long {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
