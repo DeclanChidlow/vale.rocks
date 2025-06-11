@@ -6,6 +6,27 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250610-1424",
+      "url": "https://vale.rocks/micros/20250610-1424",
+      "title": "10 Jun 2025 14:24",
+      "content_html": "<p><em>Serious talk.</em></p>\n<p>I appreciate that people make art of or containing me, but I ask that you do so in a respectful manner. Thank you.</p>\n",
+      "date_published": "2025-06-10T14:24Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250609-2320",
+      "url": "https://vale.rocks/micros/20250609-2320",
+      "title": "09 Jun 2025 23:20",
+      "content_html": "<p>Oh, look. Accessibility horrors beyond comprehension from Apple. A company with so much money the human mind boggles to comprehend it.</p>\n<p>Accessibility horrors so blatant it takes one glance to identify many of the more offensive failings.</p>\n<p>Accessibility horrors that are so inaccessible that even the completely able struggle.</p>\n<p>Accessibility horrors that are covered in the very first class of any UI/UX design or front-end development education.</p>\n<p>Accessibility horrors that you have to force through because even the worst testers are screaming at you.</p>\n",
+      "date_published": "2025-06-09T23:20Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250609-0349",
+      "url": "https://vale.rocks/micros/20250609-0349",
+      "title": "09 Jun 2025 03:49",
+      "content_html": "<p>Do some people prefer to read content directly in their feed readers? With the exception of some news outlets, I much prefer to view content on site.</p>\n<p>I feel that the site on which writing resides provides a large part of the content&#8217;s atmosphere.</p>\n",
+      "date_published": "2025-06-09T03:49Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250609-0028",
       "url": "https://vale.rocks/micros/20250609-0028",
       "title": "09 Jun 2025 00:28",
