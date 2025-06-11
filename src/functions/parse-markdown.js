@@ -20,7 +20,6 @@ marked.use(
 			const language = highlight.getLanguage(lang) ? lang : "plaintext";
 			return highlight.highlight(code, { language }).value;
 		},
-
 		langPrefix: "language-",
 	}),
 	markedSmartypants(),
@@ -31,6 +30,46 @@ marked.use(
 	markedFootnote(),
 	markedBaseUrl("https://vale.rocks"),
 );
+
+/**
+ * Wraps strings of three or more capital letters in <abbr> tags
+ * Excludes Roman numerals and content already in <abbr> tags
+ *
+ * @param {string} html - The HTML to process
+ * @returns {string} - HTML with abbreviations wrapped in <abbr> tags
+ */
+function wrapAbbreviations(html) {
+	const romanNumeralPattern = /^(?=[MDCLXVI])M{0,4}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/;
+	const parts = html.split(/(<abbr[^>]*>.*?<\/abbr>)/i);
+
+	return parts
+		.map((part, index) => {
+			// Skip processing parts that are already <abbr> tags (odd indices after split)
+			if (index % 2 === 1) {
+				return part;
+			}
+
+			// Pattern matches:
+			// 1. Numbers followed by capital letters, optionally followed by lowercase
+			// 2. 3+ capital letters, optionally followed by lowercase
+			return part.replace(/\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*)/g, (match) => {
+				const capitalPortion = match.match(/[A-Z]+/)[0];
+
+				if (/^\d/.test(match)) {
+					const capitalPart = match.match(/\d+[A-Z]+/)[0];
+					const lowercasePart = match.substring(capitalPart.length);
+					return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
+				} else if (romanNumeralPattern.test(capitalPortion)) {
+					return match;
+				} else {
+					const lowercasePart = match.match(/[a-z]*$/)[0];
+					const capitalPart = match.substring(0, match.length - lowercasePart.length);
+					return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
+				}
+			});
+		})
+		.join("");
+}
 
 /**
  * Transform markdown to HTML.
@@ -55,7 +94,10 @@ export default async function mdHtml(input) {
 	if (markdown === null) {
 		throw new Error("mdHtml: The provided input couldn't be treated as text.");
 	}
-	const html = marked(markdown);
+
+	let html = marked(markdown);
+	html = wrapAbbreviations(html);
+
 	return inputIsDocument ? documentObject(html, input) : html;
 }
 
