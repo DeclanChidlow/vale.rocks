@@ -6,6 +6,9 @@ h1 {
 article header {
 	margin-block: 3rem;
 	text-transform: uppercase;
+	font-weight: 550;
+	font-variant-numeric: lining-nums;
+	font-variant-caps: titling-caps;
 }
 
 @media (min-width: 60rem) {
