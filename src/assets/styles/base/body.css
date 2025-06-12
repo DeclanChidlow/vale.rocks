@@ -1,6 +1,7 @@
 html {
 	overscroll-behavior-y: none;
 	scroll-padding-top: 5rem;
+	text-size-adjust: none;
 }
 
 :root {

@@ -2,15 +2,23 @@
 /* https://clagnut.com/blog/2433 */
 
 @font-face {
-	font-family: "Lexend";
-	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2") format("woff2");
+	font-family: "Work Sans";
+	src: url("/assets/typefaces/WorkSans.woff2") format("woff2");
 	font-weight: 100 900;
 	font-display: fallback;
 }
 
 @font-face {
+	font-family: "Work Sans";
+	src: url("/assets/typefaces/WorkSans-Italic.woff2") format("woff2");
+	font-weight: 100 900;
+	font-display: fallback;
+	font-style: italic;
+}
+
+@font-face {
 	font-family: "Fira Code";
-	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2") format("woff2");
+	src: url("/assets/typefaces/FiraCode.woff2") format("woff2");
 	font-weight: 300 700;
 	size-adjust: 90%;
 }
@@ -26,7 +34,8 @@
 }
 
 body {
-	font-family: "Lexend", sans-serif;
+	font-family: "Work Sans", sans-serif;
+	font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 h1,
@@ -40,6 +49,8 @@ h6 {
 	font-weight: 700;
 	position: relative;
 	display: flex;
+	font-variant-numeric: lining-nums;
+	font-variant-caps: titling-caps;
 
 	a {
 		&:not(:hover) {
@@ -89,8 +100,8 @@ h6 {
 }
 
 h1 {
-	font-size: 3rem;
-	line-height: 3.2rem;
+	font-size: 2.8rem;
+	line-height: 3rem;
 	display: block;
 }
 
@@ -126,7 +137,8 @@ h6 {
 	.section {
 		font-size: 5rem;
 		line-height: 4rem;
-		font-weight: 900;
+		font-weight: 800;
+		letter-spacing: 0.03rem;
 		text-transform: uppercase;
 		text-align: right;
 		transform: scale(-1);
@@ -147,7 +159,8 @@ h6 {
 .readable,
 blockquote,
 details {
-	max-width: 80ch;
+	max-width: 75ch;
+	text-wrap: pretty;
 
 	* + h2,
 	* + h3,
@@ -320,4 +333,9 @@ hr {
 
 mark {
 	background: var(--yellow);
+}
+
+math,
+time {
+	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 }

@@ -3,17 +3,15 @@
 	border-bottom: 2px solid var(--bright_grey);
 	text-decoration: none;
 	display: block;
+	text-transform: uppercase;
 
 	h2 {
 		font-size: 1.5rem;
 		line-height: inherit;
 	}
 
-	p {
-		text-transform: capitalize;
-	}
-
 	.note {
+		margin-block-start: 0.5rem;
 		text-transform: none;
 	}
 

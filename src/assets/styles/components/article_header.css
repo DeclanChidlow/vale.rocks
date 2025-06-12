@@ -13,6 +13,9 @@
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		margin: 10rem 0 3rem 0;
+		font-weight: 550;
+		font-variant-numeric: lining-nums;
+		font-variant-caps: titling-caps;
 
 		ul {
 			all: unset;
