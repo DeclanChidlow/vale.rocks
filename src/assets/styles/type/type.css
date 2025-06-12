@@ -333,6 +333,8 @@ hr {
 
 mark {
 	background: var(--yellow);
+	margin-inline: -0.2rem;
+	padding-inline: 0.2rem;
 }
 
 math,
