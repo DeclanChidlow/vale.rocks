@@ -315,7 +315,6 @@ sub {
 abbr {
 	font-variant-caps: all-small-caps;
 	text-decoration: none;
-	font-size: 110%;
 }
 
 kbd {
