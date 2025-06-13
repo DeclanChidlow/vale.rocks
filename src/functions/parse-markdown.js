@@ -32,43 +32,80 @@ marked.use(
 );
 
 /**
- * Wraps strings of three or more capital letters in <abbr> tags
- * Excludes Roman numerals and content already in <abbr> tags
+ * Wraps strings of three or more capital letters in <abbr>
+ * Excludes Roman numerals, <code>, and content already in <abbr>
  *
  * @param {string} html - The HTML to process
- * @returns {string} - HTML with abbreviations wrapped in <abbr> tags
+ * @returns {string} - HTML with abbreviations wrapped in <abbr>
  */
 function wrapAbbreviations(html) {
 	const romanNumeralPattern = /^(?=[MDCLXVI])M{0,4}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/;
-	const parts = html.split(/(<abbr[^>]*>.*?<\/abbr>)/i);
 
-	return parts
-		.map((part, index) => {
-			// Skip processing parts that are already <abbr> tags (odd indices after split)
-			if (index % 2 === 1) {
-				return part;
+	let result = "";
+	let i = 0;
+	let insideCode = 0;
+
+	while (i < html.length) {
+		if (html.slice(i).match(/^<code[^>]*>/i)) {
+			const match = html.slice(i).match(/^<code[^>]*>/i)[0];
+			result += match;
+			i += match.length;
+			insideCode++;
+			continue;
+		}
+
+		if (html.slice(i).match(/^<\/code>/i)) {
+			const match = html.slice(i).match(/^<\/code>/i)[0];
+			result += match;
+			i += match.length;
+			insideCode--;
+			continue;
+		}
+
+		if (html.slice(i).match(/^<abbr[^>]*>/i)) {
+			const abbrMatch = html.slice(i).match(/^<abbr[^>]*>.*?<\/abbr>/i);
+			if (abbrMatch) {
+				result += abbrMatch[0];
+				i += abbrMatch[0].length;
+				continue;
 			}
+		}
 
-			// Pattern matches:
-			// 1. Numbers followed by capital letters, optionally followed by lowercase
-			// 2. 3+ capital letters, optionally followed by lowercase
-			return part.replace(/\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*)/g, (match) => {
-				const capitalPortion = match.match(/[A-Z]+/)[0];
+		if (insideCode > 0) {
+			result += html[i];
+			i++;
+			continue;
+		}
 
-				if (/^\d/.test(match)) {
-					const capitalPart = match.match(/\d+[A-Z]+/)[0];
-					const lowercasePart = match.substring(capitalPart.length);
-					return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
-				} else if (romanNumeralPattern.test(capitalPortion)) {
-					return match;
-				} else {
-					const lowercasePart = match.match(/[a-z]*$/)[0];
-					const capitalPart = match.substring(0, match.length - lowercasePart.length);
-					return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
-				}
-			});
-		})
-		.join("");
+		const remainingHtml = html.slice(i);
+		const abbrMatch = remainingHtml.match(/^(\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*))/);
+
+		// Pattern matches:
+		// 1. Numbers followed by capital letters, optionally followed by lowercase
+		// 2. 3+ capital letters, optionally followed by lowercase
+		if (abbrMatch) {
+			const match = abbrMatch[1];
+			const capitalPortion = match.match(/[A-Z]+/)[0];
+
+			if (/^\d/.test(match)) {
+				const capitalPart = match.match(/\d+[A-Z]+/)[0];
+				const lowercasePart = match.substring(capitalPart.length);
+				result += `<abbr>${capitalPart}</abbr>${lowercasePart}`;
+			} else if (romanNumeralPattern.test(capitalPortion)) {
+				result += match;
+			} else {
+				const lowercasePart = match.match(/[a-z]*$/)[0];
+				const capitalPart = match.substring(0, match.length - lowercasePart.length);
+				result += `<abbr>${capitalPart}</abbr>${lowercasePart}`;
+			}
+			i += match.length;
+		} else {
+			result += html[i];
+			i++;
+		}
+	}
+
+	return result;
 }
 
 /**
