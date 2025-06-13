@@ -3,6 +3,7 @@ kbd {
 	font-family: "Fira Code", monospace;
 	border: 1.5px solid light-dark(var(--white), var(--grey));
 	padding: 0 0.2rem;
+	font-weight: 400;
 }
 
 .code-block-wrapper {

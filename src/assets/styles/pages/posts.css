@@ -38,6 +38,9 @@
 		padding-bottom: 0.5rem;
 		text-decoration: none;
 		text-transform: uppercase;
+		font-variant-numeric: lining-nums;
+		font-variant-caps: titling-caps;
+
 		animation: fade-in-up;
 		animation-timeline: view();
 
