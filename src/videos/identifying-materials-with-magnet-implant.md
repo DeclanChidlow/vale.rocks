@@ -1,7 +1,7 @@
 ---
 title: Identifying Materials Using My Magnet Implant
 youtube_id: EBZU2KYeGuU
-description:
+description: Showing how my xG3v2 bio-magnet implant can be used to loosely identify materials based on if they stick to my hand or not.
 pub_time: 2025-06-05
 format: short
 ---

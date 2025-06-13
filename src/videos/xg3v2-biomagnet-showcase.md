@@ -1,12 +1,12 @@
 ---
 title: Quick xG3v2 Bio-magnet Implant Showcase
 youtube_id: 1sGFWbztytM
-description:
+description: A showcase of my bio-magnet and some of the more presentable things I can do with it.
 pub_time: 2025-05-28
 format: short
 ---
 
-Me getting an xG3v2 from Dangerous Things implanted in my hand.
+A quick showcase of the xG3v2 bio-magnet subdermally implanted within my hand interacting with various external magnets.
 
 Write-up on the experience with more context: \
 <https://vale.rocks/posts/my-experience-biohacking>
