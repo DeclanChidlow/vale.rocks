@@ -8,6 +8,6 @@ location: Picton, New Zealand
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8
-shutter: 1/730
+shutter: 1⁄730
 iso: 50
 ---

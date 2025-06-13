@@ -8,6 +8,6 @@ location: Batu Caves, Selangor, Malaysia
 camera: Google Pixel 7a
 focal: 5.43mm
 aperture: 1.9
-shutter: 1/5000
+shutter: 1⁄5000
 iso: 45
 ---

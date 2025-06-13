@@ -8,6 +8,6 @@ location: South Island, New Zealand
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8
-shutter: 1/1000
+shutter: 1⁄1000
 iso: 50
 ---

@@ -23,16 +23,6 @@
 	size-adjust: 90%;
 }
 
-@font-face {
-	font-family: "Material Symbols";
-	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2") format("woff2");
-}
-
-.icons {
-	font-family: "Material Symbols";
-	user-select: none;
-}
-
 body {
 	font-family: "Work Sans", sans-serif;
 	font-variant-numeric: oldstyle-nums proportional-nums;

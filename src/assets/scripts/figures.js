@@ -15,6 +15,7 @@ class FigureGlowLightbox {
 	createDialog(figure, index) {
 		const dialog = document.createElement("dialog");
 		dialog.id = `lightbox-${index}`;
+		dialog.ariaLabel = "Image Lightbox";
 		dialog.className = "lightbox";
 
 		const clonedImg = figure.querySelector("img").cloneNode(true);
@@ -65,7 +66,7 @@ class FigureGlowLightbox {
 
 	createCloseButton() {
 		const closeButton = document.createElement("button");
-		closeButton.textContent = "×";
+		closeButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Close lightbox</title><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`;
 		closeButton.className = "close";
 		closeButton.setAttribute("aria-label", "Close lightbox");
 		return closeButton;

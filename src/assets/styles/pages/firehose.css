@@ -9,6 +9,11 @@ article {
 		gap: 2rem;
 		margin-bottom: 2rem;
 
+		div:not(.socials) svg {
+			height: 1.2rem;
+			fill: currentColor;
+		}
+
 		h2 {
 			font-size: inherit;
 			line-height: inherit;
@@ -18,6 +23,7 @@ article {
 		div {
 			display: flex;
 			gap: 1ch;
+			align-items: center;
 		}
 	}
 }

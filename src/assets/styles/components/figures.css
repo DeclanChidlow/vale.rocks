@@ -71,8 +71,8 @@ figure {
 	margin: auto;
 
 	&::backdrop {
-		background: light-dark(var(--bright_white), var(--black));
-		opacity: 0.9;
+		background: light-dark(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7));
+		backdrop-filter: blur(2rem) saturate(0.5);
 	}
 
 	img {
@@ -105,9 +105,13 @@ figure {
 		padding: 0.8rem;
 		background: none;
 		border: transparent;
-		font-size: 2rem;
-		color: light-dark(var(--black), var(--bright_white));
 		z-index: 1;
+
+		svg {
+			height: 2rem;
+			width: 2rem;
+			fill: light-dark(var(--black), var(--bright_white));
+		}
 	}
 }
 

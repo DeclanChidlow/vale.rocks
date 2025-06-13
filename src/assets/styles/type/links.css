@@ -16,17 +16,17 @@ h2 time,
 	}
 
 	&::after {
-		font-family: "Material Symbols";
-		font-size: 0.8rem;
 		line-height: 0;
 	}
 
 	&[href^="#"]::after {
-		content: "swap_vert" / "Anchor";
+		content: " ↕" / "Anchor";
+		font-size: 0.7rem;
 	}
 
 	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
-		content: "arrow_outward" / "External";
+		content: " ↗" / "External";
+		font-size: 0.8rem;
 	}
 
 	abbr {

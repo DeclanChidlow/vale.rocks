@@ -37,6 +37,15 @@ body:has(#popover-menu:popover-open) {
 			padding: 0.5rem;
 		}
 
+		svg {
+			height: 1.65rem;
+			fill: currentColor;
+		}
+
+		.search-nav svg {
+			height: 1.4rem;
+		}
+
 		#navlanding {
 			font-weight: 700;
 		}

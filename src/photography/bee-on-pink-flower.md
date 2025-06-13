@@ -8,6 +8,6 @@ location: Fremantle, WA, Australia
 camera: Google Pixel 7a
 focal: 5.43mm
 aperture: 1.9
-shutter: "1/100"
-iso: "112"
+shutter: 1⁄100
+iso: 112
 ---

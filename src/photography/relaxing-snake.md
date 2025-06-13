@@ -8,6 +8,6 @@ location: Perth, WA, Australia
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8
-shutter: 1/30
+shutter: 1⁄30
 iso: 1553
 ---

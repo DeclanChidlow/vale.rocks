@@ -8,6 +8,6 @@ location: Bald Head, Albany, WA, Australia
 camera: iPhone SE (1st Gen)
 focal: 4.2mm
 aperture: 2.2
-shutter: 1/1600
+shutter: 1⁄1600
 iso: 25
 ---

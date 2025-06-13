@@ -21,14 +21,14 @@
 
 	<div data-pagefind-ignore="all" class="pagination">
 		${ paginated_elsewhere/previousPage
-			? `<a href="/elsewhere/${ paginated_elsewhere/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			? `<a href="/elsewhere/${ paginated_elsewhere/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
 		<p>Page ${ paginated_elsewhere/pageNumber} of ${ paginated_elsewhere/pageCount}</p>
 
 		${ paginated_elsewhere/nextPage
-			? `<a href="/elsewhere/${ paginated_elsewhere/nextPage }">Older <span aria-hidden="true">></span></a>`
+			? `<a href="/elsewhere/${ paginated_elsewhere/nextPage }">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>
