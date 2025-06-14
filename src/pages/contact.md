@@ -16,9 +16,11 @@ Need to get in contact with me for whatever reason? In order of preference, the 
 - On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
 - On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale).
 
+Do not engage me in a voice call. Contact me over text.
+
 ---
 
-If, in this age of increasing misinformation, you need to verify that communication is genuinely from me, you can do so using my PGP key.
+If you need to verify that communication is genuinely from me, you can do so using my PGP key:
 
 <details>
     <summary>Public PGP Key</summary>
