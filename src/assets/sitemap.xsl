@@ -11,7 +11,7 @@
 				<title>Sitemap | Vale.Rocks</title>
 				<meta name="color-scheme" content="light dark" />
 
-				<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2"
+				<link rel="preload" href="/assets/typefaces/WorkSans.woff2"
 					as="font" type="font/woff2" crossorigin="true" />
 
 				<link rel="stylesheet" href="/assets/styles/base/reset.css" />
