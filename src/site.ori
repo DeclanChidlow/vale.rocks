@@ -75,12 +75,10 @@
 	}
 
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/miscellaneous.yaml)
-	links = {
-		blogs.html = ./links/blogs.ori(./links/blogs.yaml)
-		blogs.opml = ./links/blogs_opml.ori(./links/blogs.yaml)
-		tools-and-resources.html = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
-		miscellaneous.html = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
-	}
+	"links/blogs.html" = ./links/blogs.ori(./links/blogs.yaml)
+	"links/tools-and-resources.html" = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
+	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
+	"links/blogs.opml" = ./links/blogs_opml.ori(./links/blogs.yaml)
 
 	(paginated_firehose) = paginate(firehose_data.ori, 50)
 	firehose.html = pages/firehose.ori(first(paginated_firehose))
@@ -90,6 +88,6 @@
 	})
 
 	pagefind = once(=package:@weborigami/pagefind({
-		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links, links.html, micros, micros.html, portfolio, portfolio.html
+		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
 	}))
 }
