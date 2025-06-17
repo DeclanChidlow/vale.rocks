@@ -59,13 +59,19 @@ footer {
 		border-top: 2px solid var(--bright_grey);
 	}
 
-	.breadcrumbs {
+	.breadcrumbs ol {
 		display: flex;
 		gap: 1ch;
 		justify-content: right;
 
-		&:empty {
-			display: none;
+		li {
+			list-style: none;
+			display: inherit;
+
+			+ li::before {
+				content: "➞" / "";
+				margin-inline-end: 1ch;
+			}
 		}
 
 		a {
@@ -125,7 +131,7 @@ footer {
 			gap: 0.5rem 1.5rem;
 		}
 
-		.breadcrumbs {
+		.breadcrumbs ol {
 			justify-content: center;
 		}
 	}

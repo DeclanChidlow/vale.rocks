@@ -137,7 +137,7 @@
 
 			<h2>Vale</h2>
 			<div class="footer-navigation">
-				<p class="breadcrumbs">${ functions/breadcrumbs.js(page/canonical) }</p>
+				${ functions/breadcrumbs.js(page/canonical) }
 				<nav aria-label="footer">
 					<ul>
 						<li><a href="/posts">Posts</a></li>

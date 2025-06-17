@@ -7,10 +7,12 @@ export default (pathString) => {
 
 	let breadcrumbs = [];
 	let currentPath = "";
-	segments.forEach((segment) => {
+	segments.forEach((segment, index) => {
 		currentPath += "/" + segment;
-		breadcrumbs.push(`<a href="${currentPath}">${segment}</a>`);
+		const isLast = index === segments.length - 1;
+		const ariaCurrent = isLast ? ' aria-current="page"' : "";
+		breadcrumbs.push(`<li><a href="${currentPath}"${ariaCurrent}>${segment}</a></li>`);
 	});
 
-	return breadcrumbs.join("➞");
+	return `<nav class="breadcrumbs" aria-label="Breadcrumb"><ol>${breadcrumbs.join("")}</ol></nav>`;
 };
