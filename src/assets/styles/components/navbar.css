@@ -262,6 +262,20 @@ body:has(#popover-menu:popover-open) {
 	background: linear-gradient(transparent, light-dark(var(--bright_white), var(--black)));
 	backdrop-filter: blur(1.5rem);
 	color: light-dark(var(--black), var(--bright_white));
+
+	.close {
+		position: fixed;
+		top: 0;
+		right: 0;
+		padding: 0.8rem;
+		background: none;
+
+		svg {
+			height: 2rem;
+			width: 2rem;
+			fill: light-dark(var(--black), var(--bright_white));
+		}
+	}
 }
 
 .header-list-link {

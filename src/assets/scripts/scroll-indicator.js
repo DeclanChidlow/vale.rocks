@@ -38,7 +38,7 @@ class ScrollProgressIndicator {
 		this.horizontalContainer = document.createElement("div");
 		this.horizontalContainer.className = "horizontal-layout-container";
 		this.horizontalContainer.setAttribute("id", "toc-menu");
-		this.horizontalContainer.setAttribute("popover", "");
+		this.horizontalContainer.setAttribute("popover", "manual");
 
 		this.horizontalPercentageDiv = document.createElement("div");
 		this.horizontalPercentageDiv.className = "horizontal-percentage";
@@ -47,8 +47,15 @@ class ScrollProgressIndicator {
 		this.headersList = document.createElement("ul");
 		this.headersList.className = "headers-list";
 
+		this.horizontalCloseButton = document.createElement("button");
+		this.horizontalCloseButton.className = "close";
+		this.horizontalCloseButton.setAttribute("aria-label", "Close table of contents");
+		this.horizontalCloseButton.setAttribute("popovertarget", "toc-menu");
+		this.horizontalCloseButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Close lightbox</title><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`;
+
 		this.horizontalContainer.appendChild(this.horizontalPercentageDiv);
 		this.horizontalContainer.appendChild(this.headersList);
+		this.horizontalContainer.appendChild(this.horizontalCloseButton);
 		this.scrollContainer.appendChild(this.horizontalContainer);
 	}
 
