@@ -42,13 +42,13 @@
 			<p>${ post/section }</p>
 			<h2>${ post/title }</h2>
 			<ul>
-				<li>${ post/words } words |</li>
+				<li>${ post/words } words</li>
 				<li><time datetime="${ post/pub_time }" title="Date of first publication.">
 					${ functions/pretty-date.js(post/pub_time) }
-				</time></li>
+				</time>
 				${ post/mod_time ?
-					`<li><time datetime="${ post/mod_time }" title="Date of last notable modification.">
-					- ${ functions/pretty-date.js(post/mod_time) }
+					`– <time datetime="${ post/mod_time }" title="Date of last notable modification.">
+					${ functions/pretty-date.js(post/mod_time) }
 					</time></li>` : '' }
 			</ul>
 		</a>`)}
