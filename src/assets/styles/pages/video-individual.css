@@ -37,3 +37,9 @@ iframe {
 	width: 100%;
 	aspect-ratio: 16 / 9;
 }
+
+@media (max-width: 45rem) {
+	span.section {
+		display: none;
+	}
+}
