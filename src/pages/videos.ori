@@ -1,7 +1,7 @@
 (paginated_videos) => main_template.ori({
 	title: "Videos"
-	description: "My long-form, structured writing including essays, tutorials, reviews, and more on various topics presented for your reading pleasure. These topics include development, design, and digital culture. Fully sortable and filterable."
-	og_description: "My long-form, structured writing."
+	description: "Both long and short form videos complete with accessible presentation. Primarily content that cannot be presented in other mediums."
+	og_description: "Pictures in motion."
 	stylesheet: "pages/videos.css"
 	canonical: "/videos"
 	template_image: "video"
@@ -9,7 +9,10 @@
 @text: 
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Videos</h1>
 
-<div data-pagefind-ignore="all">
+<div>
+	${ paginated_videos/previousPage ? `` : `<p class="readable"><em>Pictures, but moving</em>. My videos are usually published to YouTube first, but are available here <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a> style with extra material. You can primarily expect content that can't be presented or conveyed to its fullest in other mediums.</p>` }
+
+	<div data-pagefind-ignore="all">
 	<div id="videos">
 		${ map(paginated_videos/items,
 		(video, key) =>
@@ -33,5 +36,6 @@
 			? `<a href="/videos/${ paginated_videos/nextPage }">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
+	</div>
 	</div>
 </div>`})
