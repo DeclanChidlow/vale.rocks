@@ -124,5 +124,9 @@ footer {
 			justify-content: center;
 			gap: 0.5rem 1.5rem;
 		}
+
+		.breadcrumbs {
+			justify-content: center;
+		}
 	}
 }
