@@ -33,7 +33,7 @@ marked.use(
 
 /**
  * Wraps strings of three or more capital letters in <abbr>
- * Excludes Roman numerals, <code>, and content already in <abbr>
+ * Excludes Roman numerals, <code>, element attributes, and content already in <abbr>
  *
  * @param {string} html - The HTML to process
  * @returns {string} - HTML with abbreviations wrapped in <abbr>
@@ -44,21 +44,39 @@ function wrapAbbreviations(html) {
 	let result = "";
 	let i = 0;
 	let insideCode = 0;
+	let insideElement = false;
 
 	while (i < html.length) {
-		if (html.slice(i).match(/^<code[^>]*>/i)) {
-			const match = html.slice(i).match(/^<code[^>]*>/i)[0];
+		if (html.slice(i).match(/^<[^>]+>/)) {
+			const match = html.slice(i).match(/^<[^>]+>/)[0];
 			result += match;
 			i += match.length;
-			insideCode++;
+
+			if (match.match(/^<code[^>]*>/i)) {
+				insideCode++;
+			} else if (match.match(/^<\/code>/i)) {
+				insideCode--;
+			}
 			continue;
 		}
 
-		if (html.slice(i).match(/^<\/code>/i)) {
-			const match = html.slice(i).match(/^<\/code>/i)[0];
-			result += match;
-			i += match.length;
-			insideCode--;
+		if (html[i] === "<") {
+			insideElement = true;
+			result += html[i];
+			i++;
+			continue;
+		}
+
+		if (html[i] === ">" && insideElement) {
+			insideElement = false;
+			result += html[i];
+			i++;
+			continue;
+		}
+
+		if (insideElement || insideCode > 0) {
+			result += html[i];
+			i++;
 			continue;
 		}
 
@@ -69,12 +87,6 @@ function wrapAbbreviations(html) {
 				i += abbrMatch[0].length;
 				continue;
 			}
-		}
-
-		if (insideCode > 0) {
-			result += html[i];
-			i++;
-			continue;
 		}
 
 		const remainingHtml = html.slice(i);
