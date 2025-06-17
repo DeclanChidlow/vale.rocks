@@ -33,7 +33,7 @@
 						<a href="/">Return to main site content.</a>
 						<br />
 						<br />
-						<p><xsl:value-of select="count(sitemap:urlset/sitemap:url)" /> total pages.</p>
+						<p><xsl:value-of select="count(sitemap:urlset/sitemap:url)" /> total pages. Also check out the visual version <a href="https://vale.rocks/#explore-my-site">on the landing page</a>.</p>
 						<ul>
 							<xsl:for-each select="sitemap:urlset/sitemap:url">
 								<xsl:variable name="sitemap_loc"><xsl:value-of select="sitemap:loc" /></xsl:variable>
