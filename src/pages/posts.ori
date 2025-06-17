@@ -4,6 +4,7 @@
 	og_description: "My long-form, structured writing."
 	stylesheet: "pages/posts.css"
 	canonical: "/posts"
+	template_image: "post"
 
 @text: 
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Posts</h1>

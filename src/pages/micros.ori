@@ -4,6 +4,7 @@
 	og_description: "Short-form and often ephemeral content."
 	stylesheet: "pages/micros.css"
 	canonical: `/micros/${ paginated_micros/pageNumber }`
+	template_image: "micro"
 
 @text:
 `<h1 class="section" data-pagefind-ignore>Micros</h1>

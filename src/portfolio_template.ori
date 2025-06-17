@@ -5,6 +5,7 @@
 	article: true
 	stylesheet: "pages/portfolio-individual.css"
 	canonical: `/portfolio/${ post/file_name }`
+	template_image: "portfolio"
 
 @text:
 `<style>:root{--header_background: ${ post/accent_colour }}</style>

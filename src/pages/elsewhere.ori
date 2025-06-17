@@ -4,6 +4,7 @@
 	og_description: "My writings, contributions, and appearances external to Vale.Rocks."
 	stylesheet: "pages/elsewhere.css"
 	canonical: `/elsewhere/${ paginated_elsewhere/pageNumber }`
+	template_image: "elsewhere"
 
 @text:
 `<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
