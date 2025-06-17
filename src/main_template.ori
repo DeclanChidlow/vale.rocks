@@ -127,9 +127,16 @@
 
 	<footer id="footer" data-pagefind-ignore="all">
 		<div class="footer-top">
+			<svg aria-hidden="true">
+			  <defs>
+				<filter id="motion-blur">
+				  <feGaussianBlur in="SourceGraphic" stdDeviation="10,0" />
+				</filter>
+			  </defs>
+			</svg>
+
 			<h2>Vale</h2>
 			<div class="footer-navigation">
-				<a href="/support" rel="payment" class="support">Support My Work</a>
 				<p class="breadcrumbs">${ functions/breadcrumbs.js(page/canonical) }</p>
 				<nav aria-label="footer">
 					<ul>
@@ -143,6 +150,7 @@
 						<li><a href="/links">Links</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/syndication">Syndication</a></li>
+						<li><a href="/support" rel="payment">Support</a></li>
 						<li><a href="/sitemap.xml">Sitemap</a></li>
 					</ul>
 				</nav>

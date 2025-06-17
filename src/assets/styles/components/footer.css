@@ -4,7 +4,7 @@ footer {
 	gap: 1rem;
 	margin: 3rem -3rem 0;
 	padding: 3rem;
-	background: linear-gradient(transparent, light-dark(var(--white), var(--grey)));
+	background: linear-gradient(transparent, light-dark(var(--bright_yellow), var(--grey)));
 	font-size: 0.9rem;
 	line-height: 1.4rem;
 
@@ -20,18 +20,36 @@ footer {
 
 	.footer-top {
 		gap: 3rem;
-		padding: 0 1rem;
+		padding-inline: 1rem;
+
+		svg {
+			position: absolute;
+		}
 
 		h2 {
 			font-size: 5rem;
 			line-height: 5rem;
+			position: relative;
+			height: 10rem;
+			width: 30rem;
+
+			&::before {
+				content: "Vale . Rocks" / "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				filter: url(#motion-blur);
+				opacity: 0.5;
+			}
 		}
 
 		.footer-navigation {
 			display: flex;
 			flex-direction: column;
+			justify-content: space-around;
 			gap: 1rem;
 			width: 100%;
+			height: 10rem;
 		}
 	}
 
@@ -41,15 +59,18 @@ footer {
 		border-top: 2px solid var(--bright_grey);
 	}
 
-	.support {
-		font-weight: bold;
-		color: var(--green);
-	}
-
 	.breadcrumbs {
 		display: flex;
 		gap: 1ch;
 		justify-content: right;
+
+		&:empty {
+			display: none;
+		}
+
+		a {
+			color: light-dark(var(--magenta), var(--green));
+		}
 	}
 
 	ul,
@@ -73,7 +94,7 @@ footer {
 
 	a,
 	.footer-bottom a {
-		color: light-dark(var(--magenta), var(--yellow));
+		color: light-dark(var(--red), var(--yellow));
 		text-decoration: none;
 
 		&:hover,
