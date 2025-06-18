@@ -6,6 +6,62 @@
   "feed_url": "https://vale.rocks/micros/feed.json",
   "items": [
     {
+      "id": "https://vale.rocks/micros/20250618-1114",
+      "url": "https://vale.rocks/micros/20250618-1114",
+      "title": "18 Jun 2025 11:14",
+      "content_html": "<p>Taking time away from something and then returning to it later often reveals flaws otherwise unseen. I&#8217;ve been thinking about how to gain the same benefit without needing to take time away.</p>\n<p>Changing perspective is the obvious approach.</p>\n<p>In art and design, flipping a canvas often forces a reevaluation and reveals much that the eye has grown blind to. Inverting colours, switching to greyscale, obscuring, etc, can have a similar effect.</p>\n<p>When writing, speaking written words aloud often helps in identifying flaws.</p>\n<p>Similarly, explaining why you&#8217;ve done something &#8211; à la rubber duck debugging &#8211; can weed out things that don&#8217;t make sense.</p>\n",
+      "date_published": "2025-06-18T11:14Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250618-0028",
+      "url": "https://vale.rocks/micros/20250618-0028",
+      "title": "18 Jun 2025 00:28",
+      "content_html": "<p>I went to a bank and put a really high negative margin on all the money inside. This offset was enough for it to appear outside the bank, allowing me to abscond with it.</p>\n<p>Of course, banks can easily avoid this situation by applying <code>overflow: hidden</code> to their vaults, but they very rarely remember to. It tends to be an operational oversight.</p>\n<p>Learn more neat tricks like this in my upcoming book, CSS for Crime.</p>\n",
+      "date_published": "2025-06-18T00:28Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250616-0221",
+      "url": "https://vale.rocks/micros/20250616-0221",
+      "title": "16 Jun 2025 02:21",
+      "content_html": "<p>Spent far too long looking blankly at the docs for the <code>&lt;dialog&gt;</code> element while wondering why my <code>&lt;details&gt;</code> element wasn&#8217;t working right.</p>\n",
+      "date_published": "2025-06-16T02:21Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250615-1148",
+      "url": "https://vale.rocks/micros/20250615-1148",
+      "title": "15 Jun 2025 11:48",
+      "content_html": "<p>Y’know, when I started getting into development proper, I read so many blog posts and publications from fantastic people.</p>\n<p>If you’d told me as a youngster that as a 19-year-old I’d be writing for these publications and chatting with figures whose work I admired, I simply wouldn’t have believed you.</p>\n<p>I know you should ‘never meet your heroes’, but I’m ecstatic to get to meet so many of my inspirations.</p>\n<p>There are a lot of fields out there, and I’m so glad I found myself doing web/front-end development. I can scarcely think of communities so kind and open to sharing knowledge.</p>\n<p>Thank you to all.</p>\n",
+      "date_published": "2025-06-15T11:48Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250615-0825",
+      "url": "https://vale.rocks/micros/20250615-0825",
+      "title": "15 Jun 2025 08:25",
+      "content_html": "<p>Sometimes I scroll through all the possible <code>align-*</code> and <code>justify-*</code> permutations to find the one I need.</p>\n<p>Not for lack of knowledge, but instead because my brain has simply run out of compute.</p>\n",
+      "date_published": "2025-06-15T08:25Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250613-0449",
+      "url": "https://vale.rocks/micros/20250613-0449",
+      "title": "13 Jun 2025 04:49",
+      "content_html": "<p>I think it is important that you make sure everything you publish on the web is equally accessible to all.</p>\n<p>Thus, my content is unusable no matter your abilities. In fact, you might be better off with a screen reader because then at least you don’t have to look at it. Shit’s fucked.</p>\n",
+      "date_published": "2025-06-13T04:49Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250612-0701",
+      "url": "https://vale.rocks/micros/20250612-0701",
+      "title": "12 Jun 2025 07:01",
+      "content_html": "<p>I’ve used Lexend as my go-to for years, but its lack of OpenType features is really bothering me. I can’t find anything else quite like it, though.</p>\n<p>It has a heavy default weight, wide letterforms, and is very legible. Fira, IBM Plex, and Manrope aren’t it.</p>\n<p>Any suggestions?</p>\n",
+      "date_published": "2025-06-12T07:01Z"
+    },
+    {
+      "id": "https://vale.rocks/micros/20250611-0805",
+      "url": "https://vale.rocks/micros/20250611-0805",
+      "title": "11 Jun 2025 08:05",
+      "content_html": "<p>I&#8217;ll be interested to see if there is a statistically notable uptick in clients reporting <code>prefers-reduced-transparency</code> as a result of Liquid Glass once iOS 26 releases.</p>\n",
+      "date_published": "2025-06-11T08:05Z"
+    },
+    {
       "id": "https://vale.rocks/micros/20250610-1424",
       "url": "https://vale.rocks/micros/20250610-1424",
       "title": "10 Jun 2025 14:24",
