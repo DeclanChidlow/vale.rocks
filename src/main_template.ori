@@ -84,7 +84,6 @@
 
 		<meta http-equiv="Content-Security-Policy" content="script-src 'wasm-unsafe-eval' 'self' https://gc.zgo.at https://giscus.app https://js.stripe.com; connect-src 'self' https://stats.vale.rocks/count; object-src 'none'; base-uri 'none'">
 
-		<link rel="webmention" href="https://webmention.io/vale.rocks/webmention"/>
 		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 	</head>
 
