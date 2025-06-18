@@ -1,9 +1,8 @@
 videos
-→ =map(_, (video, fileName, @text) => {
+→ =map(_, (video, fileName) => {
 	...video
 	type: "video"
 	file_name: basename(fileName)
-	words: length(video/@text/split(" "))
 })
 → =sort(_, (video) => new:Date(video/pub_time))
 → =map(_, {

@@ -7,7 +7,7 @@
 	format: video/format
 	stylesheet: "pages/video-individual.css"
 	canonical: `/videos/${ video/file_name }`
-	template_image: "video"
+	image: `https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
 
 @text:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Videos</span>
