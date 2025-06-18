@@ -36,6 +36,12 @@
 		padding: 2rem;
 	}
 
+	@media (min-width: 26rem) {
+		p {
+			padding-block: 2rem;
+		}
+	}
+
 	@media (max-width: 26rem) {
 		grid-template-columns: none;
 	}

@@ -43,10 +43,15 @@
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	text-align: center;
-	margin-top: 3rem;
 
 	a {
 		padding: 2rem;
+	}
+
+	@media (min-width: 26rem) {
+		p {
+			padding-block: 2rem;
+		}
 	}
 
 	@media (max-width: 26rem) {
