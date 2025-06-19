@@ -29,6 +29,8 @@
 			${ page/section ? `<meta property="article:section" content="${ page/section }">` : '' }
 		` : '<meta property="og:type" content="website">' }
 
+		<link rel="icon" type="image/svg+xml" href="https://vale.rocks/assets/favicon.svg">
+
 		${ page/image ? `
 			<meta property="og:image" content="${ page/image }">
 			${ page/alt_text ? `<meta property="og:image:alt" content="${ page/alt_text }">` : '' }
