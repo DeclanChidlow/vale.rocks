@@ -59,6 +59,9 @@ class SitemapGraph {
 		this.canvas.addEventListener("touchcancel", this.onTouchEnd.bind(this));
 
 		this.canvas.addEventListener("contextmenu", (e) => e.preventDefault());
+
+		this.mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
+		this.mediaQueryList.addEventListener("change", this.render.bind(this));
 	}
 
 	async loadSitemap() {
@@ -529,6 +532,7 @@ class SitemapGraph {
 		const ctx = this.ctx;
 		const width = this.canvas.width / devicePixelRatio;
 		const height = this.canvas.height / devicePixelRatio;
+		const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
 		ctx.clearRect(0, 0, width, height);
 		ctx.save();
@@ -537,7 +541,7 @@ class SitemapGraph {
 		ctx.scale(this.camera.zoom, this.camera.zoom);
 		ctx.translate(this.camera.x, this.camera.y);
 
-		ctx.strokeStyle = "light-dark(rgba(63, 60, 60, 0.2), rgba(63, 60, 60, 0.8))";
+		ctx.strokeStyle = isDarkMode ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.2)";
 		ctx.lineWidth = 1 / this.camera.zoom;
 
 		this.edges.forEach((edge) => {
@@ -581,7 +585,12 @@ class SitemapGraph {
 			const opacity = Math.max(0.3, 1 - node.depth * 0.15);
 
 			ctx.fillStyle = `rgba(${baseColor}, ${opacity})`;
-			ctx.strokeStyle = isSelected || isDragged ? "light-dark(rgba(19, 17, 17, 1), rgba(255, 234, 209, 1))" : "light-dark(rgba(63, 60, 60, 0.2), rgba(63, 60, 60, 0.8))";
+
+			if (isSelected || isDragged) {
+				ctx.strokeStyle = isDarkMode ? "rgba(255, 234, 209, 1)" : "rgba(19, 17, 17, 1)";
+			} else {
+				ctx.strokeStyle = isDarkMode ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.2)";
+			}
 			ctx.lineWidth = 1 / this.camera.zoom;
 
 			ctx.beginPath();
@@ -595,7 +604,7 @@ class SitemapGraph {
 				ctx.textBaseline = "middle";
 
 				const label = node.label.length > 15 ? node.label.substring(0, 12) + "..." : node.label;
-				ctx.fillStyle = "light-dark(#131111, #ffead1)";
+				ctx.fillStyle = isDarkMode ? "#ffead1" : "#131111";
 				ctx.fillText(label, node.x, node.y + node.size + 15 / this.camera.zoom);
 			}
 		});
