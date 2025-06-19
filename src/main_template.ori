@@ -17,11 +17,9 @@
 			<meta property="og:type" content="article">
 			<meta property="article:author" content="Declan Chidlow">
 
-			${ page/pub_time ? `
-				<meta property="article:published_time" content="${ page/pub_time }">
-				<meta name="dc.date.issued" content="${ page/pub_time }">
-				<meta name="citation_publication_date" content="${ page/pub_time }">
-			` : '' }
+			<meta property="article:published_time" content="${ page/pub_time }">
+			<meta name="dc.date.issued" content="${ page/pub_time }">
+			<meta name="citation_publication_date" content="${ page/pub_time }">
 
 			${ page/mod_time ? `
 				<meta property="article:modified_time" content="${ page/mod_time }">
