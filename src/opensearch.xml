@@ -8,6 +8,7 @@
 	<Url type="application/opensearchdescription+xml" rel="self"
 		template="https://vale.rocks/opensearch.xml" />
 	<LongName>Vale.Rocks</LongName>
+	<Image type="image/svg">https://vale.rocks/assets/favicon.svg</Image>
 	<Developer>Declan Chidlow (Vale)</Developer>
 	<Language>en-au</Language>
 	<InputEncoding>UTF-8</InputEncoding>
