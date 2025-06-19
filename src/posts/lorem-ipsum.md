@@ -113,17 +113,31 @@ Quis voluptatem nisi minima eaque molestiae non magnam tempora. Deleniti aut dol
 <figure>
 <div class="table-wrapper">
 
-| **Vehicle Name**  | **Primary Users** | **Vehicle Type**        | **Key Features**                                   | **Special Functions**                                 |
-| ----------------- | ----------------- | ----------------------- | -------------------------------------------------- | ----------------------------------------------------- |
-| **Thunderbird 1** | Scott Tracy       | Rocket-Powered VTOL Jet | Sleek design, vertical take-off and landing (VTOL) | High-speed, rescue operations, aerial manoeuvrability |
-| **Thunderbird 2** | Virgil Tracy      | Transport Aircraft      | Large cargo hold, modular design, green color      | Carries vehicles for land and sea rescues             |
-| **Thunderbird 3** | Alan Tracy        | Space Rocket            | Red design, space travel capabilities              | Space missions, long-range travel                     |
-| **Thunderbird 4** | Gordon Tracy      | Submarine               | Yellow, compact, built for underwater exploration  | Submarine for underwater rescue and exploration       |
-| **Thunderbird 5** | John Tracy        | Space Station           | Satellite orbiting Earth, advanced communication   | Monitoring global distress signals from space         |
+| Vehicle Name      | Primary User | Vehicle Type            | Key Features                                       | Special Functions                                     |
+| :---------------- | :----------- | :---------------------- | :------------------------------------------------- | :---------------------------------------------------- |
+| **Thunderbird 1** | Scott Tracy  | Rocket-Powered VTOL Jet | Sleek design, vertical take-off and landing (VTOL) | High-speed, rescue operations, aerial manoeuvrability |
+| **Thunderbird 2** | Virgil Tracy | Transport Aircraft      | Large cargo hold, modular design, green colour     | Carries vehicles for land and sea rescues             |
+| **Thunderbird 3** | Alan Tracy   | Space Rocket            | Red design, space travel capabilities              | Space missions, long-range travel                     |
+| **Thunderbird 4** | Gordon Tracy | Submarine               | Yellow, compact, built for underwater exploration  | Submarine for underwater rescue and exploration       |
+| **Thunderbird 5** | John Tracy   | Space Station           | Satellite orbiting Earth, advanced communication   | Monitoring global distress signals from space         |
 
 </div>
 
-<figcaption>Table presenting the various Thunderbirds vehicles.</figcaption>
+<figcaption>Large table presenting the various Thunderbirds vehicles.</figcaption>
+</figure>
+
+<figure>
+<div class="table-wrapper">
+
+| ID         | Value A | Value B | Value C | Value D |
+| :--------- | ------: | ------: | ------: | ------: |
+| Text One   |    12.5 |    88.2 |    45.1 |    73.4 |
+| Text Two   |    19.8 |    67.4 |    52.3 |    81.7 |
+| Text Three |    15.3 |    90.1 |    39.8 |    60.2 |
+
+</div>
+
+<figcaption>Small table presenting numeric data.</figcaption>
 </figure>
 
 ## Admonitions

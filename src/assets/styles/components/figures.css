@@ -3,22 +3,22 @@ img {
 }
 
 figure {
-	width: 100%;
+	width: fit-content;
+	max-width: 100%;
+}
+
+figure:has(img) {
 	margin: 0;
 	position: relative;
+}
 
-	img {
-		width: 100%;
-	}
-
-	figcaption {
-		margin-block-start: 1rem;
-		margin-inline: 0.5rem;
-		font-size: small;
-		font-style: italic;
-		text-align: center;
-		color: light-dark(var(--grey), var(--white));
-	}
+figcaption {
+	margin-block-start: 0.75rem;
+	margin-inline: 0.5rem;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	color: light-dark(var(--grey), var(--white));
 }
 
 .left {
@@ -120,31 +120,33 @@ figure {
 }
 
 .table-wrapper {
-	overflow: scroll;
-	width: 100%;
+	overflow-x: scroll;
 }
 
 table {
-	text-align: left;
 	border-collapse: collapse;
 	font-size: 0.9rem;
 	font-variant-numeric: tabular-nums lining-nums slashed-zero;
+	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 }
 
-thead,
-tfoot {
-	border-block: 2px solid;
-	background: light-dark(var(--white), var(--grey));
+tbody tr:nth-child(even),
+thead {
+	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--grey) l c h / 0.4));
 }
 
-th,
-td {
-	border: 1px solid light-dark(var(--grey), var(--bright_grey));
-	padding: 0.5rem;
+thead {
+	border-block-end: 2px solid var(--bright_grey);
+
+	strong {
+		font-weight: 700;
+	}
 }
 
-tbody tr:nth-child(even) {
-	background: light-dark(color-mix(in oklch, var(--white), transparent 70%), color-mix(in oklch, var(--grey), transparent 50%));
+td,
+th {
+	padding-block: 0.2rem;
+	padding-inline: 0.5rem;
 }
 
 @media (max-width: 45rem) {
