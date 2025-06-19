@@ -15,7 +15,7 @@ kbd {
 		position: absolute;
 		right: 0;
 		top: 0;
-		transition: 0.1s box-shadow ease-out;
+		transition: 0.15s box-shadow ease-out;
 
 		svg {
 			width: 1rem;
@@ -27,14 +27,10 @@ kbd {
 	.copied {
 		background: var(--green);
 		box-shadow: 0 0 6.5rem 3rem oklch(from var(--green) l c h / calc(alpha - 0.5));
-		transition: 0.25s box-shadow ease-in;
+		transition-timing-function: ease-in;
 
 		svg {
 			fill: var(--black);
-		}
-
-		@media (prefers-reduced-motion: reduce) {
-			transition: inherit;
 		}
 	}
 
