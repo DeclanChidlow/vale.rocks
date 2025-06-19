@@ -30,6 +30,7 @@
 		` : '<meta property="og:type" content="website">' }
 
 		<link rel="icon" type="image/svg+xml" href="https://vale.rocks/assets/favicon.svg">
+		<link rel="apple-touch-icon" href="https://vale.rocks/assets/apple-touch-icon.png">
 
 		${ page/image ? `
 			<meta property="og:image" content="${ page/image }">
@@ -81,6 +82,7 @@
 		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
 		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
 		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
+		<link rel="manifest" href="/app.webmanifest">
 
 		<meta http-equiv="Content-Security-Policy" content="script-src 'wasm-unsafe-eval' 'self' https://gc.zgo.at https://giscus.app https://js.stripe.com; connect-src 'self' https://stats.vale.rocks/count; object-src 'none'; base-uri 'none'">
 

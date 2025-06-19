@@ -1,0 +1,14 @@
+{
+	"name": "Vale.Rocks",
+	"description": "The website of Declan Chidlow",
+	"start_url": "/",
+	"display": "standalone",
+	"id": "vale-rocks",
+	"icons": [
+		{
+			"src": "/assets/favicon.svg",
+			"sizes": "any"
+		}
+	],
+	"background_color": "oklch(94.75% 0.04 73)"
+}

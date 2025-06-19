@@ -2,6 +2,7 @@
 	assets
 	.well-known
 	opensearch.xml
+	app.webmanifest
 
 	(markdown_pages): {
 		index: pages/index.md
