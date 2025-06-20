@@ -194,7 +194,6 @@ class SitemapGraph {
 				touchedNode.vy = 0;
 
 				this.showNodeInfo(touchedNode);
-				this.container.classList.add("dragging");
 			} else {
 				this.selectedNode = null;
 				this.info.style.display = "none";
@@ -311,7 +310,6 @@ class SitemapGraph {
 		this.isPinching = false;
 		this.draggedNode = null;
 		this.lastTouchDistance = 0;
-		this.container.classList.remove("dragging");
 
 		// Clear touches that ended
 		const activeTouchIds = new Set();
@@ -351,7 +349,6 @@ class SitemapGraph {
 			clickedNode.vy = 0;
 
 			this.showNodeInfo(clickedNode);
-			this.container.classList.add("dragging");
 		} else {
 			this.selectedNode = null;
 			this.info.style.display = "none";
@@ -400,7 +397,6 @@ class SitemapGraph {
 		this.isDragging = false;
 		this.isDraggingNode = false;
 		this.draggedNode = null;
-		this.container.classList.remove("dragging");
 		this.canvas.style.cursor = "grab";
 	}
 
