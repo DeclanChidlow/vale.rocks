@@ -3,7 +3,7 @@ title: Lorem Ipsum
 description: A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale.
 og_description: "'Blah blah blah' doesn’t look quite as good."
 pub_time: 2024-11-25
-mod_time: 2025-02-13
+mod_time: 2025-06-22
 section: Meta
 ---
 
@@ -19,9 +19,27 @@ Normal superscript<sup>sup</sup>. Normal subscript<sub>sub</sub>. _Italic supers
 
 Superscript and subscript together<sup>sup</sup><sub>sub</sub>.
 
-You can define structure with <abbr title="Hypertext Markup Language">HTML</abbr> then style it with <abbr title="Cascading Style Sheet">CSS</abbr>. You can do more interactive stuff with <abbr title="JavaScript">JS</abbr>.
+You can define structure with <abbr title="Hypertext Markup Language">HTML</abbr> and then style it with <abbr title="Cascading Style Sheet">CSS</abbr>. You can do more interactive stuff with <abbr title="JavaScript">JS</abbr>.
+
+These are abbreviations that aren't actually formatted like abbreviations but should be handled during building. NASA. DVD. GIF. 200MB.
 
 You can do a hard refresh on a webpage using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+
+pneumonoultramicroscopicsilicovolcanoconiosisisaverylongwordpneumonoultramicroscopicsilicovolcanoconiosisisaverylongwordpneumonoultramicroscopicsilicovolcanoconiosisisaverylongword
+
+### Maths
+
+100⁄200 158⁄851
+
+≈ ~ = ≠ ∙ ÷ − + ± × ∕ > ≥ ∞ < ≤ % √
+
+I present: _numbers_. 10, 20, 30, 40, 800. Threw you off there. 1000. 2500. 95837593756191234567890. That's some numbers for ya.
+
+### Swashes
+
+<div style="font-feature-settings: 'swsh';">
+A Á Ă Â Ä À Ā Ą Ã E É Ě Ê Ë Ė È Ē Ę E É Ě Ê Ë Ė È Ē Ę F L Ĺ Ľ Ļ Ł M M N Ń Ň Ņ Ñ R Ŕ Ř Ŗ R Ŕ Ř Ŗ S T Ť Ţ Ț W n ń ň ņ ñ r ŕ ř ŗ t ť ţ ț y ý ÿ
+</div>
 
 ### Heading Levels
 
@@ -103,6 +121,15 @@ Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr
 
 <details>
 <summary>Details element</summary>
+
+Quis voluptatem nisi minima eaque molestiae non magnam tempora. Deleniti aut doloremque ut illum et enim sit blanditiis. Sequi facere voluptas et voluptas rerum maiores qui. Et nobis et dolor ipsum nihil debitis. Voluptates id esse officia aut est nulla.
+
+</details>
+
+<details open>
+<summary>Open details element</summary>
+
+This details element defaults to open.
 
 Quis voluptatem nisi minima eaque molestiae non magnam tempora. Deleniti aut doloremque ut illum et enim sit blanditiis. Sequi facere voluptas et voluptas rerum maiores qui. Et nobis et dolor ipsum nihil debitis. Voluptates id esse officia aut est nulla.
 
@@ -317,7 +344,11 @@ impl LoremIpsum {
 
 There is a note after this [^1].
 
-Here is a lot of them, to see if they break... [^2] [^3] [^4] [^5] [^6] [^7] [^8].
+There is not a note after this.
+
+This is just some text.
+
+Here are a lot of them, to see if they break... [^2] [^3] [^4] [^5] [^6] [^7] [^8].
 
 ## Definitions
 
@@ -326,10 +357,16 @@ Here is a lot of them, to see if they break... [^2] [^3] [^4] [^5] [^6] [^7] [^8
 <dd>Someone who is really amazingly together.</dd>
 
 <dt>Defenestration</dt>
-<dd>The act of throwing someone or some thing out of a window.</dd>
+<dd>The act of throwing someone or something out of a window.</dd>
 
 <dt>Schlock</dt>
 <dd>Something that is low-quality, junky, or tacky.</dd>
+
+<dt>Flibbertigibbet</dt>
+<dd>A scatterbrained, silly person.</dd>
+
+<dt>Doozy</dt>
+<dd>Some unusual. Usually troublesome.</dd>
 </dl>
 
 ## Figures
@@ -347,17 +384,21 @@ Standard image not in a figure:
 <figcaption>Left floated figure with caption.</figcaption>
 </figure>
 
-Some placeholder text for presenting figure placements. Nihil totam accusantium voluptas sit ipsa est non vero. Aut occaecati fuga consequatur. Voluptatem ratione itaque dolorum. Laudantium commodi ratione recusandae autem. Nihil necessitatibus nobis sint.
+Some placeholder text for presenting figure placements. Hopefully things float where they should. If they don't, that'll be wickedly annoying.
 
-Voluptatibus sunt voluptas sequi est sit rem. Molestiae veniam dolores sequi aut vitae dolores officiis. Ad enim facere non ullam sequi placeat aliquam et. Et voluptas praesentium doloribus saepe quibusdam omnis consectetur. Provident non architecto quisquam libero explicabo.
+Really annoying. I spend a lot of time trying to get things to look correct on this godforsaken site, and then I go to take a break and check out Hacker News only to find number one on the front page is some rando's default WordPress template.
 
-Eligendi harum fugit aut accusamus rerum illum ad quae. Ratione similique iste nostrum magni. Dolor tempore ipsum ullam. Repellat voluptatem voluptatem quia ducimus animi. Doloremque quisquam ut expedita sed.
+At least the super-ugly websites made by hackers are stylised, even if ugly. I'd take an ugly design built with intent any day over a template with no care put into it.
 
-Soluta inventore est quia ipsum doloribus repellat doloremque. Ratione aut enim deserunt quibusdam. Dolorem architecto maiores pariatur iure maxime illum. Nihil id aut fuga.
+'Yo, your site is broken.' 'On what browser?' 'Samsung Internet.' 'Sounds about right.'
 
-Magni pariatur qui molestias. Nemo voluptatem distinctio voluptate voluptate vitae odio nemo. Praesentium omnis beatae mollitia dolore quasi delectus. Non hic non natus.
+Genuine interaction I have fairly frequently. What an awful excuse for a browser. Did they forget how to update Chromium?
 
-Voluptatibus sunt voluptas sequi est sit rem. Molestiae veniam dolores sequi aut vitae dolores officiis. Ad enim facere non ullam sequi placeat aliquam et. Et voluptas praesentium doloribus saepe quibusdam omnis consectetur. Provident non architecto quisquam libero explicabo.
+Y'know what, maybe I should just give up. Maybe the real lesson we've learnt along the way is that people don't notice good design but hate design that is different. Different and good? Bad. Different and bad? Unique.
+
+If this site were a book, rather than a web page, I'd rip up the pages, type everything out on a typewriter, and run it through a photocopier. Then I'd staple all the pages together haphazardly and just start throwing it at people like a madman.
+
+They'd lock me up, sure, but at least nobody would be confused by small caps. I mean, seriously, guys. Small caps. They aren't difficult to get a grasp on.
 
 ## Colour Palette
 
@@ -431,16 +472,16 @@ And finally, a nice horizontal rule...
 
 [^1]: This is a footnote, but more accurately it's an endnote, and it'll appear as a sidenote on larger screens.
 
-[^2]: Magni dolorum ipsa voluptas tempore est ut in. Dicta corrupti ipsa aspernatur. Soluta sunt quae impedit. Eos nobis accusantium ut amet.
+[^2]: This is more of the same. The issue with this set of close-together footnote/endnote/sidenote/whatever references is that they're a bit hard to target, especially on a phone. Shouldn't happen often though, so I'll ignore it.
 
 [^3]: Id ex ipsum rerum tempore. Sunt ab deserunt impedit architecto reprehenderit ex. Corporis dolores qui accusamus dolorem. Laudantium optio voluptatem eum id qui. Est ut laborum unde.
 
-[^4]: Dolor expedita repudiandae voluptas. Veritatis beatae quis impedit id veniam. Nisi illum animi voluptatem magnam labore sunt omnis.
+[^4]: These should move down the screen, due to their references being so close that they'd otherwise overlap. Of course, if you're on a narrow viewport, then I may as well be speaking to a wall, because it doesn't matter.
 
-[^5]: Est illo fuga autem fugiat qui quaerat inventore. Suscipit in aut vero libero labore ut. Facere enim nihil itaque. Enim aut dignissimos non velit autem odio quae. Libero et corrupti eos.
+[^5]: Now I think about it further, it doesn't really matter if you're lacking JavaScript or if I broke the script that handles sidenotes and popovers. Oh well. I tried.
 
 [^6]: Similique laboriosam quas ipsam molestias quia. Earum maxime quo veniam modi. Exercitationem et odit cum. Aspernatur et ad dolor voluptatem aperiam nihil et ut.
 
-[^7]: Cum eligendi quaerat blanditiis. Nostrum distinctio vel veritatis ut quod vel ea ipsa. Doloribus quae quia quibusdam veritatis provident reiciendis reiciendis quisquam.
+[^7]: This footnote is sandwiched between a few others, but it should still look alright.
 
 [^8]: Eaque perferendis eos illo. Cum quos qui aut commodi. Et cumque quaerat molestiae. Quo laboriosam itaque odit dolorem perferendis eius.
