@@ -1,17 +1,20 @@
 (posts) => {
-  version: "https://jsonfeed.org/version/1.1"
-  title: "Vale.Rocks Posts"
-  description: "Long form writings about assorted topics."
-  home_page_url: "https://vale.rocks"
-  feed_url: "https://vale.rocks/posts/feed.json"
-  
-  items: values(map(posts, (post, fileName) => {
-	id: `https://vale.rocks/posts/${ basename(fileName) }`
-	url: `https://vale.rocks/posts/${ basename(fileName) }`
-	title: post/title
-    content_html: post/@text
-    summary: post/description
-    date_published: post/pub_time
-    date_modified: post/mod_time
-  }))
+	version: "https://jsonfeed.org/version/1.1"
+	title: "Vale.Rocks Posts"
+	description: "Long form writings about assorted topics."
+	home_page_url: "https://vale.rocks"
+	feed_url: "https://vale.rocks/posts/feed.json"
+
+	items: values(map(posts, (post, fileName) => {
+		id: `https://vale.rocks/posts/${ basename(fileName) }`
+		url: `https://vale.rocks/posts/${ basename(fileName) }`
+		title: post/title
+		content_html: `
+			${ post/site_recommended ? `<strong>This post is best viewed <a href="https://vale.rocks/posts/${ basename(fileName) }">directly on Vale.Rocks</a>, as it depends upon the site's features.</strong>` : '' }
+			${ post/@text }
+		`
+		summary: post/description
+		date_published: post/pub_time
+		date_modified: post/mod_time
+	}))
 }

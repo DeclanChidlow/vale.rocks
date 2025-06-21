@@ -140,6 +140,12 @@ In an effort to integrate open web concepts into this site, I've applied much of
 
 One part of this is making use of [microformats](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) whenever possible to define extra structure and semantics, and another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>/<abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr> syndication models as applicable. This places my site as the centre of my web presence, with everything else revolving around it. Ideally, it should be considered the canonical source for everything I do web-wise.
 
+### Read on Site Recommendation
+
+All of my posts are made available over syndication formats like RSS, though I do believe this provides an inferior experience. In the case of some posts though, they simply can't be experienced off-site, as they rely on this site for full presentation and functionality.
+
+To address this, I added functionality which allows me to mark long-form posts as `site_recommended`, which will prefix them in syndication with the recommendation to read them on site. I got this idea from [a comment left by Tyler Sticka](https://social.lol/@tylersticka/114653781572200337).
+
 ### Development & Deployment
 
 My development workflow for this site is pretty trivial. I run a local Origami dev server via [Bun](https://bun.sh) on my laptop and make my edits via Neovim. It's more or less the standard development flow you'd expect of any web-based project. All writing on the site is done with the exact same flow.
