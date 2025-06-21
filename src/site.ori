@@ -28,7 +28,7 @@
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
 	portfolio = map(portfolio_data.ori, portfolio_template.ori)
 
-	(paginated_micros) = paginate(micro_data.ori, 50)
+	(paginated_micros) = paginate(micro_data.ori, 30)
 	micros.html = pages/micros.ori(first(paginated_micros))
 	micros = {
 		...map(paginated_micros, {
@@ -52,7 +52,7 @@
 		feed.xml = rss(photography_syndication.ori(photography_data.ori))
 	}
 
-	(paginated_videos) = paginate(video_data.ori, 50)
+	(paginated_videos) = paginate(video_data.ori, 30)
 	videos.html = pages/videos.ori(first(paginated_videos))
 	videos = {
 		...map(paginated_videos, {
@@ -82,7 +82,7 @@
 	"links/podcasts.html" = ./links/podcasts.ori(./links/podcasts.yaml)
 	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 
-	(paginated_firehose) = paginate(firehose_data.ori, 50)
+	(paginated_firehose) = paginate(firehose_data.ori, 30)
 	firehose.html = pages/firehose.ori(first(paginated_firehose))
 	firehose = map(paginated_firehose, {
 		extension: "→.html"
@@ -90,6 +90,6 @@
 	})
 
 	pagefind = once(=package:@weborigami/pagefind({
-		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
+		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/podcasts.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
 	}))
 }
