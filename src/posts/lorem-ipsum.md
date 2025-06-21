@@ -340,6 +340,73 @@ impl LoremIpsum {
 }
 ```
 
+## Inputs
+
+<form>
+<label for="text">Text Input:</label>
+<input type="text" id="text" name="text">
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+<label for="url">Website:</label>
+<input type="url" id="url" name="url">
+
+<label for="number">Number:</label>
+<input type="number" id="number" name="number">
+
+<label for="range">Range:</label>
+<input type="range" id="range" name="range" min="0" max="100">
+
+<label for="date">Date:</label>
+<input type="date" id="date" name="date">
+
+<label for="time">Time:</label>
+<input type="time" id="time" name="time">
+
+<label for="month">Month:</label>
+<input type="month" id="month" name="month">
+
+<label for="week">Week:</label>
+<input type="week" id="week" name="week">
+
+<label for="file">File Upload:</label>
+<input type="file" id="file" name="file">
+
+<label for="color">Colour:</label>
+<input type="color" id="color" name="color">
+
+<label for="textarea">Textarea:</label><br>
+<textarea id="textarea" name="textarea" rows="4" cols="40"></textarea>
+
+<label for="select">Select:</label>
+<select id="select" name="select">
+
+<option value="option1">Option 1</option>
+<option value="option2">Option 2</option>
+<option value="option3">Option 3</option>
+</select>
+
+<p>Checkboxes:</p>
+<input type="checkbox" id="option1" name="options" value="option1">
+<label for="option1">Option 1</label><br>
+<input type="checkbox" id="option2" name="options" value="option2">
+<label for="option2">Option 2</label><br>
+<input type="checkbox" id="option3" name="options" value="option3">
+<label for="option3">Option 3</label>
+
+<input type="hidden" name="hiddenField" value="secretValue">
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<button type="reset" disabled>Disabled</button>
+<input type="button" value="Click Me">
+
+</form>
+
 ## End/Side Notes
 
 There is a note after this [^1].
