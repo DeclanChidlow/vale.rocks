@@ -1,6 +1,6 @@
 {
 	"name": "Vale.Rocks",
-	"description": "The website of Declan Chidlow",
+	"description": "The personal website of Declan Chidlow, known mononymously as Vale.",
 	"start_url": "/",
 	"display": "standalone",
 	"id": "vale-rocks",
@@ -10,5 +10,5 @@
 			"sizes": "any"
 		}
 	],
-	"background_color": "oklch(94.75% 0.04 73)"
+	"background_color": "#131111"
 }
