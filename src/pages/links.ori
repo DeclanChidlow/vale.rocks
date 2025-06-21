@@ -1,4 +1,4 @@
-(blogs, tools-and-resources, miscellaneous) => main_template.ori({
+(blogs, tools-and-resources, podcasts, miscellaneous) => main_template.ori({
 	title: "Links"
 	description: "A curated collection of intriguing and valuable links I've discovered while surfing the web, plus a selection of delightfully offbeat YouTube oddities."
 	og_description: "Links to various other places of interest or note on the 'net."
@@ -14,8 +14,9 @@
 	<ul>
 		<li><a href="/links/blogs">Blogs</a> (${ blogs/length } links)</li>
 		<li><a href="/links/tools-and-resources">Tools and Resources</a> (${ tools-and-resources/length } links)</li>
+		<li><a href="/links/podcasts">Podcasts</a> (${ podcasts/length } links)</li>
 		<li><a href="/links/miscellaneous">Miscellaneous</a> (${ miscellaneous/length } links)</li>
 	</ul>
 
-	<p>I have also compiled <a href="https://www.youtube.com/playlist?list=PLkpryzooKZXtHGrwacJkN7ufuWm17J73g">an assorted wonder of <em>quality</em> YouTube videos</a>. They tend to be on the zanier side, and I'm not to be held responsible for any warped distortion of your recommendations that watching them may bring.</p>
+	<p>I have also compiled <a href="https://www.youtube.com/playlist?list=PLkpryzooKZXtHGrwacJkN7ufuWm17J73g">an assorted wonderment of <em>quality</em> YouTube videos</a>. They tend to be on the zanier side, and I'm not to be held responsible for any warped distortion of your recommendations that watching them may bring.</p>
 </div>`})

@@ -1,0 +1,23 @@
+(podcasts) => main_template.ori({
+	title: "Podcast Links"
+	description: "A collection of interesting podcasts covering a range of topics that I choose to listen to."
+	og_description: "Links to podcasts I listen to."
+	stylesheet: "pages/links.css"
+	canonical: "/links/podcasts"
+
+@text:
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
+
+<div class="readable">
+	<h1>Podcasts</h1>
+
+	<p>These are ${ podcasts/length } links to handy and useful tools and resources available on the web.</p>
+
+	<ul>
+		${ podcasts
+		→ =map(_, (link) =>
+		`<li>
+			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
+		</li>`) }
+	</ul>
+</div>`})

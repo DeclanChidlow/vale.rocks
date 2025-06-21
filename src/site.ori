@@ -75,11 +75,12 @@
 		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
 	}
 
-	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/miscellaneous.yaml)
+	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/miscellaneous.yaml)
 	"links/blogs.html" = ./links/blogs.ori(./links/blogs.yaml)
-	"links/tools-and-resources.html" = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
-	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 	"links/blogs.opml" = ./links/blogs_opml.ori(./links/blogs.yaml)
+	"links/tools-and-resources.html" = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
+	"links/podcasts.html" = ./links/podcasts.ori(./links/podcasts.yaml)
+	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 
 	(paginated_firehose) = paginate(firehose_data.ori, 50)
 	firehose.html = pages/firehose.ori(first(paginated_firehose))
