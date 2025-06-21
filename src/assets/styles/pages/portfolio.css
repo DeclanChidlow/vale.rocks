@@ -70,33 +70,33 @@ section.tools-and-technologies {
 		user-select: none;
 		gap: var(--gap);
 		margin-inline: -1rem;
-	}
 
-	.marquee__content {
-		flex-shrink: 0;
-		display: flex;
-		justify-content: space-around;
-		min-width: 100%;
-		gap: var(--gap);
-		margin: 0;
-		animation: scroll 180s linear infinite;
+		ul {
+			flex-shrink: 0;
+			display: flex;
+			justify-content: space-around;
+			min-width: 100%;
+			gap: var(--gap);
+			margin: 0;
+			animation: scroll 180s linear infinite;
 
-		&:hover,
-		&:focus-visible {
-			animation-play-state: paused;
+			&:hover,
+			&:focus-visible {
+				animation-play-state: paused;
+			}
+
+			@media (prefers-reduced-motion: reduce) {
+				animation-duration: 500s;
+			}
+
+			li {
+				list-style: none;
+			}
 		}
 
-		@media (prefers-reduced-motion: reduce) {
-			animation-duration: 500s;
+		.reverse {
+			animation-direction: reverse;
 		}
-
-		li {
-			list-style: none;
-		}
-	}
-
-	.marquee__content.aa {
-		animation-direction: reverse;
 	}
 }
 

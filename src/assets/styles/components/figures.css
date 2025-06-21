@@ -8,7 +8,7 @@ figure {
 }
 
 figure:has(img) {
-	margin: 0;
+	margin: 0 auto;
 	position: relative;
 }
 
