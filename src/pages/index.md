@@ -12,11 +12,11 @@ canonical: ""
 	<h1>Vale</h1>
 	<p>Developer</p>
 	<p>Designer</p>
-	<p>Dabbler</p>
+    <p>Writer</p>
 </section>
 
 <div class="content">
-<section class="readable-width">
+<section class="readable">
 
 ## Ahoy!
 
@@ -28,55 +28,31 @@ When not bodging together scripts (both the kind you run and the kind you read),
 
 </section>
 
-<section data-pagefind-ignore="all" class="on-site readable-width">
+<section data-pagefind-ignore="all" class="readable">
 
-## On This Site:
+## Explore My Site
 
-<a href="/posts" id="posts">
-    <h3>Posts</h3>
-    <p>Polished long-form structured writings.</p>
-</a>
+<div id="container" aria-hidden="true">
+    <canvas id="canvas"></canvas>
+    <div id="info"></div>
+</div>
 
-<a href="/portfolio" id="portfolio">
-    <h3>Portfolio</h3>
-    <p>Proudest creations.</p>
-</a>
+This site has a _lot_ of stuff on it. Notably, [polished long-form structured writings](/posts), [my portfolio](/portfolio), [a range of photography](/photography), [videos](/videos), [short-form, often ephemeral, micro-posts](/micros), [a list of my external writings, contributions, and appearances](/elsewhere), and a [huge collection of links](/links).
 
-<a href="/photography" id="photography">
-    <h3>Photography</h3>
-    <p>Varied photon capture.</p>
-</a>
-
-<a href="/micros" id="micros">
-    <h3>Micros</h3>
-    <p>Short-form and often ephemeral.</p>
-</a>
-
-<a href="/elsewhere" id="elsewhere">
-    <h3>Elsewhere</h3>
-    <p>External writings, contributions, and appearances.</p>
-</a>
-
-<a href="/links" id="links">
-    <h3>Links</h3>
-    <p>Collection of web bits.</p>
-</a>
-
-You can access my stream of consciousness via the <a href="/firehose">firehose</a>. Ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
-
-My <a href="/uses">uses page</a> has all the details on my tools and set up, the <a href="/services">services page</a> shows the services I host, and my <a href="/contact">contact page</a> should be self-explanatory.
+You can also access my stream of consciousness via the <a href="/firehose">firehose</a>, and ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
 
 If you wish to know more about the specifics of this site, you can read [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
 
 </section>
 
-<section data-pagefind-ignore="all" class="readable-width">
+<section data-pagefind-ignore="all" class="readable">
 
 ## Supporting Me
 
-If you enjoy or otherwise benefit from the content on this site and/or any of the other things I've made, I'd appreciate if you considered [supporting me financially](/support).
+If you enjoy or otherwise benefit from the content on this site and/or any of the other things I've made, including my open-source work, I'd appreciate if you considered [supporting me financially](/support).
 
 </section>
 </div>
 
 <script type="module" src="/assets/scripts/puddle.js"></script>
+<script type="module" src="/assets/scripts/graph.js"></script>

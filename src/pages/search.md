@@ -8,7 +8,7 @@ canonical: /search
 
 <h1 class="section">Search</h1>
 
-<div class="readable-width">
+<div class="readable">
 
 <script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>

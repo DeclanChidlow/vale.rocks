@@ -2,12 +2,11 @@
 	assets
 	.well-known
 	opensearch.xml
+	app.webmanifest
 
 	(markdown_pages): {
 		index: pages/index.md
 		contact: pages/contact.md
-		services: pages/services.md
-		uses: pages/uses.md
 		support: pages/support.md
 		syndication: pages/syndication.md
 		search: pages/search.md
@@ -26,15 +25,19 @@
 		feed.xml = rss(post_syndication.ori(post_data.ori))
 	}
 
-	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 100)
-	elsewhere.html = pages/elsewhere.ori(first(paginated_elsewhere))
-	elsewhere = {
-		...map(paginated_elsewhere, {
+	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
+	portfolio = map(portfolio_data.ori, portfolio_template.ori)
+
+	(paginated_micros) = paginate(micro_data.ori, 30)
+	micros.html = pages/micros.ori(first(paginated_micros))
+	micros = {
+		...map(paginated_micros, {
 			extension: "→.html"
-			value: pages/elsewhere.ori
+			value: pages/micros.ori
 		})
-		feed.json = json(elsewhere_syndication.ori(elsewhere_data.yaml))
-		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
+		...map(micro_data.ori, micro_template.ori)
+		feed.json = json(micro_syndication.ori(micro_data.ori))
+		feed.xml = rss(micro_syndication.ori(micro_data.ori))
 	}
 
 	(paginated_photography) = paginate(photography_data.ori, 50)
@@ -49,37 +52,44 @@
 		feed.xml = rss(photography_syndication.ori(photography_data.ori))
 	}
 
-	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/miscellaneous.yaml)
-	links = {
-		blogs.html = ./links/blogs.ori(./links/blogs.yaml)
-		blogs.opml = ./links/blogs_opml.ori(./links/blogs.yaml)
-		tools-and-resources.html = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
-		miscellaneous.html = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
-	}
-
-	(paginated_micros) = paginate(micro_data.ori, 50)
-	micros.html = pages/micros.ori(first(paginated_micros))
-	micros = {
-		...map(paginated_micros, {
+	(paginated_videos) = paginate(video_data.ori, 30)
+	videos.html = pages/videos.ori(first(paginated_videos))
+	videos = {
+		...map(paginated_videos, {
 			extension: "→.html"
-			value: pages/micros.ori
+			value: pages/videos.ori
 		})
-		...map(micro_data.ori, micro_template.ori)
-		feed.json = json(micro_syndication.ori(micro_data.ori))
-		feed.xml = rss(micro_syndication.ori(micro_data.ori))
+		...map(video_data.ori, video_template.ori)
+		feed.json = json(video_syndication.ori(video_data.ori))
+		feed.xml = rss(video_syndication.ori(video_data.ori))
 	}
 
-	(paginated_firehose) = paginate(firehose_data.ori, 50)
+	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 100)
+	elsewhere.html = pages/elsewhere.ori(first(paginated_elsewhere))
+	elsewhere = {
+		...map(paginated_elsewhere, {
+			extension: "→.html"
+			value: pages/elsewhere.ori
+		})
+		feed.json = json(elsewhere_syndication.ori(elsewhere_data.yaml))
+		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
+	}
+
+	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/miscellaneous.yaml)
+	"links/blogs.html" = ./links/blogs.ori(./links/blogs.yaml)
+	"links/blogs.opml" = ./links/blogs_opml.ori(./links/blogs.yaml)
+	"links/tools-and-resources.html" = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
+	"links/podcasts.html" = ./links/podcasts.ori(./links/podcasts.yaml)
+	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
+
+	(paginated_firehose) = paginate(firehose_data.ori, 30)
 	firehose.html = pages/firehose.ori(first(paginated_firehose))
 	firehose = map(paginated_firehose, {
 		extension: "→.html"
 		value: pages/firehose.ori
 	})
 
-	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
-	portfolio = map(portfolio_data.ori, portfolio_template.ori)
-
 	pagefind = once(=package:@weborigami/pagefind({
-		index.html, contact.html, services.html, uses.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, links, links.html, micros, micros.html, portfolio, portfolio.html
+		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/podcasts.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
 	}))
 }

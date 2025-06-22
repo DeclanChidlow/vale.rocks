@@ -4,6 +4,7 @@
 	article: true
 	stylesheet: "pages/micro-individual.css"
 	canonical: `/micros/${ micro/file_name }`
+	template_image: "micro"
 
 @text:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Micros</span>	
@@ -56,7 +57,7 @@
 			</a>` : '' }
 		</aside>
 
-		<div class="readable-width e-content">
+		<div class="readable e-content">
 			${ micro/@text }
 		</div>
 	</div>

@@ -8,6 +8,6 @@ location: Donnelly River, WA, Australia
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8
-shutter: 1/150
+shutter: 1⁄150
 iso: 50
 ---

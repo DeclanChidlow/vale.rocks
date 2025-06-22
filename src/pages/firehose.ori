@@ -18,14 +18,13 @@
 			`<article class="post">
 				<header>
 					<div>
-						<span class="icons">article</span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Post</title><path d="M288-288h288v-72H288v72Zm0-156h384v-72H288v72Zm0-156h384v-72H288v72ZM144-144v-672h672v672H144Zm72-72h528v-528H216v528Zm0 0v-528 528Z"/></svg>
 						<h2><a href="/posts/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
 					</div>
 				</header>
 
 				<p>
-					New post published:<br>
-					${ item/title }
+					<strong>${ item/title }</strong>
 					<br><br>
 					<em>${ item/og_description }</em>
 					<br><br>
@@ -39,7 +38,7 @@
 			`<article class="photo">
 				<header>
 					<div>
-						<span class="icons">photo_camera</span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Photo</title><path d="M480-264q72 0 120-49t48-119q0-69-48-118.5T480-600q-72 0-120 49.5t-48 119q0 69.5 48 118.5t120 49Zm0-72q-42 0-69-28.13T384-433q0-39.9 27-67.45Q438-528 480-528t69 27.55q27 27.55 27 67.45 0 40.74-27 68.87Q522-336 480-336ZM96-144v-576h192l72-96h240l72 96h192v576H96Zm72-72h624v-432H636l-72.1-96H396l-72 96H168v432Zm312-217Z"/></svg>
 						<h2><a href="/photography/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
 					</div>
 
@@ -57,12 +56,12 @@
 			`<article class="elsewhere">
 				<header>
 					<div>
-						<span class="icons">open_in_new</span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Elsewhere</title><path d="M144-144v-672h336v72H216v528h528v-264h72v336H144Zm243-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z"/></svg>
 						<h2><a href="https://${ item/url }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
 					</div>
 				</header>
 				
-				<div class="readable-width">
+				<div class="readable">
 					${ item/sort === 'writer' ? `<p>Wrote <a href="https://${ item/url }">${ item/title }</a> over on ${ item/location }.</p>` : '' }
 					${ item/sort === 'contributor' ? `<p>Contributed to <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
 					${ item/sort === 'guest' ? `<p>Appeared in <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
@@ -72,11 +71,34 @@
 				</div>
 			</article>`
 
+		: item/type === 'video' ? 
+			`<article class="video">
+				<header>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Video</title><path d="M336-216v-528l408 264-408 264Zm73-265Zm-1 133 204-132-204-132v264Z"/></svg>
+						<h2><a href="/videos/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of publication.">${ functions/pretty-date.js(item/pub_time) }</time></a></h2>
+					</div>
+
+					<div class="socials">
+						${ item/youtube_id ? `
+						<a href="https://youtube.com/${ item/format === 'short' ? `shorts/` : `watch?v=` }${ item/youtube_id }" title="YouTube">${ item/format === 'short' ? `${youtube_shorts_icon}` : `${youtube_icon}` }</a>` : '' }
+					</div>
+				</header>
+				
+				<div class="readable">
+					<p><strong>${ item/title }</strong><br><br>${ item/description }</p>
+
+					<a href="/videos/${ basename(key) }" aria-hidden="true">
+						<img src="https://i.ytimg.com/vi/${ item/youtube_id }/${ item/format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
+					</a>
+				</div>
+			</article>`
+
 		:
 			`<article class="micro">
 				<header>
 					<div>
-						<span class="icons">stylus_note</span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Micro</title><path d="m511-311 326-325-57-57-325 326 56 56ZM239-192q-91-3-141-40T48-333q0-63 50-101t139-44q35-2 55-12.5t20-26.5q0-27-27-40t-96-19l6-72q96 6 142.5 38.5T384-517q0 48-37 77t-105 34q-61 5-91.5 23T120-333q0 33 29 49.5t93 19.5l-3 72Zm287-32L368-383l412-412 158 159-412 412Zm0 0-199 41 41-200 158 159Z"/></svg>
 						<h2><a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }, ${ functions/pretty-time.js(item/pub_time) }</time></a></h2>
 					</div>
 
@@ -95,7 +117,7 @@
 					</div>
 				</header>
 
-				<div class="readable-width">
+				<div class="readable">
 					${ item/@text }
 				</div>
 			</article>`
@@ -104,14 +126,14 @@
 
 	<div class="pagination">
 		${ paginated_firehose/previousPage
-			? `<a href="/firehose${ paginated_firehose/previousPage === 1 ? '' : `/${paginated_firehose/previousPage}` }"><span aria-hidden="true"><</span> Newer</a>`
+			? `<a href="/firehose${ paginated_firehose/previousPage === 1 ? '' : `/${paginated_firehose/previousPage}` }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
 		<p>Page ${ paginated_firehose/pageNumber} of ${ paginated_firehose/pageCount}</p>
 
 		${ paginated_firehose/nextPage
-			? `<a href="/firehose/${ paginated_firehose/nextPage }">Older <span aria-hidden="true">></span></a>`
+			? `<a href="/firehose/${ paginated_firehose/nextPage }">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>

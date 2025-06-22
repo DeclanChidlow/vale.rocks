@@ -8,7 +8,7 @@
 @text:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
 
-<div class="readable-width">
+<div class="readable">
 	<h1>Miscellaneous Links</h1>
 
 	<p>These are ${ miscellaneous/length } links to miscellaneous web things.<br>

@@ -467,3 +467,10 @@
   url: dbushell.com
   rss: dbushell.com/rss.xml
   description: Web design, development, and technological/societal critique.
+- title: Julia Miocene
+  url: miocene.io
+  description: Web development demos and writings.
+- title: Nic Chan
+  url: www.nicchan.me
+  atom: www.nicchan.me/feed.xml
+  description: Technology and web development.

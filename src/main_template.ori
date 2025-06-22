@@ -17,11 +17,9 @@
 			<meta property="og:type" content="article">
 			<meta property="article:author" content="Declan Chidlow">
 
-			${ page/pub_time ? `
-				<meta property="article:published_time" content="${ page/pub_time }">
-				<meta name="dc.date.issued" content="${ page/pub_time }">
-				<meta name="citation_publication_date" content="${ page/pub_time }">
-			` : '' }
+			<meta property="article:published_time" content="${ page/pub_time }">
+			<meta name="dc.date.issued" content="${ page/pub_time }">
+			<meta name="citation_publication_date" content="${ page/pub_time }">
 
 			${ page/mod_time ? `
 				<meta property="article:modified_time" content="${ page/mod_time }">
@@ -31,12 +29,15 @@
 			${ page/section ? `<meta property="article:section" content="${ page/section }">` : '' }
 		` : '<meta property="og:type" content="website">' }
 
+		<link rel="icon" type="image/svg+xml" href="https://vale.rocks/assets/favicon.svg">
+		<link rel="apple-touch-icon" href="https://vale.rocks/assets/apple-touch-icon.png">
+
 		${ page/image ? `
 			<meta property="og:image" content="${ page/image }">
-			<meta property="og:image:alt" content="${ page/alt_text }">
+			${ page/alt_text ? `<meta property="og:image:alt" content="${ page/alt_text }">` : '' }
 		` : `
-			<meta property="og:image" content="https://vale.rocks/assets/og.webp">
-			<meta property="og:image:alt" content="The name 'VALE' with the link 'https://vale.rocks' written under it.">
+			<meta property="og:image" content="https://vale.rocks/assets/og/${ page/template_image || 'standard' }.webp">
+			<meta property="og:image:alt" content="The name &lsquo;VALE&rsquo; with the link &lsquo;https://vale.rocks&rsquo; written under it.">
 			<meta property="og:image:type" content="image/webp">
 			<meta property="og:image:width" content="1200">
 			<meta property="og:image:height" content="630">
@@ -60,9 +61,9 @@
 		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
 		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-		<link rel="preload" href="/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href="/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2" crossorigin>
 
 		<link rel="stylesheet" href="/assets/styles/base/reset.css">
 		<link rel="stylesheet" href="/assets/styles/base/body.css">
@@ -81,6 +82,7 @@
 		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
 		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
 		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
+		<link rel="manifest" href="/app.webmanifest">
 
 		<meta http-equiv="Content-Security-Policy" content="script-src 'wasm-unsafe-eval' 'self' https://gc.zgo.at https://giscus.app https://js.stripe.com; connect-src 'self' https://stats.vale.rocks/count; object-src 'none'; base-uri 'none'">
 
@@ -91,17 +93,27 @@
 		<header id="navbar" data-pagefind-ignore="all">
 			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
 			<nav aria-label="site">
+				<button popovertarget="toc-menu" class="toc-button">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Open document overview</title><path d="m336-270-69-69 92-92H64v-98h295l-92-92 69-69 210 210-210 210Zm179 69v-98h381v98H515Zm0-460v-98h381v98H515Zm96 230v-98h285v98H611Z"/></svg>
+				</button>
 				<a href="/" id="navlanding">Vale</a>
-				<a href="/search" class="search-nav icons">search</a>
+				<a href="/search" class="search-nav">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Search</title><path d="M774-118 533-359q-30 21-70.29 33-40.29 12-81.68 12Q271-314 194-391t-77-187q0-110 77-187t187-77q110 0 187 77t77 187.03q0 41.39-11 79.18Q623-461 601-429l242 242-69 69ZM381-412q70 0 118-48t48-118q0-70-48-118t-118-48q-70 0-118 48t-48 118q0 70 48 118t118 48Z"/></svg>
+				</a>
 
-				<button popovertarget="popover-menu" class="popover-button icons">menu</button>
+				<button popovertarget="popover-menu" class="popover-button">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Open navigation</title><path d="M112-246v-98h736v98H112Zm0-186v-98h736v98H112Zm0-186v-98h736v98H112Z"/></svg>
+				</button>
 				<div id="popover-menu" popover>
-					<button popovertarget="popover-menu" class="icons">close</button>
+					<button popovertarget="popover-menu">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Close navigation</title><path d="m287-216-69-71 192-193-192-195 69-71 194 195 192-195 69 71-192 195 192 193-69 71-192-195-194 195Z"/></svg>
+					</button>
 					<ul>
 						<li><a href="/posts">Posts</a></li>
 						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/micros">Micros</a></li>
 						<li><a href="/photography">Photography</a></li>
+						<li><a href="/videos">Videos</a></li>
 						<li><a href="/elsewhere">Elsewhere</a></li>
 						<li><a href="/firehose">Firehose</a></li>
 						<li><a href="/links">Links</a></li>
@@ -117,22 +129,30 @@
 
 	<footer id="footer" data-pagefind-ignore="all">
 		<div class="footer-top">
+			<svg aria-hidden="true">
+			  <defs>
+				<filter id="motion-blur">
+				  <feGaussianBlur in="SourceGraphic" stdDeviation="10,0" />
+				</filter>
+			  </defs>
+			</svg>
+
 			<h2>Vale</h2>
 			<div class="footer-navigation">
-				<a href="/support" rel="payment" class="support">Support My Work</a>
+				${ functions/breadcrumbs.js(page/canonical) }
 				<nav aria-label="footer">
 					<ul>
 						<li><a href="/posts">Posts</a></li>
 						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/micros">Micros</a></li>
+						<li><a href="/videos">Videos</a></li>
 						<li><a href="/photography">Photography</a></li>
 						<li><a href="/elsewhere">Elsewhere</a></li>
 						<li><a href="/firehose">Firehose</a></li>
 						<li><a href="/links">Links</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/services">Services</a></li>
 						<li><a href="/syndication">Syndication</a></li>
-						<li><a href="/uses">Uses</a></li>
+						<li><a href="/support" rel="payment">Support</a></li>
 						<li><a href="/sitemap.xml">Sitemap</a></li>
 					</ul>
 				</nav>

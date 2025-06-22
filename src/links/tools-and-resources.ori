@@ -8,7 +8,7 @@
 @text:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
 
-<div class="readable-width">
+<div class="readable">
 	<h1>Tools and Resources</h1>
 
 	<p>These are ${ tools-and-resources/length } links to handy and useful tools and resources available on the web. All are usable for free and without sign-up.</p>

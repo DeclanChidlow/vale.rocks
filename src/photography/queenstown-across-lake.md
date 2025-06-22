@@ -8,6 +8,6 @@ location: Queenstown, New Zealand
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8
-shutter: 1/130
+shutter: 1⁄130
 iso: 50
 ---

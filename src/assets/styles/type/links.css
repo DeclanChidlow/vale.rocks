@@ -2,31 +2,31 @@ a,
 h2 time,
 .footnote-button {
 	color: inherit;
-	text-decoration: underline 0.1rem light-dark(var(--cyan), var(--blue));
+	text-decoration: underline 0.08rem light-dark(var(--cyan), var(--blue));
 	-webkit-text-decoration-line: underline;
 	-webkit-text-decoration-color: light-dark(var(--cyan), var(--blue));
 	text-decoration-skip-ink: none;
-	text-underline-offset: 0.2rem;
+	text-underline-offset: 0.25rem;
 	word-break: break-word;
 
 	&:hover,
 	&:active {
-		text-decoration-thickness: 0.7rem;
-		text-underline-offset: -0.37rem;
+		text-decoration-thickness: 0.6rem;
+		text-underline-offset: -0.29rem;
 	}
 
 	&::after {
-		font-family: "Material Symbols";
-		font-size: 0.8rem;
 		line-height: 0;
 	}
 
 	&[href^="#"]::after {
-		content: "swap_vert" / "Anchor";
+		content: " ↕" / "Anchor";
+		font-size: 0.7rem;
 	}
 
 	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
-		content: "arrow_outward" / "External";
+		content: " ↗" / "External";
+		font-size: 0.8rem;
 	}
 
 	abbr {

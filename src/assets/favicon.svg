@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1e3mm" height="1e3mm" version="1.1" viewBox="0 0 1e3 1e3" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		path {
+			fill: #131111; 
+			@media (prefers-color-scheme: dark) {
+				fill: #ffead1;
+			}
+		}
+	</style>
+	<defs>
+		<filter id="blur" x="-.25034" y="-5.0902e-5" width="1.5" height="1">
+			<feGaussianBlur stdDeviation="50 0"/>
+		</filter>
+	</defs>
+	<g transform="translate(464.87 516.52)">
+		<path transform="matrix(1.1552 0 0 1.1552 -5.4526 2.5644)" d="m274.81-252.27-167.16 471.49h-144.3l-167.88-471.49h129.3l86.44 285.04 25.718 92.869 25.003-91.441 87.869-286.47z" style="filter:url(#blur);opacity:.75"/>
+		<path d="m312.01-288.86-193.11 544.67h-166.7l-193.94-544.67h149.37l99.856 329.28 29.709 107.28 28.884-105.63 101.51-330.93z"/>
+	</g>
+</svg>

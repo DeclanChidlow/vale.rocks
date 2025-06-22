@@ -1,0 +1,41 @@
+(paginated_videos) => main_template.ori({
+	title: "Videos"
+	description: "Both long and short form videos complete with accessible presentation. Primarily content that cannot be presented in other mediums."
+	og_description: "Pictures in motion."
+	stylesheet: "pages/videos.css"
+	canonical: "/videos"
+	template_image: "video"
+
+@text: 
+`<h1 class="section" data-pagefind-filter="Content Type:Page">Videos</h1>
+
+<div>
+	${ paginated_videos/previousPage ? `` : `<p class="readable"><em>Pictures, but moving</em>. My videos are usually published to YouTube first, but are available here <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a> style with extra material. You can primarily expect content that can't be presented or conveyed to its fullest in other mediums.</p>` }
+
+	<div data-pagefind-ignore="all">
+	<div id="videos">
+		${ map(paginated_videos/items,
+		(video, key) =>
+		`<a class="video ${ video/format === 'short' ? `short` : `long` }" href="/videos/${ basename(key) }">
+			<img src="https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
+			<h2>${ video/title }</h2>
+			<time datetime="${ video/pub_time }" title="Date of publication.">${ functions/pretty-date.js(video/pub_time) }
+				</time></li>
+		</a>`)}
+	</div>
+
+	<div class="pagination">
+		${ paginated_videos/previousPage
+			? `<a href="/videos${ paginated_videos/previousPage === 1 ? '' : /paginated_videos/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+			: "<span></span>"
+		}
+
+		<p>Page ${ paginated_videos/pageNumber} of ${ paginated_videos/pageCount}</p>
+
+		${ paginated_videos/nextPage
+			? `<a href="/videos/${ paginated_videos/nextPage }">Older <span aria-hidden="true">→</span></a>`
+			: "<span></span>"
+		}
+	</div>
+	</div>
+</div>`})

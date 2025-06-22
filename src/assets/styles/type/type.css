@@ -2,31 +2,31 @@
 /* https://clagnut.com/blog/2433 */
 
 @font-face {
-	font-family: "Lexend";
-	src: url("/assets/typefaces/Lexend/Lexend-VariableFont_wght.woff2") format("woff2");
+	font-family: "Work Sans";
+	src: url("/assets/typefaces/WorkSans.woff2") format("woff2");
 	font-weight: 100 900;
 	font-display: fallback;
 }
 
 @font-face {
+	font-family: "Work Sans";
+	src: url("/assets/typefaces/WorkSans-Italic.woff2") format("woff2");
+	font-weight: 100 900;
+	font-display: fallback;
+	font-style: italic;
+}
+
+@font-face {
 	font-family: "Fira Code";
-	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2") format("woff2");
+	src: url("/assets/typefaces/FiraCode.woff2") format("woff2");
 	font-weight: 300 700;
 	size-adjust: 90%;
 }
 
-@font-face {
-	font-family: "Material Symbols";
-	src: url("/assets/typefaces/Material_Symbols_Sharp/MaterialSymbolsSharp-Regular.woff2") format("woff2");
-}
-
-.icons {
-	font-family: "Material Symbols";
-	user-select: none;
-}
-
 body {
-	font-family: "Lexend", sans-serif;
+	font-family: "Work Sans", sans-serif;
+	font-variant-numeric: oldstyle-nums proportional-nums;
+	font-weight: 430;
 }
 
 h1,
@@ -40,6 +40,8 @@ h6 {
 	font-weight: 700;
 	position: relative;
 	display: flex;
+	font-variant-numeric: lining-nums;
+	font-variant-caps: titling-caps;
 
 	a {
 		&:not(:hover) {
@@ -89,8 +91,8 @@ h6 {
 }
 
 h1 {
-	font-size: 3rem;
-	line-height: 3.2rem;
+	font-size: 2.8rem;
+	line-height: 3rem;
 	display: block;
 }
 
@@ -126,7 +128,8 @@ h6 {
 	.section {
 		font-size: 5rem;
 		line-height: 4rem;
-		font-weight: 900;
+		font-weight: 800;
+		letter-spacing: 0.03rem;
 		text-transform: uppercase;
 		text-align: right;
 		transform: scale(-1);
@@ -144,9 +147,11 @@ h6 {
 	}
 }
 
-.readable-width,
-blockquote {
-	max-width: 80ch;
+.readable,
+blockquote,
+details {
+	max-width: 75ch;
+	text-wrap: pretty;
 
 	* + h2,
 	* + h3,
@@ -156,6 +161,10 @@ blockquote {
 		margin-block-start: 2rem;
 	}
 
+	* + hr {
+		margin-block: 2rem;
+	}
+
 	> * + * {
 		margin-block-start: 1rem;
 	}
@@ -163,6 +172,23 @@ blockquote {
 
 .markdown-alert > * + * {
 	margin-block-start: 0.5rem;
+}
+
+details {
+	padding: 1rem;
+	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
+	border: 0.05rem solid light-dark(transparent, var(--grey));
+
+	summary {
+		margin: -1rem;
+		padding: 0.5rem 1rem;
+		background: light-dark(var(--white), var(--dark_grey));
+	}
+
+	&:open summary {
+		border-bottom: 0.05rem solid light-dark(transparent, var(--grey));
+		margin: -1rem -1rem 0;
+	}
 }
 
 blockquote,
@@ -284,7 +310,6 @@ sub {
 abbr {
 	font-variant-caps: all-small-caps;
 	text-decoration: none;
-	font-size: 110%;
 }
 
 kbd {
@@ -293,13 +318,18 @@ kbd {
 }
 
 hr {
-	all: unset;
-	display: block;
 	height: 2px;
+	border: none;
 	background: var(--bright_grey);
-	margin-bottom: 1rem;
 }
 
 mark {
 	background: var(--yellow);
+	margin-inline: -0.2rem;
+	padding-inline: 0.2rem;
+}
+
+math,
+time {
+	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 }

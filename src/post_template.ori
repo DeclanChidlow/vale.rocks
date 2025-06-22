@@ -6,8 +6,9 @@
 	mod_time: post/mod_time
 	section: post/section
 	article: true
-	stylesheet: "components/article_header.css"
+	stylesheet: "pages/post-individual.css"
 	canonical: `/posts/${ post/file_name }`
+	template_image: "post"
 
 @text:
 `<style>:root{--header_background: var(--magenta)}</style>
@@ -26,19 +27,19 @@
 			<h1 class="p-name">${ post/title }</h1>
 			<ul>
 				<li>${ post/words } words</li>
-				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time></li>
+				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time>
 				${ post/mod_time ? `
-					<li><time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
+					– <time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
 				` : '' }
 			</ul>
 		</header>
 
-		<div class="readable-width e-content">
+		<div class="readable e-content">
 			${ post/@text }
 		</div>
 	</article>
 
-	<section class="giscus readable-width"></section>
+	<section class="giscus readable"></section>
 </div>
 
 <script

@@ -4,11 +4,12 @@
 	og_description: "My writings, contributions, and appearances external to Vale.Rocks."
 	stylesheet: "pages/elsewhere.css"
 	canonical: `/elsewhere/${ paginated_elsewhere/pageNumber }`
+	template_image: "elsewhere"
 
 @text:
 `<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
 
-<div class="readable-width">
+<div class="readable">
 	${ paginated_elsewhere/previousPage	? `` : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
 
 	${ map(paginated_elsewhere/items,
@@ -21,14 +22,14 @@
 
 	<div data-pagefind-ignore="all" class="pagination">
 		${ paginated_elsewhere/previousPage
-			? `<a href="/elsewhere/${ paginated_elsewhere/previousPage }"><span aria-hidden="true"><</span> Newer</a>`
+			? `<a href="/elsewhere/${ paginated_elsewhere/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
 		<p>Page ${ paginated_elsewhere/pageNumber} of ${ paginated_elsewhere/pageCount}</p>
 
 		${ paginated_elsewhere/nextPage
-			? `<a href="/elsewhere/${ paginated_elsewhere/nextPage }">Older <span aria-hidden="true">></span></a>`
+			? `<a href="/elsewhere/${ paginated_elsewhere/nextPage }">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>

@@ -56,4 +56,5 @@ label {
 
 ::selection {
 	background: var(--blue);
+	-webkit-text-fill-color: initial;
 }

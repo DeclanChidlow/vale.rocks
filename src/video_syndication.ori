@@ -1,0 +1,17 @@
+(videos) => {
+	version: "https://jsonfeed.org/version/1.1"
+	title: "Vale.Rocks Videos"
+	description: "Long form writings about assorted topics."
+	home_page_url: "https://vale.rocks"
+	feed_url: "https://vale.rocks/videos/feed.json"
+
+	items: values(map(videos, (video, fileName) => {
+		id: `https://vale.rocks/videos/${ basename(fileName) }`
+		url: `https://vale.rocks/videos/${ basename(fileName) }`
+		title: video/title
+		content_html: video/@text
+		summary: video/description
+		date_published: video/pub_time
+		date_modified: video/mod_time
+	}))
+}

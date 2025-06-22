@@ -9,15 +9,21 @@ article {
 		gap: 2rem;
 		margin-bottom: 2rem;
 
+		div:not(.socials) svg {
+			height: 1.2rem;
+			fill: currentColor;
+		}
+
 		h2 {
 			font-size: inherit;
 			line-height: inherit;
-			font-weight: normal;
+			font-weight: 600;
 		}
 
 		div {
 			display: flex;
 			gap: 1ch;
+			align-items: center;
 		}
 	}
 }
@@ -29,8 +35,17 @@ article {
 .photo {
 	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.8)), oklch(from var(--green) l c h / calc(alpha - 0.9)));
 
-	p {
-		margin-bottom: 1rem;
+	img {
+		margin-block-start: 1rem;
+	}
+}
+
+.video {
+	background: light-dark(oklch(from var(--red) l c h / calc(alpha - 0.8)), oklch(from var(--red) l c h / calc(alpha - 0.9)));
+
+	img {
+		margin-block-start: 1rem;
+		max-height: 30rem;
 	}
 }
 
@@ -65,6 +80,12 @@ article {
 
 	a {
 		padding: 2rem;
+	}
+
+	@media (min-width: 26rem) {
+		p {
+			padding-block: 2rem;
+		}
 	}
 
 	@media (max-width: 26rem) {

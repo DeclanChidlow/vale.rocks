@@ -1,20 +1,20 @@
 (elsewhere) => {
-  version: "https://jsonfeed.org/version/1.1"
-  title: "Vale.Rocks Elsewhere"
-  description: "Writings, contributions, and appearances external to Vale.Rocks."
-  home_page_url: "https://vale.rocks"
-  feed_url: "https://vale.rocks/elsewhere/feed.json"
-  
-  items: values(map(elsewhere, (elsewhere, fileName) => {
-	id: `https://${ elsewhere/url }`
-	url: `https://${ elsewhere/url }`
-	title: elsewhere/title
-	content_html: `
-		${ elsewhere/sort === 'writer' ? `<p>Wrote <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> over on ${ elsewhere/location }.</p>` : '' }
-		${ elsewhere/sort === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
-		${ elsewhere/sort === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
-		${ elsewhere/note ? `<p>${ elsewhere/note }</p>` : '' }
-	`
-    date_published: elsewhere/pub_time
-  }))
+	version: "https://jsonfeed.org/version/1.1"
+	title: "Vale.Rocks Elsewhere"
+	description: "Writings, contributions, and appearances external to Vale.Rocks."
+	home_page_url: "https://vale.rocks"
+	feed_url: "https://vale.rocks/elsewhere/feed.json"
+
+	items: values(map(elsewhere, (elsewhere, fileName) => {
+		id: `https://${ elsewhere/url }`
+		url: `https://${ elsewhere/url }`
+		title: elsewhere/title
+		content_html: `
+			${ elsewhere/sort === 'writer' ? `<p>Wrote <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> over on ${ elsewhere/location }.</p>` : '' }
+			${ elsewhere/sort === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
+			${ elsewhere/sort === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
+			${ elsewhere/note ? `<p>${ elsewhere/note }</p>` : '' }
+		`
+		date_published: elsewhere/pub_time
+	}))
 }

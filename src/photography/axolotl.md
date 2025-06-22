@@ -8,6 +8,6 @@ location: Zoo Negara, Selangor Darul Ehsan, Malaysia
 camera: Google Pixel 7a
 focal: 5.43mm
 aperture: 1.9
-shutter: 1/35
+shutter: 1⁄35
 iso: 170
 ---

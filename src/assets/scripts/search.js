@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		} else {
 			newUrl.searchParams.delete("q");
 		}
-		window.history.pushState({}, "", newUrl);
+		window.history.replaceState({}, "", newUrl);
 	};
 
 	if (searchString) {

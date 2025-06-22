@@ -8,6 +8,6 @@ location: Rockingham, WA, Australia
 camera: Google Pixel 7a
 focal: 5.43mm
 aperture: 1.9
-shutter: "1/10"
-iso: "1213"
+shutter: 1⁄10
+iso: 1213
 ---

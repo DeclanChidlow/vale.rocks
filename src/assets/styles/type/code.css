@@ -3,19 +3,35 @@ kbd {
 	font-family: "Fira Code", monospace;
 	border: 1.5px solid light-dark(var(--white), var(--grey));
 	padding: 0 0.2rem;
+	font-weight: 400;
+	font-variant-numeric: initial;
 }
 
 .code-block-wrapper {
 	position: relative;
+	overflow: hidden;
 
 	.copy-button {
 		position: absolute;
 		right: 0;
 		top: 0;
+		transition: 0.15s box-shadow ease-out;
+
+		svg {
+			width: 1rem;
+			height: 1rem;
+			fill: var(--bright_white);
+		}
 	}
 
 	.copied {
 		background: var(--green);
+		box-shadow: 0 0 6.5rem 3rem oklch(from var(--green) l c h / calc(alpha - 0.5));
+		transition-timing-function: ease-in;
+
+		svg {
+			fill: var(--black);
+		}
 	}
 
 	pre {

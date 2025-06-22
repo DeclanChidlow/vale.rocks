@@ -1,15 +1,13 @@
 ---
-title: Uses
+title: Technology I Use
 description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management. Collates most of what I use on my laptop, servers, and phone.
 og_description: The tools, software, and other such things I use.
-canonical: /uses
+pub_time: 2024-08-05
+mod_time: 2025-05-11
+section: Meta
 ---
 
-<h1 class="section" data-pagefind-filter="Content Type:Page">Uses</h1>
-
-<div class="readable-width">
-
-This page details some of the many things I use. Generally, my selections align with the philosophies [outlined by Gwern](https://gwern.net/choosing-software). All my configs are provided and somewhat documented in my [dotfiles repository on GitHub](https://github.com/DeclanChidlow/dotfiles).
+This post details some of the many things I use. Generally, my selections align with the philosophies [outlined by Gwern](https://gwern.net/choosing-software). All my configs are provided and somewhat documented in my [dotfiles repository on GitHub](https://github.com/DeclanChidlow/dotfiles).
 
 ## Laptop
 
@@ -72,7 +70,7 @@ I have some remote VPS', most notably one with [Hetzner](https://www.hetzner.com
 
 ### Home Server
 
-I also maintain a home server for self-hosting a range of services, some of which are detailed on my [services page](/services). Much like my laptop, my home server runs NixOS. Everything it hosts is containerised with Docker. I use [Oxker](https://github.com/mrjackwills/oxker) as a nice TUI container manager, but it's all otherwise pretty boring, though that is probably a good thing for what should be a stable server.
+I also maintain a home server for self-hosting a range of services. Much like my laptop, my home server runs NixOS. Everything it hosts is containerised with Docker. I use [Oxker](https://github.com/mrjackwills/oxker) as a nice TUI container manager, but it's all otherwise pretty boring, though that is probably a good thing for what should be a stable server.
 
 ---
 
@@ -137,5 +135,3 @@ I like to do a bit of gaming in my 'spare' time, so I've got a bit setup. I end 
 My preferred platform, even if not the most played, is PC. Most of my PC games live on [Steam](https://steampowered.com), although I've got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the [Heroic Games Launcher](https://heroicgameslauncher.com). I also have [Prism Launcher](https://prismlauncher.org) for my occasional Minecraft needs and [GameMode](https://feralinteractive.github.io/gamemode) to keep everything running smoothly.
 
 I also emulate many games. I use [Ryujinx](https://ryujinx.org) for Switch, [MelonDS](https://melonds.kuribo64.net) for DS, [Dolphin](https://dolphin-emu.org) for Wii/GameCube, [PCSX2](https://pcsx2.net) for PlayStation 2, [xemu](https://xemu.app) for the original XBOX, [Xenia](https://xenia.jp) for the Xbox 360, and [Mupen64Plus](https://mupen64plus.org)/[Rosalie's Mupen GUI](https://github.com/Rosalie241/RMG) standalone, with everything else handled by RetroArch for convenience.
-
-</div>

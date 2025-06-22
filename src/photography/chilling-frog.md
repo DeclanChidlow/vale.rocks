@@ -8,6 +8,6 @@ location: Melbourne Zoo, Vic, Australia
 camera: Nokia G22
 focal: 4.0mm
 aperture: 1.8
-shutter: 1/25
+shutter: 1⁄25
 iso: 795
 ---

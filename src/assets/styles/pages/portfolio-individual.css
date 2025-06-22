@@ -5,31 +5,18 @@
 }
 
 .article-wrapper {
-	margin-left: 3rem;
+	margin-inline-start: 3rem;
 	width: 100%;
 
 	header {
 		position: relative;
-		text-transform: uppercase;
+		display: grid;
+		align-content: center;
 		font-size: 1.2rem;
-		margin: 10rem 0 3rem 0;
-
-		ul {
-			all: unset;
-
-			li {
-				display: inline;
-				margin-left: 0;
-
-				&:nth-child(1)::after {
-					content: " |";
-				}
-
-				&:nth-child(3)::before {
-					content: "- ";
-				}
-			}
-		}
+		font-weight: 550;
+		font-variant-numeric: lining-nums;
+		font-variant-caps: titling-caps;
+		height: calc(90vh - 5rem);
 
 		.repo-details {
 			margin-top: 1rem;
@@ -43,7 +30,6 @@
 			content: "";
 			position: absolute;
 			top: 0;
-			left: 0;
 			width: calc(100% + 6rem);
 			height: calc(100% + 20rem);
 			margin: -15rem 0 -3rem -3rem;
@@ -53,7 +39,7 @@
 	}
 
 	@media (max-width: 45rem) {
-		margin-left: 0;
+		margin-inline-start: 0;
 
 		header::after {
 			width: calc(100% + 3rem + 0.8rem);

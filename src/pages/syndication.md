@@ -7,11 +7,11 @@ canonical: /syndication
 
 <h1 class="section" data-pagefind-filter="Content Type:Page">Syndication</h1>
 
-<div class="readable-width">
+<div class="readable">
 
 This website is home to a lot of stuff, and I also publish elsewhere on the web. This page shows ways to follow and stay up to date on the ongoings of this site and my other endeavours. If you'd just like to see everything all in one place, then check out [the firehose](/firehose).
 
-I usually try to provide my feeds in both RSS and JSON Feed formats, though I plan Atom support for my site in the near future.
+Feeds originating from this site are available in both RSS and JSON Feed formats, but availability may vary with external feeds.
 
 ## Articles
 
@@ -19,20 +19,6 @@ I [write long-form on this site](/posts), which you can subscribe to via:
 
 - RSS: <https://vale.rocks/posts/feed.xml>
 - JSON Feed: <https://vale.rocks/posts/feed.json>
-
-## Elsewhere
-
-Sometimes I work on, contribute to, or am otherwise directly involved with publications [external to this website](/elsewhere). You can follow this content via:
-
-- RSS: <https://vale.rocks/elsewhere/feed.xml>
-- JSON Feed: <https://vale.rocks/elsewhere/feed.json>
-
-## Photography
-
-I [take photos](/photography) sometimes. If you'd like to know when I take new ones, you can subscribe through:
-
-- RSS: <https://vale.rocks/photography/feed.xml>
-- JSON Feed: <https://vale.rocks/photography/feed.json>
 
 ## Microblogging
 
@@ -55,5 +41,32 @@ You can find me on the Fediverse at [@vale@fedi.vale.rocks](https://fedi.vale.ro
 I also have a profile on Bluesky at [@vale.rocks](https://bsky.app/profile/vale.rocks). Follow me there or subscribe via its RSS feed:
 
 - RSS: <https://bsky.app/profile/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/rss>
+
+## Photography
+
+I [take photos](/photography) sometimes. If you'd like to know when I take new ones, you can subscribe through:
+
+- RSS: <https://vale.rocks/photography/feed.xml>
+- JSON Feed: <https://vale.rocks/photography/feed.json>
+
+## Videos
+
+Occasionally I [publish videos](/videos), which you can stay up to date with via these feeds:
+
+- RSS: <https://vale.rocks/videos/feed.xml>
+- JSON Feed: <https://vale.rocks/videos/feed.json>
+
+### YouTube
+
+You can find me on YouTube as [@outervale](https://www.youtube.com/@outervale). Subscribe to me there or subscribe to this RSS feed:
+
+- RSS: <https://www.youtube.com/feeds/videos.xml?channel_id=UC8hQBcgwkZiG-cqhE1TDvzA>
+
+## Elsewhere
+
+Sometimes I work on, contribute to, or am otherwise directly involved with publications [external to this website](/elsewhere). You can follow this content via:
+
+- RSS: <https://vale.rocks/elsewhere/feed.xml>
+- JSON Feed: <https://vale.rocks/elsewhere/feed.json>
 
 </div>

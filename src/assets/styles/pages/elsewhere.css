@@ -2,8 +2,8 @@
 	padding: 1rem 0;
 	border-bottom: 2px solid var(--bright_grey);
 	text-decoration: none;
-	text-transform: uppercase;
 	display: block;
+	text-transform: uppercase;
 
 	h2 {
 		font-size: 1.5rem;
@@ -11,6 +11,7 @@
 	}
 
 	.note {
+		margin-block-start: 0.5rem;
 		text-transform: none;
 	}
 
@@ -33,6 +34,12 @@
 
 	a {
 		padding: 2rem;
+	}
+
+	@media (min-width: 26rem) {
+		p {
+			padding-block: 2rem;
+		}
 	}
 
 	@media (max-width: 26rem) {

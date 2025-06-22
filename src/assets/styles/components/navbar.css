@@ -33,8 +33,17 @@ body:has(#popover-menu:popover-open) {
 		text-transform: uppercase;
 		font-size: 1.3rem;
 
-		> * {
+		a {
 			padding: 0.5rem;
+		}
+
+		svg {
+			height: 1.65rem;
+			fill: currentColor;
+		}
+
+		.search-nav svg {
+			height: 1.4rem;
 		}
 
 		#navlanding {
@@ -50,9 +59,17 @@ body:has(#popover-menu:popover-open) {
 		button {
 			pointer-events: all;
 			background: none;
-			padding-right: 0;
 			font-size: 1.75rem;
-			text-align: right;
+		}
+
+		.toc-button {
+			display: none;
+			margin-right: auto;
+			padding-left: 0;
+		}
+
+		.popover-button {
+			padding-right: 0;
 		}
 
 		#popover-menu {
@@ -101,7 +118,7 @@ body:has(#popover-menu:popover-open) {
 				margin: 4rem 3rem;
 				max-height: 100%;
 				font-size: 2rem;
-				font-weight: 600;
+				font-weight: 700;
 
 				li {
 					width: 100%;
@@ -206,11 +223,14 @@ body:has(#popover-menu:popover-open) {
 		.heading-indicator {
 			width: 5px;
 			height: 4px;
+			position: fixed;
+			top: 0;
 		}
 	}
 }
 
-.heading-label {
+.heading-label,
+.scroll-percentage {
 	display: block;
 	opacity: 0;
 	visibility: hidden;
@@ -226,9 +246,58 @@ body:has(#popover-menu:popover-open) {
 		visibility 0.25s;
 }
 
-.sidebar:focus-within .heading-label,
-.sidebar:hover .heading-label {
+.sidebar:focus-within :where(.heading-label, .scroll-percentage),
+.sidebar:hover :where(.heading-label, .scroll-percentage) {
 	opacity: 1;
 	visibility: visible;
 	filter: blur(0);
+}
+
+#toc-menu {
+	width: 100%;
+	height: fit-content;
+	max-height: 40%;
+	padding: 1rem;
+	border: none;
+	background: linear-gradient(transparent, light-dark(var(--bright_white), var(--black)));
+	backdrop-filter: blur(1.5rem);
+	color: light-dark(var(--black), var(--bright_white));
+
+	.close {
+		position: fixed;
+		top: 0;
+		right: 0;
+		padding: 0.8rem;
+		background: none;
+
+		svg {
+			height: 2rem;
+			width: 2rem;
+			fill: light-dark(var(--black), var(--bright_white));
+		}
+	}
+}
+
+.header-list-link {
+	&.active {
+		font-weight: bold;
+	}
+
+	&::after {
+		display: none;
+	}
+}
+
+.horizontal-percentage {
+	font-size: 0.9rem;
+}
+
+html:has(#toc-menu:popover-open) {
+	margin-top: var(--toc-height);
+	scroll-padding-top: calc(var(--toc-height) + 2rem);
+}
+
+#scroll-container:has(#toc-menu:popover-open),
+#scroll-container:has(#toc-menu:popover-open) .heading-indicator {
+	top: var(--toc-height);
 }

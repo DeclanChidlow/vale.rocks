@@ -1,8 +1,8 @@
 class CodeBlockCopy {
 	constructor() {
 		this.codeBlocks = document.querySelectorAll("pre code");
-		this.copyContent = `<span aria-hidden='true'>content_copy</span><span class='visually-hidden'>Copy codeblock</span>`;
-		this.checkContent = `<span aria-hidden='true'>check</span><span class='visually-hidden'>Copied codeblock</span>`;
+		this.copyContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Copy codeblock</title><path d="M280-240v-640h520v640H280Zm80-80h360v-480H360v480ZM120-80v-640h80v560h440v80H120Zm240-240v-480 480Z"/></svg>`;
+		this.checkContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Codeblock copied</title><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg>`;
 		this.init();
 	}
 
@@ -16,7 +16,7 @@ class CodeBlockCopy {
 
 	createCopyButton(codeBlockId) {
 		const button = document.createElement("button");
-		button.className = "copy-button icons";
+		button.className = "copy-button";
 		button.innerHTML = this.copyContent;
 		button.setAttribute("aria-describedby", codeBlockId);
 		return button;
