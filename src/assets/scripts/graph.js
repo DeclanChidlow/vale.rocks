@@ -294,7 +294,7 @@ class SitemapGraph {
 					const tappedNode = this.getNodeAt(worldPos.x, worldPos.y);
 
 					if (tappedNode && tappedNode.url) {
-						window.open(tappedNode.url);
+						window.location.href = tappedNode.url;
 					}
 				}
 			}
