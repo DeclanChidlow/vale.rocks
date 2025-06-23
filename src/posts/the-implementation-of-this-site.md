@@ -182,6 +182,6 @@ All the content going into the firehose data tree is given a `type` property [^4
 
 [^2]: Or, if you will, a collection of [floating amoeba dot links](https://bsky.app/profile/alanwsmith.com/post/3ls7g3zxjy22r).
 
-[^2]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
+[^3]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
 
-[^3]: For example, [micros](/micros) get a `type` property of 'micro', and [posts](/posts) are given a `type` property of 'post'.
+[^4]: For example, [micros](/micros) get a `type` property of 'micro', and [posts](/posts) are given a `type` property of 'post'.
