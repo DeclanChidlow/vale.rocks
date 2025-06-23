@@ -56,7 +56,7 @@ They've also released a new 61Wh battery and battery optimisation improvements i
 
 Speaking of their commitment to addressing issues, their user support is excellent. In the few instances where I've contacted support, I've generally gotten very helpful and timely responses. Admirably, they seem to prioritise the mental health of their support employees. Their [stance against abuse](https://old.reddit.com/r/framework/comments/178jutx/moment_of_appreciation_for_framework_taking_care) and [aversion to seasonal hiring](https://community.frame.work/t/status-of-framework-support-november-6th-2023) demonstrates a conscientious approach I really can't say I've seen elsewhere.
 
-As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. [There has been work done](https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta), but it's been in beta for several months and sets a bad precedent.
+As for their software support, that can be a bit more hit and miss. My 12th Gen Framework has been waiting on a BIOS update with numerous improvements, such as compatibility with the new 61Wh battery. [There has been work done](https://community.frame.work/t/12th-gen-intel-core-bios-3-06-beta/25726), but it's been in beta for several months and sets a bad precedent.
 
 ## Community
 

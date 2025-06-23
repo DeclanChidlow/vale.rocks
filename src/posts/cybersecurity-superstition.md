@@ -87,7 +87,7 @@ Unlike computers, phones operate in a closed ecosystem. Apps are screened for ma
 
 This doesn't mean it's impossible for phones to be hacked, but it does mean that it's a lot harder for it to happen unless you do things outside the norm. It's still possible to encounter malware on phones, but an antivirus really isn't necessary and will likely do more harm than good.
 
-While it's not worth going out of your way to install an antivirus in the majority of cases, it is worth installing an ad blocker. I'd recommend [uBlock Origin](https://ublockorigin.com), which is free, open source, and supported on most of the major browsers. uBlock Origin doesn't just block ads; it also blocks a lot of phishing material and malware links. Even America's FBI [recommend using an adblocker](https://www.ic3.gov/Media/Y2022/PSA221221).
+While it's not worth going out of your way to install an antivirus in the majority of cases, it is worth installing an ad blocker. I'd recommend [uBlock Origin](https://ublockorigin.com), which is free, open source, and supported on most of the major browsers. uBlock Origin doesn't just block ads; it also blocks a lot of phishing material and malware links. Even America's FBI [recommend using an adblocker](https://www.ic3.gov/PSA/2022/PSA221221).
 
 ## IP Addresses
 

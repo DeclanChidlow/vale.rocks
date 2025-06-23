@@ -128,7 +128,7 @@ This is an effort that is worth fighting for. Google has trampled innovation far
 <summary>Sources</summary>
 
 - [JPEG XL decoding support (image/jxl) in blink (tracking bug) [40168998] - Chromium](https://issues.chromium.org/issues/40168998) | Accessed: 23/04/2024
-- [Web Review: PNG's NOT GIF!](https://people.apache.org/~jim/NewArchitect/webrevu/1997/05_09/designers/05_09_97_1) | Accessed: 01/05/2024
+- [Web Review: PNG's NOT GIF!](https://web.archive.org/web/20240502093606/https://people.apache.org/~jim/NewArchitect/webrevu/1997/05_09/designers/05_09_97_1) | Accessed: 01/05/2024
 - ["jpeg webp" | Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/?search=jpeg%20webp)
 - [JPEG XL](https://jpegxl.info)| Accessed: 24/04/2024
 - [JPEG - JPEG XL](https://jpeg.org/jpegxl) | Accessed: 23/04/2024
