@@ -27,7 +27,7 @@ It's a [digital garden](https://maggieappleton.com/garden-history). I come back 
 
 This site is crafted with three distinct user groups in mind: [^1]
 
-1. Visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site's visitors, so it's generally who I keep at the forefront of my mind, not just when I'm designing and implementing features but also when writing. It's imperative that the site is quick to load for people coming from social media to ensure reader retention. [^2] This demographic is probably the most likely to read an article the full way through.
+1. Visitors who arrive via a link to one of my articles, intent on reading. I expect this will be the majority of this site's visitors, so it's generally who I keep at the forefront of my mind, not just when I'm designing and implementing features but also when writing. It's imperative that the site is quick to load for people coming from social media to ensure reader retention [^2]. This demographic is probably the most likely to read an article the full way through.
 
 2. Potential employers who would like to learn about me, view my portfolio, and get in contact. They likely won't read the contents of an article, but it should look good at first glance.
 

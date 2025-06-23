@@ -16,7 +16,7 @@ This site has been around for a fair few years, and as someone who enjoys burnin
 
 The very earliest versions of this site were built with completely hand-coded standard HTML/CSS. No build step or automation. Slightly later it incorporated JavaScript and iframes so that content would be shared across pages rather than hard-coded -- still devoid of any automation. As you'd imagine, it didn't take long to reach the limits of what is possible with this approach.
 
-The limit wasn't entirely a technological one. After all, the underlying tech was just web standards, and that allows for all you can think of. The limits I hit were my willingness to manually implement and hard-code every single thing without any real ability to automate.
+The limit wasn't entirely a technological one. After all, the underlying tech was just web standards, and that allows for all you can think of. The limits I hit were my willingness to manually implement and hard-code every single thing.
 
 Thus, I moved on to using a static site generator. Given that I was already a GitHub user and had opted to deploy my site with GitHub Pages, I opted to use [Jekyll](https://jekyllrb.com). Jekyll is nice, and its support for Shopify's [Liquid templating language](https://shopify.github.io/liquid) made it wonderfully flexible -- but it wasn't necessarily exactly conducive to my preferred workflow, and dealing with Ruby proved a pain.
 
@@ -38,7 +38,7 @@ I like being able to add extra information, tangents, or conjecture to my writin
 
 Thus, I've come up with my own implementation. By default, footnotes are marked up as anchors to the definition at the end of the page in standard HTML, but the experience of this is greatly improved by some JavaScript-based progressive enhancement. Assuming the JavaScript is available and active, clicking a footnote reference in a horizontally challenged viewport will open it in a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's right margin.
 
-This overall experience is very much influenced by [Gwern's implementation and research](https://gwern.net/sidenote) and is implemented on my site via my own [`footnotes.js`](https://vale.rocks/assets/scripts/footnotes.js) (I've also provided a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/ogvGVdq)).
+This overall experience is very much influenced by [Gwern's implementation and research](https://gwern.net/sidenote) and is implemented on my site via my own [`footnotes.js`](https://vale.rocks/assets/scripts/footnotes.js). I've also provided a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/ogvGVdq).
 
 ### Hero Puddle
 
@@ -46,15 +46,15 @@ On the [landing page](/) of my site, I have an interactive fluid simulation trig
 
 ### Graph View
 
-Also on the landing page is a global graph view of all content on my site. This is inspired by the graph views implemented in [Quartz](https://quartz.jzhao.xyz/features/graph-view) and [Obsidian](https://help.obsidian.md/plugins/graph). I chose to roll my own implementation from scratch, making use of the HTML `<canvas>` element canvas to render the nodes.
+Also on the landing page is a global graph view of all content on my site. This is inspired by the graph views implemented in [Quartz](https://quartz.jzhao.xyz/features/graph-view) and [Obsidian](https://help.obsidian.md/plugins/graph). I chose to roll my own implementation from scratch, making use of the HTML `<canvas>` element to render the nodes.
 
-Most graph view systems show the association between individual pages based on how they link to one another, but as my site is already rather complex, I chose to forgo this. Any system capable of identifying all these relationships would incur significantly longer build times that would exponentially increase as the amount of content grows. Speaking of which, given the amount of content on this site, it would also be extremely noisy, making it almost useless on a global scale.
+Most graph view systems show the association between individual pages based on how they link to one another, but, as my site is already rather complex, I chose to forgo this. Any system capable of identifying all these relationships would incur significantly longer build times that would exponentially increase as the amount of content grows. Speaking of which, given the amount of content on this site, it would also be extremely visually noisy, making it almost useless on a global scale.
 
-As such, my implementation does not show direct associations between pages beyond hierarchy and is perhaps better described as a visual sitemap -- especially as it pulls in my [`sitemap.xml`](/sitemap.xml) for data. I have excluded paginated pages, as I don't see any benefit from them appearing in the graph.
+As such, my implementation does not show direct associations between pages beyond hierarchy and is perhaps better described as a visual sitemap [^2] -- especially as it pulls in my [`sitemap.xml`](/sitemap.xml) for data. I have excluded paginated pages, as I don't see any benefit from them appearing in the graph.
 
-Groups of nodes are coloured based on the accent colours of the section of my site they belong to, and the size of each parent node is proportional to the number of children nodes it has. Nodes without child nodes ignore this and are made bigger for visibility. All nodes are presented with their URL slugs, though these slugs are only visible when you sufficiently zoom in to ensure readability. The full URL is exposed when interacting with them, so one can see what page they represent and navigate to their destination.
+Groups of nodes are coloured based on the accent colours of the section of my site they belong to, and the size of each parent node is proportional to the number of child nodes it has. Nodes without child nodes ignore this and are made bigger for visibility. All nodes are presented with their URL slugs, though these slugs are only visible when you sufficiently zoom in to ensure readability. The full URL is exposed when interacting with them, so one can see what page they represent and navigate to their destination.
 
-All nodes on the graph are computed with a rudimentary physics system. Nodes are attracted to their parents, lightly repulse each other, and spring forces keep them from overlapping or being too spread apart to achieve a usable and aesthetically coherent appearance. To avoid all the nodes shooting off into the ether on initial layout, their velocity is limited, and there is some damping to avoid jittering. There is also a centre force which gently pulls nodes towards the graph's origin point if they're too far out.
+All nodes on the graph are computed with a rudimentary physics system. Nodes are attracted to their parents, lightly repulse each other, and spring forces keep them from overlapping or being too spread apart to achieve a usable and aesthetically coherent appearance. To avoid all the nodes shooting off into the aether on initial layout, their velocity is limited, and there is some damping to avoid jittering. There is also a centre force which gently pulls nodes towards the graph's origin point if they're too far out.
 
 You can also drag them around to rearrange and manipulate them -- this isn't particularly useful, but is a lot of fun. While a user is moving a node, it is 'pinned' to avoid physics interfering.
 
@@ -62,9 +62,9 @@ You can see my full implementation in [`graph.js`](/assets/scripts/graph.js).
 
 ### Comments
 
-Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality. This essentially uses the [discussion page](https://github.com/DeclanChidlow/vale.rocks/discussions) of my website's repo on GitHub as a database.
+Given that this is a static site and my readership is generally of the variety that frequents GitHub, I've employed [Giscus](https://giscus.app) for comment functionality. This uses the [discussion page](https://github.com/DeclanChidlow/vale.rocks/discussions) of my website's repo on GitHub as what is essentially a database.
 
-### Link icons
+### Link Icons
 
 Hyperlinks are the backbone of the web, and I employ some rudimentary CSS regex to suffix most links with icons to indicate if they link to an anchor within the page or an external location. Links within this site aren't suffixed. While it would be possible to extend beyond this and start fetching favicons for each link as seen in [TurnTrout's 'The Pond'](https://turntrout.com), I feel that is beyond scope for my site and adds unnecessary complexity.
 
@@ -84,7 +84,7 @@ As for inversion, certain images, such as graphs, may have solid white backgroun
 
 ### Scroll Indication
 
-When perusing the content of an article, a scroll progress bar appears, with markers of heading locations for ease of navigation. This implementation is inspired by the one on [LessWrong](https://lesswrong.com). It has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.
+When perusing the content of an article, a scroll progress bar appears with markers of heading locations for ease of navigation. This implementation is inspired by the one on [LessWrong](https://lesswrong.com). It has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.
 
 On viewports with sufficient horizontal space, the indicator is displayed vertically and has a thumb that represents the height of the user's viewport. When the vertical indicator is hovered, a percentage value representing progress and heading labels are displayed like a table of contents. Clicking a heading label allows jumping to it.
 
@@ -96,7 +96,7 @@ Once again, you can view my [reference implementation on CodePen](https://codepe
 
 ### Heading Anchors Copying
 
-Tying in somewhat with the scroll indication functionality, my client-side [`copy-heading-anchor.js`] script adds a button to copy anchor links to headings.
+Tying in somewhat with the scroll indication functionality, my client-side [`copy-heading-anchor.js`](/assets/scripts/copy-heading-anchor.js) script adds a button to copy anchor links to headings.
 
 ### Search
 
@@ -106,9 +106,7 @@ As Pagefind is implemented client-side as a script, I've taken inspiration from 
 
 ### 404 Handling
 
-Occasionally, I break links. [I'm sorry](https://www.w3.org/Provider/Style/URI). Hosting my site statically does come with a few challenges, dynamic redirects being one of them. I could somewhat combat it with [Origami's redirect built-in](https://weborigami.org/builtins/site/redirect), but it's more hassle than I care for.
-
-Thus, I've got my client-side [`404-guesser.js`](/assets/scripts/404-guesser.js) script, which is once again shamelessly inspired by Gwern. It has some hard-coded handling for certain page structures I've moved in the past, but otherwise just tries to suggest the correct page if someone has made a typo. It'll look for similar URLs and spit out a list of suggestions.
+Occasionally, I break links. [I'm sorry](https://www.w3.org/Provider/Style/URI). Thus, I've got my client-side [`404-guesser.js`](/assets/scripts/404-guesser.js) script, which is once again shamelessly inspired by Gwern. It has some hard-coded handling for certain page structures I've moved in the past, but otherwise just tries to suggest the correct page if someone has made a typo. It'll look for similar URLs and spit out a list of suggestions.
 
 Beyond trying to get you to the right page, my 404 page also has a style tag with the `contenteditable` attribute, which allows one to write their own CSS that'll apply to the page. It's a lot of fun and a bit of an Easter egg for people who get lost.
 
@@ -120,7 +118,7 @@ All times on this site are provided in UTC, but using some client-side JavaScrip
 
 Vector content in the form of SVGs are preferred to raster images and used whenever possible. Despite their file sizes already being far lower than raster images, I still opt to optimise them manually to minimise their size.
 
-When SVGs aren't applicable, images are served as AVIFs, which I found to have the smallest file size without sacrificing browser compatibility. 
+Where SVGs aren't applicable, images are served as AVIFs, which I found to have the smallest file size without sacrificing browser compatibility. 
 
 I convert all my fonts to WOFF2 and serve them with my site rather than using an external CDN. WOFF2 comes with great size reductions and good font feature support, and avoiding CDNs helps with performance and reduces dependency.
 
@@ -174,13 +172,15 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^2] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.
 
 It is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
-All the content going into the firehose data tree is given a `type` property [^3] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
+All the content going into the firehose data tree is given a `type` property [^4] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
 
 [^1]: Or perhaps more accurately for the web, endnotes.
+
+[^2]: Or, if you will, a collection of [floating amoeba dot links](https://bsky.app/profile/alanwsmith.com/post/3ls7g3zxjy22r).
 
 [^2]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
 
