@@ -84,14 +84,14 @@
 			border-left: 2px solid light-dark(var(--white), var(--bright_grey));
 			padding-left: 1rem;
 			margin-left: 0.5rem;
+
+			+ p {
+				padding-top: 0.5rem;
+			}
 		}
 
 		&:target p {
 			border-color: var(--blue);
-		}
-
-		* + * {
-			padding-top: 0.5rem;
 		}
 
 		[data-footnote-backref]::after {
