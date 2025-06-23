@@ -1,0 +1,12 @@
+/uses /posts/uses 301
+
+/donate /support 301
+/tip /support 301
+
+/subscribe /syndication 301
+/rss /syndication 301
+/atom /syndication 301
+/json /syndication 301
+/feeds /syndication 301
+
+/projects /portfolio 301
