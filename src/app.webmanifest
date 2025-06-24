@@ -10,5 +10,32 @@
 			"sizes": "any"
 		}
 	],
-	"background_color": "#131111"
+	"background_color": "#131111",
+	"shortcuts": [
+		{
+			"name": "Firehose",
+			"description": "Stream of all content",
+			"url": "/firehose"
+		},
+		{
+			"name": "Posts",
+			"description": "Long-form structured writings",
+			"url": "/posts"
+		},
+		{
+			"name": "Micros",
+			"description": "Short-form, often ephemeral posts",
+			"url": "/micros"
+		},
+		{
+			"name": "Videos",
+			"description": "Moving pictures",
+			"url": "/videos"
+		},
+		{
+			"name": "Elsewhere",
+			"description": "External writings, contributions, and appearances",
+			"url": "/elsewhere"
+		}
+	]
 }
