@@ -61,9 +61,9 @@
 		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
 		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2">
+		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2">
+		<link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2">
 
 		<link rel="stylesheet" href="/assets/styles/base/reset.css">
 		<link rel="stylesheet" href="/assets/styles/base/body.css">

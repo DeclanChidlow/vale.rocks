@@ -20,6 +20,7 @@
 	font-family: "Fira Code";
 	src: url("/assets/typefaces/FiraCode.woff2") format("woff2");
 	font-weight: 300 700;
+	font-display: fallback;
 	size-adjust: 90%;
 }
 
