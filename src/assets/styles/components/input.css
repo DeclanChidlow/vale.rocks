@@ -9,6 +9,7 @@ textarea {
 	border: transparent;
 	border-radius: 0;
 	text-overflow: ellipsis;
+	font-family: inherit;
 }
 
 button,

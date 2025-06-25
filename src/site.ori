@@ -3,7 +3,6 @@
 	.well-known
 	opensearch.xml
 	app.webmanifest
-	_redirects
 
 	(markdown_pages): {
 		index: pages/index.md
