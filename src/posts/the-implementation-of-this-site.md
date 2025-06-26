@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2025-06-22
+mod_time: 2025-06-26
 section: Meta
 ---
 
@@ -143,6 +143,12 @@ One part of this is making use of [microformats](https://developer.mozilla.org/e
 All of my posts are made available over syndication formats like RSS, though I do believe this provides an inferior experience. In the case of some posts though, they simply can't be experienced off-site, as they rely on this site for full presentation and functionality.
 
 To address this, I added functionality which allows me to mark long-form posts as `site_recommended`, which will prefix them in syndication with the recommendation to read them on site. I got this idea from [a comment left by Tyler Sticka](https://social.lol/@tylersticka/114653781572200337).
+
+### Progressive Web App
+
+Vale.Rocks is configured as a [PWA](https://wikipedia.org/wiki/Progressive_web_app) so that users can install it as a standalone app. I very much doubt many people will install this site as a PWA, but the option is there for those that want it. It has [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts) configured to the major site sections that someone might want to visit on demand.
+
+In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
 
 ### Development & Deployment
 
