@@ -48,7 +48,7 @@ On the [landing page](/) of my site, I have an interactive fluid simulation trig
 
 Also on the landing page is a global graph view of all content on my site. This is inspired by the graph views implemented in [Quartz](https://quartz.jzhao.xyz/features/graph-view) and [Obsidian](https://help.obsidian.md/plugins/graph). I chose to roll my own implementation from scratch, making use of the HTML `<canvas>` element to render the nodes.
 
-Most graph view systems show the association between individual pages based on how they link to one another, but, as my site is already rather complex, I chose to forgo this. Any system capable of identifying all these relationships would incur significantly longer build times that would exponentially increase as the amount of content grows. Speaking of which, given the amount of content on this site, it would also be extremely visually noisy, making it almost useless on a global scale.
+Most graph view systems show the association between individual pages based on how they link to one another, but, as my site is already rather complex, I chose to forgo this. Any system capable of identifying all these relationships would incur significantly longer build times that would quadratically increase as the amount of content grows. Speaking of which, given the amount of content on this site, it would also be extremely visually noisy, making it almost useless on a global scale.
 
 As such, my implementation does not show direct associations between pages beyond hierarchy and is perhaps better described as a visual sitemap [^2] -- especially as it pulls in my [`sitemap.xml`](/sitemap.xml) for data. I have excluded paginated pages, as I don't see any benefit from them appearing in the graph.
 
@@ -118,7 +118,7 @@ All times on this site are provided in UTC, but using some client-side JavaScrip
 
 Vector content in the form of SVGs are preferred to raster images and used whenever possible. Despite their file sizes already being far lower than raster images, I still opt to optimise them manually to minimise their size.
 
-Where SVGs aren't applicable, images are served as AVIFs, which I found to have the smallest file size without sacrificing browser compatibility. 
+Where SVGs aren't applicable, images are served as AVIFs, which I found to have the smallest file size without sacrificing browser compatibility.
 
 I convert all my fonts to WOFF2 and serve them with my site rather than using an external CDN. WOFF2 comes with great size reductions and good font feature support, and avoiding CDNs helps with performance and reduces dependency.
 

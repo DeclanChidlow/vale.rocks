@@ -1,14 +1,15 @@
 ---
 title: Media Review Reasoning
-description: A breakdown of the reasoning behind my reviews with particular emphasis on the five-point rating system and why I dislike it yet go along anyway.
-og_description: How many stars equal good?
+description: A breakdown of the reasoning behind my reviews with particular emphasis on the five-point and binary rating systems and why I dislike them yet go along anyway.
+og_description: How many stars equals good?
 pub_time: 2024-12-10
+mod_time: 2025-06-26
 section: Essay
 ---
 
 It has often been mused that writing is the key to proper thinking. Media, whether fiction or non-fiction, tends to prompt introspection and analysis. Failure to write about, or at the very least mentally categorise, media consumption feels almost a waste.
 
-Reviewing also creates something that you can point to when friends ask, "Should I watch _x_?", and something tangible to walk away with and reference back to.
+Reviewing also creates something that you can point to when friends ask, 'Should I watch _X_?' and something tangible to walk away with and reference back to.
 
 ## Star Scale
 
@@ -22,7 +23,7 @@ That isn't to say the system is _completely_ useless. The extremes have value. I
 
 It's also very much an accepted and widely used scale. Many review aggregate compendiums employ the system, which means that it's hard to reap the benefits of their recommendation algorithms if you fail to comply with it. To review something and not be able to at least offer a placement somewhere on the sacred five-point scale is sacrilege, so you best have _some_ placement.
 
-That in mind, I don't think the system is necessarily entirely clear. _Is my 1 star the same as the next person's?_ Thus, for the sake of clarity, my star scale ranks as such:
+That in mind, I don't think the system is necessarily entirely clear. _Is my one star the same as the next person's?_ Thus, for the sake of clarity, my star scale ranks as such:
 
 1. One Star (★☆☆☆☆) \
    I hate this. I personally discourage people from consuming it, and it is plagued by major flaws and shortcomings that ruin it. For a work of fiction, this might mean a gaping plot hole, atrocious writing, or a completely unengaging narrative. For non-fiction, this could indicate poorly researched arguments, biased or misleading information, or a complete lack of coherent insights.
@@ -41,4 +42,20 @@ That in mind, I don't think the system is necessarily entirely clear. _Is my 1 s
 
 Half stars obviously indicate an increment between each value, though they complicate things to a scale of ten rather than a scale of five. I opt to work within the totalities of the five-star system as much as possible, with only edge cases requiring a half rating.
 
-[^1]: This assumes it is the kind of media I'd be willing to do that with. While I gained a lot from Flowers for Algernon, I have no intent to re-read it.
+## Binary Ratings
+
+Binary rating systems are presented in a myriad of ways. Most commonly as thumbs-up and thumbs-down, though also as up-vote and down-vote, plus and minus, smiley-face and sad-face, etc. It also sometimes presents in a slightly altered form where there is no negative, and the rating is either positive or non-existent. In this case, it is often ambiguous as to whether not marking as positive is negative, a soft negative, neutral, or interpreted some other way.
+
+It is hard enough to condense an entire experience to fit the five-star system; to ask one to convey their feelings about an entire piece of media in a binary system is incredibly difficult.
+
+Binary rating systems are common on streaming services such as Amazon Prime, Netflix, and YouTube. These services aren't using these ratings for public presentation of one's likes, but instead for analytics and tailoring of content suggestions. This prompts different consideration. Not as good/bad, but rather show more/less.
+
+This system also applies to social media content ratings, although many of those ratings are more public. This falls into the previous good/bad rating system, muddying the waters somewhat.
+
+As an example, I very much enjoyed watching the first five seasons of the television show Dexter -- to employ the star scale, they'd sit at a four -- but felt there was a sharp decline in quality in the last three seasons, which would earn them a one or two on the star scale.
+
+When evaluating the show, I'm doing so as a whole. The first five seasons are still good enough that I'd rate Dexter with a positive evaluation, but to my mind, that positive evaluation is not equal to the one I would have given the show had it not had the poor final seasons. The issue boils down to this: *all positive ratings are positive, but some positive ratings are more positive than others*.
+
+If I bother to rate a piece of media in a way that only permits a binary input, I generally consider the five-star system. If a piece of media is above two-and-a-half stars, it receives a positive; otherwise, it receives a negative. I do deviate slightly from this if I'm aware my rating will influence my content suggestions in ways I don't intend. For example, I may choose not to rate a film even if I place it above two-and-a-half stars if I don't wish to be recommended more like it.
+
+[^1]: This assumes it is the kind of media I'd be willing to do that with. While I gained a lot from Flowers for Algernon and firmly rate it five stars, I have no intent to re-read it.
