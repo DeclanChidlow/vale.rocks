@@ -2,8 +2,10 @@
 	version: "https://jsonfeed.org/version/1.1"
 	title: "Vale.Rocks Photography"
 	description: "Photos I have taken presented for one's viewing pleasure."
-	home_page_url: "https://vale.rocks"
+	home_page_url: "https://vale.rocks/photography"
 	feed_url: "https://vale.rocks/photography/feed.json"
+	icon: "https://vale.rocks/assets/favicon.svg"
+	favicon: "https://vale.rocks/assets/favicon.svg"
 
 	items: values(map(photography, (photo, fileName) => {
 		id: `https://vale.rocks/photography/${ basename(fileName) }`

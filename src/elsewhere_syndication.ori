@@ -4,10 +4,12 @@
 	description: "Writings, contributions, and appearances external to Vale.Rocks."
 	home_page_url: "https://vale.rocks"
 	feed_url: "https://vale.rocks/elsewhere/feed.json"
+	icon: "https://vale.rocks/assets/favicon.svg"
+	favicon: "https://vale.rocks/assets/favicon.svg"
 
 	items: values(map(elsewhere, (elsewhere, fileName) => {
 		id: `https://${ elsewhere/url }`
-		url: `https://${ elsewhere/url }`
+		external_url: `https://${ elsewhere/url }`
 		title: elsewhere/title
 		content_html: `
 			${ elsewhere/sort === 'writer' ? `<p>Wrote <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> over on ${ elsewhere/location }.</p>` : '' }

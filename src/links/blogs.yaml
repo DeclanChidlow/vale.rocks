@@ -283,7 +283,6 @@
   description: Technical web development.
 - title: Eric Bailey
   url: ericwbailey.website
-  rss: ericwbailey.website/feed/feed.xml
   atom: ericwbailey.website/feed/feed.json
   json: ericwbailey.website/feed/feed.json
   description: Web development with a focus on accessible and inclusive design.
@@ -413,10 +412,6 @@
   url: risingthumb.xyz
   rss: risingthumb.xyz/Writing/Blog/index.rss
   description: Software development and an assortment of ramblings.
-- title: The Cheapskate's Guide to Computers and the Internet
-  url: cheapskatesguide.org
-  rss: https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml
-  description: Advice pertaining to frugal device acquisition and internet usage.
 - title: sizeof(cat)
   url: sizeof.cat
   rss: sizeof.cat/index.xml

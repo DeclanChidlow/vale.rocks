@@ -2,8 +2,10 @@
 	version: "https://jsonfeed.org/version/1.1"
 	title: "Vale.Rocks Posts"
 	description: "Long form writings about assorted topics."
-	home_page_url: "https://vale.rocks"
+	home_page_url: "https://vale.rocks/posts"
 	feed_url: "https://vale.rocks/posts/feed.json"
+	icon: "https://vale.rocks/assets/favicon.svg"
+	favicon: "https://vale.rocks/assets/favicon.svg"
 
 	items: values(map(posts, (post, fileName) => {
 		id: `https://vale.rocks/posts/${ basename(fileName) }`

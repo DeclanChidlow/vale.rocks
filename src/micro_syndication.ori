@@ -2,8 +2,10 @@
 	version: "https://jsonfeed.org/version/1.1"
 	title: "Vale.Rocks Micros"
 	description:  "A collection of unhinged (yet not completely insane) ramblings."
-	home_page_url: "https://vale.rocks"
+	home_page_url: "https://vale.rocks/micros"
 	feed_url: "https://vale.rocks/micros/feed.json"
+	icon: "https://vale.rocks/assets/favicon.svg"
+	favicon: "https://vale.rocks/assets/favicon.svg"
 
 	items: values(map(micros, (micro, fileName) => {
 		id: `https://vale.rocks/micros/${ basename(fileName) }`
