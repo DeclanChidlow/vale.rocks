@@ -9,27 +9,31 @@ postsFilter.addEventListener("change", filterAndSortPosts);
 postsSorter.addEventListener("change", filterAndSortPosts);
 
 function filterAndSortPosts() {
-	const filterValue = postsFilter.value.toUpperCase(),
+	const filterValue = postsFilter.value.toLowerCase(),
 		sortValue = postsSorter.value;
 
 	const filteredPosts = posts.filter((post) => {
-		const postType = post.querySelector("p").textContent.trim().toUpperCase();
-		return filterValue === "ALL" || postType === filterValue;
+		const postType = post.querySelector("p").textContent.trim().toLowerCase();
+		return filterValue === "all" || postType === filterValue;
 	});
 
 	const sortedPosts = sortPosts(filteredPosts, sortValue);
 
-	postItems.innerHTML = "";
+	const fragment = document.createDocumentFragment();
+
 	if (sortedPosts.length === 0) {
 		const noResultsMessage = document.createElement("div");
 		noResultsMessage.classList.add("no-results");
 		noResultsMessage.textContent = "No results found.";
-		postItems.appendChild(noResultsMessage);
+		fragment.appendChild(noResultsMessage);
 	} else {
 		sortedPosts.forEach((post) => {
-			postItems.appendChild(post);
+			fragment.appendChild(post);
 		});
 	}
+
+	postItems.innerHTML = "";
+	postItems.appendChild(fragment);
 }
 
 function sortPosts(posts, sortValue) {
@@ -60,6 +64,9 @@ function getPostInfo(post) {
 	const infoElements = post.querySelectorAll("ul li");
 	const wordCount = parseInt(infoElements[0].textContent);
 	const published = new Date(infoElements[1].querySelector("time").getAttribute("datetime")).getTime();
-	const revised = infoElements.length > 2 ? new Date(infoElements[2].querySelector("time").getAttribute("datetime")).getTime() : published;
+
+	const timeElements = infoElements[1].querySelectorAll("time");
+	const revised = timeElements.length > 1 ? new Date(timeElements[1].getAttribute("datetime")).getTime() : published;
+
 	return { length: wordCount, published, revised };
 }
