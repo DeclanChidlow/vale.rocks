@@ -51,11 +51,3 @@ h5,
 h6 {
 	overflow-wrap: break-word;
 }
-
-/* Clean up fieldset */
-
-fieldset {
-	border: none;
-	padding: 0;
-	margin: 0;
-}

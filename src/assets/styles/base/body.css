@@ -69,13 +69,6 @@ main {
 	}
 }
 
-.visually-hidden {
-	position: absolute;
-	clip: rect(0, 0, 0, 0);
-	overflow: hidden;
-	height: 0;
-}
-
 .giscus {
 	margin-block-start: 8rem;
 }

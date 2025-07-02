@@ -90,14 +90,6 @@ class ScrollProgressIndicator {
 		};
 	}
 
-	isScrolledIntoArticle() {
-		const { articleTop, articleBottom } = this.getArticleDimensions();
-		const viewportTop = window.scrollY;
-		const viewportBottom = viewportTop + window.innerHeight;
-
-		return viewportBottom >= articleTop && viewportTop <= articleBottom;
-	}
-
 	calculateProgress() {
 		const { articleHeight, viewportHeight, scrollTop } = this.getArticleDimensions();
 		const maxScroll = articleHeight - viewportHeight;
