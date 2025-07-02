@@ -4,14 +4,14 @@
 @font-face {
 	font-family: "Work Sans";
 	src: url("/assets/typefaces/WorkSans.woff2") format("woff2");
-	font-weight: 100 900;
+	font-weight: 400 800;
 	font-display: fallback;
 }
 
 @font-face {
 	font-family: "Work Sans";
 	src: url("/assets/typefaces/WorkSans-Italic.woff2") format("woff2");
-	font-weight: 100 900;
+	font-weight: 400 800;
 	font-display: fallback;
 	font-style: italic;
 }
