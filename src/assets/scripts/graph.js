@@ -453,8 +453,8 @@ class SitemapGraph {
 		const damping = 0.9;
 		const repulsion = 50000;
 		const attraction = 0.05;
-		const centerForce = 0.00005;
-		const maxVelocity = 2;
+		const centerForce = 0.000075;
+		const maxVelocity = 3;
 
 		// Apply forces only to non-pinned nodes
 		this.nodes.forEach((node) => {

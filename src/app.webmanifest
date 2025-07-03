@@ -3,7 +3,7 @@
 	"description": "The personal website of Declan Chidlow, known mononymously as Vale.",
 	"start_url": "/",
 	"display": "standalone",
-	"id": "vale-rocks",
+	"id": "/",
 	"icons": [
 		{
 			"src": "/assets/favicon.svg",
