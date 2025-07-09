@@ -25,104 +25,125 @@
 
 <div class="marquee" aria-hidden="true">
 <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>SCSS</li>
-    <li>Less</li>
-    <li>Polypane</li>
-    <li>Prettier</li>
-    <li>Bun</li>
-    <li>Pnpm</li>
-    <li>Yarn</li>
-    <li>Tailwind CSS</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
-    <li>PHP</li>
-    <li>BASH</li>
-    <li>React</li>
-    <li>Docker</li>
-    <li>Linux</li>
-    <li>Windows</li>
-    <li>Git</li>
-    <li>Blender</li>
-    <li>Astro</li>
+	<li>Excel</li>
+	<li>Git</li>
+	<li>Word</li>
+	<li>pnpm</li>
+	<li>Bootstrap</li>
+	<li>PWA</li>
+	<li>PHPStorm</li>
+	<li>PHP</li>
+	<li>Vite</li>
+	<li>Adobe Lightroom</li>
+	<li>BASH</li>
+	<li>Less</li>
+	<li>Vercel</li>
+	<li>VS Code</li>
+	<li>Postman</li>
+	<li>Ollama</li>
+	<li>Adobe Photoshop</li>
+	<li>Stripe</li>
+	<li>Canva</li>
+	<li>Cloudflare</li>
+	<li>cPanel</li>
+	<li>OpenAI API</li>
+	<li>JavaScript</li>
+	<li>TypeScript</li>
+	<li>HTML</li>
+	<li>Audacity</li>
+	<li>Lighthouse</li>
+	<li>Figma</li>
+	<li>SCSS</li>
+	<li>Windows</li>
+	<li>SQL</li>
+	<li>Yarn</li>
+	<li>Docker</li>
+	<li>AWS</li>
+	<li>Node.js</li>
+	<li>Caddy</li>
+	<li>Polypane</li>
+	<li>Blender</li>
+	<li>Prettier</li>
+	<li>Gemini</li>
+	<li>Linux</li>
 	<li>WordPress</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe Photoshop</li>
-    <li>Adobe InDesign</li>
-    <li>Adobe Lightroom</li>
-    <li>Figma</li>
-    <li>Penpot</li>
-    <li>Canva</li>
-    <li>Jekyll</li>
-    <li>WebStorm</li>
-    <li>PHPStorm</li>
-    <li>DataGrip</li>
-    <li>OpenAI</li>
-    <li>Gemini</li>
-    <li>Claude</li>
-    <li>VS Code</li>
-    <li>Stripe</li>
-    <li>Audacity</li>
-    <li>Postman</li>
-    <li>Bruno</li>
-    <li>Cloudflare</li>
-    <li>Word</li>
-    <li>Powerpoint</li>
-    <li>Excel</li>
-    <li>cPanel</li>
+	<li>Adobe Illustrator</li>
+	<li>REST API</li>
+	<li>React</li>
+	<li>Jekyll</li>
+	<li>Bun</li>
+	<li>Claude</li>
+	<li>Astro</li>
+	<li>WebStorm</li>
+	<li>Bruno</li>
+	<li>Digital Ocean</li>
+	<li>Adobe InDesign</li>
+	<li>Penpot</li>
+	<li>Tailwind CSS</li>
+	<li>Powerpoint</li>
+	<li>CSS</li>
+	<li>DataGrip</li>
 </ul>
 
 <ul aria-hidden="true">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>SCSS</li>
-    <li>Less</li>
-    <li>Polypane</li>
-    <li>Prettier</li>
-    <li>Bun</li>
-    <li>Pnpm</li>
-    <li>Yarn</li>
-    <li>Tailwind CSS</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
-    <li>PHP</li>
-    <li>BASH</li>
-    <li>React</li>
-    <li>Docker</li>
-    <li>Linux</li>
-    <li>Windows</li>
-    <li>Git</li>
-    <li>Blender</li>
-    <li>Astro</li>
+	<li>Excel</li>
+	<li>Git</li>
+	<li>Word</li>
+	<li>pnpm</li>
+	<li>Bootstrap</li>
+	<li>PWA</li>
+	<li>PHPStorm</li>
+	<li>PHP</li>
+	<li>Vite</li>
+	<li>Adobe Lightroom</li>
+	<li>BASH</li>
+	<li>Less</li>
+	<li>Vercel</li>
+	<li>VS Code</li>
+	<li>Postman</li>
+	<li>Ollama</li>
+	<li>Adobe Photoshop</li>
+	<li>Stripe</li>
+	<li>Canva</li>
+	<li>Cloudflare</li>
+	<li>cPanel</li>
+	<li>OpenAI API</li>
+	<li>JavaScript</li>
+	<li>TypeScript</li>
+	<li>HTML</li>
+	<li>Audacity</li>
+	<li>Lighthouse</li>
+	<li>Figma</li>
+	<li>SCSS</li>
+	<li>Windows</li>
+	<li>SQL</li>
+	<li>Yarn</li>
+	<li>Docker</li>
+	<li>AWS</li>
+	<li>Node.js</li>
+	<li>Caddy</li>
+	<li>Polypane</li>
+	<li>Blender</li>
+	<li>Prettier</li>
+	<li>Gemini</li>
+	<li>Linux</li>
 	<li>WordPress</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe Photoshop</li>
-    <li>Adobe InDesign</li>
-    <li>Adobe Lightroom</li>
-    <li>Figma</li>
-    <li>Penpot</li>
-    <li>Canva</li>
-    <li>Jekyll</li>
-    <li>WebStorm</li>
-    <li>PHPStorm</li>
-    <li>DataGrip</li>
-    <li>OpenAI</li>
-    <li>Gemini</li>
-    <li>Claude</li>
-    <li>VS Code</li>
-    <li>Stripe</li>
-    <li>Audacity</li>
-    <li>Postman</li>
-    <li>Bruno</li>
-    <li>Cloudflare</li>
-    <li>Word</li>
-    <li>Powerpoint</li>
-    <li>Excel</li>
-    <li>cPanel</li>
-
+	<li>Adobe Illustrator</li>
+	<li>REST API</li>
+	<li>React</li>
+	<li>Jekyll</li>
+	<li>Bun</li>
+	<li>Claude</li>
+	<li>Astro</li>
+	<li>WebStorm</li>
+	<li>Bruno</li>
+	<li>Digital Ocean</li>
+	<li>Adobe InDesign</li>
+	<li>Penpot</li>
+	<li>Tailwind CSS</li>
+	<li>Powerpoint</li>
+	<li>CSS</li>
+	<li>DataGrip</li>
 </div>
 
 <h2>Experienced With All These Tools And Technologies</h2>
@@ -130,103 +151,125 @@
 
 <div class="marquee">
 <ul class="reverse">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>SCSS</li>
-    <li>Less</li>
-    <li>Polypane</li>
-    <li>Prettier</li>
-    <li>Bun</li>
-    <li>Pnpm</li>
-    <li>Yarn</li>
-    <li>Tailwind CSS</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
-    <li>PHP</li>
-    <li>BASH</li>
-    <li>React</li>
-    <li>Docker</li>
-    <li>Linux</li>
-    <li>Windows</li>
-    <li>Git</li>
-    <li>Blender</li>
-    <li>Astro</li>
+	<li>Excel</li>
+	<li>Git</li>
+	<li>Word</li>
+	<li>pnpm</li>
+	<li>Bootstrap</li>
+	<li>PWA</li>
+	<li>PHPStorm</li>
+	<li>PHP</li>
+	<li>Vite</li>
+	<li>Adobe Lightroom</li>
+	<li>BASH</li>
+	<li>Less</li>
+	<li>Vercel</li>
+	<li>VS Code</li>
+	<li>Postman</li>
+	<li>Ollama</li>
+	<li>Adobe Photoshop</li>
+	<li>Stripe</li>
+	<li>Canva</li>
+	<li>Cloudflare</li>
+	<li>cPanel</li>
+	<li>OpenAI API</li>
+	<li>JavaScript</li>
+	<li>TypeScript</li>
+	<li>HTML</li>
+	<li>Audacity</li>
+	<li>Lighthouse</li>
+	<li>Figma</li>
+	<li>SCSS</li>
+	<li>Windows</li>
+	<li>SQL</li>
+	<li>Yarn</li>
+	<li>Docker</li>
+	<li>AWS</li>
+	<li>Node.js</li>
+	<li>Caddy</li>
+	<li>Polypane</li>
+	<li>Blender</li>
+	<li>Prettier</li>
+	<li>Gemini</li>
+	<li>Linux</li>
 	<li>WordPress</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe Photoshop</li>
-    <li>Adobe InDesign</li>
-    <li>Adobe Lightroom</li>
-    <li>Figma</li>
-    <li>Penpot</li>
-    <li>Canva</li>
-    <li>Jekyll</li>
-    <li>WebStorm</li>
-    <li>PHPStorm</li>
-    <li>DataGrip</li>
-    <li>OpenAI</li>
-    <li>Gemini</li>
-    <li>Claude</li>
-    <li>VS Code</li>
-    <li>Stripe</li>
-    <li>Audacity</li>
-    <li>Postman</li>
-    <li>Bruno</li>
-    <li>Cloudflare</li>
-    <li>Word</li>
-    <li>Powerpoint</li>
-    <li>Excel</li>
-    <li>cPanel</li>
+	<li>Adobe Illustrator</li>
+	<li>REST API</li>
+	<li>React</li>
+	<li>Jekyll</li>
+	<li>Bun</li>
+	<li>Claude</li>
+	<li>Astro</li>
+	<li>WebStorm</li>
+	<li>Bruno</li>
+	<li>Digital Ocean</li>
+	<li>Adobe InDesign</li>
+	<li>Penpot</li>
+	<li>Tailwind CSS</li>
+	<li>Powerpoint</li>
+	<li>CSS</li>
+	<li>DataGrip</li>
 </ul>
 
 <ul class="reverse" aria-hidden="true">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>SCSS</li>
-    <li>Less</li>
-    <li>Polypane</li>
-    <li>Prettier</li>
-    <li>Bun</li>
-    <li>Pnpm</li>
-    <li>Yarn</li>
-    <li>Tailwind CSS</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
-    <li>PHP</li>
-    <li>BASH</li>
-    <li>React</li>
-    <li>Docker</li>
-    <li>Linux</li>
-    <li>Windows</li>
-    <li>Git</li>
-    <li>Blender</li>
-    <li>Astro</li>
+	<li>Excel</li>
+	<li>Git</li>
+	<li>Word</li>
+	<li>pnpm</li>
+	<li>Bootstrap</li>
+	<li>PWA</li>
+	<li>PHPStorm</li>
+	<li>PHP</li>
+	<li>Vite</li>
+	<li>Adobe Lightroom</li>
+	<li>BASH</li>
+	<li>Less</li>
+	<li>Vercel</li>
+	<li>VS Code</li>
+	<li>Postman</li>
+	<li>Ollama</li>
+	<li>Adobe Photoshop</li>
+	<li>Stripe</li>
+	<li>Canva</li>
+	<li>Cloudflare</li>
+	<li>cPanel</li>
+	<li>OpenAI API</li>
+	<li>JavaScript</li>
+	<li>TypeScript</li>
+	<li>HTML</li>
+	<li>Audacity</li>
+	<li>Lighthouse</li>
+	<li>Figma</li>
+	<li>SCSS</li>
+	<li>Windows</li>
+	<li>SQL</li>
+	<li>Yarn</li>
+	<li>Docker</li>
+	<li>AWS</li>
+	<li>Node.js</li>
+	<li>Caddy</li>
+	<li>Polypane</li>
+	<li>Blender</li>
+	<li>Prettier</li>
+	<li>Gemini</li>
+	<li>Linux</li>
 	<li>WordPress</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe Photoshop</li>
-    <li>Adobe InDesign</li>
-    <li>Adobe Lightroom</li>
-    <li>Figma</li>
-    <li>Penpot</li>
-    <li>Canva</li>
-    <li>Jekyll</li>
-    <li>WebStorm</li>
-    <li>PHPStorm</li>
-    <li>DataGrip</li>
-    <li>OpenAI</li>
-    <li>Gemini</li>
-    <li>Claude</li>
-    <li>VS Code</li>
-    <li>Stripe</li>
-    <li>Audacity</li>
-    <li>Postman</li>
-    <li>Bruno</li>
-    <li>Cloudflare</li>
-    <li>Word</li>
-    <li>Powerpoint</li>
-    <li>Excel</li>
-    <li>cPanel</li>
+	<li>Adobe Illustrator</li>
+	<li>REST API</li>
+	<li>React</li>
+	<li>Jekyll</li>
+	<li>Bun</li>
+	<li>Claude</li>
+	<li>Astro</li>
+	<li>WebStorm</li>
+	<li>Bruno</li>
+	<li>Digital Ocean</li>
+	<li>Adobe InDesign</li>
+	<li>Penpot</li>
+	<li>Tailwind CSS</li>
+	<li>Powerpoint</li>
+	<li>CSS</li>
+	<li>DataGrip</li>
 </ul>
 </section>
 

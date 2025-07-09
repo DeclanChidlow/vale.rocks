@@ -80,11 +80,6 @@ section.tools-and-technologies {
 			margin: 0;
 			animation: scroll 180s linear infinite;
 
-			&:hover,
-			&:focus-visible {
-				animation-play-state: paused;
-			}
-
 			@media (prefers-reduced-motion: reduce) {
 				animation-duration: 500s;
 			}
@@ -92,6 +87,11 @@ section.tools-and-technologies {
 			li {
 				list-style: none;
 			}
+		}
+
+		&:hover ul,
+		&:focus-visible ul {
+			animation-play-state: paused;
 		}
 
 		.reverse {
