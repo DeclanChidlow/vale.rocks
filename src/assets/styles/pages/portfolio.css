@@ -6,6 +6,13 @@ main > div {
 	margin-inline: auto;
 }
 
+@media (max-width: 45rem) {
+	.section {
+		position: absolute;
+		clip-path: inset(100%);
+	}
+}
+
 .hero {
 	display: flex;
 	min-height: calc(100vh - 8rem);
@@ -13,8 +20,11 @@ main > div {
 	background: linear-gradient(var(--dark_grey), transparent);
 	padding: 2rem;
 
-	@media (max-width: 30rem) {
-		padding: 2rem 0.5rem;
+	@media (max-width: 45rem) {
+		margin-block-start: -5rem;
+		margin-inline: -0.8rem;
+		margin-block-end: 0;
+		min-height: calc(100vh - 3rem);
 	}
 
 	h2 {
