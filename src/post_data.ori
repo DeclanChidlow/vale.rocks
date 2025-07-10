@@ -5,7 +5,7 @@ posts
 	file_name: basename(fileName)
 	words: length(post/@text/split(" "))
 })
-→ =sort(_, (post) => new:Date(post/pub_time))
+→ =sort(_, (post) => post/pub_time)
 → =map(_, {
 	extension: ".md->.html"
 	value: (post) => functions/parse-markdown.js(post)

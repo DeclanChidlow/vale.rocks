@@ -8,5 +8,5 @@
 		  type: "elsewhere"
 	}))
 }
-→ =sort(_, (item) => new:Date(item/pub_time))
+→ =sort(_, (item) => item/pub_time)
 → reverse

@@ -4,7 +4,7 @@ videos
 	type: "video"
 	file_name: basename(fileName)
 })
-→ =sort(_, (video) => new:Date(video/pub_time))
+→ =sort(_, (video) => video/pub_time)
 → =map(_, {
 	extension: ".md->.html"
 	value: (video) => functions/parse-markdown.js(video)
