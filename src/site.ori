@@ -4,6 +4,8 @@
 	opensearch.xml
 	app.webmanifest
 
+	limit.html = shell("ulimit -n")
+
 	(markdown_pages): {
 		index: pages/index.md
 		contact: pages/contact.md
