@@ -1,7 +1,7 @@
 ---
 title: How I Configure Neovim
 description: A full breakdown of my Neovim configuration, including documentation of all my base settings, plugins, and keybinds, as well as why I've configured them as such.
-og_description: Symbiosis of man and editor. 
+og_description: Symbiosis of man and editor.
 pub_time: 2025-07-12
 section: Tutorial
 ---
@@ -16,7 +16,12 @@ It is worth noting that many of my these choices are influenced by [how I choose
 
 ## Base Settings
 
-In `/main/settings.lua` I define all of my base Neovim preferences.
+In `/main/settings.lua` I define all of my base Neovim preferences. I have some aliases at the top of this file so that I don't need as much boilerplate for settings.
+
+```lua
+local o = vim.o
+local a = vim.api
+```
 
 - **Cursor Visibility:** I like to know exactly where my cursor is at all times, so I enable a low-opacity line on both the row and column of my view.
 
@@ -26,7 +31,7 @@ In `/main/settings.lua` I define all of my base Neovim preferences.
   o.cursorcolumn = true
   ```
 
-- **Mouse Handling:** Although sacrilege, I occasionally use my mouse with Neovim and therefore disable the annoying popups that tell me how to disable it.
+- **Mouse Handling:** Although sacrilege, I occasionally use my mouse with Neovim and therefore disable the annoying pop-ups that tell me how to disable it.
 
   ```lua
   a.nvim_command('aunmenu PopUp.How-to\\ disable\\ mouse')
@@ -287,6 +292,18 @@ I have previously written my own rudimentary move functionality, but mini.move i
 My status line is provided by [mini.statusline](https://github.com/echasnovski/mini.nvim/blob/main/README.md). I don't feel any need to change the defaults, as it feels lovely out-of-the-box. I particularly love how it changes what content it displays based on the width of the terminal window.
 
 ## Key Mappings
+
+Like with my settings, I set an alias at the top of my keymap file (`/main/keymaps.lua`) so I needn't write as much boilerplate for each binding.
+
+```lua
+local map = vim.keymap.set
+```
+
+I set my leader key to <kbd>Space</kbd>, as I find it to be much more convenient than the default.
+
+```lua
+vim.g.mapleader = " "
+```
 
 If I'm opening and closing brackets, there is a reasonable assumption that I wish to enter them, so I have binds that place my cursor within them after creating them. The same applies to quotes and backticks.
 
