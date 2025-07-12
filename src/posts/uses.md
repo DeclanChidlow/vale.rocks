@@ -48,13 +48,13 @@ I've already touched on some of my preferred development tools, but I also have 
 
 As you might expect, I use [Git](https://git-scm.com) for version control, with [GitHub](https://github.com) for repository hosting and project management. In most situations, I use [Bun](https://bun.sh) in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects.
 
-Central to all my development is my editor, [Neovim](https://neovim.io). I've extensively customised it, and it serves as the bulk of my editing environment. It is setup alongside a long list of language servers and plugins that would best be assessed by consulting my [dotfiles](https://github.com/DeclanChidlow/dotfiles). I hope to eventually do a write-up of my specific configuration.
+Central to all my development is my editor, [Neovim](https://neovim.io), which serves as the bulk of my development environment. I've extensively customised it and [documented my entire configuration](/posts/neovim).
 
 ### Virtualisation
 
 Sometimes I find myself needing to use Adobe's Creative Cloud or other software that simply refuses to run on Linux. For that reason I've got a Windows 11 virtual machine setup with KVM/[QEMU](https://www.qemu.org), [Spice USB Redirection](https://www.spice-space.org/usbredir.html), [Windows guest drivers](https://github.com/virtio-win/kvm-guest-drivers-windows), [libvirt](https://libvirt.org), and other things of that nature, which I access via [Virtual Machine Manager](https://virt-manager.org).
 
-I 'enhance' (more like salvage) the Windows experience with [Microsoft's PowerToys](https://github.com/microsoft/PowerToys). The general setup largely works _alright_ for my needs.
+I 'enhance' (salvage) the Windows experience with [Microsoft's PowerToys](https://github.com/microsoft/PowerToys). The general setup largely works _alright_ for my needs.
 
 ### Miscellaneous
 
@@ -130,7 +130,7 @@ All my personal photos, home videos, etc, are handled by a self-hosted deploymen
 
 ### Music
 
-Music libraries devolve into a mess with disturbing ease. I convert all my music to OPUS, process them with [beets](https://beets.io), and then play them with [Music Player Daemon (MPD)](https://www.musicpd.org). I can then use a frontend of my choosing, such as [ncmpcpp](https://rybczak.net/ncmpcpp), and pair it with tools like [mpc](https://github.com/MusicPlayerDaemon/mpc) for assigning keybinds.
+Music libraries devolve into a mess with disturbing ease. I convert all my music to OPUS, process them with [beets](https://beets.io), and then play them with [Music Player Daemon (MPD)](https://www.musicpd.org). I can then use a frontend of my choosing, such as [Inori (いのり)](https://github.com/eshrh/inori), and pair it with tools like [mpc](https://github.com/MusicPlayerDaemon/mpc) for assigning keybinds.
 
 ### Books
 
