@@ -187,7 +187,6 @@ performance = {
             "matchparen",
             "netrwPlugin",
             "tarPlugin",
-            "tohtml",
             "tutor",
         },
     },
