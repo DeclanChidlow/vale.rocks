@@ -469,3 +469,31 @@
   url: www.nicchan.me
   atom: www.nicchan.me/feed.xml
   description: Technology and web development.
+- title: Infrequently Noted
+  url: infrequently.org
+  atom: infrequently.org/feed/feed.xml
+  description: Browsers, standards, and the process of progress.
+- title: Notes Of
+  url: notesof.com
+  rss: notesof.com/feed.rss
+  description: Findings and thoughts regarding digital products.
+- title: Nathan Knowler
+  url: knowler.dev
+  rss: knowler.dev/feed.xml
+  description: Web development and computer usage.
+- title: Adrian Roselli
+  url: adrianroselli.com
+  rss: adrianroselli.com/feed
+  description: Web development with a focus on accessibility.
+- title: Julia Evans
+  url: jvns.ca
+  atom: jvns.ca/atom.xml
+  description: Computer usage and programming, with a focus on terminals.
+- title: HeydonWorks
+  url: heydonworks.com
+  rss: heydonworks.com/feed.xml
+  description: Inclusive design, design systems, JavaScript and performance, language and semiotics, algorithmic web layout, critical theory, and ambient music.
+- title: DynoMight
+  url: dynomight.net
+  rss: dynomight.net/feed.xml
+  description: Psychology, tests, experiments, and other science. 

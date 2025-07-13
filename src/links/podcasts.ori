@@ -11,7 +11,7 @@
 <div class="readable">
 	<h1>Podcasts</h1>
 
-	<p>These are ${ podcasts/length } links to handy and useful tools and resources available on the web.</p>
+	<p>These are assorted ${ podcasts/length } podcasts I occasionally listen to. Podcasts aren't my preference for content consumption, as I prefer text to audio for the sake of convenience.</p>
 
 	<ul>
 		${ podcasts
