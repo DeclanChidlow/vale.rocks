@@ -67,7 +67,7 @@
 					${ item/sort === 'guest' ? `<p>Appeared in <a href="https://${ item/url }">${ item/title }</a> on ${ item/location }.</p>` : '' }
 					${ item/note ? `<p>${ item/note }</p>` : '' }
 
-					${ item/image ? `<img src="https://${ item/image }">` : '' }
+					${ item/image ? `<img src="https://${ item/image }" alt="">` : '' }
 				</div>
 			</article>`
 

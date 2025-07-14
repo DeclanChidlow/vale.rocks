@@ -16,6 +16,8 @@
 			${ elsewhere/sort === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
 			${ elsewhere/sort === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
 			${ elsewhere/note ? `<p>${ elsewhere/note }</p>` : '' }
+
+			${ elsewhere/image ? `<img src="https://${ elsewhere/image }" alt="">` : '' }
 		`
 		date_published: elsewhere/pub_time
 	}))

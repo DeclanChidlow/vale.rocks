@@ -1,9 +1,27 @@
 .elsewhere {
-	padding: 1rem 0;
+	display: flex;
+	padding-block: 1rem;
 	border-bottom: 2px solid var(--bright_grey);
 	text-decoration: none;
-	display: block;
 	text-transform: uppercase;
+	gap: 1rem;
+
+	img {
+		max-height: 5rem;
+		min-width: 10rem;
+		aspect-ratio: 16 / 9;
+		width: 20%;
+		object-fit: cover;
+
+		@media (max-width: 35rem) {
+			display: none;
+		}
+	}
+
+	div {
+		flex: 1;
+		margin-block: auto;
+	}
 
 	h2 {
 		font-size: 1.5rem;
