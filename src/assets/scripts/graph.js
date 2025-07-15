@@ -580,19 +580,16 @@ class SitemapGraph {
 
 			const opacity = Math.max(0.3, 1 - node.depth * 0.15);
 
+			ctx.beginPath();
+			ctx.arc(node.x, node.y, node.size, 0, Math.PI * 2);
 			ctx.fillStyle = `rgba(${baseColor}, ${opacity})`;
+			ctx.fill();
 
 			if (isSelected || isDragged) {
 				ctx.strokeStyle = isDarkMode ? "rgba(255, 234, 209, 1)" : "rgba(19, 17, 17, 1)";
-			} else {
-				ctx.strokeStyle = isDarkMode ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.2)";
+				ctx.lineWidth = 1 / this.camera.zoom;
+				ctx.stroke();
 			}
-			ctx.lineWidth = 1 / this.camera.zoom;
-
-			ctx.beginPath();
-			ctx.arc(node.x, node.y, node.size, 0, Math.PI * 2);
-			ctx.fill();
-			ctx.stroke();
 
 			if ((node.size > 8 || this.camera.zoom > 1.5) && this.camera.zoom > 0.5) {
 				ctx.font = `${Math.max(5, 10 / this.camera.zoom)}px "Work Sans"`;
