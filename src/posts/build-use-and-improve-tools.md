@@ -8,7 +8,7 @@ section: Essay
 
 A developer should, in my opinion, create (or modify) tools and utilities fit for their use and needs. Both for repeated tasks and one-off needs.
 
-Shawn Wang wrote a post titled [My Three Strikes Rule for Blogging](https://www.swyx.io/three-strikes) in which he proposes, "The third time you use an idea in a conversation, you have to blog about it." As much as this applies to writing, I think it applies to development and building tools. If you find yourself completing a menial task or trying to achieve the same thing three or more times, a tool should be built.
+Shawn Wang wrote a post titled [My Three Strikes Rule for Blogging](https://www.swyx.io/three-strikes) in which he proposes, 'The third time you use an idea in a conversation, you have to blog about it.' As much as this applies to writing, I think it applies to development and building tools. If you find yourself completing a menial task or trying to achieve the same thing three or more times, a tool should be built.
 
 That doesn't mean a tool should only be built for repeated tasks though. There is also a case for spur-of-the-moment creations: small little bodged-together hacks that solve a one-off problem. The equivalent of bending a wire into a rudimentary hook to extract a spatula from the gap it fell down behind the oven.
 

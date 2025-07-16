@@ -6,15 +6,15 @@ pub_time: 2025-04-29
 section: Essay
 ---
 
-"Why do you write?" is a question I seem to get asked a lot, but one that I struggle to answer. I have never had an answer I'm happy with because I haven't previously written an explanation on why I write; hence this post.
+'Why do you write?' is a question I seem to get asked a lot, but one that I've historically struggled to answer. I have never had an answer I'm happy with because I haven't previously written an explanation on why I write; hence this post.
 
-Writing isn't a thing I do for the sake of it. It is an itch, a compulsion, a joy. A desire to output -- to share ideas. To spread my mind on the page for consumption and inspection. I am inspired when I read and inclined to add my own voice to the conversation, to contribute my thoughts to the collective pool.
+Writing isn't a thing I do for the sake of it. It is an itch, a compulsion, a joy. A desire to output -- to share ideas. To spread my mind on the page for consumption and inspection. I am inspired when I read and inclined to add my own voice to conversation -- to contribute my thoughts to the collective pool.
 
 Writing is part of being able to communicate thoughts, which is a fundamental building block towards most work and intellectual activities. This post intends to cover not only why I write, but also to an extent why I prefer writing to other mediums.
 
 ## Forming Thought
 
-> "Writing is refined thinking." \
+> Writing is refined thinking. \
 > — Stephen King
 
 If there is any one reason I write, it is summed up by the quote above. I think better and more clearly on and about a topic when I write about it. Specifically, to write cohesively forces me to untangle the erratic thoughts sprinting around my head into a clear linear thread.
@@ -31,10 +31,10 @@ Writing acts to prompt a slightly different type of thinking, especially if forg
 
 ## An Urge to Express and Create
 
-> "Writing is the painting of the voice." \
+> Writing is the painting of the voice. \
 > — Voltaire
 
-I am a creative person (or at the very least a person who creates), and I can think of few joys more than being able to manifest the mind. To make thought tangible.
+I am a creative person (or at the very least a person who creates), and I can think of few joys more than being able to manifest the mind; to make thought tangible.
 
 Writing is a creative medium, regardless of content. As with many creative endeavours, writing is personal. I'm tearing chunks off my soul and hurling them into the belly of the beast [^1] for others to find, to resonate with, or challenge.
 
@@ -44,25 +44,25 @@ I can think of few greater pleasures than finalising a piece of writing and push
 
 ## Precision and Craftsmanship
 
-> "Reading maketh a full man; conference a ready man; and writing an exact man." \
+> Reading maketh a full man; conference a ready man; and writing an exact man. \
 > — Francis Bacon
 
-Words are precise -- or at least they can be. They can be left vague or wielded with unambiguous precision. They can be revised and altered at my will, and words can be chosen with care when writing in a way they can't in speech. Writing permits me to articulate thought with far greater precision than would be possible on the fly. Well-written words possess a certain sharpness; they can effectively deconstruct a complex issue or carefully construct a nuanced argument.
+Words are precise -- or at least they can be. They can be left vague or wielded with unambiguous precision. They can be revised and altered at will, and chosen with care when writing in a way they can't in speech. Writing permits me to articulate thought with far greater precision than would be possible on the fly. Well-written words possess a certain sharpness; they can effectively deconstruct a complex issue or carefully construct a nuanced argument.
 
 Words remain extremely flexible and adaptable -- one must only look to puns, metaphor, and the fluidity of language for evidence of this.
 
 ## Accessibility
 
-> "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect." \
+> The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect. \
 > — Tim Berners-Lee
 
 Writing also has huge benefits that places it head and shoulders above other mediums as far as my needs are concerned. Other mediums such as audio and video are fantastic for a lot of things but require specific technologies and bandwidth. For conveying complex knowledge and information, text is king. The written word is remarkably adaptable and inherently inclusive, especially on the web.
 
 Text is minuscule in file size -- it requires minimal data and is thus easily accessible on older machines and slower networks. Text is the universal language of the internet [^2] and computing. It can be displayed on almost any device, with any operating system, using countless applications, making the content truly portable.
 
-The very structure of written language makes it seamlessly compatible with assistive technologies. Crucially, regardless of whether someone is reading the text visually, listening to it via a screen reader, consuming it through braille, or interacting with it another way, they are receiving the exact same core content and message. This stands in contrast to visual media where alternative text or audio descriptions might provide information about the content but can't possible emulate the content itself in its primary form.
+The very structure of written language makes it seamlessly compatible with assistive technologies. Crucially, regardless of whether someone is reading the text visually, listening to it via a screen reader, consuming it through braille, or interacting with it some other way, they are receiving the exact same core content and message. This stands in contrast to visual media where alternative text or audio descriptions might provide information about the content but can't faithfully emulate the content itself in its primary form.
 
-This fundamental adaptability ensures that the ideas I wish to share are available through multiple modalities, catering to a wider range of needs and preferences without diluting or changing the message. This makes writing, in my view, one of the most democratising, accessible, and _spreadable_ forms of communication available today.
+This fundamental adaptability ensures that the ideas I wish to share are available through multiple modalities, catering to a wider range of needs and preferences without diluting or changing the message. This makes writing, in my view, one of the most democratising, accessible, and _spreadable_ forms of communication available.
 
 ## Regarding AI
 
@@ -70,7 +70,7 @@ Some people have asked why I share anything online when it is destined to be con
 
 The first thought process follows the mentality that my output is being stolen from me and that I should fight the scrapers to the fullest extent I can. My work is taken, chewed up, and spat out -- in many cases without any reference to me. However, the entire concept of this being classified as theft [is objectionable](https://blog.giovanh.com/blog/2025/04/03/why-training-ai-cant-be-ip-theft/).
 
-The second follows the thought that I benefit from AI scraping. It can be [useful when it pulls in context about me](/micros/20250424-0345) when I use it and my work, potentially making it more discoverable or allowing me to influence how AI understands and represents my perspective. My values, preferences, ideas, and thoughts have influence over AI models and will affect how they are aligned. By trying to avoid being scraped, I'm deliberately [erasing myself from history](https://gwern.net/blog/2024-writing-online). I'm also hiding my work from the growing league of AI search engines.
+The second follows the thought that I benefit from AI scraping. It can be [useful when it pulls in context about me](/micros/20250424-0345) and my work when I use it, potentially making it more discoverable or allowing me to influence how AI understands and represents my perspective. My values, preferences, ideas, and thoughts have influence over AI models and will affect how they are aligned. By trying to avoid being scraped, I'm deliberately [erasing myself from history](https://gwern.net/blog/2024-writing-online). I'm also hiding my work from the growing league of AI search engines.
 
 In any case, whether I'm willing or not, anything I make that is accessible to humans will be accessible to scrapers. It is a fight I cannot win. I don't make specific considerations to allow my work to be scraped, but I would ultimately consider it a waste of time that could be better spent to resist it. [_Resistance is futile_](https://en.wikipedia.org/wiki/Borg#%22Resistance_is_futile%22).
 
@@ -78,6 +78,6 @@ In any case, whether I'm willing or not, anything I make that is accessible to h
 
 In essence, I write because it is a powerful tool for defining, refining, and structuring my often erratic thoughts into a coherent, linear form. I write out of an innate need for expression and the desire to create tangible artefacts from the intangible realm of ideas. I write because I value the precision and craftsmanship that the medium allows. And I write because it is one of the most inherently accessible and democratising ways to share information and perspectives in the modern world. It is, quite simply, a core part of how I engage with the world and process my place within it.
 
-[^1]: Commonly referred to as "The Internet".
+[^1]: Commonly referred to as 'The Internet'.
 
 [^2]: There was a time long ago when hyper*text* actually meant something on the net.

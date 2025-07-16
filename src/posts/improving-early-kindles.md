@@ -55,5 +55,5 @@ Congrats, you've got your Kindle ready to go! You now have advanced control and 
 
 I recommend having a look through the MobileRead Forums and all the cool stuff it has to offer. I also recommend switching off wireless unless you're using it, as I've found it can be quite the battery hog. I've also found great value in a magnetic cable that helps minimise wear to the fragile Micro USB connectors.
 
-[^1]: Not really much of a screen-"saver" considering e-ink displays don't suffer from burn-in like a CRT or OLED display might, but I digress.
+[^1]: Not really much of a screen-'saver' considering e-ink displays don't suffer from burn-in like a CRT or OLED display might, but I digress.
 [^2]: A Kindlet is a little app for the Kindle.

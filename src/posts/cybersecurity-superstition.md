@@ -107,4 +107,4 @@ In the same vein as antiviruses, many Virtual Private Network (VPN) operators em
 
 They especially advertise that they can mask users IPs, which, as discussed previously, isn't as important for most people as it may seem. Even if it were hugely important, it just means that your IP is being sent to them instead of elsewhere.
 
-There is much more to be said about VPNs, but nothing that isn't better covered by Tom Scott's excellent video, ["This Video Is Sponsored By ███ VPN"](https://www.youtube.com/watch?v=WVDQEoe6ZWY).
+There is much more to be said about VPNs, but nothing that isn't better covered by Tom Scott's excellent video, [This Video Is Sponsored By ███ VPN](https://www.youtube.com/watch?v=WVDQEoe6ZWY).

@@ -123,13 +123,13 @@ Accelerated Mobile Pages (AMP) is another excellent example of the problems with
 
 One large criticism is that it gives Google a huge amount of control over the way content is displayed on the web, which influences how things are built and monetised. It also has impacts on privacy and security.
 
-Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's "Top Stories" section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after [facing legal threats](https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf).
+Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's 'Top Stories' section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after [facing legal threats](https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf).
 
 AMP is just another way that Google has shown that they are not content with simply existing within the web but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest [this Reddit post](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) from the creator of the [Amputator bot](https://amputatorbot.com).
 
 ### Web Environment Integrity
 
-In April of 2023, some Google engineers [created a GitHub repository](https://github.com/RupertBenWiser/Web-Environment-Integrity) explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled "Android WebView Media Integrity API" was swiftly proposed and looks to enter testing in early 2024.
+In April of 2023, some Google engineers [created a GitHub repository](https://github.com/RupertBenWiser/Web-Environment-Integrity) explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled 'Android WebView Media Integrity API' was swiftly proposed and looks to enter testing in early 2024.
 
 You may be wondering exactly what it is. WEI is more or less a way to verify that a site is 'genuine'. It can be best described as Digital Rights Management (DRM) for the web and, wouldn't you know, could've also impacted ad blockers if they were found to be altering the web environment's integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered 'untrusted' and therefore severely limited.
 
@@ -137,7 +137,7 @@ I could continue with further examples, but I think the point is made, and I exp
 
 ## The Death of Firefox Support
 
-As Bryce Wray illustrates in his article ["Firefox on the Brink?"](https://www.brycewray.com/posts/2023/11/firefox-brink/), the US Web Design System mandates official support for browsers exceeding 2% usage on US government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As he suggests, it may be a lot sooner than we expect that Firefox loses consideration for compatibility during development. I very much recommend reading his article for discussion on the topic.
+As Bryce Wray illustrates in his article [Firefox on the Brink?](https://www.brycewray.com/posts/2023/11/firefox-brink/), the US Web Design System mandates official support for browsers exceeding 2% usage on US government-run websites. A similar requirement is [set by the British government](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). As he suggests, it may be a lot sooner than we expect that Firefox loses consideration for compatibility during development. I very much recommend reading his article for discussion on the topic.
 
 ## Taking Action
 

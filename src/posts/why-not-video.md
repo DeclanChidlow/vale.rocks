@@ -48,4 +48,6 @@ The final thing I'll mention is that video as a process has many steps, and it i
 
 My preference for text over video boils down to a combination of practical realities and personal inclinations. The challenges of revising and archiving video, coupled with higher technical demands and lower accessibility compared to writing, make it inferior for my needs as I view them.
 
-Most importantly, writing is where I feel most in control and most capable of expressing my thoughts as they develop, with the chance for quick ideation. Text is and will remain the primary medium through which I build and share my work, though that isn't to say you shouldn't expect *some* video content out of me.
+Most importantly, writing is where I feel most in control and most capable of expressing my thoughts as they develop, with the chance for quick ideation. Text is and will remain the primary medium through which I build and share my work, though that isn't to say I'm completely opposed to video content.
+
+I do [publish some videos](/videos) where the medium is clearly advantageous. The fact of the matter is that there are situations where visuals and motion are key to the experience, and text (even when enhanced by images) is simply lesser.

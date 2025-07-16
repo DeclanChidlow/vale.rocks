@@ -19,7 +19,7 @@ When looking to buy a Flipper on the [official Flipper Zero website](https://fli
 
 Joom is very much like Aliexpress, Wish, or Temu. Lots of plastic gadgets of objectionable quality at prices so low that you can't help but wonder what questionable labour practices have been employed. In the case of the Flipper Zero though, these cheap prices didn't apply, and the cost came out to $322 AUD with shipping.
 
-I ordered the Flipper on March 19th, but it wasn't until a month later, on April 20th, that I was updated with the information that my "package departed the seller's warehouse". Funnily enough, a day previously, on April 19th, I had submitted a query asking the status of my order, given that a month had passed with no update.
+I ordered the Flipper on March 19th, but it wasn't until a month later, on April 20th, that I was updated with the information that my 'package departed the seller's warehouse'. Funnily enough, a day previously, on April 19th, I had submitted a query asking the status of my order, given that a month had passed with no update.
 
 Anywho, I did eventually receive it on May 20th. I will say that Joom's slow shipping, bad reputation, and lack of communication did sketch me out a bit, but in fairness, I did receive it in one piece. I'd have preferred to buy from the official marketplace, but I'm really just glad I got it in the end.
 
@@ -52,7 +52,7 @@ This sort of interaction has defined my usage of the Flipper. Receive a signal a
 
 One thing I was worried about was that the novelty of the device would wear off quickly, and I wouldn't touch it again. Well, the novelty did wear off, but what it was replaced with is arguably better. Utility. The Flipper has taken the position of my keys and wallet in my right jean pocket.
 
-The device is slated as a "multi-tool device for geeks" on the official website, and I don't think a better description could be written. Much like a multitool, it's something I _always_ want on me.
+The device is slated as a 'multi-tool device for geeks' on the official website, and I don't think a better description could be written. Much like a multitool, it's something I _always_ want on me.
 
 I think the multitool branding also sets expectations right. You don't buy a multitool expecting it to replace your toolbox. You buy a multitool expecting a compact jack of all trades that is convenient to pocket. It isn't a replacement for specialised tools; it's a convenient, versatile supplement to them.
 
@@ -76,7 +76,7 @@ One of the first things that struck me about the Flipper was just how solid it i
 
 The only issue with the build that I can point to is the pogo pins included for the iButton functionality. They're perhaps a bit fragile, which leads to worry whenever I find them catching on my pants when sliding it in and out of my pockets.
 
-As for the battery, I can only say good things. When Flipper claims it can last for ["up to one month"](https://docs.flipper.net/basics/power), they aren't kidding. I was initially worried about battery life, so I turned off Bluetooth when not in use, but that wasn't really necessary. I can happily use the Flipper and place it in standby mode with Bluetooth on without concern that the battery will be dead the next time I go to use it.
+As for the battery, I can only say good things. When Flipper claims it can last for ['up to one month'](https://docs.flipper.net/basics/power), they aren't kidding. I was initially worried about battery life, so I turned off Bluetooth when not in use, but that wasn't really necessary. I can happily use the Flipper and place it in standby mode with Bluetooth on without concern that the battery will be dead the next time I go to use it.
 
 ## Ethics and Legality
 
@@ -104,6 +104,6 @@ As discussed with the Momentum firmware previously, much of the Flipper is open 
 
 ## Overall Evaluation
 
-The Flipper Zero is a neat bit of tech. It's an all in one, pocket sized tinkerer's toolbox. No, it isn't better than buying specialised hardware for each of its features, but that isn't its goal. It fills the niche encapsulated by the ethos behind the quote, "the best camera is the one you have with you". It's built well and fulfils its purpose.
+The Flipper Zero is a neat bit of tech. It's an all in one, pocket sized tinkerer's toolbox. No, it isn't better than buying specialised hardware for each of its features, but that isn't its goal. It fills the niche encapsulated by the ethos behind the quote, 'the best camera is the one you have with you'. It's built well and fulfils its purpose.
 
 If the Flipper has made it onto your radar and piqued your interest, then chances are the only negative you'll find in buying it is the impact on your wallet.

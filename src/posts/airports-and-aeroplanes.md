@@ -43,7 +43,7 @@ Then you find yourself sitting in a tube kilometres in the sky and seeing the wo
 
 The best time to fly is at night. I love the overhead lights. Pressing the button beams down a perfect cone that seems to defy my understanding of how light bounces. It is somehow completely and perfectly contained to the seat of the person who summoned it.
 
-Depending on the flight, there might be food provided. Not food as generally understood, but something food adjacent. It is food in the most general of terms. Kind of as you know it, yet somehow different. Best described as "Food™".
+Depending on the flight, there might be food provided. Not food as generally understood, but something food adjacent. It is food in the most general of terms. Kind of as you know it, yet somehow different. Best described as 'Food™'.
 
 It's odd to be in a place where strangers sleep. Where people doze off contently next to someone they have never before met. Though these sleeps are perhaps better described as naps, and those naps are only half-naps at best. You aren't unconscious; you're just not conscious. If aeroplane sleep was sold in a can, they'd call it a scam.
 

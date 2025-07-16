@@ -47,7 +47,7 @@ I saw Mike Sass [write about his writing mannerisms](https://shellsharks.com/wri
 
 - Personal titles (Mr, Ms, etc) are generally omitted. They are superfluous in most cases.
 
-- Acronyms and initialisms are written without full stops ("AI", not "A.I."). I dislike using full stops within sentences and feel they should be reserved for indicating the end of a sentence. This also applies to eg, ie, and etc.
+- Acronyms and initialisms are written without full stops ('AI', not 'A.I.'). I dislike using full stops within sentences and feel they should be reserved for indicating the end of a sentence. This also applies to eg, ie, and etc.
 
 - I have a tendency to define terms and then use them as if they are common [terms of art](https://en.wiktionary.org/wiki/term_of_art).
 
@@ -57,7 +57,7 @@ I saw Mike Sass [write about his writing mannerisms](https://shellsharks.com/wri
 
 - Post and header titles are styled in title case, or as written in the source when referencing.
 
-- Use modern punctuation. "?!" becomes an interrobang: "‽".
+- Use modern punctuation. '?!' becomes an interrobang: '‽'.
 
 - Items in lists follow sentence case, and
 

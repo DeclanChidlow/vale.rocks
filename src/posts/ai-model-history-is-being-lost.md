@@ -49,7 +49,7 @@ Whether you like artificial intelligence or not, it has influence on our culture
 
 Should somebody wish to test, compare, or document the progress of AI, they're limited. Benchmarking progress and understanding development paths for research purposes is important. An independent cannot compare a retired model to a new one.
 
-There is a risk of 'technological amnesia' where we lose context for how we arrived at current AI capabilities and the failings that have already been identified. As the quote goes, "Those who cannot remember the past are condemned to repeat it."
+There is a risk of 'technological amnesia' where we lose context for how we arrived at current AI capabilities and the failings that have already been identified. As the quote goes, 'Those who cannot remember the past are condemned to repeat it.'
 
 Being able to simply retire models and have them disappear also reduces accountability by removing access to that which may provide bad press and leaving third parties unable to track biases and behaviours across generations of models.
 
@@ -61,7 +61,7 @@ Completely retiring models also makes them unavailable as artefacts from a cultu
 
 ## Solutions
 
-Johnson and Obradovich argue that it could be ensured that "commercial developers of LLMs do not face penalties for providing ongoing access to outdated models" and that models could be deployed upon request and "Users, reasonably, would need to fund this monitoring and pay the costs associated with gaining access to outdated models." As they note, this cost would introduce a barrier to entry likely sufficient to prevent issues with people using models without appropriate reason.
+Johnson and Obradovich argue that it could be ensured that 'commercial developers of LLMs do not face penalties for providing ongoing access to outdated models' and that models could be deployed upon request and 'Users, reasonably, would need to fund this monitoring and pay the costs associated with gaining access to outdated models.' As they note, this cost would introduce a barrier to entry likely sufficient to prevent issues with people using models without appropriate reason.
 
 While they are reasonable suggestions, I don't think they are realistic suggestions.
 

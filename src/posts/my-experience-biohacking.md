@@ -13,7 +13,7 @@ Among the many _bleeding_-edge modifications that have come about in recent year
 
 ## Why?
 
-As my grandmother has taken to asking me, "But _why_ is it necessary?". Well, it obviously isn't strictly _necessary_, but it is cool as heck. There are two main benefits that can be sourced from a magnet implant: sensing and lifting.
+As my grandmother has taken to asking me, 'But _why_ is it necessary?'. Well, it obviously isn't strictly _necessary_, but it is cool as heck. There are two main benefits that can be sourced from a magnet implant: sensing and lifting.
 
 Lifting is the easiest to understand. Magnets stick to ferrous objects, and thus ferrous objects can be lifted. As magnetic field strength decreases inversely with the cube of the distance from the magnet's centre, and flesh has thickness, [^1] the lifting ability of subdermal implants is limited.
 
@@ -123,7 +123,7 @@ More magnets? Almost certainly not. As wonderful as it would be, the most likely
 
 More body mods? Most likely in the future. If I ever find myself in frequent interaction with an RFID/NFC access control system, I'd consider some form of short field communication chip. I'd also really like a payment chip, though they aren't feasible in Australia currently, and when they are, I'd fear of technological innovation leaving me with an obsolete implant that I'd have to get removed.
 
-I must say, I would find something quite comical about being able to say, "My hand has 1 kB of user-writable memory" in total seriousness, though.
+I must say, I would find something quite comical about being able to say, 'My hand has 1 kB of user-writable memory' in total seriousness, though.
 
 ### How do you get it out?
 

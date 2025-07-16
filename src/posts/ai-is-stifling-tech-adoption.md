@@ -35,7 +35,7 @@ Consider a developer working with a cutting-edge JavaScript framework released j
 
 I've anecdotally noticed that many AI tools have a 'preference' for React and Tailwind when asked to tackle a web-based task or even to create any app involving an interface at all.
 
-With Claude 3.5 Sonnet, which is generally my AI offering of choice given its superior coding ability, my "What personal preferences should Claude consider in responses?" profile setting includes the line "When writing code, use vanilla HTML/CSS/JS unless otherwise noted by me". Despite this, Claude will _frequently_ opt to generate new code with React, and in some occurrences even rewrite my existing code into React against my intent and without my consultation.
+With Claude 3.5 Sonnet, which is generally my AI offering of choice given its superior coding ability, my 'What personal preferences should Claude consider in responses?' profile setting includes the line 'When writing code, use vanilla HTML/CSS/JS unless otherwise noted by me'. Despite this, Claude will _frequently_ opt to generate new code with React, and in some occurrences even rewrite my existing code into React against my intent and without my consultation.
 
 While Anthropic [publishes Claude's core system prompts](https://docs.anthropic.com/en/release-notes/system-prompts), they do not publish the system prompts of specific features, such as artifacts. However, a [leaked system prompt](https://github.com/jujumilk3/leaked-system-prompts/blob/main/claude-artifacts_20240620.md) for Claude's artifacts feature shows that both React and Tailwind are specifically mentioned with explicit instruction on how they should be handled. It also specifically mentions the diagramming tool [Mermaid](http://mermaid.js.org) and a set of React libraries, including [Recharts](https://recharts.org), [shadcn/ui](https://ui.shadcn.com), and [Lucide icons](https://lucide.dev), as well as [Cloudflare's cdnjs](https://cdnjs.cloudflare.com).
 
@@ -51,7 +51,7 @@ It does provide a choice, but chances are someone will select [the path of least
 
 ### Testing
 
-To test if popular models do have built-in bias for React, I logged into the web interfaces of four of the current most popular AI chat platforms[^1] via my free accounts and asked the models to "Create me a web app. It can do anything.". I repeated this with each of the four models three times in fresh chats with previous chats deleted and any shared context (such as ChatGPT's memory feature) disabled or cleared between each test. I performed these tests in early February 2025.
+To test if popular models do have built-in bias for React, I logged into the web interfaces of four of the current most popular AI chat platforms[^1] via my free accounts and asked the models to 'Create me a web app. It can do anything'. I repeated this with each of the four models three times in fresh chats with previous chats deleted and any shared context (such as ChatGPT's memory feature) disabled or cleared between each test. I performed these tests in early February 2025.
 
 I asked Anthropic's Claude 3.5 Sonnet with blank personal preferences and artifacts enabled. The first time it opted to create a mood tracking app, the second a reading list manager, and the third time a to-do list. Each time it chose to generate it using React with Tailwind CSS for styling. It generated each project in an artifact which offered an interactive preview directly in the interface.
 
