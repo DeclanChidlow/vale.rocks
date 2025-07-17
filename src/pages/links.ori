@@ -1,4 +1,4 @@
-(blogs, tools-and-resources, podcasts, miscellaneous) => main_template.ori({
+(blogs, tools-and-resources, podcasts, video-channels, miscellaneous) => main_template.ori({
 	title: "Links"
 	description: "A curated collection of intriguing and valuable links I've discovered while surfing the web, plus a selection of delightfully offbeat YouTube oddities."
 	og_description: "Links to various other places of interest or note on the 'net."
@@ -9,12 +9,13 @@
 `<h1 class="section" data-pagefind-filter="Content Type">Links</h1>
 
 <div class="readable">
-	<p><a href="/micros/20250207-0824">It’s a beautiful web</a> and my site shouldn't be a dead end, so this is a huge curated collection of ${ (blogs, tools-and-resources, podcasts, miscellaneous) →	=[...blogs, ...tools-and-resources, ...podcasts, ...miscellaneous]/length } intriguing and valuable links I've discovered while surfing the web. A link's existence here does not necessarily indicate endorsement, but it does indicate that something about it snagged on my brain.</p>
+	<p><a href="/micros/20250207-0824">It’s a beautiful web</a> and my site shouldn't be a dead end, so this is a huge curated collection of ${ (blogs, tools-and-resources, podcasts, video-channels, miscellaneous) →	=[...blogs, ...tools-and-resources, ...podcasts, ...video-channels, ...miscellaneous]/length } intriguing and valuable links I've discovered while surfing the web. A link's existence here does not necessarily indicate endorsement, but it does indicate that something about it snagged on my brain.</p>
 
 	<ul>
-		<li><a href="/links/blogs">Blogs</a> (${ blogs/length } links)</li>
+		<li><a href="/links/blogs">Blogs</a> (${ blogs/items/length } links)</li>
 		<li><a href="/links/tools-and-resources">Tools and Resources</a> (${ tools-and-resources/length } links)</li>
-		<li><a href="/links/podcasts">Podcasts</a> (${ podcasts/length } links)</li>
+		<li><a href="/links/podcasts">Podcasts</a> (${ podcasts/items/length } links)</li>
+		<li><a href="/links/video-channels">Video Channels</a> (${ video-channels/items/length } links)</li>
 		<li><a href="/links/miscellaneous">Miscellaneous</a> (${ miscellaneous/length } links)</li>
 	</ul>
 

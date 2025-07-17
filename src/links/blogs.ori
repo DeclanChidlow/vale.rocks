@@ -15,7 +15,7 @@
 	<p>An <a href="/links/blogs.opml" download>OPML file</a> is generated from this list and includes sites with available syndication feeds.</p>
 
 	<ul>
-		${ blogs
+		${ blogs/items
 		→ =map(_, (link) =>
 		`<li>
 			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }

@@ -75,11 +75,14 @@
 		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
 	}
 
-	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/miscellaneous.yaml)
+	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
 	"links/blogs.html" = ./links/blogs.ori(./links/blogs.yaml)
-	"links/blogs.opml" = ./links/blogs_opml.ori(./links/blogs.yaml)
+	"links/blogs.opml" = ./links/opml.ori(./links/blogs.yaml)
 	"links/tools-and-resources.html" = ./links/tools-and-resources.ori(./links/tools-and-resources.yaml)
 	"links/podcasts.html" = ./links/podcasts.ori(./links/podcasts.yaml)
+	"links/podcasts.opml" = ./links/opml.ori(./links/podcasts.yaml)
+	"links/video-channels.html" = ./links/video-channels.ori(./links/video-channels.yaml)
+	"links/video-channels.opml" = ./links/opml.ori(./links/video-channels.yaml)
 	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 
 	(paginated_firehose) = paginate(firehose_data.ori, 30)
@@ -90,6 +93,6 @@
 	})
 
 	pagefind = once(=package:@weborigami/pagefind({
-		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/podcasts.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
+		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/podcasts.html", "links/video-channels.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
 	}))
 }

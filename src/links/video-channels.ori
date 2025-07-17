@@ -1,0 +1,23 @@
+(channels) => main_template.ori({
+	title: "Video Channel Links"
+	description: "A collection of channels publishing video that I find to be of interest."
+	og_description: "Links to my favourite channels."
+	stylesheet: "pages/links.css"
+	canonical: "/links/video-channels"
+
+@text:
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
+
+<div class="readable">
+	<h1>Video Channels</h1>
+
+	<p>These are ${ channels/length } channels which produce videos I enjoy watching.</p>
+
+	<ul>
+		${ channels/items
+		→ =map(_, (link) =>
+		`<li>
+			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
+		</li>`) }
+	</ul>
+</div>`})

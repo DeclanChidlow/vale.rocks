@@ -1,15 +1,24 @@
-- title: Shoptalk
-  url: shoptalkshow.com
-  description: Discussion of building websites with Dave Rupert and Chris Coyier.
-- title: Unfinished Business
-  url: unfinished.bz
-  description: Design discussion from Andy Clarke and Richard Rutter.
-- title: Future Knowledge
-  url: futureknowledge.transistor.fm
-  description: Technology, culture, and information policy.
-- title: The CSS Podcast
-  url: thecsspodcast.libsyn.com
-  description: Breakdowns and discussions of CSS.
-- title: Dwarkesh
-  url: www.dwarkesh.com
-  description: Deeply researched interviews with intellectuals of varying celebrity.
+title: Vale's Podcast OPML
+pubTime: 17 Jul 2025 00:00:00 +0000
+modTime: 17 Jul 2025 00:00:00 +0000
+items:
+  - title: Shoptalk
+    url: shoptalkshow.com
+    rss: shoptalkshow.com/feed/podcast/default-podcast/
+    description: Discussion of building websites with Dave Rupert and Chris Coyier.
+  - title: Unfinished Business
+    url: unfinished.bz
+    rss: feeds.simplecast.com/FRQZxP6k
+    description: Design discussion from Andy Clarke and Richard Rutter.
+  - title: Future Knowledge
+    url: futureknowledge.transistor.fm
+    rss: feeds.transistor.fm/futureknowledge
+    description: Technology, culture, and information policy.
+  - title: Dwarkesh
+    url: www.dwarkesh.com
+    rss: api.substack.com/feed/podcast/69345.rss
+    description: Deeply researched interviews with intellectuals of varying celebrity.
+  - title: The Shellsharks Podcast
+    url: shellsharks.com/podcast
+    rss: podcast.shellsharks.com/@ShellsharksPodcast/feed.xml
+    description: All things infosec, technology and life in general.
