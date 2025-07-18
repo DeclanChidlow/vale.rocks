@@ -4,6 +4,7 @@
 	og_description: "Links to tools and resources of interest or note."
 	stylesheet: "pages/links.css"
 	canonical: "/links/tools-and-resources"
+	template_image: "links"
 
 @text:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>

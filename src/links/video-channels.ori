@@ -4,6 +4,7 @@
 	og_description: "Links to my favourite channels."
 	stylesheet: "pages/links.css"
 	canonical: "/links/video-channels"
+	template_image: "links"
 
 @text:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>

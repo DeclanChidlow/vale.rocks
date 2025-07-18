@@ -1,6 +1,6 @@
-title: Vale's Blog OPML
+title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 17 Jul 2025 00:00:00 +0000
+modTime: 18 Jul 2025 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -267,8 +267,8 @@ items:
     rss: shellsharks.com/feeds/feed.xml
     description: Information security, technology, and life.
   - title: Scrolls
-    url: https://shellsharks.com/scrolls
-    rss: https://shellsharks.com/feeds/scroll-feed.xml
+    url: shellsharks.com/scrolls
+    rss: shellsharks.com/feeds/scroll-feed.xml
     description: IndieWeb and Fediverse with a splash of Cybersecurity.
   - title: In Two Minds
     url: intwominds.blog
@@ -513,3 +513,7 @@ items:
     url: www.kryogenix.org/days/
     rss: www.kryogenix.org/days/feed
     description: Technology and web development.
+  - title: Tom Scott's Weekly Newsletter
+    url: www.tomscott.com/newsletter/
+    rss: www.tomscott.com/updates.xml
+    description: Interesting things from the web.

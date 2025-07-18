@@ -1,11 +1,11 @@
-title: Vale's Video Channel OPML
+title: Vale's Video Channel Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 17 Jul 2025 00:00:00 +0000
+modTime: 18 Jul 2025 00:00:00 +0000
 items:
   - title: Redlyne
     url: www.youtube.com/@Redlyne_
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCPD7FU73S_mMMsxSr03oOSQ
-    description: Explorations of old, abandoned web, and off-beat gaming.
+    description: Explorations of the old, abandoned web, and off-beat gaming.
   - title: Nerrel
     url: www.youtube.com/@Nerrel
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCZKyj7wDE51SMbkrRBT6SdA
@@ -17,7 +17,7 @@ items:
   - title: HGModernism
     url: www.youtube.com/@HGModernism
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCX60pqsaaAPFh2sUZEaNKJA
-    description: In-depth science-y stuff
+    description: In-depth science-y stuff.
   - title: Becca Farsace
     url: www.youtube.com/@BeccaFarsace
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCEbFX3P9ADiJvle5Z0Qyw2A
@@ -97,7 +97,11 @@ items:
   - title: Ed Pratt
     url: www.youtube.com/@EdPratt
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCuNy42Y5egf07cSiHbF23wg
-    description: Outdoor adventurer.
+    description: Outdoor adventuring.
+  - title: This Does Not Compute
+    url: www.youtube.com/@ThisDoesNotCompute
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCEp20NgOZHmgWdbQdHSxgjw
+    description: Vintage technology, tech reviews, and DIY projects.
   - title: Hyperplexed
     url: www.youtube.com/@Hyperplexed
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCmEzz-dPBVrsy4ZluSsYHDg
@@ -113,7 +117,7 @@ items:
   - title: Juxtopposed
     url: www.youtube.com/@juxtopposed
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCa8W2_uf81Ew6gYuw0VPSeA
-    description: UI redesign concepts. 
+    description: UI redesign concepts.
   - title: Sebastian Lague
     url: www.youtube.com/@SebastianLague
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCmtyQOKKmrMVaKuRXz02jbQ
@@ -121,7 +125,7 @@ items:
   - title: Zack Freedman
     url: www.youtube.com/@ZackFreedman
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCUW49KGPezggFi0PGyDvcvg
-    description: Gabbing gadget guru gossips gadgetry.
+    description: Gabbing gadget guru gossips gizmos.
   - title: Psivewri
     url: www.youtube.com/@psivewri
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCOxmlaJURX3nq8eLuJPbl3A
@@ -130,6 +134,10 @@ items:
     url: www.youtube.com/@SummoningSalt
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w
     description: Highly engaging speedrunning documentaries.
+  - title: Applied Science
+    url: www.youtube.com/@AppliedScience
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCivA7_KLKWo43tFcCkFvydw
+    description: Interesting applications of science and technology.
   - title: The Science Elf
     url: www.youtube.com/@TheScienceElf
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCCrnCItH17W-64FDzjwOi5w
@@ -138,6 +146,10 @@ items:
     url: www.youtube.com/@f4micom
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCSWMraguMlNanVQgseTTr_Q
     description: Obscure consumer technology.
+  - title: Tom Scott
+    url: www.youtube.com/@TomScottGo
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A
+    description: www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A
   - title: hbomberguy
     url: www.youtube.com/@hbomberguy
     rss: www.youtube.com/feeds/videos.xml?channel_id=UClt01z1wHHT7c5lKcU8pxRQ
@@ -157,11 +169,15 @@ items:
   - title: Guldies
     url: www.youtube.com/@Guldies
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCHjVCR-fV_X789MsE7GRFqQ
-    description: Stop motion animations
+    description: Stop motion animations.
   - title: Captain Disillusion
     url: www.youtube.com/@CaptainDisillusion
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCEOXxzW2vU0P-0THehuIIeg
-    description: Debunking and analysis of fake viral content.
+    description: Super high effort debunking and analysis of fake viral content.
+  - title: NileRed
+    url: www.youtube.com/@NileRed
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCFhXFikryT4aFcLkLw2LBLA
+    description: Questionable chemistry.
   - title: Ami Yamato
     url: www.youtube.com/@AmiYamato
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCdDpQ461uxNA3odAnpuigAg
@@ -201,7 +217,15 @@ items:
   - title: Synthet
     url: www.youtube.com/@synthet7
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCdbetV_5wxUnBTdb_d51qoA
-    description: Short music theory teachings.
+    description: Short music production teachings.
+  - title: Ancient
+    url: www.youtube.com/@ancientjames
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCkZ0oaERRze5DvzaYjrevZg
+    description: Impressive technological/engineering projects.
+  - title: Cymaera
+    url: www.youtube.com/@heledron
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCW9KvoeUz2CsBwIGh3ux1ew
+    description: Pushing the limits of what is possible in Minecraft.
   - title: DIY Perks
     url: www.youtube.com/@DIYPerks
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw
@@ -214,6 +238,10 @@ items:
     url: www.youtube.com/@brycedotco
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCvW5ZYoNR2fkn0xkanZKdWA
     description: iOS Development and Reverse Engineering.
+  - title: Sam O'Nella Academy
+    url: www.youtube.com/@SamONellaAcademy
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UC1DTYW241WD64ah5BFWn4JA
+    description: History.
   - title: truongsauce
     url: www.youtube.com/@truongsauce
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCfE0Vl54BFskyxpN2u85Zag
@@ -221,8 +249,20 @@ items:
   - title: The Thought Emporium
     url: www.youtube.com/@thethoughtemporium
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCV5vCi3jPJdURZwAOO_FNfQ
-    description: Manipulating science in a way forbidden by god.
+    description: Manipulating science in ways forbidden by god.
   - title: Garbage Time
     url: www.youtube.com/@GarbageTime420
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCHdpnvKJDijKNe2caIasnww
     description: Torture of motor vehicles.
+  - title: Chris Jones
+    url: www.youtube.com/@chrisjonestube
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCNZ69Kmb3EBMfaMk1x3OsMw
+    description: Extraordinary 3D experiments.
+  - title: Raycevick
+    url: www.youtube.com/@Raycevick
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UC1JTQBa5QxZCpXrFSkMxmPw
+    description: Game reviews of great depth.
+  - title: Ahoy
+    url: www.youtube.com/@XboxAhoy
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCE1jXbVAGJQEORz9nZqb5bQ
+    description: Insightful gaming videos.
