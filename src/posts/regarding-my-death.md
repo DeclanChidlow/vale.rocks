@@ -91,6 +91,6 @@ Any and all of my content published externally to this site should remain under 
 
 — Daniel Keyes
 
-死は生の一部であ. Back to the void I shall return. To `/dev/null` I shall go.
+死は生の一部である. Back to the void I shall return. To `/dev/null` I shall go.
 
 [^1]: If my body ends up at some medical school or the likes, students are welcome to play with it.
