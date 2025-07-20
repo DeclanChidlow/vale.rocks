@@ -1,13 +1,13 @@
 ---
 title: An Inventory of Lexical Loves
-description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion. Including quality terms including defenestration, vellichor, contronym, bloviate, and schlock.
+description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-05-19
+mod_time: 2025-07-20
 section: Essay
 ---
 
-I love words and the English language [^1] happens to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
+I love words and languages [^1] seem to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
 
 The extremely savvy reader could perhaps surmise what media I have been consuming, particularly what books I've been reading, based on the order of certain words outlined here or the mere occurrence of some of the more obscure inclusions.
 
@@ -31,7 +31,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>Caught up in grandiose ideas or goals that are beyond realistics or practicality.</dd>
 
 <dt>Vellichor</dt>
-<dd>That feeling of being in a used bookstore.</dd>
+<dd>That feeling of being in a used bookshop.</dd>
 
 <dt>Abscond</dt>
 <dd>To flee swiftly and secretly. Absconding is commonly done with biscuits or other sweet treats one isn't supposed to have.</dd>
@@ -71,6 +71,9 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Flummox</dt>
 <dd>To completely and absolutely perplex.</dd>
+
+<dt>Malarkey</dt>
+<dd>Nonsense.</dd>
 
 <dt>Contronym</dt>
 <dd>A word describing words with two conflicting meanings.</dd>
@@ -151,7 +154,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dd>A general and vague sense of uneasiness.</dd>
 
 <dt>Palimpsest</dt>
-<dd>An document where the original content has been removed and new content has been put in its place. Depending on definition, the original content may still be legible.</dd>
+<dd>A document where the original content has been removed and new content has been put in its place. Depending on definition, the original content may still be legible.</dd>
 
 <dt>Petrichor</dt>
 <dd>The smell of rain hitting dry soil; the scent of rain.</dd>
@@ -176,6 +179,45 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Confabulation</dt>
 <dd>A fabricated or distorted memory believed to be genuine.</dd>
+
+<dt><ruby>木漏れ日<rp>(</rp><rt>Komorebi</rt><rp>)</rp></ruby></dt>
+<dd>The splotches of sunlight that come through tree leaves.</dd>
+
+<dt>Synecdoche</dt>
+<dd>When a part of something is used to represent the whole (or vice versa).</dd>
+
+<dt>Verisimilitude</dt>
+<dd>A resemblance of truth, often while not being true.</dd>
+
+<dt>Philocaly</dt>
+<dd>Admiration of beauty.</dd>
+
+<dt>Iconoclast</dt>
+<dd>One who attacks a belief such as a religion.</dd>
+
+<dt>Schmutz</dt>
+<dd>A spot of dirt or grime.</dd>
+
+<dt>Lethologica</dt>
+<dd>The inability to remember the correct word. Usually having the word on the tip of one's tongue.</dd>
+
+<dt>Sonder</dt>
+<dd>The feeling of realisation that everyone else has a life as complex as one's own.</dd>
+
+<dt>Funk</dt>
+<dd>A very versatile word meaning interesting, cool, peculiar, smelly, or all of those at once. 'That's funky' could quite reasonably be said about a song or the mould growing on a dead rat. It is great fun to say, especially when putting emphasis throughout it. Fuhnghk.</dd>
 </dl>
 
-[^1]: I'm obviously speaking of the _proper_ English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version.
+## Words I Dislike
+
+In the same vein that there are many words I love, there are a few I dislike. I dislike them not for their definitions, but for what they are. For instance, I'm not a fan of pus but don't dislike pus as a word.
+
+<dl>
+<dt>Brouhaha, Hubbub, & Hullabaloo</dt>
+<dd>All meaning an uproar or confused commotion. I hate the way they sound when said aloud as well as how they're spelt.</dd>
+
+<dt>Champ, Sport, & Bud</dt>
+<dd>Informal terms used to address someone. They are all incredibly patronising, condescending, and disgustingly chummy.</dd>
+</dl>
+
+[^1]: Most of these words are from the English language -- the one where colour is spelt with a 'u' -- _not_ the simplified version, though some are sourced from elsewhere.
