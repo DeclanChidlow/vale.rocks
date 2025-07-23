@@ -296,8 +296,12 @@ items:
     description: Web development with a focus on accessible and inclusive design.
   - title: Elliot Jay Stocks
     url: elliotjaystocks.com
-    rss: elliotjaystocks.com/feed.xml
+    rss: elliotjaystocks.com/blog.xml
     description: Design and typography.
+  - title: Typographic and Sporadic
+    url: elliotjaystocks.com/newsletter
+    rss: elliotjaystocks.com/newsletter.xml
+    description: Typography.
   - title: Max Böck
     url: mxb.dev
     rss: mxb.dev/feed.xml
@@ -384,6 +388,10 @@ items:
     atom: ellyloel.com/feed.atom
     json: ellyloel.com/feed.json
     description: Web development, accessibility, and industry analysis.
+  - title: Dan Luu
+    url: danluu.com
+    atom: danluu.com/atom.xml
+    description: Deep dives into performance, systems, and assorted technology.
   - title: Paul Kinlan
     url: paul.kinlan.me
     rss: paul.kinlan.me/index.xml
