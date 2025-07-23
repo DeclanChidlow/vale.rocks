@@ -291,7 +291,7 @@ items:
     description: Technical web development.
   - title: Eric Bailey
     url: ericwbailey.website
-    atom: ericwbailey.website/feed/feed.json
+    atom: ericwbailey.website/feed/feed.xml
     json: ericwbailey.website/feed/feed.json
     description: Web development with a focus on accessible and inclusive design.
   - title: Elliot Jay Stocks
