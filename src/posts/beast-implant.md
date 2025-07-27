@@ -18,7 +18,7 @@ As someone who is not religious (beyond dabbling a bit with our lord and saviour
 
 The Book of Revelation (or alternatively, Book of the Apocalypse, or Apocalypse of John) is the final book of the Christian Bible's New Testament. It chronicles the appearance of Satan and his bringing about of two beasts. One that rises from the sea and another that rises from the Earth and acts as a false prophet who performs miracles to deceive people into worshipping the first beast. It concludes with Satan, the beasts, and all who bear the mark being defeated when Christ returns. They are thrown into the lake of fire, and God establishes His eternal kingdom for the faithful. To quote the relevant sections:
 
-Revelation 13 verses 15 to 17 say:
+Revelation 13 verses 15 to 18 say:
 
 > <sup>15</sup> It was given to him to give breath to the image of the beast, that the image of the beast should both speak, and cause as many as wouldn’t worship the image of the beast to be killed. <sup>16</sup> He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads; <sup>17</sup> and that no one would be able to buy or to sell unless he has that mark, which is the name of the beast or the number of his name. <sup>18</sup> Here is wisdom. He who has understanding, let him calculate the number of the beast, for it is the number of a man. His number is six hundred sixty-six.
 
