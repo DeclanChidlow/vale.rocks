@@ -16,15 +16,17 @@ As someone who is not religious (beyond dabbling with our lord and saviour the F
 
 ## Biblical Source
 
-The Book of Revelation (or alternatively, Book of the Apocalypse, or Apocalypse of John) is the final book of the Bible's New Testament. It chronicles the appearance of Satan and his bringing about of two beasts. One that rises from the sea and another that rises from the Earth and acts as a false prophet who performs miracles to deceive people into worshipping the first beast. It concludes with Satan, the beasts, and all who bear the mark being defeated when Christ returns. They are thrown into the lake of fire, and God establishes His eternal kingdom for the faithful. To quote the relevant sections:
+The Book of Revelation (or alternatively, Book of the Apocalypse, or Apocalypse of John) is the final book of the Bible's New Testament. It chronicles the appearance of Satan and his empowering of two beasts. One with ten horns and seven heads that rises from the sea and another that speaks like a dragon, has two horns, and rises from the Earth, acting as a false prophet who performs miraculous signs to deceive people into worshipping the first beast.
+
+This second beast also introduces 'the mark of the beast', required to buy or sell. The book culminates with Satan, the beasts, and all who bear the mark being defeated when Christ returns. They are cast into the lake of fire, and God establishes His eternal kingdom for the faithful. To quote the relevant sections:
 
 Revelation 13 verses 15 to 18 say:
 
 > <sup>15</sup> It was given to him to give breath to the image of the beast, that the image of the beast should both speak, and cause as many as wouldn’t worship the image of the beast to be killed. <sup>16</sup> He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads; <sup>17</sup> and that no one would be able to buy or to sell unless he has that mark, which is the name of the beast or the number of his name. <sup>18</sup> Here is wisdom. He who has understanding, let him calculate the number of the beast, for it is the number of a man. His number is six hundred sixty-six.
 
-Revelation 14 verse 9 says:
+Revelation 14 verses 9 to 11 say:
 
-> <sup>9</sup> Another angel, a third, followed them, saying with a great voice, “If anyone worships the beast and his image, and receives a mark on his forehead or on his hand,
+> <sup>9</sup> Another angel, a third, followed them, saying with a great voice, “If anyone worships the beast and his image, and receives a mark on his forehead or on his hand, <sup>10</sup> he also will drink of the wine of the wrath of God, which is prepared unmixed in the cup of his anger. He will be tormented with fire and sulfur in the presence of the holy angels and in the presence of the Lamb. <sup>11</sup> The smoke of their torment goes up forever and ever. They have no rest day and night, those who worship the beast and his image, and whoever receives the mark of his name.
 
 And Revelation 20 verse 4 says:
 
