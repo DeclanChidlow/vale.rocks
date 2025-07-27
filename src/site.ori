@@ -2,6 +2,7 @@
 	assets
 	.well-known
 	opensearch.xml
+	robots.txt
 	app.webmanifest
 
 	(markdown_pages): {
