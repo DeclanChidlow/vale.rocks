@@ -51,7 +51,7 @@ class ScrollProgressIndicator {
 		this.horizontalCloseButton.className = "close";
 		this.horizontalCloseButton.setAttribute("aria-label", "Close table of contents");
 		this.horizontalCloseButton.setAttribute("popovertarget", "toc-menu");
-		this.horizontalCloseButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Close lightbox</title><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`;
+		this.horizontalCloseButton.innerHTML = `<svg viewBox="0 -960 960 960"><title>Close lightbox</title><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`;
 
 		this.horizontalContainer.appendChild(this.horizontalPercentageDiv);
 		this.horizontalContainer.appendChild(this.headersList);

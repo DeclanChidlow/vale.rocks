@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener("DOMContentLoaded", () => {
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
 	const searchString = urlParams.get("q");

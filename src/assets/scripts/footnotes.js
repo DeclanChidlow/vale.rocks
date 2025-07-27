@@ -105,7 +105,7 @@ class FootnotesSidenotes {
 
 		window.addEventListener("load", updatePosition);
 		window.addEventListener("resize", updatePosition);
-		popover.addEventListener("toggle", (e) => {
+		popover.addEventListener("toggle", () => {
 			if (popover.matches(":popover-open")) {
 				this.positionPopover(popover, button);
 			}
