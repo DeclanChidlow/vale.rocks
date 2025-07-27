@@ -1,0 +1,2 @@
+Contact: https://vale.rocks/contact
+Canonical: https://vale.rocks/.well-known/security.txt
