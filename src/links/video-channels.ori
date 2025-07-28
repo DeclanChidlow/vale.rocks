@@ -12,7 +12,7 @@
 <div class="readable">
 	<h1>Video Channels</h1>
 
-	<p>These are ${ channels/length } channels which produce videos I enjoy watching.</p>
+	<p>These are ${ channels/items/length } channels which produce videos I enjoy watching.</p>
 	<p>An <a href="/links/video-channels.opml" download>OPML file</a> is generated from this list for convenient subscribing.</p>
 
 	<ul>
