@@ -9,7 +9,7 @@
 `<h1 class="section" data-pagefind-filter="Content Type">Links</h1>
 
 <div class="readable">
-	<p><a href="/micros/20250207-0824">It’s a beautiful web</a> and my site shouldn't be a dead end, so this is a huge curated collection of ${ (blogs, tools-and-resources, podcasts, video-channels, miscellaneous) →	=[...blogs, ...tools-and-resources, ...podcasts, ...video-channels, ...miscellaneous]/length } intriguing and valuable links I've discovered while surfing the web. A link's existence here does not necessarily indicate endorsement, but it does indicate that something about it snagged on my brain.</p>
+	<p><a href="/micros/20250207-0824">It’s a beautiful web</a> and my site shouldn't be a dead end, so this is a huge curated collection of ${ blogs/items/length + tools-and-resources/length + podcasts/items/length + video-channels/items/length + miscellaneous/length } intriguing and valuable links I've discovered while surfing the web. A link's existence here does not necessarily indicate endorsement, but it does indicate that something about it snagged on my brain.</p>
 
 	<ul>
 		<li><a href="/links/blogs">Blogs</a> (${ blogs/items/length } links)</li>
