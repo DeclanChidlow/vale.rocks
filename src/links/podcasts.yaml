@@ -22,3 +22,7 @@ items:
     url: shellsharks.com/podcast
     rss: podcast.shellsharks.com/@ShellsharksPodcast/feed.xml
     description: All things infosec, technology and life in general.
+  - title: CodePen Radio
+    url: blog.codepen.io/radio
+    rss: blog.codepen.io/feed/podcast/codepen-radio/
+    description: The CodePen team discussing running a web software business.
