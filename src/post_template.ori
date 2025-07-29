@@ -39,7 +39,7 @@
 		</div>
 	</article>
 
-	<section class="giscus readable"></section>
+	<section class="giscus readable" id="comment-section"></section>
 </div>
 
 <script

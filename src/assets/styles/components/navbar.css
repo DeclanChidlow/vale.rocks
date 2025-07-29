@@ -165,11 +165,6 @@ body:has(#popover-menu:popover-open) {
 	}
 }
 
-.sidebar {
-	margin-right: -3rem;
-	padding-right: 3rem;
-}
-
 #scroll-container {
 	display: none; /* Set to block in JS */
 	position: sticky;
@@ -229,10 +224,18 @@ body:has(#popover-menu:popover-open) {
 	}
 }
 
+.heading-marker-container {
+	opacity: 0;
+	visibility: hidden;
+	transition:
+		opacity 0.25s ease,
+		visibility 0.25s;
+}
+
 .heading-label,
 .scroll-percentage {
 	display: block;
-	opacity: 0;
+	opacity: 1;
 	visibility: hidden;
 	width: 7rem;
 	margin-left: 1rem;
@@ -240,17 +243,26 @@ body:has(#popover-menu:popover-open) {
 	font-size: 0.8rem;
 	transform: translateY(-50%);
 	filter: blur(0.5rem);
-	transition:
-		opacity 0.25s ease,
-		filter 0.25s ease,
-		visibility 0.25s;
+	transition: filter 0.25s ease;
 }
 
-.sidebar:focus-within :where(.heading-label, .scroll-percentage),
-.sidebar:hover :where(.heading-label, .scroll-percentage) {
-	opacity: 1;
-	visibility: visible;
-	filter: blur(0);
+.sidebar {
+	margin-right: -3rem;
+	padding-right: 3rem;
+
+	&:focus-within .heading-marker-container,
+	&:hover .heading-marker-container {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	&:focus-within .heading-label,
+	&:hover .heading-label,
+	&:focus-within .scroll-percentage,
+	&:hover .scroll-percentage {
+		filter: blur(0);
+		visibility: visible;
+	}
 }
 
 #toc-menu {
@@ -300,4 +312,8 @@ html:has(#toc-menu:popover-open) {
 #scroll-container:has(#toc-menu:popover-open),
 #scroll-container:has(#toc-menu:popover-open) .heading-indicator {
 	top: var(--toc-height);
+}
+
+.comment-marker {
+	top: 100%;
 }
