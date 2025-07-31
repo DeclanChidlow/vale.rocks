@@ -40,14 +40,37 @@ main > div {
 			background: -webkit-linear-gradient(var(--bright_white), var(--yellow));
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
+
+			&:hover {
+				-webkit-text-fill-color: var(--black);
+				-webkit-background-clip: unset;
+			}
 		}
 
 		em {
+			display: inline-block;
 			font-weight: 200;
+			font-style: oblique 13deg;
+			transition: font-style 0.15s;
+
+			&::first-letter {
+				font-feature-settings: "swsh";
+			}
+
+			&:hover {
+				font-style: oblique -13deg;
+			}
 		}
 
 		.without {
-			text-decoration: underline wavy var(--magenta);
+			display: inline-block;
+			line-height: 0.9;
+			border-block-end: dashed 0.5rem var(--magenta);
+			transition: border 0.3s;
+
+			&:hover {
+				border-block-end: solid 5rem var(--magenta);
+			}
 		}
 	}
 }
@@ -107,6 +130,15 @@ section.tools-and-technologies {
 		.reverse {
 			animation-direction: reverse;
 		}
+	}
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-100% - var(--gap)));
 	}
 }
 
@@ -179,13 +211,4 @@ section.showcase a {
 
 section.contact {
 	margin-block-end: 0;
-}
-
-@keyframes scroll {
-	from {
-		transform: translateX(0);
-	}
-	to {
-		transform: translateX(calc(-100% - var(--gap)));
-	}
 }

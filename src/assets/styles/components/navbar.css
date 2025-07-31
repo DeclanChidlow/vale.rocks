@@ -256,10 +256,8 @@ body:has(#popover-menu:popover-open) {
 		visibility: visible;
 	}
 
-	&:focus-within .heading-label,
-	&:hover .heading-label,
-	&:focus-within .scroll-percentage,
-	&:hover .scroll-percentage {
+	&:focus-within :where(.heading-label, .scroll-percentage),
+	&:hover :where(.heading-label, .scroll-percentage) {
 		filter: blur(0);
 		visibility: visible;
 	}

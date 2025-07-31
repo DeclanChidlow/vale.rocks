@@ -7,7 +7,7 @@
         "@weborigami/origami": "^0.3.3",
         "@weborigami/pagefind": "0.0.5",
         "highlight.js": "^11.11.1",
-        "marked": "^16.0.0",
+        "marked": "^16.1.1",
         "marked-alert": "^2.1.2",
         "marked-base-url": "^1.1.7",
         "marked-footnote": "^1.4.0",
