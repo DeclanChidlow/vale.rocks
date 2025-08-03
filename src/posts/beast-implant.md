@@ -6,7 +6,7 @@ pub_time: 2025-07-27
 section: Essay
 ---
 
-I've posted a few videos showcasing my [subdermal magnet implant](/posts/my-biohacking-experience) to YouTube. The concept of having a magnet implanted in one's hand is decidedly odd, but not too outrageous. My videos are fairly tame, featuring novel showcases such as [turning off my laptop](/videos/laptop-sleep-mode-with-magnet-implant), among other things that aren't adequately conveyed with text.
+I've posted a few videos showcasing my [subdermal magnet implant](/posts/my-experience-biohacking) to YouTube. The concept of having a magnet implanted in one's hand is decidedly odd, but not too outrageous. My videos are fairly tame, featuring novel showcases such as [turning off my laptop](/videos/laptop-sleep-mode-with-magnet-implant), among other things that aren't adequately conveyed with text.
 
 The YouTube Shorts algorithm picked them up, and they've netted several thousand views from an audience I haven't previously had much interaction with, as I [mainly publish in text](/posts/why-not-video). No doubt the primary audience of brief, visual, and entertaining YouTube Shorts are very different to the audience of the long, informative, and verbose writings I generally publish on this site.
 
