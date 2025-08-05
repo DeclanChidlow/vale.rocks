@@ -10,7 +10,7 @@ My grandmother, Pamela Maitland Carter, has been writing poetry and painting for
 
 ## Poetry Books
 
-Utilising my extensive experience with software such as Adobe's Creative Cloud, I compiled many of her poems into a four-volume set of print books.
+Utilising my extensive experience with software such as **Adobe's Creative Cloud**, and specifically **InDesign**, I compiled many of her poems into a four-volume set of print books.
 
 Designing around poetry was a challenging task, as poems place much more emphasis on typesetting than standard prose. Poems have specific line breaks and spacing, non-standard alignments, variable line lengths, and a range of other typographical and layout considerations that are pushed to the forefront given the often minimal text content.
 
@@ -31,6 +31,6 @@ Also important was ensuring her website kept the general style defined by her bo
 
 She signs each painting with her name or initials. Based on this, I expanded out a full wordmark and stylised monogram to represent her. It is simple, yet distinctive and true to her original signature.
 
-She also decided she wished to publish a podcast, which is neatly integrated into her site. Each episode is edited by myself to improve the listening experience and then uploaded to her site. Her site references these episodes in a format understood by popular podcasting platforms such as Apple Podcasts, Spotify, and YouTube Music for syndication.
+She also decided she wished to publish a podcast, which is neatly integrated into her site. Each episode is edited by myself to improve the listening experience and then uploaded to her site. Her site references these episodes in a format understood by popular podcasting platforms such as **Apple Podcasts**, **Spotify**, **Amazon Music**, and **YouTube Music** for syndication.
 
 You can view the site at [pamcarter.net](https://pamcarter.net).

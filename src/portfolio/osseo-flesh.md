@@ -10,7 +10,7 @@ I'm near certain that most people, at some point, have fantasised about wielding
 
 While studying design, I received the brief of creating a typeface. As long as it had the entire alphabet, both upper and lowercase, anything went. I tested a few considerations, including singed paper, before settling on making a "meat font".
 
-For a few fleeting moments, I considered using actual meat but thought better of it and instead took it as a wonderful opportunity to test Adobe Illustrator's 3D tools. Using some interesting texturing, I managed to concoct a fleshy, meaty typeface.
+For a few fleeting moments, I considered using actual meat but thought better of it and instead took it as a wonderful opportunity to test **Adobe Illustrator**'s 3D tools. Using some interesting texturing, I managed to concoct a fleshy, meaty typeface.
 
 <figure class="right">
 <img src="/assets/portfolio/osseo-flesh/initial-test.avif" alt="The word 'test' in uppercase made of three distinct layers. The first is a white, grainy bone structure. On top of it is textured red muscle and finally smooth skin upon that.">

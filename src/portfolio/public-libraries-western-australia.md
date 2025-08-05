@@ -12,18 +12,18 @@ We worked on the redevelopment of PLWA’s website, which was originally created
 
 <figure class="right">
 <img src="/assets/portfolio/public-libraries-western-australia/old-site.avif" alt="An old website. It is white, with accents of orange. The top navigation bar has 11 items. Lots of elements have drop shadows. The heading 'Latest News' is present but has no content under it.">
-<figcaption>The site in 2024, prior to our involvement.</figcaption>
+<figcaption>The site as it was in 2024, prior to our involvement.</figcaption>
 </figure>
 
-We started with in-depth client consultations, moving from wireframes to Figma prototypes. Through multiple rounds of client feedback and user testing, we iteratively refined our designs, addressing flaws to ensure a user-centric approach.
+We started with in-depth client consultations, moving from wireframes to **Figma** prototypes. Through multiple rounds of client feedback and user testing, we iteratively refined our designs, addressing flaws to ensure a user-centric approach.
 
-The natural choice for this content-driven site, which would be managed by non-technical staff, was WordPress. We built the theme from the ground up, embracing WordPress's block theme functionality and using Tailwind CSS for design consistency and efficient collaboration. I specifically developed a custom WordPress plugin to handle custom post types for news, events, and workshops, ensuring the site could effectively fit PLWA's needs.
+The natural choice for this content-driven site, which would be managed by non-technical staff, was **WordPress**. We built the theme from the ground up, embracing WordPress's **block theme** functionality and using **Tailwind CSS** for design consistency and efficient collaboration. I specifically developed a custom **WordPress plugin** to handle custom post types for news, events, and workshops, ensuring the site could effectively fit PLWA's needs.
 
 <figure>
 <img src="/assets/portfolio/public-libraries-western-australia/new-site.avif" alt="A modern looking website. At the top is a simple orange navigation menu with dropdown icons, followed by a hero image, some stats, an about section, a map plotting libraries, a horizontal list of news articles, and a large orange footer linking to all the major pages on the site.">
-<figcaption>The site after we redesigned it.</figcaption>
+<figcaption>The modernised site after we redesigned it.</figcaption>
 </figure>
 
-We successfully modernised the user experience, made it secure and performant, and hugely improved SEO along the way, allowing better online visibility. The new flexibility allotted by our full redesign and development allows for new content to be written and published in a much easier flow and in many different forms.
+We successfully modernised the user experience, made it secure and performant, and hugely **improved SEO** along the way, allowing better online visibility. The new flexibility allotted by our full redesign and development allows for new content to be written and published in a much easier flow and in many different forms.
 
-We delivered comprehensive documentation for both technical setup and ongoing content management. While every project involves some compromises, the client was ultimately pleased with the final outcome, and we successfully achieved their goals for a revitalised and functional website.
+We delivered **comprehensive documentation** for both technical setup and ongoing content management. While every project involves some compromises, the client was ultimately pleased with the final outcome, and we successfully achieved their goals for a revitalised and functional website.
