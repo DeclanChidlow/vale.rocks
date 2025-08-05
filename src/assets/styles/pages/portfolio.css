@@ -17,7 +17,7 @@ main > div {
 	display: flex;
 	min-height: calc(100vh - 8rem);
 	align-items: center;
-	background: linear-gradient(var(--dark_grey), transparent);
+	background: linear-gradient(light-dark(var(--white), var(--dark_grey)), transparent);
 	padding: 2rem;
 
 	@media (max-width: 45rem) {
@@ -37,13 +37,17 @@ main > div {
 		margin-inline: auto;
 
 		.developer {
-			background: -webkit-linear-gradient(var(--bright_white), var(--yellow));
-			-webkit-background-clip: text;
+			background: linear-gradient(light-dark(var(--black), var(--bright_white)), light-dark(var(--blue), var(--yellow)));
 			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
 
 			&:hover {
-				-webkit-text-fill-color: var(--black);
+				-webkit-text-fill-color: light-dark(var(--bright_white), var(--black));
 				-webkit-background-clip: unset;
+			}
+
+			&::selection {
+				color: light-dark(var(--black), var(--bright_white));
 			}
 		}
 
@@ -88,7 +92,7 @@ section:not(.hero) {
 }
 
 section.description {
-	margin-block-start: 0;
+	margin-block-start: 2rem;
 }
 
 section.tools-and-technologies {
