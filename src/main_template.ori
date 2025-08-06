@@ -80,7 +80,7 @@
 		` : '' }
 
 		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
-		<link rel="alternate" type="application/json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
+		<link rel="alternate" type="application/feed+json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
 		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 		<link rel="manifest" href="/app.webmanifest">
 

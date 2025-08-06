@@ -3,7 +3,7 @@ title: Allegedly I Have The Mark of the Beast
 description: An analysis of the biblical concept of the mark of the beast, how it relates to biohacking implants, and a debunking of the notion that I have been marked by the beast as discussed in the Book of Revelation.
 og_description: YouTube commenters told me so.
 pub_time: 2025-07-27
-section: Essay
+section: Rant
 ---
 
 I've posted a few videos showcasing my [subdermal magnet implant](/posts/my-experience-biohacking) to YouTube. The concept of having a magnet implanted in one's hand is decidedly odd, but not too outrageous. My videos are fairly tame, featuring novel showcases such as [turning off my laptop](/videos/laptop-sleep-mode-with-magnet-implant), among other things that aren't adequately conveyed with text.
