@@ -26,7 +26,7 @@
 
 	<div class="pagination">
 		${ paginated_videos/previousPage
-			? `<a href="/videos${ paginated_videos/previousPage === 1 ? '' : /paginated_videos/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+			? `<a href="/videos${ paginated_videos/previousPage === 1 ? '' : paginated_videos/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
