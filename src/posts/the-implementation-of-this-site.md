@@ -160,7 +160,7 @@ I very much treat this site as a testing ground for my learning and therefore ge
 
 I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available [in its entirety](https://github.com/DeclanChidlow/vale.rocks) if you'd like to have a look.
 
-This site is hosted via a Cloudflare Worker. Due to the amount of content on my site, Cloudflare freaks out trying to build it, so I have an [automated workflow configured using GitHub Actions](https://github.com/DeclanChidlow/vale.rocks/blob/main/.github/workflows/build-and-deploy.yml) that builds and deploys the site when I push to the main branch of my repository. Previously I hosted my site on [GitHub Pages](https://pages.github.com), but the lack of any advanced configuration was holding me back.
+This site is hosted via a Cloudflare Worker which rebuilds and redeploys each time I push an update to my site's Git repository. Previously I hosted my site on [GitHub Pages](https://pages.github.com), but the lack of any advanced configuration, such as redirects, was holding me back.
 
 ### Analytics
 
