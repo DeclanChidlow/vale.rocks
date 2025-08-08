@@ -14,66 +14,66 @@
 		404: pages/404.md
 	}
 
-	...map(markdown_pages, {
+	...Tree.map(markdown_pages, {
 		extension: "→.html"
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
 	posts.html = pages/posts.ori(post_data.ori)
 	posts = {
-		...map(post_data.ori, post_template.ori)
-		feed.json = json(post_syndication.ori(post_data.ori))
-		feed.xml = rss(post_syndication.ori(post_data.ori))
+		...Tree.map(post_data.ori, post_template.ori)
+		feed.Origami.json = Origami.json(post_syndication.ori(post_data.ori))
+		feed.xml = Origami.rss(post_syndication.ori(post_data.ori))
 	}
 
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
-	portfolio = map(portfolio_data.ori, portfolio_template.ori)
+	portfolio = Tree.map(portfolio_data.ori, portfolio_template.ori)
 
-	(paginated_micros) = paginate(micro_data.ori, 30)
-	micros.html = pages/micros.ori(first(paginated_micros))
+	(paginated_micros) = Tree.paginate(micro_data.ori, 30)
+	micros.html = pages/micros.ori(Tree.first(paginated_micros))
 	micros = {
-		...map(paginated_micros, {
+		...Tree.map(paginated_micros, {
 			extension: "→.html"
 			value: pages/micros.ori
 		})
-		...map(micro_data.ori, micro_template.ori)
-		feed.json = json(micro_syndication.ori(micro_data.ori))
-		feed.xml = rss(micro_syndication.ori(micro_data.ori))
+		...Tree.map(micro_data.ori, micro_template.ori)
+		feed.Origami.json = Origami.json(micro_syndication.ori(micro_data.ori))
+		feed.xml = Origami.rss(micro_syndication.ori(micro_data.ori))
 	}
 
-	(paginated_photography) = paginate(photography_data.ori, 50)
-	photography.html = pages/photography.ori(first(paginated_photography))
+	(paginated_photography) = Tree.paginate(photography_data.ori, 50)
+	photography.html = pages/photography.ori(Tree.first(paginated_photography))
 	photography = {
-		...map(paginated_photography, {
+		...Tree.map(paginated_photography, {
 			extension: "→.html"
 			value: pages/photography.ori
 		})
-		...map(photography_data.ori, photography_template.ori)
-		feed.json = json(photography_syndication.ori(photography_data.ori))
-		feed.xml = rss(photography_syndication.ori(photography_data.ori))
+		...Tree.map(photography_data.ori, photography_template.ori)
+		feed.Origami.json = Origami.json(photography_syndication.ori(photography_data.ori))
+		feed.xml = Origami.rss(photography_syndication.ori(photography_data.ori))
 	}
 
-	(paginated_videos) = paginate(video_data.ori, 30)
-	videos.html = pages/videos.ori(first(paginated_videos))
+	(paginated_videos) = Tree.paginate(video_data.ori, 30)
+	videos.html = pages/videos.ori(Tree.first(paginated_videos))
 	videos = {
-		...map(paginated_videos, {
+		...Tree.map(paginated_videos, {
 			extension: "→.html"
 			value: pages/videos.ori
 		})
-		...map(video_data.ori, video_template.ori)
-		feed.json = json(video_syndication.ori(video_data.ori))
-		feed.xml = rss(video_syndication.ori(video_data.ori))
+		...Tree.map(video_data.ori, video_template.ori)
+		feed.Origami.json = Origami.json(video_syndication.ori(video_data.ori))
+		feed.xml = Origami.rss(video_syndication.ori(video_data.ori))
 	}
 
-	(paginated_elsewhere) = paginate(elsewhere_data.yaml , 100)
-	elsewhere.html = pages/elsewhere.ori(first(paginated_elsewhere))
+	(paginated_elsewhere) = Tree.paginate(elsewhere_data.yaml , 100)
+	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 	elsewhere = {
-		...map(paginated_elsewhere, {
+		...Tree.map(paginated_elsewhere, {
 			extension: "→.html"
 			value: pages/elsewhere.ori
 		})
-		feed.json = json(elsewhere_syndication.ori(elsewhere_data.yaml))
-		feed.xml = rss(elsewhere_syndication.ori(elsewhere_data.yaml))
+		feed.Origami.json = Origami.json(elsewhere_syndication.ori(elsewhere_data.yaml))
+		feed.xml = Origami.rss(elsewhere_syndication.ori(elsewhere_data.yaml))
 	}
 
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
@@ -86,14 +86,14 @@
 	"links/video-channels.opml" = ./links/opml.ori(./links/video-channels.yaml)
 	"links/miscellaneous.html" = ./links/miscellaneous.ori(./links/miscellaneous.yaml)
 
-	(paginated_firehose) = paginate(firehose_data.ori, 30)
-	firehose.html = pages/firehose.ori(first(paginated_firehose))
-	firehose = map(paginated_firehose, {
+	(paginated_firehose) = Tree.paginate(firehose_data.ori, 30)
+	firehose.html = pages/firehose.ori(Tree.first(paginated_firehose))
+	firehose = Tree.map(paginated_firehose, {
 		extension: "→.html"
 		value: pages/firehose.ori
 	})
 
-	pagefind = once(=package:@weborigami/pagefind({
+	pagefind = Origami.once(=package:@weborigami/pagefind({
 		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links.html, "links/blogs.html", "links/tools-and-resources.html", "links/podcasts.html", "links/video-channels.html", "links/miscellaneous.html", micros, micros.html, portfolio, portfolio.html
 	}))
 }

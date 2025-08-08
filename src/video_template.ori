@@ -9,7 +9,7 @@
 	canonical: `/videos/${ video/file_name }`
 	image: `https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
 
-@text:
+_body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Videos</span>
 
 <article class="h-entry">
@@ -23,6 +23,6 @@
 			<a href="https://youtube.com/watch?v=${video/youtube_id}">Watch on YouTube</a>
 		</header>
 
-		${ video/@text }
+		${ video/_body }
 	</div>
 </article>`})

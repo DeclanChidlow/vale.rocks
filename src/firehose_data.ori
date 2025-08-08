@@ -3,10 +3,10 @@
 	...micro_data.ori,
 	...video_data.ori,
 	...photography_data.ori,
-	...(elsewhere_data.yaml → =map(_, (elsewhere) => {
+	...(elsewhere_data.yaml → =Tree.map(_, (elsewhere) => {
 		  ...elsewhere
 		  type: "elsewhere"
 	}))
 }
-→ =sort(_, (item) => item/pub_time)
-→ reverse
+→ =Tree.sort(_, (item) => item/pub_time)
+→ Tree.reverse

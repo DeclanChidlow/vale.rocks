@@ -7,12 +7,12 @@
 	icon: "https://vale.rocks/assets/favicon.svg"
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
-	items: values(map(videos, (video, fileName) => {
-		id: `https://vale.rocks/videos/${ basename(fileName) }`
-		url: `https://vale.rocks/videos/${ basename(fileName) }`
+	items: Tree.values(Tree.map(videos, (video, fileName) => {
+		id: `https://vale.rocks/videos/${ Origami.basename(fileName) }`
+		url: `https://vale.rocks/videos/${ Origami.basename(fileName) }`
 		title: video/title
 		image: `https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
-		content_html: video/@text
+		content_html: video/_body
 		summary: video/description
 		date_published: video/pub_time
 	}))

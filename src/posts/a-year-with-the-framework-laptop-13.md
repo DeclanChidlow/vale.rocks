@@ -42,7 +42,7 @@ The screen itself is excellent. Its 3:2 aspect ratio is ideal for tasks such as 
 
 The reason that just about anyone would buy a Framework is for its user-accessible servicing and customisation options. While I haven't yet broken my laptop, it's quite the comfort to know that at any point I can simply replace a broken part with nothing but the included screwdriver.
 
-Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the reverse side has a handy pry tool. Its body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
+Speaking of the included screwdriver, it's much better than it has any right to be. Its magnetically attached tip can be removed to allow choice between both Torx and Phillips heads, and the Tree.reverse side has a handy pry tool. Its body has a great build and flat edges to prevent it rolling away. I frequently find myself applying its utility beyond laptop matters.
 
 Returning to the laptop, the flexibility to swap out components whenever I choose or opt for an upgrade adds a layer of convenience. The prospect of seamlessly installing new parts as they release is a significant advantage, as is choosing exactly the ports and components I want.
 

@@ -7,11 +7,11 @@
 	icon: "https://vale.rocks/assets/favicon.svg"
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
-	items: values(map(micros, (micro, fileName) => {
-		id: `https://vale.rocks/micros/${ basename(fileName) }`
-		url: `https://vale.rocks/micros/${ basename(fileName) }`
+	items: Tree.values(Tree.map(micros, (micro, fileName) => {
+		id: `https://vale.rocks/micros/${ Origami.basename(fileName) }`
+		url: `https://vale.rocks/micros/${ Origami.basename(fileName) }`
 		title: micro/title
-		content_html: micro/@text
+		content_html: micro/_body
 		date_published: micro/pub_time
 	}))
 }

@@ -5,7 +5,7 @@
 	canonical: "/links"
 	template_image: "links"
 
-@text:
+_body:
 `<h1 class="section" data-pagefind-filter="Content Type">Links</h1>
 
 <div class="readable">

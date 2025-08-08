@@ -124,7 +124,7 @@
 	</header>
 
 	<main id="main">
-		${ page/@text }
+		${ page/_body }
 	</main>
 
 	<footer id="footer" data-pagefind-ignore="all">

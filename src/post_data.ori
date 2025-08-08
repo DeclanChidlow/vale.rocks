@@ -1,13 +1,13 @@
 posts
-→ =map(_, (post, fileName, @text) => {
+→ =Tree.map(_, (post, fileName, _body) => {
 	...post
 	type: "post"
-	file_name: basename(fileName)
-	words: length(post/@text/split(" "))
+	file_name: Origami.basename(fileName)
+	words: Tree.length(post/_body/split(" "))
 })
-→ =sort(_, (post) => post/pub_time)
-→ =map(_, {
+→ =Tree.sort(_, (post) => post/pub_time)
+→ =Tree.map(_, {
 	extension: ".md->.html"
 	value: (post) => functions/parse-markdown.js(post)
 })
-→ reverse
+→ Tree.reverse

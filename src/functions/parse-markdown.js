@@ -128,7 +128,7 @@ export default async function mdHtml(input) {
 	if (isUnpackable(input)) {
 		input = await input.unpack();
 	}
-	const inputIsDocument = input["@text"] !== undefined;
+	const inputIsDocument = input["_body"] !== undefined;
 	const markdown = toString(input);
 	if (markdown === null) {
 		throw new Error("mdHtml: The provided input couldn't be treated as text.");

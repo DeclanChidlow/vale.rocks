@@ -16,6 +16,6 @@
 	"scripts": {
 		"dev": "ori serve watch src, =debug src/site.ori",
 		"build": "ori copy src/site.ori, clear files:build && bun run sitemap",
-		"sitemap": "ori sitemap src/site.ori, \"'https://vale.rocks'\" > build/sitemap.xml && bun sitemap-cleanup.js build/sitemap.xml"
+		"sitemap": "ori Origami/sitemap src/site.ori, \"'https://vale.rocks'\" > build/sitemap.xml && bun sitemap-cleanup.js build/sitemap.xml"
 	}
 }

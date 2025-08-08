@@ -1,12 +1,12 @@
 photography
-→ =map(_, (photo, fileName) => {
+→ =Tree.map(_, (photo, fileName) => {
 	...photo
 	type: "photo"
-	file_name: basename(fileName)
+	file_name: Origami.basename(fileName)
 })
-→ =sort(_, (photo) => photo/pub_time)
-→ =map(_, {
+→ =Tree.sort(_, (photo) => photo/pub_time)
+→ =Tree.map(_, {
 	extension: ".md->.html"
 	value: (photo) => functions/parse-markdown.js(photo)
 })
-→ reverse
+→ Tree.reverse

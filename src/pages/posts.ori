@@ -6,7 +6,7 @@
 	canonical: "/posts"
 	template_image: "post"
 
-@text: 
+_body: 
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Posts</h1>
 
 <div data-pagefind-ignore="all">
@@ -37,9 +37,9 @@
 	</form>
 
 	<div id="posts">
-		${ map(posts_data,
+		${ Tree.map(posts_data,
 		(post, key) =>
-		`<a class="post" href="/posts/${ basename(key) }">
+		`<a class="post" href="/posts/${ Origami.basename(key) }">
 			<p>${ post/section }</p>
 			<h2>${ post/title }</h2>
 			<ul>

@@ -7,12 +7,12 @@
 	icon: "https://vale.rocks/assets/favicon.svg"
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
-	items: values(map(photography, (photo, fileName) => {
-		id: `https://vale.rocks/photography/${ basename(fileName) }`
-		url: `https://vale.rocks/photography/${ basename(fileName) }`
+	items: Tree.values(Tree.map(photography, (photo, fileName) => {
+		id: `https://vale.rocks/photography/${ Origami.basename(fileName) }`
+		url: `https://vale.rocks/photography/${ Origami.basename(fileName) }`
 		title: photo/description
 		image: photo/image
-		content_html: photo/@text
+		content_html: photo/_body
 		summary: photo/alt_text
 		date_published: photo/pub_time
 	}))

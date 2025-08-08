@@ -10,7 +10,7 @@
 		<docs>https://opml.org/spec2.opml</docs>
 	</head>
 	<body>
-		${ data/items → =map(_, (item) => item/rss || item/atom || item/json ? `
+		${ data/items → =Tree.map(_, (item) => item/rss || item/atom || item/json ? `
 			<outline text="${ item/title }" description="${ item/description }" htmlUrl="https://${ item/url }" title="${ item/title }" type="rss" version="${ item/rss ? 'RSS' : item/atom ? 'ATOM1' : item/json ? 'JSON' : '' }" xmlUrl="https://${ item/atom || item/rss || item/json }"/>`
 			: '' )}
 	</body>

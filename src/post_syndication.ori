@@ -7,13 +7,13 @@
 	icon: "https://vale.rocks/assets/favicon.svg"
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
-	items: values(map(posts, (post, fileName) => {
-		id: `https://vale.rocks/posts/${ basename(fileName) }`
-		url: `https://vale.rocks/posts/${ basename(fileName) }`
+	items: Tree.values(Tree.map(posts, (post, fileName) => {
+		id: `https://vale.rocks/posts/${ Origami.basename(fileName) }`
+		url: `https://vale.rocks/posts/${ Origami.basename(fileName) }`
 		title: post/title
 		content_html: `
-			${ post/site_recommended ? `<strong>This post is best viewed <a href="https://vale.rocks/posts/${ basename(fileName) }">directly on Vale.Rocks</a>, as it depends upon the site's features.</strong>` : '' }
-			${ post/@text }
+			${ post/site_recommended ? `<strong>This post is best viewed <a href="https://vale.rocks/posts/${ Origami.basename(fileName) }">directly on Vale.Rocks</a>, as it depends upon the site's features.</strong>` : '' }
+			${ post/_body }
 		`
 		summary: post/description
 		date_published: post/pub_time

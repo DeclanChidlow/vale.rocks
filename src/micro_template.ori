@@ -6,7 +6,7 @@
 	canonical: `/micros/${ micro/file_name }`
 	template_image: "micro"
 
-@text:
+_body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Micros</span>	
 
 <article class="h-entry">
@@ -58,7 +58,7 @@
 		</aside>
 
 		<div class="readable e-content">
-			${ micro/@text }
+			${ micro/_body }
 		</div>
 	</div>
 </article>`})

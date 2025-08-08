@@ -6,7 +6,7 @@
 	canonical: "/links/miscellaneous"
 	template_image: "links"
 
-@text:
+_body:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
 
 <div class="readable">
@@ -17,6 +17,6 @@
 
 	<ul>
 		${ miscellaneous
-		→ =map(_, (link) => `<li><a href="https://${ link/url }">${ link/title }</a></li>`) }
+		→ =Tree.map(_, (link) => `<li><a href="https://${ link/url }">${ link/title }</a></li>`) }
 	</ul>
 </div>`})

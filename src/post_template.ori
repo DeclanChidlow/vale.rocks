@@ -10,7 +10,7 @@
 	canonical: `/posts/${ post/file_name }`
 	template_image: "post"
 
-@text:
+_body:
 `<style>:root{--header_background: var(--magenta)}</style>
 
 <span class="sidebar" data-pagefind-ignore>
@@ -35,7 +35,7 @@
 		</header>
 
 		<div class="readable e-content">
-			${ post/@text }
+			${ post/_body }
 		</div>
 	</article>
 

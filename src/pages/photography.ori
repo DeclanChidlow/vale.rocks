@@ -5,14 +5,14 @@
 	stylesheet: "pages/photography.css"
 	canonical: `/photography/${ paginated_photography/pageNumber }`
 
-@text:
+_body:
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Photography</h1>
 
 <div data-pagefind-ignore="all">
 	<div id="photography">
-		${ map(paginated_photography/items,
+		${ Tree.map(paginated_photography/items,
 		(item, key) =>
-		`<a class="photo" href="/photography/${ basename(key) }">
+		`<a class="photo" href="/photography/${ Origami.basename(key) }">
 			<img src="${ item/image }?q=60&w=1500" alt="${ item/alt_text }" loading="lazy">
 		</a>`)}
 	</div>

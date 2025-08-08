@@ -6,19 +6,19 @@
 	canonical: `/micros/${ paginated_micros/pageNumber }`
 	template_image: "micro"
 
-@text:
+_body:
 `<h1 class="section" data-pagefind-ignore>Micros</h1>
 
 <div>
 	${ paginated_micros/previousPage ? `` : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
 
 	<div data-pagefind-ignore="all">
-	${ map(paginated_micros/items,
+	${ Tree.map(paginated_micros/items,
 	(item, key) =>
 	`<article>
 		<header>
 			<div>
-				<h2><a href="/micros/${ basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }, ${ functions/pretty-time.js(item/pub_time) }</time></a></h2>
+				<h2><a href="/micros/${ Origami.basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }, ${ functions/pretty-time.js(item/pub_time) }</time></a></h2>
 			</div>
 
 			<div class="socials">
@@ -37,7 +37,7 @@
 		</header>
 
 		<div class="readable">
-			${ item/@text }
+			${ item/_body }
 		</div>
 	</article>`)}
 

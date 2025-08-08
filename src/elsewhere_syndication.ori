@@ -7,7 +7,7 @@
 	icon: "https://vale.rocks/assets/favicon.svg"
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
-	items: values(map(elsewhere, (elsewhere, fileName) => {
+	items: Tree.values(Tree.map(elsewhere, (elsewhere, fileName) => {
 		id: `https://${ elsewhere/url }`
 		external_url: `https://${ elsewhere/url }`
 		title: elsewhere/title

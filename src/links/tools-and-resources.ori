@@ -6,7 +6,7 @@
 	canonical: "/links/tools-and-resources"
 	template_image: "links"
 
-@text:
+_body:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
 
 <div class="readable">
@@ -16,7 +16,7 @@
 
 	<ul>
 		${ tools-and-resources
-		→ =map(_, (link) =>
+		→ =Tree.map(_, (link) =>
 		`<li>
 			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
 		</li>`) }

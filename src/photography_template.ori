@@ -7,7 +7,7 @@
 	stylesheet: "pages/photography-individual.css"
 	canonical: `/photography/${ photography/file_name }`
 
-@text:
+_body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Photography</span>	
 
 <div class="article-wrapper">
@@ -34,7 +34,7 @@
 			
 			<div class="readable e-content">
 				<p>${ photography/description }</p>
-				${ photography/@text }
+				${ photography/_body }
 			</div>
 		</div>
 	</article>
