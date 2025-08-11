@@ -150,7 +150,7 @@ _body:
 <p><em>(and many more)</em></p>
 
 <div class="marquee">
-<ul class="Tree.reverse">
+<ul class="reverse">
 	<li>Excel</li>
 	<li>Git</li>
 	<li>Word</li>
@@ -211,7 +211,7 @@ _body:
 	<li>DataGrip</li>
 </ul>
 
-<ul class="Tree.reverse" aria-hidden="true">
+<ul class="reverse" aria-hidden="true">
 	<li>Excel</li>
 	<li>Git</li>
 	<li>Word</li>
