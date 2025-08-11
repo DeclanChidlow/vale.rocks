@@ -1,5 +1,7 @@
 name = "vale-rocks"
 compatibility_date = "2025-06-18"
+workers_dev = false
+preview_urls = false
 
 [assets]
 directory = "./build/"
