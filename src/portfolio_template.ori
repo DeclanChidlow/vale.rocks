@@ -1,32 +1,32 @@
 (post) => main_template.ori({
-	title: post/title
-	description: post/description
-	og_description: post/og_description
+	title: post.title
+	description: post.description
+	og_description: post.og_description
 	article: true
 	stylesheet: "pages/portfolio-individual.css"
-	canonical: `/portfolio/${ post/file_name }`
+	canonical: `/portfolio/${ post.file_name }`
 	template_image: "portfolio"
 
 _body:
-`<style>:root{--header_background: ${ post/accent_colour }}</style>
+`<style>:root{--header_background: ${ post.accent_colour }}</style>
 
 <span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Portfolio</span>	
 
 <article class="article-wrapper h-entry">
 	<header data-pagefind-ignore>
-		<h1>${ post/title }</h1>
-		<p>${ post/og_description}</p>
+		<h1>${ post.title }</h1>
+		<p>${ post.og_description}</p>
 
-		${ post/repository ? `
+		${ post.repository ? `
 		<div class="repo-details" aria-hidden="true">
-			<img src="https://img.shields.io/github/stars/${ post/repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Stars">
-			<img src="https://img.shields.io/github/forks/${ post/repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Forks">
-			<img src="https://img.shields.io/github/contributors/${ post/repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=58a551" alt="Repository Contributors">
+			<img src="https://img.shields.io/github/stars/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Stars">
+			<img src="https://img.shields.io/github/forks/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Forks">
+			<img src="https://img.shields.io/github/contributors/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=58a551" alt="Repository Contributors">
 		</div>` : '' }
 	</header>
 
 	<div class="readable e-content">
-		${ post/_body }
+		${ post._body }
 	</div>
 </article>
 

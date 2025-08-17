@@ -1,11 +1,11 @@
 videos
-→ =Tree.map(_, (video, fileName) => {
+→ (_) => Tree.map(_, (video, fileName) => {
 	...video
 	type: "video"
 	file_name: Origami.basename(fileName)
 })
-→ =Tree.sort(_, (video) => video/pub_time)
-→ =Tree.map(_, {
+→ (_) => Tree.sort(_, (video) => video/pub_time)
+→ (_) => Tree.map(_, {
 	extension: ".md->.html"
 	value: (video) => functions/parse-markdown.js(video)
 })

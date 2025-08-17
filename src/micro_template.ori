@@ -1,9 +1,9 @@
 (micro) => main_template.ori({
-	title: micro/title
-	pub_time: micro/pub_time
+	title: micro.title
+	pub_time: micro.pub_time
 	article: true
 	stylesheet: "pages/micro-individual.css"
-	canonical: `/micros/${ micro/file_name }`
+	canonical: `/micros/${ micro.file_name }`
 	template_image: "micro"
 
 _body:
@@ -12,53 +12,53 @@ _body:
 <article class="h-entry">
 	<header data-pagefind-ignore>
 		<h1>
-			<time datetime="${ micro/pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro/pub_time) }, ${ functions/pretty-time.js(micro/pub_time) }</time>
+			<time datetime="${ micro.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro.pub_time) }, ${ functions/pretty-time.js(micro.pub_time) }</time>
 		</h1>
 
 		<div class="socials">
-			${ micro/fedi_link ? `
-			<a href="${ micro/fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
+			${ micro.fedi_link ? `
+			<a href="${ micro.fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
 
-			${ micro/bsky_link ? `
-			<a href="${ micro/bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
+			${ micro.bsky_link ? `
+			<a href="${ micro.bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
 
-			${ micro/linkedin_link ? `
-			<a href="${ micro/linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
+			${ micro.linkedin_link ? `
+			<a href="${ micro.linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
 
-			${ micro/lesswrong_link ? `
-			<a href="${ micro/lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
+			${ micro.lesswrong_link ? `
+			<a href="${ micro.lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
 		</div>
 	</header>
 
 	<div class="micro-content">
 		<aside class="socials" data-pagefind-ignore>
-			${ micro/fedi_link ? `
-			<a href="${ micro/fedi_link }" title="Fediverse">
+			${ micro.fedi_link ? `
+			<a href="${ micro.fedi_link }" title="Fediverse">
 				${ fediverse_icon }
 				View on the Fediverse
 			</a>` : '' }
 
-			${ micro/bsky_link ? `
-			<a href="${ micro/bsky_link }" title="Bluesky">
+			${ micro.bsky_link ? `
+			<a href="${ micro.bsky_link }" title="Bluesky">
 				${ bluesky_icon }
 				View on Bluesky
 			</a>` : '' }
 
-			${ micro/linkedin_link ? `
-			<a href="${ micro/linkedin_link }" title="LinkedIn">
+			${ micro.linkedin_link ? `
+			<a href="${ micro.linkedin_link }" title="LinkedIn">
 				${ linkedin_icon }
 				View on LinkedIn
 			</a>` : '' }
 
-			${ micro/lesswrong_link ? `
-			<a href="${ micro/lesswrong_link }" title="LessWrong">
+			${ micro.lesswrong_link ? `
+			<a href="${ micro.lesswrong_link }" title="LessWrong">
 				${ lesswrong_icon }
 				View on LessWrong
 			</a>` : '' }
 		</aside>
 
 		<div class="readable e-content">
-			${ micro/_body }
+			${ micro._body }
 		</div>
 	</div>
 </article>`})

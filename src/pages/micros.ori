@@ -3,54 +3,54 @@
 	description: "Short-form posts often published elsewhere and syndicated to this site. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries."
 	og_description: "Short-form and often ephemeral content."
 	stylesheet: "pages/micros.css"
-	canonical: `/micros/${ paginated_micros/pageNumber }`
+	canonical: `/micros/${ paginated_micros.pageNumber }`
 	template_image: "micro"
 
 _body:
 `<h1 class="section" data-pagefind-ignore>Micros</h1>
 
 <div>
-	${ paginated_micros/previousPage ? `` : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
+	${ paginated_micros.previousPage ? `` : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
 
 	<div data-pagefind-ignore="all">
-	${ Tree.map(paginated_micros/items,
+	${ Tree.map(paginated_micros.items,
 	(item, key) =>
 	`<article>
 		<header>
 			<div>
-				<h2><a href="/micros/${ Origami.basename(key) }"><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }, ${ functions/pretty-time.js(item/pub_time) }</time></a></h2>
+				<h2><a href="/micros/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time></a></h2>
 			</div>
 
 			<div class="socials">
-				${ item/fedi_link ? `
-				<a href="${ item/fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
+				${ item.fedi_link ? `
+				<a href="${ item.fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
 
-				${ item/bsky_link ? `
-				<a href="${ item/bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
+				${ item.bsky_link ? `
+				<a href="${ item.bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
 
-				${ item/linkedin_link ? `
-				<a href="${ item/linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
+				${ item.linkedin_link ? `
+				<a href="${ item.linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
 
-				${ item/lesswrong_link ? `
-				<a href="${ item/lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
+				${ item.lesswrong_link ? `
+				<a href="${ item.lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
 			</div>
 		</header>
 
 		<div class="readable">
-			${ item/_body }
+			${ item._body }
 		</div>
 	</article>`)}
 
 	<div class="pagination">
-		${ paginated_micros/previousPage
-			? `<a href="/micros${ paginated_micros/previousPage === 1 ? '' : paginated_micros/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+		${ paginated_micros.previousPage
+			? `<a href="/micros${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
-		<p>Page ${ paginated_micros/pageNumber} of ${ paginated_micros/pageCount}</p>
+		<p>Page ${ paginated_micros.pageNumber} of ${ paginated_micros.pageCount}</p>
 
-		${ paginated_micros/nextPage
-			? `<a href="/micros/${ paginated_micros/nextPage }">Older <span aria-hidden="true">→</span></a>`
+		${ paginated_micros.nextPage
+			? `<a href="/micros/${ paginated_micros.nextPage }">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>

@@ -1,9 +1,9 @@
 portfolio
-→ =Tree.map(_, (portfolio, fileName) => {
+→ (_) => Tree.map(_, (portfolio, fileName) => {
 	...portfolio
 	file_name: Origami.basename(fileName)
 })
-→ =Tree.map(_, {
+→ (_) => Tree.map(_, {
 	extension: ".md->.html"
 	value: (portfolio) => functions/parse-markdown.js(portfolio)
 })

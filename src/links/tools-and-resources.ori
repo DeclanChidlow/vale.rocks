@@ -12,13 +12,13 @@ _body:
 <div class="readable">
 	<h1>Tools and Resources</h1>
 
-	<p>These are ${ tools-and-resources/length } links to handy and useful tools and resources available on the web. All are usable for free and without sign-up.</p>
+	<p>These are ${ tools-and-resources.length } links to handy and useful tools and resources available on the web. All are usable for free and without sign-up.</p>
 
 	<ul>
 		${ tools-and-resources
-		→ =Tree.map(_, (link) =>
+		→ (_) => Tree.map(_, (link) =>
 		`<li>
-			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
+			<a href="https://${ link.url }">${ link.title }</a>: ${ link.description }
 		</li>`) }
 	</ul>
 </div>`})

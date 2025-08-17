@@ -1,13 +1,13 @@
 (post) => main_template.ori({
-	title: post/title
-	description: post/description
-	og_description: post/og_description
-	pub_time: post/pub_time
-	mod_time: post/mod_time
-	section: post/section
+	title: post.title
+	description: post.description
+	og_description: post.og_description
+	pub_time: post.pub_time
+	mod_time: post.mod_time
+	section: post.section
 	article: true
 	stylesheet: "pages/post-individual.css"
-	canonical: `/posts/${ post/file_name }`
+	canonical: `/posts/${ post.file_name }`
 	template_image: "post"
 
 _body:
@@ -23,19 +23,19 @@ _body:
 <div class="article-wrapper">
 	<article class="h-entry">
 		<header data-pagefind-ignore>
-			<p data-pagefind-filter="Post Category">${ post/section }</p>
-			<h1 class="p-name">${ post/title }</h1>
+			<p data-pagefind-filter="Post Category">${ post.section }</p>
+			<h1 class="p-name">${ post.title }</h1>
 			<ul>
-				<li>${ post/words } words</li>
-				<li><time class="dt-published" datetime="${ post/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post/pub_time) }</time>
-				${ post/mod_time ? `
-					– <time class="dt-updated" datetime="${ post/mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post/mod_time) }</time></li>
+				<li>${ post.words } words</li>
+				<li><time class="dt-published" datetime="${ post.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post.pub_time) }</time>
+				${ post.mod_time ? `
+					– <time class="dt-updated" datetime="${ post.mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post.mod_time) }</time></li>
 				` : '' }
 			</ul>
 		</header>
 
 		<div class="readable e-content">
-			${ post/_body }
+			${ post._body }
 		</div>
 	</article>
 

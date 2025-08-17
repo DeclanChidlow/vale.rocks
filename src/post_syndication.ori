@@ -10,13 +10,13 @@
 	items: Tree.values(Tree.map(posts, (post, fileName) => {
 		id: `https://vale.rocks/posts/${ Origami.basename(fileName) }`
 		url: `https://vale.rocks/posts/${ Origami.basename(fileName) }`
-		title: post/title
+		title: post.title
 		content_html: `
 			${ post/site_recommended ? `<strong>This post is best viewed <a href="https://vale.rocks/posts/${ Origami.basename(fileName) }">directly on Vale.Rocks</a>, as it depends upon the site's features.</strong>` : '' }
 			${ post/_body }
 		`
-		summary: post/description
-		date_published: post/pub_time
-		date_modified: post/mod_time
+		summary: post.description
+		date_published: post.pub_time
+		date_modified: post.mod_time
 	}))
 }

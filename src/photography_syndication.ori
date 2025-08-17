@@ -10,10 +10,10 @@
 	items: Tree.values(Tree.map(photography, (photo, fileName) => {
 		id: `https://vale.rocks/photography/${ Origami.basename(fileName) }`
 		url: `https://vale.rocks/photography/${ Origami.basename(fileName) }`
-		title: photo/description
-		image: photo/image
-		content_html: photo/_body
-		summary: photo/alt_text
-		date_published: photo/pub_time
+		title: photo.description
+		image: photo.image
+		content_html: photo._body
+		summary: photo.alt_text
+		date_published: photo.pub_time
 	}))
 }

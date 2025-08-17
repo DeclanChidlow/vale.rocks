@@ -1,28 +1,28 @@
 (video) => main_template.ori({
-	title: video/title
-	youtube_id: video/youtube_id
-	description: video/description
-	og_description: video/og_description
-	pub_time: video/pub_time
-	format: video/format
+	title: video.title
+	youtube_id: video.youtube_id
+	description: video.description
+	og_description: video.og_description
+	pub_time: video.pub_time
+	format: video.format
 	stylesheet: "pages/video-individual.css"
-	canonical: `/videos/${ video/file_name }`
-	image: `https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
+	canonical: `/videos/${ video.file_name }`
+	image: `https://i.ytimg.com/vi/${ video.youtube_id }/${ video.format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
 
 _body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Videos</span>
 
 <article class="h-entry">
-	<iframe class="${ video/format === 'short' ? `short` : `long` }" src="https://youtube.com/embed/${ video/youtube_id }" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe class="${ video.format === 'short' ? `short` : `long` }" src="https://youtube.com/embed/${ video.youtube_id }" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 	<div class="readable e-content">
 		<header data-pagefind-ignore>
-			<h1 class="p-name">${ video/title }</h1>
-			<time class="dt-published" datetime="${ video/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(video/pub_time) }</time>
+			<h1 class="p-name">${ video.title }</h1>
+			<time class="dt-published" datetime="${ video.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(video.pub_time) }</time>
 			<span> | </span>
-			<a href="https://youtube.com/watch?v=${video/youtube_id}">Watch on YouTube</a>
+			<a href="https://youtube.com/watch?v=${video.youtube_id}">Watch on YouTube</a>
 		</header>
 
-		${ video/_body }
+		${ video._body }
 	</div>
 </article>`})

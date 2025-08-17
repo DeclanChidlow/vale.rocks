@@ -10,10 +10,10 @@
 	items: Tree.values(Tree.map(videos, (video, fileName) => {
 		id: `https://vale.rocks/videos/${ Origami.basename(fileName) }`
 		url: `https://vale.rocks/videos/${ Origami.basename(fileName) }`
-		title: video/title
+		title: video.title
 		image: `https://i.ytimg.com/vi/${ video/youtube_id }/${ video/format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
-		content_html: video/_body
-		summary: video/description
-		date_published: video/pub_time
+		content_html: video._body
+		summary: video.description
+		date_published: video.pub_time
 	}))
 }

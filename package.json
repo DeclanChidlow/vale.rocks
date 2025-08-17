@@ -2,8 +2,8 @@
 	"name": "vale-rocks",
 	"type": "module",
 	"dependencies": {
-		"@weborigami/origami": "^0.3.4-jse.8",
-		"@weborigami/pagefind": "0.0.5",
+		"@weborigami/origami": "^0.4.2",
+		"@weborigami/pagefind": "0.0.12",
 		"highlight.js": "^11.11.1",
 		"marked": "^16.1.2",
 		"marked-alert": "^2.1.2",

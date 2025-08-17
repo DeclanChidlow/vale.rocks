@@ -1,12 +1,12 @@
 micros
-→ =Tree.map(_, (micro, fileName) => {
+→ (_) => Tree.map(_, (micro, fileName) => {
 	...micro
 	type: "micro"
 	file_name: Origami.basename(fileName)
 	pub_time: functions/micro-date.js(file_name)
 	title: `${ functions/pretty-date.js(pub_time) } ${ functions/pretty-time.js(pub_time) }`
 })
-→ =Tree.map(_, {
+→ (_) => Tree.map(_, {
 	extension: ".md->.html"
 	value: (micro) => functions/parse-markdown.js(micro)
 })

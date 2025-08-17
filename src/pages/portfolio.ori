@@ -347,10 +347,10 @@ _body:
 	<h2>Showcase</h2>
 	<div class="hoisted">
 		${ Tree.map(portfolio_data, (item, key) =>
-			`${ item/hoisted ? 
-				`<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item/accent_colour };">
-					<h3>${ item/title }</h2>
-					<p>${ item/og_description }</p>
+			`${ item.hoisted ? 
+				`<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour };">
+					<h3>${ item.title }</h2>
+					<p>${ item.og_description }</p>
 				</a>` : ''
 			}`
 		)}
@@ -359,10 +359,10 @@ _body:
 	<details>
 		<summary>More portfolio items</summary>
 		${ Tree.map(portfolio_data, (item, key) =>
-			`${ item/hoisted ? '' :
-				`<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item/accent_colour };">
-					<h3>${ item/title }</h2>
-					<p>${ item/og_description }</p>
+			`${ item.hoisted ? '' :
+				`<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour };">
+					<h3>${ item.title }</h2>
+					<p>${ item.og_description }</p>
 				</a>`
 			}`
 		)}

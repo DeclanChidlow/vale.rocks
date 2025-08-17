@@ -12,14 +12,14 @@ _body:
 <div class="readable">
 	<h1>Podcasts</h1>
 
-	<p>These are ${ podcasts/items/length } assorted podcasts I occasionally listen to. Podcasts aren't my preference for content consumption, as I prefer text to audio for the sake of convenience.</p>
+	<p>These are ${ podcasts.items.length } assorted podcasts I occasionally listen to. Podcasts aren't my preference for content consumption, as I prefer text to audio for the sake of convenience.</p>
 	<p>An <a href="/links/podcasts.opml" download>OPML file</a> is generated from this list for easy following.</p>
 
 	<ul>
-		${ podcasts/items
-		→ =Tree.map(_, (link) =>
+		${ podcasts.items
+		→ (_) => Tree.map(_, (link) =>
 		`<li>
-			<a href="https://${ link/url }">${ link/title }</a>: ${ link/description }
+			<a href="https://${ link.url }">${ link.title }</a>: ${ link.description }
 		</li>`) }
 	</ul>
 </div>`})

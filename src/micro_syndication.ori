@@ -10,8 +10,8 @@
 	items: Tree.values(Tree.map(micros, (micro, fileName) => {
 		id: `https://vale.rocks/micros/${ Origami.basename(fileName) }`
 		url: `https://vale.rocks/micros/${ Origami.basename(fileName) }`
-		title: micro/title
-		content_html: micro/_body
-		date_published: micro/pub_time
+		title: micro.title
+		content_html: micro._body
+		date_published: micro.pub_time
 	}))
 }

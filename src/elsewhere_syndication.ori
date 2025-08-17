@@ -8,17 +8,17 @@
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
 	items: Tree.values(Tree.map(elsewhere, (elsewhere, fileName) => {
-		id: `https://${ elsewhere/url }`
-		external_url: `https://${ elsewhere/url }`
-		title: elsewhere/title
+		id: `https://${ elsewhere.url }`
+		external_url: `https://${ elsewhere.url }`
+		title: elsewhere.title
 		content_html: `
-			${ elsewhere/sort === 'writer' ? `<p>Wrote <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> over on ${ elsewhere/location }.</p>` : '' }
-			${ elsewhere/sort === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
-			${ elsewhere/sort === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere/url }">${ elsewhere/title }</a> on ${ elsewhere/location }.</p>` : '' }
-			${ elsewhere/note ? `<p>${ elsewhere/note }</p>` : '' }
+			${ elsewhere.sort === 'writer' ? `<p>Wrote <a href="https://${ elsewhere.url }">${ elsewhere.title }</a> over on ${ elsewhere.location }.</p>` : '' }
+			${ elsewhere.sort === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere.url }">${ elsewhere.title }</a> on ${ elsewhere.location }.</p>` : '' }
+			${ elsewhere.sort === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere.url }">${ elsewhere.title }</a> on ${ elsewhere.location }.</p>` : '' }
+			${ elsewhere.note ? `<p>${ elsewhere.note }</p>` : '' }
 
-			${ elsewhere/image ? `<img src="https://${ elsewhere/image }" alt="">` : '' }
+			${ elsewhere.image ? `<img src="https://${ elsewhere.image }" alt="">` : '' }
 		`
-		date_published: elsewhere/pub_time
+		date_published: elsewhere.pub_time
 	}))
 }

@@ -12,11 +12,11 @@ _body:
 <div class="readable">
 	<h1>Miscellaneous Links</h1>
 
-	<p>These are ${ miscellaneous/length } links to miscellaneous web things.<br>
+	<p>These are ${ miscellaneous.length } links to miscellaneous web things.<br>
 	<em>Descriptions are not provided. Content is not ordered. Quality is not assured. Not appropriate for all audiences. Check with your doctor if this collection is right for you.</em></p>
 
 	<ul>
 		${ miscellaneous
-		→ =Tree.map(_, (link) => `<li><a href="https://${ link/url }">${ link/title }</a></li>`) }
+		→ (_) => Tree.map(_, (link) => `<li><a href="https://${ link.url }">${ link.title }</a></li>`) }
 	</ul>
 </div>`})

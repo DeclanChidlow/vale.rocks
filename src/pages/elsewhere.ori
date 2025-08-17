@@ -3,16 +3,16 @@
 	description: "Vale's writings, contributions, and appearances published externally to Vale.Rocks. Read tech journalism, web development insights, digital culture analysis, and more from Declan Chidlow."
 	og_description: "My writings, contributions, and appearances external to Vale.Rocks."
 	stylesheet: "pages/elsewhere.css"
-	canonical: `/elsewhere/${ paginated_elsewhere/pageNumber }`
+	canonical: `/elsewhere/${ paginated_elsewhere.pageNumber }`
 	template_image: "elsewhere"
 
 _body:
 `<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
 
 <div class="readable">
-	${ paginated_elsewhere/previousPage	? `` : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
+	${ paginated_elsewhere.previousPage	? `` : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
 
-	${ Tree.map(paginated_elsewhere/items,
+	${ Tree.map(paginated_elsewhere.items,
 	(item, key) =>
 		`<a href="https://${ item/url }" class="elsewhere">
 			<div>
@@ -24,15 +24,15 @@ _body:
 		</a>`)}
 
 	<div data-pagefind-ignore="all" class="pagination">
-		${ paginated_elsewhere/previousPage
-			? `<a href="/elsewhere/${ paginated_elsewhere/previousPage === 1 ? '' : paginated_elsewhere/previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+		${ paginated_elsewhere.previousPage
+			? `<a href="/elsewhere/${ paginated_elsewhere.previousPage === 1 ? '' : paginated_elsewhere.previousPage }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
-		<p>Page ${ paginated_elsewhere/pageNumber} of ${ paginated_elsewhere/pageCount}</p>
+		<p>Page ${ paginated_elsewhere.pageNumber} of ${ paginated_elsewhere.pageCount}</p>
 
-		${ paginated_elsewhere/nextPage
-			? `<a href="/elsewhere/${ paginated_elsewhere/nextPage }">Older <span aria-hidden="true">→</span></a>`
+		${ paginated_elsewhere.nextPage
+			? `<a href="/elsewhere/${ paginated_elsewhere.nextPage }">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>
