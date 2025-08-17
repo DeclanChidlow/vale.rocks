@@ -86,7 +86,7 @@
 		value: pages/firehose.ori
 	})
 
-	pagefind = Origami.once(=package:@weborigami/pagefind({
+	pagefind = Origami.once((_) => package:@weborigami/pagefind({
 		index.html, contact.html, support.html, syndication.html, firehose.html, posts, posts.html, elsewhere, elsewhere.html, photography, photography.html, videos, videos.html, links, links.html, micros, micros.html, portfolio, portfolio.html
 	}))
 }
