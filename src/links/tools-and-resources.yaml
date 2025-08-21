@@ -85,6 +85,9 @@
 - title: magick.css
   url: css.winterveil.net
   description: Minimal CSS framework.
+- title: Svgl
+  url: svgl.app
+  description: A library of SVG brand logos.
 - title: Uiverse
   url: uiverse.io
   description: Community-built library of UI elements.

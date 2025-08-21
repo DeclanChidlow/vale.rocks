@@ -345,6 +345,10 @@ items:
     url: chenhuijing.com
     rss: chenhuijing.com/feed.xml
     description: Chronicles of a self-taught designer and developer.
+  - title: Kottke.org
+    url: kottke.org
+    atom: feeds.kottke.org/main
+    description: Covering that which increases the collective adjacent possible of humanity.
   - title: Miriam Eric Suzanne
     url: www.miriamsuzanne.com
     rss: www.miriamsuzanne.com/feed.xml
@@ -463,6 +467,9 @@ items:
     url: arielsalminen.com
     atom: arielsalminen.com/atom.xml
     description: Design systems and web development.
+  - title: Mat 'Wilto' Marquis
+    atom: wil.to/feed.xml
+    description: Websites and JavaScript.
   - title: Grace Kind
     url: gracekind.net
     description: Independent writing and research into ideonomy and machine learning.
