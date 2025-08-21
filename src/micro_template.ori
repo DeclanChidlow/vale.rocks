@@ -57,6 +57,12 @@ _body:
 			</a>` : '' }
 		</aside>
 
+		<ul class="tags" style="display:none;" data-pagefind-ignore>
+		${ micro.tags ? micro.tags.map(tag => `
+			<li data-pagefind-filter="tags">${ tag }</li>
+		`) : '' }
+		</ul>
+
 		<div class="readable e-content">
 			${ micro._body }
 		</div>

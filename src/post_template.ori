@@ -23,7 +23,7 @@ _body:
 <div class="article-wrapper">
 	<article class="h-entry">
 		<header data-pagefind-ignore>
-			<p data-pagefind-filter="Post Category">${ post.section }</p>
+			<p>${ post.section }</p>
 			<h1 class="p-name">${ post.title }</h1>
 			<ul>
 				<li>${ post.words } words</li>
