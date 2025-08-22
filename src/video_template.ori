@@ -20,7 +20,7 @@ _body:
 			<h1 class="p-name">${ video.title }</h1>
 			<time class="dt-published" datetime="${ video.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(video.pub_time) }</time>
 			<span> | </span>
-			<a href="https://youtube.com/watch?v=${video.youtube_id}">Watch on YouTube</a>
+			<a href="https://www.youtube.com/watch?v=${video.youtube_id}">Watch on YouTube</a>
 		</header>
 
 		${ video._body }

@@ -81,7 +81,7 @@ _body:
 
 					<div class="socials">
 						${ item.youtube_id ? `
-						<a href="https://youtube.com/${ item.format === 'short' ? `shorts/` : `watch?v=` }${ item.youtube_id }" title="YouTube">${ item.format === 'short' ? `${youtube_shorts_icon}` : `${youtube_icon}` }</a>` : '' }
+						<a href="https://www.youtube.com/${ item.format === 'short' ? `shorts/` : `watch?v=` }${ item.youtube_id }" title="YouTube">${ item.format === 'short' ? `${youtube_shorts_icon}` : `${youtube_icon}` }</a>` : '' }
 					</div>
 				</header>
 				
@@ -126,7 +126,7 @@ _body:
 
 	<div class="pagination">
 		${ paginated_firehose.previousPage
-			? `<a href="/firehose${ paginated_firehose.previousPage === 1 ? '' : paginated_firehose.previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+			? `<a href="/firehose/${ paginated_firehose.previousPage === 1 ? '' : paginated_firehose.previousPage }"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
