@@ -26,3 +26,7 @@ items:
     url: blog.codepen.io/radio
     rss: blog.codepen.io/feed/podcast/codepen-radio/
     description: The CodePen team discussing running a web software business.
+  - title: Igalia Chats
+    url: www.igalia.com/chats/
+    rss: www.igalia.com/chats.xml
+    description: Discussions about the web, the web platform, and software more generally.

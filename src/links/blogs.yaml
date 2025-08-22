@@ -126,6 +126,10 @@ items:
     url: nerdy.dev
     rss: nerdy.dev/rss.xml
     description: CSS and other aspects of the web platform.
+  - title: Croissanthology
+    url: croissanthology.com
+    rss: croissanthology.com/feed.xml
+    description: Rationality and mundane utility.
   - title: Ben Myers
     url: benmyers.dev
     rss: benmyers.dev/feed.xml
@@ -148,6 +152,9 @@ items:
     rss: adactio.com/articles/rss
     json: adactio.com/articles/feed.json
     description: Development and tech industry.
+  - title: Alexey Guzey
+    url: guzey.com
+    description: AI and personal philosophy.
   - title: That HTML Blog
     url: thathtml.blog
     atom: thathtml.blog/feed.xml
@@ -193,6 +200,10 @@ items:
     url: seirdy.one
     atom: seirdy.one/atom.xml
     description: Accessibility, security, privacy, and software freedom.
+  - title: Steph Ango
+    url: stephango.com
+    atom: stephango.com/feed
+    description: Development and self-optimisation.
   - title: Scott O'Hara
     url: www.scottohara.me
     rss: www.scottohara.me/feed.xml
@@ -207,8 +218,12 @@ items:
     description: Artificial intelligence.
   - title: LessWrong
     url: www.lesswrong.com
-    rss: www.lesswrong.com/feed.xml?view=frontpage-rss
+    rss: www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=45
     description: Community blog of sorts discussing rationality and AI.
+  - title: Medienbäcker Thomas Günther
+    url: medienbaecker.com
+    rss: medienbaecker.com/articles.xml
+    description: Web development.
   - title: brr
     url: brr.fyi
     rss: brr.fyi/feed.xml
@@ -247,6 +262,10 @@ items:
     url: maya.land
     atom: maya.land/feed.xml
     description: Tech menacery.
+  - title: andrei.xyz
+    url: andrei.xyz
+    rss: andrei.xyz/post/index.xml
+    description: Technology and media.
   - title: 30fps.net
     url: 30fps.net
     atom: 30fps.net/atom.xml
