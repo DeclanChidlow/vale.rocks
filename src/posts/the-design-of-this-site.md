@@ -83,7 +83,7 @@ If you'd like detailed information about the implementation of the features on t
 
 I'm a text-heavy person, and that shows in this site, so I have put a huge amount of effort into its typography. A huge source of inspiration and reference for the typography on this site is Richard Rutter's [Web Typography](https://book.webtypography.net) and his [Typography and Opentype Default Stylesheet (TODS)](https://clagnut.com/blog/2433).
 
-Previously, this site used [Lexend](https://www.lexend.com), which, while extraordinarily readable, lacks support for many OpenType features. After [asking for worthy alternatives](/micros/20250612-0701), [Marko Bajlovic](https://marko.tech) suggested [Work Sans](https://weiweihuanghuang.github.io/Work-Sans). It maintains Lexend's sans serif appearance (though skewing more grotesque than geometric), is variable, and has support for fractions, sub/super scripts, old-style numbers, small caps, and a huge assortment of other font features. I do feel the default weight is too light though, so set it to `430`.
+Previously, this site used [Lexend](https://www.lexend.com), which, while extraordinarily readable, lacks support for many OpenType features. After [asking for worthy alternatives](/micros/20250612-0701), [Marko Bajlovic](https://marko.tech) suggested [Work Sans](https://weiweihuanghuang.github.io/Work-Sans/). It maintains Lexend's sans serif appearance (though skewing more grotesque than geometric), is variable, and has support for fractions, sub/super scripts, old-style numbers, small caps, and a huge assortment of other font features. I do feel the default weight is too light though, so set it to `430`.
 
 I really love and value the refined appearance these OpenType features offer, but they aren't always easy to implement in a reasonable way. There are countless typography-related bugs and flaws in CSS and the larger web platform, as well as many expected features that simply haven't yet seen support or consideration. There is also the matter of some typographic features being so uncommon on the web that users are confused in their use.
 
@@ -115,7 +115,7 @@ Like all endeavours, and especially creative ones (which I would argue this site
 
 Perhaps most notable is [the site of Gwern Branwen](https://gwern.net), a slick blend of expertly written content and minimalist design. Despite stumbling upon Gwern's site long after starting the development of this one, many of its eccentricities have made their way over, as you've no doubt noticed if you've ever paid Gwern's site a visit.
 
-Another huge source of inspiration is [LessWrong](https://www.lesswrong.com). A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.
+Another huge source of inspiration is [LessWrong](https://www.lesswrong.com/). A bit of a mix of blog and forum, LessWrong has some lovely typesetting, unique layouts, and many slick flourishes.
 
 In the same vein as the previous two, [TurnTrout's 'The Pond'](https://turntrout.com) incorporates many print-like typographic features and is very carefully crafted to create an experience that is a joy to read and interactive where it matters.
 
@@ -125,4 +125,4 @@ In the very early stages of this site's current iteration, the design was very m
 
 [^1]: It is also, to some extent, built with me in mind as a user. Rather than maintaining a separate knowledge base, journal, or index of my creations, much of that content is instead published here, where I can search and reference it. This is especially valuable paired with the [search page](/search), which makes it trivial to search and reference pretty much everything I've deemed noteworthy enough to release on the internet.
 
-[^2]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.
+[^2]: [Google suggests](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/) that 53% of visitors will bail on a site if it takes over three seconds to load. Pages should be fast, not only to prevent users from leaving but also to avoid inconveniencing users and to provide them a good experience.

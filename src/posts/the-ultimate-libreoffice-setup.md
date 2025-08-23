@@ -19,7 +19,7 @@ I feel it'd be wrong to write this article without at least mentioning the many 
 
 [Calligra](https://calligra.org) was another I looked at. It seemed rather nice, but is lacking many features that I would expect and was designed for KDE, a desktop environment I don't use. I do quite like it for mobile document editing though and I recommend it for Android tablet users.
 
-[iWork](https://www.apple.com/iwork) is Apple's offering. I used it on my iPad 4, circa 2015. It's alright. I don't own a MacBook.
+[iWork](https://www.apple.com/iwork/) is Apple's offering. I used it on my iPad 4, circa 2015. It's alright. I don't own a MacBook.
 
 [OnlyOffice](https://www.onlyoffice.com) is a pretty fully featured option, but it gave me a lot of popups and is web based, rather than native, which affects integration with my computer. It does have very nice support for Microsoft Office's formatting out of the box, though.
 

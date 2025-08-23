@@ -23,13 +23,13 @@ Sensing is a bit more complex of a concept to convey. By placing a magnet in a n
 
 I first heard of magnet implants years ago and very much wished to pursue getting one of my own. I researched the process and queried those with experience in the now-defunct [biohack.me forums](https://forum.biohack.me/discussions/2909), but being a minor and considering all the catches that come with it, didn't pursue the process at the time.
 
-Once I turned 18, I again looked into it. Things in the scene had changed a bit in the intervening years. The [Titan](https://dangerousthings.com/product/titan), which is the magnet I was initially interested in, was discontinued as part of a redesign, and community-advised implantation locations had been revised.
+Once I turned 18, I again looked into it. Things in the scene had changed a bit in the intervening years. The [Titan](https://dangerousthings.com/product/titan/), which is the magnet I was initially interested in, was discontinued as part of a redesign, and community-advised implantation locations had been revised.
 
-After a bit of research, the [xG3](https://dangerousthings.com/product/xg3) came out on top as the best (and one of the only) market offerings. The xG3 originally came in two varieties: the v1 (axially magnetised) and v2 (diametrically magnetised) -- v1 being best for sensing and v2 best for lifting, though reported failures [led to the v1 being discontinued](https://forum.dangerousthings.com/t/safety-advisory-xg3-v1/19500), leaving the v2 as the reasonable choice. To better understand its dimensions, I 3D printed an analogue using the STL files provided on Dangerous Things' site. Certainly a tad freaky sizing up placements on my hand and knowing that the real thing will eventually be in there...
+After a bit of research, the [xG3](https://dangerousthings.com/product/xg3/) came out on top as the best (and one of the only) market offerings. The xG3 originally came in two varieties: the v1 (axially magnetised) and v2 (diametrically magnetised) -- v1 being best for sensing and v2 best for lifting, though reported failures [led to the v1 being discontinued](https://forum.dangerousthings.com/t/safety-advisory-xg3-v1/19500), leaving the v2 as the reasonable choice. To better understand its dimensions, I 3D printed an analogue using the STL files provided on Dangerous Things' site. Certainly a tad freaky sizing up placements on my hand and knowing that the real thing will eventually be in there...
 
 ### The Procedure
 
-I got in contact with the [Dangerous Things partner](https://dangerousthings.com/partners) closest to me and booked in a consultation.
+I got in contact with the [Dangerous Things partner](https://dangerousthings.com/partners/) closest to me and booked in a consultation.
 
 I couldn't have ended up at a better piercer. The staff were fantastic, and my piercer ran me through the steps and process. I had already looked into placement and had my eye on position 0, between my thumb and pointer. [^2]
 
@@ -73,7 +73,7 @@ Come October first (day 13), the scab fell off, and the bruise visibly presented
 
 It's widely advised that you wait a few weeks before you start using it and that it can take a few months to completely settle in. There were a few points during healing where I did somewhat question if there really was a magnet in my hand, and it was always surreal when I sensed something or proved its presence to myself by picking up a small ferrous something.
 
-I was pretty happy with the healing process, although I don't think I needed the [Hirudoid Cream](https://hirudoid.com.au/hirudoid-cream) that I purchased. I used it, and it might have helped, but it realistically was an unnecessary extra cost that ultimately failed to prevent bruising or swelling.
+I was pretty happy with the healing process, although I don't think I needed the [Hirudoid Cream](https://hirudoid.com.au/hirudoid-cream/) that I purchased. I used it, and it might have helped, but it realistically was an unnecessary extra cost that ultimately failed to prevent bruising or swelling.
 
 Despite the steri-strips, my magnet did end up migrating a bit. It ultimately ended up moving a centimetre and a half or so and finally settled about a centimetre from the needle insertion point, although the opening had closed by the time it made its way down there. I'd obviously have preferred it to stay at the selected implantation site, but the body tends to naturally settle things where they're best off being.
 

@@ -1,6 +1,6 @@
 title: Vale's Podcast Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 17 Jul 2025 00:00:00 +0000
+modTime: 22 Aug 2025 00:00:00 +0000
 items:
   - title: Shoptalk
     url: shoptalkshow.com
@@ -19,11 +19,11 @@ items:
     rss: api.substack.com/feed/podcast/69345.rss
     description: Deeply researched interviews with intellectuals of varying celebrity.
   - title: The Shellsharks Podcast
-    url: shellsharks.com/podcast
+    url: shellsharks.com/podcast/
     rss: podcast.shellsharks.com/@ShellsharksPodcast/feed.xml
     description: All things infosec, technology and life in general.
   - title: CodePen Radio
-    url: blog.codepen.io/radio
+    url: blog.codepen.io/radio/
     rss: blog.codepen.io/feed/podcast/codepen-radio/
     description: The CodePen team discussing running a web software business.
   - title: Igalia Chats

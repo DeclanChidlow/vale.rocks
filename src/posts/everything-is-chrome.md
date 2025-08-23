@@ -11,7 +11,7 @@ The chances are you've heard of Google Chrome. It's currently the biggest browse
 
 ## The Early Days
 
-In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that came many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
+In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that came many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
 
 <figure class="right">
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics.">
@@ -30,7 +30,7 @@ Microsoft took notice of Netscape's success and saw the internet as a profitable
 
 Netscape Navigator came in two editions: Gold and Standard. With the release of version 4, the Gold Edition (which was notable for having many extra functions that negatively impacted stability) was rebranded to Netscape Communicator. This name change was a shot in the foot that affected their brand recognition and, bundled with performance slower than Microsoft's new Internet Explorer 5, spelt their demise.
 
-By the time the new millennium rolled around, many new browsers had launched (such as [KDE's Konqueror](https://apps.kde.org/en-gb/konqueror)); Netscape was on its deathbed, and Explorer was thriving with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn't all sunshine and rainbows for Microsoft's browser, however. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.
+By the time the new millennium rolled around, many new browsers had launched (such as [KDE's Konqueror](https://apps.kde.org/en-gb/konqueror/)); Netscape was on its deathbed, and Explorer was thriving with a peak market share of 95%. Google also began showing some interest in the browser market with the release of Google Toolbar for Internet Explorer. It wasn't all sunshine and rainbows for Microsoft's browser, however. Microsoft was accused of leveraging its dominant position in the market to unfairly promote Internet Explorer over other browsers to stifle competition.
 
 This came to a head in 2001 with the ominous-sounding United States of America v Microsoft Corporation. It concluded with Microsoft drafting a settlement proposal that permitted PC manufacturers to use non-Microsoft software.
 
@@ -125,11 +125,11 @@ One large criticism is that it gives Google a huge amount of control over the wa
 
 Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's 'Top Stories' section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after [facing legal threats](https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf).
 
-AMP is just another way that Google has shown that they are not content with simply existing within the web but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest [this Reddit post](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) from the creator of the [Amputator bot](https://amputatorbot.com).
+AMP is just another way that Google has shown that they are not content with simply existing within the web but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest [this Reddit post](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) from the creator of the [Amputator bot](https://amputatorbot.com/).
 
 ### Web Environment Integrity
 
-In April of 2023, some Google engineers [created a GitHub repository](https://github.com/RupertBenWiser/Web-Environment-Integrity) explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled 'Android WebView Media Integrity API' was swiftly proposed and looks to enter testing in early 2024.
+In April of 2023, some Google engineers [created a GitHub repository](https://github.com/explainers-by-googlers/Web-Environment-Integrity) explaining the details of a proposal for Web Environment Integrity (WEI). Despite huge negative feedback, code started being implemented into Chromium in preparation for implementation. Fortunately, the proposal was abandoned in November, and what had been implemented was removed, although a replacement for Android WebViews titled 'Android WebView Media Integrity API' was swiftly proposed and looks to enter testing in early 2024.
 
 You may be wondering exactly what it is. WEI is more or less a way to verify that a site is 'genuine'. It can be best described as Digital Rights Management (DRM) for the web and, wouldn't you know, could've also impacted ad blockers if they were found to be altering the web environment's integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered 'untrusted' and therefore severely limited.
 
@@ -143,7 +143,7 @@ As Bryce Wray illustrates in his article [Firefox on the Brink?](https://www.bry
 
 You're likely wondering what you can do. The answer is simple: support healthy competition and use a browser based on something other than Chromium. The best bet would be using Firefox or something based on it. Firefox is free, open-source, available on most platforms, and Mozilla has largely shown a commitment to both the user and the web (though not without their stumbles).
 
-If you're coming from one of the more flashy 'cutting edge' Chromium browsers like Arc or Opera GX, then [Zen](https://zen-browser.app) will provide a very similar experience. If you're looking for something with privacy in mind, like Brave or the DuckDuckGo browser, then you can try [LibreWolf](https://librewolf.net) or [Mullvad Browser](https://mullvad.net/browser). If you require anonymity or need to avoid censorship, then you might consider the [Tor Browser](https://www.torproject.org). Otherwise, you can also check out [Waterfox](https://www.waterfox.net), [IceCat](https://www.gnu.org/software/gnuzilla/), [Pale Moon](https://www.palemoon.org), [Floorp](https://floorp.app), [Mercury](https://thorium.rocks/mercury), and all the other assorted forks that exist.
+If you're coming from one of the more flashy 'cutting edge' Chromium browsers like Arc or Opera GX, then [Zen](https://zen-browser.app) will provide a very similar experience. If you're looking for something with privacy in mind, like Brave or the DuckDuckGo browser, then you can try [LibreWolf](https://librewolf.net) or [Mullvad Browser](https://mullvad.net/en/browser). If you require anonymity or need to avoid censorship, then you might consider the [Tor Browser](https://www.torproject.org). Otherwise, you can also check out [Waterfox](https://www.waterfox.net), [IceCat](https://www.gnu.org/software/gnuzilla/), [Pale Moon](https://www.palemoon.org), [Floorp](https://floorp.app), [Mercury](https://thorium.rocks/mercury), and all the other assorted forks that exist.
 
 If WebKit is more your style, then Kagi's [Orion Browser](https://kagi.com/orion) is looking promising and has native extension support. You can also check out [GNOME Web (Epiphany)](https://apps.gnome.org/en-GB/Epiphany/).
 
@@ -162,16 +162,16 @@ As the web's future depends on diversity in browser engines, you might also cons
 - [Tim Berners-Lee: WorldWideWeb, the first Web client](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) | Accessed: 10/12/2023
 - [NCSA Mosaic™ - NCSA](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic) | Accessed: 10/12/2023
 - [Browser Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/browser-market-share) | Accessed: 10/12/2023
-- [Did the browser wars finally end in 2014? | ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014) | Accessed 10/12/2023
+- [Did the browser wars finally end in 2014? | ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014/) | Accessed 10/12/2023
 - [Google Chrome](https://www.google.com/googlebooks/chrome/index.html) | Accessed: 10/12/2023
 - [Contra Chrome - a webcomic - How Google's browser became a threat to privacy and democracy](https://contrachrome.com) | Accessed: 10/12/2023
 - [Web Environment Integrity: What's Going On?](https://openwebdefenders.org) | Accessed: 12/12/2023
-- [Firefox on the brink? | BryceWray.com](https://www.brycewray.com/posts/2023/11/firefox-brink) | Accessed: 10/12/2023
+- [Firefox on the brink? | BryceWray.com](https://www.brycewray.com/posts/2023/11/firefox-brink/) | Accessed: 10/12/2023
 - [Designing for different browsers and devices - Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
-- [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers) | Accessed: 10/12/2023
+- [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers/) | Accessed: 10/12/2023
 - [Why did I build AmputatorBot?](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) | Accessed: 06/03/2024
-- [The Future of Developing Firefox Add-ons](https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons) | Accessed: 03/11/2024
-- [Manifest v3 in Firefox: Recap & Next Steps](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps) | Accessed: 03/11/2024
+- [The Future of Developing Firefox Add-ons](https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/) | Accessed: 03/11/2024
+- [Manifest v3 in Firefox: Recap & Next Steps](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps/) | Accessed: 03/11/2024
 - [uBlock Origin - Free, open-source ad content blocker](https://ublockorigin.com/) | Accessed: 03/11/2024
 
 </details>

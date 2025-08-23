@@ -24,13 +24,13 @@ Tabs should be used for indentation for several reasons. These include:
 - Improved accessibility
 - Smaller file sizes
 
-Prettier: [`useTabs: true`](https://prettier.io/docs/en/options.html#tabs)
+Prettier: [`useTabs: true`](https://prettier.io/docs/options.html#tabs)
 
 ## Always Add Semicolons
 
 When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it's ideal to see exactly what code will be executed.
 
-Prettier: [`semi: true`](https://prettier.io/docs/en/options.html#semicolons)
+Prettier: [`semi: true`](https://prettier.io/docs/options.html#semicolons)
 
 ```javascript
 // Bad
@@ -48,7 +48,7 @@ function name {
 
 Strings should use double quotes (`""`), not single quotes (`''`). This makes it easier to use single quotes (which are more common) within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.
 
-Prettier: [`singleQuote: true`](https://prettier.io/docs/en/options.html#quotes), [`jsxSingleQuote: false`](https://prettier.io/docs/en/options.html#jsx-quotes)
+Prettier: [`singleQuote: true`](https://prettier.io/docs/options.html#quotes), [`jsxSingleQuote: false`](https://prettier.io/docs/options.html#jsx-quotes)
 
 ```javascript
 // Bad
@@ -62,7 +62,7 @@ const variable = "String Content";
 
 Properties should all be quoted in the same way, rather than introducing unnecessary (and potentially confusing) variation within an object.
 
-Prettier: [`quoteProps: "consistent"`](https://prettier.io/docs/en/options.html#quote-props)
+Prettier: [`quoteProps: "consistent"`](https://prettier.io/docs/options.html#quote-props)
 
 ```javascript
 // Bad
@@ -96,7 +96,7 @@ const variable = "This is better. It may be a tad harder for a human to read, bu
 
 Trailing commas help keep version history clean. Rather than a diff showing the implementation of a new line _and_ a comma on the previous line, it will only display the actual change, a new line.
 
-Prettier: [`trailingComma: "all"`](https://prettier.io/docs/en/options.html#trailing-commas)
+Prettier: [`trailingComma: "all"`](https://prettier.io/docs/options.html#trailing-commas)
 
 ```javascript
 // Bad
@@ -116,7 +116,7 @@ object = {
 
 Brackets should have spaces on either side to provide padding. This makes it easier to read and maintains consistency.
 
-Prettier: [`bracketSpacing: true`](https://prettier.io/docs/en/options.html#bracket-spacing)
+Prettier: [`bracketSpacing: true`](https://prettier.io/docs/options.html#bracket-spacing)
 
 ```javascript
 // Bad
@@ -130,7 +130,7 @@ Prettier: [`bracketSpacing: true`](https://prettier.io/docs/en/options.html#brac
 
 Using arrow parentheses makes it easier to read and make changes.
 
-Prettier: [`arrowParens: always`](https://prettier.io/docs/en/options.html#arrow-function-parentheses)
+Prettier: [`arrowParens: always`](https://prettier.io/docs/options.html#arrow-function-parentheses)
 
 ```javascript
 // Bad
@@ -144,31 +144,31 @@ x => x
 
 Prose formatting should be handled slightly differently to code. As such, each block of prose should be unwrapped into one line. This makes it easy for any editor to define how they want prose to display.
 
-Prettier: [`proseWrap: preserve`](https://prettier.io/docs/en/options.html#prose-wrap)
+Prettier: [`proseWrap: preserve`](https://prettier.io/docs/options.html#prose-wrap)
 
 ## HTML Whitespace Sensitive Formatting
 
 Formatting HTML can be messy due to the way browsers parse whitespace. Prettier [offers a good explanation of it](https://prettier.io/blog/2018/11/07/1.15.0#whitespace-sensitive-formatting), but the crux is that their CSS formatting option offers the best mix of human readability and preservation of whitespace.
 
-Prettier: [`htmlWhitespaceSensitivity: css`](https://prettier.io/docs/en/options.html#html-whitespace-sensitivity)
+Prettier: [`htmlWhitespaceSensitivity: css`](https://prettier.io/docs/options.html#html-whitespace-sensitivity)
 
 ## Line Feed End of Line
 
 Different operating systems handle line endings differently, and things get messy quick. Using line feed, which is common on Unix based systems, is a clean option that is also supported on Windows.
 
-Prettier: [`endOfLine: lf`](https://prettier.io/docs/en/options.html#end-of-line)
+Prettier: [`endOfLine: lf`](https://prettier.io/docs/options.html#end-of-line)
 
 ## Format Embedded Languages
 
 Code of one type used within a file of another should be formatted as you would code in it's native filetype.
 
-Prettier: [`embeddedLanguageFormatting: auto`](https://prettier.io/docs/en/options.html#embedded-language-formatting)
+Prettier: [`embeddedLanguageFormatting: auto`](https://prettier.io/docs/options.html#embedded-language-formatting)
 
 ## Keep Multiple Attributes Per Line
 
 Splitting an element's attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.
 
-Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/en/options.html#single-attribute-per-line)
+Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/options.html#single-attribute-per-line)
 
 ```html
 // Bad

@@ -18,7 +18,7 @@ The very earliest versions of this site were built with completely hand-coded st
 
 The limit wasn't entirely a technological one. After all, the underlying tech was just web standards, and that allows for all you can think of. The limits I hit were my willingness to manually implement and hard-code every single thing.
 
-Thus, I moved on to using a static site generator. Given that I was already a GitHub user and had opted to deploy my site with GitHub Pages, I opted to use [Jekyll](https://jekyllrb.com). Jekyll is nice, and its support for Shopify's [Liquid templating language](https://shopify.github.io/liquid) made it wonderfully flexible -- but it wasn't necessarily exactly conducive to my preferred workflow, and dealing with Ruby proved a pain.
+Thus, I moved on to using a static site generator. Given that I was already a GitHub user and had opted to deploy my site with GitHub Pages, I opted to use [Jekyll](https://jekyllrb.com). Jekyll is nice, and its support for Shopify's [Liquid templating language](https://shopify.github.io/liquid/) made it wonderfully flexible -- but it wasn't necessarily exactly conducive to my preferred workflow, and dealing with Ruby proved a pain.
 
 From that came my own static site generator, [Adduce](https://adduce.vale.rocks). Adduce is wonderful, and I love the flexibility afforded by using it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I'm ill-equipped to address with my Rust capabilities.
 
@@ -42,7 +42,7 @@ This overall experience is very much influenced by [Gwern's implementation and r
 
 ### Hero Puddle
 
-On the [landing page](/) of my site, I have an interactive fluid simulation triggered by touch and mouse movement. Very much inspired and based on [the one by Arjun Nair](https://batmannair.com/puddle.js), my implementation ([`puddle.js`](/assets/scripts/puddle.js)) is simplified and provides greatly improved performance. You can play with it [over on CodePen](https://codepen.io/OuterVale/pen/emOeyQM).
+On the [landing page](/) of my site, I have an interactive fluid simulation triggered by touch and mouse movement. Very much inspired and based on [the one by Arjun Nair](https://batmannair.com/puddle.js/), my implementation ([`puddle.js`](/assets/scripts/puddle.js)) is simplified and provides greatly improved performance. You can play with it [over on CodePen](https://codepen.io/OuterVale/pen/emOeyQM).
 
 ### Graph View
 
@@ -84,7 +84,7 @@ As for inversion, certain images, such as graphs, may have solid white backgroun
 
 ### Scroll Indication
 
-When perusing the content of an article, a scroll progress bar appears with markers of heading locations for ease of navigation. This implementation is inspired by the one on [LessWrong](https://lesswrong.com). It has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.
+When perusing the content of an article, a scroll progress bar appears with markers of heading locations for ease of navigation. This implementation is inspired by the one on [LessWrong](https://www.lesswrong.com/). It has two possible appearances that swap out based on breakpoints for a responsive experience best tailored to the user.
 
 On viewports with sufficient horizontal space, the indicator is displayed vertically and has a thumb that represents the height of the user's viewport. When the vertical indicator is hovered, a percentage value representing progress and heading labels are displayed like a table of contents. Clicking a heading label allows jumping to it.
 
@@ -102,7 +102,7 @@ Tying in somewhat with the scroll indication functionality, my client-side [`cop
 
 My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
 
-As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about it](https://kiko.io/post/Pagefind-UI-and-URL-Parameters).
+As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about it](https://kiko.io/post/Pagefind-UI-and-URL-Parameters/).
 
 ### 404 Handling
 
@@ -136,7 +136,7 @@ I take care not to incorporate too many transformations during Markdown parsing,
 
 In an effort to integrate open web concepts into this site, I've applied much of that outlined on the [IndieWeb wiki site](https://indieweb.org).
 
-One part of this is making use of [microformats](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) whenever possible to define extra structure and semantics, and another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>/<abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr> syndication models as applicable. This places my site as the centre of my web presence, with everything else revolving around it. Ideally, it should be considered the canonical source for everything I do web-wise.
+One part of this is making use of [microformats](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats) whenever possible to define extra structure and semantics, and another part is embracing <abbr title="Publish on your Own Site, Syndicate Elsewhere">POSSE</abbr>/<abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr> syndication models as applicable. This places my site as the centre of my web presence, with everything else revolving around it. Ideally, it should be considered the canonical source for everything I do web-wise.
 
 ### Read on Site Recommendation
 
@@ -146,7 +146,7 @@ To address this, I added functionality which allows me to mark long-form posts a
 
 ### Progressive Web App
 
-Vale.Rocks is configured as a [PWA](https://wikipedia.org/wiki/Progressive_web_app) so that users can install it as a standalone app. I very much doubt many people will install this site as a PWA, but the option is there for those that want it. It has [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts) configured to the major site sections that someone might want to visit on demand.
+Vale.Rocks is configured as a [PWA](https://www.wikipedia.org/wiki/Progressive_web_app) so that users can install it as a standalone app. I very much doubt many people will install this site as a PWA, but the option is there for those that want it. It has [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts) configured to the major site sections that someone might want to visit on demand.
 
 In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
 

@@ -19,7 +19,7 @@ It runs [NixOS](https://nixos.org), which I'm a huge fan of thanks to its declar
 
 I run [Sway](https://swaywm.org) as my window manager, [swaylock](https://github.com/swaywm/swaylock) as the screen locker, and [Yambar](https://codeberg.org/dnkl/yambar) as my status panel. I use [bemenu](https://github.com/Cloudef/bemenu) (a Wayland equivalent of dmenu) for launching programs and displaying my clipboard history (with the help of [cliphist](https://www.cliphist.com)). My notifications are all handled by [Dunst](https://dunst-project.org).
 
-[Kitty](https://sw.kovidgoyal.net/kitty) is my preferred terminal, pretty much exclusively for its support for ligatures and images and its [SSH kitten](https://sw.kovidgoyal.net/kitty/kittens/ssh).
+[Kitty](https://sw.kovidgoyal.net/kitty/) is my preferred terminal, pretty much exclusively for its support for ligatures and images and its [SSH kitten](https://sw.kovidgoyal.net/kitty/kittens/ssh).
 
 All my file exploring is handled by the very excellent [Vifm](https://vifm.info). My configurations for it are quite extensive, and it works for me as a full stand-in for any 'conventional' file explorer, such as Dolphin or Nautilus.
 
@@ -29,15 +29,15 @@ I spend a lot of my time in the terminal and, as such, have a pretty smooth conf
 
 ### Browsers
 
-- [Firefox](https://www.mozilla.org/firefox/new): For general browser usage.
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer): For development on Firefox and testing Gecko compatibility.
-- [Chromium](https://www.chromium.org/Home): For testing Blink compatibility.
-- [Epiphany](https://apps.gnome.org/Epiphany): For testing WebKit compatibility.
+- [Firefox](https://www.firefox.com/en-US/): For general browser usage.
+- [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/): For development on Firefox and testing Gecko compatibility.
+- [Chromium](https://www.chromium.org/Home/): For testing Blink compatibility.
+- [Epiphany](https://apps.gnome.org/Epiphany/): For testing WebKit compatibility.
 - [Tor](https://www.torproject.org): For the occasional dark web browsing session or increased anonymity. I don't use any extensions with Tor.
 
 I use a [custom search engine router I made](https://search.vale.rocks) to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:
 
-- [Facebook Container](https://www.mozilla.org/en-US/firefox/facebookcontainer) (Firefox only): Isolates Facebook from the rest of my browsing.
+- [Facebook Container](https://www.mozilla.org/en-US/firefox/facebookcontainer/) (Firefox only): Isolates Facebook from the rest of my browsing.
 - [uBlock Origin](https://ublockorigin.com): Allows blocking adverts, content, fonts, scripts, etc. I switch this out for [the lite variant](https://github.com/uBlockOrigin/uBOL-home) on browsers that have dropped Manifest v2 support.
 - [SponsorBlock for YouTube](https://sponsor.ajay.app): Can filter out unwanted parts of YouTube videos.
 - [Fontanello](https://fontanello.app): Provides information about the typographic stylings of selected text.
@@ -60,13 +60,13 @@ I 'enhance' (salvage) the Windows experience with [Microsoft's PowerToys](https:
 
 I usually do video editing in [Kdenlive](https://kdenlive.org), though will opt for [Shotcut](https://www.shotcut.org) instead for projects of a lesser scope.
 
-Raster image manipulation is usually conducted in [Photopea](http://photopea.com), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
+Raster image manipulation is usually conducted in [Photopea](http://photopea.com/), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
 
-I use [Blender](https://www.blender.org) for 3D modelling and animation. My [Creality Ender 3 V3 SE](https://store.creality.com/products/ender-3-v3-se-3d-printer) 3D printer is complemented by [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424), which I use for slicing and has extensive custom configuration for my needs.
+I use [Blender](https://www.blender.org) for 3D modelling and animation. My [Creality Ender 3 V3 SE](https://store.creality.com/products/ender-3-v3-se-3d-printer) 3D printer is complemented by [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), which I use for slicing and has extensive custom configuration for my needs.
 
 For document creation and editing, I tend to use Neovim paired with [Pandoc](https://pandoc.org) for most document creation, though fallback to [LibreOffice](https://www.libreoffice.org) with [my set of modifications](/posts/the-ultimate-libreoffice-setup) for dealing with Microsoft Office file formats.
 
-My email/contact/calendar/task client is [Thunderbird](https://www.thunderbird.net). It isn't perfect but is generally alright. Video and loose audio files are played through [mpv](https://mpv.io), and [imv](https://sr.ht/~exec64/imv) serves as my image viewer.
+My email/contact/calendar/task client is [Thunderbird](https://www.thunderbird.net/en-US/). It isn't perfect but is generally alright. Video and loose audio files are played through [mpv](https://mpv.io), and [imv](https://sr.ht/~exec64/imv/) serves as my image viewer.
 
 ---
 
@@ -92,14 +92,14 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [FlorisBoard](https://florisboard.org): Excellent and very customisable FOSS keyboard.
 - [FeedFlow](https://www.feedflow.dev): A very nice feed reader. Posts open in browser rather than being displayed in-app.
 - [Harmonic](https://github.com/SimonHalvdansson/Harmonic-HN): Slick Hacker News client.
-- [Digg](https://digg.com)
+- [Digg](https://www.digg.com/)
 - [Kvaesitso](https://kvaesitso.mm20.de): Feature-rich, search-focused launcher.
 - [Google Messages](https://www.android.com/google-messages/): Google's SMS/MMS/RCS app. I'd prefer to use a FOSS alternative, but RCS is pretty locked down, so I'm left without alternative.
 - [Moshidon](https://github.com/LucasGGamerM/moshidon): Wonderful Fediverse client with plenty of quality-of-life features.
 - [Droid-ify](https://droidify.eu.org): Modern, feature-rich F-Droid client
 - [OsmAnd+](https://osmand.net): Navigation app based on OpenStreetMap.
 - [Phone by Google](https://play.google.com/store/apps/details?id=com.google.android.dialer): Google's Phone app that I've chosen to use as it complements Google Messages.
-- [Google Photos](https://photos.google.com): Not my preference, but it's one of the only options with good editing capabilities. I keep it disconnected from the internet.
+- [Google Photos](https://www.google.com/photos/about/): Not my preference, but it's one of the only options with good editing capabilities. I keep it disconnected from the internet.
 - [phyphox](https://phyphox.org): Allows for doing all sorts of really cool things using the many sensors in phones.
 - [Thunderbird](https://www.thunderbird.net): Email client connected to my Runbox email addresses.
 - [DAVx<sup>5</sup>](https://www.davx5.com): CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.
@@ -140,6 +140,6 @@ Currently I manage my extensive e-book collection with [Calibre](https://calibre
 
 I like to do a bit of gaming in my 'spare' time, so I've got a bit setup. I end up spending the bulk of my games on my Xbox Series S simply as a result of convenience. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2000, and Nintendo DS, although they see scarce use.
 
-My preferred platform, even if not the most played, is PC. Most of my PC games live on [Steam](https://steampowered.com), although I've got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the [Heroic Games Launcher](https://heroicgameslauncher.com). I also have [Prism Launcher](https://prismlauncher.org) for my occasional Minecraft needs and [GameMode](https://feralinteractive.github.io/gamemode) to keep everything running smoothly.
+My preferred platform, even if not the most played, is PC. Most of my PC games live on [Steam](https://store.steampowered.com/), although I've got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the [Heroic Games Launcher](https://heroicgameslauncher.com). I also have [Prism Launcher](https://prismlauncher.org) for my occasional Minecraft needs and [GameMode](https://feralinteractive.github.io/gamemode/) to keep everything running smoothly.
 
 I also emulate many games. When playing on my computer, I use Ryujinx for the original Nintendo Switch, [MelonDS](https://melonds.kuribo64.net) for the Nintendo DS/DSi, [Dolphin](https://dolphin-emu.org) for Wii/GameCube, [PCSX2](https://pcsx2.net) for PlayStation 2, [xemu](https://xemu.app) for the original XBOX, [Xenia](https://xenia.jp) for the Xbox 360, and [Mupen64Plus](https://mupen64plus.org)/[Rosalie's Mupen GUI](https://github.com/Rosalie241/RMG) standalone, with pretty much everything else handled by RetroArch for convenience.

@@ -10,7 +10,7 @@ I fear that we may lose -- and are already losing -- the modern history of AI, p
 
 This essay examines the disappearance of proprietary hosted AI models and the implications of that on research, accountability, and overall historical documentation and preservation.
 
-I fear this is a very under-analysed topic, with [New methods for deprecating artificial intelligence systems will preserve history and facilitate research](https://doi.org/10.1038/s41467-024-54758-1) <sub>(Johnson T, Obradovich N. 2024)</sub> being the only notable discussion I have found.
+I fear this is a very under-analysed topic, with [New methods for deprecating artificial intelligence systems will preserve history and facilitate research](https://www.nature.com/articles/s41467-024-54758-1) <sub>(Johnson T, Obradovich N. 2024)</sub> being the only notable discussion I have found.
 
 > [!NOTE]
 > OpenAI calls models that are no longer available for usage 'deprecated,' while Anthropic reserves that term for models that are only available for existing users and uses the term 'retired' for models that are no longer available in any capacity. For the sake of clarity, I'll refer to them as retired or non-hosted models.
@@ -23,7 +23,7 @@ For instance, the launch of ChatGPT in 2022 is and will remain a notable event f
 
 It cannot be tested or experimented with, and we cannot evaluate it or run fresh benchmarks to compare it with new, emerging models. It is a fundamental part of the history of large language models that is completely unavailable. We will not be able to go back and inspect the early days of AI like we do the early days of computing. We've very much entered a period of technological advancement where the original technology is unavailable for inspection and only available via the artefacts it produced and writing it provoked. [^1]
 
-OpenAI has already retired a wide array of their own models and plans to retire more, [as evidenced by their deprecations page](https://platform.openai.com/docs/deprecations). Anthropic is the same, with [many of their models having hit the end of their life cycle](https://docs.anthropic.com/en/docs/resources/model-deprecations).
+OpenAI has already retired a wide array of their own models and plans to retire more, [as evidenced by their deprecations page](https://platform.openai.com/docs/deprecations). Anthropic is the same, with [many of their models having hit the end of their life cycle](https://docs.anthropic.com/en/docs/about-claude/model-deprecations).
 
 Especially because so many changes are quick and iterative, I fear there is not sufficient inclination to preserve each step and snapshot, only the final product, and often not even that by the time the next model comes around.
 

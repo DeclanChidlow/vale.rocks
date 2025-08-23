@@ -10,7 +10,7 @@ When I first entered the bloody fray that is the web development sphere, I did p
 
 Each and every page of my site would have a duplicate copy of my navbar and footer copied into it, meaning that whenever I wanted to do something like add a new item, I had to jump across pages and update each instance individually.
 
-In my endless genius, I decided the solution to my woes was to use [iframes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe). My initial implementations circa 2018 were rather poor, as you might imagine from an inexperienced, 12 year old, me.
+In my endless genius, I decided the solution to my woes was to use [iframes](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe). My initial implementations circa 2018 were rather poor, as you might imagine from an inexperienced, 12 year old, me.
 
 They were incredibly clunky and relied on JavaScript to show and hide them. They also didn't really mesh with the page and were constantly overflowing, causing a lack of cohesion and inconvenient scrollbars.
 

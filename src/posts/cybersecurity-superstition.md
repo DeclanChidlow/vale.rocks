@@ -28,14 +28,14 @@ Most people know not to use names or common phrases in their passwords. Through 
 
 <figure class="right">
 <img src="https://imgs.xkcd.com/comics/password_strength.png" alt="xkcd comic strip comparing password strength and memorability, showing a complicated password and a simple passphrase, highlighting the entropy and guessability of each, and a stick figure finding the passphrase easier to remember." />
-<figcaption>Relevant xkcd comic. Credit: <a href="https://xkcd.com/936">xkcd</a></figcaption>
+<figcaption>Relevant xkcd comic. Credit: <a href="https://xkcd.com/936/">xkcd</a></figcaption>
 </figure>
 
 These confusing, special character infused passwords don't improve security; they harm it. They are hard for humans and easy for computers - the worst of both worlds. I previously mentioned entropy and how we can use it to calculate the strength of a password. Well, it isn't a perfect measure.
 
 While bruteforcing may have started by simply crawling through a list of predefined common passwords, they later moved on to using complex algorithms. zxcvbn is a very useful tool that takes these algorithms into account to give an accurate idea of what more modern bruteforcing attacks are capable of.
 
-Bitwarder is a free and open source password manager and [supplies a free tool to check the strength of a password against zxcvbn](https://bitwarden.com/password-strength). It's worth giving it a go with a range of different passwords, just to see what is actually strong.
+Bitwarder is a free and open source password manager and [supplies a free tool to check the strength of a password against zxcvbn](https://bitwarden.com/password-strength/). It's worth giving it a go with a range of different passwords, just to see what is actually strong.
 
 You should quickly come to realise that, for the average person, passphrases are much more effective than passwords. Easy to remember and, when done right, hard for a computer to crack.
 

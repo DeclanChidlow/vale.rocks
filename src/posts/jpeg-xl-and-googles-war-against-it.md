@@ -131,7 +131,7 @@ This is an effort that is worth fighting for. Google has trampled innovation far
 - [Web Review: PNG's NOT GIF!](https://web.archive.org/web/20240502093606/https://people.apache.org/~jim/NewArchitect/webrevu/1997/05_09/designers/05_09_97_1) | Accessed: 01/05/2024
 - ["jpeg webp" | Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/?search=jpeg%20webp)
 - [JPEG XL](https://jpegxl.info)| Accessed: 24/04/2024
-- [JPEG - JPEG XL](https://jpeg.org/jpegxl) | Accessed: 23/04/2024
+- [JPEG - JPEG XL](https://jpeg.org/jpegxl/) | Accessed: 23/04/2024
 - [JPEG XL White Paper 2.0 - jpeg-xl-whitepaper.pdf](https://ds.jpeg.org/whitepapers/jpeg-xl-whitepaper.pdf) | Accessed: 28/04/2024
 - [How JPEG XL Compares to Other Image Codecs](https://cloudinary.com/blog/how_jpeg_xl_compares_to_other_image_codecs) | Accessed: 23/04/2024
 - [Open Bug 1539075 (JPEG-XL) Implement support for JPEG XL (image/jxl)](https://bugzilla.mozilla.org/show_bug.cgi?id=1539075) | Accessed: 23/04/2024

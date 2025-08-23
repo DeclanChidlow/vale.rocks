@@ -14,7 +14,7 @@
   url: simpleicons.org
   description: Huge collection of vector icons.
 - title: The Ultimate Oldschool PC Font Pack
-  url: int10h.org/oldschool-pc-fonts
+  url: int10h.org/oldschool-pc-fonts/
   description: Old crunchy PC fronts.
 - title: Device Info
   url: deviceinfo.me
@@ -35,13 +35,13 @@
   url: ohshitgit.com
   description: A guide to un-fucking your Git mistakes.
 - title: 98.css
-  url: jdan.github.io/98.css
+  url: jdan.github.io/98.css/
   description: Windows 98 style CSS design system.
 - title: XP.css
-  url: botoxparty.github.io/XP.css
+  url: botoxparty.github.io/XP.css/
   description: Windows XP style CSS design system.
 - title: 7.css
-  url: khang-nd.github.io/7.css
+  url: khang-nd.github.io/7.css/
   description: Windows 7 style CSS design system.
 - title: Laws of UX
   url: lawsofux.com
@@ -71,10 +71,10 @@
   url: www.merklemap.com
   description: Search subdomains.
 - title: PWA Install Demo
-  url: khmyznikov.com/pwa-install
+  url: khmyznikov.com/pwa-install/
   description: Installation dialog for Progressive Web Applications (PWAs).
 - title: HTML De-crapulator
-  url: a11y-tools.com/markup-de-crapulator
+  url: a11y-tools.com/markup-de-crapulator/
   description: Does what it says on the tin.
 - title: time.fyi
   url: time.fyi
@@ -101,13 +101,13 @@
   url: wakamaifondue.com
   description: Answers the question “What can my font do?”.
 - title: SQLZoo
-  url: sqlzoo.net
+  url: sqlzoo.net/wiki/SQL_Tutorial
   description: Teaches SQL step-by-step.
 - title: OSINT Framework
   url: osintframework.com
   description: Provides tons of open source intelligence resources.
 - title: Photopea
-  url: photopea.com
+  url: photopea.com/
   description: Photoshop clone.
 - title: Learn X in Y Minutes
   url: learnxinyminutes.com
@@ -131,7 +131,7 @@
   url: www.kenney.nl
   description: Free game assets.
 - title: Scale
-  url: hihayk.github.io/scale
+  url: hihayk.github.io/scale/
   description: Colour scale generator.
 - title: OpenGameArt.org
   url: opengameart.org

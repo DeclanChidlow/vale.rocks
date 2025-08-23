@@ -1,5 +1,5 @@
 // Based on Puddle.js
-// https://batmannair.com/puddle.js
+// https://batmannair.com/puddle.js/
 
 const CONFIG = {
 	DEFAULT_UPDATE_INTERVAL: 100,

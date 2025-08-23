@@ -55,7 +55,7 @@ To test if popular models do have built-in bias for React, I logged into the web
 
 I asked Anthropic's Claude 3.5 Sonnet with blank personal preferences and artifacts enabled. The first time it opted to create a mood tracking app, the second a reading list manager, and the third time a to-do list. Each time it chose to generate it using React with Tailwind CSS for styling. It generated each project in an artifact which offered an interactive preview directly in the interface.
 
-I asked OpenAI's ChatGPT 4o with both custom instructions and memory disabled. It produced a note-taking app the first time, a random quote generator the second time, and a to-do list the third time. All using React with Tailwind for styling and presented in [canvases](https://openai.com/index/introducing-canvas). These canvases came with a preview button, which, much like with Claude, offered an interactive preview of the React project it built directly in the interface.
+I asked OpenAI's ChatGPT 4o with both custom instructions and memory disabled. It produced a note-taking app the first time, a random quote generator the second time, and a to-do list the third time. All using React with Tailwind for styling and presented in [canvases](https://openai.com/index/introducing-canvas/). These canvases came with a preview button, which, much like with Claude, offered an interactive preview of the React project it built directly in the interface.
 
 I asked Google's Gemini 2.0 Flash with app activity disabled. All three times it built to-do list apps using vanilla HTML, CSS, and JavaScript. Each time, it also noted that I should consider using JavaScript frameworks on the frontend, namely React, Angular, and Vue - in that order.
 
