@@ -487,6 +487,7 @@ items:
     atom: arielsalminen.com/atom.xml
     description: Design systems and web development.
   - title: Mat 'Wilto' Marquis
+    url: wil.to
     atom: wil.to/feed.xml
     description: Websites and JavaScript.
   - title: Grace Kind

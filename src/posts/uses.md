@@ -114,7 +114,7 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [WikiReader](https://github.com/nsh07/WikiReader): Beautiful Wikipedia client.
 - [Xed-Editor](https://github.com/Xed-Editor/Xed-Editor): Advanced text editor for when I'm in a pinch.
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
-- [YouTube](https://youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
+- [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
 
 ---
 

@@ -85,7 +85,7 @@
 - title: /uses
   url: uses.tech
 - title: Micro Survivors
-  url: skacekamen.github.io/micro-survivors
+  url: skacekamen.github.io/micro-survivors/
 - title: LiquidFun
   url: google.github.io/liquidfun
 - title: aem1k
@@ -99,11 +99,11 @@
 - title: FirefoxCSS Store
   url: firefoxcss-store.github.io
 - title: Acid Pattern Generator
-  url: drakh.github.io/acid-generator
+  url: drakh.github.io/acid-generator/
 - title: Botwiki
   url: botwiki.org
 - title: Your Name in Landsat
-  url: landsat.gsfc.nasa.gov/apps/YourNameInLandsat-main
+  url: science.nasa.gov/specials/your-name-in-landsat
 - title: sixtyfour
   url: 64.surf
 - title: Beautiful Public Data
@@ -113,7 +113,7 @@
 - title: ambient.garden
   url: ambient.garden
 - title: Listen to Wikipedia
-  url: listen.hatnote.com
+  url: listen.hatnote.com/
 - title: MelonLand Project
   url: melonland.net
 - title: Retrocomputing Archive
@@ -129,19 +129,19 @@
 - title: Sombras.app
   url: sombras.app
 - title: Wikipedia Unusual Articles
-  url: wikipedia.org/wiki/Wikipedia:Unusual_articles
+  url: www.wikipedia.org/wiki/Wikipedia:Unusual_articles
 - title: Bushism
-  url: wikipedia.org/wiki/Bushism
+  url: www.wikipedia.org/wiki/Bushism
 - title: Wikipedia Silly Things
-  url: wikipedia.org/wiki/Wikipedia:Silly_Things
+  url: www.wikipedia.org/wiki/Wikipedia:Silly_Things
 - title: Spaghetti-tree Hoax
-  url: wikipedia.org/wiki/Spaghetti-tree_hoax
+  url: www.wikipedia.org/wiki/Spaghetti-tree_hoax
 - title: The Internet Ray Tracing Competition
   url: www.irtc.org
 - title: The Official Jackie Chan Website
   url: jackiechan.com
 - title: Internet Explorer is EVIL!
-  url: toastytech.com/evil
+  url: toastytech.com/evil/
 - title: The San Francisco FogCam!
   url: www.fogcam.org
 - title: Heaven's Gate
@@ -151,11 +151,11 @@
 - title: The Mosaic Communications Universe
   url: home.mcom.com
 - title: Mu Mirror
-  url: wyattroy.github.io/mu-mirror
+  url: wyattroy.github.io/mu-mirror/
 - title: Lock the Taskbar
-  url: madeupandprobablydoesnotexist.com/taskbar
+  url: madeupandprobablydoesnotexist.com/taskbar/
 - title: FlagWaver
-  url: krikienoid.github.io/flagwaver
+  url: krikienoid.github.io/flagwaver/
 - title: Old'aVista
   url: oldavista.com
 - title: OldWeb.Today
@@ -169,11 +169,9 @@
 - title: Pointer Pointer
   url: pointerpointer.com
 - title: ▁▂▃▄▅▆▇ `^^^^^~ ░ ui▀┳╲ ☺ .info ▓
-  url: yyyyyyy.info
+  url: yyyyyyy.info/
 - title: elgooG
   url: elgoog.im
-- title: Staggering Beauty
-  url: www.staggeringbeauty.com
 - title: hooooooooooooooooooooooooooooooooooooooooooooooooooooooooorse
   url: secure.endless.horse
 - title: GifCities
@@ -189,7 +187,7 @@
 - title: Let Me Google That
   url: letmegooglethat.com
 - title: Zoomquilt
-  url: zoomquilt.org
+  url: zzz.zoomquilt.org
 - title: Binary Music Player
   url: binarypiano.com
 - title: Find the Invisible Cow
@@ -197,7 +195,7 @@
 - title: Hakim El Hattab
   url: hakim.se
 - title: emojimix
-  url: tikolu.net/emojimix
+  url: tikolu.net/emojimix/
 - title: Radio Garden
   url: radio.garden
 - title: Silk
@@ -208,14 +206,12 @@
   url: www.kingdomofloathing.com
 - title: About Ideas Now
   url: aboutideasnow.com
-- title: Discuo
-  url: discuo.com
 - title: Pokémon Cards CSS Holographic Effect
   url: poke-holo.simey.me
 - title: Monster Breeder
   url: monsterbreeder.com
 - title: Bad Cafe Web Jungle
-  url: badcafe.site/jungle
+  url: badcafe.site/jungle/
 - title: Fluid Particles
   url: david.li/fluid/
 - title: Anything But Metric
@@ -239,7 +235,7 @@
 - title: Iso
   url: wxs.ca/iso/
 - title: Ian's Shoelace Site
-  url: www.fieggen.com/shoelace
+  url: www.fieggen.com/shoelace/
 - title: Akiyoshi's illusion pages
   url: www.ritsumei.ac.jp/~akitaoka/index-e.html
 - title: the Free Movie
@@ -263,7 +259,7 @@
 - title: The Nicest Place On The Internet
   url: thenicestplace.net
 - title: Letters
-  url: rebane2001.com/letters
+  url: rebane2001.com/letters/
 - title: Audio-motion interface
   url: ami.stranno.su
 - title: MinuteLabs.io
@@ -283,9 +279,9 @@
 - title: Something/Nothing
   url: somethingnothing.net
 - title: The Cursed Computer Iceberg Meme
-  url: suricrasia.online/iceberg
+  url: suricrasia.online/iceberg/
 - title: ProsePlay
-  url: www.proseplay.net
+  url: www.proseplay.net/
 - title: Link-Site Prototype
   url: alexuslab.com/link-site/
 - title: Wikenigma
@@ -361,7 +357,7 @@
 - title: Orb.Farm
   url: orb.farm
 - title: The Simulator
-  url: www.conceptlab.com/simulator
+  url: www.conceptlab.com/simulator/
 - title: Memory of the World Library
   url: library.memoryoftheworld.org
 - title: textmode.art
@@ -415,7 +411,7 @@
 - title: Rotating Sandwiches
   url: rotatingsandwiches.com
 - title: "Nothing: Simply Do Nothing"
-  url: nothing.mvze.net
+  url: usenothing.com/
 - title: Only Visit Once
   url: onlyvisitonce.com
 - title: Is my blue your blue?
@@ -464,14 +460,12 @@
   url: sandboxels.r74n.com
 - title: LiveMeteors.com
   url: www.livemeteors.com
-- title: Bob is nothing
-  url: www.bobisnothing.com
 - title: ORAL.pub
   url: oral.pub
 - title: DigiCD Player
   url: launcher.pcotandy.org
 - title: How long is my data?
-  url: howlongismydata.glitch.me
+  url: alexwlchan.net/fun-stuff/howlongismydata//
 - title: 👻🌎
   url: ghost.earth
 - title: myPhysicsLab
@@ -503,7 +497,7 @@
 - title: Dioramas
   url: dioramas.space
 - title: welcome to dreamwiki
-  url: dreamwiki.sixey.es
+  url: dreamwiki.sixey.es/welcome.dream/
 - title: Mackerelmedia Fish® Powering the Web since 1996
   url: mackerelmediafish.com
 - title: This is a thing
@@ -529,6 +523,6 @@
 - title: ASCIIMoon
   url: asciimoon.com
 - title: Pink Trombone
-  url: dood.al/pinktrombone
+  url: dood.al/pinktrombone/
 - title: Familiars.io
   url: www.familiars.io
