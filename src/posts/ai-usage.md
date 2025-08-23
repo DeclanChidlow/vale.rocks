@@ -19,7 +19,7 @@ I referenced the output of GPT-3 via OpenAI's Playground prior to ChatGPT's rele
 
 I switched to using GPT-3.5 via ChatGPT shortly after its launch. Fairly capable, but still extremely flawed.
 
-I gave [Craiyon](https://www.craiyon.com) a test, but its image output was a garbled mess and interesting only as a proof of concept.
+I gave [Craiyon](https://www.craiyon.com/en) a test, but its image output was a garbled mess and interesting only as a proof of concept.
 
 ### 2023
 
@@ -43,7 +43,7 @@ I experimented with DeepSeek V3 and found it capable but inferior to Claude 3.5 
 
 I tested Perplexity and found it interesting but prone to hallucinations and therefore completely unfit for use as a general search engine. ChatGPT Search was equally poor as a general search engine, but I found utility in ChatGPT pulling in web content to avoid the limitations of its knowledge cutoff.
 
-Late in the year I began using LLMs for help with my Japanese learning. Mainly for the purpose of quizzing me on words and phrases or to converse with me and offer corrections as necessary. Language is the bread and butter of a Large _Language_ Model, and it did a very good job. I used [DeepL](https://www.deepl.com) on occasion to verify it wasn't just spouting rubbish, and it wasn't any of the times I verified.
+Late in the year I began using LLMs for help with my Japanese learning. Mainly for the purpose of quizzing me on words and phrases or to converse with me and offer corrections as necessary. Language is the bread and butter of a Large _Language_ Model, and it did a very good job. I used [DeepL](https://www.deepl.com/en/translator) on occasion to verify it wasn't just spouting rubbish, and it wasn't any of the times I verified.
 
 ### 2025
 

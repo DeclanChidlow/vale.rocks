@@ -1,6 +1,6 @@
 ---
 image: https://images.unsplash.com/photo-1745451369833-36383dd4bdd5
-unsplash_link: https://unsplash.com/photos/quk70nO7qXE
+unsplash_link: https://unsplash.com/photos/yellow-fish-swim-around-some-aquarium-rocks-quk70nO7qXE
 description: Yellow fish in an aquarium.
 alt_text: Several small yellow fish swim among rocks and white gravel in an aquarium.
 pub_time: 2025-04-24

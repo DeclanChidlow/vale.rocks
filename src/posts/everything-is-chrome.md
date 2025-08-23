@@ -125,7 +125,7 @@ One large criticism is that it gives Google a huge amount of control over the wa
 
 Another criticism is that Google prioritises AMP links above others, potentially impacting the visibility of non-AMP content. Google's 'Top Stories' section, which is located above the main search results, exclusively displayed AMP links. This more or less forced publishers into using AMP if they wanted any exposure. They only removed the AMP requirement in 2021 after [facing legal threats](https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/gov.uscourts.nysd.564903.152.0_1.pdf).
 
-AMP is just another way that Google has shown that they are not content with simply existing within the web but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest [this Reddit post](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) from the creator of the [Amputator bot](https://amputatorbot.com/).
+AMP is just another way that Google has shown that they are not content with simply existing within the web but instead wish to control it. If you'd like to read more about AMP and its impact, then I'd suggest [this Reddit post](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) from the creator of the [Amputator bot](https://www.amputatorbot.com/).
 
 ### Web Environment Integrity
 
@@ -160,13 +160,11 @@ As the web's future depends on diversity in browser engines, you might also cons
 
 - [History of Web Browser Engines from 1990 until today](https://eylenburg.github.io/browser_engines.htm) | Accessed: 10/12/2023
 - [Tim Berners-Lee: WorldWideWeb, the first Web client](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) | Accessed: 10/12/2023
-- [NCSA Mosaic™ - NCSA](https://www.ncsa.illinois.edu/research/project-highlights/ncsa-mosaic) | Accessed: 10/12/2023
 - [Browser Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/browser-market-share) | Accessed: 10/12/2023
 - [Did the browser wars finally end in 2014? | ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014/) | Accessed 10/12/2023
 - [Google Chrome](https://www.google.com/googlebooks/chrome/index.html) | Accessed: 10/12/2023
 - [Contra Chrome - a webcomic - How Google's browser became a threat to privacy and democracy](https://contrachrome.com) | Accessed: 10/12/2023
 - [Web Environment Integrity: What's Going On?](https://openwebdefenders.org) | Accessed: 12/12/2023
-- [Firefox on the brink? | BryceWray.com](https://www.brycewray.com/posts/2023/11/firefox-brink/) | Accessed: 10/12/2023
 - [Designing for different browsers and devices - Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
 - [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers/) | Accessed: 10/12/2023
 - [Why did I build AmputatorBot?](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) | Accessed: 06/03/2024

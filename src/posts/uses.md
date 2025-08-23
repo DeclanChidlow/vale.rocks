@@ -60,7 +60,7 @@ I 'enhance' (salvage) the Windows experience with [Microsoft's PowerToys](https:
 
 I usually do video editing in [Kdenlive](https://kdenlive.org), though will opt for [Shotcut](https://www.shotcut.org) instead for projects of a lesser scope.
 
-Raster image manipulation is usually conducted in [Photopea](http://photopea.com/), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
+Raster image manipulation is usually conducted in [Photopea](http://www.photopea.com/), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
 
 I use [Blender](https://www.blender.org) for 3D modelling and animation. My [Creality Ender 3 V3 SE](https://store.creality.com/products/ender-3-v3-se-3d-printer) 3D printer is complemented by [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), which I use for slicing and has extensive custom configuration for my needs.
 
@@ -88,7 +88,7 @@ I generally look for apps that I can customise, that are open-source, and that a
 
 - [Bluesky](https://bsky.social/about)
 - [Pixel Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera): I bought my phone partly for the camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.
-- [Vanadium](https://vanadium.app): Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome's market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn't much point having two separate browser engines installed, among other issues.
+- [Vanadium](https://grapheneos.org/features#vanadium): Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome's market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn't much point having two separate browser engines installed, among other issues.
 - [FlorisBoard](https://florisboard.org): Excellent and very customisable FOSS keyboard.
 - [FeedFlow](https://www.feedflow.dev): A very nice feed reader. Posts open in browser rather than being displayed in-app.
 - [Harmonic](https://github.com/SimonHalvdansson/Harmonic-HN): Slick Hacker News client.
@@ -101,7 +101,7 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Phone by Google](https://play.google.com/store/apps/details?id=com.google.android.dialer): Google's Phone app that I've chosen to use as it complements Google Messages.
 - [Google Photos](https://www.google.com/photos/about/): Not my preference, but it's one of the only options with good editing capabilities. I keep it disconnected from the internet.
 - [phyphox](https://phyphox.org): Allows for doing all sorts of really cool things using the many sensors in phones.
-- [Thunderbird](https://www.thunderbird.net): Email client connected to my Runbox email addresses.
+- [Thunderbird](https://www.thunderbird.net/en-US/): Email client connected to my Runbox email addresses.
 - [DAVx<sup>5</sup>](https://www.davx5.com): CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.
 - [jtx Board](https://jtx.techbee.at): Provides a synchronised task list.
 - [Fossify Calendar](https://github.com/FossifyOrg/Calendar): Provides a synchronised calendar.

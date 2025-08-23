@@ -21,7 +21,7 @@ _body:
 				<ul>
 					<li><time class="dt-published" datetime="${ photography.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(photography.pub_time) }</time></li>
 					<li><p>${ photography.location }</p></li>
-					<li><a href="${ photography.unsplash_link }" target="_blank">View on Unsplash</a></li>
+					${ photography.unsplash_link ? `<li><a href="${ photography.unsplash_link }" target="_blank">View on Unsplash</a></li>` : '' }
 				</ul>
 				<ul>
 					<li><p>Camera: ${ photography.camera }</p></li>

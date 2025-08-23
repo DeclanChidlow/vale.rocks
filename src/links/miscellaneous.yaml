@@ -129,13 +129,13 @@
 - title: Sombras.app
   url: sombras.app
 - title: Wikipedia Unusual Articles
-  url: www.wikipedia.org/wiki/Wikipedia:Unusual_articles
+  url: en.wikipedia.org/wiki/Wikipedia:Unusual_articles
 - title: Bushism
-  url: www.wikipedia.org/wiki/Bushism
+  url: en.wikipedia.org/wiki/Bushism
 - title: Wikipedia Silly Things
-  url: www.wikipedia.org/wiki/Wikipedia:Silly_Things
+  url: en.wikipedia.org/wiki/Wikipedia:Silly_Things
 - title: Spaghetti-tree Hoax
-  url: www.wikipedia.org/wiki/Spaghetti-tree_hoax
+  url: en.wikipedia.org/wiki/Spaghetti-tree_hoax
 - title: The Internet Ray Tracing Competition
   url: www.irtc.org
 - title: The Official Jackie Chan Website
@@ -281,7 +281,7 @@
 - title: The Cursed Computer Iceberg Meme
   url: suricrasia.online/iceberg/
 - title: ProsePlay
-  url: www.proseplay.net/
+  url: proseplay.net/
 - title: Link-Site Prototype
   url: alexuslab.com/link-site/
 - title: Wikenigma

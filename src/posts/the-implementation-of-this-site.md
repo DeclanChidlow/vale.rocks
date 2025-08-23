@@ -146,7 +146,7 @@ To address this, I added functionality which allows me to mark long-form posts a
 
 ### Progressive Web App
 
-Vale.Rocks is configured as a [PWA](https://www.wikipedia.org/wiki/Progressive_web_app) so that users can install it as a standalone app. I very much doubt many people will install this site as a PWA, but the option is there for those that want it. It has [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts) configured to the major site sections that someone might want to visit on demand.
+Vale.Rocks is configured as a [PWA](https://en.wikipedia.org/wiki/Progressive_web_app) so that users can install it as a standalone app. I very much doubt many people will install this site as a PWA, but the option is there for those that want it. It has [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts) configured to the major site sections that someone might want to visit on demand.
 
 In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
 
