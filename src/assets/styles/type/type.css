@@ -43,6 +43,7 @@ h6 {
 	display: flex;
 	font-variant-numeric: lining-nums;
 	font-variant-caps: titling-caps;
+	clear: both;
 
 	a {
 		&:not(:hover) {
