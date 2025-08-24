@@ -214,5 +214,23 @@ section.showcase a {
 }
 
 section.contact {
+	--s: 30px;
+	--t: 3px;
+
 	margin-block-end: 0;
+	padding: 3rem calc(var(--t) + 1rem);
+	outline: var(--t) solid var(--grey);
+	outline-offset: calc(-1 * var(--t));
+	mask:
+		conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s)) calc(100% - var(--s)),
+		conic-gradient(#000 0 0) content-box;
+
+	a {
+		display: inline-block;
+		color: light-dark(var(--black), var(--bright_white));
+		padding: 0.3rem 0.5rem;
+		background: light-dark(var(--white), var(--grey));
+		text-decoration: none;
+		margin-block-start: 1rem;
+	}
 }

@@ -46,6 +46,7 @@ _body:
 	<li>Stripe</li>
 	<li>Canva</li>
 	<li>Cloudflare</li>
+	<li>XML</li>
 	<li>cPanel</li>
 	<li>OpenAI API</li>
 	<li>DNS</li>
@@ -58,6 +59,7 @@ _body:
 	<li>Figma</li>
 	<li>SCSS</li>
 	<li>Windows</li>
+	<li>Hetzner Cloud</li>
 	<li>SQL</li>
 	<li>Yarn</li>
 	<li>Docker</li>
@@ -87,6 +89,7 @@ _body:
 	<li>Powerpoint</li>
 	<li>CSS</li>
 	<li>DataGrip</li>
+	<li>XSLT</li>
 </ul>
 
 <ul aria-hidden="true">
@@ -111,6 +114,7 @@ _body:
 	<li>Stripe</li>
 	<li>Canva</li>
 	<li>Cloudflare</li>
+	<li>XML</li>
 	<li>cPanel</li>
 	<li>OpenAI API</li>
 	<li>DNS</li>
@@ -123,6 +127,7 @@ _body:
 	<li>Figma</li>
 	<li>SCSS</li>
 	<li>Windows</li>
+	<li>Hetzner Cloud</li>
 	<li>SQL</li>
 	<li>Yarn</li>
 	<li>Docker</li>
@@ -152,6 +157,7 @@ _body:
 	<li>Powerpoint</li>
 	<li>CSS</li>
 	<li>DataGrip</li>
+	<li>XSLT</li>
 </div>
 
 <h2>Experienced With All These Tools And Technologies</h2>
@@ -180,6 +186,7 @@ _body:
 	<li>Stripe</li>
 	<li>Canva</li>
 	<li>Cloudflare</li>
+	<li>XML</li>
 	<li>cPanel</li>
 	<li>OpenAI API</li>
 	<li>DNS</li>
@@ -192,6 +199,7 @@ _body:
 	<li>Figma</li>
 	<li>SCSS</li>
 	<li>Windows</li>
+	<li>Hetzner Cloud</li>
 	<li>SQL</li>
 	<li>Yarn</li>
 	<li>Docker</li>
@@ -221,6 +229,7 @@ _body:
 	<li>Powerpoint</li>
 	<li>CSS</li>
 	<li>DataGrip</li>
+	<li>XSLT</li>
 </ul>
 
 <ul class="reverse" aria-hidden="true">
@@ -245,6 +254,7 @@ _body:
 	<li>Stripe</li>
 	<li>Canva</li>
 	<li>Cloudflare</li>
+	<li>XML</li>
 	<li>cPanel</li>
 	<li>OpenAI API</li>
 	<li>DNS</li>
@@ -257,6 +267,7 @@ _body:
 	<li>Figma</li>
 	<li>SCSS</li>
 	<li>Windows</li>
+	<li>Hetzner Cloud</li>
 	<li>SQL</li>
 	<li>Yarn</li>
 	<li>Docker</li>
@@ -286,6 +297,7 @@ _body:
 	<li>Powerpoint</li>
 	<li>CSS</li>
 	<li>DataGrip</li>
+	<li>XSLT</li>
 </ul>
 </section>
 
@@ -370,9 +382,9 @@ _body:
 </section>
 
 <section class="contact" data-pagefind-ignore="all">
-	<h2>Say Hello!</h2>
-	<p>I'm open to work, and would love to hear what you've got in mind.</p>
-	<a href="/contact">Get in contact!</a>
+	<h2>Let's Get The Ball Rolling!</h2>
+	<p>I'm available for new opportunities and would love to hear what you've got in mind.</p>
+	<a href="/contact">Get in Touch</a>
 </section>
 
 </div>
