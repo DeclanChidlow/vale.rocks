@@ -4,6 +4,7 @@ description: We're losing vital AI history as properitary, hosted models like th
 og_description: Models are being retired and history is going with them.
 pub_time: 2025-03-16
 section: Essay
+tags: [AI, LLMs]
 ---
 
 I fear that we may lose -- and are already losing -- the modern history of AI, particularly with regard to the ability to use models that are/were only available in hosted capacities. As AI models are retired and become inaccessible, we're losing crucial historical context about AI development that we will be unable to go back and reference in the future.

@@ -4,6 +4,7 @@ description: A modern, SEO-optimised website built in WordPress using current te
 og_description: A fresh website for a Western Australian not-for-profit.
 accent_colour: "#f97216"
 hoisted: true
+tags: [WordPress, design, development, front-end development]
 ---
 
 During my Diploma of Information Technology (Frontend Development), I worked within a team on a website for Public Libraries Western Australia (PLWA) -- a not-for-profit organisation advocating for public libraries across the state. They collaborate with local and state governments, as well as a range of national organisations.

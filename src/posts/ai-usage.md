@@ -5,6 +5,7 @@ og_description: As long as AI isn't using me...
 pub_time: 2025-05-02
 mod_time: 2025-07-10
 section: Essay
+tags: [AI, LLMs]
 ---
 
 AI is a divisive technology, and it has a lot of flaws. I'm not an AI evangelist, but I don't think it is a useless technology. I think we need more people engaging in realistic conversations about the technology and about how they can, do, and don't use it. This post is me trying to be part of the change I'd like to see by writing realistically about how I use and approach AI, including what doesn't work.

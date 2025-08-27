@@ -4,6 +4,7 @@ description: An experimental variable axis typeface that transforms typography i
 og_description: An experiment in fleshy typography and variable axis fonts.
 accent_colour: "#b21d23"
 hoisted: true
+tags: [design, typography]
 ---
 
 I'm near certain that most people, at some point, have fantasised about wielding meat as a writing tool. Well, you needn't wait any longer, as my Osseo Flesh typeface fulfils that dream.

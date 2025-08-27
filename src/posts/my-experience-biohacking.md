@@ -5,6 +5,7 @@ og_description: I'm pretty much a cyborg now.
 pub_time: 2025-01-06
 mod_time: 2025-04-14
 section: Essay
+tags: [transhumanism]
 ---
 
 Biohacking is a term that has unfortunately become entangled with tabloid tips, TikTok health trends, and pseudo'science'. However, beneath this surface noise exists dedicated communities exploring the frontiers of human enhancement through do-it-yourself cybernetics, biochemistry, and body modifications. Communities driven by interests in transhumanism and an alignment with the hacker ethos that push boundaries in ways that extend far beyond the conventional ear piercing.

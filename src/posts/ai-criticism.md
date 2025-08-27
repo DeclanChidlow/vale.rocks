@@ -4,6 +4,7 @@ description: A loose analysis of the unproductive criticism surrounding artifici
 og_description: We're the good guys. They're the bad guys.
 pub_time: 2025-05-29
 section: Essay
+tags: [AI, LLMs]
 ---
 
 AI is an incredibly divisive technology with a lot of issues that deserve analysis, discussion, and criticism. Unfortunately, this criticism is often poorly critical and fails to actually achieve anything.

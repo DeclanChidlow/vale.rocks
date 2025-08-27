@@ -4,6 +4,7 @@ youtube_id: 092DyetX86g
 description: Showcase of the size of the xG3v2 bio-magnet within my hand with the help of a to-scale 3D-printed analogue.
 pub_time: 2025-06-07
 format: short
+tags: [transhumanism]
 ---
 
 Showing off the size of the xG3v2 bio-magnet subdermally implanted within my hand.

@@ -4,6 +4,7 @@ youtube_id: 1sGFWbztytM
 description: A showcase of my bio-magnet and some of the more presentable things I can do with it.
 pub_time: 2025-05-28
 format: short
+tags: [transhumanism]
 ---
 
 A quick showcase of the xG3v2 bio-magnet subdermally implanted within my hand interacting with various external magnets.

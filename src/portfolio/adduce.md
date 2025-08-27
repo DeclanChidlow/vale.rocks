@@ -5,6 +5,7 @@ og_description: A static site generator with the flexibility to bring web projec
 accent_colour: "#0019c6"
 repository: DeclanChidlow/Adduce
 hoisted: true
+tags: [development]
 ---
 
 After experimenting with some popular static site generators, I found myself wanting something a bit different -- a tad more conducive to my workflow. So, I figured I'd try making one myself.

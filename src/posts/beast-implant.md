@@ -4,6 +4,7 @@ description: An analysis of the biblical concept of the mark of the beast, how i
 og_description: YouTube commenters told me so.
 pub_time: 2025-07-27
 section: Rant
+tags: [transhumanism]
 ---
 
 I've posted a few videos showcasing my [subdermal magnet implant](/posts/my-experience-biohacking) to YouTube. The concept of having a magnet implanted in one's hand is decidedly odd, but not too outrageous. My videos are fairly tame, featuring novel showcases such as [turning off my laptop](/videos/laptop-sleep-mode-with-magnet-implant), among other things that aren't adequately conveyed with text.

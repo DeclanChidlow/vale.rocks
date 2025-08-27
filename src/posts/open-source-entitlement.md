@@ -4,6 +4,7 @@ description: A rant about behaviour in the open-source software community focuss
 og_description: Don't bite the hand that feeds you.
 pub_time: 2025-04-04
 section: Rant
+tags: [development]
 ---
 
 As someone who has been known to write open-source software and contribute to open-source projects, I have some thoughts on the matter. Particularly, the growing sense of entitlement among users.

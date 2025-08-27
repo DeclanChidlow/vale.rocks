@@ -4,6 +4,7 @@ description: Unpacking my compulsion and will to write, including its benefits i
 og_description: There are words here, and I'm justifying them.
 pub_time: 2025-04-29
 section: Essay
+tags: [writing]
 ---
 
 'Why do you write?' is a question I seem to get asked a lot, but one that I've historically struggled to answer. I have never had an answer I'm happy with because I haven't previously written an explanation on why I write; hence this post.

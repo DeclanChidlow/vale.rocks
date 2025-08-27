@@ -28,6 +28,12 @@ _body:
 	<div class="readable e-content">
 		${ post._body }
 	</div>
+
+	<ul class="tags" style="display:none;" data-pagefind-ignore>
+	${ post.tags ? post.tags.map(tag => `
+		<li data-pagefind-filter="tags">${ tag }</li>
+	`) : '' }
+	</ul>
 </article>
 
 <script src="/assets/scripts/footnotes.js"></script>

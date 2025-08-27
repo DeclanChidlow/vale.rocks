@@ -4,6 +4,7 @@ description: Why developers should create custom tools for repetitive tasks and 
 og_description: "&quot;The best investment is in the tools of one's own trade.&quot; - Benjamin Franklin"
 pub_time: 2025-03-21
 section: Essay
+tags: [development]
 ---
 
 A developer should, in my opinion, create (or modify) tools and utilities fit for their use and needs. Both for repeated tasks and one-off needs.

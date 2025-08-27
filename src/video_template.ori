@@ -24,5 +24,11 @@ _body:
 		</header>
 
 		${ video._body }
+
+		<ul class="tags" style="display:none;" data-pagefind-ignore>
+		${ video.tags ? video.tags.map(tag => `
+			<li data-pagefind-filter="tags">${ tag }</li>
+		`) : '' }
+		</ul>
 	</div>
 </article>`})

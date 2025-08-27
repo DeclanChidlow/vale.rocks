@@ -4,6 +4,7 @@ description: A full breakdown of my Neovim configuration, including documentatio
 og_description: Symbiosis of man and editor.
 pub_time: 2025-07-12
 section: Tutorial
+tags: [Vim, development]
 ---
 
 I've looked far and wide, at the peaks of the highest mountains and at the bottoms of the deepest trenches, and have found Neovim to be the best text editor for my needs. However, out of the box it is fairly bare-bones and not entirely conducive to my preferences and workflow, so I've got a set of configs to improve the experience. This article extensively documents my Lua-based configuration as a front-end developer.

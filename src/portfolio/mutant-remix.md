@@ -4,6 +4,7 @@ description: A distinctive emoji pack for the Revolt chat platform. Created an i
 og_description: A website and branding for an emoji pack so good, you'll never want to use another.
 accent_colour: "#ed6b44"
 hoisted: false
+tags: [design, development, front-end development]
 ---
 
 Mutant Remix is an emoji pack built for the chat platform [**Revolt**](https://revolt.chat), of which I am a core member. It combines the blobby shapes of Android's emojis of old with the crisp, bold style of Mutant Standard, creating something new, fresh, and distinct.

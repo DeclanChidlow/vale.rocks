@@ -5,6 +5,7 @@ og_description: Stay tuned for my writing manorialism.
 pub_time: 2025-05-01
 mod_time: 2025-08-07
 section: Essay
+tags: [writing]
 ---
 
 I saw Mike Sass [write about his writing mannerisms](https://shellsharks.com/writing-mannerisms) on his blog Shellsharks, so I figured I'd do something similar.

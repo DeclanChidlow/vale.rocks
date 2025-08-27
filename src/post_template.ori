@@ -39,6 +39,12 @@ _body:
 		</div>
 	</article>
 
+	<ul class="tags" style="display:none;" data-pagefind-ignore>
+	${ post.tags ? post.tags.map(tag => `
+		<li data-pagefind-filter="tags">${ tag }</li>
+	`) : '' }
+	</ul>
+
 	<section class="giscus readable" id="comment-section"></section>
 </div>
 

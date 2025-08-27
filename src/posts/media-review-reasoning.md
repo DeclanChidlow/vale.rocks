@@ -5,6 +5,7 @@ og_description: How many stars equals good?
 pub_time: 2024-12-10
 mod_time: 2025-06-26
 section: Essay
+tags: [media]
 ---
 
 It has often been mused that writing is the key to proper thinking. Media, whether fiction or non-fiction, tends to prompt introspection and analysis. Failure to write about, or at the very least mentally categorise, media consumption feels almost a waste.

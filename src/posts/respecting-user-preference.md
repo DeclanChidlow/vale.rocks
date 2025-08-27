@@ -4,6 +4,7 @@ description: Discussion of why respecting user preferences is satisfying, coveri
 og_description: Allowing users choice is satisfying.
 pub_time: 2025-03-07
 section: Essay
+tags: [accessibility, development, UI/UX]
 ---
 
 I found myself in a conversation where someone mentioned how satisfying it was to be implementing features that respect user preferences. Someone responded to them asking, "How can that be satisfying?" The original person responded with, "'Cos it's accessible and caters to the user's preferences," which was then met by "Yes, but satisfying for the ones that need accessibility features then. Why would it be satisfying for you specifically?" [^1]

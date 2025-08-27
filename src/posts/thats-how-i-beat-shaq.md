@@ -4,6 +4,7 @@ description: An in-depth analysis of Aaron Carter's 2000 release That's How I Be
 og_description: A musical documentary
 pub_time: 2025-04-01
 section: Review
+tags: [media]
 ---
 
 Teen pop sensation Aaron Carter's 2000 song 'That's How I Beat Shaq' from the album _Aaron's Party (Come Get It)_ is nothing short of a musical masterpiece and quite possibly one of the most important pieces of music ever burnt to disc. It lyrically chronicles Aaron Carter's astounding triumph over the titular Shaquille O'Neal in a one verses one game of basketball.

@@ -5,6 +5,7 @@ og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
 mod_time: 2025-07-20
 section: Essay
+tags: [writing]
 ---
 
 I love words and languages [^1] seem to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.

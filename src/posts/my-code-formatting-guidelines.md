@@ -5,6 +5,7 @@ og_description: Stirring the tabs vs spaces pot once again.
 pub_time: 2024-04-18
 mod_time: 2024-06-10
 section: Tutorial
+tags: [development, front-end development]
 ---
 
 Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is _not_ something I, nor anyone else, ever want to deal with.
@@ -13,7 +14,7 @@ This is why we have code style guidelines. These guidelines outline how to forma
 
 Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.
 
-I personally enforce these settings using [Prettier](https://prettier.io), which I feel does an excellent job. You can find my .prettierrc in my [dotfile repo on GitHub](https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yml). I've also noted the relevant Prettier options where applicable.
+I personally enforce these settings using [Prettier](https://prettier.io), which I feel does an excellent job. You can find my `.prettierrc` in my [dotfile repo on GitHub](https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yml). I've also noted the relevant Prettier options where applicable.
 
 ## Use Tabs
 

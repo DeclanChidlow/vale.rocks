@@ -4,6 +4,7 @@ youtube_id: 1xpmXkLNoSA
 description: The procedure of me getting an xG3v2 bio-magnet from Dangerous Things implanted in my hand via injection.
 pub_time: 2025-01-07
 format: short
+tags: [transhumanism]
 ---
 
 Me getting an xG3v2 from Dangerous Things implanted in my hand.

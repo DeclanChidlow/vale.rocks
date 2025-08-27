@@ -4,6 +4,7 @@ description: A story where human creativity and art disappear as a result of art
 og_description: Creativity /kriːeɪˈtɪvɪti/ n. Obsolete. The process or act of a human engaging in artistic or expressive production.
 pub_time: 2025-05-07
 section: Fiction
+tags: [AI, LLMs]
 ---
 
 _This is written of a future. Not the future, but a future -- one of many possibilities._

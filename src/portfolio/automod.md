@@ -5,6 +5,7 @@ og_description: A moderation bot for Revolt that keeps communities safe.
 accent_colour: "#ff6763"
 repository: DeclanChidlow/AutoMod
 hoisted: true
+tags: [design, development, front-end development]
 ---
 
 AutoMod is a moderation and utility bot for the chat platform [**Revolt**](https://revolt.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **5500 servers** with a combined total user count in excess of **145K people**.
