@@ -1,3 +1,10 @@
+- title: Optimizing PWAs For Different Display Modes
+  location: Smashing Magazine
+  url: www.smashingmagazine.com/2025/08/optimizing-pwas-different-display-modes/
+  image: files.smashing.media/articles/optimizing-pwas-different-display-modes/optimizing-pwas-different-display-modes.jpg
+  pub_time: 2025-08-26
+  type: article
+  sort: writer
 - title: There is No Future Without New Blood
   location: State of Devs
   url: 2025.stateofdevs.com/en-US/declan-chidlow/
@@ -21,21 +28,21 @@
 - title: OpenAI's Jig May Be Up
   location: LessWrong
   url: www.lesswrong.com/posts/fWQudGK43Xp4T5P3e/openai-s-jig-may-be-up
-  image: res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/kqcrb6rugonnddyfd5gp 
+  image: res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/kqcrb6rugonnddyfd5gp
   pub_time: 2025-05-06
   type: article
   sort: writer
 - title: Next Level CSS Styling for Cursors
   location: CSS-Tricks
   url: css-tricks.com/next-level-css-styling-for-cursors/
-  image: i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/pointer-click.png 
+  image: i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/pointer-click.png
   pub_time: 2025-04-14
   type: article
   sort: writer
 - title: Bring Back Exciting Website Design
   location: Tech Over Tea
   url: www.youtube.com/watch?v=DeOEmE65U1E
-  image: i.ytimg.com/vi/DeOEmE65U1E/maxresdefault.jpg 
+  image: i.ytimg.com/vi/DeOEmE65U1E/maxresdefault.jpg
   pub_time: 2025-04-05
   type: podcast
   sort: guest
