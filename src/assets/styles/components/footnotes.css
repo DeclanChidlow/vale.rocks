@@ -4,22 +4,22 @@
 	@media (min-width: 1400px) {
 		display: block;
 		position: absolute;
-		left: 68rem;
-		right: 3rem;
+		inset-inline-start: 68rem;
+		inset-inline-end: 3rem;
 		max-width: 60ch;
 		font-size: small;
 		line-height: 1.5;
 		color: light-dark(var(--grey), var(--white));
-		padding-bottom: 1rem;
+		padding-block-end: 1rem;
 		transition: background-color 0.25s;
 		border-top: 1px solid light-dark(var(--white), var(--bright_grey));
 
 		p {
-			padding-top: 0.25rem;
+			padding-block-start: 0.25rem;
 		}
 
 		> * + * {
-			margin-top: 0.5rem;
+			margin-block-start: 0.5rem;
 		}
 
 		[data-footnote-backref] {
@@ -41,10 +41,12 @@
 .footnote-popover {
 	position: absolute;
 	color: inherit;
-	inset: auto auto auto 13rem;
+	inset: auto;
+	inset-inline-start: 13rem;
 	border: 2px solid light-dark(var(--white), var(--bright_grey));
 	background: light-dark(var(--bright_white), var(--black));
-	padding: 0.5rem 1rem;
+	padding-block: 0.5rem;
+	padding-inline: 1rem;
 	font-size: small;
 	line-height: 1.5;
 
@@ -53,7 +55,7 @@
 	}
 
 	.footnote-content > * + * {
-		margin-top: 0.5rem;
+		margin-block-start: 0.5rem;
 	}
 
 	[data-footnote-backref] {
@@ -81,12 +83,12 @@
 		line-height: 1.5;
 
 		p {
-			border-left: 2px solid light-dark(var(--white), var(--bright_grey));
-			padding-left: 1rem;
-			margin-left: 0.5rem;
+			border-inline-start: 2px solid light-dark(var(--white), var(--bright_grey));
+			padding-inline-start: 1rem;
+			margin-inline-start: 0.5rem;
 
 			+ p {
-				padding-top: 0.5rem;
+				padding-block-start: 0.5rem;
 			}
 		}
 
@@ -104,5 +106,5 @@
 	/* Also inherits from link styles in `/type/links.css` */
 	display: initial;
 	background: none;
-	padding: 0 0.25rem;
+	padding-inline: 0.25rem;
 }

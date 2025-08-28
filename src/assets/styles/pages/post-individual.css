@@ -12,7 +12,7 @@
 		position: relative;
 		text-transform: uppercase;
 		font-size: 1.2rem;
-		margin: 10rem 0 3rem 0;
+		margin-block: 10rem 3rem;
 		font-weight: 550;
 		font-variant-numeric: lining-nums;
 		font-variant-caps: titling-caps;
@@ -35,7 +35,8 @@
 			top: 0;
 			width: calc(100% + 6rem);
 			height: calc(100% + 20rem);
-			margin: -15rem 0 -3rem -3rem;
+			margin-block: -15rem -3rem;
+			margin-inline: -3rem 0;
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;
 		}

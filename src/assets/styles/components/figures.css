@@ -101,7 +101,7 @@ figcaption {
 	.close {
 		position: fixed;
 		top: 0.8rem;
-		right: 2rem;
+		inset-inline-end: 2rem;
 		padding: 0.8rem;
 		background: none;
 		border: transparent;

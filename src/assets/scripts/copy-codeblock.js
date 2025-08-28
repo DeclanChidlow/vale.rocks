@@ -25,6 +25,7 @@ class CodeBlockCopy {
 	createWrapper() {
 		const wrapper = document.createElement("div");
 		wrapper.className = "code-block-wrapper";
+		wrapper.dir = "ltr";
 		return wrapper;
 	}
 

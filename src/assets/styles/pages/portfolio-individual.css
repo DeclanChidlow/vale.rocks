@@ -19,7 +19,7 @@
 		height: calc(90vh - 5rem);
 
 		.repo-details {
-			margin-top: 1rem;
+			margin-block-start: 1rem;
 
 			img {
 				display: inline;
@@ -32,7 +32,8 @@
 			top: 0;
 			width: calc(100% + 6rem);
 			height: calc(100% + 20rem);
-			margin: -15rem 0 -3rem -3rem;
+			margin-block: -15rem -3rem;
+			margin-inline-start: -3rem;
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;
 		}

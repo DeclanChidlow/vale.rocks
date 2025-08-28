@@ -33,12 +33,12 @@ footer {
 			position: relative;
 			height: 10rem;
 			width: 30rem;
+			justify-content: left;
+			text-align: left;
 
 			&::before {
 				content: "Vale . Rocks" / "";
 				position: absolute;
-				top: 0;
-				left: 0;
 				filter: url(#motion-blur);
 				opacity: 0.5;
 			}

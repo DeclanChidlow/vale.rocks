@@ -19,7 +19,7 @@ figure {
 	.stats {
 		display: flex;
 		flex-direction: column;
-		border-right: 2px solid var(--bright_grey);
+		border-inline-end: 2px solid var(--bright_grey);
 		min-width: fit-content;
 		gap: 1ch;
 

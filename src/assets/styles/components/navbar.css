@@ -28,7 +28,7 @@ body:has(#popover-menu:popover-open) {
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: right;
+		justify-content: end;
 		height: 100%;
 		text-transform: uppercase;
 		font-size: 1.3rem;
@@ -64,18 +64,18 @@ body:has(#popover-menu:popover-open) {
 
 		.toc-button {
 			display: none;
-			margin-right: auto;
-			padding-left: 0;
+			margin-inline-end: auto;
+			padding-inline-start: 0;
 		}
 
 		.popover-button {
-			padding-right: 0;
+			padding-inline-end: 0;
 		}
 
 		#popover-menu {
 			width: fit-content;
 			height: 100%;
-			left: auto;
+			inset-inline-start: auto;
 			border: none;
 			background: linear-gradient(transparent, var(--red));
 			backdrop-filter: blur(1.5rem);
@@ -86,6 +86,10 @@ body:has(#popover-menu:popover-open) {
 
 			@starting-style {
 				transform: translateX(1rem);
+
+				&:dir(rtl) {
+					transform: translateX(-1rem);
+				}
 			}
 
 			@media (max-width: 45rem) {
@@ -104,7 +108,7 @@ body:has(#popover-menu:popover-open) {
 			button {
 				position: absolute;
 				top: 1rem;
-				right: 2.2rem;
+				inset-inline-end: 2.2rem;
 				padding: 0.8rem;
 
 				@media (max-width: 45rem) {
@@ -114,7 +118,7 @@ body:has(#popover-menu:popover-open) {
 
 			ul {
 				justify-content: center;
-				text-align: right;
+				text-align: end;
 				margin: 4rem 3rem;
 				max-height: 100%;
 				font-size: 2rem;
@@ -176,7 +180,7 @@ body:has(#popover-menu:popover-open) {
 
 	#indicator {
 		position: absolute;
-		left: -0.5px;
+		inset-inline-start: -0.5px;
 		width: 3px;
 		background-color: var(--magenta);
 		min-height: 5%;
@@ -194,7 +198,7 @@ body:has(#popover-menu:popover-open) {
 
 	.heading-indicator {
 		display: block;
-		margin-left: -0.5px;
+		margin-inline-start: -0.5px;
 		width: 3px;
 		height: 5px;
 		background-color: light-dark(var(--bright_white), var(--black));
@@ -224,7 +228,7 @@ body:has(#popover-menu:popover-open) {
 	}
 }
 
-.heading-marker-container {
+.heading-label {
 	opacity: 0;
 	visibility: hidden;
 	transition:
@@ -238,7 +242,7 @@ body:has(#popover-menu:popover-open) {
 	opacity: 1;
 	visibility: hidden;
 	width: 7rem;
-	margin-left: 1rem;
+	margin-inline-start: 1rem;
 	line-height: 1.1;
 	font-size: 0.8rem;
 	transform: translateY(-50%);
@@ -247,11 +251,11 @@ body:has(#popover-menu:popover-open) {
 }
 
 .sidebar {
-	margin-right: -3rem;
-	padding-right: 3rem;
+	margin-inline-end: -3rem;
+	padding-inline-end: 3rem;
 
-	&:focus-within .heading-marker-container,
-	&:hover .heading-marker-container {
+	&:focus-within .heading-label,
+	&:hover .heading-label {
 		opacity: 1;
 		visibility: visible;
 	}
@@ -276,7 +280,7 @@ body:has(#popover-menu:popover-open) {
 	.close {
 		position: fixed;
 		top: 0;
-		right: 0;
+		inset-inline-end: 0;
 		padding: 0.8rem;
 		background: none;
 

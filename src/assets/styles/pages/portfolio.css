@@ -104,7 +104,6 @@ section.tools-and-technologies {
 		--gap: 2rem;
 		display: flex;
 		overflow: hidden;
-		user-select: none;
 		gap: var(--gap);
 		margin-inline: -1rem;
 
@@ -112,10 +111,14 @@ section.tools-and-technologies {
 			flex-shrink: 0;
 			display: flex;
 			justify-content: space-around;
-			min-width: 100%;
+			min-inline-size: 100%;
 			gap: var(--gap);
 			margin: 0;
 			animation: scroll 180s linear infinite;
+
+			&:dir(rtl) {
+				animation-name: scroll-rtl;
+			}
 
 			@media (prefers-reduced-motion: reduce) {
 				animation-duration: 500s;
@@ -143,6 +146,15 @@ section.tools-and-technologies {
 	}
 	to {
 		transform: translateX(calc(-100% - var(--gap)));
+	}
+}
+
+@keyframes scroll-rtl {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(100% - var(--gap)));
 	}
 }
 
@@ -187,7 +199,7 @@ section.published-on {
 section.showcase a {
 	display: block;
 	padding: 2rem;
-	text-align: left;
+	text-align: start;
 	text-decoration: none;
 	margin-block: 1rem;
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));

@@ -80,7 +80,7 @@ h6 {
 			display: none;
 			position: absolute;
 			top: 0;
-			left: -2.5rem;
+			inset-inline-start: -2.5rem;
 			line-height: normal;
 		}
 
@@ -123,7 +123,7 @@ h6 {
 }
 
 .section {
-	margin-bottom: 1.5rem;
+	margin-block-end: 1.5rem;
 }
 
 @media (min-width: 45rem) {
@@ -195,10 +195,11 @@ details {
 
 blockquote,
 .markdown-alert {
-	padding: 0.5rem 1rem;
+	padding-block: 0.5rem;
+	padding-inline: 1rem;
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 	border: 0.05rem solid light-dark(transparent, var(--grey));
-	border-left: 0.3rem solid var(--grey);
+	border-inline-start: 0.3rem solid var(--grey);
 }
 
 .markdown-alert-title {
@@ -208,7 +209,7 @@ blockquote,
 }
 
 .markdown-alert-note {
-	border-left-color: var(--blue);
+	border-inline-start-color: var(--blue);
 
 	.markdown-alert-title {
 		color: var(--blue);
@@ -217,7 +218,7 @@ blockquote,
 }
 
 .markdown-alert-tip {
-	border-left-color: var(--green);
+	border-inline-start-color: var(--green);
 
 	.markdown-alert-title {
 		color: var(--green);
@@ -226,7 +227,7 @@ blockquote,
 }
 
 .markdown-alert-important {
-	border-left-color: var(--magenta);
+	border-inline-start-color: var(--magenta);
 
 	.markdown-alert-title {
 		color: var(--magenta);
@@ -235,7 +236,7 @@ blockquote,
 }
 
 .markdown-alert-warning {
-	border-left-color: var(--orange);
+	border-inline-start-color: var(--orange);
 
 	.markdown-alert-title {
 		color: var(--orange);
@@ -244,7 +245,7 @@ blockquote,
 }
 
 .markdown-alert-caution {
-	border-left-color: var(--red);
+	border-inline-start-color: var(--red);
 
 	.markdown-alert-title {
 		color: var(--red);
@@ -255,11 +256,11 @@ blockquote,
 ul,
 ol {
 	line-height: 1.4rem;
-	margin-left: 2rem;
+	margin-inline-start: 2rem;
 }
 
 li {
-	margin: 0.75rem 0;
+	margin-block: 0.75rem;
 
 	> * + * {
 		margin-block-start: 0.5rem;
@@ -305,7 +306,7 @@ dt {
 
 dd {
 	font-style: italic;
-	margin-left: 1rem;
+	margin-inline-start: 1rem;
 }
 
 sup,
