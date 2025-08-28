@@ -3,7 +3,7 @@ title: Biological Donation
 description: Discussing the donation of material produced by one's body, such as blood and plasma, and my failed attempts at donating due to elevated heart rate.
 og_description: Betrayed by my mind.
 pub_time: 2025-08-18
-section: Essay
+section: Memoir
 ---
 
 Humans are fairly remarkable, in that there are things that we can do biologically that can't be replicated to a satisfactory standard in a lab. Thus, modern medicine relies on donors for sourcing valuable materials. As a healthy fellow, I figured it reasonable to supply what I can.

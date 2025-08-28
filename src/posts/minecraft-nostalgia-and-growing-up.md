@@ -4,7 +4,7 @@ description: A look back on Minecraft, its editions, its culture, and how it sha
 og_description: I'm feelin' nostalgic for the block game.
 pub_time: 2024-04-02
 mod_time: 2024-10-07
-section: Review
+section: Memoir
 tags: [media, gaming]
 ---
 

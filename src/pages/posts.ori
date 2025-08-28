@@ -19,6 +19,7 @@ _body:
 				<option value="essay">Essays</option>
 				<option value="tutorial">Tutorials</option>
 				<option value="rant">Rants</option>
+				<option value="meta">Memoirs</option>
 				<option value="meta">Meta</option>
 			</select>
 		</div>
