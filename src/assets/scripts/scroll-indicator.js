@@ -4,7 +4,6 @@ class ScrollProgressIndicator {
 		this.indicator = document.getElementById("indicator");
 		this.article = document.querySelector("article");
 		this.headers = this.article.querySelectorAll("h2, h3");
-		this.commentSection = document.getElementById("comment-section");
 		this.breakpoint = 700;
 		this.currentLayout = null;
 		this.percentageDisplay = null;
@@ -122,13 +121,6 @@ class ScrollProgressIndicator {
 			}
 		});
 
-		if (this.commentSection) {
-			const commentTop = this.commentSection.offsetTop;
-			if (scrollPosition >= commentTop - 100) {
-				activeHeader = this.commentSection;
-			}
-		}
-
 		return activeHeader;
 	}
 
@@ -187,18 +179,6 @@ class ScrollProgressIndicator {
 				}
 			}
 		});
-
-		if (this.commentSection) {
-			const commentListItem = document.createElement("li");
-			const commentLink = document.createElement("a");
-
-			commentLink.href = "#comment-section";
-			commentLink.textContent = "Comments";
-			commentLink.className = "header-list-link header-list-link-h2";
-
-			commentListItem.appendChild(commentLink);
-			this.headersList.appendChild(commentListItem);
-		}
 	}
 
 	updateTocHeightVariable() {
@@ -285,12 +265,6 @@ class ScrollProgressIndicator {
 				const marker = this.createHeaderMarker(header, position, isHorizontal, true);
 				this.scrollContainer.appendChild(marker);
 			});
-
-			if (this.commentSection) {
-				const marker = this.createHeaderMarker(this.commentSection, isHorizontal, true);
-				marker.className = "heading-marker-container heading-marker-h2";
-				this.scrollContainer.appendChild(marker);
-			}
 		} else {
 			this.horizontalContainer.style.display = "none";
 			this.percentageDisplay.style.display = "block";
@@ -301,18 +275,6 @@ class ScrollProgressIndicator {
 				const marker = this.createHeaderMarker(header, position, isHorizontal, false);
 				this.scrollContainer.appendChild(marker);
 			});
-
-			if (this.commentSection) {
-				const marker = this.createHeaderMarker(this.commentSection, isHorizontal, false);
-				marker.className = "heading-marker-container heading-marker-h2 comment-marker";
-
-				const label = marker.querySelector(".heading-label");
-				if (label) {
-					label.textContent = "Comments";
-				}
-
-				this.scrollContainer.appendChild(marker);
-			}
 		}
 	}
 
