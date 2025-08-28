@@ -3,7 +3,7 @@ title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion.
 og_description: A wonderous wealth of words.
 pub_time: 2025-01-24
-mod_time: 2025-07-20
+mod_time: 2025-08-28
 section: Essay
 tags: [writing]
 ---
@@ -207,6 +207,15 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 
 <dt>Funk</dt>
 <dd>A very versatile word meaning interesting, cool, peculiar, smelly, or all of those at once. 'That's funky' could quite reasonably be said about a song or the mould growing on a dead rat. It is great fun to say, especially when putting emphasis throughout it. Fuhnghk.</dd>
+
+<dt>Gruntled</dt>
+<dd>'Disgruntled' is a common word in my vernacular which means to be unhappy or frustrated. Thus, it makes sense that 'gruntled' means to be happy or content. Still seems like a funny word -- I'm gruntled by the word 'gruntled'.</dd>
+
+<dt>Florilegium</dt>
+<dd>A collection of flowers, though also used to describe a collection of text excerpts or an anthology.</dd>
+
+<dt>Transmogrify</dt>
+<dd>To alter significantly, often in a grotesque way.</dd>
 </dl>
 
 ## Words I Dislike
