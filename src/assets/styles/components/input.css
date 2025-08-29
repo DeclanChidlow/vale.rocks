@@ -4,17 +4,13 @@ input,
 textarea {
 	display: block;
 	color: light-dark(var(--black), var(--bright_white));
-	padding: 0.3rem 0.5rem;
+	padding-block: 0.3rem;
+	padding-inline: 0.5rem;
 	background: light-dark(var(--white), var(--grey));
 	border: transparent;
 	border-radius: 0;
 	text-overflow: ellipsis;
 	font-family: inherit;
-}
-
-button,
-select {
-	cursor: pointer;
 }
 
 textarea {
@@ -26,7 +22,7 @@ input[type="checkbox"] {
 	display: inline-block;
 	width: 1rem;
 	height: 1rem;
-	margin-right: 1ch;
+	margin-inline-end: 1ch;
 	appearance: none;
 
 	&:checked {

@@ -6,7 +6,7 @@
 .no-js-search {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 2rem;
+	margin-block-start: 2rem;
 
 	label {
 		width: 100%;
@@ -28,6 +28,7 @@
 
 .pagefind-ui__search-input {
 	flex: 1;
+	padding-right: 0.5rem !important;
 }
 
 .pagefind-ui__search-clear {
@@ -115,7 +116,7 @@
 	list-style-type: none;
 	display: flex;
 	border-bottom: 2px solid var(--bright_grey);
-	padding: 1rem 0;
+	padding-block: 1rem;
 	margin: 0;
 }
 
@@ -135,7 +136,7 @@
 }
 
 .pagefind-ui__result-nested {
-	margin-left: 2rem;
+	margin-inline-start: 2rem;
 
 	.pagefind-ui__result-title {
 		position: relative;
@@ -146,13 +147,13 @@
 		content: "↳";
 		position: absolute;
 		top: 0;
-		left: -1rem;
+		inset-inline-start: -1rem;
 	}
 }
 
 .pagefind-ui__result-excerpt + .pagefind-ui__result-nested,
 .pagefind-ui__result-nested + .pagefind-ui__result-nested {
-	margin-top: 1rem;
+	margin-block-start: 1rem;
 }
 
 .pagefind-ui__button {
