@@ -3,22 +3,39 @@
 	xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes" />
     <xsl:template match="/">
-		<html>
+		<html lang="en">
 			<head>
+				<meta charset="UTF-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta name="referrer" content="unsafe-url" />
 
 				<title>Sitemap | Vale.Rocks</title>
-				<meta name="color-scheme" content="light dark" />
+				<meta property="og:title" content="Sitemap" />
 
 				<link rel="preload" href="/assets/typefaces/WorkSans.woff2"
 					as="font" type="font/woff2" crossorigin="true" />
+
+				<link rel="icon" type="image/svg+xml" href="https://vale.rocks/assets/favicon.svg" />
+				<meta property="og:image" content="https://vale.rocks/assets/og/standard.webp" />
+				<meta property="og:image:alt"
+					content="The name 'VALE' with the link 'https://vale.rocks' written under it." />
+
+				<meta property="og:site_name" content="Vale.Rocks" />
+				<meta property="og:locale" content="en_AU" />
+
+				<meta name="author" content="Declan Chidlow" />
+				<meta name="creator" content="vale.rocks" />
+				<meta name="contact" content="https://vale.rocks/contact" />
+
+				<meta name="color-scheme" content="light dark" />
+				<meta name="theme-color" content="oklch(94.75% 0.04 73)"
+					media="(prefers-color-scheme: light)" />
+				<meta name="theme-color" content="oklch(18% 0.003 17.5)"
+					media="(prefers-color-scheme: dark)" />
 
 				<link rel="stylesheet" href="/assets/styles/base/reset.css" />
 				<link rel="stylesheet" href="/assets/styles/base/body.css" />
 				<link rel="stylesheet" href="/assets/styles/type/links.css" />
 				<link rel="stylesheet" href="/assets/styles/type/type.css" />
-
 
 				<link rel="search" type="application/opensearchdescription+xml"
 					title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml" />
