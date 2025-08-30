@@ -1,6 +1,6 @@
 title: Vale's Podcast Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 22 Aug 2025 00:00:00 +0000
+modTime: 30 Aug 2025 00:00:00 +0000
 items:
   - title: Shoptalk
     url: shoptalkshow.com
@@ -30,3 +30,7 @@ items:
     url: www.igalia.com/chats/
     rss: www.igalia.com/chats.xml
     description: Discussions about the web, the web platform, and software more generally.
+  - title: Lateral
+    url: lateralcast.com
+    rss: feeds.megaphone.fm/lateralcast
+    description: Comedy panel game about weird questions with wonderful answers, hosted by Tom Scott.

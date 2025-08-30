@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 22 Aug 2025 00:00:00 +0000
+modTime: 30 Aug 2025 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -183,6 +183,10 @@ items:
     url: sarajoy.dev
     rss: sarajoy.dev/rss.xml
     description: Web development and life.
+  - title: arbourtrary 
+    url: arbourtrary.com
+    rss: arbourtrary.com/feed/rss
+    description: Musings about nature, mathematics, and poetry.
   - title: Moth Monster
     url: moth.monster
     rss: moth.monster/blog/feed.xml
@@ -254,6 +258,10 @@ items:
     url: antfu.me
     rss: antfu.me/feed.xml
     description: Development.
+  - title: Jakub Krehel
+    url: jakub.kr
+    rss: jakub.kr/api/rss
+    description: Beautiful breakdowns of UI flourishes.
   - title: Faster and Worse
     url: fasterandworse.com
     rss: fasterandworse.com/feed/
