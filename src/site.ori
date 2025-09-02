@@ -69,9 +69,8 @@
 
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
 	links/ = {
-		...Tree.map(links/, {
+		...Tree.map(links, {
 			extension: ".yaml→.html"
-			value: (data, key) => links/[key].ori(data)
 		}),
 		blogs.opml = links/opml.ori(links/blogs.yaml)
 		podcasts.opml = links/opml.ori(links/podcasts.yaml)
