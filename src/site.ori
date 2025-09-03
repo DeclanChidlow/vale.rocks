@@ -68,16 +68,16 @@
 	}
 
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
-	links/ = {
-		blogs.html = links/blogs.ori(links/blogs.yaml)
-		blogs.opml = links/opml.ori(links/blogs.yaml)
-		tools-and-resources.html = links/tools-and-resources.ori(links/tools-and-resources.yaml)
-		podcasts.html = links/podcasts.ori(links/podcasts.yaml)
-		podcasts.opml = links/opml.ori(links/podcasts.yaml)
-		video-channels.html = links/video-channels.ori(links/video-channels.yaml)
-		video-channels.opml = links/opml.ori(links/video-channels.yaml)
-		miscellaneous.html = links/miscellaneous.ori(links/miscellaneous.yaml)
-	}
+	links/ = Tree.from({
+		blogs.html: links/blogs.ori(links/blogs.yaml)
+		blogs.opml: links/opml.ori(links/blogs.yaml)
+		tools-and-resources.html: links/tools-and-resources.ori(links/tools-and-resources.yaml)
+		podcasts.html: links/podcasts.ori(links/podcasts.yaml)
+		podcasts.opml: links/opml.ori(links/podcasts.yaml)
+		video-channels.html: links/video-channels.ori(links/video-channels.yaml)
+		video-channels.opml: links/opml.ori(links/video-channels.yaml)
+		miscellaneous.html: links/miscellaneous.ori(links/miscellaneous.yaml)
+	})
 
 	(paginated_firehose) = Tree.paginate(firehose_data.ori, 30)
 	firehose.html = pages/firehose.ori(Tree.first(paginated_firehose))
