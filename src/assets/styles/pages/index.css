@@ -60,15 +60,60 @@ main {
 	display: block;
 }
 
-#info {
-	display: none; /* Set to block with JS */
+#info,
+#fullscreen-btn,
+#zoom-controls,
+#recenter-btn {
 	position: absolute;
-	top: 1rem;
-	left: 1rem;
 	padding: 0.5rem;
 	color: var(--bright_white);
 	background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
 	backdrop-filter: blur(0.75rem);
+
+	svg {
+		height: 1.5rem;
+		fill: light-dark(var(--black), var(--bright_white));
+	}
+}
+
+#fullscreen-btn,
+#zoom-in-btn,
+#zoom-out-btn,
+#recenter-btn {
+	&:hover {
+		background: var(--bright_grey);
+	}
+}
+
+#info {
+	display: none; /* Set to block with JS */
+	inset-block-start: 1rem;
+	inset-inline-start: 4rem;
+}
+
+#fullscreen-btn {
+	inset-block-start: 1rem;
+	inset-inline-start: 1rem;
+}
+
+#zoom-controls {
+	display: grid;
+	gap: 0.5rem;
+	inset-block-end: 4rem;
+	inset-inline-end: 1rem;
+	padding: 0;
+	font-size: 0.8rem;
+	text-align: center;
+
+	button {
+		background: none;
+		aspect-ratio: 1;
+	}
+}
+
+#recenter-btn {
+	inset-block-end: 1rem;
+	inset-inline-end: 1rem;
 }
 
 .dragging {

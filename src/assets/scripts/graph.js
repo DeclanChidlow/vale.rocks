@@ -3,6 +3,11 @@ class SitemapGraph {
 		this.canvas = document.getElementById("canvas");
 		this.ctx = this.canvas.getContext("2d");
 		this.info = document.getElementById("info");
+		this.fullscreenBtn = document.getElementById("fullscreen-btn");
+		this.zoomInBtn = document.getElementById("zoom-in-btn");
+		this.zoomLevel = document.getElementById("zoom-level");
+		this.zoomOutBtn = document.getElementById("zoom-out-btn");
+		this.recenterBtn = document.getElementById("recenter-btn");
 		this.container = document.getElementById("container");
 		this.container.style.display = "block";
 
@@ -37,11 +42,31 @@ class SitemapGraph {
 			const containerWidth = containerRect.width;
 			const containerHeight = containerRect.height;
 
+			// Store old dimensions for camera adjustment
+			const oldWidth = this.canvas.width / devicePixelRatio;
+			const oldHeight = this.canvas.height / devicePixelRatio;
+
 			this.canvas.width = containerWidth * devicePixelRatio;
 			this.canvas.height = containerHeight * devicePixelRatio;
 			this.canvas.style.width = containerWidth + "px";
 			this.canvas.style.height = containerHeight + "px";
 			this.ctx.scale(devicePixelRatio, devicePixelRatio);
+
+			// Adjust camera position to maintain the same view center when resizing
+			if (oldWidth > 0 && oldHeight > 0) {
+				const newWidth = containerWidth;
+				const newHeight = containerHeight;
+
+				const offsetX = (newWidth - oldWidth) / 2;
+				const offsetY = (newHeight - oldHeight) / 2;
+
+				this.camera.x += offsetX / this.camera.zoom;
+				this.camera.y += offsetY / this.camera.zoom;
+			}
+
+			if (this.nodes && this.nodes.length > 0) {
+				this.render();
+			}
 		};
 		resize();
 		window.addEventListener("resize", resize);
@@ -62,6 +87,13 @@ class SitemapGraph {
 
 		this.mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
 		this.mediaQueryList.addEventListener("change", this.render.bind(this));
+
+		this.fullscreenBtn.addEventListener("click", this.toggleFullscreen.bind(this));
+		document.addEventListener("fullscreenchange", this.onFullscreenChange.bind(this));
+
+		this.zoomInBtn.addEventListener("click", this.zoomIn.bind(this));
+		this.zoomOutBtn.addEventListener("click", this.zoomOut.bind(this));
+		this.recenterBtn.addEventListener("click", this.recenter.bind(this));
 	}
 
 	async loadSitemap() {
@@ -81,6 +113,7 @@ class SitemapGraph {
 
 			this.buildGraph(urls);
 			this.startAnimation();
+			this.updateZoomDisplay();
 		} catch (error) {
 			console.error(`Error loading sitemap: ${error.message}`);
 		}
@@ -276,6 +309,7 @@ class SitemapGraph {
 			}
 
 			this.lastTouchDistance = currentDistance;
+			this.updateZoomDisplay();
 		}
 	}
 
@@ -417,19 +451,98 @@ class SitemapGraph {
 		const worldAfterZoom = this.screenToWorld(mouseX, mouseY);
 		this.camera.x += worldBeforeZoom.x - worldAfterZoom.x;
 		this.camera.y += worldBeforeZoom.y - worldAfterZoom.y;
+
+		this.updateZoomDisplay();
+	}
+
+	toggleFullscreen() {
+		if (!document.fullscreenElement) {
+			this.container.requestFullscreen().catch((err) => {
+				console.log(`Error attempting to enable fullscreen: ${err.message}`);
+			});
+		} else {
+			document.exitFullscreen();
+		}
+	}
+
+	onFullscreenChange() {
+		const isFullscreen = !!document.fullscreenElement;
+		this.fullscreenBtn.innerHTML = isFullscreen
+			? "<svg viewBox='0 -960 960 960'><title>Exit Fullscreen</title><path d='M264-144v-120H144v-72h192v192h-72Zm360 0v-192h192v72H696v120h-72ZM144-624v-72h120v-120h72v192H144Zm480 0v-192h72v120h120v72H624Z'/></svg>"
+			: "<svg viewBox='0 -960 960 960'><title>Open Fullscreen</title><path d='M144-144v-192h72v120h120v72H144Zm480 0v-72h120v-120h72v192H624ZM144-624v-192h192v72H216v120h-72Zm600 0v-120H624v-72h192v192h-72Z'/></svg>";
+
+		setTimeout(() => {
+			const event = new Event("resize");
+			window.dispatchEvent(event);
+		}, 100);
+	}
+
+	zoomIn() {
+		this.hasInteracted = true;
+		const centerX = this.canvas.width / (2 * devicePixelRatio);
+		const centerY = this.canvas.height / (2 * devicePixelRatio);
+
+		const worldBeforeZoom = this.screenToWorld(centerX, centerY);
+		const currentPercentage = Math.round(this.camera.zoom * 100);
+		const newPercentage = Math.min(500, currentPercentage + 25);
+		const newZoom = newPercentage / 100;
+
+		this.camera.zoom = newZoom;
+
+		const worldAfterZoom = this.screenToWorld(centerX, centerY);
+		this.camera.x += worldBeforeZoom.x - worldAfterZoom.x;
+		this.camera.y += worldBeforeZoom.y - worldAfterZoom.y;
+
+		this.updateZoomDisplay();
+	}
+
+	zoomOut() {
+		this.hasInteracted = true;
+		const centerX = this.canvas.width / (2 * devicePixelRatio);
+		const centerY = this.canvas.height / (2 * devicePixelRatio);
+
+		const worldBeforeZoom = this.screenToWorld(centerX, centerY);
+		const currentPercentage = Math.round(this.camera.zoom * 100);
+		const newPercentage = Math.max(10, currentPercentage - 25);
+		const newZoom = newPercentage / 100;
+
+		this.camera.zoom = newZoom;
+
+		const worldAfterZoom = this.screenToWorld(centerX, centerY);
+		this.camera.x += worldBeforeZoom.x - worldAfterZoom.x;
+		this.camera.y += worldBeforeZoom.y - worldAfterZoom.y;
+
+		this.updateZoomDisplay();
+	}
+
+	updateZoomDisplay() {
+		const percentage = Math.round(this.camera.zoom * 100);
+		this.zoomLevel.textContent = `${percentage}%`;
+	}
+
+	recenter() {
+		this.hasInteracted = true;
+		this.camera.x = 0;
+		this.camera.y = 0;
+		this.camera.zoom = 0.8;
+		this.updateZoomDisplay();
 	}
 
 	screenToWorld(screenX, screenY) {
+		const width = this.canvas.width / devicePixelRatio;
+		const height = this.canvas.height / devicePixelRatio;
 		return {
-			x: (screenX - this.canvas.width / (2 * devicePixelRatio)) / this.camera.zoom - this.camera.x,
-			y: (screenY - this.canvas.height / (2 * devicePixelRatio)) / this.camera.zoom - this.camera.y,
+			x: (screenX - width / 2) / this.camera.zoom - this.camera.x,
+			y: (screenY - height / 2) / this.camera.zoom - this.camera.y,
 		};
 	}
 
 	worldToScreen(worldX, worldY) {
+		const width = this.canvas.width / devicePixelRatio;
+		const height = this.canvas.height / devicePixelRatio;
 		return {
-			x: (worldX + this.camera.x) * this.camera.zoom + this.canvas.width / (2 * devicePixelRatio),
-			y: (worldY + this.camera.y) * this.camera.zoom + this.canvas.height / (2 * devicePixelRatio),
+			x: (worldX + this.camera.x) * this.camera.zoom + width / 2,
+			y: (worldY + this.camera.y) * this.camera.zoom + height / 2,
 		};
 	}
 
@@ -442,8 +555,44 @@ class SitemapGraph {
 		});
 	}
 
+	getNodeColor(node) {
+		const pathParts = node.id.split("/").filter((part) => part.length > 0);
+
+		if (pathParts.length > 0) {
+			const firstDir = pathParts[0].toLowerCase();
+			switch (firstDir) {
+				case "posts":
+					return "226, 54, 114";
+				case "portfolio":
+					return "245, 110, 0";
+				case "micros":
+					return "55, 120, 192";
+				case "photography":
+					return "88, 165, 81";
+				case "videos":
+					return "241, 55, 49";
+				case "links":
+					return "44, 183, 188";
+			}
+		}
+		return "94, 90, 90"; // Default grey
+	}
+
 	showNodeInfo(node) {
-		document.getElementById("info").innerHTML = `<a href="${node.url}">${node.url}</a>`;
+		const urlObj = new URL(node.url);
+		const pathParts = urlObj.pathname.split("/").filter((part) => part.length > 0);
+		const sectionColor = `rgb(${this.getNodeColor(node)})`;
+
+		if (pathParts.length === 0) {
+			document.getElementById("info").innerHTML = `<a href="${node.url}" style="text-decoration-color: ${sectionColor}">Landing</a>`;
+		} else if (pathParts.length === 1) {
+			document.getElementById("info").innerHTML = `<a href="${node.url}" style="text-decoration-color: ${sectionColor}">${pathParts[0]}</a>`;
+		} else {
+			const section = pathParts.slice(0, -1).join("/");
+			const pageTitle = pathParts[pathParts.length - 1];
+			document.getElementById("info").innerHTML = `${section}/<a href="${node.url}" style="text-decoration-color: ${sectionColor}">${pageTitle}</a>`;
+		}
+
 		this.info.style.display = "block";
 	}
 
@@ -550,35 +699,10 @@ class SitemapGraph {
 		this.nodes.forEach((node) => {
 			const isSelected = node === this.selectedNode;
 			const isDragged = node === this.draggedNode;
-
-			let baseColor = "94, 90, 90"; // Default grey
 			const pathParts = node.id.split("/").filter((part) => part.length > 0);
-
-			if (pathParts.length > 0) {
-				const firstDir = pathParts[0].toLowerCase();
-				switch (firstDir) {
-					case "posts":
-						baseColor = "226, 54, 114";
-						break;
-					case "portfolio":
-						baseColor = "245, 110, 0";
-						break;
-					case "micros":
-						baseColor = "55, 120, 192";
-						break;
-					case "photography":
-						baseColor = "88, 165, 81";
-						break;
-					case "videos":
-						baseColor = "241, 55, 49";
-						break;
-					case "links":
-						baseColor = "44, 183, 188";
-						break;
-				}
-			}
-
 			const opacity = Math.max(0.3, 1 - node.depth * 0.15);
+
+			let baseColor = this.getNodeColor(node);
 
 			ctx.beginPath();
 			ctx.arc(node.x, node.y, node.size, 0, Math.PI * 2);
@@ -590,7 +714,9 @@ class SitemapGraph {
 				ctx.lineWidth = 1 / this.camera.zoom;
 				ctx.stroke();
 			}
+		});
 
+		this.nodes.forEach((node) => {
 			if ((node.size > 8 || this.camera.zoom > 1.5) && this.camera.zoom > 0.5) {
 				ctx.font = `${Math.max(5, 10 / this.camera.zoom)}px "Work Sans"`;
 				ctx.textAlign = "center";

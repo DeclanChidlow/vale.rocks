@@ -94,19 +94,19 @@
 			<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
 			<nav aria-label="site">
 				<button popovertarget="toc-menu" class="toc-button">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Open document overview</title><path d="m336-270-69-69 92-92H64v-98h295l-92-92 69-69 210 210-210 210Zm179 69v-98h381v98H515Zm0-460v-98h381v98H515Zm96 230v-98h285v98H611Z"/></svg>
+					<svg viewBox="0 -960 960 960"><title>Open document overview</title><path d="m336-270-69-69 92-92H64v-98h295l-92-92 69-69 210 210-210 210Zm179 69v-98h381v98H515Zm0-460v-98h381v98H515Zm96 230v-98h285v98H611Z"/></svg>
 				</button>
 				<a href="/" id="navlanding">Vale</a>
 				<a href="/search" class="search-nav">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Search</title><path d="M774-118 533-359q-30 21-70.29 33-40.29 12-81.68 12Q271-314 194-391t-77-187q0-110 77-187t187-77q110 0 187 77t77 187.03q0 41.39-11 79.18Q623-461 601-429l242 242-69 69ZM381-412q70 0 118-48t48-118q0-70-48-118t-118-48q-70 0-118 48t-48 118q0 70 48 118t118 48Z"/></svg>
+					<svg viewBox="0 -960 960 960"><title>Search</title><path d="M774-118 533-359q-30 21-70.29 33-40.29 12-81.68 12Q271-314 194-391t-77-187q0-110 77-187t187-77q110 0 187 77t77 187.03q0 41.39-11 79.18Q623-461 601-429l242 242-69 69ZM381-412q70 0 118-48t48-118q0-70-48-118t-118-48q-70 0-118 48t-48 118q0 70 48 118t118 48Z"/></svg>
 				</a>
 
 				<button popovertarget="popover-menu" class="popover-button">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Open navigation</title><path d="M112-246v-98h736v98H112Zm0-186v-98h736v98H112Zm0-186v-98h736v98H112Z"/></svg>
+					<svg viewBox="0 -960 960 960"><title>Open navigation</title><path d="M112-246v-98h736v98H112Zm0-186v-98h736v98H112Zm0-186v-98h736v98H112Z"/></svg>
 				</button>
 				<div id="popover-menu" popover>
 					<button popovertarget="popover-menu">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><title>Close navigation</title><path d="m287-216-69-71 192-193-192-195 69-71 194 195 192-195 69 71-192 195 192 193-69 71-192-195-194 195Z"/></svg>
+						<svg viewBox="0 -960 960 960"><title>Close navigation</title><path d="m287-216-69-71 192-193-192-195 69-71 194 195 192-195 69 71-192 195 192 193-69 71-192-195-194 195Z"/></svg>
 					</button>
 					<ul>
 						<li><a href="/posts">Posts</a></li>
