@@ -43,8 +43,8 @@ class SitemapGraph {
 			const containerHeight = containerRect.height;
 
 			// Store old dimensions for camera adjustment
-			const oldWidth = this.canvas.width / devicePixelRatio;
-			const oldHeight = this.canvas.height / devicePixelRatio;
+			const oldWidth = this.canvas.width > 0 ? this.canvas.width / devicePixelRatio : 0;
+			const oldHeight = this.canvas.height > 0 ? this.canvas.height / devicePixelRatio : 0;
 
 			this.canvas.width = containerWidth * devicePixelRatio;
 			this.canvas.height = containerHeight * devicePixelRatio;
@@ -52,8 +52,8 @@ class SitemapGraph {
 			this.canvas.style.height = containerHeight + "px";
 			this.ctx.scale(devicePixelRatio, devicePixelRatio);
 
-			// Adjust camera position to maintain the same view center when resizing
-			if (oldWidth > 0 && oldHeight > 0) {
+			// Only adjust camera position on actual resizes, not initial setup
+			if (oldWidth > 0 && oldHeight > 0 && this.hasInteracted) {
 				const newWidth = containerWidth;
 				const newHeight = containerHeight;
 
@@ -529,20 +529,16 @@ class SitemapGraph {
 	}
 
 	screenToWorld(screenX, screenY) {
-		const width = this.canvas.width / devicePixelRatio;
-		const height = this.canvas.height / devicePixelRatio;
 		return {
-			x: (screenX - width / 2) / this.camera.zoom - this.camera.x,
-			y: (screenY - height / 2) / this.camera.zoom - this.camera.y,
+			x: (screenX - this.canvas.width / (2 * devicePixelRatio)) / this.camera.zoom - this.camera.x,
+			y: (screenY - this.canvas.height / (2 * devicePixelRatio)) / this.camera.zoom - this.camera.y,
 		};
 	}
 
 	worldToScreen(worldX, worldY) {
-		const width = this.canvas.width / devicePixelRatio;
-		const height = this.canvas.height / devicePixelRatio;
 		return {
-			x: (worldX + this.camera.x) * this.camera.zoom + width / 2,
-			y: (worldY + this.camera.y) * this.camera.zoom + height / 2,
+			x: (worldX + this.camera.x) * this.camera.zoom + this.canvas.width / (2 * devicePixelRatio),
+			y: (worldY + this.camera.y) * this.camera.zoom + this.canvas.height / (2 * devicePixelRatio),
 		};
 	}
 
