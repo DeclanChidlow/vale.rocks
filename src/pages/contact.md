@@ -16,7 +16,7 @@ Need to get in contact with me for whatever reason? In order of preference, the 
 - On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
 - On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale).
 
-Occasionally at my own expense, I do my best to be available to contact. Please don't take advantage of this.
+Occasionally at my own expense, I do my best to be available to contact. Please don't take malicious advantage of this.
 
 If you're reaching out to me with purpose, please be forthcoming with your reason(s) for inquiry. Don't just send me a lone 'hello', and don't ask to ask me something -- just ask! I shouldn't have to interrogate you.
 
