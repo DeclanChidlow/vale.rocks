@@ -4,8 +4,28 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<title>${ page.title === 'Vale.Rocks' ? page.title : `${page.title} | Vale.Rocks` }</title>
+
+		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
+
+		<link rel="stylesheet" href="/assets/styles/base/reset.css">
+		<link rel="stylesheet" href="/assets/styles/base/body.css">
+		<link rel="stylesheet" href="/assets/styles/type/code.css">
+		<link rel="stylesheet" href="/assets/styles/type/links.css">
+		<link rel="stylesheet" href="/assets/styles/type/type.css">
+		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+		<link rel="stylesheet" href="/assets/styles/components/footer.css">
+		<link rel="stylesheet" href="/assets/styles/components/input.css">
+		<link rel="stylesheet" href="/assets/styles/components/figures.css">
+		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
+		${ page.stylesheet ? `
+			<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">
+		` : '' }
+
+		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2">
+		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2">
+		<link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2">
+
 		<meta property="og:title" content="${ page.title }">
 		<meta name="citation_title" content="${ page.title }">
 		${ page.description ? `
@@ -61,32 +81,10 @@
 		<meta name="theme-color" content="oklch(94.75% 0.04 73)" media="(prefers-color-scheme: light)">
 		<meta name="theme-color" content="oklch(18% 0.003 17.5)" media="(prefers-color-scheme: dark)">
 
-		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2">
-		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2">
-		<link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2">
-
-		<link rel="stylesheet" href="/assets/styles/base/reset.css">
-		<link rel="stylesheet" href="/assets/styles/base/body.css">
-		<link rel="stylesheet" href="/assets/styles/type/code.css">
-		<link rel="stylesheet" href="/assets/styles/type/links.css">
-		<link rel="stylesheet" href="/assets/styles/type/type.css">
-		<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-		<link rel="stylesheet" href="/assets/styles/components/footer.css">
-		<link rel="stylesheet" href="/assets/styles/components/input.css">
-		<link rel="stylesheet" href="/assets/styles/components/figures.css">
-		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-		${ page.stylesheet ? `
-			<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">
-		` : '' }
-
 		<link rel="alternate" type="application/rss+xml" title="RSS feed of long-form articles on Vale.Rocks." href="/posts/feed.xml">
 		<link rel="alternate" type="application/feed+json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
 		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 		<link rel="manifest" href="/app.webmanifest">
-
-		<meta http-equiv="Content-Security-Policy" content="script-src 'wasm-unsafe-eval' 'self' https://gc.zgo.at https://js.stripe.com; connect-src 'self' https://stats.vale.rocks/count; object-src 'none'; base-uri 'none'">
-
-		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 	</head>
 
 	<body>
