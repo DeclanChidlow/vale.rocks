@@ -71,8 +71,8 @@ main {
 	backdrop-filter: blur(0.75rem);
 
 	svg {
-		height: 1.5rem;
-		fill: light-dark(var(--black), var(--bright_white));
+		height: 1.3rem;
+		fill: var(--bright_white);
 	}
 }
 
@@ -88,7 +88,8 @@ main {
 #info {
 	display: none; /* Set to block with JS */
 	inset-block-start: 1rem;
-	inset-inline-start: 4rem;
+	inset-inline-start: 3.75rem;
+	padding-block: 0.4rem;
 }
 
 #fullscreen-btn {

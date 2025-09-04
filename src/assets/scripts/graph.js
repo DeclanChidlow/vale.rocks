@@ -682,7 +682,7 @@ class SitemapGraph {
 		ctx.scale(this.camera.zoom, this.camera.zoom);
 		ctx.translate(this.camera.x, this.camera.y);
 
-		ctx.strokeStyle = isDarkMode ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.2)";
+		ctx.strokeStyle = isDarkMode ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.1)";
 		ctx.lineWidth = 1 / this.camera.zoom;
 
 		this.edges.forEach((edge) => {
