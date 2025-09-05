@@ -16,15 +16,6 @@ body:has(#popover-menu:popover-open) {
 		padding: 0 0.8rem;
 	}
 
-	a {
-		text-decoration: none;
-		pointer-events: all;
-
-		&::after {
-			content: none;
-		}
-	}
-
 	nav {
 		display: flex;
 		align-items: center;
@@ -35,6 +26,12 @@ body:has(#popover-menu:popover-open) {
 
 		a {
 			padding: 0.5rem;
+			text-decoration: none;
+			pointer-events: all;
+
+			&::after {
+				content: none;
+			}
 		}
 
 		svg {
@@ -148,13 +145,13 @@ body:has(#popover-menu:popover-open) {
 	.skip-link {
 		position: absolute;
 		top: 0;
-		left: 0;
+		inset-inline-start: 0;
 		padding: 0.5rem;
 		margin: 1rem;
 		background: light-dark(var(--white), var(--grey));
 		transform: translateY(calc(-100% - 1rem));
 		transition: transform 0.1s;
-		z-index: calc(infinite);
+		z-index: calc(infinity);
 
 		&:focus-within {
 			transform: translateY(0%);
