@@ -316,24 +316,6 @@ class SitemapGraph {
 	onTouchEnd(e) {
 		const touchDuration = Date.now() - this.touchStartTime;
 
-		// Handle tap gesture (quick touch without much movement)
-		if (e.touches.length === 0 && touchDuration < this.touchTapThreshold) {
-			const touch = Array.from(this.touches.values())[0];
-			if (touch) {
-				const moveDistance = Math.sqrt(Math.pow(touch.x - touch.startX, 2) + Math.pow(touch.y - touch.startY, 2));
-
-				if (moveDistance < this.touchMoveThreshold) {
-					// This was a tap, not a drag
-					const worldPos = this.screenToWorld(touch.x, touch.y);
-					const tappedNode = this.getNodeAt(worldPos.x, worldPos.y);
-
-					if (tappedNode && tappedNode.url) {
-						window.location.href = tappedNode.url;
-					}
-				}
-			}
-		}
-
 		// Clean up drag states
 		if (this.isDraggingNode && this.draggedNode) {
 			this.draggedNode.pinned = false;
