@@ -105,7 +105,9 @@ section.tools-and-technologies {
 		display: flex;
 		overflow: hidden;
 		gap: var(--gap);
-		margin-inline: -1rem;
+		margin-inline: -4rem;
+		margin-block: 0.5rem;
+		position: relative;
 
 		ul {
 			flex-shrink: 0;
@@ -136,6 +138,28 @@ section.tools-and-technologies {
 
 		.reverse {
 			animation-direction: reverse;
+		}
+
+		@media (min-width: 45rem) {
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				width: 4rem;
+				height: 3rem;
+				top: 0;
+				z-index: 10;
+			}
+
+			&::before {
+				background: linear-gradient(to left, transparent, var(--black));
+				left: 0;
+			}
+
+			&::after {
+				background: linear-gradient(to right, transparent, var(--black));
+				right: 0;
+			}
 		}
 	}
 }
@@ -171,7 +195,7 @@ section.published-on {
 			gap: 1rem;
 
 			svg {
-				height: 1.5rem;
+				height: 1.8rem;
 				margin-inline: auto;
 			}
 		}
