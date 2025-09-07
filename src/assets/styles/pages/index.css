@@ -69,6 +69,7 @@ main {
 	color: var(--bright_white);
 	background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
 	backdrop-filter: blur(0.75rem);
+	z-index: 100;
 
 	svg {
 		height: 1.3rem;
@@ -89,6 +90,7 @@ main {
 	display: none; /* Set to block with JS */
 	inset-block-start: 1rem;
 	inset-inline-start: 3.75rem;
+	inset-inline-end: 1rem;
 	padding-block: 0.4rem;
 }
 

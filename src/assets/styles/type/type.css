@@ -167,7 +167,7 @@ details {
 		margin-block: 2rem;
 	}
 
-	> * + * {
+	* + * {
 		margin-block-start: 1rem;
 	}
 }

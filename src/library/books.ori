@@ -1,0 +1,24 @@
+(books) => main_template.ori({
+	title: "book Links"
+	description: "A curated collection of insightful books covering web development, programming, design, AI, accessibility, security, technology trends, and digital culture I've collected. Including expert analyses, interactive tutorials, deep dives into coding, and unique perspectives on the evolving tech landscape"
+	og_description: "Links to various books of interest or note."
+	stylesheet: "pages/links.css"
+	canonical: "/links/books"
+	template_image: "links"
+
+_body:
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
+
+<div class="readable">
+	<h1>book Links</h1>
+
+	<p>These are ${ books.items.length } links to interesting blogs. Descriptions are generalised for the sake of brevity and may not cover all the content on the linked site. It can generally be assumed there are assorted bits not mentioned.</p>
+
+	<ul>
+		${ books.items
+		→ (_) => Tree.map(_, (link) =>
+		`<li>
+			<a href="https://${ link.url }">${ link.title }</a>: ${ link.description }
+		</li>`) }
+	</ul>
+</div>`})

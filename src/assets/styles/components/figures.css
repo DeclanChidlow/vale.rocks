@@ -71,7 +71,7 @@ figcaption {
 	margin: auto;
 
 	&::backdrop {
-		background: light-dark(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7));
+		background: light-dark(rgba(255, 243, 229, 0.7), rgba(0, 0, 0, 0.7));
 		backdrop-filter: blur(2rem) saturate(0.5);
 	}
 

@@ -152,12 +152,12 @@ section.tools-and-technologies {
 			}
 
 			&::before {
-				background: linear-gradient(to left, transparent, var(--black));
+				background: linear-gradient(to left, transparent, light-dark(var(--bright_white), var(--black)));
 				left: 0;
 			}
 
 			&::after {
-				background: linear-gradient(to right, transparent, var(--black));
+				background: linear-gradient(to right, transparent, light-dark(var(--bright_white), var(--black)));
 				right: 0;
 			}
 		}
