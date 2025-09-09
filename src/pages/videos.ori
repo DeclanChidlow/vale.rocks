@@ -3,7 +3,7 @@
 	description: "Both long and short form videos complete with accessible presentation. Primarily content that cannot be presented in other mediums."
 	og_description: "Pictures in motion."
 	stylesheet: "pages/videos.css"
-	canonical: "/videos"
+	canonical: `/videos${paginated_videos.pageNumber > 1 ? `/${paginated_videos.pageNumber}` : ''}`
 	template_image: "video"
 
 _body: 
