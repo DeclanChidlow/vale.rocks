@@ -90,7 +90,7 @@ main {
 	display: none; /* Set to block with JS */
 	inset-block-start: 1rem;
 	inset-inline-start: 3.75rem;
-	inset-inline-end: 1rem;
+	margin-inline-end: 1rem;
 	padding-block: 0.4rem;
 }
 
