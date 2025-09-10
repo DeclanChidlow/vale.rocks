@@ -1,0 +1,20 @@
+(books, films, series) => main_template.ori({
+	title: "Library"
+	description: "Every bit of media I've logged in recent history presented for your perusal and my reference/recommendation. Includes books, films, and series."
+	og_description: "A full collection of media I've consumed."
+	canonical: "/library"
+	template_image: "library"
+
+_body:
+`<h1 class="section" data-pagefind-filter="Content Type">Library</h1>
+
+<div class="readable">
+	<p>Lists of the ${ books.length + films.length + series.length } pieces of media I've consumed, logged, and in some cases made notes on. I intend to expand this to include music and games in the future.</p>
+	<p>I've reviewed much of the content within the 5-star rating system. I've <a href="/posts/media-review-reasoning#star-scale">written in detail</a> of how I assign and consider these reviews.</p>
+
+	<ul>
+		<li><a href="/library/books">Books</a> (${ books.length } items)</li>
+		<li><a href="/library/films">Films</a> (${ films.length } items)</li>
+		<li><a href="/library/series">Series</a> (${ series.length } items)</li>
+	</ul>
+</div>`})

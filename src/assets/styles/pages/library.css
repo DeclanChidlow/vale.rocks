@@ -1,0 +1,43 @@
+@media (max-width: 45rem) {
+	.section {
+		display: none;
+	}
+}
+
+.books,
+.films,
+.series {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-inline: 0;
+
+	@media (min-width: 35rem) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	> li {
+		background: light-dark(var(--white), var(--dark_grey));
+		padding: 1rem;
+		list-style: none;
+		margin: 0;
+	}
+
+	h2 {
+		text-transform: none;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+
+	.authors {
+		font-size: 0.8rem;
+		margin-block-start: 0.25rem;
+		font-style: italic;
+	}
+
+	details,
+	details summary {
+		background: light-dark(oklch(from var(--bright_white) l c h / 0.3), oklch(from var(--black) l c h / 0.5));
+	}
+}

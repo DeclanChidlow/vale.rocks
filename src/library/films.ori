@@ -1,0 +1,40 @@
+(films) => main_template.ori({
+	title: "Films"
+	description: "An index of many films I've watched and assorted notes, reflections, observations, and commentary on them where applicable."
+	og_description: "Films I've watched."
+	stylesheet: "pages/library.css"
+	canonical: "/library/films"
+	template_image: "library"
+
+_body:
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Library</span>
+
+<div class="readable">
+	<h1>Films</h1>
+
+	<p>${ films.length } films I've watched with assorted notes where applicable.</p>
+	<p>Proper tracking began in 2025, so films without logged details prior to 2025 are omitted.</p>
+
+	<ol class="films">
+		${ Tree.map(films, (film) =>
+		`<li>
+			<h2>${ film.title } (${ film.release_year })</h2>
+			${ film.rating ? `<p class="star-rating" title="Rated ${ film.rating } out of 5">${ functions/num-to-stars.js(film.rating) }</p>` : '' }
+			${ film.notes ? `<details><summary>Notes</summary><p>${ film.notes }</p></details>` : '' }
+			${ film.watches ?
+				`<details>
+					<summary>Watches</summary>
+					<ul>
+					${ Tree.map(film.watches, (watch) => `
+						<li>
+							${watch.date} | ${watch.format}
+							${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
+						</li>
+					`) }
+					</ul>
+				</details>` 
+			  : '' }
+		  </li>
+		`)}
+	</ol>
+</div>`})

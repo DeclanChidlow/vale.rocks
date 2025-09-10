@@ -1,0 +1,45 @@
+(series) => main_template.ori({
+	title: "series"
+	description: "An index of many of the series I have watched over the years. Primarily episodic television content and the likes."
+	og_description: "Series I've watched."
+	stylesheet: "pages/library.css"
+	canonical: "/library/series"
+	template_image: "library"
+
+_body:
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Library</span>
+
+<div class="readable">
+	<h1>Series</h1>
+
+	<p>${ series.length } series I've watched, with thoughts and notes where relevant.</p>
+	<p>Proper tracking began in 2025, so most logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics.</p>
+
+	<ol class="series">
+		${ Tree.map(series, (series) =>
+		`<li>
+			<h2>${ series.title } (${ series.release_year })</h2>
+			${ series.rating ? `<p class="star-rating" title="Rated ${ series.rating } out of 5">${ functions/num-to-stars.js(series.rating) }</p>` : '' }
+			${ series.seasons ?
+				`<details>
+					<summary>Seasons</summary>
+					<ul>
+					${ Tree.map(series.seasons, (season) => `
+						<li>
+							Season ${season.number}
+							${ season.watches ?
+								`<ul>
+								${ Tree.map(season.watches, (watch) => `
+									<li>${watch.start} - ${watch.finish}</li>
+								`) }
+								</ul>`
+							  : '' }
+						</li>
+					`) }
+					</ul>
+				</details>` 
+			  : '' }
+		  </li>
+		`)}
+	</ol>
+</div>`})

@@ -60,7 +60,7 @@ h6 {
 		background: none;
 		font-size: smaller;
 		line-height: 0;
-		padding: 0 1rem;
+		padding-inline: 1rem;
 
 		&:hover {
 			color: light-dark(var(--black), var(--bright_white));
@@ -77,7 +77,7 @@ h6 {
 
 	@media (hover: hover) and (min-width: 45rem) {
 		button {
-			display: none;
+			visibility: hidden;
 			position: absolute;
 			top: 0;
 			inset-inline-start: -2.5rem;
@@ -86,8 +86,10 @@ h6 {
 
 		&:hover button,
 		&:focus-within button,
-		button:hover {
-			display: inherit;
+		button:hover,
+		button:focus-within {
+			visibility: visible;
+			background: none;
 		}
 	}
 }
@@ -167,7 +169,7 @@ details {
 		margin-block: 2rem;
 	}
 
-	* + * {
+	> * + * {
 		margin-block-start: 1rem;
 	}
 }

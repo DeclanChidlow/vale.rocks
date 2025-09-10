@@ -551,6 +551,8 @@ class SitemapGraph {
 					return "241, 55, 49";
 				case "links":
 					return "44, 183, 188";
+				case "library":
+					return "255, 173, 32";
 			}
 		}
 		return "94, 90, 90"; // Default grey

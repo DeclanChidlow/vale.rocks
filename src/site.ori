@@ -79,6 +79,13 @@
 		miscellaneous.html: links/miscellaneous.ori(links/miscellaneous.yaml)
 	})
 
+	library.html = pages/library.ori(./library/books.yaml, ./library/films.yaml, ./library/series.yaml)
+	library/ = Tree.from({
+		books.html: library/books.ori(library/books.yaml)
+		films.html: library/films.ori(library/films.yaml)
+		series.html: library/series.ori(library/series.yaml)
+	})
+
 	(paginated_firehose) = Tree.paginate(firehose_data.ori, 30)
 	firehose.html = pages/firehose.ori(Tree.first(paginated_firehose))
 	firehose/ = Tree.map(paginated_firehose, {
