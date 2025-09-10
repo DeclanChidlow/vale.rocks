@@ -3,12 +3,14 @@ title: Lorem Ipsum
 description: A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale.
 og_description: "'Blah blah blah' doesn’t look quite as good."
 pub_time: 2024-11-25
-mod_time: 2025-06-22
+mod_time: 2025-09-10
 section: Meta
 site_recommended: true
 ---
 
 This is a page in which I test and trial formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases. If you'd like to read the logic behind all of this, check out my posts on both [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
+
+Somebody once asked why this page is indexed and in production on my site. The reasoning is threefold. Firstly, I often come here to refer to things, such as the colour palette. Secondly, I can ask people if this page looks correct on their machine to check issues. Thirdly, because it is a showcase of site features that people (including myself) may wish to reference.
 
 ## Text Formatting
 
