@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>${ page.title === 'Vale.Rocks' ? page.title : `${page.title} | Vale.Rocks` }</title>
+		<title>${ page.title}${ page.title !== 'Vale.Rocks' ? ' | Vale.Rocks' : ''}</title>
 
 		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 
@@ -18,9 +18,7 @@
 		<link rel="stylesheet" href="/assets/styles/components/input.css">
 		<link rel="stylesheet" href="/assets/styles/components/figures.css">
 		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
-		${ page.stylesheet ? `
-			<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">
-		` : '' }
+		${ page.stylesheet ? `<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">` : '' }
 
 		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2">
 		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2">
@@ -37,9 +35,11 @@
 			<meta property="og:type" content="article">
 			<meta property="article:author" content="Declan Chidlow">
 
-			<meta property="article:published_time" content="${ page.pub_time }">
-			<meta name="dc.date.issued" content="${ page.pub_time }">
-			<meta name="citation_publication_date" content="${ page.pub_time }">
+			${ page.mod_time ? `
+				<meta property="article:published_time" content="${ page.pub_time }">
+				<meta name="dc.date.issued" content="${ page.pub_time }">
+				<meta name="citation_publication_date" content="${ page.pub_time }">
+			` : '' }
 
 			${ page.mod_time ? `
 				<meta property="article:modified_time" content="${ page.mod_time }">

@@ -183,7 +183,7 @@ class SitemapGraph {
 			if (node.connections === 0) {
 				node.size = 12;
 			} else {
-				node.size = Math.max(4, Math.min(20, 4 + node.connections * 2));
+				node.size = 4 + Math.log1p(node.connections) * 3.5;
 			}
 		});
 	}
@@ -679,7 +679,6 @@ class SitemapGraph {
 		this.nodes.forEach((node) => {
 			const isSelected = node === this.selectedNode;
 			const isDragged = node === this.draggedNode;
-			const pathParts = node.id.split("/").filter((part) => part.length > 0);
 			const opacity = Math.max(0.3, 1 - node.depth * 0.15);
 
 			let baseColor = this.getNodeColor(node);
