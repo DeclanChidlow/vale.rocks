@@ -18,19 +18,23 @@ _body:
 	<ol class="series">
 		${ Tree.map(series, (series) =>
 		`<li>
-			<h2>${ series.title } (${ series.release_year })</h2>
-			${ series.rating ? `<p class="star-rating" title="Rated ${ series.rating } out of 5">${ functions/num-to-stars.js(series.rating) }</p>` : '' }
+			<h2>${ series.title } <span data-pagefind-ignore>(${ series.release_year })</span></h2>
+			${ series.rating ? `<p class="star-rating" title="Rated ${ series.rating } out of 5" data-pagefind-ignore>${ functions/num-to-stars.js(series.rating) }</p>` : '' }
+			${ series.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ series.notes }</p></details>` : '' }
 			${ series.seasons ?
 				`<details>
-					<summary>Seasons</summary>
+					<summary data-pagefind-ignore>Seasons</summary>
 					<ul>
 					${ Tree.map(series.seasons, (season) => `
 						<li>
-							Season ${season.number}
+							<span data-pagefind-ignore>Season ${season.number}</span>
 							${ season.watches ?
 								`<ul>
 								${ Tree.map(season.watches, (watch) => `
-									<li>${watch.start} - ${watch.finish}</li>
+									<li>
+										<span data-pagefind-ignore>${watch.start} - ${watch.finish}</span>
+										${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
+									</li>
 								`) }
 								</ul>`
 							  : '' }

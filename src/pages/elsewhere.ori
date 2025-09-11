@@ -17,7 +17,7 @@ _body:
 		`<a href="https://${ item/url }" class="elsewhere">
 			<div>
 				<h2>${ item/title }</h2>
-				<p><time datetime="${ item/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item/pub_time) }</time> | ${ item/type } | ${ item/sort} | ${ item/location }</p>
+				<p><time datetime="${ item/pub_time }" title="Date of first publication." data-pagefind-ignore>${ functions/pretty-date.js(item/pub_time) }</time> | ${ item/type } | ${ item/sort} | ${ item/location }</p>
 				${ item/note ? `<p class="note">${ item/note }</p>` : '' }
 			</div>
 			${ item/image ? `<img src="https://${ item/image }" alt="">` : '' }

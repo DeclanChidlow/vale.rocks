@@ -12,12 +12,12 @@
     - start: 29/06/2025
       finish: 06/07/2025
       status: Did Not Finish
-  notes: Hunter's drug habit having taken it's toll, I lost interest. Padded out with quotes and fluff, it reads poorly.
+  notes: Hunter's drug habit having taken its toll, I lost interest. Padded out with quotes and fluff, it reads poorly.
 - title: The Rum Diary
   authors: Hunter S Thompson
   rating: 4
   reads:
-    - start: 29/06/2025
+    - start: 09/06/2025
       finish: 26/06/2025
       status: Read
   notes: Every bit as distorted and degenerate as I'd expected and hoped.
@@ -54,6 +54,12 @@
     - start: 24/01/2025
       finish: 25/01/2025
       status: Read
+- title: The Days Have Worn Away
+  authors: Valve
+  reads:
+    - start: 20/12/2024
+      finish: 20/12/2024
+      status: Read
 - title: Fear and Loathing in Las Vegas
   authors: Hunter S Thompson
   reads:
@@ -72,7 +78,6 @@
       status: Read
 - title: Harry Potter and the Deathly Hallows
   authors: JK Rowling
-  last_date_read:
   status: Read
   rating: 4
   reads:
@@ -95,7 +100,7 @@
   status: Read
   rating: 4
   reads:
-    - start: 24/02/2022
+    - start: 24/01/2022
       finish: 31/01/2022
       status: Read
     - start: 12/2023
@@ -164,7 +169,7 @@
 - title: Spurious Correlations
   authors: Tyler Vigen
   reads:
-    - start: 11/04/2023
+    - start: 11/04/2022
       finish: 24/12/2022
       status: Read
 - title: Of Mice and Men
@@ -172,6 +177,42 @@
   reads:
     - start: 11/04/2023
       finish: 20/12/2023
+      status: Read
+- title: The Naked and the Dead
+  authors: Valve
+  reads:
+    - start: 03/10/2022
+      finish: 03/10/2022
+      status: Read
+- title: Unhappy Returns
+  authors: Valve
+  reads:
+    - start: 03/10/2022
+      finish: 03/10/2022
+      status: Read
+- title: A Cold Day In Hell
+  authors: Valve
+  reads:
+    - start: 03/10/2022
+      finish: 03/10/2022
+      status: Read
+- title: Blood In The Water
+  authors: Valve
+  reads:
+    - start: 03/10/2022
+      finish: 03/10/2022
+      status: Read
+- title: Old Wounds
+  authors: Valve
+  reads:
+    - start: 03/10/2022
+      finish: 03/10/2022
+      status: Read
+- title: Ring of Fired
+  authors: Valve
+  reads:
+    - start: 03/10/2022
+      finish: 03/10/2022
       status: Read
 - title: Mostly Harmless
   authors: Douglas Adams
@@ -194,9 +235,11 @@
       status: Read
 - title: Varg in Love
   authors: Alexander McCall Smith
-  last_date_read: 2022/06/05
-  status: Read
   rating: 3
+  reads:
+    - start: 05/06/2022
+      finish: 05/06/2022
+      status: Read
 - title: The Hitchhiker's Guide to the Galaxy
   authors: Douglas Adams
   rating: 4.5
@@ -236,7 +279,7 @@
   authors: Jack Thorne
   rating: 3
   reads:
-    - start: 01/03/2022
+    - start: 11/03/2022
       finish: 12/03/2022
       status: Read
 - title: The Ballad of Songbirds and Snakes
@@ -319,11 +362,6 @@
   reads:
     - finish: 2022
       status: Did Not Finish
-- title: Harry Potter and the Deathly Hallows
-  authors: JK Rowling
-  reads:
-    - finish: 2022
-      status: Read
 - title: The Great Gatsby
   authors: F Scott Fitzgerald
   reads:

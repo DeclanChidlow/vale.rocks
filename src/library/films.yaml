@@ -13,6 +13,21 @@
   watches:
     - date: 05/10/2024
       format: Streaming
+- title: Venom
+  release_year: 2018
+- title: War Games
+  release_year: 1983
+- title: "Weird: The Al Yankovic Story"
+  release_year: 2022
+- title: Young Einstein
+  release_year: 1988
+- title: Yesterday
+  release_year: 2019
+- title: Zombieland
+  release_year: 2009
+  watches:
+    - date: 2025
+      format: Streaming
 - title: The Truman Show
   release_year: 1998
   watches:
@@ -33,15 +48,32 @@
 - title: Back To The Future
   release_year: 1985
   rating: 5
-  notes: While absolutely a fantastic film in it's own right, it is elevated by it's sequels. It is a rare case of what I'd consider a 'perfect' film, in that I  don't think it could be improved any further.
+  notes: While absolutely a fantastic film in its own right, it is elevated by it's sequels. It is a rare case of what I'd consider a 'perfect' film, in that I  don't think it could be improved any further.
   watches:
     - date: 13/07/2021
       format: Streaming
+- title: Back To The Future Part II
+  release_year: 1989
+- title: Back To The Future Part III
+  release_year: 1990
+- title: Apocalypto
+  release_year: 2006
 - title: Ghostbusters
   release_year: 1984
   watches:
     - date: 30/06/2021
       format: Streaming
+- title: Ghostbusters II
+  release_year: 1989
+- title: The Gods Must Be Crazy
+  release_year: 1980
+- title: "Red vs Blue: Restoration"
+  release_year: 2024
+  watches:
+    - date: 07/05/2024
+      format: Streaming
+- title: The Grand Budapest Hotel
+  release_year: 2014
 - title: "The Hunger Games: Mockingjay, Part 2"
   release_year: 2015
   watches:
@@ -93,11 +125,23 @@
   watches:
     - date: 19/07/2025
       format: Streaming
+- title: Iron Man 2
+  release_year: 2010
+- title: Iron Man 3
+  release_year: 2013
+- title: Johnny English
+  release_year: 2003
+- title: Johnny English Reborn
+  release_year: 2011
+- title: Johnny English Strikes Again
+  release_year: 2018
 - title: The Thing
   release_year: 1982
   watches:
     - date: 07/09/2024
       format: Streaming
+- title: Killer Bean Forever
+  release_year: 2009
 - title: "Harry Potter: Return to Hogwarts"
   release_year: 2022
   watches:
@@ -213,6 +257,27 @@
   watches:
     - date: 16/12/2025
       format: Streaming
+- title: Indiana Jones and the Kingdom of the Crystal Skull
+  release_year: 2008
+- title: Indiana Jones and the Last Crusade
+  release_year: 1989
+- title: Indiana Jones and the Temple of Doom
+  release_year: 1984
+- title: Indiana Jones and the Raiders of the Lost Ark
+  release_year: 1981
+- title: Ready Player One
+  release_year: 2018
+- title: The Rocky Horror Picture Show
+  release_year: 1975
+- title: Shaun of the Dead
+  release_year: 2004
+- title: "Spider-Man: Into the Spider-Verse"
+  release_year: 2018
+- title: "Spider-Man: Across the Spider-Verse"
+  release_year: 2023
+  watches:
+    - date: 04/2024
+      format: Plane
 - title: Hackers
   release_year: 1995
   notes: An objectively bad film, but absolutely fantastic in the eyes of a hopeless tech nerd like myself.
@@ -238,10 +303,12 @@
       format: Streaming
 - title: Dr Who and the Daleks
   release_year: 1965
-  notes: Starring Peter Cushing, my favourite Dr Who. Owned on VHS for many years.
+  notes: Starring Peter Cushing, my favourite incarnation of Dr Who. Owned on VHS for many years.
   watches:
     - date: 22/03/2025
       format: Streaming
+- title: Daleks' Invasion Earth 2150AD
+  release_year: 1966
 - title: Moonage Daydream
   release_year: 2022
   notes: I find this film, as I do Bowie more generally, incredibly inspiring. I regret not watching it in cinema.
@@ -262,6 +329,23 @@
   watches:
     - date: 06/12/2024
       format: Streaming
+- title: The Life Aquatic with Steve Zissou
+  release_year: 2004
+- title: Life of Brian
+  release_year: 1979
+- title: Monty Python and the Holy Grail
+  release_year: 1975
+- title: Men in Black
+  release_year: 1997
+- title: Men in Black 2
+  release_year: 2002
+- title: Men in Black 3
+  release_year: 2012
+- title: Miss Peregrine's Home For Peculiar Children
+  release_year: 2016
+  watches:
+    - date: 2016
+      format: Cinema
 - title: Apocalypse Now
   release_year: 1979
   rating: 5
@@ -280,11 +364,20 @@
   watches:
     - date: 28/06/2025
       format: Streaming
+- title: Ponyo
+  release_year: 2008
+- title: "Cowboy Bebop: The Movie"
+  release_year: 2001
 - title: Ghost
   release_year: 1990
   watches:
     - date: 31/07/2025
       format: Streaming
+- title: Now You See Me
+  release_year: 2013
+- title: Now You See Me 2
+  release_year: 2016
+  notes: The fact they didn't call this 'Now You See Me, Now You Don't' was a silly decision.
 - title: Blade Runner
   release_year: 1982
   notes: I have only ever watched the Final Cut.
@@ -302,6 +395,11 @@
   watches:
     - date: 17/08/2025
       format: Streaming
+- title: Inspector Gadget
+  release_year: 1999
+- title: Inspector Gadget 2
+  release_year: 2003
+  notes: The body horror of a man's physicality disobeying his mind played off for laughs. Owned on a scratched ex-video-store DVD, such that at the climax of the film, when French Stewart breaks the fourth wall and says, 'Here comes the good part', it would cease playing and never recover.
 - title: Chitty Chitty Bang Bang
   release_year: 1968
   notes: A film from my childhood I hold most dear. It is imbued with a certain sort of magic I struggle to articulate. It is clever, and fun, and fantasmagorical.
@@ -310,6 +408,25 @@
       format: Streaming
     - date: 06/09/2025
       format: Streaming
+- title: Paddington
+  release_year: 2014
+- title: Paddington 2
+  release_year: 2017
+  notes: A rare case of the sequel being better than the first.
+- title: Hoodwinked
+  release_year: 2005
+- title: The Phantom of the Open
+  release_year: 2022
+  watches:
+    - date: 04/2023
+      format: Television
+- title: Labyrinth
+  release_year: 1986
+- title: A League of Their Own
+  release_year: 1992
+  notes: Required viewing for high school English. Watched at least 20 more times than any sane person should.
+- title: Hot Fuzz
+  release_year: 2007
 - title: Princess Mononoke
   release_year: 1997
   rating: 4
@@ -335,6 +452,8 @@
     - date: 31/08/2025
       format: Cinema
       notes: On original 35mm film in a double feature with the sequel. It opened with trailers for The Matrix, Darkman, and the N64's GoldenEye 007. It had the 'You wouldn't steal a car.' anti-piracy presentation and 'Office of Film and Literature Classification' rating, as well as the Digital dts Sound showcase. Just before it played, the original twin towers trailer was shown.
+- title: Fantastic Mr Fox
+  release_year: 2009
 - title: "The SpongeBob Movie: Sponge Out of Water"
   release_year: 2015
   watches:
@@ -350,11 +469,22 @@
   watches:
     - date: 12/10/2015
       format: Cinema
+- title: Incredibles 2
+  release_year: 2018
+  watches:
+    - date: 2018
+      format: Cinema
 - title: Sherlock Gnomes
   release_year: 2018
   watches:
     - date: 29/04/2018
       format: Cinema
+- title: Drop Dead Fred
+  release_year: 1991
+  watches:
+    - date: 2017
+      format: Streaming
+      notes: Watched at a caravan park in North West Australia on the old family laptop. Quite an audience gathered.
 - title: Paper Planes
   release_year: 2015
   watches:
@@ -370,6 +500,26 @@
   watches:
     - date: 04/07/2017
       format: Cinema
+- title: Top Secret!
+  release_year: 1984
+  notes: The best of all of the Zucker, Abrahams, and Zucker films.
+- title: "Star Wars: A New Hope"
+  release_year: 1977
+- title: "Star Wars: The Empire Strikes Back"
+  release_year: 1980
+- title: "Star Wars: Return of the Jedi"
+  release_year: 1983
+- title: "Star Wars: The Force Awakens"
+  release_year: 2015
+- title: "Star Trek: First Contact"
+  release_year: 1996
+  notes: "This was my first introduction to Star Trek: The Next Generation."
+- title: The Sting
+  release_year: 1973
+- title: "Spider-Man: No Way Home"
+  release_year: 2021
+- title: "Spider-Man: Far From Home"
+  release_year: 2019
 - title: "Spider-Man: Homecoming"
   release_year: 2017
   watches:
@@ -395,3 +545,23 @@
   watches:
     - date: 15/04/2016
       format: Cinema
+- title: "Austin Powers: International Man of Mystery"
+  release_year: 1997
+- title: "Austin Powers: The Spy Who Shagged Me"
+  release_year: 1999
+- title: "Austin Powers: Goldmember"
+  release_year: 2002
+- title: The Batman
+  release_year: 2022
+  watches:
+    - date: 2022
+      format: Cinema
+- title: The Castle
+  release_year: 1997
+- title: A Clockwork Orange
+  release_year: 1971
+  notes: Holding the book in such high regard, I was rather disappointed by the film and am maligned by the fact that it seems to be the version of A Clockwork Orange in the zeitgeist.
+- title: Coneheads
+  release_year: 1993
+- title: The Darjeeling Limited
+  release_year: 2007

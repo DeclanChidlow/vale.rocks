@@ -20,10 +20,10 @@ _body:
 		`<li>
 			<h2>${ book.title }</h2>
 			<p class="authors">${ book.authors }</p>
-			${ book.rating ? `<p class="star-rating" title="Rated ${ book.rating } out of 5">${ functions/num-to-stars.js(book.rating) }</p>` : '' }
-			${ book.notes ? `<details><summary>Notes</summary><p>${ book.notes }</p></details>` : '' }
+			${ book.rating ? `<p class="star-rating" title="Rated ${ book.rating } out of 5" data-pagefind-ignore>${ functions/num-to-stars.js(book.rating) }</p>` : '' }
+			${ book.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ book.notes }</p></details>` : '' }
 			${ book.reads ?
-				`<details>
+				`<details data-pagefind-ignore>
 					<summary>Reads</summary>
 					<ul>
 					${ Tree.map(book.reads, (read) => `

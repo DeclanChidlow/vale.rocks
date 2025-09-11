@@ -18,16 +18,16 @@ _body:
 	<ol class="films">
 		${ Tree.map(films, (film) =>
 		`<li>
-			<h2>${ film.title } (${ film.release_year })</h2>
-			${ film.rating ? `<p class="star-rating" title="Rated ${ film.rating } out of 5">${ functions/num-to-stars.js(film.rating) }</p>` : '' }
-			${ film.notes ? `<details><summary>Notes</summary><p>${ film.notes }</p></details>` : '' }
+			<h2>${ film.title } <span data-pagefind-ignore>(${ film.release_year })</span></h2>
+			${ film.rating ? `<p class="star-rating" title="Rated ${ film.rating } out of 5" data-pagefind-ignore>${ functions/num-to-stars.js(film.rating) }</p>` : '' }
+			${ film.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ film.notes }</p></details>` : '' }
 			${ film.watches ?
 				`<details>
-					<summary>Watches</summary>
+					<summary data-pagefind-ignore>Watches</summary>
 					<ul>
 					${ Tree.map(film.watches, (watch) => `
 						<li>
-							${watch.date} | ${watch.format}
+							<span data-pagefind-ignore>${watch.date} | ${watch.format}</span>
 							${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
 						</li>
 					`) }
