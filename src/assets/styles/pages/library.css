@@ -28,6 +28,11 @@
 		text-transform: none;
 		font-size: 1.2rem;
 		line-height: 1.5rem;
+
+		span {
+			margin-inline-start: auto;
+			padding-inline-start: 1ch;
+		}
 	}
 
 	.authors {

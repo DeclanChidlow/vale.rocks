@@ -19,6 +19,10 @@
   notes: Jazz, spaceships, outcasts, and a world not too unlike our own. So long, space cowboy.
   seasons:
     - number: 1
+      watches:
+        - start: 23/09/2023
+          finish: 10/2023
+          notes: Watched dubbed.
 - title: New Kids on the Rock
   release_year: 2008
   seasons:
@@ -159,3 +163,10 @@
     - number: 15
     - number: 16
     - number: 17
+- title: The Good Place
+  release_year: 2016
+  seasons:
+    - number: 1
+    - number: 2
+    - number: 3
+    - number: 4

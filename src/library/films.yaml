@@ -278,6 +278,17 @@
   watches:
     - date: 04/2024
       format: Plane
+- title: Scooby-Doo
+  release_year: 2002
+  notes: I have scarcely seen a more adult children's film.
+- title: "Scooby-Doo 2: Monsters Unleashed"
+  release_year: 2004
+  notes: Like the first film, this is hilarious to watch as an adult given how many they managed to get away with for an audience of children.
+- title: Avengers Endgame
+  release_year: 2019
+  watches:
+    - date: 2019
+      format: Cinema
 - title: Hackers
   release_year: 1995
   notes: An objectively bad film, but absolutely fantastic in the eyes of a hopeless tech nerd like myself.
