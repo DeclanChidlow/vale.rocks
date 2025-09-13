@@ -1,73 +1,54 @@
-- title: Fawlty Towers
-  release_year: 1975
+- title: Fallout
+  release_year: 2024
+  seasons:
+    - number: 1
+      watches:
+        - start: 14/04/2024
+          finish: 19/04/2024
+- title: Clarkson's Farm
+  release_year: 2021
+  seasons:
+    - number: 1
+      watches:
+        - start: 13/07/2022
+          finish: 13/07/2022
+    - number: 2
+    - number: 3
+      watches:
+        - start: 09/05/2024
+          finish: 11/05/2024
+- title: The Good Place
+  release_year: 2016
   seasons:
     - number: 1
     - number: 2
-      watches:
-        - start: 28/09/2024
-          finish: 30/11/2024
-- title: Neon Genesis Evangelion
-  release_year: 1995
-  rating: 4.5
+    - number: 3
+    - number: 4
+- title: Rosehaven
+  release_year: 2016
   seasons:
     - number: 1
       watches:
-        - start: 16/11/2024
-          finish: 28/11/2024
-- title: Cowboy Bebop
-  release_year: 1998
-  notes: Jazz, spaceships, outcasts, and a world not too unlike our own. So long, space cowboy.
-  seasons:
-    - number: 1
+        - start: 07/05/2024
+          finish: 13/05/2024
+    - number: 2
       watches:
-        - start: 23/09/2023
-          finish: 10/2023
-          notes: Watched dubbed.
+        - start: 14/05/2024
+          finish: 17/05/2024
+    - number: 3
+      watches:
+        - start: 17/05/2024
+          finish: 19/05/2024
+    - number: 4
+      watches:
+        - start: 20/05/2024
+          finish: 21/05/2024
 - title: New Kids on the Rock
   release_year: 2008
   seasons:
     - number: 1
     - number: 2
     - number: 3
-- title: The Hitchhiker's Guide to the Galaxy
-  release_year: 1981
-  seasons:
-    - number: 1
-- title: Seinfeld
-  release_year: 1989
-  seasons:
-    - number: 1
-    - number: 2
-    - number: 3
-    - number: 4
-    - number: 5
-    - number: 6
-    - number: 7
-    - number: 8
-    - number: 9
-- title: Doctor Who
-  release_year: 2005
-  seasons:
-    - number: 1
-      watches:
-        - start: 02/2025
-          finish: 03/2025
-    - number: 2
-      watches:
-        - start: 07/03/2025
-          finish: 21/03/2025
-    - number: 3
-      watches:
-        - start: 23/03/2025
-          finish: 01/04/2025
-    - number: 4
-      watches:
-        - start: 02/04/2025
-          finish: 14/05/2025
-    - number: 5
-      watches:
-        - start: 15/05/2025
-          finish: 20/05/2025
 - title: Dexter
   release_year: 2006
   notes: Dexter is an enjoyable show if you turn your brain off, but even with a brain disabled it begins to completely unravel during seasons six and is little more than a frayed mass by season eight. It is a shame, as I found the first five seasons to be quite engaging.
@@ -105,44 +86,29 @@
       watches:
         - start: 13/06/2025
           finish: 21/06/2025
-- title: Clarkson's Farm
-  release_year: 2021
+- title: Doctor Who
+  release_year: 2005
   seasons:
     - number: 1
       watches:
-        - start: 13/07/2022
-          finish: 13/07/2022
-    - number: 2
-    - number: 3
-      watches:
-        - start: 09/05/2024
-          finish: 11/05/2024
-- title: Fallout
-  release_year: 2024
-  seasons:
-    - number: 1
-      watches:
-        - start: 14/04/2024
-          finish: 19/04/2024
-- title: Rosehaven
-  release_year: 2016
-  seasons:
-    - number: 1
-      watches:
-        - start: 07/05/2024
-          finish: 13/05/2024
+        - start: 02/2025
+          finish: 03/2025
     - number: 2
       watches:
-        - start: 14/05/2024
-          finish: 17/05/2024
+        - start: 07/03/2025
+          finish: 21/03/2025
     - number: 3
       watches:
-        - start: 17/05/2024
-          finish: 19/05/2024
+        - start: 23/03/2025
+          finish: 01/04/2025
     - number: 4
       watches:
-        - start: 20/05/2024
-          finish: 21/05/2024
+        - start: 02/04/2025
+          finish: 14/05/2025
+    - number: 5
+      watches:
+        - start: 15/05/2025
+          finish: 20/05/2025
 - title: Red vs Blue
   release_year: 2003
   seasons:
@@ -163,10 +129,44 @@
     - number: 15
     - number: 16
     - number: 17
-- title: The Good Place
-  release_year: 2016
+- title: Cowboy Bebop
+  release_year: 1998
+  notes: Jazz, spaceships, outcasts, and a world not too unlike our own. So long, space cowboy.
+  seasons:
+    - number: 1
+      watches:
+        - start: 23/09/2023
+          finish: 10/2023
+          notes: Watched dubbed.
+- title: Neon Genesis Evangelion
+  release_year: 1995
+  rating: 4.5
+  seasons:
+    - number: 1
+      watches:
+        - start: 16/11/2024
+          finish: 28/11/2024
+- title: Seinfeld
+  release_year: 1989
   seasons:
     - number: 1
     - number: 2
     - number: 3
     - number: 4
+    - number: 5
+    - number: 6
+    - number: 7
+    - number: 8
+    - number: 9
+- title: The Hitchhiker's Guide to the Galaxy
+  release_year: 1981
+  seasons:
+    - number: 1
+- title: Fawlty Towers
+  release_year: 1975
+  seasons:
+    - number: 1
+    - number: 2
+      watches:
+        - start: 28/09/2024
+          finish: 30/11/2024
