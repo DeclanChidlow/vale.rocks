@@ -1,5 +1,5 @@
 (series) => main_template.ori({
-	title: "series"
+	title: "Series"
 	description: "An index of many of the series I have watched over the years. Primarily episodic television content and the likes."
 	og_description: "Series I've watched."
 	stylesheet: "pages/library.css"
@@ -13,7 +13,7 @@ _body:
 	<h1>Series</h1>
 
 	<p>${ series.length } series I've watched, with thoughts and notes where relevant.</p>
-	<p>Proper tracking began in 2025, so most logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics.</p>
+	<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 
 	<ol class="series">
 		${ Tree.map(series, (series) =>

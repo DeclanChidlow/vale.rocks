@@ -60,7 +60,13 @@
       format: Streaming
 - title: "Spider-Man: Far From Home"
   release_year: 2019
-- title: Avengers Endgame
+- title: Bohemian Rhapsody
+  release_year: 2019
+  watches:
+    - date: 2019
+      format: Drive-In Cinema
+      notes: "Sing-along version in a double feature with Alita: Battle Angel."
+- title: "Avengers: Endgame"
   release_year: 2019
   watches:
     - date: 2019
@@ -72,11 +78,19 @@
   watches:
     - date: 29/04/2018
       format: Cinema
+- title: "Alita: Battle Angel"
+  release_year: 2019
+  watches:
+    - date: 2019
+      format: Drive-In Cinema
+      notes: Double feature with Bohemian Rhapsody.
 - title: Incredibles 2
   release_year: 2018
   watches:
     - date: 2018
       format: Cinema
+- title: "Avengers: Infinity War"
+  release_year: 2018
 - title: "Spider-Man: Into the Spider-Verse"
   release_year: 2018
 - title: Ready Player One
@@ -445,7 +459,7 @@
   watches:
     - date: 28/06/2025
       format: Streaming
-- title: "The Naked Gun: From the File of Police Squad!"
+- title: "The Naked Gun: From the Files of Police Squad!"
   release_year: 1988
   watches:
     - date: 11/12/2024

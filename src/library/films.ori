@@ -13,7 +13,7 @@ _body:
 	<h1>Films</h1>
 
 	<p>${ films.length } films I've watched with assorted notes where applicable.</p>
-	<p>Proper tracking began in 2025, so films without logged details prior to 2025 are omitted.</p>
+	<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 
 	<ol class="films">
 		${ Tree.map(films, (film) =>

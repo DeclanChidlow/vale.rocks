@@ -13,7 +13,7 @@ _body:
 	<h1>Books</h1>
 
 	<p>These are ${ books.length } books I've read or given up on a significant portion of the way through, occasionally presented with notes.</p>
-	<p>Imprecise tracking began in 2022, with proper tracking beginning in 2023, so any reading prior to that isn't present.</p>
+	<p>Imprecise tracking began in 2022, with proper tracking beginning in 2023, so some reading prior to that isn't present.</p>
 
 	<ol class="books">
 		${ Tree.map(books, (book) =>
