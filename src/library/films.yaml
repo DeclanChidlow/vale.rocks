@@ -2,29 +2,29 @@
   release_year: 2025
   rating: 2
   watches:
-    - date: 29/05/2025
+    - date: 2025-05-29
       format: Streaming
 - title: Deadpool & Wolverine
   release_year: 2024
   rating: 3
   watches:
-    - date: 15/11/2025
+    - date: 2024-11-15
       format: Streaming
 - title: "Red vs Blue: Restoration"
   release_year: 2024
   watches:
-    - date: 07/05/2024
+    - date: 2024-05-07
       format: Streaming
 - title: "Spider-Man: Across the Spider-Verse"
   release_year: 2023
   watches:
-    - date: 04/2024
+    - date: 2024-04
       format: Plane
 - title: Indiana Jones and the Dial of Destiny
   release_year: 2023
   notes: An attempt to recapture nostalgia with an aging main character which ends up just feeling trite.
   watches:
-    - date: 16/12/2025
+    - date: 2024-12-16
       format: Streaming
 - title: The Batman
   release_year: 2022
@@ -34,20 +34,20 @@
 - title: The Phantom of the Open
   release_year: 2022
   watches:
-    - date: 04/2023
+    - date: 2023-04
       format: Television
 - title: Moonage Daydream
   release_year: 2022
   notes: I find this film, as I do Bowie more generally, incredibly inspiring. I regret not watching it in cinema.
   watches:
-    - date: 14/03/2025
+    - date: 2025-03-14
       format: Streaming
-    - date: 25/04/2025
+    - date: 2025-04-25
       format: Streaming
 - title: "Harry Potter: Return to Hogwarts"
   release_year: 2022
   watches:
-    - date: 26/10/2024
+    - date: 2024-10-26
       format: Streaming
 - title: "Weird: The Al Yankovic Story"
   release_year: 2022
@@ -56,7 +56,7 @@
 - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
   release_year: 2021
   watches:
-    - date: 06/07/2025
+    - date: 2025-07-06
       format: Streaming
 - title: "Spider-Man: Far From Home"
   release_year: 2019
@@ -76,7 +76,7 @@
 - title: Sherlock Gnomes
   release_year: 2018
   watches:
-    - date: 29/04/2018
+    - date: 2018-04-29
       format: Cinema
 - title: "Alita: Battle Angel"
   release_year: 2019
@@ -102,12 +102,12 @@
 - title: "Spider-Man: Homecoming"
   release_year: 2017
   watches:
-    - date: 14/07/2017
+    - date: 2017-07-14
       format: Cinema
 - title: Despicable Me 3
   release_year: 2017
   watches:
-    - date: 04/07/2017
+    - date: 2017-07-04
       format: Cinema
 - title: Paddington 2
   release_year: 2017
@@ -115,27 +115,27 @@
 - title: Blade Runner 2049
   release_year: 2017
   watches:
-    - date: 15/08/2025
+    - date: 2025-08-15
       format: Streaming
 - title: Zootopia
   release_year: 2016
   watches:
-    - date: 15/04/2016
+    - date: 2016-04-15
       format: Cinema
 - title: Kung Fu Panda 3
   release_year: 2016
   watches:
-    - date: 26/04/2016
+    - date: 2016-04-26
       format: Cinema
 - title: Finding Dory
   release_year: 2016
   watches:
-    - date: 05/07/2016
+    - date: 2016-07-05
       format: Cinema
 - title: The BFG
   release_year: 2016
   watches:
-    - date: 17/07/2016
+    - date: 2016-07-17
       format: Cinema
 - title: Now You See Me 2
   release_year: 2016
@@ -148,46 +148,46 @@
 - title: Big Hero 6
   release_year: 2015
   watches:
-    - date: 22/01/2015
+    - date: 2015-01-22
       format: Cinema
 - title: "Star Wars: The Force Awakens"
   release_year: 2015
 - title: Paper Planes
   release_year: 2015
   watches:
-    - date: 15/01/2015
+    - date: 2015-01-15
       format: Cinema
 - title: Pan
   release_year: 2015
   watches:
-    - date: 12/10/2015
+    - date: 2015-10-12
       format: Cinema
 - title: Home
   release_year: 2015
   watches:
-    - date: 10/04/2015
+    - date: 2015-04-10
       format: Cinema
 - title: "The SpongeBob Movie: Sponge Out of Water"
   release_year: 2015
   watches:
-    - date: 14/04/2015
+    - date: 2015-04-14
       format: Cinema
 - title: "The Hunger Games: Mockingjay, Part 2"
   release_year: 2015
   watches:
-    - date: 24/06/2021
+    - date: 2021-06-24
       format: Streaming
 - title: Paddington
   release_year: 2014
 - title: "X-Men: Days of Future Past"
   release_year: 2014
   watches:
-    - date: 05/10/2024
+    - date: 2024-10-05
       format: Streaming
 - title: "The Hunger Games: Mockingjay, Part 1"
   release_year: 2014
   watches:
-    - date: 24/06/2021
+    - date: 2021-06-24
       format: Streaming
 - title: The Grand Budapest Hotel
   release_year: 2014
@@ -198,29 +198,29 @@
 - title: "The Hunger Games: Catching Fire"
   release_year: 2013
   watches:
-    - date: 23/06/2021
+    - date: 2021-06-23
       format: Streaming
 - title: The Internship
   release_year: 2013
   watches:
-    - date: 15/01/2022
+    - date: 2022-01-15
       format: Streaming
 - title: Men in Black 3
   release_year: 2012
 - title: "Evangelion: 3.0 You Can (Not) Redo"
   release_year: 2012
   watches:
-    - date: 29/06/2025
+    - date: 2025-06-29
       format: Streaming
 - title: The Hunger Games
   release_year: 2012
   watches:
-    - date: 23/06/2021
+    - date: 2021-06-23
       format: Streaming
 - title: "X-Men: First Class"
   release_year: 2011
   watches:
-    - date: 04/10/2024
+    - date: 2024-10-04
       format: Streaming
 - title: Johnny English Reborn
   release_year: 2011
@@ -231,7 +231,7 @@
 - title: "Evangelion: 2.0 You Can (Not) Advance"
   release_year: 2009
   watches:
-    - date: 27/06/2025
+    - date: 2025-06-27
       format: Streaming
 - title: Killer Bean Forever
   release_year: 2009
@@ -247,7 +247,7 @@
 - title: Iron Man
   release_year: 2008
   watches:
-    - date: 19/07/2025
+    - date: 2025-07-19
       format: Streaming
 - title: The Darjeeling Limited
   release_year: 2007
@@ -256,17 +256,17 @@
 - title: "Evangelion: 1.0 You Are (Not) Alone"
   release_year: 2007
   watches:
-    - date: 02/02/2025
+    - date: 2025-02-02
       format: Streaming
 - title: "X-Men: The Last Stand"
   release_year: 2006
   watches:
-    - date: 01/10/2024
+    - date: 2024-10-01
       format: Streaming
 - title: Kenny
   release_year: 2006
   watches:
-    - date: 15/10/2021
+    - date: 2021-10-15
       format: Streaming
 - title: Apocalypto
   release_year: 2006
@@ -276,7 +276,7 @@
   release_year: 2004
   rating: 4
   watches:
-    - date: 31/08/2025
+    - date: 2025-08-31
       format: Cinema
       notes: On original 35mm film in a double feature with the first film.
 - title: The Life Aquatic with Steve Zissou
@@ -289,7 +289,7 @@
 - title: Harry Potter and the Prisoner of Azkaban
   release_year: 2004
   watches:
-    - date: 29/12/2024
+    - date: 2024-12-29
       format: Streaming
 - title: Inspector Gadget 2
   release_year: 2003
@@ -297,7 +297,7 @@
 - title: X2
   release_year: 2003
   watches:
-    - date: 30/09/2024
+    - date: 2024-09-30
       format: Streaming
 - title: Johnny English
   release_year: 2003
@@ -307,9 +307,9 @@
   release_year: 2002
   rating: 4
   watches:
-    - date: 19/09/2024
+    - date: 2024-09-19
       format: Streaming
-    - date: 31/08/2025
+    - date: 2025-08-31
       format: Cinema
       notes: On original 35mm film in a double feature with the sequel. It opened with trailers for The Matrix, Darkman, and the N64's GoldenEye 007. It had an advert for Warner Bros Movie World on the Gold Coast, the 'You wouldn't steal a car' anti-piracy presentation and 'Office of Film and Literature Classification' rating, as well as the Digital dts Sound showcase. Just before it played, the original twin towers trailer was shown.
 - title: Men in Black 2
@@ -320,29 +320,29 @@
 - title: Harry Potter and the Chamber of Secrets
   release_year: 2002
   watches:
-    - date: 25/12/2024
+    - date: 2024-12-25
       format: Streaming
 - title: "Cowboy Bebop: The Movie"
   release_year: 2001
 - title: Harry Potter and the Philosopher's Stone
   release_year: 2001
   watches:
-    - date: 14/09/2024
+    - date: 2024-09-14
       format: Streaming
 - title: X-Men
   release_year: 2000
   watches:
-    - date: 29/09/2024
+    - date: 2024-09-29
       format: Streaming
 - title: Cast Away
   release_year: 2000
   watches:
-    - date: 13/09/2022
+    - date: 2022-09-13
       format: Streaming
 - title: American Psycho
   release_year: 2000
   watches:
-    - date: 01/09/2024
+    - date: 2024-09-01
       format: Streaming
 - title: "Austin Powers: The Spy Who Shagged Me"
   release_year: 1999
@@ -351,12 +351,12 @@
 - title: The Truman Show
   release_year: 1998
   watches:
-    - date: 02/01/2021
+    - date: 2021-01-02
       format: Streaming
 - title: Wrongfully Accused
   release_year: 1998
   watches:
-    - date: 05/10/2024
+    - date: 2024-10-05
       format: Streaming
 - title: The Castle
   release_year: 1997
@@ -366,26 +366,26 @@
   release_year: 1997
   rating: 4
   watches:
-    - date: 21/08/2025
+    - date: 2025-08-21
       format: Cinema
       notes: Returned to cinemas for it's 4K restoration.
-    - date: 04/09/2025
+    - date: 2025-09-04
       format: Streaming
 - title: Perfect Blue
   release_year: 1997
   notes: A sickening depravity such that I feel personally accosted having watched it.
   watches:
-    - date: 17/08/2025
+    - date: 2025-08-17
       format: Streaming
 - title: Men in Black
   release_year: 1997
-- title: "Neon Genesis Evangelion: The End of Evangelion"
+- title: The End of Evangelion
   release_year: 1997
   rating: 5
   watches:
-    - date: 30/11/2024
+    - date: 2024-11-30
       format: Streaming
-    - date: 02/12/2024
+    - date: 2024-12-02
       format: Streaming
 - title: "Star Trek: First Contact"
   release_year: 1996
@@ -394,15 +394,15 @@
   release_year: 1995
   notes: An objectively bad film, but absolutely fantastic in the eyes of a hopeless tech nerd like myself.
   watches:
-    - date: 27/12/2024
+    - date: 2024-12-27
       format: Streaming
-    - date: 08/02/2025
+    - date: 2025-02-08
       format: Streaming
 - title: "Naked Gun 33⅓: The Final Insult"
   release_year: 1994
   notes: Funny, but inferior to previous Naked Gun films.
   watches:
-    - date: 25/04/2025
+    - date: 2025-04-25
       format: Streaming
 - title: Coneheads
   release_year: 1993
@@ -412,7 +412,7 @@
 - title: "Home Alone 2: Lost in New York"
   release_year: 1992
   watches:
-    - date: 24/12/2024
+    - date: 2024-12-24
       format: Streaming
 - title: Drop Dead Fred
   release_year: 1991
@@ -424,22 +424,31 @@
   release_year: 1991
   notes: Funny, but inferior to previous Naked Gun films.
   watches:
-    - date: 06/12/2024
+    - date: 2024-12-06
+      format: Streaming
+- title: Darkman
+  release_year: 1990
+  rating: 4
+  notes: As a fan of Sam Raimi's Spider-Man trilogy, Darkman has a lot of the same stylistic hallmarks, although as yet unrefined. I'm unsure if it was supposed to be quite as funny as I found it, but I really enjoyed it in a schlock sense.
+  watches:
+    - date: 2025-09-14
       format: Streaming
 - title: Death in Brunswick
   release_year: 1990
+  rating: 2.5
   watches:
-    - date: 13/09/2025
+    - date: 2025-09-13
       format: Streaming
 - title: Ghost
   release_year: 1990
+  rating: 4
   watches:
-    - date: 31/07/2025
+    - date: 2025-07-31
       format: Streaming
 - title: Home Alone
   release_year: 1990
   watches:
-    - date: 23/12/2024
+    - date: 2024-12-23
       format: Streaming
 - title: Back To The Future Part III
   release_year: 1990
@@ -448,7 +457,7 @@
 - title: A Grand Day Out
   release_year: 1989
   watches:
-    - date: 18/01/2025
+    - date: 2025-01-18
       format: Streaming
 - title: Ghostbusters II
   release_year: 1989
@@ -457,12 +466,12 @@
 - title: Akira
   release_year: 1988
   watches:
-    - date: 28/06/2025
+    - date: 2025-06-28
       format: Streaming
 - title: "The Naked Gun: From the Files of Police Squad!"
   release_year: 1988
   watches:
-    - date: 11/12/2024
+    - date: 2024-12-11
       format: Streaming
 - title: Young Einstein
   release_year: 1988
@@ -470,23 +479,23 @@
   release_year: 1987
   notes: In Year 10 of high school this was required watching for my English class and I wrote many essays on it. One shudders to think of how many times I've seen this film and how many hours I dedicated to analysing it. I was top of my class that year though.
   watches:
-    - date: 24/08/2024
+    - date: 2024-08-24
       format: Streaming
 - title: Labyrinth
   release_year: 1986
 - title: Clue
   release_year: 1985
   watches:
-    - date: 03/01/2025
+    - date: 2025-01-03
       format: Streaming
-    - date: 18/01/2025
+    - date: 2025-01-18
       format: Streaming
 - title: Back To The Future
   release_year: 1985
   rating: 5
   notes: While absolutely a fantastic film in its own right, it is elevated by it's sequels. It is a rare case of what I'd consider a 'perfect' film, in that I don't think it could be improved any further.
   watches:
-    - date: 13/07/2021
+    - date: 2021-07-13
       format: Streaming
 - title: Top Secret!
   release_year: 1984
@@ -496,7 +505,7 @@
 - title: Ghostbusters
   release_year: 1984
   watches:
-    - date: 30/06/2021
+    - date: 2021-06-30
       format: Streaming
 - title: "Star Wars: Return of the Jedi"
   release_year: 1983
@@ -506,12 +515,12 @@
   release_year: 1982
   notes: I have only ever watched the Final Cut.
   watches:
-    - date: 02/08/2025
+    - date: 2025-08-02
       format: Streaming
 - title: The Thing
   release_year: 1982
   watches:
-    - date: 07/09/2024
+    - date: 2024-09-07
       format: Streaming
 - title: Indiana Jones and the Raiders of the Lost Ark
   release_year: 1981
@@ -522,15 +531,15 @@
 - title: Flying High! (Airplane!)
   release_year: 1980
   watches:
-    - date: 13/07/2021
+    - date: 2021-07-13
       format: Streaming
-    - date: 14/12/2024
+    - date: 2024-12-14
       format: Streaming
 - title: Apocalypse Now
   release_year: 1979
   rating: 5
   watches:
-    - date: 26/04/2025
+    - date: 2025-04-26
       format: Streaming
       notes: Redux. Far worse than theatrical and a plain step-down in pacing. Added material was unnecessary and was cut for a reason..
 - title: Life of Brian
@@ -544,19 +553,19 @@
 - title: Jaws
   release_year: 1975
   watches:
-    - date: 24/09/2021
+    - date: 2021-09-24
       format: Streaming
 - title: Blazing Saddles
   release_year: 1974
   watches:
-    - date: 01/09/2024
+    - date: 2024-09-01
       format: Streaming
 - title: The Sting
   release_year: 1973
 - title: Papillon
   release_year: 1973
   watches:
-    - date: 16/11/2024
+    - date: 2024-11-16
       format: Streaming
 - title: A Clockwork Orange
   release_year: 1971
@@ -564,23 +573,23 @@
 - title: Willy Wonka and the Chocolate Factory
   release_year: 1971
   watches:
-    - date: 31/08/2024
+    - date: 2024-08-31
       format: Streaming
 - title: Chitty Chitty Bang Bang
   release_year: 1968
   notes: A film from my childhood I hold most dear. It is imbued with a certain sort of magic I struggle to articulate. It is clever, and fun, and fantasmagorical.
   watches:
-    - date: 23/04/2025
+    - date: 2025-04-23
       format: Streaming
-    - date: 06/09/2025
+    - date: 2025-09-06
       format: Streaming
 - title: Thunderbird 6
   release_year: 1968
   notes: Certainly not one of the best films, but certainly one of my favourites.
   watches:
-    - date: 08/03/2025
+    - date: 2025-03-08
       format: Streaming
-    - date: 15/10/2024
+    - date: 2024-10-15
       format: Streaming
 - title: Daleks' Invasion Earth 2150AD
   release_year: 1966
@@ -588,10 +597,10 @@
   release_year: 1965
   notes: Starring Peter Cushing, my favourite incarnation of Dr Who. Owned on VHS for many years.
   watches:
-    - date: 22/03/2025
+    - date: 2025-03-22
       format: Streaming
 - title: A Hard Day's Night
   release_year: 1964
   watches:
-    - date: 03/09/2021
+    - date: 2021-09-03
       format: Streaming

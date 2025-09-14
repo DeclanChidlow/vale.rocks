@@ -4,6 +4,10 @@
 	}
 }
 
+#refine-entries {
+	display: none; /* Set to block with JS */
+}
+
 .books,
 .films,
 .series {

@@ -3,20 +3,20 @@
   seasons:
     - number: 1
       watches:
-        - start: 14/04/2024
-          finish: 19/04/2024
+        - start: 2024-04-14
+          finish: 2024-04-19
 - title: Clarkson's Farm
   release_year: 2021
   seasons:
     - number: 1
       watches:
-        - start: 13/07/2022
-          finish: 13/07/2022
+        - start: 2022-07-13
+          finish: 2022-07-13
     - number: 2
     - number: 3
       watches:
-        - start: 09/05/2024
-          finish: 11/05/2024
+        - start: 2024-05-09
+          finish: 2024-05-11
 - title: The Good Place
   release_year: 2016
   seasons:
@@ -29,20 +29,20 @@
   seasons:
     - number: 1
       watches:
-        - start: 07/05/2024
-          finish: 13/05/2024
+        - start: 2024-05-07
+          finish: 2024-05-13
     - number: 2
       watches:
-        - start: 14/05/2024
-          finish: 17/05/2024
+        - start: 2024-05-14
+          finish: 2024-05-17
     - number: 3
       watches:
-        - start: 17/05/2024
-          finish: 19/05/2024
+        - start: 2024-05-17
+          finish: 2024-05-19
     - number: 4
       watches:
-        - start: 20/05/2024
-          finish: 21/05/2024
+        - start: 2024-05-20
+          finish: 2024-05-21
 - title: New Kids on the Rock
   release_year: 2008
   seasons:
@@ -55,60 +55,60 @@
   seasons:
     - number: 1
       watches:
-        - start: 04/2025
-          finish: 04/2025
+        - start: 2025-04
+          finish: 2025-04
           notes: Began watching on the Netflix account of someone who'd forgotten to log out on the hotel TV while in Kuala Lumpar.
     - number: 2
       watches:
-        - start: 04/2025
-          finish: 03/05/2025
+        - start: 2025-04
+          finish: 2025-05-03
     - number: 3
       watches:
-        - start: 04/05/2025
-          finish: 12/05/2025
+        - start: 2025-05-04
+          finish: 2025-05-12
     - number: 4
       watches:
-        - start: 15/05/2025
-          finish: 22/05/2025
+        - start: 2025-05-15
+          finish: 2025-05-22
     - number: 5
       watches:
-        - start: 24/05/2025
-          finish: 01/06/2025
+        - start: 2025-05-24
+          finish: 2025-06-01
     - number: 6
       watches:
-        - start: 01/06/2025
-          finish: 07/06/2025
+        - start: 2025-06-01
+          finish: 2025-06-07
     - number: 7
       watches:
-        - start: 08/06/2025
-          finish: 13/06/2025
+        - start: 2025-06-08
+          finish: 2025-06-13
     - number: 8
       watches:
-        - start: 13/06/2025
-          finish: 21/06/2025
+        - start: 2025-06-13
+          finish: 2025-06-21
 - title: Doctor Who
   release_year: 2005
   seasons:
     - number: 1
       watches:
-        - start: 02/2025
-          finish: 03/2025
+        - start: 2025-02
+          finish: 2025-03
     - number: 2
       watches:
-        - start: 07/03/2025
-          finish: 21/03/2025
+        - start: 2025-03-07
+          finish: 2025-03-21
     - number: 3
       watches:
-        - start: 23/03/2025
-          finish: 01/04/2025
+        - start: 2025-03-23
+          finish: 2025-04-01
     - number: 4
       watches:
-        - start: 02/04/2025
-          finish: 14/05/2025
+        - start: 2025-04-02
+          finish: 2025-05-14
     - number: 5
       watches:
-        - start: 15/05/2025
-          finish: 20/05/2025
+        - start: 2025-05-15
+          finish: 2025-05-20
 - title: Red vs Blue
   release_year: 2003
   seasons:
@@ -135,8 +135,8 @@
   seasons:
     - number: 1
       watches:
-        - start: 23/09/2023
-          finish: 10/2023
+        - start: 2023-09-23
+          finish: 2023-10
           notes: Watched dubbed.
 - title: Neon Genesis Evangelion
   release_year: 1995
@@ -144,8 +144,8 @@
   seasons:
     - number: 1
       watches:
-        - start: 16/11/2024
-          finish: 28/11/2024
+        - start: 2024-11-16
+          finish: 2024-11-28
 - title: Seinfeld
   release_year: 1989
   seasons:
@@ -168,5 +168,5 @@
     - number: 1
     - number: 2
       watches:
-        - start: 28/09/2024
-          finish: 30/11/2024
+        - start: 2024-09-28
+          finish: 2024-11-30

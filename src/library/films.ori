@@ -15,11 +15,23 @@ _body:
 	<p>${ films.length } films I've watched with assorted notes where applicable.</p>
 	<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 
+	<form id="refine-entries">
+		<label for="entries-sort">Sort by:</label>
+		<select id="entries-sort">
+			<option value="published-desc">Published Descending</option>
+			<option value="published-asc">Published Ascending</option>
+			<option value="reviews-desc">Reviews Descending</option>
+			<option value="reviews-asc">Reviews Ascending</option>
+			<option value="watched-desc">Watched Descending</option>
+			<option value="watched-asc">Watched Ascending</option>
+		</select>
+	</form>
+
 	<ol class="films">
 		${ Tree.map(films, (film) =>
-		`<li>
+		`<li id="${ Origami.slug(`${film.title}-${film.release_year}`) }">
 			<h2>${ film.title } <span data-pagefind-ignore>(${ film.release_year })</span></h2>
-			${ film.rating ? `<p class="star-rating" title="Rated ${ film.rating } out of 5" data-pagefind-ignore>${ functions/num-to-stars.js(film.rating) }</p>` : '' }
+			${ film.rating ? `<p class="star-rating" data-rating="${ film.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(film.rating) }</p>` : '' }
 			${ film.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ film.notes }</p></details>` : '' }
 			${ film.watches ?
 				`<details>
@@ -27,7 +39,7 @@ _body:
 					<ul>
 					${ Tree.map(film.watches, (watch) => `
 						<li>
-							<span data-pagefind-ignore>${watch.date} | ${watch.format}</span>
+							<span data-pagefind-ignore><time datetime="${watch.date}">${watch.date}</time> | ${watch.format}</span>
 							${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
 						</li>
 					`) }
@@ -37,4 +49,6 @@ _body:
 		  </li>
 		`)}
 	</ol>
-</div>`})
+</div>
+
+<script src="/assets/scripts/library-sorting.js"></script>`})

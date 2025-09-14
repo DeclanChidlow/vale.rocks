@@ -1,409 +1,451 @@
 - title: The Elements of Style
+  release_year: 1959
   authors: William Strunk Jr, EB White
   rating: 4
   notes: A useful book which in some places shows its age. I would recommend it to all writers, if not just to find which parts you disagree with so as to form strong opinions of your own.
   reads:
-    - start: 04/07/2025
-      finish: 06/07/2025
+    - start: 2025-07-04
+      finish: 2025-07-06
       status: Read
-- title: Curse of Lono
+- title: The Curse of Lono
+  release_year: 1983
   authors: Hunter S Thompson
   reads:
-    - start: 29/06/2025
-      finish: 06/07/2025
+    - start: 2025-06-29
+      finish: 2025-07-06
       status: Did Not Finish
   notes: Hunter's drug habit having taken its toll, I lost interest. Padded out with quotes and fluff, it reads poorly.
 - title: The Rum Diary
+  release_year: 1998
   authors: Hunter S Thompson
   rating: 4
-  reads:
-    - start: 09/06/2025
-      finish: 26/06/2025
-      status: Read
   notes: Every bit as distorted and degenerate as I'd expected and hoped.
+  reads:
+    - start: 2025-06-09
+      finish: 2025-06-26
+      status: Read
 - title: Atomic Design
+  release_year: 2016
   authors: Brad Frost
   reads:
-    - start: 15/06/2025
-      finish: 24/06/2025
+    - start: 2025-06-15
+      finish: 2025-06-24
       status: Read
 - title: "Web Typography: A handbook for designing beautiful and effective responsive typography"
+  release_year: 2016
   authors: Richard Rutter
+  notes: Extremely useful and applicable content explained very well. I'm sure to refer to it whenever working on web typography.
   reads:
-    - start: 11/06/2025
-      finish: 17/06/2025
+    - start: 2025-06-11
+      finish: 2025-06-17
       status: Read
 - title: Sunrise on the Reaping
+  release_year: 2025
   authors: Suzanne Collins
   rating: 3.5
   reads:
-    - start: 12/04/2025
-      finish: 03/05/2025
+    - start: 2025-04-12
+      finish: 2025-05-03
       status: Read
 - title: Friendship is Optimal
+  release_year: 2012
   authors: iceman
   rating: 3.5
   reads:
-    - start: 08/04/2025
-      finish: 11/04/2025
+    - start: 2025-04-08
+      finish: 2025-04-11
       status: Read
 - title: The Strange Case of the Moderate Extremists
+  release_year: 2019
   authors: Alexander McCall Smith
   rating: 3.5
   reads:
-    - start: 24/01/2025
-      finish: 25/01/2025
+    - start: 2025-01-24
+      finish: 2025-01-25
       status: Read
 - title: The Days Have Worn Away
+  release_year: 2024
   authors: Valve
   reads:
-    - start: 20/12/2024
-      finish: 20/12/2024
+    - start: 2024-12-20
+      finish: 2024-12-20
       status: Read
 - title: Fear and Loathing in Las Vegas
+  release_year: 1971
   authors: Hunter S Thompson
   reads:
-    - start: 19/09/2024
-      finish: 10/2024
+    - start: 2024-09-19
+      finish: 2024-10
       status: Read
 - title: Harry Potter and the Methods of Rationality
+  release_year: 2015
   authors: Eliezer Yudkowsky
   notes: |
     Harry Potter and the Methods of Rationality is certainly a long and difficult read, with some rather questionable parts, but some interesting ideas which can be extracted. It has its flaws, and certain bits are contrived, but overall it's quite a worthy experience.
     I haven't read much fan fiction, but this feels more transformative than the usual. The world is much the same, as are the character names, but their behaviours and the overall approach to everything is almost completely unique.
     Towards the beginning of the book, I had several issues with it. Rather impressively, almost every gripe turned out to be intentional and was either addressed or resolved by the end.
   reads:
-    - start: 01/11/2024
-      finish: 29/12/2024
+    - start: 2024-11-01
+      finish: 2024-12-29
       status: Read
 - title: Harry Potter and the Deathly Hallows
+  release_year: 2007
   authors: JK Rowling
   status: Read
   rating: 4
   reads:
-    - start: 08/02/2022
-      finish: 12/02/2022
+    - start: 2022-02-08
+      finish: 2022-02-12
       status: Read
-    - finish: 12/2023
+    - finish: 2023-12
       status: Read
 - title: Harry Potter and the Half-Blood Prince
+  release_year: 2005
   authors: JK Rowling
   rating: 4
   reads:
-    - finish: 07/02/2022
+    - finish: 2022-02-07
       status: Read
-    - start: 12/2023
-      finish: 12/2023
+    - start: 2023-12
+      finish: 2023-12
       status: Read
 - title: Harry Potter and the Order of the Phoenix
+  release_year: 2003
   authors: JK Rowling
   status: Read
   rating: 4
   reads:
-    - start: 24/01/2022
-      finish: 31/01/2022
+    - start: 2022-01-24
+      finish: 2022-01-31
       status: Read
-    - start: 12/2023
-      finish: 12/2023
+    - start: 2023-12
+      finish: 2023-12
       status: Read
 - title: Harry Potter and the Goblet of Fire
+  release_year: 2000
   authors: JK Rowling
   rating: 4
   reads:
-    - finish: 17/01/2022
+    - finish: 2022-01-17
       status: Read
-    - start: 12/2023
-      finish: 12/2023
+    - start: 2023-12
+      finish: 2023-12
       status: Read
 - title: Harry Potter and the Prisoner of Azkaban
+  release_year: 1999
   authors: JK Rowling
   rating: 4
   reads:
-    - finish: 07/01/2022
+    - finish: 2022-01-07
       status: Read
-    - start: 12/2023
-      finish: 12/2023
+    - start: 2023-12
+      finish: 2023-12
       status: Read
 - title: Harry Potter and the Chamber of Secrets
+  release_year: 1998
   authors: JK Rowling
   rating: 4
   reads:
-    - finish: 02/01/2022
+    - finish: 2022-01-02
       status: Read
-    - start: 12/2023
-      finish: 12/2023
+    - start: 2023-12
+      finish: 2023-12
       status: Read
 - title: Harry Potter and the Philosopher's Stone
+  release_year: 1997
   authors: JK Rowling
   rating: 4
   reads:
-    - finish: 01/01/2022
+    - finish: 2022-01-01
       status: Read
-    - start: 12/2023
-      finish: 12/2023
+    - start: 2023-12
+      finish: 2023-12
       status: Read
 - title: If Only They Could Talk
+  release_year: 1970
   authors: James Herriot
   reads:
-    - start: 11/04/2023
-      finish: 12/04/2023
+    - start: 2023-04-11
+      finish: 2023-04-12
       status: Read
 - title: The Desolations of Devil's Acre
+  release_year: 2021
   authors: Ransom Riggs
   status: Read
 - title: The Conference of the Birds
+  release_year: 2020
   authors: Ransom Riggs
   status: Read
 - title: A Map of Days
+  release_year: 2018
   authors: Ransom Riggs
   status: Read
 - title: Library of Souls
+  release_year: 2015
   authors: Ransom Riggs
   status: Read
 - title: Hollow City
+  release_year: 2014
   authors: Ransom Riggs
   status: Read
 - title: Miss Peregrine's Home for Peculiar Children
+  release_year: 2011
   authors: Ransom Riggs
   status: Read
 - title: Spurious Correlations
+  release_year: 2015
   authors: Tyler Vigen
   reads:
-    - start: 11/04/2022
-      finish: 24/12/2022
+    - start: 2022-04-11
+      finish: 2022-12-24
       status: Read
 - title: Of Mice and Men
+  release_year: 1937
   authors: John Steinbeck
   reads:
-    - start: 11/04/2023
-      finish: 20/12/2023
+    - start: 2023-04-11
+      finish: 2023-12-20
       status: Read
 - title: The Naked and the Dead
+  release_year: 2017
   authors: Valve
   reads:
-    - start: 03/10/2022
-      finish: 03/10/2022
+    - start: 2022-10-03
+      finish: 2022-10-03
       status: Read
 - title: Unhappy Returns
+  release_year: 2013
   authors: Valve
   reads:
-    - start: 03/10/2022
-      finish: 03/10/2022
+    - start: 2022-10-03
+      finish: 2022-10-03
       status: Read
 - title: A Cold Day In Hell
+  release_year: 2014
   authors: Valve
   reads:
-    - start: 03/10/2022
-      finish: 03/10/2022
+    - start: 2022-10-03
+      finish: 2022-10-03
       status: Read
 - title: Blood In The Water
+  release_year: 2014
   authors: Valve
   reads:
-    - start: 03/10/2022
-      finish: 03/10/2022
+    - start: 2022-10-03
+      finish: 2022-10-03
       status: Read
 - title: Old Wounds
+  release_year: 2015
   authors: Valve
   reads:
-    - start: 03/10/2022
-      finish: 03/10/2022
+    - start: 2022-10-03
+      finish: 2022-10-03
       status: Read
 - title: Ring of Fired
+  release_year: 2013
   authors: Valve
   reads:
-    - start: 03/10/2022
-      finish: 03/10/2022
+    - start: 2022-10-03
+      finish: 2022-10-03
       status: Read
 - title: Mostly Harmless
+  release_year: 1992
   authors: Douglas Adams
   status: Read
   rating: 4
 - title: So Long, and Thanks for All the Fish
+  release_year: 1984
   authors: Douglas Adams
   status: Read
   rating: 4
 - title: Life, The Universe, and Everything
+  release_year: 1982
   authors: Douglas Adams
   status: Read
   rating: 4
 - title: The Restaurant At the End of the Universe
+  release_year: 1980
   authors: Douglas Adams
   rating: 4.5
   reads:
-    - start: 20/05/2022
-      finish: 05/06/2022
+    - start: 2022-05-20
+      finish: 2022-06-05
       status: Read
 - title: Varg in Love
+  release_year: 2013
   authors: Alexander McCall Smith
   rating: 3
   reads:
-    - start: 05/06/2022
-      finish: 05/06/2022
+    - start: 2022-06-05
+      finish: 2022-06-05
       status: Read
 - title: The Hitchhiker's Guide to the Galaxy
+  release_year: 1979
   authors: Douglas Adams
   rating: 4.5
   reads:
-    - start: 08/05/2022
-      finish: 17/06/2022
+    - start: 2022-05-08
+      finish: 2022-06-17
       status: Read
 - title: A Clockwork Orange
+  release_year: 1962
   authors: Anthony Burgess
   rating: 5
   reads:
-    - start: 01/04/2022
-      finish: 21/04/2022
+    - start: 2022-04-01
+      finish: 2022-04-21
       status: Read
 - title: Lost Perth
+  release_year: 2014
   authors: Warren Duffy
   rating: 3.5
   reads:
-    - start: 13/04/2022
-      finish: 13/04/2022
+    - start: 2022-04-13
+      finish: 2022-04-13
       status: Read
 - title: Kitchen Confidential
+  release_year: 2000
   authors: Anthony Bourdain
   rating: 4
   reads:
-    - start: 08/02/2022
-      finish: 31/03/2022
+    - start: 2022-02-08
+      finish: 2022-03-31
       status: Read
 - title: Animal Farm
+  release_year: 1945
   authors: George Orwell
   rating: 4.5
   reads:
-    - start: 15/03/2022
-      finish: 16/03/2022
+    - start: 2022-03-15
+      finish: 2022-03-16
       status: Read
 - title: Harry Potter and the Cursed Child
+  release_year: 2016
   authors: Jack Thorne
-  rating: 3
+  rating: 2
   reads:
-    - start: 11/03/2022
-      finish: 12/03/2022
+    - start: 2022-03-11
+      finish: 2022-03-12
       status: Read
 - title: The Ballad of Songbirds and Snakes
+  release_year: 2020
   authors: Suzanne Collins
   rating: 4
   reads:
-    - start: 04/03/2022
-      finish: 10/03/2022
+    - start: 2022-03-04
+      finish: 2022-03-10
       status: Read
 - title: Mockingjay
+  release_year: 2010
   authors: Suzanne Collins
   rating: 4
   reads:
-    - start: 28/02/2022
-      finish: 03/03/2022
+    - start: 2022-02-28
+      finish: 2022-03-03
       status: Read
 - title: Catching Fire
+  release_year: 2009
   authors: Suzanne Collins
   rating: 4.5
   reads:
-    - start: 25/02/2022
-      finish: 28/02/2022
+    - start: 2022-02-25
+      finish: 2022-02-28
       status: Read
 - title: The Hunger Games
+  release_year: 2008
   authors: Suzanne Collins
   status: Read
   rating: 4.5
   reads:
-    - start: 22/02/2022
-      finish: 25/02/2022
+    - start: 2022-02-22
+      finish: 2022-02-25
       status: Read
 - title: Chitty Chitty Bang Bang
+  release_year: 1964
   authors: Ian Fleming
-  rating: 3.5
+  rating: 3
   notes: I love the 1968 film so much, and while this is perfectly serviceable as a children's read it lacks any of the same magic.
   reads:
-    - start: 21/02/2022
-      finish: 21/02/2022
+    - start: 2022-02-21
+      finish: 2022-02-21
       status: Read
 - title: Wonder
+  release_year: 2012
   authors: RJ Palacio
   rating: 3.5
   reads:
-    - start: 14/02/2022
-      finish: 16/02/2022
+    - start: 2022-02-14
+      finish: 2022-02-16
       status: Read
 - title: More Rules for Life
+  release_year: 2021
   authors: Kitty Flanagan
   last_date_read: 2022/01/22
   status: Read
   rating: 4
   reads:
-    - finish: 22/01/2022
+    - finish: 2022-01-22
       status: Read
 - title: 488 Rules for Life
+  release_year: 2019
   authors: Kitty Flanagan
   rating: 4
   reads:
-    - finish: 21/01/2022
+    - finish: 2022-01-21
       status: Read
 - title: The Deeper Meaning of Liff
+  release_year: 1990
   authors: Douglas Adams, John Lloyd
   reads:
     - finish: 2022
       status: Read
 - title: The Meaning of Liff
+  release_year: 1983
   authors: Douglas Adams, John Lloyd
   rating: 4.5
   reads:
-    - finish: 10/01/2022
+    - finish: 2022-01-10
       status: Read
 - title: Flowers for Algernon
+  release_year: 1966
   authors: Daniel Keyes
   rating: 5
   reads:
-    - finish: 03/01/2022
+    - finish: 2022-01-03
       status: Read
-- title: "Hogwarts: An Incomplete and Unreliable Guide"
-  authors: JK Rowling
-  reads:
-    - finish: 2022
-      status: Did Not Finish
 - title: The Great Gatsby
+  release_year: 1925
   authors: F Scott Fitzgerald
   reads:
     - finish: 2022
       status: Did Not Finish
 - title: The Tales of Beedle the Bard
+  release_year: 2008
   authors: JK Rowling
   reads:
     - finish: 2022
       status: Did Not Finish
 - title: Quidditch Through the Ages
+  release_year: 2001
   authors: JK Rowling
   reads:
     - finish: 2022
       status: Did Not Finish
 - title: Atomic Habits
+  release_year: 2018
   authors: James Clear
   notes: Repeats common sense ad nauseum.
   reads:
     - finish: 2022
       status: Did Not Finish
 - title: The Gospel of the Flying Spaghetti Monster
+  release_year: 2006
   authors: Bobby Henderson
   reads:
     - finish: 2022
       status: Read
 - title: Fantastic Beasts & Where to Find Them
-  authors: JK Rowling
-  reads:
-    - finish: 2022
-      status: Read
-- title: Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbies
-  authors: JK Rowling
-  reads:
-    - finish: 2022
-      status: Read
-- title: How to Talk to Girls At Parties
-  authors: Neil Gaiman
-  reads:
-    - finish: 2022
-      status: Read
-- title: Short Stories from Hogwarts of Power, Politics and Pesky Poltergeists
+  release_year: 2001
   authors: JK Rowling
   reads:
     - finish: 2022

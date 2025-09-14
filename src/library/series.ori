@@ -15,11 +15,23 @@ _body:
 	<p>${ series.length } series I've watched, with thoughts and notes where relevant.</p>
 	<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 
+	<form id="refine-entries">
+		<label for="entries-sort">Sort by:</label>
+		<select id="entries-sort">
+			<option value="published-desc">Published Descending</option>
+			<option value="published-asc">Published Ascending</option>
+			<option value="reviews-desc">Reviews Descending</option>
+			<option value="reviews-asc">Reviews Ascending</option>
+			<option value="watched-desc">Watched Descending</option>
+			<option value="watched-asc">Watched Ascending</option>
+		</select>
+	</form>
+
 	<ol class="series">
 		${ Tree.map(series, (series) =>
-		`<li>
+		`<li id="${ Origami.slug(`${series.title}-${series.release_year}`) }">
 			<h2>${ series.title } <span data-pagefind-ignore>(${ series.release_year })</span></h2>
-			${ series.rating ? `<p class="star-rating" title="Rated ${ series.rating } out of 5" data-pagefind-ignore>${ functions/num-to-stars.js(series.rating) }</p>` : '' }
+			${ series.rating ? `<p class="star-rating" data-rating="${ series.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(series.rating) }</p>` : '' }
 			${ series.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ series.notes }</p></details>` : '' }
 			${ series.seasons ?
 				`<details>
@@ -32,7 +44,7 @@ _body:
 								`<ul>
 								${ Tree.map(season.watches, (watch) => `
 									<li>
-										<span data-pagefind-ignore>${watch.start} - ${watch.finish}</span>
+										<span data-pagefind-ignore><time datetime="${watch.start}">${watch.start}</time> - <time datetime="${watch.finish}">${watch.finish}</time></span>
 										${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
 									</li>
 								`) }
@@ -46,4 +58,6 @@ _body:
 		  </li>
 		`)}
 	</ol>
-</div>`})
+</div>
+
+<script src="/assets/scripts/library-sorting.js"></script>`})
