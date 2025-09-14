@@ -17,11 +17,13 @@
       format: Streaming
 - title: "Spider-Man: Across the Spider-Verse"
   release_year: 2023
+  rating: 4
   watches:
     - date: 2024-04
       format: Plane
 - title: Indiana Jones and the Dial of Destiny
   release_year: 2023
+  rating: 3
   notes: An attempt to recapture nostalgia with an aging main character which ends up just feeling trite.
   watches:
     - date: 2024-12-16
@@ -38,6 +40,7 @@
       format: Television
 - title: Moonage Daydream
   release_year: 2022
+  rating: 4
   notes: I find this film, as I do Bowie more generally, incredibly inspiring. I regret not watching it in cinema.
   watches:
     - date: 2025-03-14
@@ -51,10 +54,12 @@
       format: Streaming
 - title: "Weird: The Al Yankovic Story"
   release_year: 2022
+  rating: 3.5
 - title: "Spider-Man: No Way Home"
   release_year: 2021
 - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
   release_year: 2021
+  rating: 2
   watches:
     - date: 2025-07-06
       format: Streaming
@@ -62,6 +67,7 @@
   release_year: 2019
 - title: Bohemian Rhapsody
   release_year: 2019
+  rating: 4
   watches:
     - date: 2019
       format: Drive-In Cinema
@@ -111,9 +117,11 @@
       format: Cinema
 - title: Paddington 2
   release_year: 2017
+  rating: 4
   notes: A rare case of the sequel being better than the first.
 - title: Blade Runner 2049
   release_year: 2017
+  rating: 4
   watches:
     - date: 2025-08-15
       format: Streaming
@@ -134,6 +142,7 @@
       format: Cinema
 - title: The BFG
   release_year: 2016
+  rating: 3
   watches:
     - date: 2016-07-17
       format: Cinema
@@ -191,6 +200,7 @@
       format: Streaming
 - title: The Grand Budapest Hotel
   release_year: 2014
+  rating: 4
 - title: Now You See Me
   release_year: 2013
 - title: Iron Man 3
@@ -209,6 +219,7 @@
   release_year: 2012
 - title: "Evangelion: 3.0 You Can (Not) Redo"
   release_year: 2012
+  rating: 2
   watches:
     - date: 2025-06-29
       format: Streaming
@@ -230,6 +241,7 @@
   release_year: 2009
 - title: "Evangelion: 2.0 You Can (Not) Advance"
   release_year: 2009
+  rating: 3
   watches:
     - date: 2025-06-27
       format: Streaming
@@ -242,19 +254,25 @@
       format: Streaming
 - title: Ponyo
   release_year: 2008
+  rating: 4
 - title: Indiana Jones and the Kingdom of the Crystal Skull
   release_year: 2008
+  rating: 1.5
 - title: Iron Man
   release_year: 2008
+  rating: 4
   watches:
     - date: 2025-07-19
       format: Streaming
 - title: The Darjeeling Limited
   release_year: 2007
+  rating: 4
 - title: Hot Fuzz
   release_year: 2007
+  rating: 4
 - title: "Evangelion: 1.0 You Are (Not) Alone"
   release_year: 2007
+  rating: 3.5
   watches:
     - date: 2025-02-02
       format: Streaming
@@ -281,6 +299,7 @@
       notes: On original 35mm film in a double feature with the first film.
 - title: The Life Aquatic with Steve Zissou
   release_year: 2004
+  rating: 4
 - title: "Scooby-Doo 2: Monsters Unleashed"
   release_year: 2004
   notes: Like the first film, this is hilarious to watch as an adult given how many they managed to get away with for an audience of children.
@@ -341,6 +360,7 @@
       format: Streaming
 - title: American Psycho
   release_year: 2000
+  rating: 4
   watches:
     - date: 2024-09-01
       format: Streaming
@@ -360,11 +380,12 @@
       format: Streaming
 - title: The Castle
   release_year: 1997
+  rating: 4
 - title: "Austin Powers: International Man of Mystery"
   release_year: 1997
 - title: Princess Mononoke
   release_year: 1997
-  rating: 4
+  rating: 4.5
   watches:
     - date: 2025-08-21
       format: Cinema
@@ -373,6 +394,7 @@
       format: Streaming
 - title: Perfect Blue
   release_year: 1997
+  rating: 4.5
   notes: A sickening depravity such that I feel personally accosted having watched it.
   watches:
     - date: 2025-08-17
@@ -389,9 +411,11 @@
       format: Streaming
 - title: "Star Trek: First Contact"
   release_year: 1996
+  rating: 3.5
   notes: "This was my first introduction to Star Trek: The Next Generation."
 - title: Hackers
   release_year: 1995
+  rating: 4
   notes: An objectively bad film, but absolutely fantastic in the eyes of a hopeless tech nerd like myself.
   watches:
     - date: 2024-12-27
@@ -416,6 +440,7 @@
       format: Streaming
 - title: Drop Dead Fred
   release_year: 1991
+  rating: 3.5
   watches:
     - date: 2017
       format: Streaming
@@ -452,6 +477,7 @@
       format: Streaming
 - title: Back To The Future Part III
   release_year: 1990
+  rating: 4
 - title: Indiana Jones and the Last Crusade
   release_year: 1989
 - title: A Grand Day Out
@@ -463,8 +489,10 @@
   release_year: 1989
 - title: Back To The Future Part II
   release_year: 1989
+  rating: 4
 - title: Akira
   release_year: 1988
+  rating: 4
   watches:
     - date: 2025-06-28
       format: Streaming
@@ -477,14 +505,17 @@
   release_year: 1988
 - title: The Princess Bride
   release_year: 1987
+  rating: 4
   notes: In Year 10 of high school this was required watching for my English class and I wrote many essays on it. One shudders to think of how many times I've seen this film and how many hours I dedicated to analysing it. I was top of my class that year though.
   watches:
     - date: 2024-08-24
       format: Streaming
 - title: Labyrinth
   release_year: 1986
+  rating: 4
 - title: Clue
   release_year: 1985
+  rating: 4
   watches:
     - date: 2025-01-03
       format: Streaming
@@ -499,6 +530,7 @@
       format: Streaming
 - title: Top Secret!
   release_year: 1984
+  rating: 4
   notes: The best of all of the Zucker, Abrahams, and Zucker films.
 - title: Indiana Jones and the Temple of Doom
   release_year: 1984
@@ -513,12 +545,14 @@
   release_year: 1983
 - title: Blade Runner
   release_year: 1982
+  rating: 5
   notes: I have only ever watched the Final Cut.
   watches:
     - date: 2025-08-02
       format: Streaming
 - title: The Thing
   release_year: 1982
+  rating: 4
   watches:
     - date: 2024-09-07
       format: Streaming
@@ -530,6 +564,7 @@
   release_year: 1980
 - title: Flying High! (Airplane!)
   release_year: 1980
+  rating: 4
   watches:
     - date: 2021-07-13
       format: Streaming
@@ -569,6 +604,7 @@
       format: Streaming
 - title: A Clockwork Orange
   release_year: 1971
+  rating: 3.5
   notes: Holding the book in such high regard, I was rather disappointed by the film and am maligned by the fact that it seems to be the version of A Clockwork Orange in the zeitgeist.
 - title: Willy Wonka and the Chocolate Factory
   release_year: 1971
@@ -577,6 +613,7 @@
       format: Streaming
 - title: Chitty Chitty Bang Bang
   release_year: 1968
+  rating: 4.5
   notes: A film from my childhood I hold most dear. It is imbued with a certain sort of magic I struggle to articulate. It is clever, and fun, and fantasmagorical.
   watches:
     - date: 2025-04-23
@@ -585,6 +622,7 @@
       format: Streaming
 - title: Thunderbird 6
   release_year: 1968
+  rating: 4.5
   notes: Certainly not one of the best films, but certainly one of my favourites.
   watches:
     - date: 2025-03-08

@@ -1,5 +1,6 @@
 - title: Fallout
   release_year: 2024
+  rating: 3.5
   seasons:
     - number: 1
       watches:
@@ -7,6 +8,7 @@
           finish: 2024-04-19
 - title: Clarkson's Farm
   release_year: 2021
+  rating: 3.5
   seasons:
     - number: 1
       watches:
@@ -19,6 +21,7 @@
           finish: 2024-05-11
 - title: The Good Place
   release_year: 2016
+  rating: 3.5
   seasons:
     - number: 1
     - number: 2
@@ -26,6 +29,7 @@
     - number: 4
 - title: Rosehaven
   release_year: 2016
+  rating: 3.5
   seasons:
     - number: 1
       watches:
@@ -51,6 +55,7 @@
     - number: 3
 - title: Dexter
   release_year: 2006
+  rating: 4
   notes: Dexter is an enjoyable show if you turn your brain off, but even with a brain disabled it begins to completely unravel during seasons six and is little more than a frayed mass by season eight. It is a shame, as I found the first five seasons to be quite engaging.
   seasons:
     - number: 1
@@ -88,6 +93,7 @@
           finish: 2025-06-21
 - title: Doctor Who
   release_year: 2005
+  rating: 4
   seasons:
     - number: 1
       watches:
@@ -111,6 +117,7 @@
           finish: 2025-05-20
 - title: Red vs Blue
   release_year: 2003
+  rating: 4
   seasons:
     - number: 1
     - number: 2
@@ -131,6 +138,7 @@
     - number: 17
 - title: Cowboy Bebop
   release_year: 1998
+  rating: 4.5
   notes: Jazz, spaceships, outcasts, and a world not too unlike our own. So long, space cowboy.
   seasons:
     - number: 1
@@ -148,6 +156,7 @@
           finish: 2024-11-28
 - title: Seinfeld
   release_year: 1989
+  rating: 3.5
   seasons:
     - number: 1
     - number: 2
@@ -160,10 +169,12 @@
     - number: 9
 - title: The Hitchhiker's Guide to the Galaxy
   release_year: 1981
+  rating: 3.5
   seasons:
     - number: 1
 - title: Fawlty Towers
   release_year: 1975
+  rating: 3.5
   seasons:
     - number: 1
     - number: 2
