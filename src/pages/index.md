@@ -64,7 +64,7 @@ When not bodging together scripts (both the kind you run and the kind you read),
     </button>
 </div>
 
-This site has a _lot_ of stuff on it. Notably, [polished long-form structured writings](/posts), [my portfolio](/portfolio), [a range of photography](/photography), [videos](/videos), [short-form, often ephemeral, micro-posts](/micros), [a list of my external writings, contributions, and appearances](/elsewhere), and a [huge collection of links](/links).
+This site has a _lot_ of stuff on it. Notably, [polished long-form structured writings](/posts), [my portfolio](/portfolio), [a range of photography](/photography), [videos](/videos), [short-form, often ephemeral, micro-posts](/micros), [a list of my external writings, contributions, and appearances](/elsewhere), [a record of pretty much all the media I've consumed](/library), and a [huge collection of links](/links).
 
 You can also access my stream of consciousness via the <a href="/firehose">firehose</a>, and ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
 

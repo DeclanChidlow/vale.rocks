@@ -1,6 +1,6 @@
 #photography {
 	display: grid;
-	grid-template-rows: masonry; /* Support isn't there yet */
+	display: masonry;
 	gap: 2rem;
 
 	.photo {

@@ -314,8 +314,6 @@ class SitemapGraph {
 	}
 
 	onTouchEnd(e) {
-		const touchDuration = Date.now() - this.touchStartTime;
-
 		// Clean up drag states
 		if (this.isDraggingNode && this.draggedNode) {
 			this.draggedNode.pinned = false;
