@@ -50,6 +50,8 @@
 
 .pagefind-ui__filter-panel {
 	min-width: max-content;
+	max-width: 30%;
+	margin-inline: -1rem;
 }
 
 .pagefind-ui__filter-panel-label {
@@ -69,27 +71,7 @@
 }
 
 .pagefind-ui__filter-block {
-	background: none;
-	border: none;
-	padding: 0;
 	margin-block-end: 1rem;
-
-	&:open summary {
-		margin: 0;
-		border: none;
-		background: none;
-	}
-}
-
-.pagefind-ui__filter-name {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	background: none;
-}
-
-.pagefind-ui__filter-group {
-	margin-block-start: 0.5rem;
 }
 
 .pagefind-ui__filter-value {
