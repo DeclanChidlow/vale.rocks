@@ -105,7 +105,7 @@ section.tools-and-technologies {
 		display: flex;
 		overflow: hidden;
 		gap: var(--gap);
-		margin-inline: -4rem;
+		margin-inline: -0.8rem;
 		margin-block: 0.5rem;
 		position: relative;
 
@@ -141,11 +141,13 @@ section.tools-and-technologies {
 		}
 
 		@media (min-width: 45rem) {
+			margin-inline: -3rem;
+
 			&::before,
 			&::after {
 				content: "";
 				position: absolute;
-				width: 4rem;
+				width: 3rem;
 				height: 3rem;
 				top: 0;
 				z-index: 10;
@@ -263,8 +265,8 @@ section.contact {
 
 	a {
 		display: inline-block;
-		color: light-dark(var(--black), var(--bright_white));
-		padding: 0.3rem 0.5rem;
+		padding-block: 0.3rem;
+		padding-inline: 0.5rem;
 		background: light-dark(var(--white), var(--grey));
 		text-decoration: none;
 		margin-block-start: 1rem;

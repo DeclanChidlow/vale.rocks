@@ -50,3 +50,23 @@
 		}
 	}
 }
+
+.support {
+	font-size: 0.9rem;
+	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.6)), oklch(from var(--green) l c h / calc(alpha - 0.8)));
+	padding: 2rem;
+	margin-block-start: 5rem;
+
+	h2 {
+		font-size: 1.4rem;
+		line-height: 1rem;
+	}
+
+	a {
+		display: inline-block;
+		padding-block: 0.3rem;
+		padding-inline: 0.5rem;
+		background: light-dark(var(--white), var(--grey));
+		text-decoration: none;
+	}
+}

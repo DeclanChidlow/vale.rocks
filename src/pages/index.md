@@ -71,14 +71,6 @@ You can also access my stream of consciousness via the <a href="/firehose">fireh
 If you wish to know more about the specifics of this site, you can read [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
 
 </section>
-
-<section data-pagefind-ignore="all" class="readable">
-
-## Supporting Me
-
-If you enjoy or otherwise benefit from the content on this site and/or any of the other things I've made, including my open-source work, I'd appreciate if you considered [supporting me financially](/support).
-
-</section>
 </div>
 
 <script type="module" src="/assets/scripts/puddle.js"></script>
