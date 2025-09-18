@@ -95,7 +95,7 @@ I've also seen the argument that content that is modified by image editing softw
 
 ---
 
-There is no reasonable way to identify AI-generated content with 100% certainty, and as time goes on, people who say, 'I can always tell,' are only sounding more and more like the bigots who mistakenly believe they can identify all transgender people.
+There is no reasonable way to identify AI-generated content with 100% certainty, and as time goes on, people who say, 'I can always tell,' are only sounding more and more disconnected from reality.
 
 I wish to make clear that we have absolutely no reliable means to identify AI-generated content and that there is no reasonable way to implement an identification system in the future. Indistinguishable AI-generated content is here and upon us.
 
