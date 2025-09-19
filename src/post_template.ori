@@ -41,7 +41,7 @@ _body:
 
 	<section data-pagefind-ignore="all" class="readable support">
 		<h2>Support Me</h2>
-		<p>Did you gain something from reading this post? Consider chipping in to support me financially via a one-off or recurring payment. It'll go a long way in helping me publish more and develop open-source projects. Thank you!</p>
+		<p>Did you gain something from reading this post? Consider chipping in to support me financially via a one-off or recurring payment. It'll go a long way in helping me publish more and develop open-source projects. <em>Thank you!</em></p>
 		<a href="/support">Support</a>
 	</section>
 

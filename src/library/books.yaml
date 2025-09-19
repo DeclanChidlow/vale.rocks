@@ -450,3 +450,34 @@
   reads:
     - finish: 2022
       status: Read
+- title: The Boy In The Striped Pajamas
+  release_year: 2006
+  authors: John Boyne
+  rating: 0.5
+  notes: Required reading in high-school and an incredibly poorly written book full of historical inaccuracies so egregious that they outright damage Holocaust education. Absolutely stupid.
+  reads:
+    - finish: 2020
+      status: Read
+- title: The Copper Gauntlet
+  release_year: 2015
+  authors: Holly Black
+- title: The Iron Trial
+  release_year: 2014
+  authors: Holly Black
+  notes: My enjoyment of this series was very much impacted by one of the characters sharing my name.
+- title: The Children's House of Belsen
+  release_year: 2000
+  authors: Hetty E Verolme
+  notes: I purchased my copy directly from the author after a talk she gave. She kindly signed my copy and has since passed away.
+- title: Imagine A Day
+  release_year: 2005
+  rating: 4.5
+  authors: Sarah L Thomson, Rob Gonsalves
+- title: Imagine A Night
+  release_year: 2003
+  authors: Sarah L Thomson, Rob Gonsalves
+  rating: 4.5
+- title: Imagine A Place
+  release_year: 2008
+  authors: Sarah L Thomson, Rob Gonsalves
+  rating: 4.5

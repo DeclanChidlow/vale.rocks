@@ -316,7 +316,7 @@ dd {
 
 sup,
 sub {
-	line-height: 100%;
+	line-height: 0;
 }
 
 abbr {

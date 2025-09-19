@@ -56,6 +56,7 @@
 	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.6)), oklch(from var(--green) l c h / calc(alpha - 0.8)));
 	padding: 2rem;
 	margin-block-start: 5rem;
+	max-width: 83ch;
 
 	h2 {
 		font-size: 1.4rem;
