@@ -63,13 +63,23 @@ I must admit that the teabags themselves were poor. They came individually wrapp
 
 ### Ceylon Morning Tea - Twinings (★★☆☆☆)
 
+_Teabag_
+
 Twinings tout this as fresh, and I must agree. It has some of the freshness one tastes in peppermint tea.
 
 While refreshing, it isn't my favourite tea. It lacks much note of anything. I can see it as a start to a morning, but only for its slight refreshing notes, not its actual flavour profile.
 
+### Yellow Label - Lipton (★★⯪☆☆)
+
+_Teabag_
+
+Serviceable, but very weak.
+
 ## Green
 
 ### Pure Green Tea - Twinings (★☆☆☆☆)
+
+_Teabag_
 
 There was green tea buried somewhere in my cup, but it was trapped under some nondescript, unpleasant harshness. It also very much dried out my tongue and throat in a way not dissimilar to having a sore throat while ill.
 
