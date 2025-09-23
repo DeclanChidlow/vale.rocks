@@ -16,7 +16,7 @@ class LibrarySorting {
 	}
 
 	detectContentType() {
-		const types = ["films", "books", "series"];
+		const types = ["films", "books", "series", "games"];
 		return types.find((type) => document.querySelector(`.${type}`)) || null;
 	}
 
@@ -48,7 +48,7 @@ class LibrarySorting {
 			}
 		});
 
-		if (this.contentType === "books" || this.contentType === "series") {
+		if (this.contentType === "books" || this.contentType === "series" || this.contentType === "games") {
 			const entries = this.contentType === "books" ? item.querySelectorAll("details[data-pagefind-ignore] ul li") : item.querySelectorAll("details ul li ul li");
 
 			entries.forEach((entry) => {
@@ -81,7 +81,7 @@ class LibrarySorting {
 
 		if (type.startsWith("reviews")) {
 			sorted = sorted.filter((item) => item.rating !== null);
-		} else if (type.includes("watched") || type.includes("read")) {
+		} else if (type.includes("watched") || type.includes("read") || type.includes("played")) {
 			sorted = sorted.filter((item) => item.lastActivity !== null);
 		}
 
@@ -94,6 +94,8 @@ class LibrarySorting {
 			"watched-asc": (a, b) => (a.lastActivity || 0) - (b.lastActivity || 0),
 			"read-desc": (a, b) => (b.lastActivity || 0) - (a.lastActivity || 0),
 			"read-asc": (a, b) => (a.lastActivity || 0) - (b.lastActivity || 0),
+			"played-desc": (a, b) => (b.lastActivity || 0) - (a.lastActivity || 0),
+			"played-asc": (a, b) => (a.lastActivity || 0) - (b.lastActivity || 0),
 		};
 
 		sorted.sort(sorters[type] || (() => 0));

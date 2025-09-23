@@ -7,7 +7,7 @@
 	},
 	"dependencies": {
 		"@weborigami/origami": "^0.5.5",
-		"@weborigami/pagefind": "0.0.12",
+		"@weborigami/pagefind": "0.0.13",
 		"highlight.js": "^11.11.1",
 		"marked": "^16.3.0",
 		"marked-alert": "^2.1.2",

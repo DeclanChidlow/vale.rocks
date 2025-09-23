@@ -1,0 +1,311 @@
+- title: (the) Gnorp Apologue
+  release_year: 2023
+  platforms: ["PC"]
+- title: HYPER DEMON
+  release_year: 2022
+  rating: 4.5
+  platforms: ["PC"]
+- title: Halo Infinite
+  release_year: 2021
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-infinite">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-08-08
+      finish: 2023-08-23
+- title: Super Bit Blaster XL
+  release_year: 2020
+  platforms: ["PC"]
+- title: Noita
+  release_year: 2020
+  rating: 4
+  platforms: ["PC"]
+- title: Fall Guys
+  release_year: 2020
+  platforms: ["Nintendo Switch", "Xbox Series"]
+- title: Minecraft Dungeons
+  release_year: 2020
+  platforms: ["Xbox Series"]
+  playthroughs:
+    - start: 2023-02-18
+      finish: 2023-04-08
+- title: Boomerang Fu
+  release_year: 2020
+  platforms: ["Nintendo Switch"]
+- title: Superliminal
+  release_year: 2019
+  platforms: ["Xbox Series"]
+  playthroughs:
+    - start: 2023-02-11
+      finish: 2023-02-11
+- title: Marvel's Spider-Man
+  rating: 4
+  release_year: 2018
+  platforms: ["PC"]
+  notes: Played the remastered version.
+- title: Super Smash Bros Ultimate
+  release_year: 2018
+  platforms: ["Nintendo Switch", "PC"]
+- title: Among Us
+  release_year: 2018
+  platforms: ["PC", "iOS"]
+- title: Brawl Stars
+  release_year: 2018
+  platforms: ["iOS"]
+- title: Bloons Tower Defence 6
+  release_year: 2018
+  platforms: ["PC", "iOS"]
+- title: Mario Kart 8 Deluxe
+  release_year: 2017
+  platforms: ["Nintendo Switch", "PC"]
+- title: Unturned
+  release_year: 2017
+  platforms: ["PC"]
+- title: Totally Accurate Battle Zombulator
+  release_year: 2017
+  platforms: ["PC"]
+- title: "Stick Fight: The Game"
+  release_year: 2017
+  platforms: ["PC", "Nintendo Switch"]
+- title: Doki Doki Literature Club
+  release_year: 2017
+  platforms: ["PC"]
+- title: Fortnite
+  release_year: 2017
+  platforms: ["Nintendo Switch", "Xbox Series"]
+- title: Gang Beasts
+  release_year: 2017
+  first_played: 2023-02-12
+  platforms: ["Xbox Series"]
+- title: Ratz Instagib
+  release_year: 2016
+  platforms: ["PC"]
+- title: Clash Royale
+  release_year: 2016
+  platforms: ["iOS"]
+- title: Superhot VR
+  release_year: 2016
+  platforms: ["Quest 3"]
+- title: Superhot
+  release_year: 2016
+  platforms: ["PC"]
+- title: Rocket League
+  release_year: 2015
+  platforms: ["Nintendo Switch", "Xbox Series", "PC"]
+- title: "Halo 5: Guardians"
+  release_year: 2015
+  rating: 1.5
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-5-guardians">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-07-14
+      finish: 2023-08-06
+- title: "Plants vs Zombies: Garden Warfare"
+  release_year: 2014
+  rating: 3.5
+  platforms: ["Xbox 360"]
+- title: VRChat
+  release_year: 2014
+  platforms: ["PC", "Meta Quest 2"]
+- title: Crossy Road
+  release_year: 2014
+  platforms: ["iOS"]
+- title: Plants vs Zombies 2
+  release_year: 2013
+  platforms: ["iOS"]
+- title: Boom!
+  release_year: 2013
+  platforms: ["iOS"]
+- title: Angry Birds Go!
+  release_year: 2013
+  platforms: ["iOS"]
+- title: Banana Kong
+  release_year: 2013
+  platforms: ["iOS"]
+- title: Clash of Clans
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Hay Day
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Punch Quest
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Angry Birds Star Wars
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Angry Birds Space
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Bad Piggies
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Plague Inc
+  release_year: 2012
+  platforms: ["iOS", "Android"]
+- title: Spelunky
+  release_year: 2012
+  platforms: ["PS Vita"]
+- title: Halo 4
+  release_year: 2012
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-4">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-07-06
+      finish: 2023-07-10
+- title: Bloons Tower Defence 5
+  release_year: 2011
+  platforms: ["PC"]
+- title: Jetpack Joyride
+  release_year: 2011
+  platforms: ["iOS", "PS Vita"]
+- title: Angry Birds Rio
+  release_year: 2011
+  platforms: ["iOS"]
+- title: Portal 2
+  release_year: 2011
+  rating: 5
+  platforms: ["PC", "PS3"]
+- title: Super Meat Boy
+  release_year: 2010
+  platforms: ["PS Vita"]
+- title: Doritos Crash Course
+  release_year: 2010
+  platforms: ["Xbox Series"]
+- title: "Minecraft: Story Mode"
+  release_year: 2010
+  platforms: ["iOS"]
+- title: "Back to the Future: The Game"
+  release_year: 2010
+  platforms: ["iOS", "Xbox 360"]
+- title: Sonic & Sega All-Stars Racing
+  release_year: 2010
+  platforms: ["Xbox 360"]
+- title: Kinect Adventures!
+  release_year: 2010
+  platforms: ["Xbox 360"]
+- title: Fruit Ninja
+  release_year: 2010
+  platforms: ["iOS", "PS Vita"]
+- title: Monster Dash
+  release_year: 2010
+  platforms: ["iOS"]
+- title: "Halo: Reach"
+  release_year: 2010
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-reach">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-06-07
+      finish: 2023-07-05
+- title: Plants vs Zombies
+  release_year: 2009
+  platforms: ["PC", "PS Vita", "Xbox Series"]
+- title: New Super Mario Bros Wii
+  release_year: 2009
+  platforms: ["Wii", "PC"]
+- title: Angry Birds
+  release_year: 2009
+  platforms: ["iOS"]
+- title: "Halo 3: ODST"
+  release_year: 2009
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-3-odst">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-06-03
+      finish: 2023-06-05
+- title: Minecraft
+  platforms: ["Xbox 360", "PS3", "PS Vita", "Xbox Series", "PC", "iOS"]
+  release_year: 2009
+  notes: 'See <a href="/posts/minecraft-nostalgia-and-growing-up">Minecraft, Nostalgia, and Growing Up</a>.'
+- title: Supersonic Acrobatic Rocket-Powered Battle-Cars
+  release_year: 2008
+  platforms: ["PS3"]
+- title: Super Smash Bros Brawl
+  release_year: 2008
+  platforms: ["Wii"]
+- title: Mario Kart Wii
+  release_year: 2008
+  platforms: ["Wii", "PC"]
+- title: Wii Music
+  release_year: 2008
+  platforms: ["Wii"]
+- title: Spore
+  release_year: 2008
+  platforms: ["PC"]
+  notes: I purchased a copy of Spore second hand at an Op Shop, and it was only once I got it home that I discover the disc inside was for Medal of Honor
+- title: Castle Crashers
+  release_year: 2008
+  platforms: ["PS3"]
+- title: Portal
+  release_year: 2007
+  rating: 4
+  platforms: ["PC"]
+- title: "Half-Life 2: Episode Two"
+  release_year: 2007
+  platforms: ["PC"]
+- title: Team Fortress 2
+  release_year: 2007
+  rating: 4.5
+  platforms: ["PC"]
+- title: Halo 3
+  release_year: 2007
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-3">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-05-31
+      finish: 2023-06-02
+- title: Wii Sports
+  release_year: 2006
+  platforms: ["Wii"]
+- title: Wii Play
+  release_year: 2006
+  platforms: ["Wii"]
+- title: Roblox
+  release_year: 2006
+  platforms: ["PC", "iOS"]
+- title: "Half-Life 2: Episode One"
+  release_year: 2006
+  platforms: ["PC"]
+- title: Age of Empires III
+  release_year: 2005
+  platforms: ["PC"]
+  notes: Played with all the expansions.
+- title: Half-Life 2
+  release_year: 2004
+  platforms: ["PC"]
+- title: Halo 2
+  release_year: 2004
+  platforms: ["Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-2">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-04-18
+      finish: 2023-05-30
+- title: Super Smash Bros Melee
+  release_year: 2001
+  platforms: ["PC"]
+- title: Cel Damage
+  release_year: 2001
+  first_played: 2023-11-27
+  platforms: ["Xbox Series"]
+- title: "Halo: Combat Evolved"
+  release_year: 2001
+  platforms: ["PC", "Xbox Series"]
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-combat-evolved">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2023-04-09
+      finish: 2023-04-16
+- title: Jet Set Radio
+  release_year: 2000
+  platforms: ["PC", "PS Vita"]
+- title: Ricochet
+  release_year: 2000
+  platforms: ["PC"]
+- title: Age of Empires II
+  release_year: 1999
+  platforms: ["PC"]
+  notes: One of the first proper PC games I played.
+- title: Half-Life
+  release_year: 1998
+  platforms: ["PC"]
+- title: Age of Empires
+  release_year: 1997
+  platforms: ["PC"]

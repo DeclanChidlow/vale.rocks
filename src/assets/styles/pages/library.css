@@ -10,7 +10,8 @@
 
 .books,
 .films,
-.series {
+.series,
+.games {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;

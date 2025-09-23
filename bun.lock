@@ -5,7 +5,7 @@
       "name": "vale-rocks",
       "dependencies": {
         "@weborigami/origami": "^0.5.5",
-        "@weborigami/pagefind": "file:../extensions/pagefind",
+        "@weborigami/pagefind": "0.0.13",
         "highlight.js": "^11.11.1",
         "marked": "^16.3.0",
         "marked-alert": "^2.1.2",
@@ -96,7 +96,7 @@
 
     "@weborigami/origami": ["@weborigami/origami@0.5.5", "", { "dependencies": { "@weborigami/async-tree": "0.5.5", "@weborigami/json-feed-to-rss": "1.0.0", "@weborigami/language": "0.5.5", "@weborigami/types": "0.5.5", "css-tree": "3.1.0", "exif-parser": "0.1.12", "graphviz-wasm": "3.0.2", "highlight.js": "11.11.1", "jsdom": "26.1.0", "marked": "16.2.0", "marked-gfm-heading-id": "4.1.2", "marked-highlight": "2.2.2", "marked-smartypants": "1.1.10", "sharp": "0.34.3", "yaml": "2.8.1" }, "bin": { "ori": "src/cli/cli.js" } }, "sha512-Vh3sx2HOm8v2Dxblq87gkVnlNfV3Fr9raYpAEWIQYSNfS4Zs3jRRWjx1cffoFWXaeOeSSiwvOn3eHIj47XYJIA=="],
 
-    "@weborigami/pagefind": ["@weborigami/pagefind@file:../extensions/pagefind", { "dependencies": { "@weborigami/async-tree": "0.5.1", "pagefind": "1.4.0" } }],
+    "@weborigami/pagefind": ["@weborigami/pagefind@0.0.13", "", { "dependencies": { "@weborigami/async-tree": "0.5.1", "pagefind": "1.4.0" } }, "sha512-5qTfngfp+2bM1+rpiB4y6b0z7OYGH69j3nIivGLlck0/90TPpciu5fQDDQ02haygx2Xaqy6y7MLPg6e+UIaEQg=="],
 
     "@weborigami/types": ["@weborigami/types@0.5.5", "", {}, "sha512-YHH7pr7DbhFE0SKUsPXp1ulVeSmCjW2KCqpQOvi8ow5L9RO9ddlAyCnKYcBjEOaUyGZOIkSRufOLnTiQu3MV1Q=="],
 

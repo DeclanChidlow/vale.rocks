@@ -1,0 +1,57 @@
+(games) => main_template.ori({
+	title: "Games"
+	description: "An index of many games I've played and assorted notes, reflections, observations, and commentary on them where applicable."
+	og_description: "Video games I've played."
+	stylesheet: "pages/library.css"
+	canonical: "/library/games"
+	template_image: "library"
+
+_body:
+`<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Library</span>
+
+<div class="readable">
+	<h1>Games</h1>
+
+	<p>${ games.length } video games I've played with assorted notes where applicable.</p>
+	<p>Proper tracking began in 2025, so most playthrough logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have played listed content more times than is represented here.</p>
+	<p>Listed platforms are the platforms I have played the game on, not necessarily the only platforms one can play the game.</p>
+	<p>Not all games have been played to completion (impossible in the case of some online games), but all games listed have been played a suitably notable amount.</p>
+
+	<form id="refine-entries">
+		<label for="entries-sort">Sort by:</label>
+		<select id="entries-sort">
+			<option value="published-desc">Published Descending</option>
+			<option value="published-asc">Published Ascending</option>
+			<option value="reviews-desc">Reviews Descending</option>
+			<option value="reviews-asc">Reviews Ascending</option>
+			<option value="played-desc">Played Descending</option>
+			<option value="played-asc">Played Ascending</option>
+		</select>
+	</form>
+
+	<ol class="games">
+		${ Tree.map(games, (game) =>
+		`<li id="${ Origami.slug(`${game.title}-${game.release_year}`) }">
+			<h2>${ game.title } <span data-pagefind-ignore>(${ game.release_year })</span></h2>
+			<p data-pagefind-ignore>${ Tree.values(game.platforms).join(", ") }</p>
+			${ game.rating ? `<p class="star-rating" data-rating="${ game.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(game.rating) }</p>` : '' }
+			${ game.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ game.notes }</p></details>` : '' }
+			${ game.playthroughs ?
+				`<details>
+					<summary data-pagefind-ignore>Playthroughs</summary>
+					<ul>
+					${ Tree.map(game.playthroughs, (play) => `
+						<li>
+							<span data-pagefind-ignore><time datetime="${play.start}">${play.start}</time> - <time datetime="${play.finish}">${play.finish}</time></span>
+							${ play.notes ? `<p>${ play.notes }</p>` : '' }
+						</li>
+					`) }
+					</ul>
+				</details>` 
+			  : '' }
+		  </li>
+		`)}
+	</ol>
+</div>
+
+<script src="/assets/scripts/library-sorting.js"></script>`})
