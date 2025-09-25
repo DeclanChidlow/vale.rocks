@@ -13,9 +13,9 @@ _body:
 <span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Portfolio</span>	
 
 <article class="article-wrapper h-entry">
-	<header data-pagefind-ignore>
-		<h1>${ post.title }</h1>
-		<p>${ post.og_description}</p>
+	<header data-pagefind-ignore style="--transition_name: ${ Origami.slug(post.title) };">
+		<h1 style="view-transition-name: ${ Origami.slug(post.title) }-title;">${ post.title }</h1>
+		<p style="view-transition-name: ${ Origami.slug(post.title) }-description;">${ post.og_description}</p>
 
 		${ post.repository ? `
 		<div class="repo-details" aria-hidden="true">

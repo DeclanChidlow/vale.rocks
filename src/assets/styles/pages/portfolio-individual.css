@@ -18,6 +18,11 @@
 		font-variant-caps: titling-caps;
 		height: calc(90vh - 5rem);
 
+		h1,
+		p {
+			width: fit-content;
+		}
+
 		.repo-details {
 			margin-block-start: 1rem;
 
@@ -36,6 +41,7 @@
 			margin-inline-start: -3rem;
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;
+			view-transition-name: var(--transition_name);
 		}
 	}
 

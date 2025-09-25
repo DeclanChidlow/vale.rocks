@@ -68,3 +68,17 @@ main {
 		gap: 0;
 	}
 }
+
+@view-transition {
+	navigation: auto;
+}
+
+::view-transition-group(root) {
+	animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-group(*) {
+		animation: none;
+	}
+}

@@ -131,8 +131,7 @@ section.tools-and-technologies {
 			}
 		}
 
-		&:hover ul,
-		&:focus-visible ul {
+		&:hover ul {
 			animation-play-state: paused;
 		}
 
@@ -208,8 +207,8 @@ section.published-on {
 		transition: 0.1s scale ease-in-out;
 
 		&:hover,
-		&:focus-visible {
-			scale: 1.05;
+		&:focus-within {
+			scale: 1.075;
 		}
 	}
 
@@ -232,6 +231,7 @@ section.showcase a {
 	border: 0.05rem solid light-dark(transparent, var(--grey));
 	position: relative;
 	overflow: hidden;
+	height: fit-content;
 
 	&::before {
 		content: "";
@@ -248,6 +248,11 @@ section.showcase a {
 	&:hover::before,
 	&:focus::before {
 		top: 0;
+	}
+
+	h3,
+	p {
+		width: fit-content;
 	}
 }
 
