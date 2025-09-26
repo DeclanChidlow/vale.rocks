@@ -7,6 +7,7 @@
   platforms: ["PC"]
 - title: Halo Infinite
   release_year: 2021
+  rating: 3.5
   platforms: ["Xbox Series"]
   notes: 'See <a href="/posts/halo-my-thoughts.html#halo-infinite">Halo: My Thoughts</a>.'
   playthroughs:
@@ -90,10 +91,16 @@
   platforms: ["PC"]
 - title: Rocket League
   release_year: 2015
-  platforms: ["Nintendo Switch", "Xbox Series", "PC"]
+  platforms: ["Nintendo Switch", "Xbox Series", "Xbox One", "PC"]
+- title: Lego Dimensions
+  release_year: 2015
+  platforms: ["Xbox 360"]
+- title: Downwell
+  release_year: 2015
+  platforms: ["PS Vita"]
 - title: "Halo 5: Guardians"
   release_year: 2015
-  rating: 1.5
+  rating: 1
   platforms: ["Xbox Series"]
   notes: 'See <a href="/posts/halo-my-thoughts.html#halo-5-guardians">Halo: My Thoughts</a>.'
   playthroughs:
@@ -103,15 +110,30 @@
   release_year: 2014
   rating: 3.5
   platforms: ["Xbox 360"]
+- title: Just Dance 2014
+  release_year: 2014
+  platforms: ["Xbox 360"]
+- title: Nidhogg
+  release_year: 2014
+  platforms: ["PS Vita"]
+- title: Goat Simulator
+  release_year: 2014
+  platforms: ["iOS"]
 - title: VRChat
   release_year: 2014
   platforms: ["PC", "Meta Quest 2"]
 - title: Crossy Road
   release_year: 2014
   platforms: ["iOS"]
+- title: BADLAND
+  release_year: 2013
+  platforms: ["iOS", "PS Vita"]
 - title: Plants vs Zombies 2
   release_year: 2013
   platforms: ["iOS"]
+- title: Lego Marvel Super Heroes
+  release_year: 2013
+  platforms: ["Xbox 360", "Xbox Series"]
 - title: Boom!
   release_year: 2013
   platforms: ["iOS"]
@@ -124,12 +146,18 @@
 - title: Clash of Clans
   release_year: 2012
   platforms: ["iOS"]
+- title: "Skylanders: Giants"
+  release_year: 2012
+  platforms: ["Xbox 360"]
 - title: Hay Day
   release_year: 2012
   platforms: ["iOS"]
 - title: Punch Quest
   release_year: 2012
   platforms: ["iOS"]
+- title: Gravity Rush
+  release_year: 2012
+  platforms: ["PS Vita"]
 - title: Angry Birds Star Wars
   release_year: 2012
   platforms: ["iOS"]
@@ -147,6 +175,7 @@
   platforms: ["PS Vita"]
 - title: Halo 4
   release_year: 2012
+  rating: 3
   platforms: ["Xbox Series"]
   notes: 'See <a href="/posts/halo-my-thoughts.html#halo-4">Halo: My Thoughts</a>.'
   playthroughs:
@@ -155,6 +184,9 @@
 - title: Bloons Tower Defence 5
   release_year: 2011
   platforms: ["PC"]
+- title: Rayman Origins
+  release_year: 2011
+  platforms: ["PS Vita"]
 - title: Jetpack Joyride
   release_year: 2011
   platforms: ["iOS", "PS Vita"]
@@ -168,6 +200,9 @@
 - title: Super Meat Boy
   release_year: 2010
   platforms: ["PS Vita"]
+- title: Scooby-Doo! and the Spooky Swamp
+  release_year: 2010
+  platforms: ["Wii"]
 - title: Doritos Crash Course
   release_year: 2010
   platforms: ["Xbox Series"]
@@ -191,6 +226,7 @@
   platforms: ["iOS"]
 - title: "Halo: Reach"
   release_year: 2010
+  rating: 5
   platforms: ["Xbox Series"]
   notes: 'See <a href="/posts/halo-my-thoughts.html#halo-reach">Halo: My Thoughts</a>.'
   playthroughs:
@@ -202,11 +238,21 @@
 - title: New Super Mario Bros Wii
   release_year: 2009
   platforms: ["Wii", "PC"]
+- title: Scooby-Doo! First Frights
+  release_year: 2009
+  platforms: ["Wii"]
+- title: Harry Potter and the Half-Blood Prince
+  release_year: 2009
+  platforms: ["Xbox 360"]
+- title: Mini Ninjas
+  release_year: 2009
+  platforms: ["Xbox 360"]
 - title: Angry Birds
   release_year: 2009
   platforms: ["iOS"]
 - title: "Halo 3: ODST"
   release_year: 2009
+  rating: 4.5
   platforms: ["Xbox Series"]
   notes: 'See <a href="/posts/halo-my-thoughts.html#halo-3-odst">Halo: My Thoughts</a>.'
   playthroughs:
@@ -219,6 +265,9 @@
 - title: Supersonic Acrobatic Rocket-Powered Battle-Cars
   release_year: 2008
   platforms: ["PS3"]
+- title: Sonic Unleashed
+  release_year: 2008
+  platforms: ["Xbox 360"]
 - title: Super Smash Bros Brawl
   release_year: 2008
   platforms: ["Wii"]
@@ -248,6 +297,7 @@
   platforms: ["PC"]
 - title: Halo 3
   release_year: 2007
+  rating: 4
   platforms: ["Xbox Series"]
   notes: 'See <a href="/posts/halo-my-thoughts.html#halo-3">Halo: My Thoughts</a>.'
   playthroughs:
@@ -279,13 +329,15 @@
   playthroughs:
     - start: 2023-04-18
       finish: 2023-05-30
+- title: Kingdom of Loathing
+  release_year: 2003
+  platforms: ["PC"]
 - title: Super Smash Bros Melee
   release_year: 2001
   platforms: ["PC"]
 - title: Cel Damage
   release_year: 2001
-  first_played: 2023-11-27
-  platforms: ["Xbox Series"]
+  platforms: ["PS Vita", "Xbox Series"]
 - title: "Halo: Combat Evolved"
   release_year: 2001
   platforms: ["PC", "Xbox Series"]
@@ -309,3 +361,6 @@
 - title: Age of Empires
   release_year: 1997
   platforms: ["PC"]
+- title: "Pajama Sam: Don't Fear the Dark"
+  release_year: 1996
+  platforms: ["Wii"]

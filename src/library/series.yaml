@@ -47,6 +47,33 @@
       watches:
         - start: 2024-05-20
           finish: 2024-05-21
+- title: Stranger Things
+  release_year: 2016
+  seasons:
+    - number: 1
+    - number: 2
+    - number: 3
+    - number: 4
+- title: My Hero Academia
+  release_year: 2016
+  seasons:
+    - number: 1
+      watches:
+        - start: 2019
+          finish: 2019
+    - number: 2
+      watches:
+        - start: 2019
+          finish: 2019
+    - number: 3
+      watches:
+        - start: 2019
+          finish: 2019
+- title: Mr Robot
+  release_year: 2015
+  seasons:
+    - number: 1
+    - number: 2
 - title: New Kids on the Rock
   release_year: 2008
   seasons:
