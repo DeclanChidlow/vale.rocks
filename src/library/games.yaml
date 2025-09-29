@@ -125,9 +125,21 @@
 - title: Crossy Road
   release_year: 2014
   platforms: ["iOS"]
+- title: Cubic Castles
+  release_year: 2014
+  platforms: ["PC"]
+- title: The Blockheads
+  release_year: 2013
+  platforms: ["iOS"]
+- title: Sonic Dash
+  release_year: 2013
+  platforms: ["iOS"]
 - title: BADLAND
   release_year: 2013
   platforms: ["iOS", "PS Vita"]
+- title: Catapult King
+  release_year: 2013
+  platforms: ["iOS"]
 - title: Plants vs Zombies 2
   release_year: 2013
   platforms: ["iOS"]
@@ -146,6 +158,19 @@
 - title: Clash of Clans
   release_year: 2012
   platforms: ["iOS"]
+- title: Meeblings
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Shufflepuck Cantina
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Mega Run
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Smart As...
+  release_year: 2012
+  platforms: ["PS Vita"]
+  notes: Played regularly during 2021 as part of research into the effects of brain training games for a psychology class.
 - title: "Skylanders: Giants"
   release_year: 2012
   platforms: ["Xbox 360"]
@@ -158,10 +183,40 @@
 - title: Gravity Rush
   release_year: 2012
   platforms: ["PS Vita"]
+- title: Dumb Ways to Die
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Hill Climb Racing
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Pitfall!
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Frisbee Forever 2
+  release_year: 2012
+  platforms: ["iOS"]
 - title: Angry Birds Star Wars
   release_year: 2012
   platforms: ["iOS"]
 - title: Angry Birds Space
+  release_year: 2012
+  platforms: ["iOS"]
+- title: "Draw a Stickman: EPIC"
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Shark Dash
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Angry Gran Run
+  release_year: 2012
+  platforms: ["iOS"]
+- title: SnowJinks
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Hungry Shark Evolution
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Rat on a Jet Ski
   release_year: 2012
   platforms: ["iOS"]
 - title: Bad Piggies
@@ -184,12 +239,18 @@
 - title: Bloons Tower Defence 5
   release_year: 2011
   platforms: ["PC"]
+- title: Where's My Water?
+  release_year: 2011
+  platforms: ["iOS"]
 - title: Rayman Origins
   release_year: 2011
   platforms: ["PS Vita"]
 - title: Jetpack Joyride
   release_year: 2011
   platforms: ["iOS", "PS Vita"]
+- title: Marvel Super Hero Squad Online
+  release_year: 2011
+  platforms: ["PC"]
 - title: Angry Birds Rio
   release_year: 2011
   platforms: ["iOS"]
@@ -197,12 +258,24 @@
   release_year: 2011
   rating: 5
   platforms: ["PC", "PS3"]
+- title: Pep the Dragon
+  release_year: 2011
+  platforms: ["iOS"]
 - title: Super Meat Boy
   release_year: 2010
   platforms: ["PS Vita"]
+- title: Cut the Rope
+  release_year: 2010
+  platforms: ["iOS"]
+- title: Mega Jump
+  release_year: 2010
+  platforms: ["iOS"]
 - title: Scooby-Doo! and the Spooky Swamp
   release_year: 2010
   platforms: ["Wii"]
+- title: Journey Down
+  release_year: 2010
+  platforms: ["iOS"]
 - title: Doritos Crash Course
   release_year: 2010
   platforms: ["Xbox Series"]
@@ -284,6 +357,9 @@
 - title: Castle Crashers
   release_year: 2008
   platforms: ["PS3"]
+- title: Purble Place
+  release_year: 2007
+  platforms: ["PC"]
 - title: Portal
   release_year: 2007
   rating: 4
