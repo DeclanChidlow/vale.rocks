@@ -17,7 +17,7 @@ _body:
 		${ Tree.map(paginated_videos/items,
 		(video, key) =>
 		`<a class="video ${ video.format === 'short' ? `short` : `long` }" href="/videos/${ Origami.basename(key) }">
-			<img src="https://i.ytimg.com/vi/${ video.youtube_id }/${ video.format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
+			<img src="https://i.ytimg.com/vi_webp/${ video.youtube_id }/${ video.format === 'short' ? `oar2` : `sddefault` }.webp" alt=""/>
 			<h2>${ video.title }</h2>
 			<time datetime="${ video.pub_time }" title="Date of publication.">${ functions/pretty-date.js(video.pub_time) }
 				</time></li>
