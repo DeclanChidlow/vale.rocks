@@ -205,6 +205,9 @@
 - title: Eva Design System
   url: colors.eva.design
   description: Generate colour pallets using deep learning powered algorithm.
+- title: SVGOMG
+  url: jakearchibald.github.io/svgomg/
+  description: Optimise SVG files.
 - title: Duotone
   url: duotone.shapefactory.co
   description: Convert images into duotone versions.

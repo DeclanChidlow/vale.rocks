@@ -158,6 +158,12 @@
 - title: Clash of Clans
   release_year: 2012
   platforms: ["iOS"]
+- title: The Unfinished Swan
+  release_year: 2012
+  platforms: ["PS Vita"]
+- title: Journey
+  release_year: 2012
+  platforms: ["PS3"]
 - title: Meeblings
   release_year: 2012
   platforms: ["iOS"]
@@ -276,6 +282,7 @@
 - title: Journey Down
   release_year: 2010
   platforms: ["iOS"]
+  notes: Despite spending many hours on it, I never finished Chapter One due to my young age while playing it, though it did teach me of the cacti rule.
 - title: Doritos Crash Course
   release_year: 2010
   platforms: ["Xbox Series"]
@@ -353,7 +360,7 @@
 - title: Spore
   release_year: 2008
   platforms: ["PC"]
-  notes: I purchased a copy of Spore second hand at an Op Shop, and it was only once I got it home that I discovered the disc inside was for Medal of Honour
+  notes: I purchased a copy second-hand at an op shop, and it was only once I got it home that I discovered the disc inside was for Company of Heroes.
 - title: Castle Crashers
   release_year: 2008
   platforms: ["PS3"]
@@ -371,6 +378,7 @@
   release_year: 2007
   rating: 4.5
   platforms: ["PC"]
+  notes: I can't think of another game with a community quite like TF2's. People regularly completely forego the objective in the name of being friendly with the 'enemy' and starting dance parties or showing off cool miscellanea.
 - title: Halo 3
   release_year: 2007
   rating: 4
