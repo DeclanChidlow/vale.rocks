@@ -20,7 +20,7 @@
   type: article
   sort: writer
 - title: Attempted Extortion
-  location: Revolt
+  location: Stoat
   url: wiki.revolt.chat/notes/transparency/incidents/2025-05-08-attempted-extortion/
   pub_time: 2025-05-09
   type: article
@@ -61,9 +61,9 @@
   type: article
   sort: writer
 - title: 100K Users
-  location: Revolt
-  url: revolt.chat/updates/100k-users
-  image: revolt.chat/content/blog/100K-users/cover.png
+  location: Stoat
+  url: stoat.chat/updates/100k-users
+  image: stoat.chat/content/blog/100K-users/cover.png
   pub_time: 2023-05-13
   type: article
   sort: writer

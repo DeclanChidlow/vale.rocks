@@ -92,7 +92,6 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [FlorisBoard](https://florisboard.org): Excellent and very customisable FOSS keyboard.
 - [FeedFlow](https://www.feedflow.dev): A very nice feed reader. Posts open in browser rather than being displayed in-app.
 - [Harmonic](https://github.com/SimonHalvdansson/Harmonic-HN): Slick Hacker News client.
-- [Digg](https://www.digg.com/)
 - [Kvaesitso](https://kvaesitso.mm20.de): Feature-rich, search-focused launcher.
 - [Google Messages](https://www.android.com/google-messages/): Google's SMS/MMS/RCS app. I'd prefer to use a FOSS alternative, but RCS is pretty locked down, so I'm left without alternative.
 - [Moshidon](https://github.com/LucasGGamerM/moshidon): Wonderful Fediverse client with plenty of quality-of-life features.
@@ -100,7 +99,6 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [OsmAnd+](https://osmand.net): Navigation app based on OpenStreetMap.
 - [Phone by Google](https://play.google.com/store/apps/details?id=com.google.android.dialer): Google's Phone app that I've chosen to use as it complements Google Messages.
 - [Google Photos](https://www.google.com/photos/about/): Not my preference, but it's one of the only options with good editing capabilities. I keep it disconnected from the internet.
-- [phyphox](https://phyphox.org): Allows for doing all sorts of really cool things using the many sensors in phones.
 - [Thunderbird](https://www.thunderbird.net/en-US/): Email client connected to my Runbox email addresses.
 - [DAVx<sup>5</sup>](https://www.davx5.com): CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.
 - [jtx Board](https://jtx.techbee.at): Provides a synchronised task list.
@@ -108,10 +106,8 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Fossify Clock](https://github.com/FossifyOrg/Clock)
 - [Ares Dark](https://www.one4studio.com/apps/icon-packs/ares-series): Provides some very nice-looking icons.
 - [Proton Drive](https://proton.me/drive): Cloud storage that I use to quickly move files between my phone and computer.
-- [Proton VPN](https://protonvpn.com): A free VPN for when I need it.
 - [Flipper](https://flipperzero.one): For interacting with [my Flipper Zero](/posts/i-got-a-flipper-zero).
-- [Revolt](https://revolt.chat): Official Android-native Revolt client.
-- [WikiReader](https://github.com/nsh07/WikiReader): Beautiful Wikipedia client.
+- [Stoat](https://stoat.chat)
 - [Xed-Editor](https://github.com/Xed-Editor/Xed-Editor): Advanced text editor for when I'm in a pinch.
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
 - [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
