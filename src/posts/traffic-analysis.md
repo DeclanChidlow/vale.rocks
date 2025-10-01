@@ -3,7 +3,7 @@ title: The Analytics of This Site
 description: A look at website traffic to Vale.Rocks and a general analysis of the analytics. Particularly looking at popular referrers and the variance from general web analytics.
 og_description: Nerding out on website analytics.
 pub_time: 2025-04-25
-mod_time: 2025-07-01
+mod_time: 2025-10-01
 section: Meta
 ---
 
@@ -81,10 +81,32 @@ Top referrers:
 4. [Reddit](https://reddit.com) - 897 hits
 5. [Bluesky](https://bsky.app) - 295 hits
 
+### Quarter 3
+
+_For the quarter running from 01/07/2025 until 30/09/2025._
+
+Total visits during this period: 8,523
+
+Most popular pages:
+
+1. [How I Configure Neovim](/posts/neovim) - 1,884 hits
+2. [Landing](/) - 1,284 hits
+3. [Wishes Upon My Demise](/posts/regarding-my-death) - 966 hits
+4. [Posts](/posts) - 338 hits
+5. [Portfolio](/portfolio) - 286 hits
+
+Top referrers:
+
+1. _Unknown_ - 2,579 hits
+2. [Reddit](https://reddit.com) - 990 hits
+3. [Hacker News](https://news.ycombinator.com) - 665 hits
+4. [Google](https://google.com) - 461 hits
+5. [Bluesky](https://bsky.app) - 258 hits
+
 ## 2024
 
 Pre-2025 stats are fairly rough due to a failed merging of page statistics done in an attempt to address a change in URL structure -- particularly the data early in the year. [JPEG XL and Google's War Against It](/posts/jpeg-xl-and-googles-war-against-it) was the first time I saw any notable traffic, and it [almost exclusively came from Hacker News](https://news.ycombinator.com/item?id=40221765). From memory, there was a spike of ~1.7K readers over a 24-hour period. Based on subsequent Hacker News hits of mine, this _seems_ low, but it wasn't widely shared outside of Hacker News and was somewhat controversial, which would have stifled its publicity.
 
-In late 2024, I [wrote for HTMHell](https://www.htmhell.dev/adventcalendar/2024/20/), sending a small spike of users to my site. Around the same time, Web Origami also did the rounds on Hacker News, sending a fair few users this way, both through a link I posted to this site's homepage, a link to my post on [The Implementation of This Site](/posts/the-implementation-of-this-site) in [the comments](https://news.ycombinator.com/item?id=42414192) and the project's website from people checking out the [examples page](https://weborigami.org/language/examples).
+In late 2024, I [wrote for HTMHell](https://www.htmhell.dev/adventcalendar/2024/20/), sending a small spike of users to my site. Around the same time, Web Origami also did the rounds on Hacker News, sending a fair few users this way through a link I posted to this site's homepage, a link to my post on [The Implementation of This Site](/posts/the-implementation-of-this-site) in [the comments](https://news.ycombinator.com/item?id=42414192), and my inclusion on the project's [examples page](https://weborigami.org/language/examples).
 
 [^1]: While this could be negative in the sense of chasing figures, I don't particularly care if a post 'flops' but do really enjoy when they succeed. View counts bolster my motivation but never hinder it.
