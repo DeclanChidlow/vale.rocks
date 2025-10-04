@@ -110,6 +110,9 @@
   release_year: 2014
   rating: 3.5
   platforms: ["Xbox 360"]
+- title: Smash Hit
+  release_year: 2014
+  platforms: ["iOS"]
 - title: Just Dance 2014
   release_year: 2014
   platforms: ["Xbox 360"]
@@ -158,6 +161,10 @@
 - title: Clash of Clans
   release_year: 2012
   platforms: ["iOS"]
+- title: Royal Revolt!
+  release_year: 2012
+  platforms: ["iOS"]
+  notes: One of the games my parents pre-loaded on my iPad 4 when they gifted it to me.
 - title: The Unfinished Swan
   release_year: 2012
   platforms: ["PS Vita"]
@@ -177,6 +184,9 @@
   release_year: 2012
   platforms: ["PS Vita"]
   notes: Played regularly during 2021 as part of research into the effects of brain training games for a psychology class.
+- title: My Singing Monsters
+  release_year: 2012
+  platforms: ["iOS", "PC", "PS Vita"]
 - title: "Skylanders: Giants"
   release_year: 2012
   platforms: ["Xbox 360"]
