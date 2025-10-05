@@ -58,6 +58,9 @@
 - title: Mario Kart 8 Deluxe
   release_year: 2017
   platforms: ["Nintendo Switch", "PC"]
+- title: Leap On!
+  release_year: 2017
+  platforms: ["iOS"]
 - title: Unturned
   release_year: 2017
   platforms: ["PC"]
@@ -80,6 +83,12 @@
 - title: Ratz Instagib
   release_year: 2016
   platforms: ["PC"]
+- title: Risky Road
+  release_year: 2016
+  platforms: ["iOS"]
+- title: "Smashy Road: Arena"
+  release_year: 2016
+  platforms: ["iOS"]
 - title: Clash Royale
   release_year: 2016
   platforms: ["iOS"]
@@ -89,6 +98,12 @@
 - title: Superhot
   release_year: 2016
   platforms: ["PC"]
+- title: Prune
+  release_year: 2015
+  platforms: ["iOS"]
+- title: I Am Bread
+  release_year: 2015
+  platforms: ["iOS"]
 - title: Rocket League
   release_year: 2015
   platforms: ["Nintendo Switch", "Xbox Series", "Xbox One", "PC"]
@@ -113,6 +128,15 @@
 - title: Smash Hit
   release_year: 2014
   platforms: ["iOS"]
+- title: The Escapists
+  release_year: 2014
+  platforms: ["iOS"]
+- title: Spider-Man Unlimited
+  release_year: 2014
+  platforms: ["iOS"]
+- title: Turbo Dismount
+  release_year: 2014
+  platforms: ["iOS"]
 - title: Just Dance 2014
   release_year: 2014
   platforms: ["Xbox 360"]
@@ -132,6 +156,12 @@
   release_year: 2014
   platforms: ["PC"]
 - title: The Blockheads
+  release_year: 2013
+  platforms: ["iOS"]
+- title: LEGO Hero Factory Brain Attack
+  release_year: 2013
+  platforms: ["iOS"]
+- title: "LEGO Ninjago: The Final Battle"
   release_year: 2013
   platforms: ["iOS"]
 - title: Sonic Dash
@@ -159,6 +189,12 @@
   release_year: 2013
   platforms: ["iOS"]
 - title: Clash of Clans
+  release_year: 2012
+  platforms: ["iOS"]
+- title: Pizza Vs Skeletons
+  release_year: 2012
+  platforms: ["iOS"]
+- title: DancePad
   release_year: 2012
   platforms: ["iOS"]
 - title: Royal Revolt!
@@ -255,6 +291,15 @@
 - title: Bloons Tower Defence 5
   release_year: 2011
   platforms: ["PC"]
+- title: Fly Guy
+  release_year: 2011
+  platforms: ["iOS"]
+- title: Tiny Wings
+  release_year: 2011
+  platforms: ["iOS"]
+- title: Scribblenauts Remix
+  release_year: 2011
+  platforms: ["iOS"]
 - title: Where's My Water?
   release_year: 2011
   platforms: ["iOS"]
@@ -325,6 +370,9 @@
 - title: Plants vs Zombies
   release_year: 2009
   platforms: ["PC", "PS Vita", "Xbox Series"]
+- title: "Worms 2: Armageddon"
+  release_year: 2009
+  platforms: ["iOS"]
 - title: New Super Mario Bros Wii
   release_year: 2009
   platforms: ["Wii", "PC"]
