@@ -7,8 +7,8 @@ figure {
 	max-width: 100%;
 }
 
-figure:has(img) {
-	margin: 0 auto;
+figure:has(img, svg) {
+	margin-inline: auto;
 	position: relative;
 }
 
@@ -19,6 +19,8 @@ figcaption {
 	font-style: italic;
 	text-align: center;
 	color: light-dark(var(--grey), var(--white));
+	text-wrap: balance;
+	line-height: 1.5;
 }
 
 .left {

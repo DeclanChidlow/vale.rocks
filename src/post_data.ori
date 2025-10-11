@@ -3,7 +3,7 @@ posts
 	...post
 	type: "post"
 	file_name: Origami.basename(fileName)
-	words: Tree.length(post._body.split(" "))
+	words: functions/word-count.js(post._body)
 })
 → (_) => Tree.sort(_, (post) => post/pub_time)
 → (_) => Tree.map(_, {
