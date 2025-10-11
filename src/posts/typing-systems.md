@@ -281,8 +281,9 @@ It really wasn't a painful process to switch, and it is something that must only
 
 Since switching keyboard layouts, very few other people can use my devices. This is great in that people can't use them without permission but is terrible in that people can't use them _with_ permission.
 
-This inability for others to use my devices certainly isn't aided by the fact that I replaced my laptop's labelled QWERTY keyboard with a blank set or the fact that I have my mouse and touchpad's primary click on the right, with my secondary click on the left.
+This inability for others to use my devices certainly isn't aided by the fact that I replaced my laptop's labelled QWERTY keyboard with a blank set or the fact that I have my mouse and touchpad's primary click on the right, with my secondary click on the left [^2].
 
 One alteration I swear by is having my <kbd>Caps Lock</kbd> bound to <kbd>Esc</kbd>. I've never used the <kbd>Caps Lock</kbd> key, so keeping it around was pointless. <kbd>Esc</kbd> is a much more useful key, but it is usually far out of the way in the top left of the keyboard, which requires I reach for it. It is also very convenient for my Vim usage, where I frequently need to exit out of modes.
 
 [^1]: This is called a same-finger bigram and reduces speed.
+[^2]: Yes, I also use inverted look on my controllers and mouse in video games.

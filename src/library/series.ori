@@ -13,7 +13,7 @@ _body:
 	<h1>Series</h1>
 
 	<p>${ series.length } series I've watched, with thoughts and notes where relevant.</p>
-	<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
+	<p>Proper tracking began in 2025, so much watch logging prior to then is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 
 	<form id="refine-entries">
 		<label for="entries-sort">Sort by:</label>
