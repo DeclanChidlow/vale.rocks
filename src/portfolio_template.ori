@@ -17,12 +17,7 @@ _body:
 		<h1 style="view-transition-name: ${ Origami.slug(post.title) }-title;">${ post.title }</h1>
 		<p style="view-transition-name: ${ Origami.slug(post.title) }-description;">${ post.og_description}</p>
 
-		${ post.repository ? `
-		<div class="repo-details" aria-hidden="true">
-			<img src="https://img.shields.io/github/stars/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Stars">
-			<img src="https://img.shields.io/github/forks/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Forks">
-			<img src="https://img.shields.io/github/contributors/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=58a551" alt="Repository Contributors">
-		</div>` : '' }
+		${ post.repository ? `<ul id="repo-details"></ul>` : '' }
 
 		<ul class="tags" aria-label="Tags" data-pagefind-ignore>
 		${ post.tags ? post.tags.map(tag => `
@@ -37,4 +32,12 @@ _body:
 </article>
 
 <script src="/assets/scripts/footnotes.js"></script>
-<script src="/assets/scripts/figures.js"></script>`})
+<script src="/assets/scripts/figures.js"></script>
+${ post.repository ? `
+<script src="/assets/scripts/repo-details.js"></script>
+<script>
+	const repo = new RepoDetails('${ post.repository }');
+	repo.render();
+</script>
+` : '' }
+`})
