@@ -23,17 +23,17 @@ _body:
 			<img src="https://img.shields.io/github/forks/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=3778c0" alt="Repository Forks">
 			<img src="https://img.shields.io/github/contributors/${ post.repository }?style=flat-square&logoColor=white&labelColor=3f3c3c&color=58a551" alt="Repository Contributors">
 		</div>` : '' }
+
+		<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+		${ post.tags ? post.tags.map(tag => `
+			<li data-pagefind-filter="tags">#${ tag }</li>
+		`) : '' }
+		</ul>
 	</header>
 
 	<div class="readable e-content">
 		${ post._body }
 	</div>
-
-	<ul class="tags" style="display:none;" data-pagefind-ignore>
-	${ post.tags ? post.tags.map(tag => `
-		<li data-pagefind-filter="tags">${ tag }</li>
-	`) : '' }
-	</ul>
 </article>
 
 <script src="/assets/scripts/footnotes.js"></script>

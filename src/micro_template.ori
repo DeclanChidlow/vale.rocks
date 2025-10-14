@@ -55,16 +55,22 @@ _body:
 				${ lesswrong_icon }
 				View on LessWrong
 			</a>` : '' }
-		</aside>
 
-		<ul class="tags" style="display:none;" data-pagefind-ignore>
-		${ micro.tags ? micro.tags.map(tag => `
-			<li data-pagefind-filter="tags">${ tag }</li>
-		`) : '' }
-		</ul>
+			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+			${ micro.tags ? micro.tags.map(tag => `
+				<li data-pagefind-filter="tags">#${ tag }</li>
+			`) : '' }
+			</ul>
+		</aside>
 
 		<div class="readable e-content">
 			${ micro._body }
+
+			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+			${ micro.tags ? micro.tags.map(tag => `
+				<li data-pagefind-filter="tags">#${ tag }</li>
+			`) : '' }
+			</ul>
 		</div>
 	</div>
 </article>`})

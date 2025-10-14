@@ -25,12 +25,18 @@ _body:
 		<header data-pagefind-ignore>
 			<p>${ post.section }</p>
 			<h1 class="p-name">${ post.title }</h1>
-			<ul>
+			<ul class="stats">
 				<li>${ post.words } words</li>
 				<li><time class="dt-published" datetime="${ post.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post.pub_time) }</time>
 				${ post.mod_time ? `
 					– <time class="dt-updated" datetime="${ post.mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post.mod_time) }</time></li>
 				` : '' }
+			</ul>
+
+			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+			${ post.tags ? post.tags.map(tag => `
+				<li data-pagefind-filter="tags">#${ tag }</li>
+			`) : '' }
 			</ul>
 		</header>
 
@@ -44,12 +50,6 @@ _body:
 		<p>Did you gain something from reading this post? Consider chipping in to support me financially via a one-off or recurring payment. It'll go a long way in helping me publish more and develop open-source projects. <em>Thank you!</em></p>
 		<a href="/support">Support</a>
 	</section>
-
-	<ul class="tags" style="display:none;" data-pagefind-ignore>
-	${ post.tags ? post.tags.map(tag => `
-		<li data-pagefind-filter="tags">${ tag }</li>
-	`) : '' }
-	</ul>
 </div>
 
 <script src="/assets/scripts/footnotes.js"></script>

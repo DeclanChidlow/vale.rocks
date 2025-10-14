@@ -21,14 +21,14 @@ _body:
 			<time class="dt-published" datetime="${ video.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(video.pub_time) }</time>
 			<span> | </span>
 			<a href="https://www.youtube.com/watch?v=${video.youtube_id}">Watch on YouTube</a>
+
+			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+			${ video.tags ? video.tags.map(tag => `
+				<li data-pagefind-filter="tags">#${ tag }</li>
+			`) : '' }
+			</ul>
 		</header>
 
 		${ video._body }
-
-		<ul class="tags" style="display:none;" data-pagefind-ignore>
-		${ video.tags ? video.tags.map(tag => `
-			<li data-pagefind-filter="tags">${ tag }</li>
-		`) : '' }
-		</ul>
 	</div>
 </article>`})

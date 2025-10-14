@@ -53,3 +53,20 @@
 		}
 	}
 }
+
+.tags {
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+	margin: 0;
+	margin-block-start: 1rem;
+	font-size: 0.8rem;
+
+	li {
+		list-style: none;
+		background: light-dark(var(--white), var(--grey));
+		padding-inline: 0.5rem;
+		margin: 0;
+		text-transform: none;
+	}
+}
