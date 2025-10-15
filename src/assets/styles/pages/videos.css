@@ -4,13 +4,13 @@
 
 #videos {
 	display: grid;
-	max-width: 80rem;
+	max-inline-size: 80rem;
 	gap: 3rem 2rem;
 
 	.short img {
-		height: 25rem;
+		block-size: 25rem;
 		background: var(--dark_grey);
-		width: 100%;
+		inline-size: 100%;
 		object-fit: contain;
 	}
 
@@ -19,8 +19,8 @@
 
 		.short img,
 		.long img {
-			height: 9.5rem;
-			width: 100%;
+			block-size: 9.5rem;
+			inline-size: 100%;
 		}
 
 		.long img {
@@ -33,7 +33,7 @@
 
 		.short img,
 		.long img {
-			height: 12rem;
+			block-size: 12rem;
 		}
 
 		.long {

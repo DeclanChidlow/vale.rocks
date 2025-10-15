@@ -6,7 +6,7 @@
 
 .article-wrapper {
 	margin-inline-start: 3rem;
-	width: 100%;
+	inline-size: 100%;
 
 	header {
 		position: relative;
@@ -16,19 +16,19 @@
 		font-weight: 550;
 		font-variant-numeric: lining-nums;
 		font-variant-caps: titling-caps;
-		height: calc(90vh - 5rem);
+		block-size: calc(90vh - 5rem);
 
 		h1,
 		p {
-			width: fit-content;
+			inline-size: fit-content;
 		}
 
 		&::after {
 			content: "";
 			position: absolute;
-			top: 0;
-			width: calc(100% + 6rem);
-			height: calc(100% + 20rem);
+			inset-block-start: 0;
+			inline-size: calc(100% + 6rem);
+			block-size: calc(100% + 20rem);
 			margin-block: -15rem -3rem;
 			margin-inline-start: -3rem;
 			background: linear-gradient(var(--header_background), transparent);
@@ -41,7 +41,7 @@
 		margin-inline-start: 0;
 
 		header::after {
-			width: calc(100% + 3rem + 0.8rem);
+			inline-size: calc(100% + 3rem + 0.8rem);
 		}
 	}
 }

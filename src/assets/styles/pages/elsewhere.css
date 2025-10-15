@@ -7,10 +7,10 @@
 	gap: 1rem;
 
 	img {
-		max-height: 5rem;
-		min-width: 10rem;
+		max-block-size: 5rem;
+		inline-size: 20%;
+		min-inline-size: 10rem;
 		aspect-ratio: 16 / 9;
-		width: 20%;
 		object-fit: cover;
 
 		@media (max-width: 35rem) {

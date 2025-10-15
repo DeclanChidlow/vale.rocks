@@ -1,6 +1,6 @@
 .readable {
-	width: 100%;
-	max-width: 90ch;
+	inline-size: 100%;
+	max-inline-size: 90ch;
 }
 
 .no-js-search {
@@ -9,7 +9,7 @@
 	margin-block-start: 2rem;
 
 	label {
-		width: 100%;
+		inline-size: 100%;
 	}
 
 	input {
@@ -49,17 +49,24 @@
 }
 
 .pagefind-ui__filter-panel {
-	min-width: max-content;
-	max-width: 30%;
+	display: flex;
+	gap: 1rem;
+	min-inline-size: max-content;
+	max-inline-size: 30%;
 	margin-inline: -1rem;
+	margin-block-end: 1rem;
+
+	@media (min-width: 55rem) {
+		flex-direction: column;
+	}
 }
 
 .pagefind-ui__filter-panel-label {
 	position: absolute;
 	overflow: hidden;
 	clip: rect(0 0 0 0);
-	height: 1px;
-	width: 1px;
+	block-size: 1px;
+	inline-size: 1px;
 	margin: -1px;
 	padding: 0;
 	border: 0;
@@ -71,7 +78,7 @@
 }
 
 .pagefind-ui__filter-block {
-	margin-block-end: 1rem;
+	block-size: fit-content;
 }
 
 .pagefind-ui__filter-value {
@@ -80,7 +87,7 @@
 }
 
 .pagefind-ui__results-area {
-	width: 100%;
+	inline-size: 100%;
 }
 
 .pagefind-ui__results {
@@ -128,7 +135,7 @@
 	.pagefind-ui__result-link::before {
 		content: "↳";
 		position: absolute;
-		top: 0;
+		inset-block-start: 0;
 		inset-inline-start: -1rem;
 	}
 }
@@ -139,5 +146,6 @@
 }
 
 .pagefind-ui__button {
-	margin: 2rem auto 0;
+	margin-block-start: 2rem;
+	margin-inline: auto;
 }

@@ -13,7 +13,8 @@ main {
 	&::after {
 		content: "";
 		position: absolute;
-		inset: 50% 0 0 0;
+		inset: 0;
+		inset-block-start: 0;
 		background: linear-gradient(transparent, light-dark(var(--bright_white), var(--black)));
 		pointer-events: none;
 	}
@@ -21,7 +22,7 @@ main {
 
 .hero {
 	position: relative;
-	height: 85dvh;
+	block-size: 85dvh;
 	pointer-events: none;
 	display: flex;
 	flex-direction: column;
@@ -45,10 +46,11 @@ main {
 #container {
 	display: none; /* Set to block with JS */
 	position: relative;
-	width: 100vw;
-	height: 70vh;
-	max-height: 50rem;
+	inline-size: 100vw;
+	block-size: 70vh;
+	max-block-size: 50rem;
 	margin-inline: -3rem;
+	margin-block-end: 4rem;
 	background: light-dark(var(--white), var(--dark_grey));
 
 	@media (max-width: 45rem) {
@@ -72,7 +74,7 @@ main {
 	z-index: 100;
 
 	svg {
-		height: 1.3rem;
+		block-size: 1.3rem;
 		fill: var(--bright_white);
 	}
 }

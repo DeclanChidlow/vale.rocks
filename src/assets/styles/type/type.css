@@ -79,7 +79,7 @@ h6 {
 		button {
 			visibility: hidden;
 			position: absolute;
-			top: 0;
+			inset-block-start: 0;
 			inset-inline-start: -2.5rem;
 			line-height: normal;
 		}
@@ -110,10 +110,6 @@ h3 {
 	line-height: 1.4rem;
 }
 
-h4 {
-	font-size: 1rem;
-}
-
 h5 {
 	font-size: 0.8rem;
 	line-height: 1rem;
@@ -141,7 +137,7 @@ h6 {
 		user-select: none;
 		-webkit-user-select: none;
 		margin: 0;
-		width: 4rem;
+		block-size: 4rem;
 	}
 
 	.sidebar {
@@ -154,7 +150,7 @@ h6 {
 .readable,
 blockquote,
 details {
-	max-width: 75ch;
+	max-inline-size: 75ch;
 	text-wrap: pretty;
 
 	* + h2,
@@ -179,7 +175,8 @@ details {
 	border: 0.05rem solid light-dark(transparent, var(--grey));
 
 	summary {
-		padding: 0.5rem 1rem;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
 		background: light-dark(var(--white), var(--dark_grey));
 	}
 
@@ -289,7 +286,7 @@ ul li {
 }
 
 ul:has(input) {
-	margin-left: 1rem;
+	margin-inline-start: 1rem;
 
 	li {
 		display: flex;
@@ -298,10 +295,8 @@ ul:has(input) {
 	}
 }
 
-dl {
-	> dd + dt {
-		margin-block-start: 1.5rem;
-	}
+dl > dd + dt {
+	margin-block-start: 1.5rem;
 }
 
 dt {
@@ -326,7 +321,7 @@ abbr {
 
 kbd {
 	border-bottom-width: 4px;
-	padding: 0 0.4rem;
+	padding-inline: 0.4rem;
 }
 
 hr {

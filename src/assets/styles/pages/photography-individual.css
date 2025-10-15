@@ -1,16 +1,16 @@
 figure {
-	max-height: 80vh;
-	max-width: 90rem;
-	width: fit-content;
+	max-block-size: 80vh;
+	inline-size: fit-content;
+	max-inline-size: 90rem;
 
 	img {
-		max-height: 80vh;
+		max-block-size: 80vh;
 	}
 }
 
 .content {
 	display: flex;
-	margin-top: 2rem;
+	margin-block-start: 2rem;
 
 	> div {
 		padding: 1rem;
@@ -20,7 +20,7 @@ figure {
 		display: flex;
 		flex-direction: column;
 		border-inline-end: 2px solid var(--bright_grey);
-		min-width: fit-content;
+		min-inline-size: fit-content;
 		gap: 1ch;
 
 		ul {
@@ -37,8 +37,8 @@ figure {
 			flex-direction: row;
 			justify-content: space-between;
 			gap: 1ch;
-			border-right: none;
-			border-bottom: 2px solid var(--bright_grey);
+			border-inline-end: none;
+			border-block-end: 2px solid var(--bright_grey);
 		}
 	}
 

@@ -1,5 +1,5 @@
 main > div {
-	width: 100%;
+	inline-size: 100%;
 }
 
 .readable {
@@ -15,7 +15,7 @@ main > div {
 
 .hero {
 	display: flex;
-	min-height: calc(100vh - 8rem);
+	min-block-size: calc(100vh - 8rem);
 	align-items: center;
 	background: linear-gradient(light-dark(var(--white), var(--dark_grey)), transparent);
 	padding: 2rem;
@@ -24,7 +24,7 @@ main > div {
 		margin-block-start: -5rem;
 		margin-inline: -0.8rem;
 		margin-block-end: 0;
-		min-height: calc(100vh - 3rem);
+		min-block-size: calc(100vh - 3rem);
 	}
 
 	h2 {
@@ -33,7 +33,7 @@ main > div {
 		line-height: 1.2;
 		display: block;
 		margin-block-end: 4rem;
-		max-width: 45rem;
+		max-inline-size: 45rem;
 		margin-inline: auto;
 
 		.developer {
@@ -146,9 +146,9 @@ section.tools-and-technologies {
 			&::after {
 				content: "";
 				position: absolute;
-				width: 3rem;
-				height: 3rem;
-				top: 0;
+				inline-size: 3rem;
+				block-size: 3rem;
+				inset-block-start: 0;
 				z-index: 10;
 			}
 
@@ -196,7 +196,7 @@ section.published-on {
 			gap: 1rem;
 
 			svg {
-				height: 1.8rem;
+				block-size: 1.8rem;
 				margin-inline: auto;
 			}
 		}
@@ -231,28 +231,29 @@ section.showcase a {
 	border: 0.05rem solid light-dark(transparent, var(--grey));
 	position: relative;
 	overflow: hidden;
-	height: fit-content;
+	block-size: fit-content;
 
 	&::before {
 		content: "";
 		position: absolute;
-		inset: 100% 0 0 0;
+		inset: 0;
+		inset-block-start: 100%;
 		background: linear-gradient(transparent, var(--accent));
 		z-index: -1;
 
 		@media (prefers-reduced-motion: no-preference) {
-			transition: top 0.3s ease;
+			transition: inset-block-start 0.3s ease;
 		}
 	}
 
 	&:hover::before,
 	&:focus::before {
-		top: 0;
+		inset-block-start: 0;
 	}
 
 	h3,
 	p {
-		width: fit-content;
+		inline-size: fit-content;
 	}
 }
 
@@ -261,7 +262,8 @@ section.contact {
 	--t: 3px;
 
 	margin-block-end: 0;
-	padding: 3rem calc(var(--t) + 1rem);
+	padding-block: 3rem;
+	padding-inline: calc(var(--t) + 1rem);
 	outline: var(--t) solid var(--grey);
 	outline-offset: calc(-1 * var(--t));
 	mask:

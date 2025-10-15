@@ -41,7 +41,8 @@ html {
 body {
 	display: flex;
 	flex-direction: column;
-	margin: 0 3rem;
+	margin-block: 0;
+	margin-inline: 3rem;
 	color: light-dark(var(--black), var(--bright_white));
 	background: light-dark(var(--bright_white), var(--black));
 	transition: 0.25s;
@@ -50,17 +51,17 @@ body {
 main {
 	display: flex;
 	gap: 3rem;
-	margin: 5rem 0;
+	margin-block: 5rem;
 	flex-grow: 1;
 
 	> div {
-		min-width: 0;
+		min-inline-size: 0;
 	}
 }
 
 @media (max-width: 45rem) {
 	body {
-		margin: 0 0.8rem;
+		margin-inline: 0.8rem;
 	}
 
 	main {

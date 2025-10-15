@@ -6,13 +6,13 @@
 		position: absolute;
 		inset-inline-start: 68rem;
 		inset-inline-end: 3rem;
-		max-width: 60ch;
+		max-inline-size: 60ch;
 		font-size: small;
 		line-height: 1.5;
 		color: light-dark(var(--grey), var(--white));
 		padding-block-end: 1rem;
 		transition: background-color 0.25s;
-		border-top: 1px solid light-dark(var(--white), var(--bright_grey));
+		border-block-start: 1px solid light-dark(var(--white), var(--bright_grey));
 
 		p {
 			padding-block-start: 0.25rem;
@@ -49,10 +49,6 @@
 	padding-inline: 1rem;
 	font-size: small;
 	line-height: 1.5;
-
-	@media (max-width: 700px) {
-		inset: auto 0.8rem;
-	}
 
 	.footnote-content > * + * {
 		margin-block-start: 0.5rem;

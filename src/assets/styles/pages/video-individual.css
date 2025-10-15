@@ -40,18 +40,18 @@ iframe {
 }
 
 .short {
-	height: 80vh;
+	block-size: 80vh;
 	aspect-ratio: 9 / 16;
 	margin-inline: auto;
 
 	@media (min-width: 60rem) {
 		position: sticky;
-		top: 5rem;
+		inset-block-start: 5rem;
 	}
 }
 
 .long {
-	width: 100%;
+	inline-size: 100%;
 	aspect-ratio: 16 / 9;
 }
 

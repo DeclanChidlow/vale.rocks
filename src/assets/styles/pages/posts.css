@@ -1,9 +1,9 @@
 #refine-posts {
 	display: none; /* Set to flex with JS */
 	gap: 2rem;
-	margin-bottom: 2rem;
-	padding-bottom: 1rem;
-	border-bottom: 2px solid var(--bright_grey);
+	margin-block-end: 2rem;
+	padding-block-end: 1rem;
+	border-block-end: 2px solid var(--bright_grey);
 
 	.filter,
 	.sort {
@@ -15,7 +15,7 @@
 	}
 
 	select {
-		width: 100%;
+		inline-size: 100%;
 
 		&:focus-within,
 		&:hover {
@@ -34,8 +34,8 @@
 	gap: 2rem;
 
 	.post {
-		border-bottom: 2px solid var(--bright_grey);
-		padding-bottom: 0.5rem;
+		border-block-end: 2px solid var(--bright_grey);
+		padding-block-end: 0.5rem;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-variant-numeric: lining-nums;

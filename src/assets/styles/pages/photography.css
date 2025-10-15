@@ -1,6 +1,6 @@
 #photography {
 	display: grid;
-	display: masonry;
+	grid-template-rows: masonry;
 	gap: 2rem;
 
 	.photo {
@@ -8,7 +8,7 @@
 		animation-timeline: view();
 		scale: 0.98;
 		transition: scale 0.25s;
-		margin: auto 0;
+		margin-block: auto;
 
 		&:hover {
 			scale: 1;

@@ -18,8 +18,8 @@ kbd {
 		transition: 0.15s box-shadow ease-out;
 
 		svg {
-			width: 1rem;
-			height: 1rem;
+			block-size: 1rem;
+			inline-size: 1rem;
 			fill: light-dark(var(--black), var(--bright_white));
 		}
 	}
@@ -50,7 +50,7 @@ pre {
 	code {
 		display: inline-block;
 		padding: 0;
-		min-width: 100%;
+		min-inline-size: 100%;
 		border: none;
 		tab-size: 4;
 		counter-reset: step;

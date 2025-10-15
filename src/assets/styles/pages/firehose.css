@@ -1,16 +1,17 @@
 article {
-	max-width: 65ch;
-	padding: 2rem 1rem;
-	margin: 1rem 0;
+	max-inline-size: 65ch;
+	padding-block: 2rem;
+	padding-inline: 1rem;
+	margin-block: 1rem;
 
 	header {
 		display: flex;
 		justify-content: space-between;
 		gap: 2rem;
-		margin-bottom: 2rem;
+		margin-block-end: 2rem;
 
 		div:not(.socials) svg {
-			height: 1.2rem;
+			block-size: 1.2rem;
 			fill: currentColor;
 		}
 
@@ -45,7 +46,7 @@ article {
 
 	img {
 		margin-block-start: 1rem;
-		max-height: 30rem;
+		max-block-size: 30rem;
 	}
 }
 
@@ -66,8 +67,8 @@ article {
 	}
 
 	svg {
-		width: 1.25rem;
-		min-width: 1.25rem;
+		inline-size: 1.25rem;
+		min-inline-size: 1.25rem;
 	}
 }
 
@@ -76,7 +77,7 @@ article {
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	text-align: center;
-	max-width: 65ch;
+	max-inline-size: 65ch;
 
 	a {
 		padding: 2rem;
