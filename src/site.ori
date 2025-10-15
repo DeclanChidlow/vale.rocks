@@ -5,8 +5,7 @@
 	robots.txt
 	app.webmanifest
 
-	...Tree.map(pages, {
-		extension: ".md→.html"
+	...Tree.mapExtension(pages, ".md→.html", {
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
@@ -23,8 +22,7 @@
 	(paginated_micros) = Tree.paginate(micro_data.ori, 30)
 	micros.html = pages/micros.ori(Tree.first(paginated_micros))
 	micros/ = {
-		...Tree.map(paginated_micros, {
-			extension: "→.html"
+		...Tree.mapExtension(paginated_micros, "→.html", { 
 			value: pages/micros.ori
 		})
 		...Tree.map(micro_data.ori, micro_template.ori)
@@ -35,8 +33,7 @@
 	(paginated_photography) = Tree.paginate(photography_data.ori, 50)
 	photography.html = pages/photography.ori(Tree.first(paginated_photography))
 	photography/ = {
-		...Tree.map(paginated_photography, {
-			extension: "→.html"
+		...Tree.mapExtension(paginated_photography, "→.html", {
 			value: pages/photography.ori
 		})
 		...Tree.map(photography_data.ori, photography_template.ori)
@@ -47,8 +44,7 @@
 	(paginated_videos) = Tree.paginate(video_data.ori, 30)
 	videos.html = pages/videos.ori(Tree.first(paginated_videos))
 	videos/ = {
-		...Tree.map(paginated_videos, {
-			extension: "→.html"
+		...Tree.mapExtension(paginated_videos, "→.html", {
 			value: pages/videos.ori
 		})
 		...Tree.map(video_data.ori, video_template.ori)
@@ -59,8 +55,7 @@
 	(paginated_elsewhere) = Tree.paginate(elsewhere_data.yaml , 100)
 	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 	elsewhere/ = {
-		...Tree.map(paginated_elsewhere, {
-			extension: "→.html"
+		...Tree.mapExtension(paginated_elsewhere, "→.html", {
 			value: pages/elsewhere.ori
 		})
 		feed.json = Origami.json(elsewhere_syndication.ori(elsewhere_data.yaml))
@@ -89,8 +84,7 @@
 
 	(paginated_firehose) = Tree.paginate(firehose_data.ori, 30)
 	firehose.html = pages/firehose.ori(Tree.first(paginated_firehose))
-	firehose/ = Tree.map(paginated_firehose, {
-		extension: "→.html"
+	firehose/ = Tree.mapExtension(paginated_firehose, "→.html", {
 		value: pages/firehose.ori
 	})
 }
@@ -98,5 +92,7 @@
 → (site) => {
     ...site
     pagefind = Origami.once(() => package:@weborigami/pagefind(site))
-    sitemap.xml = sitemap-improver.js(Origami.sitemap(site, { base: "https://vale.rocks", assumeSlashes: true }))
+    sitemap.xml = sitemap-improver.js(Origami.sitemap(site, {
+    	base: "https://vale.rocks", assumeSlashes: true
+    }))
 }

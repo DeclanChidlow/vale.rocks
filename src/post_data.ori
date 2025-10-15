@@ -6,8 +6,7 @@ posts
 	words: functions/word-count.js(post._body)
 })
 → (_) => Tree.sort(_, (post) => post/pub_time)
-→ (_) => Tree.map(_, {
-	extension: ".md->.html"
+→ (_) => Tree.mapExtension(_, ".md->.html", {
 	value: (post) => functions/parse-markdown.js(post)
 })
 → Tree.reverse

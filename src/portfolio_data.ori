@@ -3,7 +3,6 @@ portfolio
 	...portfolio
 	file_name: Origami.basename(fileName)
 })
-→ (_) => Tree.map(_, {
-	extension: ".md->.html"
+→ (_) => Tree.mapExtension(_, ".md->.html", {
 	value: (portfolio) => functions/parse-markdown.js(portfolio)
 })

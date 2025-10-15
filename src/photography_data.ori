@@ -5,8 +5,7 @@ photography
 	file_name: Origami.basename(fileName)
 })
 → (_) => Tree.sort(_, (photo) => photo/pub_time)
-→ (_) => Tree.map(_, {
-	extension: ".md->.html"
+→ (_) => Tree.mapExtension(_, ".md->.html", {
 	value: (photo) => functions/parse-markdown.js(photo)
 })
 → Tree.reverse
