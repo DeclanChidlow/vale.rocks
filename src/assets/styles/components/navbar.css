@@ -6,9 +6,10 @@ body:has(#popover-menu:popover-open) {
 
 #navbar {
 	position: fixed;
-	inset: 0 0 auto 0;
+	inset: 0;
+	inset-block-end: auto;
 	block-size: 5rem;
-	padding: 0 3rem;
+	padding-inline: 3rem;
 	pointer-events: none;
 	z-index: 1000;
 

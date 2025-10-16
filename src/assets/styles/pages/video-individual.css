@@ -40,7 +40,9 @@ iframe {
 }
 
 .short {
+	display: block;
 	block-size: 80vh;
+	max-inline-size: 100%;
 	aspect-ratio: 9 / 16;
 	margin-inline: auto;
 
