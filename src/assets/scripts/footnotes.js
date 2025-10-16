@@ -9,7 +9,6 @@ class FootnotesSidenotes {
 
 	init() {
 		if (!this.references.length) {
-			console.warn("No footnote references found");
 			return;
 		}
 		this.setupReferences();
@@ -41,7 +40,7 @@ class FootnotesSidenotes {
 			const prevSidenote = this.sidenoteContainer.children[index - 1];
 			const prevBottom = prevSidenote.offsetTop + prevSidenote.offsetHeight;
 			if (top < prevBottom) {
-				top = prevBottom + 10;
+				top = prevBottom + 20;
 			}
 		}
 		sidenote.style.top = `${top}px`;
@@ -57,10 +56,8 @@ class FootnotesSidenotes {
 			popover.style.maxWidth = `${this.articleWidth}px`;
 		}
 
-		const contentWrapper = document.createElement("div");
-		contentWrapper.className = "footnote-content";
-		contentWrapper.innerHTML = content;
-		popover.appendChild(contentWrapper);
+		popover.innerHTML = content;
+
 		return popover;
 	}
 

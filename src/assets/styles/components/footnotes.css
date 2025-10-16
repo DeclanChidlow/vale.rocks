@@ -1,3 +1,7 @@
+.sidenote-container {
+	counter-reset: sidenote;
+}
+
 .sidenote {
 	display: none;
 
@@ -13,6 +17,13 @@
 		padding-block-end: 1rem;
 		transition: background-color 0.25s;
 		border-block-start: 1px solid light-dark(var(--white), var(--bright_grey));
+
+		&::before {
+			position: absolute;
+			inset-block-start: -1.5rem;
+			counter-increment: sidenote;
+			content: counter(sidenote);
+		}
 
 		p {
 			padding-block-start: 0.25rem;
@@ -50,7 +61,7 @@
 	font-size: small;
 	line-height: 1.5;
 
-	.footnote-content > * + * {
+	> * + * {
 		margin-block-start: 0.5rem;
 	}
 
@@ -82,6 +93,7 @@
 			border-inline-start: 2px solid light-dark(var(--white), var(--bright_grey));
 			padding-inline-start: 1rem;
 			margin-inline-start: 0.5rem;
+			padding-block: 0.25rem;
 
 			+ p {
 				padding-block-start: 0.5rem;
@@ -89,6 +101,7 @@
 		}
 
 		&:target p {
+			background: light-dark(var(--white), var(--dark_grey));
 			border-color: var(--blue);
 		}
 
@@ -103,4 +116,12 @@
 	display: initial;
 	background: none;
 	padding-inline: 0.25rem;
+
+	&:hover,
+	&:focus {
+		background: none;
+		color: inherit;
+		text-decoration-thickness: 1rem;
+		text-underline-offset: -0.7rem;
+	}
 }
