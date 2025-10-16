@@ -466,6 +466,12 @@
   reads:
     - finish: 2020
       status: Read
+- title: The Smuggler's Curse
+  release_year: 2016
+  authors: Norman Jorgensen
+  reads:
+    - finish: 2017
+      status: Read
 - title: The Copper Gauntlet
   release_year: 2015
   authors: Holly Black
