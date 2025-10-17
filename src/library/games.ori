@@ -14,8 +14,8 @@ _body:
 
 	<p>${ games.length } video games I've played with assorted notes where applicable.</p>
 	<p>Proper tracking began in 2025, so most playthrough logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have played listed content more times than is represented here.</p>
-	<p>Listed platforms are the platforms I have played the game on, not necessarily the only platforms one can play the game.</p>
-	<p>Not all games have been played to completion (impossible in the case of some online games), but all games listed have been played a suitably notable amount.</p>
+	<p>Listed platforms are the platforms I have played the game on, not necessarily the only platforms where the game can be played.</p>
+	<p>Not all games have been played to completion (impossible in the case of some online games), but all games listed have been played a suitably significant amount.</p>
 
 	<form id="refine-entries">
 		<label for="entries-sort">Sort by:</label>
