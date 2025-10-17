@@ -42,9 +42,9 @@ class RepoDetails {
 		const container = document.getElementById("repo-details");
 
 		container.innerHTML = `
-      <li class="stars">${stats.stars} Stars</li>
-      <li class="forks">${stats.forks} Forks</li>
-      <li class="contributors">${stats.contributors} Contributors</li>
-    `;
+			<li class="stars">${stats.stars} ${stats.stars === 1 ? "Star" : "Stars"}</li>
+			<li class="forks">${stats.forks} ${stats.forks === 1 ? "Fork" : "Forks"}</li>
+			<li class="contributors">${stats.contributors} ${stats.contributors === 1 ? "Contributor" : "Contributors"}</li>
+		`;
 	}
 }
