@@ -482,7 +482,6 @@ They'd lock me up, sure, but at least nobody would be confused by small caps. I 
         display: inline-block;
         width: 5rem;
         height: 5rem;
-        border: var(--white) solid 2px;
         padding: 0.25rem;
     }
 }

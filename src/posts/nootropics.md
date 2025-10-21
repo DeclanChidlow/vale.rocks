@@ -1,7 +1,7 @@
 ---
 title: Nootropical Notes
 description: Personal notes on assorted nootropics I've tried and used, including stimulants such as caffeine and nicotine. Anecdotal experiences, musings, and reflections on optimising cognitive performance.
-og_description: A cognitive cataloge of chemical compounds.
+og_description: A cataloge of cognitively constructive chemical compounds.
 pub_time: 2025-10-17
 section: Essay
 ---
@@ -56,7 +56,7 @@ That caffeine anxiety tends to put an end to my effective productivity premature
 
 Unfortunately, caffeine is a diuretic, which means that it sends me to the bathroom with more frequency than is optimal. I must opt not to consume caffeine if I'm aware I won't have access to a bathroom. It all ensures that I am careful to consume more liquid than usual on days I consume caffeine to avoid dehydration.
 
-To avoid a tolerance, I try not to consume caffeine too often and sometimes take a break to allow my tolerance to subside. I avoid having a significant caffeine intake more than three days per week, and ideally not on consecutive days, but every study I've consulted seems to have weird data with questionable conclusions. I came to my three-day limit after reading Michael Dicken's [self-experiment](https://mdickens.me/2024/04/11/caffeine_self_experiment/) and [his follow-up](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/), among a few other resources. My decision isn't exactly perfectly scientifically backed, but I've given it the 'good enough' stamp of approval.
+To avoid a tolerance, I try not to consume caffeine too often and sometimes take a break to allow my tolerance to subside. I avoid having a significant caffeine intake more than three days per week, and ideally not on consecutive days, but every study I've consulted seems to have weird data with questionable conclusions. I came to my three-day limit after reading Michael Dickens' [self-experiment](https://mdickens.me/2024/04/11/caffeine_self_experiment/) and [his follow-up](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/), among a few other resources. My decision isn't exactly perfectly scientifically backed, but I've given it the 'good enough' stamp of approval.
 
 ## L-Theanine
 
@@ -76,7 +76,7 @@ Unfortunately, most nicotine research is entangled with research of tobacco prod
 
 I had heard people call nicotine a 'clean' stimulant -- not presenting the same downsides as caffeine. I have to agree, as I've found nicotine's effects to be much less of a disruptive 'buzz'. The onset after placing a piece of gum in the mouth is immediate, and there is no resultant crash. The trademark caffeine anxiety is also absent.
 
-I have no interest in smoking, which is proven harmful and extremely addictive, or vaping, which, while proven less harmful than smoking, is still harmful and extremely addictive. Smoke inhalation of any sort is completely off the table. I'm also not interested in chewing tobacco for the same reasons, and nicotine pouches are usually extremely potent, expensive, and are not easily modified to alter potency.
+I have no interest in smoking, which is proven harmful and extremely addictive, or vaping, which, while proven less harmful than smoking, is still harmful and extremely addictive. Inhalation of any sort is completely off the table. I'm also not interested in chewing tobacco for the same reasons, and nicotine pouches are usually extremely potent, expensive, and are not easily modified to alter potency.
 
 My preferred form is sugar-free, non-flavoured gum. I buy 4mg nicotine gum and cut it in half or quarters and then reseal. I opt for 4mg gum rather than a lesser potency, as it is substantially more cost-effective. It comes at a cost of ~$0.15 AUD per dose as of October 2025. Chewing gum also has the benefit of [links to higher productivity and other beneficial outcomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC4449949/).
 
