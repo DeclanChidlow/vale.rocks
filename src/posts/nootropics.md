@@ -62,7 +62,7 @@ To avoid a tolerance, I try not to consume caffeine too often and sometimes take
 
 Some claim that L-theanine has a positive effect when combined with caffeine, and some claim the effect is not statistically significant or non-existent. The main claim seems to be that it assists with caffeine's anxiety effects, which I am frequently afflicted by and thus would benefit from.
 
-Unfortunately, there isn't really any good evidence beyond anecdotal claims that L-theanine does anything. Dynomight has run blinded self-experiments twice. [In the first](https://dynomight.net/theanine) they found little evidence of benefit, and [in the follow-up](https://dynomight.net/theanine-2) they found more negligible evidence. [Luis Costigan ran a blinded self-trial](https://manifold.markets/LuisCostigan/nof1-blinded-experiment-will-210mg) and found benefit but over a very small trial.
+Unfortunately, there isn't really any good evidence beyond anecdotal claims that L-theanine does anything. Dynomight has run blinded self-experiments twice. [In the first](https://dynomight.net/theanine/) they found little evidence of benefit, and [in the follow-up](https://dynomight.net/theanine-2/) they found more negligible evidence. [Luis Costigan ran a blinded self-trial](https://manifold.markets/LuisCostigan/nof1-blinded-experiment-will-210mg) and found benefit but over a very small trial.
 
 Regardless of if it has any benefits or not, I haven't found anything identifying downright negative effects, and I enjoy tea, which often contains L-theanine, so I suppose I get the benefit if there is any.
 
@@ -90,7 +90,7 @@ I am not interested in developing a nicotine addiction, nor a tolerance, and I'm
 
 Vitamin D -- particularly Vitamin D<sub>3</sub> rather than Vitamin D<sub>2</sub> -- deficiency can have substantial negative effects on health and is fairly common. Vitamin D<sub>3</sub> has impacts on [sleep](https://pmc.ncbi.nlm.nih.gov/articles/PMC8912284/), bone health, (potentially) mood, and immune function. Deficiency also has links with chronic illnesses and eye health, among other unideals.
 
-[~23% of Australian adults have a vitamin D deficiency](https://www.abs.gov.au/statistics/health/health-conditions-and-risks/australian-health-survey-biomedical-results-nutrients/latest-release), so it isn't unreasonable to say I might be one of them. I spend most of my time indoors, and having fair skin, bad reactions to sunscreen, and a healthy fear of the sun, I'm always careful to cover exposed skin.
+[~23% of Australian adults have a vitamin D deficiency](https://www.abs.gov.au/statistics/health/food-and-nutrition/australian-health-survey-biomedical-results-nutrients/latest-release), so it isn't unreasonable to say I might be one of them. I spend most of my time indoors, and having fair skin, bad reactions to sunscreen, and a healthy fear of the sun, I'm always careful to cover exposed skin.
 
 I do consume a fair amount of yoghurt, eggs, cow's milk, and butter, which are often fortified, but likely not to a sufficient extent. Realising I do likely have a deficiency (based on my overall lack of sun exposure -- not any particular noticeable or alarming symptoms), I began taking some 1000IU vitamin D<sub>3</sub> pills I already had access to.
 

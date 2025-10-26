@@ -183,7 +183,7 @@ items:
     url: sarajoy.dev
     rss: sarajoy.dev/rss.xml
     description: Web development and life.
-  - title: arbourtrary 
+  - title: arbourtrary
     url: arbourtrary.com
     rss: arbourtrary.com/feed/rss
     description: Musings about nature, mathematics, and poetry.
@@ -370,7 +370,7 @@ items:
     description: Web development.
   - title: Chen Hui Jing
     url: chenhuijing.com
-    rss: chenhuijing.com/feed.xml
+    rss: chenhuijing.com/rss.xml
     description: Chronicles of a self-taught designer and developer.
   - title: Kottke.org
     url: kottke.org
@@ -460,8 +460,9 @@ items:
     rss: risingthumb.xyz/Writing/Blog/index.rss
     description: Software development and an assortment of ramblings.
   - title: sizeof(cat)
-    url: sizeofaex6zgovemvemn2g3jfmgujievmxxxbcgnbrnmgcjcjpiiprqd.onion
-    rss: sizeofaex6zgovemvemn2g3jfmgujievmxxxbcgnbrnmgcjcjpiiprqd.onion/index.xml
+    url: sizeof.cat
+    rss: sizeof.cat/index.xml
+    atom: sizeof.cat/atom.xml
     description: Security, privacy, vulnerabilities and exploits, retro computing, music, various programming languages, personal projects, and general other stuff.
   - title: jclahoot.com
     url: jclahoot.com

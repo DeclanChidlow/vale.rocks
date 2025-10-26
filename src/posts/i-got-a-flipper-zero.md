@@ -76,7 +76,7 @@ One of the first things that struck me about the Flipper was just how solid it i
 
 The only issue with the build that I can point to is the pogo pins included for the iButton functionality. They're perhaps a bit fragile, which leads to worry whenever I find them catching on my pants when sliding it in and out of my pockets.
 
-As for the battery, I can only say good things. When Flipper claims it can last for ['up to one month'](https://docs.flipper.net/basics/power), they aren't kidding. I was initially worried about battery life, so I turned off Bluetooth when not in use, but that wasn't really necessary. I can happily use the Flipper and place it in standby mode with Bluetooth on without concern that the battery will be dead the next time I go to use it.
+As for the battery, I can only say good things. When Flipper claims it can last for ['up to one month'](https://docs.flipper.net/zero/basics/power), they aren't kidding. I was initially worried about battery life, so I turned off Bluetooth when not in use, but that wasn't really necessary. I can happily use the Flipper and place it in standby mode with Bluetooth on without concern that the battery will be dead the next time I go to use it.
 
 ## Ethics and Legality
 

@@ -21,7 +21,7 @@ Spurred by the growing need for improved user resources, I created a [**custom d
 
 The bot is developed in a monorepo, written in **JavaScript/TypeScript**, and makes use of a range of modern libraries and technologies, including:
 
-- **Revolt.js** for interacting with Stoat's API.
+- **Stoat.js** for interacting with Stoat's API.
 - [**Valkey**](https://valkey.io), a fork of [**Redis**](https://redis.io), for high-speed caching and real-time operations.
 - [**MongoDB**](https://www.mongodb.com) for persistent data storage.
 - [**Docker**](https://www.docker.com) for containerisation, allowing consistent and reliable deployment and distribution.

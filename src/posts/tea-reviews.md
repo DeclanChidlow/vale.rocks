@@ -12,7 +12,7 @@ This post also includes herbal teas and other substances steeped in liquid to ex
 
 I usually use cow's milk where applicable, though also enjoy other options. Soy, almond, and oat being the best I've tried. Oat particularly has a rather pleasant creamy texture. As I find alternative milks are often rather sweet, I will often forgo adding sweeteners when opting for them.
 
-With regard to brewing temperature, I'm not generally too fazed. I don't use boiling water, but beyond that don't take much care. [The impact of water temperature on flavour is small](https://dynomight.net/tea), and getting temperatures dialled in is bothersome enough that I don't make the effort unless dealing with exemplary tea.
+With regard to brewing temperature, I'm not generally too fazed. I don't use boiling water, but beyond that don't take much care. [The impact of water temperature on flavour is small](https://dynomight.net/tea/), and getting temperatures dialled in is bothersome enough that I don't make the effort unless dealing with exemplary tea.
 
 I will note that I am frequently guilty of oversteeping my tea, usually due to getting into the rhythm of a task. For instance, the previous sentence was spurred by the sudden realisation while writing this post that I had neglected my brewing cup of tea and had unintentionally stewed it.
 

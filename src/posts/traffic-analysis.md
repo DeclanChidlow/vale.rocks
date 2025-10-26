@@ -100,7 +100,7 @@ Top referrers:
 1. _Unknown_ - 2,579 hits
 2. [Reddit](https://reddit.com) - 990 hits
 3. [Hacker News](https://news.ycombinator.com) - 665 hits
-4. [Google](https://google.com) - 461 hits
+4. [Google](https://www.google.com) - 461 hits
 5. [Bluesky](https://bsky.app) - 258 hits
 
 ## 2024

@@ -46,7 +46,7 @@ I use a [custom search engine router I made](https://search.vale.rocks) to allow
 
 I've already touched on some of my preferred development tools, but I also have many more that I rely on for my front-end development needs.
 
-As you might expect, I use [Git](https://git-scm.com) for version control, with [GitHub](https://github.com) for repository hosting and project management. In most situations, I use [Bun](https://bun.sh) in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects.
+As you might expect, I use [Git](https://git-scm.com) for version control, with [GitHub](https://github.com) for repository hosting and project management. In most situations, I use [Bun](https://bun.com/) in place of Node for the performance benefit and convenient feature set, although I obviously keep around all the expected other tools for working on other projects.
 
 Central to all my development is my editor, [Neovim](https://neovim.io), which serves as the bulk of my development environment. I've extensively customised it and [documented my entire configuration](/posts/neovim).
 
@@ -60,7 +60,7 @@ I 'enhance' (salvage) the Windows experience with [Microsoft's PowerToys](https:
 
 I usually do video editing in [Kdenlive](https://kdenlive.org), though will opt for [Shotcut](https://www.shotcut.org) instead for projects of a lesser scope.
 
-Raster image manipulation is usually conducted in [Photopea](http://www.photopea.com/), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
+Raster image manipulation is usually conducted in [Photopea](https://www.photopea.com/), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
 
 I use [Blender](https://www.blender.org) for 3D modelling and animation. My [Creality Ender 3 V3 SE](https://store.creality.com/products/ender-3-v3-se-3d-printer) 3D printer is complemented by [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), which I use for slicing and has extensive custom configuration for my needs.
 

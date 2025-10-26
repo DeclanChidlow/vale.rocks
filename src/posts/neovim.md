@@ -261,29 +261,29 @@ I have a rather sizable set of keymaps that trigger it in different capacities:
 
 ### Mini.diff (Git Diff Integration)
 
-[mini.diff](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-diff.md) visually displays the difference of the buffer to the file as it is in version control. I choose the sign display type.
+[mini.diff](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-diff.md) visually displays the difference of the buffer to the file as it is in version control. I choose the sign display type.
 
 ### Mini.hipatterns (Highlighting Notes)
 
-[mini.hipatterns](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-hipatterns.md) highlights text if it matches a pattern. I have this setup to draw attention to notes, usually in comments, with labels such as `TODO`, `WARN`, `HACK`, or `BUG`.
+[mini.hipatterns](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-hipatterns.md) highlights text if it matches a pattern. I have this setup to draw attention to notes, usually in comments, with labels such as `TODO`, `WARN`, `HACK`, or `BUG`.
 
 ### Mini.icons
 
-[mini.icons](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-icons.md) provides icons that are displayed throughout Neovim's UI. I like these icons in that they make things understandable at a glance and take up minimal space on screen.
+[mini.icons](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-icons.md) provides icons that are displayed throughout Neovim's UI. I like these icons in that they make things understandable at a glance and take up minimal space on screen.
 
 ### Mini.move (Efficient Code Movement)
 
-I am forever moving code around, so [mini.move](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-move.md) is invaluable.
+I am forever moving code around, so [mini.move](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-move.md) is invaluable.
 
 I have previously written my own rudimentary move functionality, but mini.move is so much more convenient that I opted for the plugin. I can move lines and selections with <kbd>Alt</kbd> and the relevant directional arrow key.
 
 ### Mini.notify (Improved Notifications)
 
-[mini.notify](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-notify.md) displays notifications in a much nicer and less intrusive way.
+[mini.notify](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-notify.md) displays notifications in a much nicer and less intrusive way.
 
 ### Mini.statusline
 
-My status line is provided by [mini.statusline](https://github.com/echasnovski/mini.nvim/blob/main/README.md). I don't feel any need to change the defaults, as it feels lovely out-of-the-box. I particularly love how it changes what content it displays based on the width of the terminal window.
+My status line is provided by [mini.statusline](https://github.com/nvim-mini/mini.nvim/blob/main/README.md). I don't feel any need to change the defaults, as it feels lovely out-of-the-box. I particularly love how it changes what content it displays based on the width of the terminal window.
 
 ## Key Mappings
 

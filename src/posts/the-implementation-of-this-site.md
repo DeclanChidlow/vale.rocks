@@ -23,7 +23,7 @@ Thus, I moved on to using a static site generator. Given that I was already a Gi
 
 From that came my own static site generator, [Adduce](https://adduce.vale.rocks). Adduce is wonderful, and I love the flexibility afforded by using it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I'm ill-equipped to address with my Rust capabilities.
 
-With Adduce, I had the issue that lacking functions meant many parts of the site had to be hand-coded and modified, which was time-consuming, and I [came to realise](https://www.lesswrong.com/posts/Nq2BtFidsnhfLuNAx/?commentId=Xby4NTqhC3DzWKt9P) that _something_ needed to change. Thanks to my commitment to building things on web foundations such as HTML, CSS, and JS and not abstracting them, it was pretty easy to migrate as needed.
+With Adduce, I had the issue that lacking functions meant many parts of the site had to be hand-coded and modified, which was time-consuming, and I [came to realise](https://www.lesswrong.com/posts/Nq2BtFidsnhfLuNAx?commentId=Xby4NTqhC3DzWKt9P) that _something_ needed to change. Thanks to my commitment to building things on web foundations such as HTML, CSS, and JS and not abstracting them, it was pretty easy to migrate as needed.
 
 ## Current Version
 
@@ -155,7 +155,7 @@ In the future I wish to extend the functionality to allow notifications when new
 
 ### Development & Deployment
 
-My development workflow for this site is pretty trivial. I run a local Origami dev server via [Bun](https://bun.sh) on my laptop and make my edits via Neovim. It's more or less the standard development flow you'd expect of any web-based project. All writing on the site is done with the exact same flow.
+My development workflow for this site is pretty trivial. I run a local Origami dev server via [Bun](https://bun.com/) on my laptop and make my edits via Neovim. It's more or less the standard development flow you'd expect of any web-based project. All writing on the site is done with the exact same flow.
 
 For more info about the software of my development environment, my [article on the technology I use](/posts/uses) is worth referencing.
 

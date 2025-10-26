@@ -146,7 +146,7 @@ You're likely wondering what you can do. The answer is simple: support healthy c
 
 If you're coming from one of the more flashy 'cutting edge' Chromium browsers like Arc or Opera GX, then [Zen](https://zen-browser.app) will provide a very similar experience. If you're looking for something with privacy in mind, like Brave or the DuckDuckGo browser, then you can try [LibreWolf](https://librewolf.net) or [Mullvad Browser](https://mullvad.net/en/browser). If you require anonymity or need to avoid censorship, then you might consider the [Tor Browser](https://www.torproject.org). Otherwise, you can also check out [Waterfox](https://www.waterfox.net), [IceCat](https://www.gnu.org/software/gnuzilla/), [Pale Moon](https://www.palemoon.org), [Floorp](https://floorp.app), [Mercury](https://thorium.rocks/mercury), and all the other assorted forks that exist.
 
-If WebKit is more your style, then Kagi's [Orion Browser](https://kagi.com/orion) is looking promising and has native extension support. You can also check out [GNOME Web (Epiphany)](https://apps.gnome.org/en-GB/Epiphany/).
+If WebKit is more your style, then Kagi's [Orion Browser](https://kagi.com/orion/) is looking promising and has native extension support. You can also check out [GNOME Web (Epiphany)](https://apps.gnome.org/en-GB/Epiphany/).
 
 As the web's future depends on diversity in browser engines, you might also consider supporting the development and growth of projects that aren't built on the big three existing engines:
 
@@ -165,7 +165,7 @@ As the web's future depends on diversity in browser engines, you might also cons
 - [Did the browser wars finally end in 2014? | ZD Net](https://www.zdnet.com/article/did-the-browser-wars-finally-end-in-2014/) | Accessed 10/12/2023
 - [Google Chrome](https://www.google.com/googlebooks/chrome/index.html) | Accessed: 10/12/2023
 - [Contra Chrome - a webcomic - How Google's browser became a threat to privacy and democracy](https://contrachrome.com) | Accessed: 10/12/2023
-- [Web Environment Integrity: What's Going On?](https://openwebdefenders.org) | Accessed: 12/12/2023
+- [Web Environment Integrity: What's Going On?](https://web.archive.org/web/20231226212538/https://openwebdefenders.org/) | Accessed: 12/12/2023
 - [Designing for different browsers and devices - Service Manual - GOV.UK](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) | Accessed: 10/12/2023
 - [Browsers we support and why - Government Digital Service](https://gds.blog.gov.uk/2012/01/25/support-for-browsers/) | Accessed: 10/12/2023
 - [Why did I build AmputatorBot?](https://www.reddit.com/r/AmputatorBot/comments/ehrq3z/why_did_i_build_amputatorbot) | Accessed: 06/03/2024

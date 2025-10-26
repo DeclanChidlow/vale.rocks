@@ -7,7 +7,7 @@ hoisted: false
 tags: [design, Stoat, development, front-end development]
 ---
 
-Mutant Remix is an emoji pack built for the chat platform [**Stoat**](https://revolt.chat), of which I am a core member. It combines the blobby shapes of Android's emojis of old with the crisp, bold style of Mutant Standard, creating something new, fresh, and distinct.
+Mutant Remix is an emoji pack built for the chat platform [**Stoat**](https://stoat.chat), of which I am a core member. It combines the blobby shapes of Android's emojis of old with the crisp, bold style of Mutant Standard, creating something new, fresh, and distinct.
 
 I was tasked with building a website for the pack. A previous contributor already had a design in mind, which I fleshed out in **Figma**, cleaned up, and put to code. I used my static site generator, [**Adduce**](https://adduce.vale.rocks), and constructed a site that introduces people to the project.
 
