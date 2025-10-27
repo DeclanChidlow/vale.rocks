@@ -1,25 +1,23 @@
 class FigureGlowLightbox {
 	constructor() {
-		this.figures = document.querySelectorAll("figure:has(img)");
+		this.figures = document.querySelectorAll("figure:has(img, svg)");
 		this.figures.forEach((figure, index) => this.setupFigure(figure, index));
 	}
 
 	setupFigure(figure, index) {
-		this.addBlurEffect(figure);
+		if (figure.querySelector("img")) {
+			this.addBlurEffect(figure);
+		}
 		const dialog = this.createDialog(figure, index);
 		document.body.appendChild(dialog);
 
-		figure.style.cursor = "zoom-in";
-		figure.tabIndex = 0;
+		const button = document.createElement("button");
+		button.innerHTML = `<svg viewBox="0 -960 960 960"><title>Open figure lightbox</title><path d="M144-144v-192h72v120h120v72H144Zm480 0v-72h120v-120h72v192H624ZM144-624v-192h192v72H216v120h-72Zm600 0v-120H624v-72h192v192h-72Z"/></svg>`;
+		button.className = "open";
+		figure.appendChild(button);
 
 		const openLightbox = () => dialog.showModal();
-		figure.addEventListener("click", openLightbox);
-		figure.addEventListener("keydown", (e) => {
-			if (e.key === "Enter" || e.key === " ") {
-				e.preventDefault();
-				openLightbox();
-			}
-		});
+		button.addEventListener("click", openLightbox);
 
 		const closeLightbox = () => dialog.close();
 		dialog.querySelector(".close").addEventListener("click", closeLightbox);
@@ -29,17 +27,14 @@ class FigureGlowLightbox {
 		});
 	}
 
-	createDialog(figure, index) {
+	createDialog(figure) {
 		const dialog = document.createElement("dialog");
-		dialog.id = `lightbox-${index}`;
 		dialog.ariaLabel = "Image Lightbox";
 		dialog.className = "lightbox";
 
-		const img = figure.querySelector("img").cloneNode(true);
-		const closeButton = this.createCloseButton();
+		const content = (figure.querySelector("img") || figure.querySelector("svg")).cloneNode(true);
 
-		dialog.append(img, closeButton);
-
+		dialog.append(content);
 		const figcaption = figure.querySelector("figcaption");
 		if (figcaption) {
 			const caption = figcaption.cloneNode(true);
@@ -47,7 +42,7 @@ class FigureGlowLightbox {
 			dialog.appendChild(caption);
 		}
 
-		const altText = img.getAttribute("alt");
+		const altText = content.tagName === "svg" ? content.querySelector("desc")?.textContent : content.getAttribute("alt");
 		if (altText) {
 			const altElement = document.createElement("p");
 			altElement.className = "alt-text";
@@ -55,15 +50,12 @@ class FigureGlowLightbox {
 			dialog.appendChild(altElement);
 		}
 
-		return dialog;
-	}
-
-	createCloseButton() {
 		const button = document.createElement("button");
 		button.innerHTML = `<svg viewBox="0 -960 960 960"><title>Close lightbox</title><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`;
 		button.className = "close";
-		button.setAttribute("aria-label", "Close lightbox");
-		return button;
+		dialog.append(button);
+
+		return dialog;
 	}
 
 	addBlurEffect(figure) {

@@ -60,7 +60,7 @@ Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes ar
 
 <figure class="right">
 <img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides.">
-<figcaption>The High Prophet of Regret sitting on his throne in Halo 2: Anniversary's graphics.</figcaption>
+<figcaption>The High Prophet of Regret sitting on his throne in a Halo 2: Anniversary cutscene.</figcaption>
 </figure>
 
 That said, the original graphics don't slouch either. While there are some slight regressions thanks to a pivot in lighting tech mid-development, models are much more detailed, meaning the game takes on a less stylised, more 'realistic' approach.
@@ -95,7 +95,7 @@ I can't say it's my favourite game in the series from a gameplay perspective, as
 ODST follows the Orbital Drop Shock Troopers, a subset of the UNSC marines that drop in from the sky in specialised pods to aid in battle. This is the first game in which you don't play as Master Chief at all. Instead, you take the reins of the Rookie, an ODST. This leads to the game being a captivating departure from the previous games in the series. You don't get the armour or strength of a Spartan, and this shows in the gameplay.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/thumb/1/16/H3ODST_CoverArt_Logoless.png/1599px-H3ODST_CoverArt_Logoless.png?20200828103447" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue.">
+<img src="https://halo.wiki.gallery/images/1/16/H3ODST_CoverArt_Logoless.png" alt="An orbital drop shock trooper in armor stands in the rain with a weapon, with dilapidated buildings and a ship in the somber background. The entire image is monotone blue.">
 <figcaption>Halo 3: ODST's promotional art with text and overlays removed.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it
 
 <figure class="right">
 <img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar.">
-<figcaption>Screenshot of Halo 4's campaign.</figcaption>
+<figcaption>Screenshot from Halo 4's campaign.</figcaption>
 </figure>
 
 Prior to getting into Halo, my modern AAA gaming experience was very much limited. I was a bit young for shooters when the 360 was in its prime and mostly used the console for Kinect games and a bit of Minecraft. I was shocked to see just how well Halo 4 holds up. It's hard to comprehend that within one console generation we went from Halo 3, to Halo 4. It's not perfect by modern day standards, but it's still impressive and holds its own.
@@ -186,7 +186,7 @@ I vehemently oppose the decision to bring back Cortana, especially after the fit
 Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open world, but it simply wasn't feasible on the hardware of the original Xbox.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/b/bc/HINF_XGS_2020_Grappleshot_in_use.jpg" alt="The Master Chief from the Halo series, clad in his Mjolnir Infinite armor. He is depicted holding his helmet under his arm and gripping a grappling hook, with the number 117 emblazoned on his chest plate. An orange, cloud-filled sky serves as the backdrop, highlighting the detail and design of the armor.">
+<img src="https://halo.wiki.gallery/images/0/00/HInf_Coverart_Large_No_Logo.jpg" alt="The Master Chief clad in his Mjolnir Infinite armor standing on a ringworld.">
 <figcaption>The Master Chief in his Halo Infinite armour.</figcaption>
 </figure>
 

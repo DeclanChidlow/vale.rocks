@@ -180,14 +180,9 @@ details {
 		background: light-dark(var(--white), var(--dark_grey));
 	}
 
-	&:open {
+	&[open]::details-content {
 		padding: 1rem;
-
-		summary {
-			border-bottom: 0.05rem solid light-dark(transparent, var(--grey));
-			margin-block-start: -1rem;
-			margin-inline: -1rem;
-		}
+		padding-block-start: 0;
 	}
 }
 

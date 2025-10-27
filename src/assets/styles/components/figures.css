@@ -3,13 +3,65 @@ img {
 }
 
 figure {
-	inline-size: fit-content;
-	max-inline-size: 100%;
-}
+	inline-size: 100%;
 
-figure:has(img, svg) {
-	margin-inline: auto;
-	position: relative;
+	&:has(img, svg) {
+		margin-inline: auto;
+		position: relative;
+	}
+
+	&:not(.left, .right) {
+		margin-block: 3rem;
+		padding-inline: 3rem;
+	}
+
+	&.left,
+	&.right {
+		inline-size: 65%;
+		margin: 1rem;
+	}
+
+	&.left {
+		float: left;
+		margin-inline-start: -2rem;
+	}
+
+	&.right {
+		float: right;
+		margin-inline-end: -2rem;
+	}
+
+	@media (max-width: 45rem) {
+		&.left,
+		&.right {
+			float: none;
+			margin-block: 1rem;
+			margin-inline: auto;
+		}
+	}
+
+	.open {
+		position: absolute;
+		inset-block-start: 1rem;
+		inset-inline-end: 1rem;
+		background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
+		backdrop-filter: blur(0.75rem);
+		padding: 0.25rem;
+		opacity: 0;
+		transition: 0.1s;
+
+		svg {
+			block-size: 1.3rem;
+			fill: var(--bright_white);
+		}
+	}
+
+	&:hover,
+	&:focus-within {
+		.open {
+			opacity: 1;
+		}
+	}
 }
 
 figcaption {
@@ -23,23 +75,8 @@ figcaption {
 	line-height: 1.5;
 }
 
-.left {
-	float: left;
-	inline-size: 65%;
-	margin: 1rem;
-	margin-inline-start: -2rem;
-}
-
-.right {
-	float: right;
-	inline-size: 65%;
-	margin: 1rem;
-	margin-inline-end: -2rem;
-}
-
 .figure-content-wrapper {
 	position: relative;
-	inline-size: 100%;
 	block-size: 100%;
 }
 
@@ -51,14 +88,14 @@ figcaption {
 	filter: blur(1rem);
 
 	@media (prefers-color-scheme: dark) {
-		filter: blur(1rem) brightness(0.5);
+		filter: blur(1rem) brightness(0.6);
 	}
 }
 
-.censor {
+.censor img {
 	filter: blur(0.5rem) grayscale(50%);
-	transition: 0.3s;
 	cursor: pointer;
+	transition: 0.3s;
 
 	&:hover,
 	&:focus {
@@ -67,55 +104,65 @@ figcaption {
 }
 
 .lightbox {
-	color: inherit;
-	overflow-y: auto;
-	align-content: center;
-	border: none;
+	max-block-size: 100vh;
+	max-inline-size: 100vw;
+	inline-size: 100vw;
+	padding-block: 2rem;
+	padding-inline: 1rem;
+	margin-block: auto;
 	background: none;
-	margin: auto;
+	border: none;
+	color: inherit;
 
 	&::backdrop {
 		background: light-dark(rgba(255, 243, 229, 0.7), rgba(0, 0, 0, 0.7));
 		backdrop-filter: blur(2rem) saturate(0.5);
 	}
 
-	img {
-		position: relative;
-		display: block;
-		max-inline-size: 100%;
-		max-block-size: calc(90vh - 60px);
-		filter: none;
-		z-index: 1;
+	> * {
+		margin-inline: auto;
+	}
+
+	img,
+	> svg {
+		inline-size: 100%;
+		max-inline-size: 60rem;
+		max-block-size: calc(90vh - 4rem);
+		margin-block-end: 2rem;
 	}
 
 	.caption,
 	.alt-text {
-		margin-block: 1rem;
+		margin-block-start: 1rem;
 		margin-inline: auto;
 		text-align: center;
 		max-inline-size: 70ch;
+		font-size: 0.9rem;
+		color: inherit;
 	}
 
 	.alt-text {
 		padding-block-start: 1rem;
 		border-block-start: 2px solid var(--bright_grey);
-		font-size: 0.9rem;
 	}
 
 	.close {
 		position: fixed;
-		inset-block-start: 0.8rem;
-		inset-inline-end: 2rem;
-		padding: 0.8rem;
-		background: none;
-		border: transparent;
+		inset-block-start: 1rem;
+		inset-inline-end: 1rem;
+		background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
+		backdrop-filter: blur(0.75rem);
+		padding: 0.25rem;
 		z-index: 1;
 
 		svg {
-			block-size: 2rem;
-			inline-size: 2rem;
-			fill: light-dark(var(--black), var(--bright_white));
+			block-size: 1.75rem;
+			fill: var(--bright_white);
 		}
+	}
+
+	@media (max-width: 45rem) {
+		padding-inline: 0.8rem;
 	}
 }
 
@@ -151,23 +198,4 @@ td,
 th {
 	padding-block: 0.2rem;
 	padding-inline: 0.5rem;
-}
-
-@media (max-width: 45rem) {
-	.left,
-	.right {
-		float: none;
-		margin-block: 1rem;
-		margin-inline: auto;
-	}
-
-	.lightbox {
-		padding: 0.8rem;
-
-		.close {
-			padding: 0.8rem;
-			inset-block-start: 0;
-			inset-inline-end: 0.8rem;
-		}
-	}
 }
