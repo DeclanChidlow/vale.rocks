@@ -4,8 +4,15 @@
 	}
 }
 
-#refine-entries {
+#refine-entries,
+#filter-message {
 	display: none; /* Set to block with JS */
+}
+
+#filter-message {
+	text-align: center;
+	margin-block-start: 3rem;
+	font-style: italic;
 }
 
 .books,

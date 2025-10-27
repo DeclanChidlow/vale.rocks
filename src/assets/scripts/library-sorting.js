@@ -12,6 +12,11 @@ class LibrarySorting {
 		this.refineEntries.style.display = "block";
 		this.items = this.extractItems();
 		this.sortSelect.addEventListener("change", () => this.sortContent());
+
+		this.filterMessage = document.createElement("p");
+		this.filterMessage.id = "filter-message";
+		this.contentList.insertAdjacentElement("afterend", this.filterMessage);
+
 		this.sortContent();
 	}
 
@@ -99,6 +104,14 @@ class LibrarySorting {
 		};
 
 		sorted.sort(sorters[type] || (() => 0));
+
+		const filteredCount = sorted.length;
+		const totalCount = this.items.length;
+		if (filteredCount < totalCount) {
+			this.filterMessage.textContent = `Due to your chosen sorting option, only ${filteredCount} out of ${totalCount} items are displayed.`;
+			this.filterMessage.style.display = "block";
+		}
+
 		this.contentList.replaceChildren(...sorted.map((item) => item.element));
 	}
 }
