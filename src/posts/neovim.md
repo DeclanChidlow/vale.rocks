@@ -214,7 +214,7 @@ I cycle through possible completions with <kbd>Tab</kbd> and <kbd>Shift</kbd> <k
 
 ### Conform (Code Formatting)
 
-[conform.nvim](https://github.com/stevearc/conform.nvim) formats my code. For most languages, it uses prettier.
+[conform.nvim](https://github.com/stevearc/conform.nvim) formats my code. For most languages, it uses Prettier.
 
 I have it configured to format whenever I press <kbd>f</kbd>.
 

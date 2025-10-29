@@ -1,20 +1,22 @@
 ---
 title: My Code Formatting Guidelines
-description: Code formatting, how I go about it, and why I choose to do it the way I do. This article covers indentation, string formatting, my take on the classic tabs vs spaces debate, and much more.
-og_description: Stirring the tabs vs spaces pot once again.
+description: Code formatting, how I go about it using Prettier, and why I choose to do it the way I do. Covering indentation, string formatting, my take on the classic tabs vs spaces debate, and much more.
+og_description: Stirring the tabs vs spaces pot.
 pub_time: 2024-04-18
-mod_time: 2024-06-10
+mod_time: 2025-10-29
 section: Tutorial
 tags: [development, front-end development]
 ---
 
-Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted. This leads to what can best be described as a conflated mess of conflicting thought. This is _not_ something I, nor anyone else, ever want to deal with.
+Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted, leading to a conflated mess of conflicting thought which neither I nor anyone else ever wants to deal with.
 
-This is why we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I've documented them here.
+Hence, we have code style guidelines. These guidelines outline how to format things so that everyone gets along and manslaughter is kept to a minimum. I myself have my own opinionated takes on how code should be formatted and find myself repeating the justification of my choices, so I've documented them here.
 
-Worth noting is that I am a frontend developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible, but often find myself working with more complex stacks incorporating languages such as PHP and TypeScript and a smattering of frameworks.
+Worth noting is that I am a front-end developer, and that is reflected in my preferences and the technologies those preferences best apply to. I tend to build for the web using HTML, CSS, and JavaScript where possible but often find myself working with more complex stacks incorporating languages such as PHP and a smattering of frameworks.
 
-I personally enforce these settings using [Prettier](https://prettier.io), which I feel does an excellent job. You can find my `.prettierrc` in my [dotfile repo on GitHub](https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yml). I've also noted the relevant Prettier options where applicable.
+I'm strongly of the opinion that code should be formatted in such a way that it is representative of how the code is run, and also in such a way that text editors can handle it gracefully and adapt its display to the user's preferences. Allowing user-dictated preferences to be easily applied reduces the impact of differing formatting opinions, allowing for improved experiences for all involved parties.
+
+I personally enforce these settings using [Prettier](https://prettier.io) via [`conform.nvim` in Neovim](/posts/neovim#conform-code-formatting), which I feel does an excellent job. You can find my `.prettierrc` in my [dotfile repo on GitHub](https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yml). I've also noted the relevant Prettier options where applicable.
 
 ## Use Tabs
 
@@ -27,9 +29,17 @@ Tabs should be used for indentation for several reasons. These include:
 
 Prettier: [`useTabs: true`](https://prettier.io/docs/options.html#tabs)
 
+## Naming Style
+
+HTML elements and attributes should be lowercase, not uppercase. It isn't 1995 any more. IDs and classes should both be in kebab-case. I'm not a huge fan of the naming style provided by the [BEM CSS methodology](https://getbem.com) or other similar projects.
+
+JavaScript variables and functions should be camelCase, immutable constants should be UPPER_SNAKE_CASE, classes and constructors should be PascalCase, and events/callbacks should be camelCase unless referencing HTML/CSS using kebab-case.
+
 ## Always Add Semicolons
 
-When writing JavaScript, every line that can end with a semicolon should end with a semicolon. JavaScript engines add them anyway, and it's ideal to see exactly what code will be executed.
+When writing JavaScript, every line that can end with a semicolon should end with a semicolon. When JavaScript is being parsed, [automatic semicolon insertion (ASI)](https://web.dev/learn/javascript/appendix#ASI) is used by interpreters to correct missing semicolons. This is error correction, not JavaScript being flexible.
+
+Semicolons should always be included, as it is ideal to see exactly what code will be executed.
 
 Prettier: [`semi: true`](https://prettier.io/docs/options.html#semicolons)
 
@@ -49,7 +59,7 @@ function name {
 
 Strings should use double quotes (`""`), not single quotes (`''`). This makes it easier to use single quotes (which are more common) within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.
 
-Prettier: [`singleQuote: true`](https://prettier.io/docs/options.html#quotes), [`jsxSingleQuote: false`](https://prettier.io/docs/options.html#jsx-quotes)
+Prettier: [`singleQuote: false`](https://prettier.io/docs/options.html#quotes), [`jsxSingleQuote: false`](https://prettier.io/docs/options.html#jsx-quotes)
 
 ```javascript
 // Bad
@@ -69,25 +79,29 @@ Prettier: [`quoteProps: "consistent"`](https://prettier.io/docs/options.html#quo
 // Bad
 object = {
 	property1: "content",
-	"property2": "content"
+	"property2": "content",
 };
 
 // Good
 object = {
 	"property1": "content",
-	"property2": "content"
+	"property2": "content",
 };
 ```
 
 ## Don't Split Strings Across Multiple Lines
 
-Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search and is a general pain to deal with.
+Strings should be contained within one line unless there is genuine reason not to do so. It makes things hard to search, laborious to copy, and is a general pain to deal with.
 
 ```javascript
 // Bad
 const variable = "This is awful. It may be easier for a human to read, but \
 it leads to annoyance and makes it harder to search for things. It is an \
 all around pain.";
+
+const variable = "This is awful. It may be easier for a human to read, but " +
+"it leads to annoyance and makes it harder to search for things. It is an " +
+"all around pain.";
 
 // Good
 const variable = "This is better. It may be a tad harder for a human to read, but resolves many annoyances and makes it easier to search for things. It is much cleaner as well.";
@@ -143,7 +157,7 @@ x => x
 
 ## Unwrap Prose
 
-Prose formatting should be handled slightly differently to code. As such, each block of prose should be unwrapped into one line. This makes it easy for any editor to define how they want prose to display.
+Prose formatting should be handled slightly differently from code. As such, each block of prose shouldn't be forcefully wrapped. Preserve keeps the writer's chosen breaks and makes it easy for any text editor to define how prose should display.
 
 Prettier: [`proseWrap: preserve`](https://prettier.io/docs/options.html#prose-wrap)
 
@@ -155,24 +169,24 @@ Prettier: [`htmlWhitespaceSensitivity: css`](https://prettier.io/docs/options.ht
 
 ## Line Feed End of Line
 
-Different operating systems handle line endings differently, and things get messy quick. Using line feed, which is common on Unix based systems, is a clean option that is also supported on Windows.
+Different operating systems handle line endings differently, and things get messy quick. Using line feed, which is common on Unix-based systems, is a clean option that is also supported on Windows.
 
 Prettier: [`endOfLine: lf`](https://prettier.io/docs/options.html#end-of-line)
 
 ## Format Embedded Languages
 
-Code of one type used within a file of another should be formatted as you would code in it's native filetype.
+Code of one type used within a file of another should be formatted as you would code in its native file type.
 
 Prettier: [`embeddedLanguageFormatting: auto`](https://prettier.io/docs/options.html#embedded-language-formatting)
 
 ## Keep Multiple Attributes Per Line
 
-Splitting an element's attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space.
+Splitting an element's attributes into multiple lines often makes it harder to quickly grasp structure and is an inefficient use of screen space. I also feel it just looks rather ugly.
 
 Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/options.html#single-attribute-per-line)
 
 ```html
-// Bad
+<!-- Bad -->
 <div
 	 class="name"
 	 id="name"
@@ -180,7 +194,7 @@ Prettier: [`singleAttributePerLine: false`](https://prettier.io/docs/options.htm
 	Content
 </div>
 
-// Good
+<!-- Good -->
 <div class="name" id="name">
 	Content
 </div>
