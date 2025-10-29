@@ -42,29 +42,34 @@ figure {
 
 	.open {
 		position: absolute;
-		inset-block-start: 1rem;
-		inset-inline-end: 1rem;
-		background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
-		backdrop-filter: blur(0.75rem);
-		padding: 0.25rem;
-		opacity: 0;
-		transition: 0.1s;
+		inset: 0;
+		background: none;
+		padding: 0;
 
 		svg {
-			block-size: 1.3rem;
+			position: absolute;
+			block-size: 1.75rem;
 			fill: var(--bright_white);
+			inset-block-start: 1rem;
+			inset-inline-end: 1rem;
+			background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
+			backdrop-filter: blur(0.75rem);
+			padding: 0.25rem;
+			opacity: 0;
+			transition: 0.1s;
 		}
-	}
 
-	&:hover,
-	&:focus-within {
-		.open {
-			opacity: 1;
+		&:hover,
+		&:focus {
+			svg {
+				opacity: 1;
+			}
 		}
 	}
 }
 
 figcaption {
+	position: relative;
 	margin-block-start: 0.75rem;
 	margin-inline: 0.5rem;
 	font-size: small;
@@ -73,6 +78,7 @@ figcaption {
 	color: light-dark(var(--grey), var(--white));
 	text-wrap: balance;
 	line-height: 1.5;
+	z-index: 1;
 }
 
 .figure-content-wrapper {
