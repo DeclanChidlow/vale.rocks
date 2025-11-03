@@ -207,6 +207,8 @@
   release_year: 2013
 - title: Iron Man 3
   release_year: 2013
+- title: Percy Jackson and the Sea of Monsters
+  release_year: 2013
 - title: "The Hunger Games: Catching Fire"
   release_year: 2013
   watches:
@@ -237,9 +239,17 @@
       format: Streaming
 - title: Johnny English Reborn
   release_year: 2011
+- title: Harry Potter and the Deathly Hallows - Part 2
+  release_year: 2011
 - title: Iron Man 2
   release_year: 2010
+- title: Percy Jackson and the Lightning Thief
+  release_year: 2010
+- title: Harry Potter and the Deathly Hallows - Part 1
+  release_year: 2010
 - title: Fantastic Mr Fox
+  release_year: 2009
+- title: Harry Potter and the Half-Blood Prince
   release_year: 2009
 - title: "Evangelion: 2.0 You Can (Not) Advance"
   release_year: 2009
@@ -269,6 +279,8 @@
 - title: The Darjeeling Limited
   release_year: 2007
   rating: 4
+- title: Harry Potter and the Order of the Phoenix
+  release_year: 2007
 - title: Hot Fuzz
   release_year: 2007
   rating: 4
@@ -296,6 +308,12 @@
       format: Streaming
 - title: Apocalypto
   release_year: 2006
+- title: Harry Potter and the Goblet of Fire
+  release_year: 2005
+  watches:
+    - date: 2019-03
+      format: Theatre
+      notes: Watched with full musical accompaniment of the West Australian Symphony Orchestra.
 - title: Hoodwinked
   release_year: 2005
 - title: The Hitchhiker's Guide to the Galaxy
@@ -310,6 +328,8 @@
 - title: The Life Aquatic with Steve Zissou
   release_year: 2004
   rating: 4
+- title: The Polar Express
+  release_year: 2004
 - title: "Scooby-Doo 2: Monsters Unleashed"
   release_year: 2004
   notes: Like the first film, this is hilarious to watch as an adult given how many they managed to get away with for an audience of children.
@@ -560,7 +580,7 @@
 - title: Blade Runner
   release_year: 1982
   rating: 5
-  notes: I have only ever watched the Final Cut.
+  notes: I have only ever watched the Final Cut. The tears in rain monologue is perhaps the single best piece of cinema I have witnessed.
   watches:
     - date: 2025-08-02
       format: Streaming
