@@ -211,3 +211,8 @@
       watches:
         - start: 2024-09-28
           finish: 2024-11-30
+- title: Scooby-Doo, Where Are You!
+  release_year: 1969
+  seasons:
+    - number: 1
+    - number: 2

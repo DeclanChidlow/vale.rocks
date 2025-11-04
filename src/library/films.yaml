@@ -72,6 +72,8 @@
     - date: 2019
       format: Drive-In Cinema
       notes: "Sing-along version in a double feature with Alita: Battle Angel."
+- title: "Jumanji: The Next Level"
+  release_year: 2019
 - title: "Avengers: Endgame"
   release_year: 2019
   watches:
@@ -79,6 +81,13 @@
       format: Cinema
 - title: Yesterday
   release_year: 2019
+- title: "Fantastic Beasts: The Crimes of Grindelwald"
+  release_year: 2018
+- title: Ralph Breaks the Internet
+  release_year: 2018
+  watches:
+    - date: 2018
+      format: Cinema
 - title: Sherlock Gnomes
   release_year: 2018
   watches:
@@ -115,6 +124,8 @@
   watches:
     - date: 2017-07-04
       format: Cinema
+- title: "Jumanji: Welcome to the Jungle"
+  release_year: 2017
 - title: Paddington 2
   release_year: 2017
   rating: 4
@@ -125,6 +136,10 @@
   watches:
     - date: 2025-08-15
       format: Streaming
+- title: Fantastic Beasts and Where to Find Them
+  release_year: 2016
+- title: Moana
+  release_year: 2016
 - title: Zootopia
   release_year: 2016
   watches:
@@ -154,12 +169,16 @@
   watches:
     - date: 2016
       format: Cinema
+- title: Inside Out
+  release_year: 2015
 - title: Big Hero 6
   release_year: 2015
   watches:
     - date: 2015-01-22
       format: Cinema
 - title: "Star Wars: The Force Awakens"
+  release_year: 2015
+- title: Goosebumps
   release_year: 2015
 - title: Paper Planes
   release_year: 2015
@@ -207,6 +226,10 @@
   release_year: 2013
 - title: Iron Man 3
   release_year: 2013
+- title: Scooby-Doo! Stage Fright
+  release_year: 2013
+- title: Frozen
+  release_year: 2013
 - title: Percy Jackson and the Sea of Monsters
   release_year: 2013
 - title: "The Hunger Games: Catching Fire"
@@ -221,6 +244,11 @@
       format: Streaming
 - title: Men in Black 3
   release_year: 2012
+- title: Wreck-it Ralph
+  release_year: 2012
+  watches:
+    - date: 2012
+      format: Cinema
 - title: "Evangelion: 3.0 You Can (Not) Redo"
   release_year: 2012
   rating: 2
@@ -232,6 +260,10 @@
   watches:
     - date: 2021-06-23
       format: Streaming
+- title: Big Top Scooby-Doo!
+  release_year: 2012
+- title: Scooby-Doo! Music of the Vampire
+  release_year: 2012
 - title: "X-Men: First Class"
   release_year: 2011
   watches:
@@ -239,15 +271,32 @@
       format: Streaming
 - title: Johnny English Reborn
   release_year: 2011
+- title: Scooby-Doo! Legend of the Phantosaur
+  release_year: 2011
 - title: Harry Potter and the Deathly Hallows - Part 2
   release_year: 2011
+- title: Scooby-Doo! Camp Scare
+  release_year: 2010
+- title: Scooby-Doo! Abracadabra-Doo
+  release_year: 2010
+- title: Scooby-Doo! Curse of the Lake Monster
+  release_year: 2010
 - title: Iron Man 2
   release_year: 2010
 - title: Percy Jackson and the Lightning Thief
   release_year: 2010
 - title: Harry Potter and the Deathly Hallows - Part 1
   release_year: 2010
+- title: Toy Story 3
+  release_year: 2010
 - title: Fantastic Mr Fox
+  release_year: 2009
+- title: Up
+  release_year: 2009
+  notes: The start of this film is perhaps the biggest gut punch to ever open a children's movie.
+- title: Scooby-Doo! The Mystery Begins
+  release_year: 2009
+- title: Scooby-Doo! and the Samurai Sword
   release_year: 2009
 - title: Harry Potter and the Half-Blood Prince
   release_year: 2009
@@ -264,6 +313,10 @@
   watches:
     - date: 2025
       format: Streaming
+- title: Scooby-Doo! and the Goblin King
+  release_year: 2008
+- title: WALL-E
+  release_year: 2008
 - title: Ponyo
   release_year: 2008
   rating: 4
@@ -276,6 +329,8 @@
   watches:
     - date: 2025-07-19
       format: Streaming
+- title: Chill Out, Scooby-Doo!
+  release_year: 2007
 - title: The Darjeeling Limited
   release_year: 2007
   rating: 4
@@ -308,6 +363,10 @@
       format: Streaming
 - title: Apocalypto
   release_year: 2006
+- title: Scooby-Doo! in Where's My Mummy?
+  release_year: 2005
+- title: Aloha, Scooby-Doo!
+  release_year: 2005
 - title: Harry Potter and the Goblet of Fire
   release_year: 2005
   watches:
@@ -318,6 +377,10 @@
   release_year: 2005
 - title: The Hitchhiker's Guide to the Galaxy
   release_year: 2005
+- title: Scooby-Doo! and the Loch Ness Monster
+  release_year: 2004
+- title: Thunderbirds
+  release_year: 2004
 - title: Spider-Man 2
   release_year: 2004
   rating: 4
@@ -335,14 +398,22 @@
   notes: Like the first film, this is hilarious to watch as an adult given how many they managed to get away with for an audience of children.
 - title: Shaun of the Dead
   release_year: 2004
+- title: The Incredibles
+  release_year: 2004
 - title: Harry Potter and the Prisoner of Azkaban
   release_year: 2004
   watches:
     - date: 2024-12-29
       format: Streaming
+- title: Scooby-Doo! and the Monster of Mexico
+  release_year: 2003
 - title: Inspector Gadget 2
   release_year: 2003
   notes: The body horror of a man's physicality disobeying his mind played off for laughs. Owned on a scratched ex-video-store DVD, such that at the climax of the film, when French Stewart breaks the fourth wall and says, 'Here comes the good part', it would cease playing and never recover.
+- title: School of Rock
+  release_year: 2003
+- title: Finding Nemo
+  release_year: 2003
 - title: X2
   release_year: 2003
   watches:
@@ -351,6 +422,8 @@
 - title: Johnny English
   release_year: 2003
 - title: "Austin Powers: Goldmember"
+  release_year: 2002
+- title: Treasure Planet
   release_year: 2002
 - title: Spider-Man
   release_year: 2002
@@ -377,6 +450,10 @@
   watches:
     - date: 2025-10-11
       format: Streaming
+- title: Scooby-Doo and the Cyber Chase
+  release_year: 2001
+- title: Monsters, Inc.
+  release_year: 2001
 - title: Harry Potter and the Philosopher's Stone
   release_year: 2001
   watches:
@@ -392,6 +469,8 @@
   watches:
     - date: 2022-09-13
       format: Streaming
+- title: Scooby-Doo and the Alien Invaders
+  release_year: 2000
 - title: American Psycho
   release_year: 2000
   rating: 4
@@ -402,6 +481,14 @@
   release_year: 1999
 - title: Inspector Gadget
   release_year: 1999
+- title: Toy Story 2
+  release_year: 1999
+- title: Scooby-Doo! and the Witch's Ghost
+  release_year: 1999
+- title: Scooby-Doo on Zombie Island
+  release_year: 1998
+- title: A Bug's Life
+  release_year: 1998
 - title: The Truman Show
   release_year: 1998
   watches:
@@ -456,12 +543,18 @@
       format: Streaming
     - date: 2025-02-08
       format: Streaming
+- title: Toy Story
+  release_year: 1995
+- title: Jumanji
+  release_year: 1995
 - title: "Naked Gun 33⅓: The Final Insult"
   release_year: 1994
   notes: Funny, but inferior to previous Naked Gun films.
   watches:
     - date: 2025-04-25
       format: Streaming
+- title: Forest Gump
+  release_year: 1994
 - title: Coneheads
   release_year: 1993
 - title: A League of Their Own
@@ -472,6 +565,8 @@
   watches:
     - date: 2024-12-24
       format: Streaming
+- title: Hook
+  release_year: 1991
 - title: Drop Dead Fred
   release_year: 1991
   rating: 3.5
@@ -535,8 +630,14 @@
   watches:
     - date: 2024-12-11
       format: Streaming
+- title: Scooby-Doo! and the Reluctant Werewolf
+  release_year: 1988
+- title: Scooby-Doo and the Ghoul School
+  release_year: 1988
 - title: Young Einstein
   release_year: 1988
+- title: Scooby-Doo Meets the Boo Brothers
+  release_year: 1987
 - title: The Princess Bride
   release_year: 1987
   rating: 4
@@ -547,6 +648,8 @@
 - title: Labyrinth
   release_year: 1986
   rating: 4
+- title: The Black Cauldron
+  release_year: 1985
 - title: Clue
   release_year: 1985
   rating: 4
@@ -613,6 +716,8 @@
       notes: Redux. Far worse than theatrical and a plain step-down in pacing. Added material was unnecessary and was cut for a reason.
 - title: Life of Brian
   release_year: 1979
+- title: Grease
+  release_year: 1978
 - title: "Star Wars: A New Hope"
   release_year: 1977
 - title: Monty Python and the Holy Grail
@@ -663,6 +768,8 @@
       format: Streaming
     - date: 2024-10-15
       format: Streaming
+- title: The Jungle Book
+  release_year: 1967
 - title: Daleks' Invasion Earth 2150AD
   release_year: 1966
 - title: Dr Who and the Daleks
@@ -671,8 +778,12 @@
   watches:
     - date: 2025-03-22
       format: Streaming
+- title: Mary Poppins
+  release_year: 1964
 - title: A Hard Day's Night
   release_year: 1964
   watches:
     - date: 2021-09-03
       format: Streaming
+- title: Peter Pan
+  release_year: 1953
