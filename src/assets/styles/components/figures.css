@@ -35,8 +35,9 @@ figure {
 		&.left,
 		&.right {
 			float: none;
-			margin-block: 1rem;
+			margin-block: 2rem;
 			margin-inline: auto;
+			inline-size: 85%;
 		}
 	}
 
@@ -48,13 +49,13 @@ figure {
 
 		svg {
 			position: absolute;
-			block-size: 1.75rem;
+			block-size: 1.5rem;
 			fill: var(--bright_white);
 			inset-block-start: 1rem;
 			inset-inline-end: 1rem;
 			background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
 			backdrop-filter: blur(0.75rem);
-			padding: 0.25rem;
+			padding: 0.15rem;
 			opacity: 0;
 			transition: 0.1s;
 		}
@@ -84,6 +85,8 @@ figcaption {
 .figure-content-wrapper {
 	position: relative;
 	block-size: 100%;
+	width: fit-content;
+	margin-inline: auto;
 }
 
 .blur {
@@ -92,6 +95,7 @@ figcaption {
 	z-index: -1;
 	scale: 1.05;
 	filter: blur(1rem);
+	background-size: contain;
 
 	@media (prefers-color-scheme: dark) {
 		filter: blur(1rem) brightness(0.6);
@@ -135,6 +139,7 @@ figcaption {
 		max-inline-size: 60rem;
 		max-block-size: calc(90vh - 4rem);
 		margin-block-end: 2rem;
+		object-fit: contain;
 	}
 
 	.caption,

@@ -283,39 +283,48 @@ body:has(#popover-menu:popover-open) {
 
 	.close {
 		position: fixed;
-		inset-inline-start: 0;
-		inset-inline-end: 0;
-		padding: 0.8rem;
-		background: none;
+		inset-block-start: 1rem;
+		inset-inline-end: 1rem;
+		background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
+		backdrop-filter: blur(0.75rem);
+		padding: 0.1rem;
+		z-index: 1;
 
 		svg {
-			block-size: 2rem;
-			inline-size: 2rem;
-			fill: light-dark(var(--black), var(--bright_white));
+			block-size: 1.75rem;
+			fill: var(--bright_white);
+		}
+	}
+
+	.horizontal-percentage {
+		font-size: 0.9rem;
+		height: 1.95rem;
+		align-content: center;
+	}
+
+	.headers-list {
+		margin-block-start: 1rem;
+	}
+
+	.header-list-link {
+		&.active {
+			font-weight: bold;
+		}
+
+		&::after {
+			display: none;
 		}
 	}
 }
 
-.header-list-link {
-	&.active {
-		font-weight: bold;
+@media (max-width: 45rem) {
+	html:has(#toc-menu:popover-open) {
+		margin-block-start: var(--toc-height);
+		scroll-padding-top: calc(var(--toc-height) + 2rem);
 	}
 
-	&::after {
-		display: none;
+	#scroll-container:has(#toc-menu:popover-open),
+	#scroll-container:has(#toc-menu:popover-open) .heading-indicator {
+		inset-block-start: var(--toc-height);
 	}
-}
-
-.horizontal-percentage {
-	font-size: 0.9rem;
-}
-
-html:has(#toc-menu:popover-open) {
-	margin-block-start: var(--toc-height);
-	scroll-padding-top: calc(var(--toc-height) + 2rem);
-}
-
-#scroll-container:has(#toc-menu:popover-open),
-#scroll-container:has(#toc-menu:popover-open) .heading-indicator {
-	inset-block-start: var(--toc-height);
 }

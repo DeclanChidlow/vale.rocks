@@ -4,7 +4,7 @@ class ScrollProgressIndicator {
 		this.indicator = document.getElementById("indicator");
 		this.article = document.querySelector("article");
 		this.headers = this.article.querySelectorAll("h2, h3");
-		this.breakpoint = 700;
+		this.breakpoint = 720;
 		this.currentLayout = null;
 		this.percentageDisplay = null;
 		this.headersList = null;
@@ -250,7 +250,9 @@ class ScrollProgressIndicator {
 	}
 
 	updateHeaderMarkers(isHorizontal) {
-		const { articleHeight } = this.getArticleDimensions();
+		const { articleHeight, viewportHeight } = this.getArticleDimensions();
+		const scrollableHeight = articleHeight - viewportHeight;
+
 		this.scrollContainer.querySelectorAll(".heading-marker-container").forEach((marker) => marker.remove());
 		const h2Headers = Array.from(this.headers).filter((header) => header.tagName.toLowerCase() === "h2");
 
@@ -261,7 +263,7 @@ class ScrollProgressIndicator {
 
 			h2Headers.forEach((header) => {
 				const headerOffset = header.offsetTop - this.article.offsetTop;
-				const position = (headerOffset / articleHeight) * 100;
+				const position = scrollableHeight > 0 ? (headerOffset / scrollableHeight) * 100 : 0;
 				const marker = this.createHeaderMarker(header, position, isHorizontal, true);
 				this.scrollContainer.appendChild(marker);
 			});
