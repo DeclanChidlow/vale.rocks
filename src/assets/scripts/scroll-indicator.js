@@ -62,6 +62,15 @@ class ScrollProgressIndicator {
 		document.addEventListener("scroll", () => this.update());
 		document.addEventListener("DOMContentLoaded", () => this.update());
 		window.addEventListener("resize", () => this.update());
+		window.addEventListener("load", () => this.update());
+
+		const images = this.article.querySelectorAll("img");
+		images.forEach((img) => {
+			if (!img.complete) {
+				img.addEventListener("load", () => this.update());
+				img.addEventListener("error", () => this.update());
+			}
+		});
 
 		if (this.horizontalContainer) {
 			this.horizontalContainer.addEventListener("toggle", (event) => {
