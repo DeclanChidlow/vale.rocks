@@ -21,7 +21,7 @@ class LibrarySorting {
 	}
 
 	detectContentType() {
-		const types = ["films", "books", "series", "games"];
+		const types = ["films", "books", "series", "albums", "games"];
 		return types.find((type) => document.querySelector(`.${type}`)) || null;
 	}
 
