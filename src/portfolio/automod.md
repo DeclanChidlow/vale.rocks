@@ -1,7 +1,7 @@
 ---
 title: AutoMod
 description: A popular moderation bot developed for Stoat that protects over 145K users across 5,500+ servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
-og_description: A moderation bot for Stoat that keeps communities safe.
+og_description: Moderation bot for Stoat that keeps communities safe.
 accent_colour: "#ff6763"
 repository: DeclanChidlow/AutoMod
 hoisted: true

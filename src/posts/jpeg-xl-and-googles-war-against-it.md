@@ -18,7 +18,7 @@ Since we've had computers, we've been trying to display images on them. We start
 
 However, these early formats were rudimentary. They largely lacked compression and weren't widely supported. It was an era when every piece of software rolled their own format and interoperability wasn't a priority. This was an issue, and as the need for greater compatibility grew, some proper standards formed. Of these, GIF, JPEG, and PNG are probably the best known and relevant today.
 
-GIF, short for Graphics Interchange Format, is messy. It released in the '80s, uses the simple Lempel–Ziv–Welch compression algorithm, and is limited to a palette of a meagre 256 colours. In today's landscape, it looks pretty rough, but it's managed to stick around thanks to its great software support and animation capabilities.
+GIF, short for Graphics Interchange Format, is messy. It released in the '80s, uses the simple Lempel–Ziv–Welch compression algorithm, and with more than 256 colours, [bloats in size extremely swiftly](https://web.archive.org/web/20130330081050/http://phil.ipal.org/tc.html). In today's landscape, it looks pretty rough, but it's managed to stick around thanks to its great software support and animation capabilities.
 
 JPEG, also referred to as JPG and short for Joint Photographic Experts Group, came out in the early '90s. While it does have a lossless variant, it is largely used as a lossy format. However, the degree of compression can be controlled, unlike many other formats, which allows users to select the trade off between quality and size. It's great compression and early debut led to it becoming the most widely used format.
 

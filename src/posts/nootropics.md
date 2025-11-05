@@ -3,6 +3,7 @@ title: Nootropical Notes
 description: Personal notes on assorted nootropics I've tried and used, including stimulants such as caffeine and nicotine. Anecdotal experiences, musings, and reflections on optimising cognitive performance.
 og_description: A cataloge of cognitively constructive chemical compounds.
 pub_time: 2025-10-17
+mod_time: 2025-11-05
 section: Essay
 ---
 
@@ -54,7 +55,7 @@ That caffeine anxiety tends to put an end to my effective productivity premature
 <figcaption>Crude comparison of productivity with and without caffeine over a period of a typical day. Dashed cyan represents without, and solid red represents with.</figcaption>
 </figure>
 
-Unfortunately, caffeine is a diuretic, which means that it sends me to the bathroom with more frequency than is optimal. I must opt not to consume caffeine if I'm aware I won't have access to a bathroom. It all ensures that I am careful to consume more liquid than usual on days I consume caffeine to avoid dehydration.
+Unfortunately, caffeine is a diuretic, which means that it sends me to the bathroom with more frequency than is optimal. I must opt not to consume caffeine if I'm aware I won't have access to a bathroom. It also ensures that I am careful to consume more liquid than usual on days I consume caffeine to avoid dehydration.
 
 To avoid a tolerance, I try not to consume caffeine too often and sometimes take a break to allow my tolerance to subside. I avoid having a significant caffeine intake more than three days per week, and ideally not on consecutive days, but every study I've consulted seems to have weird data with questionable conclusions. I came to my three-day limit after reading Michael Dickens' [self-experiment](https://mdickens.me/2024/04/11/caffeine_self_experiment/) and [his follow-up](https://mdickens.me/2024/06/24/continuing_caffeine_self_experiment/), among a few other resources. My decision isn't exactly perfectly scientifically backed, but I've given it the 'good enough' stamp of approval.
 
@@ -97,6 +98,18 @@ I do consume a fair amount of yoghurt, eggs, cow's milk, and butter, which are o
 After reading a few papers, I purchased 400 soft capsules containing 25mg of colecalciferol (1000IU of D<sub>3</sub>) to replace my expiring existing supply at a cost of $15.59 (~$0.04 per capsule) in July 2025. I take one each morning with breakfast. The morning [helps avoid potential interference with sleep](https://gwern.net/zeo/vitamin-d), and the food helps with absorption.
 
 1000IU meets or exceeds the guidelines set by [the NHS](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/), [NIH](https://ods.od.nih.gov/factsheets/VitaminD-Consumer/#h2), and [EFSA](https://www.efsa.europa.eu/en/efsajournal/pub/4547). It is also an easily sourceable dosage, with lower amounts such as 600IU or 800IU being more expensive and harder to come by. Any which way, 1000IU is within safe levels, and a slightly higher than recommended dosage seems unlikely to do any significant damage. The maximum safe level seems to be 4000IU, with nobody advising over 2000IU for reasons of cautious safety and non-existent further benefits.
+
+## Future Interests
+
+Lion's Mane Mushrooms _(Hericium erinaceus)_ are famed for having extensive health benefits. Claims of its benefits include protecting against dementia and Alzheimer's, relieving symptoms of depression and anxiety, faster nervous system regeneration, promoting gut health, reducing cardiovascular diseases, helping manage diabetes, fighting cancer, reducing inflammation and oxidative stress, and boosting the immune system.
+
+These are some pretty big and substantial claims, and if true, cement Lion's Mane as a genuine [superfood](https://en.wikipedia.org/wiki/Superfood). However, it doesn't pass the sniff test and seems far too good to be true. If it is truly capable of even half of the reported benefits, it'd be revolutionary. I'm intrigued by the reported benefits, but there isn't yet comprehensive scientific research such that I'm on board. Especially as most studies target demographics substantially older than I am at time of writing.
+
+There don't seem to be any reported negatives that would justify outright avoidance, and [the _very limited_ research in the context of young adults](https://www.mdpi.com/2072-6643/15/22/4842) shows some benefit, but the cost is prohibitive to regularly purchase it on a whim.
+
+I have no issues falling asleep, but melatonin has likely positive impacts on sleep quality and duration, which would have obvious improvements to baseline performance. I do worry that a dependence might occur such that I'd be left in a poor state without it. My sleep is overall at a quality such that I haven't felt it necessary to employ supplements to improve it, though I certainly would consider it.
+
+Modafinil is another stimulant and of great interest to me but is illegal in Australia, where I reside at time of publication. It has a long half-life, and there exist some very interesting reports of people being able to skip a night of sleep with minimal impact on performance. However, different people seem to be affected substantially differently.
 
 [^1]: Read: fabricated lies designed to prey on the vulnerable and/or gullible.
 
