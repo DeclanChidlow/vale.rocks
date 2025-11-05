@@ -3,34 +3,35 @@ title: Open-Source is Just That
 description: A rant about behaviour in the open-source software community focussing on user entitlement at the expense of developer wellbeing.
 og_description: Don't bite the hand that feeds you.
 pub_time: 2025-04-04
+mod_time: 2025-11-05
 section: Rant
 tags: [development]
 ---
 
 As someone who has been known to write open-source software and contribute to open-source projects, I have some thoughts on the matter. Particularly, the growing sense of entitlement among users.
 
-When software is open-source, it means it is open-source -- that the source is open -- nothing more. This simple fact is frequently misunderstood, so let me be crystal clear about what open-source does *not* automatically mean by default:
+When software is open-source, it means it is open-source -- that the source is open and you're granted the freedoms defined by the license -- nothing more. These simple facts are frequently misunderstood, so let me be crystal clear about what open-source does _not_ automatically mean by default:
 
-- It does not mean open to contributions;
-- It does not mean support is offered;
-- It does not mean you're entitled to feature requests;
-- It does not mean the developer owes you their time;
-- It does not mean you're entitled to anything;
-- It does not mean it is _free_ and open-source (FOSS).
+- It does not mean open to contributions.
+- It does not mean support is offered.
+- It does not mean you're entitled to feature requests.
+- It does not mean the developer owes you their time.
+- It does not mean you're entitled to the maintainer's labour.
+- It does not mean you can do _anything_ you want. You remain bound by the licence.
 
 Some open-source projects choose to offer these things, but they should not be expected. It is up to the discretion of the project and maintainers. Being provided the software at all is a privilege, _not_ a right -- anything further doubly so. [^1]
 
-When software is open-source, it is open-source, not necessarily free and open-source (FOSS), and even if it is FOSS, it might still have a restrictive licence. [^2] The code being available in and of itself _does not_ give you a right to take it, modify it, or redistribute it.
+When software is open-source, it is open-source, not necessarily _completely_ free for you to do what you want with, as it might still have a somewhat restrictive licence. [^2] Separately, the code being available in and of itself _does not_ necessarily make it open-source and give you a right to take it, modify it, or redistribute it.
 
 ## Abuse of Devs
 
-I can't count the amount of times I've seen entitled script kiddies spam issues on GitHub or flood a chatroom begging for support on a project run by a volunteer who is fresh out of money, running on caffeine fumes, and yet is working out of love for their common man in the pursuit of improving the world -- even if just by a little.
+I can't count the amount of times I've seen entitled script kiddies spam issues on GitHub or flood a chatroom begging for support on a project run by a volunteer who is fresh out of money, running on caffeine fumes, and yet is working out of love for their fellow humans in the pursuit of improving the world -- even if just by a little.
 
 What makes this particularly egregious is that these very much entitled people believe it their right to receive this support and will become combative about it when confronted. It sickens me to see people do this -- to verbally abuse the very developers who created the tools they're using freely.
 
-I've seen a concerning number of people who side with the script kiddies on this, stating that "maintainers shouldn't have started or released their project if they didn't want to provide support" or that "project maintainers just need a thicker skin". What a _disgusting_ way to act -- such unwarranted entitlement has no place in the open-source community or any community for that matter.
+I've seen a concerning number of people who side with the script kiddies on this, stating that 'maintainers shouldn't have started or released their project if they didn't want to provide support' or that 'project maintainers just need a thicker skin'. What a _disgusting_ way to act -- such unwarranted entitlement has no place in the open-source community or any community for that matter.
 
-The world runs on open-source. The site you are reading this on was written using FOSS software and is source-available itself. I think it's important to have open code, but the mere act of making code public now seems to create an expectation that developers must accept pull requests, manage issues, offer support, etc -- all without compensation.
+The world runs on open-source. The site you are reading this on was written using open-source software and is source-available itself. I think it's important to have open code, but the mere act of making code public now seems to create an expectation that developers must accept pull requests, manage issues, offer support, etc -- all without compensation.
 
 Even ickier is when people try to exploit maintainer goodwill in the name of profit, such as when corporations request features without intent to give anything in return. This corporate exploitation is even more reprehensible than some no-name script kiddy doing so. It is my opinion that the right thing to do if you're turning a profit using open-source software is to contribute financially back to the people who develop and maintain the tools enabling your success.
 
@@ -44,11 +45,15 @@ When I emphasise that support isn't automatically offered when publishing open-s
 4. Use proper channels: Don't spam developers on their personal social media or email if they've established official support channels. They have lives and a right to switch off.
 5. Contribute where possible: Consider fixing small bugs yourself or improving documentation if you have the skills.
 
-Even if you are paying or donating, still ensure you remember the person. **Money doesn't substitute manners.**
+Even if you are paying or donating, still ensure you remember the human. **Money doesn't substitute manners.**
 
 ## Making Improvements
 
-There is unwarranted entitlement surrounding open-source software, and that isn't acceptable. If you'd like to help do something about it, you can help by calling people out and standing up for maintainers when the situation arises (though take care to do it in a respectful manner). Educate, don't ridicule. You could also consider a financial contribution, reaching out to show gratitude, setting realistic expectations yourself, and defining proper boundaries if you're a maintainer.
+There is unwarranted entitlement surrounding open-source software, and that isn't acceptable. If you'd like to help do something about it, you can call people out and stand up for maintainers when the situation arises (though take care to do so in a respectful manner). Educate, don't ridicule. You could also consider a financial contribution, reaching out to show gratitude, and setting realistic expectations for yourself while defining proper boundaries if you're a maintainer.
+
+If you're inclined to contribute, do not uncritically regurgitate AI slop at maintainers. Sending an AI-generated pull request or opening an AI-generated issue [isn't helpful](/micros/20250428-1129) if the maintainer could get the exact same results with a simple prompt themself.
+
+It feels good to contribute to open-source projects, but that goodness should come from making genuine, honest improvements, not taking shortcuts that actively negatively impact the very projects you're intending to aid.
 
 ---
 
@@ -56,4 +61,6 @@ Remember: access to someone else's code is not an entitlement to their time, att
 
 [^1]: There are paid open-source projects where it is reasonable to be vocal when you're not receiving the advertised product or service. In these cases, you should absolutely exercise your rights as a consumer, but the discussion of this article is focusing on labours of love created by individuals or small teams who share their work freely.
 
-[^2]: What licences are considered 'FOSS' depends on how you define the term, but that is an entirely different kettle of fish.
+[^2]: What licences are considered 'open-source' depends on how you define the term, but that is an entirely different kettle of fish.
+
+    The Affero General Public License (AGPL) is a common example of this point of contention, with some people considering the requirement that the code must be distributed to 'all users interacting with it remotely through a computer network' to violate open-source principles. Others take no such issue.

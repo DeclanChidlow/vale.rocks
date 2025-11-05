@@ -94,6 +94,7 @@
 			padding-inline-start: 1rem;
 			margin-inline-start: 0.5rem;
 			padding-block: 0.25rem;
+			margin-block-start: 0;
 
 			+ p {
 				padding-block-start: 0.5rem;
