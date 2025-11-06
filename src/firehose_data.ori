@@ -1,8 +1,8 @@
 {
-	...post_data.ori,
-	...micro_data.ori,
-	...video_data.ori,
-	...photography_data.ori,
+	...post_data.ori
+	...micro_data.ori
+	...video_data.ori
+	...photography_data.ori
 	...(elsewhere_data.yaml → (_) => Tree.map(_, (elsewhere) => {
 		  ...elsewhere
 		  type: "elsewhere"
