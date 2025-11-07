@@ -7,7 +7,7 @@ mod_time: 2025-10-01
 section: Meta
 ---
 
-I collect some anonymous analytics on my Vale.Rocks. Not because I feel the need to spy on my users every move, but rather because I quite enjoy nerding out about statistics. I love being able to see what country people are showing up from, what devices they’re using, and their browsers. Being able to see view counts tick up also helps my motivation [^1].
+I collect some anonymous analytics on Vale.Rocks. Not because I feel the need to spy on my users every move, but rather because I quite enjoy nerding out about statistics. I love being able to see what country people are showing up from, what devices they’re using, and their browsers. Being able to see view counts tick up also helps my motivation [^1].
 
 I also find it endlessly interesting to go have a look at where people are finding my site. Sometimes I’ll find that one of my posts has ended up in some obscure non-English newsletter or, at other times, on some niche forum straight out of the last century. It’s lovely being able to go down little rabbit holes inspecting such cases and to jump into discussions across the net.
 

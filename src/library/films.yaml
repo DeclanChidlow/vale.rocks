@@ -169,6 +169,8 @@
   watches:
     - date: 2016
       format: Cinema
+- title: Pixels
+  release_year: 2015
 - title: Inside Out
   release_year: 2015
 - title: Big Hero 6
