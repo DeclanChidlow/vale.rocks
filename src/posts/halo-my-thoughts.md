@@ -146,7 +146,7 @@ What really cemented my love for Reach was the epilogue. As you fight the losing
 
 ## Halo 4
 
-Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it's a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries, a subsidiary of Microsoft constructed exclusively for creating Halo games.
+Halo 4 is pretty good. It's not the best, but it'd be a misjustice not to say it's a worthy addition to the series. This is the first game to be developed exclusively by new series holder, 343 Industries (now Halo Studios), a subsidiary of Microsoft constructed exclusively for creating Halo games.
 
 <figure class="right">
 <img src="https://halo.wiki.gallery/images/thumb/9/9c/H4-E3-Campaign-7.jpg/1600px-H4-E3-Campaign-7.jpg" alt="First-person perspective of a player holding a futuristic assault rifle in a lush jungle environment, firing at a Promethean enemy that's disintegrating upon being hit, with a heads-up display showing health, ammunition, and radar.">
