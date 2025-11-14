@@ -265,3 +265,6 @@
 - title: Squoosh
   url: squoosh.app
   description: Compare differences in image file formats and compression.
+- title: Clippy
+  url: bennettfeely.com/clippy
+  description: CSS clip-path maker

@@ -56,13 +56,19 @@ h6 {
 	}
 
 	button {
+		background: transparent;
 		color: var(--bright_grey);
-		background: none;
 		font-size: smaller;
-		line-height: 0;
-		padding-inline: 1rem;
+		margin-block-start: -0.4rem;
+		margin-inline-start: auto;
+		transition: scale 0.25s;
+
+		&:not(:hover, .copied, .error) {
+			scale: 0.9;
+		}
 
 		&:hover {
+			background: transparent;
 			color: light-dark(var(--black), var(--bright_white));
 		}
 
@@ -79,9 +85,8 @@ h6 {
 		button {
 			visibility: hidden;
 			position: absolute;
-			inset-block-start: 0;
-			inset-inline-start: -2.5rem;
-			line-height: normal;
+			inset-inline-start: -2rem;
+			padding-inline-end: 0.7rem;
 		}
 
 		&:hover button,
@@ -89,7 +94,6 @@ h6 {
 		button:hover,
 		button:focus-within {
 			visibility: visible;
-			background: none;
 		}
 	}
 }

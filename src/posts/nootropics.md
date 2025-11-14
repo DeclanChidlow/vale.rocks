@@ -73,7 +73,7 @@ I am still interested in whether or not L-theanine has any actual effect, especi
 
 Nicotine gets a bad rap -- partly for good reason. Generally, nicotine is associated with tobacco, which lends a negative association. It is widely considered to be extremely addictive (perhaps to an overstated level) and is a stimulant, which is where my interest in the drug lies. It has a short half-life of ~2 hours (substantially less than caffeine's ~6+), which makes it a reasonable choice for avoiding too much sleep disruption, and is an anxiolytic, which gives it a leg up over caffeine, which I often find anxiety-inducing.
 
-Unfortunately, most nicotine research is entangled with research of tobacco products and especially cigarettes, meaning findings are often conflated and thus unreliable in the case of nicotine in isolation. The few tests of nicotine in isolation indicate that it is not a carcinogen, but that, as expected from a stimulant, it often increases blood pressure and can impact cardiovascular health.
+Unfortunately, most nicotine research is entangled with research of tobacco products and especially cigarettes, meaning findings are often conflated and thus unreliable in the case of nicotine in isolation. The few tests of nicotine in isolation indicate that it is not a carcinogen, but that, as expected from a stimulant, it often increases blood pressure and can impact oral [^3] and cardiovascular health.
 
 I had heard people call nicotine a 'clean' stimulant -- not presenting the same downsides as caffeine. I have to agree, as I've found nicotine's effects to be much less of a disruptive 'buzz'. The onset after placing a piece of gum in the mouth is immediate, and there is no resultant crash. The trademark caffeine anxiety is also absent.
 
@@ -85,7 +85,7 @@ The chewing benefit is probably lesser in nicotine gum, where it is disadvantage
 
 Patches are another consideration, but I have not pursued them. Patches offer a more sustained nicotine intake over an extended period with a slower onset of effects, but I find the benefit of stimulants most important in starting a task, rather than continuing on with it. Patches are also more potent -- far too potent for me -- so I must cut them up for a reasonable dosage, which opens the door to the nicotine evaporating. An effort can be made to seal them, but that is additional and unwanted effort which still risks the loss of some potency.
 
-I am not interested in developing a nicotine addiction, nor a tolerance, and I'm still dubious of the exact health impacts due to the lacking research independent of tobacco products. As such, I only use it occasionally -- at most once per week.
+I am not interested in developing a nicotine addiction, nor a tolerance, and I'm still dubious of the exact health impacts due to the lacking research independent of tobacco products. As such, I only use it occasionally -- at most once per week. Whenever I do use nicotine, I'm amazed by the focus I achieve. Distractions don't even occur to me, and the task at hand seems to be the only object of my thought.
 
 ## Vitamin D
 
@@ -114,3 +114,5 @@ Modafinil is another stimulant and of great interest to me but is illegal in Aus
 [^1]: Read: fabricated lies designed to prey on the vulnerable and/or gullible.
 
 [^2]: Many describe the taste of these energy drinks as 'battery acid', which I'm inclined to say is a fitting description (not that I have experience consuming battery acid). I could see how someone could acquire the taste and believe that the chemical palette is a deliberate choice made to align with their marketing, which exaggerates the effects.
+
+[^3]: [The Impact of Nicotine Patches on Gingival and Oral Health](https://pmc.ncbi.nlm.nih.gov/articles/PMC11527480/) covers some of the oral impacts, citing some sources studying nicotine in isolation. Nicotine is undeniably a vasoconstrictor, with one of the most significant impacts being the narrowing of blood vessels in gingival tissues, causing reduced blood flow. This reduced blood flow potentially impacts delivery of nutrients and oxygen. Nicotine has further impacts on the function of fibroblasts, potentially impacting gum health.

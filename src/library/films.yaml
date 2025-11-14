@@ -491,6 +491,8 @@
   release_year: 1999
 - title: Toy Story 2
   release_year: 1999
+- title: The Green Mile
+  release_year: 1999
 - title: Scooby-Doo! and the Witch's Ghost
   release_year: 1999
 - title: Scooby-Doo on Zombie Island
@@ -755,6 +757,7 @@
   notes: Holding the book in such high regard, I was rather disappointed by the film and am maligned by the fact that it seems to be the version of A Clockwork Orange in the zeitgeist.
 - title: Willy Wonka and the Chocolate Factory
   release_year: 1971
+  notes: I love the slightly sinister undertones of completely unhinged insanity Gene Wilder brings. The tunnel scene in particular is wonderfully and disorientingly disturbing.
   watches:
     - date: 2024-08-31
       format: Streaming

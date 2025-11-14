@@ -15,12 +15,12 @@ kbd {
 		position: absolute;
 		right: 0;
 		top: 0;
+		cursor: copy;
 		transition: 0.15s box-shadow ease-out;
 
 		svg {
 			block-size: 1rem;
 			inline-size: 1rem;
-			fill: light-dark(var(--black), var(--bright_white));
 		}
 	}
 

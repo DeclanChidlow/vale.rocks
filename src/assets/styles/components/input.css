@@ -12,9 +12,19 @@ textarea {
 	font-family: inherit;
 }
 
-button:hover {
-	color: light-dark(var(--bright_white), var(--black));
-	background: light-dark(var(--grey), var(--white));
+button {
+	svg {
+		fill: light-dark(var(--black), var(--bright_white));
+	}
+
+	&:hover {
+		color: light-dark(var(--bright_white), var(--black));
+		background: light-dark(var(--grey), var(--white));
+
+		svg {
+			fill: light-dark(var(--bright_white), var(--black));
+		}
+	}
 }
 
 textarea {
@@ -59,4 +69,5 @@ label {
 
 :disabled {
 	opacity: 0.7;
+	cursor: not-allowed;
 }

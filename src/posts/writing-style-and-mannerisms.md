@@ -3,7 +3,7 @@ title: My Writing Style and Mannerisms
 description: A look at the stylistic fingerprints marking up my writing. Covering and vaguely justifying my spellings, use of punctuation, sentence structure, and other prosal crimes.
 og_description: Stay tuned for my writing manorialism.
 pub_time: 2025-05-01
-mod_time: 2025-08-07
+mod_time: 2025-11-14
 section: Essay
 tags: [writing]
 ---
@@ -16,7 +16,7 @@ Many other concepts are straight from the celebrated [The Elements of Style](htt
 
 Evidently not everyone is a fan of my style, with the best insult I've received being that I'm a '[hypergraphia-addled, graphomaniacal, logorrheic schizophrenic](/micros/20250802-1443)'. I won't disagree that I am verbose, though I like to think not at the cost of clarity. My compulsion to write is not a pathology, as their words portray, and I've explained [why I write in reasonable detail](/posts/why-write). I like to think their insult describes my literary flair.
 
-I can pin a lot of my stylistic tendencies on the writers I've been most inspired by, namely Anthony Bourdain, Douglas Adams, and Hunter S Thompson. Authors with a style so distinct you can pick their prose out of a lineup and who can make the poor or mundane interesting
+I can pin a lot of my stylistic tendencies on the writers I've been most inspired by, namely Anthony Bourdain, Douglas Adams, and Hunter S Thompson. Authors with a style so distinct you can pick their prose out of a lineup and who can make the poor or mundane interesting.
 
 Excluding repeating the obvious and that already outlined by _The Elements of Style_, here are the mannerisms and stylistic choices/impulsions of my writing as I've noticed:
 
@@ -26,7 +26,10 @@ Excluding repeating the obvious and that already outlined by _The Elements of St
 
 - I use metric units unless context necessitates imperial.
 
-- I use gender-neutral pronouns (they, them) rather than the explicitly masculine or feminine when addressing people generally or someone whose preferred pronouns I'm not certain of.
+- I use gender-neutral pronouns (they/their/them) rather than the explicitly masculine or feminine when addressing people generally or someone whose preferred pronouns I'm not certain of.
+  - I really hate when people say 'he or she' when they could just say 'they' and be more inclusive while using fewer words.
+
+- I try to use inclusive language. For example, 'allowlist' rather than 'whitelist'.
 
 - I'm fairly aggressive with breaking up prose into paragraphs. This is equal parts my preferred writing style and wish to cater to the weaknesses of the web by [providing visual checkpoints](/posts/the-design-of-this-site#reading-checkpoints). Due to the latter reason, I also use text styles whenever viable.
 
@@ -40,13 +43,14 @@ Excluding repeating the obvious and that already outlined by _The Elements of St
 
 - I use commas to achieve a speaking cadence as well as for defining structure.
 
-- I strongly believe the contents of quotes shouldn't generally be messed with. This includes using logical punctuation to avoid altering content within quotation marks. I do permit myself the use of stylings and further details like metric conversions within quotes, though they should not be displayed inline with text, and I make it obvious that they are additive.
-
+- I strongly believe the contents of quotations shouldn't generally be messed with. This includes using logical punctuation to avoid altering content within quotation marks. I do permit myself the use of stylings and further details like metric conversions within quotes, though they should not be displayed inline with text, and I make it obvious that they are additive.
   - Long quotations are displayed in blockquotes and without quotation marks.
 
 - I use single quotes, with double quotes nested within them, as is expected in Australian English.
 
-- Dates are written in the order day, month, year.
+- I always write short dates in the order day, month, year. Full dates I write differently depending on context.
+
+- I don't swear with much frequency. In the same manner that if everything is highlighted, nothing is, if I swear frequently, then none of my swears have any impact. I don't substitute in euphemistic phrases but will use blasphemes, [^2] minced oaths, or mild expletives.
 
 - I hate writing dialogue and will avoid it whenever possible.
 
@@ -77,16 +81,15 @@ Excluding repeating the obvious and that already outlined by _The Elements of St
 - I tend not to use underlines or bold too frequently. Underlines on the web are largely associated with hyperlinks, and even though Vale.Rocks' hyperlinks are styled differently, I still err on the side of caution. I bold things occasionally, but I do often find it draws the eye too much and can be distracting, so I do it scarcely.
 
 - I incorporate parenthetical remarks and occasionally footnotes/endnotes/sidenotes. These are a way to provide further information without disrupting text and a way to branch off from otherwise linear writing.
-
   - References to these come after punctuation.
 
-- While I do generally conform to the expectation that content within parenthesis is optional -- that is, completely removable from a sentence without impact -- sometimes I just want to interject a quick little whatever and use it as an aside.
+- While I do generally conform to the expectation that content within parentheses is optional -- that is, completely removable from a sentence without impact -- sometimes I just want to interject a quick little whatever and use it as an aside.
 
   Usually when a footnote would be too much, but leaving the information out would be detrimental. You can argue this is sloppy writing, and I have no defence.
 
 - Post and header titles are styled in title case or as written in the source when referencing.
 
-- I make use of modern punctuation. '?!' becomes an interrobang: '‽'.
+- I make use of modern punctuation. For example, '?!' becomes an interrobang: '‽'.
 
 - Items in lists follow sentence case, unless they are presented as an extension of an already begun sentence.
 
@@ -114,3 +117,5 @@ Though in the end, all my writing is written to read, and I make my consideratio
     It also suggests using commas rather than semicolons in the case of short clauses. I disagree, because I love semicolons. It considers 'etc' to often be better substituted, but I really like using etc as a way to continue on with more items in a succinct manner.
 
     I fear that in some cases the book is rigid and unyielding to language's natural fluidity. This is evidenced in that many of the terms complained about in the book are now commonplace. One bit of advice I particularly disregard is not suffixing '-ise'.
+
+[^2]: I am very much against religion but must admit that I appreciate the sheer number of expletives Christianity in particular has provided the English language.

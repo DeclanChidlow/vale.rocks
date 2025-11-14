@@ -184,6 +184,13 @@
       watches:
         - start: 2024-11-16
           finish: 2024-11-28
+- title: Frontline
+  release_year: 1994
+  rating: 4
+  seasons:
+    - number: 1
+    - number: 2
+    - number: 3
 - title: Seinfeld
   release_year: 1989
   rating: 3.5
