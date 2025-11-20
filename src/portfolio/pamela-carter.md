@@ -26,8 +26,19 @@ As part of creating her books, making them easily accessible through the web was
 Also important was ensuring her website kept the general style defined by her books. This meant leaning into the careful, serifed type and exploring a gentle palette, which I think was achieved. It also meant defining some stronger personal branding.
 
 <figure class="right">
-<img src="/assets/portfolio/pamela-carter/logo.svg" alt="A simple monogram of the letters 'P' and 'C'.">
-<figcaption>Pamela Carter's monogram.</figcaption>
+<svg viewBox="0 0 1000 1000" role="img">
+	<desc>A simple monogram of the letters 'P' and 'C'.</desc>
+	<style>
+		path {
+			fill: black;
+			@media (prefers-color-scheme: dark) {
+				fill: white;
+			}
+		}
+	</style>
+    <path d="M676 56c-72-73-197-34-269 16-47 34-82 85-94 141 50-81 119-122 211-138 47-8 100-5 123 43 25 55 3 133-40 175-28 29-66 45-104 54l8-153-59-1 3 162-16 1-2 21 19 3 1 68a480 480 0 0 0-65-16q-21-3-42 4-28 12-41 40c-13 29-11 62-7 93q12 59 28 115c10 39 18 78 37 114 16 29 40 51 75 56h25l3 142 7-143 25-5q72-15 134-56a374 374 0 0 1-158 46l16-322 54 15 81 27 13-28a599 599 0 0 0-145-68l4-80q50-3 95-22 43-20 73-57c36-46 54-106 46-163-4-31-17-62-39-84M403 809c-23-32-28-79-35-118q-12-63-15-127-1-20 2-38l5-21q2-7 8-11 4-4 9-4 17-1 34 4l48 12 8 333c-25-1-47-8-64-30"/>
+</svg>
+<figcaption>Pamela Carter's digitised monogram.</figcaption>
 </figure>
 
 She signs each painting with her name or initials. Based on this, I expanded out a full wordmark and stylised monogram to represent her. It is simple, yet distinctive and true to her original signature.

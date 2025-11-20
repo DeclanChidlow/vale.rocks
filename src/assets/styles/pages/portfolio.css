@@ -400,7 +400,10 @@ section.contact {
 		mask:
 			conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s)) calc(100% - var(--s)),
 			conic-gradient(#000 0 0) content-box;
-		transform: perspective(60rem) rotateX(15deg);
+
+		animation: perspective-warp;
+		animation-timeline: view();
+		animation-fill-mode: both;
 	}
 
 	&:has(a:hover) {
@@ -437,6 +440,18 @@ section.contact {
 		&:focus-visible {
 			scale: 1.1;
 			filter: contrast(2);
+		}
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes perspective-warp {
+		0% {
+			transform: perspective(60rem) rotateX(100deg);
+		}
+
+		70% {
+			transform: perspective(60rem) rotateX(0deg);
 		}
 	}
 }
