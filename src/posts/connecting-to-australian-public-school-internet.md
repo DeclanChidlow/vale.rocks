@@ -29,7 +29,7 @@ In the event that you don't have an internet connection, you can request that yo
 Your next step is to install the required certificates. These certificates allow you to certify yourself on the network. The process varies based on your computer's operating system.
 
 > [!IMPORTANT]
-> Note that installing these certificates allows your school to view encrypted network packets sent to or from your device. That means that your school can see your passwords, what sites you visit, and, in some cases, your search history.
+> Note that installing these certificates may allow your school to view encrypted network packets sent to or from your device. This could mean that your school can see your passwords, what sites you visit, and, in some cases, your search history.
 
 ### Windows
 
@@ -69,6 +69,4 @@ Thankfully, we've now got a handy script developed by [ToastXC](https://toastxc.
 
 You can now log onto your school's internet. In the event that your browser doesn't redirect you automatically, you may need to [manually access the login portal](http://sig.site.internal:1000/login?).
 
----
-
-Had any issues with the process or think something may have changed? Leave a comment down below, and I'll try my best to assist.
+You should now be equipped to browse the information superhighway.

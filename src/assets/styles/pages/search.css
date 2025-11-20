@@ -56,6 +56,12 @@
 	margin-inline: -1rem;
 	margin-block-end: 1rem;
 
+	@media (max-width: 28rem) {
+		flex-direction: column;
+		max-inline-size: 100%;
+		margin-inline: 0;
+	}
+
 	@media (min-width: 55rem) {
 		flex-direction: column;
 	}

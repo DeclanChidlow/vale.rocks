@@ -12,7 +12,7 @@ shutter: 1⁄2700
 iso: 46
 ---
 
-Just to the left of where this photo was taken is a little path under tree canopy. I happened to be there at the same time that a monkey and its child were sitting in the middle of the path. A small family -- mother, father, and child in a pram -- decided that path was the one they wished to walk up.
+Just to the left of where this photo was taken is a little path under tree canopy. I happened to be there at the same time that a monkey and its infant were sitting in the middle of the path. A small family -- mother, father, and child in a pram -- decided that path was the one they wished to walk up.
 
 As they approached, they noticed the monkeys and pointed at them. Their interest in being anywhere near the previously cute little monkeys quickly dissipated as the mother's maternal instinct to protect its baby kicked in, and she lunged towards them with bared teeth and stretched-out arms to exaggerate her size before then pressing herself flat against the ground and letting out an aggressive hiss.
 

@@ -50,6 +50,10 @@ footer {
 			justify-content: space-around;
 			gap: 1rem;
 			inline-size: 100%;
+
+			.footer-tools {
+				display: inline;
+			}
 		}
 	}
 
@@ -57,20 +61,29 @@ footer {
 		gap: 1rem;
 		padding: 1rem;
 		border-block-start: 2px solid var(--bright_grey);
+
+		a::after {
+			display: none;
+		}
 	}
 
 	.breadcrumbs ol {
 		display: flex;
-		gap: 1ch;
+		flex-wrap: wrap;
 		justify-content: right;
 
 		li {
 			list-style: none;
 			display: inherit;
+			margin: 0;
 
 			+ li::before {
-				content: "➞" / "";
-				margin-inline-end: 1ch;
+				content: "→";
+				margin-inline: 1ch;
+			}
+
+			+ li:dir(rtl)::before {
+				content: "←";
 			}
 		}
 
@@ -85,7 +98,8 @@ footer {
 		flex-wrap: wrap;
 		justify-content: right;
 		margin: 0;
-		column-gap: 1rem;
+		column-gap: 1.5rem;
+		row-gap: 0.5rem;
 
 		li {
 			list-style-type: none;
@@ -98,18 +112,22 @@ footer {
 		}
 	}
 
-	a,
-	.footer-bottom a {
+	.footer-top a,
+	.footer-bottom p a {
 		color: light-dark(var(--red), var(--yellow));
 		text-decoration: none;
 
-		&:hover,
-		&:focus {
+		&:hover {
 			opacity: 0.6;
 		}
+	}
 
-		&::after {
-			display: none;
+	.footer-bottom a svg {
+		transition: scale 0.1s;
+
+		&:hover,
+		&:focus {
+			scale: 1.1;
 		}
 	}
 
@@ -129,12 +147,14 @@ footer {
 
 		ul,
 		.footer-navigation a {
-			justify-content: center;
-			gap: 0.5rem 1.5rem;
+			justify-content: space-around;
+			row-gap: 1.5rem;
 		}
 
 		.breadcrumbs ol {
+			margin-block-end: 1.5rem;
 			justify-content: center;
+			margin-inline: -0.8rem;
 		}
 	}
 }

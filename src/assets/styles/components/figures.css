@@ -85,7 +85,7 @@ figcaption {
 .figure-content-wrapper {
 	position: relative;
 	block-size: 100%;
-	width: fit-content;
+	inline-size: fit-content;
 	margin-inline: auto;
 }
 
@@ -152,7 +152,7 @@ figcaption {
 		color: inherit;
 	}
 
-	.alt-text {
+	&:has(figcaption) .alt-text {
 		padding-block-start: 1rem;
 		border-block-start: 2px solid var(--bright_grey);
 	}

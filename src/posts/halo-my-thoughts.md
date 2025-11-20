@@ -8,9 +8,9 @@ section: Review
 tags: [media, gaming]
 ---
 
-If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order I played them. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5, Fireteam Raven, and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
+If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order of release. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5, Fireteam Raven, and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
 
-I'll be avoiding spoilers for the most part, but if I've got any specifics to mention, I'll place them in a "Campaign Specifics" drop-down at the conclusion of the relevant entry. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games; they're generally worth it. I also just want to give thanks to my friend Sebastien, who advised me to get into the series. 'Twas a good call.
+I'll be avoiding spoilers for the most part, but if I've got any specifics to mention, I'll place them in a 'Campaign Specifics' drop-down at the conclusion of the relevant entry. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games; they're generally worth it. I also just want to give thanks to my friend Sebastien, who advised me to get into the series. 'Twas a good call.
 
 ## Halo: Combat Evolved
 

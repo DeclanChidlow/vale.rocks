@@ -4,6 +4,19 @@ body:has(#popover-menu:popover-open) {
 	user-select: none;
 }
 
+::view-transition-group(navbar) {
+	z-index: 9999;
+	animation: none;
+}
+
+::view-transition-old(navbar) {
+	display: none;
+}
+
+::view-transition-group(nav-popover) {
+	display: none;
+}
+
 #navbar {
 	position: fixed;
 	inset: 0;
@@ -11,6 +24,7 @@ body:has(#popover-menu:popover-open) {
 	block-size: 5rem;
 	padding-inline: 3rem;
 	pointer-events: none;
+	view-transition-name: navbar;
 	z-index: 1000;
 
 	@media (max-width: 45rem) {
@@ -82,6 +96,7 @@ body:has(#popover-menu:popover-open) {
 			background: linear-gradient(transparent, var(--red));
 			backdrop-filter: blur(1.5rem);
 			color: light-dark(var(--black), var(--bright_white));
+			view-transition-name: nav-popover;
 			transition:
 				opacity 0.15s,
 				transform 0.15s;

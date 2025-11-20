@@ -26,7 +26,7 @@ As an aside, I am consistently disappointed by the quality of tea-offering websi
 
 ## Black
 
-### English Breakfast - Twinings (★★★⯪☆)
+### English Breakfast - Twinings (■■■▪□)
 
 _Bag_
 
@@ -38,13 +38,13 @@ As such, we woke up early the morning of so we could get down there with time to
 
 He gave me a nice hot mug of English Breakfast with lots of sugar and milk, which was lovely and warming in the cold morning. I remember cupping my hands around it for the warmth and sipping from it in front of our house just before we left. My mind always goes back to that moment when I have a cup of Twinings' English Breakfast with lots of sugar.
 
-### English Breakfast - VAHDAM (★★★★☆)
+### English Breakfast - VAHDAM (■■■■□)
 
 _Bag_
 
 The smoothest of any English Breakfast I've tried. Very pleasant.
 
-### Australian Breakfast - Bushells (★★⯪☆☆)
+### Australian Breakfast - Bushells (■■▪□□)
 
 _Bag_
 
@@ -52,13 +52,13 @@ This isn't a tea that takes itself seriously. The provided instructions for 'The
 
 It is casual, accessible, and perfectly drinkable. It isn't anything you'd write home about, but it is nonetheless a pleasant, casual tea. A tad lesser in quality and cost than [Twinings' English Breakfast](/posts/tea-reviews.html#english-breakfast---twinings-), but endearing in its own way.
 
-### Australian Afternoon - Twinings (★★★⯪☆)
+### Australian Afternoon - Twinings (■■■▪□)
 
 _Bag_
 
 A stronger, more defined taste than their English Breakfast, but otherwise quite comparable.
 
-### Arôme Vanille - Bois Chéri (★★★★☆)
+### Arôme Vanille - Bois Chéri (■■■■□)
 
 _Bag_
 
@@ -68,13 +68,13 @@ I received this tea for free due to another person's distaste for it, and while 
 
 I must admit that the teabags themselves were poor. They came individually wrapped in paper, but the teabags were often sealed within the paper's crimping, making extraction a difficult process. More than once the string separated from the bag, causing the contents to spill.
 
-### Melbourne Breakfast - T2 (★★★☆☆)
+### Melbourne Breakfast - T2 (■■■□□)
 
 _Loose Leaf_
 
 Smelt fantastic -- a sweet vanilla scent. While the taste was alright, I think it was let down slightly by the artificial vanilla. Interestingly, there were slight hints of the freshness found in mint tea. Resteeped nicely.
 
-### Ceylon Morning Tea - Twinings (★★☆☆☆)
+### Ceylon Morning Tea - Twinings (■■□□□)
 
 _Bag_
 
@@ -82,19 +82,19 @@ Twinings tout this as fresh, and I must agree. It has some of the freshness one 
 
 While refreshing, it isn't my favourite tea. It lacks much note of anything. I can see it as a start to a morning, but only for its slight refreshing notes, not its actual flavour profile.
 
-### Yellow Label - Lipton (★★⯪☆☆)
+### Yellow Label - Lipton (■■▪□□)
 
 _Bag_
 
 Serviceable, but very weak.
 
-### Earl Grey - VAHDAM (★★★☆☆)
+### Earl Grey - VAHDAM (■■■□□)
 
 _Bag_
 
 Strong, potent citrus scent which is mellow in taste.
 
-### Darjeeling Summer - VAHDAM (★★★⯪☆)
+### Darjeeling Summer - VAHDAM (■■■▪□)
 
 _Bag_
 
@@ -110,49 +110,63 @@ Strong fruity flavour of stone fruit. Particularly cherry-esque. The most amazin
 
 ## Green
 
-### Pure Green Tea - Twinings (★☆☆☆☆)
+I'm sure I'll be taken out back and shot for saying so, but I'm simply not a huge green tea fan. I do enjoy some green teas, but I'm incredibly picky and specific.
+
+### Pure Green Tea - Twinings (■□□□□)
 
 _Bag_
 
 There was green tea buried somewhere in my cup, but it was trapped under some nondescript, unpleasant harshness. It also very much dried out my tongue and throat in a way not dissimilar to having a sore throat while ill.
 
-### Mint Melody - VAHDAM (★★⯪☆☆)
+### Mint Melody - VAHDAM (■■▪□□)
 
 _Bag_
 
 Minty, but overall inferior to VAHDAM's [Pure Mint](/posts/tea-reviews.html#pure-mint---vahdam-).
 
+### Original Himalayan - VAHDAM (□□□□□)
+
+Revolting. The smell and taste made me nauseous such that I gave up after just a few sips.
+
+### Chamomile Mint Citrus - VAHDAM (■■■□□)
+
+I could pinpoint the mint, orange, and green tea quite readily in the smell.
+
 ## Herbal
 
-### Camomile, Honey, and Vanilla - Twinings (★★★☆☆)
+### Camomile, Honey, and Vanilla - Twinings (■■■□□)
 
 _Bag_
 
 Rather sweet. I fail to taste the artificial vanilla. I often opt for this when out of milk or wanting to avoid caffeine.
 
-### Pure Mint - VAHDAM (★★★★☆)
+### Pure Mint - VAHDAM (■■■■□)
 
 _Bag_
 
 Opening the packet wafted the most fantastic mint smell. Reminded me of extremely fancy mint chocolate. Not super strong despite an extended steeping period, but quite pleasantly minty.
 
-### Hibiscus Rose - VAHDAM (★☆☆☆☆)
+### Hibiscus Rose - VAHDAM (■□□□□)
 
 _Bag_
 
 The smell hit me in the same way harsh alcohol like tequila does, and the taste had the same tequila impact, though to a lesser extent. I unfortunately wasn't a fan of this tea beyond the beautiful pink hue it steeped to.
 
-### Turmeric Ginger - VAHDAM (★★★☆☆)
+### Turmeric Ginger - VAHDAM (■■■□□)
 
 _Bag_
 
 Strong ginger aroma. Smelt great and had the warm back-of-the-throat feeling. The taste wasn't as strong as I'd hoped initially, but it seemed to build up as I drank it until it was very strongly turmeric and ginger.
 
+## Classic Chamomile - VAHDAM (■■■▪□)
+
+_Bag_
+
+Just a pure, nice chamomile tea.
+
 ## Masala Chai
 
-Not my favourite type of beverage, though I do enjoy them on occasion.
-
-### Chai Latte - Avalanche (★★★☆☆)
+### Chai Latte - Avalanche (■■■□□)
 
 _Sachet_
 
@@ -160,7 +174,7 @@ This was an instant packet offering that I drank warm.
 
 It frothed up nicely while preparing and had a fairly typical chai latte taste. A warm, slightly sweet, and spiced drink that feels smooth while slightly tingly. While the sachet contains milk powder, I chose to top up my mug with a slight amount more, as is my preference. Overall it is a very pleasant and completely non-offensive chai latte.
 
-### Sweet Cinnamon - VAHDAM (★★★☆☆)
+### Sweet Cinnamon - VAHDAM (■■■□□)
 
 _Bag_
 
@@ -168,13 +182,13 @@ A divine cinnamon smell which was unfortunately let down somewhat by the rather 
 
 I don't usually bother to resteep teabags, but the teabag's contents were well-defined, and there were visible pieces of cardamom and cinnamon such that I tried my luck. It resteeped very weakly, though enough flavour was still present to be pleasant.
 
-### Earl Grey Spiced - VAHDAM (★★★★⯪)
+### Earl Grey Spiced - VAHDAM (■■■■▪)
 
 _Bag_
 
 On the whole very similar to the [base VAHDAM Earl Grey](/posts/tea-reviews.html#earl-grey---vahdam-) (the smell is almost identical apart from the slight presence of cinnamon), but the depth of flavour is greatly enhanced by the spice. The cardamom, clove, black pepper, and cinnamon bring a lovely roundness to the bergamot.
 
-### India's Original - VAHDAM (★★⯪☆☆)
+### India's Original - VAHDAM (■■▪□□)
 
 _Bag_
 

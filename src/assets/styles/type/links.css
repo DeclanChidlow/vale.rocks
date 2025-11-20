@@ -24,7 +24,8 @@ h2 time,
 		font-size: 0.7rem;
 	}
 
-	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
+	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after,
+	&.footer-tools::after {
 		content: " ↗" / "External";
 		font-size: 0.8rem;
 	}

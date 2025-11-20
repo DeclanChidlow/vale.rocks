@@ -33,7 +33,6 @@
 			margin-inline-start: -3rem;
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;
-			view-transition-name: var(--transition_name);
 		}
 	}
 
@@ -76,7 +75,6 @@
 
 	.contributors {
 		background: light-dark(oklch(from var(--yellow) l c h / calc(alpha - 0.4)), oklch(from var(--yellow) l c h / calc(alpha - 0.5)));
-
 	}
 
 	li {

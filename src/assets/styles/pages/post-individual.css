@@ -71,21 +71,23 @@
 
 .support {
 	font-size: 0.9rem;
-	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.6)), oklch(from var(--green) l c h / calc(alpha - 0.8)));
+	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.7)), oklch(from var(--green) l c h / calc(alpha - 0.8)));
 	padding: 2rem;
 	margin-block-start: 5rem;
 	max-inline-size: 83ch;
 
 	h2 {
 		font-size: 1.4rem;
-		line-height: 1rem;
 	}
 
 	a {
-		display: inline-block;
+		display: block;
+		width: fit-content;
+		margin-inline-start: auto;
 		padding-block: 0.3rem;
-		padding-inline: 0.5rem;
+		padding-inline: 0.75rem;
 		background: light-dark(var(--white), var(--grey));
 		text-decoration: none;
+		font-weight: bold;
 	}
 }

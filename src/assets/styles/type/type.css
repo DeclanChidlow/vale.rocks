@@ -43,6 +43,7 @@ h6 {
 	display: flex;
 	font-variant-numeric: lining-nums;
 	font-variant-caps: titling-caps;
+	font-feature-settings: "ss03" on;
 	clear: both;
 
 	a {

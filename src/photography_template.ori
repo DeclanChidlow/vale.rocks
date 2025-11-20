@@ -10,7 +10,7 @@
 _body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Photography</span>	
 
-<div class="article-wrapper">
+<div>
 	<article class="h-entry">
 		<figure>
 			<img src="${ photography.image }" alt="${ photography.alt_text }" data-pagefind-index-attrs="alt"/>

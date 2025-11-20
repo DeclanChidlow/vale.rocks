@@ -63,7 +63,7 @@ label {
 }
 
 ::selection {
-	background: var(--blue);
+	background: light-dark(oklch(from var(--magenta) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.4)));
 	-webkit-text-fill-color: initial;
 }
 

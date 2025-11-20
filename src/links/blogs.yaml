@@ -84,9 +84,6 @@ items:
     url: mdickens.me
     rss: mdickens.me/feed.xml
     description: Philosophy, investing, and altruism.
-  - title: Paul Graham
-    url: paulgraham.com
-    description: Start-up culture.
   - title: Håvard Brynjulfsen
     url: www.havardbrynjulfsen.design
     rss: www.havardbrynjulfsen.design/feed.xml
@@ -393,10 +390,6 @@ items:
     url: marko.tech
     rss: marko.tech/rss
     description: Software development and design.
-  - title: "@lachlanjc/notebook"
-    url: notebook.lachlanjc.com
-    rss: notebook.lachlanjc.com/feed.xml
-    description: Assorted tech stuff.
   - title: jakelazaroff.com
     url: jakelazaroff.com
     rss: jakelazaroff.com/rss.xml
@@ -483,10 +476,6 @@ items:
   - title: iamrobin
     url: www.iamrob.in
     description: Design, development, and art.
-  - title: foreverliketh.is
-    url: foreverliketh.is
-    rss: foreverliketh.is/blog/index.xml
-    description: Very assorted writings.
   - title: dead.garden
     url: dead.garden
     rss: dead.garden/blog/feed.rss
@@ -549,10 +538,6 @@ items:
     url: dynomight.net
     rss: dynomight.net/feed.xml
     description: Psychology, tests, experiments, and other science.
-  - title: CSS Wizardry
-    url: csswizardry.com
-    atom: csswizardry.com/feed.xml
-    description: Web performance.
   - title: as days pass by
     url: www.kryogenix.org/days/
     rss: www.kryogenix.org/days/feed
@@ -565,3 +550,7 @@ items:
     url: chsmc.org
     rss: chsmc.org/feed.xml
     description: Exploring and building the world wide web.
+  - title: マリウス
+    url: xn--gckvb8fzb.com
+    rss: xn--gckvb8fzb.com/index.xml
+    description: Technological ramblings with a slightly unhinged spin.

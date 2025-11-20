@@ -153,7 +153,7 @@
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/syndication">Syndication</a></li>
 						<li><a href="/support" rel="payment">Support</a></li>
-						<li><a href="https://tools.vale.rocks">Tools</a></li>
+						<li><a href="https://tools.vale.rocks" class="footer-tools">Tools</a></li>
 						<li><a href="/sitemap.xml">Sitemap</a></li>
 					</ul>
 				</nav>

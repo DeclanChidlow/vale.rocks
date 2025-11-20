@@ -108,7 +108,7 @@ I've put together a collection of small handy tools similar to the ones I host a
 
 The process of performing the shell swap was fairly hands-on, but not too difficult. The most difficult part was undoubtedly removing the antenna PCB at the base of the Flipper. It is adhered to the case and very thin. To remove it, one must bend it and slowly pry it out without straining it too much as to cause it to snap. The case isn't perfect tolerance-wise on account of being 3D-printed, and the plastic feels a tad tacky, but it looks fantastic.
 
-During the shell swap I chose to remove the iButton pogo pins because they were snagging on my pockets as mentioned previously. I considered installing the RGB mod I purchased, which would add LEDs that'd shine through the case, but opted not to, as the soldering is reasonably complex and beyond my ability.
+During the shell swap I chose to remove the iButton pogo pins because they were snagging on my pockets as mentioned previously. I considered installing the RGB mod I purchased, which would add LEDs that'd shine through the case, but opted not to, as the soldering is reasonably complex and beyond my ability. I think if I were to choose a shell now, I'd opt for a harder, slightly frosted plastic.
 
 Ray also threw in a diabolical little PCB with a button cell battery and speaker attached that, when on, emits a beep at irregular intervals between 5 and 45 minutes. A purely evil little prank device with no relevance to the Flipper Zero but which I've none the less got great use out of.
 

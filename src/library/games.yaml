@@ -125,6 +125,7 @@
   release_year: 2014
   rating: 3.5
   platforms: ["Xbox 360"]
+  notes: This game was a lot of firsts for me. It was my first time playing a third-person shooter, it was my first time playing a competitive online game (and by extension, Xbox Live), and it was my first exposure to gambling mechanics.
 - title: Smash Hit
   release_year: 2014
   platforms: ["iOS"]
@@ -149,6 +150,7 @@
 - title: VRChat
   release_year: 2014
   platforms: ["PC", "Meta Quest 2"]
+  notes: The social experiences I've had in VRChat have been some of the most interesting of my life. People seem to achieve a certain comfort in the skin that they choose, and dynamics are not hampered by such detractors as physics. As a very infrequent dreamer, I've been amazed to have dreams resulting from my VRChat experiences.
 - title: Crossy Road
   release_year: 2014
   platforms: ["iOS"]
@@ -319,6 +321,7 @@
   release_year: 2011
   rating: 5
   platforms: ["PC", "PS3"]
+  notes: I'm yet to play another game that makes me <em>feel</em> like Portal 2.
 - title: Pep the Dragon
   release_year: 2011
   platforms: ["iOS"]

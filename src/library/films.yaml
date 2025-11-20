@@ -21,6 +21,11 @@
   watches:
     - date: 2024-04
       format: Plane
+- title: Asteroid City
+  release_year: 2023
+  watches:
+    - date: 2023
+      format: Cinema
 - title: Indiana Jones and the Dial of Destiny
   release_year: 2023
   rating: 3
@@ -55,6 +60,8 @@
 - title: "Weird: The Al Yankovic Story"
   release_year: 2022
   rating: 3.5
+- title: The French Dispatch
+  release_year: 2021
 - title: "Spider-Man: No Way Home"
   release_year: 2021
 - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
@@ -452,6 +459,8 @@
   watches:
     - date: 2024-12-25
       format: Streaming
+- title: The Royal Tenenbaums
+  release_year: 2001
 - title: "Cowboy Bebop: The Movie"
   release_year: 2001
   notes: Fails to quite achieve the highs of the series, especially the emotional impact, but is altogether a worthy watch. I am a tad disappointed it lacked some of the futuristic dystopia vibes the series showcased.
@@ -552,6 +561,11 @@
     - date: 2024-12-27
       format: Streaming
     - date: 2025-02-08
+      format: Streaming
+- title: Ghost in the Shell
+  release_year: 1995
+  watches:
+    - date: 2024-11-15
       format: Streaming
 - title: Toy Story
   release_year: 1995
@@ -738,6 +752,11 @@
   release_year: 1975
   watches:
     - date: 2021-09-24
+      format: Streaming
+- title: Young Frankenstein
+  release_year: 1974
+  watches:
+    - date: 2025-11-18
       format: Streaming
 - title: Blazing Saddles
   release_year: 1974

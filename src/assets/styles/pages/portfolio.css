@@ -36,6 +36,26 @@ main > div {
 		max-inline-size: 45rem;
 		margin-inline: auto;
 
+		> span {
+			display: block;
+		}
+
+		> span:first-of-type {
+			animation: 1s hero-fade;
+		}
+
+		> span:nth-of-type(2) {
+			animation: 1.2s hero-fade;
+		}
+
+		> span:nth-of-type(3) {
+			animation: 1.4s hero-fade;
+		}
+
+		> span:nth-of-type(4) {
+			animation: 1.6s hero-fade;
+		}
+
 		.developer {
 			background: linear-gradient(light-dark(var(--black), var(--bright_white)), light-dark(var(--blue), var(--yellow)));
 			-webkit-text-fill-color: transparent;
@@ -56,10 +76,7 @@ main > div {
 			font-weight: 200;
 			font-style: oblique 13deg;
 			transition: font-style 0.15s;
-
-			&::first-letter {
-				font-feature-settings: "swsh";
-			}
+			font-feature-settings: "cswh";
 
 			&:hover {
 				font-style: oblique -13deg;
@@ -80,7 +97,7 @@ main > div {
 }
 
 section:not(.hero) {
-	margin-block: 15rem;
+	margin-block: 16rem;
 	text-align: center;
 
 	h2 {
@@ -93,6 +110,37 @@ section:not(.hero) {
 
 section.description {
 	margin-block-start: 2rem;
+	animation: 1.3s hero-fade;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.tools-and-technologies,
+	.published-on,
+	.testimonials,
+	.showcase,
+	.contact {
+		animation: blur-fade-in-up;
+		animation-timeline: view();
+		animation-fill-mode: both;
+	}
+
+	@keyframes blur-fade-in-up {
+		0% {
+			transform: translateY(5rem);
+			filter: blur(10rem);
+			opacity: 0;
+			scale: 0.9;
+		}
+
+		25% {
+			filter: blur(0);
+		}
+
+		50% {
+			opacity: 1;
+			scale: 1;
+		}
+	}
 }
 
 section.tools-and-technologies {
@@ -196,7 +244,7 @@ section.published-on {
 			gap: 1rem;
 
 			svg {
-				block-size: 1.8rem;
+				block-size: 2rem;
 				margin-inline: auto;
 			}
 		}
@@ -221,61 +269,183 @@ section.published-on {
 	}
 }
 
-section.showcase a {
-	display: block;
-	padding: 2rem;
-	text-align: start;
-	text-decoration: none;
-	margin-block: 1rem;
-	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
-	border: 0.05rem solid light-dark(transparent, var(--grey));
+section.testimonials {
+	div {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+		margin-block-start: 2rem;
+	}
+
+	figure {
+		background: light-dark(oklch(from var(--white) l c h / 0.6), var(--dark_grey));
+		text-align: start;
+		margin: 0;
+		padding: 2rem;
+
+		q {
+			position: relative;
+
+			&::before,
+			&::after {
+				position: absolute;
+				font-size: 3.5rem;
+				opacity: 0.15;
+			}
+
+			&::before {
+				inset-inline-start: -1rem;
+			}
+
+			&::after {
+				inset-inline-end: -1rem;
+				margin-block-start: 0.5rem;
+			}
+		}
+
+		figcaption {
+			text-align: start;
+			color: light-dark(var(--black), var(--bright_white));
+
+			img {
+				block-size: 3rem;
+				float: inline-start;
+				margin-inline-end: 0.5rem;
+			}
+
+			a {
+				display: block;
+			}
+		}
+	}
+}
+
+section.showcase {
+	.hoisted {
+		margin-block-start: 2rem;
+	}
+
+	a {
+		display: block;
+		padding: 2rem;
+		text-align: start;
+		text-decoration: none;
+		margin-block: 1rem;
+		background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
+		border: 0.05rem solid light-dark(transparent, var(--grey));
+		position: relative;
+		overflow: hidden;
+		block-size: fit-content;
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			inset-block-start: 100%;
+			background: linear-gradient(transparent, var(--accent));
+			z-index: -1;
+
+			@media (prefers-reduced-motion: no-preference) {
+				transition: inset-block-start 0.3s ease;
+			}
+		}
+
+		&:hover::before,
+		&:focus::before {
+			inset-block-start: 0;
+		}
+
+		h3,
+		p {
+			inline-size: fit-content;
+		}
+	}
+}
+
+@property --s {
+	syntax: "<length>";
+	initial-value: 30px;
+	inherits: true;
+}
+
+@property --t {
+	syntax: "<length>";
+	initial-value: 4px;
+	inherits: true;
+}
+
+@property --o {
+	syntax: "<number>";
+	initial-value: -1;
+	inherits: true;
+}
+
+section.contact {
 	position: relative;
-	overflow: hidden;
-	block-size: fit-content;
+	margin-block-end: 6rem;
+	padding-block: 4rem;
+	padding-inline: calc(var(--t) + 1.5rem);
+	transition:
+		--s 0.4s ease,
+		--o 0.4s ease;
 
 	&::before {
 		content: "";
 		position: absolute;
 		inset: 0;
-		inset-block-start: 100%;
-		background: linear-gradient(transparent, var(--accent));
-		z-index: -1;
+		padding-block: 4rem;
+		padding-inline: calc(var(--t) + 1.5rem);
+		outline: var(--t) solid var(--grey);
+		outline-offset: calc(var(--o) * var(--t));
+		mask:
+			conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s)) calc(100% - var(--s)),
+			conic-gradient(#000 0 0) content-box;
+		transform: perspective(60rem) rotateX(15deg);
+	}
 
-		@media (prefers-reduced-motion: no-preference) {
-			transition: inset-block-start 0.3s ease;
+	&:has(a:hover) {
+		--s: 60px;
+		--t: 6px;
+		--o: -4;
+	}
+
+	a {
+		position: relative;
+		display: inline-block;
+		padding-block: 0.4rem;
+		padding-inline: 0.75rem;
+		margin-block-start: 2.5rem;
+		background: oklch(from var(--grey) l c h / calc(alpha - 0.2));
+		color: var(--bright_white);
+		text-shadow: 0 0 0.5rem var(--black);
+		text-decoration: none;
+		font-weight: 600;
+		overflow: visible;
+		transition: scale 0.1s;
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset-block: -0.5rem;
+			inset-inline: -1rem;
+			background: linear-gradient(to right, light-dark(var(--yellow), var(--red)), light-dark(var(--green), var(--orange)), light-dark(var(--blue), var(--yellow)));
+			filter: blur(1rem);
+			z-index: -1;
 		}
-	}
 
-	&:hover::before,
-	&:focus::before {
-		inset-block-start: 0;
-	}
-
-	h3,
-	p {
-		inline-size: fit-content;
+		&:hover,
+		&:focus-visible {
+			scale: 1.1;
+			filter: contrast(2);
+		}
 	}
 }
 
-section.contact {
-	--s: 30px;
-	--t: 3px;
-
-	margin-block-end: 0;
-	padding-block: 3rem;
-	padding-inline: calc(var(--t) + 1rem);
-	outline: var(--t) solid var(--grey);
-	outline-offset: calc(-1 * var(--t));
-	mask:
-		conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s)) calc(100% - var(--s)),
-		conic-gradient(#000 0 0) content-box;
-
-	a {
-		display: inline-block;
-		padding-block: 0.3rem;
-		padding-inline: 0.5rem;
-		background: light-dark(var(--white), var(--grey));
-		text-decoration: none;
-		margin-block-start: 1rem;
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes hero-fade {
+		0% {
+			transform: translateY(3rem);
+			opacity: 0;
+		}
 	}
 }

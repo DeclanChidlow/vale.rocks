@@ -3,7 +3,7 @@ title: Technology I Use
 description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management. Collates most of what I use on my laptop, servers, and phone.
 og_description: The tools, software, and other such things I use.
 pub_time: 2024-08-05
-mod_time: 2025-07-09
+mod_time: 2025-11-20
 section: Meta
 ---
 
@@ -30,7 +30,6 @@ I spend a lot of my time in the terminal and, as such, have a pretty smooth conf
 ### Browsers
 
 - [Firefox](https://www.firefox.com/en-US/): For general browser usage.
-- [Firefox Developer Edition](https://www.firefox.com/en-US/channel/desktop/developer/): For development on Firefox and testing Gecko compatibility.
 - [Chromium](https://www.chromium.org/Home/): For testing Blink compatibility.
 - [Epiphany](https://apps.gnome.org/Epiphany/): For testing WebKit compatibility.
 - [Tor](https://www.torproject.org): For the occasional dark web browsing session or increased anonymity. I don't use any extensions with Tor.
@@ -87,7 +86,7 @@ My current phone is a Google Pixel 7a. Nothing too special, but it's one of the 
 I generally look for apps that I can customise, that are open-source, and that adhere to Material You. The apps I've currently got installed include:
 
 - [Bluesky](https://bsky.social/about)
-- [Pixel Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera): I bought my phone partly for the camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.
+- [Pixel Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera): I chose my phone partly for it's camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.
 - [Vanadium](https://grapheneos.org/features#vanadium): Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome's market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn't much point having two separate browser engines installed, among other issues.
 - [FlorisBoard](https://florisboard.org): Excellent and very customisable FOSS keyboard.
 - [FeedFlow](https://www.feedflow.dev): A very nice feed reader. Posts open in browser rather than being displayed in-app.
@@ -96,19 +95,20 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Google Messages](https://www.android.com/google-messages/): Google's SMS/MMS/RCS app. I'd prefer to use a FOSS alternative, but RCS is pretty locked down, so I'm left without alternative.
 - [Moshidon](https://github.com/LucasGGamerM/moshidon): Wonderful Fediverse client with plenty of quality-of-life features.
 - [Droid-ify](https://droidify.eu.org): Modern, feature-rich F-Droid client
-- [OsmAnd+](https://osmand.net): Navigation app based on OpenStreetMap.
+- [OsmAnd+](https://osmand.net): Navigation app based on OpenStreetMap. Set up with custom presets for unicycling.
+- [StreetComplete](https://streetcomplete.app): Allows easily contributing to OpenStreetMap. A good way to burn some time when waiting while out and about.
+- [Scaniverse](https://scaniverse.com): Free 3D scanner capable of Gaussian splats.
 - [Phone by Google](https://play.google.com/store/apps/details?id=com.google.android.dialer): Google's Phone app that I've chosen to use as it complements Google Messages.
-- [Google Photos](https://www.google.com/photos/about/): Not my preference, but it's one of the only options with good editing capabilities. I keep it disconnected from the internet.
+- [Google Photos](https://www.google.com/photos/about/): Not my preference, but it's one of the only options with semi-decent editing capabilities. I keep it disconnected from the internet.
 - [Thunderbird](https://www.thunderbird.net/en-US/): Email client connected to my Runbox email addresses.
 - [DAVx<sup>5</sup>](https://www.davx5.com): CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.
 - [jtx Board](https://jtx.techbee.at): Provides a synchronised task list.
 - [Fossify Calendar](https://github.com/FossifyOrg/Calendar): Provides a synchronised calendar.
-- [Fossify Clock](https://github.com/FossifyOrg/Clock)
+- [Chrono](https://github.com/vicolo-dev/chrono): Convenient clock I use for alarms and timers.
 - [Ares Dark](https://www.one4studio.com/apps/icon-packs/ares-series): Provides some very nice-looking icons.
 - [Proton Drive](https://proton.me/drive): Cloud storage that I use to quickly move files between my phone and computer.
 - [Flipper](https://flipperzero.one): For interacting with [my Flipper Zero](/posts/i-got-a-flipper-zero).
 - [Stoat](https://stoat.chat)
-- [Xed-Editor](https://github.com/Xed-Editor/Xed-Editor): Advanced text editor for when I'm in a pinch.
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
 - [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
 
@@ -134,7 +134,7 @@ Currently I manage my extensive e-book collection with [Calibre](https://calibre
 
 ### Gaming
 
-I like to do a bit of gaming in my 'spare' time, so I've got a bit setup. I end up spending the bulk of my games on my Xbox Series S simply as a result of convenience. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2000, and Nintendo DS, although they see scarce use.
+I like to do a bit of gaming in my 'spare' time, so I've got a bit set up. I have an Xbox Series S for virtue of convenience and local multi-player ease, as well as for media display. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2000, and Nintendo DS, although they see scarce use.
 
 My preferred platform, even if not the most played, is PC. Most of my PC games live on [Steam](https://store.steampowered.com/), although I've got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the [Heroic Games Launcher](https://heroicgameslauncher.com). I also have [Prism Launcher](https://prismlauncher.org) for my occasional Minecraft needs and [GameMode](https://feralinteractive.github.io/gamemode/) to keep everything running smoothly.
 
