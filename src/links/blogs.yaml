@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 22 Sep 2025 00:00:00 +0000
+modTime: 20 Nov 2025 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -554,3 +554,7 @@ items:
     url: xn--gckvb8fzb.com
     rss: xn--gckvb8fzb.com/index.xml
     description: Technological ramblings with a slightly unhinged spin.
+  - title: l-o-o-s-e-d
+    url: l-o-o-s-e-d.net
+    rss: l-o-o-s-e-d.net/feeds/rss.xml
+    description: Art, design, and technology.

@@ -446,7 +446,7 @@ section.contact {
 
 @media (prefers-reduced-motion: no-preference) {
 	@keyframes perspective-warp {
-		0% {
+		10% {
 			transform: perspective(60rem) rotateX(100deg);
 		}
 

@@ -7,7 +7,7 @@ hoisted: true
 tags: [WordPress, design, development, front-end development]
 ---
 
-During my Diploma of Information Technology (Frontend Development), I worked within a team on a website for Public Libraries Western Australia (PLWA) -- a not-for-profit organisation advocating for public libraries across the state. They collaborate with local and state governments, as well as a range of national organisations.
+During my Diploma of Information Technology (Front-End Web Development), I worked within a team on a website for Public Libraries Western Australia (PLWA) -- a not-for-profit organisation advocating for public libraries across the state. They collaborate with local and state governments, as well as a range of national organisations.
 
 We worked on the redevelopment of PLWA’s website, which was originally created in 2009 using now ancient versions of Joomla and Bootstrap. It was outdated, broken in places, vulnerable to security risks, and lacked adequate support from its previous hosting provider. Our team, which included [Emily Drage](https://emilydrage.com), [Zoe Chan](https://zoecchan.me), and Maria Benic, took on the challenge of modernising their online presence.
 
@@ -18,7 +18,7 @@ We worked on the redevelopment of PLWA’s website, which was originally created
 
 We started with in-depth client consultations, moving from wireframes to **Figma** prototypes. Through multiple rounds of client feedback and user testing, we iteratively refined our designs, addressing flaws to ensure a user-centric approach.
 
-The natural choice for this content-driven site, which would be managed by non-technical staff, was **WordPress**. We built the theme from the ground up, embracing WordPress's **block theme** functionality and using **Tailwind CSS** for design consistency and efficient collaboration. I specifically developed a custom **WordPress plugin** to handle custom post types for news, events, and workshops, ensuring the site could effectively fit PLWA's needs.
+The natural choice for this content-driven site, which would be managed by non-technical staff, was **WordPress**. We built the theme from the ground up, embracing WordPress's **block theme** functionality and using **Tailwind CSS** for design consistency and efficient collaboration. I specifically developed a custom **WordPress plugin** using **PHP** to handle custom post types for news, events, and workshops, ensuring the site could effectively fit PLWA's needs.
 
 <figure>
 <img src="/assets/portfolio/public-libraries-western-australia/new-site.avif" alt="A modern looking website. At the top is a simple orange navigation menu with dropdown icons, followed by a hero image, some stats, an about section, a map plotting libraries, a horizontal list of news articles, and a large orange footer linking to all the major pages on the site.">

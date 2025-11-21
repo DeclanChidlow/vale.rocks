@@ -23,16 +23,6 @@
 			"url": "/posts"
 		},
 		{
-			"name": "Micros",
-			"description": "Short-form, often ephemeral posts",
-			"url": "/micros"
-		},
-		{
-			"name": "Videos",
-			"description": "Moving pictures",
-			"url": "/videos"
-		},
-		{
 			"name": "Elsewhere",
 			"description": "External writings, contributions, and appearances",
 			"url": "/elsewhere"
