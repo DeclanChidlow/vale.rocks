@@ -31,9 +31,8 @@ I store a microblog feed on my site, which mostly serves as a loosely curated mi
 
 ### Fediverse
 
-You can find me on the Fediverse at [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale). Follow me directly or via these feeds:
+You can find me on the Fediverse at [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale). Follow me directly or via the feed:
 
-- RSS: <https://fedi.vale.rocks/users/vale/feed.xml>
 - Atom Feed: <https://fedi.vale.rocks/users/vale/feed.atom>
 
 ### Bluesky
