@@ -349,6 +349,54 @@ _body:
 
 </section>
 
+<section class="testimonials">
+	<h2>Testimonials</h2>
+	<p>Those in the know, saying that I know what I say I know.</p>
+
+	<div>
+		<figure>
+			<q>Declan gave me feedback on <a href="https://samwho.dev/reservoir-sampling">my Reservoir Sampling blog post</a>, helping me improve several sections. His guest posts for Piccalilli have taught me all sorts about the web, notably view transitions and designing for print. Declan’s energy for and belief in the web is infectious.</q>
+			<figcaption>
+				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 1px;"/>
+				<div>
+					<a href="https://samwho.dev">Sam Rose</a>
+					<span>Visual Essayist & Developer Educator</span>
+				</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<q>Declan is the ideal front-ender: incredibly knowledgeable on the technical end, but with a thoughtful and keen eye to the human elements that produce delightful experiences. We've had the pleasure of working together on technical writing projects and I always walk away a better person from them.</q>
+			<figcaption>
+				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 -48px;"/>
+				<div>
+					<a href="https://geoffgraham.me">Geoff Graham</a>
+					<span>Web Developer & Educator</span>
+				</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<q>I've been lucky enough to work with Declan on a couple of writing projects and I can't say anything but good things about them. Always prompt, always an incredible high attention to detail and above all else, always a pleasure to work with.</q>
+			<figcaption>
+				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 -96px;"/>
+				<div>
+					<a href="https://bell.bz">Andy Bell</a>
+					<span>Founder of <a href="https://set.studio">Set Studio</a> & <a href="https://piccalil.li">Piccalilli</a></span>
+				</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<q>Whenever an article by Declan shows up in my feed, I’m sure to check it out. They absolutely know what they're talking about, and it’s always a pleasure to read things clearly expressed.</q>
+			<figcaption>
+				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: bottom;"/>
+				<div>
+					<a href="https://bsky.app/profile/mb21.bsky.social">Mauro Bieg</a>
+					<span>Senior Full-stack Engineer & Creator of <a href="https://mastrojs.github.io">Mastro</a></span>
+				</div>
+			</figcaption>
+		</figure>
+	</div>
+</section>
+
 <section class="showcase" data-pagefind-ignore="all">
 	<h2>Showcase</h2>
 	<p>Some of that which I've had the privilege of working on.</p>
