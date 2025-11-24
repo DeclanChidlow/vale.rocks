@@ -1,7 +1,7 @@
 ---
 title: An Inventory of Lexical Loves
 description: A collection of my favourite words (as defined by their extreme specificity, enjoyment to say, and overall zaniness) presented with definitions and in some cases their etymologies and my justification for inclusion.
-og_description: A wonderous wealth of words.
+og_description: I know words. I have the best words.
 pub_time: 2025-01-24
 mod_time: 2025-08-28
 section: Essay

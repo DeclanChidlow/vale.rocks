@@ -22,9 +22,9 @@ GIF, short for Graphics Interchange Format, is messy. It released in the '80s, u
 
 JPEG, also referred to as JPG and short for Joint Photographic Experts Group, came out in the early '90s. While it does have a lossless variant, it is largely used as a lossy format. However, the degree of compression can be controlled, unlike many other formats, which allows users to select the trade off between quality and size. It's great compression and early debut led to it becoming the most widely used format.
 
-An attempt was made to supersede JPEG with the very retro futuristic sounding, but ultimately ill fated, "JPEG 2000". It had some neat features and functionality, such as being able to compress specific sections independently, but never saw widespread adoption.
+An attempt was made to supersede JPEG with the very retro futuristic sounding, but ultimately ill fated, 'JPEG 2000'. It had some neat features and functionality, such as being able to compress specific sections independently, but never saw widespread adoption.
 
-During the '90s, following GIF's widespread adoption, the Unisys Corporation, which owned the patent on the Lempel–Ziv–Welch compression algorithm used by GIFs, attempted to enforce its licensing. This ultimately led to much discourse, and a more open, improved alternative was developed. It was aptly unofficially dubbed "PNG's Not GIF", which, of course, abbreviates to the recursive acronym PNG, though officially, it stands for "Portable Network Graphics". The format spread due to its free, open nature, and good support for transparency by means of an alpha layer.
+During the '90s, following GIF's widespread adoption, the Unisys Corporation, which owned the patent on the Lempel–Ziv–Welch compression algorithm used by GIFs, attempted to enforce its licensing. This ultimately led to much discourse, and a more open, improved alternative was developed. It was aptly unofficially dubbed 'PNG's Not GIF', which, of course, abbreviates to the recursive acronym PNG, though officially, it stands for 'Portable Network Graphics'. The format spread due to its free, open nature, and good support for transparency by means of an alpha layer.
 
 These three standards all managed to secure footing early in the web's life and defined themselves as _the_ image formats for many years. They haven't been perfect, but they've generally worked and seen great support.
 
@@ -99,17 +99,17 @@ However, it never made it past the opt in flag support stage, and Google eventua
 > - The new image format does not bring sufficient incremental benefits over existing formats to warrant enabling it by default
 > - By removing the flag and the code in M110, it reduces the maintenance burden and allows us to focus on improving existing formats in Chrome
 
-This rightly caused an uproar. Users pointed out many flaws in their claims. Firstly, that there has been a huge interest in the standard from a huge number of individuals and organisations, and secondly, the innovation brought by JPEG XL was most definitely "sufficient incremental benefits", especially as they had recently accepted AVIF, which was more lacking in features than existing standards.
+This rightly caused an uproar. Users pointed out many flaws in their claims. Firstly, that there has been a huge interest in the standard from a huge number of individuals and organisations, and secondly, the innovation brought by JPEG XL was most definitely 'sufficient incremental benefits', especially as they had recently accepted AVIF, which was more lacking in features than existing standards.
 
-What this really translates to is, "We've created WebP, a competing standard, and want to kill anything that might genuinely compete with it". This would also partly explain why they adopted AVIF but not JPEG XL. AVIF wasn't superior in every way and, as such, didn't threaten to dethrone WebP.
+What this really translates to is, 'We've created WebP, a competing standard, and want to kill anything that might genuinely compete with it'. This would also partly explain why they adopted AVIF but not JPEG XL. AVIF wasn't superior in every way and, as such, didn't threaten to dethrone WebP.
 
-JPEG XL, however, **is** better than WebP in every quantifiable way and would obsolete it. AVIF also serves as something to point to should they be called out for stifling competition and innovation as they are. They can simply say, "We love other formats. Look, we added another one just the other year".
+JPEG XL, however, **is** better than WebP in every quantifiable way and would obsolete it. AVIF also serves as something to point to should they be called out for stifling competition and innovation as they are. They can simply say, 'We love other formats. Look, we added another one just the other year'.
 
-Interestingly, Firefox, which receives a pretty decent amount of funding from Google, quietly dropped focus on implementing JPEG XL support and now state that they are "neutral" on the matter, although the flag is still present in the nightly version of the browser. Safari, which is developed by Apple separately from Google, managed to implement JPEG XL support with no issues, and it's available in WebKit without limitation.
+Interestingly, Firefox, which receives a pretty decent amount of funding from Google, quietly dropped focus on implementing JPEG XL support and now state that they are 'neutral' on the matter, although the flag is still present in the nightly version of the browser. Safari, which is developed by Apple separately from Google, managed to implement JPEG XL support with no issues, and it's available in WebKit without limitation.
 
 Many forks of Chromium and Firefox also include support with no ill effect. Firefox based browsers can simply enable the flag, and Chromium based browsers can use the implementation prior to removal as a jumping off point.
 
-Some of the forks with support include [Thorium](https://thorium.rocks), [Waterfox](https://www.waterfox.net), and [Pale Moon](https://www.palemoon.org). The code is written and working, and both use external implementations, so the cited "maintenance burden" is more or less nonexistent. Even if it does turn out to be a huge burden, [they can take the hit](https://lunduke.locals.com/post/4387539/firefox-money-investigating-the-bizarre-finances-of-mozilla).
+Some of the forks with support include [Thorium](https://thorium.rocks), [Waterfox](https://www.waterfox.net), and [Pale Moon](https://www.palemoon.org). The code is written and working, and both use external implementations, so the cited 'maintenance burden' is more or less nonexistent. Even if it does turn out to be a huge burden, [they can take the hit](https://lunduke.locals.com/post/4387539/firefox-money-investigating-the-bizarre-finances-of-mozilla).
 
 ### Why WebP?
 
