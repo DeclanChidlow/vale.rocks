@@ -427,6 +427,7 @@ section.contact {
 		mask:
 			conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s)) calc(100% - var(--s)),
 			conic-gradient(#000 0 0) content-box;
+		perspective: 60rem;
 
 		animation: perspective-warp;
 		animation-timeline: view();
@@ -474,11 +475,11 @@ section.contact {
 @media (prefers-reduced-motion: no-preference) {
 	@keyframes perspective-warp {
 		10% {
-			transform: perspective(60rem) rotateX(100deg);
+			transform: rotateX(100deg);
 		}
 
 		70% {
-			transform: perspective(60rem) rotateX(0deg);
+			transform: rotateX(0deg);
 		}
 	}
 }

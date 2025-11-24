@@ -21,6 +21,8 @@
   watches:
     - date: 2024-04
       format: Plane
+- title: Guardians of the Galaxy Vol 3
+  release_year: 2023
 - title: Asteroid City
   release_year: 2023
   watches:
@@ -33,6 +35,13 @@
   watches:
     - date: 2024-12-16
       format: Streaming
+- title: "Avatar: The Way of Water"
+  release_year: 2022
+- title: "Top Gun: Maverick"
+  release_year: 2022
+  watches:
+    - date: 2022
+      format: Cinema
 - title: The Batman
   release_year: 2022
   watches:
@@ -95,6 +104,13 @@
   watches:
     - date: 2018
       format: Cinema
+- title: Black Panther
+  release_year: 2018
+- title: Christopher Robin
+  release_year: 2018
+  watches:
+    - date: 2018
+      format: Cinema
 - title: Sherlock Gnomes
   release_year: 2018
   watches:
@@ -126,6 +142,8 @@
   watches:
     - date: 2017-07-14
       format: Cinema
+- title: Guardians of the Galaxy Vol 2
+  release_year: 2017
 - title: Despicable Me 3
   release_year: 2017
   watches:
@@ -147,6 +165,13 @@
   release_year: 2016
 - title: Moana
   release_year: 2016
+- title: Doctor Strange
+  release_year: 2016
+- title: The Jungle Book
+  release_year: 2016
+  watches:
+    - date: 2016
+      format: Cinema
 - title: Zootopia
   release_year: 2016
   watches:
@@ -177,6 +202,10 @@
     - date: 2016
       format: Cinema
 - title: Pixels
+  release_year: 2015
+- title: "Avengers: Age of Ultron"
+  release_year: 2015
+- title: Minions
   release_year: 2015
 - title: Inside Out
   release_year: 2015
@@ -215,6 +244,8 @@
     - date: 2021-06-24
       format: Streaming
 - title: The Internet's Own Boy
+  release_year: 2014
+- title: Guardians of the Galaxy
   release_year: 2014
 - title: Paddington
   release_year: 2014
@@ -311,6 +342,8 @@
   notes: The start of this film is perhaps the biggest gut punch to ever open a children's movie.
 - title: Scooby-Doo! The Mystery Begins
   release_year: 2009
+- title: Avatar
+  release_year: 2009
 - title: Scooby-Doo! and the Samurai Sword
   release_year: 2009
 - title: Harry Potter and the Half-Blood Prince
@@ -396,6 +429,7 @@
   release_year: 2004
 - title: Thunderbirds
   release_year: 2004
+  notes: I distinctly remember going to a Civic Video and making the mistake of renting this on DVD while thinking, 'Ooh, a Thunderbirds movie. I like Thunderbirds.'
 - title: Spider-Man 2
   release_year: 2004
   rating: 4
@@ -817,3 +851,5 @@
       format: Streaming
 - title: Peter Pan
   release_year: 1953
+- title: The Wizard of Oz
+  release_year: 1939
