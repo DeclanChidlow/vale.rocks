@@ -8,6 +8,7 @@
 	.filter,
 	.sort {
 		flex: 1;
+		min-width: fit-content;
 	}
 
 	select {
@@ -31,11 +32,16 @@
 
 #posts {
 	display: grid;
-	gap: 2rem;
+	gap: 1.5rem;
+	margin: 0;
 
 	.post {
+		position: relative;
+		display: flex;
+		flex-direction: column;
 		border-block-end: 2px solid var(--bright_grey);
 		padding-block-end: 0.5rem;
+		margin-block: 0;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-variant-numeric: lining-nums;
@@ -50,13 +56,34 @@
 			border-color: var(--blue);
 		}
 
+		p {
+			order: -1;
+		}
+
 		h2 {
-			font-size: 1.8rem;
+			position: static;
+		}
+
+		a {
 			display: -webkit-box;
 			-webkit-line-clamp: 2;
 			-webkit-box-orient: vertical;
 			text-overflow: ellipsis;
 			overflow: hidden;
+			outline: none;
+			text-decoration-color: var(--blue);
+
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				inset: 0;
+			}
+
+			&:focus-visible::after {
+				outline: 2px solid var(--blue);
+				margin-inline: -0.5rem;
+			}
 		}
 
 		ul {

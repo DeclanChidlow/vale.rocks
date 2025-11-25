@@ -1,46 +1,72 @@
-.elsewhere {
-	display: flex;
-	padding-block: 1rem;
-	border-bottom: 2px solid var(--bright_grey);
-	text-decoration: none;
-	text-transform: uppercase;
-	gap: 1rem;
+#posts {
+	margin: 0;
 
-	img {
-		max-block-size: 5rem;
-		inline-size: 20%;
-		min-inline-size: 10rem;
-		aspect-ratio: 16 / 9;
-		object-fit: cover;
+	.elsewhere {
+		position: relative;
+		display: flex;
+		gap: 1rem;
+		padding-block: 1rem;
+		margin: 0;
+		border-block-end: 2px solid var(--bright_grey);
+		text-decoration: none;
+		text-transform: uppercase;
+		font-variant-numeric: lining-nums;
+		font-variant-caps: titling-caps;
 
-		@media (max-width: 35rem) {
-			display: none;
+		animation: fade-in-up;
+		animation-timeline: view();
+		animation-fill-mode: both;
+
+		&:focus,
+		&:hover {
+			border-color: var(--blue);
 		}
-	}
 
-	div {
-		flex: 1;
-		margin-block: auto;
-	}
+		div {
+			flex: 1;
+			margin-block: auto;
+		}
 
-	h2 {
-		font-size: 1.5rem;
-		line-height: inherit;
-	}
+		h2 {
+			font-size: 1.5rem;
+			line-height: inherit;
+			position: static;
+		}
 
-	.note {
-		margin-block-start: 0.5rem;
-		text-transform: none;
-	}
+		a {
+			outline: none;
 
-	&:focus,
-	&:hover {
-		color: var(--blue);
-		border-color: var(--blue);
-	}
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				inset: 0;
+			}
 
-	&::after {
-		display: none;
+			&:focus-visible::after {
+				outline: 2px solid var(--blue);
+				margin-inline: -0.5rem;
+			}
+		}
+
+		.note {
+			margin-block-start: 0.5rem;
+			text-transform: none;
+			z-index: 10;
+			position: relative;
+		}
+
+		img {
+			max-block-size: 5rem;
+			inline-size: 20%;
+			min-inline-size: 10rem;
+			aspect-ratio: 16 / 9;
+			object-fit: cover;
+
+			@media (max-width: 35rem) {
+				display: none;
+			}
+		}
 	}
 }
 
@@ -62,5 +88,19 @@
 
 	@media (max-width: 26rem) {
 		grid-template-columns: none;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes fade-in-up {
+		entry 0% {
+			transform: translateY(5rem);
+			opacity: 0;
+		}
+
+		entry 100% {
+			transform: translateY(0);
+			opacity: 1;
+		}
 	}
 }

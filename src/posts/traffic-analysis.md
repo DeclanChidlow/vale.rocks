@@ -23,13 +23,13 @@ As of March 2025, [statcounter's Browser Market Share Worldwide data](https://gs
 
 Going off the figure that [31.5% of people globally use adblockers](https://backlinko.com/ad-blockers-users) (a figure which [might be conservative](https://www.theregister.com/2024/03/27/america_ad_blocker/)), my statistics are possibly 30% or more larger. Though it might be even higher due to my technical audience, which is more likely to use adblockers and block tracking.
 
-[Plausible claims that, overall, 58% of people in tech-savy audiences block Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data). They consider tech-savvy audiences to mainly be Hacker News readers and Reddit users -- my two biggest referrers. They claim that 88% of Firefox users block GA, and 82% of Linux users do as well, which are both already over-represented in my data.
+[Plausible claims that, overall, 58% of people in tech-savy audiences block Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data). They consider tech-savvy audiences to mainly be Hacker News readers and Reddit users -- my two biggest referrers. They claim that 88% of Firefox users block Google Analytics, and 82% of Linux users do as well, which are both already over-represented in my data.
 
 GoatCounter reports iOS as the most used operating system, but it is also the most difficult of all the major operating systems to install content blockers onto. MacOS and Linux are represented more than they are generally, but I would expect that from a technical audience. It also seems twisted people occasionally [tune in from Windows Phones](https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I).
 
-This all likely leads to _under_-representing what is already _over_-represented in my analytics -- at least as compared to a more general, less niche, audience. If you'd like to attempt to extrapolate the actual values based on the above notes, you're welcome to, but I'll be presenting the data values as it comes from GoatCounter.
+This all likely leads to _under_-representing what is already _over_-represented in my analytics -- at least as compared to a more general, less niche, audience. If you'd like to attempt to extrapolate the actual values based on the above notes, you're welcome to, but I'll be presenting the data values as they come from GoatCounter.
 
-By a sizable margin (~84%), most site visitors speak English, as you'd expect from a website written in English. This tends to be followed by German at around the 3–4% mark and then French, Spanish, and Italian. Beyond that, numbers get too small to be of much note.
+By a sizable margin (~84%), most site visitors speak English, as you'd expect from a website written in English. This tends to be followed by German at around the 3-4% mark and then French, Spanish, and Chinese. Beyond that, numbers get too small to be of much note.
 
 As you'd expect based on languages, Western countries are the biggest readers. The US is in the lead at ~40%. I'd assume this is in no small part due to Hacker News. The United Kingdom follows at ~7% with Germany close behind at ~6%. This is followed by Canada, Australia, and India. I'd suggest India is up there by virtue of the country's large population rather than any specific Indian readership. I'd also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.
 
@@ -41,7 +41,7 @@ In the below lists of top referrers, Hacker News does not include all alternate 
 
 _For the quarter running from 01/01/2025 until 31/03/2025._
 
-Total visits during this period: 50,094
+Total hits during this period: 50,094
 
 Most popular pages:
 
@@ -63,7 +63,7 @@ Top referrers:
 
 _For the quarter running from 01/04/2025 until 30/06/2025._
 
-Total visits during this period: 15,777
+Total hits during this period: 15,777
 
 Most popular pages:
 
@@ -85,7 +85,7 @@ Top referrers:
 
 _For the quarter running from 01/07/2025 until 30/09/2025._
 
-Total visits during this period: 8,523
+Total hits during this period: 8,523
 
 Most popular pages:
 

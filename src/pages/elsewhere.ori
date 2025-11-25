@@ -4,7 +4,6 @@
 	og_description: "My writings, contributions, and appearances external to Vale.Rocks."
 	stylesheet: "pages/elsewhere.css"
 	canonical: `/elsewhere${paginated_elsewhere.pageNumber > 1 ? `/${paginated_elsewhere.pageNumber}` : ''}`
-	template_image: "elsewhere"
 
 _body:
 `<h1 class="section" data-pagefind-filter="Content Type">Elsewhere</h1>
@@ -12,16 +11,19 @@ _body:
 <div class="readable">
 	${ paginated_elsewhere.previousPage	? `` : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
 
-	${ Tree.map(paginated_elsewhere.items,
-	(item, key) =>
-		`<a href="https://${ item/url }" class="elsewhere">
-			<div>
-				<h2>${ item/title }</h2>
-				<p><time datetime="${ item/pub_time }" title="Date of first publication." data-pagefind-ignore>${ functions/pretty-date.js(item/pub_time) }</time> | ${ item/type } | ${ item/sort} | ${ item/location }</p>
-				${ item/note ? `<p class="note">${ item/note }</p>` : '' }
-			</div>
-			${ item/image ? `<img src="https://${ item/image }" alt="">` : '' }
-		</a>`)}
+	<ol id="posts">
+		${ Tree.map(paginated_elsewhere.items,
+		(item, key) =>
+			`<li class="elsewhere">
+				<div>
+					<h2><a href="https://${ item/url }">${ item/title }</a></h2>
+					<p><time datetime="${ item/pub_time }" title="Date of first publication." data-pagefind-ignore>${ functions/pretty-date.js(item/pub_time) }</time> | ${ item/type } | ${ item/sort} | ${ item/location }</p>
+					${ item/note ? `<p class="note">${ item/note }</p>` : '' }
+				</div>
+				${ item/image ? `<img src="https://${ item/image }" alt="">` : '' }
+			</li>
+		`)}
+	</ol>
 
 	<div data-pagefind-ignore="all" class="pagination">
 		${ paginated_elsewhere.previousPage

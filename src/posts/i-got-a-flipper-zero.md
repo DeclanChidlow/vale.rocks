@@ -44,8 +44,8 @@ It isn't hard to install and can be done via a web browser, the qFlipper desktop
 Once I had the Flipper properly setup, I dove straight into mischief. First action was cloning the TV remote so I'd be able to mildly inconvenience anyone at my discretion. This sort of IR cloning is super easy. Open the necessary app, set it to learn, point the relevant remote at the Flipper's sensor, and press whatever button you want to capture.
 
 <figure class="right">
-<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="A picture of a Flipper Zero sitting on a table.">
-<figcaption>My Flipper Zero</figcaption>
+<img src="/assets/posts/i-got-a-flipper-zero/flipper-zero-on-table.avif" alt="My small white-shelled Flipper Zero with orange buttons on the front sitting upon a table.">
+<figcaption>My Flipper Zero.</figcaption>
 </figure>
 
 This sort of interaction has defined my usage of the Flipper. Receive a signal and play it back. It's a real-world copy-paste. In fact, that is probably the best way to describe the Flipper for anyone curious about what exactly it is. It's a copy and paste for the world's signals.
@@ -101,6 +101,11 @@ Separate from the negativity, there is a thriving community that dedicates their
 ## Modifications
 
 In January of 2025, I purchased a miniature Wi-Fi board, transparent shell, and RGB mod from Ray J, a member of the Flipper community who [has a YouTube channel dedicated to the Flipper Zero](https://www.youtube.com/@rayj1988).
+
+<figure class="right">
+<img src="/assets/posts/i-got-a-flipper-zero/clear-flipper-zero-with-wifi-board.avif" alt="A Flipper Zero with a transparent shell sitting on a table with a small black Wi-Fi board plugged into the top. The screen glows orange and shows it is running Evil Portal.">
+<figcaption>My shell-swapped Flipper Zero with the Wi-Fi board installed.</figcaption>
+</figure>
 
 The Wi-Fi board I purchased is [of Ray's own design](https://www.youtube.com/watch?v=bQva-mA0Q1c) and has an ESP32-WROOM-32D-4M chip within a 3D-printed shell. It expands the utility of the Flipper greatly. It really shines a light on how fallible networks are when you can shut them down with a pocket-sized tool by sending de-authentication packets or performing a denial-of-service. I've also used it to educate people on the threats of twin attacks.
 

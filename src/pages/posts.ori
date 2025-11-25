@@ -37,12 +37,12 @@ _body:
 		</div>
 	</form>
 
-	<div id="posts">
+	<ol id="posts">
 		${ Tree.map(posts_data,
 		(post, key) =>
-		`<a class="post" href="/posts/${ Origami.basename(key) }">
+		`<li class="post">
+			<h2><a href="/posts/${ Origami.basename(key) }">${ post.title }</a></h2>
 			<p>${ post.section }</p>
-			<h2>${ post.title }</h2>
 			<ul>
 				<li>${ post.words } words</li>
 				<li><time datetime="${ post.pub_time }" title="Date of first publication.">
@@ -53,8 +53,8 @@ _body:
 					${ functions/pretty-date.js(post.mod_time) }
 					</time></li>` : '' }
 			</ul>
-		</a>`)}
-	</div>
+		</li>`)}
+	</ol>
 </div>
 
 <script src="/assets/scripts/refine-posts.js"></script>`})
