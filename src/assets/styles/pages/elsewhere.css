@@ -13,10 +13,6 @@
 		font-variant-numeric: lining-nums;
 		font-variant-caps: titling-caps;
 
-		animation: fade-in-up;
-		animation-timeline: view();
-		animation-fill-mode: both;
-
 		&:focus,
 		&:hover {
 			border-color: var(--blue);
@@ -88,19 +84,5 @@
 
 	@media (max-width: 26rem) {
 		grid-template-columns: none;
-	}
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	@keyframes fade-in-up {
-		entry 0% {
-			transform: translateY(5rem);
-			opacity: 0;
-		}
-
-		entry 100% {
-			transform: translateY(0);
-			opacity: 1;
-		}
 	}
 }
