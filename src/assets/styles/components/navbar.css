@@ -258,31 +258,28 @@ body:has(#popover-menu:popover-open) {
 .heading-label,
 .scroll-percentage {
 	display: block;
-	opacity: 1;
-	visibility: hidden;
 	inline-size: 7rem;
 	margin-inline-start: 1rem;
 	line-height: 1.1;
 	font-size: 0.8rem;
-	transform: translateY(-50%);
+	visibility: hidden;
+	opacity: 0;
 	filter: blur(0.5rem);
-	transition: filter 0.25s ease;
+	transition:
+		visibility 0.25s ease,
+		opacity 0.25s ease,
+		filter 0.25s ease;
 }
 
 .sidebar {
 	margin-inline-end: -3rem;
 	padding-inline-end: 3rem;
 
-	&:focus-within .heading-label,
-	&:hover .heading-label {
-		opacity: 1;
-		visibility: visible;
-	}
-
 	&:focus-within :where(.heading-label, .scroll-percentage),
 	&:hover :where(.heading-label, .scroll-percentage) {
-		filter: blur(0);
 		visibility: visible;
+		opacity: 1;
+		filter: none;
 	}
 }
 

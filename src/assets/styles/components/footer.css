@@ -2,7 +2,8 @@ footer {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
-	margin: 3rem -3rem 0;
+	margin-block-start: 3rem;
+	margin-inline: -3rem;
 	padding: 3rem;
 	background: linear-gradient(transparent, light-dark(var(--bright_yellow), var(--grey)));
 	font-size: 0.9rem;

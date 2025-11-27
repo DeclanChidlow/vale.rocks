@@ -193,7 +193,6 @@ class ScrollProgressIndicator {
 	updateTocHeightVariable() {
 		if (this.horizontalContainer) {
 			const containerHeight = this.horizontalContainer.offsetHeight;
-
 			document.documentElement.style.setProperty("--toc-height", `${containerHeight}px`);
 		}
 	}
@@ -222,21 +221,21 @@ class ScrollProgressIndicator {
 		}
 
 		if (isHorizontal) {
-			markerElement.style.left = `${position}%`;
-			markerElement.style.top = "";
+			markerElement.style.insetInlineStart = `${position}%`;
+			markerElement.style.insetBlockStart = "";
 		} else {
-			markerElement.style.top = `${position}%`;
-			markerElement.style.left = "";
+			markerElement.style.insetBlockStart = `${position}%`;
+			markerElement.style.insetInlineStart = "";
 		}
 
 		return markerElement;
 	}
 
 	resetIndicatorStyles() {
-		this.indicator.style.width = "";
-		this.indicator.style.height = "";
-		this.indicator.style.top = "";
-		this.indicator.style.left = "";
+		this.indicator.style.inlineSize = "";
+		this.indicator.style.blockSize = "";
+		this.indicator.style.insetBlockStart = "";
+		this.indicator.style.insetInlineStart = "";
 	}
 
 	updateIndicator(isHorizontal) {
@@ -245,16 +244,16 @@ class ScrollProgressIndicator {
 		if (isHorizontal) {
 			const width = (scrollTop / (articleHeight - viewportHeight)) * 100;
 			const clampedWidth = Math.max(0, Math.min(100, width));
-			this.indicator.style.width = `${clampedWidth}%`;
-			this.indicator.style.left = "";
-			this.indicator.style.top = "";
+			this.indicator.style.inlineSize = `${clampedWidth}%`;
+			this.indicator.style.insetInlineStart = "";
+			this.indicator.style.insetBlockStart = "";
 		} else {
 			const height = (viewportHeight / articleHeight) * 100;
 			const position = (scrollTop / articleHeight) * 100;
 			const clampedPosition = Math.max(0, Math.min(100 - height, position));
-			this.indicator.style.height = `${height}%`;
-			this.indicator.style.top = `${clampedPosition}%`;
-			this.indicator.style.left = "";
+			this.indicator.style.blockSize = `${height}%`;
+			this.indicator.style.insetBlockStart = `${clampedPosition}%`;
+			this.indicator.style.insetInlineStart = "";
 		}
 	}
 

@@ -13,7 +13,7 @@ _body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Videos</span>
 
 <article class="h-entry">
-	<iframe class="${ video.format === 'short' ? `short` : `long` }" src="https://www.youtube.com/embed/${ video.youtube_id }" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<youtube-embed videoid="${video.youtube_id}" class="${ video.format === 'short' ? `short` : `long` }" style="background-image: url('https://i.ytimg.com/vi/${ video.youtube_id }/${ video.format === 'short' ? `oar2.jpg` : `hq720.jpg` }')"></youtube-embed>
 
 	<div class="readable e-content">
 		<header data-pagefind-ignore>
@@ -31,4 +31,6 @@ _body:
 
 		${ video._body }
 	</div>
-</article>`})
+</article>
+
+<script src='/assets/scripts/youtube-embed.js'></script>`})
