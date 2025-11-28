@@ -192,7 +192,7 @@ body:has(#popover-menu:popover-open) {
 	display: none; /* Set to block in JS */
 	position: sticky;
 	inset-block-start: 3rem;
-	block-size: calc(100vh - 6rem);
+	block-size: calc(100vb - 6rem);
 	inline-size: 2px;
 	background-color: light-dark(var(--white), var(--grey));
 	z-index: 1000;

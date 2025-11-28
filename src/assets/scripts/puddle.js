@@ -203,13 +203,13 @@ class Puddle {
 	}
 
 	#setupDimensions() {
-		const { scrollWidth, scrollHeight } = this.parentNode;
-		const lesserDimension = Math.min(scrollHeight, scrollWidth);
+		const { clientWidth, clientHeight } = this.parentNode;
+		const lesserDimension = Math.min(clientHeight, clientWidth);
 		this.nodeSize = Math.max(CONFIG.MIN_NODE_SIZE, (lesserDimension * 3) / 100);
 
-		if (scrollHeight) {
-			this.numRows = Math.floor(scrollHeight / this.nodeSize);
-			this.numCols = Math.floor(scrollWidth / this.nodeSize);
+		if (clientHeight) {
+			this.numRows = Math.floor(clientHeight / this.nodeSize);
+			this.numCols = Math.floor(clientWidth / this.nodeSize);
 		}
 	}
 

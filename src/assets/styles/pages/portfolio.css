@@ -15,7 +15,7 @@ main > div {
 
 .hero {
 	display: flex;
-	min-block-size: calc(100vh - 8rem);
+	min-block-size: calc(100vb - 8rem);
 	align-items: center;
 	background: linear-gradient(light-dark(var(--white), var(--dark_grey)), transparent);
 	padding: 2rem;
@@ -24,11 +24,11 @@ main > div {
 		margin-block-start: -5rem;
 		margin-inline: -0.8rem;
 		margin-block-end: 0;
-		min-block-size: calc(100vh - 3rem);
+		min-block-size: calc(100vb - 3rem);
 	}
 
 	h2 {
-		font-size: clamp(1rem, 0.1rem + 9.6vw, 2.8rem);
+		font-size: clamp(1rem, 0.1rem + 9.6vi, 2.8rem);
 		font-weight: 600;
 		line-height: 1.2;
 		display: block;

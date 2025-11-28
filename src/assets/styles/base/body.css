@@ -1,7 +1,6 @@
 html {
 	overscroll-behavior-y: none;
 	scroll-padding-block-start: 5rem;
-	scrollbar-gutter: stable;
 	scrollbar-color: var(--bright_grey) transparent;
 	text-size-adjust: none;
 }

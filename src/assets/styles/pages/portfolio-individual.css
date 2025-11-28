@@ -16,7 +16,7 @@
 		font-weight: 550;
 		font-variant-numeric: lining-nums;
 		font-variant-caps: titling-caps;
-		block-size: calc(90vh - 5rem);
+		block-size: calc(90vb - 5rem);
 
 		h1,
 		p {

@@ -35,7 +35,7 @@ youtube-embed {
 }
 
 .short {
-	block-size: 80vh;
+	block-size: 80vb;
 	max-inline-size: 100%;
 	aspect-ratio: 9 / 16;
 	margin-inline: auto;

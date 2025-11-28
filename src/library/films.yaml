@@ -368,6 +368,8 @@
 - title: Ponyo
   release_year: 2008
   rating: 4
+- title: The Spiderwick Chronicles
+  release_year: 2008
 - title: Indiana Jones and the Kingdom of the Crystal Skull
   release_year: 2008
   rating: 1.5
@@ -421,6 +423,9 @@
     - date: 2019-03
       format: Theatre
       notes: Watched with full musical accompaniment of the West Australian Symphony Orchestra.
+- title: Charlie and the Chocolate Factory
+  release_year: 2005
+  notes: Significantly worse than the 1971 film adaptation.
 - title: Hoodwinked
   release_year: 2005
 - title: The Hitchhiker's Guide to the Galaxy

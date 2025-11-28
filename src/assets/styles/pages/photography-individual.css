@@ -1,8 +1,8 @@
 figure {
-	max-block-size: 75vh;
+	max-block-size: 75vb;
 
 	img {
-		max-block-size: 75vh;
+		max-block-size: 75vb;
 	}
 
 	&:not(.left, .right) {

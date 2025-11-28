@@ -38,6 +38,9 @@ class SitemapGraph {
 
 	setupCanvas() {
 		const resize = () => {
+			// Deal with scrollbar vi fuckery
+			this.container.style.width = `${document.documentElement.clientWidth}px`;
+
 			const containerRect = this.container.getBoundingClientRect();
 			const containerWidth = containerRect.width;
 			const containerHeight = containerRect.height;

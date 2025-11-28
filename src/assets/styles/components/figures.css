@@ -1,5 +1,5 @@
 img {
-	max-block-size: 90vh;
+	max-block-size: 90vb;
 }
 
 figure {
@@ -114,9 +114,9 @@ figcaption {
 }
 
 .lightbox {
-	max-block-size: 100vh;
-	max-inline-size: 100vw;
-	inline-size: 100vw;
+	max-block-size: 100vb;
+	max-inline-size: 100vi;
+	inline-size: 100vi;
 	padding-block: 2rem;
 	padding-inline: 1rem;
 	margin-block: auto;
@@ -137,7 +137,7 @@ figcaption {
 	> svg {
 		inline-size: 100%;
 		max-inline-size: 60rem;
-		max-block-size: calc(90vh - 4rem);
+		max-block-size: calc(90vb - 4rem);
 		margin-block-end: 2rem;
 		object-fit: contain;
 	}

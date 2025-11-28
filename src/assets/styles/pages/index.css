@@ -22,7 +22,7 @@ main {
 
 .hero {
 	position: relative;
-	block-size: 85dvh;
+	block-size: 85dvb;
 	pointer-events: none;
 	display: flex;
 	flex-direction: column;
@@ -46,8 +46,8 @@ main {
 #container {
 	display: none; /* Set to block with JS */
 	position: relative;
-	inline-size: 100vw;
-	block-size: 70vh;
+	/* Inline size set in JS */
+	block-size: 70vb;
 	max-block-size: 50rem;
 	margin-inline: -3rem;
 	margin-block-end: 4rem;
