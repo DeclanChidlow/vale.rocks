@@ -71,6 +71,12 @@
   rating: 3.5
 - title: The French Dispatch
   release_year: 2021
+- title: "Roadrunner: A Film About Anthony Bourdain"
+  release_year: 2021
+  notes: While watching, I wanted nothing more than to write. When I began writing, I wanted nothing more than to watch. A condensation of motivation.
+  watches:
+    - date: 2025-11-30
+      format: Streaming
 - title: "Spider-Man: No Way Home"
   release_year: 2021
 - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"

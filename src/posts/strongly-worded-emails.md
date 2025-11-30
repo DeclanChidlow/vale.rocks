@@ -1,6 +1,6 @@
 ---
 title: Strongly Worded Emails
-description: Discussion of the true wonders of strongly worded emails. The ever-wonderful communication medium that is forever effective and most certainly not flawed or a complete waste of time in any way, shape, or form.
+description: Discussion of the true wonders of strongly worded emails. The ever-grand communication medium that is forever effective and most certainly not flawed or a complete waste of time in any way, shape, or form.
 og_description: Only the finest form of communication.
 pub_time: 2025-11-28
 section: Rant
@@ -8,7 +8,7 @@ section: Rant
 
 There are few greater joys in life than the creation of a strongly worded email. I have an innate love for the medium. It is an art form that sits at the intersection of literature, warfare, and therapy. Strongly worded emails are, perhaps, the most completely backwards form of communication that the human race has ever created. Bureaucracy manifest. A primal scream typed in twelve-point Arial.
 
-The inciting incident triggers a low hum of rage. In a pre-digital age, one might have stormed into a shop and demanded to see the manager. But we do not live in that world. We live in a world of faceless entities, cloud-based service desks, and "Contact Us" pages that lead only to FAQs. The only weapon left to the modern warrior is the keyboard. And so, the decision is made. One cracks the knuckles. One opens a new draft.
+The inciting incident triggers a low hum of rage. In a pre-digital age, one might have stormed into an establishment and demanded to see the manager. But we do not live in that world. The only weapon left to the modern warrior is the keyboard. And so, the decision is made. One cracks the knuckles. One opens a new draft.
 
 Writing a truly strongly worded email is an endeavour not for the faint of heart. It often begins with difficulty in finding the perfect contact. Frequently it is tricky to find the email to which one can send their screed. They are wary of the strongly worded emailist and have constructed moats surrounding their fortresses.
 
@@ -18,7 +18,7 @@ Artistry of a noble craft lies in the drafting phase. One asserts that they are 
 
 It is prepared with the greatest of care and deliberation. Umming and ahhing about the perfect combination of diction. Words are deleted at the same rate they're typed. 'I'm furious' is a wet, sputtering match that doesn't cut it. 'I am writing to express my profound dissatisfaction' is far better, colder, and more clinical.
 
-Studied analysis for logical fallacies or inclusion of potential ammunition for the receiving party. You cannot admit fault -- you must be the innocent victim of their incompetence. Each typo is neutered, for it could serve as munition for return fire. A thesaurus is consulted for a word packing an extra morsel of scathing impact while not venturing into outright assault.
+Studied analysis for logical fallacies or inclusion of potential ammunition for the receiving party. You cannot admit fault -- you must be the innocent victim of their incompetence. Each typo is eradicated, for it could serve as munition for return fire. A thesaurus is consulted for a word packing an extra morsel of scathing impact while not venturing into outright assault.
 
 You walk a precarious line. You know as well as any that being too polite will result in your words being ignored, and being too aggressive will have you branded 'do not interact'. You toe the line and with great difficulty settle on a removed icy tone of menace. You share it around with those whose support you've garnered, with each offering their own striking tweaks.
 
@@ -42,4 +42,4 @@ Yet, in life, there are few greater pleasures than the catharsis of sending a st
 
 The efficacy adapts with scale. For a small outfit, a strongly worded email can be a big deal, but for a large multinational, it is water off a duck's back. And yet, we still write them. We persist in sharpening our adjectives and polishing our syntax. We know nothing comes of them, yet we will hit send and stare at the screen, grimly satisfied.
 
-For the above, strongly worded emails are my favourite form of communication. Largely pointless, generally a waste of time, and arguably beneficial to both sides. The sender often gets catharsis, and the receiver is largely unaffected, having served only as the necessary vessel for an exquisite, if doomed, act of personal defiance. The rage is spent, the inbox is momentarily quiet, and the only window that has had a brick thrown through it is the one inside the soul.
+For the above, strongly worded emails are my favourite form of communication. Largely pointless, generally a waste of time, and arguably beneficial to both sides. The sender often gets catharsis, and yet the receiver is usually largely unaffected, having served only as the necessary vessel for an exquisite, if doomed, act of personal defiance. The rage is spent, the inbox is momentarily quiet, and the only window that has had a brick thrown through it is the one inside the soul.

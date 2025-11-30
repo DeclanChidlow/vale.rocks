@@ -264,7 +264,7 @@
   description: Tons of good website headlines for reference.
 - title: Squoosh
   url: squoosh.app
-  description: Compare differences in image file formats and compression.
+  description: Compare differences in image file formats and compression. Good for tuning in the exact level of compression to use.
 - title: Clippy
   url: bennettfeely.com/clippy
   description: CSS clip-path maker
