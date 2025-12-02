@@ -42,7 +42,7 @@ What do you think I'm doing? What more do you want from me? _Arghhhhh!_
 
 'Difficult' isn't quantifiable, so I'll lean on comparison. It is harder than riding a bike. With a bike, you can fall left or right. The two-wheeled design means that you are stable forwards and backwards.
 
-On a unicycle, there is no forwards/backwards stabilisation. You can fall in any direction, though you tend to go in the cardinal directions.
+On a unicycle, there is no forwards/backwards stabilisation. You can fall any which way, though you tend to go in the cardinal directions.
 
 Once you've learnt how to ride, it is similar to a bike, albeit with a slightly higher difficulty baseline. You don't really need to think about how to ride a bike once you can; it just comes naturally. The same applies to riding a unicycle.
 
@@ -138,4 +138,4 @@ Going up hills is tough but quite fun. Steep inclines can be managed quite readi
 
 These are the questions I've heard most frequently, but I'm more than happy to take any unicycle-related queries you might have. Just [send them over](/contact).
 
-[^2]: There do exist free wheel unicycles, but they're an eccentric novelty -- even more so than standard unicycles.
+[^1]: There do exist free wheel unicycles, but they're an eccentric novelty -- even more so than standard unicycles.
