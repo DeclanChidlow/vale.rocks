@@ -112,7 +112,7 @@ The more complex way is by doing a so-called 'free mount'. There are a few varia
 
 Nope. One's knees are one's suspension. You might get the slightest bit of shock absorption from your tyre and saddle, but that is the extent of it. On unicycles designed for off-road situations (often dubbed municycles, short for mountain unicycle), thicker tyres are often present partly for this purpose.
 
-Typical suspension proves more of a pain than a gain. To implement it in the forks means that it saps energy as one rides and allows the wheel to move upward relative to the frame and pedals when hitting a bump, which is not ideal. That isn't to mention the inherent disconnect between rider, wheel, and ground, causing difficulty balancing and inhibiting the ability to make micro adjustments. There is also a lot of force involved when unicycling, so any suspension would have to be extremely well engineered.
+Typical suspension proves more of a pain than a gain. To implement it in the forks means that it saps energy as one rides and allows the wheel to move upward relative to the body when hitting a bump, which is not ideal. That isn't to mention the inherent disconnect between rider, wheel, and ground, causing difficulty balancing and inhibiting the ability to make micro adjustments. There is also a lot of force involved when unicycling, so any suspension would have to be extremely well engineered.
 
 A few experimental folks have tried, but the consensus at large is that suspension on a unicycle does more harm than good.
 
