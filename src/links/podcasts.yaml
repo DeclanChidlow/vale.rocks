@@ -34,3 +34,7 @@ items:
     url: lateralcast.com
     rss: feeds.megaphone.fm/lateralcast
     description: Comedy panel game about weird questions with wonderful answers, hosted by Tom Scott.
+  - title: Wake Up Excited!
+    url: podcast.wakeupexcited.show
+    rss: feeds.transistor.fm/wake-up-excited
+    description: An exuberant podcast about living a creative, fulfilling, and positive life.

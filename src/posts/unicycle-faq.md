@@ -7,7 +7,7 @@ section: Essay
 tags: [unicycling]
 ---
 
-As a unicyclist, I draw a certain amount of attention, and whether it be a busy sunny Saturday morning or 21:00 on a grim Monday evening, people are inclined to ask me questions.
+As a unicyclist, I draw a certain amount of attention, and whether it be a busy sunny Saturday morning or 21:00 on a grim Monday night, people are inclined to ask me questions.
 
 I imagine the spectacle and presumed friendliness of someone riding a unicycle contributes to people's willingness to enquire, and I've had some lovely chats with some lovely people spurred by unicycle-oriented lines of inquiry.
 
@@ -50,7 +50,7 @@ Once you've learnt how to ride, it is similar to a bike, albeit with a slightly 
 
 Not particularly. I believe riding a unicycle to be _less_ dangerous than riding a bicycle.
 
-Due to the mechanics of a unicycle and the fixed-wheel nature, you don't usually end up moving at very significant speeds, so no fall is too catastrophic.
+Due to the mechanics of a unicycle and the fixed-wheel nature, [^1] you don't usually end up moving at very significant speeds, so no fall is too catastrophic.
 
 You are not mounted to a unicycle, so you can generally just step off the front or back. If the unicycle has handlebars, then that can hinder a front dismount, but in most cases when you're forced to bail or ejected from the unicycle, you can simply walk off it without sustaining any damage yourself. You're already standing up fairly straight when riding, and your feet are already doing the correct walking motion when you're pedalling.
 
@@ -72,7 +72,7 @@ I'm confident that if someone is to dedicate a little bit of time each day, they
 
 ## Does It Have Brakes?
 
-Sometimes asked as 'How do you stop?', it is a good question. Some unicycles, especially high-end ones, do have a brake, but it isn't equivalent to a bike brake.
+Sometimes asked as 'How do you stop?', it is a good question. Some unicycles, especially high-end ones, do have a brake, but it isn't equivalent to a bike brake. They take the same forms, such as disc brakes or rim breaks, but are very different in usage.
 
 Due to having no inherent stability forwards and back, the brakes are likely to eject you forwards as the momentum of your body carries forward and the wheel comes to a stop.
 
@@ -86,11 +86,13 @@ In general riding, the only pain one is likely to experience is around the crotc
 
 Unicycle saddles are designed with this in mind, but even so, the perineum is a very sensitive area, and some saddle soreness is to be expected. One can experiment with padded cycling pants or other methods of aversion, but there will always be a slight bit of discomfort. One's best bet is to alter their seating and posture to subtly redistribute their weight on different points throughout their ride.
 
+Irritation slowly increases throughout the duration of a ride and is exacerbated by additional loads such as carried items or backpacks. For this reason, you'll see unicycle tourers such as [Ed Pratt](https://en.wikipedia.org/wiki/Ed_Pratt) mount cargo to the frame, rather than on their person.
+
 You can also smash your pedals into your shin if you aren't careful -- which is a particularly painful experience if you've got sharp metal-studded pedals for the purpose of maintaining traction while off-road riding. If you're off-road riding on coarse ground, you might also scrape the skin off your palms or arms in the case of an unplanned dismount. Gloves can be a good idea in such situations.
 
 ## Do You Have Handlebars?
 
-More advanced unicycles can have handlebars, but they're a bit different in function to your typical bicycle handlebars. There are three main purposes of unicycle handlebars, and none of them are steering. You can't steer a unicycle with handlebars.
+More advanced unicycles can have handlebars, but they're a bit different in function to your typical bicycle handlebars. There are three main purposes of unicycle handlebars. You can use them somewhat to influence steering, but they are certainly not a high-precision device and are mainly useful for distributing your weight into a turn.
 
 The greatest benefit of handlebars is addressing the aforementioned saddle discomfort. By placing some of your weight onto the handlebars, you can distribute it more evenly. However, it is a case of distributing weight carefully so that you don't fall forward.
 
@@ -108,7 +110,11 @@ The more complex way is by doing a so-called 'free mount'. There are a few varia
 
 ## Does It Have Suspension?
 
-Nope. One's knees are one's suspension. You might also get the slightest bit of shock absorption from your tyre and saddle.
+Nope. One's knees are one's suspension. You might get the slightest bit of shock absorption from your tyre and saddle, but that is the extent of it. On unicycles designed for off-road situations (often dubbed municycles, short for mountain unicycle), thicker tyres are often present partly for this purpose.
+
+Typical suspension proves more of a pain than a gain. To implement it in the forks means that it saps energy as one rides and allows the wheel to move upward relative to the frame and pedals when hitting a bump, which is not ideal. That isn't to mention the inherent disconnect between rider, wheel, and ground, causing difficulty balancing and inhibiting the ability to make micro adjustments. There is also a lot of force involved when unicycling, so any suspension would have to be extremely well engineered.
+
+A few experimental folks have tried, but the consensus at large is that suspension on a unicycle does more harm than good.
 
 ## Do You Ever Fall Off?
 
@@ -120,8 +126,16 @@ I fall off occasionally when doing something tricky or technical off-road, but t
 
 None of my unicycles have gears, and I have not ridden a geared unicycle, but geared unicycles do exist. People have made geared hubs, most famously the [Schlumpf hub](https://www.florianschlumpf.swiss/en/unicycle-hub), which is expensive but available for general purchase.
 
-Geared unicycles typically have two ratios -- one typical and one 1.5:1 -- and are toggled by pressing a button on the axle with one's foot on the downstroke when pedalling.
+Geared unicycles with the Schlumph hub have two ratios -- one typical and one 17∶11 -- and are toggled by pressing a button on the axle with one's foot on the downstroke when pedalling.
+
+## Do You Struggle On Hills?
+
+Going downhill can be hard on one's knees given the need to slow down and place one's weight slightly further back but is absolutely manageable safely. You can't coast down due to the rotation of the cranks being fixed to the rotation of the wheel, so there isn't quite the same joy.
+
+Going up hills is tough but quite fun. Steep inclines can be managed quite readily, but you can't change gears as you might on a bicycle. If an incline is excessively steep, momentum is shaky during the climb as one comes to a near complete stop at the conclusion of each downstroke due to the fixed wheel design. Slope dependent, you can sometimes outperform bike riders when riding uphill.
 
 ---
 
 These are the questions I've heard most frequently, but I'm more than happy to take any unicycle-related queries you might have. Just [send them over](/contact).
+
+[^2]: There do exist free wheel unicycles, but they're an eccentric novelty -- even more so than standard unicycles.
