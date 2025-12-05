@@ -4,8 +4,8 @@
 	...video_data.ori
 	...photography_data.ori
 	...(elsewhere_data.yaml → (_) => Tree.map(_, (elsewhere) => {
-		  ...elsewhere
-		  type: "elsewhere"
+		...elsewhere
+		type: "elsewhere"
 	}))
 }
 → (_) => Tree.sort(_, (item) => item.pub_time)
