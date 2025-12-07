@@ -1,3 +1,11 @@
+- title: Practical Typography
+  release_year: 2013
+  authors: Matthew Butterick
+  notes: Very opinionated and aimed more at the amateur typographer than someone with professional experience, but nevertheless valuable. I disagree with certain assertions, such as the notion of not underlining links.
+  reads:
+    - start: 2025-11-25
+      finish: 2025-12-07
+      status: Read
 - title: Careless People
   release_year: 2025
   authors: Sarah Wynn-Williams
