@@ -1,3 +1,7 @@
+main > div {
+	max-width: 80rem;
+}
+
 #refine-posts {
 	display: none; /* Set to flex with JS */
 	gap: 2rem;
@@ -105,10 +109,6 @@
 
 	@media (min-width: 60rem) {
 		grid-template-columns: repeat(2, 1fr);
-	}
-
-	@media (min-width: 90rem) {
-		grid-template-columns: repeat(3, 1fr);
 	}
 }
 

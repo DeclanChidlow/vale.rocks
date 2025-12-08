@@ -40,7 +40,50 @@ main {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	gap: 4rem;
+	gap: 12rem;
+}
+
+.reasonable-width {
+	max-width: 80rem;
+	margin-inline: auto;
+}
+
+.right-block {
+	margin-inline-start: auto;
+
+	ul {
+		> :nth-child(1) a {
+			text-decoration-color: var(--magenta);
+		}
+
+		> :nth-child(2) a {
+			text-decoration-color: var(--orange);
+		}
+
+		> :nth-child(3) a {
+			text-decoration-color: var(--blue);
+		}
+
+		> :nth-child(4) a {
+			text-decoration-color: var(--green);
+		}
+
+		> :nth-child(5) a {
+			text-decoration-color: var(--red);
+		}
+
+		> :nth-child(6) a {
+			text-decoration-color: var(--bright_grey);
+		}
+
+		> :nth-child(7) a {
+			text-decoration-color: var(--orange);
+		}
+
+		> :nth-child(8) a {
+			text-decoration-color: var(--cyan);
+		}
+	}
 }
 
 #container {
@@ -50,11 +93,17 @@ main {
 	block-size: 70vb;
 	max-block-size: 50rem;
 	margin-inline: -3rem;
+	margin-block-start: 1rem;
 	margin-block-end: 4rem;
 	background: light-dark(var(--white), var(--dark_grey));
+	box-shadow: inset 0 0 2rem light-dark(var(--bright_grey), var(--black));
 
 	@media (max-width: 45rem) {
 		margin-inline: -0.8rem;
+	}
+
+	button:hover {
+		background: var(--bright_grey);
 	}
 }
 
@@ -76,15 +125,6 @@ main {
 	svg {
 		block-size: 1.3rem;
 		fill: var(--bright_white);
-	}
-}
-
-#fullscreen-btn,
-#zoom-in-btn,
-#zoom-out-btn,
-#recenter-btn {
-	&:hover {
-		background: var(--bright_grey);
 	}
 }
 
@@ -123,4 +163,12 @@ main {
 
 .dragging {
 	cursor: move !important;
+}
+
+.pleasure {
+	text-align: center;
+	margin-block-start: 10rem;
+	font-weight: 600;
+	font-style: italic;
+	text-wrap: balance;
 }

@@ -29,7 +29,7 @@
 			inset-block-start: 0;
 			inline-size: calc(100% + 6rem);
 			block-size: calc(100% + 20rem);
-			margin-block: -15rem -3rem;
+			margin-block: -16rem -3rem;
 			margin-inline-start: -3rem;
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;

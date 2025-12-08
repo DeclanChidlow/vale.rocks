@@ -52,7 +52,7 @@ body {
 main {
 	display: flex;
 	gap: 3rem;
-	margin-block: 5rem;
+	margin-block: 6rem;
 	flex-grow: 1;
 
 	> div {
