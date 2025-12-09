@@ -21,7 +21,7 @@ main > div {
 	padding: 2rem;
 
 	@media (max-width: 45rem) {
-		margin-block-start: -5rem;
+		margin-block-start: -6rem;
 		margin-inline: -0.8rem;
 		margin-block-end: 0;
 		min-block-size: calc(100vb - 3rem);

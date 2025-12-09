@@ -167,7 +167,7 @@ body:has(#popover-menu:popover-open) {
 		padding: 0.5rem;
 		margin: 1rem;
 		background: light-dark(var(--white), var(--grey));
-		transform: translateY(calc(-100% - 1rem));
+		transform: translateY(calc(-100% - 2rem));
 		transition: transform 0.1s;
 		z-index: calc(infinity);
 
