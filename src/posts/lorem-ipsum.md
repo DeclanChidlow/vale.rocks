@@ -38,11 +38,15 @@ pneumonoultramicroscopicsilicovolcanoconiosisisaverylongwordpneumonoultramicrosc
 
 I present: _numbers_. 10, 20, 30, 40, 800. Threw you off there. 1000. 2500. 95837593756191234567890. That's some numbers for ya.
 
+Denominators: <span style="font-feature-settings: 'nalt' on;">1 2 3 4 5 6 7 8 9</span>
+
+Ordinals: <span style="font-variant-numeric: ordinal;">No. 0A 0O 0a 0o 1A 1O 1a 1o 2A 2O 2a 2o 3A 3O 3a 3o 4A 4O 4a 4o 5A 5O 5a 5o 6A 6O 6a 6o 7A 7O 7a 7o 8A 8O 8a 8o 9A 9O 9a 9o</span>
+
+Scientific Inferiors: <span style="font-feature-settings: 'sinf' on;">H O 0 1 2 3 4 5 6 7 8 9 . , : ( ) [ ] - – — + − =</span>
+
 ### Swashes
 
-<div style="font-feature-settings: 'swsh';">
-A Á Ă Â Ä À Ā Ą Ã E É Ě Ê Ë Ė È Ē Ę E É Ě Ê Ë Ė È Ē Ę F L Ĺ Ľ Ļ Ł M M N Ń Ň Ņ Ñ R Ŕ Ř Ŗ R Ŕ Ř Ŗ S T Ť Ţ Ț W n ń ň ņ ñ r ŕ ř ŗ t ť ţ ț y ý ÿ
-</div>
+<span style="font-feature-settings: 'swsh';">A Á Ă Â Ä À Ā Ą Ã E É Ě Ê Ë Ė È Ē Ę E É Ě Ê Ë Ė È Ē Ę F L Ĺ Ľ Ļ Ł M M N Ń Ň Ņ Ñ R Ŕ Ř Ŗ R Ŕ Ř Ŗ S T Ť Ţ Ț W n ń ň ņ ñ r ŕ ř ŗ t ť ţ ț y ý ÿ</span>
 
 ### Heading Levels
 
