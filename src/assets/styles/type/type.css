@@ -267,6 +267,10 @@ li {
 	> * + * {
 		margin-block-start: 0.5rem;
 	}
+
+	&::marker {
+		font-size: 0.9rem;
+	}
 }
 
 ul li {
@@ -292,6 +296,18 @@ ul:has(input) {
 		display: flex;
 		align-items: center;
 		list-style: none;
+	}
+}
+
+ol {
+	counter-reset: item;
+
+	> li {
+		counter-increment: item;
+
+		&::marker {
+			content: counters(item, ".") ". ";
+		}
 	}
 }
 

@@ -9,7 +9,7 @@ tags: [design, front-end development]
 ---
 
 > [!NOTE]
-> I very much recommend you read my post ['The Design of This Site'](/posts/the-design-of-this-site) prior to this one.
+> I very much recommend you read my post ['The Design of This Site'](/posts/the-design-of-this-site) prior to this one for an explanation of some of my ethos.
 
 ## Previous Iterations
 
@@ -65,7 +65,7 @@ You can see my full implementation in [`graph.js`](/assets/scripts/graph.js).
 
 This site does not currently have any comment functionality, and it isn't particularly easy to add any due to the site's static nature.
 
-Given that my readership is generally of the variety that frequents GitHub, I've previously employed [Giscus](https://giscus.app) for comment functionality, which used the [discussion page](https://github.com/DeclanChidlow/vale.rocks/discussions) of my website's repo on GitHub as what is essentially a database. I [ultimately removed this comment implementation](/micros/20250828-0200) due to my growing distaste for GitHub.
+Given that my readership is generally of the variety that frequents GitHub, I've previously employed [Giscus](https://giscus.app) for comment functionality, which used the [discussion page](https://github.com/DeclanChidlow/vale.rocks/discussions?discussions_q=) of my website's repo on GitHub as what is essentially a database. I [ultimately removed this comment implementation](/micros/20250828-0200) due to my growing distaste for GitHub.
 
 ### Link Icons
 
@@ -105,7 +105,7 @@ Tying in somewhat with the scroll indication functionality, my client-side [`cop
 
 My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
 
-As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about it](https://kiko.io/post/Pagefind-UI-and-URL-Parameters/).
+As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about doing so](https://kiko.io/post/Pagefind-UI-and-URL-Parameters/).
 
 ### 404 Handling
 
@@ -123,7 +123,7 @@ Vector content in the form of SVGs are preferred to raster images and used whene
 
 Where SVGs aren't applicable, images are served as AVIFs, which I found to have the smallest file size without sacrificing browser compatibility.
 
-I convert all my fonts to WOFF2 and serve them with my site rather than using an external CDN. WOFF2 comes with great size reductions and good font feature support, and avoiding CDNs helps with performance and reduces dependency.
+I convert all my fonts to WOFF2 and serve them with my site rather than using an external CDN. WOFF2 comes with great size reductions and good font feature support, and avoiding CDNs helps with performance and reduces dependency. I have also lightly subset the fonts I use.
 
 ### Markdown Parsing
 

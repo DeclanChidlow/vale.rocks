@@ -22,13 +22,19 @@ body:has(#popover-menu:popover-open) {
 	inset: 0;
 	inset-block-end: auto;
 	block-size: 5rem;
-	padding-inline: 3rem;
+	padding-inline-start: 3rem;
+	padding-inline-end: 2.5rem;
 	pointer-events: none;
 	view-transition-name: navbar;
 	z-index: 1000;
 
 	@media (max-width: 45rem) {
-		padding-inline: 0.8rem;
+		padding-inline-start: 0.8rem;
+		padding-inline-end: 0.3rem;
+
+		&:has(.toc-button) {
+			padding-inline-start: 0.3rem;
+		}
 	}
 
 	nav {
@@ -81,11 +87,6 @@ body:has(#popover-menu:popover-open) {
 		.toc-button {
 			display: none;
 			margin-inline-end: auto;
-			padding-inline-start: 0;
-		}
-
-		.popover-button {
-			padding-inline-end: 0;
 		}
 
 		#popover-menu {
