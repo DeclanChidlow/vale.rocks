@@ -113,9 +113,9 @@ If you wish to know more about the specifics of this site, you can read [The Des
                 ? " this effulgent morn"
                 : hour >= 12 && hour < 13
                     ? " this beautiful midday"
-                    : hour >= 13 && hour < 16
+                    : hour >= 13 && hour < 17
                         ? " this ambrosial post meridiem"
-                        : hour >= 16 && hour < 20
+                        : hour >= 17 && hour < 20
                             ? " on this vespertine eventide"
                             : hour >= 20 && hour < 23
                                 ? " this sidereal nocturne"

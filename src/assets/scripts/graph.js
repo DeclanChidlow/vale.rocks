@@ -38,7 +38,7 @@ class SitemapGraph {
 
 	setupCanvas() {
 		const resize = () => {
-			// Deal with scrollbar vi fuckery
+			// Deal with scrollbar width fuckery
 			this.container.style.width = `${document.documentElement.clientWidth}px`;
 
 			const containerRect = this.container.getBoundingClientRect();
@@ -300,15 +300,14 @@ class SitemapGraph {
 				const centerY = (touches[0].y + touches[1].y) / 2;
 				const worldPos = this.screenToWorld(centerX, centerY);
 
-				// Calculate zoom factor
 				const zoomFactor = currentDistance / this.lastTouchDistance;
 				const newZoom = Math.max(0.1, Math.min(5, this.camera.zoom * zoomFactor));
-
-				// Apply zoom with center point
 				const zoomRatio = newZoom / this.camera.zoom;
-				this.camera.x = worldPos.x - (worldPos.x - this.camera.x) * zoomRatio;
-				this.camera.y = worldPos.y - (worldPos.y - this.camera.y) * zoomRatio;
+
 				this.camera.zoom = newZoom;
+
+				this.camera.x = worldPos.x + (this.camera.x - worldPos.x) / zoomRatio;
+				this.camera.y = worldPos.y + (this.camera.y - worldPos.y) / zoomRatio;
 			}
 
 			this.lastTouchDistance = currentDistance;
