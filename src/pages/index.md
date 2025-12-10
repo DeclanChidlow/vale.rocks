@@ -90,6 +90,15 @@ If you wish to know more about the specifics of this site, you can read [The Des
 
 <p class="pleasure">It is my true and great pleasure to have you here<span id="period"></span>.</p>
 
+<svg aria-hidden="true" class="svg-filter">
+	<defs>
+		<filter id="distort">
+			<feTurbulence baseFrequency="0.01 0.01" numOctaves="1" />
+			<feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="R">
+		</filter>
+	</defs>
+</svg>
+
 </section>
 </div>
 
@@ -97,6 +106,19 @@ If you wish to know more about the specifics of this site, you can read [The Des
 <script type="module" src="/assets/scripts/graph.js"></script>
 <script>
     const hour = new Date().getHours();
-    const period = hour >= 4 && hour < 6 ? " in these early hours" : hour >= 7 && hour < 12 ? " this pleasant morning" : hour >= 12 && hour < 14 ? " this beautiful midday" : hour >= 13 && hour < 16 ? " this delightful afternoon" : hour >= 16 && hour < 20 ? " on such a fine evening" : hour >= 20 && hour < 23 ? " this peaceful night" : " at these late hours";
+    const period =
+        hour >= 4 && hour < 6
+            ? " in these hours of the sun's first blush"
+            : hour >= 6 && hour < 12
+                ? " this effulgent morn"
+                : hour >= 12 && hour < 13
+                    ? " this beautiful midday"
+                    : hour >= 13 && hour < 16
+                        ? " this ambrosial post meridiem"
+                        : hour >= 16 && hour < 20
+                            ? " on this vespertine eventide"
+                            : hour >= 20 && hour < 23
+                                ? " this sidereal nocturne"
+                                : " at these late hours";
     document.getElementById("period").textContent = period;
 </script>

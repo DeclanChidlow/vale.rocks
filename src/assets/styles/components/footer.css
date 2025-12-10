@@ -23,11 +23,6 @@ footer {
 		gap: 3rem;
 		padding-inline: 1rem;
 
-		svg {
-			position: absolute;
-			pointer-events: none;
-		}
-
 		h2 {
 			font-size: 5rem;
 			line-height: 5rem;

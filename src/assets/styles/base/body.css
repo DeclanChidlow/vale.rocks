@@ -72,6 +72,12 @@ main {
 	}
 }
 
+.svg-filter {
+	position: absolute;
+	height: 0;
+	width: 0;
+}
+
 @view-transition {
 	navigation: auto;
 }

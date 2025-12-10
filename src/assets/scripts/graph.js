@@ -432,8 +432,8 @@ class SitemapGraph {
 		this.camera.zoom = newZoom;
 
 		const worldAfterZoom = this.screenToWorld(mouseX, mouseY);
-		this.camera.x += worldBeforeZoom.x - worldAfterZoom.x;
-		this.camera.y += worldBeforeZoom.y - worldAfterZoom.y;
+		this.camera.x += worldAfterZoom.x - worldBeforeZoom.x;
+		this.camera.y += worldAfterZoom.y - worldBeforeZoom.y;
 
 		this.updateZoomDisplay();
 	}
@@ -473,8 +473,8 @@ class SitemapGraph {
 		this.camera.zoom = newZoom;
 
 		const worldAfterZoom = this.screenToWorld(centerX, centerY);
-		this.camera.x += worldBeforeZoom.x - worldAfterZoom.x;
-		this.camera.y += worldBeforeZoom.y - worldAfterZoom.y;
+		this.camera.x += worldAfterZoom.x - worldBeforeZoom.x;
+		this.camera.y += worldAfterZoom.y - worldBeforeZoom.y;
 
 		this.updateZoomDisplay();
 	}
@@ -492,8 +492,8 @@ class SitemapGraph {
 		this.camera.zoom = newZoom;
 
 		const worldAfterZoom = this.screenToWorld(centerX, centerY);
-		this.camera.x += worldBeforeZoom.x - worldAfterZoom.x;
-		this.camera.y += worldBeforeZoom.y - worldAfterZoom.y;
+		this.camera.x += worldAfterZoom.x - worldBeforeZoom.x;
+		this.camera.y += worldAfterZoom.y - worldBeforeZoom.y;
 
 		this.updateZoomDisplay();
 	}

@@ -168,7 +168,9 @@ main {
 .pleasure {
 	text-align: center;
 	margin-block-start: 10rem;
+	font-size: 1.1rem;
 	font-weight: 600;
 	font-style: italic;
 	text-wrap: balance;
+	filter: url(#distort);
 }
