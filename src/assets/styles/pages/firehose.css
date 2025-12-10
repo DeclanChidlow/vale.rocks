@@ -54,22 +54,19 @@ article {
 	background: light-dark(oklch(from var(--yellow) l c h / calc(alpha - 0.8)), oklch(from var(--yellow) l c h / calc(alpha - 0.9)));
 }
 
-/* .recurring-event { */
-/* 	margin-block: 2rem; */
-/**/
-/* 	header { */
-/* 		margin-block-end: 1rem; */
-/* 	} */
-/**/
-/* 	.readable { */
-/* 		text-align: center; */
-/* 		padding-inline: 4rem; */
-/* 	} */
-/**/
-/* 	strong { */
-/* 		font-size: larger; */
-/* 	} */
-/* } */
+.event {
+	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.9)), oklch(from var(--grey) l c h / calc(alpha - 0.8)));
+	padding-block-end: 4rem;
+
+	.readable {
+		text-align: center;
+		padding-inline: clamp(0rem, 10vw, 4rem);
+	}
+
+	strong {
+		font-size: larger;
+	}
+}
 
 .micro {
 	background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.9)));

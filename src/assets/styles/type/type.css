@@ -46,14 +46,12 @@ h6 {
 	font-feature-settings: "ss03" on;
 	clear: both;
 
-	a {
-		&:not(:hover) {
-			text-decoration: none;
-		}
+	a::after {
+		display: none;
+	}
 
-		&::after {
-			display: none;
-		}
+	&:has(button) a:not(:hover) {
+		text-decoration: none;
 	}
 
 	button {

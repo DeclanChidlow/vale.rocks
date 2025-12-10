@@ -71,6 +71,21 @@ _body:
 				</div>
 			</article>`
 
+		: item.type === 'event' ?
+			`<article class="event">
+				<header>
+					<div>
+						<svg viewBox="0 -960 960 960"><title>Event</title><path d="M576-240q-40 0-68-28t-28-68 28-68 68-28 68 28 28 68-28 68-68 28M144-96v-672h144v-96h72v96h240v-96h72v96h144v672zm72-72h528v-360H216zm0-432h528v-96H216zm0 0v-96z"/></svg>
+						<h2><time datetime="${ item.pub_time }" title="Event date.">${ functions/pretty-date.js(item.pub_time) }</time></h2>
+					</div>
+				</header>
+
+				<div class="readable">
+					<strong>${ item.title }</strong>
+					<p>${ item.description }</p>
+				</div>
+		</article>`
+
 		: item.type === 'video' ? 
 			`<article class="video">
 				<header>
