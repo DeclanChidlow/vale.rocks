@@ -17,50 +17,32 @@ _body:
 
 		<div class="socials">
 			${ micro.fedi_link ? `
-			<a href="${ micro.fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
+			<a href="${ micro.fedi_link }" title="Fediverse" rel="syndication" class="u-syndication">${ fediverse_icon }</a>` : '' }
 
 			${ micro.bsky_link ? `
-			<a href="${ micro.bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
+			<a href="${ micro.bsky_link }" title="Bluesky rel="syndication" class="u-syndication"">${ bluesky_icon }</a>` : '' }
 
 			${ micro.linkedin_link ? `
-			<a href="${ micro.linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
+			<a href="${ micro.linkedin_link }" title="LinkedIn" rel="syndication" class="u-syndication">${ linkedin_icon }</a>` : '' }
 
 			${ micro.lesswrong_link ? `
-			<a href="${ micro.lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
+			<a href="${ micro.lesswrong_link }" title="LessWrong" rel="syndication" class="u-syndication">${ lesswrong_icon }</a>` : '' }
 		</div>
 	</header>
 
 	<div class="micro-content">
 		<aside class="socials" data-pagefind-ignore>
 			${ micro.fedi_link ? `
-			<a href="${ micro.fedi_link }" title="Fediverse">
-				${ fediverse_icon }
-				View on the Fediverse
-			</a>` : '' }
+			<a href="${ micro.fedi_link }" title="Fediverse">${ fediverse_icon } View on the Fediverse</a>` : '' }
 
 			${ micro.bsky_link ? `
-			<a href="${ micro.bsky_link }" title="Bluesky">
-				${ bluesky_icon }
-				View on Bluesky
-			</a>` : '' }
+			<a href="${ micro.bsky_link }" title="Bluesky">${ bluesky_icon } View on Bluesky</a>` : '' }
 
 			${ micro.linkedin_link ? `
-			<a href="${ micro.linkedin_link }" title="LinkedIn">
-				${ linkedin_icon }
-				View on LinkedIn
-			</a>` : '' }
+			<a href="${ micro.linkedin_link }" title="LinkedIn">${ linkedin_icon } View on LinkedIn</a>` : '' }
 
 			${ micro.lesswrong_link ? `
-			<a href="${ micro.lesswrong_link }" title="LessWrong">
-				${ lesswrong_icon }
-				View on LessWrong
-			</a>` : '' }
-
-			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-			${ micro.tags ? micro.tags.map(tag => `
-				<li data-pagefind-filter="tags">#${ tag }</li>
-			`) : '' }
-			</ul>
+			<a href="${ micro.lesswrong_link }" title="LessWrong">${ lesswrong_icon } View on LessWrong</a>` : '' }
 		</aside>
 
 		<div class="readable e-content">
@@ -68,7 +50,7 @@ _body:
 
 			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
 			${ micro.tags ? micro.tags.map(tag => `
-				<li data-pagefind-filter="tags">#${ tag }</li>
+				<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>
 			`) : '' }
 			</ul>
 		</div>

@@ -13,7 +13,7 @@ _body:
 <div>
 	<article class="h-entry">
 		<figure>
-			<img src="${ photography.image }" alt="${ photography.alt_text }" data-pagefind-index-attrs="alt"/>
+			<img src="${ photography.image }" alt="${ photography.alt_text }" data-pagefind-index-attrs="alt" class="u-photo"/>
 		</figure>
 
 		<div class="content">

@@ -286,6 +286,12 @@
   release_year: 2013
 - title: Percy Jackson and the Sea of Monsters
   release_year: 2013
+- title: The World's End
+  release_year: 2013
+  notes: I must admit this is the weakest of the Cornetto Trilogy and a bit 'blokier' than is my preference, but it was enjoyable nonetheless.
+  watches:
+    - date: 2025-12-10
+      format: Streaming
 - title: "The Hunger Games: Catching Fire"
   release_year: 2013
   watches:

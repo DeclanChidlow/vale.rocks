@@ -15,7 +15,7 @@ It struck me as just the sort of thing to scratch my itch, so I went about getti
 
 ## Buying
 
-When looking to buy a Flipper on the [official Flipper Zero website](https://flipperzero.one), I was redirected to Joom Geek, Flipper's official Australian distributor and 'tech' sub-brand of Joom.
+When looking to buy a Flipper on the [official website](https://flipper.net), I was redirected to Joom Geek, Flipper's official Australian distributor and 'tech' sub-brand of Joom.
 
 Joom is very much like Aliexpress, Wish, or Temu. Lots of plastic gadgets of objectionable quality at prices so low that you can't help but wonder what questionable labour practices have been employed. In the case of the Flipper Zero though, these cheap prices didn't apply, and the cost came out to $322 AUD with shipping.
 
