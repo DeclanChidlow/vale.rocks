@@ -9,6 +9,10 @@
 	display: none; /* Set to block with JS */
 }
 
+#refine-entries {
+	margin-block-start: 3rem;
+}
+
 #filter-message {
 	text-align: center;
 	margin-block-start: 3rem;
@@ -33,8 +37,11 @@
 	> li {
 		background: light-dark(var(--white), var(--dark_grey));
 		padding: 1rem;
-		list-style: none;
 		margin: 0;
+
+		&::marker {
+			content: none;
+		}
 	}
 
 	h2 {

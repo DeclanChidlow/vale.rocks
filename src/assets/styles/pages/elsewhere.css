@@ -5,6 +5,7 @@
 		position: relative;
 		display: flex;
 		gap: 1rem;
+		min-block-size: 7.5rem;
 		padding-block: 1rem;
 		margin: 0;
 		border-block-end: 2px solid var(--bright_grey);
@@ -15,6 +16,7 @@
 
 		&:focus,
 		&:hover {
+			color: var(--blue);
 			border-color: var(--blue);
 		}
 
@@ -31,6 +33,7 @@
 
 		a {
 			outline: none;
+			text-decoration: none;
 
 			&::after {
 				content: "";

@@ -106,11 +106,11 @@ figcaption {
 	filter: blur(0.5rem) grayscale(50%);
 	cursor: pointer;
 	transition: 0.3s;
+}
 
-	&:hover,
-	&:focus {
-		filter: none;
-	}
+.censor:hover img,
+.censor:focus-within img {
+	filter: none;
 }
 
 .lightbox {

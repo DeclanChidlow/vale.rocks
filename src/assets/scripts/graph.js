@@ -298,16 +298,16 @@ class SitemapGraph {
 				// Calculate zoom center (midpoint between touches)
 				const centerX = (touches[0].x + touches[1].x) / 2;
 				const centerY = (touches[0].y + touches[1].y) / 2;
-				const worldPos = this.screenToWorld(centerX, centerY);
+				const worldBeforeZoom = this.screenToWorld(centerX, centerY);
 
 				const zoomFactor = currentDistance / this.lastTouchDistance;
 				const newZoom = Math.max(0.1, Math.min(5, this.camera.zoom * zoomFactor));
-				const zoomRatio = newZoom / this.camera.zoom;
 
 				this.camera.zoom = newZoom;
 
-				this.camera.x = worldPos.x + (this.camera.x - worldPos.x) / zoomRatio;
-				this.camera.y = worldPos.y + (this.camera.y - worldPos.y) / zoomRatio;
+				const worldAfterZoom = this.screenToWorld(centerX, centerY);
+				this.camera.x += worldAfterZoom.x - worldBeforeZoom.x;
+				this.camera.y += worldAfterZoom.y - worldBeforeZoom.y;
 			}
 
 			this.lastTouchDistance = currentDistance;

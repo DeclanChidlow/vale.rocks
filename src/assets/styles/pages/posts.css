@@ -57,6 +57,7 @@ main > div {
 
 		&:focus,
 		&:hover {
+			color: var(--blue);
 			border-color: var(--blue);
 		}
 
@@ -75,7 +76,7 @@ main > div {
 			text-overflow: ellipsis;
 			overflow: hidden;
 			outline: none;
-			text-decoration-color: var(--blue);
+			text-decoration: none;
 
 			&::after {
 				content: "";

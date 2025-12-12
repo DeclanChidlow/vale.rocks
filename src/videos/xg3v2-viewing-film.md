@@ -9,6 +9,6 @@ tags: [transhumanism]
 
 Using magnetic viewing film to visualise the magnetic field created by the xG3 v2 bio-magnet subdermally implanted within my hand.
 
-The viewing film I used (Amazon affiliate link): <https://amzn.to/44kJhhU>
+The viewing film I used (As an Amazon Associate I earn from qualifying purchases): <https://amzn.to/44kJhhU>
 
 For more information about my implant, refer to my in-depth post on the matter: <https://vale.rocks/posts/my-experience-biohacking>
