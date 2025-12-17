@@ -1,6 +1,6 @@
 title: Vale's Video Channel Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 18 Jul 2025 00:00:00 +0000
+modTime: 15 Dec 2025 00:00:00 +0000
 items:
   - title: Redlyne
     url: www.youtube.com/@Redlyne_
@@ -61,7 +61,7 @@ items:
   - title: The Slow Mo Guys
     url: www.youtube.com/@theslowmoguys
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCUK0HBIBWgM2c4vsPhkYY4w
-    description: Semi-educational slow-motion videos.
+    description: Semi-educational super slow-motion videos.
   - title: AsumSaus
     url: www.youtube.com/@AsumSaus
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCk2KE7yg0BwsJfr8Dp9ivUQ
@@ -165,7 +165,7 @@ items:
   - title: LEMMiNO
     url: www.youtube.com/@LEMMiNO
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q
-    description: Long-form videos on space and mysteries.
+    description: Long-form presentations on space and mysteries.
   - title: Guldies
     url: www.youtube.com/@Guldies
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCHjVCR-fV_X789MsE7GRFqQ
@@ -178,6 +178,10 @@ items:
     url: www.youtube.com/@NileRed
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCFhXFikryT4aFcLkLw2LBLA
     description: Questionable chemistry.
+  - title: styropyro
+    url: www.youtube.com/@styropyro
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCJYJgj7rzsn0vdR7fkgjuIA
+    description: Maniac doing very dangerous mad science.
   - title: Ami Yamato
     url: www.youtube.com/@AmiYamato
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCdDpQ461uxNA3odAnpuigAg
@@ -206,6 +210,10 @@ items:
     url: www.youtube.com/@dequitem
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCA5S2GCCkv0dlsy5iJDzFIA
     description: Non-choreographed, realistic fights.
+  - title: Scott Yu-Jan
+    url: www.youtube.com/@ScottYuJan
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCAbAsEZ-0LccTNbl8r-3EaQ
+    description: Product design and 3D printing.
   - title: Crash Makerspace
     url: www.youtube.com/@CrashMakerspace
     rss: www.youtube.com/feeds/videos.xml?channel_id=UC3QqyWSWgHTLJYc0Wm8agaA
@@ -265,4 +273,8 @@ items:
   - title: Ahoy
     url: www.youtube.com/@XboxAhoy
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCE1jXbVAGJQEORz9nZqb5bQ
-    description: Insightful gaming videos.
+    description: Insightful gaming and computer history.
+  - title: Zac Builds
+    url: www.youtube.com/@ZacBuilds
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCqxM9T6ksiOVKIkb88S2r7Q
+    description: Tech upgrades and furniture modifications.

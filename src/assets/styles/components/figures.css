@@ -10,7 +10,8 @@ figure {
 		position: relative;
 	}
 
-	&:not(.left, .right) {
+	&:not(.left, .right),
+	&:not(:has table) {
 		margin-block: 3rem;
 		padding-inline: 3rem;
 	}
@@ -190,6 +191,7 @@ table {
 	font-size: 0.9rem;
 	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
+	margin-inline: auto;
 }
 
 tbody tr:nth-child(even),

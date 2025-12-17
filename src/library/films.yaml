@@ -352,6 +352,8 @@
   watches:
     - date: 2025-11-05
       format: Streaming
+    - date: 2025-12-16
+      format: Streaming
 - title: Scooby-Doo! Abracadabra-Doo
   release_year: 2010
 - title: Scooby-Doo! Curse of the Lake Monster

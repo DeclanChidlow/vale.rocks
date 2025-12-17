@@ -12,7 +12,7 @@
 		url: `https://vale.rocks/posts/${ Origami.basename(fileName) }`
 		title: post.title
 		content_html: `
-			${ post/site_recommended ? `<strong>This post is best viewed <a href="https://vale.rocks/posts/${ Origami.basename(fileName) }">directly on Vale.Rocks</a>, as it depends upon the site's features.</strong>` : '' }
+			${ post/site_recommended ? `<p><strong>This post is best viewed <a href="https://vale.rocks/posts/${ Origami.basename(fileName) }">directly on Vale.Rocks</a>, as it depends upon the site's features.</strong></p>` : '' }
 			${ post/_body }
 		`
 		summary: post.description

@@ -295,7 +295,7 @@ class SitemapGraph {
 			const currentDistance = Math.sqrt(dx * dx + dy * dy);
 
 			if (this.lastTouchDistance > 0) {
-				// Calculate zoom center (midpoint between touches)
+				// Calculate zoom centre (midpoint between touches)
 				const centerX = (touches[0].x + touches[1].x) / 2;
 				const centerY = (touches[0].y + touches[1].y) / 2;
 				const worldBeforeZoom = this.screenToWorld(centerX, centerY);
@@ -450,8 +450,8 @@ class SitemapGraph {
 	onFullscreenChange() {
 		const isFullscreen = !!document.fullscreenElement;
 		this.fullscreenBtn.innerHTML = isFullscreen
-			? "<svg viewBox='0 -960 960 960'><title>Exit Fullscreen</title><path d='M264-144v-120H144v-72h192v192h-72Zm360 0v-192h192v72H696v120h-72ZM144-624v-72h120v-120h72v192H144Zm480 0v-192h72v120h120v72H624Z'/></svg>"
-			: "<svg viewBox='0 -960 960 960'><title>Open Fullscreen</title><path d='M144-144v-192h72v120h120v72H144Zm480 0v-72h120v-120h72v192H624ZM144-624v-192h192v72H216v120h-72Zm600 0v-120H624v-72h192v192h-72Z'/></svg>";
+			? "<svg viewBox='0 -960 960 960'><title>Exit Fullscreen</title><path d='M264-144v-120H144v-72h192v192zm360 0v-192h192v72H696v120zM144-624v-72h120v-120h72v192zm480 0v-192h72v120h120v72z'/></svg>"
+			: "<svg viewBox='0 -960 960 960'><title>Open Fullscreen</title><path d='M144-144v-192h72v120h120v72zm480 0v-72h120v-120h72v192zM144-624v-192h192v72H216v120zm600 0v-120H624v-72h192v192z'/></svg>";
 
 		setTimeout(() => {
 			const event = new Event("resize");
@@ -555,7 +555,7 @@ class SitemapGraph {
 					return "255, 173, 32";
 			}
 		}
-		return "94, 90, 90"; // Default grey
+		return "94, 90, 90";
 	}
 
 	showNodeInfo(node) {
@@ -583,7 +583,7 @@ class SitemapGraph {
 		const repulsion = 50000;
 		const attraction = 0.05;
 		const centerForce = 0.000075;
-		const maxVelocity = 3;
+		const maxVelocity = 4;
 
 		// Apply forces only to non-pinned nodes
 		this.nodes.forEach((node) => {

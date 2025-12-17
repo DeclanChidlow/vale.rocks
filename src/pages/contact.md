@@ -15,6 +15,7 @@ Need to get in contact with me for whatever reason? In order of preference, the 
 - On Matrix as [@valencethehuman:matrix.org](https://matrix.to/#/@valencethehuman:matrix.org).
 - On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
 - On the Fediverse as [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale). Please be wary that the privacy of Fediverse DMs is significantly less than other platforms.
+- On LinkedIn as [Declan Chidlow](https://www.linkedin.com/in/declan-chidlow/).
 
 Occasionally at my own expense, I do my best to be easily contactable. Please don't take malicious advantage of this.
 

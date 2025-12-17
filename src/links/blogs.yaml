@@ -245,12 +245,6 @@ items:
     url: henry.codes
     rss: henry.codes/rss/writing.xml
     description: Tech and life.
-  - title: Stillness.Digital
-    url: stillness.digital
-    description: Short little reflective somethings.
-  - title: Strange.Website
-    url: strange.website
-    description: Pontificating about conceptual website vibes.
   - title: Anthony Fu
     url: antfu.me
     rss: antfu.me/feed.xml

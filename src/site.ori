@@ -12,8 +12,8 @@
 	posts.html = pages/posts.ori(post_data.ori)
 	posts/ = {
 		...Tree.map(post_data.ori, post_template.ori)
-		feed.json = Origami.json(post_syndication.ori(post_data.ori))
-		feed.xml = Origami.rss(post_syndication.ori(post_data.ori))
+		feed.json = Origami.json(post_syndication.ori(Tree.take(post_data.ori, 10)))
+		feed.xml = Origami.rss(post_syndication.ori(Tree.take(post_data.ori, 10)))
 	}
 
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
@@ -26,8 +26,8 @@
 			value: pages/micros.ori
 		})
 		...Tree.map(micro_data.ori, micro_template.ori)
-		feed.json = Origami.json(micro_syndication.ori(micro_data.ori))
-		feed.xml = Origami.rss(micro_syndication.ori(micro_data.ori))
+		feed.json = Origami.json(micro_syndication.ori(Tree.take(micro_data.ori, 30)))
+		feed.xml = Origami.rss(micro_syndication.ori(Tree.take(micro_data.ori, 30)))
 	}
 
 	(paginated_photography) = Tree.paginate(photography_data.ori, 50)
@@ -37,8 +37,8 @@
 			value: pages/photography.ori
 		})
 		...Tree.map(photography_data.ori, photography_template.ori)
-		feed.json = Origami.json(photography_syndication.ori(photography_data.ori))
-		feed.xml = Origami.rss(photography_syndication.ori(photography_data.ori))
+		feed.json = Origami.json(photography_syndication.ori(Tree.take(photography_data.ori, 50)))
+		feed.xml = Origami.rss(photography_syndication.ori(Tree.take(photography_data.ori, 50)))
 	}
 
 	(paginated_videos) = Tree.paginate(video_data.ori, 30)
@@ -48,8 +48,8 @@
 			value: pages/videos.ori
 		})
 		...Tree.map(video_data.ori, video_template.ori)
-		feed.json = Origami.json(video_syndication.ori(video_data.ori))
-		feed.xml = Origami.rss(video_syndication.ori(video_data.ori))
+		feed.json = Origami.json(video_syndication.ori(Tree.take(video_data.ori, 30)))
+		feed.xml = Origami.rss(video_syndication.ori(Tree.take(video_data.ori, 30)))
 	}
 
 	(paginated_elsewhere) = Tree.paginate(elsewhere_data.yaml , 100)
@@ -58,8 +58,8 @@
 		...Tree.mapExtension(paginated_elsewhere, "→.html", {
 			value: pages/elsewhere.ori
 		})
-		feed.json = Origami.json(elsewhere_syndication.ori(elsewhere_data.yaml))
-		feed.xml = Origami.rss(elsewhere_syndication.ori(elsewhere_data.yaml))
+		feed.json = Origami.json(elsewhere_syndication.ori(Tree.take(elsewhere_data.yaml, 100)))
+		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data.yaml, 100)))
 	}
 
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
