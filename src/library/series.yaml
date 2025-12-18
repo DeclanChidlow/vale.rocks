@@ -110,6 +110,7 @@
       watches:
         - start: 2025-05-24
           finish: 2025-06-01
+          notes: The final really good season of the show, before it dramatically deteriorates in quality.
     - number: 6
       watches:
         - start: 2025-06-01
@@ -122,6 +123,7 @@
       watches:
         - start: 2025-06-13
           finish: 2025-06-21
+          notes: A messy conclusion that plays out like poorly written fan fiction.
 - title: Doctor Who
   release_year: 2005
   rating: 4
@@ -146,6 +148,8 @@
       watches:
         - start: 2025-05-15
           finish: 2025-05-20
+    - number: 6
+    - number: 7
 - title: Red vs Blue
   release_year: 2003
   rating: 4
@@ -163,6 +167,7 @@
     - number: 11
     - number: 12
     - number: 13
+      notes: I consider season 13 to be the canonical conclusion of the series.
     - number: 14
     - number: 15
     - number: 16
