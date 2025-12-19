@@ -95,7 +95,4 @@ You can remember that accessibility is everyone's responsibility, always. It is 
 
 Accessibility matters, so give a damn, embrace it, and start enacting change.
 
-<br>
-<br>
-
 <small>_With thanks to [Eric Bailey](https://ericwbailey.website) for his feedback on a draft of this post._</small>

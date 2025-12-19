@@ -10,7 +10,7 @@ _body:
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Videos</h1>
 
 <div>
-	${ paginated_videos/previousPage ? `` : `<p class="readable"><em>Pictures, but moving</em>. My videos are usually published to YouTube first, but are available here <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a> style with extra material. You can primarily expect content that can't be presented or conveyed to its fullest in other mediums.</p>` }
+	${ paginated_videos/previousPage ? `` : `<p class="readable"><em>Pictures, but moving</em>. My videos are usually published to YouTube first, but are available here <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a> style with extra material. You can primarily expect content that can’t be presented or conveyed to its fullest in other mediums.</p>` }
 
 	<div data-pagefind-ignore="all">
 	<div id="videos">

@@ -70,6 +70,7 @@ When not bodging together scripts (both the kinds you run and the kinds you read
 
 <div class="reasonable-width">
 <div class="readable right-block">
+
 There is much here to explore and observe, and it is my hope that your curiosities will be catered to. Please mind the rabbit holes.
 
 - [**Posts**](/posts) - polished long-form structured writings
@@ -93,7 +94,7 @@ If you wish to know more about the specifics of this site, you can read [The Des
 <svg aria-hidden="true" class="svg-filter">
 	<defs>
 		<filter id="distort">
-			<feTurbulence baseFrequency="0.01 0.01" numOctaves="1" />
+			<feTurbulence baseFrequency="0.02 0.02" numOctaves="1" />
 			<feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="R">
 		</filter>
 	</defs>

@@ -9,7 +9,7 @@ _body:
 `<h1 class="section" data-pagefind-ignore>Firehose</h1>
 
 <div>
-	${ paginated_firehose.previousPage	? `` : `<p>This is everything, all in one place, coming 'atcha!<br><br>This firehose contains a record of all my micro posts, articles, photography, and other web doings. If you'd like to subscribe to feeds to stay up-to-date with things, then you can do so via my <a href='/syndication'>syndication page</a>.</p>` }
+	${ paginated_firehose.previousPage ? `` : `<p>This is everything, all in one place, coming ’atcha!</p><p>This firehose contains a record of all my micro posts, articles, photography, and other web doings. If you’d like to subscribe to feeds to stay up-to-date with things, then you can do so via my <a href='/syndication'>syndication page</a>.</p>` }
 
 	<div data-pagefind-ignore="all">
 	${ Tree.map(paginated_firehose.items,

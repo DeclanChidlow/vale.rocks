@@ -10,7 +10,7 @@
 	image: `https://i.ytimg.com/vi/${ video.youtube_id }/${ video.format === 'short' ? `oar2.jpg` : `hq720.jpg` }`
 
 _body:
-`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Videos</span>
+`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Videos</span>
 
 <article class="h-entry">
 	<youtube-embed videoid="${video.youtube_id}" class="${ video.format === 'short' ? `short` : `long` } u-video" style="background-image: url('https://i.ytimg.com/vi/${ video.youtube_id }/${ video.format === 'short' ? `oar2.jpg` : `hq720.jpg` }')"></youtube-embed>

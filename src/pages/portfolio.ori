@@ -22,8 +22,8 @@ _body:
 <div class="readable">
 
 <section class="description readable">
-	<p>Declan Chidlow's the name, and I do my best work developing at the front-of-the-front-end. My specialities are <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and presentational JavaScript. I take pride in my work and <em>sweat the small stuff</em>.</p>
-	<p>I also tackle technical content writing and am well suited to informing and educating on the intricacies of the web platform and making ideas manifest.
+	<p>Declan Chidlow’s the name, and I do my best work developing at the front-of-the-front-end. My specialities are <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and presentational JavaScript. I take pride in my work and <em>sweat the small stuff</em>.</p>
+	<p>I also tackle technical content writing and am well suited to informing and educating on the intricacies of the web platform and making ideas manifest.</p>
 	<p>My focus is on accessible yet attractive designs that push boundaries of form without sacrificing function. I pride myself on meticulous attention to detail, ensuring every element is polished and presentable – even if pixel peeping.</p>
 </section>
 
@@ -369,7 +369,7 @@ _body:
 			</figcaption>
 		</figure>
 		<figure>
-			<q>Declan is the ideal front-ender: incredibly knowledgeable on the technical end, but with a thoughtful and keen eye to the human elements that produce delightful experiences. We've had the pleasure of working together on technical writing projects and I always walk away a better person from them.</q>
+			<q>Declan is the ideal front-ender: incredibly knowledgeable on the technical end, but with a thoughtful and keen eye to the human elements that produce delightful experiences. We’ve had the pleasure of working together on technical writing projects and I always walk away a better person from them.</q>
 			<figcaption>
 				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 -48px;"/>
 				<div>
@@ -379,7 +379,7 @@ _body:
 			</figcaption>
 		</figure>
 		<figure>
-			<q>I've been lucky enough to work with Declan on a couple of writing projects and I can't say anything but good things about them. Always prompt, always an incredible high attention to detail and above all else, always a pleasure to work with.</q>
+			<q>I’ve been lucky enough to work with Declan on a couple of writing projects and I can’t say anything but good things about them. Always prompt, always an incredible high attention to detail and above all else, always a pleasure to work with.</q>
 			<figcaption>
 				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 -96px;"/>
 				<div>
@@ -403,7 +403,7 @@ _body:
 
 <section class="showcase" data-pagefind-ignore="all">
 	<h2>Showcase</h2>
-	<p>Some of that which I've had the privilege of working on.</p>
+	<p>Some of that which I’ve had the privilege of working on.</p>
 
 	<div class="hoisted">
 		${ Tree.map(portfolio_data, (item, key) =>
@@ -430,8 +430,8 @@ _body:
 </section>
 
 <section class="contact" data-pagefind-ignore="all">
-	<h2>Let's Get The Ball Rolling!</h2>
-	<p>I'm available for new opportunities in the realms of front-end development and technical content writing and would love to hear what you've got in mind.</p>
+	<h2>Let’s Get The Ball Rolling!</h2>
+	<p>I’m available for new opportunities in the realms of front-end development and technical content writing and would love to hear what you’ve got in mind.</p>
 	<a href="/contact">Get in Touch</a>
 </section>
 

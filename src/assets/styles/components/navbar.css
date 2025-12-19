@@ -37,7 +37,7 @@ body:has(#popover-menu:popover-open) {
 		}
 	}
 
-	nav {
+	> nav {
 		display: flex;
 		align-items: center;
 		justify-content: end;
@@ -206,25 +206,30 @@ body:has(#popover-menu:popover-open) {
 		min-block-size: 5%;
 	}
 
-	.heading-marker-container {
+	nav:not(#toc-menu) ol li {
 		position: absolute;
-		max-inline-size: 7rem;
-		text-decoration: none;
+		margin: 0;
+
+		&::marker {
+			content: "";
+		}
 
 		&::after {
 			content: "";
+			position: absolute;
+			margin-inline-start: -0.5px;
+			inline-size: 5px;
+			block-size: 5px;
+			background-color: light-dark(var(--bright_white), var(--black));
 		}
-	}
 
-	.heading-indicator {
-		display: block;
-		margin-inline-start: -0.5px;
-		inline-size: 3px;
-		block-size: 5px;
-		background-color: light-dark(var(--bright_white), var(--black));
+		a {
+			position: absolute;
+			text-decoration: none;
 
-		&:after {
-			content: none;
+			&::after {
+				content: "";
+			}
 		}
 	}
 
@@ -235,15 +240,7 @@ body:has(#popover-menu:popover-open) {
 		inline-size: 100%;
 
 		#indicator {
-			inset-inline-start: 0;
 			block-size: 100%;
-		}
-
-		.heading-indicator {
-			inline-size: 5px;
-			block-size: 4px;
-			position: fixed;
-			inset-block-start: 0;
 		}
 	}
 }
@@ -294,6 +291,22 @@ body:has(#popover-menu:popover-open) {
 	backdrop-filter: blur(1.5rem);
 	color: light-dark(var(--black), var(--bright_white));
 
+	.horizontal-percentage {
+		font-size: 0.9rem;
+		height: 1.95rem;
+		align-content: center;
+	}
+
+	.header-list-link {
+		&[aria-current="true"] {
+			font-weight: bold;
+		}
+
+		&::after {
+			display: none;
+		}
+	}
+
 	.close {
 		position: fixed;
 		inset-block-start: 1rem;
@@ -308,26 +321,6 @@ body:has(#popover-menu:popover-open) {
 			fill: var(--bright_white);
 		}
 	}
-
-	.horizontal-percentage {
-		font-size: 0.9rem;
-		height: 1.95rem;
-		align-content: center;
-	}
-
-	.headers-list {
-		margin-block-start: 1rem;
-	}
-
-	.header-list-link {
-		&.active {
-			font-weight: bold;
-		}
-
-		&::after {
-			display: none;
-		}
-	}
 }
 
 @media (max-width: 45rem) {
@@ -336,8 +329,7 @@ body:has(#popover-menu:popover-open) {
 		scroll-padding-top: calc(var(--toc-height) + 2rem);
 	}
 
-	#scroll-container:has(#toc-menu:popover-open),
-	#scroll-container:has(#toc-menu:popover-open) .heading-indicator {
+	#scroll-container:has(#toc-menu:popover-open) {
 		inset-block-start: var(--toc-height);
 	}
 }

@@ -1,310 +1,248 @@
 class ScrollProgressIndicator {
 	constructor() {
-		this.scrollContainer = document.getElementById("scroll-container");
-		this.indicator = document.getElementById("indicator");
-		this.article = document.querySelector("article");
-		this.headers = this.article.querySelectorAll("h2, h3");
-		this.breakpoint = 720;
-		this.currentLayout = null;
-		this.percentageDisplay = null;
-		this.headersList = null;
-		this.horizontalContainer = null;
+		this.els = {
+			container: document.getElementById("scroll-container"),
+			indicator: document.getElementById("indicator"),
+			article: document.querySelector("article"),
+			tocButton: document.querySelector(".toc-button"),
+		};
+
+		if (!this.els.article || !this.els.container) return;
+
+		this.headers = Array.from(this.els.article.querySelectorAll("h2, h3"));
+		this.isNarrow = null;
+		this.ticking = false;
 
 		this.init();
 	}
 
 	init() {
-		if (!this.article) {
-			console.warn("No article element found");
-			return;
-		}
-
-		this.scrollContainer.style.display = "block";
-		this.createPercentageDisplay();
-		this.createHorizontalContainer();
+		this.els.container.style.display = "block";
+		this.buildUI();
+		this.updateLayout();
 		this.setupEventListeners();
-		this.update();
 	}
 
-	createPercentageDisplay() {
-		this.percentageDisplay = document.createElement("div");
-		this.percentageDisplay.className = "scroll-percentage";
-		this.percentageDisplay.setAttribute("aria-label", "Reading progress");
-		this.percentageDisplay.textContent = "0%";
-		this.scrollContainer.appendChild(this.percentageDisplay);
+	create(tag, { classes = [], attrs = {}, text = "", html = "", children = [] } = {}) {
+		const el = document.createElement(tag);
+		if (classes.length) el.classList.add(...classes);
+		Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v));
+		if (text) el.textContent = text;
+		if (html) el.innerHTML = html;
+		children.forEach((child) => child && el.appendChild(child));
+		return el;
 	}
 
-	createHorizontalContainer() {
-		this.horizontalContainer = document.createElement("div");
-		this.horizontalContainer.className = "horizontal-layout-container";
-		this.horizontalContainer.setAttribute("id", "toc-menu");
-		this.horizontalContainer.setAttribute("popover", "manual");
+	buildUI() {
+		// Percentage Display (Wide only)
+		this.els.percentDisplay = this.create("span", {
+			classes: ["scroll-percentage"],
+			children: [this.create("span", { classes: ["sr-only"], text: "Article progress: " }), (this.els.percentText = this.create("span", { text: "0%" }))],
+		});
+		this.els.container.appendChild(this.els.percentDisplay);
 
-		this.horizontalPercentageDiv = document.createElement("div");
-		this.horizontalPercentageDiv.className = "horizontal-percentage";
-		this.horizontalPercentageDiv.textContent = "Progress: 0%";
+		// Markers Track
+		this.els.markerNav = this.create("nav", {
+			attrs: { "aria-label": "Table of contents" },
+			children: [(this.els.markerList = this.create("ol"))],
+		});
+		this.els.container.appendChild(this.els.markerNav);
 
-		this.headersList = document.createElement("ul");
-		this.headersList.className = "headers-list";
+		// Popover Menu (Narrow only)
+		this.els.mobileMenu = this.create("nav", {
+			classes: ["horizontal-layout-container"],
+			attrs: { "id": "toc-menu", "popover": "manual", "aria-label": "Table of contents" },
+		});
 
-		this.horizontalCloseButton = document.createElement("button");
-		this.horizontalCloseButton.className = "close";
-		this.horizontalCloseButton.setAttribute("popovertarget", "toc-menu");
-		this.horizontalCloseButton.innerHTML = `<svg viewBox="0 -960 960 960"><title>Close table of contents</title><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`;
+		this.els.mobilePercent = this.create("div", { classes: ["horizontal-percentage"], text: "Article progress: 0%" });
+		this.els.headerList = this.create("ol");
 
-		this.horizontalContainer.appendChild(this.horizontalPercentageDiv);
-		this.horizontalContainer.appendChild(this.headersList);
-		this.horizontalContainer.appendChild(this.horizontalCloseButton);
-		this.scrollContainer.appendChild(this.horizontalContainer);
+		const closeBtn = this.create("button", {
+			classes: ["close"],
+			attrs: { popovertarget: "toc-menu" },
+			html: `<svg viewBox="0 -960 960 960"><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg>`,
+		});
+
+		this.els.mobileMenu.append(this.els.mobilePercent, this.els.headerList, closeBtn);
+		this.els.container.appendChild(this.els.mobileMenu);
+
+		this.generateNarrowMenuLinks();
+	}
+
+	generateNarrowMenuLinks() {
+		let currentH2List = null;
+
+		this.headers.forEach((header) => {
+			const rawText = header.querySelector("a")?.textContent.trim() ?? header.textContent.trim();
+
+			const link = this.create("a", {
+				classes: ["header-list-link"],
+				attrs: { href: `#${header.id}` },
+				text: rawText,
+			});
+
+			const li = this.create("li", { children: [link] });
+
+			if (header.tagName.toLowerCase() === "h2") {
+				this.els.headerList.appendChild(li);
+				currentH2List = li;
+			} else if (currentH2List) {
+				let subUl = currentH2List.querySelector("ul");
+				if (!subUl) {
+					subUl = this.create("ul", { classes: ["headers-sublist"] });
+					currentH2List.appendChild(subUl);
+				}
+				subUl.appendChild(li);
+			} else {
+				this.els.headerList.appendChild(li);
+			}
+		});
 	}
 
 	setupEventListeners() {
-		document.addEventListener("scroll", () => this.update());
-		document.addEventListener("DOMContentLoaded", () => this.update());
-		window.addEventListener("resize", () => this.update());
-		window.addEventListener("load", () => this.update());
+		document.addEventListener(
+			"scroll",
+			() => {
+				if (!this.ticking) {
+					window.requestAnimationFrame(() => {
+						this.updateProgress();
+						this.ticking = false;
+					});
+					this.ticking = true;
+				}
+			},
+			{ passive: true },
+		);
 
-		const images = this.article.querySelectorAll("img");
-		images.forEach((img) => {
+		window.addEventListener("resize", () => this.updateLayout());
+
+		this.els.article.querySelectorAll("img").forEach((img) => {
 			if (!img.complete) {
-				img.addEventListener("load", () => this.update());
-				img.addEventListener("error", () => this.update());
+				img.addEventListener("load", () => this.updateLayout());
 			}
 		});
 
-		if (this.horizontalContainer) {
-			this.horizontalContainer.addEventListener("toggle", (event) => {
-				if (event.newState === "open") {
-					requestAnimationFrame(() => {
-						this.updateTocHeightVariable();
-					});
-				}
-			});
-		}
+		this.els.mobileMenu.addEventListener("toggle", (e) => {
+			if (e.newState === "open") {
+				document.documentElement.style.setProperty("--toc-height", `${this.els.mobileMenu.offsetHeight}px`);
+			}
+		});
 	}
 
-	getArticleDimensions() {
-		const articleRect = this.article.getBoundingClientRect();
-		const scrollTop = window.scrollY - this.article.offsetTop;
-		const adjustedScrollTop = Math.max(0, Math.min(scrollTop, this.article.scrollHeight));
+	getDimensions() {
+		const scrollTop = window.scrollY;
+		const articleHeight = this.els.article.scrollHeight;
+		const viewHeight = window.innerHeight;
+		const currentScroll = scrollTop - this.els.article.offsetTop;
+		const maxScroll = articleHeight - viewHeight;
 
 		return {
-			articleTop: articleRect.top + window.scrollY,
-			articleHeight: this.article.scrollHeight,
-			articleBottom: articleRect.bottom + window.scrollY,
-			viewportHeight: window.innerHeight,
-			viewportWidth: window.innerWidth,
-			scrollTop: adjustedScrollTop,
+			scrollTop: Math.max(0, Math.min(currentScroll, maxScroll)),
+			maxScroll,
+			articleHeight,
+			viewHeight,
 		};
 	}
 
-	calculateProgress() {
-		const { articleHeight, viewportHeight, scrollTop } = this.getArticleDimensions();
-		const maxScroll = articleHeight - viewportHeight;
-		const progress = maxScroll > 0 ? (scrollTop / maxScroll) * 100 : 0;
+	updateLayout() {
+		const newIsNarrow = window.innerWidth <= 45 * parseFloat(getComputedStyle(document.documentElement).fontSize);
 
-		return Math.max(0, Math.min(100, progress));
-	}
+		if (this.isNarrow !== newIsNarrow) {
+			this.isNarrow = newIsNarrow;
 
-	updatePercentageDisplay() {
-		const progress = this.calculateProgress();
-		const roundedProgress = Math.round(progress);
+			this.els.mobileMenu.style.display = this.isNarrow ? "" : "none";
+			this.els.percentDisplay.style.display = this.isNarrow ? "none" : "block";
 
-		if (this.percentageDisplay) {
-			this.percentageDisplay.textContent = `${roundedProgress}%`;
-		}
-
-		if (this.horizontalPercentageDiv) {
-			this.horizontalPercentageDiv.textContent = `Progress: ${roundedProgress}%`;
-		}
-	}
-
-	getCurrentActiveHeader() {
-		const scrollPosition = window.scrollY;
-		let activeHeader = null;
-
-		this.headers.forEach((header) => {
-			const headerTop = header.offsetTop;
-			if (scrollPosition >= headerTop - 100) {
-				activeHeader = header;
+			if (this.els.tocButton) {
+				this.els.tocButton.style.display = this.isNarrow ? "block" : "none";
 			}
-		});
 
-		return activeHeader;
-	}
+			this.els.indicator.style = "";
+			this.els.indicator.setAttribute("aria-hidden", "true");
+			this.els.markerNav.setAttribute("aria-hidden", this.isNarrow ? "true" : "false");
 
-	updateActiveHeaderInList() {
-		if (!this.headersList || this.currentLayout !== true) return;
-
-		const activeHeader = this.getCurrentActiveHeader();
-
-		this.headersList.querySelectorAll(".header-list-link").forEach((link) => {
-			link.classList.remove("active");
-		});
-
-		if (activeHeader) {
-			const activeLink = this.headersList.querySelector(`a[href="#${activeHeader.id}"]`);
-			if (activeLink) {
-				activeLink.classList.add("active");
-			}
+			this.rebuildMarkers();
 		}
+
+		this.updateProgress();
 	}
 
-	createHeadersList() {
-		this.headersList.innerHTML = "";
-		let currentH2Item = null;
-		let currentH2SubList = null;
+	rebuildMarkers() {
+		this.els.markerList.innerHTML = "";
+		const { articleHeight, maxScroll } = this.getDimensions();
+		const scrollableHeight = maxScroll;
 
-		this.headers.forEach((header) => {
-			const tagName = header.tagName.toLowerCase();
-			const listItem = document.createElement("li");
-			const link = document.createElement("a");
+		this.headers
+			.filter((h) => h.tagName === "H2")
+			.forEach((header) => {
+				const topOffset = header.offsetTop - this.els.article.offsetTop;
+				const rawText = header.querySelector("a")?.textContent.trim() ?? header.textContent.trim();
 
-			link.href = `#${header.id}`;
-			link.textContent = header.querySelector("a") ? header.querySelector("a").textContent : header.textContent;
-			link.className = "header-list-link";
+				const li = document.createElement("li");
 
-			if (tagName === "h2") {
-				link.classList.add("header-list-link-h2");
-				listItem.appendChild(link);
-				this.headersList.appendChild(listItem);
-
-				currentH2Item = listItem;
-				currentH2SubList = null;
-			} else if (tagName === "h3") {
-				link.classList.add("header-list-link-h3");
-				listItem.appendChild(link);
-
-				if (!currentH2SubList && currentH2Item) {
-					currentH2SubList = document.createElement("ul");
-					currentH2SubList.className = "headers-sublist";
-					currentH2Item.appendChild(currentH2SubList);
-				}
-
-				if (currentH2SubList) {
-					currentH2SubList.appendChild(listItem);
+				if (this.isNarrow) {
+					const percent = scrollableHeight > 0 ? (topOffset / scrollableHeight) * 100 : 0;
+					li.style.insetInlineStart = `${percent}%`;
+					li.style.insetBlockStart = "0";
 				} else {
-					this.headersList.appendChild(listItem);
+					const percent = (topOffset / articleHeight) * 100;
+					li.style.insetBlockStart = `${percent}%`;
+					li.style.insetInlineStart = "0";
+					li.style.inlineSize = "100%";
+
+					const marker = this.create("a", {
+						classes: ["heading-marker-h2"],
+						attrs: { "href": `#${header.id}`, "aria-label": `Jump to ${rawText}` },
+						children: [this.create("span", { classes: ["heading-label"], text: rawText })],
+					});
+					li.appendChild(marker);
 				}
-			}
-		});
-	}
 
-	updateTocHeightVariable() {
-		if (this.horizontalContainer) {
-			const containerHeight = this.horizontalContainer.offsetHeight;
-			document.documentElement.style.setProperty("--toc-height", `${containerHeight}px`);
-		}
-	}
-
-	createHeaderMarker(header, position, isHorizontal, isInert = false) {
-		const markerElement = isInert ? document.createElement("span") : document.createElement("a");
-		const tagName = header.tagName.toLowerCase();
-
-		markerElement.className = `heading-marker-container heading-marker-${tagName}`;
-
-		if (!isInert) {
-			markerElement.href = `#${header.id}`;
-		}
-
-		const line = document.createElement("span");
-		line.className = `heading-indicator heading-indicator-${tagName}`;
-		line.setAttribute("aria-hidden", "true");
-
-		markerElement.appendChild(line);
-
-		if (!isHorizontal) {
-			const label = document.createElement("span");
-			label.className = `heading-label heading-label-${tagName}`;
-			label.textContent = header.querySelector("a") ? header.querySelector("a").textContent : header.textContent;
-			markerElement.appendChild(label);
-		}
-
-		if (isHorizontal) {
-			markerElement.style.insetInlineStart = `${position}%`;
-			markerElement.style.insetBlockStart = "";
-		} else {
-			markerElement.style.insetBlockStart = `${position}%`;
-			markerElement.style.insetInlineStart = "";
-		}
-
-		return markerElement;
-	}
-
-	resetIndicatorStyles() {
-		this.indicator.style.inlineSize = "";
-		this.indicator.style.blockSize = "";
-		this.indicator.style.insetBlockStart = "";
-		this.indicator.style.insetInlineStart = "";
-	}
-
-	updateIndicator(isHorizontal) {
-		const { articleHeight, viewportHeight, scrollTop } = this.getArticleDimensions();
-
-		if (isHorizontal) {
-			const width = (scrollTop / (articleHeight - viewportHeight)) * 100;
-			const clampedWidth = Math.max(0, Math.min(100, width));
-			this.indicator.style.inlineSize = `${clampedWidth}%`;
-			this.indicator.style.insetInlineStart = "";
-			this.indicator.style.insetBlockStart = "";
-		} else {
-			const height = (viewportHeight / articleHeight) * 100;
-			const position = (scrollTop / articleHeight) * 100;
-			const clampedPosition = Math.max(0, Math.min(100 - height, position));
-			this.indicator.style.blockSize = `${height}%`;
-			this.indicator.style.insetBlockStart = `${clampedPosition}%`;
-			this.indicator.style.insetInlineStart = "";
-		}
-	}
-
-	updateHeaderMarkers(isHorizontal) {
-		const { articleHeight, viewportHeight } = this.getArticleDimensions();
-		const scrollableHeight = articleHeight - viewportHeight;
-
-		this.scrollContainer.querySelectorAll(".heading-marker-container").forEach((marker) => marker.remove());
-		const h2Headers = Array.from(this.headers).filter((header) => header.tagName.toLowerCase() === "h2");
-
-		if (isHorizontal) {
-			this.horizontalContainer.style.display = "";
-			this.percentageDisplay.style.display = "none";
-			this.createHeadersList();
-
-			h2Headers.forEach((header) => {
-				const headerOffset = header.offsetTop - this.article.offsetTop;
-				const position = scrollableHeight > 0 ? (headerOffset / scrollableHeight) * 100 : 0;
-				const marker = this.createHeaderMarker(header, position, isHorizontal, true);
-				this.scrollContainer.appendChild(marker);
+				this.els.markerList.appendChild(li);
 			});
-		} else {
-			this.horizontalContainer.style.display = "none";
-			this.percentageDisplay.style.display = "block";
-
-			h2Headers.forEach((header) => {
-				const headerOffset = header.offsetTop - this.article.offsetTop;
-				const position = (headerOffset / articleHeight) * 100;
-				const marker = this.createHeaderMarker(header, position, isHorizontal, false);
-				this.scrollContainer.appendChild(marker);
-			});
-		}
 	}
 
-	update() {
-		const isHorizontal = window.innerWidth <= this.breakpoint;
+	updateProgress() {
+		const { scrollTop, maxScroll, articleHeight, viewHeight } = this.getDimensions();
+		const rawProgress = maxScroll > 0 ? (scrollTop / maxScroll) * 100 : 0;
+		const progress = Math.round(Math.max(0, Math.min(100, rawProgress)));
 
-		if (this.currentLayout !== isHorizontal) {
-			this.currentLayout = isHorizontal;
-			this.resetIndicatorStyles();
-			this.updateHeaderMarkers(isHorizontal);
+		this.els.percentText.textContent = `${progress}%`;
+		this.els.mobilePercent.textContent = `Article progress: ${progress}%`;
 
-			const tocButton = document.querySelector(".toc-button");
-			if (tocButton) {
-				tocButton.style.display = isHorizontal ? "block" : "none";
+		if (this.isNarrow) {
+			this.els.indicator.style.inlineSize = `${progress}%`;
+		} else {
+			const barHeight = (viewHeight / articleHeight) * 100;
+			const barTop = (scrollTop / articleHeight) * 100;
+			this.els.indicator.style.blockSize = `${barHeight}%`;
+			this.els.indicator.style.insetBlockStart = `${Math.min(100 - barHeight, barTop)}%`;
+		}
+
+		this.updateActiveHeaderState();
+	}
+
+	updateActiveHeaderState() {
+		const scrollY = window.scrollY;
+		let activeHeader = null;
+		for (let i = this.headers.length - 1; i >= 0; i--) {
+			if (scrollY >= this.headers[i].offsetTop - 100) {
+				activeHeader = this.headers[i];
+				break;
 			}
 		}
 
-		this.updateIndicator(isHorizontal);
-		this.updatePercentageDisplay();
-		this.updateActiveHeaderInList();
+		const updateList = (container) => {
+			if (!container) return;
+			container.querySelectorAll("[aria-current]").forEach((el) => el.removeAttribute("aria-current"));
+			if (activeHeader) {
+				const link = container.querySelector(`a[href="#${activeHeader.id}"]`);
+				if (link) link.setAttribute("aria-current", "true");
+			}
+		};
+
+		updateList(this.els.headerList);
+		updateList(this.els.markerList);
 	}
 }
 

@@ -14,7 +14,7 @@ _body:
 `<style>:root{--header_background: var(--magenta)}</style>
 
 <span class="sidebar" data-pagefind-ignore>
-	<span class="section" data-pagefind-filter="Content Type">Posts</span>	
+	<span class="section" data-pagefind-filter="Content Type" aria-hidden="true">Posts</span>
 	<div id="scroll-container">
 		<div id="indicator"></div>
 	</div>

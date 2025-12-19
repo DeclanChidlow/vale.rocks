@@ -9,8 +9,8 @@ _body:
 `<h1 class="section" data-pagefind-filter="Content Type">Library</h1>
 
 <div class="readable">
-	<p>Lists of ${ books.length + films.length + series.length + albums.length + games.length } pieces of media I've consumed, logged, and in some cases made notes on.
-	<p>I've reviewed much of the content within the 5-star rating system and <a href="/posts/media-review-reasoning#star-scale">written in detail</a> of how I assign and consider these reviews.</p>
+	<p>Lists of ${ books.length + films.length + series.length + albums.length + games.length } pieces of media I’ve consumed, logged, and in some cases made notes on.</p>
+	<p>I've reviewed much of the content within the 5-point rating system and <a href="/posts/media-review-reasoning#star-scale">written in detail</a> of how I assign and consider these reviews.</p>
 
 	<ul>
 		<li><a href="/library/books">Books</a> (${ books.length } items)</li>

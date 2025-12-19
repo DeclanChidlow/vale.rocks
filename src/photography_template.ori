@@ -8,7 +8,7 @@
 	canonical: `/photography/${ photography.file_name }`
 
 _body:
-`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Photography</span>	
+`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Photography</span>
 
 <div>
 	<article class="h-entry">

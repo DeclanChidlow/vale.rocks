@@ -7,7 +7,7 @@
 	template_image: "micro"
 
 _body:
-`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Micros</span>	
+`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Micros</span>
 
 <article class="h-entry">
 	<header data-pagefind-ignore>

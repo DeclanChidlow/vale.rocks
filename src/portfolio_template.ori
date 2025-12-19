@@ -10,7 +10,7 @@
 _body:
 `<style>:root{--header_background: ${ post.accent_colour }}</style>
 
-<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore>Portfolio</span>	
+<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Portfolio</span>
 
 <article class="article-wrapper h-entry">
 	<header data-pagefind-ignore>

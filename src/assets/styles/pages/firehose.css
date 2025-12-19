@@ -1,8 +1,23 @@
+main > div {
+	> p {
+		margin-block-end: 1rem;
+	}
+
+	&:has(> p) > div {
+		margin-block-start: 2rem;
+	}
+
+	> div {
+		article + article {
+			margin-block-start: 1rem;
+		}
+	}
+}
+
 article {
 	max-inline-size: 65ch;
 	padding-block: 2rem;
 	padding-inline: 1rem;
-	margin-block: 1rem;
 
 	header {
 		display: flex;
