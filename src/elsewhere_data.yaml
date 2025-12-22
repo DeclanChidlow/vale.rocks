@@ -1,3 +1,10 @@
+- title: The HTML Elements Time Forgot
+  location: HTMHell
+  url: www.htmhell.dev/adventcalendar/2025/22/
+  image: www.htmhell.dev/images/og/advent25_22.png
+  pub_time: 2025-12-22
+  type: article
+  sort: writer
 - title: Some practical examples of view transitions to elevate your UI
   location: Piccalilli
   url: piccalil.li/blog/some-practical-examples-of-view-transitions-to-elevate-your-ui/
