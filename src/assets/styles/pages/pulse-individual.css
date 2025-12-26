@@ -7,6 +7,7 @@
 main header {
 	margin-bottom: 3rem;
 	width: calc(100vw - 13rem);
+	min-width: 100%;
 	max-width: 75rem;
 	border-bottom: 2px solid light-dark(var(--black), var(--bright_white));
 
