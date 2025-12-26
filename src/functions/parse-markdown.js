@@ -42,7 +42,7 @@ function wrapAbbreviations(html) {
 	const segments = html.split(/(<[^>]+>)/);
 	const result = [];
 
-	let insideCode = 0;
+	let excludedWrapper = 0;
 
 	for (let i = 0; i < segments.length; i++) {
 		const segment = segments[i];
@@ -50,15 +50,15 @@ function wrapAbbreviations(html) {
 		if (segment.startsWith("<") && segment.endsWith(">")) {
 			result.push(segment);
 
-			if (segment.match(/^<code[^>]*>/i)) {
-				insideCode++;
-			} else if (segment.match(/^<\/code>/i)) {
-				insideCode--;
+			if (segment.match(/^<(code|script|style)[^>]*>/i)) {
+				excludedWrapper++;
+			} else if (segment.match(/^<\/(code|script|style)>/i)) {
+				excludedWrapper--;
 			}
 			continue;
 		}
 
-		if (insideCode > 0 || !segment) {
+		if (excludedWrapper > 0 || !segment) {
 			result.push(segment);
 			continue;
 		}

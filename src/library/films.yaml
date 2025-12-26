@@ -777,10 +777,11 @@
 - title: Blade Runner
   release_year: 1982
   rating: 5
-  notes: I have only ever watched the Final Cut. The tears in rain monologue is perhaps the single best piece of cinema I have witnessed.
+  notes: The tears in rain monologue is perhaps the single best piece of cinema I have witnessed.
   watches:
     - date: 2025-08-02
       format: Streaming
+      notes: Final Cut
 - title: The Thing
   release_year: 1982
   rating: 4

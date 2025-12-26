@@ -1,0 +1,8 @@
+pulse
+→ (_) => Tree.map(_, (pulse, fileName) => {
+	...pulse
+	file_name: Origami.basename(fileName)
+})
+→ (_) => Tree.mapExtension(_, ".md->.html", {
+	value: (pulse) => functions/parse-markdown.js(pulse)
+})

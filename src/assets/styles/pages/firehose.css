@@ -45,11 +45,11 @@ article {
 }
 
 .post {
-	background: light-dark(oklch(from var(--magenta) l c h / calc(alpha - 0.8)), oklch(from var(--magenta) l c h / calc(alpha - 0.9)));
+	background: light-dark(oklch(from var(--magenta) l c h / calc(alpha - 0.85)), oklch(from var(--magenta) l c h / calc(alpha - 0.85)));
 }
 
 .photo {
-	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.8)), oklch(from var(--green) l c h / calc(alpha - 0.9)));
+	background: light-dark(oklch(from var(--green) l c h / calc(alpha - 0.75)), oklch(from var(--green) l c h / calc(alpha - 0.85)));
 
 	img {
 		margin-block-start: 1rem;
@@ -57,7 +57,7 @@ article {
 }
 
 .video {
-	background: light-dark(oklch(from var(--red) l c h / calc(alpha - 0.8)), oklch(from var(--red) l c h / calc(alpha - 0.9)));
+	background: light-dark(oklch(from var(--red) l c h / calc(alpha - 0.85)), oklch(from var(--red) l c h / calc(alpha - 0.85)));
 
 	img {
 		margin-block-start: 1rem;
@@ -66,11 +66,11 @@ article {
 }
 
 .elsewhere {
-	background: light-dark(oklch(from var(--yellow) l c h / calc(alpha - 0.8)), oklch(from var(--yellow) l c h / calc(alpha - 0.9)));
+	background: light-dark(oklch(from var(--yellow) l c h / calc(alpha - 0.75)), oklch(from var(--yellow) l c h / calc(alpha - 0.85)));
 }
 
 .event {
-	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.9)), oklch(from var(--grey) l c h / calc(alpha - 0.8)));
+	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.8)), var(--dark_grey));
 	padding-block-end: 4rem;
 
 	.readable {
@@ -84,7 +84,7 @@ article {
 }
 
 .micro {
-	background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.9)));
+	background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.85)));
 }
 
 .socials {

@@ -88,6 +88,8 @@
 	firehose/ = Tree.mapExtension(paginated_firehose, "→.html", {
 		value: pages/firehose.ori
 	})
+
+	pulse/ = Tree.map(pulse_data.ori, pulse_template.ori)
 }
 
 → (site) => {

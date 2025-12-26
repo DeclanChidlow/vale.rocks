@@ -1,0 +1,69 @@
+(post) => main_template.ori({
+	title: post.title
+	description: post.description
+	og_description: post.og_description
+	stylesheet: "pages/pulse-individual.css"
+	canonical: `/pulse/${ post.file_name }`
+	template_image: "pulse"
+
+_body:
+`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Pulse</span>
+
+<article class="article-wrapper h-entry">
+	<header data-pagefind-ignore>
+		<h1>${ post.svg }</h1>
+		<p>Anno Domini ${ post.file_name }</p>
+	</header>
+
+	<div class="readable e-content">
+		${ post._body }
+	
+		<p>
+		Your friend,<br>
+		— Declan Chidlow <em>(Vale)</em>
+		</p>
+
+		<svg viewBox="0 0 255.4 135.78" id="challenger">
+			<title>Super Smash Brothers-style 'A new foe has appeared!' announcement screen showing the year ${ Number(post.file_name) + 1 }.</title> 
+			<defs>
+				<filter id="c" width="1.75" height="1.75" x="-.37" y="-.37">
+					<feGaussianBlur result="blur" stdDeviation="15 15"/>
+					<feComposite in="SourceGraphic" in2="blur" operator="atop" result="composite1"/>
+					<feComposite in2="composite1" operator="in" result="composite2"/>
+					<feComposite in2="composite2" operator="in" result="composite3"/>
+					<feTurbulence baseFrequency="0.05 0.05" numOctaves="3" result="turbulence" seed="1" type="fractalNoise"/>
+					<feDisplacementMap in="composite3" in2="turbulence" result="map" scale="30.9"/>
+					<feColorMatrix result="colormatrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 19.5713 -0"/>
+					<feComposite in="composite3" in2="colormatrix" operator="atop" result="composite4"/>
+				</filter>
+				<filter id="a" x="0" y="0">
+					<feFlood flood-color="#b30028" result="fbSourceGraphic"/>
+					<feFlood flood-color="#6f0113" result="result4"/>
+					<feTurbulence baseFrequency=".02" numOctaves="5" result="result1" type="fractalNoise"/>
+					<feComposite in="fbSourceGraphic" in2="result1" operator="in" result="result2"/>
+					<feColorMatrix in="result2" result="result3" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 3 -1"/>
+					<feMerge result="result5">
+						<feMergeNode in="result4"/>
+						<feMergeNode in="result3"/>
+					</feMerge>
+					<feComposite in2="SourceGraphic" operator="in" result="result6"/>
+				</filter>
+				<radialGradient id="b" cx="144.31" cy="138.02" r="84.29" gradientUnits="userSpaceOnUse">
+				<stop offset=".45" stop-color="#fff"/>
+				<stop offset="1" stop-color="#e400f1"/>
+				</radialGradient>
+			</defs>
+			<g transform="translate(37.18 -69.5)">
+				<path fill="#fff" d="M-37.18 69.5v135.8h255.4V69.5z" filter="url(#a)"/>
+				<path fill-opacity=".6" d="m-37.18 160.56 161.44-5.78 1.62 10.5-163.06 7z"/>
+				<text xml:space="preserve" fill="#fff" font-size="15.77" transform="matrix(.61 -.018 .033 1.636 0 0)"><tspan x="-47.45" y="82.6" stroke-width="1.31" font-family="Work Sans" font-weight="700">A new foe has appeared!</tspan></text>
+				<circle cx="144.31" cy="138.02" r="48.29" fill="url(#b)" filter="url(#c)" opacity=".85" style="font-variation-settings:normal" transform="matrix(1.19 0 0 1.136 -26.22 -21.25)"/>
+				<text xml:space="preserve" x="-23.46" y="154.23" fill="#fff" font-size="7.2" transform="matrix(.92 -.035 .05 1.084 0 0)"><tspan x="-23.46" y="154.23" stroke-width=".6" font-family="Work Sans" font-weight="700">CHALLENGER APPROACHING</tspan></text>
+				<text xml:space="preserve" fill="#fff" stroke-width="6.9" font-family="Work Sans" font-size="82.82" style="font-variant-numeric:normal" transform="matrix(.539 -.038 .052 1.852 0 0)"><tspan x="165.64" y="109.65" fill="#000" font-weight="900">${ Number(post.file_name) + 1 }</tspan></text>
+			</g>
+		</svg>
+	</div>
+</article>
+
+<script src="/assets/scripts/number-ticker.js"></script>
+`})
