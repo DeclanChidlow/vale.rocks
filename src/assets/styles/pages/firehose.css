@@ -69,6 +69,10 @@ article {
 	background: light-dark(oklch(from var(--yellow) l c h / calc(alpha - 0.75)), oklch(from var(--yellow) l c h / calc(alpha - 0.85)));
 }
 
+.demo {
+	background: light-dark(oklch(from var(--black) l c h / calc(alpha - 0.75)), oklch(from var(--white) l c h / calc(alpha - 0.85)));
+}
+
 .event {
 	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.8)), var(--dark_grey));
 	padding-block-end: 4rem;

@@ -4,7 +4,6 @@
 	og_description: post.og_description
 	stylesheet: "pages/pulse-individual.css"
 	canonical: `/pulse/${ post.file_name }`
-	template_image: "pulse"
 
 _body:
 `<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Pulse</span>

@@ -7,6 +7,10 @@
 		...elsewhere
 		type: "elsewhere"
 	}))
+	...(demo_data.yaml → (_) => Tree.map(_, (demo) => {
+		...demo
+		type: "demo"
+	}))
 	...event_data.yaml → functions/expand-events.js
 }
 → (_) => Tree.sort(_, (item) => item.pub_time)
