@@ -10,7 +10,7 @@ canonical: /contact
 <div class="readable">
 Need to get in contact with me for whatever reason? In order of preference, the best ways to do so are:
 
-- Over electronic mail at <a href="mailto:${ Origami.shell('printenv VALE_EMAIL').trim() }">${ Origami.shell('printenv VALE_EMAIL').trim() }</a>.
+- Over electronic mail at <em id="email">vale (at) this site's domain</em>.
 - On Stoat as [Vale#0210](https://stoat.chat/qr?v2Zmb3JtYXRqcnFyJHVzZXIkMGZhdmF0YXJ4KmZYdm5WMlp6MmtWMWdTWkMtYm1EaW5NX2ZhSGxkbFVwSzRjZFdaSXdLM2tkaXNwbGF5TmFtZXgaMDFKRFpSREQxWVo4NEhBOEVTVDJFNUdWWFRodXNlcm5hbWVkVmFsZW1kaXNjcmltaW5hdG9yZDAyMTBiaWR4GjAxRzZBMllNSEVEMlRGVEVNTktLTUtGR0gw/w==).
 - On Matrix as [@valencethehuman:matrix.org](https://matrix.to/#/@valencethehuman:matrix.org).
 - On Bluesky as [@vale.rocks](https://bsky.app/profile/vale.rocks).
@@ -24,3 +24,13 @@ If you're reaching out to me with purpose, please be forthcoming with your reaso
 I'm a very text-centric person, and I'd prefer you do not try to engage me in a voice or video call without prior scheduling.
 
 </div>
+
+<script>
+const user = "vale";
+const domain = "vale.rocks";
+const em = document.getElementById("email");
+const a = document.createElement("a");
+a.href = `mailto:${user}\u0040${domain}`;
+a.textContent = `${user}\u0040${domain}`;
+em.replaceWith(a);
+</script>

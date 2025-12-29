@@ -9,10 +9,6 @@
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
-	...Tree.mapExtension(pages, ".ori.md→.html", {
-		value: (path) => main_template.ori(functions/parse-markdown.js(path))
-	})
-
 	posts.html = pages/posts.ori(post_data.ori)
 	posts/ = {
 		...Tree.map(post_data.ori, post_template.ori)
