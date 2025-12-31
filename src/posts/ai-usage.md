@@ -3,7 +3,7 @@ title: How I'm Using AI
 description: An overview of my personal usage of Large Language Models (LLMs) and other generative AI. Tracking my experiences with AI tools, specific models (ChatGPT, Claude, Gemini, etc), applying them practically, and realistic perspective on their strengths and limitations over time, from coding attempts to language learning assistance.
 og_description: As long as AI isn't using me...
 pub_time: 2025-05-02
-mod_time: 2025-10-21
+mod_time: 2025-12-31
 section: Essay
 tags: [AI, LLMs]
 ---
@@ -20,7 +20,7 @@ As AI is evolving, so is my usage of it. This is my attempt to keep a personal t
 
 ### Pre-2022
 
-While not an AI, I had great fun playing with Siri in the early to mid 2010s. It was my first interaction with a conversational assistant, and I bullied her relentlessly, as young children do.
+While not an AI, I had great fun playing with Siri in the early to mid-2010s. It was my first interaction with a conversational assistant, and I bullied her relentlessly, as young children do.
 
 I played with Cleverbot during the later half of the 2010s. I mainly asked it naughty questions, to which I'd sometimes get vague responses. It was so very limited and only a brief novelty.
 
@@ -78,13 +78,19 @@ Towards the conclusion of April, [I began experimenting with the freshly release
 
 With the introduction of Claude Sonnet 4 in May, I moved from Claude 3.7 Sonnet. Sonnet 4 is far more capable than previous iterations and doesn't fall victim to the same needless introduction of unnecessary complexity that 3.7 did. I was also pleased with Opus 4, but haven't found Sonnet lacking enough to justify paying for it.
 
-The long-rumoured and much hyped GPT-5 made its debut in August. While technically impressive, I found it largely iterative and on the whole mediocre. It is difficult to get good coding results from it, and it feels incredibly corporate. I find myself using ChatGPT at this point for quick, casual queries. I still fail to trust that LLMs will not hallucinate, but they are very adept at doing advanced searches across the web, factoring in context and filtering for relevant material in a way that is not necessarily hard for humans but is time-consuming. I largely ignore their direct textual output beyond simple matters but find use in their valuable reading list of provided sources.
+The long-rumoured and much-hyped GPT-5 made its debut in August. While technically impressive, I found it largely iterative and on the whole mediocre. It is difficult to get good coding results from it, and it feels incredibly corporate. I find myself using ChatGPT at this point for quick, casual queries. I still fail to trust that LLMs will not hallucinate, but they are very adept at doing advanced searches across the web, factoring in context and filtering for relevant material in a way that is not necessarily hard for humans but is time-consuming. I largely ignore their direct textual output beyond simple matters but find use in their valuable reading list of provided sources.
 
-Gemini 2.5 Flash Image (Nano Banana) also launched in August. The quality of the image generation isn't entirely fantastic, but I'm very impressed by its capability to maintain consistency across generations. I used it to generate vague concepts of a bathroom renovation by providing it with pictures of tiles, amenities, and colours I'd picked. The results were poor and inconsistent but gave a good enough visual representation of the proposal to be valuable in visualising the output.
+Gemini 2.5 Flash Image (Nano Banana) also launched in August. The quality of the image generation isn't entirely perfect, but I'm very impressed by its capability to maintain consistency across generations. I used it to generate vague concepts of a bathroom renovation by providing it with pictures of tiles, amenities, and colours I'd picked. The results were poor and inconsistent but gave a good enough visual representation of the proposal to be valuable in visualising the output.
 
 In September with the release of Sonnet 4.5, I switched over. Not a major upgrade, but certainly a welcome one. Around the same time my usage of Gemini itself fell by the wayside. Not particularly due to any failings on Gemini's part, it just wasn't necessary to use it and ChatGPT for my general AI needs.
 
-The dedicated chat interface still appears to be the way to go in my eye. I'm yet to really find generative AI implemented into an app or website in a way that is superior to the alternative. The only thing that pops to mind is Adobe's rather impressive [turntable functionality](https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/).
+In November I created an [index of my favourite albums](/library/albums) and then asked Google Gemini to analyse the music I'd listed, as well as my comments on what I liked about each album, to provide me some suggestions. The output of this was some of the best and most tailored music suggestions I've ever received.
+
+At some point GitHub started generating commit messages which are generally extremely poor and worse than useless. I'd be inclined to turn them off completely, but they are useful when doing bulk handling of PRs and mass menial data entry/tweaking.
+
+In December I moved back to using Gemini as my primary flagship LLM with the release of Gemini 3 and turned to using ChatGPT as a fallback following many improvements to the issues present at GPT-5's launch. Gemini 3 Pro Image (Nano Banana Pro) proved very technically impressive, but I remain without much need for image generation.
+
+Through 2025 the dedicated chat interface still remains the superior way to interact with AI tooling in much of my experience. I'm yet to really find generative AI implemented into an app or website in a way that is superior to the alternative. The only thing that pops to mind is Adobe's rather impressive [turntable functionality](https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/).
 
 ## Specific Usage
 
@@ -96,9 +102,11 @@ I love writing, and I _don't_ want an LLM to do my writing for me. However, I do
 
 I often write alone for long periods and get caught up in my own head, so having something to riff off is beneficial. Like most writers, I sometimes hit a bit of a block, so being able to get an LLM to give me a nudge to push me along is great for my productivity. It is accessible and will provide feedback that, while not necessarily always good, does usually inspire or trigger some thought.
 
-It is valuable in this way more like a debug duck than an assistant. Not necessarily providing good analysis, but prompting the thought needed to overcome a hurdle. LLMs sometimes serve in a more editor role. For instance, when struggling to rephrase a clunky sentence, asking an LLM for a few alternative phrasings often sparks the exact direction I need, even not using any of the suggestions directly.
+It is valuable in this way more like a debug duck than an assistant. Not necessarily providing good analysis, but prompting the thought needed to overcome a hurdle. LLMs sometimes serve in more of an editor role. For instance, when struggling to rephrase a clunky sentence, asking an LLM for a few alternative phrasings often sparks the exact direction I need, though I don't use any of the suggestions directly.
 
-The absolute most useful function of LLMs in writing is for use as a context-aware thesaurus, as I realised fairly early on. Thesauruses are great, but sometimes one finds oneself using words in more abstract or unique contexts where the typical equivalents don't quite fit.
+The absolute most useful function of LLMs when writing is as a context-aware thesaurus, as I realised fairly early on. Thesauruses are great, but sometimes one finds oneself using words in more abstract or unique contexts where the typical equivalents don't quite fit.
+
+LLMs are a last resort that I use to keep velocity when writing. A small local model is more than enough for this purpose and is beholden to far fewer of the qualms I have with large offerings. It is a nudge, not a shove, and improves my work rather than replacing it.
 
 ### Coding
 

@@ -110,6 +110,9 @@ class LibrarySorting {
 		if (filteredCount < totalCount) {
 			this.filterMessage.textContent = `Due to your chosen sorting option, only ${filteredCount} out of ${totalCount} items are displayed.`;
 			this.filterMessage.style.display = "block";
+		} else {
+			this.filterMessage.textContent = "";
+			this.filterMessage.style.display = "none";
 		}
 
 		this.contentList.replaceChildren(...sorted.map((item) => item.element));
