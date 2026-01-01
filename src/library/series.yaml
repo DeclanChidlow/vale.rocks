@@ -54,6 +54,11 @@
     - number: 2
     - number: 3
     - number: 4
+    - number: 5
+      watches:
+        - start: 2025-12-28
+          finish: 2026-01-01
+          notes: Some of the acting here was notably not great, but it was otherwise a very clean wrap for the series.
 - title: My Hero Academia
   release_year: 2016
   seasons:

@@ -44,10 +44,10 @@ main header {
 
 .number {
 	display: block;
-	font-size: 2em;
-	font-family: monospace;
-	overflow: hidden;
 	height: 1.2em;
+	font-size: 1.75em;
+	font-variant: oldstyle-nums;
+	overflow: hidden;
 
 	.digit {
 		position: relative;
@@ -69,7 +69,7 @@ main header {
 
 .static-char {
 	display: inline;
-	top: -0.5rem;
+	top: -0.7rem;
 	position: relative;
 }
 

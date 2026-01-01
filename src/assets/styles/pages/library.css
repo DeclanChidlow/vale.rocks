@@ -62,6 +62,12 @@
 		font-style: italic;
 	}
 
+	.star-rating {
+		font-family: "Fira Code";
+		font-size: 1.2rem;
+		letter-spacing: 0.1rem;
+	}
+
 	details,
 	details summary {
 		background: light-dark(oklch(from var(--bright_white) l c h / 0.3), oklch(from var(--black) l c h / 0.5));
