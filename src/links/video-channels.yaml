@@ -258,6 +258,10 @@ items:
     url: www.youtube.com/@thethoughtemporium
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCV5vCi3jPJdURZwAOO_FNfQ
     description: Manipulating science in ways forbidden by god.
+  - title: Two Minute Papers
+    url: www.youtube.com/@TwoMinutePapers
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg
+    description: Presentation of findings from assorted technical papers.
   - title: Garbage Time
     url: www.youtube.com/@GarbageTime420
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCHdpnvKJDijKNe2caIasnww

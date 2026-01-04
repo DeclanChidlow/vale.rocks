@@ -42,7 +42,10 @@
   rating: 4
   release_year: 2018
   platforms: ["PC"]
-  notes: Played the remastered version.
+  playthroughs:
+    - start: 2024-06-02
+      finish: 2024-06-21
+      notes: Remastered version.
 - title: Super Smash Bros Ultimate
   release_year: 2018
   platforms: ["Nintendo Switch", "PC"]
@@ -64,6 +67,7 @@
 - title: Unturned
   release_year: 2017
   platforms: ["PC"]
+  notes: The best experience I've ever had in Unturned was when I discovered some two folks working to fix a car. After earning their trust, I welded one of their faces, killing them. The second player turned to me and stared in deadpan disbelief for a brief moment before his face was also welded.
 - title: Totally Accurate Battle Zombulator
   release_year: 2017
   platforms: ["PC"]
@@ -98,6 +102,9 @@
 - title: Superhot
   release_year: 2016
   platforms: ["PC"]
+  playthroughs:
+    - start: 2020-06-09
+      finish: 2020-06-10
 - title: Prune
   release_year: 2015
   platforms: ["iOS"]
@@ -322,6 +329,9 @@
   rating: 5
   platforms: ["PC", "PS3"]
   notes: I'm yet to play another game that makes me <em>feel</em> like Portal 2.
+  playthroughs:
+    - start: 2020-04-28
+      finish: 2020-05-13
 - title: Pep the Dragon
   release_year: 2011
   platforms: ["iOS"]
@@ -433,6 +443,9 @@
   release_year: 2007
   rating: 4
   platforms: ["PC"]
+  playthroughs:
+    - start: 2020-04-24
+      finish: 2020-04-25
 - title: "Half-Life 2: Episode Two"
   release_year: 2007
   platforms: ["PC"]
@@ -461,6 +474,9 @@
 - title: "Half-Life 2: Episode One"
   release_year: 2006
   platforms: ["PC"]
+  playthroughs:
+    - start: 2021-06-03
+      finish: 2021-06-16
 - title: Age of Empires III
   release_year: 2005
   platforms: ["PC"]
@@ -468,6 +484,9 @@
 - title: Half-Life 2
   release_year: 2004
   platforms: ["PC"]
+  playthroughs:
+    - start: 2021-06-03
+      finish: 2021-06-16
 - title: Halo 2
   release_year: 2004
   platforms: ["Xbox Series"]
