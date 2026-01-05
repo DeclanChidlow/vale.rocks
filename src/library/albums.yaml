@@ -90,6 +90,9 @@
 - title: The Seaside
   release_year: 1984
   artists: Cardiacs
+- title: Rebel Yell
+  release_year: 1983
+  artists: Billy Idol
 - title: Oh, No! It's Devo
   release_year: 1982
   artists: DEVO
@@ -123,15 +126,24 @@
 - title: The Pleasure Principle
   release_year: 1979
   artists: Gary Numan
+- title: Breakfast In America
+  release_year: 1979
+  artists: Supertramp
 - title: The Wall
   release_year: 1979
   artists: Pink Floyd
+- title: Reggatta de Blanc
+  release_year: 1979
+  artists: The Police
 - title: "Q: Are We Not Men? A: We Are Devo!"
   release_year: 1978
   artists: DEVO
 - title: On The Move
   release_year: 1978
   artists: Jun Fukamachi
+- title: The Cars
+  release_year: 1978
+  artists: The Cars
 - title: Brasilian Skies
   release_year: 1978
   artists: Masayoshi Takanaka

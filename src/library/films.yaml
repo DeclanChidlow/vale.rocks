@@ -94,6 +94,8 @@
   rating: 3.5
 - title: The French Dispatch
   release_year: 2021
+- title: Free Guy
+  release_year: 2021
 - title: "Roadrunner: A Film About Anthony Bourdain"
   release_year: 2021
   notes: While watching, I wanted nothing more than to write. When I began writing, I wanted nothing more than to watch. A condensation of motivation.
@@ -102,6 +104,8 @@
       format: Streaming
 - title: "Spider-Man: No Way Home"
   release_year: 2021
+- title: Peter Rabbit 2
+  release_year: 2021
 - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
   release_year: 2021
   rating: 2
@@ -109,6 +113,8 @@
     - date: 2025-07-06
       format: Streaming
 - title: "Spider-Man: Far From Home"
+  release_year: 2019
+- title: Spies in Disguise
   release_year: 2019
 - title: Bohemian Rhapsody
   release_year: 2019
@@ -133,6 +139,8 @@
   watches:
     - date: 2018
       format: Cinema
+- title: Peter Rabbit
+  release_year: 2018
 - title: Black Panther
   release_year: 2018
 - title: Christopher Robin
@@ -166,6 +174,11 @@
   release_year: 2018
 - title: Venom
   release_year: 2018
+- title: Daddy's Home 2
+  release_year: 2017
+  watches:
+    - date: 2017
+      format: Cinema
 - title: "Spider-Man: Homecoming"
   release_year: 2017
   watches:
@@ -274,7 +287,11 @@
       format: Streaming
 - title: The Internet's Own Boy
   release_year: 2014
+- title: How to Train Your Dragon 2
+  release_year: 2014
 - title: Guardians of the Galaxy
+  release_year: 2014
+- title: Alexander and the Terrible, Horrible, No Good, Very Bad Day
   release_year: 2014
 - title: Paddington
   release_year: 2014
@@ -294,6 +311,8 @@
 - title: Now You See Me
   release_year: 2013
 - title: Iron Man 3
+  release_year: 2013
+- title: The Croods
   release_year: 2013
 - title: Scooby-Doo! Stage Fright
   release_year: 2013
@@ -318,6 +337,8 @@
     - date: 2022-01-15
       format: Streaming
 - title: Men in Black 3
+  release_year: 2012
+- title: Rise of the Guardians
   release_year: 2012
 - title: Wreck-it Ralph
   release_year: 2012
@@ -350,7 +371,13 @@
   release_year: 2011
 - title: Harry Potter and the Deathly Hallows - Part 2
   release_year: 2011
+- title: Gnomeo & Juliet
+  release_year: 2011
 - title: Scooby-Doo! Camp Scare
+  release_year: 2010
+- title: Shrek Forever After
+  release_year: 2010
+- title: How to Train Your Dragon
   release_year: 2010
 - title: Scott Pilgrim vs the World
   release_year: 2010
@@ -402,6 +429,8 @@
   release_year: 2008
 - title: WALL-E
   release_year: 2008
+- title: "The Pirates Who Don't Do Anything: A VeggieTales Movie"
+  release_year: 2008
 - title: Ponyo
   release_year: 2008
   rating: 4
@@ -421,6 +450,8 @@
 - title: The Darjeeling Limited
   release_year: 2007
   rating: 4
+- title: Shrek The Third
+  release_year: 2007
 - title: Harry Potter and the Order of the Phoenix
   release_year: 2007
 - title: Hot Fuzz
@@ -442,6 +473,8 @@
   watches:
     - date: 2021-10-15
       format: Streaming
+- title: The Devil Wears Prada
+  release_year: 2006
 - title: Paprika
   release_year: 2006
   notes: The first half felt a tad weak due to the psychological aspects not being properly explored as a result of the constant comedic relief breaking tension. It strengthened greatly in the last quarter. Overall, I feel it could have leaned a little bit more into the incoherency of dreams, rather than just the surrealism.
@@ -454,6 +487,9 @@
   release_year: 2005
 - title: Aloha, Scooby-Doo!
   release_year: 2005
+- title: The Adventures of Sharkboy and Lavagirl
+  release_year: 2005
+  notes: Further evidence of there being no god to save us.
 - title: Harry Potter and the Goblet of Fire
   release_year: 2005
   watches:
@@ -468,6 +504,8 @@
 - title: The Hitchhiker's Guide to the Galaxy
   release_year: 2005
 - title: Scooby-Doo! and the Loch Ness Monster
+  release_year: 2004
+- title: Shrek 2
   release_year: 2004
 - title: Thunderbirds
   release_year: 2004
@@ -498,6 +536,8 @@
       format: Streaming
 - title: Scooby-Doo! and the Monster of Mexico
   release_year: 2003
+- title: "Spy Kids 3-D: Game Over"
+  release_year: 2003
 - title: Inspector Gadget 2
   release_year: 2003
   notes: The body horror of a man's physicality disobeying his mind played off for laughs. Owned on a scratched ex-video-store DVD, such that at the climax of the film, when French Stewart breaks the fourth wall and says, 'Here comes the good part', it would cease playing and never recover.
@@ -513,6 +553,8 @@
 - title: Johnny English
   release_year: 2003
 - title: "Austin Powers: Goldmember"
+  release_year: 2002
+- title: "Spy Kids 2: The Island of Lost Dreams"
   release_year: 2002
 - title: Treasure Planet
   release_year: 2002
@@ -535,6 +577,14 @@
   watches:
     - date: 2024-12-25
       format: Streaming
+- title: Shrek
+  release_year: 2001
+- title: Cats & Dogs
+  release_year: 2001
+- title: Jurassic Park III
+  release_year: 2001
+- title: Spy Kids
+  release_year: 2001
 - title: The Royal Tenenbaums
   release_year: 2001
 - title: "Cowboy Bebop: The Movie"
@@ -552,6 +602,8 @@
   watches:
     - date: 2024-09-14
       format: Streaming
+- title: Remember the Titans
+  release_year: 2000
 - title: X-Men
   release_year: 2000
   watches:
@@ -597,6 +649,8 @@
 - title: The Castle
   release_year: 1997
   rating: 4
+- title: "The Lost World: Jurassic Park"
+  release_year: 1993
 - title: "Austin Powers: International Man of Mystery"
   release_year: 1997
 - title: Princess Mononoke
@@ -638,6 +692,8 @@
       format: Streaming
     - date: 2025-02-08
       format: Streaming
+- title: While You Were Sleeping
+  release_year: 1995
 - title: Ghost in the Shell
   release_year: 1995
   watches:
@@ -656,6 +712,8 @@
 - title: Forest Gump
   release_year: 1994
 - title: Coneheads
+  release_year: 1993
+- title: Jurassic Park
   release_year: 1993
 - title: A League of Their Own
   release_year: 1992
@@ -709,6 +767,11 @@
   rating: 4
 - title: Indiana Jones and the Last Crusade
   release_year: 1989
+- title: Kiki's Delivery Service
+  release_year: 1989
+  watches:
+    - date: 2026-01-04
+      format: Streaming
 - title: A Grand Day Out
   release_year: 1989
   watches:
