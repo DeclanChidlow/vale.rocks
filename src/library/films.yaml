@@ -116,6 +116,8 @@
   release_year: 2019
 - title: Spies in Disguise
   release_year: 2019
+- title: The Secret Life of Pets 2
+  release_year: 2019
 - title: Bohemian Rhapsody
   release_year: 2019
   rating: 4
@@ -207,13 +209,21 @@
   release_year: 2016
 - title: Moana
   release_year: 2016
+- title: Hunt for the Wilderpeople
+  release_year: 2016
 - title: Doctor Strange
+  release_year: 2016
+- title: Your Name
   release_year: 2016
 - title: The Jungle Book
   release_year: 2016
   watches:
     - date: 2016
       format: Cinema
+- title: The Secret Life of Pets
+  release_year: 2016
+- title: Sing
+  release_year: 2016
 - title: Zootopia
   release_year: 2016
   watches:
@@ -291,6 +301,8 @@
   release_year: 2014
 - title: Guardians of the Galaxy
   release_year: 2014
+- title: Penguins of Madagascar
+  release_year: 2014
 - title: Alexander and the Terrible, Horrible, No Good, Very Bad Day
   release_year: 2014
 - title: Paddington
@@ -309,6 +321,8 @@
   release_year: 2014
   rating: 4
 - title: Now You See Me
+  release_year: 2013
+- title: Turbo
   release_year: 2013
 - title: Iron Man 3
   release_year: 2013
@@ -338,7 +352,11 @@
       format: Streaming
 - title: Men in Black 3
   release_year: 2012
+- title: Hotel Transylvania
+  release_year: 2012
 - title: Rise of the Guardians
+  release_year: 2012
+- title: The Lorax
   release_year: 2012
 - title: Wreck-it Ralph
   release_year: 2012
@@ -360,12 +378,16 @@
   release_year: 2012
 - title: Scooby-Doo! Music of the Vampire
   release_year: 2012
+- title: "Alvin and the Chipmunks: Chipwrecked"
+  release_year: 2011
 - title: "X-Men: First Class"
   release_year: 2011
   watches:
     - date: 2024-10-04
       format: Streaming
 - title: Johnny English Reborn
+  release_year: 2011
+- title: Rio
   release_year: 2011
 - title: Scooby-Doo! Legend of the Phantosaur
   release_year: 2011
@@ -374,6 +396,8 @@
 - title: Gnomeo & Juliet
   release_year: 2011
 - title: Scooby-Doo! Camp Scare
+  release_year: 2010
+- title: Yogi Bear
   release_year: 2010
 - title: Shrek Forever After
   release_year: 2010
@@ -387,6 +411,8 @@
       format: Streaming
     - date: 2025-12-16
       format: Streaming
+- title: Megamind
+  release_year: 2010
 - title: Scooby-Doo! Abracadabra-Doo
   release_year: 2010
 - title: Scooby-Doo! Curse of the Lake Monster
@@ -401,9 +427,15 @@
   release_year: 2010
 - title: Fantastic Mr Fox
   release_year: 2009
+- title: "Night at the Museum: Battle of the Smithsonian"
+  release_year: 2009
+- title: "Alvin and the Chipmunks: The Squeakquel"
+  release_year: 2009
 - title: Up
   release_year: 2009
   notes: The start of this film is perhaps the biggest gut punch to ever open a children's movie.
+- title: Cloudy with a Chance of Meatballs
+  release_year: 2009
 - title: Scooby-Doo! The Mystery Begins
   release_year: 2009
 - title: Avatar
@@ -418,6 +450,8 @@
   watches:
     - date: 2025-06-27
       format: Streaming
+- title: Arthur and the Revenge of Maltazard
+  release_year: 2009
 - title: Killer Bean Forever
   release_year: 2009
 - title: Zombieland
@@ -468,11 +502,15 @@
   watches:
     - date: 2024-10-01
       format: Streaming
+- title: Night at the Museum
+  release_year: 2006
 - title: Kenny
   release_year: 2006
   watches:
     - date: 2021-10-15
       format: Streaming
+- title: Arthur and the Minimoys
+  release_year: 2006
 - title: The Devil Wears Prada
   release_year: 2006
 - title: Paprika
@@ -486,6 +524,8 @@
 - title: Scooby-Doo! in Where's My Mummy?
   release_year: 2005
 - title: Aloha, Scooby-Doo!
+  release_year: 2005
+- title: Madagascar
   release_year: 2005
 - title: The Adventures of Sharkboy and Lavagirl
   release_year: 2005
@@ -541,6 +581,8 @@
 - title: Inspector Gadget 2
   release_year: 2003
   notes: The body horror of a man's physicality disobeying his mind played off for laughs. Owned on a scratched ex-video-store DVD, such that at the climax of the film, when French Stewart breaks the fourth wall and says, 'Here comes the good part', it would cease playing and never recover.
+- title: Cat In The Hat
+  release_year: 2003
 - title: School of Rock
   release_year: 2003
 - title: Finding Nemo
@@ -557,6 +599,8 @@
 - title: "Spy Kids 2: The Island of Lost Dreams"
   release_year: 2002
 - title: Treasure Planet
+  release_year: 2002
+- title: Ice Age
   release_year: 2002
 - title: Spider-Man
   release_year: 2002
@@ -603,6 +647,8 @@
     - date: 2024-09-14
       format: Streaming
 - title: Remember the Titans
+  release_year: 2000
+- title: The Dish
   release_year: 2000
 - title: X-Men
   release_year: 2000
@@ -710,6 +756,8 @@
     - date: 2025-04-25
       format: Streaming
 - title: Forest Gump
+  release_year: 1994
+- title: The Mask
   release_year: 1994
 - title: Coneheads
   release_year: 1993
@@ -841,7 +889,7 @@
       format: Streaming
 - title: "Star Wars: Return of the Jedi"
   release_year: 1983
-- title: War Games
+- title: WarGames
   release_year: 1983
 - title: Blade Runner
   release_year: 1982
