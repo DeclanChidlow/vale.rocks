@@ -79,7 +79,7 @@
 		books.html: library/books.ori(library/books.yaml)
 		films.html: library/films.ori(library/films.yaml)
 		series.html: library/series.ori(library/series.yaml)
-		albums.html: library/albums.ori(library/albums.yaml)
+		music.html: library/music.ori(library/albums.yaml)
 		games.html: library/games.ori(library/games.yaml)
 	})
 

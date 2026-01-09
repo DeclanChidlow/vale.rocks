@@ -16,9 +16,9 @@ _body:
 		<li><a href="/library/books">Books</a> (${ books.length } items)</li>
 		<li><a href="/library/films">Films</a> (${ films.length } items)</li>
 		<li><a href="/library/series">Series</a> (${ series.length } items)</li>
-		<li><a href="/library/albums">Albums</a> (${ albums.length } items)</li>
+		<li><a href="/library/music">Music</a> (${ albums.length } items)</li>
 		<li><a href="/library/games">Games</a> (${ games.length } items)</li>
 	</ul>
 
-	<p>One intention I have in documenting all this media I've experienced is to be able to pass it to my chosen LLM to have it perform an analysis taking into account my notes and ratings to provide tailored recommendations without relying on the algorithm of some third-party silo.</p>
+	<p>One intention I have in documenting all this media I’ve experienced is to be able to pass it to my chosen LLM to have it perform an analysis taking into account my notes and ratings to provide tailored recommendations without relying on the algorithm of some third-party silo.</p>
 </div>`})

@@ -1,20 +1,22 @@
 (albums) => main_template.ori({
-	title: "Albums"
+	title: "Music"
 	description: "A list of the musical albums I consider most outstanding, provided with commentary where pertinent."
 	og_description: "My favourite albums."
 	stylesheet: "pages/library.css"
-	canonical: "/library/albums"
+	canonical: "/library/music"
 	template_image: "library"
 
 _body:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Library</span>
 
 <div class="readable">
-	<h1>Albums</h1>
+	<h1>Music</h1>
 
-	<p>${ albums.length } of the most terrific albums I've listened to, with notes where pertinent.</p>
+	<p>${ albums.length } of the most terrific albums I’ve listened to, with notes where pertinent.</p>
 	<p>Unlike the rest of my library sections, this section is not intended to be comprehensive but is instead intended to highlight music I consider exemplary. I have listened to far too much music to be able to realistically list it all.</p>
 	<p>This does not include film/series/game soundtracks, except where the soundtracks are completely isolated from the media. Only full albums are listed, not compilation albums, unless those compilation albums are re-recordings or substantially differ from the originals.</p>
+
+	<p id="currently-listening"></p>
 
 	<form id="refine-entries">
 		<label for="entries-sort">Sort by:</label>
@@ -35,4 +37,5 @@ _body:
 	</ol>
 </div>
 
+<script src="/assets/scripts/currently-listening.js"></script>
 <script src="/assets/scripts/library-sorting.js"></script>`})

@@ -237,3 +237,35 @@
   seasons:
     - number: 1
     - number: 2
+- title: Little Lunch
+  release_year: 2015
+  seasons:
+    - number: 1
+- title: Get Smart!
+  release_year: 1965
+  part_watched: true
+- title: Scooby-Doo! Mystery Incorporated
+  release_year: 2010
+  part_watched: true
+- title: Brooklyn Nine-Nine
+  release_year: 2013
+  part_watched: true
+- title: Yo Gabba Gabba!
+  release_year: 2007
+  part_watched: true
+- title: LazyTown
+  release_year: 2002
+  part_watched: true
+- title: Prank Patrol
+  release_year: 2009
+  part_watched: true
+- title: Media Watch
+  release_year: 1989
+  part_watched: true
+- title: "Good Game: Spawn Point"
+  release_year: 2010
+  part_watched: true
+- title: Thomas & Friends
+  release_year: 1984
+  part_watched: true
+  notes: I had a crushing fear of Boulder from the episode <em>Rusty and the Boulder</em>.
