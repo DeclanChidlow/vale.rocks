@@ -852,6 +852,9 @@
 - title: RoboCop
   release_year: 1987
   notes: A fantastic satire, though it is a shame that private enterprise meddling in public services and police brutality have remained such relevant topics. The stop-motion and practical effects are fantastic. Where many films present an 80s version of the future, RoboCop feels like the future brought back to the 80s.
+  watches:
+    - date: 2026-01-10
+      format: Streaming
 - title: The Princess Bride
   release_year: 1987
   rating: 4

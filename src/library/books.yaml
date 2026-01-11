@@ -1,3 +1,10 @@
+- title: The Hobbit, or There and Back Again
+  release_year: 1937
+  authors: JRR Tolkien
+  reads:
+    - start: 2025-12-13
+      finish: 2026-01-11
+      status: Read
 - title: Practical Typography
   release_year: 2013
   authors: Matthew Butterick
