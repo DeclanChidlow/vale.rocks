@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2025-08-28
+mod_time: 2026-01-12
 section: Meta
 tags: [design, front-end development]
 ---
@@ -39,7 +39,7 @@ I like being able to add extra information, tangents, or conjecture to my writin
 
 Thus, I've come up with my own implementation. By default, footnotes are marked up as anchors to the definition at the end of the page in standard HTML, but the experience of this is greatly improved by some JavaScript-based progressive enhancement. Assuming the JavaScript is available and active, clicking a footnote reference in a horizontally challenged viewport will open it in a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's right margin.
 
-This overall experience is very much influenced by [Gwern's implementation and research](https://gwern.net/sidenote) and is implemented on my site via my own [`footnotes.js`](https://vale.rocks/assets/scripts/footnotes.js). I've also provided a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/ogvGVdq).
+This overall experience is very much influenced by [Gwern's implementation and research](https://gwern.net/sidenote) and is implemented on my site via my own [`footnotes.js`](/assets/scripts/footnotes.js). I've also provided a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/ogvGVdq).
 
 ### Hero Puddle
 
@@ -51,7 +51,7 @@ Also on the landing page is a global graph view of all content on my site. This 
 
 Most graph view systems show the association between individual pages based on how they link to one another, but, as my site is already rather complex, I chose to forgo this. Any system capable of identifying all these relationships would incur significantly longer build times that would quadratically increase as the amount of content grows. Speaking of which, given the amount of content on this site, it would also be extremely visually noisy, making it almost useless on a global scale.
 
-As such, my implementation does not show direct associations between pages beyond hierarchy and is perhaps better described as a visual sitemap [^2] -- especially as it pulls in my [`sitemap.xml`](/sitemap.xml) for data. I have excluded paginated pages, as I don't see any benefit from them appearing in the graph.
+As such, my implementation does not show direct associations between pages beyond hierarchy and is perhaps better described as a visual sitemap[^2] -- especially as it pulls in my [`sitemap.xml`](/sitemap.xml) for data. I have excluded paginated pages, as I don't see any benefit from them appearing in the graph.
 
 Groups of nodes are coloured based on the accent colours of the section of my site they belong to, and the size of each parent node is proportional to the number of child nodes it has. Nodes without child nodes ignore this and are made bigger for visibility. All nodes are presented with their URL slugs, though these slugs are only visible when you sufficiently zoom in to ensure readability. The full URL is exposed when interacting with them, so one can see what page they represent and navigate to their destination.
 
@@ -79,7 +79,7 @@ Figures containing images get a glow inspired by [YouTube's ambient mode](https:
 
 For applicable cases, figures will open into full-screen lightboxes when clicked. These lightboxes display the figcaption and alt text as available.
 
-I've got a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/QwLOyPM) of the glow and lightbox functionality, which is used in production on this site as [`figures.js`](https://vale.rocks/assets/scripts/figures.js).
+I've got a [reference implementation on CodePen](https://codepen.io/OuterVale/pen/QwLOyPM) of the glow and lightbox functionality, which is used in production on this site as [`figures.js`](/assets/scripts/figures.js).
 
 Also, as part of my figures, I have classes set up that allow for censoring or allowing inversion of images. On posts like [My Experience Biohacking](/posts/my-experience-biohacking), where there are some slightly bloody images, or situations where I may need to hide a spoiler, I can blur the content until hovered or focused.
 
@@ -115,11 +115,13 @@ Beyond trying to get you to the right page, my 404 page also has a style tag wit
 
 ### Dynamic Timezone Display
 
-All times on this site are provided in UTC, but using some client-side JavaScript, the times for micros are altered to be in the user's chosen timezone as set by their browser/OS.
+All times on this site are provided in UTC, but using [some client-side JavaScript](/assets/scripts/timezone-adjuster.js), times are altered to be in the user's chosen timezone as set by their browser/OS.
+
+I'm personally of the opinion that timezones are a bit dumb altogether and that we'd be best off just settling on UTC across the world. For that matter, daylight savings should also be done away with.
 
 ### Optimising Assets
 
-Vector content in the form of SVGs are preferred to raster images and used whenever possible. Despite their file sizes already being far lower than raster images, I still opt to optimise them manually to minimise their size.
+Vector content in the form of SVGs is preferred to raster images and used whenever possible. Despite their file sizes already being far lower than raster images, I still opt to optimise them manually to minimise their size. I perform a recursive dance with [SVGOMG](https://github.com/jakearchibald/svgomg) and manual manipulations in a text editor before I'm eventually happy with the asset.
 
 Where SVGs aren't applicable, images are served as AVIFs, which I found to have the smallest file size without sacrificing browser compatibility.
 
@@ -153,6 +155,14 @@ Vale.Rocks is configured as a [PWA](https://en.wikipedia.org/wiki/Progressive_we
 
 In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
 
+### Currently Listening
+
+On my [Music Library page](/library/music), I have a dynamically updating notice of what I'm currently listening to. This is possible because my music listening -- including my currently playing -- is tracked by [ListenBrainz](https://listenbrainz.org), which graciously provides a free and open API.
+
+My [`currently-listening.js`](/assets/scripts/currently-listening.js) script regularly queries this API to check if I'm listening to anything and includes note of it on the page. Once it knows I am listening, it dynamically adjusts its fetching based on the playtime of the current song to avoid unnecessary requests.
+
+It isn't always precisely accurate. A slight delay in updating the status is to be expected due to the manual fetching, and metadata might not always be precise, especially if sourcing listening data from a disorganised provider, but it is well within the realms of reason overall.
+
 ### Development & Deployment
 
 My development workflow for this site is pretty trivial. I run a local Origami dev server via [Bun](https://bun.com/) on my laptop and make my edits via Neovim. It's more or less the standard development flow you'd expect of any web-based project. All writing on the site is done with the exact same flow.
@@ -175,15 +185,15 @@ As for _how_ analytics are collected, I do it via [GoatCounter](https://www.goat
 
 Vale.Rocks is implemented following my own [Strong Opinions On URL Design](/posts/strong-opinions-on-url-design). Chiefly, this means that there _aren't_ [useless paths](/posts/strong-opinions-on-url-design#useless-paths).
 
-The site is split up into sections for each type of content (eg, posts, micros, photography, etc) with (sometimes paginated) top-level pages for each of them displaying a list of the content.
+The site is split up into defined sections for each type of content (eg, posts, micros, photography, etc) with (sometimes paginated) top-level pages for each of them displaying a list of the content.
 
 Individual pages (eg, contact, support, etc) are served as top-level pages and are not unnecessarily nested.
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose has no actual content of its own; it merely indexes other content.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new years, and links out to code demos I've created across the web.
 
-It is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
+The firehose is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
 All the content going into the firehose data tree is given a `type` property [^4] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
 

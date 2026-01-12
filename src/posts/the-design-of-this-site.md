@@ -74,7 +74,7 @@ Vale.Rocks is home to many non-standard features and some notable implementation
 
 - A warm colour palette that is readable for extended periods.
 
-- A ton more of tiny little quality-of-life bits and bobs.
+- A ton more tiny little quality-of-life bits and bobs.
 
 If you'd like to see most of the site's numerous features and stylings in one place, you can do so on my [Lorem Ipsum page](/posts/lorem-ipsum). It contains a complex assortment of most possible different formattings and layouts for testing and trialling interactions of elements in complex arrangements.
 

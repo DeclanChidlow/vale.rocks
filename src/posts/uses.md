@@ -3,7 +3,7 @@ title: Technology I Use
 description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management. Collates most of what I use on my laptop, servers, and phone.
 og_description: The tools, software, and other such things I use.
 pub_time: 2024-08-05
-mod_time: 2025-11-20
+mod_time: 2026-01-12
 section: Meta
 ---
 
@@ -17,7 +17,7 @@ It runs [NixOS](https://nixos.org), which I'm a huge fan of thanks to its declar
 
 ### Environment
 
-I run [Sway](https://swaywm.org) as my window manager, [swaylock](https://github.com/swaywm/swaylock) as the screen locker, and [Yambar](https://codeberg.org/dnkl/yambar) as my status panel. I use [bemenu](https://github.com/Cloudef/bemenu) (a Wayland equivalent of dmenu) for launching programs and displaying my clipboard history (with the help of [cliphist](https://www.cliphist.com)). My notifications are all handled by [Dunst](https://dunst-project.org).
+I run [Sway](https://swaywm.org) as my window manager, [swaylock](https://github.com/swaywm/swaylock) as the screen locker, and [i3status-rust](https://github.com/greshake/i3status-rust) provides the data for my status bar. I use [bemenu](https://github.com/Cloudef/bemenu) (a Wayland equivalent of dmenu) for launching programs and displaying my clipboard history (with the help of [cliphist](https://www.cliphist.com)). My notifications are all handled by [Dunst](https://dunst-project.org).
 
 [Kitty](https://sw.kovidgoyal.net/kitty/) is my preferred terminal, pretty much exclusively for its support for ligatures and images and its [SSH kitten](https://sw.kovidgoyal.net/kitty/kittens/ssh).
 
@@ -39,7 +39,7 @@ I use a [custom search engine router I made](https://search.vale.rocks) to allow
 - [Facebook Container](https://www.mozilla.org/en-US/firefox/facebookcontainer/) (Firefox only): Isolates Facebook from the rest of my browsing.
 - [uBlock Origin](https://ublockorigin.com): Allows blocking adverts, content, fonts, scripts, etc. I switch this out for [the lite variant](https://github.com/uBlockOrigin/uBOL-home) on browsers that have dropped Manifest v2 support.
 - [SponsorBlock for YouTube](https://sponsor.ajay.app): Can filter out unwanted parts of YouTube videos.
-- [Fontanello](https://fontanello.app): Provides information about the typographic stylings of selected text.
+- [Web Scrobbler](https://webscrobbler.com/): Tracks music listened to.
 
 ### Development
 
@@ -59,11 +59,11 @@ I 'enhance' (salvage) the Windows experience with [Microsoft's PowerToys](https:
 
 I usually do video editing in [Kdenlive](https://kdenlive.org), though will opt for [Shotcut](https://www.shotcut.org) instead for projects of a lesser scope.
 
-Raster image manipulation is usually conducted in [Photopea](https://www.photopea.com/), and vector editing in [InkScape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
+Raster image manipulation is usually conducted in [Photopea](https://www.photopea.com/), and vector editing in [Inkscape](https://inkscape.org). Unfortunately I haven't found anything better than [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html) for developing photographs. I also haven't found anything comparable to [InDesign](https://www.adobe.com/products/indesign.html) for print layout and am sometimes unfortunately forced to use other offerings of Adobe's Creative Cloud due to compatibility issues and absent/inadequate features.
 
 I use [Blender](https://www.blender.org) for 3D modelling and animation. My [Creality Ender 3 V3 SE](https://store.creality.com/products/ender-3-v3-se-3d-printer) 3D printer is complemented by [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), which I use for slicing and has extensive custom configuration for my needs.
 
-For document creation and editing, I tend to use Neovim paired with [Pandoc](https://pandoc.org) for most document creation, though fallback to [LibreOffice](https://www.libreoffice.org) with [my set of modifications](/posts/the-ultimate-libreoffice-setup) for dealing with Microsoft Office file formats.
+For document creation and editing, I tend to use Neovim paired with [Pandoc](https://pandoc.org) for most document creation, though fall back to [LibreOffice](https://www.libreoffice.org) with [my set of modifications](/posts/the-ultimate-libreoffice-setup) for dealing with Microsoft Office file formats.
 
 My email/contact/calendar/task client is [Thunderbird](https://www.thunderbird.net/en-US/). It isn't perfect but is generally alright. Video and loose audio files are played through [mpv](https://mpv.io), and [imv](https://sr.ht/~exec64/imv/) serves as my image viewer.
 
@@ -86,7 +86,7 @@ My current phone is a Google Pixel 7a. Nothing too special, but it's one of the 
 I generally look for apps that I can customise, that are open-source, and that adhere to Material You. The apps I've currently got installed include:
 
 - [Bluesky](https://bsky.social/about)
-- [Pixel Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera): I chose my phone partly for it's camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.
+- [Pixel Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera): I chose my phone partly for its camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.
 - [Vanadium](https://grapheneos.org/features#vanadium): Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome's market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn't much point having two separate browser engines installed, among other issues.
 - [FlorisBoard](https://florisboard.org): Excellent and very customisable FOSS keyboard.
 - [FeedFlow](https://www.feedflow.dev): A very nice feed reader. Posts open in browser rather than being displayed in-app.
@@ -107,6 +107,7 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Chrono](https://github.com/vicolo-dev/chrono): Convenient clock I use for alarms and timers.
 - [Ares Dark](https://www.one4studio.com/apps/icon-packs/ares-series): Provides some very nice-looking icons.
 - [Proton Drive](https://proton.me/drive): Cloud storage that I use to quickly move files between my phone and computer.
+- [Pano Scrobbler](https://kawaiidango.github.io/pano-scrobbler/): Tracks what music I've listened to.
 - [Flipper](https://flipperzero.one): For interacting with [my Flipper Zero](/posts/i-got-a-flipper-zero).
 - [Stoat](https://stoat.chat)
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
@@ -128,13 +129,15 @@ All my personal photos, home videos, etc, are handled by a self-hosted deploymen
 
 Music libraries devolve into a mess with disturbing ease. I convert all my music to OPUS, process them with [beets](https://beets.io), and then play them with [Music Player Daemon (MPD)](https://www.musicpd.org). I can then use a frontend of my choosing, such as [Inori (いのり)](https://github.com/eshrh/inori), and pair it with tools like [mpc](https://github.com/MusicPlayerDaemon/mpc) for assigning keybinds.
 
+I track all my music listening with the aforementioned scrabbling tools, which feed into [ListenBrainz](https://listenbrainz.org) for tracking my listening habits.
+
 ### Books
 
-Currently I manage my extensive e-book collection with [Calibre](https://calibre-ebook.com), although it is showing its age in a few places. I pair it with [The StoryGraph](https://www.thestorygraph.com) for tracking read books and sourcing recommendations. I read my books on my Kindle 3 running [modified software for a better reading experience](/posts/improving-early-kindles).
+Currently I manage my extensive e-book collection with [Calibre](https://calibre-ebook.com), although it is showing its age in a few places, and then manually mirror the library onto my Jellyfin instance. I primarily read my books on my Kindle 3 running [modified software for a better reading experience](/posts/improving-early-kindles), with a [custom plugin I created for KOReader](https://github.com/DeclanChidlow/KOReader-Jellyfin-Plugin) which lets me access books from my Jellyfin instance.
 
 ### Gaming
 
-I like to do a bit of gaming in my 'spare' time, so I've got a bit set up. I have an Xbox Series S for virtue of convenience and local multi-player ease, as well as for media display. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2000, and Nintendo DS, although they see scarce use.
+I like to do a bit of gaming in my 'spare' time, so I've got a bit set up. I have an Xbox Series S for virtue of convenience and local multiplayer ease, as well as for media display. I do also keep some other consoles around, including my Xbox 360 E, PlayStation Vita 2000, and Nintendo DS, although they see scarce use.
 
 My preferred platform, even if not the most played, is PC. Most of my PC games live on [Steam](https://store.steampowered.com/), although I've got pretty extensive libraries on GOG, Epic Games, and Amazon Gaming, which I manage through the [Heroic Games Launcher](https://heroicgameslauncher.com). I also have [Prism Launcher](https://prismlauncher.org) for my occasional Minecraft needs and [GameMode](https://feralinteractive.github.io/gamemode/) to keep everything running smoothly.
 
