@@ -87,6 +87,7 @@
 - title: Ratz Instagib
   release_year: 2016
   platforms: ["PC"]
+  notes: 'See <a href="/posts/ratz-instagib">Experiencing Zen in the Ratz Instagib Meat Grinder</a>.'
 - title: Risky Road
   release_year: 2016
   platforms: ["iOS"]

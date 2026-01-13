@@ -4,6 +4,7 @@ description: A love letter to Ratz Instagib, a breakneck, fast-jazz, neon-laser,
 og_description: Bypassing concious thought.
 pub_time: 2026-01-13
 section: Review
+tags: [media, gaming]
 ---
 
 Ratz Instagib is a fast-paced first-person shooter. As the name suggests, each hit is an instant kill. Be not disillusioned by my writing of this article, for this is not a game I am good at. In honesty, one shouldn't even venture as far as to suggest that it is a game I am so much as merely alright at.

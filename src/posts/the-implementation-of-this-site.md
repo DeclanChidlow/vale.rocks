@@ -117,7 +117,7 @@ Beyond trying to get you to the right page, my 404 page also has a style tag wit
 
 All times on this site are provided in UTC, but using [some client-side JavaScript](/assets/scripts/timezone-adjuster.js), times are altered to be in the user's chosen timezone as set by their browser/OS.
 
-I'm personally of the opinion that timezones are a bit dumb altogether and that we'd be best off just settling on UTC across the world. For that matter, daylight savings should also be done away with.
+I'm personally of the opinion that timezones are a bit dumb altogether and that we'd be best off just settling on UTC across the world. For that matter, daylight saving time should also be done away with.
 
 ### Optimising Assets
 
