@@ -26,8 +26,8 @@
 		}
 
 		h2 {
-			font-size: 1.5rem;
-			line-height: inherit;
+			font-size: 1.4rem;
+			line-height: 1.5rem;
 			position: static;
 		}
 
@@ -74,6 +74,7 @@
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	text-align: center;
+	margin-block-start: 2rem;
 
 	a {
 		padding: 2rem;

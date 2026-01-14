@@ -111,6 +111,7 @@ article {
 	align-items: center;
 	text-align: center;
 	max-inline-size: 65ch;
+	margin-block-start: 2rem;
 
 	a {
 		padding: 2rem;

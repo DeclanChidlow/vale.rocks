@@ -738,6 +738,14 @@
       format: Streaming
     - date: 2025-02-08
       format: Streaming
+- title: Johnny Mnemonic
+  release_year: 1995
+  rating: 2
+  notes: Extremely rigid and stilted, though with some great cyberpunk vibes and very funky graphics for visualising the computer usage.
+  watches:
+    - date: 2026-01-14
+      format: Streaming
+      notes: International theatrical edit.
 - title: While You Were Sleeping
   release_year: 1995
 - title: Ghost in the Shell

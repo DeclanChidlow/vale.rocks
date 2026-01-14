@@ -61,6 +61,7 @@
 	align-items: center;
 	text-align: center;
 	max-width: 75ch;
+	margin-block-start: 2rem;
 
 	a {
 		padding: 2rem;
