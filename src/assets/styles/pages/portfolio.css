@@ -116,6 +116,7 @@ section.description {
 @media (prefers-reduced-motion: no-preference) {
 	.tools-and-technologies,
 	.published-on,
+	.featured-on,
 	.testimonials,
 	.showcase,
 	.contact {
@@ -231,13 +232,15 @@ section.tools-and-technologies {
 	}
 }
 
-section.published-on {
+section.published-on,
+section.featured-on {
 	ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		align-items: end;
 		margin: 0;
-		gap: 3rem;
+		row-gap: 1rem;
+		column-gap: 3rem;
 
 		@media (max-width: 30rem) {
 			grid-template-columns: 1fr;
@@ -252,11 +255,14 @@ section.published-on {
 
 	li {
 		list-style: none;
-		transition: 0.1s scale ease-in-out;
 
-		&:hover,
-		&:focus-within {
-			scale: 1.075;
+		&:has(a) {
+			transition: 0.1s scale ease-in-out;
+
+			&:hover,
+			&:focus-within {
+				scale: 1.075;
+			}
 		}
 	}
 
@@ -276,6 +282,10 @@ section.testimonials {
 		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 		grid-template-rows: masonry;
 		margin-block-start: 2rem;
+	}
+
+	p {
+		text-wrap: balance;
 	}
 
 	figure {
