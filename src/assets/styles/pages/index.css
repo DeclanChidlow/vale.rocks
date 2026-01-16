@@ -167,10 +167,29 @@ main {
 
 .pleasure {
 	text-align: center;
-	margin-block-start: 10rem;
+	margin-block: 10rem;
 	font-size: 1.1rem;
 	font-weight: 600;
 	font-style: italic;
 	text-wrap: balance;
 	filter: url(#distort);
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+	padding: 1rem;
+	max-inline-size: 30rem;
+	margin-inline: auto;
+	border: 2px inset var(--grey);
+
+	img {
+		image-rendering: pixelated;
+	}
+
+	a::after {
+		display: none;
+	}
 }

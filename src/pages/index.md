@@ -101,6 +101,16 @@ If you wish to know more about the specifics of this site, you can read [The Des
 </svg>
 
 </section>
+
+<div class="buttons">
+    <img src="/assets/buttons/valerocks_button.avif" alt="Button reading 'Vale.Rocks'.">
+    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.avif" alt="Button reading 'Built with Origami'."></a>
+    <img src="/assets/buttons/html_button.avif" alt="Button reading 'Hypertext Markup Language'.">
+    <img src="/assets/buttons/css_button.avif" alt="Button reading 'Made with Cascading Stylesheets'.">
+    <img src="/assets/buttons/ecmascript_button.avif" alt="Button with exclamation points reading 'Contains ECMAScript'.">
+    <img src="/assets/buttons/anti-fascism_button.avif" alt="Button with a crossed out Swastika reading 'No Facism' and 'No Bigotry'.">
+</div>
+
 </div>
 
 <script type="module" src="/assets/scripts/puddle.js"></script>
