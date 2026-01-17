@@ -1,5 +1,6 @@
 main {
 	display: block;
+	margin-block-end: 3rem;
 }
 
 #puddle-container {
@@ -181,7 +182,7 @@ main {
 	gap: 1rem;
 	justify-content: center;
 	padding: 1rem;
-	max-inline-size: 30rem;
+	max-inline-size: 40rem;
 	margin-inline: auto;
 	border: 2px inset var(--grey);
 

@@ -109,6 +109,8 @@ If you wish to know more about the specifics of this site, you can read [The Des
     <img src="/assets/buttons/css_button.avif" alt="Button reading 'Made with Cascading Stylesheets'.">
     <img src="/assets/buttons/ecmascript_button.avif" alt="Button with exclamation points reading 'Contains ECMAScript'.">
     <img src="/assets/buttons/anti-fascism_button.avif" alt="Button with a crossed out Swastika reading 'No Facism' and 'No Bigotry'.">
+    <img src="/assets/buttons/css-greater-js_button.avif" alt="Button reading 'CSS greater than JS'.">
+    <img src="/assets/buttons/progressively-enhanced_button.avif" alt="Rainbow button reading 'Progressively Enhanced'.">
 </div>
 
 </div>
