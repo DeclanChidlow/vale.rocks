@@ -176,13 +176,13 @@ main {
 	filter: url(#distort);
 }
 
-.buttons {
+#web-badges {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
 	justify-content: center;
 	padding: 1rem;
-	max-inline-size: 40rem;
+	max-inline-size: 30rem;
 	margin-inline: auto;
 	border: 2px inset var(--grey);
 

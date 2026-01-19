@@ -102,15 +102,15 @@ If you wish to know more about the specifics of this site, you can read [The Des
 
 </section>
 
-<div class="buttons">
-    <img src="/assets/buttons/valerocks_button.avif" alt="Button reading 'Vale.Rocks'.">
-    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.avif" alt="Button reading 'Built with Origami'."></a>
-    <img src="/assets/buttons/html_button.avif" alt="Button reading 'Hypertext Markup Language'.">
-    <img src="/assets/buttons/css_button.avif" alt="Button reading 'Made with Cascading Stylesheets'.">
-    <img src="/assets/buttons/ecmascript_button.avif" alt="Button with exclamation points reading 'Contains ECMAScript'.">
-    <img src="/assets/buttons/anti-fascism_button.avif" alt="Button with a crossed out Swastika reading 'No Facism' and 'No Bigotry'.">
-    <img src="/assets/buttons/css-greater-js_button.avif" alt="Button reading 'CSS greater than JS'.">
+<div id="web-badges">
+    <img src="/assets/buttons/valerocks_button.avif" alt="Badge reading 'Vale.Rocks'.">
+    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.avif" alt="Badge reading 'Built with Origami'."></a>
+    <img src="/assets/buttons/html5_button.avif" alt="Badge reading 'Hypertext Markup Language'.">
+    <img src="/assets/buttons/made-with-css_button.avif" alt="Badge reading 'Made with Cascading Stylesheets'.">
+    <img src="/assets/buttons/ecmascript_button.avif" alt="Badge with exclamation points reading 'Contains ECMAScript'.">
+    <img src="/assets/buttons/anti-fascism_button.avif" alt="Badge with a crossed out Swastika reading 'No Facism' and 'No Bigotry'.">
     <img src="/assets/buttons/progressively-enhanced_button.avif" alt="Rainbow button reading 'Progressively Enhanced'.">
+    <img src="/assets/buttons/link-freely_button.avif" alt="Badge reading 'Link Freely' with interlinked chains.">
 </div>
 
 </div>
