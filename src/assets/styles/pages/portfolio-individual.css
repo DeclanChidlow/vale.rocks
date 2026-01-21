@@ -18,9 +18,8 @@
 		font-variant-caps: titling-caps;
 		block-size: calc(90vb - 5rem);
 
-		h1,
-		p {
-			inline-size: fit-content;
+		h1 {
+			word-break: break-word;
 		}
 
 		&::after {
