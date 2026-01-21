@@ -3,8 +3,8 @@ title: Osseo Flesh
 description: An experimental variable axis typeface that transforms typography into visceral art. A font that allows users to control the amount of meat, skin, and sinews covering a legible bone structure.
 og_description: An experiment in fleshy typography and variable axis fonts.
 accent_colour: "#b21d23"
-hoisted: false
 tags: [design, typography]
+hoisted: false
 ---
 
 I'm near certain that most people, at some point, have fantasised about wielding meat as a writing tool. Well, you needn't wait any longer, as my Osseo Flesh typeface fulfils that dream.

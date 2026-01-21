@@ -3,8 +3,8 @@ title: Pamela Maitland Carter
 description: Poetry, personal branding, podcasts, and art all presented and wrapped up in a personal website and a set of print books made available for purchase.
 og_description: Poetry, podcasts, and art brought to life with splendiferous design.
 accent_colour: "#91b95b"
-hoisted: true
 tags: [design, development, front-end development]
+hoisted: true
 ---
 
 My grandmother, Pamela Maitland Carter, has been writing poetry and painting for decades. Leveraging my design and development knowledge, I've constructed a full personal brand for her, complete with monogram and website, as well as helped her publish material such as books and podcasts.

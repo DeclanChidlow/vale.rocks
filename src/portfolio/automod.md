@@ -4,8 +4,8 @@ description: A popular moderation bot developed for Stoat that protects over 145
 og_description: Moderation bot for Stoat that keeps communities safe.
 accent_colour: "#ff6763"
 repository: DeclanChidlow/AutoMod
-hoisted: true
 tags: [design, Stoat, development, front-end development]
+hoisted: true
 ---
 
 AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **5900 servers** with a combined total user count in excess of **175K people**.

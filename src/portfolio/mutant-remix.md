@@ -3,8 +3,8 @@ title: Mutant Remix
 description: A distinctive emoji pack for the Stoat chat platform. Created an interactive website using my static site generator Adduce, implemented dynamic GitHub API integration, and created playful animations that perfectly capture the emoji pack's unique personality.
 og_description: Website and branding for an emoji pack so good, you'll never want to use another.
 accent_colour: "#ed6b44"
-hoisted: false
 tags: [design, Stoat, development, front-end development]
+hoisted: false
 ---
 
 Mutant Remix is an emoji pack built for the chat platform [**Stoat**](https://stoat.chat), of which I am a core member. It combines the blobby shapes of Android's emojis of old with the crisp, bold style of Mutant Standard, creating something new, fresh, and distinct.

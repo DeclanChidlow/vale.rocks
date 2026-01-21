@@ -3,8 +3,8 @@ title: Public Libraries Western Australia Website
 description: A modern, SEO-optimised website built in WordPress using current tech for Public Libraries Westeren Australia (PLWA).
 og_description: Fresh website for a Western Australian not-for-profit.
 accent_colour: "#f97216"
-hoisted: true
 tags: [WordPress, design, development, front-end development]
+hoisted: true
 ---
 
 During my Diploma of Information Technology (Front-End Web Development), I worked within a team on a website for Public Libraries Western Australia (PLWA) -- a not-for-profit organisation advocating for public libraries across the state. They collaborate with local and state governments, as well as a range of national organisations.

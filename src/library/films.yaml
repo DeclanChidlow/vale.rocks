@@ -944,6 +944,11 @@
   release_year: 1979
 - title: Grease
   release_year: 1978
+- title: Fear and Loathing in Gonzovision
+  release_year: 1978
+  watches:
+    - date: 2026-01-21
+      format: Streaming
 - title: "Star Wars: A New Hope"
   release_year: 1977
 - title: Monty Python and the Holy Grail
