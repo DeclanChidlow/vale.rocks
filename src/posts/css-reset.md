@@ -90,6 +90,7 @@ Here is my complete unabridged reset:
 
 	p {
 		text-wrap: pretty;
+		font-variant-numeric: proportional-nums;
 	}
 
 	h1,
@@ -186,7 +187,7 @@ html {
 	text-size-adjust: none;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
-    hanging-punctuation: first allow-end last;
+	hanging-punctuation: first allow-end last;
 }
 ```
 
@@ -194,7 +195,7 @@ html {
 
 The user-agent default line-height is just too small. It makes text cramped and difficult to read.
 
-`-webkit-font-smoothing` is a [very specific fix to the way macOS renders fonts](https://dbushell.com/2024/11/05/webkit-font-smoothing/). Adding it stops type from appearing thinner than it should on macOS.
+`-webkit-font-smoothing` is a [very specific fix to the way macOS renders fonts](https://dbushell.com/2024/11/05/webkit-font-smoothing/). Adding it stops type from appearing thicker than it should on macOS.
 
 Hanging punctuation just looks better. At time of writing no browsers support it, but they will one day, and I'll be ready.
 
@@ -278,10 +279,13 @@ A common cause of horizontal overflows -- especially given the rave popularity o
 ```css
 p {
 	text-wrap: pretty;
+	font-variant-numeric: proportional-nums;
 }
 ```
 
 Not very well supported, but I'm a typography snob, and any improvement helps.
+
+`proportional-nums` enables numerals whose widths vary naturally instead of all taking up the same fixed width.
 
 ```css
 h1,
