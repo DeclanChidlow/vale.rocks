@@ -1,6 +1,6 @@
 ---
 title: AutoMod
-description: A popular moderation bot developed for Stoat that protects over 145K users across 5,500+ servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
+description: A popular moderation bot developed for Stoat that protects over 180K users across over 6K servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
 og_description: Moderation bot for Stoat that keeps communities safe.
 accent_colour: "#ff6763"
 repository: DeclanChidlow/AutoMod
@@ -8,7 +8,7 @@ tags: [design, Stoat, development, front-end development]
 hoisted: true
 ---
 
-AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **5900 servers** with a combined total user count in excess of **175K people**.
+AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **6000 servers** with a combined total user count in excess of **180,000 people**.
 
 <figure class="right">
 <img src="https://automod.vale.rocks/assets/images/filter_example.avif" alt="A user adds the word 'poo' to the filter list using '/filter add poo'. AutoMod confirms the addition with 'strictness HARD.'" style="background: light-dark(var(--black), transparent); padding: 1rem;">

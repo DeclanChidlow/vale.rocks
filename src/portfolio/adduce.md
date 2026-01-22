@@ -1,7 +1,7 @@
 ---
 title: Adduce
 description: A flexible static site generator I helped build and now maintain. Discussing how I expanded my skills beyond front-end development to create a production-ready, open-source tool now powering multiple websites, complete with comprehensive documentation.
-og_description: Static site generator with the flexibility to bring web projects to life.
+og_description: Static site generator bringing web projects to life.
 accent_colour: "#0019c6"
 repository: DeclanChidlow/Adduce
 tags: [development]
