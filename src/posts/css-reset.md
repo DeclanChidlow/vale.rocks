@@ -39,6 +39,7 @@ Here is my complete unabridged reset:
 		line-height: 1.5;
 		-webkit-font-smoothing: antialiased;
         hanging-punctuation: first allow-end last;
+        block-size: 100%;
 	}
 
 	body {
@@ -52,6 +53,7 @@ Here is my complete unabridged reset:
 	canvas {
 		display: block;
 		max-inline-size: 100%;
+		block-size: auto;
 	}
 
 	svg {
@@ -188,6 +190,7 @@ html {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	hanging-punctuation: first allow-end last;
+	block-size: 100%;
 }
 ```
 
@@ -198,6 +201,8 @@ The user-agent default line-height is just too small. It makes text cramped and 
 `-webkit-font-smoothing` is a [very specific fix to the way macOS renders fonts](https://dbushell.com/2024/11/05/webkit-font-smoothing/). Adding it stops type from appearing thicker than it should on macOS.
 
 Hanging punctuation just looks better. At time of writing no browsers support it, but they will one day, and I'll be ready.
+
+`block-size` is set to compliment the `min-block-size` on the body:
 
 ```css
 body {
@@ -215,6 +220,7 @@ video,
 canvas {
 	display: block;
 	max-inline-size: 100%;
+	block-size: auto;
 }
 
 svg {
@@ -222,7 +228,7 @@ svg {
 }
 ```
 
-The vast majority of the time when using media, I don't intend for it to display inline (SVGs being the exception). I also very rarely wish for content to be larger than the container, so a `max-inline-size` is a reasonable method of addressing inline overflows.
+The vast majority of the time when using media, I don't intend for it to display inline (SVGs being the exception). I also very rarely wish for content to be larger than the container, so a `max-inline-size` is a reasonable method of addressing inline overflows. Setting the `block-size` to `auto` stops the aspect ratio from being changed.
 
 ```css
 svg:not([fill]) {
