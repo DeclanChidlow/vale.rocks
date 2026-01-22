@@ -74,15 +74,7 @@ article {
 	img {
 		display: inline;
 		image-rendering: pixelated;
-        width: 132px;
-
-		&:hover {
-			scale: 2;
-
-            @media (prefers-color-scheme: dark) {
-                filter: drop-shadow(0 0 1rem black);
-            }
-		}
+        inline-size: 176px;
 	}
 }
 </style>
