@@ -209,6 +209,7 @@ body:has(#popover-menu:popover-open) {
 	nav:not(#toc-menu) ol li {
 		position: absolute;
 		margin: 0;
+		list-style-type: none;
 
 		&::marker {
 			content: "";
