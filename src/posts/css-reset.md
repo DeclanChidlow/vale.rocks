@@ -9,7 +9,7 @@ tags: [front-end development, CSS]
 
 As years have stretched on, browser user-agent styles have grown somewhat estranged from how many developers use the web platform. I am no exception to this rule and find my own needs at odds with the predefined user-agent stylesheets of major browsers:
 
-- Chromium - <https://chromium.googlesource.com/chromium/src/+/refs/heads/main/third_party/blink/renderer/core/html/resources/html.css)>
+- Chromium - <https://chromium.googlesource.com/chromium/src/+/refs/heads/main/third_party/blink/renderer/core/html/resources/html.css>
 - Firefox - <https://searchfox.org/firefox-main/source/layout/style/res/html.css>
 - WebKit - <https://github.com/WebKit/WebKit/blob/main/Source/WebCore/css/html.css>
 
@@ -38,7 +38,6 @@ Here is my complete unabridged reset:
 		text-size-adjust: none;
 		line-height: 1.5;
 		-webkit-font-smoothing: antialiased;
-        hanging-punctuation: first allow-end last;
         block-size: 100%;
 	}
 
@@ -104,6 +103,13 @@ Here is my complete unabridged reset:
 		font-variant-numeric: lining-nums;
 	}
 
+	p,
+    blockquote,
+    q,
+    figcaption,
+    li {
+        hanging-punctuation: first allow-end last;
+    }
 
 	input,
 	label,
@@ -114,7 +120,7 @@ Here is my complete unabridged reset:
 	h4,
 	h5,
 	h6 {
-        line-height 1.1;
+        line-height: 1.1;
     }
 
 	math,
@@ -189,7 +195,6 @@ html {
 	text-size-adjust: none;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
-	hanging-punctuation: first allow-end last;
 	block-size: 100%;
 }
 ```
@@ -199,8 +204,6 @@ html {
 The user-agent default line-height is just too small. It makes text cramped and difficult to read.
 
 `-webkit-font-smoothing` is a [very specific fix to the way macOS renders fonts](https://dbushell.com/2024/11/05/webkit-font-smoothing/). Adding it stops type from appearing thicker than it should on macOS.
-
-Hanging punctuation just looks better. At time of writing no browsers support it, but they will one day, and I'll be ready.
 
 `block-size` is set to compliment the `min-block-size` on the body:
 
@@ -309,6 +312,18 @@ I like to make sure that I don't have `oldstyle-nums` in my headings, as they al
 I don't set any further rules on my headings as I configure them on a per-project basis. `text-wrap: balance;` is a common addition.
 
 ```css
+p,
+blockquote,
+q,
+figcaption,
+li {
+	hanging-punctuation: first allow-end last;
+}
+```
+
+Hanging punctuation just looks better. At time of writing browser support is very limited, but they'll all adopt it one day, and I'll be ready.
+
+```css
 input,
 label,
 button,
@@ -318,7 +333,7 @@ h3,
 h4,
 h5,
 h6 {
-    line-height 1.1;
+    line-height: 1.1;
 }
 ```
 
@@ -386,7 +401,7 @@ Firefox is the only major browser that doesn't reduce the opacity of disabled el
 }
 ```
 
-Focus outlines are good, but when they're too close, they're often difficult to see. A slight offset helps address this.
+Focus outlines are good, but when they're too close they're often difficult to see. A slight offset helps address this.
 
 [^1]: To specifically name a few: Andy Bell's [A (more) Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/), Eric Meyer's [Reset CSS](https://meyerweb.com/eric/tools/css/reset/), Josh W Comeau's [A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/), and Manuel Matuzović's [uaplus.css](https://fokus.dev/tools/uaplus/).
 
