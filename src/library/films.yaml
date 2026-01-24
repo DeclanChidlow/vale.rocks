@@ -908,9 +908,12 @@
 - title: Blade Runner
   release_year: 1982
   rating: 5
-  notes: The tears in rain monologue is perhaps the single best piece of cinema I have witnessed.
+  notes: The exquisite practical visuals, paired with Vangelis' music, make this one of the most stunning pieces of cinema I've been exposed to. The fantastic performances, particularly the tears in rain monologue, only furthers this.
   watches:
     - date: 2025-08-02
+      format: Streaming
+      notes: Final Cut
+    - date: 2026-01-23
       format: Streaming
       notes: Final Cut
 - title: The Thing
