@@ -53,15 +53,14 @@ class HeadingLinks {
 	}
 
 	setupHeading(heading) {
-		const headingId = heading.id;
-		if (!headingId) return;
+		if (!heading.id || heading.id === "footnote-label") return;
 		const headingText = heading.textContent;
 		heading.innerHTML = "";
-		const anchor = this.createAnchorLink(headingId, headingText);
+		const anchor = this.createAnchorLink(heading.id, headingText);
 		const copyButton = this.createCopyButton(headingText);
 		heading.appendChild(anchor);
 		heading.appendChild(copyButton);
-		copyButton.addEventListener("click", () => this.copyLink(headingId, copyButton));
+		copyButton.addEventListener("click", () => this.copyLink(heading.id, copyButton));
 	}
 
 	setupHeadings() {

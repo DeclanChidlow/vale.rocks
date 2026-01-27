@@ -118,9 +118,6 @@
 - title: CodePen
   url: codepen.io
   description: Online front-end playground.
-- title: Anna's Archive
-  url: annas-archive.org
-  description: Huge open library.
 - title: What length CSS unit should you use?
   url: whatunit.com
   description: Informs what CSS unit you should select in various use cases.

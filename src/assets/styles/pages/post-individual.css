@@ -50,7 +50,7 @@
 			padding-block: 2rem;
 
 			&::after {
-				inline-size: calc(100% + 4rem + 0.8rem);
+				inline-size: calc(100% + 3.5rem + 0.8rem);
 			}
 		}
 	}

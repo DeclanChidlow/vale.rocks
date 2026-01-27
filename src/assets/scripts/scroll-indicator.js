@@ -76,12 +76,14 @@ class ScrollProgressIndicator {
 			const rawText = header.querySelector("a")?.textContent.trim() ?? header.textContent.trim();
 
 			const link = this.create("a", {
-				classes: ["header-list-link"],
 				attrs: { href: `#${header.id}` },
 				text: rawText,
 			});
 
-			const li = this.create("li", { children: [link] });
+			const li = this.create("li", {
+				classes: ["header-list-link"],
+				children: [link],
+			});
 
 			if (header.tagName.toLowerCase() === "h2") {
 				this.els.headerList.appendChild(li);

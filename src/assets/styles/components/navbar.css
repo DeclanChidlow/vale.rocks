@@ -293,7 +293,7 @@ body:has(#popover-menu:popover-open) {
 		align-content: center;
 	}
 
-	.header-list-link {
+	.header-list-link a {
 		&[aria-current="true"] {
 			font-weight: bold;
 		}
