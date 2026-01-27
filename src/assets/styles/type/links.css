@@ -1,4 +1,4 @@
-a,
+:where(a:not([class])),
 .footnote-button {
 	color: inherit;
 	text-decoration: underline 0.08rem light-dark(var(--cyan), var(--blue));
@@ -23,14 +23,9 @@ a,
 		font-size: 0.7rem;
 	}
 
-	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after,
-	&.footer-tools::after {
+	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
 		content: "\00A0↗" / "External";
 		font-size: 0.8rem;
-	}
-
-	abbr {
-		text-decoration-color: light-dark(var(--bright_white), var(--black));
 	}
 }
 

@@ -78,6 +78,11 @@
 	border: 0;
 }
 
+.pagefind-ui__filter-group {
+	display: grid;
+	gap: 0.5rem;
+}
+
 .pagefind-ui__filter-group-label {
 	position: absolute;
 	clip: rect(0px, 0px, 0px, 0px);

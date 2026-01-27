@@ -1,6 +1,6 @@
 import { extension, isUnpackable, toString } from "@weborigami/async-tree";
 import highlight from "highlight.js";
-import { marked } from "marked";
+import { Marked } from "marked";
 import { gfmHeadingId as markedGfmHeadingId } from "marked-gfm-heading-id";
 import { markedHighlight } from "marked-highlight";
 import { markedSmartypants } from "marked-smartypants";
@@ -11,7 +11,7 @@ import { documentObject, origamiHighlightDefinition } from "@weborigami/origami"
 
 highlight.registerLanguage("ori", origamiHighlightDefinition);
 
-marked.use(
+const processor = new Marked(
 	markedGfmHeadingId(),
 	markedHighlight({
 		highlight(code, lang) {
@@ -43,6 +43,7 @@ function wrapAbbreviations(html) {
 	const result = [];
 
 	let excludedWrapper = 0;
+	let insideAbbr = false;
 
 	for (let i = 0; i < segments.length; i++) {
 		const segment = segments[i];
@@ -54,31 +55,15 @@ function wrapAbbreviations(html) {
 				excludedWrapper++;
 			} else if (segment.match(/^<\/(code|script|style)>/i)) {
 				excludedWrapper--;
-			}
-			continue;
-		}
-
-		if (excludedWrapper > 0 || !segment) {
-			result.push(segment);
-			continue;
-		}
-
-		let insideAbbr = false;
-		for (let j = i - 1; j >= 0; j--) {
-			const prevSegment = segments[j];
-			if (prevSegment.match(/^<abbr[^>]*>$/i)) {
+			} else if (segment.match(/^<abbr[^>]*>/i)) {
 				insideAbbr = true;
-				break;
-			} else if (prevSegment.match(/^<\/abbr>$/i)) {
-				break;
-			} else if (prevSegment.startsWith("<") && prevSegment.endsWith(">")) {
-				continue;
-			} else if (prevSegment.trim()) {
-				break;
+			} else if (segment.match(/^<\/abbr>/i)) {
+				insideAbbr = false;
 			}
+			continue;
 		}
 
-		if (insideAbbr) {
+		if (excludedWrapper > 0 || insideAbbr || !segment) {
 			result.push(segment);
 			continue;
 		}
@@ -134,7 +119,7 @@ export default async function mdHtml(input) {
 		throw new Error("mdHtml: The provided input couldn't be treated as text.");
 	}
 
-	let html = marked(markdown);
+	let html = processor.parse(markdown);
 	html = wrapAbbreviations(html);
 
 	return inputIsDocument ? documentObject(html, input) : html;

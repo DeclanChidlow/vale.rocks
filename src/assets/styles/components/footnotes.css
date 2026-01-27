@@ -5,16 +5,15 @@
 .sidenote {
 	display: none;
 
-	@media (min-width: 1400px) {
+	@media (min-width: 1500px) {
 		display: block;
 		position: absolute;
-		inset-inline-start: 68rem;
+		inset-inline-start: 72rem;
 		inset-inline-end: 3rem;
 		max-inline-size: 60ch;
 		font-size: small;
 		line-height: 1.5;
 		color: light-dark(var(--grey), var(--white));
-		padding-block-end: 1rem;
 		transition: background-color 0.25s;
 		border-block-start: 1px solid light-dark(var(--white), var(--bright_grey));
 
@@ -42,7 +41,6 @@
 .footnote-button.highlight,
 .sidenote.highlight {
 	outline: 2px solid var(--blue);
-	color: inherit;
 }
 
 .sidenote:hover {
@@ -50,16 +48,23 @@
 }
 
 .footnote-popover {
-	position: absolute;
-	color: inherit;
-	inset: auto;
-	inset-inline-start: 13rem;
-	border: 2px solid light-dark(var(--white), var(--bright_grey));
-	background: light-dark(var(--bright_white), var(--black));
+	position: fixed;
+	inline-size: 100%;
+	max-inline-size: min(var(--article-width, 60ch), 100vw - 2rem);
+	inset-block-start: anchor(bottom);
+	inset-inline-start: 13.5rem;
+	margin-block-start: 0.5rem;
 	padding-block: 0.5rem;
 	padding-inline: 1rem;
+	color: inherit;
+	border: 2px solid light-dark(var(--white), var(--bright_grey));
+	background: light-dark(var(--bright_white), var(--black));
 	font-size: small;
-	line-height: 1.5;
+	box-shadow: 0 0.5rem 2rem rgb(0, 0, 0, 0.5);
+
+	@media (max-width: 45rem) {
+		inset-inline-start: 0.8rem;
+	}
 
 	> * + * {
 		margin-block-start: 0.5rem;
@@ -112,8 +117,12 @@
 	}
 }
 
+[data-footnote-ref]::after {
+	display: none;
+	padding-inline: 0.25rem;
+}
+
 .footnote-button {
-	/* Also inherits from link styles in `/type/links.css` */
 	display: initial;
 	background: none;
 	padding-inline: 0.25rem;

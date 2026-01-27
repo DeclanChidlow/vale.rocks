@@ -16,7 +16,10 @@ _body:
 	<em>Descriptions are not provided. Content is not ordered. Quality is not assured. Not appropriate for all audiences. Check with your doctor if this collection is right for you.</em></p>
 
 	<ul>
-		${ miscellaneous
-		→ (_) => Tree.map(_, (link) => `<li><a href="https://${ link.url }">${ link.title }</a></li>`) }
+		${ miscellaneous → (_) => Tree.map(_, (link) => `
+			<li>
+			<a href="https://${ link.url }"><img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }</a>
+			</li>
+		`) }
 	</ul>
 </div>`})

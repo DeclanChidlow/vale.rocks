@@ -1,8 +1,6 @@
 html {
-	overscroll-behavior-y: none;
 	scroll-padding-block-start: 5rem;
 	scrollbar-color: var(--bright_grey) transparent;
-	text-size-adjust: none;
 }
 
 :root {
@@ -37,13 +35,15 @@ html {
 
 	--magenta: oklch(61.2% 0.21 5.4);
 	--bright_magenta: oklch(63.5% 0.2 4.8);
+
+	--wide-margin: 3rem;
+	--narrow-margin: 0.8rem;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
-	margin-block: 0;
-	margin-inline: 3rem;
+	margin-inline: var(--wide-margin);
 	color: light-dark(var(--black), var(--bright_white));
 	background: light-dark(var(--bright_white), var(--black));
 	transition: 0.25s;
@@ -63,7 +63,7 @@ main {
 
 @media (max-width: 45rem) {
 	body {
-		margin-inline: 0.8rem;
+		margin-inline: var(--narrow-margin);
 	}
 
 	main {

@@ -9,23 +9,25 @@
 _body:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Library</span>
 
-<div class="readable">
-	<h1>Films</h1>
+<div>
+	<div class="readable">
+		<h1>Films</h1>
 
-	<p>${ films.length } films I've watched with assorted notes where applicable.</p>
-	<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
+		<p>${ films.length } films I've watched with assorted notes where applicable.</p>
+		<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 
-	<form id="refine-entries">
-		<label for="entries-sort">Sort by:</label>
-		<select id="entries-sort">
-			<option value="published-desc">Published Descending</option>
-			<option value="published-asc">Published Ascending</option>
-			<option value="reviews-desc">Reviews Descending</option>
-			<option value="reviews-asc">Reviews Ascending</option>
-			<option value="watched-desc">Watched Descending</option>
-			<option value="watched-asc">Watched Ascending</option>
-		</select>
-	</form>
+		<form id="refine-entries">
+			<label for="entries-sort">Sort by:</label>
+			<select id="entries-sort">
+				<option value="published-desc">Published Descending</option>
+				<option value="published-asc">Published Ascending</option>
+				<option value="reviews-desc">Reviews Descending</option>
+				<option value="reviews-asc">Reviews Ascending</option>
+				<option value="watched-desc">Watched Descending</option>
+				<option value="watched-asc">Watched Ascending</option>
+			</select>
+		</form>
+	</div>
 
 	<ol class="films">
 		${ Tree.map(films, (film) =>

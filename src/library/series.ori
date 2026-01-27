@@ -9,24 +9,26 @@
 _body:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Library</span>
 
-<div class="readable">
-	<h1>Series</h1>
+<div>
+	<div class="readable">
+		<h1>Series</h1>
 
-	<p>${ series.length } series totalling ${ functions/count-seasons.js(series) } seasons I’ve watched, with thoughts and notes where relevant.</p>
-	<p>Proper tracking began in 2025, so much watch logging prior to then is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
-	<p>Due to the nature of television viewing, and particularly self-contained episodes, there are many series that I’ve only caught in passing, some of which I’ve noted.</p>
+		<p>${ series.length } series totalling ${ functions/count-seasons.js(series) } seasons I’ve watched, with thoughts and notes where relevant.</p>
+		<p>Proper tracking began in 2025, so much watch logging prior to then is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
+		<p>Due to the nature of television viewing, and particularly self-contained episodes, there are many series that I’ve only caught in passing, some of which I’ve noted.</p>
 
-	<form id="refine-entries">
-		<label for="entries-sort">Sort by:</label>
-		<select id="entries-sort">
-			<option value="published-desc">Published Descending</option>
-			<option value="published-asc">Published Ascending</option>
-			<option value="reviews-desc">Reviews Descending</option>
-			<option value="reviews-asc">Reviews Ascending</option>
-			<option value="watched-desc">Watched Descending</option>
-			<option value="watched-asc">Watched Ascending</option>
-		</select>
-	</form>
+		<form id="refine-entries">
+			<label for="entries-sort">Sort by:</label>
+			<select id="entries-sort">
+				<option value="published-desc">Published Descending</option>
+				<option value="published-asc">Published Ascending</option>
+				<option value="reviews-desc">Reviews Descending</option>
+				<option value="reviews-asc">Reviews Ascending</option>
+				<option value="watched-desc">Watched Descending</option>
+				<option value="watched-asc">Watched Ascending</option>
+			</select>
+		</form>
+	</div>
 
 	<ol class="series">
 		${ Tree.map(series, (series) =>

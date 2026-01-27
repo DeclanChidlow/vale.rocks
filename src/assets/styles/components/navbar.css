@@ -49,10 +49,7 @@ body:has(#popover-menu:popover-open) {
 			padding: 0.5rem;
 			text-decoration: none;
 			pointer-events: all;
-
-			&::after {
-				content: none;
-			}
+			color: currentColor;
 		}
 
 		svg {
@@ -97,6 +94,7 @@ body:has(#popover-menu:popover-open) {
 			background: linear-gradient(transparent, var(--red));
 			backdrop-filter: blur(1.5rem);
 			color: light-dark(var(--black), var(--bright_white));
+			box-shadow: -0.5rem 0 2rem oklch(from var(--black) l c h / 0.4);
 			view-transition-name: nav-popover;
 			transition:
 				opacity 0.15s,
@@ -227,10 +225,7 @@ body:has(#popover-menu:popover-open) {
 		a {
 			position: absolute;
 			text-decoration: none;
-
-			&::after {
-				content: "";
-			}
+			color: currentColor;
 		}
 	}
 
@@ -257,7 +252,7 @@ body:has(#popover-menu:popover-open) {
 .heading-label,
 .scroll-percentage {
 	display: block;
-	inline-size: 7rem;
+	inline-size: 8rem;
 	margin-inline-start: 1rem;
 	line-height: 1.1;
 	font-size: 0.8rem;

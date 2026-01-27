@@ -1,6 +1,15 @@
 - title: New Year
   description: The arrival of a new year.
   date: 01-01
+- title: End of Q1.
+  description: The second quarter of the year is upon us.
+  date: 03-31
+- title: End of Q2.
+  description: The third quarter of the year is upon us.
+  date: 06-30
+- title: End of Q3.
+  description: The fourth and final quarter of the year is upon us.
+  date: 09-30
 - title: Vale.Rocks Domain Anniversary
   description: The domain vale.rocks was registered on this day in 2022. This has made a lot of people very angry and been widely regarded as a bad move.
   date: 09-17

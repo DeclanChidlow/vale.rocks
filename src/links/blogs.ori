@@ -19,7 +19,7 @@ _body:
 		${ blogs.items
 		→ (_) => Tree.map(_, (link) =>
 		`<li>
-			<a href="https://${ link.url }">${ link.title }</a>: ${ link.description }
+			<a href="https://${ link.url }"><img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }</a>: ${ link.description }
 		</li>`) }
 	</ul>
 </div>`})

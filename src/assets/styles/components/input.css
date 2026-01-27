@@ -29,7 +29,6 @@ button {
 
 textarea {
 	inline-size: 100%;
-	resize: vertical;
 }
 
 input[type="checkbox"] {
@@ -53,6 +52,16 @@ label {
 	font-size: small;
 }
 
+ul:has(input) {
+	margin-inline-start: 1rem;
+
+	li {
+		display: flex;
+		align-items: center;
+		list-style: none;
+	}
+}
+
 ::placeholder {
 	opacity: 1;
 	color: light-dark(var(--bright_grey), var(--white));
@@ -65,9 +74,4 @@ label {
 ::selection {
 	background: light-dark(oklch(from var(--magenta) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.4)));
 	-webkit-text-fill-color: initial;
-}
-
-:disabled {
-	opacity: 0.7;
-	cursor: not-allowed;
 }

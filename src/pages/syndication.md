@@ -97,7 +97,7 @@ Occasionally I [publish videos](/videos), which you can stay up to date with via
 
 ### YouTube
 
-You can find me on YouTube as [@outervale](https://www.youtube.com/@outervale). Subscribe to me there or subscribe to this RSS feed:
+You can find me on YouTube as [@outervale](https://www.youtube.com/@outervale). Subscribe to me there or subscribe to one of the feeds:
 
 - All Content RSS: <https://www.youtube.com/feeds/videos.xml?channel_id=UC8hQBcgwkZiG-cqhE1TDvzA>
 <!-- - Full Videos Only RSS: <https://www.youtube.com/feeds/videos.xml?playlist_id=UULF8hQBcgwkZiG-cqhE1TDvzA> -->

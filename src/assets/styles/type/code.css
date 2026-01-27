@@ -4,7 +4,6 @@ kbd {
 	border: 1.5px solid light-dark(var(--white), var(--grey));
 	padding-inline: 0.2rem;
 	font-weight: 400;
-	font-variant-numeric: initial;
 }
 
 .code-block-wrapper {
@@ -16,7 +15,7 @@ kbd {
 		right: 0;
 		top: 0;
 		cursor: copy;
-		transition: 0.15s box-shadow ease-out;
+		transition: 0.1s box-shadow ease-out;
 
 		svg {
 			block-size: 1rem;

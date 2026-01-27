@@ -1,60 +1,144 @@
-/* Use a more-intuitive box-sizing model. */
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
+/* https://vale.rocks/posts/css-reset */
 
-/* Remove default margin */
-* {
-	padding: 0;
-	margin: 0;
-}
+@layer {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+		background-repeat: no-repeat;
+	}
 
-/* Allow percentage-based heights in the application */
-html,
-body {
-	height: 100%;
-}
+	* {
+		padding: 0;
+		margin: 0;
+	}
 
-/* Typographic tweaks */
-body {
-	line-height: calc(1rem + 0.5rem);
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
-}
+	html {
+		-webkit-text-size-adjust: none;
+		text-size-adjust: none;
+		line-height: 1.5;
+		-webkit-font-smoothing: antialiased;
+		block-size: 100%;
+	}
 
-/* Improve media defaults */
-img,
-picture,
-video,
-canvas,
-svg {
-	display: block;
-	max-width: 100%;
-}
+	body {
+		min-block-size: 100%;
+	}
 
-/* Remove built-in form typography styles */
-input,
-button,
-textarea,
-select {
-	font: inherit;
-}
+	img,
+	iframe,
+	audio,
+	video,
+	canvas {
+		display: block;
+		max-inline-size: 100%;
+		block-size: auto;
+	}
 
-/* Avoid text overflows */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	overflow-wrap: break-word;
-}
+	svg {
+		max-inline-size: 100%;
+		vertical-align: middle;
+	}
 
-/* Clean up fieldset */
-fieldset {
-	border: none;
+	svg:not([fill]) {
+		fill: currentColor;
+	}
+
+	input,
+	button,
+	textarea,
+	select {
+		font: inherit;
+	}
+
+	textarea {
+		resize: vertical;
+	}
+
+	fieldset,
+	iframe {
+		border: none;
+	}
+
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		overflow-wrap: break-word;
+	}
+
+	p {
+		text-wrap: pretty;
+		font-variant-numeric: proportional-nums;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-variant-numeric: lining-nums;
+	}
+
+	p,
+	blockquote,
+	q,
+	figcaption,
+	li {
+		hanging-punctuation: first allow-end last;
+	}
+
+	input,
+	label,
+	button,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: 1.1;
+	}
+
+	math,
+	time,
+	table {
+		font-variant-numeric: tabular-nums lining-nums slashed-zero;
+	}
+
+	code {
+		font-variant-numeric: slashed-zero;
+	}
+
+	table {
+		border-collapse: collapse;
+	}
+
+	abbr {
+		font-variant-caps: all-small-caps;
+		text-decoration: none;
+
+		&[title] {
+			cursor: help;
+			text-decoration: underline dotted 1px;
+		}
+	}
+
+	sup,
+	sub {
+		line-height: 0;
+	}
+
+	:disabled {
+		opacity: 0.8;
+		cursor: not-allowed;
+	}
+
+	:focus-visible {
+		outline-offset: 0.2rem;
+	}
 }

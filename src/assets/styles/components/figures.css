@@ -23,13 +23,20 @@ figure {
 	}
 
 	&.left {
-		float: left;
+		float: inline-start;
 		margin-inline-start: -2rem;
 	}
 
 	&.right {
-		float: right;
+		float: inline-end;
 		margin-inline-end: -2rem;
+	}
+
+	@media (min-width: 70rem) {
+		&.right {
+			margin-inline-start: 2rem;
+			margin-inline-end: -8rem;
+		}
 	}
 
 	@media (max-width: 45rem) {
@@ -187,9 +194,7 @@ figcaption {
 }
 
 table {
-	border-collapse: collapse;
 	font-size: 0.9rem;
-	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 	margin-inline: auto;
 }

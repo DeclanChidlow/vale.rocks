@@ -5,7 +5,7 @@
 }
 
 .article-wrapper {
-	margin-inline-start: 3rem;
+	margin-inline-start: 3.5rem;
 	inline-size: 100%;
 
 	header {
@@ -34,10 +34,10 @@
 			content: "";
 			position: absolute;
 			inset-block-start: 0;
-			inline-size: calc(100% + 6rem);
-			block-size: calc(100% + 20rem);
+			inline-size: calc(100% + 6.5rem);
+			block-size: calc(100% + 22rem);
 			margin-block: -16rem -3rem;
-			margin-inline: -3rem 0;
+			margin-inline: -3.5rem 0;
 			background: linear-gradient(var(--header_background), transparent);
 			z-index: -1;
 		}
@@ -46,8 +46,12 @@
 	@media (max-width: 45rem) {
 		margin-inline-start: 0;
 
-		header::after {
-			inline-size: calc(100% + 3rem + 0.8rem);
+		header {
+			padding-block: 2rem;
+
+			&::after {
+				inline-size: calc(100% + 4rem + 0.8rem);
+			}
 		}
 	}
 }
@@ -85,8 +89,8 @@
 		display: block;
 		width: fit-content;
 		margin-inline-start: auto;
-		padding-block: 0.3rem;
-		padding-inline: 0.75rem;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
 		background: light-dark(var(--white), var(--grey));
 		text-decoration: none;
 		font-weight: bold;

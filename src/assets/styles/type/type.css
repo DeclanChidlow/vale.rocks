@@ -36,14 +36,13 @@ h3,
 h4,
 h5,
 h6 {
-	text-transform: uppercase;
-	text-wrap: balance;
-	font-weight: 700;
 	position: relative;
 	display: flex;
-	font-variant-numeric: lining-nums;
+	font-weight: 700;
+	text-transform: uppercase;
 	font-variant-caps: titling-caps;
 	font-feature-settings: "ss03" on;
+	text-wrap: balance;
 	clear: both;
 
 	a::after {
@@ -58,7 +57,7 @@ h6 {
 		background: transparent;
 		color: var(--bright_grey);
 		font-size: smaller;
-		margin-block-start: -0.4rem;
+		padding-block: 0;
 		margin-inline-start: auto;
 		transition: scale 0.25s;
 
@@ -84,8 +83,7 @@ h6 {
 		button {
 			visibility: hidden;
 			position: absolute;
-			inset-inline-start: -2rem;
-			padding-inline-end: 0.7rem;
+			inset-inline-start: calc(-1ch + -0.8rem);
 		}
 
 		&:hover button,
@@ -99,32 +97,28 @@ h6 {
 
 h1 {
 	font-size: 2.8rem;
-	line-height: 3rem;
-	display: block;
+	line-height: 1;
 }
 
 h2 {
 	font-size: 1.8rem;
-	line-height: 2rem;
 }
 
 h3 {
 	font-size: 1.2rem;
-	line-height: 1.4rem;
 }
 
 h5 {
 	font-size: 0.8rem;
-	line-height: 1rem;
 }
 
 h6 {
 	font-size: 0.6rem;
-	line-height: 0.8rem;
 }
 
 .section {
 	margin-block-end: 1.5rem;
+	display: block;
 }
 
 @media (min-width: 45rem) {
@@ -191,11 +185,12 @@ details {
 
 blockquote,
 .markdown-alert {
+	--alert-accent: var(--grey);
 	padding-block: 0.5rem;
 	padding-inline: 1rem;
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
-	border: 0.05rem solid light-dark(transparent, var(--grey));
-	border-inline-start: 0.3rem solid var(--grey);
+	border: 0.05rem solid light-dark(transparent, color-mix(var(--alert-accent) 20%, var(--grey)));
+	border-inline-start: 0.3rem solid var(--alert-accent);
 }
 
 .markdown-alert > * + * {
@@ -206,51 +201,27 @@ blockquote,
 	display: flex;
 	gap: 1ch;
 	align-items: center;
+	color: var(--alert-accent);
 }
 
 .markdown-alert-note {
-	border-inline-start-color: var(--blue);
-
-	.markdown-alert-title {
-		color: var(--blue);
-		fill: var(--blue);
-	}
+	--alert-accent: var(--blue);
 }
 
 .markdown-alert-tip {
-	border-inline-start-color: var(--green);
-
-	.markdown-alert-title {
-		color: var(--green);
-		fill: var(--green);
-	}
+	--alert-accent: var(--green);
 }
 
 .markdown-alert-important {
-	border-inline-start-color: var(--magenta);
-
-	.markdown-alert-title {
-		color: var(--magenta);
-		fill: var(--magenta);
-	}
+	--alert-accent: var(--magenta);
 }
 
 .markdown-alert-warning {
-	border-inline-start-color: var(--orange);
-
-	.markdown-alert-title {
-		color: var(--orange);
-		fill: var(--orange);
-	}
+	--alert-accent: var(--orange);
 }
 
 .markdown-alert-caution {
-	border-inline-start-color: var(--red);
-
-	.markdown-alert-title {
-		color: var(--red);
-		fill: var(--red);
-	}
+	--alert-accent: var(--red);
 }
 
 ul,
@@ -287,16 +258,6 @@ ul li {
 	}
 }
 
-ul:has(input) {
-	margin-inline-start: 1rem;
-
-	li {
-		display: flex;
-		align-items: center;
-		list-style: none;
-	}
-}
-
 ol {
 	counter-reset: item;
 
@@ -323,16 +284,6 @@ dd {
 	margin-inline-start: 1rem;
 }
 
-sup,
-sub {
-	line-height: 0;
-}
-
-abbr {
-	font-variant-caps: all-small-caps;
-	text-decoration: none;
-}
-
 kbd {
 	border-bottom-width: 4px;
 	padding-inline: 0.4rem;
@@ -348,9 +299,4 @@ mark {
 	background: var(--yellow);
 	margin-inline: -0.2rem;
 	padding-inline: 0.2rem;
-}
-
-math,
-time {
-	font-variant-numeric: tabular-nums lining-nums slashed-zero;
 }
