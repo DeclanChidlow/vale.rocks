@@ -106,6 +106,10 @@
 	flex-direction: column;
 	line-height: inherit;
 	margin: auto;
+
+	a {
+		color: currentColor;
+	}
 }
 
 .pagefind-ui__message {
