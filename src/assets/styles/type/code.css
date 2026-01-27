@@ -44,7 +44,7 @@ pre {
 	color: var(--bright_white);
 	border: 2px solid light-dark(var(--white), var(--grey));
 	padding: 0.8rem;
-	line-height: 150%;
+	line-height: 1.15;
 
 	code {
 		display: inline-block;

@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="text-scale" content="scale">
 		<title>${ page.title}${ page.title !== 'Vale.Rocks' ? ' | Vale.Rocks' : ''}</title>
 
 		<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
