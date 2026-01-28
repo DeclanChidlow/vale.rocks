@@ -43,14 +43,14 @@ _body:
 
 	<div class="pagination">
 		${ paginated_micros.previousPage
-			? `<a href="/micros/${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+			? `<a href="/micros/${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
 		<p>Page ${ paginated_micros.pageNumber} of ${ paginated_micros.pageCount}</p>
 
 		${ paginated_micros.nextPage
-			? `<a href="/micros/${ paginated_micros.nextPage }">Older <span aria-hidden="true">→</span></a>`
+			? `<a href="/micros/${ paginated_micros.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>

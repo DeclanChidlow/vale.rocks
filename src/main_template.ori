@@ -95,7 +95,7 @@
 					<svg viewBox="0 -960 960 960"><title>Open document overview</title><path d="m336-270-69-69 92-92H64v-98h295l-92-92 69-69 210 210zm179 69v-98h381v98zm0-460v-98h381v98zm96 230v-98h285v98z"/></svg>
 				</button>
 				<a href="/" id="navlanding">Vale</a>
-				<a href="/search" class="search-nav">
+				<a href="/search" class="search-nav" rel="search">
 					<svg viewBox="0 -960 960 960"><title>Search</title><path d="M774-118 533-359q-30 21-70 33-41 12-82 12-110 0-187-77t-77-187 77-187 187-77 187 77 77 187q0 41-11 79t-33 70l242 242zM381-412q70 0 118-48t48-118-48-118-118-48-118 48-48 118 48 118 118 48"/></svg>
 				</a>
 

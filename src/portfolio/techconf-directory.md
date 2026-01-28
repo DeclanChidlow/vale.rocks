@@ -21,7 +21,7 @@ Living at time of initial development in what has been dubbed the most isolated 
 
 The project quickly gained traction, with conference organisers and community members providing positive feedback, sharing the directory on social media, and submitting events via the defined GitHub issue templates. What began as a small selection has quickly grown to encompass hundreds of conferences.
 
-I designed it with a minimal visual style, taking inspiration from Gothic design by making use of High and Late Middle Ages inspired textura blackletter type to form a distinctive identity.
+I designed it with a minimal visual style, taking inspiration from Gothic design by making use of High and Late Middle Ages inspired textura blackletter type to form a distinctive identity. The light and dark mode adaptive palette was purposely kept simple, with the employment of rubrication for emphasis.
 
 <!-- The site not only lists conferences but also meetups and speakers in the hope that it assists folks in being discovered and booked to talk at events. -->
 

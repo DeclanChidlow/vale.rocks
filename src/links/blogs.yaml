@@ -110,10 +110,6 @@ items:
     rss: blog.jim-nielsen.com/feed.xml
     json: blog.jim-nielsen.com/feed.json
     description: Web development and thoughts.
-  - title: blakewatson.com
-    url: blakewatson.com
-    rss: blakewatson.com/feed.xml
-    description: Web development.
   - title: Karolina Szczur
     url: karolinaszczur.com
     atom: karolinaszczur.com/feed/feed.xml

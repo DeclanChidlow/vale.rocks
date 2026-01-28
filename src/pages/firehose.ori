@@ -161,14 +161,14 @@ _body:
 
 	<div class="pagination">
 		${ paginated_firehose.previousPage
-			? `<a href="/firehose/${ paginated_firehose.previousPage === 1 ? '' : paginated_firehose.previousPage }"><span aria-hidden="true">←</span> Newer</a>`
+			? `<a href="/firehose/${ paginated_firehose.previousPage === 1 ? '' : paginated_firehose.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`
 			: "<span></span>"
 		}
 
 		<p>Page ${ paginated_firehose.pageNumber} of ${ paginated_firehose.pageCount}</p>
 
 		${ paginated_firehose.nextPage
-			? `<a href="/firehose/${ paginated_firehose.nextPage }">Older <span aria-hidden="true">→</span></a>`
+			? `<a href="/firehose/${ paginated_firehose.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>`
 			: "<span></span>"
 		}
 	</div>
