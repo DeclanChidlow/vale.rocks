@@ -10,6 +10,10 @@
 		transition: scale 0.25s;
 		margin-block: auto;
 
+		img {
+			margin-inline: auto;
+		}
+
 		&:hover {
 			scale: 1;
 		}

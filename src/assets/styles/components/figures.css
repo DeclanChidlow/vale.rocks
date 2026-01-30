@@ -144,7 +144,6 @@ figcaption {
 	img,
 	> svg {
 		inline-size: 100%;
-		max-inline-size: 60rem;
 		max-block-size: calc(90vb - 4rem);
 		margin-block-end: 2rem;
 		object-fit: contain;
