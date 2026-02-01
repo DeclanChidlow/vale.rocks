@@ -103,14 +103,14 @@ If you wish to know more about the specifics of this site, you can read [The Des
 </section>
 
 <div id="web-badges">
-    <img src="/assets/buttons/valerocks_button.avif" alt="Badge reading 'Vale.Rocks'.">
-    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.avif" alt="Badge reading 'Built with Origami'."></a>
-    <img src="/assets/buttons/html5_button.avif" alt="Badge reading 'Hypertext Markup Language'.">
-    <img src="/assets/buttons/made-with-css_button.avif" alt="Badge reading 'Made with Cascading Stylesheets'.">
-    <img src="/assets/buttons/ecmascript_button.avif" alt="Badge with exclamation points reading 'Contains ECMAScript'.">
-    <img src="/assets/buttons/anti-fascism_button.avif" alt="Badge with a crossed out Swastika reading 'No Facism' and 'No Bigotry'.">
-    <img src="/assets/buttons/progressively-enhanced_button.avif" alt="Rainbow button reading 'Progressively Enhanced'.">
-    <img src="/assets/buttons/link-freely_button.avif" alt="Badge reading 'Link Freely' with interlinked chains.">
+    <img src="/assets/buttons/valerocks_button.avif" alt="'Vale.Rocks' badge.">
+    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.avif" alt="'Built with Origami' badge."></a>
+    <img src="/assets/buttons/html5_button.avif" alt="'Hypertext Markup Language' badge.">
+    <img src="/assets/buttons/made-with-css_button.avif" alt="'Made with Cascading Stylesheets' badge.">
+    <img src="/assets/buttons/ecmascript_button.avif" alt="'Contains ECMAScript' badge with exclamation points.">
+    <img src="/assets/buttons/anti-fascism_button.avif" alt="'No Fascism / No Bigotry' badge with crossed-out swastika.">
+    <img src="/assets/buttons/progressively-enhanced_button.avif" alt="Rainbow 'Progressively Enhanced' badge.">
+    <img src="/assets/buttons/link-freely_button.avif" alt="'Link Freely' badge with chain links.">
 </div>
 
 </div>
@@ -118,20 +118,33 @@ If you wish to know more about the specifics of this site, you can read [The Des
 <script type="module" src="/assets/scripts/puddle.js"></script>
 <script type="module" src="/assets/scripts/graph.js"></script>
 <script>
-    const hour = new Date().getHours();
-    const period =
-        hour >= 4 && hour < 6
-            ? " in these hours of the sun's first blush"
-            : hour >= 6 && hour < 12
-                ? " this effulgent morn"
-                : hour >= 12 && hour < 13
-                    ? " this beautiful midday"
-                    : hour >= 13 && hour < 17
-                        ? " this ambrosial post meridiem"
-                        : hour >= 17 && hour < 20
-                            ? " on this vespertine eventide"
-                            : hour >= 20 && hour < 23
-                                ? " this sidereal nocturne"
-                                : " at these late hours";
+    const d = new Date();
+    const h = d.getHours();
+    const m = d.getMonth() + 1;
+    const day = d.getDate();
+    const key = `${m}-${day}`;
+
+    const events = {
+        "1-1": " on this nascent awakening of the new year",
+        "3-12": " on this anniversary of the World Wide Web proposal",
+        "3-15": " on this commemoration of RSS' premier",
+        "8-6": " on this birthday of the first public website",
+        "9-19": " ye landlubbers",
+        "10-29": " on this, the anniversary of the first message over ARPANET",
+        "12-31": " as the old year wanes into memory",
+    };
+
+    let period = events[key];
+
+    if (!period) {
+        if (h < 6) period = " this sidereal nocturne";
+        else if (h < 12) period = " in these hours of the sun's first blush";
+        else if (h < 13) period = " this effulgent morn";
+        else if (h < 17) period = " this beautiful midday";
+        else if (h < 20) period = " this ambrosial post meridiem";
+        else if (h < 23) period = " on this vespertine eventide";
+        else period = " at these late hours";
+    }
+
     document.getElementById("period").textContent = period;
 </script>
