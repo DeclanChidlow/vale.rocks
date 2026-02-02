@@ -6,8 +6,10 @@ main > div {
 	margin-inline: auto;
 }
 
-@media (max-width: 45rem) {
-	.section {
+.section {
+	view-transition-name: section;
+
+	@media (max-width: 45rem) {
 		position: absolute;
 		clip-path: inset(100%);
 	}
@@ -308,6 +310,7 @@ section.testimonials {
 			}
 
 			&::before {
+				inset-block-start: -1.5rem;
 				inset-inline-start: -1rem;
 			}
 

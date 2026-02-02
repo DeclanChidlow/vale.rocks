@@ -52,13 +52,13 @@ Every decision made for this site is weighted on both the personas above and the
 
    JavaScript has crept its tendrils into every facet of the web. This isn't necessarily a bad thing; JavaScript has its place. However, that place _isn't_ everywhere, and users should be able to opt out and still experience the site, albeit in a potentially degraded state.
 
-   While visiting this site with JavaScript enabled merits access to optional features, it _isn't_ required for the core reading experience, and everything will operate cleanly in its absence.
+   While visiting this site with JavaScript enabled merits access to additional features, it _isn't_ required for the core reading experience, and everything will operate cleanly in its absence.
 
-As for the fundamental design aesthetic, my intent is something that feels *sleek*. Sections of the site should fit together with purpose, as if they are interlocking. In the design of this site I aim to mimic the precision achieved by expert woodworkers who refine their creations until they slot together with tolerances so tight the join is imperceptible.
+As for the fundamental design aesthetic, my intent is something that feels _sleek_. Sections of the site should fit together with purpose, as if they are interlocking. In the design of this site I aim to mimic the precision achieved by expert woodworkers who refine their creations until they slot together with tolerances so tight the join is imperceptible.
 
-Corners are sharp, not rounded. Borders are generally avoided, instead preferring contrast between background colours. Depth is achieved with layers, blur, and gradients which also enhance visual interest.
+Corners are sharp, not rounded. Borders are generally avoided, instead preferring contrast between background colours. Depth is achieved with layers, blur, and gradients, which also enhance visual interest. The site should feel sharp, and the design of animations and transitions should mirror this. They should be quick, snappy, and not inhibit user action.
 
-The site should feel sharp, and the design of animations and transitions should mirror this. They should be quick, snappy, and not inhibit user action.
+Less of a defining principle is that the site should not present settings for controlling or modifying UI. While there may exist a flavour of person who spends long periods on my site, most people visit briefly and have no interest in configuring settings. In absence of settings, only the best of the options can exist, which is a step on the futile path to perfection. Choice also adds a lot of complexity, so avoiding it entirely is to the benefit of maintenance.
 
 ## Features
 
@@ -73,6 +73,8 @@ Vale.Rocks is home to many non-standard features and some notable implementation
 - Dynamic scroll indication and table of contents to help people move around and orient themselves within pages.
 
 - A warm colour palette that is readable for extended periods.
+
+- Careful and choice typography.
 
 - A ton more tiny little quality-of-life bits and bobs.
 

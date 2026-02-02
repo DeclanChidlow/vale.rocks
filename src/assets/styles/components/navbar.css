@@ -97,8 +97,8 @@ body:has(#popover-menu:popover-open) {
 			box-shadow: -0.5rem 0 2rem oklch(from var(--black) l c h / 0.4);
 			view-transition-name: nav-popover;
 			transition:
-				opacity 0.15s,
-				transform 0.15s;
+				opacity 0.25s,
+				transform 0.25s;
 
 			@starting-style {
 				transform: translateX(1rem);

@@ -497,7 +497,7 @@ _body:
 	<div class="hoisted">
 		${ Tree.map(portfolio_data, (item, key) =>
 			`${ item.hoisted ? 
-				`<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour };">
+				`<a href="/portfolio/${ Origami.basename(key) }.html" style="--accent: ${ item.accent_colour };">
 					<h3 style="view-transition-name: ${ Origami.slug(item.title) }-title;">${ item.title }</h2>
 					<p style="view-transition-name: ${ Origami.slug(item.title) }-description;">${ item.og_description }</p>
 				</a>` : ''
