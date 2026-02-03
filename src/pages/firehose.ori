@@ -12,13 +12,12 @@ _body:
 	${ paginated_firehose.previousPage ? `` : `<p>This is everything, all in one place, coming ’atcha!</p><p>This firehose contains a record of all my micro posts, articles, photography, and other web doings. If you’d like to subscribe to feeds to stay up-to-date with things, then you can do so via my <a href='/syndication'>syndication page</a>.</p>` }
 
 	<div data-pagefind-ignore="all">
-	${ Tree.map(paginated_firehose.items,
-	(item, key) =>
-		`${ item.type === 'post' ? 
-			`<article class="post">
+	${ Tree.map(paginated_firehose.items, (item, key) =>
+		`${ item.type === 'post' ? `
+			<article class="post">
 				<header>
 					<div>
-						<svg viewBox="0 -960 960 960"><title>Post</title><path d="M288-288h288v-72H288v72Zm0-156h384v-72H288v72Zm0-156h384v-72H288v72ZM144-144v-672h672v672H144Zm72-72h528v-528H216v528Zm0 0v-528 528Z"/></svg>
+						<svg viewBox="0 -960 960 960"><title>Post</title><path d="M144-288v-384h384v384zm72-72h240v-240H216zm-72-384v-72h672v72zm456 144v-72h216v72zm0 156v-72h216v72zm0 156v-72h216v72zM144-144v-72h672v72z"/></svg>
 						<h2><a href="/posts/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
 					</div>
 				</header>
@@ -32,13 +31,14 @@ _body:
 					<br><br>
 					<a href="/posts/${ Origami.basename(key) }">https://vale.rocks/posts/${ Origami.basename(key) }</a>
 				</p>
-				</article>`
+			</article>
+		`
 
-		: item.type === 'photo' ? 
-			`<article class="photo">
+		: item.type === 'photo' ? `
+			<article class="photo">
 				<header>
 					<div>
-						<svg viewBox="0 -960 960 960"><title>Photo</title><path d="M480-264q72 0 120-49t48-119q0-69-48-118.5T480-600q-72 0-120 49.5t-48 119q0 69.5 48 118.5t120 49Zm0-72q-42 0-69-28.13T384-433q0-39.9 27-67.45Q438-528 480-528t69 27.55q27 27.55 27 67.45 0 40.74-27 68.87Q522-336 480-336ZM96-144v-576h192l72-96h240l72 96h192v576H96Zm72-72h624v-432H636l-72.1-96H396l-72 96H168v432Zm312-217Z"/></svg>
+						<svg viewBox="0 -960 960 960"><title>Photo</title><path d="M480-264q72 0 120-49t48-119q0-69-48-118t-120-50-120 50-48 118q0 70 48 119t120 49m0-72q-42 0-69-27t-27-68q0-40 27-68t69-29 69 29 27 68q0 41-27 68t-69 27M96-144v-576h192l72-96h240l72 96h192v576z"/></svg>
 						<h2><a href="/photography/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
 					</div>
 
@@ -50,10 +50,11 @@ _body:
 
 				<p>${ item.description }</p>
 				<img src="${ item.image }" alt="${ item.alt_text }" />
-			</article>`
+			</article>
+		`
 
-		: item.type === 'elsewhere' ? 
-			`<article class="elsewhere">
+		: item.type === 'elsewhere' ? `
+			<article class="elsewhere">
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Elsewhere</title><path d="M144-144v-672h336v72H216v528h528v-264h72v336H144Zm243-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z"/></svg>
@@ -69,10 +70,11 @@ _body:
 
 					${ item.image ? `<img src="https://${ item.image }" alt="">` : '' }
 				</div>
-			</article>`
+			</article>
+		`
 
-		: item.type === 'demo' ?
-			`<article class="demo">
+		: item.type === 'demo' ? `
+			<article class="demo">
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Demo</title><path d="M336-240 96-480l240-240 51 51-189 189 189 189zm288 0-51-51 189-189-189-189 51-51 240 240z"/></svg>
@@ -89,13 +91,30 @@ _body:
 					<strong>${ item.title }</strong>
 					<img src="https://shots.codepen.io/username/pen/${ item.codepen_slug }-800.jpg" alt="">
 				</div>
-			</article>`
+			</article>
+		`
 
-		: item.type === 'event' ?
-			`<article class="event">
+		: item.type === 'signup' ? `
+			<article class="event">
 				<header>
 					<div>
-						<svg viewBox="0 -960 960 960"><title>Event</title><path d="M576-240q-40 0-68-28t-28-68 28-68 68-28 68 28 28 68-28 68-68 28M144-96v-672h144v-96h72v96h240v-96h72v96h144v672zm72-72h528v-360H216zm0-432h528v-96H216zm0 0v-96z"/></svg>
+						<svg viewBox="0 -960 960 960"><title>Sign-Up</title><path d="M708-432v-84h-84v-72h84v-84h72v84h84v72h-84v84zm-324-48q-60 0-102-42t-42-102 42-102 102-42 102 42 42 102-42 102-102 42M96-192v-92q0-26 13-47t34-35q55-32 116-49t125-17 125 17 116 49q22 13 35 35t12 47v92z"/></svg>
+						<h2><time datetime="${ item.pub_time }" title="Date of sign-up.">${ functions/pretty-date.js(item.pub_time) }</time></h2>
+					</div>
+				</header>
+
+				<div class="readable">
+					<span aria-hidden="true">${ item.svg || '' }</span>
+					<strong>Signed Up For ${ item.title }</strong>
+				</div>
+			</article>
+		`
+
+		: item.type === 'event' ? `
+			<article class="event">
+				<header>
+					<div>
+						<svg viewBox="0 -960 960 960"><title>Event</title><path d="M144-96v-672h144v-96h72v96h240v-96h72v96h144v672zm72-72h528v-360H216z"/></svg>
 						<h2><time datetime="${ item.pub_time }" title="Event date.">${ functions/pretty-date.js(item.pub_time) }</time></h2>
 					</div>
 				</header>
@@ -104,13 +123,14 @@ _body:
 					<strong>${ item.title }</strong>
 					<p>${ item.description }</p>
 				</div>
-		</article>`
+			</article>
+		`
 
-		: item.type === 'video' ? 
-			`<article class="video">
+		: item.type === 'video' ? `
+			<article class="video">
 				<header>
 					<div>
-						<svg viewBox="0 -960 960 960"><title>Video</title><path d="M336-216v-528l408 264-408 264Zm73-265Zm-1 133 204-132-204-132v264Z"/></svg>
+						<svg viewBox="0 -960 960 960"><title>Video</title><path d="M336-216v-528l408 264z"/></svg>
 						<h2><a href="/videos/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
 					</div>
 
@@ -127,13 +147,14 @@ _body:
 						<img src="https://i.ytimg.com/vi/${ item.youtube_id }/${ item.format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
 					</a>
 				</div>
-			</article>`
+			</article>
+		`
 
-		:
-			`<article class="micro">
+		: `
+			<article class="micro">
 				<header>
 					<div>
-						<svg viewBox="0 -960 960 960"><title>Micro</title><path d="m511-311 326-325-57-57-325 326 56 56ZM239-192q-91-3-141-40T48-333q0-63 50-101t139-44q35-2 55-12.5t20-26.5q0-27-27-40t-96-19l6-72q96 6 142.5 38.5T384-517q0 48-37 77t-105 34q-61 5-91.5 23T120-333q0 33 29 49.5t93 19.5l-3 72Zm287-32L368-383l412-412 158 159-412 412Zm0 0-199 41 41-200 158 159Z"/></svg>
+						<svg viewBox="0 -960 960 960"><title>Micro</title><path d="M239-192q-91-3-141-40T48-333q0-63 50-101t139-44q35-2 55-12t20-27q0-27-27-40t-96-19l6-72q96 6 143 39t46 92q0 48-37 77t-105 34q-61 5-91 23t-31 50q0 33 29 50t93 19zm322-67L403-418l377-377 158 159zm-35 35-199 41 41-200z"/></svg>
 						<h2><a href="/micros/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time></a></h2>
 					</div>
 
@@ -155,7 +176,8 @@ _body:
 				<div class="readable">
 					${ item._body }
 				</div>
-			</article>`
+			</article>
+		`
 		}
 	`)}
 
