@@ -64,7 +64,7 @@ I [write long-form on this site](/posts), which you can subscribe to via:
 
 I also publish [short snippets and notes](/micros).
 
-I store a microblog feed on my site, which mostly serves as a loosely curated mirror of my Fediverse, Bluesky, and LinkedIn posts that can be accessed at:
+I store a microblog feed on my site, which mostly serves as a loosely curated mirror of my short-form posts on other platforms like the Fediverse, Bluesky, and LinkedIn. The feeds for that can be found at:
 
 - RSS: <https://vale.rocks/micros/feed.xml>
 - JSON Feed: <https://vale.rocks/micros/feed.json>

@@ -301,6 +301,10 @@
 - title: Bloons Tower Defence 5
   release_year: 2011
   platforms: ["PC"]
+- title: Terraria
+  release_year: 2011
+  platforms: ["iOS", "PC"]
+  notes: "It is hard to think of any game that has been more courteously supported by its developers than Terraria. It is clear that they don't only care about the game but also deeply for the community, to the extent that they are willing to take stances even when it may cost them financially."
 - title: Fly Guy
   release_year: 2011
   platforms: ["iOS"]
