@@ -170,7 +170,7 @@ _body:
 	<li>XSLT</li>
 </div>
 
-<h2>Experienced With All These Tools And Technologies</h2>
+<h2 id="tools-and-technologies">Experienced With All These Tools And Technologies</h2>
 <p><em>(and many more)</em></p>
 
 <div class="marquee">
@@ -317,7 +317,7 @@ _body:
 
 <section class="published-on">
 
-<h2>Published On:</h2>
+<h2 id="published-on">Published On:</h2>
 
 <ul>
     <li><a href="https://css-tricks.com/author/declanchidlow/">
@@ -354,7 +354,7 @@ _body:
 </section>
 
 <section class="testimonials">
-	<h2>Testimonials</h2>
+	<h2 id="testimonials">Testimonials</h2>
 	<p>Those in the know, saying that I know what I say I know.</p>
 
 	<div>
@@ -403,7 +403,7 @@ _body:
 
 <section class="featured-on">
 
-<h2>As Featured On:</h2>
+<h2 id="featured-on">As Featured On:</h2>
 
 <ul>
     <li>
@@ -491,7 +491,7 @@ _body:
 </section>
 
 <section class="showcase" data-pagefind-ignore="all">
-	<h2>Showcase</h2>
+	<h2 id="showcase">Showcase</h2>
 	<p>Some of that which I’ve had the privilege of working on.</p>
 
 	<div class="hoisted">
