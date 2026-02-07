@@ -104,13 +104,13 @@ If you wish to know more about the specifics of this site, you can read [The Des
 
 <div id="web-badges">
     <img src="/assets/buttons/valerocks_button.avif" alt="'Vale.Rocks' badge.">
-    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.avif" alt="'Built with Origami' badge."></a>
-    <img src="/assets/buttons/html5_button.avif" alt="'Hypertext Markup Language' badge.">
-    <img src="/assets/buttons/made-with-css_button.avif" alt="'Made with Cascading Stylesheets' badge.">
-    <img src="/assets/buttons/ecmascript_button.avif" alt="'Contains ECMAScript' badge with exclamation points.">
-    <img src="/assets/buttons/anti-fascism_button.avif" alt="'No Fascism / No Bigotry' badge with crossed-out swastika.">
-    <img src="/assets/buttons/progressively-enhanced_button.avif" alt="Rainbow 'Progressively Enhanced' badge.">
-    <img src="/assets/buttons/link-freely_button.avif" alt="'Link Freely' badge with chain links.">
+    <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.gif" alt="'Built with Origami' badge."></a>
+    <img src="/assets/buttons/html5_button.gif" alt="'Hypertext Markup Language' badge.">
+    <img src="/assets/buttons/made-with-css_button.gif" alt="'Made with Cascading Stylesheets' badge.">
+    <img src="/assets/buttons/ecmascript_button.gif" alt="'Contains ECMAScript' badge with exclamation points.">
+    <img src="/assets/buttons/anti-fascism_button.gif" alt="'No Fascism / No Bigotry' badge with crossed-out swastika.">
+    <img src="/assets/buttons/progressively-enhanced_button.gif" alt="Rainbow 'Progressively Enhanced' badge.">
+    <img src="/assets/buttons/link-freely_button.gif" alt="'Link Freely' badge with chain links.">
 </div>
 
 </div>
