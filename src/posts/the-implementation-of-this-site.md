@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2026-01-12
+mod_time: 2026-02-09
 section: Meta
 tags: [design, front-end development]
 ---
@@ -63,7 +63,11 @@ You can see my full implementation in [`graph.js`](/assets/scripts/graph.js).
 
 ### Comments
 
-This site does not currently have any comment functionality, and it isn't particularly easy to add any due to the site's static nature.
+As my [micro posts](/micros) are often syndicated across multiple platforms, I pull in the likes and replies from platforms with open APIs and display them all directly on my site.
+
+Sometimes the same reply is made on multiple platforms. To avoid duplication, replies that are determined to be extremely similar are merged, based on a Levenshtein distance comparison of their normalised versions.
+
+This display of interactions on micros is facilitated entirely client-side by [`comments-fetcher.js`](/assets/scripts/comments-fetcher.js).
 
 Given that my readership is generally of the variety that frequents GitHub, I've previously employed [Giscus](https://giscus.app) for comment functionality, which used the [discussion page](https://github.com/DeclanChidlow/vale.rocks/discussions?discussions_q=) of my website's repo on GitHub as what is essentially a database. I [ultimately removed this comment implementation](/micros/20250828-0200) due to my growing distaste for GitHub.
 
