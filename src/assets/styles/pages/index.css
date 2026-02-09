@@ -117,10 +117,10 @@ main {
 #zoom-controls,
 #recenter-btn {
 	position: absolute;
-	padding: 0.5rem;
 	color: var(--bright_white);
 	background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
 	backdrop-filter: blur(0.75rem);
+	aspect-ratio: 1;
 	z-index: 100;
 
 	svg {

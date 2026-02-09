@@ -20,7 +20,7 @@ _body:
 			<a href="${ micro.fedi_link }" title="Fediverse" rel="syndication" class="u-syndication">${ fediverse_icon }</a>` : '' }
 
 			${ micro.bsky_link ? `
-			<a href="${ micro.bsky_link }" title="Bluesky rel="syndication" class="u-syndication"">${ bluesky_icon }</a>` : '' }
+			<a href="${ micro.bsky_link }" title="Bluesky" rel="syndication" class="u-syndication">${ bluesky_icon }</a>` : '' }
 
 			${ micro.linkedin_link ? `
 			<a href="${ micro.linkedin_link }" title="LinkedIn" rel="syndication" class="u-syndication">${ linkedin_icon }</a>` : '' }

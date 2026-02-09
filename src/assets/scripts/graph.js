@@ -541,8 +541,9 @@ class SitemapGraph {
 			const node = nodes[i];
 			if (node.pinned) continue;
 
-			node.vx *= damping;
-			node.vy *= damping;
+			const dynamicDamping = node.connections > 5 ? 0.7 : 0.9;
+			node.vx *= dynamicDamping;
+			node.vy *= dynamicDamping;
 
 			const vSq = node.vx * node.vx + node.vy * node.vy;
 			if (vSq > 16) {
@@ -557,7 +558,7 @@ class SitemapGraph {
 			totalKineticEnergy += vSq;
 		}
 
-		if (totalKineticEnergy < 0.01 && !this.isDragging) {
+		if (totalKineticEnergy < 0.05 && !this.isDragging) {
 			this.physics = false;
 		}
 	}

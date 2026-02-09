@@ -116,11 +116,11 @@ section.description {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	.tools-and-technologies,
-	.published-on,
-	.featured-on,
-	.testimonials,
-	.showcase,
+	#tools-and-technologies,
+	#published-on,
+	#featured-on,
+	#testimonials,
+	#showcase,
 	.contact {
 		animation: blur-fade-in-up;
 		animation-timeline: view();
@@ -146,7 +146,7 @@ section.description {
 	}
 }
 
-section.tools-and-technologies {
+section#tools-and-technologies {
 	h2 {
 		margin-block: 0;
 	}
@@ -234,8 +234,8 @@ section.tools-and-technologies {
 	}
 }
 
-section.published-on,
-section.featured-on {
+section#published-on,
+section#featured-on {
 	ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -277,7 +277,7 @@ section.featured-on {
 	}
 }
 
-section.testimonials {
+section#testimonials {
 	div {
 		display: grid;
 		gap: 1.5rem;
@@ -360,7 +360,7 @@ section.testimonials {
 	}
 }
 
-section.showcase {
+section#showcase {
 	.hoisted {
 		margin-block-start: 2rem;
 	}
