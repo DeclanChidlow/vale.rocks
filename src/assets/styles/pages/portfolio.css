@@ -282,8 +282,12 @@ section#testimonials {
 		display: grid;
 		gap: 1.5rem;
 		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-		grid-template-rows: masonry;
 		margin-block-start: 2rem;
+
+		> :last-child {
+			grid-column: 1 / -1;
+			justify-self: center;
+		}
 	}
 
 	p {
@@ -328,7 +332,7 @@ section#testimonials {
 
 		figcaption {
 			display: flex;
-			gap: 0.5rem;
+			gap: 1rem;
 			margin-block-start: 1.5rem;
 			text-align: start;
 			color: light-dark(var(--black), var(--bright_white));

@@ -393,10 +393,20 @@ _body:
 		<figure>
 			<q>Whenever an article by Declan shows up in my feed, I’m sure to check it out. They absolutely know what they're talking about, and it’s always a pleasure to read things clearly expressed.</q>
 			<figcaption>
-				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: bottom;"/>
+				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 -144px;"/>
 				<div>
 					<a href="https://bsky.app/profile/mb21.bsky.social">Mauro Bieg</a>
 					<span>Senior Full-stack Engineer & Creator of <a href="https://mastrojs.github.io">Mastro</a></span>
+				</div>
+			</figcaption>
+		</figure>
+		<figure>
+			<q>I commissioned Declan to design a bespoke icon set. Declan delivered delightful design despite an impractical deadline. Their contribution to the project was indispensable. The initial brief and subsequent feedback was handled like a seasoned professional.</q>
+			<figcaption>
+				<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: bottom;"/>
+				<div>
+					<a href="https://dbushell.com">David Bushell</a>
+					<span>Freelance Web Designer & Front-end Developer</span>
 				</div>
 			</figcaption>
 		</figure>

@@ -1,4 +1,4 @@
-// Based on Gwern's 404 Error Page URL Suggester
+// Inspired by Gwern's 404 Error Page URL Suggester
 // https://gwern.net/static/js/404-guesser.js
 
 class BKTreeNode {
