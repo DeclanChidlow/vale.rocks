@@ -195,7 +195,7 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new years, and links out to code demos I've created across the web.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
 
 The firehose is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
