@@ -85,3 +85,49 @@ article header {
 		}
 	}
 }
+
+#fetched-social-data {
+	display: none; /* Set to block in JS */
+
+	.likes {
+		inline-size: fit-content;
+		margin-block: 3rem;
+		margin-inline: auto;
+		padding-block: 0.5rem;
+		padding-inline: 1rem;
+		background: light-dark(oklch(from var(--red) l c h / calc(alpha - 0.5)), oklch(from var(--red) l c h / calc(alpha - 0.6)));
+		font-size: 0.8rem;
+		font-weight: bold;
+
+		svg {
+			height: 1rem;
+			margin-inline-end: 0.5ch;
+		}
+	}
+
+	.comments-list {
+		margin-block-start: 1rem;
+		padding-inline: 1rem;
+
+		> .comment-item {
+			margin-block-end: 2.5rem;
+		}
+	}
+
+	.comment-meta {
+		margin-block-end: 0.25rem;
+		font-size: 0.9em;
+
+		a::after {
+			display: none;
+		}
+	}
+
+	.comment-children {
+		margin-block-start: 0.75rem;
+		margin-inline-start: 1rem;
+		padding-block: 0.25rem;
+		padding-inline-start: 0.75rem;
+		border-left: 2px solid light-dark(var(--white), var(--bright_grey));
+	}
+}

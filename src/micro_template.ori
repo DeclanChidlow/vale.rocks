@@ -6,8 +6,8 @@
 	canonical: `/micros/${ micro.file_name }`
 	template_image: "micro"
 
-_body:
-`<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Micros</span>
+_body: `
+<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Micros</span>
 
 <article class="h-entry">
 	<header data-pagefind-ignore>
@@ -53,6 +53,12 @@ _body:
 				<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>
 			`) : '' }
 			</ul>
+
+			<div id="fetched-social-data"></div>
 		</div>
 	</div>
-</article>`})
+</article>
+
+<script src="/assets/scripts/comments-fetcher.js"></script>
+`
+})
