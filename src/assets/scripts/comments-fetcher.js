@@ -94,6 +94,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const nodeMap = new Map();
 
 			descendants.forEach((d) => {
+				if (!d.content || !d.content.trim()) return;
+
 				nodeMap.set(
 					d.id,
 					new CommentNode({
@@ -110,12 +112,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const roots = [];
 			descendants.forEach((d) => {
 				const node = nodeMap.get(d.id);
+				if (!node) return;
+
 				if (d.in_reply_to_id === postId) {
 					roots.push(node);
 				} else if (nodeMap.has(d.in_reply_to_id)) {
 					nodeMap.get(d.in_reply_to_id).children.push(node);
-				} else {
-					roots.push(node);
 				}
 			});
 
@@ -150,7 +152,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 			function convertToNode(bskyNode) {
 				const labels = bskyNode.post.labels || [];
-				if (labels.some((l) => l.val === "hide" || l.val === "!hide")) return null;
+				if (labels.some((l) => l.val === "hide" || l.val === "!hide") || !bskyNode.post.record.text?.trim()) return null;
 
 				const richContent = renderBlueskyText(bskyNode.post.record);
 
@@ -214,6 +216,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 		const SIMILARITY_THRESHOLD_PERCENT = 0.2;
 
 		nodes.forEach((newNode) => {
+			if (!newNode) return;
+
 			const newNorm = normalize(newNode.content);
 
 			const match = mergedNodes.find((existingNode) => {
@@ -312,7 +316,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		if (finalTree.length > 0) {
 			html += `<div class="comments-list">${renderTree(finalTree)}</div>`;
 		} else {
-			html += `<p><em>No comments yet.</em></p>`;
+			html += `<p class="comments-list"><em>No comments yet.</em></p>`;
 		}
 
 		container.innerHTML = html;
