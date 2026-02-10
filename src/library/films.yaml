@@ -112,6 +112,11 @@
   watches:
     - date: 2025-07-06
       format: Streaming
+- title: Roxane
+  release_year: 2019
+  watches:
+    - date: 2026-02-10
+      format: Streaming
 - title: "Spider-Man: Far From Home"
   release_year: 2019
 - title: Spies in Disguise
