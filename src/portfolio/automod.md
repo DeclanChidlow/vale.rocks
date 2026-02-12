@@ -26,7 +26,7 @@ The bot is developed in a monorepo, written in **JavaScript/TypeScript**, and ma
 - [**MongoDB**](https://www.mongodb.com) for persistent data storage.
 - [**Docker**](https://www.docker.com) for containerisation, allowing consistent and reliable deployment and distribution.
 
-Given AutoMod's huge success and large demand, I developed another bot in a similar style titled [AutoFeeds](https://github.com/DeclanChidlow/AutoFeeds), which automatically fetches and posts new items from user-specified RSS, Atom, and JSON feeds. It is also containerised with Docker and stays simple with a database using the **SQL-based MariaDB**.
+Given AutoMod's huge success and large demand, I developed another bot in a similar style titled [AutoFeeds](https://automod.vale.rocks/blog/introducing-autofeeds), which automatically fetches and posts new items from user-specified RSS, Atom, and JSON feeds. It is also containerised with Docker and stays simple with a database using the **SQL-based MariaDB**.
 
 <figure>
 <svg viewBox="0 0 738.4 327.5" role="img" style="background: var(--bright_white);">

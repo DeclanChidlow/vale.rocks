@@ -5,7 +5,7 @@ og_description: Technology conference listing site.
 accent_colour: "#b88b41"
 repository: DeclanChidlow/techconf.directory
 tags: [design, development, front-end development]
-hoisted: true
+hoisted: false
 ---
 
 Frustrated by the difficulty of discovering conferences and finding information about them in a central location, I created [TechConf.Directory](https://techconf.directory), a site listing technology conferences across the globe.
