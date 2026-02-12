@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	let rawTrees = [];
 
 	class CommentNode {
-		constructor({ id, author, content, platform, url, timestamp, children = [], sources = [] }) {
+		constructor({ id, author, content, platform, url, timestamp, children = [], sources = [], isOwner = false }) {
 			this.id = id;
 			this.author = author;
 			this.content = content;
@@ -17,13 +17,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 			this.timestamp = new Date(timestamp);
 			this.children = children;
 			this.sources = sources.length ? sources : [{ platform, url }];
+			this.isOwner = isOwner;
 		}
 	}
 
 	function renderBlueskyText(record) {
-		if (!record.facets || !record.facets.length) {
-			return record.text;
-		}
+		if (!record.facets || !record.facets.length) return record.text;
 
 		const text = record.text;
 		const encoder = new TextEncoder();
@@ -45,14 +44,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const linkFeature = facet.features.find((f) => f.$type === "app.bsky.richtext.facet#link");
 			const mentionFeature = facet.features.find((f) => f.$type === "app.bsky.richtext.facet#mention");
 
-			if (linkFeature) {
-				html += `<a href="${linkFeature.uri}" target="_blank" rel="nofollow">${facetText}</a>`;
-			} else if (mentionFeature) {
-				html += `<a href="https://bsky.app/profile/${mentionFeature.did}" target="_blank" rel="nofollow">${facetText}</a>`;
-			} else {
-				html += facetText;
-			}
-
+			if (linkFeature) html += `<a href="${linkFeature.uri}" target="_blank" rel="nofollow">${facetText}</a>`;
+			else if (mentionFeature) html += `<a href="https://bsky.app/profile/${mentionFeature.did}" target="_blank" rel="nofollow">${facetText}</a>`;
+			else html += facetText;
 			lastIndex = facet.index.byteEnd;
 		}
 
@@ -61,16 +55,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 
 	function normalize(htmlOrText) {
-		const txt = document.createElement("textarea");
-		txt.innerHTML = htmlOrText;
-		let clean = txt.value;
-
-		clean = clean.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"');
-		clean = clean.replace(/https?:\/\/[^\s]+/g, "");
-		clean = clean.replace(/\b\w+\.\w+\/[\S]*/g, "");
-		clean = clean.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ");
-
-		return clean.trim().toLowerCase();
+		const tmp = document.createElement("div");
+		tmp.innerHTML = htmlOrText;
+		return tmp.textContent
+			.toLowerCase()
+			.replace(/https?:\/\/[^\s]+/g, "")
+			.replace(/[^a-z0-9]/g, "");
 	}
 
 	async function fetchAkkoma(url) {
@@ -85,7 +75,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 			if (!statusRes.ok) throw new Error(`Fedi status fetch failed`);
 			const statusData = await statusRes.json();
 			if (statusData.favourites_count) totalLikes += statusData.favourites_count;
-
+			const rootOwnerId = statusData.account.id;
 			const contextRes = await fetch(`${apiBase}/context`);
 			if (!contextRes.ok) throw new Error(`Fedi context fetch failed`);
 			const contextData = await contextRes.json();
@@ -105,6 +95,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 						platform: "Fediverse",
 						url: d.url,
 						timestamp: d.created_at,
+						isOwner: d.account.id === rootOwnerId,
 					}),
 				);
 			});
@@ -114,16 +105,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 				const node = nodeMap.get(d.id);
 				if (!node) return;
 
-				if (d.in_reply_to_id === postId) {
-					roots.push(node);
-				} else if (nodeMap.has(d.in_reply_to_id)) {
-					nodeMap.get(d.in_reply_to_id).children.push(node);
-				}
+				if (d.in_reply_to_id === postId) roots.push(node);
+				else if (nodeMap.has(d.in_reply_to_id)) nodeMap.get(d.in_reply_to_id).children.push(node);
 			});
 
 			return roots;
 		} catch (e) {
-			console.error("Akkoma Error:", e);
 			return [];
 		}
 	}
@@ -136,33 +123,28 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const rkey = pathParts[4];
 
 			const resolveRes = await fetch(`https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`);
-			if (!resolveRes.ok) throw new Error("Bluesky Handle resolve failed");
 			const { did } = await resolveRes.json();
 
 			const atUri = `at://${did}/app.bsky.feed.post/${rkey}`;
 			const threadRes = await fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=${atUri}&depth=10`);
-			if (!threadRes.ok) throw new Error("Bluesky Thread fetch failed");
 			const data = await threadRes.json();
 
 			if (!data.thread) return [];
 
-			if (data.thread.post && data.thread.post.likeCount) {
-				totalLikes += data.thread.post.likeCount;
-			}
-
+			if (data.thread.post?.likeCount) totalLikes += data.thread.post.likeCount;
+			const rootDid = data.thread.post.author.did;
 			function convertToNode(bskyNode) {
 				const labels = bskyNode.post.labels || [];
 				if (labels.some((l) => l.val === "hide" || l.val === "!hide") || !bskyNode.post.record.text?.trim()) return null;
 
-				const richContent = renderBlueskyText(bskyNode.post.record);
-
 				const node = new CommentNode({
 					id: bskyNode.post.uri,
 					author: bskyNode.post.author.displayName || bskyNode.post.author.handle,
-					content: `<p>${richContent}</p>`,
+					content: `<p>${renderBlueskyText(bskyNode.post.record)}</p>`,
 					platform: "Bluesky",
 					url: `https://bsky.app/profile/${bskyNode.post.author.did}/post/${bskyNode.post.uri.split("/").pop()}`,
 					timestamp: bskyNode.post.record.createdAt,
+					isOwner: bskyNode.post.author.did === rootDid,
 				});
 
 				if (bskyNode.replies) {
@@ -174,76 +156,37 @@ document.addEventListener("DOMContentLoaded", async () => {
 				return node;
 			}
 
-			if (!data.thread.replies) return [];
-			return data.thread.replies.map(convertToNode).filter((n) => n !== null);
+			return (data.thread.replies || []).map(convertToNode).filter((n) => n !== null);
 		} catch (e) {
-			console.error("Bluesky Error:", e);
 			return [];
 		}
 	}
 
-	function levenshtein(a, b) {
-		if (a.length === 0) return b.length;
-		if (b.length === 0) return a.length;
-
-		const matrix = [];
-
-		for (let i = 0; i <= b.length; i++) {
-			matrix[i] = [i];
-		}
-
-		for (let j = 0; j <= a.length; j++) {
-			matrix[0][j] = j;
-		}
-
-		for (let i = 1; i <= b.length; i++) {
-			for (let j = 1; j <= a.length; j++) {
-				if (b.charAt(i - 1) === a.charAt(j - 1)) {
-					matrix[i][j] = matrix[i - 1][j - 1];
-				} else {
-					matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
-				}
+	function filterNodes(nodes, articleText) {
+		return nodes.filter((node) => {
+			if (node.isOwner) {
+				const norm = normalize(node.content);
+				if (norm.length > 20 && articleText.includes(norm)) return false;
 			}
-		}
 
-		return matrix[b.length][a.length];
+			node.children = filterNodes(node.children, articleText);
+			return true;
+		});
 	}
 
 	function mergeTrees(nodes) {
-		if (!nodes || nodes.length === 0) return [];
-
 		const mergedNodes = [];
-		const SIMILARITY_THRESHOLD_PERCENT = 0.2;
 
 		nodes.forEach((newNode) => {
 			if (!newNode) return;
-
 			const newNorm = normalize(newNode.content);
-
-			const match = mergedNodes.find((existingNode) => {
-				const existingNorm = normalize(existingNode.content);
-
-				if (newNorm.length < 10 || existingNorm.length < 10) {
-					return newNorm === existingNorm;
-				}
-
-				const distance = levenshtein(newNorm, existingNorm);
-				const maxLength = Math.max(newNorm.length, existingNorm.length);
-
-				return distance / maxLength <= SIMILARITY_THRESHOLD_PERCENT;
-			});
+			const match = mergedNodes.find((existingNode) => normalize(existingNode.content) === newNorm);
 
 			if (match) {
 				newNode.sources.forEach((s) => {
-					if (!match.sources.some((ms) => ms.url === s.url)) {
-						match.sources.push(s);
-					}
+					if (!match.sources.some((ms) => ms.url === s.url)) match.sources.push(s);
 				});
 				match.children = match.children.concat(newNode.children);
-
-				if (newNode.timestamp < match.timestamp) {
-					match.timestamp = newNode.timestamp;
-				}
 			} else {
 				mergedNodes.push(newNode);
 			}
@@ -256,71 +199,50 @@ document.addEventListener("DOMContentLoaded", async () => {
 		return mergedNodes.sort((a, b) => a.timestamp - b.timestamp);
 	}
 
-	function renderTree(nodes) {
-		if (!nodes || nodes.length === 0) return "";
-
+	function renderTree(nodes, depth = 0) {
 		return nodes
 			.map((node) => {
 				const dateStr = node.timestamp.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
 				const sourceLinks = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow">${s.platform}</a>`).join(" | ");
-				const childrenHtml = node.children && node.children.length > 0 ? `<div class="comment-children">${renderTree(node.children)}</div>` : "";
-
-				return `
-					<div class="comment-item">
-						<div class="comment-meta">
-							<strong>${node.author}</strong> • ${dateStr} • ${sourceLinks}
-						</div>
-						<div class="comment-body readable">
-							${node.content}
-						</div>
-						${childrenHtml}
-					</div>
-				`;
+				let childrenHtml = "";
+				if (node.children.length > 0) {
+					if (depth < 3) childrenHtml = `<div class="comment-children">${renderTree(node.children, depth + 1)}</div>`;
+					else {
+						const cont = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow">Continue on ${s.platform}</a>`).join(" | ");
+						childrenHtml = `<div class="comment-children"><p><em>${cont}</em></p></div>`;
+					}
+				}
+				return `<div class="comment-item"><div class="comment-meta"><strong>${node.author}</strong> • ${dateStr} • ${sourceLinks}</div><div class="comment-body readable">${node.content}</div>${childrenHtml}</div>`;
 			})
 			.join("");
 	}
 
-	async function init() {
-		const promises = [];
+	const articleEl = document.querySelector(".e-content");
+	const promises = Array.from(SOCIAL_LINKS).map((link) => {
+		if (link.href.includes("bsky.app")) return fetchBluesky(link.href);
+		if (link.title === "Fediverse") return fetchAkkoma(link.href);
+		return null;
+	});
 
-		SOCIAL_LINKS.forEach((link) => {
-			const href = link.href;
-			if (href.includes("bsky.app")) promises.push(fetchBluesky(href));
-			else if (link.textContent.toLowerCase().includes("fedi") || link.title.toLowerCase().includes("fediverse") || link.title.toLowerCase().includes("akkoma")) {
-				promises.push(fetchAkkoma(href));
-			}
-		});
+	const results = await Promise.all(promises);
 
-		const results = await Promise.all(promises);
-		results.forEach((r) => {
-			if (r) rawTrees = rawTrees.concat(r);
-		});
+	results.forEach((r) => {
+		if (r) rawTrees = rawTrees.concat(r);
+	});
 
-		const finalTree = mergeTrees(rawTrees);
-
-		if (totalLikes === 0 && finalTree.length === 0) {
-			container.style.display = "none";
-			return;
-		}
-
-		container.style.display = "block";
-
-		let html = "";
-
-		if (totalLikes > 0) {
-			html += `<div class="likes"><svg viewBox="0 -960 960 960" role="presentation"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${totalLikes} Likes</div>`;
-		}
-
-		html += "<h2>Comments</h2>";
-
-		if (finalTree.length > 0) {
-			html += `<div class="comments-list">${renderTree(finalTree)}</div>`;
-		} else {
-			html += `<p class="comments-list"><em>No comments yet.</em></p>`;
-		}
-
-		container.innerHTML = html;
+	if (articleEl) {
+		const articleText = normalize(articleEl.innerText);
+		rawTrees = filterNodes(rawTrees, articleText);
 	}
 
-	init();
+	const finalTree = mergeTrees(rawTrees);
+	if (totalLikes > 0 || finalTree.length > 0) {
+		container.style.display = "block";
+		let html =
+			totalLikes > 0
+				? `<div class="likes"><svg viewBox="0 -960 960 960" role="presentation"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${totalLikes} Likes</div>`
+				: "";
+		html += `<h2>Comments</h2><div class="comments-list">${finalTree.length ? renderTree(finalTree) : "<p><em>No comments yet.</em></p>"}</div>`;
+		container.innerHTML = html;
+	}
 });

@@ -25,6 +25,8 @@ Given the platform's name, modelling the icon on the visage of the mustelid was 
 
 Placing users first has always been a core tenet of Stoat, so it was only right that I developed the icon publicly by sharing my progress on-platform with various users providing their feedback and opinions along the way. Not all feedback was good feedback, and with a general audience not all folks are designers or able to articulate their thoughts, but I believe consulting the community to be paramount in designing an icon to represent the platform that houses said community.
 
+These icons are the property of Revolt Platforms Ltd and presented here with permission.
+
 <div style="display: flex; justify-content: space-evenly; margin-block: 4rem;">
     <figure>
         <svg viewBox="0 0 704.62 898" role="img" height=200 width=100%>
