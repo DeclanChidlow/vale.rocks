@@ -40,7 +40,7 @@ These icons are the property of Revolt Platforms Ltd and presented here with per
             <desc>A simpler, stylised icon of a stoat in profile, featuring a smoother, flowing aesthetic. The design includes ruffled fur along the back of the neck. The eye is small, while the nose is defined by negative space on the end of the snout, which itself is integrated into a single sweeping curve that forms the chest, emphasising movement and a wilder character.</desc>
             <path fill="light-dark(black, white)" d="M641.43 810.78c-111.81-32.37-231.22-153.97-187.84-277.25 3.44-7.63 7.5-27.7-7.81-25.57-43.05 8.28-87.63 39.27-123.43 61.41-7.71-6.34 3.82-18.2 7.88-24.05 106.75-154.11 376.11 18.67 495.99-141.05-15.94-3.59-29.13-19.14-31.53-39.14-1.88-15.69 3.35-30.29 12.76-39.37a146 146 0 0 1-19.36-13.86C677.8 216.79 672.31 124.87 504.28 72.86c-13.15-4.08-60.72-18.59-78.8-14.11a6.82 6.82 0 0 0-4.72 9L427.54 86c-35.88-5.5-55.9-56.67-92.79-73.21C310.47 1.9 276-7.02 252.29 7.86c-28.25 17.75-43.21 70.61-47.78 101.85-6.21 42.42 6.11 84.25 11.89 125.61-31.93-12.62-35.66-48-48.74-74.63-9.58-.33-191.75 154.32-77.33 105.76C64.53 303.65.18 382.83 0 415.93a3.92 3.92 0 0 0 5.89 3.38c16.47-9.7 51.94-43.67 43.22-14.24C6.59 558.32-5.15 739.31 21.36 893H826.1c-52.67-43.79-121.37-59.22-184.67-82.23Zm-54.15-562.67c32.78 19.32 5.16 84.6-39.24 58.48-36.01-21.18-3.52-83.7 39.24-58.48m-335-240.26C224.03 25.6 206.9 77 204.5 109.7c-3.14 42.76 6.11 84.25 11.89 125.61M541.55 62.13c35.71 6.82 65.3 37.39 94.44 52.57 73.53 35.45-25.56-173.79-94.44-52.57" />
         </svg>
-        <figcaption>An alternative icon.</figcaption>
+        <figcaption>An alternative concept.</figcaption>
     </figure>
 </div>
 
