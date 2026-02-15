@@ -41,6 +41,9 @@ _body: `
 			${ micro.linkedin_link ? `
 			<a href="${ micro.linkedin_link }" title="LinkedIn">${ linkedin_icon } View on LinkedIn</a>` : '' }
 
+			${ item.kofi_link ? `
+			<a href="${ item.kofi_link }" title="Ko-Fi">${ kofi_icon } View on Ko-Fi</a>` : '' }
+
 			${ micro.lesswrong_link ? `
 			<a href="${ micro.lesswrong_link }" title="LessWrong">${ lesswrong_icon } View on LessWrong</a>` : '' }
 		</aside>

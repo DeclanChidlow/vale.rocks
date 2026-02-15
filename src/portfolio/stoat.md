@@ -27,7 +27,7 @@ Placing users first has always been a core tenet of Stoat, so it was only right 
 
 These icons are the property of Revolt Platforms Ltd and presented here with permission.
 
-<div style="display: flex; justify-content: space-evenly; margin-block: 4rem;">
+<div class="stoat-logos">
     <figure>
         <svg viewBox="0 0 704.62 898" role="img" height=200 width=100%>
             <desc>A minimalist three-quarter view portrait of a stoat's head and neck. The design uses smooth, flowing curves and negative space to define the jawline and neck. Key features include two pointed ears, dots for the eyes, and a prominent nose, giving it a defined appearance. It is clean and professional but has an almost derpy expression.</desc>
@@ -43,5 +43,18 @@ These icons are the property of Revolt Platforms Ltd and presented here with per
         <figcaption>An alternative concept.</figcaption>
     </figure>
 </div>
+
+<style>
+.stoat-logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-block: 4rem;
+
+    @media (max-width: 35rem) {
+        flex-direction: column;
+        gap: 3rem;
+    };
+}
+</style>
 
 I'm incredibly pleased with how the icon turned out and how it has been integrated into the platform's brand. The Stoat community [proved to love the new icon](https://bsky.app/profile/stoat.chat/post/3memon3azgk22) and even gave them a name, 'Toast'!
