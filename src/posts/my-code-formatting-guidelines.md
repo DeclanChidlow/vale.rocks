@@ -57,7 +57,7 @@ function name {
 
 ## Use Double Quotes
 
-Strings should use double quotes (`""`), not single quotes (`''`). This makes it easier to use single quotes (which are more common) within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.
+Strings should use double quotes (`""`), not single quotes (`''`). This makes it easier to use single quotes which are more common within strings. This is merely a default, and there will be situations where using single quotes is preferable. For the most part, Prettier will handle these exceptions.
 
 Prettier: [`singleQuote: false`](https://prettier.io/docs/options.html#quotes), [`jsxSingleQuote: false`](https://prettier.io/docs/options.html#jsx-quotes)
 

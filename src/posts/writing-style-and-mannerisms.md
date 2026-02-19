@@ -103,7 +103,7 @@ Excluding repeating the obvious and that already outlined by _The Elements of St
 
 - The contents of explanatory codeblocks are kept as simple as possible.
 
-- Andy Bell once [picked me up on my use of 'this'](https://bsky.app/profile/vale.rocks/post/3lqmvtrpxh22u) in my writing, and I've been wary of it since. Any time I remove 'this', 'that', or 'it', is usually for the better, except when referring to the subject by name becomes repetitive.
+- [Andy Bell](https://bell.bz) once [picked me up on my use of 'this'](https://bsky.app/profile/vale.rocks/post/3lqmvtrpxh22u) in my writing, and I've been wary of it since. Any time I remove 'this', 'that', or 'it', is usually for the better, except when referring to the subject by name becomes repetitive.
 
 - I use headings for differentiating sections. Heading level 1 is taken by titles, and I try to only use heading levels 2 and 3 in writing. Going beyond that feels too granular and usually indicates a problem in structure.
 

@@ -90,7 +90,11 @@ At some point GitHub started generating commit messages which are generally extr
 
 In December I moved back to using Gemini as my primary flagship LLM with the release of Gemini 3 and turned to using ChatGPT as a fallback following many improvements to the issues present at GPT-5's launch. Gemini 3 Pro Image (Nano Banana Pro) proved very technically impressive, but I remain without much need for image generation.
 
-Through 2025 the dedicated chat interface still remains the superior way to interact with AI tooling in much of my experience. I'm yet to really find generative AI implemented into an app or website in a way that is superior to the alternative. The only thing that pops to mind is Adobe's rather impressive [turntable functionality](https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/).
+Through 2025 the dedicated chat interface still remained the superior way to interact with AI tooling in much of my experience. I'm yet to really find generative AI implemented into an app or website in a way that is superior to the alternative. The only thing that pops to mind is Adobe's rather impressive [turntable functionality](https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/).
+
+### 2026
+
+Throughout early 2026 I remained on Gemini 3.
 
 ## Specific Usage
 
