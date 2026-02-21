@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	let rawTrees = [];
 
 	class CommentNode {
-		constructor({ id, author, content, platform, url, timestamp, children = [], sources = [], isOwner = false }) {
+		constructor({ id, author, content, platform, url, timestamp, children = [], sources = [], isOwner = false, likes = 0 }) {
 			this.id = id;
 			this.author = author;
 			this.content = content;
@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 			this.children = children;
 			this.sources = sources.length ? sources : [{ platform, url }];
 			this.isOwner = isOwner;
+			this.likes = likes;
 		}
 	}
 
@@ -96,6 +97,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 						url: d.url,
 						timestamp: d.created_at,
 						isOwner: d.account.id === rootOwnerId,
+						likes: d.favourites_count || 0,
 					}),
 				);
 			});
@@ -145,6 +147,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 					url: `https://bsky.app/profile/${bskyNode.post.author.did}/post/${bskyNode.post.uri.split("/").pop()}`,
 					timestamp: bskyNode.post.record.createdAt,
 					isOwner: bskyNode.post.author.did === rootDid,
+					likes: bskyNode.post.likeCount || 0,
 				});
 
 				if (bskyNode.replies) {
@@ -187,6 +190,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 					if (!match.sources.some((ms) => ms.url === s.url)) match.sources.push(s);
 				});
 				match.children = match.children.concat(newNode.children);
+				match.likes += newNode.likes;
 			} else {
 				mergedNodes.push(newNode);
 			}
@@ -204,6 +208,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 			.map((node) => {
 				const dateStr = node.timestamp.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
 				const sourceLinks = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow">${s.platform}</a>`).join(" | ");
+
+				const likeBadge =
+					node.likes > 0
+						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14" style="fill: currentColor; vertical-align: middle;"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${node.likes}</span> • `
+						: "";
+
 				let childrenHtml = "";
 				if (node.children.length > 0) {
 					if (depth < 3) childrenHtml = `<div class="comment-children">${renderTree(node.children, depth + 1)}</div>`;
@@ -212,7 +222,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 						childrenHtml = `<div class="comment-children"><p><em>${cont}</em></p></div>`;
 					}
 				}
-				return `<div class="comment-item"><div class="comment-meta"><strong>${node.author}</strong> • ${dateStr} • ${sourceLinks}</div><div class="comment-body readable">${node.content}</div>${childrenHtml}</div>`;
+				return `<div class="comment-item"><div class="comment-meta"><strong>${node.author}</strong> • ${dateStr} • ${likeBadge}${sourceLinks}</div><div class="comment-body readable">${node.content}</div>${childrenHtml}</div>`;
 			})
 			.join("");
 	}
