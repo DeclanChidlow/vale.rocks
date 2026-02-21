@@ -112,6 +112,13 @@
   watches:
     - date: 2025-07-06
       format: Streaming
+- title: Gun Akimbo
+  release_year: 2020
+  rating: 3
+  notes: I came for Daniel Radcliffe, and I wasn't disappointed. Absolutely stupid movie, but stylistically interesting and full of gratuitous, gory violence.
+  watches:
+    - date: 2026-02-21
+      format: Streaming
 - title: Roxane
   release_year: 2019
   watches:
