@@ -50,19 +50,19 @@ Scientific Inferiors: <span style="font-feature-settings: 'sinf' on;">H O 0 1 2 
 
 ### Heading Levels
 
-Quod provident corporis natus. Voluptatem sunt magnam nobis quo quas repudiandae magnam. Qui maxime dolor harum. Aspernatur tempore ea id sed fugit. Dolores cum tenetur in quisquam et maiores quam. Suscipit est aperiam rerum consectetur velit officiis.
+You have found yourself on a website unlike any website, yet like many other websites. You've crossed over from the world of corporate motives and a few big platforms and into the independent constructs where the last few holdouts of the World Wide Web reside, feasting on the breakdown of the dying digital domain.
 
 #### Heading Level 4
 
-Aliquam non sed beatae. Deleniti laborum ut eveniet autem. Aut incidunt sint ex ut occaecati. Praesentium et ut cumque beatae.
+A microcosm of society defined not by platforms, but by interests. Sharing based on the wish to share, not to find a return on financial investment.
 
 ##### Heading Level 5
 
-Quaerat deleniti quos accusamus sit qui. Est temporibus fugiat cupiditate aut sit hic ex cum. Ea quaerat non dolor et iure repellendus velit. Nihil ea tempore ut libero aperiam nulla aut necessitatibus. Est praesentium fuga rerum aut ipsa et aut id.
+The reaching, gripping hands that claw at you as you venture through this branch of the web are not doing so with malice, but with benevolence. Take an opportunity to take from their teachings and learn from their fixations.
 
 ###### Heading Level 6
 
-Aliquam laborum voluptate molestiae illo sunt dolorum. Qui fuga qui fuga impedit libero tenetur ex aliquam. Sit molestiae ut sint nulla deserunt molestiae eos veritatis. Neque perferendis culpa ad omnis. Ipsum nisi facere cum molestiae aut possimus exercitationem repellat. Voluptatum blanditiis optio officiis et quo.
+Knowledge should be free, and here it is. Free for it is built by those who wish to distribute it, not free because it is being forced and extracted from an unwilling host.
 
 ### Links
 

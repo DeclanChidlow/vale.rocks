@@ -79,6 +79,17 @@
   seasons:
     - number: 1
     - number: 2
+- title: Sex House
+  release_year: 2012
+  seasons:
+    - number: 1
+      watches:
+        - start: 2026-02-22
+          finish: 2026-02-23
+- title: Porkin' Across America
+  release_year: 2012
+  seasons:
+    - number: 1
 - title: Don't Hug Me I'm Scared
   release_year: 2011
   seasons:

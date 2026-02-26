@@ -8,7 +8,7 @@ tags: [design, Stoat, development, front-end development]
 hoisted: true
 ---
 
-AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **7000 servers** with a combined total user count in excess of **200,000 people**.
+AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **7500 servers** with a combined total user count in excess of **200,000 people**.
 
 <figure class="right">
 <img src="https://automod.vale.rocks/assets/images/filter_example.avif" alt="A user adds the word 'poo' to the filter list using '/filter add poo'. AutoMod confirms the addition with 'strictness HARD.'" style="background: light-dark(var(--black), transparent); padding: 1rem;">
