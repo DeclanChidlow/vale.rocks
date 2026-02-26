@@ -9,11 +9,12 @@
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
+	combined_post_feed = Tree.reverse(Tree.sort({ ...post_data.ori, ...pulse_data.ori }, (item) => item.pub_time)) 
 	posts.html = pages/posts.ori(post_data.ori)
 	posts/ = {
 		...Tree.map(post_data.ori, post_template.ori)
-		feed.json = Origami.json(post_syndication.ori(Tree.take(post_data.ori, 10)))
-		feed.xml = Origami.rss(post_syndication.ori(Tree.take(post_data.ori, 10)))
+		feed.json = Origami.json(post_syndication.ori(Tree.take(combined_post_feed, 10)))
+        feed.xml = Origami.rss(post_syndication.ori(Tree.take(combined_post_feed, 10)))
 	}
 
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)

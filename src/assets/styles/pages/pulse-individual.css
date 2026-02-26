@@ -108,6 +108,10 @@ main header {
 	}
 }
 
+.challenger-approaching-wrapper {
+	filter: drop-shadow(0 0 2rem #aa0022);
+}
+
 #challenger {
 	margin-block-start: 70vh;
 	margin-block-end: 20vh;
