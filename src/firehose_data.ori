@@ -11,6 +11,7 @@
 	}))
 	...event_data.yaml → functions/expand-events.js
 	...video_data.ori
+	...pulse_data.ori
 	...micro_data.ori
 	...(elsewhere_data.yaml → (_) => Tree.map(_, (elsewhere) => {
 		...elsewhere

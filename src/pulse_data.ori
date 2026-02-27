@@ -1,6 +1,7 @@
 pulse
 → (_) => Tree.map(_, (pulse, fileName) => {
 	...pulse
+	type: "pulse"
 	file_name: Origami.basename(fileName)
 })
 → (_) => Tree.mapExtension(_, ".md->.html", {

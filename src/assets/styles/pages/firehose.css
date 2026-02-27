@@ -93,6 +93,25 @@ article {
 	}
 }
 
+.pulse {
+	background: var(--red);
+	color: var(--black);
+
+	.readable {
+		padding-block: 2rem;
+		text-align: center;
+
+		svg {
+			filter: drop-shadow(0.5rem 0.5rem var(--bright_white));
+		}
+	}
+
+	strong {
+		font-size: larger;
+		font-feature-settings: "swsh";
+	}
+}
+
 .micro {
 	background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.8)), oklch(from var(--blue) l c h / calc(alpha - 0.85)));
 }

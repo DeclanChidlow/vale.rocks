@@ -8,11 +8,11 @@
 	favicon: "https://vale.rocks/assets/favicon.svg"
 
 	items: Tree.values(Tree.map(posts, (post, fileName) => {
-		id: `https://vale.rocks/${post/svg_year ? "pulse" : "posts"}/${ Origami.basename(fileName) }`
-		url: `https://vale.rocks/${post/svg_year ? "pulse" : "posts"}/${ Origami.basename(fileName) }` 
+		id: `https://vale.rocks/${ post/type === "pulse" ? "pulse" : "posts" }/${ Origami.basename(fileName) }`
+		url: `https://vale.rocks/${ post/type === "pulse" ? "pulse" : "posts" }/${ Origami.basename(fileName) }`
 		title: post.title
 		content_html: `
-			${ post/svg_year ? `<p><strong>This is my annual pulse post, which is data heavy and contains visualisations and interactive elements. The experience of viewing it in a feed reader might be compromised, so I advise viewing it directly on the web <a href="https://vale.rocks/pulse/${ Origami.basename(fileName) }">at Vale.Rocks</a>.</strong></p>` : '' }
+			${ post/type === "pulse" ? `<p><strong>This is my annual pulse post, which is data heavy and contains visualisations and interactive elements. The experience of viewing it in a feed reader might be compromised, so I advise viewing it directly on the web <a href="https://vale.rocks/pulse/${ Origami.basename(fileName) }">at Vale.Rocks</a>.</strong></p>` : '' }
 			${ post/site_recommended ? `<p><strong>This post is best viewed directly on the web <a href="https://vale.rocks/posts/${ Origami.basename(fileName) }">at Vale.Rocks</a>, as it contains features unlikely to work in a feed reader.</strong></p>` : '' }
 			${ post/_body }
 		`

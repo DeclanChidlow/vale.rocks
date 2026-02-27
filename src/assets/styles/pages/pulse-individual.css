@@ -12,7 +12,6 @@ main header {
 	border-bottom: 2px solid light-dark(var(--black), var(--bright_white));
 
 	h1 svg {
-		fill: light-dark(var(--black), var(--bright_white));
 		filter: drop-shadow(0.5rem 0.5rem var(--red));
 	}
 
@@ -105,6 +104,17 @@ main header {
 
 	.level-4 {
 		background-color: var(--green);
+	}
+}
+
+.sign-off {
+	margin-block-start: 3rem;
+
+	svg {
+		fill: none;
+		stroke: light-dark(var(--black), var(--bright_white));
+		max-inline-size: 16rem;
+		margin-block-start: 1rem;
 	}
 }
 

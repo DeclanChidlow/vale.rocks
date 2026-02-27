@@ -150,6 +150,24 @@ _body:
 			</article>
 		`
 
+		: item.type === 'pulse' ? `
+			<article class="pulse">
+				<header>
+					<div>
+						<svg viewBox="0 -960 960 960"><title>Pulse</title><path d="M48-444v-72h221l93 232 236-585 142 353h172v72H692l-94-232L362-91 220-444z"/></svg>
+						<h2><a href="/pulse/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
+					</div>
+				</header>
+
+				<div class="readable">
+					<p><em>The annual recap of the year that was…</em></p>
+					${ item/svg_year }
+					<p>🙜 <strong>${ item.title }</strong> 🙞</p>
+					<p>${ item.og_description }</p>
+				</div>
+			</article>
+		`
+
 		: `
 			<article class="micro">
 				<header>
