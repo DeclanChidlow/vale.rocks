@@ -918,6 +918,12 @@
   watches:
     - date: 2021-06-30
       format: Streaming
+- title: "Twilight Zone: The Movie"
+  release_year: 1983
+  notes: Segments one, three, and four are standout. Lithgow's performance has stuck with me ever since I first caught the latter portion of the fourth segment late at night on free-to-air.
+  watches:
+    - date: 2026-02-28
+      format: Streaming
 - title: "Star Wars: Return of the Jedi"
   release_year: 1983
 - title: WarGames
