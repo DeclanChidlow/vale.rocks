@@ -1,7 +1,7 @@
 ---
-title: On Writing for Publications 
+title: On Writing for Publications
 description: Notes on experiences and takeaways from writing professionally for a range of publications. Notes on pitching articles, writing outlines, collaborating effectively, taking feedback, ensuring good work, and providing your author details.
-og_description: Lessons from an incapable fool with a byline. 
+og_description: Lessons from an incapable fool with a byline.
 pub_time: 2025-11-24
 section: Tutorials
 tags: [writing]
@@ -56,6 +56,14 @@ As Terence Eden wrote, [we've got to stop sending files to each other](https://s
 Microsoft Word, Ellipsus, Collabora Writer, OnlyOffice Document Editor, Google Docs, Notion, AFFiNE, whatever -- use a tool that lets you write collaboratively. The bare minimum is the ability to edit text, comment on sections of text, and propose changes. Being able to have changes added as suggestions rather than direct edits is invaluable for permitting proper understanding and open discussion of changes. A nice to have, if possible, is the ability to see a changelog, so both parties can see when a modification has been made.
 
 It is so much faster and allows asynchronous work. Catch something and need to make a few tweaks? You can do that without needing full back-and-forth communication. There is only one authoritative source and one less point of communicative failure.
+
+## Make Presence of Alt-Text Obvious
+
+You must write textual alternatives for any media. That is non-negotiable. However, there is some complexity to providing that content in a way that ensures it reaches final publication and isn't left in the draft.
+
+Many writing tools include features to include media and assign it alt-text, but alt-text provided using inbuilt fields is commonly not visually exposed and is thus hidden for most intents and purposes. Make sure it is obvious that any alt-text you have written exists, either by directly communicating with the editor/publisher or by including it directly inline with the text rather than hidden within a writing tool's alt-text section.
+
+Failure to make your alt-text appropriately obvious may lead to new alt-text being written for you, which might not properly convey what you're trying to, or, even worse, no alt-text reaching the final publication at all.
 
 ## Don't Submit On The Same Day You Write
 

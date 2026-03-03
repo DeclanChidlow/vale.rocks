@@ -126,6 +126,8 @@
       format: Streaming
 - title: "Spider-Man: Far From Home"
   release_year: 2019
+- title: Jojo Rabbit
+  release_year: 2019
 - title: Spies in Disguise
   release_year: 2019
 - title: The Secret Life of Pets 2
@@ -501,6 +503,8 @@
 - title: The Darjeeling Limited
   release_year: 2007
   rating: 4
+- title: Juno
+  release_year: 2007
 - title: Shrek The Third
   release_year: 2007
 - title: Harry Potter and the Order of the Phoenix

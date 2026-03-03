@@ -299,7 +299,7 @@ I set my leader key to <kbd>Space</kbd>, as I find it to be much more convenient
 vim.g.mapleader = " "
 ```
 
-If I'm opening and closing brackets, there is a reasonable assumption that I wish to enter them, so I have binds that place my cursor within them after creating them. The same applies to quotes and backticks.
+If I'm opening and closing brackets, there is a reasonable assumption that I wish to enter them, so I have binds that place my cursor within them after creating them. The same applies to quotes and backticks, though I specifically avoid the functionality with triple backticks as they're used for delineating codeblocks in markdown.
 
 ```lua
 map("i", "<>", "<><left>", { desc = "Enter into angled brackets" })
@@ -309,6 +309,7 @@ map("i", "[]", "[]<left>", { desc = "Enter into square brackets" })
 map("i", '""', '""<left>', { desc = "Enter into double quotes" })
 map("i", "''", "''<left>", { desc = "Enter into single quotes" })
 map("i", "``", "``<left>", { desc = "Enter into backticks" })
+map("i", "```", "```", { desc = "Don't enter into codeblock backticks" })
 ```
 
 When I move around the screen, I want to move by the lines on the screen, not arbitrary lines of the document. This isn't generally an issue, but becomes one when I have line wrapping enabled.
