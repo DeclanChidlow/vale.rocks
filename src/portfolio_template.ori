@@ -20,9 +20,7 @@ _body:
 		${ post.repository ? `<ul id="repo-details"></ul>` : '' }
 
 		<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-		${ post.tags ? post.tags.map(tag => `
-			<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>
-		`) : '' }
+			${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>`) : '' }
 		</ul>
 	</header>
 

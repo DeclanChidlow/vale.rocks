@@ -8,6 +8,7 @@ article header {
 	display: flex;
 	flex-grow: 1;
 	justify-content: space-between;
+	align-items: center;
 	gap: 2rem;
 	padding-block-end: 0.5rem;
 	margin-block-end: 1rem;
@@ -15,6 +16,7 @@ article header {
 	max-inline-size: 60ch;
 
 	h1 {
+		display: block;
 		font-size: inherit;
 		line-height: inherit;
 	}
@@ -128,6 +130,6 @@ article header {
 		margin-inline-start: 0.5rem;
 		padding-block: 0.25rem;
 		padding-inline-start: 0.75rem;
-		border-left: 2px solid light-dark(var(--white), var(--bright_grey));
+		border-inline-start: 2px solid light-dark(var(--white), var(--bright_grey));
 	}
 }

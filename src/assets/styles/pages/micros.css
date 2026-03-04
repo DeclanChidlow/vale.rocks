@@ -7,10 +7,12 @@ article {
 	header {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		gap: 2rem;
 		margin-bottom: 1rem;
 
 		h2 {
+			display: block;
 			font-size: inherit;
 			line-height: inherit;
 			font-weight: 600;

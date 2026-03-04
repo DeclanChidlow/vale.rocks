@@ -9,7 +9,7 @@
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
-	combined_post_feed = Tree.reverse(Tree.sort({ ...post_data.ori, ...pulse_data.ori }, (item) => item.pub_time)) 
+	(combined_post_feed) = Tree.reverse(Tree.sort({ ...post_data.ori, ...pulse_data.ori }, (item) => item.pub_time)) 
 	posts.html = pages/posts.ori(post_data.ori)
 	posts/ = {
 		...Tree.map(post_data.ori, post_template.ori)
@@ -53,7 +53,7 @@
 		feed.xml = Origami.rss(video_syndication.ori(Tree.take(video_data.ori, 30)))
 	}
 
-	(paginated_elsewhere) = Tree.paginate(elsewhere_data.yaml , 100)
+	(paginated_elsewhere) = Tree.paginate(elsewhere_data.yaml , 50)
 	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 	elsewhere/ = {
 		...Tree.mapExtension(paginated_elsewhere, "→.html", {

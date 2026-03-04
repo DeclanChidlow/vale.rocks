@@ -28,15 +28,11 @@ _body:
 			<ul class="stats">
 				<li>${ post.words } words</li>
 				<li><time class="dt-published" datetime="${ post.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(post.pub_time) }</time>
-				${ post.mod_time ? `
-					– <time class="dt-updated" datetime="${ post.mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post.mod_time) }</time></li>
-				` : '' }
+				${ post.mod_time ? `– <time class="dt-updated" datetime="${ post.mod_time }" title="Date of last notable modification.">${ functions/pretty-date.js(post.mod_time) }</time></li>` : '' }
 			</ul>
 
 			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-			${ post.tags ? post.tags.map(tag => `
-				<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>
-			`) : '' }
+				${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>`) : '' }
 			</ul>
 		</header>
 
