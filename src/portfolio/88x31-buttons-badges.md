@@ -2,9 +2,9 @@
 title: 88x31 Buttons/Badges
 description: Exploring modern interpretations of classic 88×31 web badges and buttons within the restraints of the mediums. An assortment of relevant modern buttons designed with contemporary values, an appreciation for the old web, and current brand resources.
 og_description: Fun buttons/badges for adorning websites.
+tags: [design, IndieWeb/SmallWeb]
 accent_colour: "#cccecb"
 repository: DeclanChidlow/88x31-Buttons-Badges
-tags: [design, IndieWeb/SmallWeb]
 ---
 
 Emerging in the mid-90s, badges/buttons with a resolution of 88 pixels by 31 pixels spread through the web like wildfire before eventually waning in popularity in the 2000s.

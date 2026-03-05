@@ -2,10 +2,9 @@
 title: TechConf.Directory
 description: A global technology conferences directory featuring advanced filtering and a custom public API. Built to solve the logistical challenges of event discovery, prioritising data accessibility and a high-performance static architecture.
 og_description: Technology conference listing site.
+tags: [design, development, front-end development]
 accent_colour: "#b88b41"
 repository: DeclanChidlow/techconf.directory
-tags: [design, development, front-end development]
-hoisted: false
 ---
 
 Frustrated by the difficulty of discovering conferences and finding information about them in a central location, I created [TechConf.Directory](https://techconf.directory), a site listing technology conferences across the globe.

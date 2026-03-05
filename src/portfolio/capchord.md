@@ -3,7 +3,6 @@ title: CapChord
 description: My adaptive business venture that evolved from specialised closed captioning services to personalised tech support for seniors using a client-focused approach that combines troubleshooting with accessible teaching methods, delivering solutions while empowering clients to better understand their technology.
 og_description: Self-founded business.
 accent_colour: "#ffb200"
-hoisted: false
 ---
 
 CapChord is my business that has taken on various purposes throughout the years.

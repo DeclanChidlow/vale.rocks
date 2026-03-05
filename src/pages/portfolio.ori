@@ -233,25 +233,21 @@ _body:
 		<p>Some of that which I’ve had the privilege of working on.</p>
 
 		<div class="hoisted">
-			${ Tree.map(portfolio_data, (item, key) => `
-				${ item.hoisted ? 
-					`<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour };">
-						<h3 style="view-transition-name: ${ Origami.slug(item.title) }-title;">${ item.title }</h2>
-						<p style="view-transition-name: ${ Origami.slug(item.title) }-description;">${ item.og_description }</p>
-					</a>`
-				: '' }
+			${Tree.map(Tree.sort(Tree.filter(portfolio_data, (item) => item.hoisted), (item) => item.hoisted), (item, key) => `
+				<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour };">
+					<h3 style="view-transition-name: ${ Origami.slug(item.title) }-title;">${ item.title }</h3>
+					<p style="view-transition-name: ${ Origami.slug(item.title) }-description;">${ item.og_description }</p>
+				</a>
 			`)}
 		</div>
 
 		<details>
 			<summary>More portfolio items</summary>
-			${ Tree.map(portfolio_data, (item, key) => `
-				${ item.hoisted ? '' : `
-					<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour }; --transition-name: ${ Origami.slug(item.title) };">
-						<h3 style="view-transition-name: ${ Origami.slug(item.title) }-title;">${ item.title }</h2>
-						<p style="view-transition-name: ${ Origami.slug(item.title) }-description;">${ item.og_description }</p>
-					</a>
-				`}
+			${Tree.map(Tree.filter(portfolio_data, (item) => !item.hoisted), (item, key) => `
+				<a href="/portfolio/${ Origami.basename(key) }" style="--accent: ${ item.accent_colour }; --transition-name: ${ Origami.slug(item.title) };">
+					<h3 style="view-transition-name: ${ Origami.slug(item.title) }-title;">${ item.title }</h3>
+					<p style="view-transition-name: ${ Origami.slug(item.title) }-description;">${ item.og_description }</p>
+				</a>
 			`)}
 		</details>
 	</section>

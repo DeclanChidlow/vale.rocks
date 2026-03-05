@@ -2,9 +2,8 @@
 title: Wardfinder
 description: An indoor navigation solution for medical spaces such as hospitals implemented in a manner accessible to a wide and assorted range of users.
 og_description: Indoor navigation solution for medical spaces.
-accent_colour: "#016875"
 tags: [development]
-hoisted: false
+accent_colour: "#016875"
 ---
 
 Wardfinder was a startup intending to improve navigation through indoor medical facilities. Think Google Maps, but for finding your way around hospitals.

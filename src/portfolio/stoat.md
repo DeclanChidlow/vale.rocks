@@ -2,9 +2,9 @@
 title: Stoat
 description: An online chat platform that places users first and how I have contributed to it over the several years I've been involved with the project. From maintenance, moderation, and support to designing core brand resources.
 og_description: User-first chat platform.
-accent_colour: "#8c24ec"
-hoisted: true
 tags: [design, Stoat, development, front-end development]
+accent_colour: "#8c24ec"
+hoisted: 1
 ---
 
 [Stoat](<https://en.wikipedia.org/wiki/Stoat_(software)>) is an open-source, user-first chat application, similar in functionality to Discord or Slack. During my time with the project, I have helped scale it from less than 100K users to over a million.
