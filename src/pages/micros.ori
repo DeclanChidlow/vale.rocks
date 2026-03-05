@@ -16,7 +16,7 @@ _body:
 		${ Tree.map(paginated_micros.items, (item, key) => `
 			<article>
 				<header>
-					<h2><time datetime="${ item.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time>${ item.title ? ` - ${ item.title }` : '' }</h2>
+					<h2><a href="/micros/${ item.file_name }"><time datetime="${ item.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time>${ item.title ? ` - ${ item.title }` : '' }</a></h2>
 
 					<div class="socials">
 						${ item.fedi_link ? `<a href="${ item.fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
