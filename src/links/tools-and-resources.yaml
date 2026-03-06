@@ -271,6 +271,9 @@
 - title: Squoosh
   url: squoosh.app
   description: Compare differences in image file formats and compression. Good for tuning in the exact level of compression to use.
+- title: Moss
+  url: moss.town
+  description: Pixel editor with brushes that feel alive.
 - title: Clippy
   url: bennettfeely.com/clippy
   description: CSS clip-path maker

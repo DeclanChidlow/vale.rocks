@@ -650,6 +650,11 @@
   release_year: 2001
 - title: Spy Kids
   release_year: 2001
+- title: Zoolander
+  release_year: 2001
+  watches:
+    - date: 2026-03-06
+      format: Streaming
 - title: The Royal Tenenbaums
   release_year: 2001
 - title: "Cowboy Bebop: The Movie"

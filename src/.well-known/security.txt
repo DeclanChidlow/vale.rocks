@@ -1,2 +1,3 @@
 Contact: https://vale.rocks/contact
+Preferred-Languages: en
 Canonical: https://vale.rocks/.well-known/security.txt
