@@ -59,15 +59,19 @@ Online platforms have become a large part of people's lives, even if they may co
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/codeberg_button.gif" alt="'Codeberg' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/gitlab_button.gif" alt="'GitLab' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/npmx_button.gif" alt="'npmx' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/imood_button.gif" alt="'imood' badge.">
 </div>
 
 ## Media
 
-The media we consume often represents us as people. These buttons are perfect for presenting our tastes and finding others with similar interests.
+The media we consume often represents us as people. These buttons are perfect for presenting one's tastes and finding others with similar interests.
 
 <div class="buttons-badges">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/jet-set-radio_button.gif" alt="'Jet Set Radio' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/minecraft_button.gif" alt="'Minecraft' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/terraria_button.gif" alt="'Terraria' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/evangelion_button.gif" alt="'Evangelion' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/cowboy-bebop_button.gif" alt="'Cowboy Bebop' badge.">
 </div>
 
 ## Miscellaneous
