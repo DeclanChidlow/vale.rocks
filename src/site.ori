@@ -63,6 +63,14 @@
 		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data.yaml, 100)))
 	}
 
+	(paginated_now) = Tree.paginate(now_data.ori , 50)
+	now.html = pages/now.ori(Tree.first(paginated_now))
+	now/ = {
+		...Tree.mapExtension(paginated_now, "→.html", {
+			value: pages/now.ori
+		})
+	}
+
 	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
 	links/ = Tree.from({
 		blogs.html: links/blogs.ori(links/blogs.yaml)

@@ -44,7 +44,7 @@ _body:
 
 					<div class="socials">
 						${ item.unsplash_link ? `
-						<a href="${ item.unsplash_link }" title="Unsplash">${ unsplash_icon }</a>` : '' }
+						<a href="${ item.unsplash_link }" title="Unsplash">${ (icons.yaml).unsplash }</a>` : '' }
 					</div>
 				</header>
 
@@ -83,7 +83,7 @@ _body:
 
 					<div class="socials">
 						${ item.codepen_slug ? `
-						<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug } title="CodePen">${ codepen_icon }</a>` : '' }
+						<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug } title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
 					</div>
 				</header>
 
@@ -136,7 +136,7 @@ _body:
 
 					<div class="socials">
 						${ item.youtube_id ? `
-						<a href="https://www.youtube.com/${ item.format === 'short' ? `shorts/` : `watch?v=` }${ item.youtube_id }" title="YouTube">${ item.format === 'short' ? `${youtube_shorts_icon}` : `${youtube_icon}` }</a>` : '' }
+						<a href="https://www.youtube.com/${ item.format === 'short' ? `shorts/` : `watch?v=` }${ item.youtube_id }" title="YouTube">${ item.format === 'short' ? `${ (icons.yaml).youtube_shorts }` : `${ (icons.yaml).youtube }` }</a>` : '' }
 					</div>
 				</header>
 				
@@ -177,10 +177,10 @@ _body:
 					</div>
 
 					<div class="socials">
-						${ item.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ item.fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
-						${ item.bsky_link ? `<a href="https://bsky.app/profile/${ item.bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
-						${ item.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ item.linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
-						${ item.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ item.lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
+						${ item.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ item.fedi_link }" title="Fediverse">${ (icons.yaml).fediverse }</a>` : '' }
+						${ item.bsky_link ? `<a href="https://bsky.app/profile/${ item.bsky_link }" title="Bluesky">${ (icons.yaml).bluesky }</a>` : '' }
+						${ item.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ item.linkedin_link }" title="LinkedIn">${ (icons.yaml).linkedin }</a>` : '' }
+						${ item.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ item.lesswrong_link }" title="LessWrong">${ (icons.yaml).lesswrong }</a>` : '' }
 					</div>
 				</header>
 

@@ -3,10 +3,11 @@ title: Wishes Upon My Demise
 description: Publicly available documentation of what I'd like to occur in the event of my death. Includes information about my wishes for voluntary assisted dying.
 og_description: For when I cark it.
 pub_time: 2025-07-19
+mod_time: 2026-03-09
 section: Meta
 ---
 
-Ideally I'll persist till old age with my full mental and physical faculties, but that isn't guaranteed. Death will eventually take me, as it takes all, though I cannot offer any suggestion as to how.
+Ideally I'll persist till old age with my full mental and physical faculties, but that isn't guaranteed. Regardless of the journey, death will eventually take me, as it takes all, though I cannot offer any suggestion as to how.
 
 I think it is important to accept the inevitability of death and make plans accordingly, rather than deny it and leave others to make difficult decisions potentially not aligned with one's true desires. This document intends to outline my wishes post death and provide my wishes regarding assisted dying.
 
@@ -23,19 +24,19 @@ My biggest fear in life is a degenerative disease that slowly takes me, so in th
 
 In the event of degenerative disease, I may show moments of lucidity or my old self, but these will not be representative and shouldn't be taken as reasons to prolong my suffering.
 
-I support the right to voluntary assisted dying or equivalent options where suffering outweighs existence. I will take that option. I’d rather go early while still somewhat myself than late, after I’m gone in everything but name.
+I support the right to voluntary assisted dying or equivalent options where suffering outweighs existence. I will take that option. I'd rather go early while still somewhat myself than late, after I'm gone in everything but name.
 
-If medical science ever advances to the point where my mind could be restored or repaired, then I'd like to pursue that, but otherwise, don’t freeze me, tube me, or preserve me just for the idea of potential. I'm [undecided on my preference](https://vale.rocks/micros/20250413-1511) regarding whole brain emulation, so I wish to opt-out.
+If medical science ever advances to the point where my mind could be restored or repaired, then I'd like to pursue that, but otherwise, don't freeze me, tube me, or preserve me just for the idea of potential. I'm [undecided on my preference](https://vale.rocks/micros/20250413-1511) regarding whole brain emulation, so I wish to opt-out.
 
-## Donate My Organs
+I'd prefer that nobody attempts one of those 'speak to dead person by feeding their information into AI' things.
+
+## Dealing With My Body
 
 I am a registered organ donor in Australia and would like my organs to be donated as first priority upon my death.
 
 If necessary, mangle my body to get my organs out. Please do not allow my organs or any other useful part of my body to be wasted for the sake of preserving my appearance or structure. My body without me is a resource and should be reaped as such.
 
-## Don't Bury Me
-
-When I die, I don't want my body to be buried with any permanency. It is a waste of space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research, [^1] but otherwise it should be subject to cremation, resomation, promession, or being pushed off a jetty.
+When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research, [^1] but otherwise it should be subject to cremation, resomation, promession, or being pushed off a jetty.
 
 I also wouldn't take issue with a mushroom burial suit as long as I don't have a marked grave plot taking up space. That kinda defeats the point. The matter that makes up my form has been other things before and will be other things after.
 
@@ -64,17 +65,19 @@ Please include my name, place of death, time of death, cause of death, and any o
 
 You may also use the aforementioned channels to advertise any funeral or memorial as seen fit.
 
+Some social media platforms have inbuilt functionality for noting the account owner as deceased. Please use this functionality.
+
 ## Preserving Vale.Rocks
 
 This site should be my legacy. I have documented its hosting and deployment on this website and its repository's `README.md`, which should be referenced. Please renew my domain (`vale.rocks`) regularly for the maximum possible term and make sure everything is backed up to the [Internet Archive](https://archive.org).
 
 By design, this site depends minimally on external dependencies and resources and is built close to the web platform such that it should remain usable for as long as browsers maintain backwards compatibility.
 
-All my writing and photography on this site, as well as the code for the site itself, shall be dedicated to the public domain after my death has been confirmed. I give permission to modify the footer to reflect this change in licensing.
-
 Otherwise, please do not modify this site beyond ensuring it is still available for access. Acceptable alterations would include server migrations and minor updates to ensure dependencies keep working as they do at the time of death. Unacceptable alterations would include publishing new content or rewriting code to make the site adaptive to new platforms.
 
 ## Copyright and Ownership
+
+All my writing and photography on Vale.Rocks, as well as the code for the site itself, shall be dedicated to the public domain after my death has been confirmed. I give permission to modify the footer to reflect this change in licensing.
 
 Any and all of my content published externally to this site should remain under the same licences it did prior to my death, unless otherwise noted.
 

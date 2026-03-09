@@ -1,0 +1,38 @@
+(paginated_nows) => main_template.ori({
+	title: "Now"
+	description: "An actively updated page outlining what Declan Chidlow is currently up to at any given time. Covering work, life, and projects so you can know what I'm working and focusing on."
+	og_description: "What I'm up to at present."
+	stylesheet: "pages/now.css"
+	canonical: `/now${ paginated_nows.pageNumber > 1 ? '/' + paginated_nows.pageNumber : '' }`
+
+_body:
+`<h1 class="section" data-pagefind-ignore>Now</h1>
+
+<div>
+	${ paginated_nows.previousPage ? '' : `
+		<div class="readable">
+			<p>This is my <a href="https://nownownow.com/about">now page</a>. It outlines what I'm doing <em>now</em>. That being at the present.</p>
+
+			<hr>
+
+			${ Tree.map(Tree.take(paginated_nows.items, 1), (item, key) => `
+				<p>At this very moment, your charming webmaster finds themself...</p>
+				${ item._body }
+				<p>I currently <strong>do${ settings.yaml/freelance_availability ? "" : "n't" } have</strong> freelance availability.</p>
+
+				<hr>
+
+				<p>Last updated: <em>${ item.pub_time }</em></p>
+			`)}
+		</div>
+	` }
+
+
+	<!--
+	<div class="pagination">
+		${ paginated_nows.previousPage ? `<a href="/nows/${ paginated_nows.previousPage === 1 ? '' : paginated_nows.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
+		<p>Page ${ paginated_nows.pageNumber } of ${ paginated_nows.pageCount }</p>
+		${ paginated_nows.nextPage ? `<a href="/nows/${ paginated_nows.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
+	</div>
+	-->
+</div>`})

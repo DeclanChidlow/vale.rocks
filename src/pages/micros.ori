@@ -10,7 +10,7 @@ _body:
 `<h1 class="section" data-pagefind-ignore>Micros</h1>
 
 <div>
-	${ paginated_micros.previousPage ? '' : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish micros, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
+	${ paginated_micros.previousPage ? '' : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
 
 	<div data-pagefind-ignore="all">
 		${ Tree.map(paginated_micros.items, (item, key) => `
@@ -19,10 +19,10 @@ _body:
 					<h2><a href="/micros/${ item.file_name }"><time datetime="${ item.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time>${ item.title ? ` - ${ item.title }` : '' }</a></h2>
 
 					<div class="socials">
-						${ item.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ item.fedi_link }" title="Fediverse">${ fediverse_icon }</a>` : '' }
-						${ item.bsky_link ? `<a href="https://bsky.app/profile/${ item.bsky_link }" title="Bluesky">${ bluesky_icon }</a>` : '' }
-						${ item.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ item.linkedin_link }" title="LinkedIn">${ linkedin_icon }</a>` : '' }
-						${ item.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ item.lesswrong_link }" title="LessWrong">${ lesswrong_icon }</a>` : '' }
+						${ item.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ item.fedi_link }" title="Fediverse">${ (icons.yaml).fediverse }</a>` : '' }
+						${ item.bsky_link ? `<a href="https://bsky.app/profile/${ item.bsky_link }" title="Bluesky">${ (icons.yaml).bluesky }</a>` : '' }
+						${ item.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ item.linkedin_link }" title="LinkedIn">${ (icons.yaml).linkedin }</a>` : '' }
+						${ item.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ item.lesswrong_link }" title="LessWrong">${ (icons.yaml).lesswrong }</a>` : '' }
 					</div>
 				</header>
 

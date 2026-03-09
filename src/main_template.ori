@@ -163,13 +163,13 @@
 		<div class="footer-bottom">
 			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 			<ul>
-				<li><a href="https://fedi.vale.rocks/vale" rel="me">${ fediverse_icon }</a></li>
-				<li><a href="https://bsky.app/profile/vale.rocks" rel="me">${ bluesky_icon }</a></li>
-				<li><a href="https://github.com/DeclanChidlow" rel="me">${ github_icon }</a></li>
-				<li><a href="https://unsplash.com/@outervale" rel="me">${ unsplash_icon }</a></li>
-				<li><a href="https://www.linkedin.com/in/declan-chidlow" rel="me">${ linkedin_icon }</a></li>
-				<li><a href="https://codepen.io/OuterVale" rel="me">${ codepen_icon }</a></li>
-				<li><a href="https://www.youtube.com/@outervale" rel="me">${ youtube_icon }</a></li>
+				<li><a href="https://fedi.vale.rocks/vale" rel="me">${ (icons.yaml).fediverse }</a></li>
+				<li><a href="https://bsky.app/profile/vale.rocks" rel="me">${ (icons.yaml).bluesky }</a></li>
+				<li><a href="https://github.com/DeclanChidlow" rel="me">${ (icons.yaml).github }</a></li>
+				<li><a href="https://unsplash.com/@outervale" rel="me">${ (icons.yaml).unsplash }</a></li>
+				<li><a href="https://www.linkedin.com/in/declan-chidlow" rel="me">${ (icons.yaml).linkedin }</a></li>
+				<li><a href="https://codepen.io/OuterVale" rel="me">${ (icons.yaml).codepen }</a></li>
+				<li><a href="https://www.youtube.com/@outervale" rel="me">${ (icons.yaml).youtube }</a></li>
 			</ul>
 		</div>
 	</footer>
