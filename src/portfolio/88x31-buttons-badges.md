@@ -60,6 +60,8 @@ Online platforms have become a large part of people's lives, even if they may co
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/gitlab_button.gif" alt="'GitLab' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/npmx_button.gif" alt="'npmx' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/imood_button.gif" alt="'imood' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/techconf-directory_button.gif" alt="'TechConf.Directory' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/kofi_button.gif" alt="'Ko-Fi' badge.">
 </div>
 
 ## Media
@@ -72,6 +74,8 @@ The media we consume often represents us as people. These buttons are perfect fo
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/terraria_button.gif" alt="'Terraria' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/evangelion_button.gif" alt="'Evangelion' badge.">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/cowboy-bebop_button.gif" alt="'Cowboy Bebop' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/team-fortress_button.gif" alt="'Team Fortress' badge.">
+    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/siiva-gunner_button.gif" alt="'SiIvaGunner' badge.">
 </div>
 
 ## Miscellaneous
@@ -98,8 +102,9 @@ article {
 
 	img {
 		display: inline;
-		image-rendering: pixelated;
         inline-size: 176px;
+		image-rendering: pixelated;
+        object-fit: contain;
 	}
 }
 </style>
