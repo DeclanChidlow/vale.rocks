@@ -1,43 +1,21 @@
 article {
-	max-inline-size: 65ch;
 	margin-block: 1rem;
-	padding-block-start: 1rem;
-	padding-block-end: 2rem;
-	padding-inline: 1rem;
+	padding-block: 1rem;
 	border-block-end: 2px solid var(--bright_grey);
 
-	header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 2rem;
-		margin-block-end: 1rem;
-
-		h2 {
-			display: block;
-			font-size: inherit;
-			line-height: inherit;
-			font-weight: 600;
-		}
-
-		div {
-			display: flex;
-			gap: 1ch;
-		}
+	h2 {
+		font-size: 1.2rem;
 	}
 }
 
-.socials {
-	display: flex;
-	gap: 1rem;
+.mood {
+	display: inline;
+	block-size: 1.3rem;
+	vertical-align: text-bottom;
+	image-rendering: pixelated;
 
-	a::after {
-		display: none;
-	}
-
-	svg {
-		inline-size: 1.25rem;
-		min-inline-size: 1.25rem;
+	@media (prefers-color-scheme: dark) {
+		filter: invert(1);
 	}
 }
 

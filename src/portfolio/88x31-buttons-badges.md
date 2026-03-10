@@ -1,13 +1,13 @@
 ---
 title: 88x31 Buttons/Badges
 description: Exploring modern interpretations of classic 88×31 web badges and buttons within the restraints of the mediums. An assortment of relevant modern buttons designed with contemporary values, an appreciation for the old web, and current brand resources.
-og_description: Fun buttons/badges for adorning websites.
+og_description: Assorted buttons/badges for adorning websites.
 tags: [design, IndieWeb/SmallWeb]
 accent_colour: "#cccecb"
 repository: DeclanChidlow/88x31-Buttons-Badges
 ---
 
-Emerging in the mid-90s, badges/buttons with a resolution of 88 pixels by 31 pixels spread through the web like wildfire before eventually waning in popularity in the 2000s.
+Emerging in the mid-90s, badges/buttons with a resolution of 88 pixels by 31 pixels spread through the web like wildfire before eventually waning in popularity during the 2010s.
 
 A sure remnant of the olden days of the web, today they have a retro chic. They're a fun, lo-fi visual adornment, so I took it upon myself to design some modern buttons/badges adhering to the limitations of the time. I'm always looking to improve and refine my skills, and a restraint such as a canvas of a mere 2728 pixels proved a great opportunity.
 
@@ -52,7 +52,7 @@ Another common use for badges and buttons is to show off technologies in use. Sh
 
 ## Platforms
 
-Online platforms have become a large part of people's lives, even if they may conflict somewhat with many of the ideals of the sort of person that uses 88x31 buttons/badges. As part of making the web as a whole an interlinked place, I made a range of badges for popular platforms.
+Online platforms have become a large part of people's lives, even if they may conflict somewhat with many of the ideals of the sort of person that uses 88x31 buttons/badges. As part of making the web as a whole an interlinked place, I made a range of badges for various platforms.
 
 <div class="buttons-badges">
     <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/bluesky_button.gif" alt="'Bluesky' badge.">

@@ -376,14 +376,12 @@ section#showcase {
 
 	a {
 		display: block;
-		padding-block: 2.5rem;
-		padding-inline: 2rem;
+		padding: 2rem;
 		text-align: start;
 		text-decoration: none;
 		background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 		border: 0.05rem solid light-dark(transparent, var(--grey));
 		position: relative;
-		overflow: hidden;
 
 		&::before {
 			content: "";

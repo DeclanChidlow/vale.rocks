@@ -1,9 +1,7 @@
 nows
-→ (_) => Tree.map(_, (now, fileName) => {
-	...now
+→ (_) => Tree.map(_, (slots, fileName) => {
+	...Tree.map(slots, (val) => functions/parse-markdown.js(val))
 	pub_time: functions/pretty-date.js(Origami.basename(fileName))
-})
-→ (_) => Tree.mapExtension(_, ".md->.html", {
-	value: (now) => functions/parse-markdown.js(now)
+	date_raw: Origami.basename(fileName)
 })
 → Tree.reverse

@@ -63,11 +63,12 @@
 		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data.yaml, 100)))
 	}
 
-	(paginated_now) = Tree.paginate(now_data.ori , 50)
-	now.html = pages/now.ori(Tree.first(paginated_now))
+	(paginated_now) = Tree.paginate(now_data.ori, 50)
+	(current_now) = Tree.merge(...Tree.values(Tree.reverse(now_data.ori)))
+	now.html = pages/now.ori(null, current_now)
 	now/ = {
 		...Tree.mapExtension(paginated_now, "→.html", {
-			value: pages/now.ori
+			value: (page) => pages/now.ori(page, current_now)
 		})
 	}
 
