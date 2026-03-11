@@ -17,7 +17,7 @@ _body:
 
             <p>At this very moment, your charming webmaster finds themself...</p>
             <ul>
-				<li>Current status: <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
+				<li>Feeling <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
                 ${ Tree.map(current_now, (item, key) =>
                     (key === 'pub_time' || key === 'date_raw' || key === 'overall') ? '' : `<li>${ item }</li>`
                 )}
