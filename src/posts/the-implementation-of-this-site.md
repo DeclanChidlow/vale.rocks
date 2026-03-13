@@ -3,13 +3,13 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2026-02-09
+mod_time: 2026-03-13
 section: Meta
 tags: [design, front-end development]
 ---
 
 > [!NOTE]
-> I very much recommend you read my post ['The Design of This Site'](/posts/the-design-of-this-site) prior to this one for an explanation of some of my ethos.
+> I very much recommend you read my post [The Design of This Site](/posts/the-design-of-this-site) prior to this one for an explanation of some of my ethos.
 
 ## Previous Iterations
 
@@ -63,11 +63,7 @@ You can see my full implementation in [`graph.js`](/assets/scripts/graph.js).
 
 ### Comments
 
-As my [micro posts](/micros) are often syndicated across multiple platforms, I pull in the likes and replies from platforms with open APIs and display them all directly on my site.
-
-Sometimes the same reply is made on multiple platforms. To avoid duplication, replies that are determined to be extremely similar are merged, based on a Levenshtein distance comparison of their normalised versions.
-
-This display of interactions on micros is facilitated entirely client-side by [`comments-fetcher.js`](/assets/scripts/comments-fetcher.js).
+As my [micro posts](/micros) are often syndicated across multiple platforms, I pull in the likes and replies from platforms with open APIs and display them all directly on my site. Sometimes the same reply is made on multiple platforms. To avoid duplication, replies that are determined to be extremely similar are merged, based on a Levenshtein distance comparison of their normalised versions. This display of interactions on micros is facilitated entirely client-side by [`comments-fetcher.js`](/assets/scripts/comments-fetcher.js).
 
 Given that my readership is generally of the variety that frequents GitHub, I've previously employed [Giscus](https://giscus.app) for comment functionality, which used the [discussion page](https://github.com/DeclanChidlow/vale.rocks/discussions?discussions_q=) of my website's repo on GitHub as what is essentially a database. I [ultimately removed this comment implementation](/micros/20250828-0200) due to my growing distaste for GitHub.
 
@@ -139,7 +135,7 @@ This script does several things. As well as the expected Markdown features, head
 
 It also handles in-text abbreviations by marking up sets of three or more sequential capital letters and capital letters which directly follow numbers with the `<abbr>` element. This is fairly complex and is designed to handle a few edge cases by ignoring Roman numerals, code (inline or block), element attributes, and content already wrapped in an `<abbr>` element.
 
-I take care not to incorporate too many transformations during Markdown parsing, as it very quickly adds up, negatively impacting build time. This only becomes more of an issue as additional content is published.
+I take care not to incorporate too many transformations during Markdown parsing, as it very quickly adds up to negatively impact build time which only becomes more of an issue as additional content is published.
 
 ### IndieWeb Integration
 
@@ -167,13 +163,23 @@ My [`currently-listening.js`](/assets/scripts/currently-listening.js) script reg
 
 It isn't always precisely accurate. A slight delay in updating the status is to be expected due to the manual fetching, and metadata might not always be precise, especially if sourcing listening data from a disorganised provider, but it is well within the realms of reason overall.
 
+### Now Page
+
+I didn't just want a plain page to manually update. It seemed like a tedious endeavour and a flawed approach. It'd mean overwriting the previous content in such a way that prevents an archive from being created.
+
+However, archiving the entire page also seemed suboptimal. If I find myself updating with frequency -- perhaps weekly -- surely there will be parts of it that don't change: points that remain static. Copying the same content and thus duplicating it is a messy approach and is too noisy to be useful in any form of archive.
+
+Thus, I designed a system where each update is a YAML file. These YAML files contain sequentially numbered keys which can be overwritten by later-dated files when they're merged down. This allows me to, for example, replace the second point by defining a new value for 2 without disturbing the other existing points. There is also a specific 'overall' key for my more general updates.
+
+My current mood is also displayed via an embed from [imood.com](https://imood.com).
+
 ### Development & Deployment
 
 My development workflow for this site is pretty trivial. I run a local Origami dev server via [Bun](https://bun.com/) on my laptop and make my edits via Neovim. It's more or less the standard development flow you'd expect of any web-based project. All writing on the site is done with the exact same flow.
 
 For more info about the software of my development environment, my [article on the technology I use](/posts/uses) is worth referencing.
 
-I very much treat this site as a testing ground for my learning and therefore generally start using new features as soon as they are newly available in [Baseline](https://web.dev/baseline). My readership is generally technical, so they _should_ know how to update their browsers; furthermore, I love being on the bleeding edge, so the minor inconvenience of things perhaps not looking quite right to some people is a trade-off I'm willing to make.
+I very much treat this site as a testing ground for my learning and therefore generally start using new features as soon as they are newly available in [Baseline](https://web.dev/baseline). My readership is generally technical, so they _should_ know the importance of having an up-to-date browser; furthermore, I love being on the bleeding edge and experimenting with all the fun new web platform features on my site, so the minor inconvenience of things perhaps not looking quite right to some people is a trade-off I'm willing to make. Sticking to semantics ensures it degrades reasonably on niche browsers.
 
 I handle source control via Git with GitHub serving as a repository host. In fact, the code for this site is source-available [in its entirety](https://github.com/DeclanChidlow/vale.rocks) if you'd like to have a look.
 
@@ -195,7 +201,7 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose)[^3] serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose), [^3] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
 
 The firehose is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
