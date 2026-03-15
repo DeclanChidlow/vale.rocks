@@ -870,6 +870,11 @@
   watches:
     - date: 2025-06-28
       format: Streaming
+- title: My Neighbor Totoro
+  release_year: 1988
+  watches:
+    - date: 2026-03-13
+      format: Streaming
 - title: "The Naked Gun: From the Files of Police Squad!"
   release_year: 1988
   watches:

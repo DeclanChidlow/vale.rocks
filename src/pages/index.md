@@ -40,28 +40,28 @@ When not bodging together scripts (both the kinds you run and the kinds you read
     <canvas id="canvas"></canvas>
     <div id="info"></div>
     <button id="fullscreen-btn">
-        <svg viewBox="0 -960 960 960">
+        <svg viewBox="0 -960 960 960" height="21">
             <title>Open fullscreen</title>
             <path d="M144-144v-192h72v120h120v72zm480 0v-72h120v-120h72v192zM144-624v-192h192v72H216v120zm600 0v-120H624v-72h192v192z"/>
         </svg>
     </button>
     <div id="zoom-controls">
         <button id="zoom-in-btn" title="Zoom In">
-            <svg viewBox="0 -960 960 960" >
+            <svg viewBox="0 -960 960 960" height="21">
                 <title>Zoom in</title>
                 <path d="M765-144 526-384q-30 23-66 36-36 12-76 12-100 0-170-70t-70-170 70-170 170-70 170 70 70 170q0 40-12 76-13 36-35 66l239 239zM384-408q70 0 119-49t49-119-49-119-119-49-119 49-49 119 49 119 119 49m-36-60v-72h-72v-72h72v-72h72v72h72v72h-72v72z"/>
             </svg>
         </button>
         <span id="zoom-level">80%</span>
         <button id="zoom-out-btn">
-            <svg viewBox="0 -960 960 960">
+            <svg viewBox="0 -960 960 960" height="21">
                 <title>Zoom out</title>
                 <path d="M765-144 526-384q-30 23-66 36-36 12-76 12-100 0-170-70t-70-170 70-170 170-70 170 70 70 170q0 40-12 76-13 36-35 66l239 239zM384-408q70 0 119-49t49-119-49-119-119-49-119 49-49 119 49 119 119 49m-96-132v-72h192v72z"/>
             </svg>
         </button>
     </div>
     <button id="recenter-btn">
-        <svg viewBox="0 -960 960 960">
+        <svg viewBox="0 -960 960 960" height="21">
             <title>Recenter view</title>
             <path d="M444-72v-150l-33 33-51-51 120-120 120 120-51 51-33-33v150zM240-360l-51-51 33-33H72v-72h150l-33-33 51-51 120 120zm480 0L600-480l120-120 51 51-33 33h150v72H738l33 33zm-240-60q-25 0-42.5-17.5T420-480t17.5-42.5T480-540t42.5 17.5T540-480t-17.5 42.5T480-420m0-180L360-720l51-51 33 33v-150h72v150l33-33 51 51z"/>
         </svg>

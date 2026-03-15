@@ -40,6 +40,8 @@ If you're supporting me as a result of any specific project, then [let me know](
     </div>
 </div>
 
+If you wish to support me with a larger amount, or the previous options aren't suitable, please [contact me](/contact).
+
 ## Referrals
 
 You may also use my referral links, which provide me with benefits where applicable.
