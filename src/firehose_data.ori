@@ -1,22 +1,53 @@
-[
-	...post_data.ori
-	...photography_data.ori
-	...(demo_data.yaml → (_) => Tree.map(_, (demo) => {
-		...demo
-		type: "demo"
+// Keys overlap, so they're all converted to namespaces
+{
+	...Tree.map(post_data.ori, {
+		key: (_, key) => `posts/${key}`
+	})
+
+	...Tree.map(photography_data.ori, {
+		key: (_, key) => `photography/${key}`
+	})
+
+	...(elsewhere_data.yaml → (_) => Tree.map(_, {
+		key: (elsewhere, key) => `elsewhere/${key}`
+		value: (elsewhere) => {
+			...elsewhere
+			type: "elsewhere"
+		}
 	}))
-	...(sign-up_data.yaml → (_) => Tree.map(_, (sign-up) => {
-		...sign-up
-		type: "sign-up"
+
+	...(demo_data.yaml → (_) => Tree.map(_, {
+		key: (demo, key) => `demos/${key}`
+		value: (demo) => {
+			...demo
+			type: "demo"
+		}
 	}))
-	...event_data.yaml → functions/expand-events.js
-	...video_data.ori
-	...pulse_data.ori
-	...micro_data.ori
-	...(elsewhere_data.yaml → (_) => Tree.map(_, (elsewhere) => {
-		...elsewhere
-		type: "elsewhere"
+
+	...(sign-up_data.yaml → (_) => Tree.map(_, {
+		key: (signUp, key) => `sign-ups/${key}`
+		value: (signUp) => {
+			...signUp
+			type: "sign-up"
+		}
 	}))
-]
+
+	...Tree.map(
+		event_data.yaml → functions/expand-events.js,
+		{ key: (_, key) => `events/${key}` }
+	)
+
+	...Tree.map(video_data.ori, {
+		key: (_, key) => `videos/${key}`
+	})
+
+	...Tree.map(pulse_data.ori, {
+		key: (_, key) => `pulse/${key}`
+	})
+
+	...Tree.map(micro_data.ori, {
+		key: (_, key) => `micros/${key}`
+	})
+}
 → (_) => Tree.sort(_, (item) => item.pub_time)
 → Tree.reverse
