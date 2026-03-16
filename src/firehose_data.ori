@@ -1,13 +1,13 @@
-{
+[
 	...post_data.ori
 	...photography_data.ori
 	...(demo_data.yaml → (_) => Tree.map(_, (demo) => {
 		...demo
 		type: "demo"
 	}))
-	...(signup_data.yaml → (_) => Tree.map(_, (signup) => {
-		...signup
-		type: "signup"
+	...(sign-up_data.yaml → (_) => Tree.map(_, (sign-up) => {
+		...sign-up
+		type: "sign-up"
 	}))
 	...event_data.yaml → functions/expand-events.js
 	...video_data.ori
@@ -17,6 +17,6 @@
 		...elsewhere
 		type: "elsewhere"
 	}))
-}
+]
 → (_) => Tree.sort(_, (item) => item.pub_time)
 → Tree.reverse

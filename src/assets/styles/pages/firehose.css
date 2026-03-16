@@ -72,7 +72,8 @@ article {
 	background: light-dark(oklch(from var(--black) l c h / calc(alpha - 0.75)), oklch(from var(--white) l c h / calc(alpha - 0.85)));
 }
 
-.event {
+.event,
+.sign-up {
 	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.8)), var(--dark_grey));
 	padding-block-end: 4rem;
 
@@ -91,6 +92,12 @@ article {
 	strong {
 		font-size: larger;
 	}
+}
+
+.sign-up .readable svg {
+	block-size: 5rem;
+	inline-size: auto;
+	max-inline-size: 10rem;
 }
 
 .pulse {

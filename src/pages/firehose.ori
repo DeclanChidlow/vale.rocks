@@ -94,8 +94,8 @@ _body:
 			</article>
 		`
 
-		: item.type === 'signup' ? `
-			<article class="event">
+		: item.type === 'sign-up' ? `
+			<article class="sign-up">
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Sign-Up</title><path d="M708-432v-84h-84v-72h84v-84h72v84h84v72h-84v84zm-324-48q-60 0-102-42t-42-102 42-102 102-42 102 42 42 102-42 102-102 42M96-192v-92q0-26 13-47t34-35q55-32 116-49t125-17 125 17 116 49q22 13 35 35t12 47v92z"/></svg>
@@ -104,7 +104,7 @@ _body:
 				</header>
 
 				<div class="readable">
-					<span aria-hidden="true">${ item.svg || '' }</span>
+					<span aria-hidden="true">${ item.svg }</span>
 					<strong>Signed Up For ${ item.title }</strong>
 				</div>
 			</article>

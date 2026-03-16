@@ -26,8 +26,7 @@ _body:
 			<hr>
 
 			<p>More generally...</p>
-            ${ current_now.overall ? `<p>${ current_now.overall }</p>` : '' }
-			<p>I currently <strong>do${ settings.yaml/freelance_availability ? "" : "n't" } have</strong> freelance availability.</p>
+            <p>${ current_now.overall } I currently <strong>do${ settings.yaml/freelance_availability ? "" : "n't" } have</strong> freelance availability.</p>
 
 			<hr>
 
