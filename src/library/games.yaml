@@ -32,12 +32,18 @@
 - title: Boomerang Fu
   release_year: 2020
   platforms: ["Nintendo Switch"]
+- title: Unrailed!
+  release_year: 2020
+  platforms: ["Nintendo Switch"]
 - title: Superliminal
   release_year: 2019
   platforms: ["Xbox Series"]
   playthroughs:
     - start: 2023-02-11
       finish: 2023-02-11
+- title: Russian Subway Dogs
+  release_year: 2018
+  platforms: ["PS Vita"]
 - title: Marvel's Spider-Man
   rating: 4
   release_year: 2018
@@ -61,9 +67,19 @@
 - title: Mario Kart 8 Deluxe
   release_year: 2017
   platforms: ["Nintendo Switch", "PC"]
+- title: Slime Rancher
+  release_year: 2017
+  platforms: ["PC"]
+- title: OLDTV
+  release_year: 2017
+  platforms: ["PC"]
 - title: Leap On!
   release_year: 2017
   platforms: ["iOS"]
+- title: Robocraft
+  release_year: 2017
+  platforms: ["PC"]
+  notes: Was good fun when it first released, but slowly deteriorated as it became more heavily monetised and microtransaction laden.
 - title: Unturned
   release_year: 2017
   platforms: ["PC"]
@@ -84,10 +100,16 @@
   release_year: 2017
   first_played: 2023-02-12
   platforms: ["Xbox Series"]
+- title: Iron Snout
+  release_year: 2016
+  platforms: ["PC", "PS Vita"]
 - title: Ratz Instagib
   release_year: 2016
   platforms: ["PC"]
   notes: 'See <a href="/posts/ratz-instagib">Experiencing Zen in the Ratz Instagib Meat Grinder</a>.'
+- title: Scrap Mechanic
+  release_year: 2016
+  platforms: ["PC"]
 - title: Risky Road
   release_year: 2016
   platforms: ["iOS"]
@@ -109,6 +131,9 @@
 - title: Prune
   release_year: 2015
   platforms: ["iOS"]
+- title: Keep Talking and Nobody Explodes
+  release_year: 2015
+  platforms: ["PC"]
 - title: I Am Bread
   release_year: 2015
   platforms: ["iOS"]

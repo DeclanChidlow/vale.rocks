@@ -31,6 +31,9 @@
 - title: Unsplash
   url: unsplash.com
   description: Stock photos.
+- title: Artvee
+  url: artvee.com
+  description: Classical and modern art.
 - title: Oh Shit, Git!?!
   url: ohshitgit.com
   description: A guide to un-fucking your Git mistakes.
@@ -88,6 +91,9 @@
 - title: Svgl
   url: svgl.app
   description: A library of SVG brand logos.
+- title: nomnoml
+  url: www.nomnoml.com
+  description: Draw UML diagrams with a simple syntax.
 - title: Uiverse
   url: uiverse.io
   description: Community-built library of UI elements.
@@ -184,6 +190,9 @@
 - title: BGJar
   url: bgjar.com
   description: SVG background generator.
+- title: Acid Pattern Generator
+  url: drakh.github.io/acid-generator/
+  description: Techno music generator.
 - title: ColorSpace
   url: mycolor.space
   description: Generate a palette from a colour.
@@ -259,6 +268,9 @@
 - title: Fountn.
   url: fountn.design
   description: Collection of design resources curated by designers.
+- title: Project Wallace
+  url: www.projectwallace.com
+  description: In-depth CSS analysis.
 - title: The Book of Shaders
   url: thebookofshaders.com
   description: Gentle step-by-step guide through Fragment Shaders.

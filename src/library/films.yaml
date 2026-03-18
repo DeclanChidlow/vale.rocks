@@ -96,6 +96,8 @@
   release_year: 2021
 - title: Free Guy
   release_year: 2021
+- title: Don't Look Up
+  release_year: 2021
 - title: "Roadrunner: A Film About Anthony Bourdain"
   release_year: 2021
   notes: While watching, I wanted nothing more than to write. When I began writing, I wanted nothing more than to watch. A condensation of motivation.
@@ -132,13 +134,6 @@
   release_year: 2019
 - title: The Secret Life of Pets 2
   release_year: 2019
-- title: Bohemian Rhapsody
-  release_year: 2019
-  rating: 4
-  watches:
-    - date: 2019
-      format: Drive-In Cinema
-      notes: "Sing-along version in a double feature with Alita: Battle Angel."
 - title: "Jumanji: The Next Level"
   release_year: 2019
 - title: "Avengers: Endgame"
@@ -148,6 +143,19 @@
       format: Cinema
 - title: Yesterday
   release_year: 2019
+- title: Bohemian Rhapsody
+  release_year: 2019
+  rating: 4
+  watches:
+    - date: 2019
+      format: Drive-In Cinema
+      notes: "Sing-along version viewed in a double feature with Alita: Battle Angel."
+- title: "Alita: Battle Angel"
+  release_year: 2019
+  watches:
+    - date: 2019
+      format: Drive-In Cinema
+      notes: Viewed in a double feature with Bohemian Rhapsody.
 - title: "Fantastic Beasts: The Crimes of Grindelwald"
   release_year: 2018
 - title: Ralph Breaks the Internet
@@ -169,12 +177,6 @@
   watches:
     - date: 2018-04-29
       format: Cinema
-- title: "Alita: Battle Angel"
-  release_year: 2019
-  watches:
-    - date: 2019
-      format: Drive-In Cinema
-      notes: Double feature with Bohemian Rhapsody.
 - title: Incredibles 2
   release_year: 2018
   watches:

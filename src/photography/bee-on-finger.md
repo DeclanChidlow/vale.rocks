@@ -9,4 +9,4 @@ focal: 4.00mm
 aperture: 1.8
 ---
 
-This little bee was a very good subject and sat on my finger for a good 15 minutes before I set him down.
+This little bee was a very good subject and sat on my finger for a good 15 minutes before I set them down.

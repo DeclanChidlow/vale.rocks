@@ -111,7 +111,7 @@ As Pagefind is implemented client-side as a script, I've taken inspiration from 
 
 Occasionally, I break links. [I'm sorry](https://www.w3.org/Provider/Style/URI). Thus, I've got my client-side [`404-guesser.js`](/assets/scripts/404-guesser.js) script, which is once again shamelessly inspired by Gwern. It has some hard-coded handling for certain page structures I've moved in the past, but otherwise just tries to suggest the correct page if someone has made a typo. It'll look for similar URLs and spit out a list of suggestions.
 
-Beyond trying to get you to the right page, my 404 page also has a style tag with the `contenteditable` attribute, which allows one to write their own CSS that'll apply to the page. It's a lot of fun and a bit of an Easter egg for people who get lost.
+Beyond trying to get you to the right page, my 404 page also has a style tag with `display: block` and the `contenteditable` attribute, which allows one to write their own CSS that'll apply to the page. It's a lot of fun and a bit of an Easter egg for people who get lost.
 
 ### Dynamic Timezone Display
 
