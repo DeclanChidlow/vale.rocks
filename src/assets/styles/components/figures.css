@@ -2,6 +2,10 @@ img {
 	max-block-size: 90vb;
 }
 
+.shorter img {
+	max-block-size: 40vb;
+}
+
 figure {
 	inline-size: 100%;
 
@@ -18,16 +22,18 @@ figure {
 
 	&.left,
 	&.right {
-		inline-size: 65%;
 		margin: 1rem;
 	}
 
 	&.left {
+		inline-size: 50%;
 		float: inline-start;
 		margin-inline-start: -2rem;
+		margin-inline-end: 2rem;
 	}
 
 	&.right {
+		inline-size: 65%;
 		float: inline-end;
 		margin-inline-end: -2rem;
 	}

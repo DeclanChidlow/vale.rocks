@@ -75,7 +75,7 @@ article {
 .event,
 .sign-up {
 	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.8)), var(--dark_grey));
-	padding-block-end: 4rem;
+	padding-block-end: 3.5rem;
 
 	.readable {
 		text-align: center;

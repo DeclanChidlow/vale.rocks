@@ -158,7 +158,7 @@ _Bag_
 
 Strong ginger aroma. Smelt great and had the warm back-of-the-throat feeling. The taste wasn't as strong as I'd hoped initially, but it seemed to build up as I drank it until it was very strongly turmeric and ginger.
 
-## Classic Chamomile - VAHDAM (■■■▪□)
+### Classic Chamomile - VAHDAM (■■■▪□)
 
 _Bag_
 

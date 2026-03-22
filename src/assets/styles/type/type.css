@@ -191,6 +191,7 @@ blockquote,
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 	border: 0.05rem solid light-dark(transparent, color-mix(var(--alert-accent) 20%, var(--grey)));
 	border-inline-start: 0.3rem solid var(--alert-accent);
+	text-align: start;
 }
 
 .markdown-alert > * + * {

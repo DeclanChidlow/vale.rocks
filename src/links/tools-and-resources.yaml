@@ -130,6 +130,9 @@
 - title: ReliCSS
   url: www.alwaystwisted.com/relicss/
   description: Helps identify and replace outdated browser-specific CSS hacks with modern, standards-compliant alternatives.
+- title: The Engineering ToolBox
+  url: www.engineeringtoolbox.com
+  description: A range of tools and information for technical engineering and design.
 - title: srcl
   url: www.sacred.computer
   description: Open-source component and style repository with terminal aesthetics.

@@ -110,6 +110,7 @@
 - title: Scrap Mechanic
   release_year: 2016
   platforms: ["PC"]
+  notes: Performed quite awfully on the old family laptop when I played it circa release.
 - title: Risky Road
   release_year: 2016
   platforms: ["iOS"]
@@ -559,3 +560,15 @@
 - title: "Pajama Sam: Don't Fear the Dark"
   release_year: 1996
   platforms: ["Wii"]
+- title: "1943: The Battle of Midway"
+  release_year: 1987
+  platforms: ["Arcade"]
+- title: Galaga
+  release_year: 1981
+  platforms: ["Arcade"]
+- title: Pac-Man
+  release_year: 1980
+  platforms: ["Arcade"]
+- title: Space Invaders
+  release_year: 1978
+  platforms: ["Arcade"]

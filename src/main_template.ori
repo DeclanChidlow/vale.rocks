@@ -154,7 +154,7 @@
 						<li><a href="/syndication">Syndication</a></li>
 						<li><a href="/support" rel="payment">Support</a></li>
 						<li><a href="/now">Now</a></li>
-						<li><a href="https://tools.vale.rocks" class="footer-tools">Tools</a></li>
+						<li><a class="footer-tools" href="https://tools.vale.rocks">Tools</a></li>
 						<li><a href="/sitemap.xml">Sitemap</a></li>
 					</ul>
 				</nav>
@@ -162,7 +162,7 @@
 		</div>
 
 		<div class="footer-bottom">
-			<p>© <a href="http://vale.rocks" class="h-card" rel="me">Declan Chidlow</a>. All rights reserved.</p>
+			<p>© <a class="h-card" href="http://vale.rocks" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 			<ul>
 				<li><a href="https://fedi.vale.rocks/vale" rel="me">${ (icons.yaml).fediverse }</a></li>
 				<li><a href="https://bsky.app/profile/vale.rocks" rel="me">${ (icons.yaml).bluesky }</a></li>

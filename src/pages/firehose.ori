@@ -83,7 +83,7 @@ _body:
 
 					<div class="socials">
 						${ item.codepen_slug ? `
-						<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug } title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
+						<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug }" title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
 					</div>
 				</header>
 
