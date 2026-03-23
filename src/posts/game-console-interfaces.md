@@ -17,7 +17,7 @@ Even today I can burn hours clicking around the Wii, for it was not designed lik
 
 <figure class="right shorter">
 <img src="/assets/posts/game-console-interfaces/wii-system-menu.avif" alt="A largely white, glossy interface with a grid of channels. The background is striped. At the bottom is the time and dat, and some buttons.">
-<figcaption>The Wii main menu.</figcaption>
+<figcaption>The Wii's main menu.</figcaption>
 </figure>
 
 The Wii menu feels like a destination in-and-of-itself. You can boot it up and check the message board, where you get reports, messages from friends, and channels. You can mess about with Miis, then parade them about. You can bring Miis into your games, have them mingle with your friends, and load them into your Wiimote to take to a friend's house. Each section of the interface plays its own music [^1], helping orient the user and ensuring there is never a dull moment. Even without a game or an internet connection, the console feels active and alive.
@@ -28,7 +28,7 @@ And the Wii came after the GameCube, which itself has a unique menu. An undulati
 
 <figure class="left">
 <img src="/assets/posts/game-console-interfaces/gamecube-system-menu.avif" alt="A glassy cube with rounded corners. It has hues of green blue and red, like oil on wet asphalt. Written around the side of the cube are 'Game Play', 'Calendar', 'Memory Card', and 'Options'.">
-<figcaption>The GameCube system menu.</figcaption>
+<figcaption>The GameCube's system menu.</figcaption>
 </figure>
 
 This could have just been a flat interface -- it would certainly have been less effort to create -- but it wouldn't have given the GameCube its identity. The GameCube's interface perfectly captures the mildly edgy marketing Nintendo was pursuing at the time, and the cube design language ties it into the physical squared-off design of the actual console. It also has little secrets, like the alternate startup sounds triggered by holding <kbd>Z</kbd> on a single controller or all four at once.
@@ -45,7 +45,7 @@ The PlayStation Portable (PSP) introduced a much more comprehensive UI in the Xr
 
 <figure class="right">
 <img src="/assets/posts/game-console-interfaces/ps3-xmb.avif" alt="XMB open to settings section. A ribbon surrounded by twinkling sparkles runs horizontally along the purple gradient background. Slightly down from the top are a horiontal list of icons, one of which is a toolbox labelled 'Settings'. Running vertically above and bellow that icon forming a cross are more icons, each with their own label.">
-<figcaption>The PlayStation 3 XMB.</figcaption>
+<figcaption>The PlayStation 3's XMB.</figcaption>
 </figure>
 
 The background behind the XMB can be styled with themes, but the default appearance with a waving ribbon and sparkles has a special feature -- the tilt of the controller influences the directions in which the sparkles move. A tiny little flourish that indicates the utmost care. The XMB is such an effective and beloved navigation system that it remains commonly replicated for use in emulator front-ends and media servers.

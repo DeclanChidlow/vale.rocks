@@ -57,12 +57,14 @@ figure {
 
 	.open {
 		position: absolute;
-		inset: 0;
+		inset-block-start: 1rem;
+		inset-inline-end: 1rem;
 		background: none;
 		padding: 0;
+		z-index: 2;
+		cursor: pointer;
 
 		svg {
-			position: absolute;
 			block-size: 1.5rem;
 			fill: var(--bright_white);
 			inset-block-start: 1rem;
@@ -73,13 +75,11 @@ figure {
 			opacity: 0;
 			transition: 0.1s;
 		}
+	}
 
-		&:hover,
-		&:focus {
-			svg {
-				opacity: 1;
-			}
-		}
+	&:hover .open svg,
+	&:focus .open svg {
+		opacity: 1;
 	}
 }
 

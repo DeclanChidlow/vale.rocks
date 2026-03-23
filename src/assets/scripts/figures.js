@@ -19,6 +19,12 @@ class FigureGlowLightbox {
 		const openLightbox = () => dialog.showModal();
 		button.addEventListener("click", openLightbox);
 
+		// Make the image a lightbox trigger. Can't achieve with button hitbox covering the image, as that breaks secondary-clicks and similar.
+		const mediaElement = figure.querySelector("img, svg");
+		if (mediaElement) {
+			mediaElement.addEventListener("click", openLightbox);
+		}
+
 		const closeLightbox = () => dialog.close();
 		dialog.querySelector(".close").addEventListener("click", closeLightbox);
 		dialog.addEventListener("keydown", (e) => e.key === "Escape" && closeLightbox());
