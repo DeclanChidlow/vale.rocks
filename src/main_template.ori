@@ -85,6 +85,8 @@
 		<link rel="alternate" type="application/feed+json" title="JSON feed of long-form articles on Vale.Rocks." href="/posts/feed.json">
 		<link rel="search" type="application/opensearchdescription+xml" title="Vale.Rocks Search" href="https://vale.rocks/opensearch.xml">
 		<link rel="manifest" href="/app.webmanifest">
+
+		<link rel="me" href="https://sifa.id/p/vale.rocks">
 	</head>
 
 	<body>
