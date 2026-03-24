@@ -1,5 +1,4 @@
 article {
-	margin-block: 1rem;
 	padding-block: 1rem;
 	border-block-end: 2px solid var(--bright_grey);
 
@@ -16,6 +15,24 @@ article {
 
 	@media (prefers-color-scheme: dark) {
 		filter: invert(1);
+	}
+}
+
+.alterations li {
+	&::marker {
+		font-weight: bold;
+	}
+
+	&.added {
+		list-style-type: "+ ";
+	}
+
+	&.removed {
+		list-style-type: "- ";
+	}
+
+	p {
+		display: inline;
 	}
 }
 

@@ -1,6 +1,10 @@
 - title: (the) Gnorp Apologue
   release_year: 2023
   platforms: ["PC"]
+- title: Gorilla Tag
+  release_year: 2022
+  platforms: ["Quest 2", "Quest 3"]
+  notes: I have never played a game with so many children screaming slurs.
 - title: HYPER DEMON
   release_year: 2022
   rating: 4.5
@@ -32,6 +36,9 @@
 - title: Boomerang Fu
   release_year: 2020
   platforms: ["Nintendo Switch"]
+- title: Moonrider
+  release_year: 2020
+  platforms: ["Oculus Go", "Quest 2", "Quest 3"]
 - title: Unrailed!
   release_year: 2020
   platforms: ["Nintendo Switch"]
@@ -159,7 +166,7 @@
   release_year: 2014
   rating: 3.5
   platforms: ["Xbox 360"]
-  notes: This game was a lot of firsts for me. It was my first time playing a third-person shooter, it was my first time playing a competitive online game (and by extension, Xbox Live), and it was my first exposure to gambling mechanics.
+  notes: This game was a lot of firsts for me. It was my first time playing a third-person shooter, it was my first time playing a competitive online game (and by extension, Xbox Live), and it was my first exposure to gambling mechanics in video games.
 - title: Smash Hit
   release_year: 2014
   platforms: ["iOS"]

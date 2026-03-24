@@ -1,6 +1,6 @@
 (paginated_nows, current_now) => main_template.ori({
     title: paginated_nows ? `Now Archive` : "Now"
-    description: "An actively updated page outlining what Declan Chidlow is currently up to at any given time. Covering more generally what Vale is doing, and also at this specific time. Also shows current status via imood."
+    description: "An actively updated page outlining what Declan Chidlow is currently up to at any given time. Covering more generally what Vale is doing, and also at this specific time. Also shows song currently being listened to via ListenBrainz and current status via imood."
     og_description: "What I'm up to at present."
     stylesheet: "pages/now.css"
     canonical: paginated_nows ? `/now/${paginated_nows.pageNumber}` : `/now`
@@ -8,55 +8,65 @@
 _body:
 `<h1 class="section" data-pagefind-ignore>Now</h1>
 
-<div>
-    ${ !paginated_nows ? `
-        <div class="readable">
-            <p>This is my <a href="https://nownownow.com/about">now page</a>. It outlines what I'm doing <em>now</em>. It was last updated <em>${ current_now.pub_time }</em>.</p>
+<div class="readable">
+		${ !paginated_nows ? `
+		<p>This is my <a href="https://nownownow.com/about">now page</a>. It outlines what I'm doing <em>now</em>. The non-automatically fetched content was last updated on <em>${ current_now.pub_time }</em>.</p>
 
-			<hr>
+		<hr>
 
-            <p>At this very moment, your charming webmaster finds themself...</p>
-            <ul>
-				<li>Feeling <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
-                ${ Tree.map(current_now, (item, key) =>
-                    (key === 'pub_time' || key === 'date_raw' || key === 'overall') ? '' : `<li>${ item }</li>`
-                )}
-            </ul>
+		<p>At this very moment, your charming webmaster finds themself…</p>
+		<ul>
+			<li>Feeling <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
+			<li id="currently-listening">Listening to </li>
+			${ Tree.map(current_now, (item, key) =>
+				(key === 'pub_time' || key === 'date_raw' || key === 'overall' || String(key).startsWith('diff_')) || !item ? '' : `<li>${ item }</li>`
+			)}
+			<li>With ${ settings.yaml/freelance_availability ? 'freelance availability! <a href="/contact">Get in contact</a> if you want to make something happen' : 'no freelance availability' }.</li>
+		</ul>
 
-			<hr>
+		<hr>
 
-			<p>More generally...</p>
-            <p>${ current_now.overall } I currently <strong>do${ settings.yaml/freelance_availability ? "" : "n't" } have</strong> freelance availability.</p>
+		<p>More generally…</p>
+		<p>${ current_now.overall }</p>
 
-			<hr>
+		<hr>
 
-            <p><a href="/now/1">View Historical Archive <span aria-hidden="true">→</span></a></p>
-        </div>
-    ` : `
-        <div>
-            ${ Tree.map(paginated_nows.items, (item) => `
-                <article class="readable">
-                    <h2>${ item.pub_time }</h2>
-                    ${ item.overall ? `<p>${ item.overall }</p>` : '' }
-                    <ul>
-                        ${ Tree.map(item, (item, key) =>
-                            (key === 'pub_time' || key === 'date_raw' || key === 'overall') ? '' : `<li>${ item }</li>`
-                        )}
-                    </ul>
-                </article>
-            `)}
-        </div>
+		<p><a href="/now/1">View Archive <span aria-hidden="true">→</span></a></p>
+	` : `
+		${ paginated_nows.pageNumber === 1 ? `<p class="readable">This is the archive of what once adorned my about page. ‘Now’ is, I suppose, a misnomer for an archive of what was present in the past. You may consider this archive my ‘Then’ page.</p>` : '' }
 
-        <div class="pagination">
-            ${ paginated_nows.previousPage ?
-                `<a href="/now/${ paginated_nows.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>` :
-                `<a href="/now" rel="prev"><span aria-hidden="true">←</span> Current Now</a>`
-            }
-            <p>Page ${ paginated_nows.pageNumber } of ${ paginated_nows.pageCount }</p>
-            ${ paginated_nows.nextPage ?
-                `<a href="/now/${ paginated_nows.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` :
-                "<span></span>"
-            }
-        </div>
-    `}
-</div>`})
+		${ Tree.map(paginated_nows.items, (item) => `
+			<article class="readable">
+				<h2>${ item.pub_time }</h2>
+
+				<ul class="alterations">
+					${ item.overall ? `
+						<li><strong>Updated overall:</strong> ${ item.overall }</li>
+					` : '' }
+
+					${ item.diff_added?.length > 0 ? `
+						${ Tree.map(item.diff_added, (added) => `<li class="added"><strong>Added:</strong> ${ added.value }</li>`) }
+					` : '' }
+
+					${ item.diff_removed?.length > 0 ? `
+						${ Tree.map(item.diff_removed, (removed) => `<li class="removed"><strong>Removed:</strong> ${ removed.value }</li>`) }
+					` : '' }
+				</ul>
+			</article>
+		`)}
+
+		<div class="pagination">
+			${ paginated_nows.previousPage ?
+				`<a href="/now/${ paginated_nows.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>` :
+				`<a href="/now" rel="prev"><span aria-hidden="true">←</span> Current Now</a>`
+			}
+			<p>Page ${ paginated_nows.pageNumber } of ${ paginated_nows.pageCount }</p>
+			${ paginated_nows.nextPage ? `
+				<a href="/now/${ paginated_nows.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>
+			` : "<span></span>"
+			}
+		</div>
+	`}
+</div>
+
+<script src="/assets/scripts/currently-listening.js"></script>`})

@@ -1,6 +1,6 @@
 ---
 title: The Death of Character in Game Console Interfaces
-description: A discussion of the steady erosion of the identity and character of game console interfaces, and a celebration of the excellent original Xbox, Xbox 360, PlayStation 2, PlayStation 3, PSP, PS Vita, GameCube, and Wii interfaces and what made them great.
+description: Coverage of the steady erosion of the identity and character of game console interfaces, and a celebration of the excellent original Xbox, Xbox 360, PlayStation 2, PlayStation 3, PSP, PS Vita, GameCube, and Wii interfaces and what made them great.
 og_description: A eulogy for the console soul.
 pub_time: 2026-03-23
 section: Essay

@@ -89,6 +89,10 @@ main {
 	pointer-events: none;
 }
 
+#currently-listening {
+	display: none;
+}
+
 @view-transition {
 	navigation: auto;
 }

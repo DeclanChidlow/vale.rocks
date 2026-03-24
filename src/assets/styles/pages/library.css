@@ -4,13 +4,16 @@
 	}
 }
 
+.readable {
+	margin-block-end: 2rem;
+}
+
 #refine-entries,
 #filter-message {
 	display: none; /* Set to block with JS */
 }
 
 #refine-entries {
-	margin-block-start: 3rem;
 	margin-block-end: 1rem;
 }
 

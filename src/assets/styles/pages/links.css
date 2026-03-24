@@ -4,10 +4,16 @@
 	}
 }
 
-.readable > ul > li > a > img {
-	display: inline;
-	width: 1rem;
-	margin-inline-start: 0.5ch;
-	margin-inline-end: 1ch;
-	vertical-align: middle;
+.readable > ul > li > a {
+	&::after {
+		display: none;
+	}
+
+	> img {
+		display: inline;
+		width: 1rem;
+		margin-inline-start: 0.5ch;
+		margin-inline-end: 1ch;
+		vertical-align: middle;
+	}
 }

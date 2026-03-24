@@ -10,10 +10,6 @@ items:
     url: unfinished.bz
     rss: feeds.simplecast.com/FRQZxP6k
     description: Design discussion from Andy Clarke and Richard Rutter.
-  - title: Future Knowledge
-    url: futureknowledge.transistor.fm
-    rss: feeds.transistor.fm/futureknowledge
-    description: Technology, culture, and information policy.
   - title: Dwarkesh
     url: www.dwarkesh.com
     rss: api.substack.com/feed/podcast/69345.rss

@@ -1,4 +1,7 @@
 function updateListeningStatus() {
+	const displayElement = document.getElementById("currently-listening");
+	const baseText = displayElement.innerHTML;
+
 	fetch("https://api.listenbrainz.org/1/user/OuterVale/playing-now")
 		.then((r) => r.json())
 		.then((data) => {
@@ -9,14 +12,15 @@ function updateListeningStatus() {
 			if (listen?.playing_now && meta) {
 				const { track_name, artist_name, release_name, additional_info } = meta;
 
-				document.getElementById("currently-listening").innerHTML =
-					`At this very moment I’m listening to <em>${track_name}</em>${artist_name ? ` by <em id="artist">${artist_name}</em>` : ""}${release_name ? ` from the album <em id="album">${release_name}</em>` : ""}.`;
+				displayElement.innerHTML = `${baseText}<em>${track_name}</em>${artist_name ? ` by <em id="artist">${artist_name}</em>` : ""}${release_name ? ` from the album <em id="album">${release_name}</em>` : ""}.`;
+				displayElement.style.display = "revert";
 
 				if (additional_info?.duration) {
 					nextCheck = additional_info.duration * 1000 + 2500;
 				}
 			} else {
-				document.getElementById("currently-listening").innerHTML = "";
+				displayElement.innerHTML = "";
+				displayElement.style.display = "none";
 			}
 
 			setTimeout(updateListeningStatus, nextCheck);

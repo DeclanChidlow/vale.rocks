@@ -1,7 +1,7 @@
 nows
 → (_) => Tree.map(_, (slots, fileName) => {
 	...Tree.map(slots, (val) => functions/parse-markdown.js(val))
-	pub_time: functions/pretty-date.js(Origami.basename(fileName))
+	pub_time: functions/reading-pretty-date.js(Origami.basename(fileName))
 	date_raw: Origami.basename(fileName)
 })
-→ Tree.reverse
+→ functions/now-diff.js
