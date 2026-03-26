@@ -3,7 +3,7 @@ title: Wishes Upon My Demise
 description: Publicly available documentation of what I'd like to occur in the event of my death. Includes information about my wishes for voluntary assisted dying.
 og_description: For when I cark it.
 pub_time: 2025-07-19
-mod_time: 2026-03-09
+mod_time: 2026-03-26
 section: Meta
 ---
 
@@ -14,11 +14,11 @@ I think it is important to accept the inevitability of death and make plans acco
 > [!IMPORTANT]
 > While alive, I reserve the right to modify these wishes. The only version of this document that should be referenced or considered valid is the version that is live on Vale.Rocks at the time of my confirmed death.
 >
-> If this document has been edited by someone who is not me (Declan Chidlow), then it should be considered invalid, and the last version edited by myself should be considered canonical.
+> If this document has been edited by someone who is not me (Declan Chidlow), then it should be considered invalid, and the last version edited by me should be considered canonical.
 
 ## Euthanasia
 
-I care deeply about how I think -- about agency, clarity, curiosity, and creativity. If those are gone, then I am gone. Especially if I am brain dead; I am dead. Kill me.
+I care deeply about how I think -- about agency, clarity, curiosity, and creativity. If those are gone, then I am gone. Especially if I am brain dead, I am dead. Kill me.
 
 My biggest fear in life is a degenerative disease that slowly takes me, so in the event of motor neurone disease (MND), Alzheimer's, dementia, or similar, I have intent to pursue voluntary assisted dying.
 
@@ -28,44 +28,41 @@ I support the right to voluntary assisted dying or equivalent options where suff
 
 If medical science ever advances to the point where my mind could be restored or repaired, then I'd like to pursue that, but otherwise, don't freeze me, tube me, or preserve me just for the idea of potential. I'm [undecided on my preference](https://vale.rocks/micros/20250413-1511) regarding whole brain emulation, so I wish to opt-out.
 
-I'd prefer that nobody attempts one of those 'speak to dead person by feeding their information into AI' things.
+I'd prefer that nobody attempt one of those creepy and distasteful 'speak to dead person by feeding their information into AI' things.
 
 ## Dealing With My Body
 
-I am a registered organ donor in Australia and would like my organs to be donated as first priority upon my death.
+I am a registered organ donor in Australia and would like my organs to be donated if possible as first priority upon my death. If necessary, mangle my body to get anything valuable out. Please do not allow my organs or any other useful part of my body to be wasted for the sake of preserving my appearance or structure. My body without me is a resource and should be reaped as such.
 
-If necessary, mangle my body to get my organs out. Please do not allow my organs or any other useful part of my body to be wasted for the sake of preserving my appearance or structure. My body without me is a resource and should be reaped as such.
-
-When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research, [^1] but otherwise it should be subject to cremation, resomation, promession, or being pushed off a jetty.
+When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research, [^1] but otherwise they should be subject to cremation, resomation, promession, or being pushed off a jetty.
 
 I also wouldn't take issue with a mushroom burial suit as long as I don't have a marked grave plot taking up space. That kinda defeats the point. The matter that makes up my form has been other things before and will be other things after.
 
 ## Funeral
 
-I'm not particularly bothered with a funeral, but if you'd like one to take place, please keep it extremely simple. Do not spend large amounts of money or time to organise and host a funeral for me.
+I'm not particularly bothered with a funeral, but if you'd like one to take place, please keep it extremely simple. Do not spend large amounts of money or time to organise and host a funeral for me. Please remember that, as a dead person, I'll derive no enjoyment or benefit from this event. Buy the cheapest casket or rent it if that is an option and cheaper. Funerals should be for the benefit of the living, not the dead.
 
-I do not believe in an afterlife or any form of definitive moral judgement system by some greater power, such as sins and good deeds leading to heaven/hell.
+I do not believe in an afterlife or any form of definitive moral judgement system by some greater power, such as sins and good deeds leading to heaven/hell. As such, if you hold a funeral for me, don't do it at a church, and please don't include any religious representation -- perhaps excluding the Pastafarians, who are sure to be a good time. I don't want clergy, prayers, or any other such faith-related proceedings anywhere near any remembrance of me. No sacraments.
 
-If you hold a funeral for me, don't do it at a church, and please don't include any religious representation -- perhaps excluding the Pastafarians, who are sure to be a good time. Otherwise, I don't want a clergy anywhere near any remembrance of me.
+If anyone wishes to speak but is going on for too long and boring those in attendance, [give them the hook](https://en.wikipedia.org/wiki/Miner%27s_Bowery_Theatre). A structured funeral service should last no longer than an hour. A reception can take place following if wanted.
 
 If you need a musical playlist, here are my requests:
 
 - Where Youth And Laughter Go - Broadcast
 - Rises The Moon - Liana Flores
 - I Just Can't Be Happy Today - Machine Gun Etiquette
-- My Way - Frank Sinatra
+- My Way - Frank Sinatra (yes, this is a clichéd pick, but it is a wonderful song nonetheless and assuming my demise isn't untimely, it'll likely have fallen out of vogue by the time it comes to play it anyhow.)
 - Where'd All The Time Go - Dr Dog
 - After Hours - The Velvet Underground
+- Dog - C418
 
 ## Let People Know
 
 If possible, please post a notice of my death on the social media pages linked in this site's footer and in a [micro post](/micros), as applicable.
 
-Please include my name, place of death, time of death, cause of death, and any other relevant information. For cause of death especially, please be specific. I do not want anyone to be left without knowledge or closure regarding my death.
+Please include my name, place of death, time of death, cause of death, and any other relevant information. For cause of death especially, please be specific. I do not want anyone to be left without knowledge or closure regarding my death. Unacceptable would be: 'Declan died last week.' The bare minimum of what is acceptable would be: 'Declan Chidlow died on `date` at `time` at `location`. The were `age` and died of `exact cause` following `events that proceeded`.'
 
-You may also use the aforementioned channels to advertise any funeral or memorial as seen fit.
-
-Some social media platforms have inbuilt functionality for noting the account owner as deceased. Please use this functionality.
+You may also use the aforementioned channels to advertise any funeral or memorial as seen fit, keeping in mind that as a semi-public person, this could attract undesirables. Some social media platforms have inbuilt functionality explicitly for noting the account owner as deceased. Please use this functionality.
 
 ## Preserving Vale.Rocks
 
