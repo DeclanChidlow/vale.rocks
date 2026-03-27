@@ -18,7 +18,7 @@ class RepoDetails {
 			};
 		} catch (error) {
 			console.error(`Error fetching stats for ${this.repo}:`, error);
-			return { stars: 0, forks: 0, contributors: 0 };
+			return null;
 		}
 	}
 
@@ -41,10 +41,22 @@ class RepoDetails {
 		const stats = await this.fetchStats();
 		const container = document.getElementById("repo-details");
 
-		container.innerHTML = `
-			<li class="stars">${stats.stars} ${stats.stars === 1 ? "Star" : "Stars"}</li>
-			<li class="forks">${stats.forks} ${stats.forks === 1 ? "Fork" : "Forks"}</li>
-			<li class="contributors">${stats.contributors} ${stats.contributors === 1 ? "Contributor" : "Contributors"}</li>
-		`;
+		if (!stats || !container) {
+			return;
+		}
+
+		const listItems = [];
+
+		if (stats.stars >= 10) {
+			listItems.push(`<li class="stars">${stats.stars} Stars</li>`);
+		}
+
+		if (stats.forks >= 5) {
+			listItems.push(`<li class="forks">${stats.forks} Forks</li>`);
+		}
+
+		listItems.push(`<li class="contributors">${stats.contributors} ${stats.contributors === 1 ? "Contributor" : "Contributors"}</li>`);
+
+		container.innerHTML = listItems.join("");
 	}
 }

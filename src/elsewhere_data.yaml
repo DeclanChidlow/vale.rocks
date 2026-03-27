@@ -1,3 +1,16 @@
+- title: A modern guide to old Reddit customisation and theming (stylesheets/CSS)
+  location: Reddit
+  url: www.reddit.com/r/csshelp/comments/1s4p96w/a_modern_guide_to_old_reddit_customisation_and/
+  pub_time: 2026-03-27
+  type: article
+  sort: writer
+- title: How to introduce linting for design system hygiene
+  location: zeroheight
+  url: zeroheight.com/blog/how-to-introduce-linting-for-design-system-hygiene/
+  image: zh-marketing-wordpress-uploads.s3.amazonaws.com/wp-content/uploads/2026/03/blogpost-linting-why-1_520x670_hero_like_padding.png
+  pub_time: 2026-03-19
+  type: article
+  sort: writer
 - title: A Complete Guide to Bookmarklets
   location: CSS-Tricks
   url: css-tricks.com/a-complete-guide-to-bookmarklets/
@@ -29,6 +42,7 @@
 - title: Leveraging modern CSS color features in your design system
   location: zeroheight
   url: zeroheight.com/blog/leveraging-modern-css-color-features-in-your-design-system/
+  image: zh-marketing-wordpress-uploads.s3.amazonaws.com/wp-content/uploads/2025/11/blog-feature-ok-coral.png
   pub_time: 2025-11-06
   type: article
   sort: writer

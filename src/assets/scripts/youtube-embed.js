@@ -4,8 +4,7 @@ class YtEmbed extends HTMLElement {
 	connectedCallback() {
 		this.videoId = this.getAttribute("videoid");
 
-		let playButton = this.querySelector(".play");
-		playButton = document.createElement("button");
+		const playButton = document.createElement("button");
 		playButton.type = "button";
 		playButton.className = "play";
 		playButton.textContent = this.getAttribute("playlabel") || "Play";
@@ -43,7 +42,7 @@ class YtEmbed extends HTMLElement {
 
 	createIframe() {
 		const iframe = document.createElement("iframe");
-		iframe.src = `https://www.youtube-nocookie.com/embed/${this.videoId}?autoplay=1`;
+		iframe.src = `https://www.youtube-nocookie.com/embed/${this.videoId}?autoplay=1&rel=0`;
 		iframe.referrerPolicy = "strict-origin-when-cross-origin";
 		iframe.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
 		iframe.allowFullscreen = true;
