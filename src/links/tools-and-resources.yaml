@@ -217,6 +217,9 @@
 - title: Tabbied
   url: tabbied.com
   description: Generate patterns from templates.
+- title: RampenSau
+  url: meodai.github.io/rampensau/
+  description: Colour generation library that makes use of hue cycling and easing functions to generate pleasing colour ramps.
 - title: Patterninja
   url: patterninja.com
   description: Create tiled patterns from icons.
