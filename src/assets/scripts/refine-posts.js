@@ -1,72 +1,72 @@
-const refineBar = document.getElementById("refine-posts"),
-	postsFilter = document.getElementById("posts-filter"),
-	postsSorter = document.getElementById("posts-sort"),
-	postItems = document.getElementById("posts"),
-	posts = Array.from(postItems.querySelectorAll(".post"));
+class PostRefiner {
+	constructor() {
+		this.refineBar = document.getElementById("refine-posts");
+		this.postsFilter = document.getElementById("posts-filter");
+		this.postsSorter = document.getElementById("posts-sort");
+		this.postContainer = document.getElementById("posts");
 
-refineBar.style.display = "flex";
-postsFilter.addEventListener("change", filterAndSortPosts);
-postsSorter.addEventListener("change", filterAndSortPosts);
+		if (!this.refineBar) return;
 
-function filterAndSortPosts() {
-	const filterValue = postsFilter.value.toLowerCase(),
-		sortValue = postsSorter.value;
+		this.postData = Array.from(this.postContainer.querySelectorAll(".post")).map((post) => {
+			const infoElements = post.querySelectorAll("ul li");
+			const timeElements = infoElements[1].querySelectorAll("time");
 
-	const filteredPosts = posts.filter((post) => {
-		const postType = post.querySelector("p").textContent.trim().toLowerCase();
-		return filterValue === "all" || postType === filterValue;
-	});
+			const published = new Date(timeElements[0].getAttribute("datetime")).getTime();
 
-	const sortedPosts = sortPosts(filteredPosts, sortValue);
-
-	const fragment = document.createDocumentFragment();
-
-	if (sortedPosts.length === 0) {
-		const noResultsMessage = document.createElement("div");
-		noResultsMessage.classList.add("no-results");
-		noResultsMessage.textContent = "No results found.";
-		fragment.appendChild(noResultsMessage);
-	} else {
-		sortedPosts.forEach((post) => {
-			fragment.appendChild(post);
+			return {
+				element: post,
+				type: post.querySelector("p").textContent.trim().toLowerCase(),
+				length: parseInt(infoElements[0].textContent) || 0,
+				published: published,
+				revised: timeElements.length > 1 ? new Date(timeElements[1].getAttribute("datetime")).getTime() : published,
+			};
 		});
+
+		this.init();
 	}
 
-	postItems.innerHTML = "";
-	postItems.appendChild(fragment);
-}
+	init() {
+		this.refineBar.style.display = "flex";
+		this.postsFilter.addEventListener("change", () => this.filterAndSortPosts());
+		this.postsSorter.addEventListener("change", () => this.filterAndSortPosts());
+	}
 
-function sortPosts(posts, sortValue) {
-	return [...posts].sort((a, b) => {
-		const aInfo = getPostInfo(a),
-			bInfo = getPostInfo(b);
+	filterAndSortPosts() {
+		const filterValue = this.postsFilter.value.toLowerCase();
+		const sortValue = this.postsSorter.value;
 
-		switch (sortValue) {
-			case "revised-desc":
-				return bInfo.revised - aInfo.revised;
-			case "revised-asc":
-				return aInfo.revised - bInfo.revised;
-			case "published-desc":
-				return bInfo.published - aInfo.published;
-			case "published-asc":
-				return aInfo.published - bInfo.published;
-			case "length-desc":
-				return bInfo.length - aInfo.length;
-			case "length-asc":
-				return aInfo.length - bInfo.length;
-			default:
-				return 0;
+		const filteredData = this.postData.filter((item) => {
+			return filterValue === "all" || item.type === filterValue;
+		});
+
+		const [key, direction] = sortValue.split("-");
+		const isAsc = direction === "asc";
+
+		filteredData.sort((a, b) => {
+			const comparison = a[key] - b[key];
+			return isAsc ? comparison : -comparison;
+		});
+
+		this.render(filteredData.map((item) => item.element));
+	}
+
+	render(elements) {
+		const fragment = document.createDocumentFragment();
+
+		if (elements.length === 0) {
+			const noResults = document.createElement("div");
+			noResults.className = "no-results";
+			noResults.textContent = "No results found.";
+			fragment.appendChild(noResults);
+		} else {
+			elements.forEach((el) => fragment.appendChild(el));
 		}
-	});
+
+		this.postContainer.innerHTML = "";
+		this.postContainer.appendChild(fragment);
+	}
 }
 
-function getPostInfo(post) {
-	const infoElements = post.querySelectorAll("ul li");
-	const wordCount = parseInt(infoElements[0].textContent);
-	const published = new Date(infoElements[1].querySelector("time").getAttribute("datetime")).getTime();
-
-	const timeElements = infoElements[1].querySelectorAll("time");
-	const revised = timeElements.length > 1 ? new Date(timeElements[1].getAttribute("datetime")).getTime() : published;
-
-	return { length: wordCount, published, revised };
-}
+document.addEventListener("DOMContentLoaded", () => {
+	new PostRefiner();
+});

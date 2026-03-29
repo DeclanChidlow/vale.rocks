@@ -17,24 +17,28 @@ class BKTree {
 		if (a.length === 0) return b.length;
 		if (b.length === 0) return a.length;
 
-		const matrix = Array(b.length + 1)
-			.fill(null)
-			.map((_, i) => [i]);
-		for (let j = 1; j <= a.length; j++) {
-			matrix[0][j] = j;
-		}
+		let prevRow = Array.from({ length: a.length + 1 }, (_, i) => i);
+		let currRow = new Array(a.length + 1);
 
 		for (let i = 1; i <= b.length; i++) {
+			currRow[0] = i;
 			for (let j = 1; j <= a.length; j++) {
-				if (b.charAt(i - 1) === a.charAt(j - 1)) {
-					matrix[i][j] = matrix[i - 1][j - 1];
+				if (b[i - 1] === a[j - 1]) {
+					currRow[j] = prevRow[j - 1];
 				} else {
-					matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
+					currRow[j] = Math.min(
+						prevRow[j - 1] + 1, // substitution
+						currRow[j - 1] + 1, // insertion
+						prevRow[j] + 1, // deletion
+					);
 				}
 			}
+			let temp = prevRow;
+			prevRow = currRow;
+			currRow = temp;
 		}
 
-		return matrix[b.length][a.length];
+		return prevRow[a.length];
 	}
 
 	add(word) {
@@ -168,13 +172,18 @@ class URLSuggester {
 		if (!app) return;
 
 		const container = document.createElement("div");
+		container.className = "url-suggestions";
+
 		if (suggestions.length > 0) {
-			const ul = document.createElement("ul");
 			const p = document.createElement("p");
+			p.textContent = "URLs similar to ";
+			const codePath = document.createElement("code");
+			codePath.textContent = currentPath;
+			p.appendChild(codePath);
+			p.appendChild(document.createTextNode(":"));
+			container.appendChild(p);
 
-			p.innerHTML = `URLs similar to <code>${currentPath}</code>:`;
-			container.insertBefore(p, container.firstChild);
-
+			const ul = document.createElement("ul");
 			suggestions.forEach((url) => {
 				const li = document.createElement("li");
 				const a = document.createElement("a");
@@ -185,14 +194,34 @@ class URLSuggester {
 				ul.appendChild(li);
 			});
 			container.appendChild(ul);
+
 			const endText = document.createElement("p");
-			endText.innerHTML = "<br>Otherwise, you could always try make the page yourself...";
+			endText.textContent = "Otherwise, you could always try make the page yourself...";
 			container.appendChild(endText);
 		} else {
-			container.innerHTML = `Couldn't find any URLs similar to <code>${currentPath}</code>. Perhaps try <a href='/search'>search</a> for the page instead.<br><br>Otherwise, you can always try to build the page yourself…`;
+			const p = document.createElement("p");
+			p.textContent = "Couldn't find any URLs similar to ";
+
+			const codePath = document.createElement("code");
+			codePath.textContent = currentPath;
+			p.appendChild(codePath);
+
+			p.appendChild(document.createTextNode(". Perhaps try "));
+
+			const searchLink = document.createElement("a");
+			searchLink.href = "/search";
+			searchLink.textContent = "search";
+			p.appendChild(searchLink);
+
+			p.appendChild(document.createTextNode(" for the page instead."));
+			container.appendChild(p);
+
+			const endText = document.createElement("p");
+			endText.style.marginTop = "1rem";
+			endText.textContent = "Otherwise, you can always try to build the page yourself…";
+			container.appendChild(endText);
 		}
 
-		container.className = "url-suggestions";
 		app.appendChild(container);
 	}
 }

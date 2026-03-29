@@ -1,6 +1,6 @@
 (books, films, series, stage, albums, games) => main_template.ori({
 	title: "Library"
-	description: "Every bit of media I've logged in recent history presented for your perusal and my reference/recommendation. Includes books, films, series, music, and games."
+	description: "Every bit of media I've logged in recent history presented for your perusal and my reference/recommendation. Includes books, films, series, stage events, music, and games."
 	og_description: "A full collection of media I've consumed."
 	canonical: "/library"
 	template_image: "library"
