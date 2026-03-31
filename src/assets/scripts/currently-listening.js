@@ -1,31 +1,75 @@
-function updateListeningStatus() {
-	const displayElement = document.getElementById("currently-listening");
-	const baseText = displayElement.innerHTML;
+class ListeningStatus {
+	constructor(elementId) {
+		this.displayElement = document.getElementById(elementId);
+		if (!this.displayElement) return;
 
-	fetch("https://api.listenbrainz.org/1/user/OuterVale/playing-now")
-		.then((r) => r.json())
-		.then((data) => {
+		this.baseText = this.displayElement.textContent;
+		this.apiUrl = "https://api.listenbrainz.org/1/user/OuterVale/playing-now";
+
+		this.init();
+	}
+
+	async update() {
+		try {
+			const response = await fetch(this.apiUrl);
+			const data = await response.json();
 			const listen = data?.payload?.listens?.[0];
 			const meta = listen?.track_metadata;
 			let nextCheck = 30000;
 
 			if (listen?.playing_now && meta) {
-				const { track_name, artist_name, release_name, additional_info } = meta;
+				this.renderTrack(meta);
 
-				displayElement.innerHTML = `${baseText}<em>${track_name}</em>${artist_name ? ` by <em id="artist">${artist_name}</em>` : ""}${release_name ? ` from the album <em id="album">${release_name}</em>` : ""}.`;
-				displayElement.style.display = "revert";
-
-				if (additional_info?.duration) {
-					nextCheck = additional_info.duration * 1000 + 2500;
+				if (meta.additional_info?.duration) {
+					nextCheck = meta.additional_info.duration * 1000 + 2500;
 				}
 			} else {
-				displayElement.innerHTML = "";
-				displayElement.style.display = "none";
+				this.clearDisplay();
 			}
 
-			setTimeout(updateListeningStatus, nextCheck);
-		})
-		.catch(() => setTimeout(updateListeningStatus, 30000));
+			setTimeout(() => this.update(), nextCheck);
+		} catch (error) {
+			setTimeout(() => this.update(), 30000);
+		}
+	}
+
+	renderTrack(meta) {
+		const { track_name, artist_name, release_name } = meta;
+
+		this.displayElement.textContent = this.baseText;
+
+		const trackEm = document.createElement("em");
+		trackEm.textContent = track_name;
+		this.displayElement.appendChild(trackEm);
+
+		if (artist_name) {
+			this.displayElement.appendChild(document.createTextNode(" by "));
+			const artistEm = document.createElement("em");
+			artistEm.id = "artist";
+			artistEm.textContent = artist_name;
+			this.displayElement.appendChild(artistEm);
+		}
+
+		if (release_name) {
+			this.displayElement.appendChild(document.createTextNode(" from the album "));
+			const albumEm = document.createElement("em");
+			albumEm.id = "album";
+			albumEm.textContent = release_name;
+			this.displayElement.appendChild(albumEm);
+		}
+
+		this.displayElement.appendChild(document.createTextNode("."));
+		this.displayElement.style.display = "revert";
+	}
+
+	clearDisplay() {
+		this.displayElement.textContent = this.baseText;
+		this.displayElement.style.display = "none";
+	}
+
+	init() {
+		this.update();
+	}
 }
 
-updateListeningStatus();
+new ListeningStatus("currently-listening");

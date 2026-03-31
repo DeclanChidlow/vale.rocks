@@ -47,7 +47,7 @@ Accessibility is to the benefit of all.
 
 ## Setbacks and Legal Mandates
 
-For every foe vanquished in the pursuit of accessibility progress, two more seem to throw their hat in the ring to drag it back once more. Take the case of OpenAI telling everyone to [add ARIA](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq#h_30e9aae450) rather than to just adhere to semantics -- violating [the first rule of ARIA](https://www.w3.org/TR/using-aria/#firstrule). Or take the countless and infuriating cases of ['accessibility' overlays](https://overlayfactsheet.com/en/) rearing their ugly heads with tactics of deceit.
+For every foe vanquished in the pursuit of accessibility progress, two more seem to throw their hat in the ring to drag it back once more. Take the case of OpenAI telling everyone to [add ARIA](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq#h_30e9aae450) rather than to just adhere to semantics -- violating [the first rule of ARIA](https://www.w3.org/TR/using-aria/#firstrule). Or take the countless and infuriating cases of ['accessibility' overlays](/posts/accessibility-overlays) rearing their ugly heads with tactics of deceit.
 
 Trying to get anywhere with accessibility is the Sisyphean task of forever pushing a boulder up a mountain, except there is a further team of people inventing new and novel ways to make a quick buck while pushing it back down.
 

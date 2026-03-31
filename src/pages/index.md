@@ -128,6 +128,7 @@ If you wish to know more about the specifics of this site, you can read [The Des
         "1-1": " on this nascent awakening of the new year",
         "3-12": " on this anniversary of the World Wide Web proposal",
         "3-15": " on this commemoration of RSS' premier",
+        "4-1": " during this period ripe for tomfoolery",
         "8-6": " on this birthday of the first public website",
         "9-19": " ye landlubbers",
         "10-29": " on this, the anniversary of the first message over ARPANET",

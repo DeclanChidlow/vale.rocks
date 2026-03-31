@@ -390,6 +390,10 @@
     - start: 2023-12
       finish: 2023-12
       status: Read
+- title: Wicked!
+  release_year: 1997
+  authors: Paul Jennings, Morris Gleitzman
+  notes: Unsure which books of the series I read – perhaps them all? I remember being extremely perplexed by the book's dual-perspective structure, which took me a while to grok.
 - title: Harry Potter and the Philosopher's Stone
   release_year: 1997
   authors: JK Rowling
@@ -400,6 +404,15 @@
     - start: 2023-12
       finish: 2023-12
       status: Read
+- title: The Haunted Mask
+  release_year: 1992
+  authors: RL Stine
+- title: Say Cheese and Die!
+  release_year: 1992
+  authors: RL Stine
+- title: Monster Blood
+  release_year: 1992
+  authors: RL Stine
 - title: Mostly Harmless
   release_year: 1992
   authors: Douglas Adams

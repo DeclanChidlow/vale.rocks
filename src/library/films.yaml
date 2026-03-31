@@ -108,6 +108,8 @@
   release_year: 2021
 - title: Peter Rabbit 2
   release_year: 2021
+- title: The King's Man
+  release_year: 2021
 - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
   release_year: 2021
   rating: 2
@@ -211,6 +213,8 @@
       format: Cinema
 - title: "Jumanji: Welcome to the Jungle"
   release_year: 2017
+- title: "Kingsman: The Golden Circle"
+  release_year: 2017
 - title: Paddington 2
   release_year: 2017
   rating: 4
@@ -270,6 +274,8 @@
     - date: 2016
       format: Cinema
 - title: Pixels
+  release_year: 2015
+- title: "Kingsman: The Secret Service"
   release_year: 2015
 - title: "Avengers: Age of Ultron"
   release_year: 2015
@@ -594,6 +600,7 @@
   release_year: 2004
 - title: Harry Potter and the Prisoner of Azkaban
   release_year: 2004
+  notes: Arguably the best-directed film of the series. John William's score, particularly Window to the Past, fit so extremely well. I very much wish he'd kept on with the rest of the series, or at least that the motifs he'd established had remained in use.
   watches:
     - date: 2024-12-29
       format: Streaming
