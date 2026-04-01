@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 20 Nov 2025 00:00:00 +0000
+modTime: 01 Apr 2026 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -131,11 +131,6 @@ items:
     url: ryantrimble.com
     rss: ryantrimble.com/rss.xml
     description: Web development and weekly roundups.
-  - title: Werd I/O
-    url: werd.io
-    rss: werd.io/content/all?_t=rss
-    json: werd.io/content/all?_t=rss
-    description: Intersection of technology, democracy, and society.
   - title: Birchtree
     url: birchtree.me
     rss: birchtree.me/rss/
@@ -211,12 +206,8 @@ items:
     description: Various web things.
   - title: Simon Willison's Weblog
     url: simonwillison.net
-    atom: simonwillison.net/atom/everything/
+    atom: simonwillison.net/atom/entries/
     description: Artificial intelligence.
-  - title: LessWrong
-    url: www.lesswrong.com
-    rss: www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=45
-    description: Community blog of sorts discussing rationality and AI.
   - title: Medienbäcker Thomas Günther
     url: medienbaecker.com
     rss: medienbaecker.com/articles.xml
@@ -548,3 +539,7 @@ items:
     url: l-o-o-s-e-d.net
     rss: l-o-o-s-e-d.net/feeds/rss.xml
     description: Art, design, and technology.
+  - title: Unsung
+    url: unsung.aresluna.org
+    rss: unsung.aresluna.org/feed.xml
+    description: Software craft and quality.
