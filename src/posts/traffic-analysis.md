@@ -3,7 +3,7 @@ title: The Analytics of This Site
 description: A look at website traffic to Vale.Rocks and a general analysis of the analytics. Particularly looking at popular referrers and the variance from general web analytics.
 og_description: Nerding out on website analytics.
 pub_time: 2025-04-25
-mod_time: 2026-01-01
+mod_time: 2026-04-01
 section: Meta
 ---
 
@@ -34,6 +34,32 @@ By a sizable margin (~84%), most site visitors speak English, as you'd expect fr
 As you'd expect based on languages, Western countries are the biggest readers. The United States of America is in the lead at 39%. I'd assume this is in no small part due to Hacker News. The United Kingdom follows at 8% with Germany close behind at 6%. This is followed by Canada, India, Australia, the Netherlands, and France, all at 3%. I'd also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.
 
 In the below lists of top referrers, Hacker News does not include all alternate front-ends. There are _a lot_ of Hacker News front-ends. _A lot_.
+
+## 2026
+
+### Quarter 1
+
+_For the quarter running from 01/01/2026 until 31/03/2026._
+
+Curious about content blocking numbers, I thought to compare the number reported by Google Search Console to the number reported by GoatCounter during this period. Search Console reported 1,320 clicks from Google, and GoatCounter reported 1,269 visits from Google. Alas, this actually isn't very useful data, as there is too much at play and it is too limited.
+
+Total hits during this period: 16,067
+
+Most popular pages:
+
+1. [My Opinionated CSS Reset](/posts/css-reset) - 3,250 hits
+2. [The Death of Character in Game Console Interfaces](/posts/game-console-interfaces) - 2,457 hits
+3. [Portfolio](/posts/portfolio) - 1,722 hits
+4. [Landing](/) - 1,641 hits
+5. [You Can't Opt-Out of Accessibility](/posts/accessibility-importance) - 999 hits
+
+Top referrers:
+
+1. _Unknown_ - 5,895 hits
+2. [Google](https://www.google.com) - 1,269 hits
+3. [GitHub](https://github.com) - 1,156 hits
+4. [Bluesky](https://bsky.app) - 592 hits
+5. [The Index](https://piccalil.li/the-index) - 586 hits
 
 ## 2025
 
@@ -73,7 +99,7 @@ Most popular pages:
 1. [AI is Stifling Tech Adoption](/posts/ai-is-stifling-tech-adoption) - 28,570 hits
 2. [My Experience Biohacking](/posts/my-experience-biohacking) - 6,656 hits
 3. [Everything Is Chrome](/posts/everything-is-chrome) - 3,296 hits
-4. [Landing](/) - 2835 hits
+4. [Landing](/) - 2,835 hits
 5. [Strong Opinions on URL Design](/posts/strong-opinions-on-url-design) - 1,067 hits
 
 Top referrers:
