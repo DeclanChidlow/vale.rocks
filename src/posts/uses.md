@@ -107,9 +107,10 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Chrono](https://github.com/vicolo-dev/chrono): Convenient clock I use for alarms and timers.
 - [Ares Dark](https://www.one4studio.com/apps/icon-packs/ares-series): Provides some very nice-looking icons.
 - [Proton Drive](https://proton.me/drive): Cloud storage that I use to quickly move files between my phone and computer.
-- [Pano Scrobbler](https://kawaiidango.github.io/pano-scrobbler/): Tracks what music I've listened to.
+- [Pano Scrobbler](https://kawaiidango.github.io/pano-scrobbler/): Scrobbles music into ListenBrainz.
 - [Flipper](https://flipperzero.one): For interacting with [my Flipper Zero](/posts/i-got-a-flipper-zero).
 - [Stoat](https://stoat.chat)
+- [Material Capsule](https://play.google.com/store/apps/details?id=com.pryshedko.mtisland): Provides functionality similar to iOS' Dynamic Island.
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
 - [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
 
