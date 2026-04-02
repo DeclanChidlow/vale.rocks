@@ -1,3 +1,10 @@
+- title: A quick guide to creating syndication feeds
+  location: Piccalilli
+  url: piccalil.li/blog/a-quick-guide-to-creating-syndication-feeds/
+  image: piccalil.b-cdn.net/api/og-image?slug=a-quick-guide-to-creating-syndication-feeds/
+  pub_time: 2026-04-02
+  type: article
+  sort: writer
 - title: A modern guide to old Reddit customisation and theming (stylesheets/CSS)
   location: Reddit
   url: www.reddit.com/r/csshelp/comments/1s4p96w/a_modern_guide_to_old_reddit_customisation_and/
