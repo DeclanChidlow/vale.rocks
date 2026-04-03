@@ -381,6 +381,11 @@
   release_year: 2012
 - title: Hotel Transylvania
   release_year: 2012
+- title: Safety Not Guaranteed
+  release_year: 2012
+  watches:
+    - date: 2026-04-02
+      format: Streaming
 - title: Rise of the Guardians
   release_year: 2012
 - title: The Lorax
