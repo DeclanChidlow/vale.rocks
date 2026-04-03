@@ -183,7 +183,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 		nodes.forEach((newNode) => {
 			if (!newNode) return;
 			const newNorm = normalize(newNode.content);
-			const match = mergedNodes.find((existingNode) => normalize(existingNode.content) === newNorm);
+			const newNormAuthor = normalize(newNode.author);
+
+			const match = mergedNodes.find((existingNode) => normalize(existingNode.content) === newNorm && normalize(existingNode.author) === newNormAuthor);
 
 			if (match) {
 				newNode.sources.forEach((s) => {
