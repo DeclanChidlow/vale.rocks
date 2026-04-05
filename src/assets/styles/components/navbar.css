@@ -87,7 +87,8 @@ body:has(#popover-menu:popover-open) {
 		}
 
 		#popover-menu {
-			width: fit-content;
+			position: fixed;
+			inline-size: fit-content;
 			block-size: 100%;
 			inset-inline-start: auto;
 			border: none;
