@@ -716,6 +716,12 @@
   release_year: 1999
 - title: Toy Story 2
   release_year: 1999
+- title: Galaxy Quest
+  release_year: 1999
+  notes: Explains why The Cat in the Hat (2003) turned out the way it did.
+  watches:
+    - date: 2026-04-04
+      format: Streaming
 - title: The Green Mile
   release_year: 1999
 - title: Scooby-Doo! and the Witch's Ghost

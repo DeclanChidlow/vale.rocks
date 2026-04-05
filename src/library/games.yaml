@@ -36,6 +36,9 @@
 - title: Boomerang Fu
   release_year: 2020
   platforms: ["Nintendo Switch"]
+- title: Quiplash 3
+  release_year: 2020
+  platforms: ["PC"]
 - title: Moonrider
   release_year: 2020
   platforms: ["Oculus Go", "Quest 2", "Quest 3"]
@@ -51,6 +54,9 @@
 - title: Russian Subway Dogs
   release_year: 2018
   platforms: ["PS Vita"]
+- title: Krunker
+  release_year: 2018
+  platforms: ["PC"]
 - title: Marvel's Spider-Man
   rating: 4
   release_year: 2018
@@ -68,12 +74,34 @@
 - title: Brawl Stars
   release_year: 2018
   platforms: ["iOS"]
+- title: Split the Room
+  release_year: 2018
+  platforms: ["PC"]
+- title: Patently Stupid
+  release_year: 2018
+  platforms: ["PC"]
+- title: Mad Verse City
+  release_year: 2018
+  platforms: ["PC"]
 - title: Bloons Tower Defence 6
   release_year: 2018
   platforms: ["PC", "iOS"]
 - title: Mario Kart 8 Deluxe
   release_year: 2017
   platforms: ["Nintendo Switch", "PC"]
+- title: Fibbage 3
+  release_year: 2017
+  platforms: ["PC"]
+- title: Survive The Internet
+  release_year: 2017
+  platforms: ["PC"]
+- title: Monster Seeking Monster
+  release_year: 2017
+  platforms: ["PC"]
+  notes: Playing this with friends has resulted in some of the most despicable, vile, sexual exchanges this world has ever seen.
+- title: Bracketeering
+  release_year: 2017
+  platforms: ["PC"]
 - title: Slime Rancher
   release_year: 2017
   platforms: ["PC"]
@@ -127,6 +155,12 @@
 - title: Clash Royale
   release_year: 2016
   platforms: ["iOS"]
+- title: Fakin' It
+  release_year: 2016
+  platforms: ["PC"]
+- title: Quiplash 2
+  release_year: 2016
+  platforms: ["PC"]
 - title: Superhot VR
   release_year: 2016
   platforms: ["Quest 3"]
@@ -140,6 +174,9 @@
   release_year: 2015
   platforms: ["iOS"]
 - title: Keep Talking and Nobody Explodes
+  release_year: 2015
+  platforms: ["PC"]
+- title: Quiplash
   release_year: 2015
   platforms: ["PC"]
 - title: I Am Bread
@@ -558,6 +595,9 @@
   release_year: 1999
   platforms: ["PC"]
   notes: One of the first proper PC games I played.
+- title: Super Smash Bros
+  release_year: 1999
+  platforms: ["Nintendo 64"]
 - title: Half-Life
   release_year: 1998
   platforms: ["PC"]
@@ -567,6 +607,12 @@
 - title: "Pajama Sam: Don't Fear the Dark"
   release_year: 1996
   platforms: ["Wii"]
+- title: Mario Kart 64
+  release_year: 1996
+  platforms: ["Nintendo 64"]
+- title: Super Mario 64
+  release_year: 1996
+  platforms: ["Nintendo 64"]
 - title: "1943: The Battle of Midway"
   release_year: 1987
   platforms: ["Arcade"]
