@@ -88,7 +88,7 @@
 
 		#popover-menu {
 			inline-size: fit-content;
-			block-size: 100%;
+			block-size: 100dvh;
 			inset-inline-start: auto;
 			border: none;
 			background: linear-gradient(transparent, var(--red));
@@ -134,12 +134,13 @@
 
 			ul {
 				justify-content: center;
-				text-align: end;
+				max-block-size: 100%;
 				margin-block: 4rem;
 				margin-inline: 3rem;
-				max-block-size: 100%;
+				padding-block-end: env(safe-area-inset-bottom, 2rem); /* Fix Safari Liquid Glass shit fuckery */
 				font-size: 2rem;
 				font-weight: 700;
+				text-align: end;
 
 				li {
 					inline-size: 100%;
