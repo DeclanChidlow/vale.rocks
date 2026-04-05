@@ -1,4 +1,4 @@
-body:has(#popover-menu:popover-open) {
+:root:has(#popover-menu:popover-open) body {
 	overflow: hidden;
 	pointer-events: none;
 	user-select: none;
@@ -87,7 +87,6 @@ body:has(#popover-menu:popover-open) {
 		}
 
 		#popover-menu {
-			position: fixed;
 			inline-size: fit-content;
 			block-size: 100%;
 			inset-inline-start: auto;
@@ -96,7 +95,6 @@ body:has(#popover-menu:popover-open) {
 			backdrop-filter: blur(1.5rem);
 			color: light-dark(var(--black), var(--bright_white));
 			box-shadow: -0.5rem 0 2rem oklch(from var(--black) l c h / 0.4);
-			overflow-y: scroll;
 			view-transition-name: nav-popover;
 			transition:
 				opacity 0.25s,
