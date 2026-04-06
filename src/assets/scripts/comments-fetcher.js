@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 
 	function renderBlueskyText(record) {
-		if (!record.facets || !record.facets.length) return record.text;
+		if (!record.facets || !record.facets.length) return record.text.replace(/\n/g, "<br>");
 
 		const text = record.text;
 		const encoder = new TextEncoder();
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		}
 
 		html += decoder.decode(bytes.slice(lastIndex));
-		return html;
+		return html.replace(/\n/g, "<br>");
 	}
 
 	function normalize(htmlOrText) {
@@ -87,12 +87,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 			descendants.forEach((d) => {
 				if (!d.content || !d.content.trim()) return;
 
+				let parsedContent = d.content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, '<a href="$1" target="_blank" rel="nofollow">[Attached Image]</a>');
+
+				if (d.media_attachments && d.media_attachments.length > 0) {
+					const images = d.media_attachments.filter((m) => m.type === "image");
+					if (images.length > 0) {
+						parsedContent += "<br><br>" + images.map((m) => `<a href="${m.url}" target="_blank" rel="nofollow">[Attached Image]</a>`).join(" ");
+					}
+				}
+
 				nodeMap.set(
 					d.id,
 					new CommentNode({
 						id: d.id,
 						author: d.account.display_name || d.account.username,
-						content: d.content,
+						content: parsedContent,
 						platform: "Fediverse",
 						url: d.url,
 						timestamp: d.created_at,
@@ -139,10 +148,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 				const labels = bskyNode.post.labels || [];
 				if (labels.some((l) => l.val === "hide" || l.val === "!hide") || !bskyNode.post.record.text?.trim()) return null;
 
+				let imageText = "";
+				if (bskyNode.post.embed) {
+					const embed = bskyNode.post.embed;
+					if (embed.$type === "app.bsky.embed.images#view" && embed.images) {
+						imageText = "<br><br>" + embed.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow">[Attached Image]</a>`).join(" ");
+					} else if (embed.$type === "app.bsky.embed.recordWithMedia#view" && embed.media && embed.media.images) {
+						imageText = "<br><br>" + embed.media.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow">[Attached Image]</a>`).join(" ");
+					}
+				}
+
 				const node = new CommentNode({
 					id: bskyNode.post.uri,
 					author: bskyNode.post.author.displayName || bskyNode.post.author.handle,
-					content: `<p>${renderBlueskyText(bskyNode.post.record)}</p>`,
+					content: `<p>${renderBlueskyText(bskyNode.post.record)}${imageText}</p>`,
 					platform: "Bluesky",
 					url: `https://bsky.app/profile/${bskyNode.post.author.did}/post/${bskyNode.post.uri.split("/").pop()}`,
 					timestamp: bskyNode.post.record.createdAt,
