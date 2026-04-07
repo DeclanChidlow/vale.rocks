@@ -1,17 +1,10 @@
 window.addEventListener("DOMContentLoaded", () => {
-	const queryString = window.location.search;
-	const urlParams = new URLSearchParams(queryString);
-	const searchString = urlParams.get("q");
+	const searchInput = document.querySelector(".pf-input");
+	const clearButton = document.querySelector(".pf-input-clear");
 
-	const pagefind = new PagefindUI({
-		element: "#search",
-		pageSize: 10,
-		showSubResults: true,
-		showImages: false,
-		excerptLength: 30,
-		resetStyles: false,
-		autofocus: true,
-	});
+	if (!searchInput) return;
+
+	searchInput.focus();
 
 	const updateUrlQuery = (query) => {
 		const newUrl = new URL(window.location);
@@ -23,35 +16,22 @@ window.addEventListener("DOMContentLoaded", () => {
 		window.history.replaceState({}, "", newUrl);
 	};
 
+	const urlParams = new URLSearchParams(window.location.search);
+	const searchString = urlParams.get("q");
+
 	if (searchString) {
-		pagefind.triggerSearch(searchString);
+		searchInput.value = searchString;
+		searchInput.dispatchEvent(new Event("input", { bubbles: true }));
 	}
 
-	const searchInput = document.querySelector(".pagefind-ui__search-input");
-	if (searchInput) {
-		searchInput.addEventListener("input", (e) => {
-			const query = e.target.value.trim();
-			updateUrlQuery(query);
+	searchInput.addEventListener("input", (e) => {
+		const query = e.target.value.trim();
+		updateUrlQuery(query);
+	});
+
+	if (clearButton) {
+		clearButton.addEventListener("click", () => {
+			updateUrlQuery("");
 		});
 	}
-
-	const observer = new MutationObserver((mutations) => {
-		mutations.forEach((mutation) => {
-			if (mutation.addedNodes.length) {
-				document.querySelectorAll(".pagefind-ui__result-link").forEach((link) => {
-					const url = new URL(link.href);
-					if (url.pathname.includes(".html")) {
-						url.pathname = url.pathname.replace(".html", "");
-						link.href = url.toString();
-					}
-				});
-			}
-		});
-	});
-
-	const searchResults = document.querySelector("#search");
-	observer.observe(searchResults, {
-		childList: true,
-		subtree: true,
-	});
 });

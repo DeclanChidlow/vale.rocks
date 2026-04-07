@@ -105,7 +105,7 @@ Tying in somewhat with the scroll indication functionality, my client-side [`cop
 
 My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
 
-As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters thanks to [Kristof Zerbe's post about doing so](https://kiko.io/post/Pagefind-UI-and-URL-Parameters/).
+As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters.
 
 ### 404 Handling
 

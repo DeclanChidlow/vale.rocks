@@ -297,7 +297,8 @@ hr {
 }
 
 mark {
-	background: var(--yellow);
+	background: light-dark(var(--yellow), oklch(from var(--yellow) calc(l - 0.4) c h));
+	color: currentColor;
 	margin-inline: -0.2rem;
 	padding-inline: 0.2rem;
 }
