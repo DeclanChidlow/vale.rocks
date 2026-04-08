@@ -251,9 +251,15 @@ _body:
 		</details>
 	</section>
 
+
 	<section class="contact" data-pagefind-ignore>
-		<h2>Let’s Get The Ball Rolling!</h2>
-		<p>I’m available for new opportunities in the realms of front-end development and technical content writing and would love to hear what you’ve got in mind.</p>
+	${ settings.yaml/work_availability ? `
+			<h2>Let’s Get The Ball Rolling!</h2>
+			<p>I’m available for new opportunities in the realms of front-end development and technical content writing and would love to hear what you’ve got in mind.</p>
+	` : `
+			<h2>I’m Not Looking For Opportunities Currently</h2>
+			<p>I don’t have any openings for new work at present, but I’d still love to hear from you if there is something you think might be up my alley.</p>
+	` }
 		<a href="/contact">Get in Touch</a>
 	</section>
 

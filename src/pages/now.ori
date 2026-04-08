@@ -21,7 +21,7 @@ _body:
 			${ Tree.map(current_now, (item, key) =>
 				(key === 'pub_time' || key === 'date_raw' || key === 'overall' || String(key).startsWith('diff_')) || !item ? '' : `<li>${ item }</li>`
 			)}
-			<li>With ${ settings.yaml/freelance_availability ? 'freelance availability! <a href="/contact">Get in contact</a> if you want to make something happen' : 'no freelance availability' }.</li>
+			<li>With ${ settings.yaml/work_availability ? 'freelance availability! <a href="/contact">Get in contact</a> if you want to make something happen' : 'no freelance availability' }.</li>
 		</ul>
 
 		<hr>
