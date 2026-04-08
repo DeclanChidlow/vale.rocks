@@ -10,8 +10,7 @@ _body:
 `<span class="section" data-pagefind-ignore data-pagefind-filter="Content Type">Links</span>
 
 <div class="readable">
-	<h1>Miscellaneous Links</h1>
-
+	<h1 data-pagefind-ignore>Miscellaneous Links</h1>
 	<p>These are ${ miscellaneous.length } links to miscellaneous web things.<br>
 	<em>Descriptions are not provided. Content is not ordered. Quality is not assured. Not appropriate for all audiences. Check with your doctor if this collection is right for you.</em></p>
 

@@ -10,7 +10,6 @@ _body:
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
 
 <div>
-
 	<section class="hero">
 		<h2>
 			<span>I'm a <span class="developer">front-end developer</span></span>
@@ -228,7 +227,7 @@ _body:
 
 	</section>
 
-	<section id="showcase" data-pagefind-ignore="all">
+	<section id="showcase" data-pagefind-ignore>
 		<h2>Showcase</h2>
 		<p>Some of that which I’ve had the privilege of working on.</p>
 
@@ -252,7 +251,7 @@ _body:
 		</details>
 	</section>
 
-	<section class="contact" data-pagefind-ignore="all">
+	<section class="contact" data-pagefind-ignore>
 		<h2>Let’s Get The Ball Rolling!</h2>
 		<p>I’m available for new opportunities in the realms of front-end development and technical content writing and would love to hear what you’ve got in mind.</p>
 		<a href="/contact">Get in Touch</a>

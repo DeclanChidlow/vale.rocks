@@ -7,9 +7,9 @@
 	template_image: "post"
 
 _body: 
-`<h1 class="section" data-pagefind-filter="Content Type:Page">Posts</h1>
+`<h1 class="section" data-pagefind-ignore>Posts</h1>
 
-<div data-pagefind-ignore="all">
+<div data-pagefind-ignore>
 	<form id="refine-posts">
 		<div class="filter">
 			<label for="posts-filter">Category:</label>

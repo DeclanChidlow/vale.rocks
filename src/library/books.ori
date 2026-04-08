@@ -11,7 +11,7 @@ _body:
 
 <div>
 	<div class="readable">
-		<h1>Books</h1>
+		<h1 data-pagefind-ignore>Books</h1>
 		<p>These are ${ books.length } books I’ve read or given up on a significant portion of the way through, occasionally presented with notes.</p>
 		<p>Imprecise tracking began in 2022, with proper tracking beginning in 2023, so some reading prior to that isn’t present.</p>
 	</div>

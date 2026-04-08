@@ -24,6 +24,7 @@
 .search-results {
 	display: flex;
 	gap: 1rem;
+	margin-block-start: 1.5rem;
 
 	@media (max-width: 45rem) {
 		flex-direction: column;
@@ -60,12 +61,11 @@ main {
 .pf-filter-pane {
 	gap: 0.75rem !important;
 	padding: 0 !important;
-	margin-block-start: 0.5rem !important;
 
 	.pf-filter-group {
 		padding-block: 0.5rem !important;
 		padding-inline: 0.75rem !important;
-		background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3)) !important;
+		background: light-dark(oklch(from var(--white) l c h), oklch(from var(--dark_grey) l c h)) !important;
 		border: 0.05rem solid light-dark(transparent, var(--grey)) !important;
 	}
 
@@ -98,6 +98,12 @@ main {
 	.pf-checkbox-input {
 		accent-color: var(--blue) !important;
 	}
+}
+
+.pf-summary {
+	font-size: small !important;
+	font-style: italic !important;
+	padding-inline: 0.5rem !important;
 }
 
 .pf-results {

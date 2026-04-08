@@ -7,9 +7,9 @@
 	template_image: "photography"
 
 _body:
-`<h1 class="section" data-pagefind-filter="Content Type:Page">Photography</h1>
+`<h1 class="section" data-pagefind-ignore>Photography</h1>
 
-<div data-pagefind-ignore="all">
+<div data-pagefind-ignore>
 	<div id="photography">
 		${ Tree.map(paginated_photography.items, (item, key) => `
 			<a class="photo" href="/photography/${ Origami.basename(key) }">

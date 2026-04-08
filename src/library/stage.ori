@@ -11,7 +11,7 @@ _body:
 
 <div>
 	<div class="readable">
-		<h1>Stage</h1>
+		<h1 data-pagefind-ignore>Stage</h1>
 		<p>${ stages.length } stage productions including concerts and theatre performances I’ve experienced with notes where applicable.</p>
 	</div>
 

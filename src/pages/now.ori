@@ -6,7 +6,7 @@
     canonical: paginated_nows ? `/now/${paginated_nows.pageNumber}` : `/now`
 
 _body:
-`<h1 class="section" data-pagefind-ignore>Now</h1>
+`<h1 class="section" data-pagefind-ignore data-pagefind-filter="Content Type:Now">Now</h1>
 
 <div class="readable">
 		${ !paginated_nows ? `
@@ -55,7 +55,7 @@ _body:
 			</article>
 		`)}
 
-		<div class="pagination">
+		<div class="pagination" data-pagefind-ignore>
 			${ paginated_nows.previousPage ?
 				`<a href="/now/${ paginated_nows.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>` :
 				`<a href="/now" rel="prev"><span aria-hidden="true">←</span> Current Now</a>`

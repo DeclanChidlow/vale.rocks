@@ -29,7 +29,7 @@ When not bodging together scripts (both the kinds you run and the kinds you read
 
 </section>
 
-<section data-pagefind-ignore="all">
+<section data-pagefind-ignore>
 
 ## Explore My Site
 
