@@ -18,7 +18,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Post</title><path d="M144-288v-384h384v384zm72-72h240v-240H216zm-72-384v-72h672v72zm456 144v-72h216v72zm0 156v-72h216v72zm0 156v-72h216v72zM144-144v-72h672v72z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
+						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
 					</div>
 				</header>
 
@@ -39,7 +39,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Photo</title><path d="M480-264q72 0 120-49t48-119q0-69-48-118t-120-50-120 50-48 118q0 70 48 119t120 49m0-72q-42 0-69-27t-27-68q0-40 27-68t69-29 69 29 27 68q0 41-27 68t-69 27M96-144v-576h192l72-96h240l72 96h192v576z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
+						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
 					</div>
 
 					<div class="socials">
@@ -58,7 +58,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Elsewhere</title><path d="M144-144v-672h336v72H216v528h528v-264h72v336H144Zm243-192-51-51 357-357H576v-72h240v240h-72v-117L387-336Z"/></svg>
-						<h2><a href="https://${ item.url }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
+						<h2><a href="https://${ item.url }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }  UTC</time></a></h2>
 					</div>
 				</header>
 				
@@ -78,7 +78,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Demo</title><path d="M336-240 96-480l240-240 51 51-189 189 189 189zm288 0-51-51 189-189-189-189 51-51 240 240z"/></svg>
-						<h2><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }</time></h2>
+						<h2><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></h2>
 					</div>
 
 					<div class="socials">
@@ -99,7 +99,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Sign-Up</title><path d="M708-432v-84h-84v-72h84v-84h72v84h84v72h-84v84zm-324-48q-60 0-102-42t-42-102 42-102 102-42 102 42 42 102-42 102-102 42M96-192v-92q0-26 13-47t34-35q55-32 116-49t125-17 125 17 116 49q22 13 35 35t12 47v92z"/></svg>
-						<h2><time datetime="${ item.pub_time }" title="Date of sign-up.">${ functions/pretty-date.js(item.pub_time) }</time></h2>
+						<h2><time datetime="${ item.pub_time }" title="Date of sign-up.">${ functions/pretty-date.js(item.pub_time) } UTC</time></h2>
 					</div>
 				</header>
 
@@ -131,7 +131,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Video</title><path d="M336-216v-528l408 264z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
+						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
 					</div>
 
 					<div class="socials">
@@ -155,14 +155,14 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Pulse</title><path d="M48-444v-72h221l93 232 236-585 142 353h172v72H692l-94-232L362-91 220-444z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) }</time></a></h2>
+						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
 					</div>
 				</header>
 
 				<div class="readable">
 					<p><em>The annual recap of the year that was…</em></p>
 					${ item/svg_year }
-					<p>🙜 <strong>${ item.title }</strong> 🙞</p>
+					<p><strong>${ item.title }</strong></p>
 					<p>${ item.og_description }</p>
 				</div>
 			</article>
@@ -173,7 +173,7 @@ _body:
 				<header>
 					<div>
 						<svg viewBox="0 -960 960 960"><title>Micro</title><path d="M239-192q-91-3-141-40T48-333q0-63 50-101t139-44q35-2 55-12t20-27q0-27-27-40t-96-19l6-72q96 6 143 39t46 92q0 48-37 77t-105 34q-61 5-91 23t-31 50q0 33 29 50t93 19zm322-67L403-418l377-377 158 159zm-35 35-199 41 41-200z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time></a></h2>
+						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) } UTC</time></a></h2>
 					</div>
 
 					<div class="socials">

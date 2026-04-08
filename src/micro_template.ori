@@ -1,5 +1,5 @@
 (micro) => main_template.ori({
-	title: `${ micro.title ? `${ micro.title } - ` : ''}${ functions/pretty-date.js(pub_time) } ${ functions/pretty-time.js(pub_time) }`
+	title: `${ micro.title ? `${ micro.title } - ` : ''}${ functions/pretty-date.js(pub_time) } ${ functions/pretty-time.js(pub_time) } UTC`
 	description: micro.description
 	pub_time: micro.pub_time
 	article: true
