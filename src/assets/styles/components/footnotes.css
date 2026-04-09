@@ -90,6 +90,10 @@
 		margin-block-end: 3rem;
 	}
 
+	ol {
+		counter-reset: footnotes;
+	}
+
 	li {
 		font-size: small;
 		line-height: 1.5;

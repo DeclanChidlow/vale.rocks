@@ -52,7 +52,6 @@ pre {
 		min-inline-size: 100%;
 		border: none;
 		tab-size: 4;
-		counter-reset: step;
 		background: inherit;
 	}
 }
