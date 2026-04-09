@@ -688,6 +688,9 @@
       format: Streaming
 - title: How the Grinch Stole Christmas
   release_year: 2000
+- title: Looking for Alibrandi
+  release_year: 2000
+  rating: 1
 - title: Remember the Titans
   release_year: 2000
 - title: The Dish
@@ -777,6 +780,9 @@
   release_year: 1996
   rating: 3.5
   notes: "This was my first introduction to Star Trek: The Next Generation."
+- title: William Shakespeare's Romeo + Juliet
+  release_year: 1996
+  notes: Viewed ad-nauseam for high-school English.
 - title: Hackers
   release_year: 1995
   rating: 4
