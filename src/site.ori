@@ -14,7 +14,7 @@
 	posts/ = {
 		...Tree.map(post_data.ori, post_template.ori)
 		feed.json = Origami.json(post_syndication.ori(Tree.take(combined_post_feed, 10)))
-        feed.xml = Origami.rss(post_syndication.ori(Tree.take(combined_post_feed, 10)))
+		feed.xml = Origami.rss(post_syndication.ori(Tree.take(combined_post_feed, 10)))
 	}
 
 	portfolio.html = pages/portfolio.ori(portfolio_data.ori)

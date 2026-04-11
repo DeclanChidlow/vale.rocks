@@ -11,9 +11,18 @@ canonical: /search
 <div class="readable" data-pagefind-ignore>
 
 <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-component-ui.js" type="module"></script>
+<script src="/pagefind/pagefind-component-ui.js"></script>
+<script>
+if (window.PagefindComponents) {
+    const { configureInstance } = window.PagefindComponents;
+    configureInstance("default", {
+        mergeIndex: [{
+            bundlePath: "https://vale.rocks/external/"
+        }],
+    });
+}
+</script>
 
-<pagefind-config preload faceted></pagefind-config>
 <pagefind-input></pagefind-input>
 
 <div class="search-results">
@@ -21,40 +30,48 @@ canonical: /search
 		<pagefind-filter-pane></pagefind-filter-pane>
 	</div>
 	<div>
-    <pagefind-summary></pagefind-summary>
-		<pagefind-results>
-			<script type="text/pagefind-template">
-				<li>
-					<div class="result">
-							<p><a href="{{ meta.url | default(url) | replace(".html", "") }}">{{ meta.title | replace("| Vale.Rocks", "") }}</a></p>
-							{{#if excerpt}}
-							<p>{{+ excerpt +}}</p>
-							{{/if}}
-					</div>
-					{{#if sub_results}}
-					<ul>
-						{{#each sub_results as sub}}
-						<li>
-							<p><a href="{{ sub.url | default(url) | replace(".html", "") }}">{{ sub.title }}</a></p>
-							<p>{{+ sub.excerpt +}}</p>
-						</li>
-						{{/each}}
-					</ul>
-					{{/if}}
-				</li>
-			</script>
-			<script type="text/pagefind-template" data-template="placeholder">
-				<li class="pf-result" aria-hidden="true">
-					<div class="pf-result-card">
-						<div class="pf-result-content">
-							<p class="pf-result-title pf-skeleton pf-skeleton-title"></p>
-							<p class="pf-result-excerpt pf-skeleton pf-skeleton-excerpt"></p>
-						</div>
-					</div>
-				</li>
-			</script>
-		</pagefind-results>
-	</div>
+        <pagefind-summary></pagefind-summary>
+        <div id="pf-results-wrapper"></div>
+        <template id="pf-results-template">
+            <pagefind-results>
+                <script type="text/pagefind-template">
+                    <li>
+                        <div class="result">
+                            <p><a href="{{ meta.url | default(url) | replace(".html", "") }}">{{ meta.title | replace("| Vale.Rocks", "") }}</a></p>
+                            {{#if excerpt}}
+                                <p>{{+ excerpt +}}</p>
+                            {{/if}}
+                        </div>
+                        {{#if sub_results}}
+                        <ul>
+                            {{#each sub_results as sub}}
+                            <li>
+                                <p><a href="{{ sub.url | default(url) | replace(".html", "") }}">{{ sub.title }}</a></p>
+                                <p>{{+ sub.excerpt +}}</p>
+                            </li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+                    </li>
+                </script>
+                <script type="text/pagefind-template" data-template="placeholder">
+                    <li class="pf-result" aria-hidden="true">
+                        <div class="pf-result-card">
+                            <div class="pf-result-content">
+                                <p class="pf-result-title pf-skeleton pf-skeleton-title"></p>
+                                <p class="pf-result-excerpt pf-skeleton pf-skeleton-excerpt"></p>
+                            </div>
+                        </div>
+                    </li>
+                </script>
+            </pagefind-results>
+        </template>
+        <script>
+            document.getElementById('pf-results-wrapper').appendChild(
+                document.getElementById('pf-results-template').content.cloneNode(true)
+            );
+        </script>
+    </div>
 </div>
 
 <noscript>

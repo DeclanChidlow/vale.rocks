@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /pagefind
+Disallow: /external
 
 Sitemap: https://vale.rocks/sitemap.xml

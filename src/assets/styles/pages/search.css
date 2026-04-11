@@ -40,10 +40,10 @@ main {
 	--pf-skeleton: light-dark(var(--bright_white), var(--black));
 	--pf-skeleton-shine: light-dark(var(--white), var(--grey));
 
-	--pf-error-bg: light-dark(var(--bright_grey), var(--grey));
+	--pf-error-bg: light-dark(var(--red), var(--dark_grey));
 	--pf-error-border: var(--red);
-	--pf-error-text: var(--red);
-	--pf-error-text-secondary: var(--red);
+	--pf-error-text: light-dark(var(--black), var(--red));
+	--pf-error-text-secondary: light-dark(var(--black), var(--red));
 
 	--pf-outline-focus: var(--blue);
 
@@ -82,7 +82,7 @@ main {
 		text-transform: none !important;
 		color: var(--pf-text) !important;
 
-		&::after {
+		&::before {
 			background-color: var(--pf-text) !important;
 		}
 	}
@@ -128,7 +128,7 @@ main {
 			font-weight: bold;
 			text-decoration: none;
 
-			&::after {
+			&::before {
 				content: "";
 				position: absolute;
 				inset: 0;
