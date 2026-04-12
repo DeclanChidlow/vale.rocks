@@ -42,9 +42,9 @@ class YtEmbed extends HTMLElement {
 
 	createIframe() {
 		const iframe = document.createElement("iframe");
-		iframe.src = `https://www.youtube-nocookie.com/embed/${this.videoId}?autoplay=1&rel=0`;
+		iframe.src = `https://www.youtube-nocookie.com/embed/${this.videoId}?autoplay=1&rel=0&enablejsapi=1`;
 		iframe.referrerPolicy = "strict-origin-when-cross-origin";
-		iframe.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+		iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
 		iframe.allowFullscreen = true;
 		return iframe;
 	}
@@ -57,6 +57,90 @@ class YtEmbed extends HTMLElement {
 		this.append(iframe);
 
 		iframe.focus();
+
+		this.initYouTubeAPI(iframe);
+	}
+
+	initYouTubeAPI(iframe) {
+		if (!window.YT) {
+			const tag = document.createElement("script");
+			tag.src = "https://www.youtube.com/iframe_api";
+			const firstScriptTag = document.getElementsByTagName("script")[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		}
+
+		const initPlayer = () => {
+			this.player = new YT.Player(iframe, {
+				events: {
+					onStateChange: this.onPlayerStateChange.bind(this),
+				},
+			});
+		};
+
+		if (window.YT && window.YT.Player) {
+			initPlayer();
+		} else {
+			const previousCallback = window.onYouTubeIframeAPIReady;
+			window.onYouTubeIframeAPIReady = () => {
+				if (previousCallback) previousCallback();
+				initPlayer();
+			};
+		}
+	}
+
+	onPlayerStateChange(event) {
+		if (event.data === 1) {
+			this.startPolling();
+		} else {
+			this.stopPolling();
+		}
+	}
+
+	startPolling() {
+		this.stopPolling();
+		this.pollInterval = setInterval(() => {
+			if (this.player && this.player.getCurrentTime) {
+				const time = this.player.getCurrentTime();
+				this.syncTranscript(time);
+			}
+		}, 100);
+	}
+
+	stopPolling() {
+		if (this.pollInterval) clearInterval(this.pollInterval);
+	}
+
+	syncTranscript(currentTime) {
+		const transcriptContainer = document.getElementById("transcript-container");
+		if (!transcriptContainer) return;
+
+		const captionLines = transcriptContainer.querySelectorAll("span");
+		let activeLine = null;
+
+		captionLines.forEach((line) => {
+			const start = parseFloat(line.dataset.start);
+			const end = parseFloat(line.dataset.end);
+			const isMarked = line.querySelector("mark");
+
+			if (currentTime >= start && currentTime <= end) {
+				if (!isMarked) {
+					line.innerHTML = `<mark>${line.textContent}</mark>`;
+				}
+				activeLine = line;
+			} else if (isMarked) {
+				line.innerHTML = line.textContent;
+			}
+		});
+
+		if (activeLine) {
+			const containerCenter = transcriptContainer.clientHeight / 2;
+			const lineOffset = activeLine.offsetTop - transcriptContainer.offsetTop;
+
+			transcriptContainer.scrollTo({
+				top: lineOffset - containerCenter + activeLine.clientHeight / 2,
+				behavior: "smooth",
+			});
+		}
 	}
 }
 

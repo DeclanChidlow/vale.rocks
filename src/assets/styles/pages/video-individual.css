@@ -3,6 +3,11 @@ h1 {
 	line-height: 2.5rem;
 }
 
+h2 {
+	font-size: 1.5rem;
+	margin-block-end: 0.5rem;
+}
+
 article header {
 	margin-block: 3rem;
 	text-transform: uppercase;

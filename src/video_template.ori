@@ -18,7 +18,7 @@ _body:
 	<div class="readable e-content">
 		<header data-pagefind-ignore>
 			<h1 class="p-name">${ video.title }</h1>
-			<time class="dt-published" datetime="${ video.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(video.pub_time) }</time>
+			<time class="dt-published" datetime="${ video.pub_time }" title="Date of first publication." data-timezone-ignore>${ functions/pretty-date.js(video.pub_time) }</time>
 			<span> | </span>
 			<a href="https://www.youtube.com/watch?v=${ video.youtube_id }">Watch on YouTube</a>
 
@@ -27,7 +27,22 @@ _body:
 			</ul>
 		</header>
 
-		${ video._body }
+
+		${ video.transcript_html ? `
+		<section>
+				<h2>Transcript</h2>
+				<div id="transcript-container">
+						${ video.transcript_html }
+				</div>
+		</section>
+		` : '' }
+
+		<section>
+			<h2>Notes</h2>
+			<div class="readable">
+				${ video._body }
+			</div>
+		</section>
 	</div>
 </article>
 
