@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2026-03-13
+mod_time: 2026-04-14
 section: Meta
 tags: [design, front-end development]
 ---
@@ -35,7 +35,7 @@ In the hours following the playtest, I worked on porting my site over, and by th
 
 ### Footnotes/Endnotes/Sidenotes
 
-I like being able to add extra information, tangents, or conjecture to my writing, but I don't always wish to clutter or disrupt the main flow of text. Footnotes [^1] are great for this, but the typical implementation is less than ideal, as it has users jumping all over the page every time they wish to read one.
+I like being able to add extra information, tangents, or conjecture to my writing, but I don't always wish to clutter or disrupt the main flow of text. Footnotes[^1] are great for this, but the typical implementation is less than ideal, as it has users jumping all over the page every time they wish to read one.
 
 Thus, I've come up with my own implementation. By default, footnotes are marked up as anchors to the definition at the end of the page in standard HTML, but the experience of this is greatly improved by some JavaScript-based progressive enhancement. Assuming the JavaScript is available and active, clicking a footnote reference in a horizontally challenged viewport will open it in a popover. If the viewport is sufficiently wide, then the footnotes also manifest as sidenotes in the page's right margin.
 
@@ -103,9 +103,13 @@ Tying in somewhat with the scroll indication functionality, my client-side [`cop
 
 ### Search
 
-My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is excellent for being able to narrow down a result.
+My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is valuable in being able to narrow down a result. It is vital to me that all my content is easily searchable, because I usually find myself needing to locate or reference something on my site a few times per day.
 
-As Pagefind is implemented client-side as a script, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I've also added in support for URL query parameters.
+I use Pagefind's Component UI, which uses Web Components with high-specificity CSS to provide the interface. This does, unfortunately, mean that they're a tad annoying to style and manipulate without modifying Pagefind itself. I do apply some CSS with `!important`, but for the main results I've created a custom template which can be styled without specificity concerns. This template also allows me to filter out unwanted content from values, such as removing `.html` from URLs.
+
+The search on this site also allows for searching content created by me but published on other websites. I do this with a small, private micro-site also built in Origami, which contains metadata-labelled mirrors of my content elsewhere and builds a Pagefind index from it. Then, exclusively the Pagefind index is served publicly and [merged with this site's index](https://pagefind.app/docs/multisite/). This is one of few features which was added to this site following user demand, as I got occasional messages asking me if I was the one that had written on a certain topic.
+
+As Pagefind is served as client-side JavaScript, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I also implemented support for providing search strings as a URL query parameter (`?q=`) and added an [OpenSearch description](/opensearch.xml) so that the site can be added as a search provider in browsers.
 
 ### 404 Handling
 
@@ -155,7 +159,8 @@ Vale.Rocks is configured as a [PWA](https://en.wikipedia.org/wiki/Progressive_we
 
 In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
 
-### Currently Listening
+
+### Currently Listening Display
 
 On my [Music Library page](/library/music) and [Now page](/now), I have a dynamically updating notice of what I'm currently listening to. This is possible because my music listening -- including my currently playing -- is tracked by [ListenBrainz](https://listenbrainz.org), which graciously provides a free and open API.
 
@@ -201,11 +206,11 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose), [^3] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose),[^3] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
 
 The firehose is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
-All the content going into the firehose data tree is given a `type` property [^4] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
+All the content going into the firehose data tree is given a `type` property[^4] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
 
 [^1]: Or perhaps more accurately for the web, endnotes.
 

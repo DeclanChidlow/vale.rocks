@@ -27,7 +27,7 @@ if (window.PagefindComponents) {
 
 <div class="search-results">
 	<div>
-		<pagefind-filter-pane></pagefind-filter-pane>
+		<pagefind-filter-pane show-empty="true"></pagefind-filter-pane>
 	</div>
 	<div>
         <pagefind-summary></pagefind-summary>

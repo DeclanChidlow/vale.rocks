@@ -4,7 +4,7 @@
 - title: Leap Year Day
   description: Fixing our calendar's slight drift from the Earth's orbit.
   date: 02-29
-- title: Beginning of Q2.
+- title: Beginning of Q2
   description: The first quarter of the year has been vanquished, and now the second takes its place.
   date: 04-01
 - title: Anniversary of the Tiananmen Square massacre
@@ -20,12 +20,15 @@
     We will remember them.
     </p></blockquote>
   date: 04-25
-- title: Beginning of Q3.
+- title: Beginning of Q3
   description: Half the year passed, with one half to go.
   date: 07-01
-- title: Beginning of Q4.
-  description: Three quarters down, one more remaining.
-  date: 10-01
 - title: Vale.Rocks Domain Anniversary
   description: The domain vale.rocks was registered on this day in 2022. This has made a lot of people very angry and been widely regarded as a bad move.
   date: 09-17
+- title: Beginning of Q4.
+  description: Three quarters down, one more remaining.
+  date: 10-01
+- title: Aaron Swartz Day
+  description: A day to commemorate Aaron Swartz and that which he stood for, principally open access.
+  date: 11-08

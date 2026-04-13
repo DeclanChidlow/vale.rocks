@@ -128,6 +128,9 @@
 - title: Doki Doki Literature Club
   release_year: 2017
   platforms: ["PC"]
+  playthroughs:
+    - start: 2020-06
+      finish: 2020-06
 - title: Fortnite
   release_year: 2017
   platforms: ["Nintendo Switch", "Xbox Series"]
