@@ -80,6 +80,18 @@ if (window.PagefindComponents) {
 		<label for="search-for">Search with DuckDuckGo:</label>
 		<input id="search-for" type="search" name="q" required>
 		<input type="hidden" name="sites" value="vale.rocks">
+        <input type="hidden" name="kp" value="-2"> <!-- Disable Safe Search -->
+        <input type="hidden" name="kav" value="1"> <!-- Auto-load results -->
+        <input type="hidden" name="kaj" value="m"> <!-- Use metric units -->
+        <input type="hidden" name="kat" value="-1">
+        <input type="hidden" name="kax" value="-1">
+        <input type="hidden" name="kak" value="-1">
+        <input type="hidden" name="kaq" value="-1">
+        <input type="hidden" name="kao" value="-1">
+        <input type="hidden" name="kau" value="-1">
+        <input type="hidden" name="kpsb" value="-1">
+        <input type="hidden" name="k18" value="1">
+        <input type="hidden" name="kbe" value="1">
 		<button type="submit">Search</button>
 	</form>
 </noscript>

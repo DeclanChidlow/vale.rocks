@@ -19,7 +19,7 @@ Separate from my duties as a Stoat team member, I have also created one of the m
 
 ## Icon
 
-In October 2025, Stoat [rebranded from its previous name of Revolt](https://stoat.chat/updates/long-live-stoat), which came with the need for new branding. I began experimenting and ideating with a stylised vector stoat.
+In October 2025, Stoat rebranded (from Revolt), which came with the need for new branding. I began experimenting and ideating with a stylised vector stoat.
 
 Given the platform's name, modelling the icon on the visage of the mustelid was the obvious choice. Initially starting with a sharp, polygonal look, feedback from one of Stoat's founders pushed the design into a smoother, curvier appearance on which I iterated. The challenge lay in achieving a simple, scalable graphic that was distinctly a stoat and didn't stray into the territory of otter, ferret, or other mustelid.
 
@@ -57,4 +57,6 @@ These icons are the property of Revolt Platforms Ltd and presented here with per
 }
 </style>
 
-I'm incredibly pleased with how the icon turned out and how it has been integrated into the platform's brand. The Stoat community [proved to love the new icon](https://bsky.app/profile/stoat.chat/post/3memon3azgk22) and even gave them a name, 'Toast'!
+I'm incredibly pleased with how the icon turned out and how it has been [integrated into the platform's brand](https://stoat.chat/updates/celebrating-one-million). The Stoat community [proved to love the new icon](https://bsky.app/profile/stoat.chat/post/3memon3azgk22) and even gave them a name, 'Toast'!
+
+You can download Toast and the rest of Stoat's brand resources [on the Stoat website](https://stoat.chat/brand).
