@@ -259,16 +259,6 @@ ul li {
 	}
 }
 
-ol {
-	counter-reset: list-item;
-
-	> li {
-		&::marker {
-			content: counters(list-item, ".") ". ";
-		}
-	}
-}
-
 dl > dd + dt {
 	margin-block-start: 1.5rem;
 }
