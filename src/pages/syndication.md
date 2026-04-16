@@ -51,6 +51,8 @@ Then, depending on how your feed reader is configured, it'll fetch each feed aut
 
 Lots and lots of sites have syndication feeds, even if they don't always make it obvious. They're widely used by everyone from [NASA](https://www.nasa.gov/feed/), to [Apple](https://www.apple.com/newsroom/rss-feed.rss), to small sites like this one, as is evidenced below.
 
+If you wish to create your own syndication feeds, I've written [a quick guide to creating syndication feeds](https://piccalil.li/blog/a-quick-guide-to-creating-syndication-feeds/) for your reference.
+
 </details>
 
 ## Articles

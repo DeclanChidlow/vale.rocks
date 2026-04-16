@@ -119,7 +119,7 @@ However, it is worth noting that judicial blocklists do carry severe real-world 
 
 In 2025 a new regulation was passed which has made it so that influencers without verified credentials are banned from speaking on certain topics, including finance, law, medicine, and education, in an effort to reduce misinformation. Further legislation, such as the Cybersecurity Law, mandates data localisation and network operator compliance, legally binding technology companies to state surveillance apparatuses.
 
-<!-- There are also a whole host of restrictions and regulations which have [completely reshaped China's gaming industry and culture](). -->
+There are also a whole host of restrictions and regulations which have [completely reshaped China's gaming industry and culture](/posts/china-gaming).
 
 ## Online Culture
 
