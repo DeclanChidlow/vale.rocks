@@ -15,7 +15,7 @@ However, China takes localisation to a whole different level entirely. The count
 
 Gaming in China is heavily regulated and has been subject to much government oversight since inception. Given the pervasiveness of online games, crucial to understanding the form China's gaming industry has taken is understanding China's [almost self-contained national web](/posts/chinas-web). Within the country, there are a few companies that handle major games. Most notably Tencent and NetEase.
 
-Tencent is one of the world's largest companies by revenueand notably operates QQ and WeChat. That is just the very tip of the iceberg, however, as Tencent is among the largest video game vendors. They wholly own Riot Games, Turtle Rock Studios, Sumo Group, and more. They also have majority stakes in Supercell, Grinding Gear Games, and more. They also have minority but sizeable stakes in a plethora of major players, including Epic Games, Ubisoft, Remedy Entertainment, Fatshark, Roblox Corp, and FromSoftware. Further, they've got multiple in-house studios.
+Tencent is one of the world's largest companies by revenue and notably operates QQ and WeChat. That is just the very tip of the iceberg, however, as Tencent is among the largest video game vendors. They wholly own Riot Games, Turtle Rock Studios, Sumo Group, and more. They also have majority stakes in Supercell, Grinding Gear Games, and more. They also have minority but sizeable stakes in a plethora of major players, including Epic Games, Ubisoft, Remedy Entertainment, Fatshark, Roblox Corp, and FromSoftware. Further, they've got multiple in-house studios.
 
 NetEase is also massive, though not quite to the scale of Tencent. It develops games including Marvel Rivals and has investments in Bungie, Devolver Digital, and others. Especially during the 2020s, many other Chinese brands have gained a footing in the market and begun to see massive growth, such as miHoYo, which publishes globally via Cognosphere trading as HoYoverse.
 
@@ -27,11 +27,11 @@ Games are expected to adhere to specific values and avoid allowing some immoral 
 
 - Spreads superstition or is deemed too horrific or cruel. This particularly applies to corpses, skeletons and blood, which are often removed, replaced, or recoloured. Cult or occult content that conflicts with state ideology is also restricted. In some cases developers go further than what is necessitated, just to ensure there are no complications due to found infractions.
 
-- Falls outside of traditional gender roles and depictions of non-heterosexual marriage. Depictions of effeminate men are specifically targeted and relationships are often recontextualised as friendships or removed entirely to ensure compliance.
+- Falls outside of traditional gender roles and depictions of non-heterosexual marriage. Depictions of effeminate men are specifically targeted, and relationships are often recontextualised as friendships or removed entirely to ensure compliance.
 
 - Depicts historical revisionism, such as games which depict alternate timelines where China is divided or Axis powers win during World War II. Maps which fail to align with China's official borders are also noted.
 
-- Includes gambling mechanics, which are very much regulated. Exact drop rates and likelihoods were made required to be published in 2017. This has had especially significant effects on games like Counter Strike which have lootboxes.
+- Includes gambling mechanics, which are very much regulated. Exact drop rates and likelihoods were made required to be published in 2017. This has had especially significant effects on games like Counter-Strike which have lootboxes.
 
 Due to the heavy region-locking and the language barrier, many Chinese variants of games are scarcely accessible, or even known of, outside of China. Chinese variants of games commonly _can't_ be legitimately accessed at all outside of mainland China. You often need to provide state-issued ID to gain access, which allows enforcement of the aforementioned restrictions.
 
@@ -47,7 +47,7 @@ Many popular games have significantly altered China-specific variants, including
 
 - [Game for Peace/Peacekeeper Elite](https://gp.qq.com/main.shtml) is Tencent's version of PUBG. There are reductions in violence such as players not dying when eliminated, instead just waving goodbye.
 
-- LuoBuLeSi was China's version of [Roblox](https://roblox.qq.com) that only operated for a few months in 2021, launching in July and closing in December, likely due to the open-ended nature with user-generated content being deemed too difficult to moderate. The play time limits also likely had severe impact on Roblox's primary demographic. At the time of publication, it has been confirmed to be returning in 2026.
+- LuoBuLeSi was China's version of [Roblox](https://roblox.qq.com) that only operated for a few months in 2021, launching in July and closing in December, likely due to the open-ended nature, with user-generated content being deemed too difficult to moderate. The playtime limits for minors also likely had severe impact on Roblox's ability to reach its primary demographic. At the time of publication, it has been confirmed to be returning in 2026.
 
 This is just a small selection, for these are just some of the cases of games having Chinese variants that I find more interesting. Almost every game that is made available within China sees some degree of change to comply with regulations, even if that is just tweaking a few icons.
 
@@ -57,7 +57,7 @@ Many cases exist of games being banned or restricted due to their display and po
 
 ## Mobile Games
 
-There is also a huge market for mobile games. Within China, many mobile games are not distributed as standard, self-contained applications installed on the operating system but are instead distributed within application like WeChat. For example, the aforementioned Chinese version of Plants vs Zombies 2 is supported by [a great number of Mini Programs](https://plantsvszombies.wiki.gg/wiki/Plants_vs._Zombies_Mini_Programs).
+There is also a huge market for mobile games. Within China, many mobile games are not distributed as standard, self-contained applications installed on the operating system but are instead distributed within applications like WeChat. For example, the aforementioned Chinese version of Plants vs Zombies 2 is supported by [a great number of Mini Programs](https://plantsvszombies.wiki.gg/wiki/Plants_vs._Zombies_Mini_Programs).
 
 Due to the distribution method, games also commonly have significant social integrations. It is easy to consider a game's integration with WeChat the same as a game might integrate with Facebook, but they are different beasts entirely. Games are often deeply integrated into social identities, with tie-ins to leaderboards and in-app purchases directly through those services.
 
