@@ -27,6 +27,7 @@
 	padding-inline-end: 2.5rem;
 	pointer-events: none;
 	view-transition-name: navbar;
+	--main_nav-background: light-dark(var(--bright_white), var(--black));
 	z-index: 1000;
 
 	@media (max-width: 45rem) {
@@ -45,6 +46,11 @@
 		block-size: 100%;
 		text-transform: uppercase;
 		font-size: 1.3rem;
+
+		a,
+		button {
+			filter: drop-shadow(0 0 1rem var(--main_nav-background)) drop-shadow(0 0 0.1rem var(--main_nav-background));
+		}
 
 		a {
 			padding: 0.5rem;
@@ -188,7 +194,17 @@
 		inset-inline-start: 0;
 		inline-size: 100%;
 		block-size: 100%;
-		background: linear-gradient(light-dark(var(--bright_white), var(--black)), transparent);
+		background: linear-gradient(
+			180deg,
+			color-mix(in oklch, var(--main_nav-background) 100%, transparent) 0%,
+			color-mix(in oklch, var(--main_nav-background) 96%, transparent) 14%,
+			color-mix(in oklch, var(--main_nav-background) 84%, transparent) 29%,
+			color-mix(in oklch, var(--main_nav-background) 63%, transparent) 43%,
+			color-mix(in oklch, var(--main_nav-background) 37%, transparent) 57%,
+			color-mix(in oklch, var(--main_nav-background) 16%, transparent) 71%,
+			color-mix(in oklch, var(--main_nav-background) 4%, transparent) 86%,
+			color-mix(in oklch, var(--main_nav-background) 0%, transparent) 100%
+		);
 		z-index: -1;
 	}
 }
