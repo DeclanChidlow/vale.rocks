@@ -47,8 +47,8 @@
 		text-transform: uppercase;
 		font-size: 1.3rem;
 
-		a,
-		button {
+		> a,
+		> button {
 			filter: drop-shadow(0 0 1rem var(--main_nav-background)) drop-shadow(0 0 0.1rem var(--main_nav-background));
 		}
 
@@ -197,12 +197,9 @@
 		background: linear-gradient(
 			180deg,
 			color-mix(in oklch, var(--main_nav-background) 100%, transparent) 0%,
-			color-mix(in oklch, var(--main_nav-background) 96%, transparent) 14%,
-			color-mix(in oklch, var(--main_nav-background) 84%, transparent) 29%,
-			color-mix(in oklch, var(--main_nav-background) 63%, transparent) 43%,
-			color-mix(in oklch, var(--main_nav-background) 37%, transparent) 57%,
-			color-mix(in oklch, var(--main_nav-background) 16%, transparent) 71%,
-			color-mix(in oklch, var(--main_nav-background) 4%, transparent) 86%,
+			color-mix(in oklch, var(--main_nav-background) 42%, transparent) 25%,
+			color-mix(in oklch, var(--main_nav-background) 13%, transparent) 50%,
+			color-mix(in oklch, var(--main_nav-background) 2%, transparent) 75%,
 			color-mix(in oklch, var(--main_nav-background) 0%, transparent) 100%
 		);
 		z-index: -1;
