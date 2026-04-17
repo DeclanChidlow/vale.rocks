@@ -3,7 +3,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "ori serve watch src, =debug src/site.ori",
-		"build": "ori copy src/site.ori, clear files:build"
+		"build": "ori copy src/site.ori, clear files:build",
+		"audit": "ori audit src/site.ori"
 	},
 	"dependencies": {
 		"@weborigami/origami": "^0.6.15",
