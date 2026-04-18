@@ -197,9 +197,9 @@
 		background: linear-gradient(
 			180deg,
 			color-mix(in oklch, var(--main_nav-background) 100%, transparent) 0%,
-			color-mix(in oklch, var(--main_nav-background) 42%, transparent) 25%,
-			color-mix(in oklch, var(--main_nav-background) 13%, transparent) 50%,
-			color-mix(in oklch, var(--main_nav-background) 2%, transparent) 75%,
+			color-mix(in oklch, var(--main_nav-background) 45%, transparent) 25%,
+			color-mix(in oklch, var(--main_nav-background) 15%, transparent) 50%,
+			color-mix(in oklch, var(--main_nav-background) 5%, transparent) 75%,
 			color-mix(in oklch, var(--main_nav-background) 0%, transparent) 100%
 		);
 		z-index: -1;

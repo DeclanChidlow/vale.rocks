@@ -261,6 +261,10 @@
 - title: Brooklyn Nine-Nine
   release_year: 2013
   part_watched: true
+- title: "Danganronpa: The Animation"
+  release_year: 2013
+  seasons:
+    - number: 1
 - title: Yo Gabba Gabba!
   release_year: 2007
   part_watched: true

@@ -598,6 +598,9 @@
   release_year: 1999
   platforms: ["PC"]
   notes: One of the first proper PC games I played.
+- title: Team Fortress Classic
+  release_year: 1999
+  platforms: ["PC"]
 - title: Super Smash Bros
   release_year: 1999
   platforms: ["Nintendo 64"]
