@@ -138,7 +138,7 @@ I could pinpoint the mint, orange, and green tea quite readily in the smell.
 
 _Bag_
 
-Rather sweet. I fail to taste the artificial vanilla. I often opt for this when out of milk or wanting to avoid caffeine.
+Rather sweet. I fail to taste the artificial vanilla. I sometimes opt for this when out of milk or wanting to avoid caffeine.
 
 ### Pure Mint - VAHDAM (■■■■□)
 

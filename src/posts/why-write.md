@@ -15,7 +15,7 @@ Writing is part of being able to communicate thoughts, which is a fundamental bu
 
 ## Forming Thought
 
-> Writing is refined thinking. \
+> Writing is refined thinking.\
 > — Stephen King
 
 If there is any one reason I write, it is summed up by the quote above. I think better and more clearly on and about a topic when I write about it. Specifically, to write cohesively forces me to untangle the erratic thoughts sprinting around my head into a clear linear thread.
@@ -32,7 +32,7 @@ Writing acts to prompt a slightly different type of thinking, especially if forg
 
 ## An Urge to Express and Create
 
-> Writing is the painting of the voice. \
+> Writing is the painting of the voice.\
 > — Voltaire
 
 I am a creative person (or at the very least a person who creates), and I can think of few joys more than being able to manifest the mind; to make thought tangible.
@@ -45,7 +45,7 @@ I can think of few greater pleasures than finalising a piece of writing and push
 
 ## Precision and Craftsmanship
 
-> Reading maketh a full man; conference a ready man; and writing an exact man. \
+> Reading maketh a full man; conference a ready man; and writing an exact man.\
 > — Francis Bacon
 
 Words are precise -- or at least they can be. They can be left vague or wielded with unambiguous precision. They can be revised and altered at will, and chosen with care when writing in a way they can't in speech. Writing permits me to articulate thought with far greater precision than would be possible on the fly. Well-written words possess a certain sharpness; they can effectively deconstruct a complex issue or carefully construct a nuanced argument.
@@ -54,7 +54,7 @@ Words remain extremely flexible and adaptable -- one must only look to puns, met
 
 ## Accessibility
 
-> The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect. \
+> The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.\
 > — Tim Berners-Lee
 
 Writing also has huge benefits that places it head and shoulders above other mediums as far as my needs are concerned. Other mediums such as audio and video are fantastic for a lot of things but require specific technologies and bandwidth. For conveying complex knowledge and information, text is king. The written word is remarkably adaptable and inherently inclusive, especially on the web.
@@ -71,13 +71,13 @@ Some people have asked why I share anything online when it is destined to be con
 
 The first thought process follows the mentality that my output is being stolen from me and that I should fight the scrapers to the fullest extent I can. My work is taken, chewed up, and spat out -- in many cases without any reference to me. However, the entire concept of this being classified as theft [is objectionable](https://blog.giovanh.com/blog/2025/04/03/why-training-ai-cant-be-ip-theft/).
 
-The second follows the thought that I benefit from AI scraping. It can be [useful when it pulls in context about me](/micros/20250424-0345) and my work when I use it, potentially making it more discoverable or allowing me to influence how AI understands and represents my perspective. My values, preferences, ideas, and thoughts have influence over AI models and will affect how they are aligned. By trying to avoid being scraped, I'm deliberately [erasing myself from history](https://gwern.net/blog/2024/writing-online). I'm also hiding my work from the growing league of AI search engines.
+The second follows the thought that I benefit from AI scraping. It can be [useful when LLMS pull in context about me](/micros/20250424-0345) and my work, potentially improving discoverability and allowing me to influence how AI understands and represents my perspective. My values, preferences, ideas, and thoughts have influence over AI models and will affect how they are aligned. By trying to avoid being scraped, I'm deliberately [erasing myself from history](https://gwern.net/blog/2024/writing-online). I'm also hiding my work from the growing league of AI search engines.
 
-In any case, whether I'm willing or not, anything I make that is accessible to humans will be accessible to scrapers. It is a fight I cannot win. I don't make specific considerations to allow my work to be scraped, but I would ultimately consider it a waste of time that could be better spent to resist it. [_Resistance is futile_](https://en.wikipedia.org/wiki/Borg#%22Resistance_is_futile%22).
+In any case, whether I'm willing or not, anything I make that is accessible to humans will be accessible to scrapers. It is a fight I cannot win. I don't make specific considerations to allow my work to be scraped, but I would ultimately consider resisting a waste of time that could be better spent. [_Resistance is futile_](https://en.wikipedia.org/wiki/Borg#%22Resistance_is_futile%22).
 
 ---
 
-In essence, I write because it is a powerful tool for defining, refining, and structuring my often erratic thoughts into a coherent, linear form. I write out of an innate need for expression and the desire to create tangible artefacts from the intangible realm of ideas. I write because I value the precision and craftsmanship that the medium allows. And I write because it is one of the most inherently accessible and democratising ways to share information and perspectives in the modern world. It is, quite simply, a core part of how I engage with the world and process my place within it.
+In essence, I write because writing is a powerful tool for defining, refining, and structuring often erratic thoughts into a coherent, linear form. I write out of an innate need for expression and the desire to create tangible artefacts from the intangible realm of ideas. I write because I value the precision and craftsmanship that the medium allows. And I write because it is one of the most inherently accessible and democratising ways to share information and perspectives in the modern world. It is, quite simply, a core part of how I engage with the world and process my place within it.
 
 [^1]: Commonly referred to as 'The Internet'.
 

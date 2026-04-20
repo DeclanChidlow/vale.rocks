@@ -3,7 +3,7 @@ title: How I'm Using AI
 description: An overview of my personal usage of Large Language Models (LLMs) and other generative AI. Tracking my experiences with AI tools, specific models (ChatGPT, Claude, Gemini, etc), applying them practically, and realistic perspective on their strengths and limitations over time, from coding attempts to language learning assistance.
 og_description: As long as AI isn't using me...
 pub_time: 2025-05-02
-mod_time: 2025-12-31
+mod_time: 2026-04-20
 section: Essay
 tags: [AI, LLMs]
 ---
@@ -46,7 +46,7 @@ My main usage throughout 2023 remained testing, experimenting, and extraordinari
 
 ### 2024
 
-In 2024 I began seriously using LLMs for code generation, although under strict supervision. I wasn't confident enough to permit them to work unsupervised, but I was happy to use them for generating one-off, non-mission-critical tools or for doing menial but verifiable tasks such as [writing regular expressions](/micros/20250320-1225). They do well with languages such as BASH, JavaScript, PHP, and Python, but I find them exceedingly poor for HTML and CSS.
+In 2024 I began seriously using LLMs for code generation, although under strict supervision. I wasn't confident enough to permit them to work unsupervised, but I was happy to use them for generating one-off, non-mission-critical tools or for doing menial but verifiable tasks such as [writing regular expressions](/micros/20250320-1225). They do well with languages such as Bash, JavaScript, PHP, and Python, but I find them exceedingly poor for HTML and CSS.
 
 I tried briefly to use LLM editor integrations such as GitHub Copilot but disliked the user experience. I felt I lost granular control over their actions and that they were sloppy in pulling in useful context when attempting to solve problems -- which was the main benefit as far as I was concerned. I continued to use web interfaces and copy in any necessary code. I tried LLM line completions but found them slow and inferior to non-AI implementations.
 
@@ -56,7 +56,7 @@ I locally hosted several models, but my computer wasn't capable of running anyth
 
 I experimented with DeepSeek V3 and found it capable but inferior to Claude 3.5 Sonnet. I also really disliked the censorship.
 
-I tested Perplexity and found it interesting but prone to hallucinations and therefore completely unfit for use as a general search engine. ChatGPT Search was equally poor as a general search engine, but I found utility in ChatGPT pulling in web content to avoid the limitations of its knowledge cutoff.
+I tested Perplexity and found it interesting but prone to hallucinations and therefore completely unfit for use as a general search engine. ChatGPT Search was equally poor as a general search engine, but I found utility in ChatGPT pulling in web content to avoid the limitations of its knowledge cut-off.
 
 Late in the year I began using LLMs for help with my Japanese learning. Mainly for the purpose of quizzing me on words and phrases or to converse with me and offer corrections as necessary. Language is the bread and butter of a Large _Language_ Model, and it did a very good job. I used [DeepL](https://www.deepl.com/en/translator) on occasion to verify it wasn't just spouting rubbish, and it wasn't any of the times I verified.
 
@@ -76,7 +76,7 @@ In April I began using Gemini's writing editor Gem for getting feedback on my gr
 
 Towards the conclusion of April, [I began experimenting with the freshly released Qwen3](/micros/20250429-0321). It is the first model I've found that runs reasonably locally on my laptop and has output worth using compared to current flagships.
 
-With the introduction of Claude Sonnet 4 in May, I moved from Claude 3.7 Sonnet. Sonnet 4 is far more capable than previous iterations and doesn't fall victim to the same needless introduction of unnecessary complexity that 3.7 did. I was also pleased with Opus 4, but haven't found Sonnet lacking enough to justify paying for it.
+With the introduction of Claude Sonnet 4 in May, I moved from Claude 3.7 Sonnet. Sonnet 4 is far more capable than previous iterations and doesn't fall victim to the same needless introduction of unnecessary complexity that 3.7 did. I was also pleased with Opus 4 but haven't found Sonnet lacking enough to justify paying for it.
 
 The long-rumoured and much-hyped GPT-5 made its debut in August. While technically impressive, I found it largely iterative and on the whole mediocre. It is difficult to get good coding results from it, and it feels incredibly corporate. I find myself using ChatGPT at this point for quick, casual queries. I still fail to trust that LLMs will not hallucinate, but they are very adept at doing advanced searches across the web, factoring in context and filtering for relevant material in a way that is not necessarily hard for humans but is time-consuming. I largely ignore their direct textual output beyond simple matters but find use in their valuable reading list of provided sources.
 
@@ -90,11 +90,15 @@ At some point GitHub started generating commit messages which are generally extr
 
 In December I moved back to using Gemini as my primary flagship LLM with the release of Gemini 3 and turned to using ChatGPT as a fallback following many improvements to the issues present at GPT-5's launch. Gemini 3 Pro Image (Nano Banana Pro) proved very technically impressive, but I remain without much need for image generation.
 
+In late 2025 Anthropic banned my Claude account due to a violation of their Usage Policy. I'm not sure what justified such an action, as I never used the account for anything illegal or which I can identify as being in violation of Anthropic's policies.
+
 Through 2025 the dedicated chat interface still remained the superior way to interact with AI tooling in much of my experience. I'm yet to really find generative AI implemented into an app or website in a way that is superior to the alternative. The only thing that pops to mind is Adobe's rather impressive [turntable functionality](https://arstechnica.com/ai/2024/10/adobe-shows-off-3d-rotation-tool-for-flat-drawings/).
 
 ### 2026
 
-Throughout early 2026 I remained on Gemini 3.
+Throughout early 2026 I remained on Gemini 3. I started a one-month free trial of ChatGPT Plus in late February but remained unimpressed. Of Anthropic, Google, and OpenAI, OpenAI strikes me as the weakest. ChatGPT's writing style and output are awful, and the code quality is poor.
+
+In April I tried agentic coding, with a model given free-roam of a computer to make file changes and execute shell commands. It managed simple tasks, but models of all sizes seemed to get stuck on large changes, going in loops for as long as I'd leave them, just circling the problem. I found this extremely underwhelming, and diligently reviewing every single change was realistically no different to using an external interface and far less risky from a security perspective.
 
 ## Specific Usage
 
@@ -102,24 +106,26 @@ The two tasks I use AI models for the most are writing and coding, but I'm consc
 
 ### Writing
 
-I love writing, and I _don't_ want an LLM to do my writing for me. However, I do appreciate it providing feedback like a human reviewer would. Things such as picking up on wordiness or less-than-ideal grammar are fantastic use cases.
+I love writing, and I _don't_ want an LLM to do my writing for me. I write for [a number of reasons](/posts/why-write), and those reasons are voided if I'm not the one doing the writing. Also, people pay me for my writing, and when they do that they're paying for my voice and my skill. If they just wanted something slopped out, they could manage it themself.
 
-I often write alone for long periods and get caught up in my own head, so having something to riff off is beneficial. Like most writers, I sometimes hit a bit of a block, so being able to get an LLM to give me a nudge to push me along is great for my productivity. It is accessible and will provide feedback that, while not necessarily always good, does usually inspire or trigger some thought.
+However, AI can positively _assist_ in the writing process. I often write alone for long periods and get caught up in my own head, so having something to riff off is beneficial. Like most writers, I sometimes hit a bit of a block, so being able to get an LLM to give me a nudge to push me along is great for my productivity. It is accessible and will provide feedback that, while not necessarily always good, does usually inspire or trigger some thought.
 
-It is valuable in this way more like a debug duck than an assistant. Not necessarily providing good analysis, but prompting the thought needed to overcome a hurdle. LLMs sometimes serve in more of an editor role. For instance, when struggling to rephrase a clunky sentence, asking an LLM for a few alternative phrasings often sparks the exact direction I need, though I don't use any of the suggestions directly.
+It is valuable in this way more like a debug duck than an assistant. Not necessarily providing good analysis, but prompting the thought needed to overcome a hurdle. LLMs sometimes serve in more of an editor role. For instance, when struggling to rephrase a clunky sentence, asking an LLM for a few alternative phrasings often sparks the exact direction I need, though I can't say I've ever used any of the suggestions directly.
 
-The absolute most useful function of LLMs when writing is as a context-aware thesaurus, as I realised fairly early on. Thesauruses are great, but sometimes one finds oneself using words in more abstract or unique contexts where the typical equivalents don't quite fit.
+I can get some feedback from an LLM in the same way I can get feedback from more typical grammar and style checkers. Offering suggestions similar to what a human reviewer might, picking up on wordiness or less-than-ideal grammar without changing my meaning and while remaining aware of context so as not to take unwanted action.
 
-LLMs are a last resort that I use to keep velocity when writing. A small local model is more than enough for this purpose and is beholden to far fewer of the qualms I have with large offerings. It is a nudge, not a shove, and improves my work rather than replacing it.
+Apart from those uses, though, the absolute most useful function of LLMs when writing is their capabilities as context-aware thesauruses, as I realised back in 2023. Thesauruses are great, but sometimes one finds themself using words in more abstract or unique contexts where the typical equivalents don't quite fit. LLMs can recognise and process this where other tools can't.
+
+AI must never write for me, for that is not something I ever want. They may, however, help me write. LLMs allow me to publish more writing to a higher standard. A small local model is more than enough for this purpose and is beholden to far fewer of the qualms I have with large offerings. Using large language models when I write provides small nudges, not large shoves, and helps me to improve my work rather than wholesale replace it.
 
 ### Coding
 
 I will happily get AI models to generate large portions of code, but any non-vibe-coded AI-generated code I commit must be at the quality of code I would write myself and be checked along the way. Code being AI-generated is not itself an excuse for it being bad, and vigilant oversight is required.
 
-When I use AI to generate code, I do it separate from my editor. Every experience I have had with in-editor AI has been poor unless I give it complete control, which I dislike doing for what I hope are obvious reasons. AI is a tool, not a replacement, so leaving it to do things on its own usually goes awry.
+When I use AI to generate code, I do it separate from my editor. Every experience I have had with in-editor AI has been poor unless I give it complete control, which I dislike doing for what I hope are obvious reasons. Even if I give it full control, it is still not a silver bullet and is beholden to many flaws. AI is a tool, not a replacement, so leaving it to do things on its own usually goes awry.
 
-Inline suggestions are the most egregious of all the ways AI tries to help me in-editor. It gets directly underfoot and in my way to the extent it can. Suggestions are worse than what can be sourced from my LSP or elsewhere in my buffer and are frequently so wrong they're distracting.
+Inline suggestions are the most egregious of all the ways AI tries to help me in-editor. It gets directly underfoot and in my way to the fullest extent it can. Suggestions are worse than what can be sourced from my LSP or elsewhere in my buffer and are frequently so wrong they're distracting.
 
 Instead, I'll always opt for an external interface where I supply the relevant code and allow it to be handled as I wish, and this works extremely smoothly. This is also often more cost-effective given available free plans for flagship models. I'm very careful with my usage and ensure that I understand and am capable of everything that is output.
 
-It is also incredibly useful for creating small, throwaway tools as part of the development process, as [I've discussed](/posts/build-use-and-improve-tools).
+AI can be incredibly useful for creating small, throwaway, non-mission-critical tools as part of the development process, as [I've discussed](/posts/build-use-and-improve-tools).
