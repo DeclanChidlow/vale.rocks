@@ -54,8 +54,7 @@ Under China's censorship it goes by very many names designed to evade detection.
 - '8<sup>2</sup>' (or 'Eight Squared')
 - '63+1' and '8964'.
 - 'Internet Maintenance Day' (<ruby>网<rt>wǎng</rt>络<rt>luò</rt>维<rt>wéi</rt>护<rt>hù</rt>日<rt>rì</rt></ruby>), due to many online services having disabled or modified functionality to minimise activism.
-- '<ruby>白<rt>bái</rt>酒<rt>jiǔ</rt></ruby>', a Chinese liquor which is similar to Bā-Jiǔ, meaning 8-9.
-  - Sometimes people also just refer to opening a bottle or having a drink.
+- '<ruby>白<rt>bái</rt>酒<rt>jiǔ</rt></ruby>', a Chinese liquor which is similar to Bā-Jiǔ, meaning 8-9. Sometimes people also just refer to opening a bottle or having a drink.
 - The 'The Day That Never Was' or 'Sensitive Day' (<ruby>敏<rt>mǐn</rt>感<rt>gǎn</rt>日<rt>rì</rt></ruby>).
 - 'The incident' or 'that thing' (<ruby>那<rt>nà</rt>个<rt>ge</rt>事<rt>shì</rt>儿<rt>er</rt></ruby>). Intentionally vague to avoid trigger words.
 
