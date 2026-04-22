@@ -66,7 +66,7 @@ These feeds also include my annual [pulse entries](/pulse).
 
 ## Microblogging
 
-I store a [microblog feed](/micros) on my site, which mostly serves as a loosely curated mirror of my short-form posts on other platforms like the Fediverse, Bluesky, and LinkedIn. The feeds for that can be found at:
+I store a [microblog feed](/micros) on my site, which mostly serves as a loosely curated mirror of my short-form posts on other platforms like the Fediverse and Bluesky. The feeds for that can be found at:
 
 - RSS: <https://vale.rocks/micros/feed.xml>
 - JSON Feed: <https://vale.rocks/micros/feed.json>
