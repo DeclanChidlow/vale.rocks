@@ -312,6 +312,9 @@
   release_year: 2005
   rating: 4.5
   authors: Sarah L Thomson, Rob Gonsalves
+- title: Weird Stuff
+  release_year: 2004
+  authors: Richard Tulloch
 - title: Harry Potter and the Order of the Phoenix
   release_year: 2003
   authors: JK Rowling
@@ -361,6 +364,9 @@
   release_year: 2000
   authors: Hetty E Verolme
   notes: I purchased my copy directly from the author after a talk she gave. She kindly signed my copy and has since passed away.
+- title: My Life as a Mixed-Up Millenium Bug
+  release_year: 1999
+  authors: Bill Myers
 - title: Harry Potter and the Prisoner of Azkaban
   release_year: 1999
   authors: JK Rowling
