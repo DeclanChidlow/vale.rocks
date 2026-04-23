@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const linkFeature = facet.features.find((f) => f.$type === "app.bsky.richtext.facet#link");
 			const mentionFeature = facet.features.find((f) => f.$type === "app.bsky.richtext.facet#mention");
 
-			if (linkFeature) html += `<a href="${ linkFeature.uri }" target="_blank" rel="nofollow">${ facetText }</a>`;
-			else if (mentionFeature) html += `<a href="https://bsky.app/profile/${ mentionFeature.did }" target="_blank" rel="nofollow">${ facetText }</a>`;
+			if (linkFeature) html += `<a href="${linkFeature.uri}" target="_blank" rel="nofollow noreferrer">${facetText}</a>`;
+			else if (mentionFeature) html += `<a href="https://bsky.app/profile/${mentionFeature.did}" target="_blank" rel="nofollow noreferrer">${facetText}</a>`;
 			else html += facetText;
 			lastIndex = facet.index.byteEnd;
 		}
@@ -71,14 +71,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 			if (!idMatch) return null;
 			const postId = idMatch[1];
 			const urlObj = new URL(url);
-			const apiBase = `${ urlObj.origin }/api/v1/statuses/${ postId }`;
+			const apiBase = `${urlObj.origin}/api/v1/statuses/${postId}`;
 
 			const statusRes = await fetch(apiBase);
 			if (!statusRes.ok) throw new Error(`Fedi status fetch failed`);
 			const statusData = await statusRes.json();
 			if (statusData.favourites_count) totalLikes += statusData.favourites_count;
 			const rootOwnerId = statusData.account.id;
-			const contextRes = await fetch(`${ apiBase }/context`);
+			const contextRes = await fetch(`${apiBase}/context`);
 			if (!contextRes.ok) throw new Error(`Fedi context fetch failed`);
 			const contextData = await contextRes.json();
 
@@ -88,12 +88,23 @@ document.addEventListener("DOMContentLoaded", async () => {
 			descendants.forEach((d) => {
 				if (!d.content || !d.content.trim()) return;
 
-				let parsedContent = d.content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, '<a href="$1" target="_blank" rel="nofollow">[Attached Image]</a>');
+				let parsedContent = d.content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, '<a href="$1" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>');
+
+				parsedContent = parsedContent.replace(/<a\s+([^>]+)>/gi, (match, attrs) => {
+					let updatedAttrs = attrs;
+					if (!/target=/i.test(updatedAttrs)) updatedAttrs += ' target="_blank"';
+					if (!/rel=/i.test(updatedAttrs)) {
+						updatedAttrs += ' rel="nofollow noreferrer"';
+					} else {
+						updatedAttrs = updatedAttrs.replace(/rel=["'][^"']*["']/i, 'rel="nofollow noreferrer"');
+					}
+					return `<a ${updatedAttrs}>`;
+				});
 
 				if (d.media_attachments && d.media_attachments.length > 0) {
 					const images = d.media_attachments.filter((m) => m.type === "image");
 					if (images.length > 0) {
-						parsedContent += "<br><br>" + images.map((m) => `<a href="${ m.url }" target="_blank" rel="nofollow">[Attached Image]</a>`).join(" ");
+						parsedContent += "<br><br>" + images.map((m) => `<a href="${m.url}" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>`).join(" ");
 					}
 				}
 
@@ -135,11 +146,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const handle = pathParts[2];
 			const rkey = pathParts[4];
 
-			const resolveRes = await fetch(`https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${ handle }`);
+			const resolveRes = await fetch(`https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`);
 			const { did } = await resolveRes.json();
 
-			const atUri = `at://${ did }/app.bsky.feed.post/${ rkey }`;
-			const threadRes = await fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=${ atUri }&depth=10`);
+			const atUri = `at://${did}/app.bsky.feed.post/${rkey}`;
+			const threadRes = await fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=${atUri}&depth=10`);
 			const data = await threadRes.json();
 
 			if (!data.thread) return [];
@@ -154,18 +165,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 				if (bskyNode.post.embed) {
 					const embed = bskyNode.post.embed;
 					if (embed.$type === "app.bsky.embed.images#view" && embed.images) {
-						imageText = "<br><br>" + embed.images.map((img) => `<a href="${ img.fullsize || img.thumb }" target="_blank" rel="nofollow">[Attached Image]</a>`).join(" ");
+						imageText = "<br><br>" + embed.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>`).join(" ");
 					} else if (embed.$type === "app.bsky.embed.recordWithMedia#view" && embed.media && embed.media.images) {
-						imageText = "<br><br>" + embed.media.images.map((img) => `<a href="${ img.fullsize || img.thumb }" target="_blank" rel="nofollow">[Attached Image]</a>`).join(" ");
+						imageText = "<br><br>" + embed.media.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>`).join(" ");
 					}
 				}
 
 				const node = new CommentNode({
 					id: bskyNode.post.uri,
 					author: bskyNode.post.author.displayName || bskyNode.post.author.handle,
-					content: `<p>${ renderBlueskyText(bskyNode.post.record) }${ imageText }</p>`,
+					content: `<p>${renderBlueskyText(bskyNode.post.record)}${imageText}</p>`,
 					platform: "Bluesky",
-					url: `https://bsky.app/profile/${ bskyNode.post.author.did }/post/${ bskyNode.post.uri.split("/").pop() }`,
+					url: `https://bsky.app/profile/${bskyNode.post.author.did}/post/${bskyNode.post.uri.split("/").pop()}`,
 					timestamp: bskyNode.post.record.createdAt,
 					isOwner: bskyNode.post.author.did === rootDid,
 					likes: bskyNode.post.likeCount || 0,
@@ -231,22 +242,22 @@ document.addEventListener("DOMContentLoaded", async () => {
 		return nodes
 			.map((node) => {
 				const dateStr = node.timestamp.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
-				const sourceLinks = node.sources.map((s) => `<a href="${ s.url }" target="_blank" rel="nofollow">${ s.platform }</a>`).join(" | ");
+				const sourceLinks = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow noreferrer">${s.platform}</a>`).join(" | ");
 
 				const likeBadge =
 					node.likes > 0
-						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14" style="fill: currentColor; vertical-align: middle;"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg>${ node.likes }</span> • `
+						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14" style="fill: currentColor; vertical-align: middle;"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg>${node.likes}</span> • `
 						: "";
 
 				let childrenHtml = "";
 				if (node.children.length > 0) {
-					if (depth < 3) childrenHtml = `<div class="comment-children">${ renderTree(node.children, depth + 1) }</div>`;
+					if (depth < 3) childrenHtml = `<div class="comment-children">${renderTree(node.children, depth + 1)}</div>`;
 					else {
-						const cont = node.sources.map((s) => `<a href="${ s.url }" target="_blank" rel="nofollow">Continue on ${ s.platform }</a>`).join(" | ");
-						childrenHtml = `<div class="comment-children"><p><em>${ cont }</em></p></div>`;
+						const cont = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow noreferrer">Continue on ${s.platform}</a>`).join(" | ");
+						childrenHtml = `<div class="comment-children"><p><em>${cont}</em></p></div>`;
 					}
 				}
-				return `<div class="comment-item"><div class="comment-meta"><strong>${ node.author }</strong> • ${ dateStr } • ${ likeBadge }${ sourceLinks }</div><div class="comment-body readable">${ node.content }</div>${ childrenHtml }</div>`;
+				return `<div class="comment-item"><div class="comment-meta"><strong>${node.author}</strong> • ${dateStr} • ${likeBadge}${sourceLinks}</div><div class="comment-body readable">${node.content}</div>${childrenHtml}</div>`;
 			})
 			.join("");
 	}
@@ -275,7 +286,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		container.style.display = "block";
 		let html =
 			totalLikes > 0
-				? `<div class="likes"><svg viewBox="0 -960 960 960" role="presentation"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${ totalLikes } ${ totalLikes === 1 ? 'Like' : 'Likes' }</div>`
+				? `<div class="likes"><svg viewBox="0 -960 960 960" role="presentation"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${totalLikes} ${totalLikes === 1 ? "Like" : "Likes"}</div>`
 				: "";
 
 		html += `<h2>Comments</h2>`;
@@ -283,7 +294,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		if (failedSources.size > 0) {
 			const formatter = new Intl.ListFormat("en", { style: "long", type: "conjunction" });
 			const sourceList = formatter.format(Array.from(failedSources));
-			html += `<p class="comments-error-notice"><em>Unable to load comments from ${ sourceList } at this time.</em></p>`;
+			html += `<p class="comments-error-notice"><em>Unable to load comments from ${sourceList} at this time.</em></p>`;
 		}
 
 		let commentsListHtml = "";
@@ -293,7 +304,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 			commentsListHtml = "<p><em>No comments yet.</em></p>";
 		}
 
-		html += `<div class="comments-list">${ commentsListHtml }</div>`;
+		html += `<div class="comments-list">${commentsListHtml}</div>`;
 		container.innerHTML = html;
 	}
 });
