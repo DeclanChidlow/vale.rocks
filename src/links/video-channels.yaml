@@ -1,6 +1,6 @@
 title: Vale's Video Channel Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 15 Dec 2025 00:00:00 +0000
+modTime: 24 Apr 2026 00:00:00 +0000
 items:
   - title: Redlyne
     url: www.youtube.com/@Redlyne_
@@ -66,7 +66,11 @@ items:
     url: www.youtube.com/@AsumSaus
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCk2KE7yg0BwsJfr8Dp9ivUQ
     description: Highly produced Super Smash Bros Melee breakdowns.
-  - title: Jay Foreman
+  - title: Ken Sakata
+    url: www.youtube.com/@FrontOfficeCo
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UC0PD41Ft84TpuJ0YgRmMUuw
+    description: Fashion and design.
+  - title: Jay and Mark
     url: www.youtube.com/@JayForeman
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCbbQalJ4OaC0oQ0AqRaOJ9g
     description: Very silly and sometimes educational.
@@ -78,10 +82,6 @@ items:
     url: www.youtube.com/@briandavidgilbert
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCakAg8hC_RFJm4RI3DlD7SA
     description: Miscellany.
-  - title: Miniminuteman
-    url: www.youtube.com/@miniminuteman773
-    rss: www.youtube.com/feeds/videos.xml?channel_id=UC-SrCCzkGq0wmSAuRs7EBFg
-    description: Debunking of conspiracies.
   - title: barnabydixon
     url: www.youtube.com/@barnabydixon
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCxseO_JzIiiJENauW2RmcJQ
@@ -106,10 +106,6 @@ items:
     url: www.youtube.com/@Hyperplexed
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCmEzz-dPBVrsy4ZluSsYHDg
     description: Hyper-polished front-end development breakdowns.
-  - title: Rachel How
-    url: www.youtube.com/@RachelHow
-    rss: www.youtube.com/feeds/videos.xml?channel_id=UCK8YMJaS_ITUED3vwpADSgg
-    description: UI/UX design and income diversification.
   - title: stacksmashing
     url: www.youtube.com/@stacksmashing
     rss: www.youtube.com/feeds/videos.xml?channel_id=UC3S8vxwRfqLBdIhgRlDRVzw
@@ -134,6 +130,10 @@ items:
     url: www.youtube.com/@SummoningSalt
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w
     description: Highly engaging speedrunning documentaries.
+  - title: elliotisacoolguy
+    url: www.youtube.com/@elliotisacoolguyTV
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCa_aLyHBN8zuisUpHDjmBbw
+    description: Comedic graphic design.
   - title: Applied Science
     url: www.youtube.com/@AppliedScience
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCivA7_KLKWo43tFcCkFvydw
@@ -146,10 +146,14 @@ items:
     url: www.youtube.com/@f4micom
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCSWMraguMlNanVQgseTTr_Q
     description: Obscure consumer technology.
+  - title: Chris Spargo
+    url: www.youtube.com/@ChrisSpargo
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCTzkxNEnbdvbBlgYl_W9daw
+    description: Answering mundane and otherwise unasked questions.
   - title: Tom Scott
     url: www.youtube.com/@TomScottGo
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A
-    description: www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A
+    description: Informative edutainment covering a range of topics.
   - title: hbomberguy
     url: www.youtube.com/@hbomberguy
     rss: www.youtube.com/feeds/videos.xml?channel_id=UClt01z1wHHT7c5lKcU8pxRQ
@@ -198,10 +202,6 @@ items:
     url: www.youtube.com/@OddAnimalSpecimens
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCSz8X-JAmenxLH-uXlgVaCg
     description: Interesting facts about animals and biology with genuine samples.
-  - title: 3D Sound Studio
-    url: www.youtube.com/@3dsoundstudio
-    rss: www.youtube.com/feeds/videos.xml?channel_id=UCc9UCSTyWWn4a4kH4b_bgug
-    description: Incredibly immersive and slightly disturbing ASMR.
   - title: Kevin Powell
     url: www.youtube.com/@KevinPowell
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCJZv4d5rbIKd4QHMPkcABCw
@@ -218,10 +218,6 @@ items:
     url: www.youtube.com/@CrashMakerspace
     rss: www.youtube.com/feeds/videos.xml?channel_id=UC3QqyWSWgHTLJYc0Wm8agaA
     description: Technological enhancements to human ability.
-  - title: Jam2go
-    url: www.youtube.com/@Jam2go
-    rss: www.youtube.com/feeds/videos.xml?channel_id=UClSfrg5hVNhIlwv7hEmVD2g
-    description: Breakdowns of visual techniques.
   - title: Synthet
     url: www.youtube.com/@synthet7
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCdbetV_5wxUnBTdb_d51qoA
@@ -250,6 +246,10 @@ items:
     url: www.youtube.com/@SamONellaAcademy
     rss: www.youtube.com/feeds/videos.xml?channel_id=UC1DTYW241WD64ah5BFWn4JA
     description: History.
+  - title: Giestas
+    url: www.youtube.com/@giestas
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCoxCT5ut_rmHfS3BJrgOpiQ
+    description: Experiments.
   - title: truongsauce
     url: www.youtube.com/@truongsauce
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCfE0Vl54BFskyxpN2u85Zag
