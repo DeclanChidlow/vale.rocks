@@ -14,7 +14,14 @@
 }
 
 #refine-entries {
-	margin-block-end: 1rem;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	margin-block-end: 1.5rem;
+
+	select {
+		margin-block-start: 0.25rem;
+		font-size: initial;
+	}
 }
 
 #filter-message {
@@ -26,7 +33,7 @@
 .books,
 .films,
 .series,
-.stages,
+.productions,
 .albums,
 .games {
 	display: flex;

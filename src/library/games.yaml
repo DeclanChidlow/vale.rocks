@@ -603,7 +603,7 @@
   platforms: ["PC"]
 - title: Super Smash Bros
   release_year: 1999
-  platforms: ["Nintendo 64"]
+  platforms: ["PC"]
 - title: Half-Life
   release_year: 1998
   platforms: ["PC"]
@@ -615,13 +615,13 @@
   platforms: ["Wii"]
 - title: Mario Kart 64
   release_year: 1996
-  platforms: ["Nintendo 64"]
+  platforms: ["PC"]
 - title: Super Mario 64
   release_year: 1996
-  platforms: ["Nintendo 64"]
+  platforms: ["PC", "PS Vita"]
 - title: "1943: The Battle of Midway"
   release_year: 1987
-  platforms: ["Arcade"]
+  platforms: ["PC", "Arcade"]
 - title: Galaga
   release_year: 1981
   platforms: ["Arcade"]

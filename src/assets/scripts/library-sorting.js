@@ -7,10 +7,18 @@ class LibrarySorting {
 		this.refineEntries = document.getElementById("refine-entries");
 		this.sortSelect = document.getElementById("entries-sort");
 
+		this.platformFilter = document.getElementById("platform-filter");
+
 		if (!this.contentList || !this.sortSelect) return;
 
-		this.refineEntries.style.display = "block";
+		this.refineEntries.style.display = "flex";
 		this.items = this.extractItems();
+
+		if (this.platformFilter) {
+			this.populatePlatformFilter();
+			this.platformFilter.addEventListener("change", () => this.sortContent());
+		}
+
 		this.sortSelect.addEventListener("change", () => this.sortContent());
 
 		this.filterMessage = document.createElement("p");
@@ -21,7 +29,7 @@ class LibrarySorting {
 	}
 
 	detectContentType() {
-		const types = ["films", "books", "series", "albums", "games"];
+		const types = ["films", "books", "series", "albums", "games", "productions"];
 		return types.find((type) => document.querySelector(`.${type}`)) || null;
 	}
 
@@ -33,25 +41,51 @@ class LibrarySorting {
 			const year = parseInt(titleElement?.querySelector("span")?.textContent.replace(/[()]/g, ""), 10);
 			const ratingElement = item.querySelector(".star-rating");
 			const rating = ratingElement ? parseFloat(ratingElement.getAttribute("data-rating")) : null;
-
 			const lastActivity = this.extractLastActivity(item);
 
-			return { element: item, year, rating, lastActivity };
+			let platforms = [];
+			const nextEl = titleElement?.nextElementSibling;
+
+			if (this.contentType !== "productions" && nextEl && nextEl.tagName === "P" && !nextEl.classList.contains("star-rating")) {
+				platforms = nextEl.textContent.split(",").map((p) => p.trim());
+			}
+
+			return { element: item, year, rating, lastActivity, platforms };
 		});
+	}
+
+	populatePlatformFilter() {
+		const uniquePlatforms = new Set();
+
+		this.items.forEach((item) => {
+			if (item.platforms) {
+				item.platforms.forEach((platform) => uniquePlatforms.add(platform));
+			}
+		});
+
+		Array.from(uniquePlatforms)
+			.sort()
+			.forEach((platform) => {
+				const option = document.createElement("option");
+				option.value = platform;
+				option.textContent = platform;
+				this.platformFilter.appendChild(option);
+			});
 	}
 
 	extractLastActivity(item) {
 		const timeElements = item.querySelectorAll("time[datetime]");
-		if (timeElements.length === 0) return null;
-
 		const dates = [];
-		timeElements.forEach((timeElement) => {
-			const datetime = timeElement.getAttribute("datetime");
-			const date = this.parseDateTime(datetime);
-			if (date && !isNaN(date.getTime())) {
-				dates.push(date.getTime());
-			}
-		});
+
+		if (timeElements.length > 0) {
+			timeElements.forEach((timeElement) => {
+				const datetime = timeElement.getAttribute("datetime");
+				const date = this.parseDateTime(datetime);
+				if (date && !isNaN(date.getTime())) {
+					dates.push(date.getTime());
+				}
+			});
+		}
 
 		if (this.contentType === "books" || this.contentType === "series" || this.contentType === "games") {
 			const entries = this.contentType === "books" ? item.querySelectorAll("details[data-pagefind-ignore] ul li") : item.querySelectorAll("details ul li ul li");
@@ -67,6 +101,17 @@ class LibrarySorting {
 					}
 				}
 			});
+		} else if (this.contentType === "productions") {
+			const nextEl = item.querySelector("h2")?.nextElementSibling;
+			if (nextEl && nextEl.tagName === "P") {
+				const dateMatch = nextEl.textContent.match(/^(\d{4}(?:-\d{2}-\d{2})?)/);
+				if (dateMatch) {
+					const date = this.parseDateTime(dateMatch[1]);
+					if (date && !isNaN(date.getTime())) {
+						dates.push(date.getTime());
+					}
+				}
+			}
 		}
 
 		return dates.length > 0 ? Math.max(...dates) : null;
@@ -84,9 +129,13 @@ class LibrarySorting {
 		const type = this.sortSelect.value;
 		let sorted = [...this.items];
 
+		if (this.platformFilter && this.platformFilter.value !== "all") {
+			sorted = sorted.filter((item) => item.platforms.includes(this.platformFilter.value));
+		}
+
 		if (type.startsWith("reviews")) {
 			sorted = sorted.filter((item) => item.rating !== null);
-		} else if (type.includes("watched") || type.includes("read") || type.includes("played")) {
+		} else if (type.includes("watched") || type.includes("read") || type.includes("played") || type.includes("attended")) {
 			sorted = sorted.filter((item) => item.lastActivity !== null);
 		}
 
@@ -101,6 +150,8 @@ class LibrarySorting {
 			"read-asc": (a, b) => (a.lastActivity || 0) - (b.lastActivity || 0),
 			"played-desc": (a, b) => (b.lastActivity || 0) - (a.lastActivity || 0),
 			"played-asc": (a, b) => (a.lastActivity || 0) - (b.lastActivity || 0),
+			"attended-desc": (a, b) => (b.lastActivity || 0) - (a.lastActivity || 0),
+			"attended-asc": (a, b) => (a.lastActivity || 0) - (b.lastActivity || 0),
 		};
 
 		sorted.sort(sorters[type] || (() => 0));
@@ -108,7 +159,7 @@ class LibrarySorting {
 		const filteredCount = sorted.length;
 		const totalCount = this.items.length;
 		if (filteredCount < totalCount) {
-			this.filterMessage.textContent = `Due to your chosen sorting option, only ${filteredCount} out of ${totalCount} items are displayed.`;
+			this.filterMessage.textContent = `Due to your chosen filtering/sorting options, only ${filteredCount} out of ${totalCount} items are displayed.`;
 			this.filterMessage.style.display = "block";
 		} else {
 			this.filterMessage.textContent = "";
