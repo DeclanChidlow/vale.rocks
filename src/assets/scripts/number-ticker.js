@@ -1,56 +1,48 @@
 document.addEventListener("DOMContentLoaded", () => {
-	const numbers = document.querySelectorAll(".number");
-
 	const observer = new IntersectionObserver(
-		(entries) => {
+		(entries, obs) => {
 			entries.forEach((entry) => {
-				if (entry.isIntersecting && !entry.target.dataset.animated) {
-					entry.target.dataset.animated = "true";
-					animateTicker(entry.target);
+				if (entry.isIntersecting) {
+					animateOdometer(entry.target);
+					obs.unobserve(entry.target);
 				}
 			});
 		},
 		{ threshold: 0.5 },
 	);
 
-	numbers.forEach((el) => observer.observe(el));
+	document.querySelectorAll(".number").forEach((el) => observer.observe(el));
 
-	function animateTicker(el) {
+	function animateOdometer(el) {
 		const text = el.textContent.trim();
-		el.innerHTML = "";
+		const targetDigits = [];
 
-		const srSpan = document.createElement("span");
-		srSpan.classList.add("sr-only");
-		srSpan.textContent = text;
-		el.appendChild(srSpan);
+		let html = `<span class="sr-only">${text}</span><span aria-hidden="true">`;
 
 		for (const char of text) {
 			if (/\d/.test(char)) {
-				const digit = document.createElement("div");
-				digit.classList.add("digit");
-				digit.setAttribute("aria-hidden", "true");
-
-				const span = document.createElement("span");
+				html += `<div class="digit"><span>`;
 				for (let i = 0; i <= 9; i++) {
-					const numDiv = document.createElement("div");
-					numDiv.textContent = i;
-					span.appendChild(numDiv);
+					html += `<div>${i}</div>`;
 				}
-
-				digit.appendChild(span);
-				el.appendChild(digit);
-
-				const targetDigit = parseInt(char, 10);
-				requestAnimationFrame(() => {
-					span.style.transform = `translateY(-${targetDigit * 1.2}em)`;
-				});
+				html += `</span></div>`;
+				targetDigits.push(parseInt(char, 10));
 			} else {
-				const staticChar = document.createElement("div");
-				staticChar.classList.add("static-char");
-				staticChar.setAttribute("aria-hidden", "true");
-				staticChar.textContent = char;
-				el.appendChild(staticChar);
+				html += `<div class="static-char">${char}</div>`;
 			}
 		}
+
+		html += `</span>`;
+		el.innerHTML = html;
+
+		requestAnimationFrame(() => {
+			requestAnimationFrame(() => {
+				const spans = el.querySelectorAll(".digit span");
+				spans.forEach((span, index) => {
+					const digit = targetDigits[index];
+					span.style.transform = `translateY(-${digit * 1.2}em)`;
+				});
+			});
+		});
 	}
 });
