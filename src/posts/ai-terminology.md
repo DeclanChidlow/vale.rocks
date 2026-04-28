@@ -11,9 +11,9 @@ Tune into any discussion of the technologies widely referred to as 'artificial i
 
 What was a deeply technical community with generally agreed-upon terminology was largely burst open with the wide release of ChatGPT. Suddenly, a lot more people were exposed to modern AI, and marketing-led commentary thrust a deeply technical topic haphazardly into simple terms. Now we're stuck with a linguistic debt.
 
-I'd suggest part of this is due to resources. With most major systems, progress is slowly made with resources coming along with it as well, and then a takeoff happens. With AI, the takeoff happened concurrently with the creation of public resources aimed at the general public, so natural selection didn't have time to occur before adoption.
+I'd suggest part of this is due to resources. With most major systems, progress is slowly made with resources coming along with it as well, and then a takeoff happens. With AI, the takeoff happened concurrently with the creation of resources aimed at the general public, so natural selection didn't have time to occur before adoption.
 
-One of the ultimate purposes of any jargon is to simplify communication. Rather than saying something super complex and informative, such as 'Large-Scale Transformer-Based Natural Language Pattern Recognition and Generative Model', we say 'large language model', and rather than 'large language model', we say 'artificial intelligence', and rather than 'artificial intelligence', we say 'AI'.
+Te ultimate purpose of any jargon is to simplify communication. Rather than saying something super complex and informative, such as 'Large-Scale Transformer-Based Natural Language Pattern Recognition and Generative Model', we say 'large language model', and rather than 'large language model', we say 'artificial intelligence', and rather than 'artificial intelligence', we say 'AI'.
 
 The International Standards Organisation has made an effort to standardise terminology in [ISO/IEC 22989](https://www.iso.org/standard/74296.html), but things are still lacking, and confusion is common.
 
@@ -41,7 +41,7 @@ It also doesn't really specify the size of the model. 'Large language model' is 
 
 'Artificial General Intelligence' and 'Artificial Superintelligence' are popular terms for describing advanced AI systems, but everyone seems to have different criteria.
 
-The [AI effect](https://en.wikipedia.org/wiki/AI_effect) is alive and well. If you showed someone in the 1950s our current technology and an LLM, they'd probably take it as full computer intelligence. It'd probably be hard to convince them it isn't, even when presenting them with details. Does this make our current AI AGI/ASI?
+The [AI effect](https://en.wikipedia.org/wiki/AI_effect) is alive and well. If you showed someone in the 1950s our current technology and an LLM, they'd probably take it as full computer intelligence. It'd likely be difficult to convince them otherwise, even when presenting them with details. Does this make our current AI AGI/ASI?
 
 Maybe? There is no real widely agreed upon definition. One person's AGI is another person's GPT-3. ISO/IEC 22989 defines it as a 'type of AI system that addresses a broad range of tasks with a satisfactory level of performance', following it up with the note that 'AGI is often used in a stronger sense, meaning systems that not only can perform a wide variety of tasks, but all tasks that a human can perform.'.
 
@@ -85,7 +85,7 @@ The Open Source Initiative has tried to clarify the difference by publishing [Th
 
 With a technology that is built to replicate (or replace) and mimic human output and intelligence, it is no surprise that people treat it like a human.
 
-Read any mainstream media coverage, and you'll see AI offerings treated as humans. In 2025, when Grok was called out for generating non-consensual sexual imagery en masse, including of minors, [news outlets turned directly to the AI model for comment](https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/). It may speak like a human, but an AI model is not one. To quote the 1979 IBM Training Manual, 'A computer can never be held accountable, therefore a computer must never make a management decision.'
+Read any mainstream media coverage, and you'll see AI offerings treated as humans. In 2025, when Grok was called out for generating non-consensual sexual imagery en masse, including of minors, [news outlets turned directly to the AI model for comment](https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/). It may speak like a human, but an AI model is not one. To quote the 1979 IBM Training Manual: 'A computer can never be held accountable. Therefore a computer must never make a management decision.'
 
 If we're taking issue with anthropomorphism, then machine _learning_ is a misnomer as well, as machines cannot 'learn'. 'Training' fails for the same reason. Thinking and reasoning models cannot 'think' nor 'reason' in the human sense. They cannot 'hallucinate' -- 'confabulate' would be a more apt term but somewhat falls victim to the same anthropomorphism.
 
