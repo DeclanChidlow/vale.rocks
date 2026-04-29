@@ -15,10 +15,10 @@ _body:
 	<p>An <a href="/links/blogs.opml" download>OPML file</a> is generated from this list and includes sites with available syndication feeds.</p>
 
 	<ul>
-		${ blogs.items
-		→ (_) => Tree.map(_, (link) =>
-		`<li>
+		${ blogs.items → (_) => Tree.map(_, (link) => `
+		<li>
 			<a href="https://${ link.url }"><img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }</a>: ${ link.description }
-		</li>`) }
+		</li>
+		`) }
 	</ul>
 </div>`})

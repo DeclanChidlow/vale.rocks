@@ -1,5 +1,5 @@
 ---
-title: AI Terminology Is Poorly Defined and Oft Misused
+title: AI Terminology is Poorly Defined and Oft Misused
 description: Words and terms used when describing artificial intelligence are often misused, inaccurate, or generalised to the point of losing all meaning. How terms like 'LLM', 'Agent', and 'AGI' have lost meaning and turned into semantically meaningless buzzwords that are applied liberally without care or appropriate intent, leading to unnecessary confusion and unnecessary need for clarification.
 og_description: Did that stand for 'Apologetic Interface' or 'Algorithmically Incoherent'?
 pub_time: 2026-04-28

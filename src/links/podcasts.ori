@@ -15,10 +15,10 @@ _body:
 	<p>An <a href="/links/podcasts.opml" download>OPML file</a> is generated from this list for easy following.</p>
 
 	<ul>
-		${ podcasts.items
-		→ (_) => Tree.map(_, (link) =>
-		`<li>
+		${ podcasts.items	→ (_) => Tree.map(_, (link) => `
+		<li>
 			<a href="https://${ link.url }"><img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }</a>: ${ link.description }
-		</li>`) }
+		</li>
+		`) }
 	</ul>
 </div>`})

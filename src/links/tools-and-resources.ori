@@ -11,13 +11,13 @@ _body:
 
 <div class="readable">
 	<h1 data-pagefind-ignore>Tools and Resources</h1>
-	<p>These are ${ tools-and-resources.length } links to handy and useful tools and resources available on the web. All are usable for free and without sign-up.</p>
+	<p>These are ${ tools-and-resources.length } links to handy and useful tools and resources available on the web. All are usable for free and without sign-up. I also develop <a href="https://tools.vale.rocks">various tools myself</a>.</p>
 
 	<ul>
-		${ tools-and-resources
-		→ (_) => Tree.map(_, (link) =>
-		`<li>
+		${ tools-and-resources → (_) => Tree.map(_, (link) => `
+		<li>
 			<a href="https://${ link.url }"><img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }</a>: ${ link.description }
-		</li>`) }
+		</li>
+		`) }
 	</ul>
 </div>`})
