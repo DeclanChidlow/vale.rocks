@@ -17,7 +17,9 @@ _body:
 	<ul>
 		${ miscellaneous → (_) => Tree.map(_, (link) => `
 		<li>
-			<a href="https://${ link.url }"><img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }</a>
+			<a href="${ link.insecure ? 'http' : 'https' }://${ link.url }">
+				<img src="https://icons.duckduckgo.com/ip3/${ link.url }.ico" width="16" alt="">${ link.title }
+			</a>
 		</li>
 		`) }
 	</ul>

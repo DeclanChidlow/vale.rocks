@@ -19,6 +19,10 @@
       watches:
         - start: 2024-05-09
           finish: 2024-05-11
+- title: Yuri!!! on Ice
+  release_year: 2016
+  seasons:
+    - number: 1
 - title: The Good Place
   release_year: 2016
   rating: 3.5

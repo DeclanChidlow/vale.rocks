@@ -264,8 +264,8 @@ items:
     url: brisray.com
     description: Completely indescribable.
   - title: HTMHell
-    url: htmhell.dev
-    atom: htmhell.dev/feed.xml
+    url: www.htmhell.dev
+    atom: www.htmhell.dev/feed.xml
     description: HTML crimes and how to rectify them.
   - title: Shellsharks
     url: shellsharks.com

@@ -44,10 +44,12 @@
   url: qntm.org/suicide
 - title: The Jargon File
   url: www.catb.org/~esr/jargon
+  insecure: true
 - title: Monkeytype
   url: monkeytype.com
 - title: End of the Internet
   url: hmpg.net
+  insecure: true
 - title: DustSim
   url: app-dustsim.kodub.com/1.03.1/
 - title: tilde.town
@@ -103,9 +105,7 @@
 - title: Botwiki
   url: botwiki.org
 - title: Your Name in Landsat
-  url: science.nasa.gov/specials/your-name-in-landsat
-- title: sixtyfour
-  url: 64.surf
+  url: science.nasa.gov/specials/your-name-in-landsat/
 - title: Beautiful Public Data
   url: www.beautifulpublicdata.com
 - title: Web Browser Engineering
@@ -120,6 +120,7 @@
   url: melonland.net
 - title: Retrocomputing Archive
   url: www.retroarchive.org
+  insecure: true
 - title: Poolsuite™
   url: poolsuite.net
 - title: Windows93
@@ -142,6 +143,7 @@
   url: www.irtc.org
 - title: Interface Hall of Shame
   url: hallofshame.gp.co.at/shame.htm
+  insecure: true
 - title: Internet Explorer is EVIL!
   url: toastytech.com/evil/
 - title: The San Francisco FogCam!
@@ -152,6 +154,7 @@
   url: iss.matteason.co.uk
 - title: The Mosaic Communications Universe
   url: home.mcom.com
+  insecure: true
 - title: Mu Mirror
   url: wyattroy.github.io/mu-mirror/
 - title: Lock the Taskbar
@@ -206,6 +209,7 @@
   url: radio.garden
 - title: Silk
   url: weavesilk.com
+  insecure: true
 - title: VOLE.wtf
   url: vole.wtf
 - title: The Kingdom of Loathing
@@ -216,14 +220,11 @@
   url: poke-holo.simey.me
 - title: Monster Breeder
   url: monsterbreeder.com
-- title: Bad Cafe Web Jungle
-  url: badcafe.site/jungle/
+  insecure: true
 - title: Trekorama
   url: mijofr.github.io/st-panorama
 - title: Fluid Particles
   url: david.li/fluid/
-- title: Anything But Metric
-  url: anythingbutmetric.lol
 - title: PackardBell95
   url: packardbell95.com
 - title: ever dream this man?
@@ -256,8 +257,6 @@
   url: optical.toys
 - title: "%Location"
   url: wwwwwwwww.jodi.org
-- title: Million Pixel Dash
-  url: millionpixeldash.com
 - title: Comparea
   url: www.comparea.org
 - title: maxwellcat.world
@@ -285,7 +284,8 @@
 - title: Multiplayer Piano
   url: multiplayerpiano.com
 - title: textfiles.com
-  url: www.textfiles.com
+  url: textfiles.com
+  insecure: true
 - title: Something/Nothing
   url: somethingnothing.net
 - title: The Cursed Computer Iceberg Meme
@@ -306,6 +306,7 @@
   url: adelfaure.net
 - title: Demographics of the Titanic Passengers
   url: www.icyousee.org/titanic.html
+  insecure: true
 - title: y2kid here!
   url: y2kid.xyz
 - title: noclip
@@ -320,6 +321,7 @@
   url: www.skrrrt.io
 - title: Furby Autopsy
   url: www.phobe.com/furby/
+  insecure: true
 - title: self noise
   url: self-noise.net
 - title: Strangers, By Spring
@@ -346,8 +348,10 @@
   url: hasthelargehadroncolliderdestroyedtheworldyet.com
 - title: What's The Harm?
   url: whatstheharm.net
+  insecure: true
 - title: Wide-band WebSDR
   url: websdr.ewi.utwente.nl:8901
+  insecure: true
 - title: Cyberlife
   url: cyberpunk-life.neocities.org
 - title: User Intyerface
@@ -380,6 +384,7 @@
   url: boss.laurasirvent.com
 - title: Historical Atlas of the Twentieth Century
   url: cgibin.rcn.com/mwhite28/20centry
+  insecure: true
 - title: SITO.org
   url: www.sito.org
 - title: Art Crimes
@@ -400,8 +405,6 @@
   url: strange.website
 - title: TRASH LOOP .COM
   url: trashloop.com
-- title: CC
-  url: carlos-crespo.com
 - title: Aphantasia
   url: aphantasia.io
 - title: Praise Obadiah
@@ -424,8 +427,6 @@
   url: rotatingsandwiches.com
 - title: "Nothing: Simply Do Nothing"
   url: usenothing.com/
-- title: Only Visit Once
-  url: onlyvisitonce.com
 - title: Is my blue your blue?
   url: ismy.blue
 - title: Infinite Flowers Zoomquilt
@@ -444,8 +445,10 @@
   url: strobe.cool
 - title: Segmentation.Network
   url: segmentation.network
+  insecure: true
 - title: Scroll-O-Meter
   url: scroll-o-meter.club
+  insecure: true
 - title: HEEEEEEEEEY!
   url: heeeeeeeey.com
 - title: jack.black
@@ -462,18 +465,21 @@
   url: randomwebsitename.com
 - title: The Salmon of Capistrano
   url: salmonofcapistrano.com
+  insecure: true
 - title: sadforjapan.com
   url: www.sadforjapan.com
 - title: 10k Drum Machines
   url: 10kdrummachines.com
 - title: You are in a forest
   url: www.youareinaforest.com
+  insecure: true
 - title: Sandboxels
   url: sandboxels.r74n.com
 - title: LiveMeteors.com
   url: www.livemeteors.com
 - title: ORAL.pub
   url: oral.pub
+  insecure: true
 - title: DigiCD Player
   url: launcher.pcotandy.org
 - title: How long is my data?
@@ -484,8 +490,7 @@
   url: www.myphysicslab.com
 - title: HYPERNOM
   url: hypernom.com
-- title: Rouge Space Database
-  url: sky.rogue.space
+  insecure: true
 - title: bomomo
   url: bomomo.com
 - title: Moments of Happiness
@@ -494,6 +499,7 @@
   url: 1940s.nyc
 - title: The Picture of Everything
   url: www.thepictureofeverything.com
+  insecure: true
 - title: Bizarre Labs
   url: www.bizarrelabs.com
 - title: the HOLOTYPIC OCCLUPANID RESEARCH GROUP
@@ -520,6 +526,7 @@
   url: glyphs.djr.com
 - title: Cats That Look Like Hitler!
   url: www.catsthatlooklikehitler.com/cgi-bin/seigmiaow.pl
+  insecure: true
 - title: Infinite Mac
   url: infinitemac.org
 - title: hhhhhhhypertextisdead; longlivehypermedia
@@ -544,6 +551,7 @@
   url: libraryoftime.xyz
 - title: A Gallery of Interactive On-Line Geometry
   url: www.geom.uiuc.edu/apps/gallery.html
+  insecure: true
 - title: 女性芸能人の歯・お宝画像
   url: yabuisha.web.fc2.com/
 - title: Wikigrapher
@@ -560,11 +568,13 @@
   url: glslsandbox.com
 - title: Build Shruggie
   url: buildshruggie.com
+  insecure: true
 - title: Remoji
   url: remoji.com
 - title: "TETRAGEDDON ::: 2k2k++ CYBERMONKEY HAS DIED REMYX :::"
   url: tetrageddon.com
 - title: Sad High Five
   url: sadhighfive.com
+  insecure: true
 - title: How did you find me?
   url: howdidyoufind.me
