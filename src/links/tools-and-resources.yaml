@@ -64,6 +64,9 @@
 - title: The League of Movable Type
   url: www.theleagueofmoveabletype.com
   description: Open-source font foundry.
+- title: v86
+  url: copy.sh/v86/
+  description: Run various full operating systems in-browser.
 - title: IT Tools
   url: it-tools.tech
   description: Handy tools for developers.
