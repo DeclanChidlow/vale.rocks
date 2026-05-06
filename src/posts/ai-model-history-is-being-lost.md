@@ -18,11 +18,11 @@ I fear this is a very under-analysed topic, with [New methods for deprecating ar
 
 ## What We're Losing
 
-We are losing proprietary AI models only available in hosted capacities without much hope for preservation. The unprecedented speed of AI development has unfortunately also spurred an unprecedented speed of discontinuation. We are not just losing large language models but also image/video generation[^2] and audio models.
+We are losing proprietary AI models only available in hosted capacities without much hope for preservation. The unprecedented speed of AI development has unfortunately also spurred an unprecedented speed of discontinuation. We are not just losing large language models but also image/video generation[^1] and audio models.
 
 For instance, the launch of ChatGPT in 2022 is and will remain a notable event for its influence on the public perception of AI. ChatGPT launched with a model fine-tuned from GPT-3.5. This model isn't available for the public to use anymore -- it is gone, remaining in our minds, in news reports, and in papers, but unavailable to be used.
 
-It cannot be tested or experimented with, and we cannot evaluate it or run fresh benchmarks to compare it with new, emerging models. It is a fundamental part of the history of large language models that is completely unavailable. We will not be able to go back and inspect the early days of AI like we do the early days of computing. We've very much entered a period of technological advancement where the original technology is unavailable for inspection and only available via the artefacts it produced and writing it provoked. [^1]
+It cannot be tested or experimented with, and we cannot evaluate it or run fresh benchmarks to compare it with new, emerging models. It is a fundamental part of the history of large language models that is completely unavailable. We will not be able to go back and inspect the early days of AI like we do the early days of computing. We've very much entered a period of technological advancement where the original technology is unavailable for inspection and only available via the artefacts it produced and writing it provoked.[^2]
 
 OpenAI has already retired a wide array of their own models and plans to retire more, [as evidenced by their deprecations page](https://platform.openai.com/docs/deprecations). Anthropic is the same, with [many of their models having hit the end of their life cycle](https://docs.anthropic.com/en/docs/about-claude/model-deprecations).
 
@@ -66,13 +66,13 @@ Johnson and Obradovich argue that it could be ensured that 'commercial developer
 
 While they are reasonable suggestions, I don't think they are realistic suggestions.
 
-I don't think we should expect legal change to accommodate these models, [^3] and even if there was an embargo, what incentive would AI companies have to do this? I've already outlined [the reputational risks](#reasons-for-retirement).
+I don't think we should expect legal change to accommodate these models,[^3] and even if there was an embargo, what incentive would AI companies have to do this? I've already outlined [the reputational risks](#reasons-for-retirement).
 
 There is also the case that access would be restricted exclusively to those with the finances and position to enter such an agreement, which could cause issues if a company refuses to permit access (such as to a journalist aiming to do an exposé). I also think it would be a shame if history is restricted only to those with the necessary finances.
 
 They also propose other suggestions, such as a public or third party designated to host the models and benefiting from economies of scale, but I can't see these being financially viable. I'm not convinced demand is, or will be, high enough to justify it.
 
-In my mind, open sourcing models would be the best solution from a preservation standpoint (as they also note), but companies have no real incentive to do so. It doesn't benefit them, [^4] and could very well aid their competitors if newer models haven't sufficiently diverged and thus obsolete ones still contain some 'special sauce.' Even if retired models were available to be hosted, there is a good chance that consumer hardware would not be equipped to handle them.
+In my mind, open sourcing models would be the best solution from a preservation standpoint (as they also note), but companies have no real incentive to do so. It doesn't benefit them,[^4] and could very well aid their competitors if newer models haven't sufficiently diverged and thus obsolete ones still contain some 'special sauce.' Even if retired models were available to be hosted, there is a good chance that consumer hardware would not be equipped to handle them.
 
 There is also the possibility of replicating models, such as what EleutherAI is doing with their [GPT-Neo](https://researcher2.eleuther.ai/projects/gpt-neo/) project, but that is replication which isn't representative and is not archival of the original.
 
@@ -84,9 +84,9 @@ We are in very much early days at the moment, and retirement hasn't yet shown mu
 
 Will our AI models be lost to time? We will still have the papers and analysis, but we likely won't have the models themselves unless something changes, and I think that is an unfortunate loss.
 
-[^1]: Similar is true for other software that was offered as a service or that depended on a server. See projects such as [Stop Killing Games](https://www.stopkillinggames.com).
+[^1]: People are already going out of their way to specifically use old models for their abstract, non-Euclidean, and ethereal stylings.
 
-[^2]: People are already going out of their way to specifically use old models for their abstract, non-Euclidean, and ethereal stylings.
+[^2]: Similar is true for other software that was offered as a service or that depended on a server. See projects such as [Stop Killing Games](https://www.stopkillinggames.com).
 
 [^3]: Not least because many early models lack proper safeguards and gaolbreak protections, which permits the generation of illegal content. Governments seem to be working towards censorship, not away from it.
 

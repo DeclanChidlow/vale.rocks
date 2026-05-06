@@ -45,7 +45,7 @@ Good AI voices can be a little uncanny if you actively listen for it but are lar
 
 ## Detecting Imagery
 
-Images from the most capable models have gotten really good. Good enough that I cannot distinguish them from real in passing, [^1] and even when pixel peeping find it difficult or impossible. The earliest models were blatantly AI, with nothing seeming cohesive and an ethereal property. As time progressed though, they've become more and more coherent.
+Images from the most capable models have gotten really good. Good enough that I cannot distinguish them from real in passing,[^1] and even when pixel peeping find it difficult or impossible. The earliest models were blatantly AI, with nothing seeming cohesive and an ethereal property. As time progressed though, they've become more and more coherent.
 
 Certain tells remained, such as an unexpected number of fingers or things interacting in odd ways. Certain details that weren't the focus of the shot were deformed upon inspection, and details such as textures, clothing, hair, etc, would subtly fade and disappear in a non-Euclidean way.
 
@@ -81,13 +81,13 @@ OpenAI have also dabbled with visual watermarks, with small coloured blocks in t
 
 A better approach is [Google's SynthID](https://deepmind.google/science/synthid/), which uses stylometry, but that is not a perfect solution and can be worked around by editing. One can also just use AI tooling without such watermarking built in.
 
-Text can be watermarked by altering the probabilities of certain words, but this isn't sure-fire and can be circumvented by back-translating the text, paraphrasing it, or employing one of a number of other transformations. It also won't work forever, given language's fluidity in adopting AI styling as referenced earlier. It is possible for the file containing the text to have its own metadata, but it is all too easy to just copy or transcribe text out of one file to move it into another without the metadata [^2].
+Text can be watermarked by altering the probabilities of certain words, but this isn't sure-fire and can be circumvented by back-translating the text, paraphrasing it, or employing one of a number of other transformations. It also won't work forever, given language's fluidity in adopting AI styling as referenced earlier. It is possible for the file containing the text to have its own metadata, but it is all too easy to just copy or transcribe text out of one file to move it into another without the metadata.[^2]
 
 ## Incentives Against Detection
 
 There is also the case that there are parties who do not wish for AI-generated content to be identifiable. Detection companies have financial incentives to claim effectiveness even when limited, and AI companies have incentives to make their output indistinguishable.
 
-People using AI output in many cases do not wish to have it identifiable as AI output -- especially given the negative reputation AI output has for being slop and the potential backlash that brings with it. There are many con artists making substantial financial gains peddling AI output who I'd suggest would be willing to go to lengths to avoid people taking note [^3].
+People using AI output in many cases do not wish to have it identifiable as AI output -- especially given the negative reputation AI output has for being slop and the potential backlash that brings with it. There are many con artists making substantial financial gains peddling AI output who I'd suggest would be willing to go to lengths to avoid people taking note.[^3]
 
 Companies building generative AI offerings may not wish to have their output identifiable as AI, especially if their competitors don't identify their output, which could prove a selling point in some cases.
 

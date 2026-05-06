@@ -9,7 +9,7 @@ section: Meta
 
 This post details some of the many things I use. Generally, my selections align with the philosophies [outlined by Gwern](https://gwern.net/choosing-software). All my configs are provided and somewhat documented in my [dotfiles repository on GitHub](https://github.com/DeclanChidlow/dotfiles).
 
-## Laptop
+## Primary Laptop
 
 Day to day, I run a Framework Laptop 13. More information about my specific device and my experience with it is available in [my review](/posts/a-year-with-the-framework-laptop-13).
 
@@ -67,8 +67,6 @@ For document creation and editing, I tend to use Neovim paired with [Pandoc](htt
 
 My email/contact/calendar/task client is [Thunderbird](https://www.thunderbird.net/en-US/). It isn't perfect but is generally alright. Video and loose audio files are played through [mpv](https://mpv.io), and [imv](https://sr.ht/~exec64/imv/) serves as my image viewer.
 
----
-
 ## Hosting/Cloud
 
 I have some remote VPS', most notably one with [Hetzner](https://www.hetzner.com). My emails, contacts, calendar, and task lists are all handled by [Runbox](https://runbox.com), who allow me to hook into all my stuff with the various Web<abbr title="Distributed Authoring and Versioning">DAV</abbr> systems.
@@ -76,8 +74,6 @@ I have some remote VPS', most notably one with [Hetzner](https://www.hetzner.com
 ### Home Server
 
 I also maintain a home server for self-hosting a range of services. Much like my laptop, my home server runs NixOS. Everything it hosts is containerised with Docker. I use [Oxker](https://github.com/mrjackwills/oxker) as a nice TUI container manager, but it's all otherwise pretty boring, though that is probably a good thing for what should be a stable server.
-
----
 
 ## Phone
 
@@ -113,8 +109,6 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Material Capsule](https://play.google.com/store/apps/details?id=com.pryshedko.mtisland): Provides functionality similar to iOS' Dynamic Island.
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
 - [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
-
----
 
 ## Multimedia
 

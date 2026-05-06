@@ -23,7 +23,7 @@ Of course, there is another fantastic side to building tools and utilities. You 
 
 You can experiment with new technologies or try something that wouldn't work at scale just for the hell of it. It is a fantastic opportunity to learn something, be productive, and end up with something tangible at the end. Further, it provides wonderful chance for bodging things if the situation calls for it.
 
-Occasionally I put this all together by learning from experimenting with new LLMs to create tools incorporating new technologies. [^1] Though, if I'm expecting repeat usage, I'll stick to basic HTML/CSS/JS with no or minimal dependencies where applicable. It is simple, what I'm best at, and the web platform is reliable.
+Occasionally I put this all together by learning from experimenting with new LLMs to create tools incorporating new technologies.[^1] Though, if I'm expecting repeat usage, I'll stick to basic HTML/CSS/JS with no or minimal dependencies where applicable. It is simple, what I'm best at, and the web platform is reliable.
 
 You don't just have to build tools from the ground up. You can also build on existing ones. There are also plenty of open-source offerings out there. Hack on them. Meliorate. Make alterations to help them fit your needs. Feel free to publish your changes, and if they might benefit others, submit them as pull requests. Contribute back if you can.
 

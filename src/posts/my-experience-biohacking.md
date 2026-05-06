@@ -16,7 +16,7 @@ Among the many _bleeding_-edge modifications that have come about in recent year
 
 As my grandmother took to asking me, 'But _why_ is it necessary?'. Well, it obviously isn't strictly _necessary_, but it is cool as heck. There are two main benefits that can be sourced from a magnet implant: sensing and lifting.
 
-Lifting is the easiest to understand. Magnets stick to ferrous objects, and thus ferrous objects can be lifted. As magnetic field strength decreases inversely with the cube of the distance from the magnet's centre, and flesh has thickness, [^1] the lifting ability of subdermal implants is limited.
+Lifting is the easiest to understand. Magnets stick to ferrous objects, and thus ferrous objects can be lifted. As magnetic field strength decreases inversely with the cube of the distance from the magnet's centre, and flesh has thickness,[^1] the lifting ability of subdermal implants is limited.
 
 Sensing is a bit more complex of a concept to convey. By placing a magnet in a nerve-heavy location (such as the hand), you can gain a quite literal sixth sense -- the ability to _feel_ magnetic fields.
 
@@ -26,13 +26,13 @@ I first heard of magnet implants years ago and very much wished to pursue gettin
 
 Once I turned 18, I again looked into it. Things in the scene had changed a bit in the intervening years. The [Titan](https://dangerousthings.com/product/titan/), which is the magnet I was initially interested in, was discontinued as part of a redesign, and community-advised implantation locations had been revised.
 
-After a bit of research, the [xG3](https://dangerousthings.com/product/xg3/) came out on top as the best (and one of the only) market offerings available at the time. The xG3 originally came in two varieties: the v1 (axially magnetised) and v2 (diametrically magnetised) -- v1 being best for sensing and v2 best for lifting, though reported failures [led to the v1 being discontinued](https://forum.dangerousthings.com/t/safety-advisory-xg3-v1/19500), leaving the v2 as the reasonable choice [^2]. To better understand its dimensions, I 3D printed an analogue using the STL files provided on Dangerous Things' site. 'Twas certainly a tad freaky sizing up placements on my hand knowing that the real thing would eventually be in there...
+After a bit of research, the [xG3](https://dangerousthings.com/product/xg3/) came out on top as the best (and one of the only) market offerings available at the time. The xG3 originally came in two varieties: the v1 (axially magnetised) and v2 (diametrically magnetised) -- v1 being best for sensing and v2 best for lifting, though reported failures [led to the v1 being discontinued](https://forum.dangerousthings.com/t/safety-advisory-xg3-v1/19500), leaving the v2 as the reasonable choice.[^2] To better understand its dimensions, I 3D printed an analogue using the STL files provided on Dangerous Things' site. 'Twas certainly a tad freaky sizing up placements on my hand knowing that the real thing would eventually be in there...
 
 ### The Procedure
 
 I got in contact with the [Dangerous Things partner](https://dangerousthings.com/partners/) closest to me and booked in a consultation.
 
-I couldn't have ended up at a better piercer. The staff were fantastic, and my piercer ran me through the steps and process. I had already looked into placement and had my eye on position 0, between my thumb and pointer. [^3]
+I couldn't have ended up at a better piercer. The staff were fantastic, and my piercer ran me through the steps and process. I had already looked into placement and had my eye on position 0, between my thumb and pointer.[^3]
 
 When I mentioned this to my piercer, he advised against that position due to the ergonomics (try bending your arm round so the back of your hand can pick up a screw on a table) and instead proposed a placement on the knife's edge (the fleshy bit down the side of your hand between your pinky and wrist). This fleshy placement also protects it in a position away from bone, meaning that in the event of trauma, it's less likely to be damaged.
 
@@ -116,7 +116,7 @@ Also, for some reason, it feels odd that it works underwater. I'm not sure why. 
 
 ## Frequently Asked Questions
 
-As you'd expect, I've been asked a _lot_ of questions about my magnet. [^4] Most of the questions you may think to ask are already covered by Dangerous Things' [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28), but I'll cover some more here.
+As you'd expect, I've been asked a _lot_ of questions about my magnet.[^4] Most of the questions you may think to ask are already covered by Dangerous Things' [X-Series Implantable Transponder FAQ](https://forum.dangerousthings.com/t/x-series-implantable-transponder-faq/28), but I'll cover some more here.
 
 ### Will it set off metal detectors?
 
@@ -152,7 +152,7 @@ Not really. Field falloff makes certain that it isn't strong enough to attract t
 
 Probably not. There are electronics which can be interfered with by a magnet of this size, but they're specialised, and there is a very low chance of actually encountering them in normal life. Most consumer electronics are completely unfazed by magnets in general.
 
-People worry about the implant wiping the magnetic stripe in a credit card, [^5] or killing hard drives, but my magnet simply isn't strong enough to do so -- I don't think there are any offerings on the market that can. Linus Tech Tips released a video [showing the strength of a magnet required to ruin a hard drive](https://www.youtube.com/shorts/VWjX52oAAMk). It requires a magnet several orders of magnitude stronger than my xG3.
+People worry about the implant wiping the magnetic stripe in a credit card,[^5] or killing hard drives, but my magnet simply isn't strong enough to do so -- I don't think there are any offerings on the market that can. Linus Tech Tips released a video [showing the strength of a magnet required to ruin a hard drive](https://www.youtube.com/shorts/VWjX52oAAMk). It requires a magnet several orders of magnitude stronger than my xG3.
 
 ### Is this the Biblical Mark of the Beast?
 

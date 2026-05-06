@@ -64,7 +64,7 @@ I asked DeepSeek's DeepSeek-V3, and it returned a to-do list app using vanilla H
 
 DeepSeek had the greatest variation in technology used but is the least accessible model and didn't actually 'create' the app as requested -- merely a general outline for it.
 
-These tests show both Claude and ChatGPT have a strong preference for React and Tailwind, [^2] that Gemini has a preference for HTML/CSS/JS but will recommend React and that DeepSeek is much more flexible and varied with its technological choices, though requires more prompting to produce an actual output.
+These tests show both Claude and ChatGPT have a strong preference for React and Tailwind,[^2] that Gemini has a preference for HTML/CSS/JS but will recommend React and that DeepSeek is much more flexible and varied with its technological choices, though requires more prompting to produce an actual output.
 
 ## Reflection
 

@@ -37,7 +37,7 @@ It taxis around the runway, comes to a stop, then it starts with force. It rolls
 
 What previously felt like a space shuttle now feels much more like a tin can.
 
-The plane leaves the ground, and the roar of the wheels on the runway goes with it. Now only a rumble is present -- both in sound and movement. The plane shakes and shudders as the plastic of the seats and interior creak and groan in unison. [^1]
+The plane leaves the ground, and the roar of the wheels on the runway goes with it. Now only a rumble is present -- both in sound and movement. The plane shakes and shudders as the plastic of the seats and interior creak and groan in unison.[^1]
 
 Then you find yourself sitting in a tube kilometres in the sky and seeing the world beneath you as you soar over it. Looking down at the little lights of the places you know as the twinkles transition into those you don't. Thinking of the many times you've looked overhead to see a plane and of the sheer absurdity of flight in general.
 

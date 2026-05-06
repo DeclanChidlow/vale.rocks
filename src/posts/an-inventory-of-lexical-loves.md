@@ -8,7 +8,7 @@ section: Essay
 tags: [writing]
 ---
 
-I love words and languages [^1] seem to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
+I love words and languages[^1] seem to have lots of them. My favourites tend to be overly specific, fun to say, or just a tad zany. Many words in this list are homonyms or polysemous, but I am only including my favourite definitions unless there is reason not to.
 
 The extremely savvy reader could perhaps surmise what media I have been consuming, particularly what books I've been reading, based on the order of certain words outlined here or the mere occurrence of some of the more obscure inclusions.
 

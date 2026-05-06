@@ -11,7 +11,7 @@ Research notes and personal cataloguing of my usage and experience with assorted
 
 Many people attempt experiments with assorted nootropics, but I find they're often difficult to attain value from. You of course have placebo effects, but you also have the case of most outcomes being difficult to detect. Even in the cases of double-blinded trials, factors such as 'mood' and 'productivity' are so vague that they're difficult to track or log, and they're so easily manipulated by an unquantifiable number of variables that their validity is questionable.
 
-I don't personally consider substances touted as nootropics unless there is genuine credible scientific evidence of a measured effect beyond a purely subjective psychological claim. Without that consideration, discussion quickly devolves into 'alternative science' [^1] and negligible effects.
+I don't personally consider substances touted as nootropics unless there is genuine credible scientific evidence of a measured effect beyond a purely subjective psychological claim. Without that consideration, discussion quickly devolves into 'alternative science'[^1] and negligible effects.
 
 To begin with the words of Norman Osborn in 2002's Spider-Man, 'Forty thousand years of evolution, and we've barely even tapped the vastness of human potential.'
 
@@ -23,7 +23,7 @@ Its popularity, long-term usage, and availability have led to it being fairly we
 
 Being a stimulant, consuming it has negative effects on both falling asleep and achieving a restful sleep. The half-life is commonly reported at ~6+ hours, so I generally don't consume further caffeine after noon, and certainly not after 14:00 unless deliberately intending to remain awake into the night.
 
-Caffeine is most commonly consumed deliberately via coffee, tea, and energy drinks. I [enjoy tea](/posts/tea-reviews) and coffee but have a general dislike for energy drinks. Having tried various flavours of Monster, Red Bull, Rockstar, etc, I have identified that I don't like their taste, [^2] and I see little point in choosing them over other caffeine sources. Many energy drinks contain more sugar than I need or would like and contain additives like taurine, which I have no deficiency in and which provides no known gains in excess.
+Caffeine is most commonly consumed deliberately via coffee, tea, and energy drinks. I [enjoy tea](/posts/tea-reviews) and coffee but have a general dislike for energy drinks. Having tried various flavours of Monster, Red Bull, Rockstar, etc, I have identified that I don't like their taste,[^2] and I see little point in choosing them over other caffeine sources. Many energy drinks contain more sugar than I need or would like and contain additives like taurine, which I have no deficiency in and which provides no known gains in excess.
 
 There is an inherent cost and inconvenience to drinking coffee as a source of caffeine, and while tea has some content, it requires more cups, which introduces the same flaws. If I were to completely optimise my caffeine consumption, I would [consume it in solid form rather than liquid](https://www.lesswrong.com/posts/iFJB5g2hczqnN7EhM/saul-munn-s-shortform#NpAieokDPCML8dJF6). Caffeine pills come pre-portioned and are convenient, but I could get the caffeine even cheaper should I choose to acquire it in powder form, but I have a somewhat irrational fear of overdosing on it by virtue of mismeasuring -- pure caffeine powder is incredibly potent.
 
@@ -73,7 +73,7 @@ I am still interested in whether or not L-theanine has any actual effect, especi
 
 Nicotine gets a bad rap -- partly for good reason. Generally, nicotine is associated with tobacco, which lends a negative association. It is widely considered to be extremely addictive (perhaps to an overstated level) and is a stimulant, which is where my interest in the drug lies. It has a short half-life of ~2 hours (substantially less than caffeine's ~6+), which makes it a reasonable choice for avoiding too much sleep disruption, and is an anxiolytic, which gives it a leg up over caffeine, which I often find anxiety-inducing.
 
-Unfortunately, most nicotine research is entangled with research of tobacco products and especially cigarettes, meaning findings are often conflated and thus unreliable in the case of nicotine in isolation. The few tests of nicotine in isolation indicate that it is not a carcinogen, but that, as expected from a stimulant, it often increases blood pressure and can impact oral [^3] and cardiovascular health.
+Unfortunately, most nicotine research is entangled with research of tobacco products and especially cigarettes, meaning findings are often conflated and thus unreliable in the case of nicotine in isolation. The few tests of nicotine in isolation indicate that it is not a carcinogen, but that, as expected from a stimulant, it often increases blood pressure and can impact oral[^3] and cardiovascular health.
 
 I had heard people call nicotine a 'clean' stimulant -- not presenting the same downsides as caffeine. I have to agree, as I've found nicotine's effects to be much less of a disruptive 'buzz'. The onset after placing a piece of gum in the mouth is immediate, and there is no resultant crash. The trademark caffeine anxiety is also absent.
 

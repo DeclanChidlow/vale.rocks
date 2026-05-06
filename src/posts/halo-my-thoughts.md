@@ -16,7 +16,7 @@ I'll be avoiding spoilers for the most part, but if I've got any specifics to me
 
 Halo: Combat Evolved, often abbreviated to CE, is the first game in the series. It sets up what is to come and sets it up well. The gunplay feels terrific, the gameplay is sublime, and the story holds audience attention without ever getting in the way.
 
-Right off the bat, I'd like to mention the Anniversary edition. Releasing in 2011, it features a complete overhaul of all the graphics. While it looks fantastic in the right conditions, it has some _issues_. Many of the textures and models are ripped straight from Halo 3 and Reach [^1] and aren't faithful to the original release, which alters the tone and impacts the storytelling.
+Right off the bat, I'd like to mention the Anniversary edition. Releasing in 2011, it features a complete overhaul of all the graphics. While it looks fantastic in the right conditions, it has some _issues_. Many of the textures and models are ripped straight from Halo 3 and Reach[^1] and aren't faithful to the original release, which alters the tone and impacts the storytelling.
 
 The original graphics from 2001 are a product of their time, and the limited compute of the original Xbox necessitated sparse foliage and scarce details. While this may have been the result of limited compute, it did not hinder the style. Combat Evolved takes place in artificial, alien worlds. Worlds that are not natural but crafted, just as the environments were not naturally occurring on Bungie's computers but instead meticulously and purposefully constructed. It _feels_ constructed and artificial, because it is, and that isn't hidden.
 
@@ -47,7 +47,7 @@ Combat Evolved's campaign opens strong with a solid introduction. It starts off 
 
 It then proceeds to, like many good games, slowly but surely introduce more mechanics, weapons, and interactions without ever feeling overwhelming. It's not perfect, and the weapons aren't necessarily super balanced _(the pistol in this game may as well be a sniper rifle)_, but it ticks the most important box. It's fun.
 
-If you're looking to get into the FPS genre, then it's a good game to start with. If you're looking to get into Halo, then it's _the_ game to start with [^2]. It's also a good game to stop with if you just want to dip your toes in and aren't sure if Halo is your cup of tea. It has a nice conclusion that, while being rather open-ended, supplies an easy and satisfying stopping point.
+If you're looking to get into the FPS genre, then it's a good game to start with. If you're looking to get into Halo, then it's _the_ game to start with.[^2] It's also a good game to stop with if you just want to dip your toes in and aren't sure if Halo is your cup of tea. It has a nice conclusion that, while being rather open-ended, supplies an easy and satisfying stopping point.
 
 <details>
 <summary>Campaign Specifics</summary>

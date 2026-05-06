@@ -19,7 +19,7 @@ Consciously, you're aware of what is happening, but on another level, you are on
 
 This complete infatuation means all long-term considerations are pushed to the edges of your mind, and the short term is all that remains in focus. Getting the thing done. Getting _a_ solution -- _any_ solution -- means finding, perhaps creating, a solution for the problem identified.
 
-Often, this state is enhanced by a stimulant (like modafinil, nicotine, or caffeine) and a questionable amount of greasy food -- low in nutritional value but high in convenience, so as not to detract from available cognition. [^1]
+Often, this state is enhanced by a stimulant (like modafinil, nicotine, or caffeine) and a questionable amount of greasy food -- low in nutritional value but high in convenience, so as not to detract from available cognition.[^1]
 
 This isn't sustainable, but neither is the flow state; it might last a few hours or days at most during something like a launch, user influx, hackathon, or game jam, but it is doomed to lead to a decay of cognitive performance resulting from exhaustion, indicating that one must break out of the flow to dodge the impending burnout.
 
@@ -33,7 +33,7 @@ Sure, there may be things that need handling later -- loose ends that need tying
 
 This flow state isn't exclusive to development; I can personally reach it when designing, when there are many people relying on me, such as during a live production, or very rarely when writing, but I've heard it mentioned by plenty of people in plenty of contexts and occupations.
 
-It seems to manifest in times of high stress, [^2] regardless of objective or activity. Namely, when one must MacGyver [^3] a solution to an urgent or impending problem.
+It seems to manifest in times of high stress,[^2] regardless of objective or activity. Namely, when one must MacGyver[^3] a solution to an urgent or impending problem.
 
 It is a temporary state, and one that is only triggered to its fullest in certain circumstances. A state where you are able to let your mind run free on a problem. To really sink your teeth into something properly difficult while under pressure and experience the overwhelming sense of accomplishment when you achieve your desired outcome is exhilarating. It truly is a wonderful, wonderful high -- at least if you pull out of your exertion nosedive before the impending crash.
 

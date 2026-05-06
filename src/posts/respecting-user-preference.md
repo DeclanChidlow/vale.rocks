@@ -7,7 +7,7 @@ section: Essay
 tags: [accessibility, development, UI/UX]
 ---
 
-I found myself in a conversation where someone mentioned how satisfying it was to be implementing features that respect user preferences. Someone responded to them asking, "How can that be satisfying?" The original person responded with, "'Cos it's accessible and caters to the user's preferences," which was then met by "Yes, but satisfying for the ones that need accessibility features then. Why would it be satisfying for you specifically?" [^1]
+I found myself in a conversation where someone mentioned how satisfying it was to be implementing features that respect user preferences. Someone responded to them asking, "How can that be satisfying?" The original person responded with, "'Cos it's accessible and caters to the user's preferences," which was then met by "Yes, but satisfying for the ones that need accessibility features then. Why would it be satisfying for you specifically?"[^1]
 
 My contributions to the conversation in the moment weren't wrong, but they were ill-formed. I agreed that respecting user preferences is very much satisfying but found myself struggling to articulate exactly _why_. That is what I'm attempting to address here.
 
@@ -37,7 +37,7 @@ There's satisfaction to be found in good craftsmanship -- building something wit
 
 ## Visible Impact
 
-There is a direct and observable positive effect on user interaction when you cater to how they've expressed they wish to be considered. It is exciting to watch your work fit to a user like a well-tailored suit. Giving users control lets them take the wheel and can lead to usage beyond one's own expectations or intents. You can see your work take on a life beyond your original vision [^2].
+There is a direct and observable positive effect on user interaction when you cater to how they've expressed they wish to be considered. It is exciting to watch your work fit to a user like a well-tailored suit. Giving users control lets them take the wheel and can lead to usage beyond one's own expectations or intents. You can see your work take on a life beyond your original vision.[^2]
 
 Respecting user preferences has direct impact -- it isn't abstracted away. It brings me joy to see a user embrace something I've made while it embraces them. _That_ is satisfying.
 

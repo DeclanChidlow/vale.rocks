@@ -29,7 +29,7 @@ The next step is to make sure you're on the latest software available. Open Amaz
 
 ## Hacks
 
-First things first, you'll need the gaolbreak. The MobileRead Wiki has [a short little guide](https://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x,_3.x_%26_4.x_Kindles#How_to_install_the_Jailbreak_Hack) on how to gaolbreak your Kindle. You'll want to follow that down, stopping at the screen-saver [^1] hack section.
+First things first, you'll need the gaolbreak. The MobileRead Wiki has [a short little guide](https://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x,_3.x_%26_4.x_Kindles#How_to_install_the_Jailbreak_Hack) on how to gaolbreak your Kindle. You'll want to follow that down, stopping at the screen-saver[^1] hack section.
 
 While you can install the screen-saver hack and even the fonts hack, which allows you to take control of your font customisation if you so wish, you're much better off installing KOReader, as is [covered later in this guide](#koreader), which completely overhauls the experience and gives you the aforementioned options in addition to many more and a much nicer overall experience.
 
@@ -37,7 +37,7 @@ While you can install the screen-saver hack and even the fonts hack, which allow
 
 The Kindle Unified Application Launcher (KUAL) is a very handy little application which various hacks and things can hook into. You'll want to install this so you can have a graphical interface to change your settings.
 
-You'll first need to install the Mobileread Kindlet Kit (MKK). This will let you open and use custom Kindlets, such as KUAL. [^2] You can grab the install from [NiLuJe's Snapshot thread](https://www.mobileread.com/forums/showthread.php?t=225030) and then follow the installation guide halfway down [the MKK page](https://www.mobileread.com/forums/showthread.php?t=233932) to install it.
+You'll first need to install the Mobileread Kindlet Kit (MKK). This will let you open and use custom Kindlets, such as KUAL.[^2] You can grab the install from [NiLuJe's Snapshot thread](https://www.mobileread.com/forums/showthread.php?t=225030) and then follow the installation guide halfway down [the MKK page](https://www.mobileread.com/forums/showthread.php?t=233932) to install it.
 
 Next, you'll want to install KUAL itself. Grab it from the Snapshot thread, then follow the installation guide on the [KUAL thread](https://www.mobileread.com/forums/showthread.php?t=203326). After that, check that it opens fine by selecting it from your main library page.
 

@@ -34,7 +34,7 @@ I'd prefer that nobody attempt one of those creepy and distasteful 'speak to dea
 
 I am a registered organ donor in Australia and would like my organs to be donated if possible as first priority upon my death. If necessary, mangle my body to get anything valuable out. Please do not allow my organs or any other useful part of my body to be wasted for the sake of preserving my appearance or structure. My body without me is a resource and should be reaped as such.
 
-When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research, [^1] but otherwise they should be subject to cremation, resomation, promession, or being pushed off a jetty.
+When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research,[^1] but otherwise they should be subject to cremation, resomation, promession, or being pushed off a jetty.
 
 I also wouldn't take issue with a mushroom burial suit as long as I don't have a marked grave plot taking up space. That kinda defeats the point. The matter that makes up my form has been other things before and will be other things after.
 

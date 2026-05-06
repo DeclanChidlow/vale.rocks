@@ -416,7 +416,7 @@ impl LoremIpsum {
 
 ## End/Side Notes
 
-There is a note after this [^1].
+There is a note after this[^1].
 
 There is not a note after this.
 

@@ -41,7 +41,7 @@ This requirement of state-issued ID is largely relevant to age gating. Throughou
 
 Many popular games have significantly altered China-specific variants, including:
 
-- Minecraft's Chinese variant is [My World: China Edition (<ruby>我<rt>wǒ</rt>的<rt>de</rt>世<rt>shì</rt>界<rt>jiè</rt></ruby>](https://mc.163.com/). It is free-to-play with many micro-transactions and subscriptions. In addition to all that one would typically expect from Minecraft, it also has full additional gamemodes and takes cues from role-playing games. The mobile version even included a virtual house builder for a time, as you might see in a mobile match-three puzzle game.
+- Minecraft's Chinese variant is [My World: China Edition (<ruby>我<rt>wǒ</rt>的<rt>de</rt>世<rt>shì</rt>界<rt>jiè</rt></ruby>)](https://mc.163.com/). It is free-to-play with many micro-transactions and subscriptions. In addition to all that one would typically expect from Minecraft, it also has full additional gamemodes and takes cues from role-playing games. The mobile version even included a virtual house builder for a time, as you might see in a mobile match-three puzzle game.
 
 - [Plants vs Zombies 2](https://game.talkweb.com.cn) was first developed by PopCap's Shanghai studio and then later by Talkweb Games. It is notable for having a huge amount of exclusive content, including extra worlds, plants, and game systems.
 

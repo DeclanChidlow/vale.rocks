@@ -37,7 +37,7 @@ As overlays often try to take assistive technologies into their own hands, they 
 
 Further, overlays are often closed-source and imported from a third-party location. That leaves performance on the table and introduces a dependence on a third party. Widgets often import heavy JavaScript files that slow down the page and many have inbuilt telemetry and tracking. This tracking can introduce complications with the GDPR, CCPA, and similar legislation. Because they're tacked on as additional JavaScript, they also don't have the same power and versatility that native browser and operating system features provide.
 
-Overlays are expensive as well. They're usually offered as subscription, and for the cost some of them charge, it can even be more financially responsible to pay an accessibility professional to audit your site. Not only will they do a better job of finding issues, but they also do a better job of telling you how to actually fix the root cause, which often comes with further benefits from the perspective of general user experience and search engine optimisation (SEO) [^1].
+Overlays are expensive as well. They're usually offered as subscription, and for the cost some of them charge, it can even be more financially responsible to pay an accessibility professional to audit your site. Not only will they do a better job of finding issues, but they also do a better job of telling you how to actually fix the root cause, which often comes with further benefits from the perspective of general user experience and search engine optimisation (SEO)[^1].
 
 If a user really decides they want an overlay, then they can make that choice themself and install an overlay browser extension.
 

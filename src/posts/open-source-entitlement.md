@@ -19,9 +19,9 @@ When software is open-source, it means it is open-source -- that the source is o
 - It does not mean you're entitled to the maintainer's labour.
 - It does not mean you can do _anything_ you want. You remain bound by the licence.
 
-Some open-source projects choose to offer these things, but they should not be expected. It is up to the discretion of the project and maintainers. Being provided the software at all is a privilege, _not_ a right -- anything further doubly so. [^1]
+Some open-source projects choose to offer these things, but they should not be expected. It is up to the discretion of the project and maintainers. Being provided the software at all is a privilege, _not_ a right -- anything further doubly so.[^1]
 
-When software is open-source, it is open-source, not necessarily _completely_ free for you to do what you want with, as it might still have a somewhat restrictive licence. [^2] Separately, the code being available in and of itself _does not_ necessarily make it open-source and give you a right to take it, modify it, or redistribute it.
+When software is open-source, it is open-source, not necessarily _completely_ free for you to do what you want with, as it might still have a somewhat restrictive licence.[^2] Separately, the code being available in and of itself _does not_ necessarily make it open-source and give you a right to take it, modify it, or redistribute it.
 
 ## Abuse of Devs
 

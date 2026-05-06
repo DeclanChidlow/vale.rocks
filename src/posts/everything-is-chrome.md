@@ -1,9 +1,9 @@
 ---
-title: Everything Is Chrome
+title: Everything is Chrome
 description: My look into the overaching dominance of Google Chrome and it's overwhelmingly negative impact on the web as we know it.
 og_description: The power is in Google's hands.
 pub_time: 2023-12-11
-mod_time: 2025-03-04
+mod_time: 2026-05-06
 section: Essay
 tags: [Chrome, Blink]
 ---
@@ -135,6 +135,20 @@ In April of 2023, some Google engineers [created a GitHub repository](https://gi
 You may be wondering exactly what it is. WEI is more or less a way to verify that a site is 'genuine'. It can be best described as Digital Rights Management (DRM) for the web and, wouldn't you know, could've also impacted ad blockers if they were found to be altering the web environment's integrity. Perhaps the impact of WEI most relevant to this article is the fact that browsers, especially those out of the mainstream or that offer unique or uncommon features, might have found themselves considered 'untrusted' and therefore severely limited.
 
 I could continue with further examples, but I think the point is made, and I expect you've gathered the picture. The web is dominated by Chrome, and something needs to be done about it.
+
+### Prompt API
+
+In May of 2026, Google launched the Prompt API (which provides the ability to send requests to a local artificial intelligence large language model) in mainline Chrome. The API was introduced with _so many pressing, critical issues_, ranging from usability shortcomings to privacy nightmares and lack of informed consent. Google largely centralised the API around themself, failing and violating core tenets of browser standardisation and ethos.
+
+Mozilla particularly took a firm stance against the API, [citing some very valid reasons](https://github.com/mozilla/standards-positions/issues/1213#issuecomment-4347988313). WebKit [raised a number of concerns](https://github.com/WebKit/standards-positions/issues/495#issuecomment-4356846488), as did the [World Wide Web Consortium W3C Technical Architecture Group](https://github.com/w3ctag/design-reviews/issues/1093#issuecomment-3515070512). Developers disavowed the API en masse. Chrome forced it through anyway. I think Jake Archibald [summed it up quite succinctly](https://bsky.app/profile/jakearchibald.com/post/3ml6gf7d77s25):
+
+> Mozilla: Opposed\
+> WebKit: Opposed\
+> Microsoft: Several concerns\
+> W3C TAG: Several concerns\
+> Developers: Mostly negative
+>
+> Chrome: Ships anyway.
 
 ## The Death of Firefox Support
 
