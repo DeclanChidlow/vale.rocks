@@ -4,7 +4,7 @@ description: A popular moderation bot developed for Stoat that protects over 220
 og_description: Moderation bot for Stoat that keeps communities safe.
 tags: [moderation, design, Stoat, development, front-end development]
 accent_colour: "#ff6763"
-repository: DeclanChidlow/AutoMod
+repository: github.com/DeclanChidlow/AutoMod
 hoisted: 4
 ---
 

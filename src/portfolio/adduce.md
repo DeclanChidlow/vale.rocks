@@ -4,7 +4,7 @@ description: A flexible static site generator I helped build and now maintain. D
 og_description: Static site generator bringing web projects to life.
 tags: [development]
 accent_colour: "#0019c6"
-repository: DeclanChidlow/Adduce
+repository: github.com/DeclanChidlow/Adduce
 hoisted: 3
 ---
 

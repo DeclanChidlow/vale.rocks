@@ -4,7 +4,7 @@ description: A global technology conferences directory featuring advanced filter
 og_description: Technology conference listing site.
 tags: [design, development, front-end development]
 accent_colour: "#b88b41"
-repository: DeclanChidlow/techconf.directory
+repository: github.com/DeclanChidlow/techconf.directory
 ---
 
 Frustrated by the difficulty of discovering conferences and finding information about them in a central location, I created [TechConf.Directory](https://techconf.directory), a site listing technology conferences across the globe.
