@@ -37,7 +37,7 @@ Writing acts to prompt a slightly different type of thinking, especially if forg
 
 I am a creative person (or at the very least a person who creates), and I can think of few joys more than being able to manifest the mind; to make thought tangible.
 
-Writing is a creative medium, regardless of content. As with many creative endeavours, writing is personal. I'm tearing chunks off my soul and hurling them into the belly of the beast [^1] for others to find, to resonate with, or challenge.
+Writing is a creative medium, regardless of content. As with many creative endeavours, writing is personal. I'm tearing chunks off my soul and hurling them into the belly of the beast[^1] for others to find, to resonate with, or challenge.
 
 Words are powerful; they can alter the mind. Writing is like any art -- it can change moods, influence thoughts, cut someone down or sharpen them up. Words are addictive to both read and write, much like the ideas they can spread. Sharing one idea can germinate many more, and ideas are often considered dangerous.
 
@@ -59,7 +59,7 @@ Words remain extremely flexible and adaptable -- one must only look to puns, met
 
 Writing also has huge benefits that places it head and shoulders above other mediums as far as my needs are concerned. Other mediums such as audio and video are fantastic for a lot of things but require specific technologies and bandwidth. For conveying complex knowledge and information, text is king. The written word is remarkably adaptable and inherently inclusive, especially on the web.
 
-Text is minuscule in file size -- it requires minimal data and is thus easily accessible on older machines and slower networks. Text is the universal language of the internet [^2] and computing. It can be displayed on almost any device, with any operating system, using countless applications, making the content truly portable.
+Text is minuscule in file size -- it requires minimal data and is thus easily accessible on older machines and slower networks. Text is the universal language of the internet[^2] and computing. It can be displayed on almost any device, with any operating system, using countless applications, making the content truly portable.
 
 The very structure of written language makes it seamlessly compatible with assistive technologies. Crucially, regardless of whether someone is reading the text visually, listening to it via a screen reader, consuming it through braille, or interacting with it some other way, they are receiving the exact same core content and message. This stands in contrast to visual media where alternative text or audio descriptions might provide information about the content but can't faithfully emulate the content itself in its primary form.
 

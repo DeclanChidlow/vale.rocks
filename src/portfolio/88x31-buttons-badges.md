@@ -24,9 +24,9 @@ A core part of any personal website, which is where such badges are most likely 
 <div class="buttons-badges">
     <img src="/assets/buttons/anti-fascism_button.gif" alt="'No Fascism / No Bigotry' badge with crossed-out swastika.">
     <img src="/assets/buttons/link-freely_button.gif" alt="'Link Freely' badge with chain links.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/ideological/melt-ice_button.gif" alt="'Melt Ice' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/ideological/free-palestine_button.gif" alt="'Free Palestine' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/ideological/slava-ukraini_button.gif" alt="'Slava Ukraini' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/ideological/melt-ice_button.gif" alt="'Melt Ice' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/ideological/free-palestine_button.gif" alt="'Free Palestine' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/ideological/slava-ukraini_button.gif" alt="'Slava Ukraini' badge.">
 </div>
 
 ## Tech
@@ -36,18 +36,18 @@ Another common use for badges and buttons is to show off technologies in use. Sh
 <div class="buttons-badges">
     <img src="/assets/buttons/web-origami_button.gif" alt="'Built with Origami' badge.">
     <img src="/assets/buttons/html5_button.gif" alt="'Hypertext Markup Language' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/html_button.gif" alt="'&#60;HTML/&#62;' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/html_button.gif" alt="'&#60;HTML/&#62;' badge.">
     <img src="/assets/buttons/made-with-css_button.gif" alt="'Made with Cascading Stylesheets' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/css_button.gif" alt="'.CSS {}' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/css-passion_button.gif" alt="'CSS is my passion' badge with text overflowing the badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/tailwind_button.gif" alt="'Tailwind' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/bootstrap_button.gif" alt="'Bootstrap' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/css-greater-js_button.gif" alt="'CSS &#62; JS' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/rss_button.gif" alt="'RSS' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/css_button.gif" alt="'.CSS {}' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/css-passion_button.gif" alt="'CSS is my passion' badge with text overflowing the badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/tailwind_button.gif" alt="'Tailwind' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/bootstrap_button.gif" alt="'Bootstrap' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/css-greater-js_button.gif" alt="'CSS &#62; JS' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/rss_button.gif" alt="'RSS' badge.">
     <img src="/assets/buttons/ecmascript_button.gif" alt="'Contains ECMAScript' badge with exclamation points.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/js_button.gif" alt="'JS()' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/js_button.gif" alt="'JS()' badge.">
     <img src="/assets/buttons/progressively-enhanced_button.gif" alt="Rainbow 'Progressively Enhanced' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/tech/markdown_button.gif" alt="'# MD' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/tech/markdown_button.gif" alt="'# MD' badge.">
 </div>
 
 ## Platforms
@@ -55,13 +55,17 @@ Another common use for badges and buttons is to show off technologies in use. Sh
 Online platforms have become a large part of people's lives, even if they may conflict somewhat with many of the ideals of the sort of person that uses 88x31 buttons/badges. As part of making the web as a whole an interlinked place, I made a range of badges for various platforms.
 
 <div class="buttons-badges">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/bluesky_button.gif" alt="'Bluesky' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/codeberg_button.gif" alt="'Codeberg' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/gitlab_button.gif" alt="'GitLab' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/npmx_button.gif" alt="'npmx' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/imood_button.gif" alt="'imood' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/techconf-directory_button.gif" alt="'TechConf.Directory' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/platforms/kofi_button.gif" alt="'Ko-Fi' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/bluesky_button.gif" alt="'Bluesky' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/codeberg_button.gif" alt="'Codeberg' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/tangled_button.gif" alt="'Tangled' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/forgejo_button.gif" alt="'Forgejo' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/gitlab_button.gif" alt="'GitLab' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/npmx_button.gif" alt="'npmx' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/imood_button.gif" alt="'imood' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/techconf-directory_button.gif" alt="'TechConf.Directory' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/kofi_button.gif" alt="'Ko-Fi' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/stoat_button.gif" alt="'Stoat' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/platforms/listenbrainz_button.gif" alt="'ListenBrainz' badge.">
 </div>
 
 ## Media
@@ -69,19 +73,19 @@ Online platforms have become a large part of people's lives, even if they may co
 The media we consume often represents us as people. These buttons are perfect for presenting one's tastes and finding others with similar interests.
 
 <div class="buttons-badges">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/jet-set-radio_button.gif" alt="'Jet Set Radio' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/minecraft_button.gif" alt="'Minecraft' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/terraria_button.gif" alt="'Terraria' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/evangelion_button.gif" alt="'Evangelion' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/cowboy-bebop_button.gif" alt="'Cowboy Bebop' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/team-fortress_button.gif" alt="'Team Fortress' badge.">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/media/siiva-gunner_button.gif" alt="'SiIvaGunner' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/jet-set-radio_button.gif" alt="'Jet Set Radio' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/minecraft_button.gif" alt="'Minecraft' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/terraria_button.gif" alt="'Terraria' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/evangelion_button.gif" alt="'Evangelion' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/cowboy-bebop_button.gif" alt="'Cowboy Bebop' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/team-fortress_button.gif" alt="'Team Fortress' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/media/siiva-gunner_button.gif" alt="'SiIvaGunner' badge.">
 </div>
 
 ## Miscellaneous
 
 <div class="buttons-badges">
-    <img src="https://github.com/DeclanChidlow/88x31-Buttons-Badges/raw/refs/heads/main/miscellaneous/under-construction_button.gif" alt="'Under Construction' badge.">
+    <img src="https://tangled.org/vale.rocks/88x31-Buttons-Badges/raw/main/miscellaneous/under-construction_button.gif" alt="'Under Construction' badge.">
 </div>
 
 ---

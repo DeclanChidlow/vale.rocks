@@ -21,7 +21,7 @@ If I was going to be relearning how to type, I decided I may as well learn how t
 
 - Dvorak, which came about in the 1930s. It goes all in on efficiency and optimising finger movements. The layout is entirely different from QWERTY.
 - Colemak, which came about in 2006. It aims for improved typing comfort and speed while remaining reasonably close to QWERTY by not moving a huge number of keys around. It also doesn't mess with the placement of common shortcuts. This makes switching easier.
-- [Workman](https://workmanlayout.org) attempts to address some of Colemak's shortcomings. It does introduce many cases where one finger needs to hit multiple keys in succession [^1].
+- [Workman](https://workmanlayout.org) attempts to address some of Colemak's shortcomings. It does introduce many cases where one finger needs to hit multiple keys in succession.[^1]
 
 Speed was not too much of an object to me, as I could already write faster than I could realistically think to write in most scenarios, and I could certainly type faster than I could code. I obviously didn't want to choose a layout which prioritises ergonomics to the point of my speed becoming an issue, but speed isn't my explicit goal. Any of the above layouts come with a speed improvement thanks to the added efficiency anyhow.
 
@@ -282,7 +282,7 @@ It really wasn't a painful process to switch, and it is something that must only
 
 Since switching keyboard layouts, very few other people can use my devices. This is great in that people can't use them without permission but is terrible in that people can't use them _with_ permission.
 
-This inability for others to use my devices certainly isn't aided by the fact that I replaced my laptop's labelled QWERTY keyboard with a blank set or the fact that I have my mouse and touchpad's primary click on the right, with my secondary click on the left [^2].
+This inability for others to use my devices certainly isn't aided by the fact that I replaced my laptop's labelled QWERTY keyboard with a blank set or the fact that I have my mouse and touchpad's primary click on the right, with my secondary click on the left.[^2]
 
 One alteration I swear by is having my <kbd>Caps Lock</kbd> bound to <kbd>Esc</kbd>. I've never used the <kbd>Caps Lock</kbd> key, so keeping it around was pointless. <kbd>Esc</kbd> is a much more useful key, but it is usually far out of the way in the top left of the keyboard, which requires I reach for it. It is also very convenient for my Vim usage, where I frequently need to exit out of modes.
 

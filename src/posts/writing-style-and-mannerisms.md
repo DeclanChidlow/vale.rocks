@@ -12,7 +12,7 @@ I saw Mike Sass [write about his writing mannerisms](https://shellsharks.com/wri
 
 These notes apply to my writings on Vale.Rocks more than anywhere else. When writing externally to this site, my words must often be editorialised, altered for the sake of adhering to style guidelines, or tailored to a specific audience.
 
-Many other concepts are straight from the celebrated [The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style). I do have disagreements with it though, and sometimes find it prioritises clarity at the cost of style. [^1]
+Many other concepts are straight from the celebrated [The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style). I do have disagreements with it though, and sometimes find it prioritises clarity at the cost of style.[^1]
 
 Evidently not everyone is a fan of my style, with the best insult I've received being that I'm a '[hypergraphia-addled, graphomaniacal, logorrheic schizophrenic](/micros/20250802-1443)'. I won't disagree that I am verbose, though I like to think not at the cost of clarity. My compulsion to write is not a pathology, as their words portray, and I've explained [why I write in reasonable detail](/posts/why-write). I like to think their insult describes my literary flair.
 
@@ -50,7 +50,7 @@ Excluding repeating the obvious and that already outlined by _The Elements of St
 
 - I always write short dates in the order day, month, year. Full dates I write differently depending on context.
 
-- I don't swear with much frequency. In the same manner that if everything is highlighted, nothing is, if I swear frequently, then none of my swears have any impact. I don't substitute in euphemistic phrases but will use blasphemes, [^2] minced oaths, or mild expletives.
+- I don't swear with much frequency. In the same manner that if everything is highlighted, nothing is, if I swear frequently, then none of my swears have any impact. I don't substitute in euphemistic phrases but will use blasphemes,[^2] minced oaths, or mild expletives.
 
 - I hate writing dialogue and will avoid it whenever possible.
 

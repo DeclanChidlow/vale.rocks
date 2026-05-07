@@ -50,7 +50,7 @@ Once you've learnt how to ride, it is similar to a bike, albeit with a slightly 
 
 Not particularly. I believe riding a unicycle to be _less_ dangerous than riding a bicycle.
 
-Due to the mechanics of a unicycle and the fixed-wheel nature, [^1] you don't usually end up moving at very significant speeds, so no fall is too catastrophic.
+Due to the mechanics of a unicycle and the fixed-wheel nature,[^1] you don't usually end up moving at very significant speeds, so no fall is too catastrophic.
 
 You are not mounted to a unicycle, so you can generally just step off the front or back. If the unicycle has handlebars, then that can hinder a front dismount, but in most cases when you're forced to bail or ejected from the unicycle, you can simply walk off it without sustaining any damage yourself. You're already standing up fairly straight when riding, and your feet are already doing the correct walking motion when you're pedalling.
 
