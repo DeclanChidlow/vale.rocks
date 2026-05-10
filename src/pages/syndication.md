@@ -73,15 +73,11 @@ I store a [microblog feed](/micros) on my site, which mostly serves as a loosely
 
 ### Fediverse
 
-You can find me on the Fediverse at [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale). Follow me directly or via the feed:
-
-- Atom: <https://fedi.vale.rocks/users/vale/feed.atom>
+You can find me on the Fediverse at [@vale@fedi.vale.rocks](https://fedi.vale.rocks/vale). Follow me directly or via the Atom feed <https://fedi.vale.rocks/users/vale/feed.atom>
 
 ### Bluesky
 
-I also have a profile on Bluesky at [@vale.rocks](https://bsky.app/profile/vale.rocks). Follow me there or subscribe via its RSS feed:
-
-- RSS: <https://bsky.app/profile/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/rss>
+I also have a profile on Bluesky at [@vale.rocks](https://bsky.app/profile/vale.rocks). Follow me there or subscribe via its RSS feed: <https://bsky.app/profile/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/rss>
 
 ## Photography
 
@@ -104,6 +100,10 @@ You can find me on YouTube as [@outervale](https://www.youtube.com/@outervale). 
 - All Content RSS: <https://www.youtube.com/feeds/videos.xml?channel_id=UC8hQBcgwkZiG-cqhE1TDvzA>
 <!-- - Full Videos Only RSS: <https://www.youtube.com/feeds/videos.xml?playlist_id=UULF8hQBcgwkZiG-cqhE1TDvzA> -->
 - Shorts Only RSS: <https://www.youtube.com/feeds/videos.xml?playlist_id=UUSH8hQBcgwkZiG-cqhE1TDvzA>
+
+## Code
+
+My Tangled account has an Atom feed: <https://tangled.org/vale.rocks/feed.atom>
 
 ## Elsewhere
 

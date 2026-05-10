@@ -4,7 +4,7 @@ description: A popular moderation bot developed for Stoat that protects over 220
 og_description: Moderation bot for Stoat that keeps communities safe.
 tags: [moderation, design, Stoat, development, front-end development]
 accent_colour: "#ff6763"
-repository: github.com/DeclanChidlow/AutoMod
+repository: tangled.org/vale.rocks/AutoMod
 hoisted: 4
 ---
 
@@ -67,4 +67,4 @@ I also created [AutoDice](https://automod.vale.rocks/blog/introducing-autodice),
 
 ---
 
-The entire AutoMod project is open-source and can be [found on GitHub](https://github.com/DeclanChidlow/AutoMod) under the AGPL v3.
+The entire AutoMod project is open-source and can be [found on Tangled](https://tangled.org/vale.rocks/AutoMod) under the AGPL v3.

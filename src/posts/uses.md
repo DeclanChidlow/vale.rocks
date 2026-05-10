@@ -7,7 +7,7 @@ mod_time: 2026-01-12
 section: Meta
 ---
 
-This post details some of the many things I use. Generally, my selections align with the philosophies [outlined by Gwern](https://gwern.net/choosing-software). All my configs are provided and somewhat documented in my [dotfiles repository on GitHub](https://github.com/DeclanChidlow/dotfiles).
+This post details some of the many things I use. Generally, my selections align with the philosophies [outlined by Gwern](https://gwern.net/choosing-software). All my configs are provided and somewhat documented in my [dotfiles repository on Tangled](https://tangled.org/vale.rocks/dotfiles).
 
 ## Primary Laptop
 

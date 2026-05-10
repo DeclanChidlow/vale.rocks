@@ -1,3 +1,8 @@
+- title: The Devil Wears Prada 2
+  release_year: 2026
+  watches:
+    - date: 2026-05-10
+      format: Cinema
 - title: Wake Up Dead Man
   release_year: 2025
   rating: 1.5
@@ -559,6 +564,9 @@
   release_year: 2006
 - title: The Devil Wears Prada
   release_year: 2006
+  watches:
+    - date: 2026-05-09
+      format: Streaming
 - title: Paprika
   release_year: 2006
   notes: The first half felt a tad weak due to the psychological aspects not being properly explored as a result of the constant comedic relief breaking tension. It strengthened greatly in the last quarter. Overall, I feel it could have leaned a little bit more into the incoherency of dreams, rather than just the surrealism.
