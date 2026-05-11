@@ -42,7 +42,7 @@ _body:
 					<summary>Reads</summary>
 					<ul>
 					${ Tree.map(book.reads, (read) => `
-						<li>${ read.start ? `<time datetime="${read.start}">${read.start}</time> - ` : '' } <time datetime="${read.finish}">${read.finish}</time> | ${read.status}</li>
+						<li>${ read.start ? `<time datetime="${read.start}"  data-timezone-ignore>${read.start}</time> - ` : '' } <time datetime="${read.finish}" data-timezone-ignore>${read.finish}</time> | ${read.status}</li>
 					`) }
 					</ul>
 				</details>` 

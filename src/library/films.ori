@@ -42,7 +42,7 @@ _body:
 					<ul>
 					${ Tree.map(film.watches, (watch) => `
 						<li>
-							<span data-pagefind-ignore><time datetime="${watch.date}">${watch.date}</time> | ${watch.format}</span>
+							<span data-pagefind-ignore><time datetime="${watch.date}" data-timezone-ignore>${watch.date}</time> | ${watch.format}</span>
 							${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
 						</li>
 					`) }

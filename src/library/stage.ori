@@ -31,7 +31,7 @@ _body:
 		${ Tree.map(stages, (stage) =>
 		`<li id="${ Origami.slug(`${stage.title}-${stage.release_year}`) }">
 			<h2>${ stage.title }</h2>
-			<p>${ stage.date } - ${ stage.venue }, ${ stage.location }</p>
+			<p><time datetime="${ stage.date}" data-timezone-ignore>${ stage.date }</time> - ${ stage.venue }, ${ stage.location }</p>
 			${ stage.rating ? `<p class="star-rating" data-rating="${ stage.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(stage.rating) }</p>` : '' }
 			${ stage.notes ? `<details><summary data-pagefind-ignore>Notes</summary><p>${ stage.notes }</p></details>` : '' }
 		`)}

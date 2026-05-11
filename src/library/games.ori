@@ -52,7 +52,7 @@ _body:
 					<ul>
 					${ Tree.map(game.playthroughs, (play) => `
 						<li>
-							<span data-pagefind-ignore><time datetime="${play.start}">${play.start}</time> - <time datetime="${play.finish}">${play.finish}</time></span>
+							<span data-pagefind-ignore><time datetime="${play.start}" data-timezone-ignore>${play.start}</time> - <time datetime="${play.finish}" data-timezone-ignore>${play.finish}</time></span>
 							${ play.notes ? `<p>${ play.notes }</p>` : '' }
 						</li>
 					`) }

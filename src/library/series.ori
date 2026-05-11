@@ -49,7 +49,7 @@ _body:
 								`<ul>
 								${ Tree.map(season.watches, (watch) => `
 									<li>
-										<span data-pagefind-ignore><time datetime="${watch.start}">${watch.start}</time> - <time datetime="${watch.finish}">${watch.finish}</time></span>
+										<span data-pagefind-ignore><time datetime="${watch.start}" data-timezone-ignore>${watch.start}</time> - <time datetime="${watch.finish}" data-timezone-ignore>${watch.finish}</time></span>
 										${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
 									</li>
 								`) }
