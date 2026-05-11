@@ -1,7 +1,7 @@
 (grouped_by_tag, tags) => main_template.ori({
 	title: "Tags"
 	description: "An overview of all categorisation tags used across Vale.Rocks."
-	og_description: "Content categorisation tags."
+	og_description: "All site content categorised with tags."
 	stylesheet: "pages/tags.css"
 	canonical: "/tags"
 

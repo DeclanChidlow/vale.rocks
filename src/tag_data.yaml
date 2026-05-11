@@ -34,9 +34,6 @@ politics:
 gaming:
   short_description: Video games.
   description: video games, and rarely other types of games.
-media:
-  short_description: News, broadcasting, and publishing industries.
-  description: journalism, news media, and the publishing industry.
 development:
   short_description: Software engineering and programming.
   description: software development, programming practices, and engineering.

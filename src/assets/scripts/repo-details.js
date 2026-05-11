@@ -1,30 +1,38 @@
 class RepoDetails {
 	constructor(repo) {
-		this.repo = repo;
+		this.repoUrl = repo;
+		this.isGithub = repo.startsWith("github.com/");
+		this.isTangled = repo.startsWith("tangled.org/");
+		this.repoPath = repo.replace("github.com/", "");
 	}
 
 	async fetchStats() {
+		if (this.isGithub) return this.fetchGithubStats();
+		if (this.isTangled) return null;
+		return null;
+	}
+
+	async fetchGithubStats() {
 		try {
-			const response = await fetch(`https://api.github.com/repos/${this.repo}`);
-			if (!response.ok) throw new Error("Failed to fetch repo data");
+			const response = await fetch(`https://api.github.com/repos/${this.repoPath}`);
+			if (!response.ok) throw new Error();
 
 			const data = await response.json();
-			const contributors = await this.fetchContributors();
+			const contributors = await this.fetchGithubContributors();
 
 			return {
 				stars: data.stargazers_count,
 				forks: data.forks_count,
 				contributors,
 			};
-		} catch (error) {
-			console.error(`Error fetching stats for ${this.repo}:`, error);
+		} catch {
 			return null;
 		}
 	}
 
-	async fetchContributors() {
+	async fetchGithubContributors() {
 		try {
-			const response = await fetch(`https://api.github.com/repos/${this.repo}/contributors?per_page=1`);
+			const response = await fetch(`https://api.github.com/repos/${this.repoPath}/contributors?per_page=1`);
 			if (!response.ok) return 0;
 
 			const link = response.headers.get("link");
@@ -38,12 +46,12 @@ class RepoDetails {
 	}
 
 	async render() {
+		if (this.isTangled) return;
+
 		const stats = await this.fetchStats();
 		const container = document.getElementById("repo-details");
 
-		if (!stats || !container) {
-			return;
-		}
+		if (!stats || !container) return;
 
 		const listItems = [];
 
