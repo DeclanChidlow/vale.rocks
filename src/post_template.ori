@@ -32,7 +32,7 @@ _body:
 			</ul>
 
 			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-				${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>`) : '' }
+				${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
 			</ul>
 		</header>
 

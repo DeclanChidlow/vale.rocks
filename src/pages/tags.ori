@@ -1,0 +1,22 @@
+(grouped_by_tag, tags) => main_template.ori({
+	title: "Tags"
+	description: "An overview of all categorisation tags used across Vale.Rocks."
+	og_description: "Content categorisation tags."
+	stylesheet: "pages/tags.css"
+	canonical: "/tags"
+
+_body:
+`<h1 class="section" data-pagefind-ignore>Tags</h1>
+
+<div class="readable">
+	<p>An overview of all ${ Tree.size(grouped_by_tag) } categorisation tags used across Vale.Rocks to categorise content. Material external to this site is not included here.</p>
+
+	<ul>
+		${ Tree.map(grouped_by_tag, (items, tag) => `
+			<li>
+				<a href="/tags/${ Origami.slug(tag) }">#${ tag }</a> (${ Tree.size(items)} items)
+				<br>${ tags(Origami.slug(tag)).short_description }
+			</li>
+		`) }
+	</ul>
+</div>`})

@@ -79,10 +79,10 @@ There is much here to explore and observe, and it is my hope that your curiositi
 - [**Photography**](/photography) - captures of the world
 - [**Videos**](/videos) - pictures in motion
 - [**Elsewhere**](/elsewhere) - my external writings, contributions, and appearances
-- [**Library**](/library) - record of pretty much all the media I've consumed
+- [**Library**](/library) - records of almost every piece of media I've ever consumed
 - [**Links**](/links) - directory of links
 
-You can also access my stream of consciousness via the <a href="/firehose">firehose</a>, and ways to follow and subscribe to my output are indicated on my <a href="/syndication">syndication page</a>.
+You can also access my stream of consciousness via the <a href="/firehose">firehose</a>, <a href="/tags">filter by content topic</a>, and find ways to follow and subscribe to my output on my <a href="/syndication">syndication page</a>.
 
 If you wish to know more about the specifics of this site, you can read [The Design of This Site](/posts/the-design-of-this-site) and [The Implementation of This Site](/posts/the-implementation-of-this-site).
 

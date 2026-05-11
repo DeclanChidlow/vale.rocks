@@ -88,6 +88,15 @@ article {
 				background: light-dark(var(--white), var(--grey));
 				padding-inline: 0.5rem;
 				margin: 0;
+
+				&:hover,
+				&:focus-visible {
+					background: var(--blue);
+				}
+			}
+
+			a {
+				text-decoration: none;
 			}
 		}
 	}

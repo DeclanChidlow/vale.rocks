@@ -34,7 +34,7 @@ _body: `
 			${ micro._body }
 
 			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-				${ micro.tags ? micro.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>`) : '' }
+				${ micro.tags ? micro.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
 			</ul>
 
 			<div id="fetched-social-data"></div>

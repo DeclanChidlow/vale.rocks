@@ -156,6 +156,7 @@
 						<li><a href="/syndication">Syndication</a></li>
 						<li><a href="/support" rel="payment">Support</a></li>
 						<li><a href="/now">Now</a></li>
+						<li><a href="/tags">Tags</a></li>
 						<li><a class="footer-tools" href="https://tools.vale.rocks">Tools</a></li>
 						<li><a href="/sitemap.xml">Sitemap</a></li>
 					</ul>

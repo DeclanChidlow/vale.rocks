@@ -100,6 +100,13 @@
 		value: pages/firehose.ori
 	})
 
+	(grouped_by_tag) = Tree.groupBy(firehose_data.ori, (item) => item.tags)
+	tags.html = pages/tags.ori(grouped_by_tag, tag_data.yaml)
+	tags/ = Tree.map(grouped_by_tag, {
+		key: (items, tag) => `${ Origami.slug(tag) }.html`
+		value: (items, tag) => tag_template.ori(items, tag, Origami.slug(tag), tag_data.yaml(Origami.slug(tag)))
+	})
+
 	pulse/ = Tree.map(pulse_data.ori, pulse_template.ori)
 }
 

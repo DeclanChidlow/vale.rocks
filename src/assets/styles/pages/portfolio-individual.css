@@ -74,6 +74,15 @@
 		margin: 0;
 		text-transform: none;
 		font-weight: normal;
+
+		&:hover,
+		&:focus-visible {
+			background: var(--blue);
+		}
+	}
+
+	a {
+		text-decoration: none;
 	}
 }
 

@@ -1,0 +1,111 @@
+mac:
+  short_description: Series of computers developed by Apple.
+  description: Apple's Macintosh line of computers.
+transhumanism:
+  short_description: Human enhancement through technology.
+  description: the philosophical and social movement for enhancement of the human condition through technology.
+design:
+  short_description: Graphic design.
+  description: the practice of graphic and visual design.
+css:
+  short_description: Cascading Style Sheets.
+  description: Cascading Style Sheets, a language used to style various markup languages, most notably HTML.
+front-end-development:
+  short_description: Building the user-facing part of websites.
+  description: front-end web development, including HTML, CSS, and JavaScript.
+ai:
+  short_description: Artificial Intelligence.
+  description: the development and application of artificial intelligence.
+safari:
+  short_description: Web browser from Apple.
+  description: the web browser developed by Apple and exclusively available on their devices.
+webkit:
+  short_description: Browser engine developed by Apple.
+  description: the browser engine developed by Apple, and used most notably in Safari. Also used in Epiphany.
+llms:
+  short_description: Large Language Models.
+  description: large language models and their impact on technology and society.
+accessibility:
+  short_description: Making technology usable for everyone.
+  description: digital accessibility and the creation of inclusive experiences for all users.
+politics:
+  short_description: Governance, public policy, and political discourse.
+  description: political issues, governance, and public policy.
+gaming:
+  short_description: Video games.
+  description: video games, and rarely other types of games.
+media:
+  short_description: News, broadcasting, and publishing industries.
+  description: journalism, news media, and the publishing industry.
+development:
+  short_description: Software engineering and programming.
+  description: software development, programming practices, and engineering.
+windows:
+  short_description: Operating system from Microsoft.
+  description: Microsoft's Windows operating system.
+ecmascript:
+  short_description: Coding language commonly known as JavaScript.
+  description: the ECMAScript standard and the JavaScript programming language.
+writing:
+  short_description: Creation of written works.
+  description: Thoughts and musings on writing and authoring material.
+uiux:
+  short_description: User interface and user experience.
+  description: user interface (UI) and user experience (UX) design principles.
+poetry:
+  short_description: Literary work in metrical form.
+  description: the art of poetry and verse.
+moderation:
+  short_description: Content and community management.
+  description: the practice of content moderation and community management.
+stoat:
+  short_description: Online communication platform.
+  description: Content relating to Apple's Macintosh computers.
+music:
+  short_description: Art of sound and composition.
+  description: musical works, performance, and theory.
+firefox:
+  short_description: Web browser by Mozilla.
+  description: the web browser developed by Mozilla.
+chrome:
+  short_description: Web browser by Google.
+  description: the web browser developed by Google.
+unicycling:
+  short_description: Single wheel form of transport.
+  description: the single wheeled. Also sometimes known as a 'monocycle'.
+typography:
+  short_description: Arranging and designing of type.
+  description: typesetting, design of type, and creation of fonts.
+html:
+  short_description: Hypertext Markup Language
+  description: the Hypertext Markup Language which is used to define structure of content.
+seogeoaio:
+  short_description: Search Engine Optimisation, Generative Engine Optimisation, and AI Optimisation.
+  description: SEO, GEO, and the optimization of content for search and generative engines.
+indiewebsmallweb:
+  short_description: Independent and personal web movements.
+  description: the IndieWeb, the Small Web, and the movement for a more personal, independent internet.
+aria:
+  short_description: Accessibility technology for the web.
+  description: Accessible Rich Internet Applications and its role in web accessibility.
+vim:
+  short_description: Modal text editor.
+  description: the Vim text editor. Primarily relating to Neovim.
+nootropics:
+  short_description: Substances used to improve cognitive function.
+  description: nootropics, 'smart drugs', and other substances used to improve cognitive function.
+gecko:
+  short_description: Browser engine by Mozilla.
+  description: the browser engine developed by Mozilla, and used most notably in Firefox.
+wordpress:
+  short_description: Content management system.
+  description: the WordPress content management system and blogging platform.
+education:
+  short_description: Learning and expansion of knowledge.
+  description: teaching, learning, and the pursuit of knowledge.
+linux:
+  short_description: Free and open-source operating system.
+  description: the Linux kernel and various open-source distributions.
+blink:
+  short_description: Browser engine by Google.
+  description: the browser engine developed by Google, and used most notably in Chrome, though also used by the majority of other browsers.

@@ -23,7 +23,7 @@ _body:
 			<a href="https://www.youtube.com/watch?v=${ video.youtube_id }">Watch on YouTube</a>
 
 			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-				${ video.tags ? video.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category">#${ tag }</li>`) : '' }
+				${ video.tags ? video.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
 			</ul>
 		</header>
 
