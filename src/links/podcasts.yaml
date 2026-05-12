@@ -1,7 +1,11 @@
 title: Vale's Podcast Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 30 Aug 2025 00:00:00 +0000
+modTime: 12 May 2026 00:00:00 +0000
 items:
+  - title: The Rest is Science
+    url: therestis.com/science
+    rss: feeds.megaphone.fm/GLT6907573392
+    description: Digging into scientific miscellanea.
   - title: Shoptalk
     url: shoptalkshow.com
     rss: shoptalkshow.com/feed/podcast/default-podcast/
@@ -30,7 +34,3 @@ items:
     url: lateralcast.com
     rss: feeds.megaphone.fm/lateralcast
     description: Comedy panel game about weird questions with wonderful answers, hosted by Tom Scott.
-  - title: Wake Up Excited!
-    url: podcast.wakeupexcited.show
-    rss: feeds.transistor.fm/wake-up-excited
-    description: An exuberant podcast about living a creative, fulfilling, and positive life.

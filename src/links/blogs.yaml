@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 01 Apr 2026 00:00:00 +0000
+modTime: 12 May 2026 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -100,6 +100,10 @@ items:
     url: samwho.dev
     rss: samwho.dev/rss.xml
     description: Visual, often interactive, computer science introductions and traditional development posts.
+  - title: Susam Pal
+    url: susam.net
+    atom: susam.net/feed.xml
+    description: Technology, mathematics, and other nerdiness.
   - title: Jan Miksovsky’s Blog
     url: jan.miksovsky.com
     rss: jan.miksovsky.com/rss.xml
