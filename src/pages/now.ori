@@ -10,7 +10,7 @@ _body:
 
 <div class="readable">
 		${ !paginated_nows ? `
-		<p>This is my <a href="https://nownownow.com/about">now page</a>. It outlines what I'm doing <em>now</em>. The non-automatically fetched content was last updated on <em>${ current_now.pub_time }</em>.</p>
+		<p>This is my <a href="https://nownownow.com/about">now page</a>. It outlines what I'm doing <em>now</em>. The non-automatically fetched content was last updated on <em>${ current_now.meta.pub_time }</em>.</p>
 
 		<hr>
 
@@ -18,16 +18,14 @@ _body:
 		<ul>
 			<li>Feeling <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
 			<li id="currently-listening">Listening to </li>
-			${ Tree.map(current_now, (item, key) =>
-				(key === 'pub_time' || key === 'date_raw' || key === 'overall' || String(key).startsWith('diff_')) || !item ? '' : `<li>${ item }</li>`
-			)}
+			${ Tree.map(current_now.activities, (item) => `<li>${ item }</li>`) }
 			<li>With ${ settings.yaml/work_availability ? 'freelance availability! <a href="/contact">Get in contact</a> if you want to make something happen' : 'no freelance availability' }.</li>
 		</ul>
 
 		<hr>
 
 		<p>More generally…</p>
-		<p>${ current_now.overall }</p>
+		<p>${ current_now.meta.overall }</p>
 
 		<hr>
 

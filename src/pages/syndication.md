@@ -13,7 +13,7 @@ This website is home to a lot of stuff, and I also publish elsewhere on the web.
 
 Feeds originating from this site are available in both RSS and JSON Feed formats, but availability may vary with external feeds.
 
-<details>
+<details id="what-and-how">
 <summary>What are syndication feeds and how do I use them?</summary>
 
 Instead of manually visiting sites to check if they've published new content, syndication feeds allow you to subscribe and get updates from sites in a so-called feed reader (also called an RSS reader or aggregator). Your feed reader checks the syndication feeds you've subscribed to for any changes and then shows all the new content for your perusal.

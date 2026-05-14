@@ -64,7 +64,7 @@
 	}
 
 	(paginated_now) = Tree.paginate(now_data.ori, 50)
-	(current_now) = Tree.merge(...Tree.values(Tree.reverse(now_data.ori)))
+	(current_now) = functions/current-now.js(now_data.ori)
 	now.html = pages/now.ori(null, current_now)
 	now/ = {
 		...Tree.mapExtension(paginated_now, "→.html", {
