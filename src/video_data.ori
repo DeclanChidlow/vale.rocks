@@ -9,3 +9,4 @@ videos
 	value: (video) => functions/parse-markdown.js(video)
 })
 → Tree.reverse
+→ Tree.cache

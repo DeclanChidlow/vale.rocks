@@ -7,3 +7,4 @@ pulse
 → (_) => Tree.mapExtension(_, ".md->.html", {
 	value: (pulse) => functions/parse-markdown.js(pulse)
 })
+→ Tree.cache

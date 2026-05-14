@@ -51,3 +51,4 @@
 }
 → (_) => Tree.sort(_, (item) => item.pub_time)
 → Tree.reverse
+→ Tree.cache

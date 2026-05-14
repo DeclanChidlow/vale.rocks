@@ -6,3 +6,4 @@ portfolio
 → (_) => Tree.mapExtension(_, ".md->.html", {
 	value: (portfolio) => functions/parse-markdown.js(portfolio)
 })
+→ Tree.cache
