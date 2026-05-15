@@ -173,6 +173,10 @@
   playthroughs:
     - start: 2020-06-09
       finish: 2020-06-10
+- title: Broforce
+  release_year: 2015
+  platforms: ["PC"]
+  notes: A cracked version did the rounds at my high-school and the game way played a lot in classes.
 - title: Prune
   release_year: 2015
   platforms: ["iOS"]

@@ -2,6 +2,7 @@ main > .readable > ul li a {
 	padding-block: 0.25rem;
 	padding-inline: 0.5rem;
 	font-size: 0.9rem;
+	line-height: 2;
 	text-decoration: none;
 	background: light-dark(var(--white), var(--grey));
 

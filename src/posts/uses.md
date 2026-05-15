@@ -3,7 +3,7 @@ title: Technology I Use
 description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management. Collates most of what I use on my laptop, servers, and phone.
 og_description: The tools, software, and other such things I use.
 pub_time: 2024-08-05
-mod_time: 2026-01-12
+mod_time: 2026-05-15
 section: Meta
 ---
 
@@ -31,7 +31,6 @@ I spend a lot of my time in the terminal and, as such, have a pretty smooth conf
 
 - [Firefox](https://www.firefox.com/en-US/): For general browser usage.
 - [Chromium](https://www.chromium.org/Home/): For testing Blink compatibility.
-- [Epiphany](https://apps.gnome.org/Epiphany/): For testing WebKit compatibility.
 - [Tor](https://www.torproject.org): For the occasional dark web browsing session or increased anonymity. I don't use any extensions with Tor.
 
 I use a [custom search engine router I made](https://search.vale.rocks) to allow for easily switching engines and a few quality-of-life improvements conducive to my workflow. I also usually roll with these extensions:
@@ -66,6 +65,14 @@ I use [Blender](https://www.blender.org) for 3D modelling and animation. My [Cre
 For document creation and editing, I tend to use Neovim paired with [Pandoc](https://pandoc.org) for most document creation, though fall back to [LibreOffice](https://www.libreoffice.org) with [my set of modifications](/posts/the-ultimate-libreoffice-setup) for dealing with Microsoft Office file formats.
 
 My email/contact/calendar/task client is [Thunderbird](https://www.thunderbird.net/en-US/). It isn't perfect but is generally alright. Video and loose audio files are played through [mpv](https://mpv.io), and [imv](https://sr.ht/~exec64/imv/) serves as my image viewer.
+
+## Mac
+
+I own a [2020 13″ MacBook Pro (two Thunderbolt 3 ports model)](/posts/25-dollar-macbook). It isn't my primary computer, and I need it to 'just work', so I largely leave it stock.
+
+More than anything else, it is a device for testing in Safari, which is only available on Apple platforms. To facilitate that and also compare with other browsers, I've got a full set installed: Safari, Safari Technology Preview, Chrome, Chrome Canary, Firefox, and Firefox Nightly. I've also got Xcode so I can run simulators for testing the experience on other Apple devices.
+
+For the purpose of printing and the occasional need to deal with proprietary document file formats, I've got both Microsoft Office and the iWork suite installed.
 
 ## Hosting/Cloud
 
@@ -108,7 +115,7 @@ I generally look for apps that I can customise, that are open-source, and that a
 - [Stoat](https://stoat.chat)
 - [Material Capsule](https://play.google.com/store/apps/details?id=com.pryshedko.mtisland): Provides functionality similar to iOS' Dynamic Island.
 - [Signal](https://signal.org): Excellent chat app for when I need privacy.
-- [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [ReVanced](https://revanced.app) for quality-of-life improvements.
+- [YouTube](https://www.youtube.com) and [YouTube Music](https://music.youtube.com): Both patched with [Morphe](https://morphe.software) for quality-of-life improvements.
 
 ## Multimedia
 

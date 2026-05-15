@@ -3,7 +3,7 @@ title: How I'm Using AI
 description: An overview of my personal usage of Large Language Models (LLMs) and other generative AI. Tracking my experiences with AI tools, specific models (ChatGPT, Claude, Gemini, etc), applying them practically, and realistic perspective on their strengths and limitations over time, from coding attempts to language learning assistance.
 og_description: As long as AI isn't using me...
 pub_time: 2025-05-02
-mod_time: 2026-04-20
+mod_time: 2026-05-15
 section: Essay
 tags: [AI, LLMs]
 ---
@@ -99,6 +99,8 @@ Through 2025 the dedicated chat interface still remained the superior way to int
 Throughout early 2026 I remained on Gemini 3. I started a one-month free trial of ChatGPT Plus in late February but remained unimpressed. Of Anthropic, Google, and OpenAI, OpenAI strikes me as the weakest. ChatGPT's writing style and output are awful, and the code quality is poor.
 
 In April I tried agentic coding, with a model given free-roam of a computer to make file changes and execute shell commands. It managed simple tasks, but models of all sizes seemed to get stuck on large changes, going in loops for as long as I'd leave them, just circling the problem. I found this extremely underwhelming, and diligently reviewing every single change was realistically no different to using an external interface and far less risky from a security perspective.
+
+In May, I gave agentic coding another try, partly because a lot of work expects competency with AI-driven development. I tried Google Antigravity, which seemed to do a decent enough job but did a lot of the same problem-circling (even with Google's current flagship model). Thinking about how often chatbots upchuck completely rubbish suggestions that one must skip past or step in to redirect, I suppose that it is no surprise that one must micromanage an agent to stop it going off-track. I also tried Codex CLI from OpenAI, which is certainly one of the slicker terminal apps I've ever used. It thoroughly educated me on how expensive agents can be when I asked for a simple bug (just some incorrect merging of some values) to be fixed, and it swiftly burnt through $5 AUD. I get the impression that people who are seeing great success with agents are spending a _lot_ of money.
 
 ## Specific Usage
 

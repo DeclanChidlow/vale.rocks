@@ -25,6 +25,9 @@ webkit:
 llms:
   short_description: Large Language Models.
   description: large language models and their impact on technology and society.
+language:
+  short_description: Scripts and forms of communication.
+  description: structured systems of communication, including speech and written scripts.
 accessibility:
   short_description: Making technology usable for everyone.
   description: digital accessibility and the creation of inclusive experiences for all users.
