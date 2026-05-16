@@ -977,6 +977,17 @@
   release_year: 1984
   rating: 4
   notes: The best of all of the Zucker, Abrahams, and Zucker films.
+- title: This is Spinal Tap
+  release_year: 1984
+  watches:
+    - date: 2026-05-16
+      format: Streaming
+- title: The Terminator
+  release_year: 1984
+  notes: Brilliant atmosphere and practical effects. The synthesiser score used for the Terminator is chilling.
+  watches:
+    - date: 2026-05-15
+      format: Streaming
 - title: Indiana Jones and the Temple of Doom
   release_year: 1984
 - title: Ghostbusters

@@ -6,9 +6,9 @@
 	canonical: `/tags/${ slug }`
 
 _body:
-`<h1 class="section">Tags</h1>
+`<h1 class="section" data-pagefind-ignore>Tags</h1>
 
-<div>
+<div data-pagefind-ignore>
 	<p class="readable">All ${ Tree.size(items)} items on Vale.Rocks categorised with the tag '${ tag }'. ${ info.description ? `Content relating to ${ info.description }` : '' }</p>
 
 	<div>
