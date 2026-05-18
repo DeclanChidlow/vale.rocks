@@ -10,8 +10,8 @@ design:
 css:
   short_description: Cascading Style Sheets.
   description: Cascading Style Sheets, a language used to style various markup languages, most notably HTML.
-front-end-development:
-  short_description: Building the user-facing part of websites.
+front-end:
+  short_description: The user-facing interfaces of websites.
   description: front-end web development, including HTML, CSS, and JavaScript.
 ai:
   short_description: Artificial Intelligence.

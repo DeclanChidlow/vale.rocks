@@ -4,7 +4,7 @@ description: A CSS reset for modern web development to provide a consistent and 
 og_description: "* { all: unset; }"
 pub_time: 2026-01-22
 section: Essay
-tags: [front-end development, CSS]
+tags: [front-end, CSS]
 ---
 
 As years have stretched on, browser user-agent styles have grown somewhat estranged from how many developers use the web platform. I am no exception to this rule and find my own needs at odds with the predefined user-agent stylesheets of major browsers:

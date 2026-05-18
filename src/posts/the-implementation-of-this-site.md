@@ -5,7 +5,7 @@ og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
 mod_time: 2026-04-14
 section: Meta
-tags: [design, front-end development]
+tags: [design, front-end]
 ---
 
 > [!NOTE]
