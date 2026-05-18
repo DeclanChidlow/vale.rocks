@@ -1,37 +1,58 @@
 window.addEventListener("DOMContentLoaded", () => {
-	const searchInput = document.querySelector(".pf-input");
-	const clearButton = document.querySelector(".pf-input-clear");
+	const input = document.querySelector(".pf-input");
+	const filterPane = document.querySelector("pagefind-filter-pane");
 
-	if (!searchInput) return;
+	const syncToUrl = () => {
+		const params = new URLSearchParams();
+		const query = input?.value.trim();
 
-	searchInput.focus();
+		if (query) params.set("q", query);
 
-	const updateUrlQuery = (query) => {
-		const newUrl = new URL(window.location);
-		if (query) {
-			newUrl.searchParams.set("q", query);
-		} else {
-			newUrl.searchParams.delete("q");
-		}
+		document.querySelectorAll(".pf-checkbox-input:checked").forEach((cb) => {
+			params.append(cb.name, cb.value);
+		});
+
+		const newUrl = `${window.location.pathname}${params.size ? "?" + params : ""}`;
 		window.history.replaceState({}, "", newUrl);
 	};
 
-	const urlParams = new URLSearchParams(window.location.search);
-	const searchString = urlParams.get("q");
+	const syncToUI = () => {
+		const params = new URLSearchParams(window.location.search);
 
-	if (searchString) {
-		searchInput.value = searchString;
-		searchInput.dispatchEvent(new Event("input", { bubbles: true }));
-	}
+		if (input && params.has("q")) {
+			input.value = params.get("q");
+			input.dispatchEvent(new Event("input", { bubbles: true }));
+		}
 
-	searchInput.addEventListener("input", (e) => {
-		const query = e.target.value.trim();
-		updateUrlQuery(query);
+		document.querySelectorAll(".pf-checkbox-input").forEach((cb) => {
+			if (params.getAll(cb.name).includes(cb.value)) {
+				cb.checked = true;
+				cb.dispatchEvent(new Event("change", { bubbles: true }));
+				cb.closest("details") && (cb.closest("details").open = true);
+			}
+		});
+	};
+
+	input?.addEventListener("input", syncToUrl);
+	input?.focus();
+
+	document.addEventListener("click", (e) => {
+		if (e.target.matches(".pf-input-clear")) syncToUrl();
 	});
 
-	if (clearButton) {
-		clearButton.addEventListener("click", () => {
-			updateUrlQuery("");
+	document.addEventListener("change", (e) => {
+		if (e.target.matches(".pf-checkbox-input")) syncToUrl();
+	});
+
+	if (filterPane) {
+		const observer = new MutationObserver(() => {
+			if (filterPane.querySelector(".pf-checkbox-input")) {
+				syncToUI();
+				observer.disconnect();
+			}
 		});
+		observer.observe(filterPane, { childList: true, subtree: true });
+	} else {
+		syncToUI();
 	}
 });
