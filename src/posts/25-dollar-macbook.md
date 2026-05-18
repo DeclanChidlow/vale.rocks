@@ -21,7 +21,7 @@ Probing the seller as to the origins of the befallen, I got this morsel of knowl
 
 If the ribbon connector has failed, that could be the root of every problem. If it was shorting or otherwise failing to communicate, that would explain the random crashes.
 
-The first port of call was seeing how it worked. I plugged it in, and sure enough it sprung to life. No main display or Touch Bar, but everything else did work. It was running macOS Catalina version 10.15.7. Funnily enough, I ran it for a few hours and didn't encounter any panics. I was prepared to deal with one every half-hour, so the absence was very welcome.
+The first port of call was seeing how it worked. I plugged it in, and sure enough it sprung to life. Neither the primary screen nor the Touch Bar displayed anything, but everything else did work. It was running macOS Catalina version 10.15.7. Funnily enough, I ran it for a few hours and didn't encounter any panics. I was prepared to deal with one every half-hour, so the absence was very welcome.
 
 Apple has dropped support for the two Thunderbolt version of the 2020 MacBook Pro, so the latest officially supported macOS version is Sequoia, which I proceeded to install. The fans whined through the entire install process, and it presented some incredibly pretty colours in the form of graphics corruption. Some of it reminded me of old TV static, though that might have been my ageing monitor's analogue input support. When the Apple loading screen began to arbitrarily cycle through different colours, I found it most mesmerising.
 
@@ -66,7 +66,9 @@ This is, believe it or not, _good_ news. Good in that it can be dealt with. The 
 
 The easiest first approach was to [reset the NVRAM](https://support.apple.com/en-gu/102539) (<kbd>⌥ Option</kbd> + <kbd>⌘ Command</kbd> + <kbd>P</kbd> + <kbd>R</kbd>) and [the System Management Controller (SMC)](https://support.apple.com/en-us/102605) (<kbd>^ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>Shift</kbd> + <kbd>Power</kbd>). This could have helped the components sort themselves out. It didn't help, but it was worth a try.
 
-Inspecting the display panel itself under a bright light, I could see no damage. The Touch Bar also flickers intermittently, indicating it might be alright from a hardware perspective and that its unfunctionality might just be a software issue. My working theory was that it was a firmware issue and that it'd be worth attempting to [revive the Mac firmware](https://support.apple.com/en-us/108900). However, this is my only Mac, and a second is required to facilitate the 'revival' process.
+Inspecting the display panel itself under a bright light, I could see no damage. The Touch Bar also flickers intermittently, indicating it might be alright from a hardware perspective and that its unfunctionality might just be a software issue. Experimenting further, the Touch Bar seemed to successfully and reliably trigger input when touched, despite not displaying anything. My working theory was that it was a firmware issue and that it'd be worth attempting to [revive the Mac firmware](https://support.apple.com/en-us/108900). However, this is my only Mac, and a second is required to facilitate the 'revival' process.
+
+I figured running Apple Diagnostics was worth a shot (<kbd>D</kbd> during start-up), and that gave me the note 'There may be an issue with the display. Reference Code: VFD001'. _Thanks Sherlock_. Alas, such an error almost guarantees it is a hardware issue and killed my hopes of it being a software fix.
 
 Given the effort to fix it, I've chosen to leave it in its current state. In the future, I'll consider repairing it. Before buying the Mac, I pre-emptively purchased a set of the asinine screwdrivers Apple mandates to gain entry into their devices on account of hating consumer repairs. It was a reasonable $15 for a set including all the bits I needed and some extras that'll prove useful.
 

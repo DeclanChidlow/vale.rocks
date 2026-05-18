@@ -15,7 +15,7 @@ CapChord started out offering closed captioning services for web content. This i
 
 Following the winding down of captioning services, CapChord pivoted to mobile call-out support dedicated to helping the elderly and those with limited technical knowledge by providing support with a range of digital tasks.
 
-This face-to-face support was vital in helping me learn how to liaise with clients and how to act in a professional environment. I picked up on issues such as some clients needing not just help but a full explanation of what I was doing and how I was doing it to assist them in understanding their own technology. This led me to tailor my operation to explaining and teaching as well as troubleshooting and fixing in a way that is both efficient and effective.
+This face-to-face support was vital in helping me learn how to liaise with clients and how to act in a professional environment. I picked up on issues such as some clients needing not just help but a full explanation of what I was doing and how I was doing it to assist them in understanding their own technology. This led me to tailor my operation to explaining and teaching as well as troubleshooting and fixing in a way that is both efficient and effective. I gained a wealth of knowledge and [took away many lessons](/posts/tech-support).
 
 ## Freelance
 
