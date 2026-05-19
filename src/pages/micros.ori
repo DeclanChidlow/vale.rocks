@@ -13,24 +13,7 @@ _body:
 	${ paginated_micros.previousPage ? '' : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
 
 	<div>
-		${ Tree.map(paginated_micros.items, (item, key) => `
-			<article>
-				<header>
-					<h2><a href="/micros/${ item.file_name }"><time datetime="${ item.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) }</time>${ item.title ? ` - ${ item.title }` : '' }</a></h2>
-
-					<div class="socials">
-						${ item.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ item.fedi_link }" title="Fediverse">${ (icons.yaml).fediverse }</a>` : '' }
-						${ item.bsky_link ? `<a href="https://bsky.app/profile/${ item.bsky_link }" title="Bluesky">${ (icons.yaml).bluesky }</a>` : '' }
-						${ item.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ item.linkedin_link }" title="LinkedIn">${ (icons.yaml).linkedin }</a>` : '' }
-						${ item.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ item.lesswrong_link }" title="LessWrong">${ (icons.yaml).lesswrong }</a>` : '' }
-					</div>
-				</header>
-
-				<div class="readable">
-					${ item._body }
-				</div>
-			</article>
-		`)}
+		${ Tree.map(paginated_micros.items, (item, key) => content_item.ori(item, `micros/${ key }`) ) }
 
 		<div class="pagination">
 			${ paginated_micros.previousPage ? `<a href="/micros/${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }

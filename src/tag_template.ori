@@ -12,70 +12,7 @@ _body:
 	<p class="readable">All ${ Tree.size(items)} items on Vale.Rocks categorised with the tag '${ tag }'. ${ info.description ? `Content relating to ${ info.description }` : '' }</p>
 
 	<div>
-	${ Tree.map(items, (item, key) =>
-		`${ item.type === 'post' ? `
-			<article class="post">
-				<header>
-					<div>
-						<svg viewBox="0 -960 960 960"><title>Post</title><path d="M144-288v-384h384v384zm72-72h240v-240H216zm-72-384v-72h672v72zm456 144v-72h216v72zm0 156v-72h216v72zm0 156v-72h216v72zM144-144v-72h672v72z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
-					</div>
-				</header>
-
-				<p>
-					<strong>${ item.title }</strong>
-					<br><br>
-					<em>${ item.og_description }</em>
-					<br><br>
-					${ item.description }
-					<br><br>
-					<a href="/${ Origami.basename(key) }">https://vale.rocks/${ Origami.basename(key) }</a>
-				</p>
-			</article>
-		`
-		: item.type === 'video' ? `
-			<article class="video">
-				<header>
-					<div>
-						<svg viewBox="0 -960 960 960"><title>Video</title><path d="M336-216v-528l408 264z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
-					</div>
-				</header>
-				
-				<div class="readable">
-					<p><strong>${ item.title }</strong><br><br>${ item.description }</p>
-
-					<a href="/${ Origami.basename(key) }" aria-hidden="true">
-						<img src="https://i.ytimg.com/vi/${ item.youtube_id }/${ item.format === 'short' ? `oar2.jpg` : `hq720.jpg` }" alt=""/>
-					</a>
-				</div>
-			</article>
-		`
-		: `
-			<article class="micro">
-				<header>
-					<div>
-						<svg viewBox="0 -960 960 960"><title>Micro</title><path d="M239-192q-91-3-141-40T48-333q0-63 50-101t139-44q35-2 55-12t20-27q0-27-27-40t-96-19l6-72q96 6 143 39t46 92q0 48-37 77t-105 34q-61 5-91 23t-31 50q0 33 29 50t93 19zm322-67L403-418l377-377 158 159zm-35 35-199 41 41-200z"/></svg>
-						<h2><a href="/${ Origami.basename(key) }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) } UTC</time></a></h2>
-					</div>
-
-					<div class="socials">
-						${ item.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ item.fedi_link }" title="Fediverse">${ (icons.yaml).fediverse }</a>` : '' }
-						${ item.bsky_link ? `<a href="https://bsky.app/profile/${ item.bsky_link }" title="Bluesky">${ (icons.yaml).bluesky }</a>` : '' }
-						${ item.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ item.linkedin_link }" title="LinkedIn">${ (icons.yaml).linkedin }</a>` : '' }
-						${ item.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ item.lesswrong_link }" title="LessWrong">${ (icons.yaml).lesswrong }</a>` : '' }
-					</div>
-				</header>
-
-				<div class="readable">
-					${ item.title ? `<p><strong>${ item.title }</strong></p>` : '' }
-					${ item._body }
-				</div>
-			</article>
-		`
-		}
-	`)}
-
+	${ Tree.map(items, (item, key) => content_item.ori(item, key)) }
 	</div>
 </div>
 
