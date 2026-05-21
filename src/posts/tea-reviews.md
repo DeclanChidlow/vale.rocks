@@ -164,6 +164,18 @@ _Bag_
 
 Just a pure, nice chamomile tea.
 
+## Bubble
+
+When purchasing, I _always_ select the lowest possible amount of ice. None if possible. I also opt for less sugar, as even the regular amounts are far too much. I fear the Eldritch creatures that select _more_ sweetness.
+
+### Black Sugar Pearl Fresh Milk - Gotcha (■■■▪□)
+
+Nice large pearls and a pretty run-of-the-mill sweet tea.
+
+### Taro Milk Tea - Chaffic (■▪□□□)
+
+Even opting for less sugar when ordering, it was sweeter than I could handle. I've drunk straight syrup and found it less sweet. It was borderline nauseating. What I could taste of the taro was pleasant, and the pastel purple colour was pretty.
+
 ## Masala Chai
 
 ### Chai Latte - Avalanche (■■■□□)
