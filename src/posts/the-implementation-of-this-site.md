@@ -109,7 +109,7 @@ I use Pagefind's Component UI, which uses Web Components with high-specificity C
 
 The search on this site also allows for searching content created by me but published on other websites. I do this with a small, private micro-site also built using Web Origami. It contains metadata-labelled mirrors of my content located elsewhere, and fetches data from external locations, to build a Pagefind index. Then, exclusively this Pagefind index is served publicly and [merged with this site's index](https://pagefind.app/docs/multisite/). This is one of few features which was added to this site following user demand, as I got occasional messages asking me if I was the one that had written on a certain topic.
 
-As Pagefind is served as client-side JavaScript, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I also implemented support for providing search strings as a URL query parameter (`?q=`) and added an [OpenSearch description](/opensearch.xml) so that the site can be added as a search provider in browsers.
+As Pagefind is served as client-side JavaScript, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I also implemented support for providing search strings as a URL query parameter (`?q=`), filters as URL query parameters (`?Content+Type=`, `?tags=`), and added an [OpenSearch description](/opensearch.xml) so that the site can be added as a search provider in browsers.
 
 ### 404 Handling
 
@@ -158,7 +158,6 @@ To address this, I added functionality which allows me to mark long-form posts a
 Vale.Rocks is configured as a [PWA](https://en.wikipedia.org/wiki/Progressive_web_app) so that users can install it as a standalone app. I very much doubt many people will install this site as a PWA, but the option is there for those that want it. It has [shortcuts](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts) configured to the major site sections that someone might want to visit on demand.
 
 In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
-
 
 ### Currently Listening Display
 

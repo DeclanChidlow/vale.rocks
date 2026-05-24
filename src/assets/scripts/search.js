@@ -16,16 +16,21 @@ window.addEventListener("DOMContentLoaded", () => {
 		window.history.replaceState({}, "", newUrl);
 	};
 
-	const syncToUI = () => {
-		const params = new URLSearchParams(window.location.search);
+	const params = new URLSearchParams(window.location.search);
+	if (input && params.has("q")) {
+		input.value = params.get("q");
+	}
+	input?.focus();
 
-		if (input && params.has("q")) {
-			input.value = params.get("q");
+	const syncToUI = () => {
+		const deferredParams = new URLSearchParams(window.location.search);
+
+		if (input && deferredParams.has("q")) {
 			input.dispatchEvent(new Event("input", { bubbles: true }));
 		}
 
 		document.querySelectorAll(".pf-checkbox-input").forEach((cb) => {
-			if (params.getAll(cb.name).includes(cb.value)) {
+			if (deferredParams.getAll(cb.name).includes(cb.value)) {
 				cb.checked = true;
 				cb.dispatchEvent(new Event("change", { bubbles: true }));
 				cb.closest("details") && (cb.closest("details").open = true);
@@ -34,7 +39,6 @@ window.addEventListener("DOMContentLoaded", () => {
 	};
 
 	input?.addEventListener("input", syncToUrl);
-	input?.focus();
 
 	document.addEventListener("click", (e) => {
 		if (e.target.matches(".pf-input-clear")) syncToUrl();
