@@ -44,6 +44,12 @@ _Bag_
 
 The smoothest of any English Breakfast I've tried. Very pleasant.
 
+### English Breakfast - T2 (■■▪□□)
+
+_Bag_
+
+Par for the course and unremarkable. Fairly weak steeping.
+
 ### Australian Breakfast - Bushells (■■▪□□)
 
 _Bag_

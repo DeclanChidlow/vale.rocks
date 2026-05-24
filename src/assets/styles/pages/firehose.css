@@ -159,3 +159,8 @@ article {
 		grid-template-columns: none;
 	}
 }
+
+.sparkline {
+	margin-block-start: 2rem;
+	inline-size: 65ch;
+}
