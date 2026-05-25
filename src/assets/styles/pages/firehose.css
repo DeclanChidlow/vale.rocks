@@ -161,6 +161,12 @@ article {
 }
 
 .sparkline {
-	margin-block-start: 2rem;
-	inline-size: 65ch;
+	max-inline-size: 65ch;
+
+	div {
+		display: flex;
+		justify-content: space-between;
+		font-size: 0.9rem;
+		color: light-dark(var(--grey), var(--white));
+	}
 }

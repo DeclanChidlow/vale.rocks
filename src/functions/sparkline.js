@@ -13,23 +13,31 @@ export default async (items) => {
 
 	if (dates.length < 2) return "";
 
-	const minTime = dates[0].getTime();
-	const maxTime = Math.max(dates[dates.length - 1].getTime(), Date.now());
+	const startYear = dates[0].getFullYear();
 
-	if (minTime === maxTime) return "";
+	const currentDate = new Date();
+	const currentYear = currentDate.getFullYear();
+	const currentMonth = currentDate.getMonth();
 
 	const width = 400;
 	const graphHeight = 30;
 	const totalHeight = 45;
-	const binsCount = 70;
+
+	const binsCount = (currentYear - startYear) * 12 + currentMonth + 1;
+
+	if (binsCount < 2) return "";
 
 	const bins = new Array(binsCount).fill(0);
-	const timeRange = maxTime - minTime;
 
 	for (const date of dates) {
-		let binIndex = Math.floor(((date.getTime() - minTime) / timeRange) * binsCount);
-		if (binIndex >= binsCount) binIndex = binsCount - 1;
-		bins[binIndex]++;
+		const year = date.getFullYear();
+		const month = date.getMonth();
+
+		const binIndex = (year - startYear) * 12 + month;
+
+		if (binIndex >= 0 && binIndex < binsCount) {
+			bins[binIndex]++;
+		}
 	}
 
 	const maxBin = Math.max(...bins);
@@ -43,17 +51,15 @@ export default async (items) => {
 
 	const linePath = "M " + points.map((p) => `${p.x},${p.y}`).join(" L ");
 
-	const startYear = dates[0].getFullYear();
-	const endYear = new Date(maxTime).getFullYear();
-
 	return `
-		<svg viewBox="0 -4 ${width} ${totalHeight + 6}" class="sparkline" role="img" aria-label="Sparkline showing activity from ${startYear} to ${endYear}">
-			<path d="${linePath}" stroke="currentColor" fill="none" />
-			
-			<g font-size="10" color="light-dark(var(--grey), var(--white))">
-				<text x="0" y="${totalHeight}">${startYear}</text>
-				<text x="${width}" y="${totalHeight}" text-anchor="end">${endYear}</text>
-			</g>
-		</svg>	
+		<div class="sparkline">
+			<svg viewBox="0 -4 ${width} ${totalHeight}" role="img" aria-label="Sparkline showing activity from ${startYear} to Present">
+				<path d="${linePath}" stroke="currentColor" fill="none" />
+			</svg>	
+			<div aria-hidden="true">
+				<span>${startYear}</span>
+				<span>Present</span>
+			</div>
+		</div>
 	`;
 };
