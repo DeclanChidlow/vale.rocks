@@ -1,7 +1,7 @@
 ---
 title: The Internet Is Going To Change Everything
 description: A naïve dreaming of a web of the future from the past of another present. Ideation of an internet that could have been. One which brings power to the people, thwarts exploitative capitalism, and elevates each and every person to extract their best.
-og_description: The web will be world wide.
+og_description: There will be a web worldwide.
 pub_time: 2026-05-25
 section: Fiction
 ---
