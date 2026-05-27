@@ -4,6 +4,7 @@ description: A naïve dreaming of a web of the future from the past of another p
 og_description: There will be a web worldwide.
 pub_time: 2026-05-25
 section: Fiction
+tags: [IndieWeb/SmallWeb]
 ---
 
 The internet is on the horizon. It is happening. This internet is a technology that is going to change the world, alongside the [World Wide Web](https://info.cern.ch/hypertext/WWW/TheProject.html). It is going to be huge. Knowledge beyond measure. The world will be not as we know. A superpowered information superhighway is being established. Soon we will all be surfing the 'net and finding our footing in a grand new interconnected world. We will look back years from now at a time before the internet and wonder how we survived. How, as a species, we operated lacking such an instant, world-spanning source of information and communication.

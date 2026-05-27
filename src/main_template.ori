@@ -146,12 +146,12 @@
 						<li><a href="/posts">Posts</a></li>
 						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/micros">Micros</a></li>
-						<li><a href="/videos">Videos</a></li>
 						<li><a href="/photography">Photography</a></li>
+						<li><a href="/videos">Videos</a></li>
 						<li><a href="/elsewhere">Elsewhere</a></li>
 						<li><a href="/firehose">Firehose</a></li>
-						<li><a href="/links">Links</a></li>
 						<li><a href="/library">Library</a></li>
+						<li><a href="/links">Links</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/syndication">Syndication</a></li>
 						<li><a href="/support" rel="payment">Support</a></li>
@@ -168,9 +168,8 @@
 			<p>© <a class="h-card" href="http://vale.rocks" rel="me">Declan Chidlow</a>. All rights reserved.</p>
 			<ul>
 				<li><a href="https://fedi.vale.rocks/vale" rel="me">${ (icons.yaml).fediverse }</a></li>
-				<li><a href="https://bsky.app/profile/vale.rocks" rel="me">${ (icons.yaml).bluesky }</a></li>
-				<li><a href="https://github.com/DeclanChidlow" rel="me">${ (icons.yaml).github }</a></li>
-				<li><a href="https://unsplash.com/@outervale" rel="me">${ (icons.yaml).unsplash }</a></li>
+				<li><a href="https://bsky.app/profile/did:plc:7qg6mz2xtzozxkgbcvf4pdnu" rel="me">${ (icons.yaml).bluesky }</a></li>
+				<li><a href="https://tangled.org/did:plc:7qg6mz2xtzozxkgbcvf4pdnu rel="me">${ (icons.yaml).tangled }</a></li>
 				<li><a href="https://codepen.io/OuterVale" rel="me">${ (icons.yaml).codepen }</a></li>
 				<li><a href="https://www.youtube.com/@outervale" rel="me">${ (icons.yaml).youtube }</a></li>
 			</ul>
