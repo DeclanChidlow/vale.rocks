@@ -19,7 +19,7 @@ _body:
 			<li>Feeling <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
 			<li id="currently-listening">Listening to </li>
 			${ Tree.map(current_now.activities, (item) => `<li>${ item }</li>`) }
-			<li>With ${ settings.yaml/work_availability ? 'freelance availability! <a href="/contact">Get in contact</a> if you want to make something happen' : 'no freelance availability' }.</li>
+			<li>With ${ variables.yaml/work_availability ? 'freelance availability! <a href="/contact">Get in contact</a> if you want to make something happen' : 'no freelance availability' }.</li>
 		</ul>
 
 		<hr>

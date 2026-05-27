@@ -7,7 +7,7 @@
 		"audit": "ori audit src/site.ori"
 	},
 	"dependencies": {
-		"@weborigami/origami": "^0.6.16",
+		"@weborigami/origami": "^0.6.17",
 		"@weborigami/pagefind": "0.0.17",
 		"highlight.js": "^11.11.1",
 		"marked": "^17.0.6",

@@ -4,7 +4,8 @@
 	stylesheet: "pages/portfolio.css"
 	canonical: "/portfolio"
 	template_image: "portfolio"
-	tools: [ "Excel", "Git", "Word", "npm", "Bootstrap", "PWA", "PHPStorm", "PHP", "Vite", "Lightroom", "GitHub", "BASH", "Less", "Vercel", "VS Code", "Postman", "Zed", "Ollama", "Photoshop", "Build Awesome", "Stripe", "Canva", "SVG", "Cloudflare", "XML", "cPanel", "OpenAI API", "DNS", "JavaScript", "TypeScript", "HTML", "GitLab", "Audacity", "Lighthouse", "Figma", "SCSS", "Windows", "Hetzner Cloud", "HTML Canvas", "SQL", "Yarn", "Docker", "AWS", "Node.js", "Caddy", "Polypane", "Blender", "Prettier", "Gemini", "Linux", "WordPress", "Core Web Vitals", "Ghost", "Illustrator", "REST API", "React", "Jekyll", "Bun", "Claude", "Deno", "Astro", "WebStorm", "Bruno", "Digital Ocean","InDesign", "Penpot", "Tailwind CSS", "PowerPoint", "CSS", "DataGrip", "XSLT" ]
+	tools: [ "Excel", "Git", "Word", "npm", "Bootstrap", "PWA", "PHPStorm", "PHP", "Vite", "Lightroom", "GitHub", "BASH", "Less", "Vercel", "VS Code", "Postman", "Zed", "Ollama", "Photoshop", "Build Awesome", "Stripe", "Canva", "SVG", "Cloudflare", "XML", "cPanel", "OpenAI API", "DNS", "JavaScript", "TypeScript", "HTML", "GitLab", "Audacity", "Lighthouse", "Figma", "SCSS", "Windows", "Hetzner Cloud", "SQL", "Yarn", "Docker", "AWS", "Node.js", "Caddy", "Polypane", "Blender", "Prettier", "Gemini", "Linux", "WordPress", "Core Web Vitals", "Ghost", "Illustrator", "REST API", "React", "Jekyll", "Bun", "Claude", "Deno", "Astro", "WebStorm", "Bruno", "Digital Ocean","InDesign", "Penpot", "Tailwind CSS", "PowerPoint", "CSS", "DataGrip", "XSLT" ]
+	randoms: Origami.randomsFrom(Origami.shell('git rev-parse --short HEAD'))
 
 _body:
 `<h1 class="section" data-pagefind-filter="Content Type:Page">Portfolio</h1>
@@ -32,16 +33,16 @@ _body:
 	<section id="tools-and-technologies">
 
 		<div class="marquee" aria-hidden="true">
-			<ul>${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`)) }</ul>
-			<ul>${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`)) }</ul>
+			<ul>${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`), { randoms }) }</ul>
+			<ul>${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`), { randoms }) }</ul>
 		</div>
 
 		<h2>Experienced With All These Tools And Technologies</h2>
 		<p><em>(and many more)</em></p>
 
 		<div class="marquee">
-			<ul class="reverse">${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`)) }</ul>
-			<ul class="reverse" aria-hidden="true">${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`)) }</ul>
+			<ul class="reverse">${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`), { randoms }) }</ul>
+			<ul class="reverse" aria-hidden="true">${ Tree.shuffle(tools.map(tool => `<li>${ tool }</li>`), { randoms }) }</ul>
 		</div>
 	</section>
 
@@ -76,7 +77,7 @@ _body:
 				</g>
 				<path d="M186.3 15.6a10.9 10.9 0 0 1 20.6-5l-4 1.2a6.8 6.8 0 1 0-.5 8.2l-2.4.4-2.8-3 6.2-1 6.2-1-2 12.5-3-3 .3-1.7a10.9 10.9 0 0 1-18.6-7.6zM60.5 18.8a7 7 0 0 0 .7 3.4 7 7 0 0 0 2 2.4 9 9 0 0 0 2.9 1.3 13 13 0 0 0 3.4.5 13 13 0 0 0 3.8-.5 8 8 0 0 0 2.8-1.4 6 6 0 0 0 1.7-2.2 7 7 0 0 0 .6-2.7 5 5 0 0 0-.8-2.9 6 6 0 0 0-1.8-1.8l-2.1-1-1.7-.5-3.2-.8-2-.7-.9-.7-.2-1 .3-1 .7-.8 1-.5h2.8l1.3.6.9 1 .4 1.4h4.5a6 6 0 0 0-.7-3 6 6 0 0 0-1.8-2.2 8 8 0 0 0-2.8-1.2 13 13 0 0 0-3.2-.4l-2.8.4a8 8 0 0 0-2.6 1.2 7 7 0 0 0-1.8 2 6 6 0 0 0-.7 2.8 5 5 0 0 0 .5 2.5 5 5 0 0 0 1.5 1.7l2 1.1 2.3.8 2.3.5 2 .7 1.4.9a2 2 0 0 1 .6 1.4 2 2 0 0 1-.4 1.3l-1 .8-1.4.4-1.3.1-1.8-.1-1.6-.7-1-1.2a4 4 0 0 1-.3-1.9zm51.8-9 2.7 7.8h-5.5zM102 25.6v-21h-6.6l-4.7 14.7-5-14.7H79V26h4.4v-15l5.3 15h3.6l5.3-15.1v15h9l1.6-4.6h8l1.6 4.7h4.8l-8-21.3H110zm19.2-6.8a7 7 0 0 0 .7 3.4 7 7 0 0 0 2 2.4 9 9 0 0 0 3 1.3 13 13 0 0 0 3.4.5 13 13 0 0 0 3.8-.5 8 8 0 0 0 2.8-1.4 6 6 0 0 0 1.7-2.2 7 7 0 0 0 .5-2.7 5 5 0 0 0-.7-2.9 6 6 0 0 0-1.8-1.8l-2.1-1-1.7-.5-3.2-.8-2-.7-.9-.7-.2-1 .3-1.1.7-.8 1-.4 1.1-.1 1.6.1 1.3.6a3 3 0 0 1 1 1l.4 1.4h4.5a6 6 0 0 0-.7-3 6 6 0 0 0-1.9-2.2 8 8 0 0 0-2.7-1.2 13 13 0 0 0-3.2-.4l-2.9.4a8 8 0 0 0-2.6 1.2 6 6 0 0 0-1.8 2 6 6 0 0 0-.7 2.8 5 5 0 0 0 .6 2.5 5 5 0 0 0 1.4 1.7l2 1.2 2.3.7 2.3.6 2 .6 1.5 1a2 2 0 0 1 .5 1.3 2 2 0 0 1-.4 1.3l-1 .8-1.3.5h-1.4l-1.8-.2-1.5-.6-1-1.3a4 4 0 0 1-.4-1.8zm18.7 7h4.7v-9h8.6v9h4.7V4.7h-4.7v8.2h-8.6V4.6h-4.7zm20 0h4.7V4.6H160zm6.9 0h4.4V11.6l8.9 14.2h4.6V4.6h-4.4V19l-8.9-14.3h-4.6zM63.4 33H65l4.2 10.9 4.2-11h1.8v12.5H74V34.6l-4.2 10.8h-1.1l-4.2-10.8v10.8h-1.2zM84.7 33H86L91 45.3h-1.3L88 41.5h-5.6l-1.5 4h-1.2zM83 40.4h4.8l-2.4-6.4zM105.9 45.4h-.9l-.1-2.3a4 4 0 0 1-4.3 2.6c-3.8 0-5.8-3.1-5.8-6.5s2-6.5 5.8-6.5a5 5 0 0 1 5.1 4.1h-1.1a4 4 0 0 0-4-3.1c-3.2 0-4.6 2.7-4.6 5.5s1.4 5.5 4.6 5.5c2.7 0 4.3-2 4.3-4.6h-4.2v-1h5.2zM115.1 33h1.3l4.8 12.4H120l-1.5-3.9h-5.6l-1.5 4H110zm-1.8 7.5h4.8l-2.4-6.4zM125.2 33h8.8v1l-8 10.4h8.2v1h-9.6v-1l8.1-10.5h-7.5zM139.1 33h1.2v12.4h-1.2zM146.3 33h1.3l7.1 10.5V32.9h1.2v12.5h-1.3L147.5 35v10.5h-1.2zM161.9 33h8.4v1H163v4.5h6.9v1H163v4.9h7.4v1H162z"/>
 			</svg>
-		</a></li>
+		<!-- </a></li> -->
 		<!-- <li><a href="https://frontendmasters.com/blog/author/declanchidlow/"> -->
 		<!-- 	<svg viewBox="0 0 905.26 145.75"> -->
 		<!-- 		<path fill="light-dark(#000, #d9d9d9)" d="M42.44 49.74h-37V82.4h27.8V87H5.41v40.94H0v-82.8h42.44zm10 78.2H47V85.85l-2.15-19.43H50l2.07 17.25c4-8.4 10.35-17.83 20.82-17.83C83 65.84 85.68 76 85.68 84.24h-5.41c-.11-5.63-.46-13.8-7.82-13.8-6.21 0-20 9.66-20 32.78zm39.9-30.47c0-23.69 12.19-31.63 23.23-31.63 10.12 0 23.35 6.79 23.35 31.63s-13.11 31.74-23.35 31.74-23.23-6.9-23.23-31.74m41.17 0c0-11.85-3-27-17.94-27s-17.83 15.18-17.83 27 3 27.14 17.83 27.14 17.94-15.3 17.94-27.14m20.36 30.47h-5.41V97.47c0-10.35-.34-20.7-2.42-31.05h5.06l2.19 17.48h.23c2.3-9.09 12-18.06 21.62-18.06 11 0 14.15 9.54 14.15 18.75v43.36h-5.41V87.12c0-7 0-16.68-9.43-16.68-8.74 0-20.59 8.74-20.59 32.43zm84.87-56.23h-22.31v41.52c0 5.87 2.19 11.39 9.66 11.39 6.79 0 11.5-5.06 14.15-10.81l5.17 1.26c-3.79 7.82-10.47 14.15-19.55 14.15C218 129.21 211 125.41 211 110V71.71h-13.66v-4.6H211V47.56h5.41v19.55h22.31zM297 123.69c-7 3.1-13.92 5.52-21.74 5.52-17.83 0-24.38-16-24.38-31.4s6.79-32 24.73-32c10.24 0 22.31 7.36 22.31 32.55h-41.59c1 21.39 9.89 26.22 19.21 26.22 6.9 0 13.46-2.53 19.21-6zm-4.49-29.9c.58-10.47-5.63-23.35-17.6-23.35s-19 12.65-18.63 23.35zm20.05 34.15h-5.41V97.47c0-10.35-.35-20.7-2.42-31.05h5.06L312 83.9h.23c2.3-9.09 12-18.06 21.62-18.06 11 0 14.15 9.54 14.15 18.75v43.36h-5.41V87.12c0-7 0-16.68-9.43-16.68-8.74 0-20.59 8.74-20.59 32.43zm89.01-21.39c0 7.47.58 14.83 2.76 22l-5.06.69-2.18-10a17.7 17.7 0 0 1-16.22 10c-10.24 0-23.58-8.39-23.58-32.09 0-24.38 15.53-31.28 23.92-31.28a24 24 0 0 1 15 5.17V42.61h5.41zm-5.41-30.13c-3.79-3.33-8.51-6-13.57-6-6.9 0-19.9 4.72-19.9 27 0 21 11.38 27.14 18.29 27.14 7.71 0 12.65-5.64 15.18-12.19z"/> -->
@@ -267,7 +268,7 @@ _body:
 
 
 	<section class="contact" data-pagefind-ignore>
-	${ settings.yaml/work_availability ? `
+	${ variables.yaml/work_availability ? `
 			<h2>Let’s Get The Ball Rolling!</h2>
 			<p>I’m available for new opportunities in the realms of front-end development and technical content writing and would love to hear what you’ve got in mind.</p>
 	` : `
