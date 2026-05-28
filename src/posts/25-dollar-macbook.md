@@ -72,6 +72,23 @@ I figured running Apple Diagnostics was worth a shot (<kbd>D</kbd> during start-
 
 Given the effort to fix it, I've chosen to leave it in its current state. In the future, I'll consider repairing it. Before buying the Mac, I pre-emptively purchased a set of the asinine screwdrivers Apple mandates to gain entry into their devices on account of hating consumer repairs. It was a reasonable $15 for a set including all the bits I needed and some extras that'll prove useful.
 
+## Using the Touch Bar
+
+Given that the MacBook's Touch Bar is functional with the exception of failing to display anything, I refused to write it off entirely. That's valuable keyboard real estate, and I happen to be one of the half-dozen people on this planet who actually rather likes the Touch Bar. To make it at all usable, I need to see what is on it.
+
+Here are the methods I'm aware of and have used to display the Touch Bar's display upon the screen, ordered from most to least preferential:
+
+1. **Zoom**\
+   Enabled in _System Settings > Accessibility > Zoom > 'Touch Bar zoom'_, it provides a zoomed-in view of the Touch Bar that spans the bottom of the display whenever the Touch Bar is touched. When not being touched, it fades completely from view. It also shows a cursor (or cursors) to indicate where it is being touched. You cannot interact with the Zoom display with your cursor.
+2. **Xcode**\
+   Accessed by opening Xcode, then _Window > Touch Bar_. This lets you simulate either the 1<sup>st</sup>-generation Touch Bar with <kbd>Esc</kbd> or the 2<sup>nd</sup>-generation Touch Bar without it. This works pretty nicely if you've always got Xcode open, or you're happy with the overhead of leaving it open in the background. You can fully interact with the cursor.
+3. **Switch Control**\
+   Enabled in _System Settings > Accessibility > Switch Control_. Toggle on Switch Control, then select 'System' and 'Toggle Touch Bar'. The Touch Bar then appears at the bottom of the screen, and you can interact with it via the cursor. You can drag the Switch Control panel to the very edge of your screen to hide it, and you can also fiddle with the settings to lower the panel's opacity like it isn't even there. This approach is my least favourite, as one must deal with the Switch Control panel, and the panel displaying the Touch Bar is immovable and always anchored to the bottom of the display.
+
+Unfortunately, and rather annoyingly, a lot of older solutions for simulating or displaying the Touch Bar are non-functional in newer macOS versions (roughly Catalina onwards) due to private hooks being deleted.
+
+On my Touch Bar, I've set up the AirPlay button to the rightmost location, next to the Touch ID/power button, so I know that I can always press that location and then press the relevant display on the left-hand side, just slightly in from the edge where the cancel button is. It isn't optimal, but it is low risk and allows me to connect the Mac to a wireless display blind with a bit of luck and without too much faffing with custom software.
+
 ## Purpose
 
 I needed this Mac mainly as a Safari testing machine. It isn't an Apple Silicon model, so its days are already numbered, but it'll be useful for compiling some software for macOS for a brief little while. It will also run some simulators, let me test VoiceOver, allow me to open, edit, and inspect documents from the iWork suite, and facilitate the creation of Liquid Glass icons in [Icon Composer](https://developer.apple.com/icon-composer/).
