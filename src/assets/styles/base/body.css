@@ -93,6 +93,10 @@ main {
 	display: none;
 }
 
+.adaptive-icon {
+	fill: light-dark(var(--black), #fff);
+}
+
 @view-transition {
 	navigation: auto;
 }

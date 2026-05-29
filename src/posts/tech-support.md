@@ -45,11 +45,11 @@ It can be tempting to exclusively rely on remote device control, but in-person i
 
 ## Tools
 
-If you're doing tech support, there are some tools you should possess. A [Flipper Zero](/posts/i-got-a-flipper-zero) or another BadUSB device can also be very useful for running commands or actions. A set of precision screwdrivers can come in handy, both for dismantling parts of devices if necessary and for more menial tasks like digging crap out of a device's orifice or general MacGyver behaviour. A pen and notepad (especially one with perforations so you can break off pages) are very useful for leaving details.
+If you're doing tech support, there are some tools you should possess. A [Flipper Zero](/posts/i-got-a-flipper-zero) or another BadUSB device can also be very useful for running commands or actions. A set of precision screwdrivers can come in handy, both for dismantling parts of devices if necessary and for more menial tasks like digging crap out of a device's orifice or general MacGyver behaviour. You'll want a variety of cables, as you should never assume anyone charges their devices, much less that they know where their device charging cables are. A pen and notepad (especially one with perforations so you can break off pages) are very useful for leaving details.
 
 You'll also want some USBs. You'll want some blank ones for backing up or copying data (keep these in a state such that you can sell them to a client) and some with utilities such as memory checkers and Linux live USBs. Live USBs are great for checking if a device problem is a hardware fault when Windows is acting up. If you're so inclined, install media for the latest version of Windows is also a pretty good idea.
 
-Using a laptop for searching seems much more professional than your phone. Of course, most laptops don't have their own cellular plans, and you shouldn't expect a connection at a client's home. Bring something capable of being a mobile hotspot. Sometimes you'll find yourself on your back under a desk fishing for a port or loose cable, so a flashlight is a must-have (the one in your phone should do the job).
+Using a laptop for searching seems much more professional than your phone. Of course, most laptops don't have their own cellular plans, and you shouldn't expect a connection at a client's home. Bring something capable of providing a mobile hotspot. Sometimes you'll find yourself on your back under a desk fishing for a port or loose cable, so a flashlight is a must-have (the one in your phone should do the job).
 
 ## Never Assume
 

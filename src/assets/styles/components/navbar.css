@@ -348,3 +348,11 @@
 		inset-block-start: var(--toc-height);
 	}
 }
+
+@media print {
+	#navbar,
+	#scroll-container,
+	.sidebar {
+		display: none;
+	}
+}

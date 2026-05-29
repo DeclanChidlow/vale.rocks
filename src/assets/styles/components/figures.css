@@ -221,4 +221,8 @@ td,
 th {
 	padding-block: 0.2rem;
 	padding-inline: 0.5rem;
+
+	@media print {
+		border: 1px solid var(--bright_grey);
+	}
 }

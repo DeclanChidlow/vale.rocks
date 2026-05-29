@@ -104,4 +104,8 @@
 		text-decoration: none;
 		font-weight: bold;
 	}
+
+	@media print {
+		display: none;
+	}
 }

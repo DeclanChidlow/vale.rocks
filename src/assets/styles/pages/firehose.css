@@ -41,6 +41,10 @@ article {
 			align-items: center;
 		}
 	}
+
+	@media print {
+		border: 1px solid var(--grey);
+	}
 }
 
 .post {

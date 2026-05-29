@@ -21,6 +21,10 @@ kbd {
 			block-size: 1rem;
 			inline-size: 1rem;
 		}
+
+		@media print {
+			display: none;
+		}
 	}
 
 	.copied {
@@ -56,65 +60,67 @@ pre {
 	}
 }
 
-.hljs-comment {
-	color: var(--white);
-	font-style: italic;
-}
+@media not print {
+	.hljs-comment {
+		color: var(--white);
+		font-style: italic;
+	}
 
-.hljs-selector-tag,
-.hljs-built_in,
-.hljs-meta,
-.hljs-property,
-.hljs-name,
-.hljs-type {
-	color: var(--bright_blue);
-}
+	.hljs-selector-tag,
+	.hljs-built_in,
+	.hljs-meta,
+	.hljs-property,
+	.hljs-name,
+	.hljs-type {
+		color: var(--bright_blue);
+	}
 
-.hljs-tag,
-.hljs-selector-class {
-	color: var(--blue);
-}
+	.hljs-tag,
+	.hljs-selector-class {
+		color: var(--blue);
+	}
 
-.hljs-title,
-.hljs-title.function_,
-.hljs-selector-pseudo {
-	color: var(--cyan);
-}
+	.hljs-title,
+	.hljs-title.function_,
+	.hljs-selector-pseudo {
+		color: var(--cyan);
+	}
 
-.hljs-string,
-.hljs-regexp {
-	color: var(--bright_green);
-}
+	.hljs-string,
+	.hljs-regexp {
+		color: var(--bright_green);
+	}
 
-.hljs-number,
-.hljs-literal {
-	color: var(--bright_magenta);
-}
+	.hljs-number,
+	.hljs-literal {
+		color: var(--bright_magenta);
+	}
 
-.hljs-title.class_,
-.hljs-attr,
-.hljs-attribute {
-	color: var(--yellow);
-}
+	.hljs-title.class_,
+	.hljs-attr,
+	.hljs-attribute {
+		color: var(--yellow);
+	}
 
-.hljs-symbol,
-.hljs-bullet {
-	color: var(--magenta);
-}
+	.hljs-symbol,
+	.hljs-bullet {
+		color: var(--magenta);
+	}
 
-.hljs-keyword,
-.hljs-meta-keyword {
-	color: var(--red);
-}
+	.hljs-keyword,
+	.hljs-meta-keyword {
+		color: var(--red);
+	}
 
-.hljs-template-variable {
-	color: var(--bright_green);
-}
+	.hljs-template-variable {
+		color: var(--bright_green);
+	}
 
-.hljs-addition {
-	background: oklch(from var(--green) l c h / calc(alpha - 0.7));
-}
+	.hljs-addition {
+		background: oklch(from var(--green) l c h / calc(alpha - 0.7));
+	}
 
-.hljs-deletion {
-	background: oklch(from var(--red) l c h / calc(alpha - 0.7));
+	.hljs-deletion {
+		background: oklch(from var(--red) l c h / calc(alpha - 0.7));
+	}
 }

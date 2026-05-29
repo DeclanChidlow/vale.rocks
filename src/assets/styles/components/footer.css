@@ -155,6 +155,13 @@ footer {
 			margin-block-end: 1rem;
 		}
 	}
+
+	@media print {
+		.footer-top,
+		.footer-bottom ul {
+			display: none;
+		}
+	}
 }
 
 @media (max-width: 26rem) {

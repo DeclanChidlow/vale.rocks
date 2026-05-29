@@ -29,6 +29,9 @@
 	}
 }
 
-.adaptive-icon {
-	fill: light-dark(var(--black), #fff);
+@media print {
+	.readable a[href]::after {
+		content: " (" attr(href) ")" !important;
+		font-size: 0.7rem;
+	}
 }

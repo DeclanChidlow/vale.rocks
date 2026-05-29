@@ -55,6 +55,10 @@
 		&::marker {
 			content: none;
 		}
+
+		@media print {
+			border: 1px solid var(--grey);
+		}
 	}
 
 	h2 {

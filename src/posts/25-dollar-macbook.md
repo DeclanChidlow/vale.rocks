@@ -3,6 +3,7 @@ title: The $25 MacBook Pro
 description: Buying a second-hand 2020 MacBook Pro for twenty-five dollars, upgrading from Catalina to Sequoia, and identifying the problems with the laptop's non-functional screen and Touch Bar. Diagnosing and troubleshooting the issues causing the problems, which is hopefully of value to others.
 og_description: Kernel panics for the price of lunch.
 pub_time: 2026-05-07
+mod_time: 2026-05-28
 section: Memoir
 tags: [Mac]
 ---

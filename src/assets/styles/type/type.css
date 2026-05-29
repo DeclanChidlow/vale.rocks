@@ -77,6 +77,10 @@ h6 {
 		&.error {
 			color: var(--red);
 		}
+
+		@media print {
+			display: none;
+		}
 	}
 
 	@media (hover: hover) and (min-width: 45rem) {
@@ -181,17 +185,26 @@ details {
 		padding: 1rem;
 		padding-block-start: 0;
 	}
+
+	@media print {
+		border: 1px solid var(--grey);
+	}
 }
 
 blockquote,
 .markdown-alert {
 	--alert-accent: var(--grey);
+
 	padding-block: 0.5rem;
 	padding-inline: 1rem;
 	background: light-dark(oklch(from var(--white) l c h / 0.3), oklch(from var(--dark_grey) l c h / 0.3));
 	border: 0.05rem solid light-dark(transparent, color-mix(var(--alert-accent) 20%, var(--grey)));
 	border-inline-start: 0.3rem solid var(--alert-accent);
 	text-align: start;
+
+	@media print {
+		border-color: var(--grey);
+	}
 }
 
 .markdown-alert > * + * {
