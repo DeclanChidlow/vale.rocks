@@ -5,6 +5,7 @@ og_description: Nothing happened in China during the spring and summer of 1989.
 pub_time: 2026-04-13
 section: Essay
 tags: [politics]
+standardsite_rkey: 3mn2d2b7ffr2o
 ---
 
 Hu Yaobang was a pro-reform member of the Chinese Communist Party (CCP). Joining in the 1930s, he was promoted to General Secretary of the Secretariat in 1980 and proceeded to move up the ranks. In 1981 he became the highest ranking role in the party, the chairman, before that role was abolished in 1982 and became the general secretary. He was pro-reform, playing a large part in the Boluan Fanzheng program and was very progressive. He promoted democracy, human rights, a more free media, and regulation of the government's power.
