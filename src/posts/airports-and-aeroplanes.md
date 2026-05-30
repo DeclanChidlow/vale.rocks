@@ -4,6 +4,7 @@ description: A reflective piece exploring the sensory experiences and unique per
 og_description: Neither here nor there.
 pub_time: 2025-04-18
 section: Memoir
+standardsite_rkey: 3mn2dk2m3ky26
 ---
 
 There are plenty of reasons someone might hate airports. Long lines, security checks, inflated prices, potential delays, general uncertainty, banished baggage, labyrinthine layouts, lethargic layovers, overstimulating noise, and a whole range of factors outside one's control.

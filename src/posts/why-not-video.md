@@ -5,6 +5,7 @@ og_description: I am a writer of words, not a vidier of videos.
 pub_time: 2025-04-30
 section: Essay
 tags: [writing]
+standardsite_rkey: 3mn2egz2qxj2a
 ---
 
 I spend a lot of time writing. As you can see from this site and my output elsewhere on the web, text is my primary medium. While I believe video is a fantastic medium for entertainment and illustrating visual concepts, it's not my format of choice. This post aims to explain the practical and philosophical reasons behind that choice.

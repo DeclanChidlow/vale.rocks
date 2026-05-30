@@ -4,7 +4,8 @@ description: Details of my choice and experience switching to the Colemak-DH key
 og_description: QWKSFO dixnd.
 pub_time: 2025-10-11
 section: Essay
-tags: ["writing"]
+tags: [writing]
+standardsite_rkey: 3mn2eepjj6l2x
 ---
 
 QWERTY is the de facto keyboard layout for people using the Latin-script alphabet. It evented on typewriters in the late 1800s and has remained a staple layout of the keyboard since -- a questionable feat given how few things from the 1800s remain unchanged.

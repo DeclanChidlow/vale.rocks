@@ -5,6 +5,7 @@ og_description: Lessons from an incapable fool with a byline.
 pub_time: 2025-11-24
 section: Tutorials
 tags: [writing]
+standardsite_rkey: 3mn2e4zpr3c2p
 ---
 
 I've been fortunate enough to write for a number of publications under some fantastic individuals and have taken away many lessons via observations and from making mistakes while doing so. I figured I'd collate some of them so that I and any similarly incapable fool can avoid future bungles.

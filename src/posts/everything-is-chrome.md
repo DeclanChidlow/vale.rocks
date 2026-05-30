@@ -6,6 +6,7 @@ pub_time: 2023-12-11
 mod_time: 2026-05-06
 section: Essay
 tags: [Chrome, Blink]
+standardsite_rkey: 3mn2dtwsdy52z
 ---
 
 The chances are you've heard of Google Chrome. It's currently the biggest browser in the world, but that comes with issues. Issues that I think need addressing. However, it's crucial to examine how we reached this stage to form comprehensive opinions. Let's start at the start with the birth of the first browser.

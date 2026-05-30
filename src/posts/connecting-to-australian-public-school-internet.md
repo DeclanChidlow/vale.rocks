@@ -6,6 +6,7 @@ pub_time: 2022-10-12
 mod_time: 2024-03-03
 section: Tutorial
 tags: [education]
+standardsite_rkey: 3mn2dpefuiv2u
 ---
 
 Every now and then, somebody decides that it is time to mess around and 'improve' enterprise Wi-Fi. As of late, someone has been tweaking and mucking about with the internet configuration of Australian public schools.

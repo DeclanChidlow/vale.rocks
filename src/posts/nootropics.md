@@ -5,6 +5,7 @@ og_description: A cataloge of cognitively constructive chemical compounds.
 pub_time: 2025-10-17
 mod_time: 2025-11-05
 section: Essay
+standardsite_rkey: 3mn2e3ivc2l2x
 ---
 
 Research notes and personal cataloguing of my usage and experience with assorted [nootropics](https://en.wikipedia.org/wiki/Nootropic). This article is provided for educational and informational purposes and is not to be considered medical advice, diagnosis, or treatment. Much of this article's content is anecdotal.

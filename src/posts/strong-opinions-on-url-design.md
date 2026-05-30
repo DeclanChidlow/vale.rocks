@@ -5,6 +5,7 @@ og_description: i-have-some-thoughts
 pub_time: 2025-02-24
 mod_time: 2025-03-04
 section: Rant
+standardsite_rkey: 3mn2e73wjud2p
 ---
 
 I came to realise the other day that, for reasons unbeknownst to me, I have very strong opinions on URL structures. Most of my thoughts are related to culling the obsolete and implying away the superfluous. URL structure is as much a part of your website's design as anything else -- treat it with the same care and attention you give your visual design and user experience.

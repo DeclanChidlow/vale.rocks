@@ -4,6 +4,7 @@ description: Discussion of the true wonders of strongly worded emails. The ever-
 og_description: Only the finest form of communication.
 pub_time: 2025-11-28
 section: Rant
+standardsite_rkey: 3mn2e7nfxbo2a
 ---
 
 There are few greater joys in life than the creation of a strongly worded email. I have an innate love for the medium. It is an art form that sits at the intersection of literature, warfare, and therapy. Strongly worded emails are, perhaps, the most completely backwards form of communication that the human race has ever created. Bureaucracy manifest. A primal scream typed in twelve-point Arial.

@@ -6,6 +6,7 @@ pub_time: 2025-02-13
 mod_time: 2025-02-19
 section: Essay
 tags: [AI, LLMs]
+standardsite_rkey: 3mn2dh6c7a42u
 ---
 
 I propose that the advent and integration of AI models into the workflows of developers has stifled the adoption of new and potentially superior technologies due to training data cutoffs and system prompt influence.

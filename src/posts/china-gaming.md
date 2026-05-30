@@ -5,6 +5,7 @@ og_description: An infinite sandbox with high walls.
 pub_time: 2026-04-16
 section: Essay
 tags: [gaming]
+standardsite_rkey: 3mn2do2cxuq2a
 ---
 
 It's not uncommon for games to be localised, especially when moving between the Eastern and Western worlds. Of course there is the case of differing languages, but there are also many more innocuous elements that can become lost in translation that need adaptation or which must be altered to respect certain customs or laws. These changes are usually relatively minor, such as the removal of hate symbols and gore[^1] or the replacement of a reference that might not be understood elsewhere.

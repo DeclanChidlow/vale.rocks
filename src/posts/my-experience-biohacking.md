@@ -6,6 +6,7 @@ pub_time: 2025-01-06
 mod_time: 2025-10-03
 section: Essay
 tags: [transhumanism]
+standardsite_rkey: 3mn2e2hvo552d
 ---
 
 Biohacking is a term that has unfortunately become entangled with tabloid tips, TikTok health trends, and pseudo'science'. However, beneath this surface noise exists dedicated communities exploring the frontiers of human enhancement through do-it-yourself cybernetics, biochemistry, and body modifications. Communities driven by interests in transhumanism and an alignment with the hacker ethos that push boundaries in ways that extend far beyond the conventional ear piercing.

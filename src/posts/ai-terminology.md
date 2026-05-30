@@ -5,6 +5,7 @@ og_description: Did that stand for 'Apologetic Interface' or 'Algorithmically In
 pub_time: 2026-04-28
 section: Essay
 tags: [AI, LLMs]
+standardsite_rkey: 3mn2dizozda26
 ---
 
 Tune into any discussion of the technologies widely referred to as 'artificial intelligence', and you'll find that terminology is all over the place. Language is forever fluid and evolving, and with a field as quickly moving and with as much marketing influence and buzzwords as artificial intelligence, it isn't surprising that things are a mess.

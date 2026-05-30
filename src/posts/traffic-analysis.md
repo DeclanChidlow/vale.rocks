@@ -5,6 +5,7 @@ og_description: Nerding out on website analytics.
 pub_time: 2025-04-25
 mod_time: 2026-04-01
 section: Meta
+standardsite_rkey: 3mn2eearnl32p
 ---
 
 I collect some anonymous analytics on Vale.Rocks. Not because I feel the need to spy on my users every move, but rather because I quite enjoy nerding out about statistics. I love being able to see what country people are showing up from, what devices they’re using, and their browsers. Being able to see view counts tick up also helps my motivation.[^1]

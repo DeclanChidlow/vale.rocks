@@ -5,6 +5,7 @@ og_description: A eulogy for the console soul.
 pub_time: 2026-03-23
 section: Essay
 tags: ["UI/UX", "gaming"]
+standardsite_rkey: 3mn2dukjnuc2p
 ---
 
 When I powered on my Xbox Series S for the first time, there was no ceremony. A flat interface presenting a collection of rounded boxes arranged in grids and lists. It felt no different from Windows 11. An interface designed for general computing (primarily productivity and work) should not be the blueprint for a machine designed for fun. Consoles' interfaces gave them a soul, but with it stripped they feel like little more than appliances.

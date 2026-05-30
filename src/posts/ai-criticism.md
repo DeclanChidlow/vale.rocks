@@ -6,6 +6,7 @@ pub_time: 2025-05-29
 mod_time: 2026-01-05
 section: Essay
 tags: [AI, LLMs]
+standardsite_rkey: 3mn2dgq2nzy2a
 ---
 
 AI is an incredibly divisive technology with a lot of issues that deserve analysis, discussion, and criticism. Unfortunately, this criticism is often poorly critical and fails to actually achieve anything.

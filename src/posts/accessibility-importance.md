@@ -5,6 +5,7 @@ og_description: Shiny exclusion all the way down.
 pub_time: 2025-12-18
 section: Rant
 tags: [accessibility, development]
+standardsite_rkey: 3mn2dfnnzk52v
 ---
 
 I'm frustrated, and I'm angry at the state of accessibility on the web. I'm usually not much one for profanity, but I'm fucking pissed off.

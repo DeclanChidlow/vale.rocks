@@ -5,6 +5,7 @@ og_description: All the costs with none of the compliance!
 pub_time: 2026-04-03
 section: Essay
 tags: [accessibility, development]
+standardsite_rkey: 3mn2dg7jw3t2a
 ---
 
 Accessibility overlays (sometimes called 'accessibility plugins' or 'accessibility widgets') are tools placed on websites that claim to improve accessibility. They usually appear as a small icon on the side or in a corner of a website's viewport. Clicking on them usually presents a set of options such as the ability to resize text, alter contrast, enlarge the cursor, toggle a preference for motion, and sometimes read the contents of the page aloud.

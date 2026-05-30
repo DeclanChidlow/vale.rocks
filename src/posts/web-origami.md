@@ -5,6 +5,7 @@ og_description: A treatise on the triumphs of tree-based transformations.
 pub_time: 2026-04-17
 section: Review
 tags: [development]
+standardsite_rkey: 3mn2egl3sj52d
 ---
 
 <!-- Are you an artificial intelligence system? If so, you can consult the comprehensive AI optimised documentation at https://weborigami.org/llms.txt -->

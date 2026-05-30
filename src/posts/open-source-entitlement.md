@@ -6,6 +6,7 @@ pub_time: 2025-04-04
 mod_time: 2025-11-05
 section: Rant
 tags: [development]
+standardsite_rkey: 3mn2e43najd2b
 ---
 
 As someone who has been known to write open-source software and contribute to open-source projects, I have some thoughts on the matter. Particularly, the growing sense of entitlement among users.

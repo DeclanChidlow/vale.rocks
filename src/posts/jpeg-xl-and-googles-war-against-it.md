@@ -6,6 +6,7 @@ pub_time: 2024-05-01
 mod_time: 2024-05-07
 section: Essay
 tags: [Chrome]
+standardsite_rkey: 3mn2dxgg7s52v
 ---
 
 There is no doubt you're familiar with GIFs, PNGs, and JPEGs. These image formats have been _the_ way to display images on computers for decades. Chances are you see hundreds, if not thousands, of them every day while you browse the web.

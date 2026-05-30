@@ -4,6 +4,7 @@ description: Discussing the donation of material produced by one's body, such as
 og_description: Betrayed by my mind.
 pub_time: 2025-08-18
 section: Memoir
+standardsite_rkey: 3mn2dmapb2z2w
 ---
 
 Humans are fairly remarkable, in that there are things that we can do biologically that can't be replicated to a satisfactory standard in a lab. Thus, modern medicine relies on donors for sourcing valuable materials. As a healthy fellow, I figured it reasonable to supply what I can.

@@ -5,6 +5,7 @@ og_description: For when I cark it.
 pub_time: 2025-07-19
 mod_time: 2026-03-26
 section: Meta
+standardsite_rkey: 3mn2e65nuta26
 ---
 
 Ideally I'll persist till old age with my full mental and physical faculties, but that isn't guaranteed. Regardless of the journey, death will eventually take me, as it takes all, though I cannot offer any suggestion as to how.

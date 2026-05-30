@@ -5,6 +5,7 @@ og_description: Ensuring protection of the protectors.
 pub_time: 2026-02-26
 section: Essay
 tags: [moderation, design, UI/UX, development, front-end]
+standardsite_rkey: 3mn2dziwg2k2p
 ---
 
 I have dedicated substantial amounts of time moderating communities on the internet. One of the duties I fulfil at [Stoat](https://stoat.chat) has been to moderate content, and in doing so I've seen a great number of horrific things. The sort of things that no person should have to see, but which nonetheless must be seen in pursuit of protecting users.

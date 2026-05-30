@@ -6,6 +6,7 @@ pub_time: 2024-04-18
 mod_time: 2025-10-29
 section: Tutorial
 tags: [development, front-end]
+standardsite_rkey: 3mn2e22iv4u2a
 ---
 
 Software development is a varied field with varied opinions regarding varied ways of doing varied things. Everyone has their own opinionated takes on how code should be formatted, leading to a conflated mess of conflicting thought which neither I nor anyone else ever wants to deal with.

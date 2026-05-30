@@ -5,6 +5,7 @@ og_description: "* { all: unset; }"
 pub_time: 2026-01-22
 section: Essay
 tags: [front-end, CSS]
+standardsite_rkey: 3mn2dsmysar2s
 ---
 
 As years have stretched on, browser user-agent styles have grown somewhat estranged from how many developers use the web platform. I am no exception to this rule and find my own needs at odds with the predefined user-agent stylesheets of major browsers:

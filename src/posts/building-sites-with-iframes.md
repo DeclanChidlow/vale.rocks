@@ -5,6 +5,7 @@ og_description: Putting websites in websites.
 pub_time: 2024-10-08
 section: Tutorial
 tags: [development, front-end]
+standardsite_rkey: 3mn2dnkvmw22b
 ---
 
 When I first entered the bloody fray that is the web development sphere, I did plenty of very dumb stuff thanks to not knowing any better. Before I figured out what a static site generator was or the concept of PHP's `include`, I copied a lot of code between sites. Namely, navs and footers.

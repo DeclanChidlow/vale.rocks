@@ -5,6 +5,7 @@ og_description: The tools, software, and other such things I use.
 pub_time: 2024-08-05
 mod_time: 2026-05-15
 section: Meta
+standardsite_rkey: 3mn2efu2sag2p
 ---
 
 This post details some of the many things I use. Generally, my selections align with the philosophies [outlined by Gwern](https://gwern.net/choosing-software). All my configs are provided and somewhat documented in my [dotfiles repository on Tangled](https://tangled.org/vale.rocks/dotfiles).

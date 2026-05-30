@@ -5,6 +5,7 @@ og_description: The fictional depiction is fiction.
 pub_time: 2026-05-22
 section: Essay
 tags: [transhumanism]
+standardsite_rkey: 3mn2edrqggk2z
 ---
 
 I've written previously about subdermal implants. As a result, I receive the occasional concerning message from people thinking they're being tracked or the likes. Small, discreet, implantable chips that actively track you as you move around _do not exist_.

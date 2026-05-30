@@ -4,6 +4,7 @@ description: Impassioned discussion of winter and rainy days. The joys of 'bad' 
 og_description: The drips drop on a dreary day.
 pub_time: 2025-08-01
 section: Memoir
+standardsite_rkey: 3mn2ehuvcyz2a
 ---
 
 Winter is my favourite of the seasons by a significant margin. It feels the most substantial of the year's phases. Summer is hot, and I dislike the heat, finding that once you are hot, it is hard to become unhot; autumn and spring are half-measures between the two extremes without much distinct value of their own. When winter comes, it brings the cold with it, and the cold is an excuse for finding warmth. When one is cold, they can continue to acquire hot water bottles and layer on blankets or jackets until they are content.

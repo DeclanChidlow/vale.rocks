@@ -5,6 +5,7 @@ og_description: Creativity /kriːeɪˈtɪvɪti/ n. Obsolete. The process or act 
 pub_time: 2025-05-07
 section: Fiction
 tags: [AI, LLMs]
+standardsite_rkey: 3mn2dq32tnh26
 ---
 
 _This is written of a future. Not the future, but a future -- one of many possibilities._

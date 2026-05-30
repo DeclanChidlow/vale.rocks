@@ -5,6 +5,7 @@ og_description: So much for the 'World Wide' Web.
 pub_time: 2026-04-14
 section: Essay
 tags: [politics]
+standardsite_rkey: 3mn2domry6v2v
 ---
 
 The internet known within China is a very different internet to the one known by the world at large. It is censored, regulated and structured quite differently. It is controlled and managed, rather than organic and sprawling. From the outside looking in, it feels like an entirely different beast, and to begin to understand it, you must first understand the conditions that formed it.

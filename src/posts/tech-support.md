@@ -4,6 +4,7 @@ description: Details and knowledge pertaining to providing tech support for peop
 og_description: Tech support support.
 pub_time: 2026-05-19
 section: Tutorials
+standardsite_rkey: 3mn2eanapug2a
 ---
 
 I've done a lot of tech support, previously operating a tech support business which had me helping all varieties of people, both at their homes and remotely. Here is an attempt to catalogue some of the tips and tricks I picked up. Worth noting is that the primary demographic I found myself helping was the elderly. They usually have all-in-ones, though sometimes laptops, and are more often than not running Windows. Naturally, my notes therefore have a skew in the direction of the older cohort.

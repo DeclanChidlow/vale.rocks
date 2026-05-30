@@ -6,6 +6,7 @@ pub_time: 2023-06-16
 mod_time: 2023-11-22
 section: Tutorial
 tags: [writing]
+standardsite_rkey: 3mn2edahbdn2d
 ---
 
 Document editing is a horrible business that I wouldn't wish on my worst enemy. Fighting formats, muddled margins, puzzling paragraph breaks, annoying autocorrect, and stumbling spell checking leads to a mess of text that can't be combated by even the most confident keyboard cowboys.
