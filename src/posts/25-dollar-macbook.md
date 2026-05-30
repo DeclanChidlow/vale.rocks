@@ -6,6 +6,7 @@ pub_time: 2026-05-07
 mod_time: 2026-05-28
 section: Memoir
 tags: [Mac]
+standardsite_rkey: 3mn2bgovpap2o
 ---
 
 Seeing a listing for a MacBook at the price of $25 AUD triggers a certain thought in the demented mind of a creature such as myself. Sure, the listing title might open with 'FOR PARTS' and the description might have the cursed words 'crashes randomly and other odd behaviors', but what has one got to lose from giving it a go? $25?

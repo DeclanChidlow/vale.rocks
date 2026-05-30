@@ -48,6 +48,7 @@
 
 			${ page.section ? `<meta property="article:section" content="${ page.section }">` : '' }
 		` : '<meta property="og:type" content="website">' }
+		${ page.standardsite_rkey ? `<link rel="site.standard.document" href="at://did:plc:7qg6mz2xtzozxkgbcvf4pdnu/site.standard.document/${ page.standardsite_rkey}">` : '' }
 
 		<link rel="icon" type="image/svg+xml" href="https://vale.rocks/assets/favicon.svg">
 		<link rel="apple-touch-icon" href="https://vale.rocks/assets/apple-touch-icon.png">
