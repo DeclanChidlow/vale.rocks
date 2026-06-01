@@ -58,7 +58,7 @@ Switch control devices are input devices which send single binary inputs. Common
 
 ## Dwell Clicker
 
-A dwell clicker is an input method where hovering in a single place for a chosen period executes an input. It is often used in tandem with other accessibility technologies, such as [head-and-mouth sticks] and [eye trackers], but is also used by people who can operate more common pointer devices like mice but are unable to click.
+A dwell clicker is an input method where hovering in a single place for a chosen period executes an input. It is often used in tandem with other accessibility technologies, such as [head-and-mouth sticks](#headmouth-stick) and [eye trackers](#eye-gaze), but is also used by people who can operate more common pointer devices like mice but are unable to click.
 
 ## Head/Mouth Stick
 
@@ -74,9 +74,9 @@ Expanded keyboards are used by people with many accessibility considerations. Co
 
 ## Eye Gaze
 
-Eye gaze or eye tracking is an input method where a person uses their eyes to navigate a screen. Tracking either one or both eyes, the cursor follows wherever one looks. To make a selection, one must either use [dwell control] and hold their gaze, blink, or pair eye gaze with another input method, like a [sip-and-puff].
+Eye gaze or eye tracking is an input method where a person uses their eyes to navigate a screen. Tracking either one or both eyes, the cursor follows wherever one looks. To make a selection, one must either use [dwell control](#dwell-clicker) and hold their gaze, blink, or pair eye gaze with another input method, like a [sip-and-puff](#sip-and-puff).
 
-Similar to [gyroscopic head mice], input is sometimes alternatively done by gestures in a direction, such as looking right to navigate right. Tracking is usually achieved with a specialised infrared eye tracker and is paired with software for configuring and managing control.
+Similar to [gyroscopic head mice](#gyroscopic-head-mice), input is sometimes alternatively done by gestures in a direction, such as looking right to navigate right. Tracking is usually achieved with a specialised infrared eye tracker and is paired with software for configuring and managing control.
 
 Even in cases of total paralysis, control of eyes often remains, which makes eye gaze input one of the last input methods available in many cases.
 
