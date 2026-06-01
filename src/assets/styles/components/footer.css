@@ -55,6 +55,7 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: right;
+		margin: 0;
 
 		li {
 			display: inherit;

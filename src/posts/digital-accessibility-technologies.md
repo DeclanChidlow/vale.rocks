@@ -1,7 +1,7 @@
 ---
 title: Overview of Digital Accessibility Technologies
 description: A high-level compilation of various digital accessibility technologies and systems used by people with disabilities to facilitate computer use. Covering both output and input methods, from widely known technologies such as screen readers to lesser-known tools such as sip-and-puff devices.
-og_description: No bodging here. None at all. Nope.
+og_description: The vast sea of assistive tech.
 pub_time: 2026-06-01
 section: Essay
 tags: [accessibility]
