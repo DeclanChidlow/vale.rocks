@@ -5,7 +5,7 @@ og_description: No bodging here. None at all. Nope.
 pub_time: 2026-06-01
 section: Essay
 tags: [accessibility]
-standardsite_rkey:
+standardsite_rkey: 3mn7deasp3k2t
 ---
 
 There are a _great_ number of tools and devices out there designed to improve computer use for people with disabilities or even make computer use possible at all. We can consider them in two broad categories, input and output. Input methods send data provided by a user to a device, while output methods send information provided by a device to a user.
