@@ -45,7 +45,7 @@
 		justify-content: end;
 		block-size: 100%;
 		text-transform: uppercase;
-		font-size: 1.3rem;
+		font-size: clamp(0.9rem, 0.7rem + 2vw, 1.3rem);
 
 		> a,
 		> button {
