@@ -3,6 +3,7 @@ title: Overview of Digital Accessibility Technologies
 description: A high-level compilation of various digital accessibility technologies and systems used by people with disabilities to facilitate computer use. Covering both output and input methods, from widely known technologies such as screen readers to lesser-known tools such as sip-and-puff devices.
 og_description: The vast sea of assistive tech.
 pub_time: 2026-06-01
+mod_time: 2026-06-01
 section: Essay
 tags: [accessibility]
 standardsite_rkey: 3mn7deasp3k2t
@@ -40,11 +41,25 @@ Most users of sip-and-puff machines have severely reduced motor function.
 
 Often worn as an earpiece or glasses, a gyroscopic head mouse is an input device which uses head motion. Depending on the level of motor control one has, it can be used to directly control an on-screen pointer akin to a mouse, or it can be used for directional input. A tilting of the head right to indicate a right input, and so forth. It can also be used in a method more akin to a joystick, which is sometimes taken advantage of for gaming.
 
+## Ergonomic Mice
+
+We are all familiar with the standard computer mouse, which is an input device one glides along a surface to manoeuvre a pointer. However, there are many more variations on the popular computer mouse that are used. These variations are often used by people with carpal tunnel, arthritis, or repetitive strain injuries.
+
+- Roller bar mice are a bar which usually sit bellow the keyboard. One rolls the bar towards and away from themself to move the pointer up and down, and slides it laterally to move left and right. Clicks can be achieved by either pressing down on the bar, or using dedicated buttons usually located bellow the bar.
+- Trackball mice do not refer to the pre-laser tracking technology of the '90s but instead to mice which are stationary on a surface and have a large trackball which can be directly rotated to move a cursor. Large trackball mice also exist so that the ball can be manipulated reasonably with a closed fist, elbow, foot, head, or other appendage.
+- Vertical mice are very similar to typical mice but are oriented such that the buttons and scroll wheel are perpendicular to the surface it operates on. This places the arm in a more natural resting position similar to that it takes during a handshake, without the ulna and radius bones being crossed.
+
 ## Mouth and Tongue Joysticks
 
 Positioned close to the mouth, similar to a sip-and-puff, mouth and tongue joysticks are input devices which rely on oral control of a joystick. A sip-and-puff machine is often integrated into the joystick for further input controls.
 
 In progressively-onset motor diseases, the mouth is often one of the last external body parts one retains control of. If the option for a joystick of this nature is available, people often find them especially desirable for motorised wheelchair movement.
+
+## Tongue Drive
+
+Similar to but distinct from tongue joysticks, tongue drive systems are an input method which uses the movement of the tongue inside one's mouth using magnets. A magnet is attached to the tongue via either adhesive or a method similar to a cosmetic tongue piercing, and the position of this magnet is identified by a specialised dental retainer worn on the roof of the mouth.
+
+Tongue drive systems suited for applications similar to [sip-and-puff](#sip-and-puff) devices.
 
 ## Chording Keyboard
 
@@ -95,5 +110,9 @@ Immersive readers are commonly used by a wide variety of people but are of parti
 Speech input is an input method where a user speaks commands at a microphone, which are then processed by a computer and treated as controls. Speech input takes many forms and is very configurable. Depending on configuration, a user might make a hissing sound to scroll or read off text for a button to click it. Often, optical character recognition (OCR) and overlay[^1] systems are used so that any item on screen can be referenced with speech. A user also can write text via dictation.
 
 Speech input is commonly used by people with motor problems.
+
+## Gesture Recognition
+
+Gesture recognition is an input method where a camera and/or depth sensor is used to track body or hand movements without physical contact. Physical movements are bound to computer actions in software, so that, for example, a nod of the head triggers a click. Gesture recognition systems are often used by people who cannot hold or grip physical devices, such as those with severe chronic pain or motor control limitations.
 
 [^1]: I'm _not_ talking about horrid, generic so-called '[accessibility overlays](/posts/accessibility-overlays)' such as those that you see on websites.
