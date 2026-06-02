@@ -3,7 +3,7 @@ title: Overview of Digital Accessibility Technologies
 description: A high-level compilation of various digital accessibility technologies and systems used by people with disabilities to facilitate computer use. Covering both output and input methods, from widely known technologies such as screen readers to lesser-known tools such as sip-and-puff devices.
 og_description: The vast sea of assistive tech.
 pub_time: 2026-06-01
-mod_time: 2026-06-01
+mod_time: 2026-06-02
 section: Essay
 tags: [accessibility]
 standardsite_rkey: 3mn7deasp3k2t
@@ -30,6 +30,12 @@ Most commonly, screen magnifiers are used by people with visual impairments that
 Electronic braille displays, also known as refreshable braille displays or braille terminals, are dynamic braille output interfaces. Braille is a tactile writing system where characters are represented as embossed dots on a 3x2 grid known as a 'braille cell'. Different characters have different dots within the cell embossed and in different arrangements, such that a person with a visual impairment can identify a character by feeling it with their finger.
 
 Electronic braille displays take output from a computer and mechanically displace a surface into braille cells for the user to read. On most devices the braille is displayed in a single strip between 40 and 80 cells wide, though for mobile readers it can be narrower. Depending on the device, the current cursor location might be indicated by the dots vibrating or additional dots above or below the cell. These displays are often used for the same purpose as speech synthesisers, and sometimes both tools are used by the same individuals who switch between them depending on circumstance. Braille displays are especially valuable for people who are both deaf and blind.
+
+## Tactile Graphics Displays
+
+Functioning very similarly to [braille displays](#braille-displays), tactile graphics displays are an output technology used to convey more graphical concepts, such as spatial layouts, charts, geometric shapes, or maps. They're usually much denser than braille displays, with many more pins. Instead of the tactile area being a single braille cell tall, they are usually much taller. In some cases pins are not a binary flat or raised, but instead can be fixed at a range of heights so depth can be more fully conveyed.
+
+Tactile graphics displays are mainly used by people who are blind.
 
 ## Sip-and-Puff
 
