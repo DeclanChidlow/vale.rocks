@@ -266,7 +266,6 @@ _body:
 		</details>
 	</section>
 
-
 	<section class="contact" data-pagefind-ignore>
 	${ variables.yaml/work_availability ? `
 			<h2>Let’s Get The Ball Rolling!</h2>

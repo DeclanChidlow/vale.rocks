@@ -1,3 +1,15 @@
+- title: "@function"
+  location: CSS-Tricks
+  url: css-tricks.com/almanac/rules/f/function/
+  pub_time: 2026-06-03
+  type: article
+  sort: writer
+- title: "@custom-media"
+  location: CSS-Tricks
+  url: css-tricks.com/almanac/rules/c/custom-media/
+  pub_time: 2026-06-03
+  type: article
+  sort: writer
 - title: Testing Safari on a Budget
   location: Frontend Masters
   url: frontendmasters.com/blog/testing-safari-on-a-budget/

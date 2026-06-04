@@ -1,9 +1,11 @@
-# - title: Spider-Noir
-#   release_year: 2026
-#   seasons:
-#     - number: 1
-#       watches:
-#         - start: 2026-05-31
+- title: Spider-Noir
+  release_year: 2026
+  seasons:
+    - number: 1
+      watches:
+        - start: 2026-05-31
+          finish: 2026-06-02
+          notes: Viewed in 'Authentic Black & White'.
 - title: Tip to Tip
   release_year: 2025
   seasons:
