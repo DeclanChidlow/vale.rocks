@@ -478,7 +478,6 @@ class SitemapGraph {
 		const repulsionDistLimitSq = 250 * 250;
 		const attraction = 0.05;
 		const centerForce = 0.000075;
-		const damping = 0.9;
 
 		let totalKineticEnergy = 0;
 

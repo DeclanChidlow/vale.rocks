@@ -3,6 +3,7 @@ title: Why I Write
 description: Unpacking my compulsion and will to write, including its benefits in forming thought, letting me express myself, hone in a craft, and publish accessible content.
 og_description: There are words here, and I'm justifying them.
 pub_time: 2025-04-29
+mod_time: 2026-06-05
 section: Essay
 tags: [writing]
 standardsite_rkey: 3mn2ehgdmvb2s
@@ -16,10 +17,7 @@ Writing is part of being able to communicate thoughts, which is a fundamental bu
 
 ## Forming Thought
 
-> Writing is refined thinking.\
-> — Stephen King
-
-If there is any one reason I write, it is summed up by the quote above. I think better and more clearly on and about a topic when I write about it. Specifically, to write cohesively forces me to untangle the erratic thoughts sprinting around my head into a clear linear thread.
+If there is any one reason I write, it is summed up by the quote above. I think better and more clearly on and about a topic when I write about it. Specifically, to write cohesively forces me to untangle the erratic thoughts sprinting around my head into a clear linear thread. In the words of Stephen King, 'Writing is refined thinking.'
 
 Sometimes I start untangling a thought from the mass, and it brings others with it. Sometimes thoughts are too long and unwieldy, which necessitates cutting them off and bridging the gap with others. Sometimes they're knotted in my mind, and I have to slowly tease them apart or straighten them out.
 
@@ -53,14 +51,23 @@ Words are precise -- or at least they can be. They can be left vague or wielded 
 
 Words remain extremely flexible and adaptable -- one must only look to puns, metaphor, and the fluidity of language for evidence of this.
 
-## Accessibility
+## Power and Authority
 
-> The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.\
-> — Tim Berners-Lee
+The power gained by writing is disproportionate to the effort required to write. In [Documenting what you're willing to support (and not)](https://rachelbythebay.com/w/2025/07/07/support/), Rachel Kroll wrote:
+
+> At some point, I realized that if I wrote a wiki page and documented the things that we were willing to support, I could wait about six months and then it would be like it had always been there. Enough people went through the revolving doors of that place such that six months' worth of employee turnover was sufficient to make it look like a whole other company. All I had to do was write it, wait a bit, then start citing it when needed.
+
+I've experienced this firsthand, but it applies even outside the context of internal knowledge bases. Looking beyond employee turnover in an organisation, there is turnover in which of the billions of humans alive you interact with. In any case, having writing to cite gives you an upper hand in any dispute. One can reference published work, even if their own, as a source of truth. Produced content clearly indicates that prior thought has gone into an idea or that something is established. Written word can be cited with an authority that trumps verbal claims and assertions.
+
+## Accessibility
 
 Writing also has huge benefits that places it head and shoulders above other mediums as far as my needs are concerned. Other mediums such as audio and video are fantastic for a lot of things but require specific technologies and bandwidth. For conveying complex knowledge and information, text is king. The written word is remarkably adaptable and inherently inclusive, especially on the web.
 
 Text is minuscule in file size -- it requires minimal data and is thus easily accessible on older machines and slower networks. Text is the universal language of the internet[^2] and computing. It can be displayed on almost any device, with any operating system, using countless applications, making the content truly portable.
+
+As Tim Berners-Lee wrote in regards to the world wide web:
+
+> The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.\
 
 The very structure of written language makes it seamlessly compatible with assistive technologies. Crucially, regardless of whether someone is reading the text visually, listening to it via a screen reader, consuming it through braille, or interacting with it some other way, they are receiving the exact same core content and message. This stands in contrast to visual media where alternative text or audio descriptions might provide information about the content but can't faithfully emulate the content itself in its primary form.
 
