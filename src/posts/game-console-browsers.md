@@ -5,6 +5,7 @@ og_description: Exploring cyberspace with a thumbstick.
 pub_time: 2026-06-11
 section: Essay
 tags: ["UI/UX", "gaming", "front-end"]
+standardsite_rkey: 3mnxtzbz5bh2s
 ---
 
 Video game consoles have a long history with web browsers. From the advent of the World Wide Web, consoles have been trying to get online. Browsers on video game consoles were initially very much an attempt to provide a cheap gateway to the web for a casual audience lacking technical expertise, though as time progressed they've become a greater and more integrated part of systems.
