@@ -2,6 +2,10 @@ img {
 	max-block-size: 90vb;
 }
 
+.pixelated {
+	image-rendering: pixelated;
+}
+
 .shorter img {
 	max-block-size: 40vb;
 }

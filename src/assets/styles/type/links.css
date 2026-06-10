@@ -19,12 +19,12 @@
 	}
 
 	&[href^="#"]::after {
-		content: "\00A0↕" / "Anchor";
+		content: "\00A0↕" / " (Anchor)";
 		font-size: 0.7rem;
 	}
 
 	&[href]:not([href*="vale.rocks"], [href^="/"], [href^="#"])::after {
-		content: "\00A0↗" / "External";
+		content: "\00A0↗" / " (External)";
 		font-size: 0.8rem;
 	}
 }

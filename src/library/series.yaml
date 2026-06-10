@@ -34,6 +34,10 @@
       watches:
         - start: 2024-05-09
           finish: 2024-05-11
+    - number: 4
+      watches:
+        - start: 2026-06-06
+          finish: 2026-06-07
 - title: Yuri!!! on Ice
   release_year: 2016
   seasons:
@@ -282,6 +286,9 @@
   release_year: 2010
   part_watched: true
 - title: Brooklyn Nine-Nine
+  release_year: 2013
+  part_watched: true
+- title: "Anthony Bourdain: Parts Unknown"
   release_year: 2013
   part_watched: true
 - title: "Danganronpa: The Animation"

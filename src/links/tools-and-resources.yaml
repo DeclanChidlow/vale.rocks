@@ -94,6 +94,9 @@
 - title: Svgl
   url: svgl.app
   description: A library of SVG brand logos.
+- title: CSS Stats
+  url: cssstats.com
+  description: Visualise, compare, and view statistics of stylesheets.
 - title: nomnoml
   url: www.nomnoml.com
   description: Draw UML diagrams with a simple syntax.
