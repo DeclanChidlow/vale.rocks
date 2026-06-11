@@ -98,6 +98,19 @@ Outside of Japan and the United States (mainly Europe and Australia), rather tha
 
 In 2002, Dreamkey 3.0 released, removing restrictions surrounding internet service providers which had been imposed by Sega since version 1.0. A final version 3.1 was released exclusively in Spain and Portugal to fix regional issues in 2003. There is [a wide variety of miscellany hidden in Dreamkey](https://www.thedreamcastjunkyard.co.uk/2016/05/dreamkeys-hidden-video.html), including hidden 3D models, images, videos, demos, and 'Sonic the Hedgehog' listed as a contributor in the credits.
 
+## WonderSwan
+
+Launching in March 1999, the WonderSwan was a handheld game console that released exclusively in Japan. A tiny 16-bit console with a mere 64KB of RAM. In 2000, the MobileWonderGate launched -- a collaboration between Bandai and the mobile network NTT DoCoMo.
+
+<figure class="left pixelated">
+<img src="/assets/posts/game-console-browsers/wonderswan-mobilewondergate.avif" alt="A simple, monochrome display with a basic browser interface. Along the top runs a list of browser actions, while the bottom shows the connection status of the adapter.">
+<figcaption>Interface of the MobileWonderGate browser.</figcaption>
+</figure>
+
+MobileWonderGate is a physical [adapter using a phone connection](https://k-tai.watch.impress.co.jp/cda/article/news_toppage/790.html) that provided the WonderSwan with an internet connection. It allowed downloading additional content for some games, email, and an exceptionally limited browser.
+
+Its rudimentary engine has support for only a small subset of HTML 3.2. The browser itself has a bookmark system, and support for displaying GIFs, with settings to disable images, change their display, and configure the overall presentation of webpages. To bypass some of the severe limitations of the WonderSwan, web pages were [proxied through a service](https://blog.asie.pl/2023/08/browsing-the-web-wonderswan-2023/#:~:text=acted%20as%20a%20proxy) to improve compatibility, not unlike Opera Mini.
+
 ## PlayStation 2
 
 The PlayStation 2, which released in 2000, got a fairly substantial web system. The PlayStation Broadband Navigator (PlayStation BB, PSBBN) was available in Japan and, provided the user had a hard drive in their Expansion Bay, a memory card, and a network adapter, allowed users to take their PlayStation online.
