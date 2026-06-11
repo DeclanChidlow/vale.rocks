@@ -75,6 +75,18 @@ In 1997, the final Pippin browser for the Japanese market, WebViewer, released i
 
 Apple wouldn't release their own browser, Safari, until several years later in 2003, long after they had stopped supporting the Pippin.
 
+## Nintendo 64
+
+The Nintendo 64, as it released in 1996, never received a browser, but the 64DD attachment, which released in 1999, brought internet capabilities to the console and a browser via Randnet Disc (ランドネットディスク) which released in early 2000. Randnet was Nintendo's dreadfully unsuccessful Japan-exclusive online service. The Randnet Disc includes a general-purpose browser for the system, capable of rendering various webpages. While the browser can be controlled via the system's normal controller, it also has support for keyboard and mouse input. Details about Randnet, and the browser particularly, are far from abundant.
+
+## Game Boy Colour
+
+The Game Boy Colour released in 1998, and in Japan exclusively received [what one could charitably call a browser](https://shonumi.github.io/articles/art14.html) with Mobile Trainer in 2001. Using the Mobile Adapter GB, which is an accessory that connected to mobile phones, the Game Boy Colour could play games online. The Mobile Trainer cartridge, however, provided an email client and web browser.
+
+Given the Game Boy Colour's meagre 8-bit processor, even calling it a browser is a stretch. It can only access an official Nintendo website, which included news, contests, and information about some downloadable content -- arbitrary web addresses cannot be input. On account of the system's limitations, it only supports a few HTML elements, like paragraphs and lists. Impressively though, it does support images, albeit in black and white.
+
+This system also worked on the Game Boy Advance by virtue of its backwards compatibility with the Game Boy Colour.
+
 ## Sega Dreamcast
 
 What would be Sega's last console, the Dreamcast, released in 1998. It didn't get one browser like its predecessor, the Saturn, but instead received three distinct lineages of browsers. Dream Passport, various versions of the PlanetWeb Browser, and Dreamkey.
@@ -96,13 +108,13 @@ The interface of PlanetWeb on the Dreamcast is very similar to the interface tha
 
 Outside of Japan and the United States (mainly Europe and Australia), rather than Dream Passport or a version of PlanetWeb Browser, Dreamkey was bundled with consoles. Dreamkey was built on NetFront, a bespoke browser developed and provided on license by the Japanese company Access Co Ltd. The first version was 1.0, which was followed by 1.5 to add regional internet settings for the Republic of Ireland. Version 2.0 released in 2001 and updated the browser engine slightly, improved the on-screen keyboard, added support for the Dreamcast Mouse, and for a messaging service called Dreamnote. Dreamnote allowed sending messages, including voice messages via the Dreamcast's microphone, and had a feature where Dreamnote users could see other Dreamnote users on the same website and communicate with them.
 
-In 2002, Dreamkey 3.0 released, removing restrictions surrounding internet service providers which had been imposed by Sega since version 1.0. A final version 3.1 was released exclusively in Spain and Portugal to fix regional issues in 2003. There is [a wide variety of miscellany hidden in Dreamkey](https://www.thedreamcastjunkyard.co.uk/2016/05/dreamkeys-hidden-video.html), including hidden 3D models, images, videos, demos, and 'Sonic the Hedgehog' listed as a contributor in the credits.
+In 2002, Dreamkey 3.0 released, removing restrictions surrounding internet service providers which had been imposed by Sega since version 1.0. A final version 3.1 was released exclusively in Spain and Portugal to fix regional issues in 2003. There is [a wide variety of miscellany hidden in Dreamkey](https://www.thedreamcastjunkyard.co.uk/2016/05/dreamkeys-hidden-video.html), including hidden 3D models, images, videos, demos, 'Sonic the Hedgehog' listed as a contributor in the credits, and the ability to use [the Dreamcast's light gun controller](https://en.wikipedia.org/wiki/Dreamcast_light_guns) as a pointer, shooting links to click them.
 
 ## WonderSwan
 
 Launching in March 1999, the WonderSwan was a handheld game console that released exclusively in Japan. A tiny 16-bit console with a mere 64KB of RAM. In 2000, the MobileWonderGate launched -- a collaboration between Bandai and the mobile network NTT DoCoMo.
 
-<figure class="left pixelated">
+<figure class="shorter pixelated">
 <img src="/assets/posts/game-console-browsers/wonderswan-mobilewondergate.avif" alt="A simple, monochrome display with a basic browser interface. Along the top runs a list of browser actions, while the bottom shows the connection status of the adapter.">
 <figcaption>Interface of the MobileWonderGate browser.</figcaption>
 </figure>
