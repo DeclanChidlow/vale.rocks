@@ -112,14 +112,14 @@ In 2002, Dreamkey 3.0 released, removing restrictions surrounding internet servi
 
 ## WonderSwan
 
-Launching in March 1999, the WonderSwan was a handheld game console that released exclusively in Japan. A tiny 16-bit console with a mere 64KB of RAM. In 2000, the MobileWonderGate launched -- a collaboration between Bandai and the mobile network NTT DoCoMo.
+Launching in March 1999, the WonderSwan was a handheld game console that released exclusively in Japan. A tiny 16-bit console with a mere 16KB of RAM. In 2000, the MobileWonderGate launched -- a collaboration between Bandai and the mobile network NTT DoCoMo.
 
 <figure class="shorter pixelated">
 <img src="/assets/posts/game-console-browsers/wonderswan-mobilewondergate.avif" alt="A simple, monochrome display with a basic browser interface. Along the top runs a list of browser actions, while the bottom shows the connection status of the adapter.">
 <figcaption>Interface of the MobileWonderGate browser.</figcaption>
 </figure>
 
-MobileWonderGate is a physical [adapter using a phone connection](https://k-tai.watch.impress.co.jp/cda/article/news_toppage/790.html) that provided the WonderSwan with an internet connection. It allowed downloading additional content for some games, email, and an exceptionally limited browser.
+MobileWonderGate is a physical [adapter using a phone connection](https://k-tai.watch.impress.co.jp/cda/article/news_toppage/790.html) that provided the WonderSwan with an internet connection and an extra 512KB of RAM. It allowed downloading additional content for some games, email, and an exceptionally limited browser.
 
 Its rudimentary engine has support for only a small subset of HTML 3.2. The browser itself has a bookmark system, and support for displaying GIFs, with settings to disable images, change their display, and configure the overall presentation of webpages. To bypass some of the severe limitations of the WonderSwan, web pages were [proxied through a service](https://blog.asie.pl/2023/08/browsing-the-web-wonderswan-2023/#:~:text=acted%20as%20a%20proxy) to improve compatibility, not unlike Opera Mini.
 

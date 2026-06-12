@@ -520,6 +520,8 @@
       format: Streaming
 - title: Scooby-Doo! and the Goblin King
   release_year: 2008
+- title: The Oasis
+  release_year: 2008
 - title: WALL-E
   release_year: 2008
 - title: "The Pirates Who Don't Do Anything: A VeggieTales Movie"
@@ -545,6 +547,8 @@
 - title: The Darjeeling Limited
   release_year: 2007
   rating: 4
+- title: Bra Boys
+  release_year: 2007
 - title: Bee Movie
   release_year: 2007
 - title: Juno
@@ -973,6 +977,8 @@
 - title: Labyrinth
   release_year: 1986
   rating: 4
+- title: Ferris Bueller's Day Off
+  release_year: 1986
 - title: The Black Cauldron
   release_year: 1985
 - title: Clue
