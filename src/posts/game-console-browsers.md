@@ -3,6 +3,7 @@ title: Web Browsers on Video Game Consoles
 description: A comprehensive history of web browsers on video game consoles. From the CD-i to modern systems, exploring the evolution of the web on consoles in detail. Covering bespoke iterations, releases by PlanetWeb and NetFront, contemporary engines across Sega, PlayStation, Nintendo, and Xbox platforms, and other details.
 og_description: Exploring cyberspace with a thumbstick.
 pub_time: 2026-06-11
+mod_time: 2026-06-14
 section: Essay
 tags: ["UI/UX", "gaming", "front-end"]
 standardsite_rkey: 3mnxtzbz5bh2s
@@ -48,7 +49,7 @@ For its time, and given it is on an extremely limited console, it is remarkably 
 
 Each time PlanetWeb boots, a random splash screen is shown. Net Link was tied in to the Saturn's wider [online gaming capabilities](https://web.archive.org/web/19980202015853/http://www.sega.com/spotlight/features/netlink2/index2.html), allowing 'On-Line' battles. Beyond direct multiplayer, it also built a community around the console. For a while PlanetWeb hosted a game exchange mail-in forum allowing users to email in their Saturn game saves via the browser to share them with other people. PlanetWeb also launched [Planet WebMaster](https://web.archive.org/web/19990428125628/http://tools.planetweb.com/), a web development and hosting platform that people could use with their browser.
 
-In the United States of America, two versions of the browser were widely distributed. Version 2 and version 3. Version 3 brought greater optimisation, more legible fonts, and <abbr title="Internet Relay Chat">IRC</abbr> support. Neither of these versions supported frames, however, instead displaying them as text links.
+In the United States of America, two versions of the browser were widely distributed. Version 2 and version 3. Version 3 brought greater optimisation, more legible fonts, and <abbr title="Internet Relay Chat">IRC</abbr> support. Neither of these versions supported frames, however, instead displaying them as text links. Version 1 was pressed but never released due to a [flaw in parental controls](https://web.archive.org/web/20131216190657/http://revrob.com/sci-a-tech-topmenu-52/225-rare-sega-saturn-file-4035-golden-net-link-web-browser-resurfaces-plus-republished-1998-interview-with-then-planetweb-cto-ken-soohoo-#:~:text=why%20not%20Version%201%3F%22) -- all copies were destroyed.
 
 The final version of the browser was Beta 4.035, which was never released physically and was [only available as a downloadable update](https://web.archive.org/web/20020526042232/http://www.satonline.fr.st/). Version 4 introduced full support for displaying frames inline, more IRC commands, support for embedded wav and aif audio, more shortcuts, faster input, different bullet shapes, outlined fonts, better image format compatibility, and many bug fixes. Beta 4.035 even introduced [SSL for e-commerce](https://web.archive.org/web/20010827040433/http://www.planetweb.com/netlink/browserinfo.html#:~:text=includes%20SSL%20for%20E%2DCommerce).
 
@@ -79,6 +80,12 @@ Apple wouldn't release their own browser, Safari, until several years later in 2
 
 The Nintendo 64, as it released in 1996, never received a browser, but the 64DD attachment, which released in 1999, brought internet capabilities to the console and a browser via Randnet Disc (ランドネットディスク) which released in early 2000. Randnet was Nintendo's dreadfully unsuccessful Japan-exclusive online service. The Randnet Disc includes a general-purpose browser for the system, capable of rendering various webpages. While the browser can be controlled via the system's normal controller, it also has support for keyboard and mouse input. Details about Randnet, and the browser particularly, are far from abundant.
 
+## Game.com
+
+It is no fault of your own if you've never heard of the Game.com, for it was a poorly, dot-com doomed handheld game console from Tiger Electronics, who you may know for their licensed LCD handheld games. In 1997, with the release of the Game.com, they attempted to compete with the Game Boy to dire results one might expect.
+
+A large part of [their marketing](https://www.youtube.com/watch?v=R2_5325d_Hw) was that the Game.com had internet capabilities. Indeed, by purchasing [the Internet Cartridge](https://www.diskman.com/presents/gamecom/internet.htm) and connecting the device to a modem (either an existing one or the Game.com-branded model), you could access a non-graphical, text-only browser. It was very bare bones and feature-poor.
+
 ## Game Boy Colour
 
 The Game Boy Colour released in 1998, and in Japan exclusively received [what one could charitably call a browser](https://shonumi.github.io/articles/art14.html) with Mobile Trainer in 2001. Using the Mobile Adapter GB, which is an accessory that connected to mobile phones, the Game Boy Colour could play games online. The Mobile Trainer cartridge, however, provided an email client and web browser.
@@ -97,7 +104,9 @@ The final technically improved version of Dream Passport to release was Dream Pa
 
 There were also variants of Dream Passport produced, such as the themed Hello Kitty Dream Passport 2 (ハローキティのドリームパスポート2), Sakura Taisen Dream Passport 3 (サクラ大戦 ドリームパスポート3), and Dream Passport 3: Urban Style. The latter was part of an [Internet Starter Kit](https://web.archive.org/web/20010615205452/http://www.sega.co.jp/sega/corp/news/nr000821_2.html) aimed at non-tech-savvy folk -- particularly, women. In addition to the special version of Dream Passport 3, the kit included a translucent keyboard and mouse, a mousepad, some manuals, and a guide: The Internet for Housewives.
 
-In the United States of America, PlanetWeb returned with their PlanetWeb Browser under the name 'Web Browser'. It first released for the Dreamcast in September 1999. A small version 1.2 update released afterwards, and in 2000, Web Browser 2.0 released with better JavaScript support and support for Macromedia Flash. It also added support for uploading and downloading Dreamcast save games, downloading and playing MP3s, and included a full copy of the puzzle game [Sega Swirl](https://en.wikipedia.org/wiki/Sega_Swirl). Web Browser 2.62 released in 2001 as a successor to 2.0 and included demos of StarLancer, Speed Devils Online, Typing of the Dead, and 4x4 Evo. It was replaced later the same year by Internet Browser v3.0, which brought support for Macromedia Flash 4, again improved JavaScript support (JavaScript 1.2), and the ability to play Java applet-based web games.
+Also in Japan, Microsoft made an attempt to port the first generation of WebTV to the Dreamcast via the Microsoft WebTV Connection Kit (マイクロソフト ウェブ・ティービー接続キット). It was possible by virtue of the Dreamcast's Windows CE abstraction layer and had an Internet Explorer-based browser. There were only two versions: the initial release version and Microsoft WebTV Connection Kit: 128bit SSL Compatible Version, which added exactly what the title suggests.
+
+In the United States of America, PlanetWeb returned with their PlanetWeb Browser under the name 'Web Browser'. It first released for the Dreamcast in September 1999. A small version 1.2 update released afterwards, and in 2000, Web Browser 2.0 released with better JavaScript support and support for Macromedia Flash. It also added support for uploading and downloading Dreamcast save games, downloading and playing MP3s, and included a full copy of the puzzle game [Sega Swirl](https://en.wikipedia.org/wiki/Sega_Swirl). Web Browser 2.62 released in 2001 as a successor to 2.0 and included demos of StarLancer, Speed Devils Online, Typing of the Dead, and 4x4 Evo. It was replaced later the same year by Internet Browser v3.0, which brought support for Macromedia Flash 4, again improved JavaScript support (JavaScript 1.2), and the ability to play Java 1.1.8 applet-based web games with [PlanetWeb's own Java Virtual Machine (JVM)](https://www.ign.com/articles/2000/06/07/sega-announces-java-enabled-game-machine).
 
 <figure class="left">
 <img src="/assets/posts/game-console-browsers/dreamcast-planetweb-3.avif" alt="A white webpage reading 'FrogFind! The Search Engine for Vintage Computers' with a picture of a green frog with a computer mouse. At the top of the page is the browser interface, which is striped shades of blue and shows the PlanetWeb logo beside the current page title. The cursor is blue and glossy.">
@@ -297,7 +306,7 @@ The Xbox One released the same year as the PlayStation 4, 2013, with its own inb
 
 In 2015 Internet Explorer was removed from the Xbox One with the 'New Xbox One Experience' update. In its place, the then new Microsoft Edge. This was the version now known as 'Microsoft Edge Legacy', built upon the EdgeHTML browser engine forked from Internet Explorer's <abbr title="Microsoft Hyper Text Markup Language">MSHTML</abbr> (Trident) engine. It was no longer designed for the Kinect, instead having the interface of the desktop Windows 10 version.
 
-In 2020, a completely overhauled version of Edge, colloquially referred to as 'New Edge' and built upon Google's Chromium began rolling out. This updated version reached the Xbox One in September 2021. As Edge is on a Windows 11 desktop, Edge is on the Xbox One. The experience is identical, down to the last pixel on the Microsoft Fluent-styled interface.
+In 2020, a completely overhauled version of Edge, colloquially referred to as 'New Edge' and built upon Google's Chromium began rolling out. This updated version reached the Xbox One in September 2021. As Edge is on a Windows 11 desktop, Edge is on the Xbox One. The experience is identical, down to the last pixel on the Microsoft Fluent-styled interface. Some specific features, namely browser extensions and downloads, aren't supported.
 
 ## SteamOS
 
