@@ -9,4 +9,3 @@ photography
 	value: (photo) => functions/parse-markdown.js(photo)
 })
 → Tree.reverse
-→ Tree.cache

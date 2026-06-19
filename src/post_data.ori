@@ -10,4 +10,3 @@ posts
 	value: (post) => functions/parse-markdown.js(post)
 })
 → Tree.reverse
-→ Tree.cache

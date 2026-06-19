@@ -5,4 +5,3 @@ nows
 	date_raw: Origami.basename(fileName)
 })
 → functions/now-diff.js
-→ Tree.cache

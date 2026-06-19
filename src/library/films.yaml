@@ -815,11 +815,14 @@
   release_year: 1997
 - title: The End of Evangelion
   release_year: 1997
+  notes: Neon Genesis is worth watching simply to experience End of Evangelion.
   rating: 5
   watches:
     - date: 2024-11-30
       format: Streaming
     - date: 2024-12-02
+      format: Streaming
+    - date: 2026-06-14
       format: Streaming
 - title: "Star Trek: First Contact"
   release_year: 1996

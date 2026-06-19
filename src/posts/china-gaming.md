@@ -24,7 +24,7 @@ Regarding hardware, in 2000 a ban was enacted on imported game consoles, leading
 
 Elsewhere in the world, the vast majority of games released are released to a global audience in more or less the same state that they are in their country of origin. China, however, has extremely different versions of many games. There are periodic freezes on game approvals, preventing them from being published in the country. Notably from 2018 to 2019 and a significant slowdown through the early 2020s, though approvals have been more common since.
 
-Games are expected to adhere to specific values and avoid allowing some immoral or unethical actions, which leads to them sometimes requiring alteration for distribution in China. The National Press and Publication Administration (<ruby>国家新闻出版署<rt>Guójiā Xīnwén Chūbǎnshǔ</rt></ruby>) is currently the primary force behind this and has a few stipulations against content which:
+Games are expected to adhere to specific values and avoid allowing some immoral or unethical actions, which leads to them sometimes requiring alteration for distribution in China. The National Press and Publication Administration (<ruby>国<rt>Guó</rt>家<rt>jiā</rt>新<rt>Xīn</rt>闻<rt>wén</rt>出<rt>chū</rt>版<rt>bǎn</rt>署<rt>shǔ</rt></ruby>) is currently the primary force behind this and has a few stipulations against content which:
 
 - Spreads superstition or is deemed too horrific or cruel. This particularly applies to corpses, skeletons and blood, which are often removed, replaced, or recoloured. Cult or occult content that conflicts with state ideology is also restricted. In some cases developers go further than what is necessitated, just to ensure there are no complications due to found infractions.
 
