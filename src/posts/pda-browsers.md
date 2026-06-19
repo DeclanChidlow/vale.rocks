@@ -5,7 +5,7 @@ og_description: The web in the palm(Pilot) of your hand.
 pub_time: 2026-06-20
 section: Essay
 tags: ["UI/UX", "front-end"]
-standardsite_rkey:
+standardsite_rkey: 3moohcw56hy2z
 ---
 
 From the moment the technology arrived to allow personal digital assistants (PDAs)[^1] a connection to the internet, people started connecting them to the internet, as is the natural order of things. Initially their connections were just for the most fledgeling of information fetching, but as the '90s progressed and the World Wide Web became a feature of the digital landscape, PDAs received browsers.
