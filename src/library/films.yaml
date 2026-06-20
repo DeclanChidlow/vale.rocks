@@ -217,6 +217,8 @@
   watches:
     - date: 2017-07-14
       format: Cinema
+    - date: 2026-06-20
+      format: Streaming
 - title: Guardians of the Galaxy Vol 2
   release_year: 2017
 - title: Despicable Me 3

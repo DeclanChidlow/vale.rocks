@@ -74,7 +74,7 @@ J-DATA, a company that offered internet services for the Pippin in Japan, releas
 
 In 1997, the final Pippin browser for the Japanese market, WebViewer, released in Japan. WebViewer, instead of being built upon Netscape Navigator, was instead built upon Internet Explorer 3.0. It brought much-improved performance but required an 8MB memory module to function. In some cases it was bundled with NetCruiser 3.0, an updated version of J-Data's browser.
 
-Apple wouldn't release their own browser, Safari, until several years later in 2003, long after they had stopped supporting the Pippin.
+Despite developing it at the same time as the Pipin, Apple didn't release their own Cyberdog browser for the platform, nor did they release Safari on account of it not being introduced until several years later in 2003, long after they had stopped supporting the Pippin.
 
 ## Nintendo 64
 
