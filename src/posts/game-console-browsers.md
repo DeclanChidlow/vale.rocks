@@ -298,7 +298,7 @@ The PlayStation 4 released in 2013 with an inbuilt browser referred to creativel
 
 It has web filtering support, bookmark functionality, and support for 'Frequently Used Pages' which presents the eight most recently accessed websites, and it can manage up to six windows but lacks support for viewing PDFs and Adobe Flash. The browser does support WebGL and JIT [inside the PS4 store and platform content](https://trac.webkit.org/wiki/SonyWebKitWork2016#:~:text=inside%20PS4%20store%20and%20platform%20content), but it isn't exposed for external developers.
 
-As with many consoles before it, the PlayStation 4's browser proved a solid vector for exploits to attack so that users could install custom firmware on their console.
+As with many consoles before it, the PlayStation 4's browser proved a solid vector for exploits to attack so that users could install custom firmware on their console. The PlayStation 4's browser is not exposed as a dedicated application in the PlayStation VR (PSVR).
 
 ## Xbox One
 

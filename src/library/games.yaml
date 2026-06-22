@@ -462,6 +462,9 @@
   playthroughs:
     - start: 2023-06-07
       finish: 2023-07-05
+- title: "Planet 51: The Game"
+  release_year: 2009
+  platforms: ["Xbox 360"]
 - title: Plants vs Zombies
   release_year: 2009
   platforms: ["PC", "PS Vita", "Xbox Series"]

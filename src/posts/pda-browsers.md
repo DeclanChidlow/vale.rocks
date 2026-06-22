@@ -1,8 +1,9 @@
 ---
 title: Web Browsers on PDAs
 description: A history of internet web browsers on personal digital assistant devices and operating systems, including EPOC, Apple Newton, Palm OS, and Windows Mobile (Pocket PC). From small, bespoke browsers with unique features to large mainstream browsers with PDA presence.
-og_description: The web in the palm(Pilot) of your hand.
+og_description: The web in the Palm of your hand.
 pub_time: 2026-06-20
+mod_time: 2026-06-22
 section: Essay
 tags: ["UI/UX", "front-end"]
 standardsite_rkey: 3moohcw56hy2z
@@ -49,6 +50,8 @@ Newt's Cape, also going by Newtscape, was released by solo developer Steve Weyer
 
 LunaSuite Pro released in 1997 or 1998, complete with [LunaSuite Web](https://web.archive.org/web/19980611214502/http://www.lunatech.com/products/lunasuite/features/web.ltml), the Newton's most capable web browser. It adds three ways to access the web. Via the app Go-To, which lets a user directly input a URL; via Bookmarks, which provides a selection of pre-selected pages (that can also be managed); or via LunaRoamer, which is a complete browser interface. Through LunaRoamer, Go-To and Bookmarks can also be accessed. The browser supports GIF and JPEG images, including animated GIFs; audio in Sun Microsystem's `.au` format; some of HTML 3.2, including frames, tables, and forms; and configurable URL filtering. Unfortunately, being the most capable browser, it pushes the Newton a bit _too_ far at times, leading to instability.
 
+In 1998 [NotesWeb](https://www.newted.org/resources/notesweb/Read_Me_Japanese.html) was released. Instead of being a full, dedicated application, it is an applet that uses the Newton's Notes application. Extremely simple in function, it doesn't support frames or forms, nor bookmarks, caching, or proxies.
+
 [Courier](https://40hz.org/Pages/newton/packages/courier/) is a simple, text-only web browser for Newton OS 2.1 which first released in 2003. Unlike typical browsers, Courier treats webpages like notes in the Newton's notepad, which itself acts like a normal notepad. There are no 'bookmarks' for you can save a page by simply opening a new note, almost like a browser tab. However, these tabs can be filed into folders and renamed arbitrarily, and their individual history is saved. It is a very interesting system.
 
 <figure class="pixelated">
@@ -70,6 +73,12 @@ Developed by ILINX, Palmscape was a very popular browser released in 1997 for Pa
 </figure>
 
 After Palmscape, ILINX moved focus to Xiino, a successor to Palmscape. It kept Palmscape's features, but introduced support for JavaScript, SSL, and a few more minor configuration options. Like with Palmscape, a companion program for Windows called Xiino Cruiser was made available.
+
+The proxy browser [Top Gun Wingman](https://www.gribble.org/papers/wingman.pdf) released in October 1997 with support for much of HTML 3 and caching of sites. It was rapidly iterated upon, with several versions being released in quick succession soon after initial release. These updates brought the ability to download databases and applications, horizontal scrolling, interface improvements, support for large images, bug fixes, and other minor improvements.
+
+Wingman was later commercialised as ProxiWeb, touting its proxy system, 'SmartProxy'. Several versions were released, with many improvements upon Wingman. It brought cookies, bookmarks, SSL support, HTML forms, some support for frames, and various other browser staples. Ultimately, ProxiNet, who developed ProxiWeb, was [ultimately acquired by Puma Technology (PumaTech)](https://www.nytimes.com/1999/10/30/business/company-news-puma-technology-acquires-proxinet-for-86-million.html) in 1999. PumaTech subsequently rebranded ProxiWeb to 'Browse-it', under which they added a feature called 'SnapShots' so full pages or sections of sites could be saved for offline access.
+
+HandWEB is a browser developed by Smartcode Software and released in 1997. It supports HTML 2, bookmarks, history, and other typical browser features. There are two major versions of HandWEB. 2.0 introduced support for GIFs, cookies and authentication, bookmark sorting, forms, caching, and offline browsing. It doesn't support frames or JavaScript. In March 2000 Smartcode [announced HandWEB's end of life](https://web.archive.org/web/20000511105957/http://www.smartcodesoft.com).
 
 Qualcomm had entered the Palm OS market in 1998 with their phone/PDA hybrid, the pdQ. A couple of years later in 2000, [they launched Eudora Internet Suite (EIS)](https://www.qualcomm.com/news/releases/2000/06/new-qualcomm-eudora-internet-suite-provides-email-and-web-browsing-millions). One part of EIS is the Eudora Web browser, which comes complete with bookmarks and offline reading capabilities. Qualcomm continued to improve their suite, releasing updates in subsequent years.
 
@@ -102,6 +111,8 @@ A minor update, version 1.1, was released, adding support for cookies, HTTPS, an
 
 It was later rebranded to [Internet Explorer Mobile](https://learn.microsoft.com/en-us/archive/blogs/windowsmobile/internet-explorer-mobile-6) with version 6. Besides the name change, version 6 integrated Adobe Flash Lite 3.1 (based on Flash 8), Jscript v5.7 from Internet Explorer 8, the ability to wrap text for improved mobile display, better cursor navigation, easy switching between mobile/desktop versions of pages via User Agent manipulation, and multiple zoom levels. It also overhauled the interface to be more touch-friendly and added gesture support. Later, Internet Explorer Mobile and its bespoke lightweight engine would go on to be used on the Windows Phone platform.
 
+ProxiNet released their ProxiWeb browser for Windows Mobile, and Browse-it was also made available following ProxiNet's acquisition by PumaTech and the browser's rebranding.
+
 Microsoft made brief attempts to release a proxy-only browser which rendered pages server-side to Windows Mobile via their [Deepfish experiment](https://web.archive.org/web/20070614014343/http://labs.live.com/deepfish/). It released in 2007 in an invite-only capacity and never grew beyond a technology preview within Microsoft Live Labs. Desktop versions of content were presented, with users expected to pan around pages to view it. It did not support interactive features, such as ActiveX controls, animations, AJAX, cookies, JavaScript, or HTTP POST.
 
 In 2001, Bitstream Incorporated released ThunderHawk, a proxy browser. Instead of trying to format or alter pages for small PDA screens like some other browsers, ThunderHawk displays the full desktop version of sites. Feature support depended on device especially as it was also ported to Symbian and Java ME, but it had incremental rendering, persistent cookies, history, bookmarks, and other comprehensive browser features at that time usually limited to desktop. To bypass the issues inherent to displaying a page built for desktop on a small screen, the browser has a split-screen mode allowing the full page to be viewed on one part of the screen alongside a zoomed-in version on a lower part of the screen. It received steady updates until 2008, improving page rendering, the interface, and making minor improvements.
@@ -132,7 +143,7 @@ Beginning with the SL series of Zaurus PDAs in 2002, Sharp switched from a compl
 
 Picsel Technologies released Picsel Browser for some of these machines. Picsel Browser uses a technology they called [ePAGE](https://web.archive.org/web/20040725144921/http://www.picsel.com/pdf/picselbrowser.pdf), which renders not only HTML but also PDFs, Microsoft Office documents, images, Flash files, and text files to a bespoke format so they can be displayed. People were [impressed by the browser](https://www.oesf.org/forum/index.php?topic=12436.0), though noted that the rendering system made some interactive elements static. The browser features zooming and kinetic scrolling.
 
-As a result of Zaurus's success, Linux base, and open platform, people created new ROMs and software for the device. Popularly installed were OpenZaurus, Ångström, Cacko, and pdaXrom. This allows running full desktop environments capable of running full desktop browsers, essentially turning Zaurus devices into mini-laptops and bringing the full range of browsers available on Linux to the devices.
+As a result of Zaurus's success, Linux base, and open platform, people created new ROMs and software for the device. Popularly installed were OpenZaurus, Ångström, Cacko, and pdaXrom. This allows running full desktop environments capable of running full desktop browsers, essentially turning Zaurus devices into mini-laptops and bringing the full range of browsers available on Linux to the devices -- the same as many other PDAs.
 
 ---
 
