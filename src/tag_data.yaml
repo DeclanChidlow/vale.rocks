@@ -109,3 +109,6 @@ linux:
 blink:
   short_description: Browser engine by Google.
   description: the browser engine developed by Google, and used most notably in Chrome, though also used by the majority of other browsers.
+xr:
+  short_description: Virtual and augmented reality.
+  description: extended reality, meaning virtual reality, augmented reality, and mixed reality.
