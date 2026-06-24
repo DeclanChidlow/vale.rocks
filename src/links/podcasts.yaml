@@ -34,3 +34,7 @@ items:
     url: lateralcast.com
     rss: feeds.megaphone.fm/lateralcast
     description: Comedy panel game about weird questions with wonderful answers, hosted by Tom Scott.
+  - title: Wonders of Web Weaving
+    url: web-weaving.jamesg.blog
+    rss: web-weaving.jamesg.blog/episodes.xml
+    description: Conversations with folks who have websites.
