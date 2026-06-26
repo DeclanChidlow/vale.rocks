@@ -38,6 +38,10 @@
       watches:
         - start: 2026-06-06
           finish: 2026-06-07
+    - number: 5
+      watches:
+        - start: 2026-06-10
+          finish: 2026-06-24
 - title: Yuri!!! on Ice
   release_year: 2016
   seasons:
