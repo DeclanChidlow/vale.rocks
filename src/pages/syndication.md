@@ -61,6 +61,7 @@ I [write long-form on this site](/posts), which you can subscribe to via:
 
 - RSS: <https://vale.rocks/posts/feed.xml>
 - JSON Feed: <https://vale.rocks/posts/feed.json>
+- Standard.site records
 
 These feeds also include my annual [pulse entries](/pulse).
 

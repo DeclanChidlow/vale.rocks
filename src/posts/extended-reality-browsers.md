@@ -1,5 +1,5 @@
 ---
-title: Web Browsers on Augmented, Mixed, and Virtual Reality Devices
+title: Web Browsers in Augmented, Mixed, and Virtual Reality
 description: Overview and history of browsers on head-mounted extended reality devices, such as those by Oculus/Meta, Google, Vive, and Apple. Covering browsers available on the devices and the functionality they're capable of, including idiosyncrasies isolated to specific browsers and devices.
 og_description: You thought tab hoarding was bad in 2D.
 pub_time: 2026-06-26

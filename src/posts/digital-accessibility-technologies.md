@@ -113,7 +113,7 @@ Immersive readers are commonly used by a wide variety of people but are of parti
 
 ## Speech Input
 
-Speech input is an input method where a user speaks commands at a microphone, which are then processed by a computer and treated as controls. Speech input takes many forms and is very configurable. Depending on configuration, a user might make a hissing sound to scroll or read off text for a button to click it. Often, optical character recognition (OCR) and overlay[^1] systems are used so that any item on screen can be referenced with speech. A user also can write text via dictation.
+Speech input is an input method where a user speaks commands at a microphone, which are then processed by a computer and treated as controls. Speech input takes many forms and is very configurable. Depending on configuration, a user might make a hissing sound to scroll or read off text labelling a button to click it. Often, optical character recognition (OCR) and overlay[^1] systems are used so that any item on screen can be referenced with speech. A user also can write text via dictation.
 
 Speech input is commonly used by people with motor problems.
 
@@ -121,4 +121,4 @@ Speech input is commonly used by people with motor problems.
 
 Gesture recognition is an input method where a camera and/or depth sensor is used to track body or hand movements without physical contact. Physical movements are bound to computer actions in software, so that, for example, a nod of the head triggers a click. Gesture recognition systems are often used by people who cannot hold or grip physical devices, such as those with severe chronic pain or motor control limitations.
 
-[^1]: I'm _not_ talking about horrid, generic so-called '[accessibility overlays](/posts/accessibility-overlays)' such as those that you see on websites.
+[^1]: I'm _not_ talking about horrid, generic so-called '[accessibility overlays](/posts/accessibility-overlays)' such as those that you see on some websites.

@@ -411,6 +411,12 @@
     - start: 2023-12
       finish: 2023-12
       status: Read
+# - title: Neon Genesis Evangelion
+#   release_year: 1994
+#   authors: Yoshiyuki Sadamoto
+#   reads:
+#     - start: 2026-06-27
+#       status: Read
 - title: Looking for Alibrandi
   release_year: 1992
   authors: Melina Marchetta

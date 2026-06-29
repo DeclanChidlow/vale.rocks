@@ -76,11 +76,9 @@ The [async-tree library](https://weborigami.org/async-tree/) that is the key to 
 
 ## Extensions
 
-Beyond all the functionality explicitly built-in, Origami has a [collection of extensions](https://weborigami.org/builtins/extensions) for integrating with external tools, systems, and services.
+Beyond all the functionality explicitly built-in, Origami has a [collection of extensions](https://weborigami.org/builtins/extensions) for integrating with external tools, systems, and services. Some folks have taken to using extensions for achieving integrations with cloud storage managers such as Dropbox and Google Drive so that they can have a polished authoring flow.
 
 I've been pretty vocal in my love for the search tool [Pagefind](https://pagefind.app) and use it on many of my sites, [including Vale.Rocks](/posts/the-implementation-of-this-site#search). There is a fantastic [Pagefind extension](https://github.com/WebOrigami/extensions/tree/main/pagefind) for Origami that makes it trivial to implement.
-
-Some folks have taken to using extensions for achieving integrations with cloud storage managers such as Dropbox and Google Drive so that they can have a polished authoring flow.
 
 ---
 
