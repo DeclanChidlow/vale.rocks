@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 			const linkFeature = facet.features.find((f) => f.$type === "app.bsky.richtext.facet#link");
 			const mentionFeature = facet.features.find((f) => f.$type === "app.bsky.richtext.facet#mention");
 
-			if (linkFeature) html += `<a href="${linkFeature.uri}" target="_blank" rel="nofollow noreferrer">${facetText}</a>`;
-			else if (mentionFeature) html += `<a href="https://bsky.app/profile/${mentionFeature.did}" target="_blank" rel="nofollow noreferrer">${facetText}</a>`;
+			if (linkFeature) html += `<a href="${linkFeature.uri}" target="_blank" rel="nofollow ugc noreferrer">${facetText}</a>`;
+			else if (mentionFeature) html += `<a href="https://bsky.app/profile/${mentionFeature.did}" target="_blank" rel="nofollow ugc noreferrer">${facetText}</a>`;
 			else html += facetText;
 			lastIndex = facet.index.byteEnd;
 		}
@@ -88,15 +88,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 			descendants.forEach((d) => {
 				if (!d.content || !d.content.trim()) return;
 
-				let parsedContent = d.content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, '<a href="$1" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>');
+				let parsedContent = d.content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, '<a href="$1" target="_blank" rel="nofollow ugc noreferrer">[Attached Image]</a>');
 
 				parsedContent = parsedContent.replace(/<a\s+([^>]+)>/gi, (match, attrs) => {
 					let updatedAttrs = attrs;
 					if (!/target=/i.test(updatedAttrs)) updatedAttrs += ' target="_blank"';
 					if (!/rel=/i.test(updatedAttrs)) {
-						updatedAttrs += ' rel="nofollow noreferrer"';
+						updatedAttrs += ' rel="nofollow ugc noreferrer"';
 					} else {
-						updatedAttrs = updatedAttrs.replace(/rel=["'][^"']*["']/i, 'rel="nofollow noreferrer"');
+						updatedAttrs = updatedAttrs.replace(/rel=["'][^"']*["']/i, 'rel="nofollow ugc noreferrer"');
 					}
 					return `<a ${updatedAttrs}>`;
 				});
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 				if (d.media_attachments && d.media_attachments.length > 0) {
 					const images = d.media_attachments.filter((m) => m.type === "image");
 					if (images.length > 0) {
-						parsedContent += "<br><br>" + images.map((m) => `<a href="${m.url}" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>`).join(" ");
+						parsedContent += "<br><br>" + images.map((m) => `<a href="${m.url}" target="_blank" rel="nofollow ugc noreferrer">[Attached Image]</a>`).join(" ");
 					}
 				}
 
@@ -165,9 +165,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 				if (bskyNode.post.embed) {
 					const embed = bskyNode.post.embed;
 					if (embed.$type === "app.bsky.embed.images#view" && embed.images) {
-						imageText = "<br><br>" + embed.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>`).join(" ");
+						imageText = "<br><br>" + embed.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow ugc noreferrer">[Attached Image]</a>`).join(" ");
 					} else if (embed.$type === "app.bsky.embed.recordWithMedia#view" && embed.media && embed.media.images) {
-						imageText = "<br><br>" + embed.media.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow noreferrer">[Attached Image]</a>`).join(" ");
+						imageText = "<br><br>" + embed.media.images.map((img) => `<a href="${img.fullsize || img.thumb}" target="_blank" rel="nofollow ugc noreferrer">[Attached Image]</a>`).join(" ");
 					}
 				}
 
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		return nodes
 			.map((node) => {
 				const dateStr = node.timestamp.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
-				const sourceLinks = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow noreferrer">${s.platform}</a>`).join(" | ");
+				const sourceLinks = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow ugc noreferrer">${s.platform}</a>`).join(" | ");
 
 				const likeBadge =
 					node.likes > 0
@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 				if (node.children.length > 0) {
 					if (depth < 3) childrenHtml = `<div class="comment-children">${renderTree(node.children, depth + 1)}</div>`;
 					else {
-						const cont = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow noreferrer">Continue on ${s.platform}</a>`).join(" | ");
+						const cont = node.sources.map((s) => `<a href="${s.url}" target="_blank" rel="nofollow ugc noreferrer">Continue on ${s.platform}</a>`).join(" | ");
 						childrenHtml = `<div class="comment-children"><p><em>${cont}</em></p></div>`;
 					}
 				}

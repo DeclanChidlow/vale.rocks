@@ -3,6 +3,7 @@ title: Web Browsers in Augmented, Mixed, and Virtual Reality
 description: Overview and history of browsers on head-mounted extended reality devices, such as those by Oculus/Meta, Google, Vive, and Apple. Covering browsers available on the devices and the functionality they're capable of, including idiosyncrasies isolated to specific browsers and devices.
 og_description: You thought tab hoarding was bad in 2D.
 pub_time: 2026-06-26
+mod_time: 2026-06-29
 section: Essay
 tags: ["XR", "UI/UX", "front-end"]
 standardsite_rkey: 3mp5nfpzx2x2r
@@ -35,6 +36,8 @@ Mozilla implemented their WebVR into desktop Firefox as part of a big push into 
 
 By incorporating the bespoke JanusVR Markup Language (JML) into a website, how this 3D space is presented can be managed. The user interface can be customised, interactive experiences like games can be implemented into the space, and the entire space can be transformed into different rooms with different appearances. Users in the space can place objects and change their appearance as needed. JanusVR is also embeddable, allowing it to be accessed through websites. Janus VR Incorporated [dissolved at the conclusion of 2019](https://www.reddit.com/r/janusVR/comments/e7ga32/a_letter_to_the_janus_vr_community/).
 
+[Exokit](https://web.archive.org/web/20201125142646/https://native.exokit.org/) was a bespoke WebXR engine primarily designed for packaging WebXR experiences as standalone applications and allowing them to expand beyond a browser sandbox into using native libraries and systems. While its engine is bespoke, it does offload 2D pages to Chromium Embedded Framework (CEF). Exokit built a lot of demos and systems atop their engine, and one of these was a browser. Developed in 2019, it was short-lived, and development ceased a few months later. Its unique feature was the ability to merge XR worlds, placing multiple WebXR experiences in the same space which could be manoeuvred around. A separate browser-like front-end for Exokit [was also made](https://github.com/exokitxr/exokit-frontend). Ultimately it seems that the project never quite found its footing beyond a few native ports of WebXR games and that it was discontinued before full browser capabilities became fully realised.[^1]
+
 Though not a dedicated browser per se, [MultiVR.se](https://store.steampowered.com/app/584200/MultiVRse/) is a room-scale virtual reality environment application launched in 2017 which allows for opening browsers and placing them around 3D space. Multiple browser windows can be open, though the browser is extremely simple with minimal controls -- navigation forward/back, an address bar, and a home button.
 
 [Supermedium](https://web.archive.org/web/20190520022458/https://www.supermedium.com/) was a virtual reality browser launched in 2018. It was part of venture capital firm Y-Combinator's Winter 2018 batch. The browser did not have support for viewing standard 2D webpages and was instead entirely centred around WebVR content. The developers of Supermedium took over maintenance of A-Frame from MozVR. In 2020 Supermedium pivoted from creating a VR browser to making a VR comic book reader for the Oculus Quest.
@@ -63,11 +66,13 @@ The Gear VR is a headset from Samsung, which, like Google's Cardboard, requires 
 
 Gear VR released in 2015, and the same year Samsung [launched a browser for their Gear VR system](https://news.samsung.com/global/samsung-launches-optimized-web-browser-for-gear-vr) aptly titled 'Samsung Internet for Gear VR'. The browser is built on Chromium and supports multiple windows (only one can be active at a time), tabs, bookmarks, voice input, and settings for the search engine and control over gaze selection. Version 4.2 [at the end of 2016](https://news.samsung.com/global/samsung-internet-for-gear-vr-update-makes-browsing-more-immersive) introduced the ability to select a 360° image for menus, support for v1.0 of WebVR, and a feature called [Skybox](https://samsunginternet.github.io/docs/skybox), which allows websites to set their own 360° image.
 
+A [developer preview under the codename 'Carmel'](https://developers.meta.com/horizon/blog/carmel-developer-preview-launches-today/) was made available for the Gear VR in 2016, primarily as a test of 3D WebVR content. It was based on Chromium, and being an early development test, it lacked any proper interface other than some buttons to visit demos. Developers were advised to use Chrome Remote Debugging for Android as part of their experimenting. Carmel later graduated into the full Oculus Browser on the Gear VR.
+
 As part of the XR push Mozilla made with MozVR, they launched [Firefox Reality](https://blog.mozilla.org/en/firefox/firefox-reality-now-available/) for standalone Android-based VR headsets in September 2018. Built upon the Gecko engine, in contrast to other browsers available for standalone VR at the time, Firefox Reality started off simple and quickly started packing on features.
 
 Firefox Reality is not a simple port of Firefox for Android or desktop and instead has a completely tailored interface with large, easy-to-access buttons and elements laid out in 3D space. The browser features voice input, private searches, resizing the window, navigation, choosing a 360° environment, viewing browsing history, downloading content, installing extensions, switching between mobile/desktop versions of sites, and other browser staples. In addition to browsing related buttons, the UI displays stats, such as Wi-Fi connection strength and battery levels, and the browser also had full integration with Firefox syncing, allowing sending tabs to and from the headset, as well as syncing bookmarks.
 
-A [developer preview under the codename 'Carmel'](https://developers.meta.com/horizon/blog/carmel-developer-preview-launches-today/) was made available for the Gear VR in 2016, primarily as a test of 3D WebVR content. It was based on Chromium, and being an early development test, it lacked any proper interface other than some buttons to visit demos. Developers were advised to use Chrome Remote Debugging for Android as part of their experimenting. Carmel later graduated into the full Oculus Browser on the Gear VR.
+Vuplex VR Browser released in 2019 for the Gear VR. It uses the Android System WebView and supports multiple, arrangeable open windows and tabs within those windows, so the user can have multiple pages open simultaneously. Expected navigation features are present, as is history management. The skybox can be customised, but bookmarks and tab rearranging aren't present. The browser was likely released as marketing for [Vulplex's 3D WebView](https://developer.vuplex.com/webview/overview).
 
 ## Daydream
 
@@ -75,7 +80,7 @@ Much like Samsung's Gear VR and expanding on what they started with the Cardboar
 
 Being a Google platform, [Chrome launched for the Daydream](https://blog.google/products-and-platforms/products/chrome/browse-web-vr-chrome-launches-daydream-view/) in July 2018. Despite how it was marketed, Chrome on Daydream is not a separate browser but is instead Chrome for Android. It supported WebVR, and, later, WebXR. In addition to being launchable directly from the Daydream's home screen, sites can be opened directly by navigating to them on Chrome on the phone and then placing the phone in a Daydream headset. Support for Daydream was removed from Chrome with Chrome 85.
 
-Daydream received Firefox Reality when the browser launched in 2018, and it stopped receiving updates when the platform was discontinued in October 2019.
+Daydream received Firefox Reality when the browser launched in 2018 and Vuplex VR Web Browser in 2019. Both browsers stopped receiving updates when the Daydream platform was discontinued in October 2019.
 
 ## Oculus Go
 
@@ -90,7 +95,7 @@ The Go has an inbuilt browser. It is the Chromium-based Oculus Browser. It has s
 
 Being so similar, the Oculus Go maintained backwards compatibility with the bulk of Gear VR applications. As such, in mid-2018 [Samsung Internet released for the Go](https://www.meta.com/en-gb/experiences/samsung-internet/849609821813454/), being a port of the Gear VR version and having the same functionality.
 
-Firefox Reality was immediately available for the Go, alongside the Quest and Viveport versions, when the browser launched in 2018. No further releases were published to the Oculus Store after December 4<sup>th</sup>, 2020, due to Oculus disallowing new submissions or updates for Oculus Go applications.
+Firefox Reality was immediately available for the Go, alongside the Quest and Viveport versions, when the browser launched in 2018. Vuplex VR Browser was also made available, being the same as the Gear VR version. No further browser releases or updates were published to the Oculus Store after December 4<sup>th</sup>, 2020, due to Oculus disallowing new submissions or updates for Oculus Go applications.
 
 ## Vive Focus
 
@@ -145,7 +150,7 @@ In June 2025 support for using the Avatar Selfie Camera was added, and the follo
 
 Originally Firefox Reality was available for Quest headsets, but when it was discontinued, Wolvic became available to download. It functions the same as on other headsets, and, on the Quest Pro, supports OpenXR eye tracking as of version 1.7.1.
 
-Igalia has modified the browser to be engine agnostic, allowing them to [introduce support for a Chromium-based version](https://wolvic.com/blog/Chromium_Beta_APKs/) in addition to Gecko. The reason for this decision was Mozilla's deprioritisation of focus on XR improvements and many other XR browsers building upon Chromium and thus providing upstream support. The first full release of the Chromium-based version of Wolvic [came in September 2024](https://wolvic.com/blog/chromium_release_1.0/). However, the Gecko version is the version available in platform stores. In November 2025, Igalia announced that, due to the changing XR landscape, Wolvic would be [moving into maintenance mode](https://wolvic.com/blog/next-steps/). Despite this, minor feature updates have continued.[^1]
+Igalia has modified the browser to be engine agnostic, allowing them to [introduce support for a Chromium-based version](https://wolvic.com/blog/Chromium_Beta_APKs/) in addition to Gecko. The reason for this decision was Mozilla's deprioritisation of focus on XR improvements and many other XR browsers building upon Chromium and thus providing upstream support. The first full release of the Chromium-based version of Wolvic [came in September 2024](https://wolvic.com/blog/chromium_release_1.0/). However, the Gecko version is the version available in platform stores. In November 2025, Igalia announced that, due to the changing XR landscape, Wolvic would be [moving into maintenance mode](https://wolvic.com/blog/next-steps/). Despite this, minor feature updates have continued.[^2]
 
 Released in 2022, [Reality Browser](https://www.reality-browser.com) is an extremely simple browser that allows pages to be placed in 3D space. Multiple windows can be opened, arranged, and resized, and it supports navigating forward/back, refreshing the page, typing in the address bar, and bookmarking sites.
 
@@ -197,4 +202,9 @@ Samsung's Galaxy XR headset launched in 2025 as the first [Android XR](https://w
 
 Android XR is completely compatible with existing Android apps, allowing it to run a wide variety of browsers already available for phones and tablets as screens in virtual space. Google Chrome functions exactly as it does on mobile, though has [full support for WebXR](https://developer.android.com/develop/xr/web).
 
-[^1]: My great thanks to Brian Kardell, who has worked on the Wolvic project at Igalia, for taking the time to [answer some of my questions](https://bsky.app/profile/vale.rocks/post/3mp3k7jzlks2u).
+[^1]:
+    Exokit's history is rather opaque and poorly archived on account of Exokit using Exokit and WebXR to market and document Exokit. As such, archival efforts such as the Internet Archive were unable to preserve copies of the very dynamic pages.
+
+    Exokit itself was compatible with a range of headsets, including Oculus' standalone devices, Google Daydream and Cardboard, Magic Leap, HoloLens, and PCVR, though it is unclear if the browser had specific versions for this platform.
+
+[^2]: My great thanks to Brian Kardell, who has worked on the Wolvic project at Igalia, for taking the time to [answer some of my questions](https://bsky.app/profile/vale.rocks/post/3mp3k7jzlks2u).
