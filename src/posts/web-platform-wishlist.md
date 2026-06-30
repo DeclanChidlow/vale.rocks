@@ -2,7 +2,7 @@
 title: Web Platform Wishlist
 description: A list of features I'd personally like to see added to web platform standards or better implemented in browsers. Improvements to HTML, new CSS, other web systems, or wider parts of the web platform that I think could be improved or expanded on to make the web a better place for users to use and for developers to develop on.
 og_description: Collaborators grow tired of my magic hacks.
-pub_time: 2026-06-26
+pub_time: 2026-06-29
 section: Essay
 tags: ["development", "front-end", "HTML", "CSS"]
 standardsite_rkey: 3mpfexrhotf2a
