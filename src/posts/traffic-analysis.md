@@ -3,7 +3,7 @@ title: The Analytics of This Site
 description: A look at website traffic to Vale.Rocks and a general analysis of the analytics. Particularly looking at popular referrers and the variance from general web analytics.
 og_description: Nerding out on website analytics.
 pub_time: 2025-04-25
-mod_time: 2026-04-01
+mod_time: 2026-07-03
 section: Meta
 standardsite_rkey: 3mn2eearnl32p
 ---
@@ -20,7 +20,7 @@ My analytics tool of choice, [GoatCounter](https://www.goatcounter.com), collect
 
 My readership is not representative of a general audience. As a byproduct of my chosen topics and most popular writings, my readership is largely technical. This is manifested in the data in multiple ways.
 
-As of December 2025, [statcounter's Browser Market Share Worldwide data](https://gs.statcounter.com/browser-market-share/) places Chrome at 71.23%, Edge at 4.6%, Safari at 14.84%, and Firefox at 2.25% market share. Vale.Rocks is at contrast to this with Chrome and Edge at 51%, Safari at 39%, and Firefox at 10%. Given that Firefox still supports [Manifest v2](/posts/everything-is-chrome#manifest-v3), it is the natural choice for adblockers. As such, it may actually be _under_-represented in this data.
+As of December 2025, [statcounter's Browser Market Share Worldwide data](https://gs.statcounter.com/browser-market-share/) places Chrome at 71.23%, Edge at 4.6%, Safari at 14.84%, and Firefox at 2.25% market share. Vale.Rocks is at contrast to this with Chrome and Edge at 54%, Safari at 34%, and Firefox at 11%. Given that Firefox still supports [Manifest v2](/posts/everything-is-chrome#manifest-v3), it is the natural choice for adblockers. As such, it may actually be _under_-represented in this data.
 
 _Going off the figure that [31.5% of people globally use adblockers](https://backlinko.com/ad-blockers-users) (a figure which [might be conservative](https://www.theregister.com/2024/03/27/america_ad_blocker/)), my statistics are possibly 30% or more larger_. Though it might be even higher due to my technical audience, which is more likely to use adblockers and block tracking.
 
@@ -30,11 +30,11 @@ GoatCounter reports iOS as the most used operating system (32%), but it is also 
 
 This all likely leads to _under_-representing what is already _over_-represented in my analytics -- at least as compared to a more general, less niche audience. If you'd like to attempt to extrapolate the actual values based on the above notes, you're welcome to, but I'll be presenting the data values as they come from GoatCounter even though that under-represents figures due to the reasons discussed above.
 
-By a sizable margin (~84%), most site visitors speak English, as you'd expect from a website written in English. This tends to be followed by German at around the 3-4% mark and then French, Spanish, and Chinese. Beyond that, numbers get too small to be of much note.
+By a sizable margin (~81%), most site visitors speak English, as you'd expect from a website written in English. This tends to be followed by German at around the 3-4% mark and then French and Spanish. Beyond that, there is too much flux and numbers get too small to be of much note.
 
-As you'd expect based on languages, Western countries are the biggest readers. The United States of America is in the lead at 39%. I'd assume this is in no small part due to Hacker News. The United Kingdom follows at 8% with Germany close behind at 6%. This is followed by Canada, India, Australia, the Netherlands, and France, all at 3%. I'd also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.
+As you'd expect based on languages, Western countries are the biggest readers. The United States of America is in the lead at 34%. I'd assume this is in no small part due to Hacker News. The United Kingdom follows at 9% with Germany close behind at 6%. This is followed by Canada, India, the Netherlands, France, and Australia, all at 3-4%. I'd also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.
 
-In the below lists of top referrers, Hacker News does not include all alternate front-ends. There are _a lot_ of Hacker News front-ends. _A lot_.
+In the below lists of top referrers, alternate front-end are not counted. To keep track is too complex and never a complete task. As an example, there are _a lot_ of Hacker News front-ends. _A lot_.
 
 ## 2026
 
@@ -61,6 +61,30 @@ Top referrers:
 3. [GitHub](https://github.com) - 1,156 hits
 4. [Bluesky](https://bsky.app) - 592 hits
 5. [The Index](https://piccalil.li/the-index) - 586 hits
+
+### Quarter 2
+
+_For the quarter running from 01/04/2026 until 30/06/2026._
+
+First time seeing a significant number of hits from YouTube (402 in total). Mostly from Kevin Powell's video [Google might have just killed websites](https://www.youtube.com/watch?v=Xpk7soxvOMY).
+
+Total hits during this period: 33,973
+
+Most popular pages:
+
+1. [Web Browsers on Video Game Consoles](/posts/game-console-browsers) - 10,061 hits
+2. [Web Browsers on PDAs](/posts/pda-browsers) - 2,496 hits
+3. [The Death of Character in Game Console Interfaces](/posts/game-console-interfaces) - 2,393 hits
+4. [China's Parallel Web Behind the Wall](/posts/chinas-web) - 2,252 hits
+5. [Landing](/) - 1,851 hits
+
+Top referrers:
+
+1. _Unknown_ - 12,264 hits
+2. [Hacker News](https://news.ycombinator.com) - 8,243 hits
+3. [Google](https://google.com) - 1,873 hits
+4. [Bluesky](https://bsky.app) - 1,494 hits
+5. [GitHub](https://github.com) - 706 hits
 
 ## 2025
 
