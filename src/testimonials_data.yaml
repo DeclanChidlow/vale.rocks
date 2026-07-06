@@ -1,0 +1,25 @@
+- entity: Sam Rose
+  description: "Visual Essayist & Developer Educator"
+  website: samwho.dev
+  image-y: 1px
+  quote: "Declan gave me feedback on [my Reservoir Sampling blog post](https://samwho.dev/reservoir-sampling), helping me improve several sections. His guest posts for Piccalilli have taught me all sorts about the web, notably view transitions and designing for print. Declan's energy for and belief in the web is infectious."
+- entity: Geoff Graham
+  description: "Web Developer & Educator"
+  website: geoffgraham.me
+  image-y: -48px
+  quote: "Declan is the ideal front-ender: incredibly knowledgeable on the technical end, but with a thoughtful and keen eye to the human elements that produce delightful experiences. We've had the pleasure of working together on technical writing projects and I always walk away a better person from them."
+- entity: Andy Bell
+  description: "Founder of [Set Studio](https://set.studio) & [Piccalilli](https://piccalil.li)"
+  website: bell.bz
+  image-y: -96px;
+  quote: "I've been lucky enough to work with Declan on a couple of writing projects and I can't say anything but good things about them. Always prompt, always an incredible high attention to detail and above all else, always a pleasure to work with."
+- entity: Mauro Bieg
+  description: "Senior Full-stack Engineer & Creator of [Mastro](https://mastrojs.github.io)"
+  website: bsky.app/profile/mb21.bsky.social
+  image-y: -144px
+  quote: "Whenever an article by Declan shows up in my feed, I'm sure to check it out. They absolutely know what they're talking about, and it's always a pleasure to read things clearly expressed."
+- entity: David Bushell
+  description: "Freelance Web Designer & Front-end Developer"
+  website: dbushell.com
+  image-y: bottom
+  quote: "I commissioned Declan to design a bespoke icon set. Declan delivered delightful design despite an impractical deadline. Their contribution to the project was indispensable. The initial brief and subsequent feedback was handled like a seasoned professional."

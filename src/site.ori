@@ -17,7 +17,7 @@
 		feed.xml = Origami.rss(post_syndication.ori(Tree.take(combined_post_feed, 10)))
 	}
 
-	portfolio.html = pages/portfolio.ori(portfolio_data.ori)
+	portfolio.html = pages/portfolio.ori(portfolio_data.ori, testimonials_data.yaml)
 	portfolio/ = Tree.map(portfolio_data.ori, portfolio_template.ori)
 
 	(paginated_micros) = Tree.paginate(micro_data.ori, 30)

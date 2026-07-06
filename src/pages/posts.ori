@@ -6,8 +6,8 @@
 	canonical: "/posts"
 	template_image: "post"
 
-_body: 
-`<h1 class="section" data-pagefind-ignore>Posts</h1>
+_body: `
+<h1 class="section" data-pagefind-ignore>Posts</h1>
 
 <div data-pagefind-ignore>
 	<form id="refine-posts">
@@ -39,9 +39,8 @@ _body:
 	</form>
 
 	<ol id="posts">
-		${ Tree.map(posts_data,
-		(post, key) =>
-		`<li class="post">
+		${ Tree.map(posts_data, (post, key) => `
+		<li class="post">
 			<h2><a href="/posts/${ Origami.basename(key) }">${ post.title }</a></h2>
 			<p>${ post.section }</p>
 			<ul>
@@ -51,8 +50,10 @@ _body:
 					${ post.mod_time ? `– <time datetime="${ post.mod_time }" title="Date of last notable modification." data-timezone-ignore>${ functions/pretty-date.js(post.mod_time) }</time>` : '' }
 				</li>
 			</ul>
-		</li>`)}
+		</li>
+		`)}
 	</ol>
 </div>
 
-<script src="/assets/scripts/refine-posts.js"></script>`})
+<script src="/assets/scripts/refine-posts.js"></script>
+`})

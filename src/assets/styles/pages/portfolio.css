@@ -151,14 +151,18 @@ section#tools-and-technologies {
 		margin-block: 0;
 	}
 
+	hgroup {
+		margin-block: 1rem;
+	}
+
 	.marquee {
-		--gap: 2rem;
+		--gap: 1.5rem;
 		display: flex;
 		overflow: hidden;
 		gap: var(--gap);
 		margin-inline: -0.8rem;
-		margin-block: 0.5rem;
 		position: relative;
+		opacity: var(--opacity);
 
 		ul {
 			flex-shrink: 0;
@@ -168,6 +172,7 @@ section#tools-and-technologies {
 			gap: var(--gap);
 			margin: 0;
 			animation: scroll 180s linear infinite;
+			animation-duration: calc(180s + var(--marquee-duration, 0s));
 
 			&:dir(rtl) {
 				animation-name: scroll-rtl;
@@ -179,6 +184,7 @@ section#tools-and-technologies {
 
 			li {
 				list-style: none;
+				margin-block: 0.25rem;
 			}
 		}
 
@@ -305,6 +311,10 @@ section#testimonials {
 		q {
 			position: relative;
 			font-style: italic;
+
+			p {
+				display: inline;
+			}
 
 			&::before,
 			&::after {
