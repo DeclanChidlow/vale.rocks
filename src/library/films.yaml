@@ -1064,6 +1064,11 @@
       format: Streaming
     - date: 2024-12-14
       format: Streaming
+- title: Alien
+  release_year: 1979
+  watches:
+    - date: 2026-07-09
+      format: Streaming
 - title: Apocalypse Now
   release_year: 1979
   rating: 5

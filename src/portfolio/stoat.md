@@ -2,7 +2,7 @@
 title: Stoat
 description: An online chat platform that places users first and how I have contributed to it over the several years I've been involved with the project. From maintenance, moderation, and support to designing core brand resources.
 og_description: User-first chat platform.
-tags: [design, Stoat, development, front-end development]
+tags: [design, Stoat, development, front-end]
 accent_colour: "#8c24ec"
 hoisted: 1
 ---

@@ -2,7 +2,7 @@
 title: Pamela Maitland Carter
 description: Poetry, personal branding, podcasts, and art all presented and wrapped up in a personal website and a set of print books made available for purchase.
 og_description: Poetry, podcasts, and art brought to life with splendiferous design.
-tags: [design, development, front-end development]
+tags: [design, development, front-end]
 accent_colour: "#91b95b"
 hoisted: 3
 ---

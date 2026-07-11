@@ -2,7 +2,7 @@
 title: AutoMod
 description: A popular moderation bot developed for Stoat that protects over 220K users across over 8K servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
 og_description: Moderation bot for Stoat that keeps communities safe.
-tags: [moderation, design, Stoat, development, front-end development]
+tags: [moderation, design, Stoat, development, front-end]
 accent_colour: "#ff6763"
 repository: tangled.org/vale.rocks/AutoMod
 hoisted: 4

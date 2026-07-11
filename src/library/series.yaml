@@ -42,6 +42,10 @@
       watches:
         - start: 2026-06-10
           finish: 2026-06-24
+- title: Trip for Biscuits
+  release_year: 2017
+  seasons:
+    - number: 1
 - title: Yuri!!! on Ice
   release_year: 2016
   seasons:
@@ -131,6 +135,13 @@
     - number: 1
     - number: 2
     - number: 3
+# - title: Torchwood
+#   release_year: 2006
+#   seasons:
+#     - number: 1
+#       notes: I can only imagine the second episode was written with one hand.
+#       watches:
+#         - start: 2026-06-07
 - title: Dexter
   release_year: 2006
   rating: 4

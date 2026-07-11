@@ -1,5 +1,10 @@
 main > div {
 	max-width: 80rem;
+
+	> p {
+		max-inline-size: 75ch;
+		margin-block-end: 2rem;
+	}
 }
 
 #refine-posts {

@@ -8,8 +8,9 @@
 
 _body: `
 <h1 class="section" data-pagefind-ignore>Posts</h1>
-
 <div data-pagefind-ignore>
+	<p>These are long-form, structured articles. They're written to be evergreen and are revised as necessary to keep them up-to-date. Don't let an old initial publication date scare you off.</p>
+
 	<form id="refine-posts">
 		<div class="filter">
 			<label for="posts-filter">Category:</label>
@@ -51,7 +52,7 @@ _body: `
 				</li>
 			</ul>
 		</li>
-		`)}
+		`) }
 	</ol>
 </div>
 

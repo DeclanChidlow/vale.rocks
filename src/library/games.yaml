@@ -89,6 +89,10 @@
 - title: Mario Kart 8 Deluxe
   release_year: 2017
   platforms: ["Nintendo Switch", "PC"]
+- title: Getting Over It with Bennett Foddy
+  release_year: 2017
+  platforms: ["PC"]
+  notes: Fuck this shit.
 - title: Fibbage 3
   release_year: 2017
   platforms: ["PC"]
@@ -378,6 +382,10 @@
 - title: Bloons Tower Defence 5
   release_year: 2011
   platforms: ["PC"]
+- title: The Stanley Parable
+  release_year: 2011
+  platforms: ["PC"]
+  notes: Played original Half-Life 2 mod at time unknown.
 - title: Terraria
   release_year: 2011
   platforms: ["iOS", "PC"]
@@ -550,6 +558,10 @@
 - title: Wii Sports
   release_year: 2006
   platforms: ["Wii"]
+- title: New Super Mario Bros
+  release_year: 2006
+  platforms: ["DS"]
+  notes: I've made enemies in the Mario vs Luigi multiplayer mode.
 - title: Wii Play
   release_year: 2006
   platforms: ["Wii"]
