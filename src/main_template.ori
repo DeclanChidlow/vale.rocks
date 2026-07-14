@@ -170,7 +170,7 @@
 			<ul>
 				<li><a href="https://fedi.vale.rocks/vale" rel="me">${ (icons.yaml).fediverse }</a></li>
 				<li><a href="https://bsky.app/profile/did:plc:7qg6mz2xtzozxkgbcvf4pdnu" rel="me">${ (icons.yaml).bluesky }</a></li>
-				<li><a href="https://tangled.org/did:plc:7qg6mz2xtzozxkgbcvf4pdnu rel="me">${ (icons.yaml).tangled }</a></li>
+				<li><a href="https://tangled.org/did:plc:7qg6mz2xtzozxkgbcvf4pdnu" rel="me">${ (icons.yaml).tangled }</a></li>
 				<li><a href="https://codepen.io/OuterVale" rel="me">${ (icons.yaml).codepen }</a></li>
 				<li><a href="https://www.youtube.com/@outervale" rel="me">${ (icons.yaml).youtube }</a></li>
 			</ul>

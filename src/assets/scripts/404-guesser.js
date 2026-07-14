@@ -187,9 +187,8 @@ class URLSuggester {
 			suggestions.forEach((url) => {
 				const li = document.createElement("li");
 				const a = document.createElement("a");
-				const cleanUrl = url.replace(/\.html$/, "");
-				a.href = cleanUrl;
-				a.textContent = cleanUrl;
+				a.href = url;
+				a.textContent = url;
 				li.appendChild(a);
 				ul.appendChild(li);
 			});

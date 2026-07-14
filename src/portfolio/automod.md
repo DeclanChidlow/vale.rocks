@@ -1,6 +1,6 @@
 ---
 title: AutoMod
-description: A popular moderation bot developed for Stoat that protects over 220K users across over 8K servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
+description: A popular moderation bot developed for Stoat that protects over 230K users across over 8K servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
 og_description: Moderation bot for Stoat that keeps communities safe.
 tags: [moderation, design, Stoat, development, front-end]
 accent_colour: "#ff6763"
@@ -8,23 +8,29 @@ repository: tangled.org/vale.rocks/AutoMod
 hoisted: 4
 ---
 
-AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **8000 servers** with a combined total user count in excess of **220,000 people**.
+AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **8700 servers** with a combined total user count in excess of **230,000 people**.
 
 <figure class="right">
 <img src="https://automod.vale.rocks/assets/images/filter_example.avif" alt="A user adds the word 'poo' to the filter list using '/filter add poo'. AutoMod confirms the addition with 'strictness HARD.'" style="background: light-dark(var(--black), transparent); padding: 1rem;">
 <figcaption>AutoMod following a request to begin filtering out a word.</figcaption>
 </figure>
 
-I am responsible for the bot’s full development lifecycle, including its development, maintenance, and hosting for the official Stoat instance. AutoMod provides essential moderation features such as message filtering, punitive user actions, and comprehensive action logging, among much more.
+I am responsible for the bot's full development lifecycle, including its development, maintenance, and hosting for the official Stoat instance. AutoMod provides essential moderation features such as message filtering, punitive user actions, and comprehensive action logging, among much more.
 
 Spurred by the growing need for improved user resources, I created a [**custom documentation website**](https://automod.vale.rocks) from the ground up, making comprehensive support materials presented in an accessible manner available to all users. Realising the need for better communication with the user base, I extended this site to also support [a **blog**](https://automod.vale.rocks/blog/introducing-the-automod-blog).
 
-The bot is developed in a monorepo, written in **JavaScript/TypeScript**, and makes use of a range of modern libraries and technologies, including:
+The bot is developed in a monorepo, written in **JavaScript/TypeScript**. It is built with a modern stack but is purposefully very lean on dependencies for improved security, size, and maintainability. It does rely upon some modern libraries and technologies, including:
 
-- [**Stoat.js**](https://github.com/stoatchat/javascript-client-sdk) for interacting with Stoat's API.
 - [**Valkey**](https://valkey.io), a fork of [**Redis**](https://redis.io), for high-speed caching and real-time operations.
 - [**MongoDB**](https://www.mongodb.com) for persistent data storage.
 - [**Docker**](https://www.docker.com) for containerisation, allowing consistent and reliable deployment and distribution.
+
+Though AutoMod is largely a back-end affair, my personal skill set lies in the front-end, which came into play for the development of a full web-based dashboard to manage the bot's functions and presence in servers. From the dashboard, users can graphically manage spam handling, message filtering, command prefixes, and a range of other options after logging in through a custom login flow.
+
+<figure class="shorter">
+<img src="https://automod.vale.rocks/assets/images/dashboard_home.avif" alt="A dashboard interface with a grid of cards indicating different servers, with some information about each, including if the person is an owner, manager, moderator, or user.">
+<figcaption>AutoMod dashboard's server overview page.</figcaption>
+</figure>
 
 ## Other Bots
 

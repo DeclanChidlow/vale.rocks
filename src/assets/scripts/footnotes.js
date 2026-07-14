@@ -4,6 +4,8 @@ class FootnotesSidenotes {
 		this.gap = 40;
 		this.references = document.querySelectorAll("sup a[data-footnote-ref]");
 		this.sidenoteContainer = this.createSidenoteContainer();
+		this.entries = [];
+		this.ticking = false;
 		this.init();
 	}
 
@@ -13,6 +15,18 @@ class FootnotesSidenotes {
 		}
 		this.setupReferences();
 		this.updateArticleWidth();
+
+		window.addEventListener("load", () => this.updateAllPositions());
+		window.addEventListener("resize", () => {
+			if (!this.ticking) {
+				window.requestAnimationFrame(() => {
+					this.updateAllPositions();
+					this.ticking = false;
+				});
+				this.ticking = true;
+			}
+		});
+		document.fonts.ready.then(() => this.updateAllPositions());
 	}
 
 	updateArticleWidth() {
@@ -56,6 +70,13 @@ class FootnotesSidenotes {
 		sidenote.style.insetBlockStart = `${top}px`;
 	}
 
+	updateAllPositions() {
+		this.updateArticleWidth();
+		this.entries.forEach(({ sidenote, button }, index) => {
+			this.positionSidenote(sidenote, button, index);
+		});
+	}
+
 	createPopover(content, index) {
 		const popover = document.createElement("div");
 		popover.id = `footnote-popover-${index}`;
@@ -97,14 +118,7 @@ class FootnotesSidenotes {
 		button.setAttribute("popovertarget", popover.id);
 		button.setAttribute("popovertargetaction", "toggle");
 
-		const updatePosition = () => {
-			this.updateArticleWidth();
-			this.positionSidenote(sidenote, button, index);
-		};
-
-		window.addEventListener("load", updatePosition);
-		window.addEventListener("resize", updatePosition);
-		document.fonts.ready.then(updatePosition);
+		this.entries.push({ sidenote, button });
 	}
 
 	setupReferences() {

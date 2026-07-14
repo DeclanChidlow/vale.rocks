@@ -124,11 +124,11 @@ class YtEmbed extends HTMLElement {
 
 			if (currentTime >= start && currentTime <= end) {
 				if (!isMarked) {
-					line.innerHTML = `<mark>${line.textContent}</mark>`;
+					line.innerHTML = `<mark>${line.innerHTML}</mark>`;
 				}
 				activeLine = line;
 			} else if (isMarked) {
-				line.innerHTML = line.textContent;
+				line.innerHTML = line.querySelector("mark").innerHTML;
 			}
 		});
 

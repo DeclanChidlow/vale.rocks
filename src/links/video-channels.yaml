@@ -1,6 +1,6 @@
 title: Vale's Video Channel Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 24 Apr 2026 00:00:00 +0000
+modTime: 14 Jul 2026 00:00:00 +0000
 items:
   - title: Redlyne
     url: www.youtube.com/@Redlyne_
@@ -194,6 +194,10 @@ items:
     url: www.youtube.com/@WillCogley
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCkUD_8b1JoTL2ipOVtxfNKw
     description: Animatronics.
+  - title: brawlers world
+    url: www.youtube.com/@brwlers
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UCkDlCwv3GcX-ZorqDLMdCEQ
+    description: 2000s-style animations and vibes.
   - title: 2swap
     url: www.youtube.com/@twoswap
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCiNLr9wX35KksK77mrQgxiw

@@ -27,8 +27,7 @@
 			</div>
 
 			<div class="socials">
-				${ item.unsplash_link ? `
-				<a href="${ item.unsplash_link }" title="Unsplash">${ (icons.yaml).unsplash }</a>` : '' }
+				${ item.unsplash_link ? `<a href="${ item.unsplash_link }" title="Unsplash">${ (icons.yaml).unsplash }</a>` : '' }
 			</div>
 		</header>
 
@@ -60,12 +59,11 @@
 		<header>
 			<div>
 				<svg viewBox="0 -960 960 960"><title>Demo</title><path d="M336-240 96-480l240-240 51 51-189 189 189 189zm288 0-51-51 189-189-189-189 51-51 240 240z"/></svg>
-				<h2><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></h2>
+				<h2><a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
 			</div>
 
 			<div class="socials">
-				${ item.codepen_slug ? `
-				<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug }" title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
+				${ item.codepen_slug ? `<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug }" title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
 			</div>
 		</header>
 
@@ -84,8 +82,7 @@
 			</div>
 
 			<div class="socials">
-				${ item.youtube_id ? `
-				<a href="https://www.youtube.com/${ item.format === 'short' ? `shorts/` : `watch?v=` }${ item.youtube_id }" title="YouTube">${ item.format === 'short' ? `${ (icons.yaml).youtube_shorts }` : `${ (icons.yaml).youtube }` }</a>` : '' }
+				${ item.youtube_id ? `<a href="https://www.youtube.com/${ item.format === 'short' ? `shorts/` : `watch?v=` }${ item.youtube_id }" title="YouTube">${ item.format === 'short' ? `${ (icons.yaml).youtube_shorts }` : `${ (icons.yaml).youtube }` }</a>` : '' }
 			</div>
 		</header>
 		

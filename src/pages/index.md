@@ -95,7 +95,7 @@ If you wish to know more about the specifics of this site, you can read [The Des
 	<defs>
 		<filter id="distort">
 			<feTurbulence baseFrequency="0.01 0.03" numOctaves="1" />
-			<feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="R">
+			<feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="R" />
 		</filter>
 	</defs>
 </svg>

@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 12 May 2026 00:00:00 +0000
+modTime: 14 Jul 2026 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -204,10 +204,6 @@ items:
     url: www.scottohara.me
     rss: www.scottohara.me/feed.xml
     description: Web development, largely focusing on accessibility.
-  - title: Waxy.org
-    url: waxy.org
-    rss: waxy.org/feed/
-    description: Various web things.
   - title: Simon Willison's Weblog
     url: simonwillison.net
     atom: simonwillison.net/atom/entries/
