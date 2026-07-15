@@ -56,13 +56,22 @@ document.addEventListener("DOMContentLoaded", async () => {
 		return html.replace(/\n/g, "<br>");
 	}
 
-	function normalize(htmlOrText) {
+	function normalise(htmlOrText) {
 		const tmp = document.createElement("div");
 		tmp.innerHTML = htmlOrText;
 		return tmp.textContent
 			.toLowerCase()
 			.replace(/https?:\/\/[^\s]+/g, "")
 			.replace(/[^a-z0-9]/g, "");
+	}
+
+	function sanitiseHTML(html) {
+		const tmp = document.createElement("div");
+		if (tmp.setHTML) {
+			tmp.setHTML(html);
+			return tmp.innerHTML;
+		}
+		return html;
 	}
 
 	async function fetchAkkoma(url) {
@@ -201,7 +210,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	function filterNodes(nodes, articleText) {
 		return nodes.filter((node) => {
 			if (node.isOwner) {
-				const norm = normalize(node.content);
+				const norm = normalise(node.content);
 				if (norm.length > 20 && articleText.includes(norm)) return false;
 			}
 
@@ -215,10 +224,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 		nodes.forEach((newNode) => {
 			if (!newNode) return;
-			const newNorm = normalize(newNode.content);
-			const newNormAuthor = normalize(newNode.author);
+			const newNorm = normalise(newNode.content);
+			const newNormAuthor = normalise(newNode.author);
 
-			const match = mergedNodes.find((existingNode) => normalize(existingNode.content) === newNorm && normalize(existingNode.author) === newNormAuthor);
+			const match = mergedNodes.find((existingNode) => normalise(existingNode.content) === newNorm && normalise(existingNode.author) === newNormAuthor);
 
 			if (match) {
 				newNode.sources.forEach((s) => {
@@ -246,7 +255,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 				const likeBadge =
 					node.likes > 0
-						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14" style="fill: currentColor; vertical-align: middle;"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg>${node.likes}</span> • `
+						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14" fill="currentColor"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg>${node.likes}</span> • `
 						: "";
 
 				let childrenHtml = "";
@@ -257,7 +266,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 						childrenHtml = `<div class="comment-children"><p><em>${cont}</em></p></div>`;
 					}
 				}
-				return `<div class="comment-item"><div class="comment-meta"><strong>${node.author}</strong> • ${dateStr} • ${likeBadge}${sourceLinks}</div><div class="comment-body readable">${node.content}</div>${childrenHtml}</div>`;
+				return `<div class="comment-item"><div class="comment-meta"><strong>${node.author}</strong> • ${dateStr} • ${likeBadge}${sourceLinks}</div><div class="comment-body readable">${sanitiseHTML(node.content)}</div>${childrenHtml}</div>`;
 			})
 			.join("");
 	}
@@ -276,7 +285,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	});
 
 	if (articleEl) {
-		const articleText = normalize(articleEl.innerText);
+		const articleText = normalise(articleEl.innerText);
 		rawTrees = filterNodes(rawTrees, articleText);
 	}
 

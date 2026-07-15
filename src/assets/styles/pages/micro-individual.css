@@ -121,6 +121,10 @@ article {
 		}
 	}
 
+	.reply-likes svg {
+		vertical-align: middle;
+	}
+
 	.comments-list {
 		margin-block-start: 1rem;
 		padding-inline-end: 1rem;

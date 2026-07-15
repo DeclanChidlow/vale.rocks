@@ -19,8 +19,9 @@ window.addEventListener("DOMContentLoaded", () => {
 	const params = new URLSearchParams(window.location.search);
 	if (input && params.has("q")) {
 		input.value = params.get("q");
+	} else {
+		input?.focus();
 	}
-	input?.focus();
 
 	const syncToUI = () => {
 		const deferredParams = new URLSearchParams(window.location.search);

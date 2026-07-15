@@ -2,13 +2,11 @@ class RepoDetails {
 	constructor(repo) {
 		this.repoUrl = repo;
 		this.isGithub = repo.startsWith("github.com/");
-		this.isTangled = repo.startsWith("tangled.org/");
 		this.repoPath = repo.replace("github.com/", "");
 	}
 
 	async fetchStats() {
 		if (this.isGithub) return this.fetchGithubStats();
-		if (this.isTangled) return null;
 		return null;
 	}
 

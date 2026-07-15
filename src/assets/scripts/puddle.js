@@ -21,32 +21,15 @@ class AsciiNode {
 		this.currentForce = 0;
 		this.nextForce = 0;
 		this.isAddedToUpdate = false;
-		this.isMoveForceDelayComplete = true;
 		this.element = this.#createNodeElement();
 	}
 
 	#createNodeElement() {
 		const element = document.createElement("span");
+		element.dataset.xx = this.xx;
+		element.dataset.yy = this.yy;
 		this.#drawNode(0, element);
-		this.#applyListeners(element);
 		return element;
-	}
-
-	#applyListeners(element) {
-		element.addEventListener("click", () => this.startRipple());
-
-		let moveTimeout;
-		element.addEventListener("mousemove", () => {
-			if (!this.isMoveForceDelayComplete) return;
-
-			this.isMoveForceDelayComplete = false;
-			this.startRipple();
-
-			clearTimeout(moveTimeout);
-			moveTimeout = setTimeout(() => {
-				this.isMoveForceDelayComplete = true;
-			}, CONFIG.MOUSE_DELAY);
-		});
 	}
 
 	startRipple(rippleStrength = this.data.maxRippleStrength) {
@@ -111,6 +94,7 @@ class PuddleData {
 		this.maxRippleStrength = CONFIG.MAX_RIPPLE_STRENGTH;
 		this.forceDampeningRatio = CONFIG.FORCE_DAMPENING_RATIO;
 		this.forceCutOff = CONFIG.FORCE_CUTOFF;
+		this.mouseThrottleMap = new Map();
 	}
 
 	refresh(numRows, numCols) {
@@ -120,6 +104,7 @@ class PuddleData {
 		this.numRows = numRows;
 		this.numCols = numCols;
 		this.isUpdateDone = true;
+		this.mouseThrottleMap.clear();
 	}
 
 	isValidCoordinate(xx, yy) {
@@ -199,6 +184,7 @@ class Puddle {
 	#initialize() {
 		this.#setupDimensions();
 		this.data = new PuddleData(this.numRows, this.numCols);
+		this.#setupDelegatedListeners();
 		this.setupGrid();
 	}
 
@@ -214,8 +200,39 @@ class Puddle {
 	}
 
 	#resizeHandler() {
-		this.#setupDimensions();
-		this.setupGrid();
+		clearTimeout(this._resizeTimeout);
+		this._resizeTimeout = setTimeout(() => {
+			this.#setupDimensions();
+			this.setupGrid();
+		}, 150);
+	}
+
+	#setupDelegatedListeners() {
+		if (this._listenersSetup) return;
+		this._listenersSetup = true;
+
+		this.parentNode.addEventListener("click", (e) => {
+			const span = e.target.closest("span");
+			if (!span) return;
+			const xx = Number(span.dataset.xx);
+			const yy = Number(span.dataset.yy);
+			const node = this.data.getNode(xx, yy);
+			if (node) node.startRipple();
+		});
+
+		this.parentNode.addEventListener("mousemove", (e) => {
+			const span = e.target.closest("span");
+			if (!span) return;
+			const xx = Number(span.dataset.xx);
+			const yy = Number(span.dataset.yy);
+			const key = `${xx},${yy}`;
+			const now = Date.now();
+			const lastTime = this.data.mouseThrottleMap.get(key) || 0;
+			if (now - lastTime < CONFIG.MOUSE_DELAY) return;
+			this.data.mouseThrottleMap.set(key, now);
+			const node = this.data.getNode(xx, yy);
+			if (node) node.startRipple();
+		});
 	}
 
 	setupGrid() {

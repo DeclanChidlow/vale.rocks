@@ -15,22 +15,27 @@ class SitemapGraph {
 		this.edges = [];
 		this.camera = { x: 0, y: 0, zoom: 0.8 };
 		this.physics = true;
+		this.dirty = true;
 		this.selectedNode = null;
 		this.isDragging = false;
 		this.isDraggingNode = false;
 		this.dragStart = { x: 0, y: 0 };
-		this.mousePos = { x: 0, y: 0 };
 		this.draggedNode = null;
 		this.dragOffset = { x: 0, y: 0 };
 		this.hasInteracted = false;
+		this.animationId = null;
+		this.isPageVisible = true;
+		this.resizeRafId = null;
 
 		this.touches = new Map();
 		this.lastTouchDistance = 0;
 		this.isPinching = false;
-		this.touchStartTime = 0;
-		this.touchTapThreshold = 300;
-		this.touchMoveThreshold = 10;
-		this.screenBounds = { minX: 0, minY: 0, maxX: 0, maxY: 0 };
+
+		this.width = 0;
+		this.height = 0;
+		this.halfW = 0;
+		this.halfH = 0;
+		this._lastHover = 0;
 
 		this.setupCanvas();
 		this.setupEventListeners();
@@ -40,34 +45,48 @@ class SitemapGraph {
 	setupCanvas() {
 		const resize = () => {
 			this.container.style.width = `${document.documentElement.clientWidth}px`;
-			const containerRect = this.container.getBoundingClientRect();
+			const rect = this.container.getBoundingClientRect();
 
-			const oldWidth = this.canvas.width > 0 ? this.canvas.width / devicePixelRatio : 0;
-			const oldHeight = this.canvas.height > 0 ? this.canvas.height / devicePixelRatio : 0;
+			const oldW = this.width;
+			const oldH = this.height;
 
-			this.canvas.width = containerRect.width * devicePixelRatio;
-			this.canvas.height = containerRect.height * devicePixelRatio;
-			this.canvas.style.width = containerRect.width + "px";
-			this.canvas.style.height = containerRect.height + "px";
+			this.canvas.width = rect.width * devicePixelRatio;
+			this.canvas.height = rect.height * devicePixelRatio;
+			this.canvas.style.width = rect.width + "px";
+			this.canvas.style.height = rect.height + "px";
 			this.ctx.scale(devicePixelRatio, devicePixelRatio);
 
-			if (oldWidth > 0 && oldHeight > 0 && this.hasInteracted) {
-				const offsetX = (containerRect.width - oldWidth) / 2;
-				const offsetY = (containerRect.height - oldHeight) / 2;
-				this.camera.x += offsetX / this.camera.zoom;
-				this.camera.y += offsetY / this.camera.zoom;
+			this.width = rect.width;
+			this.height = rect.height;
+			this.halfW = this.width / 2;
+			this.halfH = this.height / 2;
+
+			if (oldW > 0 && oldH > 0 && this.hasInteracted) {
+				const ox = (rect.width - oldW) / 2;
+				const oy = (rect.height - oldH) / 2;
+				this.camera.x += ox / this.camera.zoom;
+				this.camera.y += oy / this.camera.zoom;
 			}
 
+			this.dirty = true;
 			if (this.nodes.length > 0) this.render();
+			this.resizeRafId = null;
 		};
+
+		const debouncedResize = () => {
+			if (this.resizeRafId) return;
+			this.resizeRafId = requestAnimationFrame(resize);
+		};
+
 		resize();
-		window.addEventListener("resize", resize);
+		window.addEventListener("resize", debouncedResize);
 	}
 
 	setupEventListeners() {
 		this.canvas.addEventListener("mousedown", this.onMouseDown.bind(this));
 		this.canvas.addEventListener("mousemove", this.onMouseMove.bind(this));
 		this.canvas.addEventListener("mouseup", this.onMouseUp.bind(this));
+
 		this.canvas.addEventListener("wheel", this.onWheel.bind(this), { passive: false });
 
 		this.canvas.addEventListener("touchstart", this.onTouchStart.bind(this), { passive: false });
@@ -78,7 +97,9 @@ class SitemapGraph {
 		this.canvas.addEventListener("contextmenu", (e) => e.preventDefault());
 
 		this.mediaQueryList = window.matchMedia("(prefers-color-scheme: dark)");
-		this.mediaQueryList.addEventListener("change", this.render.bind(this));
+		this.mediaQueryList.addEventListener("change", () => {
+			this.dirty = true;
+		});
 
 		this.fullscreenBtn.addEventListener("click", this.toggleFullscreen.bind(this));
 		document.addEventListener("fullscreenchange", this.onFullscreenChange.bind(this));
@@ -86,6 +107,17 @@ class SitemapGraph {
 		this.zoomInBtn.addEventListener("click", this.zoomIn.bind(this));
 		this.zoomOutBtn.addEventListener("click", this.zoomOut.bind(this));
 		this.recenterBtn.addEventListener("click", this.recenter.bind(this));
+
+		document.addEventListener("visibilitychange", () => {
+			this.isPageVisible = !document.hidden;
+			if (this.isPageVisible) {
+				this.dirty = true;
+				this.physics = true;
+				if (!this.animationId) this.startAnimation();
+			} else {
+				this.stopAnimation();
+			}
+		});
 	}
 
 	async loadSitemap() {
@@ -109,7 +141,6 @@ class SitemapGraph {
 
 	buildGraph(urls) {
 		const urlMap = new Map();
-
 		const digitRegex = /^\d+$/;
 
 		const filteredUrls = urls.filter((url) => {
@@ -168,6 +199,8 @@ class SitemapGraph {
 
 		this.nodes.forEach((node) => {
 			node.size = node.connections === 0 ? 12 : 4 + Math.log1p(node.connections) * 3.5;
+			node.mass = 1 + node.connections * 0.3;
+			node.invMass = 1 / node.mass;
 		});
 	}
 
@@ -198,7 +231,7 @@ class SitemapGraph {
 		e.preventDefault();
 		this.physics = true;
 		this.hasInteracted = true;
-		this.touchStartTime = Date.now();
+		this.dirty = true;
 		this.touches.clear();
 		const rect = this.canvas.getBoundingClientRect();
 
@@ -207,30 +240,31 @@ class SitemapGraph {
 			this.touches.set(t.identifier, {
 				x: t.clientX - rect.left,
 				y: t.clientY - rect.top,
-				startX: t.clientX - rect.left,
-				startY: t.clientY - rect.top,
 			});
 		}
 
 		if (e.touches.length === 1) {
 			const touch = this.touches.values().next().value;
-			const worldPos = this.screenToWorld(touch.x, touch.y);
-			const touchedNode = this.getNodeAt(worldPos.x, worldPos.y);
+			const wx = (touch.x - this.halfW) / this.camera.zoom - this.camera.x;
+			const wy = (touch.y - this.halfH) / this.camera.zoom - this.camera.y;
+			const touchedNode = this.getNodeAt(wx, wy);
 
 			if (touchedNode) {
 				this.selectedNode = touchedNode;
 				this.draggedNode = touchedNode;
 				this.isDraggingNode = true;
-				this.dragOffset = { x: worldPos.x - touchedNode.x, y: worldPos.y - touchedNode.y };
 				touchedNode.pinned = true;
 				touchedNode.vx = 0;
 				touchedNode.vy = 0;
+				this.dragOffset.x = wx - touchedNode.x;
+				this.dragOffset.y = wy - touchedNode.y;
 				this.showNodeInfo(touchedNode);
 			} else {
 				this.selectedNode = null;
 				this.info.style.display = "none";
 				this.isDragging = true;
-				this.dragStart = { x: touch.x, y: touch.y };
+				this.dragStart.x = touch.x;
+				this.dragStart.y = touch.y;
 			}
 		} else if (e.touches.length === 2) {
 			this.isPinching = true;
@@ -250,6 +284,7 @@ class SitemapGraph {
 	onTouchMove(e) {
 		e.preventDefault();
 		this.physics = true;
+		this.dirty = true;
 		const rect = this.canvas.getBoundingClientRect();
 
 		for (let i = 0; i < e.touches.length; i++) {
@@ -264,15 +299,17 @@ class SitemapGraph {
 		if (e.touches.length === 1 && !this.isPinching) {
 			const touch = this.touches.values().next().value;
 			if (this.isDraggingNode && this.draggedNode) {
-				const worldPos = this.screenToWorld(touch.x, touch.y);
-				this.draggedNode.x = worldPos.x - this.dragOffset.x;
-				this.draggedNode.y = worldPos.y - this.dragOffset.y;
+				const wx = (touch.x - this.halfW) / this.camera.zoom - this.camera.x;
+				const wy = (touch.y - this.halfH) / this.camera.zoom - this.camera.y;
+				this.draggedNode.x = wx - this.dragOffset.x;
+				this.draggedNode.y = wy - this.dragOffset.y;
 			} else if (this.isDragging && !this.selectedNode) {
 				const dx = (touch.x - this.dragStart.x) / this.camera.zoom;
 				const dy = (touch.y - this.dragStart.y) / this.camera.zoom;
 				this.camera.x += dx;
 				this.camera.y += dy;
-				this.dragStart = { x: touch.x, y: touch.y };
+				this.dragStart.x = touch.x;
+				this.dragStart.y = touch.y;
 			}
 		} else if (e.touches.length === 2 && this.isPinching) {
 			const touches = Array.from(this.touches.values());
@@ -283,12 +320,14 @@ class SitemapGraph {
 			if (this.lastTouchDistance > 0) {
 				const cx = (touches[0].x + touches[1].x) / 2;
 				const cy = (touches[0].y + touches[1].y) / 2;
-				const wb = this.screenToWorld(cx, cy);
+				const wbx = (cx - this.halfW) / this.camera.zoom - this.camera.x;
+				const wby = (cy - this.halfH) / this.camera.zoom - this.camera.y;
 				const zoomFactor = currentDistance / this.lastTouchDistance;
 				this.camera.zoom = Math.max(0.1, Math.min(5, this.camera.zoom * zoomFactor));
-				const wa = this.screenToWorld(cx, cy);
-				this.camera.x += wa.x - wb.x;
-				this.camera.y += wa.y - wb.y;
+				const wax = (cx - this.halfW) / this.camera.zoom - this.camera.x;
+				const way = (cy - this.halfH) / this.camera.zoom - this.camera.y;
+				this.camera.x += wax - wbx;
+				this.camera.y += way - wby;
 			}
 			this.lastTouchDistance = currentDistance;
 			this.updateZoomDisplay();
@@ -311,51 +350,64 @@ class SitemapGraph {
 	onMouseDown(e) {
 		this.hasInteracted = true;
 		this.physics = true;
+		this.dirty = true;
 		const rect = this.canvas.getBoundingClientRect();
 		const x = e.clientX - rect.left;
 		const y = e.clientY - rect.top;
-		const worldPos = this.screenToWorld(x, y);
-		const clickedNode = this.getNodeAt(worldPos.x, worldPos.y);
+		const wx = (x - this.halfW) / this.camera.zoom - this.camera.x;
+		const wy = (y - this.halfH) / this.camera.zoom - this.camera.y;
+		const clickedNode = this.getNodeAt(wx, wy);
 
 		if (clickedNode) {
 			this.selectedNode = clickedNode;
 			this.draggedNode = clickedNode;
 			this.isDraggingNode = true;
-			this.dragOffset = { x: worldPos.x - clickedNode.x, y: worldPos.y - clickedNode.y };
 			clickedNode.pinned = true;
 			clickedNode.vx = 0;
 			clickedNode.vy = 0;
+			this.dragOffset.x = wx - clickedNode.x;
+			this.dragOffset.y = wy - clickedNode.y;
 			this.showNodeInfo(clickedNode);
 		} else {
 			this.selectedNode = null;
 			this.info.style.display = "none";
 			this.isDragging = true;
-			this.dragStart = { x: e.clientX, y: e.clientY };
+			this.dragStart.x = e.clientX;
+			this.dragStart.y = e.clientY;
 		}
 	}
 
 	onMouseMove(e) {
 		const rect = this.canvas.getBoundingClientRect();
-		this.mousePos.x = e.clientX - rect.left;
-		this.mousePos.y = e.clientY - rect.top;
+		const mx = e.clientX - rect.left;
+		const my = e.clientY - rect.top;
 
 		if (this.isDraggingNode && this.draggedNode) {
 			this.physics = true;
-			const worldPos = this.screenToWorld(this.mousePos.x, this.mousePos.y);
-			this.draggedNode.x = worldPos.x - this.dragOffset.x;
-			this.draggedNode.y = worldPos.y - this.dragOffset.y;
+			this.dirty = true;
+			const wx = (mx - this.halfW) / this.camera.zoom - this.camera.x;
+			const wy = (my - this.halfH) / this.camera.zoom - this.camera.y;
+			this.draggedNode.x = wx - this.dragOffset.x;
+			this.draggedNode.y = wy - this.dragOffset.y;
 		} else if (this.isDragging && !this.selectedNode) {
 			const dx = (e.clientX - this.dragStart.x) / this.camera.zoom;
 			const dy = (e.clientY - this.dragStart.y) / this.camera.zoom;
 			this.camera.x += dx;
 			this.camera.y += dy;
-			this.dragStart = { x: e.clientX, y: e.clientY };
+			this.dragStart.x = e.clientX;
+			this.dragStart.y = e.clientY;
+			this.dirty = true;
 		}
 
 		if (!this.isDraggingNode && !this.isDragging) {
-			const worldPos = this.screenToWorld(this.mousePos.x, this.mousePos.y);
-			const hoveredNode = this.getNodeAt(worldPos.x, worldPos.y);
-			this.canvas.style.cursor = hoveredNode ? "pointer" : "grab";
+			const now = performance.now();
+			if (now - this._lastHover > 32) {
+				this._lastHover = now;
+				const wx = (mx - this.halfW) / this.camera.zoom - this.camera.x;
+				const wy = (my - this.halfH) / this.camera.zoom - this.camera.y;
+				const hoveredNode = this.getNodeAt(wx, wy);
+				this.canvas.style.cursor = hoveredNode ? "pointer" : "grab";
+			}
 		}
 	}
 
@@ -370,16 +422,20 @@ class SitemapGraph {
 	onWheel(e) {
 		if (!this.hasInteracted) return;
 		e.preventDefault();
+		this.physics = true;
+		this.dirty = true;
 		const rect = this.canvas.getBoundingClientRect();
-		const mouseX = e.clientX - rect.left;
-		const mouseY = e.clientY - rect.top;
+		const mx = e.clientX - rect.left;
+		const my = e.clientY - rect.top;
 
-		const wb = this.screenToWorld(mouseX, mouseY);
+		const wbx = (mx - this.halfW) / this.camera.zoom - this.camera.x;
+		const wby = (my - this.halfH) / this.camera.zoom - this.camera.y;
 		const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
 		this.camera.zoom = Math.max(0.1, Math.min(5, this.camera.zoom * zoomFactor));
-		const wa = this.screenToWorld(mouseX, mouseY);
-		this.camera.x += wa.x - wb.x;
-		this.camera.y += wa.y - wb.y;
+		const wax = (mx - this.halfW) / this.camera.zoom - this.camera.x;
+		const way = (my - this.halfH) / this.camera.zoom - this.camera.y;
+		this.camera.x += wax - wbx;
+		this.camera.y += way - wby;
 		this.updateZoomDisplay();
 	}
 
@@ -401,13 +457,8 @@ class SitemapGraph {
 
 	applyZoom(factor) {
 		this.hasInteracted = true;
-		const cx = this.canvas.width / (2 * devicePixelRatio);
-		const cy = this.canvas.height / (2 * devicePixelRatio);
-		const wb = this.screenToWorld(cx, cy);
+		this.dirty = true;
 		this.camera.zoom = factor;
-		const wa = this.screenToWorld(cx, cy);
-		this.camera.x += wa.x - wb.x;
-		this.camera.y += wa.y - wb.y;
 		this.updateZoomDisplay();
 		this.physics = true;
 	}
@@ -428,6 +479,7 @@ class SitemapGraph {
 
 	recenter() {
 		this.hasInteracted = true;
+		this.dirty = true;
 		this.camera.x = 0;
 		this.camera.y = 0;
 		this.camera.zoom = 0.8;
@@ -435,19 +487,15 @@ class SitemapGraph {
 		this.physics = true;
 	}
 
-	screenToWorld(sx, sy) {
-		return {
-			x: (sx - this.canvas.width / (2 * devicePixelRatio)) / this.camera.zoom - this.camera.x,
-			y: (sy - this.canvas.height / (2 * devicePixelRatio)) / this.camera.zoom - this.camera.y,
-		};
-	}
-
 	getNodeAt(wx, wy) {
-		for (let i = 0; i < this.nodes.length; i++) {
-			const node = this.nodes[i];
+		const hitRadius = 5 / this.camera.zoom;
+		const nodes = this.nodes;
+		for (let i = 0; i < nodes.length; i++) {
+			const node = nodes[i];
 			const dx = wx - node.x;
 			const dy = wy - node.y;
-			if (dx * dx + dy * dy < (node.size + 5) ** 2) return node;
+			const threshold = node.size + hitRadius;
+			if (dx * dx + dy * dy < threshold * threshold) return node;
 		}
 		return null;
 	}
@@ -474,188 +522,202 @@ class SitemapGraph {
 	updatePhysics() {
 		if (!this.physics) return;
 
-		const repulsion = 50000;
-		const repulsionDistLimitSq = 250 * 250;
-		const attraction = 0.05;
-		const centerForce = 0.000075;
-
-		let totalKineticEnergy = 0;
-
 		const nodes = this.nodes;
 		const edges = this.edges;
-		const nodeCount = nodes.length;
-		const edgeCount = edges.length;
+		const n = nodes.length;
+		const maxSpeedSq = 9;
 
-		for (let i = 0; i < nodeCount; i++) {
-			const node = nodes[i];
-			if (node.pinned) continue;
+		let totalKE = 0;
 
-			for (let j = 0; j < nodeCount; j++) {
-				if (i === j) continue;
-				const other = nodes[j];
+		for (let i = 0; i < n; i++) {
+			const a = nodes[i];
+			if (a.pinned) continue;
 
-				const dx = node.x - other.x;
-				const dy = node.y - other.y;
+			for (let j = i + 1; j < n; j++) {
+				const b = nodes[j];
+				const dx = a.x - b.x;
+				const dy = a.y - b.y;
 				const distSq = dx * dx + dy * dy;
 
-				if (distSq > 0 && distSq < repulsionDistLimitSq) {
-					const distance = Math.sqrt(distSq);
-					const force = repulsion / distSq;
-					const fx = (dx / distance) * force * 0.005;
-					const fy = (dy / distance) * force * 0.005;
-					node.vx += fx;
-					node.vy += fy;
+				if (distSq < 1 || distSq > 62500) continue;
+
+				const invDist = 1 / Math.sqrt(distSq);
+				const sf = (250 * invDist) / distSq;
+				const fx = dx * sf;
+				const fy = dy * sf;
+
+				a.vx += fx * a.invMass;
+				a.vy += fy * a.invMass;
+				if (!b.pinned) {
+					b.vx -= fx * b.invMass;
+					b.vy -= fy * b.invMass;
 				}
 			}
 
-			const distSqC = node.x * node.x + node.y * node.y;
+			const distSqC = a.x * a.x + a.y * a.y;
 			if (distSqC > 90000) {
-				node.vx -= node.x * centerForce;
-				node.vy -= node.y * centerForce;
+				const cF = 0.000075 * a.invMass;
+				a.vx -= a.x * cF;
+				a.vy -= a.y * cF;
 			}
 		}
 
-		for (let i = 0; i < edgeCount; i++) {
+		for (let i = 0; i < edges.length; i++) {
 			const edge = edges[i];
 			const dx = edge.target.x - edge.source.x;
 			const dy = edge.target.y - edge.source.y;
-			const distance = Math.sqrt(dx * dx + dy * dy) || 1;
+			const distSq = dx * dx + dy * dy;
+			if (distSq < 1e-6) continue;
+			const dist = Math.sqrt(distSq);
+			const invDist = 1 / dist;
 			const idealDist = 60 + edge.target.depth * 40;
-			const force = (distance - idealDist) * attraction * edge.strength;
-
-			const fx = (dx / distance) * force * 0.5;
-			const fy = (dy / distance) * force * 0.5;
+			const f = (dist - idealDist) * 0.025 * edge.strength * invDist;
 
 			if (!edge.source.pinned) {
-				edge.source.vx += fx;
-				edge.source.vy += fy;
+				edge.source.vx += dx * f * edge.source.invMass;
+				edge.source.vy += dy * f * edge.source.invMass;
 			}
 			if (!edge.target.pinned) {
-				edge.target.vx -= fx;
-				edge.target.vy -= fy;
+				edge.target.vx -= dx * f * edge.target.invMass;
+				edge.target.vy -= dy * f * edge.target.invMass;
 			}
 		}
 
-		for (let i = 0; i < nodeCount; i++) {
+		for (let i = 0; i < n; i++) {
 			const node = nodes[i];
 			if (node.pinned) continue;
 
-			const dynamicDamping = node.connections > 5 ? 0.7 : 0.9;
-			node.vx *= dynamicDamping;
-			node.vy *= dynamicDamping;
+			node.vx *= node.connections > 5 ? 0.72 : 0.92;
+			node.vy *= node.connections > 5 ? 0.72 : 0.92;
 
 			const vSq = node.vx * node.vx + node.vy * node.vy;
-			if (vSq > 16) {
-				const speed = Math.sqrt(vSq);
-				node.vx = (node.vx / speed) * 4;
-				node.vy = (node.vy / speed) * 4;
+			if (vSq > maxSpeedSq) {
+				const invSpeed = 3 / Math.sqrt(vSq);
+				node.vx *= invSpeed;
+				node.vy *= invSpeed;
 			}
 
 			node.x += node.vx;
 			node.y += node.vy;
 
-			totalKineticEnergy += vSq;
+			totalKE += vSq;
 		}
 
-		if (totalKineticEnergy < 0.05 && !this.isDragging) {
+		if (totalKE > 0.001) this.dirty = true;
+
+		if (totalKE < 0.05 && !this.isDragging && !this.isDraggingNode) {
 			this.physics = false;
 		}
 	}
 
 	render() {
+		if (!this.dirty && !this.physics) return;
+
 		const ctx = this.ctx;
-		const dpr = devicePixelRatio;
-		const width = this.canvas.width / dpr;
-		const height = this.canvas.height / dpr;
-		const isDarkMode = this.mediaQueryList.matches;
+		const width = this.width;
+		const height = this.height;
+		const isDark = this.mediaQueryList.matches;
 
 		ctx.clearRect(0, 0, width, height);
 
 		const zoom = this.camera.zoom;
-		const cx = width / 2;
-		const cy = height / 2;
+		const invZoom = 1 / zoom;
 
 		ctx.save();
-		ctx.translate(cx, cy);
+		ctx.translate(this.halfW, this.halfH);
 		ctx.scale(zoom, zoom);
 		ctx.translate(this.camera.x, this.camera.y);
 
-		const visibleW = width / zoom;
-		const visibleH = height / zoom;
-		const viewMinX = -this.camera.x - cx / zoom - 50;
-		const viewMinY = -this.camera.y - cy / zoom - 50;
-		const viewMaxX = -this.camera.x + (visibleW - cx / zoom) + 50;
-		const viewMaxY = -this.camera.y + (visibleH - cy / zoom) + 50;
+		const pad = 50;
+		const vpMinX = -this.camera.x - this.halfW * invZoom - pad;
+		const vpMinY = -this.camera.y - this.halfH * invZoom - pad;
+		const vpMaxX = vpMinX + width * invZoom + pad * 2;
+		const vpMaxY = vpMinY + height * invZoom + pad * 2;
 
-		const lineWidth = 1 / zoom;
+		const lineWidth = invZoom;
 
-		ctx.strokeStyle = isDarkMode ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.1)";
+		ctx.strokeStyle = isDark ? "rgba(63, 60, 60, 0.8)" : "rgba(63, 60, 60, 0.1)";
 		ctx.lineWidth = lineWidth;
 		ctx.beginPath();
 
 		const edges = this.edges;
 		for (let i = 0; i < edges.length; i++) {
 			const e = edges[i];
-			if (
-				(e.source.x > viewMinX && e.source.x < viewMaxX && e.source.y > viewMinY && e.source.y < viewMaxY) ||
-				(e.target.x > viewMinX && e.target.x < viewMaxX && e.target.y > viewMinY && e.target.y < viewMaxY)
-			) {
-				ctx.moveTo(e.source.x, e.source.y);
-				ctx.lineTo(e.target.x, e.target.y);
+			const sx = e.source.x,
+				sy = e.source.y;
+			const tx = e.target.x,
+				ty = e.target.y;
+			if ((sx > vpMinX && sx < vpMaxX && sy > vpMinY && sy < vpMaxY) || (tx > vpMinX && tx < vpMaxX && ty > vpMinY && ty < vpMaxY)) {
+				ctx.moveTo(sx, sy);
+				ctx.lineTo(tx, ty);
 			}
 		}
 		ctx.stroke();
 
 		const nodes = this.nodes;
-		const nodeStrokeStyle = isDarkMode ? "rgba(255, 234, 209, 1)" : "rgba(19, 17, 17, 1)";
+		const nodeStroke = isDark ? "rgba(255, 234, 209, 1)" : "rgba(19, 17, 17, 1)";
 		const twoPi = Math.PI * 2;
+		const selectedNode = this.selectedNode;
+		const draggedNode = this.draggedNode;
 
 		for (let i = 0; i < nodes.length; i++) {
 			const node = nodes[i];
-
-			if (node.x < viewMinX || node.x > viewMaxX || node.y < viewMinY || node.y > viewMaxY) continue;
-
-			const isSelected = node === this.selectedNode || node === this.draggedNode;
+			if (node.x < vpMinX || node.x > vpMaxX || node.y < vpMinY || node.y > vpMaxY) continue;
 
 			ctx.beginPath();
 			ctx.arc(node.x, node.y, node.size, 0, twoPi);
 			ctx.fillStyle = node.bgDark;
 			ctx.fill();
 
-			if (isSelected) {
-				ctx.strokeStyle = nodeStrokeStyle;
+			if (node === selectedNode || node === draggedNode) {
+				ctx.strokeStyle = nodeStroke;
 				ctx.lineWidth = lineWidth;
 				ctx.stroke();
 			}
 		}
 
 		if (zoom > 0.5) {
-			ctx.font = `${Math.max(5, 10 / zoom)}px "Work Sans"`;
+			const fontSize = Math.max(5, 10 * invZoom);
+			ctx.font = `${fontSize}px "Work Sans"`;
 			ctx.textAlign = "center";
 			ctx.textBaseline = "middle";
-			ctx.fillStyle = isDarkMode ? "#ffead1" : "#131111";
+			ctx.fillStyle = isDark ? "#ffead1" : "#131111";
 
-			const textOffset = 15 / zoom;
+			const textOffset = 15 * invZoom;
+			const showAll = zoom > 1.5;
 
 			for (let i = 0; i < nodes.length; i++) {
 				const node = nodes[i];
-				if ((node.size > 8 || zoom > 1.5) && node.x > viewMinX && node.x < viewMaxX && node.y > viewMinY && node.y < viewMaxY) {
-					const label = node.label.length > 15 ? node.label.substring(0, 12) + "…" : node.label;
+				if ((node.size > 8 || showAll) && node.x > vpMinX && node.x < vpMaxX && node.y > vpMinY && node.y < vpMaxY) {
+					const label = node.label.length > 15 ? node.label.substring(0, 12) + "\u2026" : node.label;
 					ctx.fillText(label, node.x, node.y + node.size + textOffset);
 				}
 			}
 		}
 
 		ctx.restore();
+		this.dirty = false;
 	}
 
 	startAnimation() {
+		if (this.animationId) return;
 		const animate = () => {
+			if (!this.isPageVisible) {
+				this.animationId = null;
+				return;
+			}
 			this.updatePhysics();
 			this.render();
-			requestAnimationFrame(animate);
+			this.animationId = requestAnimationFrame(animate);
 		};
-		requestAnimationFrame(animate);
+		this.animationId = requestAnimationFrame(animate);
+	}
+
+	stopAnimation() {
+		if (this.animationId) {
+			cancelAnimationFrame(this.animationId);
+			this.animationId = null;
+		}
 	}
 }
 
