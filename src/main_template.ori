@@ -21,8 +21,8 @@
 		<link rel="stylesheet" href="/assets/styles/components/footnotes.css">
 		${ page.stylesheet ? `<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">` : '' }
 
-		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2">
-		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2">
+		<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
 		<meta property="og:title" content="${ page.title }">
 		<meta name="citation_title" content="${ page.title }">
