@@ -42,15 +42,4 @@ If you're supporting me as a result of any specific project, then [let me know](
 
 If you wish to support me with a larger amount, or the previous options aren't suitable, please [contact me](/contact).
 
-## Referrals
-
-You may also use my referral links, which provide me with benefits where applicable.
-
-<details>
-<summary>Referral links</summary>
-
-- Hetzner: <https://hetzner.cloud/?ref=34Y7cl2jIkuM>
-
-</details>
-
 </div>
