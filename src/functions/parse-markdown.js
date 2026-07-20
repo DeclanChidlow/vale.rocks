@@ -15,7 +15,12 @@ const processor = new Marked(
 	markedGfmHeadingId(),
 	markedHighlight({
 		highlight(code, lang) {
-			const language = highlight.getLanguage(lang) ? lang : "plaintext";
+			const name = lang ? lang.toLowerCase() : "";
+			let language = langCache.get(name);
+			if (language === undefined) {
+				language = highlight.getLanguage(name) ? name : "plaintext";
+				langCache.set(name, language);
+			}
 			return highlight.highlight(code, { language }).value;
 		},
 		langPrefix: "language-",
@@ -29,6 +34,21 @@ const processor = new Marked(
 	markedBaseUrl("https://vale.rocks"),
 );
 
+const langCache = new Map();
+
+const QUICK_CHECK_RX = /[A-Z]{3}/;
+const TAG_SPLIT_RX = /(<[^>]+>)/;
+const EXCLUDED_OPEN_RX = /^<(code|script|style)[^>]*>/i;
+const EXCLUDED_CLOSE_RX = /^<\/(code|script|style)>/i;
+const ABBR_OPEN_RX = /^<abbr[^>]*>/i;
+const ABBR_CLOSE_RX = /^<\/abbr>/i;
+const ABBREV_RX = /\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*)\b/g;
+const ROMAN_NUMERAL_RX = /^(?=[MDCLXVI])M{0,4}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/;
+const CAPS_RX = /[A-Z]+/;
+const STARTS_DIGIT_RX = /^\d/;
+const DIGIT_UPPER_RX = /\d+[A-Z]+/;
+const LOWERCASE_END_RX = /[a-z]*$/;
+
 /**
  * Wraps strings of three or more capital letters in <abbr>
  * Excludes Roman numerals, <code>, element attributes, and content already in <abbr>
@@ -37,27 +57,25 @@ const processor = new Marked(
  * @returns {string} - HTML with abbreviations wrapped in <abbr>
  */
 function wrapAbbreviations(html) {
-	const romanNumeralPattern = /^(?=[MDCLXVI])M{0,4}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/;
+	if (!QUICK_CHECK_RX.test(html)) return html;
 
-	const segments = html.split(/(<[^>]+>)/);
+	const segments = html.split(TAG_SPLIT_RX);
 	const result = [];
 
 	let excludedWrapper = 0;
 	let insideAbbr = false;
 
-	for (let i = 0; i < segments.length; i++) {
-		const segment = segments[i];
-
-		if (segment.startsWith("<") && segment.endsWith(">")) {
+	for (const segment of segments) {
+		if (segment[0] === "<" && segment[segment.length - 1] === ">") {
 			result.push(segment);
 
-			if (segment.match(/^<(code|script|style)[^>]*>/i)) {
+			if (EXCLUDED_OPEN_RX.test(segment)) {
 				excludedWrapper++;
-			} else if (segment.match(/^<\/(code|script|style)>/i)) {
+			} else if (EXCLUDED_CLOSE_RX.test(segment)) {
 				excludedWrapper--;
-			} else if (segment.match(/^<abbr[^>]*>/i)) {
+			} else if (ABBR_OPEN_RX.test(segment)) {
 				insideAbbr = true;
-			} else if (segment.match(/^<\/abbr>/i)) {
+			} else if (ABBR_CLOSE_RX.test(segment)) {
 				insideAbbr = false;
 			}
 			continue;
@@ -68,23 +86,17 @@ function wrapAbbreviations(html) {
 			continue;
 		}
 
-		const processedSegment = segment.replace(/\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*)\b/g, (match) => {
-			const capitalMatch = match.match(/[A-Z]+/);
-			if (!capitalMatch) return match;
-
-			const capitalPortion = capitalMatch[0];
-
-			if (/^\d/.test(match)) {
-				const capitalPart = match.match(/\d+[A-Z]+/)[0];
+		const processedSegment = segment.replace(ABBREV_RX, (match) => {
+			if (STARTS_DIGIT_RX.test(match)) {
+				const capitalPart = match.match(DIGIT_UPPER_RX)[0];
 				const lowercasePart = match.substring(capitalPart.length);
 				return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
 			}
 
-			if (romanNumeralPattern.test(capitalPortion)) {
-				return match;
-			}
+			const capitalPortion = match.match(CAPS_RX)[0];
+			if (ROMAN_NUMERAL_RX.test(capitalPortion)) return match;
 
-			const lowercasePart = match.match(/[a-z]*$/)[0];
+			const lowercasePart = match.match(LOWERCASE_END_RX)[0];
 			const capitalPart = match.substring(0, match.length - lowercasePart.length);
 			return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
 		});

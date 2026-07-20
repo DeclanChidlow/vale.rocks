@@ -17,6 +17,7 @@
 	gap: 1.5rem;
 	flex-wrap: wrap;
 	margin-block-end: 1.5rem;
+	align-items: end;
 
 	select {
 		margin-block-start: 0.25rem;
@@ -33,7 +34,6 @@
 .books,
 .films,
 .series,
-.productions,
 .albums,
 .games {
 	display: flex;

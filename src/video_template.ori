@@ -46,4 +46,4 @@ _body:
 	</div>
 </article>
 
-<script src='/assets/scripts/youtube-embed.js'></script>`})
+<script defer src='/assets/scripts/youtube-embed.js'></script>`})

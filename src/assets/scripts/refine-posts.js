@@ -29,6 +29,7 @@ class PostRefiner {
 		this.refineBar.style.display = "flex";
 		this.postsFilter.addEventListener("change", () => this.filterAndSortPosts());
 		this.postsSorter.addEventListener("change", () => this.filterAndSortPosts());
+		this.filterAndSortPosts();
 	}
 
 	filterAndSortPosts() {

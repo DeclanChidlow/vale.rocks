@@ -69,5 +69,5 @@ _body:
 	</div>
 </article>
 
-<script src="/assets/scripts/number-ticker.js"></script>
+<script defer src="/assets/scripts/number-ticker.js"></script>
 `})

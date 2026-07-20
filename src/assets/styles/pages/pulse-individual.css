@@ -95,14 +95,10 @@ main header {
 	}
 
 	.level-2 {
-		background-color: color-mix(in srgb, var(--activity_base) 25%, var(--green));
+		background-color: color-mix(in srgb, var(--activity_base) 50%, var(--green));
 	}
 
 	.level-3 {
-		background-color: color-mix(in srgb, var(--activity_base) 75%, var(--green));
-	}
-
-	.level-4 {
 		background-color: var(--green);
 	}
 }

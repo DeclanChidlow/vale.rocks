@@ -14,7 +14,6 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		max-inline-size: 90rem;
 		padding: 1rem;
 	}
 
@@ -23,7 +22,7 @@ footer {
 
 		h2 {
 			block-size: 10rem;
-			inline-size: 40rem;
+			inline-size: 30rem;
 			font-size: 5rem;
 			line-height: 5rem;
 
@@ -80,6 +79,7 @@ footer {
 	.footer-navigation a {
 		display: flex;
 		flex-wrap: wrap;
+		flex-wrap: balance;
 		justify-content: right;
 		margin: 0;
 		column-gap: 1.5rem;

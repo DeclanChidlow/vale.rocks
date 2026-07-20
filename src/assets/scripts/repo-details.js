@@ -44,8 +44,6 @@ class RepoDetails {
 	}
 
 	async render() {
-		if (this.isTangled) return;
-
 		const stats = await this.fetchStats();
 		const container = document.getElementById("repo-details");
 

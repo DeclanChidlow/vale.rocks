@@ -48,6 +48,22 @@ class ScrollProgressIndicator {
 		});
 		this.els.container.appendChild(this.els.markerNav);
 
+		this.markerElements = [];
+		this.headers
+			.filter((h) => h.tagName === "H2")
+			.forEach((header) => {
+				const rawText = header.querySelector("a")?.textContent.trim() ?? header.textContent.trim();
+				const li = document.createElement("li");
+				const markerLink = this.create("a", {
+					classes: ["heading-marker-h2"],
+					attrs: { "href": `#${header.id}`, "aria-label": `Jump to ${rawText}` },
+					children: [this.create("span", { classes: ["heading-label"], text: rawText })],
+				});
+				li.appendChild(markerLink);
+				this.els.markerList.appendChild(li);
+				this.markerElements.push({ li, link: markerLink, header });
+			});
+
 		// Popover Menu (Narrow only)
 		this.els.mobileMenu = this.create("nav", {
 			classes: ["horizontal-layout-container"],
@@ -120,7 +136,7 @@ class ScrollProgressIndicator {
 
 		this.els.article.querySelectorAll("img").forEach((img) => {
 			if (!img.complete) {
-				img.addEventListener("load", () => this.updateLayout());
+				img.addEventListener("load", () => this.updateLayout(), { once: true });
 			}
 		});
 
@@ -163,45 +179,33 @@ class ScrollProgressIndicator {
 			this.els.indicator.setAttribute("aria-hidden", "true");
 			this.els.markerNav.setAttribute("aria-hidden", this.isNarrow ? "true" : "false");
 
-			this.rebuildMarkers();
+			this.updateMarkerPositions();
 		}
 
 		this.updateProgress();
 	}
 
-	rebuildMarkers() {
-		this.els.markerList.innerHTML = "";
+	updateMarkerPositions() {
 		const { articleHeight, maxScroll } = this.getDimensions();
 		const scrollableHeight = maxScroll;
 
-		this.headers
-			.filter((h) => h.tagName === "H2")
-			.forEach((header) => {
-				const topOffset = header.offsetTop - this.els.article.offsetTop;
-				const rawText = header.querySelector("a")?.textContent.trim() ?? header.textContent.trim();
+		this.markerElements.forEach(({ li, link, header }) => {
+			const topOffset = header.offsetTop - this.els.article.offsetTop;
 
-				const li = document.createElement("li");
-
-				if (this.isNarrow) {
-					const percent = scrollableHeight > 0 ? (topOffset / scrollableHeight) * 100 : 0;
-					li.style.insetInlineStart = `${percent}%`;
-					li.style.insetBlockStart = "0";
-				} else {
-					const percent = (topOffset / articleHeight) * 100;
-					li.style.insetBlockStart = `${percent}%`;
-					li.style.insetInlineStart = "0";
-					li.style.inlineSize = "100%";
-
-					const marker = this.create("a", {
-						classes: ["heading-marker-h2"],
-						attrs: { "href": `#${header.id}`, "aria-label": `Jump to ${rawText}` },
-						children: [this.create("span", { classes: ["heading-label"], text: rawText })],
-					});
-					li.appendChild(marker);
-				}
-
-				this.els.markerList.appendChild(li);
-			});
+			if (this.isNarrow) {
+				const percent = scrollableHeight > 0 ? (topOffset / scrollableHeight) * 100 : 0;
+				li.style.insetInlineStart = `${percent}%`;
+				li.style.insetBlockStart = "0";
+				li.style.inlineSize = "";
+				link.style.display = "none";
+			} else {
+				const percent = (topOffset / articleHeight) * 100;
+				li.style.insetBlockStart = `${percent}%`;
+				li.style.insetInlineStart = "0";
+				li.style.inlineSize = "100%";
+				link.style.display = "";
+			}
+		});
 	}
 
 	updateProgress() {

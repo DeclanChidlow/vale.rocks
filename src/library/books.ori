@@ -28,6 +28,16 @@ _body:
 				<option value="read-asc">Read Ascending</option>
 			</select>
 		</label>
+
+		<label class="toggle">
+			<input type="checkbox" id="notes-filter">
+			Only with notes
+		</label>
+
+		<label class="toggle">
+			<input type="checkbox" id="activity-filter">
+			Only with reads
+		</label>
 	</form>
 
 	<ol class="books">
@@ -52,4 +62,4 @@ _body:
 	</ol>
 </div>
 
-<script src="/assets/scripts/library-sorting.js"></script>`})
+<script defer src="/assets/scripts/library-sorting.js"></script>`})

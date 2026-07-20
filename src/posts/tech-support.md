@@ -3,7 +3,7 @@ title: Lessons From Tech Support
 description: Details and knowledge pertaining to providing tech support for people on a professional basis. Various tips and tricks, as well as advice on effectively communicating with clients to effectively provide help with minimal confusion and without needless effort, while ensuring a smooth and productive outcome.
 og_description: Tech support support.
 pub_time: 2026-05-19
-section: Tutorials
+section: Tutorial
 standardsite_rkey: 3mn2eanapug2a
 ---
 

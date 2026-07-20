@@ -42,6 +42,6 @@ _body: `
 	</div>
 </article>
 
-<script src="/assets/scripts/comments-fetcher.js"></script>
+<script defer src="/assets/scripts/comments-fetcher.js"></script>
 `
 })

@@ -114,6 +114,7 @@ figcaption {
 	scale: 1.05;
 	filter: blur(1rem);
 	background-size: contain;
+	background-repeat: no-repeat;
 
 	@media (prefers-color-scheme: dark) {
 		filter: blur(1rem) brightness(0.6);

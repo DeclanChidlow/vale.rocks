@@ -37,6 +37,16 @@ _body:
 				<option value="all">All Platforms</option>
 			</select>
 		</label>
+
+		<label class="toggle">
+			<input type="checkbox" id="notes-filter">
+			Only with notes
+		</label>
+
+		<label class="toggle">
+			<input type="checkbox" id="activity-filter">
+			Only with playthroughs
+		</label>
 	</form>
 
 	<ol class="games">
@@ -64,4 +74,4 @@ _body:
 	</ol>
 </div>
 
-<script src="/assets/scripts/library-sorting.js"></script>`})
+<script defer src="/assets/scripts/library-sorting.js"></script>`})

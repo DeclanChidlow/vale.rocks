@@ -3,7 +3,7 @@ title: The Oculus Go
 description: Oculus' 2018 virtual reality headset, the Oculus Go, viewed from a modern perspective. Includes tutorials for installing a the glasses spacer and unlocking the software for improved long-term viability.
 og_description: Phone VR with an inbuilt phone.
 pub_time: 2026-06-23
-section: Tutorials
+section: Tutorial
 tags: ["XR"]
 standardsite_rkey: 3mowixike532y
 ---

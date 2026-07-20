@@ -11,14 +11,23 @@ class BKTreeNode {
 class BKTree {
 	constructor() {
 		this.root = null;
+		this._levRowA = [];
+		this._levRowB = [];
 	}
 
 	levenshteinDistance(a, b) {
 		if (a.length === 0) return b.length;
 		if (b.length === 0) return a.length;
 
-		let prevRow = Array.from({ length: a.length + 1 }, (_, i) => i);
-		let currRow = new Array(a.length + 1);
+		const len = a.length + 1;
+		if (this._levRowA.length < len) {
+			this._levRowA = new Array(len);
+			this._levRowB = new Array(len);
+		}
+
+		let prevRow = this._levRowA;
+		let currRow = this._levRowB;
+		for (let i = 0; i < len; i++) prevRow[i] = i;
 
 		for (let i = 1; i <= b.length; i++) {
 			currRow[0] = i;

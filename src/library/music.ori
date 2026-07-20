@@ -26,6 +26,11 @@ _body:
 				<option value="published-asc">Published Ascending</option>
 			</select>
 		</label>
+
+		<label class="toggle">
+			<input type="checkbox" id="notes-filter">
+			Only with notes
+		</label>
 	</form>
 
 	<ol class="albums">
@@ -39,5 +44,5 @@ _body:
 	</ol>
 </div>
 
-<script src="/assets/scripts/currently-listening.js"></script>
-<script src="/assets/scripts/library-sorting.js"></script>`})
+<script defer src="/assets/scripts/currently-listening.js"></script>
+<script defer src="/assets/scripts/library-sorting.js"></script>`})

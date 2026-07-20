@@ -8,6 +8,8 @@ class LibrarySorting {
 		this.sortSelect = document.getElementById("entries-sort");
 
 		this.platformFilter = document.getElementById("platform-filter");
+		this.notesFilter = document.getElementById("notes-filter");
+		this.activityFilter = document.getElementById("activity-filter");
 
 		if (!this.contentList || !this.sortSelect) return;
 
@@ -17,6 +19,14 @@ class LibrarySorting {
 		if (this.platformFilter) {
 			this.populatePlatformFilter();
 			this.platformFilter.addEventListener("change", () => this.sortContent());
+		}
+
+		if (this.notesFilter) {
+			this.notesFilter.addEventListener("change", () => this.sortContent());
+		}
+
+		if (this.activityFilter) {
+			this.activityFilter.addEventListener("change", () => this.sortContent());
 		}
 
 		this.sortSelect.addEventListener("change", () => this.sortContent());
@@ -29,7 +39,7 @@ class LibrarySorting {
 	}
 
 	detectContentType() {
-		const types = ["films", "books", "series", "albums", "games", "productions"];
+		const types = ["films", "books", "series", "albums", "games"];
 		return types.find((type) => document.querySelector(`.${type}`)) || null;
 	}
 
@@ -46,12 +56,36 @@ class LibrarySorting {
 			let platforms = [];
 			const nextEl = titleElement?.nextElementSibling;
 
-			if (this.contentType !== "productions" && nextEl && nextEl.tagName === "P" && !nextEl.classList.contains("star-rating")) {
+			if (nextEl && nextEl.tagName === "P" && !nextEl.classList.contains("star-rating")) {
 				platforms = nextEl.textContent.split(",").map((p) => p.trim());
 			}
 
-			return { element: item, year, rating, lastActivity, platforms };
+			return { element: item, year, rating, lastActivity, platforms, hasNotes: this.itemHasNotes(item), hasActivity: this.itemHasActivity(item) };
 		});
+	}
+
+	itemHasNotes(item) {
+		const details = item.querySelectorAll("details");
+		for (const d of details) {
+			const summary = d.querySelector("summary");
+			if (summary && summary.textContent.trim() === "Notes") {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	itemHasActivity(item) {
+		const details = item.querySelectorAll("details");
+		for (const d of details) {
+			const summary = d.querySelector("summary");
+			if (!summary) continue;
+			const text = summary.textContent.trim();
+			if (text === "Reads" || text === "Watches" || text === "Seasons" || text === "Playthroughs") {
+				return true;
+			}
+		}
+		return !!item.querySelector("small");
 	}
 
 	populatePlatformFilter() {
@@ -101,17 +135,6 @@ class LibrarySorting {
 					}
 				}
 			});
-		} else if (this.contentType === "productions") {
-			const nextEl = item.querySelector("h2")?.nextElementSibling;
-			if (nextEl && nextEl.tagName === "P") {
-				const dateMatch = nextEl.textContent.match(/^(\d{4}(?:-\d{2}-\d{2})?)/);
-				if (dateMatch) {
-					const date = this.parseDateTime(dateMatch[1]);
-					if (date && !isNaN(date.getTime())) {
-						dates.push(date.getTime());
-					}
-				}
-			}
 		}
 
 		return dates.length > 0 ? Math.max(...dates) : null;
@@ -131,6 +154,14 @@ class LibrarySorting {
 
 		if (this.platformFilter && this.platformFilter.value !== "all") {
 			sorted = sorted.filter((item) => item.platforms.includes(this.platformFilter.value));
+		}
+
+		if (this.notesFilter && this.notesFilter.checked) {
+			sorted = sorted.filter((item) => item.hasNotes);
+		}
+
+		if (this.activityFilter && this.activityFilter.checked) {
+			sorted = sorted.filter((item) => item.hasActivity);
 		}
 
 		if (type.startsWith("reviews")) {

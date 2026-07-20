@@ -164,10 +164,6 @@ main {
 	aspect-ratio: 1;
 }
 
-.dragging {
-	cursor: move !important;
-}
-
 .pleasure {
 	text-align: center;
 	margin-block: 10rem;

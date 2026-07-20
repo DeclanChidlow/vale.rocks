@@ -138,7 +138,8 @@
 		cursor: not-allowed;
 	}
 
-	:focus-visible {
+	:focus-visible,
+	:focus-within {
 		outline-offset: 0.2rem;
 	}
 }

@@ -12,6 +12,18 @@ _body: `
 	<p>These are long-form, structured articles. They're written to be evergreen and are revised as necessary to keep them up-to-date. Don't let an old initial publication date scare you off.</p>
 
 	<form id="refine-posts">
+		<div class="sort">
+			<label for="posts-sort">Sort by:</label>
+			<select id="posts-sort">
+				<option value="published-desc">Published Descending</option>
+				<option value="published-asc">Published Ascending</option>
+				<option value="revised-desc">Revised Descending</option>
+				<option value="revised-asc">Revised Ascending</option>
+				<option value="length-desc">Length Descending</option>
+				<option value="length-asc">Length Ascending</option>
+			</select>
+		</div>
+
 		<div class="filter">
 			<label for="posts-filter">Category:</label>
 			<select id="posts-filter">
@@ -23,18 +35,6 @@ _body: `
 				<option value="memoir">Memoirs</option>
 				<option value="fiction">Fiction</option>
 				<option value="meta">Meta</option>
-			</select>
-		</div>
-
-		<div class="sort">
-			<label for="posts-sort">Sort by:</label>
-			<select id="posts-sort">
-				<option value="published-desc">Published Descending</option>
-				<option value="published-asc">Published Ascending</option>
-				<option value="revised-desc">Revised Descending</option>
-				<option value="revised-asc">Revised Ascending</option>
-				<option value="length-desc">Length Descending</option>
-				<option value="length-asc">Length Ascending</option>
 			</select>
 		</div>
 	</form>
@@ -56,5 +56,5 @@ _body: `
 	</ol>
 </div>
 
-<script src="/assets/scripts/refine-posts.js"></script>
+<script defer src="/assets/scripts/refine-posts.js"></script>
 `})

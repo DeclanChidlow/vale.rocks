@@ -96,6 +96,6 @@ if (window.PagefindComponents) {
 	</form>
 </noscript>
 
-<script src="/assets/scripts/search.js"></script>
+<script defer src="/assets/scripts/search.js"></script>
 
 </div>

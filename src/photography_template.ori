@@ -40,4 +40,4 @@ _body:
 	</article>
 </div>
 
-<script src="/assets/scripts/figures.js"></script>`})
+<script defer src="/assets/scripts/figures.js"></script>`})

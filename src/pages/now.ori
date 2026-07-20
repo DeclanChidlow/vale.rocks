@@ -67,4 +67,4 @@ _body:
 	`}
 </div>
 
-<script src="/assets/scripts/currently-listening.js"></script>`})
+<script defer src="/assets/scripts/currently-listening.js"></script>`})

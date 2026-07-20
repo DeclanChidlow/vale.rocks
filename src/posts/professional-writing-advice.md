@@ -3,7 +3,7 @@ title: On Writing for Publications
 description: Notes on experiences and takeaways from writing professionally for a range of publications. Notes on pitching articles, writing outlines, collaborating effectively, taking feedback, ensuring good work, and providing your author details.
 og_description: Lessons from an incapable fool with a byline.
 pub_time: 2025-11-24
-section: Tutorials
+section: Tutorial
 tags: [writing]
 standardsite_rkey: 3mn2e4zpr3c2p
 ---
