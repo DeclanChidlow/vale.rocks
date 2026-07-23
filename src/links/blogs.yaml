@@ -523,10 +523,6 @@ items:
     url: www.kryogenix.org/days/
     rss: www.kryogenix.org/days/feed
     description: Technology and web development.
-  - title: Tom Scott's Weekly Newsletter
-    url: www.tomscott.com/newsletter/
-    rss: www.tomscott.com/updates.xml
-    description: Interesting things from the web.
   - title: chsmc.org
     url: chsmc.org
     rss: chsmc.org/feed.xml

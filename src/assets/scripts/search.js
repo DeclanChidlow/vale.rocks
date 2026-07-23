@@ -18,16 +18,13 @@ const syncToUrl = () => {
 const params = new URLSearchParams(window.location.search);
 if (input && params.has("q")) {
 	input.value = params.get("q");
+	input.dispatchEvent(new Event("input", { bubbles: true }));
 } else {
 	input?.focus();
 }
 
 const syncToUI = () => {
 	const deferredParams = new URLSearchParams(window.location.search);
-
-	if (input && deferredParams.has("q")) {
-		input.dispatchEvent(new Event("input", { bubbles: true }));
-	}
 
 	document.querySelectorAll(".pf-checkbox-input").forEach((cb) => {
 		if (deferredParams.getAll(cb.name).includes(cb.value)) {
@@ -50,13 +47,17 @@ document.addEventListener("change", (e) => {
 });
 
 if (filterPane) {
-	const observer = new MutationObserver(() => {
-		if (filterPane.querySelector(".pf-checkbox-input")) {
-			syncToUI();
-			observer.disconnect();
-		}
-	});
-	observer.observe(filterPane, { childList: true, subtree: true });
+	if (filterPane.querySelector(".pf-checkbox-input")) {
+		syncToUI();
+	} else {
+		const observer = new MutationObserver(() => {
+			if (filterPane.querySelector(".pf-checkbox-input")) {
+				syncToUI();
+				observer.disconnect();
+			}
+		});
+		observer.observe(filterPane, { childList: true, subtree: true });
+	}
 } else {
 	syncToUI();
 }
