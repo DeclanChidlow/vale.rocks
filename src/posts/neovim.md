@@ -3,6 +3,7 @@ title: How I Configure Neovim
 description: A full breakdown of my Neovim configuration, including documentation of all my base settings, plugins, and keybinds, as well as why I've configured them as such.
 og_description: Symbiosis of man and editor.
 pub_time: 2025-07-12
+mod_time: 2026-07-24
 section: Tutorial
 tags: [Vim, development]
 standardsite_rkey: 3mn2e32gpmj2s
@@ -14,7 +15,7 @@ I've purposefully spent time with a range of editors, including Visual Studio Co
 
 My editor is for editing and is where I edit files. I don't handle source control in my editor, though might pull in some information as is useful. In a similar vein, I don't use AI in my editor. I have spent many hours experimenting with in-editor AI but found it much more got in my way than helped. I use AI models externally, as detailed in my [notes on my AI usage](/posts/ai-usage#coding).
 
-It is worth noting that many of my these choices are influenced by [how I choose to format my code](/posts/my-code-formatting-guidelines) and that you can access my complete configuration, as well as all my other public configs, in my [dotfiles repository on GitHub](https://github.com/DeclanChidlow/dotfiles/tree/main/Baud/.config/nvim).
+It is worth noting that many of my these choices are influenced by [how I choose to format my code](/posts/my-code-formatting-guidelines) and that you can access my complete configuration, as well as all my other public configs, in my [dotfiles repository on Tangled](https://tangled.org/vale.rocks/dotfiles/tree/main/Baud/.config/nvim).
 
 ## Base Settings
 
@@ -302,7 +303,7 @@ vim.g.mapleader = " "
 
 If I'm opening and closing brackets, there is a reasonable assumption that I wish to enter them, so I have binds that place my cursor within them after creating them. The same applies to quotes and backticks, though I specifically avoid the functionality with triple backticks as they're used for delineating codeblocks in markdown.
 
-```lua
+````lua
 map("i", "<>", "<><left>", { desc = "Enter into angled brackets" })
 map("i", "()", "()<left>", { desc = "Enter into round brackets" })
 map("i", "{}", "{}<left>", { desc = "Enter into curly brackets" })
@@ -311,7 +312,7 @@ map("i", '""', '""<left>', { desc = "Enter into double quotes" })
 map("i", "''", "''<left>", { desc = "Enter into single quotes" })
 map("i", "``", "``<left>", { desc = "Enter into backticks" })
 map("i", "```", "```", { desc = "Don't enter into codeblock backticks" })
-```
+````
 
 When I move around the screen, I want to move by the lines on the screen, not arbitrary lines of the document. This isn't generally an issue, but becomes one when I have line wrapping enabled.
 
@@ -362,3 +363,9 @@ For both plain text and markdown, I want my text to wrap for the sake of readabi
 vim.o.wrap = true
 vim.o.linebreak = true
 ```
+
+## ASCII Art
+
+'Unicode art' would be the far more accurate term, but isn't the popular diction. Alex Yang has written a fantastic guide that covers most of the functionality: [Making ASCII art in Vim](https://alexyang.dev/vim-ascii-art/).
+
+I find myself reaching for text art most frequently when trying to capture user attention during long, verbose start-up sequences. A bit of pizzazz is pleasant and looks unlike standard textual logs so works effectively. [FIGlet](https://www.figlet.org) is a tool that turns input text into large ASCII art text, and works nicely for this purpose. Rather than running the command in a separate terminal I include it with `replace` and a call to the shell (`!`), like so: `:r!figlet text`.

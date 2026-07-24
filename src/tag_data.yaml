@@ -21,7 +21,7 @@ safari:
   description: the web browser developed by Apple and exclusively available on their devices.
 webkit:
   short_description: Browser engine developed by Apple.
-  description: the browser engine developed by Apple, and used most notably in Safari. Also used in Epiphany.
+  description: the browser engine developed by Apple, and used most notably in Safari.
 llms:
   short_description: Large Language Models.
   description: large language models and their impact on technology and society.
@@ -48,7 +48,7 @@ ecmascript:
   description: the ECMAScript standard and the JavaScript programming language.
 writing:
   short_description: Creation of written works.
-  description: Thoughts and musings on writing and authoring material.
+  description: Thoughts and musings on thee act of writing and authoring material.
 uiux:
   short_description: User interface and user experience.
   description: user interface (UI) and user experience (UX) design principles.
@@ -60,7 +60,7 @@ moderation:
   description: the practice of content moderation and community management.
 stoat:
   short_description: Online communication platform.
-  description: Content relating to Apple's Macintosh computers.
+  description: online communication platform supporting text, voice, and video communication.
 music:
   short_description: Art of sound and composition.
   description: musical works, performance, and theory.

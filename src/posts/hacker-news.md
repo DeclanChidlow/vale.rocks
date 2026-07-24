@@ -25,7 +25,7 @@ There is a decent amount of jargon on Hacker News. Many are standard forum collo
 <dd>A negative vote for a comment. Posts cannot be downvoted.</dd>
 
 <dt>Karma</dt>
-<dd>A point value assigned to users based on the number of upvotes they've received minus the number of downvotes they've received (and some anti-abuse shenanigans). It is possible that stories also have a [slightly different karma system](https://news.ycombinator.com/item?id=29024089). A leaderboard of the users with the most karma can be found at <a href="https://news.ycombinator.com/leaders">https://news.ycombinator.com/leaders</a></dd>
+<dd>A point value assigned to users based on the number of upvotes they've received minus the number of downvotes they've received (and some anti-abuse shenanigans). It is possible that stories also have a <a href="https://news.ycombinator.com/item?id=29024089">slightly different karma system</a>. A leaderboard of the users with the most karma can be found at <a href="https://news.ycombinator.com/leaders">https://news.ycombinator.com/leaders</a></dd>
 
 <dt>Parent</dt>
 <dd>The item above the current item. Depending on context, it can reference the above post, comment, or user.</dd>
@@ -54,9 +54,9 @@ There is a decent amount of jargon on Hacker News. Many are standard forum collo
 
 ## Voting
 
-Posts can be upvoted by any user of the site. Comments can be upvoted by any user, but only downvoted by users with over 500 karma. The lowest score a comment can have is -4,[^1] and comments cannot be downvoted more than 24 hours after their publication. Users also cannot downvote a comment if it is a direct reply to them. When a comment has a score in the negative, it becomes desaturated. To avoid flamewars, the display of comments is [delayed more the more nested they become](https://web.archive.org/web/20110618105517/http://ycombinator.com/newsnews.html#:~:text=Faster%2C%20Fewer%20Flamewars).
+Posts can be upvoted by any user of the site. If a user submits a link post with the same link as another recent post, their post is not submitted separately and instead they're counted as an upvote of the earlier post. Comments can be upvoted by any user, but only downvoted by users with over 500 karma. The lowest score a comment can have is -4,[^1] and comments cannot be downvoted more than 24 hours after their publication. Users also cannot downvote a comment if it is a direct reply to them. When a comment has a score in the negative, it becomes desaturated. To avoid flamewars, the display of comments is [delayed more the more nested they become](https://web.archive.org/web/20110618105517/http://ycombinator.com/newsnews.html#:~:text=Faster%2C%20Fewer%20Flamewars).
 
-Users with more than 30 karma can flag submissions, which has the effect of a more strongly weighted downvote. Flagging is intended to be used for cases where a submission breaks [the site guidelines](https://news.ycombinator.com/newsguidelines.html).
+Users with more than 30 karma can flag submissions, which has the effect of a more strongly weighted downvote. Flagging is intended to be used for cases where a submission breaks [the site guidelines](https://news.ycombinator.com/newsguidelines.html). Flagging has impact even [before an item is noted in the interface as being flagged](https://news.ycombinator.com/item?id=13858395).
 
 Submissions marked as 'dead' have been designated as such by either Hacker News' heuristics or by a moderator. They cannot be seen unless `showdead` is set to true on the viewing user's account. In September 2015 it was made so that users with more than 30 karma can vouch for dead submissions, and enough vouches [will unkill it](https://www.ycombinator.com/blog/two-hn-announcements/#:~:text=will%20unkill%20it).
 
@@ -91,7 +91,7 @@ The Hacker News front page -- especially a top spot -- is a fairly major driver 
                                         (contro-factor s))))
 ```
 
-If <math><mi>P</mi></math> <mo>=</mo> <mtext>points</mtext> and <math><mi>T</mi></math> <mo>=</mo> <mtext>time in hours</mtext>, this works out to:
+If <math><mi>P</mi></math> = points and <math><mi>T</mi></math> = time in hours, this works out to:
 
 <math display="block">
   <mrow>
@@ -130,13 +130,15 @@ In addition to the standard front page, there is also a classic ranked page. It 
 
 Hacker News is editorially independent from Y Combinator and has [a policy](https://news.ycombinator.com/newsfaq.html#cflag:~:text=YC%20suppressed%20on%20HN) of moderating 'less, not more, when YC or a YC startup is the topic.'. Y Combinator does, however, advertise batch applications in the site's footer. Y Combinator-funded companies have the ability to post job advertisements on Hacker News, which appear at position 6 on the front page and have a fixed decay, and may also post [Launch HN](https://news.ycombinator.com/launches) posts.
 
-### Second Chance Pool & Invited Links
+There is a degree of randomness to what ends up on the front page. A post can be submitted at one time and see no activity, then submitted again at another time and go to #1 on the front page. A post can even be submitted multiple times and not see any success. Hacker News attempts to address this in a few ways to give links multiple chances at success. Articles aren't [considered duplicates if they haven't seen significant attention](https://news.ycombinator.com/item?id=21852691) and users are able to submit the same link multiple times. There is also the second-chance pool and invitations to resubmit posts.
 
-Oftentimes Hacker News submissions will be overlooked, even if they are extremely good and of high quality. Moderators often notice these links and will frequently give them another chance. Users can also email the moderators to request that a submission be given a second chance if one really deserves it.
+### Second-Chance Pool & Invited Links
 
-When a submission is given a second chance, its post date is updated, and so are the post dates of any comments. Originally, [comment post dates weren't changed](https://news.ycombinator.com/item?id=48740177), but that led to confusion from users as to how a comment was commented before a post was posted, but the updated approach of bringing forward comment timestamps also confuses users.
+Oftentimes Hacker News submissions will be overlooked, even if they are extremely good and of high quality. Moderators often notice these links and will frequently give them another chance. Users can also email the moderators to request that a submission be given a second-chance if one really deserves it.
 
-Submissions in the second chance pool or those which have been invited for resubmission are added directly to the front page, giving them great visibility and often leading to them remaining there for long periods. Posts included in the second-chance pool are often referred to as having been 're-upped'.
+When a submission is given a second chance, its post date is updated, and so are the post dates of any comments. Originally, [comment post dates weren't changed](https://news.ycombinator.com/item?id=48740177), but that led to confusion from users as to how a comment was commented before a post was posted, but the updated approach of bringing forward comment timestamps also confuses users. Users are sent an email inviting them to repost their submission if it is too old to be placed in the second-chance pool.
+
+Submissions in the second-chance pool or those which have been invited for resubmission are added directly to the front page for a brief period, giving them great visibility and often leading to them remaining there for long periods. Posts included in the second-chance pool are often referred to as having been 're-upped'.
 
 ## Moderation
 
@@ -206,8 +208,8 @@ Hacker News intentionally doesn't track users too strictly, so the available dat
 
 | Region/Country                       | Share Range | Notes                                                             |
 | :----------------------------------- | :---------- | :---------------------------------------------------------------- |
-| **United States**                    | 32% - 56%   | Includes Silicon Valley; <45% (or as low as 33%) for total users. |
-| **Silicon Valley**                   | 5% - 14%    | Part of US total; <10% if measuring total users only.             |
+| **United States of America**         | 32% - 56%   | Includes Silicon Valley; <45% (or as low as 33%) for total users. |
+| **Silicon Valley**                   | 5% - 14%    | Part of United States total; <10% if measuring total users only.  |
 | **Europe**                           | 28% - 35%   | Total for the region.                                             |
 | **United Kingdom**                   | 5% - 8%     | Share of European total.                                          |
 | **Germany**                          | 4% - 7%     | Share of European total.                                          |
