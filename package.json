@@ -9,6 +9,7 @@
 	"dependencies": {
 		"@weborigami/origami": "0.7.0-beta.3",
 		"@weborigami/pagefind": "0.0.17",
+		"adm-zip": "0.6.0",
 		"highlight.js": "^11.11.1",
 		"marked": "^17.0.6",
 		"marked-alert": "^2.1.2",
