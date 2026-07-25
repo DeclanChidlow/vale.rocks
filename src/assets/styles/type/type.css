@@ -287,8 +287,13 @@ dd {
 	margin-inline-start: 1rem;
 }
 
-math[display="block"] {
-	font-size: 120%;
+math {
+	/* Needed to avoid poor display in Chromium */
+	font-family: math, "Cambria Math", "STIX Two Math", "Latin Modern Math", serif;
+
+	&[display="block"] {
+		font-size: 120%;
+	}
 }
 
 kbd {
