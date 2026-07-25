@@ -43,5 +43,6 @@ _body: `
 </article>
 
 <script defer src="/assets/scripts/comments-fetcher.js"></script>
+<script defer src="/assets/scripts/copy-maths.js"></script>
 `
 })

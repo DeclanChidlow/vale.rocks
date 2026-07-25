@@ -54,4 +54,6 @@ _body:
 <script defer src="/assets/scripts/footnotes.js"></script>
 <script defer src="/assets/scripts/figures.js"></script>
 <script defer src='/assets/scripts/scroll-indicator.js'></script>
-<script defer src='/assets/scripts/copy-codeblock.js'></script>`})
+<script defer src='/assets/scripts/copy-codeblock.js'></script>
+<script defer src='/assets/scripts/copy-maths.js'></script>
+`})

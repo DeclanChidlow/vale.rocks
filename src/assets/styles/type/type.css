@@ -287,6 +287,10 @@ dd {
 	margin-inline-start: 1rem;
 }
 
+math[display="block"] {
+	font-size: 120%;
+}
+
 kbd {
 	border-bottom-width: 4px;
 	padding-inline: 0.4rem;

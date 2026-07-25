@@ -91,36 +91,9 @@ The Hacker News front page -- especially a top spot -- is a fairly major driver 
                                         (contro-factor s))))
 ```
 
-If <math><mi>P</mi></math> = points and <math><mi>T</mi></math> = time in hours, this works out to:
+If $P$ = points and $T$ = time in hours, this works out to:
 
-<math display="block">
-  <mrow>
-    <mtext>Rank</mtext>
-    <mo>=</mo>
-    <mfrac>
-      <msup>
-        <mrow>
-          <mo>(</mo>
-          <mi>P</mi>
-          <mo>&#x2212;</mo>
-          <mn>1</mn>
-          <mo>)</mo>
-        </mrow>
-        <mn>0.8</mn>
-      </msup>
-      <msup>
-        <mrow>
-          <mo>(</mo>
-          <mi>T</mi>
-          <mo>+</mo>
-          <mn>2</mn>
-          <mo>)</mo>
-        </mrow>
-        <mn>1.8</mn>
-      </msup>
-    </mfrac>
-  </mrow>
-</math>
+$$\text{Rank} = \frac{(P - 1)^{0.8}}{(T + 2)^{1.8}}$$
 
 There are also further complexities in that original code to handle submissions with more nuance, but the main thing is that posts are presented based on the points they receive with a diminishing returns curve to avoid long-term domination of the front page. Text-only posts that do not have a URL are explicitly penalised. Additionally, [tutorials are downranked by moderators](https://news.ycombinator.com/item?id=16485753), and there have historically been [certain terms which have penalties associated with them](https://news.ycombinator.com/item?id=9097596).
 
@@ -231,7 +204,7 @@ In 2007, Drew Houston made a post on Hacker News announcing [Dropbox](https://ww
 
 Under a thread about Paul Graham's then-recent essay 'The Equity Equation', user sanj replied to a comment by user cperciva with, 'Did you win the Putnam?', a reference to a [prestigious mathematics competition](https://maa.org/putnam/), to which cperciva in turn replied, 'Yes, I did.'. Paul Graham chimed in to say, 'That has to be the comeback of all time.'.
 
-My own Hacker News claim to fame is that I successfully [made a post on Hacker News that got negative points](/micros/20260512-0652). This is notable, as top-level posts cannot usually be downvoted. As aforementioned, only comments can be downvoted and the option is restricted behind a karma threshold. I am still unsure how this occurred.
+My own Hacker News claim to fame is that I successfully [made a post on Hacker News that got negative points](/micros/20260512-0652). This is notable, as top-level posts cannot usually be downvoted. As aforementioned, only comments can be downvoted and the option is restricted behind a karma threshold. Apparently it was due to the [exploitation of a race condition](https://news.ycombinator.com/item?id=48114191) when rapidly upvoting and unvoting.
 
 ## Miscellaneous
 

@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2026-05-30
+mod_time: 2026-07-25
 section: Meta
 tags: [design, front-end]
 standardsite_rkey: 3mn2ecsiegd2b
@@ -104,10 +104,6 @@ Ideally, the base of this effect could be achieved using scroll-driven animation
 
 Once again, you can view my [reference implementation on CodePen](https://codepen.io/OuterVale/pen/MYgoYzR) and the code as used on this site in [`scroll-indicator.js`](/assets/scripts/scroll-indicator.js).
 
-### Heading Anchors Copying
-
-Tying in somewhat with the scroll indication functionality, my client-side [`copy-heading-anchor.js`](/assets/scripts/copy-heading-anchor.js) script adds a button to copy anchor links to headings.
-
 ### Search
 
 My entire site is [fully searchable](/search) thanks to the wonderful [Pagefind](https://pagefind.app). Each page on my site includes well-defined metadata that permits further filtering and exclusion from results as necessary, which is valuable in being able to narrow down a result. It is vital to me that all my content is easily searchable, because I usually find myself needing to locate or reference something on my site a few times per day.
@@ -124,11 +120,11 @@ Occasionally, I break links. [I'm sorry](https://www.w3.org/Provider/Style/URI).
 
 Beyond trying to get you to the right page, my 404 page also has a style tag with `display: block` and the `contenteditable` attribute, which allows one to write their own CSS that'll apply to the page. It's a lot of fun and a bit of an Easter egg for people who get lost.
 
-### Dynamic Timezone Display
+### Dynamic Time Zone Display
 
-All times on this site are provided in UTC, but using [some client-side JavaScript](/assets/scripts/timezone-adjuster.js), times are altered to be in the user's chosen timezone as set by their browser/OS.
+All times on this site are provided in UTC, but using [some client-side JavaScript](/assets/scripts/timezone-adjuster.js), times are altered to be in the user's chosen time zone as set by their browser/OS.
 
-I'm personally of the opinion that timezones are a bit dumb altogether and that we'd be best off just settling on UTC across the world. For that matter, daylight saving time should also be done away with.
+I'm personally of the opinion that time zones are a bit dumb altogether and that we'd be best off just settling on UTC across the world. For that matter, daylight saving time should also be done away with.
 
 ### Optimising Assets
 
@@ -142,11 +138,88 @@ I convert all my fonts to WOFF2 and serve them with my site rather than using an
 
 Content on this site is authored in Markdown and parsed during the initial build step by [`parse-markdown.js`](https://github.com/DeclanChidlow/vale.rocks/blob/main/src/functions/parse-markdown.js) which uses [Marked](https://marked.js.org) under the hood alongside a few extensions and self-implemented handlers.
 
-This script does several things. As well as the expected Markdown features, headings are given IDs using `marked-gfm-heading-id`, code blocks are highlighted with `marked-highlight` which uses `highlight.js`, proper orthotypography is aided by `marked-smartypants`, GitHub Flavoured Markdown style admonitions and footnotes are achieved with `marked-alert` and `marked-footnote`, respectively, and relative URLs are prefixed with a base URL using `marked-base-url`.
+This script does several things. As well as the expected Markdown features, headings are given IDs using `marked-gfm-heading-id`, code blocks are highlighted with `marked-highlight` which uses `highlight.js`, proper orthotypography is aided by `marked-smartypants`, GitHub Flavoured Markdown style admonitions and footnotes are achieved with `marked-alert` and `marked-footnote`, respectively, formulas are rendered with `@webc.site/math`, and relative URLs are prefixed with a base URL using `marked-base-url`.
 
 It also handles in-text abbreviations by marking up sets of three or more sequential capital letters and capital letters which directly follow numbers with the `<abbr>` element. This is fairly complex and is designed to handle a few edge cases by ignoring Roman numerals, code (inline or block), element attributes, and content already wrapped in an `<abbr>` element.
 
 I take care not to incorporate too many transformations during Markdown parsing, as it very quickly adds up to negatively impact build time which only becomes more of an issue as additional content is published.
+
+### Heading Anchors Copying
+
+Tying in somewhat with the scroll indication functionality, my client-side [`copy-heading-anchor.js`](/assets/scripts/copy-heading-anchor.js) script adds a button to copy anchor links to headings.
+
+### Code Blocks
+
+Code blocks have syntax highlighting which adheres to the site colour scheme. Due to the high frequency of people needing to copy code blocks, I've provided a dedicated button.
+
+I debated the utility of such a function, given that text can obviously be copied many other ways, but ultimately decided it was worth including. There is reasonable frequency, and the overflow behaviour of code block contents makes typical copying functionality finicky -- especially on narrower screens where the overflow is more significant.
+
+The functionality is achieved with [`copy-codeblock.js`](/assets/scripts/copy-codeblock.js) and I am most pleased by the glow animation when copying.
+
+## Mathematics
+
+I have never been particularly brilliant at maths. During high school I was in a class above the standard before being moved down into an essentials class when I switched pathways to one for students doing vocational study. I do not do advanced computer science, nor advanced mathematics or physics, so it is uncommon that I need to present formulae or equations.
+
+However, on occasion, I do have need, so I have support for authoring formulas with
+<math>
+<mrow>
+<mtext>L</mtext>
+<mpadded width="-0.36em" lspace="-0.36em" voffset="0.2em">
+<mstyle mathsize="0.75em"><mtext>A</mtext></mstyle>
+</mpadded>
+<mtext>T</mtext>
+<mpadded width="-0.15em" lspace="-0.15em" voffset="-0.22em">
+<mtext>E</mtext>
+</mpadded>
+<mtext>X</mtext>
+</mrow>
+</math>. They are converted to browser-supported [MathML](https://www.w3.org/Math/) for display during build. As I include equations and formulas so infrequently on Vale.Rocks, minimal additional styling is applied. The browser-default MathML-based styles are largely used, with very few tweaks. To improve the readability of MathML equations with a `display` attribute of `block`, I give them slightly larger font sizes. With complex equations, details such as superscripts nested within fractions can otherwise become diabolically small.
+
+MathML output is generally poor when copied, with the bulk of formatting lost. To address this, I wrote [`copy-maths.js`](/assets/scripts/copy-maths.js), which copies the maths in two MIME types using the Clipboard API. `text/plain` has the raw
+<math>
+<mrow>
+<mtext>L</mtext>
+<mpadded width="-0.36em" lspace="-0.36em" voffset="0.2em">
+<mstyle mathsize="0.75em"><mtext>A</mtext></mstyle>
+</mpadded>
+<mtext>T</mtext>
+<mpadded width="-0.15em" lspace="-0.15em" voffset="-0.22em">
+<mtext>E</mtext>
+</mpadded>
+<mtext>X</mtext>
+</mrow>
+</math>
+and `text/html` has the MathML markup. This places the onus of handling on the application pasted into. For example, pasting into basic text editors will provide the
+<math>
+<mrow>
+<mtext>L</mtext>
+<mpadded width="-0.36em" lspace="-0.36em" voffset="0.2em">
+<mstyle mathsize="0.75em"><mtext>A</mtext></mstyle>
+</mpadded>
+<mtext>T</mtext>
+<mpadded width="-0.15em" lspace="-0.15em" voffset="-0.22em">
+<mtext>E</mtext>
+</mpadded>
+<mtext>X</mtext>
+</mrow>
+</math>
+source, and in applications such as Microsoft Word it will provide rendered, structured maths. It is a nice clean solution which hopefully adapts to the user's needs. The only minor issue with my implementation is that you cannot copy part of a formula -- only the whole thing -- due to sections of formulas rarely working in isolation and the rarity of needing specific parts.
+
+It pulls the
+<math>
+<mrow>
+<mtext>L</mtext>
+<mpadded width="-0.36em" lspace="-0.36em" voffset="0.2em">
+<mstyle mathsize="0.75em"><mtext>A</mtext></mstyle>
+</mpadded>
+<mtext>T</mtext>
+<mpadded width="-0.15em" lspace="-0.15em" voffset="-0.22em">
+<mtext>E</mtext>
+</mpadded>
+<mtext>X</mtext>
+</mrow>
+</math>
+source from the `data-tex` attribute on `<math>`, which I assign as part of markdown parsing during build time.
 
 ### IndieWeb Integration
 

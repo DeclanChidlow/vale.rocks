@@ -3,7 +3,7 @@ title: Lorem Ipsum
 description: A page for testing and trialing formatting, features, and typography by seeing how they interact in complex arrangements to catch edge cases at scale.
 og_description: "'Blah blah blah' doesn’t look quite as good."
 pub_time: 2024-11-25
-mod_time: 2025-09-10
+mod_time: 2026-07-25
 section: Meta
 standardsite_rkey: 3mn2dxwtaeg2p
 site_recommended: true
@@ -31,7 +31,33 @@ You can do a hard refresh on a webpage using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> 
 
 pneumonoultramicroscopicsilicovolcanoconiosisisaverylongwordpneumonoultramicroscopicsilicovolcanoconiosisisaverylongwordpneumonoultramicroscopicsilicovolcanoconiosisisaverylongword
 
-### Maths
+### Mathematics
+
+Let's test some fancy MathML stuff. Here is Euler's Identity, which uses superscripts and Greek symbols while being displayed inline: $e^{i\pi} + 1 = 0$. Following on, I have the definition of a derivative, which has fractions which must shrink to avoid issues with lines above and below: $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$. Here is some more text, so we can see if that caused any issues with lines below. It should just push the next line down a bit, which isn't the nicest leading but is still reasonably graceful.
+
+In addition to inline maths, there are equations with a `display` attribute of `block`:
+
+1. Ramanujan's infinitely nested radical testing deep square root nesting:
+
+   $$\sqrt{1 + 2 \sqrt{1 + 3 \sqrt{1 + 4 \sqrt{1 + \dots } } } } = 3$$
+
+2. The square of the Dirichlet integral to test stretching of parentheses:
+
+   $$\left( \int_{0}^{\infty} \frac{\sin(x)}{x} \text{d}x \right)^2 = \frac{\pi^2}{4}$$
+
+3. The Taylor series expansion of the exponential function to see handling of a large summation sign with stacking of boundary limits:
+
+   $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$$
+
+4. The quadratic formula for testing subscripts/superscripts nested inside a radical within a fraction:
+
+   $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+5. A 2D rotation matrix for testing table layouts:
+
+   $$R = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix}$$
+
+Now for some more boring maths that don't use MathML.
 
 100⁄200 158⁄851
 
@@ -477,64 +503,53 @@ They'd lock me up, sure, but at least nobody would be confused by small caps. I 
 
 ## Colour Palette
 
-<style>
-.colour-blocks {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-
-    > span {
-        display: inline-block;
-        width: 5rem;
-        height: 5rem;
-        padding: 0.25rem;
-    }
-}
-</style>
+<link rel="stylesheet" href="/assets/posts/lorem-ipsum/styles.css">
 
 <div class="colour-blocks">
-<span style="background: var(--black);">Black</span>
-<span style="background: var(--dark_grey);">Dark Grey</span>
-<span style="background: var(--grey);">Grey</span>
-<span style="background: var(--bright_grey);">Bright Grey</span>
-<span style="background: var(--white);">White</span>
-<span style="background: var(--bright_white);">Bright White</span>
-<span style="background: var(--red);">Red</span>
-<span style="background: var(--bright_red);">Bright Red</span>
-<span style="background: var(--orange);">Orange</span>
-<span style="background: var(--bright_orange);">Bright Orange</span>
-<span style="background: var(--yellow);">Yellow</span>
-<span style="background: var(--bright_yellow);">Bright Yellow</span>
-<span style="background: var(--green);">Green</span>
-<span style="background: var(--bright_green);">Bright Green</span>
-<span style="background: var(--blue);">Blue</span>
-<span style="background: var(--bright_blue);">Bright Blue</span>
-<span style="background: var(--cyan);">Cyan</span>
-<span style="background: var(--bright_cyan);">Bright Cyan</span>
-<span style="background: var(--magenta);">Magenta</span>
-<span style="background: var(--bright_magenta);">Bright Magenta</span>
+    <span style="--block_colour: var(--black);">Black</span>
+    <span style="--block_colour: var(--dark_grey);">Dark Grey</span>
+    <span style="--block_colour: var(--grey);">Grey</span>
+    <span style="--block_colour: var(--bright_grey);">Bright Grey</span>
+    <span style="--block_colour: var(--white);">White</span>
+    <span style="--block_colour: var(--bright_white);">Bright White</span>
+    <span style="--block_colour: var(--red);">Red</span>
+    <span style="--block_colour: var(--bright_red);">Bright Red</span>
+    <span style="--block_colour: var(--orange);">Orange</span>
+    <span style="--block_colour: var(--bright_orange);">Bright Orange</span>
+    <span style="--block_colour: var(--yellow);">Yellow</span>
+    <span style="--block_colour: var(--bright_yellow);">Bright Yellow</span>
+    <span style="--block_colour: var(--green);">Green</span>
+    <span style="--block_colour: var(--bright_green);">Bright Green</span>
+    <span style="--block_colour: var(--blue);">Blue</span>
+    <span style="--block_colour: var(--bright_blue);">Bright Blue</span>
+    <span style="--block_colour: var(--cyan);">Cyan</span>
+    <span style="--block_colour: var(--bright_cyan);">Bright Cyan</span>
+    <span style="--block_colour: var(--magenta);">Magenta</span>
+    <span style="--block_colour: var(--bright_magenta);">Bright Magenta</span>
 </div>
 
-<span style="color: var(--black);">Black</span>
-<span style="color: var(--dark_grey);">Dark Grey</span>
-<span style="color: var(--grey);">Grey</span>
-<span style="color: var(--bright_grey);">Bright Grey</span>
-<span style="color: var(--white);">White</span>
-<span style="color: var(--bright_white);">Bright White</span>
-<span style="color: var(--red);">Red</span>
-<span style="color: var(--bright_red);">Bright Red</span>
-<span style="color: var(--orange);">Orange</span>
-<span style="color: var(--bright_orange);">Bright Orange</span>
-<span style="color: var(--yellow);">Yellow</span>
-<span style="color: var(--bright_yellow);">Bright Yellow</span>
-<span style="color: var(--green);">Green</span>
-<span style="color: var(--bright_green);">Bright Green</span>
-<span style="color: var(--blue);">Blue</span>
-<span style="color: var(--bright_blue);">Bright Blue</span>
-<span style="color: var(--cyan);">Cyan</span>
-<span style="color: var(--bright_cyan);">Bright Cyan</span>
-<span style="color: var(--magenta);">Magenta</span>
-<span style="color: var(--bright_magenta);">Bright Magenta</span>
+<div class="colour-text">
+    <span style="--text_colour: var(--black);">Black</span>
+    <span style="--text_colour: var(--dark_grey);">Dark Grey</span>
+    <span style="--text_colour: var(--grey);">Grey</span>
+    <span style="--text_colour: var(--bright_grey);">Bright Grey</span>
+    <span style="--text_colour: var(--white);">White</span>
+    <span style="--text_colour: var(--bright_white);">Bright White</span>
+    <span style="--text_colour: var(--red);">Red</span>
+    <span style="--text_colour: var(--bright_red);">Bright Red</span>
+    <span style="--text_colour: var(--orange);">Orange</span>
+    <span style="--text_colour: var(--bright_orange);">Bright Orange</span>
+    <span style="--text_colour: var(--yellow);">Yellow</span>
+    <span style="--text_colour: var(--bright_yellow);">Bright Yellow</span>
+    <span style="--text_colour: var(--green);">Green</span>
+    <span style="--text_colour: var(--bright_green);">Bright Green</span>
+    <span style="--text_colour: var(--blue);">Blue</span>
+    <span style="--text_colour: var(--bright_blue);">Bright Blue</span>
+    <span style="--text_colour: var(--cyan);">Cyan</span>
+    <span style="--text_colour: var(--bright_cyan);">Bright Cyan</span>
+    <span style="--text_colour: var(--magenta);">Magenta</span>
+    <span style="--text_colour: var(--bright_magenta);">Bright Magenta</span>
+</div>
 
 ## Horizontal Rule
 

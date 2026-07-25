@@ -1,0 +1,19 @@
+.colour-blocks {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+
+	span {
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+		padding: 0.25rem;
+		background: var(--block_colour);
+		color: contrast-color(var(--block_colour));
+	}
+}
+
+.colour-text span {
+	color: var(--text_colour);
+	background: contrast-color(var(--text_colour));
+}

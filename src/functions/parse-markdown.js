@@ -7,9 +7,27 @@ import { markedSmartypants } from "marked-smartypants";
 import markedAlert from "marked-alert";
 import markedFootnote from "marked-footnote";
 import { baseUrl as markedBaseUrl } from "marked-base-url";
+import mathMarkedOriginal from "@webc.site/math-marked";
 import { documentObject, origamiHighlightDefinition } from "@weborigami/origami";
 
 highlight.registerLanguage("ori", origamiHighlightDefinition);
+
+function escapeAttr(str) {
+	return str.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function mathMarked() {
+	const ext = mathMarkedOriginal();
+	for (const item of ext.extensions) {
+		const origRender = item.renderer;
+		item.renderer = (token) => {
+			const html = origRender(token);
+			const escaped = escapeAttr(token.text);
+			return html.replace("<math", `<math data-tex="${escaped}"`);
+		};
+	}
+	return ext;
+}
 
 const processor = new Marked(
 	markedGfmHeadingId(),
@@ -32,6 +50,7 @@ const processor = new Marked(
 	markedAlert(),
 	markedFootnote(),
 	markedBaseUrl("https://vale.rocks"),
+	mathMarked(),
 );
 
 const langCache = new Map();

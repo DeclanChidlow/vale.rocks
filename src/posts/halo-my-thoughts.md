@@ -63,7 +63,7 @@ While pretty consistently a stellar experience, one level stands as an exception
 
 Halo 2 looks at CE, throws out what didn't work, iterates on and improves what did, and then cranks everything up to 11. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling create an immersive experience that kept me firmly on the edge of my seat.
 
-Where I felt the need to complain about CE's Anniversary graphics, I feel the need to celebrate Halo 2 Anniversary's. You can quite comfortably play the game with or without the overhaul and be confident you're experiencing the game to its fullest. They remain faithful to the original while looking stunning, and, much like with CE's, they can be toggled at will to verify this.
+Where I felt the need to complain about CE's Anniversary graphics, I feel the need to celebrate Halo 2: Anniversary's. You can quite comfortably play the game with or without the overhaul and be confident you're experiencing the game to its fullest. They remain faithful to the original while looking stunning, and, much like with CE's, they can be toggled at will to verify this.
 
 Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes are marvellous. They're detailed and crisp, looking more sharp and real than reality itself, but not overwhelmingly so. Part of my decision to play with Anniversary graphics was just to ensure I didn't miss them.
 
@@ -76,7 +76,7 @@ That said, the original graphics don't slouch either. While there are some sligh
 
 While Halo 2 keeps most of its predecessor's music, it also manages to elevate it with the inclusion of some truly epic electric guitar. The guitar elevates the music to something somehow even more exhilarating than what CE accomplished.
 
-Much like with CE's Anniversary release, Halo 2 Anniversary features a re-recorded and remixed re-release of the soundtrack. Thankfully, much like with the graphics, it takes a step up from the CE's. While some tracks have unfortunately been replaced, it's generally mixed much better and more faithfully to the original, making it an excellent listen.
+Much like with CE's Anniversary release, Halo 2: Anniversary features a re-recorded and remixed re-release of the soundtrack. Thankfully, much like with the graphics, it takes a step up from the CE's. While some tracks have unfortunately been replaced, it's generally mixed much better and more faithfully to the original, making it an excellent listen.
 
 The gameplay sees several improvements, with dual wielding, destructible and hijackable vehicles, and reduced fall damage taking the game a monumental step forward. These enhancements somehow push the game into something even more dynamic and immersing than CE.
 

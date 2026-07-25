@@ -5,6 +5,7 @@
     "": {
       "name": "vale-rocks",
       "dependencies": {
+        "@webc.site/math-marked": "^0.1.1",
         "@weborigami/origami": "0.7.0-beta.3",
         "@weborigami/pagefind": "0.0.17",
         "highlight.js": "^11.11.1",
@@ -110,6 +111,10 @@
     "@pagefind/windows-arm64": ["@pagefind/windows-arm64@1.5.0", "", { "os": "win32", "cpu": "arm64" }, "sha512-kg+szZwffZdyWn6SL6RHjAYjhSvJ2bT4qkv3KepGsbmD9fuSHUSC+2kydDneDVUA9qEDRf9uSFoEAsXsp1/JKA=="],
 
     "@pagefind/windows-x64": ["@pagefind/windows-x64@1.5.0", "", { "os": "win32", "cpu": "x64" }, "sha512-8eOCmB8lnpyvwz+HrcTXLuBxhj7UseAFh6KGEXRe8UCcAfVQih+qPy/4akJRezViI+ONijz9oi7HpMkw9rdtBg=="],
+
+    "@webc.site/math": ["@webc.site/math@0.1.32", "", {}, "sha512-WwQy+nkrAog5xos8sdxMHRcOcmAJNDt/UfGoztHH3j96RWgz0jxk5h8/13I4hChONOwxvAxAGRqwIbfk82HnUA=="],
+
+    "@webc.site/math-marked": ["@webc.site/math-marked@0.1.1", "", { "peerDependencies": { "@webc.site/math": ">=0.1.5", "marked": ">=18.0.5" } }, "sha512-CofqbvDUrL4W/MAQSmrq/cCMfsZlMSJIi4D++Q0cFLv27VSg1J4+Y2A3uZ0/LDFA3NLSfOBdV0HW/NhSY1nsJA=="],
 
     "@weborigami/async-tree": ["@weborigami/async-tree@0.7.0-beta.3", "", {}, "sha512-ugJqwS21qnJjwxFqMRxf/cu3J0IlXJtup3ZhMBbU6UvAE6J2+RX1DTwtXOtxxbSx85fBUo9o9n+LnEybXG+DiA=="],
 
