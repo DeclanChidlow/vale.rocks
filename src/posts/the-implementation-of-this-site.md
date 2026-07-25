@@ -156,7 +156,7 @@ I debated the utility of such a function, given that text can obviously be copie
 
 The functionality is achieved with [`copy-codeblock.js`](/assets/scripts/copy-codeblock.js) and I am most pleased by the glow animation when copying.
 
-## Mathematics
+### Mathematics
 
 I have never been particularly brilliant at maths. During high school I was in a class above the standard before being moved down into an essentials class when I switched pathways to one for students doing vocational study. I do not do advanced computer science, nor advanced mathematics or physics, so it is uncommon that I need to present formulae or equations.
 
