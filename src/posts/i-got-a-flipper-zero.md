@@ -8,7 +8,7 @@ section: Review
 standardsite_rkey: 3mn2dvh55sm2a
 ---
 
-I like computers, and I like tinkering. I also don't mind stretching rules a little if it means I can do something not intended. I've burnt hours customising CFW on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.
+I like computers, and I like tinkering. I also don't mind stretching rules a little if it means I can do something not intended. I've burnt hours customising <abbr title="Custom Firmware">CFW</abbr> on consoles, tinkering with the inner workings of computers (not always mine), and gaolbreaking iPhones.
 
 I've been a fan of the sort of stuff [Hak5](https://hak5.org) produces for a while, but I'm no professional pentester, and I honestly can't see myself using their offerings all that often. That's why the Flipper jumped out to me. A device that condenses the functionality of many of their gizmos into a sleek, pocketable device.
 
@@ -67,7 +67,7 @@ The feature of the Flipper that has saved me the most time is by far the BadUSB 
 
 In the same vein as the BadUSB functionality, it's handy as a remote for computers. You can pair it over Bluetooth or using its USB-C cable and do anything you might need. Acting as a clicker during presentations, as a media control, or as a mouse jiggler to feign activity are all super useful.
 
-The sub-GHz functionality is something I want to do more with. Most devices have [rolling codes](https://en.wikipedia.org/wiki/Rolling_code), which makes it difficult for the Flipper to interface with them, but there are definitely use cases I want to explore. Worth noting is that the charge port caps on Teslas respond to a sub-GHz signal and have no authentication or rolling codes. Do with this information as you will.
+The sub-GHz functionality is something I want to do more with. Most devices have [rolling codes](https://en.wikipedia.org/wiki/Rolling_code), which makes it difficult for the Flipper to interface with them, but there are definitely use cases I want to explore. Worth noting is that the charge port covers on Teslas respond to a sub-GHz signal and have no authentication or rolling codes.[^1] Do with this information as you will.
 
 The NFC functionality is also pretty neat. Most cards are encrypted, but things like Amiibo are fair game. Sure beats carrying a plastic figure around.
 
@@ -123,3 +123,8 @@ Ray also threw in a diabolical little PCB with a button cell battery and speaker
 The Flipper Zero is a neat bit of tech. It's an all-in-one, pocket-sized tinkerer's toolbox. No, it isn't better than buying specialised hardware for each of its features, but that isn't its purpose. It fills the niche encapsulated by the ethos behind the quote, 'the best camera is the one you have with you'. It's built well and fulfils its purpose.
 
 If the Flipper Zero has made it onto your radar and piqued your interest, then chances are the only negative you'll find in buying it is the impact on your wallet.
+
+[^1]:
+    The charging port on Tesla cars (or Swasticars, as one may prefer to call them) are located behind a cover, much like combustion engine cars have fuel doors. To facilitate automatic opening of the Tesla's charging port cover when a plug comes into proximity, the plugs of Tesla charging infrastructure such as Superchargers and Wall Connectors output a low-power 2.4 GHz signal which the car recognises, prompting the charge port cover to open.
+
+    This signal is extremely simple, and there is no authentication to verify it's origin is a charger. As such, you can easily mess with Teslas by playing back these signals to open the charge port cover. You can play the signal much 'louder' than the chargers to open them from a distance. In most cases, the cover automatically closes after a brief period. In Europe and Australia, it is a 433 MHz signal. In the United States of America and Canada, it is a 315 MHz signal.

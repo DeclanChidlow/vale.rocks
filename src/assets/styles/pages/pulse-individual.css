@@ -5,10 +5,10 @@
 }
 
 main header {
-	margin-bottom: 3rem;
-	width: calc(100vw - 13rem);
-	min-width: 100%;
-	max-width: 75rem;
+	margin-block-end: 3rem;
+	inline-size: calc(100vw - 13rem);
+	min-inline-size: 100%;
+	max-inline-size: 75rem;
 	border-bottom: 2px solid light-dark(var(--black), var(--bright_white));
 
 	h1 svg {
@@ -28,6 +28,23 @@ main header {
 	}
 }
 
+article .readable p:first-child {
+	&::first-letter {
+		float: left;
+		margin-block-start: 0.5rem;
+		margin-inline-end: 0.25rem;
+		font-size: 3.3rem;
+		font-weight: bold;
+		font-variant: discretionary-ligatures;
+		line-height: 0.6;
+	}
+
+	&::first-line {
+		font-variant: all-small-caps;
+		font-weight: bold;
+	}
+}
+
 .stats {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -43,7 +60,7 @@ main header {
 
 .number {
 	display: block;
-	height: 1.2em;
+	block-size: 1.2em;
 	font-size: 1.75em;
 	font-variant: oldstyle-nums;
 	overflow: hidden;
@@ -51,8 +68,8 @@ main header {
 	.digit {
 		position: relative;
 		display: inline-block;
-		width: 0.6em;
-		height: 1.2em;
+		inline-size: 0.6em;
+		block-size: 1.2em;
 		overflow: hidden;
 
 		span {
@@ -60,7 +77,7 @@ main header {
 			transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 
 			div {
-				height: 1.2em;
+				block-size: 1.2em;
 			}
 		}
 	}
