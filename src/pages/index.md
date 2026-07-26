@@ -120,18 +120,30 @@ If you wish to know more about the specifics of this site, you can read [The Des
 <script>
     const d = new Date();
     const h = d.getHours();
-    const m = d.getMonth() + 1;
-    const day = d.getDate();
-    const key = `${m}-${day}`;
+    const key = `${d.getMonth() + 1}-${d.getDate()}`;
 
     const events = {
         "1-1": " on this nascent awakening of the new year",
+        "1-8": " thinking about the conscience of a hacker",
+        "1-15": " on this anniversary of Wikipedia's first edit",
+        "1-24": " to see why 1984 won't be like 1984",
+        "2-1": " when ELIZA feigned sentience",
+        "2-14": " on the day the ENIAC's was publicly unveiled",
         "3-12": " on this anniversary of the World Wide Web proposal",
         "3-15": " on this commemoration of RSS' premier",
         "4-1": " during this period ripe for tomfoolery",
+        "4-12": " on from the first human leaving Earth",
+        "5-3": " long past spam's advent",
+        "5-11": " on the day Deep Blue checkmated humanity",
+        "5-25": " with your towel",
+        "7-20": " in reflection of humanities first lunar footprints",
         "8-6": " on this birthday of the first public website",
+        "8-10": " on the day Zero Cool crashed 1,507 systems",
+        "9-17": " as we remember Linux's debut",
         "9-19": " ye landlubbers",
         "10-29": " on this, the anniversary of the first message over ARPANET",
+        "11-2": " long past when the first worm wriggled through systems",
+        "11-9": " as Firefox rose from the Netscape ashes",
         "12-31": " as the old year wanes into memory",
     };
 
