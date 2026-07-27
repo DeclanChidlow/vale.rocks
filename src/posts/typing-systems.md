@@ -138,11 +138,11 @@ To log my progress and get a general idea of how Colemak was working for me, I d
 
 Before switching, I made note of my QWERTY speed, which I logged at 64WPM with an accuracy of 97.65%.
 
-I switched cold turkey on the 13<sup>th</sup> of November, 2022. I completely dropped QWERTY and switched my devices to Colemak-DH. My initial typing speed was a feeble 4.8 words per minute (WPM) with an accuracy of 75%. I unfortunately no longer have my chat logs from the time, but my mistypings were comically egregious.
+I switched cold turkey on the 13th of November, 2022. I completely dropped QWERTY and switched my devices to Colemak-DH. My initial typing speed was a feeble 4.8 words per minute (WPM) with an accuracy of 75%. I unfortunately no longer have my chat logs from the time, but my mistypings were comically egregious.
 
 Some people opt for using transitionary layouts, such as Tarmak, which allow the user to slowly migrate to Colemak via a series of steps which only move a few keys. I didn't follow Tarmak, as I wanted to polish my touch typing, and a switching period of being slower at typing was not too dire for me at the time. I might consider Tarmak were I to be making the switch now, given that I am now operating in more professional contexts which require quick action.
 
-The first two months following my switch showed the most improvement, jumping me to scores in the high 40s by mid-January. I continued to improve my speed before eventually surpassing my QWERTY speed with a test of 66.8WPM on the 20<sup>th</sup> of April, 2023. I imagine that the swift succession at the beginning is in one part due to the law of diminishing returns and in another part due to my decrease in active improvement, as is seen in the graph below showing my tests.
+The first two months following my switch showed the most improvement, jumping me to scores in the high 40s by mid-January. I continued to improve my speed before eventually surpassing my QWERTY speed with a test of 66.8WPM on the 20th of April, 2023. I imagine that the swift succession at the beginning is in one part due to the law of diminishing returns and in another part due to my decrease in active improvement, as is seen in the graph below showing my tests.
 
 <figure>
 <svg viewBox="0 0 555.1 322.5" role="img">

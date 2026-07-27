@@ -24,15 +24,15 @@ This second beast also introduces 'the mark of the beast', required to buy or se
 
 Revelation 13 verses 15 to 18 say:
 
-> <sup>15</sup> It was given to him to give breath to the image of the beast, that the image of the beast should both speak, and cause as many as wouldn’t worship the image of the beast to be killed. <sup>16</sup> He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads; <sup>17</sup> and that no one would be able to buy or to sell unless he has that mark, which is the name of the beast or the number of his name. <sup>18</sup> Here is wisdom. He who has understanding, let him calculate the number of the beast, for it is the number of a man. His number is six hundred sixty-six.
+> ^15^ It was given to him to give breath to the image of the beast, that the image of the beast should both speak, and cause as many as wouldn't worship the image of the beast to be killed. ^16^ He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads; ^17^ and that no one would be able to buy or to sell unless he has that mark, which is the name of the beast or the number of his name. ^18^ Here is wisdom. He who has understanding, let him calculate the number of the beast, for it is the number of a man. His number is six hundred sixty-six.
 
 Revelation 14 verses 9 to 11 say:
 
-> <sup>9</sup> Another angel, a third, followed them, saying with a great voice, “If anyone worships the beast and his image, and receives a mark on his forehead or on his hand, <sup>10</sup> he also will drink of the wine of the wrath of God, which is prepared unmixed in the cup of his anger. He will be tormented with fire and sulfur in the presence of the holy angels and in the presence of the Lamb. <sup>11</sup> The smoke of their torment goes up forever and ever. They have no rest day and night, those who worship the beast and his image, and whoever receives the mark of his name.
+> ^9^ Another angel, a third, followed them, saying with a great voice, "If anyone worships the beast and his image, and receives a mark on his forehead or on his hand, ^10^ he also will drink of the wine of the wrath of God, which is prepared unmixed in the cup of his anger. He will be tormented with fire and sulfur in the presence of the holy angels and in the presence of the Lamb. ^11^ The smoke of their torment goes up forever and ever. They have no rest day and night, those who worship the beast and his image, and whoever receives the mark of his name.
 
 And Revelation 20 verse 4 says:
 
-> <sup>4</sup> I saw thrones, and they sat on them, and judgment was given to them. I saw the souls of those who had been beheaded for the testimony of Jesus and for the word of God, and such as didn’t worship the beast nor his image, and didn’t receive the mark on their forehead and on their hand. They lived and reigned with Christ for a thousand years.
+> ^4^ I saw thrones, and they sat on them, and judgment was given to them. I saw the souls of those who had been beheaded for the testimony of Jesus and for the word of God, and such as didn't worship the beast nor his image, and didn't receive the mark on their forehead and on their hand. They lived and reigned with Christ for a thousand years.
 
 ## Analysis
 

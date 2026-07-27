@@ -95,7 +95,7 @@ The Go has an inbuilt browser. It is the Chromium-based Oculus Browser. It has s
 
 Being so similar, the Oculus Go maintained backwards compatibility with the bulk of Gear VR applications. As such, in mid-2018 [Samsung Internet released for the Go](https://www.meta.com/en-gb/experiences/samsung-internet/849609821813454/), being a port of the Gear VR version and having the same functionality.
 
-Firefox Reality was immediately available for the Go, alongside the Quest and Viveport versions, when the browser launched in 2018. Vuplex VR Browser was also made available, being the same as the Gear VR version. No further browser releases or updates were published to the Oculus Store after December 4<sup>th</sup>, 2020, due to Oculus disallowing new submissions or updates for Oculus Go applications.
+Firefox Reality was immediately available for the Go, alongside the Quest and Viveport versions, when the browser launched in 2018. Vuplex VR Browser was also made available, being the same as the Gear VR version. No further browser releases or updates were published to the Oculus Store after December 4th, 2020, due to Oculus disallowing new submissions or updates for Oculus Go applications.
 
 ## Vive Focus
 

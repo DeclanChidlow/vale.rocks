@@ -12,10 +12,21 @@ import { documentObject, origamiHighlightDefinition } from "@weborigami/origami"
 
 highlight.registerLanguage("ori", origamiHighlightDefinition);
 
+/**
+ * Escape & " < > for safe interpolation in HTML attributes.
+ * @param {string} str
+ * @returns {string}
+ */
 function escapeAttr(str) {
 	return str.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+/**
+ * Wraps the @webc.site/math-marked extension so that each rendered math element also carries a `data-tex` attribute containing the original LaTeX source.
+ * This lets client-side scripts reconstruct the raw formula text (eg for clipboard copying).
+ *
+ * @returns {import("marked").MarkedExtension}
+ */
 function mathMarked() {
 	const ext = mathMarkedOriginal();
 	for (const item of ext.extensions) {
@@ -28,6 +39,80 @@ function mathMarked() {
 	}
 	return ext;
 }
+
+/**
+ * Escape & < > for safe interpolation in HTML element content.
+ * @param {string} str
+ * @returns {string}
+ */
+function escapeHtml(str) {
+	return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+const ORDINAL_RX = /^\b(\d+)(st|nd|rd|th)\b/i;
+const ORDINAL_SEARCH_RX = /\b(\d+)(st|nd|rd|th)\b/i;
+
+/**
+ * Custom marked inline extension providing three syntax additions:
+ * 1. Auto-superscript ordinals.
+ * 2. Subscript (wrap in tildes).
+ * 3. Superscript (wrap in up carets).
+ *
+ * @type {import("marked").MarkedExtension}
+ */
+const subSup = {
+	extensions: [
+		{
+			name: "subSup",
+			level: "inline",
+			start(src) {
+				const tilt = src.search(/[~^]/);
+				const ord = src.search(ORDINAL_SEARCH_RX);
+				if (tilt === -1) return ord;
+				if (ord === -1) return tilt;
+				return Math.min(tilt, ord);
+			},
+			tokenizer(src) {
+				const ord = ORDINAL_RX.exec(src);
+				if (ord) {
+					return {
+						type: "subSup",
+						raw: ord[0],
+						number: ord[1],
+						text: ord[2],
+						sub: false,
+						ordinal: true,
+					};
+				}
+				const sub = /^~([^\s~](?:[^~\n]*[^\s~])?)~/.exec(src);
+				if (sub) {
+					return {
+						type: "subSup",
+						raw: sub[0],
+						text: sub[1],
+						sub: true,
+					};
+				}
+				const sup = /^\^([^\s^](?:[^\^\n]*[^\s^])?)\^/.exec(src);
+				if (sup) {
+					return {
+						type: "subSup",
+						raw: sup[0],
+						text: sup[1],
+						sub: false,
+					};
+				}
+			},
+			renderer(token) {
+				if (token.ordinal) {
+					return `${token.number}<sup>${escapeHtml(token.text)}</sup>`;
+				}
+				const tag = token.sub ? "sub" : "sup";
+				return `<${tag}>${escapeHtml(token.text)}</${tag}>`;
+			},
+		},
+	],
+};
 
 const processor = new Marked(
 	markedGfmHeadingId(),
@@ -51,10 +136,10 @@ const processor = new Marked(
 	markedFootnote(),
 	markedBaseUrl("https://vale.rocks"),
 	mathMarked(),
+	subSup,
 );
 
 const langCache = new Map();
-
 const QUICK_CHECK_RX = /[A-Z]{3}/;
 const TAG_SPLIT_RX = /(<[^>]+>)/;
 const EXCLUDED_OPEN_RX = /^<(code|script|style)[^>]*>/i;

@@ -69,6 +69,8 @@ Denominators: <span style="font-feature-settings: 'nalt' on;">1 2 3 4 5 6 7 8 9<
 
 Ordinals: <span style="font-variant-numeric: ordinal;">No. 0A 0O 0a 0o 1A 1O 1a 1o 2A 2O 2a 2o 3A 3O 3a 3o 4A 4O 4a 4o 5A 5O 5a 5o 6A 6O 6a 6o 7A 7O 7a 7o 8A 8O 8a 8o 9A 9O 9a 9o</span>
 
+Numerals with ordinal suffixes (suffixes should be automatically transformed during built to be superscript): 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th 11th 12th 13th 14th 15th 16th 17th 18th 19th 20th
+
 Scientific Inferiors: <span style="font-feature-settings: 'sinf' on;">H O 0 1 2 3 4 5 6 7 8 9 . , : ( ) [ ] - – — + − =</span>
 
 ### Swashes

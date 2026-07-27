@@ -3,7 +3,7 @@ title: Technology I Use
 description: Details of the tools, software, and hardware powering my workflow. Information on my setup, development environment, self-hosting, and multimedia management. Collates most of what I use on my laptop, servers, and phone.
 og_description: The tools, software, and other such things I use.
 pub_time: 2024-08-05
-mod_time: 2026-05-15
+mod_time: 2026-07-27
 section: Meta
 standardsite_rkey: 3mn2efu2sag2p
 ---
@@ -73,7 +73,7 @@ I own a [2020 13″ MacBook Pro (two Thunderbolt 3 ports model)](/posts/25-dolla
 
 More than anything else, it is a device for testing in Safari, which is only available on Apple platforms. To facilitate that and also compare with other browsers, I've got a full set installed: Safari, Safari Technology Preview, Chrome, Chrome Canary, Firefox, and Firefox Nightly. I've also got Xcode so I can run simulators for testing the experience on other Apple devices.
 
-For the purpose of printing and the occasional need to deal with proprietary document file formats, I've got both Microsoft Office and the iWork suite installed.
+For the purpose of printing and the occasional need to deal with proprietary document file formats, I've got both Microsoft Office and the iWork suite installed. It also has the Adobe Creative Cloud suite installed.
 
 ## Hosting/Cloud
 
@@ -91,26 +91,23 @@ I generally look for apps that I can customise, that are open-source, and that a
 
 - [Bluesky](https://bsky.social/about)
 - [Pixel Camera](https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera): I chose my phone partly for its camera, and no third-party app comes close in processing, so with the stock Pixel Camera app I roll, albeit with revoked network permissions.
-- [Vanadium](https://grapheneos.org/features#vanadium): Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into Chrome's market dominance, Firefox on Android is very poor security-wise, plays badly with PWAs, and there isn't much point having two separate browser engines installed, among other issues.
-- [FlorisBoard](https://florisboard.org): Excellent and very customisable FOSS keyboard.
+- [Vanadium](https://grapheneos.org/features#vanadium): Vanadium is a privacy-focused fork of Chromium bundled with GrapheneOS. As much as I dislike playing into [Chrome's market dominance](/posts/everything-is-chrome), Firefox on Android is very poor security-wise, plays badly with <abbr title="Progressive Web App">PWA</abbr>s, and there isn't much point having two separate browser engines installed, among other issues.
+- [FUTO Keyboard](https://keyboard.futo.tech): Pleasant and configurable open-source keyboard.
 - [FeedFlow](https://www.feedflow.dev): A very nice feed reader. Posts open in browser rather than being displayed in-app.
 - [Harmonic](https://github.com/SimonHalvdansson/Harmonic-HN): Slick Hacker News client.
 - [Kvaesitso](https://kvaesitso.mm20.de): Feature-rich, search-focused launcher.
-- [Google Messages](https://www.android.com/google-messages/): Google's SMS/MMS/RCS app. I'd prefer to use a FOSS alternative, but RCS is pretty locked down, so I'm left without alternative.
+- [Google Messages](https://www.android.com/google-messages/): Google's <abbr title="Short Message Service">SMS</abbr>/<abbr title="Multimedia Messaging Service">MMS</abbr>/<abbr title="Rich Communication Services">RCS</abbr> app. I'd prefer to use a FOSS alternative, but RCS is pretty locked down, so I'm left without alternative.
 - [Moshidon](https://github.com/LucasGGamerM/moshidon): Wonderful Fediverse client with plenty of quality-of-life features.
 - [Droid-ify](https://droidify.eu.org): Modern, feature-rich F-Droid client
 - [OsmAnd+](https://osmand.net): Navigation app based on OpenStreetMap. Set up with custom presets for unicycling.
-- [StreetComplete](https://streetcomplete.app): Allows easily contributing to OpenStreetMap. A good way to burn some time when waiting while out and about.
 - [Scaniverse](https://scaniverse.com): Free 3D scanner capable of Gaussian splats.
 - [Phone by Google](https://play.google.com/store/apps/details?id=com.google.android.dialer): Google's Phone app that I've chosen to use as it complements Google Messages.
 - [Google Photos](https://www.google.com/photos/about/): Not my preference, but it's one of the only options with semi-decent editing capabilities. I keep it disconnected from the internet.
 - [Thunderbird](https://www.thunderbird.net/en-US/): Email client connected to my Runbox email addresses.
-- [DAVx<sup>5</sup>](https://www.davx5.com): CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.
-- [jtx Board](https://jtx.techbee.at): Provides a synchronised task list.
+- [DAVx^5^](https://www.davx5.com): CalDAV/CardDAV sync adapter to sync my contacts and calendar/tasks.
 - [Fossify Calendar](https://github.com/FossifyOrg/Calendar): Provides a synchronised calendar.
 - [Chrono](https://github.com/vicolo-dev/chrono): Convenient clock I use for alarms and timers.
 - [Ares Dark](https://www.one4studio.com/apps/icon-packs/ares-series): Provides some very nice-looking icons.
-- [Proton Drive](https://proton.me/drive): Cloud storage that I use to quickly move files between my phone and computer.
 - [Pano Scrobbler](https://kawaiidango.github.io/pano-scrobbler/): Scrobbles music into ListenBrainz.
 - [Flipper](https://flipperzero.one): For interacting with [my Flipper Zero](/posts/i-got-a-flipper-zero).
 - [Stoat](https://stoat.chat)

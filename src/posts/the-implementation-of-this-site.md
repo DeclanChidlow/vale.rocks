@@ -142,6 +142,8 @@ This script does several things. As well as the expected Markdown features, head
 
 It also handles in-text abbreviations by marking up sets of three or more sequential capital letters and capital letters which directly follow numbers with the `<abbr>` element. This is fairly complex and is designed to handle a few edge cases by ignoring Roman numerals, code (inline or block), element attributes, and content already wrapped in an `<abbr>` element.
 
+Subscript and superscript markup is implemented with a custom marked extension. Subscripts are written by wrapping text in tildes (`~`) and superscripts are written by wrapping text in up carets (`^`). Ordinal suffixes on numerals are automatically transformed to use subscripts.
+
 I take care not to incorporate too many transformations during Markdown parsing, as it very quickly adds up to negatively impact build time which only becomes more of an issue as additional content is published.
 
 ### Heading Anchors Copying

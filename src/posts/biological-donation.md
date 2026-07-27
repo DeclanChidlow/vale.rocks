@@ -15,7 +15,7 @@ While donating has been on my radar since my mid-teens, restrictions regarding a
 
 I was assured by all of the information provided on the website. I'm so glad that they provide the exact details to make an informed decision and are upfront about potential risks, rather than hiding them or downplaying them. There are risks, but they're rare to occur, fairly minimal and well documented. The availability of in-depth detail and appeal to logic is very conducive to the way I think.
 
-Booking had to be done on their website, which wouldn't accept my email address using my custom domain. The site on the whole was a tad buggy -- perhaps they just didn't test in Firefox? Between no less than 6 emails and a few other hassles, it was a bit of a faff. I did manage to book a donation for the 8<sup>th</sup> of August, 2025.
+Booking had to be done on their website, which wouldn't accept my email address using my custom domain. The site on the whole was a tad buggy -- perhaps they just didn't test in Firefox? Between no less than 6 emails and a few other hassles, it was a bit of a faff. I did manage to book a donation for the 8th of August, 2025.
 
 The preceding day, I took care to drink lots of liquid, mainly water. On the day, I once again drank lots of water, especially in the few hours immediately preceding my booking. I also ensured I ate a solid meal, avoiding anything too fatty or sugary. I found it most interesting that drinking water immediately before donation is beneficial, as it stretches your stomach wall, thus increasing blood pressure.
 

@@ -12,7 +12,7 @@ I fear that we may lose -- and are already losing -- the modern history of AI, p
 
 This essay examines the disappearance of proprietary hosted AI models and the implications of that on research, accountability, and overall historical documentation and preservation.
 
-I fear this is a very under-analysed topic, with [New methods for deprecating artificial intelligence systems will preserve history and facilitate research](https://www.nature.com/articles/s41467-024-54758-1) <sub>(Johnson T, Obradovich N. 2024)</sub> being the only notable discussion I have found.
+I fear this is a very under-analysed topic, with [New methods for deprecating artificial intelligence systems will preserve history and facilitate research](https://www.nature.com/articles/s41467-024-54758-1) ~(Johnson T, Obradovich N. 2024)~ being the only notable discussion I have found.
 
 > [!NOTE]
 > OpenAI calls models that are no longer available for usage 'deprecated,' while Anthropic reserves that term for models that are only available for existing users and uses the term 'retired' for models that are no longer available in any capacity. For the sake of clarity, I'll refer to them as retired or non-hosted models.

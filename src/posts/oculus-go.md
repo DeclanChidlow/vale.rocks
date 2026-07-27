@@ -10,7 +10,7 @@ standardsite_rkey: 3mowixike532y
 
 The Oculus Go was Oculus' (now Meta) first attempt at a standalone virtual reality headset. Indeed, it was one of the first commercial attempts at a standalone VR headset entirely. By contemporary standards, it is extremely obsolete, though not completely useless. It can still run a range of software designed for it and is a reasonably open platform.
 
-It was [first announced in October 2017](https://developers.meta.com/horizon/blog/introducing-oculus-go/) and released in May the subsequent year. It released in two models -- one with 32GB of storage and another with 64GB. Sales of the Go ended in 2020, with new releases and updates of Go software to the Oculus Store being barred after the 4<sup>th</sup> of December 2020. The device received its final update with build 18.05 in September 2021.
+It was [first announced in October 2017](https://developers.meta.com/horizon/blog/introducing-oculus-go/) and released in May the subsequent year. It released in two models -- one with 32GB of storage and another with 64GB. Sales of the Go ended in 2020, with new releases and updates of Go software to the Oculus Store being barred after the 4th of December 2020. The device received its final update with build 18.05 in September 2021.
 
 The specs are as follows:
 
