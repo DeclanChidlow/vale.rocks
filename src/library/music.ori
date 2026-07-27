@@ -44,5 +44,5 @@ _body:
 	</ol>
 </div>
 
-<script defer src="/assets/scripts/currently-listening.js"></script>
+<script defer src="/assets/scripts/current-media.js"></script>
 <script defer src="/assets/scripts/library-sorting.js"></script>`})

@@ -14,6 +14,7 @@ _body:
 		<h1 data-pagefind-ignore>Films</h1>
 		<p>${ films.length } films I’ve watched with assorted notes where applicable.</p>
 		<p>Proper tracking began in 2025, so most watch logging prior to that is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
+		<p id="currently-watching">At this very moment I'm watching </p>
 	</div>
 
 	<form id="refine-entries">
@@ -64,4 +65,5 @@ _body:
 	</ol>
 </div>
 
+<script defer src="/assets/scripts/current-media.js"></script>
 <script defer src="/assets/scripts/library-sorting.js"></script>`})

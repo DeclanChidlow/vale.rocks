@@ -245,7 +245,7 @@ In the future I wish to extend the functionality to allow notifications when new
 
 On my [Music Library page](/library/music) and [Now page](/now), I have a dynamically updating notice of what I'm currently listening to. This is possible because my music listening -- including my currently playing -- is tracked by [ListenBrainz](https://listenbrainz.org), which graciously provides a free and open API.
 
-My [`currently-listening.js`](/assets/scripts/currently-listening.js) script regularly queries this API to check if I'm listening to anything and includes note of it on the page. Once it knows I am listening, it dynamically adjusts its fetching based on the playtime of the current song to avoid unnecessary requests.
+My [`current-media.js`](/assets/scripts/current-media.js) script regularly queries this API to check if I'm listening to anything and includes note of it on the page. Once it knows I am listening, it dynamically adjusts its fetching based on the playtime of the current song to avoid unnecessary requests.
 
 It isn't always precisely accurate. A slight delay in updating the status is to be expected due to the manual fetching, and metadata might not always be precise, especially if sourcing listening data from a disorganised provider, but it is well within the realms of reason overall.
 

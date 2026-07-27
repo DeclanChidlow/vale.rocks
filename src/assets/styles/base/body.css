@@ -89,7 +89,8 @@ main {
 	pointer-events: none;
 }
 
-#currently-listening {
+#currently-listening,
+#currently-playing {
 	display: none;
 }
 

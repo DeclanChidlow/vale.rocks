@@ -15,6 +15,7 @@ _body:
 		<p>${ series.length } series totalling ${ functions/count-seasons.js(series) } seasons I’ve watched, with thoughts and notes where relevant.</p>
 		<p>Proper tracking began in 2025, so much watch logging prior to then is omitted. Some pre-2025 details have been recovered but may be noted with generalised specifics. It is very possible that I have watched listed content more times than is represented here.</p>
 		<p>Due to the nature of television viewing, and particularly self-contained episodes, there are many series that I’ve only caught in passing, some of which I’ve noted.</p>
+		<p id="currently-watching">At this very moment I'm watching </p>
 	</div>
 
 	<form id="refine-entries">
@@ -75,4 +76,5 @@ _body:
 	</ol>
 </div>
 
+<script defer src="/assets/scripts/current-media.js"></script>
 <script defer src="/assets/scripts/library-sorting.js"></script>`})
