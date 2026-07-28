@@ -1,4 +1,13 @@
 class CurrentMedia {
+	static LAST_SEEN_WINDOW = 10 * 60 * 1000;
+	static LAST_PLAYED_REGEX = /\bI(?:'m|\s+am)\s+playing\b/i;
+	static LAST_PLAYED_TEXT = "I've just wrapped up playing";
+
+	static parseTs(ts) {
+		const normalised = ts.endsWith("Z") ? ts : ts + "Z";
+		return new Date(normalised.replace(/\.(\d{3})\d+Z$/, ".$1Z"));
+	}
+
 	constructor() {
 		this.musicEl = document.getElementById("currently-listening");
 		this.gameEl = document.getElementById("currently-playing");
@@ -56,23 +65,28 @@ class CurrentMedia {
 			const response = await fetch(this.gameApi);
 			const data = await response.json();
 
-			if (this.gameEl) {
-				const status = this.findGameStatus(data);
-
-				if (status) {
-					this.renderGame(status);
-				} else {
-					this.clearGame();
-				}
-			}
+			let hasFilm = false;
 
 			if (this.filmEl) {
 				const media = this.findFilmStatus(data);
 
 				if (media) {
 					this.renderFilm(media);
+					hasFilm = true;
 				} else {
 					this.clearFilm();
+				}
+			}
+
+			if (this.gameEl) {
+				const status = this.findGameStatus(data);
+
+				if (status?.lastPlayed && hasFilm) {
+					this.clearGame();
+				} else if (status) {
+					this.renderGame(status);
+				} else {
+					this.clearGame();
 				}
 			}
 
@@ -109,25 +123,48 @@ class CurrentMedia {
 	findGameStatus(data) {
 		const platforms = ["xbox", "steam"];
 		let idle = null;
+		let recentLastSeen = null;
 
 		for (const platform of platforms) {
 			const entry = data[platform];
 			if (!entry) continue;
-			const displayName = CurrentMedia.deviceName(entry.device, platform);
-			if (entry.game) {
+
+			if (platform === "xbox") {
+				if (entry.activeTitle?.name) {
+					return {
+						game: entry.activeTitle.name,
+						device: CurrentMedia.deviceName(entry.activeTitle.deviceType, platform),
+						richPresence: entry.activeTitle.richPresence || null,
+						idle: false,
+					};
+				}
+			} else if (entry.game) {
 				return {
 					game: entry.game,
-					device: displayName,
+					device: CurrentMedia.deviceName(entry.device, platform),
 					richPresence: entry.richPresence || null,
 					idle: false,
 				};
 			}
+
 			if (!idle && entry.online) {
-				idle = { device: displayName, idle: true, platform };
+				idle = { device: CurrentMedia.deviceName(entry.device, platform), idle: true, platform };
+			}
+
+			if (!recentLastSeen && entry.lastSeen) {
+				const lastSeenTime = CurrentMedia.parseTs(entry.lastSeen.timestamp).getTime();
+				if (lastSeenTime > Date.now() - CurrentMedia.LAST_SEEN_WINDOW) {
+					recentLastSeen = {
+						game: entry.lastSeen.titleName,
+						device: CurrentMedia.deviceName(entry.lastSeen.deviceType, platform),
+						idle: false,
+						lastPlayed: true,
+					};
+				}
 			}
 		}
 
-		return idle;
+		return recentLastSeen || idle;
 	}
 
 	findFilmStatus(data) {
@@ -139,10 +176,11 @@ class CurrentMedia {
 	static deviceName(raw, platform) {
 		if (platform === "steam") return "Steam";
 		const names = {
-			Scarlett: "Xbox Series X|S",
-			XboxOne: "Xbox One",
+			Scarlett: "Xbox Series X/S",
 			XboxSeriesX: "Xbox Series X",
 			XboxSeriesS: "Xbox Series S",
+			XboxOne: "Xbox One",
+			Xbox360: "Xbox 360",
 			WindowsOneCore: "PC",
 			iOS: "iOS",
 			Android: "Android",
@@ -182,15 +220,19 @@ class CurrentMedia {
 
 	renderGame(status) {
 		if (status.idle) {
-			const verb = status.platform === "xbox" ? "online on " : "idling on ";
+			const verb = status.platform === "xbox" ? "online on " : "idle on ";
 			this.gameEl.textContent = this.gameBase.replace(/playing/i, verb);
 		} else {
-			this.gameEl.textContent = this.gameBase;
+			if (status.lastPlayed) {
+				this.gameEl.textContent = this.gameBase.replace(CurrentMedia.LAST_PLAYED_REGEX, CurrentMedia.LAST_PLAYED_TEXT);
+			} else {
+				this.gameEl.textContent = this.gameBase;
+			}
 			const gameEm = document.createElement("em");
 			gameEm.textContent = status.game;
 			this.gameEl.appendChild(gameEm);
 
-			if (status.richPresence) {
+			if (!status.lastPlayed && status.richPresence) {
 				this.gameEl.appendChild(document.createTextNode(` (${status.richPresence})`));
 			}
 

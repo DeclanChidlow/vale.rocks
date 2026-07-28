@@ -90,7 +90,8 @@ main {
 }
 
 #currently-listening,
-#currently-playing {
+#currently-playing,
+#currently-watching {
 	display: none;
 }
 
