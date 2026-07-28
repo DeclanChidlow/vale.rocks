@@ -5,18 +5,19 @@
 	stylesheet: "pages/tags.css"
 	canonical: "/tags"
 
-_body:
-`<h1 class="section" data-pagefind-ignore>Tags</h1>
+_body: `
+	<h1 class="section" data-pagefind-ignore>Tags</h1>
 
-<div class="readable" data-pagefind-ignore>
-	<p>An overview of all ${ Tree.size(grouped_by_tag) } categorisation tags used across Vale.Rocks to categorise content. Tags are general categorisation methods and as such a tag is not applied to content if the content doesn't have a major focus on the tag's topic.</p>
+	<div class="readable" data-pagefind-ignore>
+		<p>An overview of all ${ Tree.size(grouped_by_tag) } categorisation tags used across Vale.Rocks to categorise content. Tags are general categorisation methods and as such a tag is not applied to content if the content doesn't have a major focus on the tag's topic.</p>
 
-	<ul>
-		${ Tree.map(grouped_by_tag, (items, tag) => `
-			<li>
-				<a href="/tags/${ Origami.slug(tag) }">#${ tag }</a> (${ Tree.size(items)} items)
-				<br>${ tags(Origami.slug(tag)).short_description }
-			</li>
-		`) }
-	</ul>
-</div>`})
+		<ul>
+			${ Tree.map(grouped_by_tag, (items, tag) => `
+				<li>
+					<a href="/tags/${ Origami.slug(tag) }">#${ tag }</a> (${ Tree.size(items)} items)
+					<br>${ tags(Origami.slug(tag)).short_description }
+				</li>
+			`) }
+		</ul>
+	</div>
+`})

@@ -5,17 +5,18 @@
 	stylesheet: "pages/firehose.css"
 	canonical: `/tags/${ slug }`
 
-_body:
-`<h1 class="section" data-pagefind-ignore>Tags</h1>
+_body: `
+	<h1 class="section" data-pagefind-ignore>Tags</h1>
 
-<div data-pagefind-ignore>
-	<p class="readable">All ${ Tree.size(items)} items on Vale.Rocks categorised with the tag '${ tag }'. ${ info.description ? `Content relating to ${ info.description }` : '' }</p>
+	<div data-pagefind-ignore>
+		<p class="readable">All ${ Tree.size(items)} items on Vale.Rocks categorised with the tag '${ tag }'. ${ info.description ? `Content relating to ${ info.description }` : '' }</p>
 
-	${ functions/sparkline.js(items) }
+		${ functions/sparkline.js(items) }
 
-	<div>
-	${ Tree.map(items, (item, key) => content_item.ori(item, key)) }
+		<div>
+			${ Tree.map(items, (item, key) => content_item.ori(item, key)) }
+		</div>
 	</div>
-</div>
 
-<script defer src="/assets/scripts/random-tag-item.js"></script>`})
+	<script defer src="/assets/scripts/random-tag-item.js"></script>
+`})
