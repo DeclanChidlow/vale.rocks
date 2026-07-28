@@ -12,9 +12,10 @@
 		external_url: `https://${ elsewhere.url }`
 		title: elsewhere.title
 		content_html: `
-			${ elsewhere.sort === 'writer' ? `<p>Wrote <a href="https://${ elsewhere.url }">${ elsewhere.title }</a> over on ${ elsewhere.location }.</p>` : '' }
-			${ elsewhere.sort === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere.url }">${ elsewhere.title }</a> on ${ elsewhere.location }.</p>` : '' }
-			${ elsewhere.sort === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere.url }">${ elsewhere.title }</a> on ${ elsewhere.location }.</p>` : '' }
+			${ elsewhere.contribution === 'writer' ? `<p>Wrote <a href="https://${ elsewhere.url }">${ elsewhere.title }</a>${ elsewhere.location ? ` over on ${ elsewhere.location }` : '' }.</p>` : '' }
+			${ elsewhere.contribution === 'contributor' ? `<p>Contributed to <a href="https://${ elsewhere.url }">${ elsewhere.title }</a>${ elsewhere.location ? ` on ${ elsewhere.location }` : '' }.</p>` : '' }
+			${ elsewhere.contribution === 'guest' ? `<p>Appeared on <a href="https://${ elsewhere.url }">${ elsewhere.title }</a>${ elsewhere.location ? ` on ${ elsewhere.location }` : '' }.</p>` : '' }
+			${ elsewhere.contribution === 'source' ? `<p>Provided source material for <a href="https://${ elsewhere.url }">${ elsewhere.title }</a>${ elsewhere.location ? ` on ${ elsewhere.location }` : '' }.</p>` : '' }
 			${ elsewhere.note ? `<p>${ elsewhere.note }</p>` : '' }
 
 			${ elsewhere.image ? `<img src="https://${ elsewhere.image }" alt="">` : '' }

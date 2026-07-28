@@ -53,14 +53,15 @@
 		feed.xml = Origami.rss(video_syndication.ori(Tree.take(video_data.ori, 30)))
 	}
 
-	(paginated_elsewhere) = Tree.paginate(elsewhere_data.yaml , 50)
+	(elsewhere_data) = Tree.reverse(Tree.sort((https://vale.rocks/external/elsewhere.json), (item) => item.pub_time))
+	(paginated_elsewhere) = Tree.paginate(elsewhere_data , 50)
 	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 	elsewhere/ = {
 		...Tree.mapExtension(paginated_elsewhere, "→.html", {
 			value: pages/elsewhere.ori
 		})
-		feed.json = Origami.json(elsewhere_syndication.ori(Tree.take(elsewhere_data.yaml, 100)))
-		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data.yaml, 100)))
+		feed.json = Origami.json(elsewhere_syndication.ori(Tree.take(elsewhere_data, 100)))
+		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data, 100)))
 	}
 
 	(paginated_now) = Tree.paginate(now_data.ori, 50)

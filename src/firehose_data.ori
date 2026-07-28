@@ -8,7 +8,7 @@
 		key: (_, key) => `photography/${key}`
 	})
 
-	...(elsewhere_data.yaml → (_) => Tree.map(_, {
+	...((<https://vale.rocks/external/elsewhere.json>) → (_) => Tree.map(_, {
 		key: (elsewhere, key) => `elsewhere/${key}`
 		value: (elsewhere) => {
 			...elsewhere

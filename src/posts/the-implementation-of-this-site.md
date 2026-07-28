@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2026-07-25
+mod_time: 2026-07-28
 section: Meta
 tags: [design, front-end]
 standardsite_rkey: 3mn2ecsiegd2b
@@ -113,6 +113,14 @@ I use Pagefind's Component UI, which uses Web Components with high-specificity C
 The search on this site also allows for searching content created by me but published on other websites. I do this with a small, private micro-site also built using Web Origami. It contains metadata-labelled mirrors of my content located elsewhere, and fetches data from external locations, to build a Pagefind index. Then, exclusively this Pagefind index is served publicly and [merged with this site's index](https://pagefind.app/docs/multisite/). This is one of few features which was added to this site following user demand, as I got occasional messages asking me if I was the one that had written on a certain topic.
 
 As Pagefind is served as client-side JavaScript, I've taken inspiration from [David Bushell's site](https://dbushell.com/2024/11/21/static-search-page-find/) and implemented a fallback that does a site-specific search with DuckDuckGo should JavaScript be unavailable. I also implemented support for providing search strings as a URL query parameter (`?q=`), filters as URL query parameters (`?Content+Type=`, `?tags=`), and added an [OpenSearch description](/opensearch.xml) so that the site can be added as a search provider in browsers.
+
+### Elsewhere
+
+I keep a catalogue of content I create which is released externally to Vale.Rocks, and take care to surface them on this site for benefit of discovery.
+
+Historically, I manually maintained a YAML file which housed document metadata. However, I was maintaining two sources of truth: the YAML file and the external metadata-labelled mirrors of my content [I store for search indexing](#search). To address this, I modified my external content store to construct a JSON file from the frontmatter of the documents.[^3] I then expose this JSON file at <https://vale.rocks/external/elsewhere.json>. This maintains a single source of truth for external content.
+
+As part of the building of Vale.Rocks, the JSON file is fetched and used to populate all the templates expecting elsewhere data across the site -- principally, the [Elsewhere section](/elsewhere).
 
 ### 404 Handling
 
@@ -241,13 +249,19 @@ Vale.Rocks is configured as a [PWA](https://en.wikipedia.org/wiki/Progressive_we
 
 In the future I wish to extend the functionality to allow notifications when new posts go live and caching for offline reading.
 
-### Currently Listening Display
+### Current Media Display
 
-On my [Music Library page](/library/music) and [Now page](/now), I have a dynamically updating notice of what I'm currently listening to. This is possible because my music listening -- including my currently playing -- is tracked by [ListenBrainz](https://listenbrainz.org), which graciously provides a free and open API.
+Something about personal websites that display details about the site's owner appeals to me -- an ever-updating splash of detail that makes an otherwise static website feel wonderfully dynamic. Being able to see what the webmaster is doing at any given moment gives a website life. I try to capture this by, where possible, exposing the media I'm currently experiencing.
 
-My [`current-media.js`](/assets/scripts/current-media.js) script regularly queries this API to check if I'm listening to anything and includes note of it on the page. Once it knows I am listening, it dynamically adjusts its fetching based on the playtime of the current song to avoid unnecessary requests.
+I have [a custom script](https://tangled.org/strings/did:plc:7qg6mz2xtzozxkgbcvf4pdnu/3mrmnivcyva22) which I deploy as a Cloudflare Worker to provide an <abbr title="Application Programming Interface">API</abbr> to fetch my current status. The script itself queries multiple APIs (namely, [the OpenXBL API](https://xbl.io), [the official Steam API](https://steamcommunity.com/dev), and [the Jellyfin API](https://api.jellyfin.org).
 
-It isn't always precisely accurate. A slight delay in updating the status is to be expected due to the manual fetching, and metadata might not always be precise, especially if sourcing listening data from a disorganised provider, but it is well within the realms of reason overall.
+This bypasses any potential <abbr title="Cross-Origin Resource Sharing">CORS</abbr> issues when fetching from external APIs, minimises the number of requests done by the client, and hides authentication keys and other relevant secrets from client-side exposure. It also provides opportunities for caching to avoid rate limits and allows only sending the information needed to display the details, which is advantageous for my privacy. Separate to my own media activity API, my music listening (including my currently playing) is tracked by [ListenBrainz](https://listenbrainz.org), which graciously provides a free and open API that is suitable for me to use without my middle-man API adaptor.
+
+My [`current-media.js`](/assets/scripts/current-media.js) script runs client-side and queries the APIs to display the current status on the page. It formats the data into human-readable language and injects the output into elements I've associated by ID. It displays this data on the relevant [Library page](/library) for the content type, and also on my [Now page](/now), which shows my playing/listening/watching statuses of all media types.
+
+Game, film, and television data is fetched on a fixed recurring check, but music tracking dynamically adjusts its fetching based on the playtime of the current song to avoid unnecessary requests once it identifies I am listening to music. In general, music details in particular aren't always precisely accurate. Metadata might not always be precise, especially if sourcing listening data from a disorganised provider, but it is well within the realms of reason overall. All content types are also afflicted by expected slight fetching delays, but they aren't so egregious as to be a dealbreaker.
+
+Presenting game details is also an opportunity for friends to see what I'm playing without having to be on a specific platform or service. If someone on the internet sees I'm playing something multiplayer and wants to join in on the action, they can of course send me a message. It is for this reason that it also shows when I'm online (and thus presumably up to play) on relevant platforms, though being active on one platform takes precedence over being online on another. In some cases, such as when on supported Xbox Live games, it even goes as far as to say what I'm doing in a given game, and it will also show when I've just stopped playing a game.
 
 ### Now Page
 
@@ -287,16 +301,18 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose),[^3] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose),[^4] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
 
 The firehose is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 
-All the content going into the firehose data tree is given a `type` property[^4] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
+All the content going into the firehose data tree is given a `type` property[^5] which is referenced in the template for firehose pages for the purpose of styling and displaying content of each type differently.
 
 [^1]: Or perhaps more accurately for the web, endnotes.
 
 [^2]: Or, if you will, a collection of [floating amoeba dot links](https://bsky.app/profile/alanwsmith.com/post/3ls7g3zxjy22r).
 
-[^3]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
+[^3]: Arguably I could have the JSON output follow the [JSON Feed](https://www.jsonfeed.org) specification, which would avoid me re-transforming the data _again_ into [the live JSON Feed](https://vale.rocks/elsewhere/feed.json), but it would have meant more verbose JSON that would require the use of JSON Feed extensions to include all I need. There probably wouldn't even be a payoff -- or if there were to be, it would be _extremely_ minimal -- for the time to fetch and transform the much more complex JSON Feed would likely exceed the time saved from avoiding a minor transformation that occurs so quickly that it is difficult to even meaningfully measure.
 
-[^4]: For example, [micros](/micros) get a `type` property of 'micro', and [posts](/posts) are given a `type` property of 'post'.
+[^4]: The terminology of firehose was inspired by the [AT Protocol's usage of the term](https://atproto.com/specs/sync#firehose).
+
+[^5]: For example, [micros](/micros) get a `type` property of 'micro', and [posts](/posts) are given a `type` property of 'post'.

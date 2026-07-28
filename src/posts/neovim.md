@@ -287,6 +287,12 @@ I have previously written my own rudimentary move functionality, but mini.move i
 
 My status line is provided by [mini.statusline](https://github.com/nvim-mini/mini.nvim/blob/main/README.md). I don't feel any need to change the defaults, as it feels lovely out-of-the-box. I particularly love how it changes what content it displays based on the width of the terminal window.
 
+### weborigami-nvim
+
+This site is built with Web Origami, as are many of the sites and tools I build. As such, a good Web Origami development experience is paramount for my productivity. To facilitate this, I developed my own Neovim plugin for making Neovim a more capable tool for writing Origami code.
+
+[weborigami-nvim](https://tangled.org/vale.rocks/weborigami-nvim/) adapts the LSP source from the [official Visual Studio Code extension](https://github.com/WebOrigami/origami-vscode-extension) to provide autocompletion, syntax highlighting, jumping to definitions, and other niceties.
+
 ## Key Mappings
 
 Like with my settings, I set an alias at the top of my keymap file (`/main/keymaps.lua`) so I needn't write as much boilerplate for each binding.
