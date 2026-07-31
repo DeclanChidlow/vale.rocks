@@ -23,7 +23,7 @@ class CurrentMedia {
 		if (this.gameEl || this.filmEl) {
 			if (this.gameEl) this.gameBase = this.gameEl.textContent;
 			if (this.filmEl) this.filmBase = this.filmEl.textContent;
-			this.gameApi = "https://game-activity.cloudflare-7twxg.workers.dev/";
+			this.gameApi = "https://vale-media-activity.cloudflare-7twxg.workers.dev";
 		}
 
 		this.handleVisibility = this.handleVisibility.bind(this);

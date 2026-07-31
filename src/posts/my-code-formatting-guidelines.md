@@ -17,7 +17,7 @@ Worth noting is that I am a front-end developer, and that is reflected in my pre
 
 I'm strongly of the opinion that code should be formatted in such a way that it is representative of how the code is run, and also in such a way that text editors can handle it gracefully and adapt its display to the user's preferences. Allowing user-dictated preferences to be easily applied reduces the impact of differing formatting opinions, allowing for improved experiences for all involved parties.
 
-I personally enforce these settings using [Prettier](https://prettier.io) via [`conform.nvim` in Neovim](/posts/neovim#conform-code-formatting), which I feel does an excellent job. You can find my `.prettierrc` in my [dotfile repo on GitHub](https://github.com/DeclanChidlow/dotfiles/blob/main/Baud/.prettierrc.yml). I've also noted the relevant Prettier options where applicable.
+I personally enforce these settings using [Prettier](https://prettier.io) via [`conform.nvim` in Neovim](/posts/neovim#conform-code-formatting), which I feel does an excellent job. You can find my `.prettierrc` in my [dotfile repo on Tangled](https://tangled.org/vale.rocks/dotfiles/blob/main/Baud/.prettierrc.yml). I've also noted the relevant Prettier options where applicable.
 
 ## Use Tabs
 
