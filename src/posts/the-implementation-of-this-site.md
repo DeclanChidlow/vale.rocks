@@ -22,7 +22,7 @@ The limit wasn't entirely a technological one. After all, the underlying tech wa
 
 Thus, I moved on to using a static site generator. Given that I was already a GitHub user and had opted to deploy my site with GitHub Pages, I opted to use [Jekyll](https://jekyllrb.com). Jekyll is nice, and its support for Shopify's [Liquid templating language](https://shopify.github.io/liquid/) made it wonderfully flexible -- but it wasn't necessarily exactly conducive to my preferred workflow, and dealing with Ruby proved a pain.
 
-From that came my own static site generator, [Adduce](https://adduce.vale.rocks). Adduce is wonderful, and I love the flexibility afforded by using it as a tool with a scripting language to build my site, rather than a framework, but it has limitations that I'm ill-equipped to address with my Rust capabilities.
+From that came my own static site generator, [Adduce](https://adduce.vale.rocks). Adduce is wonderful, and I love the flexibility afforded by using it as a tool with a scripting language to build my site, rather than a framework, but it had limitations that I was ill-equipped to address with my Rust capabilities.
 
 With Adduce, I had the issue that lacking functions meant many parts of the site had to be hand-coded and modified, which was time-consuming, and I [came to realise](https://www.lesswrong.com/posts/Nq2BtFidsnhfLuNAx?commentId=Xby4NTqhC3DzWKt9P) that _something_ needed to change. Thanks to my commitment to building things on web foundations such as HTML, CSS, and JS and not abstracting them, it was pretty easy to migrate as needed.
 
@@ -146,7 +146,7 @@ I convert all my fonts to WOFF2 and serve them with my site rather than using an
 
 Content on this site is authored in Markdown and parsed during the initial build step by [`parse-markdown.js`](https://github.com/DeclanChidlow/vale.rocks/blob/main/src/functions/parse-markdown.js) which uses [Marked](https://marked.js.org) under the hood alongside a few extensions and self-implemented handlers.
 
-This script does several things. As well as the expected Markdown features, headings are given IDs using `marked-gfm-heading-id`, code blocks are highlighted with `marked-highlight` which uses `highlight.js`, proper orthotypography is aided by `marked-smartypants`, GitHub Flavoured Markdown style admonitions and footnotes are achieved with `marked-alert` and `marked-footnote`, respectively, formulas are rendered with `@webc.site/math`, and relative URLs are prefixed with a base URL using `marked-base-url`.
+This script does several things. As well as the expected Markdown features, headings are given IDs using `marked-gfm-heading-id`, code blocks are highlighted with `marked-highlight` which uses `highlight.js`, proper orthotypography is aided by `marked-smartypants`, GitHub Flavoured Markdown style admonitions and footnotes are achieved with `marked-alert` and `marked-footnote`, respectively, formulas are rendered with `@webc.site/math-marked`, and relative URLs are prefixed with a base URL using `marked-base-url`.
 
 It also handles in-text abbreviations by marking up sets of three or more sequential capital letters and capital letters which directly follow numbers with the `<abbr>` element. This is fairly complex and is designed to handle a few edge cases by ignoring Roman numerals, code (inline or block), element attributes, and content already wrapped in an `<abbr>` element.
 

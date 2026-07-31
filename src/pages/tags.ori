@@ -11,13 +11,28 @@ _body: `
 	<div class="readable" data-pagefind-ignore>
 		<p>An overview of all ${ Tree.size(grouped_by_tag) } categorisation tags used across Vale.Rocks to categorise content. Tags are general categorisation methods and as such a tag is not applied to content if the content doesn't have a major focus on the tag's topic.</p>
 
-		<ul>
+		<form id="refine-tags">
+			<div class="sort">
+				<label for="tags-sort">Sort by:</label>
+				<select id="tags-sort">
+					<option value="date-desc">Most Recently Added</option>
+					<option value="date-asc">Least Recently Added</option>
+					<option value="items-desc">Most Items</option>
+					<option value="items-asc">Least Items</option>
+					<option value="alphabetical">Alphabetical</option>
+				</select>
+			</div>
+		</form>
+
+		<ul id="tags-list">
 			${ Tree.map(grouped_by_tag, (items, tag) => `
-				<li>
+				<li data-tag-name="#${ tag }" data-item-count="${ Tree.size(items) }" data-last-date="${ Tree.first(items).pub_time || '' }">
 					<a href="/tags/${ Origami.slug(tag) }">#${ tag }</a> (${ Tree.size(items)} items)
 					<br>${ tags(Origami.slug(tag)).short_description }
 				</li>
 			`) }
 		</ul>
 	</div>
+
+	<script defer src="/assets/scripts/refine-tags.js"></script>
 `})
