@@ -1,54 +1,56 @@
 ---
 title: "Halo: My Thoughts"
-description: Explore my journey through the Halo series, from the iconic Combat Evolved to the latest release, Infinite. Discover my thoughts, experiences, and insights into each game's virtues.
+description: My thoughts and experiences with the Halo game series. From the first release in the series, Combat Evolved, to the latest mainline releases, some of the spin-offs, and the remakes. My thoughts, experiences, and opinions on each game's virtues and how I feel about them.
 og_description: My thoughts on one of the biggest names in gaming.
 pub_time: 2023-08-27
-mod_time: 2025-11-03
+mod_time: 2026-08-02
 section: Review
 tags: [gaming]
 standardsite_rkey: 3mn2duxzjaa26
 ---
 
-If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to Infinite. This article catalogues my opinions on each of the games in the order of release. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5, Fireteam Raven, and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
+If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to the latest. This article catalogues my opinions on each of the games in the order of release. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5, Fireteam Raven, and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
 
 I'll be avoiding spoilers for the most part, but if I've got any specifics to mention, I'll place them in a 'Campaign Specifics' drop-down at the conclusion of the relevant entry. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games; they're generally worth it. I also just want to give thanks to my friend Sebastien, who advised me to get into the series. 'Twas a good call.
 
 ## Halo: Combat Evolved
 
-Halo: Combat Evolved, often abbreviated to CE, is the first game in the series. It sets up what is to come and sets it up well. The gunplay feels terrific, the gameplay is sublime, and the story holds audience attention without ever getting in the way.
+Halo: Combat Evolved is the first game in the series. It sets up what is to come and sets it up well. The gunplay feels terrific, the gameplay is sublime, and the story holds audience attention without ever getting in the way.
 
 Right off the bat, I'd like to mention the Anniversary edition. Releasing in 2011, it features a complete overhaul of all the graphics. While it looks fantastic in the right conditions, it has some _issues_. Many of the textures and models are ripped straight from Halo 3 and Reach[^1] and aren't faithful to the original release, which alters the tone and impacts the storytelling.
 
 The original graphics from 2001 are a product of their time, and the limited compute of the original Xbox necessitated sparse foliage and scarce details. While this may have been the result of limited compute, it did not hinder the style. Combat Evolved takes place in artificial, alien worlds. Worlds that are not natural but crafted, just as the environments were not naturally occurring on Bungie's computers but instead meticulously and purposefully constructed. It _feels_ constructed and artificial, because it is, and that isn't hidden.
 
-Much like the uncanny same, same, but different-ness often experienced when visiting foreign countries, CE feels just different enough to spark a sense of unease. Small things, like the ringworld being visible extending into the sky and stars being present even during the day, go a long way to define a unique atmosphere. The game's palette contrasts without being jarring and is saturated with cool, unnatural colours, everything tinged with purples and blues and yellows. It has a truly ethereal feel that reminds me of some early entries into the [The Internet Raytracing Competition](https://www.irtc.org).
+Much like the uncanny same, same but different-ness often experienced when visiting foreign countries, Combat Evolved feels just different enough to spark a sense of unease. Small things, like the ringworld being visible extending into the sky and stars being present even during the day, go a long way to define a unique atmosphere. The game's palette contrasts without being jarring and is saturated with cool, unnatural colours, everything tinged with purples and blues and yellows. It has a truly ethereal feel that reminds me of some early entries into the [The Internet Raytracing Competition](https://www.irtc.org).
 
 <figure class="right">
 <img src="/assets/posts/halo-my-thoughts/combat-evolved.avif" alt="The Master Chief pointing to the skies in a vivid and colourful landscape. The background shows a battle between the marines and the conventant, and the titualar Halo ring.">
 <figcaption>A Halo: Combat Evolved promotional image. <cite>Credit: Bungie, <a href="https://halo.bungie.org/wallpaper.html?image=draikinhalo.jpg">via HBO/Drakin</a></cite></figcaption>
 </figure>
 
-The Anniversary graphics throw so much of this out by pulling in graphics from other Halo games, particularly Reach, without due care. It loses the atmosphere, instead chasing the same feeling of a hundred and one different games. The slight flaws of CE's original graphics defined its style, they didn't need fixing or buffing out. The original design of elites in Combat Evolved is perhaps the best in the series. Extremely sleek and slender in a way representative of their swift and agile movement and plated with iridescent armour representing their exalted comportment. Yet, the Anniversary graphics replace their models for Reach's chunky and bulky presentation.
+The Anniversary graphics throw so much of this out by pulling in graphics from other Halo games, particularly Reach, without due care. It loses the atmosphere, instead chasing the same feeling of a hundred and one different games. The slight flaws of Combat Evolved's original graphics defined its style; they didn't need fixing or buffing out. The original design of elites in Combat Evolved is perhaps the best in the series. Extremely sleek and slender in a way representative of their swift and agile movement and plated with iridescent armour representing their exalted comportment. Yet, the Anniversary graphics replace their models for Reach's chunky and bulky presentation.
 
-The impact of Anniversary's garish changes is so great that they impact the storytelling. In its latter half, CE is a horror game for most intents and purposes, and where what should be dark, dingy, and foreboding becomes bright, sterile, and innocuous. The textures are detailed and sharpened to the point of being overwhelming. Where the original graphics tie into the horror element of requiring you pull out a flashlight to navigate a dimly lit, unfamiliar environment, the Anniversary graphics will have you trying to lower your display brightness to avoid overstimulation.
+The impact of Anniversary's garish changes is so great that they impact the storytelling. In its latter half, Combat Evolved takes an abrupt turn into being a horror game, and what should be dark, dingy, and foreboding becomes bright, sterile, and innocuous. The textures are detailed and sharpened to the point of being overwhelming. Where the original graphics tie into the horror element of requiring you pull out a flashlight to navigate a dimly lit, unfamiliar environment, the Anniversary graphics will have you trying to lower your display brightness to avoid overstimulation.
 
-My gripes don't end with the art style or lack thereof, but extend into the technical and gameplay shortcomings. Especially the bounding boxes of countless objects which don't align with the actual collision of the world quite as you'd expect. On the occasion that I attempted playing with the Anniversary graphics, I consistently found disparities in level geometry eating my bullets.
+My gripes don't end with the art style or lack thereof but extend into Anniversary's technical and gameplay shortcomings. Especially the bounding boxes of countless objects, which don't align with the actual collision of the world quite as you'd expect. On the occasion that I attempted playing with the Anniversary graphics, I consistently found disparities in level geometry eating my bullets.
 
 That's why, despite the original graphics having most definitely aged, I personally chose them for my playthrough. The new ones can be a spectacle when presented correctly, but otherwise miss the mark and degrade the experience. Fortunately, you can toggle between them at your convenience. It can genuinely be somewhat fun to flick back and forth to observe the changes, even if the fun is a morbid one.
 
-With my graphical gripes out of the way, my mind turns to the iconic theme CE introduces. I don't quite know how to express my love for this theme; it's superb. It is super versatile, with each variant cleanly slotting into the situation that calls for it. Whether it's a slow piano version in an emotional moment or a fast, intense version in the heat of battle, the theme, in conjunction with the rest of the soundtrack, immediately acts to define an atmosphere and pull the audience into the moment.
+With my graphical gripes out of the way, my mind turns to the iconic theme Combat Evolved introduces. I don't quite know how to express my love for this theme; it's superb. It is super versatile, with each variant cleanly slotting into the situation that calls for it. Whether it's a slow piano version in an emotional moment or a fast, intense version in the heat of battle, the theme, in conjunction with the rest of the soundtrack, immediately acts to define an atmosphere and pull the audience into the moment.
 
-The excellent music for CE was composed by Michael Salvatori and Martin O'Donnell. Unfortunately, O'Donnell is a hateful and egotistical figure who compares immigrants to the parasitic enemies of Halo and is a [far-right politician](https://en.wikipedia.org/wiki/Martin_O%27Donnell#Political_career), which somewhat sours my ability to enjoy it.
+The excellent music for Combat Evolved was composed by Michael Salvatori and Martin O'Donnell. Unfortunately, O'Donnell is a hateful and egotistical figure who compares immigrants to the parasitic enemies of Halo and is a [far-right politician](https://en.wikipedia.org/wiki/Martin_O%27Donnell#Political_career), which somewhat sours my ability to enjoy it.
 
-The Anniversary edition comes with a new, re-recorded, remixed soundtrack which is slightly different from, and not completely faithful to, the original. While not necessarily bad, it captures the wrong mood and changes the overall 'sound' of the original. Most of this comes from the mixing, where subtleties are lost and emphasis is redirected.
+The Anniversary edition comes with a new, re-recorded, remixed soundtrack, which is slightly different from, and not completely faithful to, the original. While not necessarily bad, it captures the wrong mood and changes the overall 'sound' of the original. Most of this comes from the mixing, where subtleties are lost and emphasis is redirected.
 
-Halo has some deep religious undertones that manifest throughout the series, starting with CE. Perhaps most blatantly, the name of the game, Halo, refers not just to the ringworld on which it's set but also the crown of light surrounding the heads of sacred people in many religions. The vocals of the soundtrack derive from Gregorian chants originating from the Roman Catholic Church, and there are many finer, more subtle references throughout that, while not necessarily obvious in CE, proceed to establish themselves in later entries.
+Halo has some deep religious undertones that manifest throughout the series, starting with Combat Evolved. Perhaps most blatantly, the name of the game, Halo, refers not just to the ringworld on which it's set but also the crown of light surrounding the heads of sacred people in many religions. The vocals of the soundtrack derive from Gregorian chants originating from the Roman Catholic Church, and there are many finer, more subtle references throughout that, while not necessarily obvious in Combat Evolved, proceed to establish themselves in later entries.
 
-Combat Evolved's campaign opens strong with a solid introduction. It starts off with some weapon-free navigation of the ship before diving into some exposition and then transitioning into close-quarters corridor-based combat. This serves to help new players grasp the basics of movement, positioning, and operation of their weapons in a forgiving environment while not feeling overbearing for anyone with a gaming background.
+Combat Evolved's campaign opens strong with a solid introduction. It starts off with some weapon-free navigation of the ship before diving into some exposition and then transitioning into close-quarters corridor-based combat. This serves to help new players grasp the basics of movement, positioning, and operation of their weapons in a forgiving environment while not feeling overbearing for anyone with a gaming background. I'm a big fan of the initial diegetic input tuning sequence, too, which also helps get players acquainted.
 
-It then proceeds to, like many good games, slowly but surely introduce more mechanics, weapons, and interactions without ever feeling overwhelming. It's not perfect, and the weapons aren't necessarily super balanced _(the pistol in this game may as well be a sniper rifle)_, but it ticks the most important box. It's fun.
+It then proceeds to, like many good games, slowly but surely introduce more mechanics, weapons, and interactions without ever feeling overwhelming. It's not perfect, and the weapons aren't necessarily super balanced _(the pistol in this game may as well be a sniper rifle)_, but it ticks the most important box: it's _fun_.
 
-If you're looking to get into the FPS genre, then it's a good game to start with. If you're looking to get into Halo, then it's _the_ game to start with.[^2] It's also a good game to stop with if you just want to dip your toes in and aren't sure if Halo is your cup of tea. It has a nice conclusion that, while being rather open-ended, supplies an easy and satisfying stopping point.
+It wasn't until I watched the 1986 film Aliens that I realised where Bungie got much of their inspiration for Halo from. Aliens has a black, cigar smoking sergeant with a moustache that drops frequent one-liners, fights aliens, and wears a cap. Combat Evolved has a black, cigar smoking sergeant with a moustache that drops frequent one-liners, fights aliens, and wears a cap. Aliens has a range of marines with armour plating and helmet-mounted cameras who wield guns with visual ammo counters. Combat Evolved has a range of marines with near-identical armour plating and helmet-mounted cameras who wield guns with visual ammo counters.
+
+If you're looking to get into the sci-fi first-person-shooter genre, then it's a good game to start with. If you're looking to get into Halo, then it's _the_ game to start with.[^2] It's also a good game to stop with if you just want to dip your toes in and aren't sure if Halo is your cup of tea. It has a nice conclusion that, while being rather open-ended, supplies an easy and satisfying stopping point.
 
 <details>
 <summary>Campaign Specifics</summary>
@@ -57,13 +59,75 @@ There is a certain sense of awe that sets in post-crash as you step out of the e
 
 While pretty consistently a stellar experience, one level stands as an exception: _The Library_. Not only must you deal with the ever-irritating 343 Guilty Spark for the level's entirety, but you must also battle through several monotonous, repetitive, copy-pasted, Flood-filled chambers that are a clear symptom of [Bungie's development crunch](https://en.wikipedia.org/wiki/Halo:_Combat_Evolved#Move_to_Xbox).
 
+To pull back to the Aliens comparison yet again, that franchise's facehuggers are rather similar to the Flood's infection forms. In fact, the Flood as a whole being parasitic infectious beings operate very similarly to the aliens of the Alien franchise. Their weakness of flame is the same. There are also similar cryogenic stasis pods and motion trackers.
+
+I love the organic takeover of places the Flood colonise. Again, this is something seen in Aliens, but it is also something I love of the Borg in Star Trek. There is something brilliantly oppressing and dire about seeing an area slowly colonised by an evil force. The original inhibitors of a place become aliens to it.
+
+</details>
+
+## Halo: Campaign Evolved
+
+After butchering Halo for over a decade, 343 Industries decided to run from its reputation and take the name of the successful franchise it inherited. Going by the title 'Halo Studios', they decided to give up on creating anything new and novel, to give up on the Slipspace engine they used for Infinite after butchering it with an ever rotating cast of contractors who never got to establish familiarity, and to return to the Halo: Reach version of the Blam! engine onto which they bolted an Unreal Engine 5 graphics layer to have _another_ go at fancying up Halo: CE.
+
+As Halo: Combat Evolved Anniversary was the studio's first project as 343 Industries, Halo: Campaign Evolved is the studio's first project as Halo Studios. Anniversary even used the same dual-engine approach with Saber3D for graphics and Combat Evolved Blam! for gameplay. Almost fifteen years later and back to the start.
+
+Upon seeing [the reveal trailer](https://www.youtube.com/watch?v=AMGJ7OMqyvI) and initial demos, my first thought was disappointment. The much-maligned Unreal Engine 5 look was present, which is such a major shame given how beautiful I found Halo Infinite's graphics. It also didn't feel like Halo: Combat Evolved. Halo has always had a 'feel', and the Unreal graphics immediately lacked that feel. It looks impressive from a technical perspective, but graphics aren't everything. Style and art direction matter.
+
+I can't put it any nicer than saying that the trailer looked garish. Like building a house out of gold, diamonds, and rubies. Unreal Engine 5's excessive speculiarity and impressively blurry sharpness marred what I was sure were lovely assets beneath the gleam. Unreal Engine 5 games don't _have_ to look like this, but the engine does steer developers in that direction, and it seems that either nobody at Halo Studios decided to push back, or the gaudy glittering of every surface was to their liking.
+
+Thankfully, by the time of the full trailers and further promotional material, this changed. Everything was splashed with more weathering and wear. Colours were made more vibrant, representing Halo's alien world -- textures and lighting generally altered to be more faithful and accurate to the source material. Still more shine and glow than is necessary or realistic, though much better than it was.
+
+Indeed, playing the game on release day, it looked rather reasonable from an art-style perspective. Unfortunately, Unreal Engine 5 has reared its ugly head another way: everything looks really fuzzy. In the game's opening level, The Pillar of Autumn, I find myself struggling to play. The level takes place in a dark ship, with moody lighting, flickering flames, and various lights, many of which move. The effect of this is that everywhere the constantly recomputing lighting touches is reduced to a blurry, grainy soup. Light from the flashlight persists for a period after flicking it off, giving everything a phosphorescent appearance. Shining a light at a human's face leaves it with bright subsurface scattering that gives the distinct appearance of light being trapped under their skin like some cheap plastic character lamp one might buy as merchandise.
+
+Perhaps some of this is down to the playthrough I'm basing this review on being conducted on my Xbox Series S -- the lower-end Xbox of the ninth console generation. I'm playing on the 'performance' mode, though it isn't saving me from poor performance, for I've found periods of stutter and frame drops. Frankly, this is rather unacceptable. Playing an _expensive_ AAA game by an Xbox studio on a current Xbox console should not be a degraded experience.
+
+The first thing one sees when booting the game -- save for the title screen -- is the menu and interface. It isn't particularly inspired. It isn't really bad, just boring. I've seen arguments for why game menus and [game console interfaces grow boring](/posts/game-console-interfaces), and the most common by far is that they must do so much you simply _can't_ inject much style into them. Well, for a campaign based game without a multiplayer matchmaking component, that isn't a valid excuse. Yet, somehow, it manages to be more boring than CE's original interface and _much_ more boring than Halo 2 through Reach, while having to do far less due to the lack of multiplayer. Bringing back the Halo ring for the background, as it was in Combat Evolved, is cool, but the thin-line design interface doesn't really do anything interesting.
+
+There are a great assortment of options, however. It seems that Halo Studios made almost everything configurable, which is great for tailoring the experience, but does make it feel a bit like Halo Studios didn't want to pick a side, so took no stance at all. This is great in the sense of giving the player agency, but it does feel indicative of a lack of direction.
+
+I'm rather disappointed by the presence of a shop to buy skins in a game which retails upon release for $89.95 AUD for the base version. Microtransaction skins are minor, but when paying such a steep price, it feels greedy and sours the taste to see double dipping. There is no online multiplayer player-vs-player either, so it is not really a case of showing off to other players. The fact that cutscenes are pre-rendered only makes skins more useless. The only time you can see your chosen skin is if playing the campaign with a friend, during the brief moments where Master Chief's arm is visible on screen, or if you have the third-person skull enabled ( which is something you must go out of your way to find).
+
+While on the topic, I don't understand skulls in this game. Skulls in Halo have always been hidden, requiring a level of exploration to discover them. However, going out of bounds at all in Campaign Evolved will have your screen overtaken by 'Return to the Battlefield' or an instant death. It seems like such a double standard to expect exploring to find secrets while actively punishing exploring. Deliberately getting out of bounds has no negative effects on other players and is a part of Halo's identity. Other games in the franchise have included hidden secrets out of the way for players who manage to find tricky routes to unintended areas.
+
+Cutscenes being pre-rendered saddens me deeply. Being able to see things like slain enemies or discarded weapons when moving into a cutscene really ties them into the gameplay, and in-engine cutscenes usually age much more gracefully than pre-rendered cutscenes. As the game ages and sees better hardware that can run it at better resolutions and improved framerates, the cutscenes will forever remain as they were. Contrast this to cutscenes from the earlier Halo games, which look brilliant at higher framerates and resolutions. Pre-rendered cutscenes are also doomed to slowly and subtly diverge from the game as updates release that tweak it. Sure, the issue is lesser with a fixed campaign which already has settled details, but texture changes or tweaking to the geometry aren't uncommon post-release. It also harms mods. The quality of the cutscenes is not exemplary, so I'm not willing to put the shortcomings aside like I am for Blur Studio's stunning Halo 2: Anniversary cutscenes.
+
+While playing, I found myself constantly getting snagged on tiny bits of level geometry. Running backwards from enemies while shooting is a tricky exercise when a pebble stops you in your tracks. It reminds me of the geometry of Combat Evolved Anniversary, where you would snag on things due to level collision not matching the level itself. In this case it is an issue of gameplay skill, arguably, but it feels like there should be a concession for it, à la Coyote jumps. Halo Studios seem to have crammed in so much detail everywhere all the time that it is just a bit tricky to handle yourself in their environments. Even the textures are ultra-detailed to the point where there is so much visual noise it can be hard to parse what is happening right in front of you and act accordingly.
+
+There is a distinct lack of care for the finer elements. During my playthrough I identified terrain clipping through elements; sections where water hasn't been applied, leaving unnatural square voids; floating props; and I even got stuck in walls and props a few times. Jackels in Halo have a shield which protects them. Their gimmick as an enemy is that they can't be easily attacked from the front, and must be attacked while their shield is down, from an angle the shield doesn't protect them from, with enough firepower such that their shield is disabled, or by sneaking a bullet into a chink in their shield to hit their hand, causing them to flinch and thus drop their shield temporarily. Playing through at launch, this chink-flinch behaviour [is completely broken](https://www.reddit.com/r/halo/comments/1vazw54/am_i_misremembering_how_to_fight_jackals/). Further, when my banshee lost a wing during combat, a floating light remained in the air at the location it was on the wing. Just lots of tiny mistakes that add up.
+
+The dialogue isn't particularly rough, but it is a marked downgrade. The voice acting is as good as ever, but the writing leaves something to be desired. Even just in the opening mission, 'I don't keep it loaded, son.' is an iconic line from the original that was dropped for no reason, and there are other cases of this throughout. The writing overall feels oddly and unnecessarily clichéd. Every change just makes it feel like something halfway between a cheesy blockbuster and a direct-to-video sequel. Also, in the subtitles, they neglected to replace instances of `--` with proper em dashes.
+
+While I've already expressed my gripes with Unreal Engine 5's smeary fuzziness, in the level 343 Guilty Spark it is exacerbated due to darkness. As the game takes on a more horror atmosphere, grainy obscurity remarkably _adds_ to the game, rather than detracts from it. It is helped by the level's graphical design. Steeped in a deep, dark purple fog, the orange glow of flames as contrast wonderfully. It deviates significantly from Combat Evolved's presentation, but it works.
+
+<figure class="shorter">
+<img src="/assets/posts/halo-my-thoughts/campaign-evolved.avif" alt="A crashed Pelican ship alight with orange frames which are reflected by the wet, marshy ground and illuminate the trees in the dark purple haze of a swamp.">
+<figcaption>The beginning of 343 Guilty Spark in Campaign Evolved.</figcaption>
+</figure>
+
+I do not care for Cortana's design. She has a longer, more stern face which is at odds with her previous design throughout the games, and her resting scowl takes away from times she does show more severe emotions. In Combat Evolved, her colour would change dynamically, swinging into flaring red when angry. In Campaign Evolved, she is blue, switching to gold in one situation. This is something that Bungie dropped and didn't include in future games, so I can understand it being dropped for consistency with later entries, but it would have been lovely to see.
+
+The prequel missions are a good fun romp and welcome bonus content. It is great to see Chief and Johnson's relationship fleshed out some more. I do wish that they had directed some of the effort that went into the prequels towards polishing up the main campaign some more though.
+
+Overall, I think Campaign Evolved is a good Halo game. It understands what makes Halo work, which is something I can't say about some of the games in the series that preceded it. It seems they've gotten away from Frank O'Connor's infamous proclamation that 343 Industries '[hired people who hated Halo](https://www.gamedeveloper.com/design/making-i-halo-4-i-a-story-about-triple-a#:~:text=hired%20people%20who%20hated%20Halo)'. Where it is let down is by technical problems, though they can always be fixed in time.
+
+<details>
+<summary>Campaign Specifics</summary>
+
+There is a scene after you take the gravity lift up to the Truth and Reconciliation where your marines and Cortana mention that there are no Covenant detected while invisible elites wielding energy swords slowly filter in through the doors. On a first playthrough, the player might not even notice the elites have entered the room until marines start being slain around them. There is a degree of horror and shock as they die around you to an invisible force. At least, that's how it occurs in Combat Evolved. In Campaign Evolved, it was felt necessary to have Cortana immediately exclaim, 'Stealth elites! Watch your motion tracker and look for distortions in the air.' while the marines say absolutely nothing. Similar Cortana hand holding has been added throughout the game.
+
+Not only does it completely ruin the sense of mystery and what made that scene effective and memorable, but it is a blatant dumbing down of the game to anyone who has played the original. Maybe in the above case they felt it necessary because the blurry, smeary Unreal Engine 5 graphics make it extremely hard to notice the subtle shimmer of active camouflage cloaked enemies, as do the subtle distortion effects in the air Halo Studios felt it necessary to add.
+
+The Flood in Campaign Evolved are visually repulsive. I feel this visceral disgust seeing the lumbering Flood forms and mounds of biomass. The graphics brilliantly convey this sort of fluid-filled, bubo-like amalgamation of flesh and tissue, complete with writing tendrils and sinuous connections. They're perfectly gross, especially Keyes' mutilated body as it is shown absorbed into the proto-Gravemind. Repugnant.
+
+Keyes' entire characterisation in the game is improved, which makes the reveal of his mangled form more shocking. I like that they retroactively included mentions of his daughter, Miranda, to pre-empt her introduction in Halo 2. Thankfully, The Library is made far less monotonous and much more varied than it was in Combat Evolved.
+
 </details>
 
 ## Halo 2
 
-Halo 2 looks at CE, throws out what didn't work, iterates on and improves what did, and then cranks everything up to 11. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling create an immersive experience that kept me firmly on the edge of my seat.
+Halo 2 looks at Combat Evolved, throws out what didn't work, iterates on and improves what did, and then cranks everything up to 11. The stakes are high, and the quality is higher. The seamless integration of intense action sequences and stellar storytelling create an immersive experience that kept me firmly on the edge of my seat.
 
-Where I felt the need to complain about CE's Anniversary graphics, I feel the need to celebrate Halo 2: Anniversary's. You can quite comfortably play the game with or without the overhaul and be confident you're experiencing the game to its fullest. They remain faithful to the original while looking stunning, and, much like with CE's, they can be toggled at will to verify this.
+Where I felt the need to complain about CE Anniversary's graphics, I feel the need to celebrate Halo 2: Anniversary's. You can quite comfortably play the game with or without the overhaul and be confident you're experiencing the game to its fullest. They remain faithful to the original while looking stunning, and, much like with Combat Evolved's, they can be toggled at will to verify this.
 
 Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes are marvellous. They're detailed and crisp, looking more sharp and real than reality itself, but not overwhelmingly so. Part of my decision to play with Anniversary graphics was just to ensure I didn't miss them.
 
@@ -74,13 +138,13 @@ Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes ar
 
 That said, the original graphics don't slouch either. While there are some slight regressions thanks to a pivot in lighting tech mid-development, models are much more detailed, meaning the game takes on a less stylised, more 'realistic' approach.
 
-While Halo 2 keeps most of its predecessor's music, it also manages to elevate it with the inclusion of some truly epic electric guitar. The guitar elevates the music to something somehow even more exhilarating than what CE accomplished.
+While Halo 2 keeps most of its predecessor's music, it also manages to elevate it with the inclusion of some truly epic electric guitar. The guitar elevates the music to something somehow even more exhilarating than what Combat Evolved accomplished.
 
-Much like with CE's Anniversary release, Halo 2: Anniversary features a re-recorded and remixed re-release of the soundtrack. Thankfully, much like with the graphics, it takes a step up from the CE's. While some tracks have unfortunately been replaced, it's generally mixed much better and more faithfully to the original, making it an excellent listen.
+Much like with CE Anniversary's release, Halo 2: Anniversary features a re-recorded and remixed re-release of the soundtrack. Thankfully, much like with the graphics, it takes a step up from Evolved's. While some tracks have unfortunately been replaced, it's generally mixed much better and more faithfully to the original, making it an excellent listen.
 
-The gameplay sees several improvements, with dual wielding, destructible and hijackable vehicles, and reduced fall damage taking the game a monumental step forward. These enhancements somehow push the game into something even more dynamic and immersing than CE.
+The gameplay sees several improvements, with dual wielding, destructible and hijackable vehicles, and reduced fall damage taking the game a monumental step forward. These enhancements somehow push the game into something even more dynamic and immersing than Combat Evolved.
 
-Starting very similarly to CE with a subtle close-quarters tutorial, it doesn't take long to diverge into a much richer, more expansive story. This story is punctuated by writing and choreography that would later be improved in Halo 3.
+Starting very similarly to Combat Evolved with a subtle close-quarters tutorial, it doesn't take long to diverge into a much richer, more expansive story. This story is punctuated by writing and choreography that would later be improved in Halo 3.
 
 One thing that does irk me is the ending. The game concludes with quite the cliffhanger thanks to Bungie, more or less, creating the entire game in about 9 months and having to slice the game pretty much in half to push it out in time. That said, the half they sliced off went on to lay a solid groundwork for the next game in the series, Halo 3.
 
@@ -175,7 +239,7 @@ On the topic of Cortana, the ending scene between her and the Chief is executed 
 
 ## Halo 5: Guardians
 
-This game could be better titled _"Call of Duty: In Space"_. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
+This game could be better titled _'Call of Duty: In Space'_. It doesn't feel like Halo. It doesn't look like Halo. It doesn't play like Halo.
 
 It's almost like 343 Industries chucked away everything from Bungie's entries, took the worst bits from 4, reconstituted them, and mixed them in with the most soulless shooter they could find. It's bland slop without a hint of seasoning advertised behind the façade of a Halo entry.
 
@@ -198,11 +262,11 @@ I vehemently oppose the decision to bring back Cortana, especially after the fit
 
 Fireteam Raven is a physical arcade rail shooter game. There are a few variations of cabinets, and I played on a seated four-player cabinet with mounted light guns themed after M247H machine guns. The game overall is enjoyable, though not particularly memorable or noteworthy. It is a fairly generic rail shooter with a coat of Halo paint.
 
-It is set during the events of CE and exploits this to the fullest extent possible with plenty of references to characters such as Captain Keyes and Master Chief and many intersections with story points. It is fun to play as ODSTs and see Combat Evolved from a different perspective.
+It is set during the events of Combat Evolved and exploits this to the fullest extent possible with plenty of references to characters such as Captain Keyes and Master Chief and many intersections with story points. It is fun to play as ODSTs and see Combat Evolved from a different perspective.
 
 ## Halo Infinite
 
-Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. CE was intended to take place in an open-world, but it simply wasn't feasible on the hardware of the original Xbox.
+Halo Infinite is a true return to formula. I believe that this is what Bungie wanted to make when they created Combat Evolved. Comabt Evolved was intended to take place in an open-world, but it simply wasn't feasible on the hardware of the original Xbox.
 
 <figure class="right">
 <img src="https://halo.wiki.gallery/images/0/00/HInf_Coverart_Large_No_Logo.jpg" alt="The Master Chief clad in his Mjolnir Infinite armor standing on a ringworld.">
@@ -215,10 +279,10 @@ The entire experience looks top-notch. It's realistically realistic. It doesn't 
 
 The only critique of its visuals that comes to mind is the lack of stylistic diversity. We're thrown into a huge open-world, but the surface is almost exclusively the same generic forest, occasionally broken up by big hexagons, the void, and copy-pasted Forerunner structures. It would have been lovely just to see a tad more variety, like we see in the multiplayer maps.
 
-This instalment also marks the return of the legendary music. It's a triumphant return of the iconic theme as heard in CE. It once again adapts to context with ease and shows how much this game is pushing forward while staying true to the franchise's roots.
+This instalment also marks the return of the legendary music. It's a triumphant return of the iconic theme as heard in Combat Evolved. It once again adapts to context with ease and shows how much this game is pushing forward while staying true to the franchise's roots.
 
 The story repairs the mess of the previous two games and paves the way for the future. I really do look forward to seeing how they build on what was set up in Infinite and what the next instalment brings to the table.
 
 [^1]: So is the multiplayer. It simply stripped out the original and just bundled a modified version of Reach's. This isn't an issue on the MCC, as it features the original multiplayer, but if you're playing on the 360, I'd recommend just going and tracking down the original Xbox version. You can run it on the 360 via backwards compatibility.
 
-[^2]: You might have read that Reach is the first game. It's a prequel, released after Halo ODST. I very much recommend experiencing the games (and most media, for that matter) in chronological release order.
+[^2]: Some people tout Halo: Reach as the first game in the series and thus the one to start with. You shouldn't Reach is a prequel, released after Halo ODST. I very much recommend experiencing the games (and most media, for that matter) in chronological release order.

@@ -984,6 +984,11 @@
   rating: 4
 - title: Ferris Bueller's Day Off
   release_year: 1986
+- title: Aliens
+  release_year: 1986
+  watches:
+    - date: 2026-07-31
+      format: Streaming
 - title: The Black Cauldron
   release_year: 1985
 - title: Clue
