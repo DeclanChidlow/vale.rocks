@@ -9,7 +9,7 @@ tags: [gaming]
 standardsite_rkey: 3mn2duxzjaa26
 ---
 
-If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to the latest. This article catalogues my opinions on each of the games in the order of release. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5, Fireteam Raven, and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
+If you had asked me at the start of 2023 my opinion on Halo, I wouldn't have had anything to say. I'd played 10 minutes of split-screen multiplayer with my cousin the better part of a decade ago, but that was it. Since then, I've played through every single mainline Halo game, from Combat Evolved to the latest. This article catalogues my opinions on each of the games in the order of release. I played all of the games on my Xbox Series S as part of the Master Chief Collection (MCC), with the exception of 5, Fireteam Raven, and Infinite, which I played through their standalone games. I'll only be discussing the campaigns, as I have scarcely touched the multiplayer.
 
 I'll be avoiding spoilers for the most part, but if I've got any specifics to mention, I'll place them in a 'Campaign Specifics' drop-down at the conclusion of the relevant entry. This means that even if you haven't touched the series, you can rest assured this article shouldn't ruin your experience. That said, just go play the games; they're generally worth it. I also just want to give thanks to my friend Sebastien, who advised me to get into the series. 'Twas a good call.
 
@@ -100,7 +100,7 @@ The dialogue isn't particularly rough, but it is a marked downgrade. The voice a
 While I've already expressed my gripes with Unreal Engine 5's smeary fuzziness, in the level 343 Guilty Spark it is exacerbated due to darkness. As the game takes on a more horror atmosphere, grainy obscurity remarkably _adds_ to the game, rather than detracts from it. It is helped by the level's graphical design. Steeped in a deep, dark purple fog, the orange glow of flames as contrast wonderfully. It deviates significantly from Combat Evolved's presentation, but it works.
 
 <figure class="shorter">
-<img src="/assets/posts/halo-my-thoughts/campaign-evolved.avif" alt="A crashed Pelican ship alight with orange frames which are reflected by the wet, marshy ground and illuminate the trees in the dark purple haze of a swamp.">
+<img src="/assets/posts/halo-my-thoughts/campaign-evolved.avif" alt="A crashed Pelican ship alight with orange flames which are reflected by the wet, marshy ground and illuminate the trees in the dark purple haze of a swamp.">
 <figcaption>The beginning of 343 Guilty Spark in Campaign Evolved.</figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ Where I felt the need to complain about CE Anniversary's graphics, I feel the ne
 Of particular beauty are the cutscenes. Crafted by Blur Studio, the cutscenes are marvellous. They're detailed and crisp, looking more sharp and real than reality itself, but not overwhelmingly so. Part of my decision to play with Anniversary graphics was just to ensure I didn't miss them.
 
 <figure class="right">
-<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, a alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides.">
+<img src="https://halo.wiki.gallery/images/2/2c/H2A_-_Regret.png" alt="The High Prophet of Regret, an alien with wrinkled and textured brownish skin, large black eyes, and a small mouth. He is wearing an elaborate gold and black helmet with curved horns on the sides.">
 <figcaption>The High Prophet of Regret sitting on his throne in a Halo 2: Anniversary cutscene.</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ That said, the original graphics don't slouch either. While there are some sligh
 
 While Halo 2 keeps most of its predecessor's music, it also manages to elevate it with the inclusion of some truly epic electric guitar. The guitar elevates the music to something somehow even more exhilarating than what Combat Evolved accomplished.
 
-Much like with CE Anniversary's release, Halo 2: Anniversary features a re-recorded and remixed re-release of the soundtrack. Thankfully, much like with the graphics, it takes a step up from Evolved's. While some tracks have unfortunately been replaced, it's generally mixed much better and more faithfully to the original, making it an excellent listen.
+Much like with CE Anniversary's release, Halo 2: Anniversary features a re-recorded and remixed re-release of the soundtrack. Thankfully, much like with the graphics, it takes a step up from Combat Evolved's. While some tracks have unfortunately been replaced, it's generally mixed much better and more faithfully to the original, making it an excellent listen.
 
 The gameplay sees several improvements, with dual wielding, destructible and hijackable vehicles, and reduced fall damage taking the game a monumental step forward. These enhancements somehow push the game into something even more dynamic and immersing than Combat Evolved.
 
