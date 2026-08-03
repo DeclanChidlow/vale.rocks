@@ -1,9 +1,10 @@
 - title: "Halo: Campaign Evolved"
   release_year: 2026
   platforms: ["Xbox Series"]
-  # notes: 'See <a href="/posts/halo-my-thoughts.html#halo-campaign-evolved">Halo: My Thoughts</a>.'
-  # playthroughs:
-  #   - start: 2026-07-29
+  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-campaign-evolved">Halo: My Thoughts</a>.'
+  playthroughs:
+    - start: 2026-07-29
+      finish: 2026-08-02
 - title: (the) Gnorp Apologue
   release_year: 2023
   platforms: ["PC"]
