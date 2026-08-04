@@ -5,28 +5,30 @@
 	stylesheet: "pages/elsewhere.css"
 	canonical: `/elsewhere${ paginated_elsewhere.pageNumber > 1 ? '/' + paginated_elsewhere.pageNumber : '' }`
 
-_body:
-`<h1 class="section" data-pagefind-ignore>Elsewhere</h1>
+	_body: `
+		<h1 class="section" data-pagefind-ignore>Elsewhere</h1>
 
-<div class="readable" data-pagefind-ignore>
-	${ paginated_elsewhere.previousPage ? '' : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
+		<div class="readable" data-pagefind-ignore>
+			${ paginated_elsewhere.previousPage ? '' : `<p>Writings, contributions, and appearances external to this website that I have been directly involved with.</p>` }
 
-	<ol id="posts">
-		${ Tree.map(paginated_elsewhere.items, (item, key) => `
-			<li class="elsewhere">
-				<div>
-					<h2><a href="https://${ item.url }">${ item.title }</a></h2>
-				<p><time datetime="${ item.pub_time }" title="Date of publication." data-timezone-ignore>${ functions/pretty-date.js(item.pub_time) }</time>${ item.format ? ` | ${ item.format }` : '' } | ${ item.contribution }${ item.location ? ` | ${ item.location }` : '' }</p>
-				${ item.note ? `<p class="note">${ item.note }</p>` : '' }
-				</div>
-				${ item.image ? `<img src="https://${ item.image }" alt="">` : '' }
-			</li>
-		`)}
-	</ol>
+			<ol id="posts">
+				${ Tree.map(paginated_elsewhere.items, (item, key) => `
+					<li class="elsewhere">
+						<div>
+							<h2><a href="https://${ item.url }">${ item.title }</a></h2>
+							<p><time datetime="${ item.pub_time }" title="Date of publication." data-timezone-ignore>${ functions/pretty-date.js(item.pub_time) }</time>${ item.format ? ` | ${ item.format }` : '' } | ${ item.contribution }${ item.location ? ` | ${ item.location }` : '' }</p>
+							${ item.note ? `<p class="note">${ item.note }</p>` : '' }
+						</div>
+						${ item.image ? `<img src="https://${ item.image }" alt="">` : '' }
+					</li>
+				`)}
+			</ol>
 
-	<div data-pagefind-ignore class="pagination">
-		${ paginated_elsewhere.previousPage ? `<a href="/elsewhere/${ paginated_elsewhere.previousPage === 1 ? '' : paginated_elsewhere.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-		<p>Page ${ paginated_elsewhere.pageNumber } of ${ paginated_elsewhere.pageCount }</p>
-		${ paginated_elsewhere.nextPage ? `<a href="/elsewhere/${ paginated_elsewhere.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
-	</div>
-</div>`})
+			<div data-pagefind-ignore class="pagination">
+				${ paginated_elsewhere.previousPage ? `<a href="/elsewhere/${ paginated_elsewhere.previousPage === 1 ? '' : paginated_elsewhere.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
+				<p>Page ${ paginated_elsewhere.pageNumber } of ${ paginated_elsewhere.pageCount }</p>
+				${ paginated_elsewhere.nextPage ? `<a href="/elsewhere/${ paginated_elsewhere.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
+			</div>
+		</div>
+	`
+})

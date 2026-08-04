@@ -6,19 +6,21 @@
 	canonical: `/micros${ paginated_micros.pageNumber > 1 ? '/' + paginated_micros.pageNumber : '' }`
 	template_image: "micro"
 
-_body:
-`<h1 class="section" data-pagefind-ignore>Micros</h1>
+	_body: `
+		<h1 class="section" data-pagefind-ignore>Micros</h1>
 
-<div data-pagefind-ignore>
-	${ paginated_micros.previousPage ? '' : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
+		<div data-pagefind-ignore>
+			${ paginated_micros.previousPage ? '' : `<p>My micros are short-form posts. They usually follow <a href="https://indieweb.org/PESOS"><abbr title="Publish Elsewhere, Syndicate (to your) Own Site">PESOS</abbr></a>. You can expect social media style notes, and occasionally poetry, lyrics, and short commentaries.</p>` }
 
-	<div>
-		${ Tree.map(paginated_micros.items, (item, key) => content_item.ori(item, `micros/${ key }`) ) }
+			<div>
+				${ Tree.map(paginated_micros.items, (item, key) => content_item.ori(item, `micros/${ key }`) ) }
 
-		<div class="pagination">
-			${ paginated_micros.previousPage ? `<a href="/micros/${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-			<p>Page ${ paginated_micros.pageNumber } of ${ paginated_micros.pageCount }</p>
-			${ paginated_micros.nextPage ? `<a href="/micros/${ paginated_micros.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
+				<div class="pagination">
+					${ paginated_micros.previousPage ? `<a href="/micros/${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
+					<p>Page ${ paginated_micros.pageNumber } of ${ paginated_micros.pageCount }</p>
+					${ paginated_micros.nextPage ? `<a href="/micros/${ paginated_micros.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
+				</div>
+			</div>
 		</div>
-	</div>
-</div>`})
+	`
+})

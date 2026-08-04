@@ -6,55 +6,56 @@
 	canonical: "/posts"
 	template_image: "post"
 
-_body: `
-<h1 class="section" data-pagefind-ignore>Posts</h1>
-<div data-pagefind-ignore>
-	<p>These are long-form, structured articles. They're written to be evergreen and are revised as necessary to keep them up-to-date. Don't let an old initial publication date scare you off.</p>
+	_body: `
+		<h1 class="section" data-pagefind-ignore>Posts</h1>
+		<div data-pagefind-ignore>
+			<p>These are long-form, structured articles. They're written to be evergreen and are revised as necessary to keep them up-to-date. Don't let an old initial publication date scare you off.</p>
 
-	<form id="refine-posts">
-		<div class="sort">
-			<label for="posts-sort">Sort by:</label>
-			<select id="posts-sort">
-				<option value="published-desc">Published Descending</option>
-				<option value="published-asc">Published Ascending</option>
-				<option value="revised-desc">Revised Descending</option>
-				<option value="revised-asc">Revised Ascending</option>
-				<option value="length-desc">Length Descending</option>
-				<option value="length-asc">Length Ascending</option>
-			</select>
+			<form id="refine-posts">
+				<div class="sort">
+					<label for="posts-sort">Sort by:</label>
+					<select id="posts-sort">
+						<option value="published-desc">Published Descending</option>
+						<option value="published-asc">Published Ascending</option>
+						<option value="revised-desc">Revised Descending</option>
+						<option value="revised-asc">Revised Ascending</option>
+						<option value="length-desc">Length Descending</option>
+						<option value="length-asc">Length Ascending</option>
+					</select>
+				</div>
+
+				<div class="filter">
+					<label for="posts-filter">Category:</label>
+					<select id="posts-filter">
+						<option value="all">All</option>
+						<option value="review">Reviews</option>
+						<option value="essay">Essays</option>
+						<option value="tutorial">Tutorials</option>
+						<option value="rant">Rants</option>
+						<option value="memoir">Memoirs</option>
+						<option value="fiction">Fiction</option>
+						<option value="meta">Meta</option>
+					</select>
+				</div>
+			</form>
+
+			<ol id="posts">
+				${ Tree.map(posts_data, (post, key) => `
+					<li class="post">
+						<h2><a href="/posts/${ Origami.basename(key) }">${ post.title }</a></h2>
+						<p>${ post.section }</p>
+						<ul>
+							<li>${ post.words } words</li>
+							<li>
+								<time datetime="${ post.pub_time }" title="Date of first publication." data-timezone-ignore>${ functions/pretty-date.js(post.pub_time) }</time>
+								${ post.mod_time ? `– <time datetime="${ post.mod_time }" title="Date of last notable modification." data-timezone-ignore>${ functions/pretty-date.js(post.mod_time) }</time>` : '' }
+							</li>
+						</ul>
+					</li>
+				`) }
+			</ol>
 		</div>
 
-		<div class="filter">
-			<label for="posts-filter">Category:</label>
-			<select id="posts-filter">
-				<option value="all">All</option>
-				<option value="review">Reviews</option>
-				<option value="essay">Essays</option>
-				<option value="tutorial">Tutorials</option>
-				<option value="rant">Rants</option>
-				<option value="memoir">Memoirs</option>
-				<option value="fiction">Fiction</option>
-				<option value="meta">Meta</option>
-			</select>
-		</div>
-	</form>
-
-	<ol id="posts">
-		${ Tree.map(posts_data, (post, key) => `
-		<li class="post">
-			<h2><a href="/posts/${ Origami.basename(key) }">${ post.title }</a></h2>
-			<p>${ post.section }</p>
-			<ul>
-				<li>${ post.words } words</li>
-				<li>
-					<time datetime="${ post.pub_time }" title="Date of first publication." data-timezone-ignore>${ functions/pretty-date.js(post.pub_time) }</time>
-					${ post.mod_time ? `– <time datetime="${ post.mod_time }" title="Date of last notable modification." data-timezone-ignore>${ functions/pretty-date.js(post.mod_time) }</time>` : '' }
-				</li>
-			</ul>
-		</li>
-		`) }
-	</ol>
-</div>
-
-<script defer src="/assets/scripts/refine-posts.js"></script>
-`})
+		<script defer src="/assets/scripts/refine-posts.js"></script>
+	`
+})

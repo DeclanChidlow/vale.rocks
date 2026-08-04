@@ -7,35 +7,36 @@
 	canonical: `/portfolio/${ post.file_name }`
 	template_image: "portfolio"
 
-_body:
-`<style>:root{--header_background: ${ post.accent_colour }}</style>
+	_body: `
+		<style>:root{--header_background: ${ post.accent_colour }}</style>
 
-<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Portfolio</span>
+		<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Portfolio</span>
 
-<article class="article-wrapper h-entry">
-	<header data-pagefind-ignore>
-		<h1 style="view-transition-name: ${ Origami.slug(post.title) }-title;">${ post.title }</h1>
-		<p style="view-transition-name: ${ Origami.slug(post.title) }-description;">${ post.og_description}</p>
+		<article class="article-wrapper h-entry">
+			<header data-pagefind-ignore>
+				<h1 style="view-transition-name: ${ Origami.slug(post.title) }-title;">${ post.title }</h1>
+				<p style="view-transition-name: ${ Origami.slug(post.title) }-description;">${ post.og_description}</p>
 
-		${ post.repository ? `<ul id="repo-details"></ul>` : '' }
+				${ post.repository ? `<ul id="repo-details"></ul>` : '' }
 
-		<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-			${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
-		</ul>
-	</header>
+				<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+					${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
+				</ul>
+			</header>
 
-	<div class="readable e-content">
-		${ post._body }
-	</div>
-</article>
+			<div class="readable e-content">
+				${ post._body }
+			</div>
+		</article>
 
-<script defer src="/assets/scripts/footnotes.js"></script>
-<script defer src="/assets/scripts/figures.js"></script>
-${ post.repository ? `
-<script defer src="/assets/scripts/repo-details.js"></script>
-<script>
-	const repo = new RepoDetails('${ post.repository }');
-	repo.render();
-</script>
-` : '' }
-`})
+		<script defer src="/assets/scripts/footnotes.js"></script>
+		<script defer src="/assets/scripts/figures.js"></script>
+		${ post.repository ? `
+			<script defer src="/assets/scripts/repo-details.js"></script>
+			<script>
+				const repo = new RepoDetails('${ post.repository }');
+				repo.render();
+			</script>
+		` : '' }
+	`
+})

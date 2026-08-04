@@ -5,22 +5,22 @@
 	canonical: "/library"
 	template_image: "library"
 
-_body:
-`<h1 class="section" data-pagefind-ignore>Library</h1>
+	_body: `
+		<h1 class="section" data-pagefind-ignore>Library</h1>
 
-<div class="readable">
-	<p>Lists of ${ books.length + films.length + series.length + albums.length + games.length } pieces of media I’ve consumed, logged, and in some cases made notes on.</p>
-	<p>I've reviewed much of the content within the 5-point rating system and <a href="/posts/media-review-reasoning#star-scale">written in detail</a> of how I assign and consider these reviews.</p>
+		<div class="readable">
+			<p>Lists of ${ books.length + films.length + series.length + albums.length + games.length } pieces of media I’ve consumed, logged, and in some cases made notes on.</p>
+			<p>I've reviewed much of the content within the 5-point rating system and <a href="/posts/media-review-reasoning#star-scale">written in detail</a> of how I assign and consider these reviews.</p>
 
-	<ul data-pagefind-ignore>
-		<li><a href="/library/books">Books</a> (${ books.length } items)</li>
-		<li><a href="/library/films">Films</a> (${ films.length } items)</li>
-		<li><a href="/library/series">Series</a> (${ series.length } items)</li>
-		<li><a href="/library/music">Music</a> (${ albums.length } items)</li>
-		<li><a href="/library/games">Games</a> (${ games.length } items)</li>
-	</ul>
+			<ul data-pagefind-ignore>
+				<li><a href="/library/books">Books</a> (${ books.length } items)</li>
+				<li><a href="/library/films">Films</a> (${ films.length } items)</li>
+				<li><a href="/library/series">Series</a> (${ series.length } items)</li>
+				<li><a href="/library/music">Music</a> (${ albums.length } items)</li>
+				<li><a href="/library/games">Games</a> (${ games.length } items)</li>
+			</ul>
 
-	${Origami.mdHtml(`
+			${Origami.mdHtml(`
 To keep track of the media one has seen is a reasonable task to remain atop of once a framework and intent have been established, but is a difficult task to complete retroactively. Memory is flawed, records fail, physical media perishes, and ticket stubs fade. These records are a best-effort attempt.
 
 I document the media I watch and enjoy for a few reasons. It allows for anchoring points in my life to certain media I've experienced. I can remember when I was away somewhere based on the watch date of a film or recall an old memory tied to a piece of media.
@@ -28,5 +28,7 @@ I document the media I watch and enjoy for a few reasons. It allows for anchorin
 It allows me to coordinate what I shall watch/play with others. Rather than a back-and-forth of 'have you seen/got 𝑥?', people can reference this library. It also allows people to avoid spoiling things for me, to allow them to recommend media to me, and for me to non-directly recommend media for them.
 
 Indeed, one intention I have in documenting all this media I've experienced is to be able to pass it to my chosen <abbr title="Large Language Model">LLM</abbr> to have it perform an analysis, taking into account my notes and ratings to provide tailored recommendations without relying on the algorithm of some third-party silo.
-	`)}
-</div>`})
+			`)}
+		</div>
+	`
+})

@@ -6,21 +6,23 @@
 	canonical: `/photography${ paginated_photography.pageNumber > 1 ? '/' + paginated_photography.pageNumber : '' }`
 	template_image: "photography"
 
-_body:
-`<h1 class="section" data-pagefind-ignore>Photography</h1>
+	_body: `
+		<h1 class="section" data-pagefind-ignore>Photography</h1>
 
-<div data-pagefind-ignore>
-	<div id="photography">
-		${ Tree.map(paginated_photography.items, (item, key) => `
-			<a class="photo" href="/photography/${ Origami.basename(key) }">
-				<img src="${ item.image }?q=60&w=1500" alt="${ item.alt_text }" loading="lazy">
-			</a>
-		`)}
-	</div>
+		<div data-pagefind-ignore>
+			<div id="photography">
+				${ Tree.map(paginated_photography.items, (item, key) => `
+					<a class="photo" href="/photography/${ Origami.basename(key) }">
+						<img src="${ item.image }?q=60&w=1500" alt="${ item.alt_text }" loading="lazy">
+					</a>
+				`)}
+			</div>
 
-	<div class="pagination">
-		${ paginated_photography.previousPage ? `<a href="/photography/${ paginated_photography.previousPage === 1 ? '' : paginated_photography.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-		<p>Page ${ paginated_photography.pageNumber } of ${ paginated_photography.pageCount }</p>
-		${ paginated_photography.nextPage ? `<a href="/photography/${ paginated_photography.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
-	</div>
-</div>`})
+			<div class="pagination">
+				${ paginated_photography.previousPage ? `<a href="/photography/${ paginated_photography.previousPage === 1 ? '' : paginated_photography.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
+				<p>Page ${ paginated_photography.pageNumber } of ${ paginated_photography.pageCount }</p>
+				${ paginated_photography.nextPage ? `<a href="/photography/${ paginated_photography.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
+			</div>
+		</div>
+	`
+})

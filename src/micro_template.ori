@@ -7,42 +7,42 @@
 	canonical: `/micros/${ micro.file_name }`
 	template_image: "micro"
 
-_body: `
-<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Micros</span>
+	_body: `
+		<span class="section" data-pagefind-filter="Content Type" data-pagefind-ignore aria-hidden="true">Micros</span>
 
-<article class="h-entry">
-	<header data-pagefind-ignore>
-		<h1><time datetime="${ micro.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro.pub_time) }, ${ functions/pretty-time.js(micro.pub_time) }</time>${ micro.title ? ` - ${ micro.title }` : '' }</h1>
+		<article class="h-entry">
+			<header data-pagefind-ignore>
+				<h1><time datetime="${ micro.pub_time }" class="dt-published" title="Date of first publication." data-pagefind-meta="title">${ functions/pretty-date.js(micro.pub_time) }, ${ functions/pretty-time.js(micro.pub_time) }</time>${ micro.title ? ` - ${ micro.title }` : '' }</h1>
 
-		<div class="socials">
-			${ micro.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ micro.fedi_link }" title="Fediverse" rel="syndication" class="u-syndication">${ (icons.yaml).fediverse }</a>` : '' }
-			${ micro.bsky_link ? `<a href="https://bsky.app/profile/${ micro.bsky_link }" title="Bluesky" rel="syndication" class="u-syndication">${ (icons.yaml).bluesky }</a>` : '' }
-			${ micro.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ micro.linkedin_link }" title="LinkedIn" rel="syndication" class="u-syndication">${ (icons.yaml).linkedin }</a>` : '' }
-			${ micro.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ micro.lesswrong_link }" title="LessWrong" rel="syndication" class="u-syndication">${ (icons.yaml).lesswrong }</a>` : '' }
-		</div>
-	</header>
+				<div class="socials">
+					${ micro.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ micro.fedi_link }" title="Fediverse" rel="syndication" class="u-syndication">${ (icons.yaml).fediverse }</a>` : '' }
+					${ micro.bsky_link ? `<a href="https://bsky.app/profile/${ micro.bsky_link }" title="Bluesky" rel="syndication" class="u-syndication">${ (icons.yaml).bluesky }</a>` : '' }
+					${ micro.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ micro.linkedin_link }" title="LinkedIn" rel="syndication" class="u-syndication">${ (icons.yaml).linkedin }</a>` : '' }
+					${ micro.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ micro.lesswrong_link }" title="LessWrong" rel="syndication" class="u-syndication">${ (icons.yaml).lesswrong }</a>` : '' }
+				</div>
+			</header>
 
-	<div class="micro-content">
-		<aside class="socials" data-pagefind-ignore>
-			${ micro.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ micro.fedi_link }" title="Fediverse">${ (icons.yaml).fediverse } View on the Fediverse</a>` : '' }
-			${ micro.bsky_link ? `<a href="https://bsky.app/profile/${ micro.bsky_link }" title="Bluesky">${ (icons.yaml).bluesky } View on Bluesky</a>` : '' }
-			${ micro.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ micro.linkedin_link }" title="LinkedIn">${ (icons.yaml).linkedin } View on LinkedIn</a>` : '' }
-			${ micro.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ micro.lesswrong_link }" title="LessWrong">${ (icons.yaml).lesswrong } View on LessWrong</a>` : '' }
-		</aside>
+			<div class="micro-content">
+				<aside class="socials" data-pagefind-ignore>
+					${ micro.fedi_link ? `<a href="https://fedi.vale.rocks/notice/${ micro.fedi_link }" title="Fediverse">${ (icons.yaml).fediverse } View on the Fediverse</a>` : '' }
+					${ micro.bsky_link ? `<a href="https://bsky.app/profile/${ micro.bsky_link }" title="Bluesky">${ (icons.yaml).bluesky } View on Bluesky</a>` : '' }
+					${ micro.linkedin_link ? `<a href="https://www.linkedin.com/posts/${ micro.linkedin_link }" title="LinkedIn">${ (icons.yaml).linkedin } View on LinkedIn</a>` : '' }
+					${ micro.lesswrong_link ? `<a href="https://www.lesswrong.com/posts/${ micro.lesswrong_link }" title="LessWrong">${ (icons.yaml).lesswrong } View on LessWrong</a>` : '' }
+				</aside>
 
-		<div class="readable e-content">
-			${ micro._body }
+				<div class="readable e-content">
+					${ micro._body }
 
-			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-				${ micro.tags ? micro.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
-			</ul>
+					<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+						${ micro.tags ? micro.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
+					</ul>
 
-			<div id="fetched-social-data"></div>
-		</div>
-	</div>
-</article>
+					<div id="fetched-social-data"></div>
+				</div>
+			</div>
+		</article>
 
-<script defer src="/assets/scripts/comments-fetcher.js"></script>
-<script defer src="/assets/scripts/copy-maths.js"></script>
-`
+		<script defer src="/assets/scripts/comments-fetcher.js"></script>
+		<script defer src="/assets/scripts/copy-maths.js"></script>
+	`
 })

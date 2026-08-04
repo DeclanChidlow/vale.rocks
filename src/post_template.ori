@@ -11,49 +11,50 @@
 	canonical: `/posts/${ post.file_name }`
 	template_image: "post"
 
-_body:
-`<style>:root{--header_background: var(--magenta)}</style>
+	_body: `
+		<style>:root{--header_background: var(--magenta)}</style>
 
-<span class="sidebar" data-pagefind-ignore>
-	<span class="section" data-pagefind-filter="Content Type" aria-hidden="true">Posts</span>
-	<div id="scroll-container">
-		<div id="indicator"></div>
-	</div>
-</span>
+		<span class="sidebar" data-pagefind-ignore>
+			<span class="section" data-pagefind-filter="Content Type" aria-hidden="true">Posts</span>
+			<div id="scroll-container">
+				<div id="indicator"></div>
+			</div>
+		</span>
 
-<div class="article-wrapper">
-	<article class="h-entry">
-		<header data-pagefind-ignore>
-			<p>${ post.section }</p>
-			<h1 class="p-name">${ post.title }</h1>
-			<ul class="stats">
-				<li>${ post.words } words</li>
-				<li>
-				  <time class="dt-published" datetime="${ post.pub_time }" title="Date of first publication." data-timezone-ignore>${ functions/pretty-date.js(post.pub_time) }</time>
-				  ${ post.mod_time ? `– <time class="dt-updated" datetime="${ post.mod_time }" title="Date of last notable modification." data-timezone-ignore>${ functions/pretty-date.js(post.mod_time) }</time>` : '' }
-        </li>
-			</ul>
+		<div class="article-wrapper">
+			<article class="h-entry">
+				<header data-pagefind-ignore>
+					<p>${ post.section }</p>
+					<h1 class="p-name">${ post.title }</h1>
+					<ul class="stats">
+						<li>${ post.words } words</li>
+						<li>
+							<time class="dt-published" datetime="${ post.pub_time }" title="Date of first publication." data-timezone-ignore>${ functions/pretty-date.js(post.pub_time) }</time>
+							${ post.mod_time ? `– <time class="dt-updated" datetime="${ post.mod_time }" title="Date of last notable modification." data-timezone-ignore>${ functions/pretty-date.js(post.mod_time) }</time>` : '' }
+						</li>
+					</ul>
 
-			<ul class="tags" aria-label="Tags" data-pagefind-ignore>
-				${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
-			</ul>
-		</header>
+					<ul class="tags" aria-label="Tags" data-pagefind-ignore>
+						${ post.tags ? post.tags.map(tag => `<li data-pagefind-filter="tags" class="p-category"><a href="/tags/${ Origami.slug(tag) }">#${ tag }</a></li>`) : '' }
+					</ul>
+				</header>
 
-		<div class="readable e-content">
-			${ post._body }
+				<div class="readable e-content">
+					${ post._body }
+				</div>
+			</article>
+
+			<section data-pagefind-ignore="all" class="readable support">
+				<h2>Support Me</h2>
+				<p>Did you gain something from reading this post? Consider chipping in to support me financially via a one-off or recurring payment. It'll go a long way in helping me publish more and develop open-source projects. <em>Thank you!</em></p>
+				<a href="/support">Support</a>
+			</section>
 		</div>
-	</article>
 
-	<section data-pagefind-ignore="all" class="readable support">
-		<h2>Support Me</h2>
-		<p>Did you gain something from reading this post? Consider chipping in to support me financially via a one-off or recurring payment. It'll go a long way in helping me publish more and develop open-source projects. <em>Thank you!</em></p>
-		<a href="/support">Support</a>
-	</section>
-</div>
-
-<script defer src="/assets/scripts/footnotes.js"></script>
-<script defer src="/assets/scripts/figures.js"></script>
-<script defer src='/assets/scripts/scroll-indicator.js'></script>
-<script defer src='/assets/scripts/copy-codeblock.js'></script>
-<script defer src='/assets/scripts/copy-maths.js'></script>
-`})
+		<script defer src="/assets/scripts/footnotes.js"></script>
+		<script defer src="/assets/scripts/figures.js"></script>
+		<script defer src='/assets/scripts/scroll-indicator.js'></script>
+		<script defer src='/assets/scripts/copy-codeblock.js'></script>
+		<script defer src='/assets/scripts/copy-maths.js'></script>
+	`
+})
