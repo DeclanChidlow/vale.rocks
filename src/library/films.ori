@@ -48,7 +48,7 @@
 						${ film.rating ? `<p class="star-rating" data-rating="${ film.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(film.rating) }</p>` : '' }
 						${ film.notes ? `
 							<details>
-								<summary data-pagefind-ignore>Notes</summary>
+								<summary data-pagefind-ignore>Notes${ film.spoiler ? ' (Spoilers)' : '' }</summary>
 								<p>${ film.notes }</p>
 							</details>
 						` : '' }

@@ -19,9 +19,9 @@ Escaping markdown can be done with \*some slashes\* (like so `\*some slashes\*`)
 
 Normal text. _Italic text._ **Bold text.** **_Bold italic text._** ~~Strikethrough text.~~ ~~_Italic strikethrough text._~~ ~~**Bold strikethrough text.**~~ ~~**_Bold italic strikethrough text._**~~ `Code text.` _`Code italic text.`_ **`Code bold text.`** **_`Code bold italic text.`_** ~~`Code strikethrough text.`~~ ~~**_`Code bold italic strikethrough text.`_**~~
 
-Normal superscript<sup>sup</sup>. Normal subscript<sub>sub</sub>. _Italic superscript<sup>sup</sup>_. _Italic subscript<sub>sub</sub>._ **Bold superscript<sup>sup</sup>**. **Bold subscript<sub>sub</sub>.** **_Bold italic superscript<sup>sup</sup>_**. **_Bold italic subscript<sub>sub</sub>._** ~~Strikethrough superscript<sup>sub</sup>.~~ ~~Strikethrough subscript<sub>sub</sub>.~~ ~~**_Bold italic strikethrough superscript<sup>sup</sup>_**~~. ~~**_Bold italic strikethrough subscript<sub>sub</sub>._**~~
+Normal superscript^sup^. Normal subscript^sub^. _Italic superscript^sup^_. _Italic subscript^sub^._ **Bold superscript^sup^**. **Bold subscript^sub^.** **_Bold italic superscript^sup^_**. **_Bold italic subscript^sub^._** ~~Strikethrough superscript^sub^.~~ ~~Strikethrough subscript^sub^.~~ ~~**_Bold italic strikethrough superscript^sup^_**~~. ~~**_Bold italic strikethrough subscript~sub~._**~~
 
-Superscript and subscript together<sup>sup</sup><sub>sub</sub>.
+Superscript and subscript together^sup^~sub~.
 
 You can define structure with <abbr title="Hypertext Markup Language">HTML</abbr> and then style it with <abbr title="Cascading Style Sheet">CSS</abbr>. You can do more interactive stuff with <abbr title="JavaScript">JS</abbr>.
 
@@ -95,11 +95,11 @@ Knowledge should be free, and here it is. Free for it is built by those who wish
 
 ### Links
 
-[Normal internal link](https://vale.rocks). [`Code internal link`](https://vale.rocks). [~~**_Bold italic strikethrough subscript internal link<sub>sub</sub>_**~~](https://vale.rocks). [~~**_Bold italic strikethrough superscript external link<sup>sup</sup>_**~~](https://vale.rocks).
+[Normal internal link](https://vale.rocks). [`Code internal link`](https://vale.rocks). [~~**_Bold italic strikethrough subscript internal link^sub^_**~~](https://vale.rocks). [~~**_Bold italic strikethrough superscript external link^sup^_**~~](https://vale.rocks).
 
-[Anchor link](#main). [`Code anchor link`](#main). [~~**_Bold italic strikethrough subscript anchor link<sub>sub</sub>_**~~](#main). [~~**_Bold italic strikethrough superscript external link<sup>sup</sup>_**~~](#main).
+[Anchor link](#main). [`Code anchor link`](#main). [~~**_Bold italic strikethrough subscript anchor link^sub^_**~~](#main). [~~**_Bold italic strikethrough superscript external link^sup^_**~~](#main).
 
-[External link](https://zombo.com). [`Code external link`](https://zombo.com). [~~**_Bold italic strikethrough subscript external link<sub>sub</sub>_**~~](https://zombo.com). [~~**_Bold italic strikethrough superscript external link<sup>sup</sup>_**~~](https://zombo.com).
+[External link](https://zombo.com). [`Code external link`](https://zombo.com). [~~**_Bold italic strikethrough subscript external link^sub^_**~~](https://zombo.com). [~~**_Bold italic strikethrough superscript external link^sup^_**~~](https://zombo.com).
 
 Here is an abbreviation with a link: [<abbr title="Abreviation Meaning">AM</abbr>](https://vale.rocks).
 

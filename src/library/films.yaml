@@ -91,7 +91,7 @@
 - title: Moonage Daydream
   release_year: 2022
   rating: 4
-  notes: I find this film, as I do Bowie more generally, incredibly inspiring. I regret not watching it in cinema.
+  notes: I find this film, as I do Bowie more generally, incredibly inspiring. I regret not watching it during its theatrical run.
   watches:
     - date: 2025-03-14
       format: Streaming
@@ -140,7 +140,8 @@
   release_year: 2019
   watches:
     - date: 2026-02-10
-      format: Streaming
+      format: Free-to-air
+      notes: Shout out to SBS World Movies for playing such varied films.
 - title: "Spider-Man: Far From Home"
   release_year: 2019
 - title: Jojo Rabbit
@@ -212,6 +213,7 @@
   watches:
     - date: 2017
       format: Cinema
+      notes: Watched as part of a friend's birthday party. I would not view this film of my own volition.
 - title: "Spider-Man: Homecoming"
   release_year: 2017
   watches:
@@ -302,6 +304,8 @@
   release_year: 2015
 - title: Inside Out
   release_year: 2015
+  spoiler: true
+  notes: Bing Bong's fading was a punch to the feels.
 - title: Big Hero 6
   release_year: 2015
   watches:
@@ -448,6 +452,8 @@
   release_year: 2011
 - title: Harry Potter and the Deathly Hallows - Part 2
   release_year: 2011
+  spoiler: true
+  notes: Voldemort's death in which he flakes away is disappointing and completely misses the symbolism of the book where, despite spending his mortal life persuing immortality, he slumps down and dies the death of any moral man.
 - title: Gnomeo & Juliet
   release_year: 2011
 - title: Scooby-Doo! Camp Scare
@@ -524,6 +530,7 @@
   release_year: 2008
 - title: The Oasis
   release_year: 2008
+  notes: School mandated viewing.
 - title: WALL-E
   release_year: 2008
 - title: "The Pirates Who Don't Do Anything: A VeggieTales Movie"
@@ -665,6 +672,7 @@
   notes: The body horror of a man's physicality disobeying his mind played off for laughs. Owned on a scratched ex-video-store DVD, such that at the climax of the film, when French Stewart breaks the fourth wall and says, 'Here comes the good part', it would cease playing and never recover.
 - title: Cat In The Hat
   release_year: 2003
+  notes: I cannot believe how much of this film went over my head as a child.
 - title: School of Rock
   release_year: 2003
 - title: Finding Nemo
@@ -778,6 +786,7 @@
   release_year: 1999
 - title: Scooby-Doo on Zombie Island
   release_year: 1998
+  notes: Of all the animated Scooby-Doo films, this is one of the darkest and best put together. I love the style of it.
 - title: A Bug's Life
   release_year: 1998
 - title: The Truman Show
@@ -891,7 +900,7 @@
   watches:
     - date: 2017
       format: Streaming
-      notes: Watched at a caravan park in North West Australia on the old family laptop. Quite an audience gathered.
+      notes: Watched at a caravan park in northern Western Australia on the old family laptop. Quite an audience gathered.
 - title: "Naked Gun 2½: The Smell of Fear"
   release_year: 1991
   notes: Funny, but inferior to previous Naked Gun films.

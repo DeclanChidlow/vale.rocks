@@ -58,7 +58,7 @@
 					${ game.rating ? `<p class="star-rating" data-rating="${ game.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(game.rating) }</p>` : '' }
 					${ game.notes ? `
 						<details>
-							<summary data-pagefind-ignore>Notes</summary>
+							<summary data-pagefind-ignore>Notes${ game.spoiler ? ' (Spoilers)' : '' }</summary>
 							<p>${ game.notes }</p>
 						</details>
 					` : '' }

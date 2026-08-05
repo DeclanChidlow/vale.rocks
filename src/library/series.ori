@@ -50,7 +50,7 @@
 					${ series.part_watched ? `<small>Sporadically viewed.</small>` : '' }
 					${ series.notes ? `
 						<details>
-							<summary data-pagefind-ignore>Notes</summary>
+							<summary data-pagefind-ignore>Notes${ series.spoiler ? ' (Spoilers)' : '' }</summary>
 							<p>${ series.notes }</p>
 						</details>
 					` : '' }

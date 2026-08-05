@@ -46,12 +46,12 @@
 						<h2>${ book.title } <span data-pagefind-ignore>(${ book.release_year })</span></h2>
 						<p class="authors">${ book.authors }</p>
 						${ book.rating ? `<p class="star-rating" data-rating="${ book.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(book.rating) }</p>` : '' }
-						${ book.notes ? `
-							<details>
-								<summary data-pagefind-ignore>Notes</summary>
-								<p>${ book.notes }</p>
-							</details>
-						` : '' }
+					${ book.notes ? `
+						<details>
+							<summary data-pagefind-ignore>Notes${ book.spoiler ? ' (Spoilers)' : '' }</summary>
+							<p>${ book.notes }</p>
+						</details>
+					` : '' }
 						${ book.reads ? `
 							<details data-pagefind-ignore>
 								<summary>Reads</summary>

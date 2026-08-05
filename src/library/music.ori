@@ -40,7 +40,7 @@
 						<p class="artists">${ album.artists }</p>
 						${ album.notes ? `
 							<details>
-								<summary data-pagefind-ignore>Notes</summary>
+								<summary data-pagefind-ignore>Notes${ album.spoiler ? ' (Spoilers)' : '' }</summary>
 								<p>${ album.notes }</p>
 							</details>
 						` : '' }
