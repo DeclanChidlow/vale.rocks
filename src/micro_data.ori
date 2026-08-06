@@ -1,4 +1,4 @@
-micros
+functions/validate-schema.js(micro-schema.yaml)(micros)
 → (_) => Tree.map(_, (micro, fileName) => {
 	...micro
 	type: "micro"

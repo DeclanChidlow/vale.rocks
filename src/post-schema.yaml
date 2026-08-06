@@ -1,0 +1,53 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Post
+type: object
+patternProperties:
+  "\\.md$":
+    type: object
+    required:
+      - title
+      - description
+      - og_description
+      - pub_time
+      - section
+      - standardsite_rkey
+      - _body
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        minLength: 1
+        description: Title of the post.
+      description:
+        type: string
+        minLength: 1
+        description: Long description.
+      og_description:
+        type: string
+        description: Short description.
+      pub_time:
+        type: string
+        format: date
+        description: Publication date.
+      mod_time:
+        type: string
+        format: date
+        description: Last modified date.
+      section:
+        type: string
+        description: Category the post belongs to.
+      tags:
+        type: array
+        items:
+          type: string
+        description: List of tags for the post.
+      standardsite_rkey:
+        type: string
+        description: AT Protocol record key for StandardSite.
+      site_recommended:
+        type: boolean
+        description: Whether the post is best viewed on Vale.Rocks.
+      _body:
+        type: string
+        description: Content of the post.
+additionalProperties: false

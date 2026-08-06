@@ -1,0 +1,44 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Video
+type: object
+patternProperties:
+  "\\.md$":
+    type: object
+    required:
+      - title
+      - description
+      - pub_time
+      - format
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        description: Title of the video.
+      youtube_id:
+        type: string
+        description: YouTube video ID.
+      description:
+        type: string
+        description: Description of the video.
+      pub_time:
+        type: string
+        format: date
+        description: Publication date.
+      format:
+        type: string
+        enum:
+          - short
+          - long
+        description: Format of the video.
+      tags:
+        type: array
+        items:
+          type: string
+        description: List of tags for the video.
+      transcript_html:
+        type: string
+        description: HTML transcript with timestamp spans.
+      _body:
+        type: string
+        description: Details of the video.
+additionalProperties: false

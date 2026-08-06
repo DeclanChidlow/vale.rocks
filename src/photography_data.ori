@@ -1,4 +1,4 @@
-photography
+functions/validate-schema.js(photography-schema.yaml)(photography)
 → (_) => Tree.map(_, (photo, fileName) => {
 	...photo
 	type: "photo"

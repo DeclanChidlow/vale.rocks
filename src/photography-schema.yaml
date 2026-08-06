@@ -1,0 +1,52 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Photography
+type: object
+patternProperties:
+  "\\.md$":
+    type: object
+    required:
+      - image
+      - description
+      - alt_text
+      - pub_time
+    additionalProperties: false
+    properties:
+      image:
+        type: string
+        description: URL of the image file.
+      unsplash_link:
+        type: string
+        description: Link to the Unsplash page.
+      description:
+        type: string
+        description: Short description of the photo.
+      alt_text:
+        type: string
+        description: Full alternative text for the image.
+      pub_time:
+        type: string
+        format: date
+        description: Publication date.
+      location:
+        type: string
+        description: Where the photo was taken.
+      camera:
+        type: string
+        minLength: 1
+        description: Camera model used.
+      focal:
+        type: string
+        description: Focal length of the lens.
+      aperture:
+        type: number
+        description: Aperture value.
+      shutter:
+        type: string
+        description: Shutter speed.
+      iso:
+        type: integer
+        description: ISO setting.
+      _body:
+        type: string
+        description: Details of the photograph.
+additionalProperties: false

@@ -1,4 +1,4 @@
-posts
+functions/validate-schema.js(post-schema.yaml)(posts)
 → (_) => Tree.map(_, (post, fileName, _body) => {
 	...post
 	type: "post"

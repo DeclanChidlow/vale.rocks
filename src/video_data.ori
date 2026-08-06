@@ -1,4 +1,4 @@
-videos
+functions/validate-schema.js(video-schema.yaml)(videos)
 → (_) => Tree.map(_, (video, fileName) => {
 	...video
 	type: "video"

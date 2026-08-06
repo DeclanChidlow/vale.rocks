@@ -1,0 +1,43 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Portfolio
+type: object
+patternProperties:
+  "\\.md$":
+    type: object
+    required:
+      - title
+      - description
+      - og_description
+      - _body
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        minLength: 1
+        description: Title of the project.
+      description:
+        type: string
+        minLength: 1
+        description: Long description.
+      og_description:
+        type: string
+        description: Short description.
+      tags:
+        type: array
+        items:
+          type: string
+        description: List of tags for the project.
+      accent_colour:
+        type: string
+        pattern: "^#[0-9a-fA-F]{6}$"
+        description: Hex accent colour for theming.
+      repository:
+        type: string
+        description: Repository of the project.
+      hoisted:
+        type: integer
+        description: Sort priority for featured projects.
+      _body:
+        type: string
+        description: Content of the project details.
+additionalProperties: false

@@ -1,0 +1,35 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Pulse
+type: object
+patternProperties:
+  "\\.md$":
+    type: object
+    required:
+      - title
+      - description
+      - og_description
+      - pub_time
+      - svg_year
+      - _body
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        description: Title of the annual recap.
+      description:
+        type: string
+        description: Long description.
+      og_description:
+        type: string
+        description: Short description.
+      pub_time:
+        type: string
+        format: date
+        description: Publication date.
+      svg_year:
+        type: string
+        description: SVG markup for the styled year numeral.
+      _body:
+        type: string
+        description: Content of the pulse.
+additionalProperties: false

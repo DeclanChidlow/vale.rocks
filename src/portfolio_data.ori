@@ -1,4 +1,4 @@
-portfolio
+functions/validate-schema.js(portfolio-schema.yaml)(portfolio)
 → (_) => Tree.map(_, (portfolio, fileName) => {
 	...portfolio
 	file_name: Origami.basename(fileName)

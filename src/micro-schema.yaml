@@ -1,0 +1,38 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Micro
+type: object
+patternProperties:
+  "\\.md$":
+    type: object
+    required:
+      - _body
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        description: Title for the micro post.
+      description:
+        type: string
+        description: Description for the micro post.
+      fedi_link:
+        type: string
+        minLength: 1
+        description: Fediverse post ID.
+      bsky_link:
+        type: string
+        description: Bluesky user handle and post ID.
+      linkedin_link:
+        type: string
+        description: LinkedIn post ID.
+      lesswrong_link:
+        type: string
+        description: LessWrong link.
+      tags:
+        type: array
+        items:
+          type: string
+        description: List of tags for the micro post.
+      _body:
+        type: string
+        description: Content of the micro post.
+additionalProperties: false
