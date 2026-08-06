@@ -1,0 +1,21 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Demos
+type: array
+items:
+  type: object
+  required:
+    - title
+    - codepen_slug
+    - pub_time
+  properties:
+    title:
+      type: string
+      description: Title of the demo.
+    codepen_slug:
+      type: string
+      description: Slug for the CodePen item.
+    pub_time:
+      type: string
+      format: date
+      description: Publication date formatted as YYYY-MM-DD.
+  additionalProperties: false

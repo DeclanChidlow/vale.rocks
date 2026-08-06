@@ -1,0 +1,56 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Books
+type: array
+items:
+  type: object
+  required:
+    - title
+    - release_year
+    - authors
+  additionalProperties: false
+  properties:
+    title:
+      type: string
+      description: The title of the book.
+    release_year:
+      type: integer
+      description: The year the book was originally released.
+    authors:
+      type: string
+      description: The writer.
+    rating:
+      type: number
+      description: A personal rating for the book.
+      minimum: 0
+      maximum: 5
+    notes:
+      type: string
+      description: Personal notes, memories, or HTML links related to the book.
+    reads:
+      type: array
+      description: A list of logged reads of the book.
+      items:
+        type: object
+        additionalProperties: false
+        properties:
+          start:
+            anyOf:
+              - format: date # YYYY-MM-DD
+              - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+              - pattern: '^\d{4}$' # YYYY
+            description: The start date of the read.
+          finish:
+            anyOf:
+              - format: date # YYYY-MM-DD
+              - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+              - pattern: '^\d{4}$' # YYYY
+            description: The finish date of the read.
+          status:
+            type: string
+            enum:
+              - Read
+              - Did Not Finish
+            description: Whether the book was read or left unfinished.
+          notes:
+            type: string
+            description: Notes specific to this particular read.

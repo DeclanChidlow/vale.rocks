@@ -1,0 +1,16 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Tag Data
+type: object
+additionalProperties:
+  type: object
+  required:
+    - short_description
+    - description
+  properties:
+    short_description:
+      type: string
+      description: Concise overview.
+    description:
+      type: string
+      description: Detailed explanation of the topic.
+  additionalProperties: false

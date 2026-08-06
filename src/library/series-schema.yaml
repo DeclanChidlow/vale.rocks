@@ -1,0 +1,61 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Series
+type: array
+items:
+  type: object
+  required:
+    - title
+    - release_year
+  additionalProperties: false
+  properties:
+    title:
+      type: string
+      description: The title of the series.
+    release_year:
+      type: integer
+      description: The year the series was originally released.
+    rating:
+      type: number
+      description: A personal rating for the series.
+      minimum: 0
+      maximum: 5
+    notes:
+      type: string
+      description: Analysis, more detailed reviews, and other free-form text associated with the series.
+    seasons:
+      type: array
+      description: A list of watched seasons of the series.
+      items:
+        type: object
+        required:
+          - number
+        additionalProperties: false
+        properties:
+          number:
+            type: integer
+            description: The season number.
+          watches:
+            type: array
+            description: A history of dates when this season was watched.
+            items:
+              type: object
+              required:
+                - start
+                - finish
+              additionalProperties: false
+              properties:
+                start:
+                  anyOf:
+                    - format: date # YYYY-MM-DD
+                    - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+                    - pattern: '^\d{4}$' # YYYY
+                  description: The start date of the season watch through.
+                finish:
+                  anyOf:
+                    - format: date # YYYY-MM-DD
+                    - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+                    - pattern: '^\d{4}$' # YYYY
+                  description: The finish date of the season watch through.
+                notes:
+                  type: string
+                  description: Notes specific to this particular season.

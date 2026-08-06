@@ -1,0 +1,53 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Games
+type: array
+items:
+  type: object
+  required:
+    - title
+    - release_year
+    - platforms
+  additionalProperties: false
+  properties:
+    title:
+      type: string
+      description: The title of the video game.
+    release_year:
+      type: integer
+      description: The year the game was originally released.
+    platforms:
+      type: array
+      description: The platforms on which I've played the game.
+      items:
+        type: string
+      minItems: 1
+    rating:
+      type: number
+      description: A personal rating for the game.
+      minimum: 0
+      maximum: 5
+    notes:
+      type: string
+      description: Analysis, more detailed reviews, and other free-form text associated with the game.
+    playthroughs:
+      type: array
+      description: A list of logged playthroughs of the game.
+      items:
+        type: object
+        additionalProperties: false
+        properties:
+          start:
+            anyOf:
+              - format: date # YYYY-MM-DD
+              - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+              - pattern: '^\d{4}$' # YYYY
+            description: The start date of the playthrough.
+          finish:
+            anyOf:
+              - format: date # YYYY-MM-DD
+              - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+              - pattern: '^\d{4}$' # YYYY
+            description: The finish date of the playthrough.
+          notes:
+            type: string
+            description: Notes specific to this particular playthrough.

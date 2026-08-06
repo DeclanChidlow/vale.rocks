@@ -1,3 +1,4 @@
+# $schema: tag-data-schema.yaml
 mac:
   short_description: Series of computers developed by Apple.
   description: Apple's Macintosh line of computers.

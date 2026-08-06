@@ -1,3 +1,4 @@
+# $schema: demo-data-schema.yaml
 - title: 3D Globe (No JavaScript)
   codepen_slug: ZYLeywa
   pub_time: 2026-06-20

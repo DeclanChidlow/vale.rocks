@@ -1,3 +1,4 @@
+# $schema: games-schema.yaml
 - title: "Halo: Campaign Evolved"
   release_year: 2026
   platforms: ["Xbox Series"]
@@ -147,7 +148,6 @@
   platforms: ["Nintendo Switch", "Xbox Series"]
 - title: Gang Beasts
   release_year: 2017
-  first_played: 2023-02-12
   platforms: ["Xbox Series"]
 - title: Iron Snout
   release_year: 2016
@@ -579,7 +579,7 @@
 - title: Roblox
   release_year: 2006
   platforms: ["PC", "iOS"]
-  notes: I started playing in 2016.
+  notes: "I started playing in mid-2016. The games I played the most or have the most memories associated with include: Natural Disaster Survival, Lumber Tycoon 2, Murder Mystery 2, Speed Run 4, Zombie Attack, Redwood Prison, Survive and Kill the Killers in Area 51, The Normal Elevator, MeepCity, Jailbreak, Doomspire Brickbattle, Elemental Battlegrounds, Build A Boat For Treasure, Whatever Floats your Boat, Welcome to Bloxburg, Broken Bones, Innovation Labs, Retail Tycoon, Polyguns, Flood Escape, Pirate Wars, and SharkBite. I also played so many obby and tycoon games whose details I cannot recall."
 - title: "Half-Life 2: Episode One"
   release_year: 2006
   platforms: ["PC"]

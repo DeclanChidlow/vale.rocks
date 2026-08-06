@@ -1,3 +1,4 @@
+# $schema: books-schema.yaml
 - title: Careless People
   release_year: 2025
   authors: Sarah Wynn-Williams
@@ -27,7 +28,6 @@
 - title: More Rules for Life
   release_year: 2021
   authors: Kitty Flanagan
-  last_date_read: 2022-01-22
   rating: 4
   reads:
     - finish: 2022-01-22

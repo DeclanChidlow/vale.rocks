@@ -1,0 +1,21 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Sign-Up Data
+type: array
+items:
+  type: object
+  required:
+    - title
+    - pub_time
+    - svg
+  properties:
+    title:
+      type: string
+      description: Name of the service.
+    pub_time:
+      type: string
+      format: date
+      description: Join date.
+    svg:
+      type: string
+      description: SVG markup or icon reference.
+  additionalProperties: false

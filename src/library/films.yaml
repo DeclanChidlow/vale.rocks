@@ -1,3 +1,4 @@
+# $schema: films-schema.yaml
 - title: Project Hail Mary
   release_year: 2026
   rating: 4
@@ -87,7 +88,7 @@
   release_year: 2022
   watches:
     - date: 2023-04
-      format: Television
+      format: Free-to-air
 - title: Moonage Daydream
   release_year: 2022
   rating: 4

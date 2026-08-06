@@ -1,0 +1,28 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Testimonials
+type: array
+description: A list of client testimonials or entity endorsements.
+items:
+  type: object
+  required:
+    - entity
+    - description
+    - website
+    - quote
+  properties:
+    entity:
+      type: string
+      description: The name of the person or organisation giving the quote.
+    description:
+      type: string
+      description: The title or short bio of the entity.
+    website:
+      type: string
+      description: The web address or profile link associated with the entity.
+    image-y:
+      type: string
+      description: CSS background alignment offset
+    quote:
+      type: string
+      description: The endorsement or testimonial text.
+  additionalProperties: false

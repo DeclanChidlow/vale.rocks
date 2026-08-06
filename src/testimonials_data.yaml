@@ -1,3 +1,4 @@
+# $schema: testimonals-data-schema.yaml
 - entity: Sam Rose
   description: "Visual Essayist & Developer Educator"
   website: samwho.dev

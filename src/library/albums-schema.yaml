@@ -1,0 +1,23 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Albums
+type: array
+items:
+  type: object
+  required:
+    - title
+    - release_year
+    - artists
+  additionalProperties: false
+  properties:
+    title:
+      type: string
+      description: The title of the album.
+    release_year:
+      type: integer
+      description: The year the album was originally released.
+    artists:
+      type: string
+      description: The performing artist or band.
+    notes:
+      type: string
+      description: Analysis, more detailed reviews, and other free-form text associated with the album.

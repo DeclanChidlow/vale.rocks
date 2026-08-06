@@ -1,0 +1,53 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: Films
+type: array
+items:
+  type: object
+  required:
+    - title
+    - release_year
+  additionalProperties: false
+  properties:
+    title:
+      type: string
+      description: The title of the film.
+    release_year:
+      type: integer
+      description: The year the film was originally released.
+    rating:
+      type: number
+      description: A personal rating for the film.
+      minimum: 0
+      maximum: 5
+    spoiler:
+      type: boolean
+      description: If the notes contain a spoiler.
+    notes:
+      type: string
+      description: Analysis, more detailed reviews, and other free-form text associated with the film.
+    watches:
+      type: array
+      description: A list of logged watches of the film.
+      items:
+        type: object
+        additionalProperties: false
+        properties:
+          date:
+            anyOf:
+              - format: date # YYYY-MM-DD
+              - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+              - pattern: '^\d{4}$' # YYYY
+            description: The date the watch occurred.
+          format:
+            type: string
+            enum:
+              - Streaming
+              - Theatre
+              - Cinema
+              - Drive-In Cinema
+              - Free-to-air
+              - Plane
+            description: How the film was viewed.
+          notes:
+            type: string
+            description: Notes specific to this particular viewing.
