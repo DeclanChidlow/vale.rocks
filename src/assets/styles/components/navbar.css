@@ -261,6 +261,9 @@
 }
 
 .heading-label {
+	background: linear-gradient(to bottom, transparent, light-dark(var(--bright_white), var(--black)) 0.5rem);
+	margin-block-start: -0.6rem;
+	padding-block-start: 0.6rem;
 	opacity: 0;
 	visibility: hidden;
 	transition:
@@ -273,7 +276,7 @@
 	display: block;
 	inline-size: 8rem;
 	margin-inline-start: 1rem;
-	line-height: 1.1;
+	line-height: 1;
 	font-size: 0.8rem;
 	visibility: hidden;
 	opacity: 0;
@@ -327,9 +330,7 @@
 		inset-block-start: 1rem;
 		inset-inline-end: 1rem;
 		background: oklch(from var(--grey) l c h / calc(alpha - 0.5));
-		backdrop-filter: blur(0.75rem);
 		padding: 0.1rem;
-		z-index: 1;
 
 		svg {
 			block-size: 1.75rem;

@@ -125,6 +125,12 @@ _Bag_
 
 There was green tea buried somewhere in my cup, but it was trapped under some nondescript, unpleasant harshness. It also very much dried out my tongue and throat in a way not dissimilar to having a sore throat while ill.
 
+### Green Rose - T2 (■■▪□□)
+
+_Loose Leaf_
+
+Very tropical aroma. Smelt like the currents, papaya, rose, and mango it is listed to contain. Tasted as it smells. Not particularly fruity, but very much 'tropical'.
+
 ### Mint Melody - VAHDAM (■■▪□□)
 
 _Bag_

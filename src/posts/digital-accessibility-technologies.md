@@ -3,7 +3,7 @@ title: Overview of Digital Accessibility Technologies
 description: A high-level compilation of various digital accessibility technologies and systems used by people with disabilities to facilitate computer use. Covering both output and input methods, from widely known technologies such as screen readers to lesser-known tools such as sip-and-puff devices.
 og_description: The vast sea of assistive tech.
 pub_time: 2026-06-01
-mod_time: 2026-06-02
+mod_time: 2026-08-08
 section: Essay
 tags: [accessibility]
 standardsite_rkey: 3mn7deasp3k2t
@@ -12,6 +12,8 @@ standardsite_rkey: 3mn7deasp3k2t
 There are a _great_ number of tools and devices out there designed to improve computer use for people with disabilities or even make computer use possible at all. We can consider them in two broad categories, input and output. Input methods send data provided by a user to a device, while output methods send information provided by a device to a user.
 
 This is a non-exhaustive list of these technologies for reference. Though I have attempted to be relatively comprehensive in covering usage, accessibility often necessitates varied usage and unique assembly of technologies, such that this post _does not_ and _will not_ cover every case.
+
+It should be kept front of mind that it is common for multiple technologies to be used in tandem, and that exact application of them varies by the individual case. Different people have different requirements, considerations, and preferences.
 
 ## Screen Readers
 
@@ -57,15 +59,17 @@ We are all familiar with the standard computer mouse, which is an input device o
 
 ## Mouth and Tongue Joysticks
 
-Positioned close to the mouth, similar to a sip-and-puff, mouth and tongue joysticks are input devices which rely on oral control of a joystick. A sip-and-puff machine is often integrated into the joystick for further input controls.
+Positioned close to the mouth, similar to a sip-and-puff, mouth and tongue joysticks are input devices which rely on oral control of a joystick. The joystick is mounted such that it is directly in front of the user's face, so it can be moved with their lips, tongue, or by jaw movement depending on the individual situation. A sip-and-puff machine is often integrated into the joystick for further input controls.
 
 In progressively-onset motor diseases, the mouth is often one of the last external body parts one retains control of. If the option for a joystick of this nature is available, people often find them especially desirable for motorised wheelchair movement.
 
 ## Tongue Drive
 
-Similar to but distinct from tongue joysticks, tongue drive systems are an input method which uses the movement of the tongue inside one's mouth using magnets. A magnet is attached to the tongue via either adhesive or a method similar to a cosmetic tongue piercing, and the position of this magnet is identified by a specialised dental retainer worn on the roof of the mouth.
+Tongue drive systems are an input method which uses the movement of the tongue inside one's mouth. Tongue drive systems commonly use a magnet attached to the tongue via either adhesive or a method similar to a cosmetic tongue piercing. The position of this magnet is then identified by a specialised dental retainer worn on the roof of the mouth and relayed to a computer.
 
-Tongue drive systems suited for applications similar to [sip-and-puff](#sip-and-puff) devices.
+This dental retainer approach is also used by newer tongue trackpad designs. A retainer is formed and worn on the roof of the mouth. It connects to a computer and allows trackpad-like input by moving the tip of one's tongue across the retainer's surface. Primary clicks can usually be done by pressing into the retainer, and a sip-and-puff approach is generally used for other actions such as secondary clicks.
+
+Tongue drive systems are most commonly used when control via extremities is infeasible.
 
 ## Chording Keyboard
 
