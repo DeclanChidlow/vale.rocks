@@ -1,12 +1,6 @@
 <div align="center">
 <h1>
   Vale.Rocks
-  
-  [![Stars](https://img.shields.io/github/stars/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/stargazers)
-  [![Forks](https://img.shields.io/github/forks/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/network/members)
-  [![Pull Requests](https://img.shields.io/github/issues-pr/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/pulls)
-  [![Issues](https://img.shields.io/github/issues/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/issues)
-  [![Contributors](https://img.shields.io/github/contributors/DeclanChidlow/vale.rocks?style=flat-square&logoColor=white)](https://github.com/DeclanChidlow/vale.rocks/graphs/contributors)
 </h1>
 Personal website of Declan Chidlow
 </div>

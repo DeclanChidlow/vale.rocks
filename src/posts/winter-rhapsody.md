@@ -21,10 +21,6 @@ Trees sway and swing under the wind's influence with threat of dropping limbs or
 
 The shingled roof changes palette in splotches -- like blotches of a brush in a work by Monet. I love watching as the rain begins and hits the roof shingles. At first it is just a few drops, and they hit and linger for a moment before being absorbed; then a few more come down, and they too are absorbed, but not completely before more hits. Before long, the rain has saturated the surface and begins to stream. It gains complexion, then a watery gloss. The world presented like ungraded photography.
 
-<figure class="right">
-<img src="https://images.unsplash.com/photo-1754006593593-2f7c33b1b105?q=80" alt="A dark grey shingled roof glossed by water with small patches of green moss growing.">
-</figure>
-
 While I may love watching shingled roofs change colour, I'd give it up in an instant for a tin roof under downpour. They don't dampen but instead reverberate, with each droplet being heard with the force of a thousand. It is bliss to hear the assault on windows and roof as it comes down in sheets of white.
 
 Rain hits different surfaces. I hear the white noise of it peppering the ground. Many drips, each slightly out of sync. I hear the grip of tires as they pull up water trying to find traction and the slosh of puddles as someone ventures through one. The howl of rushing wind and the whistles of it finding paths through confined spaces. I hear as rain turbulently tumbles through the downpipe, plummeting without precision. The reverberation of water cascading down pipes and the slow drips of the liquid left behind.

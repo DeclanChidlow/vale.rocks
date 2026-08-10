@@ -433,11 +433,6 @@ items:
     url: risingthumb.xyz
     rss: risingthumb.xyz/Writing/Blog/index.rss
     description: Software development and an assortment of ramblings.
-  - title: sizeof(cat)
-    url: sizeof.cat
-    rss: sizeof.cat/index.xml
-    atom: sizeof.cat/atom.xml
-    description: Security, privacy, vulnerabilities and exploits, retro computing, music, various programming languages, personal projects, and general other stuff.
   - title: jclahoot.com
     url: jclahoot.com
     description: A personal website with an extra dimension.

@@ -17,7 +17,7 @@
   url: int10h.org/oldschool-pc-fonts/
   description: Old crunchy PC fronts.
 - title: Device Info
-  url: deviceinfo.me
+  url: www.deviceinfo.me
   description: A web browser security testing, privacy testing, and troubleshooting tool.
 - title: css.glass
   url: css.glass
@@ -85,9 +85,6 @@
 - title: time.fyi
   url: time.fyi
   description: Time related tools to help you stay productive and organised.
-- title: RedditDB
-  url: redditdb.info
-  description: Shows the time when subreddits are most active.
 - title: magick.css
   url: css.winterveil.net
   description: Minimal CSS framework.
@@ -181,9 +178,6 @@
 - title: Free Music Archive
   url: freemusicarchive.org/home
   description: An archive of free music.
-- title: CopyPalette
-  url: copypalette.app
-  description: Create consistent monochromatic colour palettes.
 - title: LandChad.net
   url: landchad.net
   description: Information on how to get your own place on the internet.
