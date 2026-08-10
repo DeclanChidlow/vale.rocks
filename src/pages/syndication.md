@@ -105,6 +105,7 @@ You can find me on YouTube as [@outervale](https://www.youtube.com/@outervale). 
 ## Code
 
 My Tangled account has an Atom feed: <https://tangled.org/vale.rocks/feed.atom>
+My GitHub account also has an Atom feed: <http://github.com/DeclanChidlow.atom>
 
 ## Elsewhere
 

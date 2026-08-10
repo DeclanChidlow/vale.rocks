@@ -104,6 +104,10 @@ article {
 	max-inline-size: 10rem;
 }
 
+.now-update {
+	background: light-dark(oklch(from var(--grey) l c h / calc(alpha - 0.8)), var(--dark_grey));
+}
+
 .pulse {
 	background: var(--red);
 	color: var(--black);

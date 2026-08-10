@@ -144,9 +144,10 @@
       watches:
         - start: 2026-06-07
           finish: 2026-07-20
-    # - number: 2
-    #   watches:
-    #     - start: 2026-07-21
+    - number: 2
+      watches:
+        - start: 2026-07-21
+          finish: 2026-08-09
 - title: Dexter
   release_year: 2006
   rating: 4
@@ -301,39 +302,39 @@
     - number: 1
 - title: Get Smart!
   release_year: 1965
-  part_watched: true
+  sporadically_watched: true
 - title: Scooby-Doo! Mystery Incorporated
   release_year: 2010
-  part_watched: true
+  sporadically_watched: true
 - title: Brooklyn Nine-Nine
   release_year: 2013
-  part_watched: true
+  sporadically_watched: true
 - title: "Anthony Bourdain: Parts Unknown"
   release_year: 2013
-  part_watched: true
+  sporadically_watched: true
 - title: "Danganronpa: The Animation"
   release_year: 2013
   seasons:
     - number: 1
 - title: Yo Gabba Gabba!
   release_year: 2007
-  part_watched: true
+  sporadically_watched: true
 - title: LazyTown
   release_year: 2002
-  part_watched: true
+  sporadically_watched: true
 - title: Prank Patrol
   release_year: 2009
-  part_watched: true
+  sporadically_watched: true
 - title: Media Watch
   release_year: 1989
-  part_watched: true
+  sporadically_watched: true
 - title: "Good Game: Spawn Point"
   release_year: 2010
-  part_watched: true
+  sporadically_watched: true
 - title: Thomas & Friends
   release_year: 1984
-  part_watched: true
+  sporadically_watched: true
   notes: I had a crushing fear of Boulder from the episode <em>Rusty and the Boulder</em>.
 - title: The Twilight Zone
   release_year: 1959
-  part_watched: true
+  sporadically_watched: true

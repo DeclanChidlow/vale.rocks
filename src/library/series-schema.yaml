@@ -14,6 +14,9 @@ items:
     release_year:
       type: integer
       description: The year the series was originally released.
+    sporadically_watched:
+      type: boolean
+      description: If the series has been watched irregularly or in random instances.
     rating:
       type: number
       description: A personal rating for the series.
@@ -34,6 +37,9 @@ items:
           number:
             type: integer
             description: The season number.
+          notes:
+            type: string
+            description: Notes specific to this particular season.
           watches:
             type: array
             description: A history of dates when this season was watched.
@@ -56,6 +62,3 @@ items:
                     - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
                     - pattern: '^\d{4}$' # YYYY
                   description: The finish date of the season watch through.
-                notes:
-                  type: string
-                  description: Notes specific to this particular season.

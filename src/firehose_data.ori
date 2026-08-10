@@ -48,6 +48,15 @@
 	...Tree.map(micro_data.ori, {
 		key: (_, key) => `micros/${key}`
 	})
+
+	...Tree.map(now_data.ori, {
+		key: (_, key) => `now/${key}`
+		value: (now) => {
+			...now
+			pub_time: now.date_raw
+			type: "now-update"
+		}
+	})
 }
 → (_) => Tree.sort(_, (item) => item.pub_time)
 → Tree.reverse
