@@ -70,7 +70,7 @@
 
 		<div class="readable">
 			<strong>${ item.title }</strong>
-			<img src="https://shots.codepen.io/username/pen/${ item.codepen_slug }-800.jpg" alt="">
+			<img src="https://codepen.io/OuterVale/pen/${ item.codepen_slug }/image/large.png" alt="">
 		</div>
 	</article>
 `

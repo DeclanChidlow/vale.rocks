@@ -1,4 +1,7 @@
 # $schema: demo-data-schema.yaml
+- title: Blockquotes With The Cite Attribute
+  codepen_slug: 019ff953-590a-7af0-8d5d-d8c93c03b7ec
+  pub_time: 2026-08-13
 - title: 3D Globe (No JavaScript)
   codepen_slug: ZYLeywa
   pub_time: 2026-06-20
