@@ -148,6 +148,9 @@
       watches:
         - start: 2026-07-21
           finish: 2026-08-09
+    - number: "3: Children of Earth"
+      watches:
+        - start: 2026-08-14
 - title: Dexter
   release_year: 2006
   rating: 4
@@ -223,9 +226,9 @@
     - number: 3
     - number: 4
     - number: 5
-    - number: 6
-    - number: 7
-    - number: 8
+    - number: "6: Reconstruction"
+    - number: "7: Recreation"
+    - number: "8: Revelation"
     - number: 9
     - number: 10
     - number: 11
@@ -234,8 +237,8 @@
       notes: I consider season 13 to be the canonical conclusion of the series.
     - number: 14
     - number: 15
-    - number: 16
-    - number: 17
+    - number: "16: The Shisno Paradox"
+    - number: "17: Singularity"
 - title: Cowboy Bebop
   release_year: 1998
   rating: 4.5

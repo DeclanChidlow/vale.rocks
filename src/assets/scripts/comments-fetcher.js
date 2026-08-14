@@ -9,9 +9,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 	const failedSources = new Set();
 
 	class CommentNode {
-		constructor({ id, author, content, platform, url, timestamp, children = [], sources = [], isOwner = false, likes = 0 }) {
+		constructor({ id, author, authorId, content, platform, url, timestamp, children = [], sources = [], isOwner = false, likes = 0 }) {
 			this.id = id;
 			this.author = author;
+			this.authorId = authorId;
 			this.content = content;
 			this.platform = platform;
 			this.url = url;
@@ -24,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 
 	function renderBlueskyText(record) {
-		if (!record.facets || !record.facets.length) return record.text.replace(/\n/g, "<br>");
+		if (!record.facets || !record.facets.length) return record.text.replaceAll("\n", "<br>");
 
 		const text = record.text;
 		const encoder = new TextEncoder();
@@ -53,7 +54,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		}
 
 		html += decoder.decode(bytes.slice(lastIndex));
-		return html.replace(/\n/g, "<br>");
+		return html.replaceAll("\n", "<br>");
 	}
 
 	function normalise(htmlOrText) {
@@ -76,10 +77,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 	async function fetchAkkoma(url) {
 		try {
-			const idMatch = url.match(/\/(?:notice|statuses)\/([a-zA-Z0-9]+)/);
-			if (!idMatch) return null;
-			const postId = idMatch[1];
 			const urlObj = new URL(url);
+			const pathParts = urlObj.pathname.split("/").filter(Boolean);
+			const typeIndex = pathParts.findIndex((part) => part === "notice" || part === "statuses");
+
+			if (typeIndex === -1 || typeIndex >= pathParts.length - 1) return null;
+
+			const postId = pathParts[typeIndex + 1];
 			const apiBase = `${urlObj.origin}/api/v1/statuses/${postId}`;
 
 			const statusRes = await fetch(apiBase);
@@ -97,18 +101,24 @@ document.addEventListener("DOMContentLoaded", async () => {
 			descendants.forEach((d) => {
 				if (!d.content || !d.content.trim()) return;
 
-				let parsedContent = d.content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, '<a href="$1" target="_blank" rel="nofollow ugc noreferrer">[Attached Image]</a>');
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(d.content, "text/html");
 
-				parsedContent = parsedContent.replace(/<a\s+([^>]+)>/gi, (match, attrs) => {
-					let updatedAttrs = attrs;
-					if (!/target=/i.test(updatedAttrs)) updatedAttrs += ' target="_blank"';
-					if (!/rel=/i.test(updatedAttrs)) {
-						updatedAttrs += ' rel="nofollow ugc noreferrer"';
-					} else {
-						updatedAttrs = updatedAttrs.replace(/rel=["'][^"']*["']/i, 'rel="nofollow ugc noreferrer"');
-					}
-					return `<a ${updatedAttrs}>`;
+				doc.querySelectorAll("img").forEach((img) => {
+					const a = doc.createElement("a");
+					a.href = img.src;
+					a.target = "_blank";
+					a.rel = "nofollow ugc noreferrer";
+					a.textContent = "[Attached Image]";
+					img.replaceWith(a);
 				});
+
+				doc.querySelectorAll("a").forEach((a) => {
+					a.target = "_blank";
+					a.rel = "nofollow ugc noreferrer";
+				});
+
+				let parsedContent = doc.body.innerHTML;
 
 				if (d.media_attachments && d.media_attachments.length > 0) {
 					const images = d.media_attachments.filter((m) => m.type === "image");
@@ -122,6 +132,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 					new CommentNode({
 						id: d.id,
 						author: d.account.display_name || d.account.username,
+						authorId: d.account.id,
 						content: parsedContent,
 						platform: "Fediverse",
 						url: d.url,
@@ -151,9 +162,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 	async function fetchBluesky(url) {
 		try {
 			const urlObj = new URL(url);
-			const pathParts = urlObj.pathname.split("/");
-			const handle = pathParts[2];
-			const rkey = pathParts[4];
+			const pathParts = urlObj.pathname.split("/").filter(Boolean);
+			const handle = pathParts[1];
+			const rkey = pathParts[3];
 
 			const resolveRes = await fetch(`https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`);
 			const { did } = await resolveRes.json();
@@ -166,6 +177,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 			if (data.thread.post?.likeCount) totalLikes += data.thread.post.likeCount;
 			const rootDid = data.thread.post.author.did;
+
 			function convertToNode(bskyNode) {
 				const labels = bskyNode.post.labels || [];
 				if (labels.some((l) => l.val === "hide" || l.val === "!hide") || !bskyNode.post.record.text?.trim()) return null;
@@ -183,6 +195,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 				const node = new CommentNode({
 					id: bskyNode.post.uri,
 					author: bskyNode.post.author.displayName || bskyNode.post.author.handle,
+					authorId: bskyNode.post.author.handle,
 					content: `<p>${renderBlueskyText(bskyNode.post.record)}${imageText}</p>`,
 					platform: "Bluesky",
 					url: `https://bsky.app/profile/${bskyNode.post.author.did}/post/${bskyNode.post.uri.split("/").pop()}`,
@@ -207,14 +220,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 		}
 	}
 
-	function filterNodes(nodes, articleText) {
+	function filterNodes(nodes, articleText, pageUrls) {
 		return nodes.filter((node) => {
-			if (node.isOwner) {
+			const isUserPost = (node.platform === "Bluesky" && node.authorId === "vale.rocks") || (node.platform === "Fediverse" && node.authorId === "AbGF63AFc7LufYeeLA");
+
+			if (isUserPost) {
+				const hasLink = pageUrls.some((url) => node.content.includes(url));
+				if (hasLink) return false;
+			}
+
+			if (node.isOwner && articleText) {
 				const norm = normalise(node.content);
 				if (norm.length > 20 && articleText.includes(norm)) return false;
 			}
 
-			node.children = filterNodes(node.children, articleText);
+			node.children = filterNodes(node.children, articleText, pageUrls);
 			return true;
 		});
 	}
@@ -272,6 +292,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 	}
 
 	const articleEl = document.querySelector(".e-content");
+
+	const canonicalTag = document.querySelector("link[rel='canonical']");
+	const basePath = window.location.origin + window.location.pathname.replace(/\/$/, "");
+	const canonicalBase = canonicalTag ? canonicalTag.href.replace(/\/$/, "") : null;
+	const pageUrls = [basePath, canonicalBase].filter(Boolean);
+
 	const promises = Array.from(SOCIAL_LINKS).map((link) => {
 		if (link.href.includes("bsky.app")) return fetchBluesky(link.href);
 		if (link.title === "Fediverse") return fetchAkkoma(link.href);
@@ -284,10 +310,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 		if (r) rawTrees = rawTrees.concat(r);
 	});
 
-	if (articleEl) {
-		const articleText = normalise(articleEl.innerText);
-		rawTrees = filterNodes(rawTrees, articleText);
-	}
+	const articleText = articleEl ? normalise(articleEl.innerText) : "";
+	rawTrees = filterNodes(rawTrees, articleText, pageUrls);
 
 	const finalTree = mergeTrees(rawTrees);
 
