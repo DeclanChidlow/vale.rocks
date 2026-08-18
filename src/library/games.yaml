@@ -182,6 +182,7 @@
 - title: Superhot
   release_year: 2016
   platforms: ["PC"]
+  notes: Superhot is the most innovative shooter I've played in years!
   playthroughs:
     - start: 2020-06-09
       finish: 2020-06-10
@@ -562,7 +563,7 @@
   release_year: 2007
   rating: 4
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-3">Halo: My Thoughts</a>.'
+  notes: "See <a href='/posts/halo-my-thoughts.html#halo-3'>Halo: My Thoughts</a>. Having watched Red vs Blue before playing Halo 3 multiplayer for any significant amount of time, I can't help but think of the maps as sets from the show."
   playthroughs:
     - start: 2023-05-31
       finish: 2023-06-02
