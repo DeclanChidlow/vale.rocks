@@ -1,4 +1,7 @@
 # $schema: demo-data-schema.yaml
+- title: Grouped VCA Faders-style Volume Slider
+  codepen_slug: 01a01740-b88b-7a4b-8aff-9250ad37e4e7
+  pub_time: 2026-08-19
 - title: Blockquotes With The Cite Attribute
   codepen_slug: 019ff953-590a-7af0-8d5d-d8c93c03b7ec
   pub_time: 2026-08-13
