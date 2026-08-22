@@ -1,7 +1,8 @@
 (micro) => main_template.ori({
 	title: `${ micro.title ? `${ micro.title } - ` : ''}${ functions/pretty-date.js(pub_time) } ${ functions/pretty-time.js(pub_time) } UTC`
 	description: micro.description
-	...functions/first-image.js(micro._body)
+	image: micro.image
+	alt_text: micro.alt_text
 	pub_time: micro.pub_time
 	article: true
 	stylesheet: "pages/micro-individual.css"

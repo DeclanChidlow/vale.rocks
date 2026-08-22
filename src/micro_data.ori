@@ -8,4 +8,8 @@ functions/validate-schema.js(micro-schema.yaml)(micros)
 → (_) => Tree.mapExtension(_, ".md->.html", {
 	value: (micro) => functions/parse-markdown.js(micro)
 })
+→ (_) => Tree.map(_, (micro) => {
+	...micro
+	...functions/first-image.js(micro._body)
+})
 → Tree.reverse
