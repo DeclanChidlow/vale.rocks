@@ -1,5 +1,5 @@
 ---
-title: A Great Deal of Information About Hacker News
+title: Hacker News In Uncompromised Detail
 description: Everything I personally know about the forum and news aggregator Hacker News spanning the site's history, the people behind it, the software that runs it, the site's culture, and its features. Generally undocumented or underdocumented details and features are also included.
 og_description: Beyond the front page of the orange site.
 pub_time: 2026-07-24
