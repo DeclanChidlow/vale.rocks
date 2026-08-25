@@ -17,6 +17,9 @@ front-end:
 ai:
   short_description: Artificial Intelligence.
   description: the development and application of artificial intelligence.
+atproto:
+  short_description: Authenticated Transfer Protocol
+  description: the protocol used by Bluesky and the rest of the Atmosphere.
 safari:
   short_description: Web browser from Apple.
   description: the web browser developed by Apple and exclusively available on their devices.

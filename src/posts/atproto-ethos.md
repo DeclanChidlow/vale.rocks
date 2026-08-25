@@ -4,17 +4,17 @@ description: Love for the beauty of the AT Protocol and the older web principles
 og_description: Out with the new and in with the old.
 pub_time: 2026-08-25
 section: Essay
-tags: ["IndieWeb/SmallWeb"]
+tags: ["IndieWeb/SmallWeb", atproto]
 standardsite_rkey: 3mtv7sztplj2p
 ---
 
-Web3, the 'era' of the web supposedly ushering in blockchain technologies and other such fluff, has undoubtedly been a bust. Perhaps not for the bank accounts of manipulators, but a bust in general. Blockchain has very few legitimate applications. <abbr title="Non-Fungible Token">NFT</abbr>s went down like the Hindenburg, and cryptocurrencies have remained a niche with strong ties to crime and corruption.
+Web3, the 'era' of the web supposedly ushering in blockchain technologies and other such fluff, has undoubtedly been a bust. Perhaps not for the bank accounts of manipulators, but a bust in general. Blockchain has very few legitimate applications, <abbr title="Non-Fungible Token">NFT</abbr>s went down like the Hindenburg, and cryptocurrencies have remained a niche with strong ties to crime and corruption.
 
-The hype-driven sham of Web3 followed Web 2.0, which did have substance. It had adjacent names such as the 'participative web' or the 'social web'. It really gained popularity as a concept in the mid-2000s alongside the establishment of proper social applications like Flickr, Facebook, Last.fm, Twitter, del.icio.us, MySpace, and Foursquare. Part of the beauty of these applications was their rather open <abbr title="Application Programming Interface">API</abbr>s. They made the web feel so alive. Fetching activity from social media and displaying it on articles, people showing their location check-ins on their sites, social bookmarking, the proliferation of RSS feeds, more interactive capabilities, content discovery via tagging, and so on and so forth all became core parts of what made the web the web.
+The hype-driven sham of Web3 followed Web 2.0, which did have substance. With adjacent names such as the 'participative web' or the 'social web', it really gained popularity as a concept in the mid-2000s alongside the establishment of proper social applications like Flickr, Facebook, Last.fm, Twitter, del.icio.us, MySpace, and Foursquare. Part of the beauty of these applications was their rather open <abbr title="Application Programming Interface">API</abbr>s. They made the web feel so alive. Fetching activity from social media and displaying it on articles, people showing their location check-ins on their sites, social bookmarking, the proliferation of RSS feeds, more interactive capabilities, content discovery via tagging, and so on and so forth all became core parts of what made the web the web.
 
-People feeding data through [Yahoo! Pipes](https://en.wikipedia.org/wiki/Yahoo_Pipes) to create automations and mashups of data, [Protopipe](https://www.protopage.com) to create rich custom web dashboards, content aggregators like StumbleUpon, Digg, and Reddit linking out to web curios, and people just hacking together with the data exposed and at their disposal directly. The web felt alive with data flowing and platforms largely ungated.
+People feeding data through [Yahoo! Pipes](https://en.wikipedia.org/wiki/Yahoo_Pipes) to create automations and mashups of data, [Protopipe](https://www.protopage.com) to create rich custom web dashboards, content aggregators like StumbleUpon, Digg, and Reddit linking out to web curios, and people just hacking together with the data exposed and at their disposal directly. The web felt alive with data flowing freely and platforms largely ungated.
 
-Then, slowly but surely, the gardens became walled. Websites became platforms began to optimise obsessively for keeping people engaged. External integrations or outgoing links became hazards, threatening to reduce time-on-page. Access to the data through any means other than the platform's desired gateways became a threat. The APIs became more restricted, then got dropped altogether. Integrations switched off, and the hedges surround the gardens grew thicker and taller.
+Then, slowly but surely, everything started to close and tighten. Websites became platforms and began to optimise obsessively for keeping people engaged. External integrations or outgoing links became hazards, threatening to reduce time-on-page. Access to data through any means other than the platform's desired gateways became a threat. The APIs became more restricted, then got dropped altogether. Integrations switched off, and the hedges surrounding the gardens grew thicker and taller.
 
 However, there remains hope for this era and ethos of the web, and the AT Protocol is what is bringing it back into vogue.
 
@@ -27,8 +27,8 @@ The 'Authenticated Transfer Protocol', or AT Proto for short, is a very simple s
     <desc>A diagram showing records nested in collections nested in a data repository nested in a Personal Data Server.</desc> 
     <defs>
         <rect id="pds" width="760" height="460" fill="light-dark(var(--white), var(--grey))" stroke="var(--bright_blue)" stroke-width="2" />
-        <rect id="repo" width="340" height="390" fill="oklch(from var(--blue) l c h / calc(alpha - 0.75))" stroke="var(--blue)" stroke-width="2" />
-        <rect id="collection" width="310" height="145" fill="oklch(from var(--green) l c h / calc(alpha - 0.75))" stroke="var(--green)"
+        <rect id="repo" width="340" height="390" fill="oklch(from var(--blue) l c h / calc(alpha - 0.9))" stroke="var(--blue)" stroke-width="2" />
+        <rect id="collection" width="310" height="145" fill="oklch(from var(--green) l c h / calc(alpha - 0.85))" stroke="var(--green)"
             stroke-width="2" />
         <rect id="record" width="290" height="30" fill="light-dark(var(--bright_white), var(--dark_grey))" stroke="var(--yellow)" stroke-width="2" />
     </defs>
@@ -81,7 +81,7 @@ The 'Authenticated Transfer Protocol', or AT Proto for short, is a very simple s
 <figcaption>A simple diagram of how records, collections, data repositories, and Personal Data Servers fit together.</figcaption>
 </figure>
 
-JSON records conform to lexicons, which are schemas that keep data consistently structured and formatted. In addition to the unique DID each user has, they also have a handle, which is defined via a DNS record. My handle is `@vale.rocks`. This explanation is deliberately simplified (though not inaccurate). Dan Abramov's [Open Social](https://overreacted.io/open-social/) is a good read for more introductory detail.
+JSON records conform to lexicons, which are schemas that keep data consistently structured and formatted. In addition to the unique DID each user has, they also have a handle, which is defined via a <abbr title="Domain Name System">DNS</abbr> record. My handle is `@vale.rocks`. I've deliberately kept this explanation simple (though not inaccurate) for the sake of brevity, so you should read Dan Abramov's [Open Social](https://overreacted.io/open-social/) if you're interested in further detail.
 
 As an example, here is the record for my Bluesky profile, which is stored under the collection `app.bsky.actor.profile`:
 
@@ -115,9 +115,9 @@ As an example, here is the record for my Bluesky profile, which is stored under 
 
 This record isn't hidden away anywhere. It is public. It exists on the AT Protocol at `at://did:plc:7qg6mz2xtzozxkgbcvf4pdnu/app.bsky.actor.profile/self`. Bluesky pulls from this record if you [view my profile](https://bsky.app/profile/vale.rocks), and you can view the record for yourself via online AT Proto viewers such as [Taproot](https://atproto.at/uri/at://did:plc:7qg6mz2xtzozxkgbcvf4pdnu/app.bsky.actor.profile/self) or [PDSls](https://pdsls.dev/at://did:plc:7qg6mz2xtzozxkgbcvf4pdnu/app.bsky.actor.profile/self).
 
-This is the beauty of the AT Protocol. Your data is under your control. It exists in your data repository on the PDS you select, and unless the data is explicitly made private, it is public. Even data held within 'Atproto Spaces', which is the system for private data, is still stored in repositories on your PDS and remains completely under your control. At any time you can manage records yourself or move to another PDS without everything breaking.
+This is the beauty of the AT Protocol: your data is under your control. It exists in your data repository on the PDS you select, and unless the data is explicitly made private, it is public. Even data held within 'Atproto Spaces', which is the system for private data, is still stored in repositories on your PDS and remains completely under your control. At any time you can manage records yourself or move to another PDS without everything breaking.
 
-The most popular and well-known AT Protocol application is Bluesky. The AT Protocol stems from Bluesky, which was formed as a research group within Twitter as part of research into decentralising Twitter. However, Elon Musk's acquisition of Twitter and rebranding of it into 'X' saw Bluesky sever ties with Twitter and entirely become its own thing. I think that Bluesky, like Twitter before it, is flawed.[^1] The AT Protocol, however, is solid.
+The most popular and well-known AT Protocol application is Bluesky. The AT Protocol stems from Bluesky, which was formed as a research group within Twitter as part of research into decentralising Twitter. However, Elon Musk's acquisition of Twitter and rebranding of it into 'X' saw Bluesky sever ties with Twitter and entirely become its own thing. While I think that Bluesky is flawed, like Twitter before it, the AT Protocol is solid.[^1]
 
 ## An Open Atmosphere
 
