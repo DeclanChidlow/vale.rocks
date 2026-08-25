@@ -245,7 +245,6 @@ section#featured-on {
 	ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		align-items: end;
 		margin: 0;
 		row-gap: 1rem;
 		column-gap: 3rem;
@@ -281,6 +280,10 @@ section#featured-on {
 	p {
 		margin-block-start: 1rem;
 	}
+}
+
+section#published-on {
+	align-items: end;
 }
 
 section#testimonials {

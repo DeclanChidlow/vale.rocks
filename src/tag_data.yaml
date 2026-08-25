@@ -61,7 +61,7 @@ moderation:
   description: the practice of content moderation and community management.
 stoat:
   short_description: Online communication platform.
-  description: online communication platform supporting text, voice, and video communication.
+  description: the online communication platform supporting text, voice, and video communication.
 music:
   short_description: Art of sound and composition.
   description: musical works, performance, and theory.
