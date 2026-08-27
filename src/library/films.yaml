@@ -46,6 +46,11 @@
   watches:
     - date: 2024-05-07
       format: Streaming
+- title: The Ballad of Songbirds and Snakes
+  release_year: 2023
+  watches:
+    - date: 2023-11-21
+      format: Cinema
 - title: "Spider-Man: Across the Spider-Verse"
   release_year: 2023
   rating: 4

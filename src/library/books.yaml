@@ -466,6 +466,9 @@
   release_year: 1984
   authors: Douglas Adams
   rating: 4
+- title: Hairy Maclary's Bone
+  release_year: 1984
+  authors: Lynley Dodd
 - title: The Curse of Lono
   release_year: 1983
   authors: Hunter S Thompson
@@ -474,6 +477,9 @@
     - start: 2025-06-29
       finish: 2025-07-06
       status: Did Not Finish
+- title: Hairy Maclary from Donaldson's Dairy
+  release_year: 1983
+  authors: Lynley Dodd
 - title: The Meaning of Liff
   release_year: 1983
   authors: Douglas Adams, John Lloyd
