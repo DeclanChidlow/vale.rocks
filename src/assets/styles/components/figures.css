@@ -10,6 +10,13 @@ img {
 	max-block-size: 40vb;
 }
 
+.long img {
+	inline-size: min(60vw, 35rem);
+	object-fit: cover;
+	object-position: top;
+	mask-image: linear-gradient(black 90%, transparent);
+}
+
 figure {
 	inline-size: 100%;
 
