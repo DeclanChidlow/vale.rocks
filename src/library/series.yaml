@@ -186,6 +186,7 @@
   notes: I'll never forget seeing The Pinky Ponk go down. They shouldn't have used hydrogen.
 - title: Torchwood
   release_year: 2006
+  notes: A thirteen-year-old's vision of an adult television show. Doctor Who with quite blatantly shoehorned in drugs, sex, and swearing.
   seasons:
     - number: 1
       notes: Very much a hit and miss season, and I can only imagine the second episode was written with one hand.
@@ -193,15 +194,17 @@
         - start: 2026-06-07
           finish: 2026-07-20
     - number: 2
+      notes: A significant improvement over the first season. Still a lot of variation in the quality of episodes.
       watches:
         - start: 2026-07-21
           finish: 2026-08-09
     - number: "3: Children of Earth"
+      notes: Very bleak, but a solid season. I was a bit sad to see the departure from the more episodic style.
       watches:
         - start: 2026-08-14
           finish: 2026-08-17
     - number: "4: Miracle Day"
-      notes: I so very much wish they'd kept the show in Wales.
+      notes: I so very much wish they'd kept the show in Wales. The details of the titular miracle should have been further explained, as they were extremely vague, which made certain character decisions feel arbitrary.
       watches:
         - start: 2026-08-18
 - title: Dexter

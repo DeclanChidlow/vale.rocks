@@ -1074,6 +1074,11 @@
   release_year: 1981
 - title: "Star Wars: The Empire Strikes Back"
   release_year: 1980
+- title: Where the Buffalo Roam
+  release_year: 1980
+  watches:
+    - date: 2026-08-29
+      format: Streaming
 - title: The Gods Must Be Crazy
   release_year: 1980
 - title: Flying High! (Airplane!)
