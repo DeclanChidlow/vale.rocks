@@ -511,6 +511,8 @@
   url: lucie.tokyo
 - title: Dioramas
   url: dioramas.space
+- title: TRASHCAN
+  url: www.trashcan.co
 - title: welcome to dreamwiki
   url: dreamwiki.sixey.es/welcome.dream/
 - title: Mackerelmedia Fish® Powering the Web since 1996
@@ -573,5 +575,13 @@
 - title: Sad High Five
   url: sadhighfive.com
   insecure: true
+- title: Paul Brown's iPod
+  url: pauljulianbrown.com
+- title: Defrag98
+  url: defrag98.com
 - title: How did you find me?
   url: howdidyoufind.me
+- title: (moth) in relay
+  url: moth-in-relay.net
+- title: Fractl.art
+  url: fractl.art

@@ -1,6 +1,6 @@
 title: Vale's Video Channel Links
 pubTime: 17 Jul 2025 00:00:00 +0000
-modTime: 14 Jul 2026 00:00:00 +0000
+modTime: 31 Aug 2026 00:00:00 +0000
 items:
   - title: Redlyne
     url: www.youtube.com/@Redlyne_
@@ -258,6 +258,10 @@ items:
     url: www.youtube.com/@truongsauce
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCfE0Vl54BFskyxpN2u85Zag
     description: Unconventional cooking.
+  - title: Woźniakowski
+    url: www.youtube.com/@womasz
+    rss: www.youtube.com/feeds/videos.xml?channel_id=UC2s7glWlR43nTYZ0PoTgTiw
+    description: Surreal 3D art.
   - title: The Thought Emporium
     url: www.youtube.com/@thethoughtemporium
     rss: www.youtube.com/feeds/videos.xml?channel_id=UCV5vCi3jPJdURZwAOO_FNfQ
