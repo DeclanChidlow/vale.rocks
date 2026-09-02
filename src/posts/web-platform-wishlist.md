@@ -34,7 +34,7 @@ From this wishlist I've opted to omit features I'm excited for but which I'm alr
 - Fit text to width. Sometimes I want to fit text to the width of the page, but that can be an exercise in frustration and dealing with complex fluid type systems or breakpoints. Something akin to `font-size: fit` would be lovely.
 
 - A native way to expose content exclusively to screen readers. Something along the lines of `display: visually-hidden;`. `.sr-only` and `.visually-hidden` classes everywhere indicate there is a solid desire for the feature, but those classes are [extremely messy](https://dbushell.com/2026/02/20/visually-hidden/). There are so many potential footguns here, however, which makes their potential inclusion risky.
-  Visually hiding content and only displaying it to screenreaders is also usually a bad user interface smell, as what must be conveyed to screenreaders by use of such hacks is usually beneficial to all users. Take, for example, labels for what a button with only an icon does.
+  Visually hiding content and only displaying it to screen readers is also usually a bad user interface smell, as what must be conveyed to screenreaders by use of such hacks is usually beneficial to all users. Take, for example, labels for what a button with only an icon does.
 
 - Gradient shadows. Where a shadow's colour can currently be set, gradients should be able to be set. This is a simple feature but an extremely versatile one with many applications that people currently use hacks to achieve.
 

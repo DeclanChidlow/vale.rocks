@@ -14,7 +14,7 @@ As years have stretched on, browser user-agent styles have grown somewhat estran
 - Firefox - <https://searchfox.org/firefox-main/source/layout/style/res/html.css>
 - WebKit - <https://github.com/WebKit/WebKit/blob/main/Source/WebCore/css/html.css>
 
-As such, I, like many others[^1], have a CSS reset that I apply to many projects as part of an effort to ensure comfortable development. 'Reset' is perhaps not quite the correct diction, as much of this is opinionated and not purely returning to a clean slate. We're mostly past the days of rogues like Internet Explorer, and browsers are _mostly_[^2] consistent with their styling.
+As such, I, like many others,[^1] have a CSS reset that I apply to many projects as part of an effort to ensure comfortable development. 'Reset' is perhaps not quite the correct diction, as much of this is opinionated and not purely returning to a clean slate. We're mostly past the days of rogues like Internet Explorer, and browsers are _mostly_ consistent with their styling.[^2]
 
 Despite 'reset' not being the most accurate term, the more correct title of 'Preferred CSS defaults and user-agent overrides' just doesn't come with quite the same panache.
 
@@ -39,7 +39,7 @@ Here is my complete unabridged reset:
 		text-size-adjust: none;
 		line-height: 1.5;
 		-webkit-font-smoothing: antialiased;
-        block-size: 100%;
+		block-size: 100%;
 	}
 
 	body {
@@ -105,12 +105,12 @@ Here is my complete unabridged reset:
 	}
 
 	p,
-    blockquote,
-    q,
-    figcaption,
-    li {
-        hanging-punctuation: first allow-end last;
-    }
+	blockquote,
+	q,
+	figcaption,
+	li {
+		hanging-punctuation: first allow-end last;
+	}
 
 	input,
 	label,
@@ -121,8 +121,8 @@ Here is my complete unabridged reset:
 	h4,
 	h5,
 	h6 {
-        line-height: 1.1;
-    }
+		line-height: 1.1;
+	}
 
 	math,
 	time,
@@ -334,7 +334,7 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.1;
+	line-height: 1.1;
 }
 ```
 
