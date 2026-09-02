@@ -106,6 +106,12 @@ label:has(input[type="checkbox"]).toggle {
 	}
 }
 
+label:has(input[type="radio"]) {
+	display: flex;
+	gap: 1ch;
+	font-size: initial;
+}
+
 label {
 	font-size: small;
 }
