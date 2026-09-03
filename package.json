@@ -2,16 +2,16 @@
 	"name": "vale-rocks",
 	"type": "module",
 	"scripts": {
-		"dev": "ori serve watch src, =debug src/site.ori",
+		"dev": "ori debug2 src/site.ori",
 		"build": "ori copy src/site.ori, clear files:build",
 		"audit": "ori audit src/site.ori"
 	},
 	"dependencies": {
-		"@weborigami/origami": "0.7.0-beta.3",
+		"@weborigami/origami": "0.7.1",
 		"@weborigami/pagefind": "0.0.17",
 		"@weborigami/json-schema": "^0.0.15",
 		"highlight.js": "^11.12.0",
-		"marked": "^18.0.9",
+		"marked": "^18.0.11",
 		"marked-alert": "^2.1.2",
 		"marked-base-url": "^1.1.10",
 		"marked-footnote": "^1.4.0",
