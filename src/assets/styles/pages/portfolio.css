@@ -245,9 +245,10 @@ section#featured-on {
 	ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		margin: 0;
+		align-items: center;
 		row-gap: 1rem;
 		column-gap: 3rem;
+		margin: 0;
 
 		@media (max-width: 30rem) {
 			grid-template-columns: 1fr;
@@ -280,10 +281,6 @@ section#featured-on {
 	p {
 		margin-block-start: 1rem;
 	}
-}
-
-section#published-on {
-	align-items: end;
 }
 
 section#testimonials {

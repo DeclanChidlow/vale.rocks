@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 			this.id = id;
 			this.author = author;
 			this.authorId = authorId;
-			this.content = stripLeadingMentions(content);
+			this.content = platform === "Fediverse" ? stripLeadingMentions(content) : content;
 			this.platform = platform;
 			this.url = url;
 			this.timestamp = new Date(timestamp);
@@ -422,26 +422,27 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 					if (showEditBadge) {
 						const editTimeStr = node.editedAt.toLocaleString(undefined, timeOptions);
-						const editIconSvg = `<svg viewBox="0 0 24 24" width="14" height="14"><path d="M120-120v-170l585-583 167 171-582 582zm584-528 56-56-56-56-56 56z"/></svg>`;
-						editBadge = `<span class="edit-badge" title="Edited: ${escapeHtml(editTimeStr)}">${editIconSvg}</span>`;
+						editBadge = `<small class="edit-badge" title="Edited: ${escapeHtml(editTimeStr)}"> (edited)</small>`;
 					}
 				}
 
 				const repostBadge =
 					node.reposts > 0
-						? `<span class="reply-reposts"><svg viewBox="0 0 24 24" width="14" height="14"><path d="m23.25 10.25-1.43 1.4L20 9.82V18H7.82l2-2H18V9.82l-1.82 1.83-1.43-1.4L19 6zM16.18 6l-2 2H6v6.17l1.82-1.82 1.43 1.4L5 18 .75 13.75l1.42-1.4L4 14.17V6z"/></svg> ${node.reposts}</span> `
+						? `<span class="reply-reposts"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="m23.25 10.25-1.43 1.4L20 9.82V18H7.82l2-2H18V9.82l-1.82 1.83-1.43-1.4L19 6zM16.18 6l-2 2H6v6.17l1.82-1.82 1.43 1.4L5 18 .75 13.75l1.42-1.4L4 14.17V6z"/></svg> ${node.reposts} <span class="sr-only">Reposts</span></span> `
 						: "";
 
 				const likeBadge =
 					node.likes > 0
-						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${node.likes}</span> `
+						? `<span class="reply-likes"><svg viewBox="0 -960 960 960" width="14" height="14" aria-hidden="true"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${node.likes} <span class="sr-only">Likes</span></span> `
 						: "";
 
 				let childrenHtml = "";
 				if (node.children.length > 0) {
 					if (depth < 3) childrenHtml = `<div class="comment-children">${renderTree(node.children, depth + 1)}</div>`;
 					else {
-						const cont = node.sources.map((s) => `<a href="${escapeHtml(s.url)}" target="_blank" rel="nofollow ugc noreferrer">Continued on ${escapeHtml(s.platform)}</a>`).join(" | ");
+						const cont = node.sources
+							.map((s) => `<div class="comment-item"><a href="${escapeHtml(s.url)}" target="_blank" rel="nofollow ugc noreferrer">Discussion continues on ${escapeHtml(s.platform)}</a></div>`)
+							.join(" | ");
 						childrenHtml = `<div class="comment-children"><p><em>${cont}</em></p></div>`;
 					}
 				}
@@ -486,10 +487,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 		if (totalLikes > 0 || totalReposts > 0) {
 			statsHtml += `<div class="post-stats">`;
 			if (totalReposts > 0) {
-				statsHtml += `<span class="stat-reposts"><svg viewBox="0 0 24 24" width="16" height="16"><path d="m23.25 10.25-1.43 1.4L20 9.82V18H7.82l2-2H18V9.82l-1.82 1.83-1.43-1.4L19 6zM16.18 6l-2 2H6v6.17l1.82-1.82 1.43 1.4L5 18 .75 13.75l1.42-1.4L4 14.17V6z"/></svg> ${totalReposts} ${totalReposts === 1 ? "Repost" : "Reposts"}</span>`;
+				statsHtml += `<span class="stat-reposts"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="m23.25 10.25-1.43 1.4L20 9.82V18H7.82l2-2H18V9.82l-1.82 1.83-1.43-1.4L19 6zM16.18 6l-2 2H6v6.17l1.82-1.82 1.43 1.4L5 18 .75 13.75l1.42-1.4L4 14.17V6z"/></svg> ${totalReposts} ${totalReposts === 1 ? "Repost" : "Reposts"}</span>`;
 			}
 			if (totalLikes > 0) {
-				statsHtml += `<span class="stat-likes"><svg viewBox="0 -960 960 960" width="16" height="16"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${totalLikes} ${totalLikes === 1 ? "Like" : "Likes"}</span>`;
+				statsHtml += `<span class="stat-likes"><svg viewBox="0 -960 960 960" width="16" height="16" aria-hidden="true"><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg> ${totalLikes} ${totalLikes === 1 ? "Like" : "Likes"}</span>`;
 			}
 			statsHtml += `</div>`;
 		}
