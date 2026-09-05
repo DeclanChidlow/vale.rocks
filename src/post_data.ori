@@ -2,11 +2,12 @@ functions/validate-schema.js(post-schema.yaml)(posts)
 → (_) => Tree.map(_, (post, fileName, _body) => {
 	...post
 	type: "post"
-	file_name: Origami.basename(fileName)
+	file_name: Origami.basename(Origami.basename(fileName))
 	words: functions/word-count.js(post._body)
 })
 → (_) => Tree.sort(_, (post) => post.pub_time)
-→ (_) => Tree.mapExtension(_, ".md->.html", {
+→ (_) => Tree.map(_, {
+	key: (post, fileName) => fileName.replace(".ori", "").replace(".md", ".html")
 	value: (post) => functions/parse-markdown.js(post)
 })
 → Tree.reverse
