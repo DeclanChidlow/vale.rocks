@@ -1,0 +1,137 @@
+{
+	"xuid": "2535432479962354",
+	"missions": [
+		{
+			"mapId": 179,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 694, "bestTimeMsSinglePlayer": 1189250, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 180,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 2037, "bestTimeMsSinglePlayer": 1314200, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 181,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 903, "bestTimeMsSinglePlayer": 1651233, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 182,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 2250, "bestTimeMsSinglePlayer": 1386766, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 183,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 2475, "bestTimeMsSinglePlayer": 1872183, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 184,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 2230, "bestTimeMsSinglePlayer": 1583400, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 185,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 3166, "bestTimeMsSinglePlayer": 1534233, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 186,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 2358, "bestTimeMsSinglePlayer": 1449066, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 187,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 4391, "bestTimeMsSinglePlayer": 1778300, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 188,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		},
+		{
+			"mapId": 189,
+			"highestDifficultySinglePlayer": "Easy",
+			"highestDifficultySinglePlayerImageUrl": "https://mccapi.svc.halowaypoint.com/assets/easy-shield.png",
+			"highestDifficultyCoop": "None",
+			"highestDifficultyCoopImageUrl": "https://mccapi.svc.halowaypoint.com/assets/none-shield.png",
+			"easy": { "bestScoreSinglePlayer": 387, "bestTimeMsSinglePlayer": 281350, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"normal": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"heroic": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"legendary": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null },
+			"laso": { "bestScoreSinglePlayer": null, "bestTimeMsSinglePlayer": null, "bestScoreCoop": null, "bestTimeMsCoop": null }
+		}
+	]
+}

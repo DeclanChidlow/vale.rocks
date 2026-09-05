@@ -1,0 +1,12 @@
+{
+	"xuid": "2535432479962354",
+	"xp": 5515950,
+	"avatarSrc": "https://content.halocdn.com/media/Default/games/Halo-Master-Chief-Collection/avatars/playeridavatar_013-df661813bad84b0fb0f0bbff4bc36985.jpg",
+	"emblemSrc": "https://emblems.svc.halowaypoint.com/hmcc/emblems/forest_violet_ring-on-blank",
+	"clanTag": "VALE",
+	"skillRank": 1,
+	"timePlayedSeconds": 204816,
+	"multiplayer": { "gamesPlayed": 84, "wins": 37, "losses": 47, "kills": 455, "deaths": 1016, "assists": 342 },
+	"campaign": { "missionsCompleted": 103, "missionKills": 8550, "missionDeaths": 127, "playlistsCompleted": 0, "playlistKills": 0, "playlistDeaths": 0 }
+}
+

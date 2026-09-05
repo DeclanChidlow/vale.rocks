@@ -1,0 +1,920 @@
+{
+	"spree": [
+		{
+			"name": "Killing Spree",
+			"description": "Kill 5 enemies without dying",
+			"spriteIndex": 1,
+			"nameId": 2780740615
+		},
+		{
+			"name": "Killing Frenzy",
+			"description": "Kill 10 enemies without dying",
+			"spriteIndex": 2,
+			"nameId": 4261842076
+		},
+		{
+			"name": "Running Riot",
+			"description": "Kill 15 enemies without dying",
+			"spriteIndex": 3,
+			"nameId": 418532952
+		},
+		{
+			"name": "Rampage",
+			"description": "Kill 20 enemies without dying",
+			"spriteIndex": 4,
+			"nameId": 1486797009
+		},
+		{
+			"name": "Killjoy",
+			"description": "End an enemy's killing spree",
+			"spriteIndex": 0,
+			"nameId": 3233952928
+		},
+		{
+			"name": "Nightmare",
+			"description": "Kill 25 enemies without dying",
+			"spriteIndex": 5,
+			"nameId": 710323196
+		},
+		{
+			"name": "Boogeyman",
+			"description": "Kill 30 enemies without dying",
+			"spriteIndex": 6,
+			"nameId": 1720896992
+		},
+		{
+			"name": "Grim Reaper",
+			"description": "Kill 35 enemies without dying",
+			"spriteIndex": 7,
+			"nameId": 2567026752
+		},
+		{
+			"name": "Demon",
+			"description": "Kill 40 enemies without dying",
+			"spriteIndex": 8,
+			"nameId": 2875941471
+		},
+		{
+			"name": "Death Cabbie",
+			"description": "Earn 10 Driver Assists without dying",
+			"spriteIndex": 163,
+			"nameId": 2848470465
+		},
+		{
+			"name": "Driving Spree",
+			"description": "Earn 5 Driver Assists without dying",
+			"spriteIndex": 162,
+			"nameId": 3169118333
+		},
+		{
+			"name": "Immortal Chauffeur",
+			"description": "Earn 15 Driver Assists without dying",
+			"spriteIndex": 164,
+			"nameId": 1739996188
+		}
+	],
+	"mode": [
+		{
+			"name": "Perfection",
+			"description": "Win a game with 15+ kills and no deaths",
+			"spriteIndex": 11,
+			"nameId": 865763896
+		},
+		{
+			"name": "Flawless Victory",
+			"description": "Win every round of a game with 3+ rounds",
+			"spriteIndex": 10,
+			"nameId": 1680000231
+		},
+		{
+			"name": "Steaktacular",
+			"description": "Win a game by dominating the enemy team",
+			"spriteIndex": 9,
+			"nameId": 1169390319
+		},
+		{
+			"name": "Stopped Short",
+			"description": "Kill an enemy flag carrier who is about to score",
+			"spriteIndex": 15,
+			"nameId": 3488248720
+		},
+		{
+			"name": "Flag Joust",
+			"description": "Kill an enemy flag carrier while holding a flag",
+			"spriteIndex": 16,
+			"nameId": 976049027
+		},
+		{
+			"name": "Goal Line Stand",
+			"description": "Return a flag near the enemy flag stand",
+			"spriteIndex": 17,
+			"nameId": 3227840152
+		},
+		{
+			"name": "Necromancer",
+			"description": "Revive every ally in an Elimination or Attrition round",
+			"spriteIndex": 22,
+			"nameId": 3011158621
+		},
+		{
+			"name": "Immortal",
+			"description": "Survive every round of Elimination",
+			"spriteIndex": 20,
+			"nameId": 3120600565
+		},
+		{
+			"name": "Lone Wolf",
+			"description": "Win a round against 3+ enemies by yourself in Elimination or Attrition",
+			"spriteIndex": 19,
+			"nameId": 2623698509
+		},
+		{
+			"name": "Duelist",
+			"description": "Win a 1v1 encounter in the final round of Elimination or Attrition",
+			"spriteIndex": 18,
+			"nameId": 4247875860
+		},
+		{
+			"name": "Ace",
+			"description": "Wipe an enemy team in Elimination or Attrition",
+			"spriteIndex": 21,
+			"nameId": 521420212
+		},
+		{
+			"name": "Extermination",
+			"description": "Wipe an enemy team with at least an Overkill in Elimination or Attrition",
+			"spriteIndex": 23,
+			"nameId": 4100966367
+		},
+		{
+			"name": "Fumble",
+			"description": "Kill the enemy Oddball carrier within moments of their victory",
+			"spriteIndex": 47,
+			"nameId": 3732790338
+		},
+		{
+			"name": "Straight Balling",
+			"description": "Carry the Oddball for 1 minute",
+			"spriteIndex": 48,
+			"nameId": 781229683
+		},
+		{
+			"name": "Always Rotating",
+			"description": "Capture all zones in a single life",
+			"spriteIndex": 61,
+			"nameId": 1472686630
+		},
+		{
+			"name": "Clock Stop",
+			"description": "Stop the enemy from scoring their final points by capturing a zone in Strongholds",
+			"spriteIndex": 63,
+			"nameId": 3630529364
+		},
+		{
+			"name": "All That Juice",
+			"description": "Secure 3 Power Seeds in quick succession",
+			"spriteIndex": 54,
+			"nameId": 3528500956
+		},
+		{
+			"name": "Great Journey",
+			"description": "Steal an enemy Power Seed and secure it for your team without dropping it",
+			"spriteIndex": 52,
+			"nameId": 1376646881
+		},
+		{
+			"name": "Power Outage",
+			"description": "Steal 3 Power Seeds in quick succession",
+			"spriteIndex": 53,
+			"nameId": 629165579
+		},
+		{
+			"name": "Sole Survivor",
+			"description": "Be the final Survivor in an Infection round",
+			"spriteIndex": 26,
+			"nameId": 2717755703
+		},
+		{
+			"name": "Culling",
+			"description": "Kill 2 Infected in quick succession",
+			"spriteIndex": 27,
+			"nameId": 1025827095
+		},
+		{
+			"name": "Blight",
+			"description": "Kill 2 Survivors in quick succession",
+			"spriteIndex": 28,
+			"nameId": 88914608
+		},
+		{
+			"name": "Zombie Slayer",
+			"description": "Kill 10 Infected without dying",
+			"spriteIndex": 29,
+			"nameId": 557309779
+		},
+		{
+			"name": "Purge",
+			"description": "Kill 4 Infected in quick succession",
+			"spriteIndex": 30,
+			"nameId": 3467301935
+		},
+		{
+			"name": "Disease",
+			"description": "Kill 3 Survivors in quick succession",
+			"spriteIndex": 31,
+			"nameId": 1155542859
+		},
+		{
+			"name": "Undead Hunter",
+			"description": "Kill 20 Infected without dying",
+			"spriteIndex": 32,
+			"nameId": 1447057920
+		},
+		{
+			"name": "Untainted",
+			"description": "Maintain your humanity in Infection",
+			"spriteIndex": 33,
+			"nameId": 1064731598
+		},
+		{
+			"name": "Cleansing",
+			"description": "Kill 6 Infected in quick succession",
+			"spriteIndex": 34,
+			"nameId": 1765213446
+		},
+		{
+			"name": "Plague",
+			"description": "Kill 4 Survivors in quick succession",
+			"spriteIndex": 35,
+			"nameId": 3786134933
+		},
+		{
+			"name": "Hell's Janitor",
+			"description": "Kill 30 Infected without dying",
+			"spriteIndex": 36,
+			"nameId": 217730222
+		},
+		{
+			"name": "The Sickness",
+			"description": "Infect all Survivors in an Infection round",
+			"spriteIndex": 37,
+			"nameId": 17866865
+		},
+		{
+			"name": "Purification",
+			"description": "Kill 8 Infected in quick succession",
+			"spriteIndex": 38,
+			"nameId": 496411737
+		},
+		{
+			"name": "Pestilence",
+			"description": "Kill 5 Survivors in quick succession",
+			"spriteIndex": 39,
+			"nameId": 1719203329
+		},
+		{
+			"name": "Divine Intervention",
+			"description": "Kill 10 Infected in quick succession",
+			"spriteIndex": 40,
+			"nameId": 2164872967
+		},
+		{
+			"name": "Scourge",
+			"description": "Kill 6 Survivors in quick succession",
+			"spriteIndex": 41,
+			"nameId": 3520382976
+		},
+		{
+			"name": "Apocalypse",
+			"description": "Kill 7 Survivors in quick succession",
+			"spriteIndex": 42,
+			"nameId": 3653884673
+		},
+		{
+			"name": "Clear Reception",
+			"description": "Complete an Extraction from Deploy to Completion without the device being Converted",
+			"spriteIndex": 168,
+			"nameId": 394349536
+		},
+		{
+			"name": "Hang Up",
+			"description": "Kill an enemy deploying the device",
+			"spriteIndex": 166,
+			"nameId": 4285712605
+		},
+		{
+			"name": "Call Blocked",
+			"description": "Kill an enemy converting the device",
+			"spriteIndex": 167,
+			"nameId": 2964157454
+		},
+		{
+			"name": "Secure Line",
+			"description": "Kill an enemy converting your Extraction moments before they succeed",
+			"spriteIndex": 24,
+			"nameId": 2426456555
+		},
+		{
+			"name": "Signal Block",
+			"description": "Convert an enemy Extraction within moments of its completion",
+			"spriteIndex": 25,
+			"nameId": 3931425309
+		},
+		{
+			"name": "Monopoly",
+			"description": "Capture all zones in a set of 3+ without dying in Land Grab",
+			"spriteIndex": 159,
+			"nameId": 1090931685
+		},
+		{
+			"name": "Hill Guardian",
+			"description": "Occupy the Hill for 30 seconds without leaving in King of the Hill",
+			"spriteIndex": 62,
+			"nameId": 580478179
+		}
+	],
+	"multikill": [
+		{
+			"name": "Double Kill",
+			"description": "Kill 2 enemies in quick succession",
+			"spriteIndex": 64,
+			"nameId": 622331684
+		},
+		{
+			"name": "Triple Kill",
+			"description": "Kill 3 enemies in quick succession",
+			"spriteIndex": 65,
+			"nameId": 2063152177
+		},
+		{
+			"name": "Overkill",
+			"description": "Kill 4 enemies in quick succession",
+			"spriteIndex": 66,
+			"nameId": 835814121
+		},
+		{
+			"name": "Killtacular",
+			"description": "Kill 5 enemies in quick succession",
+			"spriteIndex": 67,
+			"nameId": 2137071619
+		},
+		{
+			"name": "Killtrocity",
+			"description": "Kill 6 enemies in quick succession",
+			"spriteIndex": 68,
+			"nameId": 1430343434
+		},
+		{
+			"name": "Killamanjaro",
+			"description": "Kill 7 enemies in quick succession",
+			"spriteIndex": 69,
+			"nameId": 3835606176
+		},
+		{
+			"name": "Killtastrophe",
+			"description": "Kill 8 enemies in quick succession",
+			"spriteIndex": 70,
+			"nameId": 2242633421
+		},
+		{
+			"name": "Killpocalypse",
+			"description": "Kill 9 enemies in quick succession",
+			"spriteIndex": 71,
+			"nameId": 3352648716
+		},
+		{
+			"name": "Killionaire",
+			"description": "Kill 10 enemies in quick succession",
+			"spriteIndex": 72,
+			"nameId": 3233051772
+		}
+	],
+	"proficiency": [
+		{
+			"name": "Spotter",
+			"description": "Earn 5 Mark Assists in a game",
+			"spriteIndex": 73,
+			"nameId": 2477555653
+		},
+		{
+			"name": "Treasure Hunter",
+			"description": "Mark 3 Power weapons that are picked up by allies in a game",
+			"spriteIndex": 74,
+			"nameId": 1685043466
+		},
+		{
+			"name": "Saboteur",
+			"description": "Destroy 5 enemy vehicles in a game",
+			"spriteIndex": 75,
+			"nameId": 20397755
+		},
+		{
+			"name": "Wingman",
+			"description": "Earn 10 Kill Assists in a game",
+			"spriteIndex": 76,
+			"nameId": 1284032216
+		},
+		{
+			"name": "Wheelman",
+			"description": "Earn 5 Driver Assists in a game",
+			"spriteIndex": 77,
+			"nameId": 2926348688
+		},
+		{
+			"name": "Gunner",
+			"description": "Kill 5 enemies with mounted turrets in a game",
+			"spriteIndex": 78,
+			"nameId": 3783455472
+		},
+		{
+			"name": "Driver",
+			"description": "Kill 5 enemies with ground vehicles in a game",
+			"spriteIndex": 79,
+			"nameId": 3027762381
+		},
+		{
+			"name": "Pilot",
+			"description": "Kill 5 enemies with aircraft in a game",
+			"spriteIndex": 80,
+			"nameId": 2593226288
+		},
+		{
+			"name": "Tanker",
+			"description": "Kill 5 enemies with siege vehicles in a game",
+			"spriteIndex": 92,
+			"nameId": 2278023431
+		},
+		{
+			"name": "Rifleman",
+			"description": "Kill 5 enemies with assault rifles in a game",
+			"spriteIndex": 81,
+			"nameId": 2852571933
+		},
+		{
+			"name": "Bomber",
+			"description": "Kill 5 enemies with launchers in a game",
+			"spriteIndex": 84,
+			"nameId": 1146876011
+		},
+		{
+			"name": "Grenadier",
+			"description": "Kill 5 enemies with grenades in a game",
+			"spriteIndex": 83,
+			"nameId": 2648272972
+		},
+		{
+			"name": "Boxer",
+			"description": "Kill 5 enemies with melee in a game",
+			"spriteIndex": 85,
+			"nameId": 269174970
+		},
+		{
+			"name": "Warrior",
+			"description": "Kill 5 enemies with melee weapons in a game",
+			"spriteIndex": 86,
+			"nameId": 1210678802
+		},
+		{
+			"name": "Gunslinger",
+			"description": "Kill 5 enemies with pistols in a game",
+			"spriteIndex": 87,
+			"nameId": 1172766553
+		},
+		{
+			"name": "Scattergunner",
+			"description": "Kill 5 enemies with shotguns in a game",
+			"spriteIndex": 88,
+			"nameId": 3347922939
+		},
+		{
+			"name": "Sharpshooter",
+			"description": "Kill 5 enemies with sniper rifles in a game",
+			"spriteIndex": 90,
+			"nameId": 4277328263
+		},
+		{
+			"name": "Marksman",
+			"description": "Kill 5 enemies with tactical rifles in a game",
+			"spriteIndex": 91,
+			"nameId": 2758320809
+		},
+		{
+			"name": "Heavy",
+			"description": "Kill 5 enemies with detached turrets in a game",
+			"spriteIndex": 82,
+			"nameId": 4086138034
+		},
+		{
+			"name": "Bodyguard",
+			"description": "Save 5 allies by killing their attacker in a game",
+			"spriteIndex": 93,
+			"nameId": 555849395
+		},
+		{
+			"name": "Breacher",
+			"description": "Kill 5 enemies with SMG weapons in a game",
+			"spriteIndex": 89,
+			"nameId": 2750622016
+		}
+	],
+	"skill": [
+		{
+			"name": "Back Smack",
+			"description": "Kill an enemy by hitting them from behind with melee",
+			"spriteIndex": 100,
+			"nameId": 548533137
+		},
+		{
+			"name": "Nuclear Football",
+			"description": "Catch an enemy-thrown Fusion Coil",
+			"spriteIndex": 130,
+			"nameId": 2253222811
+		},
+		{
+			"name": "Boom Block",
+			"description": "Block an incoming projectile by deploying a Drop Wall",
+			"spriteIndex": 122,
+			"nameId": 524758914
+		},
+		{
+			"name": "Bulltrue",
+			"description": "Save yourself or an ally by interrupting an enemy's Energy Sword lunge",
+			"spriteIndex": 110,
+			"nameId": 3114137341
+		},
+		{
+			"name": "Cluster Luck",
+			"description": "Kill 2+ enemies with a single grenade",
+			"spriteIndex": 97,
+			"nameId": 3905838030
+		},
+		{
+			"name": "Dogfight",
+			"description": "Destroy an enemy aircraft while in one yourself",
+			"spriteIndex": 95,
+			"nameId": 1229018603
+		},
+		{
+			"name": "Harpoon",
+			"description": "Grapple a distant enemy",
+			"spriteIndex": 96,
+			"nameId": 2418616582
+		},
+		{
+			"name": "Mind the Gap",
+			"description": "Kill an enemy by sending them to their doom with the Repulsor",
+			"spriteIndex": 114,
+			"nameId": 1880789493
+		},
+		{
+			"name": "Ninja",
+			"description": "Kill an enemy by leaping over them and hitting them from behind with melee",
+			"spriteIndex": 133,
+			"nameId": 3085856613
+		},
+		{
+			"name": "Odin's Raven",
+			"description": "Detect 3+ enemies with a single Threat Sensor",
+			"spriteIndex": 106,
+			"nameId": 87172902
+		},
+		{
+			"name": "Pancake",
+			"description": "Kill an enemy by flattening them with the Repulsor",
+			"spriteIndex": 109,
+			"nameId": 3876426273
+		},
+		{
+			"name": "Quigley",
+			"description": "Kill 2+ enemies with a single S7 Sniper round",
+			"spriteIndex": 132,
+			"nameId": 1312042926
+		},
+		{
+			"name": "Remote Detonation",
+			"description": "Kill an enemy by shooting a grenade",
+			"spriteIndex": 131,
+			"nameId": 3160646854
+		},
+		{
+			"name": "Return to Sender",
+			"description": "Kill an enemy by deflecting their projectile",
+			"spriteIndex": 124,
+			"nameId": 3059799290
+		},
+		{
+			"name": "Rideshare",
+			"description": "Deliver the objective carrier to the objective after driving a great distance",
+			"spriteIndex": 108,
+			"nameId": 656245292
+		},
+		{
+			"name": "Skyjack",
+			"description": "Hijack an enemy aircraft",
+			"spriteIndex": 94,
+			"nameId": 731054446
+		},
+		{
+			"name": "Stick",
+			"description": "Kill an enemy by sticking them with a Plasma or Spike Grenade",
+			"spriteIndex": 98,
+			"nameId": 3655682764
+		},
+		{
+			"name": "Tag & Bag",
+			"description": "Kill 2+ enemies while revealing them with the Threat Sensor",
+			"spriteIndex": 107,
+			"nameId": 1841872491
+		},
+		{
+			"name": "Whiplash",
+			"description": "Kill a grappling enemy",
+			"spriteIndex": 120,
+			"nameId": 1734214473
+		},
+		{
+			"name": "Kong",
+			"description": "Kill an enemy by throwing a Fusion Coil",
+			"spriteIndex": 105,
+			"nameId": 3546244406
+		},
+		{
+			"name": "Autopilot Engaged",
+			"description": "Kill the enemy driver of a moving vehicle with a Power sniper rifle",
+			"spriteIndex": 126,
+			"nameId": 1623236079
+		},
+		{
+			"name": "Sneak King",
+			"description": "Kill a camouflaged enemy by hitting them from behind with melee",
+			"spriteIndex": 128,
+			"nameId": 670606868
+		},
+		{
+			"name": "Windshield Wiper",
+			"description": "Kill an enemy attempting to hijack a vehicle",
+			"spriteIndex": 121,
+			"nameId": 2827657131
+		},
+		{
+			"name": "Reversal",
+			"description": "Kill an enemy who attacked you first",
+			"spriteIndex": 102,
+			"nameId": 2123530881
+		},
+		{
+			"name": "Hail Mary",
+			"description": "Kill an enemy with a grenade from far away",
+			"spriteIndex": 115,
+			"nameId": 3934547153
+		},
+		{
+			"name": "Nade Shot",
+			"description": "Headshot an enemy moments after damaging them with a grenade",
+			"spriteIndex": 112,
+			"nameId": 265478668
+		},
+		{
+			"name": "Snipe",
+			"description": "Headshot an enemy with a Power sniper rifle",
+			"spriteIndex": 103,
+			"nameId": 4229934157
+		},
+		{
+			"name": "Perfect",
+			"description": "Kill an enemy with a precision weapon with peak efficiency",
+			"spriteIndex": 113,
+			"nameId": 1512363953
+		},
+		{
+			"name": "Bank Shot",
+			"description": "Kill an enemy with a ricochet",
+			"spriteIndex": 111,
+			"nameId": 2414983178
+		},
+		{
+			"name": "Fire & Forget",
+			"description": "Kill an enemy with an M41 SPNKr from far away",
+			"spriteIndex": 116,
+			"nameId": 988255960
+		},
+		{
+			"name": "Ballista",
+			"description": "Kill an enemy with a Skewer from far away",
+			"spriteIndex": 117,
+			"nameId": 4215552487
+		},
+		{
+			"name": "Pull",
+			"description": "Kill an enemy with a sniper rifle after they've been launched by a Man Cannon",
+			"spriteIndex": 129,
+			"nameId": 4132863117
+		},
+		{
+			"name": "No Scope",
+			"description": "Kill an enemy with a Power sniper rifle without zooming",
+			"spriteIndex": 119,
+			"nameId": 2602963073
+		},
+		{
+			"name": "Achilles Spine",
+			"description": "Kill an Overshielded enemy by hitting them from behind with melee",
+			"spriteIndex": 127,
+			"nameId": 3217141618
+		},
+		{
+			"name": "Grand Slam",
+			"description": "Kill 2+ enemies with a single Gravity Hammer swing",
+			"spriteIndex": 123,
+			"nameId": 1646928910
+		},
+		{
+			"name": "Guardian Angel",
+			"description": "Save an ally's life from far away",
+			"spriteIndex": 104,
+			"nameId": 3334154676
+		},
+		{
+			"name": "Interlinked",
+			"description": "Shock 4 enemies with a single chain",
+			"spriteIndex": 125,
+			"nameId": 651256911
+		},
+		{
+			"name": "Death Race",
+			"description": "Splatter 2+ enemies with a single boost in a Ghost",
+			"spriteIndex": 118,
+			"nameId": 677323068
+		},
+		{
+			"name": "Chain Reaction",
+			"description": "Kill an enemy with a shock chain",
+			"spriteIndex": 99,
+			"nameId": 1969067783
+		},
+		{
+			"name": "Splatter",
+			"description": "Kill an enemy by hitting them with a vehicle",
+			"spriteIndex": 101,
+			"nameId": 221693153
+		},
+		{
+			"name": "Counter-snipe",
+			"description": "Headshot an enemy while you both are zoomed with Power sniper rifles",
+			"spriteIndex": 158,
+			"nameId": 1477806194
+		}
+	],
+	"style": [
+		{
+			"name": "360",
+			"description": "Kill an enemy by shooting them moments after spinning around",
+			"spriteIndex": 153,
+			"nameId": 1427176344
+		},
+		{
+			"name": "Combat Evolved",
+			"description": "Catch a power weapon that was blasted off of a Weapon Pad with a Plasma Grenade",
+			"spriteIndex": 156,
+			"nameId": 641726424
+		},
+		{
+			"name": "Deadly Catch",
+			"description": "Grapple a weapon or object to you and immediately kill an enemy with it",
+			"spriteIndex": 152,
+			"nameId": 2396845048
+		},
+		{
+			"name": "Driveby",
+			"description": "Earn a Double Kill as a passenger",
+			"spriteIndex": 155,
+			"nameId": 197913196
+		},
+		{
+			"name": "Fastball",
+			"description": "Kill an enemy with the impact from a thrown grenade",
+			"spriteIndex": 157,
+			"nameId": 1211820913
+		},
+		{
+			"name": "Flyin' High",
+			"description": "Achieve a massive jump in a fully-loaded vehicle",
+			"spriteIndex": 134,
+			"nameId": 3739610597
+		},
+		{
+			"name": "From the Grave",
+			"description": "Kill an enemy after you die",
+			"spriteIndex": 137,
+			"nameId": 2625820422
+		},
+		{
+			"name": "From the Void",
+			"description": "Kill an enemy through a teleporter",
+			"spriteIndex": 144,
+			"nameId": 3588869844
+		},
+		{
+			"name": "Grapple-jack",
+			"description": "Grapple to and hijack an enemy vehicle",
+			"spriteIndex": 146,
+			"nameId": 690125105
+		},
+		{
+			"name": "Hold This",
+			"description": "Kill an enemy moments after dropping a weapon using your remaining gun",
+			"spriteIndex": 147,
+			"nameId": 175594566
+		},
+		{
+			"name": "Last Shot",
+			"description": "Kill an enemy with your magazine's last round",
+			"spriteIndex": 140,
+			"nameId": 3091261182
+		},
+		{
+			"name": "Lawnmower",
+			"description": "Destroy an enemy vehicle with the wheels of a Brute Chopper",
+			"spriteIndex": 145,
+			"nameId": 3475540930
+		},
+		{
+			"name": "Mount Up",
+			"description": "Assemble a fully-loaded vehicle of 2+ allies after honking the horn",
+			"spriteIndex": 135,
+			"nameId": 1065136443
+		},
+		{
+			"name": "Off the Rack",
+			"description": "Kill an enemy with a weapon moments after retrieving it from its spawn location",
+			"spriteIndex": 149,
+			"nameId": 1283796619
+		},
+		{
+			"name": "Quick Draw",
+			"description": "Kill an enemy with a pistol moments after switching to it",
+			"spriteIndex": 139,
+			"nameId": 2861418269
+		},
+		{
+			"name": "Party's Over",
+			"description": "Destroy a fully-loaded enemy Razorback",
+			"spriteIndex": 142,
+			"nameId": 3583966655
+		},
+		{
+			"name": "Pineapple Express",
+			"description": "Kill an enemy with a grenade as a passenger",
+			"spriteIndex": 151,
+			"nameId": 2019283350
+		},
+		{
+			"name": "Ramming Speed",
+			"description": "Destroy an enemy vehicle by hitting it with your own",
+			"spriteIndex": 143,
+			"nameId": 1298835518
+		},
+		{
+			"name": "Reclaimer",
+			"description": "Hijack an enemy vehicle that was once yours",
+			"spriteIndex": 136,
+			"nameId": 1445036152
+		},
+		{
+			"name": "Shot Caller",
+			"description": "Headshot an enemy moments after Marking them",
+			"spriteIndex": 148,
+			"nameId": 1169571763
+		},
+		{
+			"name": "Yard Sale",
+			"description": "Kill an enemy who had a Power weapon and a full inventory",
+			"spriteIndex": 150,
+			"nameId": 1176569867
+		},
+		{
+			"name": "Special Delivery",
+			"description": "Kill an enemy with a Man Cannon- or Grav Lift-boosted grenade",
+			"spriteIndex": 138,
+			"nameId": 275666139
+		},
+		{
+			"name": "Street Sweeper",
+			"description": "Kill an enemy with the CQS48 Bulldog as a passenger",
+			"spriteIndex": 154,
+			"nameId": 2967011722
+		},
+		{
+			"name": "Mounted & Loaded",
+			"description": "Earn a Double Kill with a stationary turret",
+			"spriteIndex": 141,
+			"nameId": 1331361851
+		},
+		{
+			"name": "Blind Fire",
+			"description": "Kill a distant enemy by shooting them from inside a Shroud Screen",
+			"spriteIndex": 165,
+			"nameId": 4007438389
+		}
+	]
+}
