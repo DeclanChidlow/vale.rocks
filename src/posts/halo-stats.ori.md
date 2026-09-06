@@ -17,7 +17,7 @@ I am not what one would call the greatest player of Halo to ever grace this plan
 
 Bungie must have been data fiends too, because their website, [bungie.net](https://www.halopedia.org/Bungie.net), used to be a haven for player stats. Hooking directly into Xbox Live, bungie.net was a brilliant hub of Halo stats and content. You could even see [things like heatmaps](https://bnetarchive.haloman30.com/Stats/halo3/heatmapstatsed76.html) showing where a player killed or got killed. Even details such as what weapons you were best with. Unfortunately, 343 Industries didn't keep the same level of detail when they took over the franchise. Some details are made accessible on Halo Waypoint, but they're a bit lacklustre, and not all tracked details are exposed.
 
-This page shows all my Halo stats, sourced from my [Service Records on Halo Waypoint](https://www.halowaypoint.com/players/outervale/service-records). The stats are not fetched automatically, as Halo Studios or Microsoft are liable to change authentication or the returned data, causing a surprise breakage. I instead fetch them manually when I feel the data has grown stale. Using the [ever-wonderful Web Origami dialect of JavaScript](/posts/web-origami), I then transform the data to populate this post. You can see when I last updated the data by referencing the modification date in the header.
+This page shows all my Halo stats, sourced from my [Service Records on Halo Waypoint](https://www.halowaypoint.com/players/outervale/service-records). The stats are not fetched automatically, as Halo Studios or Microsoft are liable to change authentication or the returned data, causing a surprise breakage. I instead fetch them manually when I feel the data has grown stale. Using the [ever-wonderful Web Origami dialect of JavaScript](/posts/web-origami) which I built this site upon, I then transform the data to populate this post. You can see when I last updated the data by referencing the modification date in the header.
 
 <details>
 <summary>Further data handling details</summary>
@@ -42,11 +42,10 @@ My MCC stats are particularly poor. If ever you've tried to play an old online g
 - Kills: ${ mcc.multiplayer.kills }
 - Deaths: ${ mcc.multiplayer.deaths }
 - Assists: ${ mcc.multiplayer.assists }
-- Average <abbr title="Kill-Death-Assist">KDA</abbr>: ${ mcc.multiplayer.gamesPlayed === 0 ? 0 : ((mcc.multiplayer.kills + (mcc.multiplayer.assists / 3) - mcc.multiplayer.deaths) / mcc.multiplayer.gamesPlayed).toFixed(2) }
+- Average <abbr title="Kill-Death-Assist">KDA</abbr>: ${ ((mcc.multiplayer.kills + (mcc.multiplayer.assists / 3) - mcc.multiplayer.deaths) / mcc.multiplayer.gamesPlayed).toFixed(2) }
 
-### Campaign
+### Campaigns
 
-- Missions Completed: ${ mcc.campaign.missionsCompleted }
 - Mission Kills: ${ mcc.campaign.missionKills }
 - Mission Deaths: ${ mcc.campaign.missionDeaths }
 
@@ -87,34 +86,45 @@ I've completed ${ infinite.MatchesCompleted } matches in my ${ assets/posts/halo
 
 ### Core Stats
 
+These are the totals across all game types (including Firefight, which massively inflates figures).
+
 - Score: ${ infinite.CoreStats.Score }
 - Personal Score: ${ infinite.CoreStats.PersonalScore }
-- Rounds Won: ${ infinite.CoreStats.RoundsWon }
-- Rounds Lost: ${ infinite.CoreStats.RoundsLost }
-- Rounds Tied: ${ infinite.CoreStats.RoundsTied }
+- Rounds Won: ${ infinite.CoreStats.RoundsWon } (${ ((infinite.CoreStats.RoundsWon / infinite.MatchesCompleted) * 100).toFixed(2) }%)
+- Rounds Lost: ${ infinite.CoreStats.RoundsLost } (${ ((infinite.CoreStats.RoundsLost / infinite.MatchesCompleted) * 100).toFixed(2) }%)
+- Rounds Tied: ${ infinite.CoreStats.RoundsTied } (${ ((infinite.CoreStats.RoundsTied / infinite.MatchesCompleted) * 100).toFixed(2) }%)
+- Win/Loss Ratio: ${ (infinite.Wins / (infinite.Losses)).toFixed(2) }
 - Kills: ${ infinite.CoreStats.Kills }
 - Deaths: ${ infinite.CoreStats.Deaths }
 - Assists: ${ infinite.CoreStats.Assists }
-- Average <abbr title="Kill-Death-Assist">KDA</abbr>: ${ infinite.CoreStats.AverageKDA }
-- Suicides: ${ infinite.CoreStats.Suicides }
+- Kill-to-death Ratio: ${ (infinite.CoreStats.Kills / (infinite.CoreStats.Deaths)).toFixed(2) }
+- Average <abbr title="Kill-Death-Assist">KDA</abbr>: ${ (infinite.CoreStats.AverageKDA).toFixed(2) }
+- Suicides: ${ infinite.CoreStats.Suicides } (${ ((infinite.CoreStats.Suicides / infinite.CoreStats.Deaths) * 100).toFixed(2) }%)
 - Betrayals: ${ infinite.CoreStats.Betrayals } _(sorry!)_
-- Grenade Kills: ${ infinite.CoreStats.GrenadeKills }
-- Headshot Kills: ${ infinite.CoreStats.HeadshotKills }
-- Melee Kills: ${ infinite.CoreStats.MeleeKills }
-- Power Weapon Kills: ${ infinite.CoreStats.PowerWeaponKills }
+- Grenade Kills: ${ infinite.CoreStats.GrenadeKills } (${ ((infinite.CoreStats.GrenadeKills / infinite.CoreStats.Kills) * 100).toFixed(2) }%)
+- Headshot Kills: ${ infinite.CoreStats.HeadshotKills } (${ ((infinite.CoreStats.HeadshotKills / infinite.CoreStats.Kills) * 100).toFixed(2) }%)
+- Melee Kills: ${ infinite.CoreStats.MeleeKills } (${ ((infinite.CoreStats.MeleeKills / infinite.CoreStats.Kills) * 100).toFixed(2) }%)
+- Power Weapon Kills: ${ infinite.CoreStats.PowerWeaponKills } (${ ((infinite.CoreStats.PowerWeaponKills / infinite.CoreStats.Kills) * 100).toFixed(2) }%)
 - Shots Fired: ${ infinite.CoreStats.ShotsFired }
-- Shots Hit: ${ infinite.CoreStats.ShotsHit }
-- Accuracy: ${ infinite.CoreStats.Accuracy }
+- Shots Hit: ${ infinite.CoreStats.ShotsHit } (${ (infinite.CoreStats.Accuracy).toFixed(2) }%)
 - Damage Dealt: ${ infinite.CoreStats.DamageDealt }
 - Damage Taken: ${ infinite.CoreStats.DamageTaken }
+- Damage Ratio: ${ (infinite.CoreStats.DamageDealt / (infinite.CoreStats.DamageTaken)).toFixed(2) }
 - Callout Assists: ${ infinite.CoreStats.CalloutAssists }
 - Vehicles Destroyed: ${ infinite.CoreStats.VehicleDestroys }
 - Driver Assists: ${ infinite.CoreStats.DriverAssists }
-- Hijacks: ${ infinite.CoreStats.Hijacks }
+- Vehicle Hijacks: ${ infinite.CoreStats.Hijacks }
 - <abbr title="Electro Magnetic Pulse">EMP</abbr> Assists: ${ infinite.CoreStats.EmpAssists }
 - Max Killing Spree: ${ infinite.CoreStats.MaxKillingSpree }
 - Spawns: ${ infinite.CoreStats.Spawns }
 - Objectives Completed: ${ infinite.CoreStats.ObjectivesCompleted }
+
+For exclusively player versus player interactions, excluding Firefight:
+
+- Kills: ${ infinite.PvpStats.Kills }
+- Deaths: ${ infinite.PvpStats.Deaths }
+- Assists: ${ infinite.PvpStats.Assists }
+- Kill-to-death Ratio: ${ (infinite.PvpStats.Kills / (infinite.PvpStats.Deaths)).toFixed(2) }
 
 ### Medals
 
@@ -122,19 +132,24 @@ ${ assets/posts/halo-stats/medal-list.js(assets/posts/halo-stats/infinite-medals
 
 ### Capture the Flag
 
-- Flag Capture Assists: ${ infinite.CaptureTheFlagStats.FlagCaptureAssists }
-- Flag Captures: ${ infinite.CaptureTheFlagStats.FlagCaptures }
-- Flag Carriers Killed: ${ infinite.CaptureTheFlagStats.FlagCarriersKilled }
+My favourite of Halo's game types. The goal is to capture the enemy flag and return it to your base. I very much play the objective and will throw away lives trying to get one up.
+
+- Flag Steals: ${ infinite.CaptureTheFlagStats.FlagSteals }
 - Flag Grabs: ${ infinite.CaptureTheFlagStats.FlagGrabs }
+- Flag Captures: ${ infinite.CaptureTheFlagStats.FlagCaptures }
+- Flag Capture Assists: ${ infinite.CaptureTheFlagStats.FlagCaptureAssists }
+- Flag Steal-to-Capture Conversion: ${ ((infinite.CaptureTheFlagStats.FlagCaptures / (infinite.CaptureTheFlagStats.FlagSteals)) * 100).toFixed(1) }%
+- Flag Carriers Killed: ${ infinite.CaptureTheFlagStats.FlagCarriersKilled }
 - Flag Returners Killed: ${ infinite.CaptureTheFlagStats.FlagReturnersKilled }
 - Flag Returns: ${ infinite.CaptureTheFlagStats.FlagReturns }
 - Flag Secures: ${ infinite.CaptureTheFlagStats.FlagSecures }
-- Flag Steals: ${ infinite.CaptureTheFlagStats.FlagSteals }
 - Kills as Flag Carrier: ${ infinite.CaptureTheFlagStats.KillsAsFlagCarrier }
 - Kills as Flag Returner: ${ infinite.CaptureTheFlagStats.KillsAsFlagReturner }
 - Time as Flag Carrier: ${ assets/posts/halo-stats/readable-duration.js(infinite.CaptureTheFlagStats.TimeAsFlagCarrier) }
 
-### Elimination
+### Attrition
+
+Slayer, but each team has a limited number of lives, and players can be revived. I usually feel like too much of a burden to my team.
 
 - Allies Revived: ${ infinite.EliminationStats.AlliesRevived }
 - Elimination Assists: ${ infinite.EliminationStats.EliminationAssists }
@@ -147,6 +162,8 @@ ${ assets/posts/halo-stats/medal-list.js(assets/posts/halo-stats/infinite-medals
 - Times Revived by Ally: ${ infinite.EliminationStats.TimesRevivedByAlly }
 
 ### Infection
+
+A group of survivors try to survive against zombies. Once slain, survivors join the zombie team to hunt down more survivors. I find this mode very stressful, so don't play it often.
 
 - Alphas Killed: ${ infinite.InfectionStats.AlphasKilled }
 - Spartans Infected: ${ infinite.InfectionStats.SpartansInfected }
@@ -163,6 +180,8 @@ ${ assets/posts/halo-stats/medal-list.js(assets/posts/halo-stats/infinite-medals
 
 ### Oddball
 
+Must hold onto a skull (the titular Oddball) to collect points, while stopping the enemy team from doing the same. Very much dependent on team members being helpful due to being unable to use weapons while holding the ball. Unfortunately, they are often not.
+
 - Kills as Skull Carrier: ${ infinite.OddballStats.KillsAsSkullCarrier }
 - Longest Time as Skull Carrier: ${ assets/posts/halo-stats/readable-duration.js(infinite.OddballStats.LongestTimeAsSkullCarrier) }
 - Skull Carriers Killed: ${ infinite.OddballStats.SkullCarriersKilled }
@@ -170,7 +189,9 @@ ${ assets/posts/halo-stats/medal-list.js(assets/posts/halo-stats/infinite-medals
 - Time as Skull Carrier: ${ assets/posts/halo-stats/readable-duration.js(infinite.OddballStats.TimeAsSkullCarrier) }
 - Skull Scoring Ticks: ${ infinite.OddballStats.SkullScoringTicks }
 
-### Zones
+### Total Control
+
+Teams must capture and control all designated areas on a map while preventing the enemy team from doing the same.
 
 - Zone Captures: ${ infinite.ZonesStats.ZoneCaptures }
 - Zone Defensive Kills: ${ infinite.ZonesStats.ZoneDefensiveKills }
@@ -181,6 +202,8 @@ ${ assets/posts/halo-stats/medal-list.js(assets/posts/halo-stats/infinite-medals
 
 ### Stockpile
 
+Two teams fighting for Power Seeds, which are located in neutral territory and must be collected and deposited at your base. I'm not much a fan of this gametype.
+
 - Kills as Power Seed Carrier: ${ infinite.StockpileStats.KillsAsPowerSeedCarrier }
 - Power Seed Carriers Killed: ${ infinite.StockpileStats.PowerSeedCarriersKilled }
 - Power Seeds Deposited: ${ infinite.StockpileStats.PowerSeedsDeposited }
@@ -188,26 +211,20 @@ ${ assets/posts/halo-stats/medal-list.js(assets/posts/halo-stats/infinite-medals
 - Time as Power Seed Carrier: ${ assets/posts/halo-stats/readable-duration.js(infinite.StockpileStats.TimeAsPowerSeedCarrier) }
 - Time as Power Seed Driver: ${ assets/posts/halo-stats/readable-duration.js(infinite.StockpileStats.TimeAsPowerSeedDriver) }
 
-### Player Vs Player
+### Firefight
 
-- Kills: ${ infinite.PvpStats.Kills }
-- Deaths: ${ infinite.PvpStats.Deaths }
-- Assists: ${ infinite.PvpStats.Assists }
-
-### Player Vs Everything (Firefight)
+Multiplayer or single-player wave defence against computer-driven enemies.
 
 - Kills: ${ infinite.PveStats.Kills }
 - Deaths: ${ infinite.PveStats.Deaths }
 - Assists: ${ infinite.PveStats.Assists }
-- Marine Kills: ${ infinite.PveStats.MarineKills }
-- Grunt Kills: ${ infinite.PveStats.GruntKills }
-- Jackal Kills: ${ infinite.PveStats.JackalKills }
-- Elite Kills: ${ infinite.PveStats.EliteKills }
-- Brute Kills: ${ infinite.PveStats.BruteKills }
-- Hunter Kills: ${ infinite.PveStats.HunterKills }
-- Skimmer Kills: ${ infinite.PveStats.SkimmerKills }
-- Sentinel Kills: ${ infinite.PveStats.SentinelKills }
-- Boss Kills: ${ infinite.PveStats.BossKills }
+- Grunt Kills: ${ infinite.PveStats.GruntKills } (${ ((infinite.PveStats.GruntKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
+- Jackal Kills: ${ infinite.PveStats.JackalKills } (${ ((infinite.PveStats.JackalKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
+- Elite Kills: ${ infinite.PveStats.EliteKills } (${ ((infinite.PveStats.EliteKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
+- Brute Kills: ${ infinite.PveStats.BruteKills } (${ ((infinite.PveStats.BruteKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
+- Hunter Kills: ${ infinite.PveStats.HunterKills } (${ ((infinite.PveStats.HunterKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
+- Skimmer Kills: ${ infinite.PveStats.SkimmerKills } (${ ((infinite.PveStats.SkimmerKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
+- Boss Kills: ${ infinite.PveStats.BossKills } (${ ((infinite.PveStats.BossKills / infinite.PveStats.Kills) * 100).toFixed(2) }%)
 
 <style>
 @media (min-width: 30rem) {
