@@ -336,6 +336,21 @@ Accelerated Mobile Pages (AMP) were restructured versions of pages optimised for
 
 Starting with Internet Explorer 9, 'Reading View' was introduced. By pressing a button which would appear in the browser chrome, you could get a simplified version of a page suited for reading. Pages could opt out of having this button shown by including the aforementioned meta tag.
 
+## FrontPage
+
+```html
+<!--webbot bot="Timestamp" s-type="EDITED" s-format="%B %d, %Y" startspan -->
+<!--webbot bot="Timestamp" i-checksum="54321" endspan -->
+<!--webbot bot="TableOfContents" s-component-title="Site Map" s-starting-point="index.htm" s-heading-level="3" startspan -->
+<!--webbot bot="TableOfContents" endspan -->
+<!--webbot bot="HitCounter" u-custom i-digits="6" startspan -->
+<!--webbot bot="HitCounter" endspan -->
+<!--webbot bot="PurpleText" preview="TODO: Replace product prices before launching sale page." startspan -->
+<!--webbot bot="PurpleText" endspan -->
+```
+
+Microsoft FrontPage was a <abbr title="What You See Is What You Get">WYSIWYG</abbr> website creation tool. Among other code, it would inject [WebBot Components](https://www.neusob.de/projekt/workshop/webbot.htm), such as those seen above. They were marked up as comments, so they wouldn't appear on a page directly, but they were processed by FrontPage Server Extensions (FPSE) and used in FrontPage's editor. Many of these WebBot Components existed, and developers could create their own using the FrontPage Software Developer's Kit.
+
 ## Really Simple Discovery
 
 ```html
