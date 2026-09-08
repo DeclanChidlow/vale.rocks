@@ -341,10 +341,13 @@ Starting with Internet Explorer 9, 'Reading View' was introduced. By pressing a 
 ```html
 <!--webbot bot="Timestamp" s-type="EDITED" s-format="%B %d, %Y" startspan -->
 <!--webbot bot="Timestamp" i-checksum="54321" endspan -->
+
 <!--webbot bot="TableOfContents" s-component-title="Site Map" s-starting-point="index.htm" s-heading-level="3" startspan -->
 <!--webbot bot="TableOfContents" endspan -->
+
 <!--webbot bot="HitCounter" u-custom i-digits="6" startspan -->
 <!--webbot bot="HitCounter" endspan -->
+
 <!--webbot bot="PurpleText" preview="TODO: Replace product prices before launching sale page." startspan -->
 <!--webbot bot="PurpleText" endspan -->
 ```
