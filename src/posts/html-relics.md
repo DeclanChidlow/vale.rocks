@@ -1,6 +1,6 @@
 ---
 title: Antiquated HTML Snippets and Artefacts
-description: Overviews of the very many snippets of code that were once commonly included on websites to address specific cases with certain technologies, browsers, operating systems, or extensions. Fragments dating back to the days of Internet Explorer and Netscape, to more modern bits that are nonetheless obsolete.
+description: Overviews of the very many snippets of HTML that were once commonly included on websites to address specific cases with certain technologies, browsers, operating systems, or extensions. Fragments dating back to the days of Internet Explorer and Netscape, to more modern bits that are nonetheless obsolete.
 og_description: We can mostly blame Internet Explorer, as always.
 pub_time: 2026-09-08
 section: Essay
@@ -37,7 +37,7 @@ Before Chrome took over the market, Google released an Internet Explorer plugin 
 ## ICBM Coordinate
 
 ```html
-<meta name="ICBM" content="31.9548, 115.8602">
+<meta name="ICBM" content="-31.9548, 115.8602">
 ```
 
 ICBM (an abbreviation of 'intercontinental ballistic missile') is hacker slang for one's geographical location that dates back to Usenet days. The meta tag was used for identifying the location of a website's subject and was referenced by the service [GeoURL](https://web.archive.org/web/20060701025123/http://geourl.org/) for plotting sites on the globe and helping people find sites of geographical proximity.
@@ -121,6 +121,14 @@ Much like slide deck applications such as Microsoft PowerPoint or Apple Keynote 
 ```
 
 Starting in Netscape Navigator in the mid-90s and then working its way over to Internet Explorer and other browsers, this non-standard meta tag would cause a page to break free of the parent page and open as a standalone browser window if it was loaded in a frame. It was popularly used by people to stop their pages from being embedded in frames on other sites. The `_top` `Window-target` specifies that a page should load in a _top_ level window. In the modern age people use security headers to prevent pages from being embedded.
+
+## Baidu Page Transcoding
+
+```html
+<meta http-equiv="Cache-Control" content="no-siteapp">
+```
+
+The Baidu Browser (<ruby>百<rt>bǎi</rt>度<rt>dù</rt>浏<rt>liú</rt>览<rt>lǎn</rt>器<rt>qì</rt></ruby>) included a page 'transcoding' feature on mobile which was immensely unpopular. Websites would be routed through `transcoder.baidu.com` and modified. Layouts would be restructured, styles stripped, images compressed, branding removed, and adverts on the site would be removed while Baidu Union (<ruby>百<rt>bǎi</rt>度<rt>dù</rt>联<rt>lián</rt>盟<rt>méng</rt></ruby>) adverts would be injected. It [heavily disrupted sites](https://zzz.buzz/zh/2017/04/10/baidu-mobile-seo-and-baidu-siteapp/). This tag would be added to sites from 2012 through to 2018 to opt out of this transcoding taking place.
 
 ## Skype Toolbar
 
@@ -259,6 +267,17 @@ These meta tags are now rendered obsolete by modern PWA definitions.
 
 `apple-touch-fullscreen` was used in some early demos for iOS 2, however, Apple's documentation only reflects `apple-mobile-web-app-capable`. Due to its presence in those early demos, `apple-touch-fullscreen` was popularised before the feature released, seemingly prompting Apple to make it an alias of `apple-mobile-web-app-capable`.
 
+## UC Browser and QQ Browser
+
+```html
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta name="x5-fullscreen" content="true">
+```
+
+UC Browser and QQ Browser were particularly popular browsers in Asia through the early to mid-2010s due to their heavy data savings and optimisation for cheap devices. UC Browser would use `screen-orientation` to force a specific display orientation and `full-screen` to hide the browser's chrome. QQ Browser would do the same, though with `x5-orientation` and `x5-fullscreen`. 'X5' in those meta names refer to Tencent's X5 browser engine. The meta tags are no longer needed due to the standard fullscreen and orientation APIs and popularisation of more capable browsers.
+
 ## PDA Optimised
 
 ```html
@@ -351,7 +370,7 @@ Before Facebook created [Open Graph](https://ogp.me), they had a 'Share Partners
 <meta name="twitter:image:alt" content="Alternative text for the image.">
 ```
 
-These meta tags (and some other, less frequently used ones) were used on Twitter when generating link embeds. However, the documentation and card validator are no longer accessible (previously at `https://dev.twitter.com/cards/getting-started` and `https://cards-dev.twitter.com/validator` respectively). X falls back to the widely respected Open Graph meta tags, making the Twitter-specific declarations largely useless. They should be removed in favour of Open Graph tags. Further, they should be removed because X is an awful site with poor moderation that is owned by a man who publicly performed a Nazi Sieg Heil salute and has directly contributed to the rise of fascism in the United States of America, among other horrors.
+These meta tags (and some other, less frequently used ones) were used on Twitter when generating link embeds. However, the documentation and card validator are no longer accessible (previously at `https://dev.twitter.com/cards/getting-started` and `https://cards-dev.twitter.com/validator` respectively). X falls back to the widely respected Open Graph meta tags, making the Twitter-specific declarations largely useless. They should be removed in favour of Open Graph tags. Further, they should be removed because X is an awful site with poor moderation that is owned by a man who publicly performed a Nazi Sieg Heil salute and has directly contributed to the rise of fascism in the United States of America and globally, among other horrors.
 
 ```html
 <meta name="twitter:dnt" content="on">
