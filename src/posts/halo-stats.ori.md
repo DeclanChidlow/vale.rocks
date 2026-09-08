@@ -82,7 +82,7 @@ ${ assets/posts/halo-stats/mcc-campaign.js(assets/posts/halo-stats/mcc-h4-campai
 
 Unlike MCC, I'm not quite as poorly matched in Halo Infinite on account of it being a newer game that is much more accessible and has a far greater active player population. It is also a really solid online game with the best gameplay of the series.
 
-I've completed ${ infinite.MatchesCompleted } matches in my ${ assets/posts/halo-stats/readable-duration.js(infinite.TimePlayed) } of playtime. Of those matches, I've won ${ infinite.Wins } of them, lost ${ infinite.Losses } of them, and tied in ${ infinite.Ties } of them.
+I've completed ${ infinite.MatchesCompleted } matches in my ${ assets/posts/halo-stats/readable-duration.js(infinite.TimePlayed) } of playtime since February of 2023. Of those matches, I've won ${ infinite.Wins } of them, lost ${ infinite.Losses } of them, and tied in ${ infinite.Ties } of them.
 
 ### Core Stats
 
