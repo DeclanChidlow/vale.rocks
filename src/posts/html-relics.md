@@ -125,10 +125,11 @@ Starting in Netscape Navigator in the mid-90s and then working its way over to I
 ## Baidu Page Transcoding
 
 ```html
-<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-siteapp,no-transform">
 ```
 
-The Baidu Browser (<ruby>百<rt>bǎi</rt>度<rt>dù</rt>浏<rt>liú</rt>览<rt>lǎn</rt>器<rt>qì</rt></ruby>) included a page 'transcoding' feature on mobile which was immensely unpopular. Websites would be routed through `transcoder.baidu.com` and modified. Layouts would be restructured, styles stripped, images compressed, branding removed, and adverts on the site would be removed while Baidu Union (<ruby>百<rt>bǎi</rt>度<rt>dù</rt>联<rt>lián</rt>盟<rt>méng</rt></ruby>) adverts would be injected. It [heavily disrupted sites](https://zzz.buzz/zh/2017/04/10/baidu-mobile-seo-and-baidu-siteapp/). This tag would be added to sites from 2012 through to 2018 to opt out of this transcoding taking place.
+The Baidu Browser (<ruby>百<rt>bǎi</rt>度<rt>dù</rt>浏<rt>liú</rt>览<rt>lǎn</rt>器<rt>qì</rt></ruby>) included a page 'transcoding' feature on mobile which was immensely unpopular. Websites would be routed through `transcoder.baidu.com` and modified. Layouts would be restructured, styles stripped, images compressed, branding removed, and adverts on the site would be removed while Baidu Union (<ruby>百<rt>bǎi</rt>度<rt>dù</rt>联<rt>lián</rt>盟<rt>méng</rt></ruby>) adverts would be injected. It [heavily disrupted sites](https://zzz.buzz/zh/2017/04/10/baidu-mobile-seo-and-baidu-siteapp/). One of these tags would be added to sites from 2012 through to 2018 to opt out of this transcoding taking place.
 
 ## Skype Toolbar
 
