@@ -67,7 +67,7 @@ In an era where browsers changed regularly and the vicious browser wars were in 
 | `false`  | Always evaluates to false.                                             |
 
 ```html
-<!-- &{navigator.appName == 'Netscape'}; 
+<!--&{navigator.appName == 'Netscape'};
 	<p>Only shown in Netscape.</p>
 -->
 
@@ -213,13 +213,21 @@ Very similar to the previously mentioned Pinned Site functionality, these values
 
 `msapplication-badge` was used [to define a web address to be polled for notifications](<https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/jj152137(v=vs.85)>) which would display on a site's Live Tile.
 
-## Chrome Pinned Web Apps
+## Chrome Pinned Sites
 
 ```html
 <meta name="application-url" content="https://vale.rocks">
 ```
 
 Google Chrome had some pinned web app functionality which would use `application-url` for the start URL.
+
+## Safari Pinned Sites
+
+```html
+<link rel="mask-icon" href="icon.svg" color="green">
+```
+
+Pinned Sites/Tabs in Safari allowed 'users to keep their favorite websites open, running, and easily accessible.'. An SVG icon for the Pinned Tab could be declared alongside a colour which the icon would use.
 
 ## CRX-less Web Apps
 
