@@ -84,7 +84,7 @@ Netscape [had its own way of handling conditional comments](https://www.masswerk
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 ```
 
-[Smart Tags](https://web.archive.org/web/20010625111031/http://www.microsoft.com/windows/ie/preview/smarttags/default.asp) was a system Microsoft introduced in Internet Explorer 6 which would automatically inject hyperlinks into pages.[^1] An example given by Microsoft was that 'a Smart Tag might detect the names of major companies on the Web and tag them, allowing you to access stock quotes and company information.'. Site owners were outraged, and the `MSSmartTagsPreventParsing` meta tag was introduced to allow opting out. Microsoft later dropped it from Internet Explorer entirely.
+[Smart Tags](https://web.archive.org/web/20010625111031/http://www.microsoft.com/windows/ie/preview/smarttags/default.asp) was a system Microsoft experimented with in beta versions of Internet Explorer 6 which would automatically inject hyperlinks into pages.[^1] An example given by Microsoft was that 'a Smart Tag might detect the names of major companies on the Web and tag them, allowing you to access stock quotes and company information.'. Site owners were outraged, and the `MSSmartTagsPreventParsing` meta tag was introduced to allow opting out. The feature didn't make it into a full release of Internet Explorer, though was implemented in Microsoft Word.
 
 ## PICS
 
