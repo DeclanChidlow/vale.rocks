@@ -50,7 +50,7 @@ ICBM (an abbreviation of 'intercontinental ballistic missile') is hacker slang f
 <![endif]-->
 ```
 
-In an era where browsers changed regularly and the vicious browser wars were in full force, it was sometimes important to target a specific browser or version of one. Microsoft handled this in Internet Explorer with specially formatted comments as seen in the snippet. There were a number of operators that could be used to further refine the condition:
+In an era where browsers changed regularly and the vicious browser wars were in full force, it was sometimes important to target a specific browser or version of one. Microsoft handled this in Internet Explorer with [specially formatted comments](https://www.haslayout.net/condcom.html) as seen in the snippet. These conditional comments, or 'condcoms' for short, could be written and refined using a number of operators:
 
 | Operator | Description                                                            |
 | :------: | :--------------------------------------------------------------------- |

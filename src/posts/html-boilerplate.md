@@ -34,7 +34,7 @@ It wasn't until HTML 2.0 -- the first formalised standard -- that a proper docum
 </BODY>
 ```
 
-In the years since HTML 2.0's 1995 debut, the web has changed massively. However, there is a saying in the web standards world: _'Don’t Break The Web'_. There are some exceptions, but on the whole a website developed at the web's inception should work in a modern browser, regardless of how much time has passed. To keep this compatibility, however, risks making changes impossible for fret of breaking existing sites.
+In the years since HTML 2.0's 1995 debut, the web has changed massively. However, there is a saying in the web standards world: _'Don't Break The Web'_. There are some exceptions, but on the whole a website developed at the web's inception should work in a modern browser, regardless of how much time has passed. To keep this compatibility, however, risks making changes impossible for fret of breaking existing sites.
 
 One way the web combats this is with certain elements that are expected in HTML documents. If the element is present, then it uses the new functionality. If not, it simply falls back to the old functionality. Pair that with what different integrations and systems across the web expect, and it means that there is rather a lot of 'boilerplate' -- code that is repeated across almost every new or maintained site. HTML boilerplate commonly both opts in to modern functionality and also sets site preferences and details. Assorted things such as how the site should embed on social media, what styles should be loaded, how the browser should theme surrounding the site, and other such details.
 
@@ -121,7 +121,7 @@ The first element I place in the `head` is always the `charset` `meta` tag with 
 
 When the first iPhone launched in 2007, it rendered desktop sites with the expectation of the user to zoom in and pan around. Apple introduced the above `meta` tag for sites that were actually optimised for mobile, and it was eventually picked up more widely across browsers such that now it is supported widely to make a site responsive.
 
-Many people will include `initial-scale=1.0`, however, after extensive testing and research, I've identified that [it isn't necessary to include any more](/micros/20260902-1350). It can be included to change the behaviour if an element horizontally overflows, but that is unnecessary [and I advise against it](/micros/20260908-1315).
+Many people will include `initial-scale=1`, however, after extensive testing and research, I've identified that [it isn't necessary to include any more](/micros/20260902-1350). It can be included to change the page's presentation if an element horizontally expands beyond the viewport width, but that should never be allowed to happen [and I advise against it](/micros/20260908-1315).
 
 `minimum-scale`, `maximum-scale`, and `user-scalable` all greatly harm accessibility and should never[^1] be used. They should generally be stripped from sites whenever noticed.
 
@@ -181,7 +181,7 @@ A favicon is an important bit of branding for all websites -- especially when it
 <meta property="og:image:height" content="630">
 ```
 
-The image defined in the `og:image` is often shown in a site's embed on the likes of social media or chat platforms. It is advantageous to include on almost every site, as it adds context and usually increases an embed's size for better recognition. Support for alt text on embedded images is middling, so it shouldn't be relied upon. Some sites support it, some ignore it, and some support it in odd ways. I make the effort to include it but keep it brief. 1200px by 630px is a widely supported size, and WebP is the best supported of the modern image formats I've tested.
+The image defined in the `og:image` is often shown in a site's embed on the likes of social media or chat platforms. It is advantageous to include on almost every site, as it adds context and usually increases an embed's size for better presence. Support for alt text on embedded images is middling, so it shouldn't be relied upon. Some sites support it, some ignore it, and some support it in odd ways. I make the effort to include it but keep it brief. 1200px by 630px is a widely supported size, and WebP is the best supported of the modern image formats I've tested.
 
 ```html
 <link rel="canonical" href="https://example.com/page">
