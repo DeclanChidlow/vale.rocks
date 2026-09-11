@@ -328,6 +328,14 @@ Only fully supported in Chrome between versions 13 and 62 and never specced, thi
 
 Accelerated Mobile Pages (AMP) were restructured versions of pages optimised for faster content loading. This tag was used to link to an AMP version of a page, however, Accelerated Mobile Pages are no longer widely used, and Google no longer pushes for them, making the tag unneeded.
 
+## Safari Footer Landmark
+
+```html
+<footer role="contentinfo"></footer>
+```
+
+Prior to Safari 13, the `contentinfo` landmark role [wasn't exposed properly to VoiceOver](https://trac.webkit.org/changeset/242051/webkit/) which was a significant accessibility problem. To address this, the `role` would be explicitly set on the page footer by developers.
+
 ## Internet Explorer Reading View
 
 ```html
@@ -407,6 +415,6 @@ Twitter also had a Do Not Track meta tag for opting out of tracking when using T
 
 ---
 
-This article isn't comprehensive. These are only the more popular or notable non-standard bits. There are so many more obscure bits drifting through the shatters of cyberspace. For the curious mind, some more are listed -- albeit without associated detail -- on [the WhatWG Wiki](https://wiki.whatwg.org/wiki/MetaExtensions).
+This article isn't comprehensive. These are only the more popular or notable non-standard bits. There are so many more obscure bits drifting through the shatters of cyberspace. For the curious mind, some more meta tags are listed -- albeit without associated detail -- on [the WhatWG Wiki](https://wiki.whatwg.org/wiki/MetaExtensions). There are also a very wide variety of similar [CSS relics from browser releases of years past](/posts/css-relics).
 
 [^1]: Google tried something very similar in late-2024 with a feature called '[Page Annotations](https://web.archive.org/web/20241121124222/https://support.google.com/websearch/thread/308719098/page-annotation-in-google-app-browser-for-ios?hl=en)' in their Google app on iOS. It was hated and ultimately discontinued in March 2025.
