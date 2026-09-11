@@ -25,7 +25,7 @@ _width: 200px;
 
 Most browsers, correctly, would treat a property prefixed with an asterisk as invalid. However, Internet Explorer 7 and earlier would treat it as valid. It was so famous it garnered the name 'star hack' for the shape of the asterisk. Likewise, when prefixing a property with an underscore or hyphen, _only_ Internet Explorer 6 would treat it as valid. There were _many_ more similar hacks used, the vast majority of which are best documented at the eponymous [browserhacks.com](http://browserhacks.com). The main gist is that some browsers would incorrectly parse properties, selectors, and values, and that could be used for gain in an era where browser behaviour was rather varied.
 
-Limiting CSS to apply only in certain browsers with conditional comments, such as could be done in HTML, wasn't possible.[^1] Therefore, this exploitation of questionable parsing of what is and isn't valid was commonplace for targeting specific browsers.
+Limiting CSS to apply only in certain browsers with conditional comments in CSS files, such as could be done in HTML documents, wasn't possible.[^1] Therefore, this exploitation of questionable parsing of what is and isn't valid was commonplace for targeting specific browsers.
 
 ## Important
 
@@ -35,7 +35,7 @@ background: red !interesting;
 
 Internet Explorer 7 and earlier would treat almost any textual string prefixed by an exclamation mark as `!important`. Most commonly, people would make use of this by writing `!ie` to have a style only override specificity in Internet Explorer. As far as Internet Explorer was concerned, the arbitrary `!banana` and the specced `!important` were the same, while other browsers correctly only accepted the latter.
 
-There was another related bug in Internet Explorer 6 and lower where a later declared style would overwrite an `!important` value. For example, here the colour would be black rather than white, as it should be:
+There was another related bug in Internet Explorer 6 and lower where a style declared later in the same block would overwrite an `!important` value. For example, here the colour would be black rather than white, as it should be:
 
 ```css
 color: white !important;
@@ -142,7 +142,7 @@ Internet Explorer version 5.5 introduced the ability to customise the appearance
 
 <figure class="right">
 <img src="/assets/posts/css-relics/ie-11-scrollbars.avif" alt="An Internet Explorer 11 windows with dark coloured scrollbars and red arrows.">
-<figcaption>The above scrollbar styles in Internet Explorer 11.</figcaption>
+<figcaption>The above scrollbar styles applied in Internet Explorer 11.</figcaption>
 </figure>
 
 For the arrow buttons and thumb, `face-color` set background, `highlight-color` set the inner left highlight, `3dlight-color` set the outer right highlight, `darkshadow-color` set the inner right shadow, `shadow-color` set the inner right shadow, and `arrow-color` set the arrow icons themselves. `track-color` obviously set the scrollbar track. There were even [full applications for generating the styles](https://www.yaldex.com/PadFiles/ColoredScrollBarsPad.htm).
@@ -186,11 +186,10 @@ A particular popular usage of this functionality was [Progressive Internet Explo
 
 ## Box Model Hack
 
-<!-- prettier-ignore -->
 ```css
 div {
 	width: 400px;
-	voice-family: "\"}\"";
+    voice-family: "\"}\"";
 	voice-family: inherit;
 	width: 300px;
 }
@@ -198,7 +197,21 @@ div {
 
 A [rather famous hack from Tantek Çelik](https://tantek.com/CSS/Examples/boxmodelhack.html). The `voice-family` property was used for specifying which voice family should be used when reading content aloud. The property wasn't supported by older browsers of the time, and the value was provided as a string. Due to a parser bug, Internet Explorer 5 would interpret `"\"}\""` as the closing of the current CSS block, leaving the other declarations invalid and allowed to slip past the browser undetected. This was important, as implementations of the [box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model) were differing.
 
-The Internet Explorer versions caught by the hack -- 5 and 5.5 -- handled the box model incorrectly. They would include padding and borders inside the declared width, rather than outside as they should have. Meanwhile, standard-compliant browsers which parsed the CSS correctly (with the exception of Opera, for which a further snippet would be included) supported the box model and would correctly handle borders and margins as being outside of the element's width.
+The Windows releases of Internet Explorer caught by the hack -- versions 5 and 5.5 -- handled the box model incorrectly. They would include padding and borders inside the declared width, rather than outside as they should have. Meanwhile, standard-compliant browsers which parsed the CSS correctly (with the exception of Opera, for which a further snippet would be included) supported the box model and would correctly handle borders and margins as being outside of the element's width.
+
+## Holly Hack
+
+```css
+/* Hides from IE5 on Mac \*/
+* html .element {
+	height: 1%;
+}
+/* End hide from IE5 on Mac */
+```
+
+Internet Explorer for Mac used an entirely different engine to Internet Explorer elsewhere. While most platforms used Trident/MSHTML, Explorer for Mac used Tasman, which had bugs of its own. One of these bugs was that comments with an escape character before closing (`\*/`) would be mishandled.
+
+The content before the next properly closed comment would be treated as a comment by Internet Explorer for Mac and thus not parsed, but other browsers would handle it properly. In the above snippet a [Holly Hack](https://web.archive.org/web/20150324181023/http://www.communitymx.com/content/article.cfm?page=2&cid=C37E0) (named for Holly Bergevin) is paired with [a hack browser detection](#document-level-browser-detection) targeting Internet Explorer 6 and earlier so that a fix to unwanted behaviour exclusive to Internet Explorer on Windows would _only_ apply to Internet Explorer on Windows.
 
 ## Double Margin Float
 
