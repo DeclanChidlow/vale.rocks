@@ -1,7 +1,7 @@
 ---
 title: Build, Use, and Improve Tools
 description: Why developers should create custom tools for repetitive tasks and one-off needs, with discussion of how LLMs can accelerate tool development, the learning benefits of building utilities, and how personal tools become valuable assets in your workflow and beyond.
-og_description: "&quot;The best investment is in the tools of one's own trade.&quot; - Benjamin Franklin"
+og_description: "'The best investment is in the tools of one's own trade.' - Benjamin Franklin"
 pub_time: 2025-03-21
 section: Essay
 tags: [development]

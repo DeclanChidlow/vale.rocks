@@ -2,7 +2,7 @@
 {
 	title: "Examining My Halo Service Record"
 	description: "Statistics and data from my playing of the video games in the Halo series. My data extracted from Halo Waypoint combined with some light analysis. Covering the games in the Master Chief Collection and Halo Infinite. Kills, deaths, and how they all happened."
-	og_description: "&quot;Data retrieval was not a command directive.&quot;"
+	og_description: "'Data retrieval was not a command directive.'"
 	pub_time: "2026-09-05"
 	section: "Essay"
 	tags: ["gaming"]
@@ -19,8 +19,10 @@ Bungie must have been data fiends too, because their website, [bungie.net](https
 
 This page shows all my Halo stats, sourced from my [Service Records on Halo Waypoint](https://www.halowaypoint.com/players/outervale/service-records). The stats are not fetched automatically, as Halo Studios or Microsoft are liable to change authentication or the returned data, causing a surprise breakage. I instead fetch them manually when I feel the data has grown stale. Using the [ever-wonderful Web Origami dialect of JavaScript](/posts/web-origami) which I built this site upon, I then transform the data to populate this post. You can see when I last updated the data by referencing the modification date in the header.
 
+This is a similar process to the one I employ for [Examining My Team Fortress Statistics](/posts/team-fortress-stats).
+
 <details>
-<summary>Further data handling details</summary>
+<summary>Further data details</summary>
 
 I load up the Halo Waypoint site in my browser, authenticate, and download my Service Records directly. My Halo Infinite Service Record comes from `https://halostats.svc.halowaypoint.com/hi/players/xuid(2535432479962354)/Matchmade/servicerecord?`. My Halo MCC Service Record comes from `https://mccapi.svc.halowaypoint.com/hmcc/users/gt(OuterVale)/service-record` with the campaign data coming from `https://mccapi.svc.halowaypoint.com/hmcc/users/gt(OuterVale)/service-record/{GAME}/campaign`. In the latter I substitute `{GAME}` for the game: 'h1', 'h2', 'h3', 'odst', 'reach', or 'h4'.
 
@@ -228,12 +230,17 @@ Multiplayer or single-player wave defence against computer-driven enemies.
 
 <style>
 @media (min-width: 30rem) {
-	article > div > ul {
+	article > div ul {
 		columns: 2;
 		column-gap: 2rem;
 
+		&:has(> li:only-child) {
+            columns: 1;
+        }
+
 		li {
 			break-inside: avoid;
+            margin-block-start: 0;
 		}
 	}
 }

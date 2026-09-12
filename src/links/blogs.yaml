@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 14 Jul 2026 00:00:00 +0000
+modTime: 11 Sep 2026 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -334,6 +334,10 @@ items:
     url: scottjehl.com
     atom: scottjehl.com/feed.xml
     description: Web design and development.
+  - title: Max Glenister
+    url: omgmog.net
+    atom: blog.omgmog.net/feed.xml
+    description: Technology posts mainly surrounding development and interface design.
   - title: utilitybend
     url: utilitybend.com
     rss: utilitybend.com/rss.xml
