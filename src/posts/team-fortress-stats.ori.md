@@ -1,6 +1,6 @@
 ---
 {
-	title: "Examining My Team Fortress Stats"
+	title: "Examining My Team Fortress Statistics"
 	description: "Statistics and data from my time playing Team Fortress 2. Everything that I can easily extract from the API, including my play activity as various classes, in various modes. Kills, damage inflicted, score, and other details with some light commentary where appropriate."
 	og_description: "'Let's see which of you is a statistical outlier.'"
 	pub_time: "2026-09-12"
