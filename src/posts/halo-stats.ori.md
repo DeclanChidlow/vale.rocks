@@ -4,7 +4,8 @@
 	description: "Statistics and data from my playing of the video games in the Halo series. My data extracted from Halo Waypoint combined with some light analysis. Covering the games in the Master Chief Collection and Halo Infinite. Kills, deaths, and how they all happened."
 	og_description: "'Data retrieval was not a command directive.'"
 	pub_time: "2026-09-05"
-	section: "Essay"
+	mod_time: "2026-09-15"
+	section: "Data"
 	tags: ["gaming"]
 	standardsite_rkey: "3murnqu7rgb2h"
 	(infinite): assets/posts/halo-stats/infinite.json
@@ -82,9 +83,16 @@ ${ assets/posts/halo-stats/mcc-campaign.js(assets/posts/halo-stats/mcc-h4-campai
 
 ## Halo Infinite
 
-Unlike MCC, I'm not quite as poorly matched in Halo Infinite on account of it being a newer game that is much more accessible and has a far greater active player population. It is also a really solid online game with the best gameplay of the series.
+Unlike MCC, I'm not quite as poorly matched in Halo Infinite on account of it being a newer game that is much more accessible and has a far greater active player population. It is also an extremely solid online game with the best gameplay of the series -- or at least it has grown into being one following its lacklustre 2021 launch.
 
-I've completed ${ infinite.MatchesCompleted } matches in my ${ assets/posts/halo-stats/readable-duration.js(infinite.TimePlayed) } of playtime since February of 2023. Of those matches, I've won ${ infinite.Wins } of them, lost ${ infinite.Losses } of them, and tied in ${ infinite.Ties } of them.
+<figure class="right shorter">
+<img src="/assets/posts/halo-stats/infinite-spartan.avif" alt="An almost insectoid-looking Spartan holding a pistol. The helmet exposes a brain-like plate with a colourful holographic accent which is also seen on shoulder plates. The rest of the armour plating is dark and worn with accents of green.">
+<figcaption>My multiplayer Spartan holding an Mk50 Sidekick. Applied is the Rakshasa armour core with the Abundant Growth coating, Mimir helmet, Unity visor, Tactor Augmentor shoulder pads, and Trapmaster's Map armour effect.</figcaption>
+</figure>
+
+It should be noted that the majority of my play time in Halo Infinite is primarily with network ping in excess of 300ms and with a controller with stick drift (I have [tried to fix it](/micros/20260808-0411) to no avail). I usually connect to the Sydney servers, which are some 3300KM away from my Xbox. On a handful of occasions I've been absolutely destroyed by Australian Halo YouTuber [Mint Blitz](https://www.youtube.com/@mintblitz).
+
+I've completed ${ infinite.MatchesCompleted } matches in my ${ assets/posts/halo-stats/readable-duration.js(infinite.TimePlayed) } of playtime since I first played the game in February of 2023. Of those matches, I've won ${ infinite.Wins } of them, lost ${ infinite.Losses } of them, and tied in ${ infinite.Ties } of them. That is a ${ ((infinite.Wins / infinite.MatchesCompleted) * 100).toFixed(2) }% win rate overall.
 
 ### Core Stats
 
@@ -92,9 +100,9 @@ These are the totals across all game types (including Firefight, which massively
 
 - Score: ${ infinite.CoreStats.Score }
 - Personal Score: ${ infinite.CoreStats.PersonalScore }
-- Rounds Won: ${ infinite.CoreStats.RoundsWon } (${ ((infinite.CoreStats.RoundsWon / infinite.MatchesCompleted) * 100).toFixed(2) }%)
-- Rounds Lost: ${ infinite.CoreStats.RoundsLost } (${ ((infinite.CoreStats.RoundsLost / infinite.MatchesCompleted) * 100).toFixed(2) }%)
-- Rounds Tied: ${ infinite.CoreStats.RoundsTied } (${ ((infinite.CoreStats.RoundsTied / infinite.MatchesCompleted) * 100).toFixed(2) }%)
+- Rounds Won: ${ infinite.CoreStats.RoundsWon } (${ ((infinite.CoreStats.RoundsWon / (infinite.CoreStats.RoundsWon + infinite.CoreStats.RoundsLost + infinite.CoreStats.RoundsTied)) * 100).toFixed(2) }%)
+- Rounds Lost: ${ infinite.CoreStats.RoundsLost } (${ ((infinite.CoreStats.RoundsLost / (infinite.CoreStats.RoundsWon + infinite.CoreStats.RoundsLost + infinite.CoreStats.RoundsTied)) * 100).toFixed(2) }%)
+- Rounds Tied: ${ infinite.CoreStats.RoundsTied } (${ ((infinite.CoreStats.RoundsTied / (infinite.CoreStats.RoundsWon + infinite.CoreStats.RoundsLost + infinite.CoreStats.RoundsTied)) * 100).toFixed(2) }%)
 - Win/Loss Ratio: ${ (infinite.Wins / (infinite.Losses)).toFixed(2) }
 - Kills: ${ infinite.CoreStats.Kills }
 - Deaths: ${ infinite.CoreStats.Deaths }
@@ -108,7 +116,7 @@ These are the totals across all game types (including Firefight, which massively
 - Melee Kills: ${ infinite.CoreStats.MeleeKills } (${ ((infinite.CoreStats.MeleeKills / infinite.CoreStats.Kills) * 100).toFixed(2) }%)
 - Power Weapon Kills: ${ infinite.CoreStats.PowerWeaponKills } (${ ((infinite.CoreStats.PowerWeaponKills / infinite.CoreStats.Kills) * 100).toFixed(2) }%)
 - Shots Fired: ${ infinite.CoreStats.ShotsFired }
-- Shots Hit: ${ infinite.CoreStats.ShotsHit } (${ (infinite.CoreStats.Accuracy).toFixed(2) }%)
+- Shots Hit (Accuracy): ${ infinite.CoreStats.ShotsHit } (${ (infinite.CoreStats.Accuracy).toFixed(2) }%)
 - Damage Dealt: ${ infinite.CoreStats.DamageDealt }
 - Damage Taken: ${ infinite.CoreStats.DamageTaken }
 - Damage Ratio: ${ (infinite.CoreStats.DamageDealt / (infinite.CoreStats.DamageTaken)).toFixed(2) }

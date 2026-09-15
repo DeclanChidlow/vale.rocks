@@ -126,7 +126,7 @@
 						<figcaption>
 							<img src="/assets/portfolio/testimonials-spritesheet.avif" alt="" style="object-position: 0 ${ testimonial.image-y };"/>
 							<div>
-								<a href="${ testimonial.website }">${ testimonial.entity }</a>
+								<a href="https://${ testimonial.website }">${ testimonial.entity }</a>
 								<span>${ Origami.mdHtml(testimonial.description) }</span>
 							</div>
 						</figcaption>
