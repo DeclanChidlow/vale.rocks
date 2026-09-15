@@ -9,7 +9,7 @@ tags: [Mac]
 standardsite_rkey: 3mn2d364hpc2x
 ---
 
-Seeing a listing for a MacBook at the price of $25 AUD triggers a certain thought in the demented mind of a creature such as myself. Sure, the listing title might open with 'FOR PARTS' and the description might have the cursed words 'crashes randomly and other odd behaviors', but what has one got to lose from giving it a go? $25?
+Seeing a listing for a MacBook at the price of \$25 AUD triggers a certain thought in the demented mind of a creature such as myself. Sure, the listing title might open with 'FOR PARTS' and the description might have the cursed words 'crashes randomly and other odd behaviors', but what has one got to lose from giving it a go? \$25?
 
 Full send it, I say. I went and picked it up locally, and the seller even threw in a pristine hardshell case. Lovely.
 
@@ -38,7 +38,7 @@ I can't say I'm too enamoured with Liquid Glass from a general design and usabil
 
 Despite not encountering the every-half-hour-crash issue myself, the logs did present themself when I first turned the MacBook on, so I inspected them. The relevant sections were:
 
-```
+```log
 panic(cpu 0 caller 0xfffffff0220736d4): userspace watchdog timeout: no successful checkins from com.apple.dfrd since load
 service: com.apple.dfrd, no successful checkins since load (180 seconds ago)
 service: com.apple.remoted, total successful checkins since load (180 seconds ago): 18, last successful checkin: 0 seconds ago
@@ -46,7 +46,7 @@ service: com.apple.bridgeaudiod, total successful checkins since load (180 secon
 service: com.apple.logd, total successful checkins since load (180 seconds ago): 19, last successful checkin: 0 seconds ago
 ```
 
-```
+```log
 CORE 0 is the one that panicked. Check the full backtrace for details.
 CORE 1: PC=0x00000001ae095c44, LR=0x00000001a961b558, FP=0x000000016d834490
 Total cpu_usage: 13758820

@@ -294,6 +294,10 @@
 - title: Clash of Clans
   release_year: 2012
   platforms: ["iOS"]
+- title: Fish Hooks
+  release_year: 2012
+  platforms: ["iOS"]
+  notes: A reasonable little puzzle game quite similar to Cut The Rope. Never had any exposure to the Fish Hooks cartoon.
 - title: Pizza Vs Skeletons
   release_year: 2012
   platforms: ["iOS"]

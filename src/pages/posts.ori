@@ -34,6 +34,7 @@
 						<option value="rant">Rants</option>
 						<option value="memoir">Memoirs</option>
 						<option value="fiction">Fiction</option>
+						<option value="data">Data</option>
 						<option value="meta">Meta</option>
 					</select>
 				</div>

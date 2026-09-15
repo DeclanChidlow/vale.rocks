@@ -4,7 +4,7 @@
 	description: "Statistics and data from my time playing Team Fortress 2. Everything that I can easily extract from the API, including my play activity as various classes, in various modes. Kills, damage inflicted, score, and other details with some light commentary where appropriate."
 	og_description: "'Let's see which of you is a statistical outlier.'"
 	pub_time: "2026-09-12"
-	section: "Essay"
+	section: "Data"
 	tags: ["gaming"]
     standardsite_rkey: "3mvd3mrs7q62h"
 	(tf2): assets/posts/team-fortress-stats/tf2-stats.json/playerstats/stats
@@ -260,6 +260,7 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 - Damage per Kill: ${ (tf2/Medic.accum.iDamageDealt/value / tf2/Medic.accum.iNumberOfKills/value).toFixed(0) }
 - Health Points Healed: ${ tf2/Medic.accum.iHealthPointsHealed/value }
 - ÜberCharges: ${ tf2/Medic.accum.iNumInvulnerable/value }
+- ÜberCharges per Hour: ${ ((tf2/Medic.accum.iNumInvulnerable/value / tf2/Medic.accum.iPlayTime/value) * 3600).toFixed(1) }
 - Buildings Destroyed: ${ tf2/Medic.accum.iBuildingsDestroyed/value }
 - Point Captures: ${ tf2/Medic.accum.iPointCaptures/value }
 - Point Defenses: ${ tf2/Medic.accum.iPointDefenses/value }

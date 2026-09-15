@@ -4,7 +4,7 @@ description: A look at website traffic to Vale.Rocks and a general analysis of t
 og_description: Nerding out on website analytics.
 pub_time: 2025-04-25
 mod_time: 2026-07-03
-section: Meta
+section: Data
 standardsite_rkey: 3mn2eearnl32p
 ---
 

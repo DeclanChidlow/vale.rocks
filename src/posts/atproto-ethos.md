@@ -85,7 +85,7 @@ JSON records conform to lexicons, which are schemas that keep data consistently 
 
 As an example, here is the record for my Bluesky profile, which is stored under the collection `app.bsky.actor.profile`:
 
-```JSON
+```json
 {
   "uri": "at://did:plc:7qg6mz2xtzozxkgbcvf4pdnu/app.bsky.actor.profile/self",
   "cid": "bafyreiavinef6pltfb4bxml7mbbq3gf53buben4fwxgaa7af2nxefa7zqa",
