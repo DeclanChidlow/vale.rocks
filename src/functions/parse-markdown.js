@@ -146,7 +146,7 @@ const EXCLUDED_OPEN_RX = /^<(code|script|style)[^>]*>/i;
 const EXCLUDED_CLOSE_RX = /^<\/(code|script|style)>/i;
 const ABBR_OPEN_RX = /^<abbr[^>]*>/i;
 const ABBR_CLOSE_RX = /^<\/abbr>/i;
-const ABBREV_RX = /\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*)\b/g;
+const ABBREV_RX = /(\\?)\b(?:\d+[A-Z]+[a-z]*|[A-Z]{3,}[a-z]*)\b/g;
 const ROMAN_NUMERAL_RX = /^(?=[MDCLXVI])M{0,4}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/;
 const CAPS_RX = /[A-Z]+/;
 const STARTS_DIGIT_RX = /^\d/;
@@ -190,18 +190,25 @@ function wrapAbbreviations(html) {
 			continue;
 		}
 
-		const processedSegment = segment.replace(ABBREV_RX, (match) => {
-			if (STARTS_DIGIT_RX.test(match)) {
-				const capitalPart = match.match(DIGIT_UPPER_RX)[0];
-				const lowercasePart = match.substring(capitalPart.length);
+		const processedSegment = segment.replace(ABBREV_RX, (match, slash) => {
+			const abbr = slash ? match.slice(1) : match;
+
+			// If a backslash was found, return the plain abbreviation.
+			if (slash) {
+				return abbr;
+			}
+
+			if (STARTS_DIGIT_RX.test(abbr)) {
+				const capitalPart = abbr.match(DIGIT_UPPER_RX)[0];
+				const lowercasePart = abbr.substring(capitalPart.length);
 				return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
 			}
 
-			const capitalPortion = match.match(CAPS_RX)[0];
-			if (ROMAN_NUMERAL_RX.test(capitalPortion)) return match;
+			const capitalPortion = abbr.match(CAPS_RX)[0];
+			if (ROMAN_NUMERAL_RX.test(capitalPortion)) return abbr;
 
-			const lowercasePart = match.match(LOWERCASE_END_RX)[0];
-			const capitalPart = match.substring(0, match.length - lowercasePart.length);
+			const lowercasePart = abbr.match(LOWERCASE_END_RX)[0];
+			const capitalPart = abbr.substring(0, abbr.length - lowercasePart.length);
 			return `<abbr>${capitalPart}</abbr>${lowercasePart}`;
 		});
 
