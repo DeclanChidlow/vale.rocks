@@ -1,62 +1,44 @@
-// Keys overlap, so they're all converted to namespaces
-{
-	...Tree.map(post_data.ori, {
-		key: (_, key) => `posts/${key}`
-	})
+[
+	...(post_data.ori → Tree.values)
 
-	...Tree.map(photography_data.ori, {
-		key: (_, key) => `photography/${key}`
-	})
+	...(photography_data.ori → Tree.values)
 
 	...((<https://vale.rocks/external/elsewhere.json>) → (_) => Tree.map(_, {
-		key: (elsewhere, key) => `elsewhere/${key}`
 		value: (elsewhere) => {
 			...elsewhere
 			type: "elsewhere"
 		}
-	}))
+	}) → Tree.values)
 
 	...(demo_data.yaml → (_) => Tree.map(_, {
-		key: (demo, key) => `demos/${key}`
 		value: (demo) => {
 			...demo
 			type: "demo"
 		}
-	}))
+	}) → Tree.values)
 
 	...(sign-up_data.yaml → (_) => Tree.map(_, {
-		key: (signUp, key) => `sign-ups/${key}`
 		value: (signUp) => {
 			...signUp
 			type: "sign-up"
 		}
-	}))
+	}) → Tree.values)
 
-	...Tree.map(
-		event_data.yaml → functions/expand-events.js,
-		{ key: (_, key) => `events/${key}` }
-	)
+	...(event_data.yaml → functions/expand-events.js → Tree.values)
 
-	...Tree.map(video_data.ori, {
-		key: (_, key) => `videos/${key}`
-	})
+	...(video_data.ori → Tree.values)
 
-	...Tree.map(pulse_data.ori, {
-		key: (_, key) => `pulse/${key}`
-	})
+	...(pulse_data.ori → Tree.values)
 
-	...Tree.map(micro_data.ori, {
-		key: (_, key) => `micros/${key}`
-	})
+	...(micro_data.ori → Tree.values)
 
-	...Tree.map(now_data.ori, {
-		key: (_, key) => `now/${key}`
+	...(now_data.ori → (_) => Tree.map(_, {
 		value: (now) => {
 			...now
 			pub_time: now.date_raw
 			type: "now-update"
 		}
-	})
-}
+	}) → Tree.values)
+]
 → (_) => Tree.sort(_, (item) => item.pub_time)
 → Tree.reverse

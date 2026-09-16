@@ -7,11 +7,11 @@
 		"audit": "ori audit src/site.ori"
 	},
 	"dependencies": {
-		"@weborigami/origami": "0.7.1",
-		"@weborigami/pagefind": "0.0.17",
+		"@weborigami/origami": "^0.7.3",
+		"@weborigami/pagefind": "^0.0.17",
 		"@weborigami/json-schema": "^0.0.15",
 		"highlight.js": "^11.12.0",
-		"marked": "^18.0.11",
+		"marked": "^18.0.13",
 		"marked-alert": "^2.1.2",
 		"marked-base-url": "^1.1.10",
 		"marked-footnote": "^1.4.0",
