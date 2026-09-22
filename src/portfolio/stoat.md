@@ -7,7 +7,7 @@ accent_colour: "#8c24ec"
 hoisted: 1
 ---
 
-[Stoat](<https://en.wikipedia.org/wiki/Stoat_(software)>) is an open-source, user-first chat application, similar in functionality to Discord or Slack. During my time with the project, I have helped scale it from less than 100K users to over a million.
+[Stoat](<https://en.wikipedia.org/wiki/Stoat_(software)>) is an open-source, user-first chat application, similar in functionality to Discord or Slack. During my time with the project, I have helped scale it from less than 100K users to far beyond a million.
 
 Stoat may have grown substantially, and commitments mean that the exact number of core team members fluctuates, but the count has remained under 10 members. As a result, I've worn many hats and taken the title of 'Doer of Assorted Things'.
 

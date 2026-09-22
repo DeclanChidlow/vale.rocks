@@ -16,4 +16,4 @@ Accessibility is _always_ a primary consideration in any work, but in the contex
 
 I assisted in the design phase using **Figma** before moving on to building applications with **React**, **React Native (via Expo)**, and **PHP** to target a wide target audience of end users and potential specialised devices. A core part of my involvement with the project was ensuring that we could have quick, iterable demonstrations that were implemented in such a way that they could be swiftly scaled up without incurring significant overhead.
 
-This role allowed me to hone my skills in web development and API integrations, as well as gain some experience building a native, cross-platform application.
+This role allowed me to hone my skills in web development and <abbr title="Application Programming Interface">API</abbr> integrations, as well as gain some experience building a native, cross-platform application.

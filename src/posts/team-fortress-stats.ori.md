@@ -4,6 +4,7 @@
 	description: "Statistics and data from my time playing Team Fortress 2. Everything that I can easily extract from the API, including my play activity as various classes, in various modes. Kills, damage inflicted, score, and other details with some light commentary where appropriate."
 	og_description: "'Let's see which of you is a statistical outlier.'"
 	pub_time: "2026-09-12"
+	mod_time: "2026-09-22"
 	section: "Data"
 	tags: ["gaming"]
     standardsite_rkey: "3mvd3mrs7q62h"
@@ -14,7 +15,7 @@
 
 Team Fortress 2 is a great game. It is also a deeply unserious one. I'm not sure how much value can be extracted from the gameplay statistics of an online multiplayer experience where it is not uncommon to killbind for a laugh or to decide not to kill anyone for an entire match and instead chill with the enemy. Team Fortress 2 is a deeply unserious game with a deeply unserious community.
 
-Nevertheless, this page presents my stats for [Team Fortress 2](http://teamfortress.com), Valve's 2007 class-based multiplayer first-person shooter, since I first played it on the 28th of April 2020. I'm dubious of the accuracy of these statistics, so they should be taken with a grain of salt.
+Nevertheless, this page presents my stats for [Team Fortress 2](http://teamfortress.com), Valve's 2007 class-based multiplayer first-person shooter, since I first played it on the 28th of April 2020. I'm dubious of the accuracy of these statistics, so they should be taken with a grain of salt. What is tracked is very limited, and omits negative statistics, such as deaths. Though, with objective-based gamemodes, kill-to-death ratios don't have much bearing on performance. One could stay alive and kill the enemy team effectively, but that is worthless if the objective is not being completed.
 
 Team Fortress 2 data is all kept and stored on Steam so can be easily accessed. I fetch the data manually on occasion and then use [Web Origami](/posts/web-origami) to transform it to this readable page. When I last fetched the data is evidenced by the modification data in this post's header.
 
@@ -51,6 +52,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 
 ### Scout
 
+Being a manic movement-mechanic enjoying player, one would think that I'd be a major fan of Scout. However, his movement is a tad boring compared to the rocket and sticky jumping of Soldier and Demoman, the flare jumping or jetpack boosting of Pyro, blast jump mirroring of the Quickfix, and other movement mechanics. Yes, Scout can double jump (or triple jump with the Atomizer) and do some interesting things with the Force-a-Nature, but the low health makes anything too tricky too risky. I like to be rather goofy when playing TF2, but Scout is too punishing for that play style.
+
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Scout.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Scout") })
 - Kills: ${ tf2/Scout.accum.iNumberOfKills/value }
 - Kills per Hour: ${ assets/posts/team-fortress-stats/stats.js(tf2, "classKillsPerHour", "Scout") }
@@ -75,6 +78,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 - Most Revenges: ${ tf2/Scout.max.iRevenge/value }
 
 ### Soldier
+
+Soldier feels about as close to a 'default' class as you can get in TF2. Soldier is easy to play though has a high skill ceiling, as is expected of a TF2 class. I'll reach for the class to dish out damage, but only when it is necessary for team composition.
 
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Soldier.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Soldier") })
 - Kills: ${ tf2/Soldier.accum.iNumberOfKills/value }
@@ -110,6 +115,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 - Points Scored: ${ tf2/Soldier.mvm.accum.iPointsScored/value } (Best: ${ tf2/Soldier.mvm.max.iPointsScored/value })
 
 ### Pyro
+
+<kbd>W</kbd>+<kbd>M1</kbd> is the ultimate play strategy. Pair it with the Thermal Thruster and you're set to be a right pest. It is a shame there is no tracking for 'amount of players air blasted sent plummeting to their doom by me crouched around the corner'.
 
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Pyro.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Pyro") })
 - Kills: ${ tf2/Pyro.accum.iNumberOfKills/value }
@@ -147,6 +154,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 
 ### Demoman
 
+Like Soldier, Demoman is the go-to 'damage dealer'. I'm very dynamic in switching weapons with Demoman based on circumstance. The Loch-n-Load is the obvious case for dealing with Engineer's buildings due to the increased damage to buildings, while I quite enjoy the Loose Cannon for its fuse control, faster projectile speed, and ability to '<span style="font-family: fantasy; color: var(--yellow); paint-order: stroke fill; -webkit-text-stroke: 2px var(--black); filter: drop-shadow(0 0 0.25rem var(--magenta));">Donk! 2x</span>'. I'm partial to the Scottish Resistance for setting up traps -- particuarly huge minefields with 14 stickies deployed. I don't play much Demoknight, as I find TF2's melee mechanics to be lacklustre.
+
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Demoman.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Demoman") })
 - Kills: ${ tf2/Demoman.accum.iNumberOfKills/value }
 - Kills per Hour: ${ assets/posts/team-fortress-stats/stats.js(tf2, "classKillsPerHour", "Demoman") }
@@ -183,6 +192,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 
 ### Heavy
 
+I find Heavy to be a slog to play. Heavy is so easily countered by Spy and Sniper but has zero recourse against the latter. Once respawned, it then takes three years to return to the front lines. More than perhaps any other class, without the support of your team Heavy is unviable against anyone who has even the vaguest understanding of the game.
+
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Heavy.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Heavy") })
 - Kills: ${ tf2/Heavy.accum.iNumberOfKills/value }
 - Kills per Hour: ${ assets/posts/team-fortress-stats/stats.js(tf2, "classKillsPerHour", "Heavy") }
@@ -208,6 +219,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 - Longest Life: ${ assets/posts/team-fortress-stats/readable-duration.js(tf2/Heavy.mvm.max.iPlayTime/value) }
 
 ### Engineer
+
+The snowballing of building up a nest and upgrading buildings is fantastically enjoyable. There is a lovely gameplay loop of staying on your toes and remaining aware of the ever-lurking Spy looking to do you in. Engineer's unlockables also make him an extremely varied class. From long-distance repair with the Rescue Ranger, to a Mini-Sentry with the Gunslinger, to manual control with the Wrangler, and projectile destruction with the Short Circuit.
 
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Engineer.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Engineer") })
 - Kills: ${ tf2/Engineer.accum.iNumberOfKills/value }
@@ -252,6 +265,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 
 ### Medic
 
+I love playing support classes. Medic, especially with the Vaccinator. I love juggling the various damage resistances based on situation and the dynamic gameplay that comes with it, though it does come at the cost of slurs from the enemy team. Also, Battle Medic for the win!
+
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Medic.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Medic") })
 - Kills: ${ tf2/Medic.accum.iNumberOfKills/value }
 - Kills per Hour: ${ assets/posts/team-fortress-stats/stats.js(tf2, "classKillsPerHour", "Medic") }
@@ -295,6 +310,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 
 ### Sniper
 
+A lot of people play Sniper, but having many Snipers on a team's lineup is a detriment. I've never played much Sniper because it is so rare that my doing so would actually add to the team.
+
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Sniper.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Sniper") })
 - Kills: ${ tf2/Sniper.accum.iNumberOfKills/value }
 - Kills per Hour: ${ assets/posts/team-fortress-stats/stats.js(tf2, "classKillsPerHour", "Sniper") }
@@ -317,6 +334,8 @@ My most played class is ${ assets/posts/team-fortress-stats/stats.js(tf2, "top",
 - Most Points: ${ tf2/Sniper.max.iPointsScored/value }
 
 ### Spy
+
+Like Sniper, the average public server has more than enough people playing Spy. The times where I will opt for Spy are when there are no other Spy players on the team, or when an Engineer's nest needs sapping.
 
 - Playtime: ${ assets/posts/team-fortress-stats/hours.js(tf2/Spy.accum.iPlayTime/value) } (${ assets/posts/team-fortress-stats/stats.js(tf2, "share", "Spy") })
 - Kills: ${ tf2/Spy.accum.iNumberOfKills/value }

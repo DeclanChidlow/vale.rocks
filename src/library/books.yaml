@@ -1,4 +1,12 @@
 # $schema: books-schema.yaml
+- title: This Is For Everyone
+  release_year: 2025
+  authors: Tim Berners-Lee
+  notes: I have an interest in web history, and the beginning half of this book covered it nicely from Tim Berners-Lee's perspective. It especially captured the early petitioning for its success and his motivations and vision. The latter half twisted more into artificial intelligence, governance, and how it relates to Solid, which I found less interesting.
+  reads:
+    - start: 2026-09-13
+      finish: 2026-09-19
+      status: Read
 - title: Careless People
   release_year: 2025
   authors: Sarah Wynn-Williams

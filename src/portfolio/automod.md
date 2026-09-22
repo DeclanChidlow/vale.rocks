@@ -1,13 +1,13 @@
 ---
 title: AutoMod
-description: A popular moderation bot developed for Stoat that protects over 230K users across over 8K servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
+description: A popular moderation bot developed for Stoat that protects over 250K users across over 9K servers. I maintain and host this open-source community safety tool, complete with comprehensive documentation.
 og_description: Moderation bot for Stoat that keeps communities safe.
 tags: [moderation, design, Stoat, development, front-end]
 accent_colour: "#ff6763"
 hoisted: 4
 ---
 
-AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **8700 servers** with a combined total user count in excess of **230,000 people**.
+AutoMod is a moderation and utility bot for the chat platform [**Stoat**](https://stoat.chat), of which I am a core team member. It is one of the most popular bots on the platform, being present in over **9300 servers** with a combined total user count in excess of **257,000 people**.
 
 <figure class="right">
 <img src="https://automod.vale.rocks/assets/images/filter_example.avif" alt="A user adds the word 'poo' to the filter list using '/filter add poo'. AutoMod confirms the addition with 'strictness HARD.'" style="background: light-dark(var(--black), transparent); padding: 1rem;">
@@ -72,4 +72,4 @@ I also created [AutoDice](https://automod.vale.rocks/blog/introducing-autodice),
 
 ---
 
-The entire AutoMod project is open-source and can be [found on Tangled](https://tangled.org/vale.rocks/AutoMod) under the AGPL v3.
+The entire AutoMod project is open-source and can be [found on Tangled](https://tangled.org/vale.rocks/AutoMod) under the <abbr title="Affero General Public License">AGPL</abbr> v3.

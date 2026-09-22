@@ -21,4 +21,4 @@ Through working on Adduce, I've gained invaluable experience and insights. Despi
 
 Adduce has proven itself in the field, with several [sites using it in production](https://github.com/DeclanChidlow/Adduce?tab=readme-ov-file#sites-using-adduce). I also put together a [landing page for the project](https://adduce.vale.rocks) with links to the [comprehensive documentation](https://github.com/DeclanChidlow/Adduce/wiki) I've written.
 
-The project is completely open source under the LGPL v3, with all the source code and documentation being [available on GitHub](https://github.com/DeclanChidlow/Adduce). Contributions are welcome.
+The project is completely open source under the <abbr="Lesser General Public License">LGPL</abbr> v3, with all the source code and documentation being [available on GitHub](https://github.com/DeclanChidlow/Adduce). Contributions are welcome.
