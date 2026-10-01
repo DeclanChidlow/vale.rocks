@@ -3,7 +3,7 @@ title: The Analytics of This Site
 description: A look at website traffic to Vale.Rocks and a general analysis of the analytics. Particularly looking at popular referrers and the variance from general web analytics.
 og_description: Nerding out on website analytics.
 pub_time: 2025-04-25
-mod_time: 2026-07-03
+mod_time: 2026-10-01
 section: Data
 standardsite_rkey: 3mn2eearnl32p
 ---
@@ -20,19 +20,19 @@ My analytics tool of choice, [GoatCounter](https://www.goatcounter.com), collect
 
 My readership is not representative of a general audience. As a byproduct of my chosen topics and most popular writings, my readership is largely technical. This is manifested in the data in multiple ways.
 
-As of December 2025, [statcounter's Browser Market Share Worldwide data](https://gs.statcounter.com/browser-market-share/) places Chrome at 71.23%, Edge at 4.6%, Safari at 14.84%, and Firefox at 2.25% market share. Vale.Rocks is at contrast to this with Chrome and Edge at 54%, Safari at 34%, and Firefox at 11%. Given that Firefox still supports [Manifest v2](/posts/everything-is-chrome#manifest-v3), it is the natural choice for adblockers. As such, it may actually be _under_-represented in this data.
+As of August 2026, [statcounter's Browser Market Share Worldwide data](https://gs.statcounter.com/browser-market-share/) places Chrome at 69.28%, Edge at 5.39%, Safari at 15.92%, and Firefox at 2.98% market share. Vale.Rocks is at contrast to this with Chrome and Edge at 55%, Safari at 33%, and Firefox at 11%. Given that Firefox still supports [Manifest v2](/posts/everything-is-chrome#manifest-v3), it is the natural choice for adblockers. As such, it may actually be _under_-represented in this data.
 
-_Going off the figure that [31.5% of people globally use adblockers](https://backlinko.com/ad-blockers-users) (a figure which [might be conservative](https://www.theregister.com/2024/03/27/america_ad_blocker/)), my statistics are possibly 30% or more larger_. Though it might be even higher due to my technical audience, which is more likely to use adblockers and block tracking.
+_Going off the figure that [29.5% of people globally use adblockers](https://backlinko.com/ad-blockers-users) as of quarter 2, 2025, (a figure which [might be conservative](https://www.theregister.com/2024/03/27/america_ad_blocker/)), my statistics are possibly 30% or more larger_. Though it is likely even higher due to my technical audience, which is more likely to use adblockers and block tracking.
 
 [Plausible claims that, overall, 58% of people in tech-savy audiences block Google Analytics](https://plausible.io/blog/google-analytics-adblockers-missing-data). They consider tech-savvy audiences to mainly be Hacker News readers and Reddit users -- two of my biggest referrers. They claim that 88% of Firefox users block Google Analytics, and 82% of Linux users do as well, which are both already over-represented in my data.
 
-GoatCounter reports iOS as the most used operating system (32%), but it is also the most difficult of all the major operating systems to install content blockers onto. It is followed by MacOS (24%), then Android (21%), then Windows (18%), then Linux (5%). MacOS and Linux are represented more than they are generally, but I would expect that from a technical audience. It also seems twisted people occasionally [tune in from Windows Phones](https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I).
+GoatCounter reports macOS as the most used operating system (28%), followed by iOS (26%), then Windows (21%), then Android (18%), then Linux (7%). MacOS and Linux are represented more than they are generally, but I would expect that from a technical audience. It also seems twisted people occasionally [tune in from Windows Phones](https://fedi.vale.rocks/notice/AhZNOGmyxVKCXHtW5I) and game consoles. The latter primarily due to [my writing on the topic](/posts/game-console-browsers).
 
 This all likely leads to _under_-representing what is already _over_-represented in my analytics -- at least as compared to a more general, less niche audience. If you'd like to attempt to extrapolate the actual values based on the above notes, you're welcome to, but I'll be presenting the data values as they come from GoatCounter even though that under-represents figures due to the reasons discussed above.
 
-By a sizable margin (~81%), most site visitors speak English, as you'd expect from a website written in English. This tends to be followed by German at around the 3-4% mark and then French and Spanish. Beyond that, there is too much flux and numbers get too small to be of much note.
+By a sizable margin (~80%), most site visitors speak English, as you'd expect from a website written in English. This tends to be followed by German at around the 3-4% mark and then French and Spanish. Beyond that, there is too much flux and numbers get too small to be of much note.
 
-As you'd expect based on languages, Western countries are the biggest readers. The United States of America is in the lead at 34%. I'd assume this is in no small part due to Hacker News. The United Kingdom follows at 9% with Germany close behind at 6%. This is followed by Canada, India, the Netherlands, France, and Australia, all at 3-4%. I'd also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.
+As you'd expect based on languages, Western countries are the biggest readers. The United States of America is in the lead at 34%. I'd assume this is in no small part due to Hacker News. The United Kingdom follows at 9% with Germany close behind at 7%. This is followed by Canada, India, the Netherlands, France, and Australia, all at 3-4%. I'd also like to extend a greeting to my small readership of tax evaders in the Cayman Islands.
 
 In the below lists of top referrers, alternate front-end are not counted. To keep track is too complex and never a complete task. As an example, there are _a lot_ of Hacker News front-ends. _A lot_.
 
@@ -40,7 +40,7 @@ In the below lists of top referrers, alternate front-end are not counted. To kee
 
 ### Quarter 1
 
-_For the quarter running from 01/01/2026 until 31/03/2026._
+_For the quarter running from 01/01/2026 through 31/03/2026._
 
 Curious about content blocking numbers, I thought to compare the number reported by Google Search Console to the number reported by GoatCounter during this period. Search Console reported 1,320 clicks from Google, and GoatCounter reported 1,269 visits from Google. Alas, this actually isn't very useful data, as there is too much at play and it is too limited.
 
@@ -64,7 +64,7 @@ Top referrers:
 
 ### Quarter 2
 
-_For the quarter running from 01/04/2026 until 30/06/2026._
+_For the quarter running from 01/04/2026 through 30/06/2026._
 
 First time seeing a significant number of hits from YouTube (402 in total). Mostly from Kevin Powell's video [Google might have just killed websites](https://www.youtube.com/watch?v=Xpk7soxvOMY).
 
@@ -86,6 +86,28 @@ Top referrers:
 4. [Bluesky](https://bsky.app) - 1,494 hits
 5. [GitHub](https://github.com) - 706 hits
 
+### Quarter 3
+
+_For the quarter running from 01/07/2026 through 30/09/2026._
+
+Total hits during this period: 53,928
+
+Most popular pages:
+
+1. [Antiquated HTML Snippets and Artefacts](/posts/html-relics) - 12,369 hits
+2. [CSS-Tricks in Limbo](/micros/20260915-0135) - 10,084 hits
+3. [CSS Curiosities of the Past](http://vale.rocks/posts/css-relics) - 5,451 hits
+4. [My HTML Boilerplate](/posts/html-boilerplate) - 5,341 hits
+5. [Landing](/) - 2,638 hits
+
+Top referrers:
+
+1. _Unknown_ - 18,943 hits
+2. [Hacker News](https://news.ycombinator.com) - 15,102 hits
+3. [Bluesky](https://bsky.app) - 1,861 hits
+4. [Google](https://google.com) - 1,455 hits
+5. [Reddit](https://reddit.com) - 1,055 hits
+
 ## 2025
 
 I wrote more in 2025 than I have any year previously, and it is beyond my belief how much traffic my site received. My mind boggles in an attempt to visualise such a number of people in one place. As someone who very rarely subscribes to newsletters, I'm amazed by how much reach some popular newsletters have.
@@ -94,28 +116,28 @@ Total hits during this period: 88,144
 
 Overall, the most popular pages were:
 
-1. [AI is Stifling Tech Adoption](/posts/ai-is-stifling-tech-adoption) 29,371 - hits
+1. [AI is Stifling Tech Adoption](/posts/ai-is-stifling-tech-adoption) - 29,371 hits
 2. [Landing](/) - 7,056 hits
-3. [My Experience Biohacking](/posts/my-experience-biohacking) 6,884 - hits
-4. [Open-Source is Just That](/posts/open-source-entitlement) 6,373 - hits
-5. [Everything Is Chrome](/posts/everything-is-chrome) 3,574 - hits
-6. [You Can't Opt-Out of Accessibility](/posts/accessibility-importance) 3,317 - hits
-7. [Frequently Asked Unicycling Questions](/posts/unicycle-faq) 2,859 - hits
-8. [Portfolio](/portfolio) 2,813 - hits
-9. [How I Configure Neovim](/posts/neovim) 2,548 - hits
-10. [Posts](/posts) 2,286 - hits
+3. [My Experience Biohacking](/posts/my-experience-biohacking) - 6,884 hits
+4. [Open-Source is Just That](/posts/open-source-entitlement) - 6,373 hits
+5. [Everything Is Chrome](/posts/everything-is-chrome) - 3,574 hits
+6. [You Can't Opt-Out of Accessibility](/posts/accessibility-importance) - 3,317 hits
+7. [Frequently Asked Unicycling Questions](/posts/unicycle-faq) - 2,859 hits
+8. [Portfolio](/portfolio) - 2,813 hits
+9. [How I Configure Neovim](/posts/neovim) - 2,548 hits
+10. [Posts](/posts) - 2,286 hits
 
 Overall, the top referrers were:
 
-1. [Hacker News](https://news.ycombinator.com) 27,623 - hits
-2. _Unknown_ 25,985 - hits
-3. [TLDR](https://tldr.tech) 4,315 - hits
-4. [Reddit](https://reddit.com) 4,077 - hits
-5. [Google](https://google.com) 1,560 - hits
+1. [Hacker News](https://news.ycombinator.com) - 27,623 hits
+2. _Unknown_ - 25,985 hits
+3. [TLDR](https://tldr.tech) - 4,315 hits
+4. [Reddit](https://reddit.com) - 4,077 hits
+5. [Google](https://google.com) - 1,560 hits
 
 ### Quarter 1
 
-_For the quarter running from 01/01/2025 until 31/03/2025._
+_For the quarter running from 01/01/2025 through 31/03/2025._
 
 Total hits during this period: 50,094
 
@@ -137,7 +159,7 @@ Top referrers:
 
 ### Quarter 2
 
-_For the quarter running from 01/04/2025 until 30/06/2025._
+_For the quarter running from 01/04/2025 through 30/06/2025._
 
 Total hits during this period: 15,777
 
@@ -159,7 +181,7 @@ Top referrers:
 
 ### Quarter 3
 
-_For the quarter running from 01/07/2025 until 30/09/2025._
+_For the quarter running from 01/07/2025 through 30/09/2025._
 
 Total hits during this period: 8,523
 
@@ -181,7 +203,7 @@ Top referrers:
 
 ### Quarter 4
 
-_For the quarter running from 01/10/2025 until 31/12/2025._
+_For the quarter running from 01/10/2025 through 31/12/2025._
 
 Total hits during this period: 13,750
 
