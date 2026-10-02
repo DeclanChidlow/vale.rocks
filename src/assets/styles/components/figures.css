@@ -89,7 +89,7 @@ figure {
 	}
 
 	&:hover .open svg,
-	&:focus .open svg {
+	&:focus-within .open svg {
 		opacity: 1;
 	}
 }
@@ -120,7 +120,7 @@ figcaption {
 	z-index: -1;
 	scale: 1.05;
 	filter: blur(1rem);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 
 	@media (prefers-color-scheme: dark) {

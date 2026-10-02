@@ -8,7 +8,8 @@ class FigureGlowLightbox {
 		if (figure.querySelector("img")) {
 			this.addBlurEffect(figure);
 		}
-		const dialog = this.createDialog(figure, index);
+
+		const dialog = this.createDialog(figure);
 		document.body.appendChild(dialog);
 
 		const button = document.createElement("button");
@@ -38,9 +39,11 @@ class FigureGlowLightbox {
 		dialog.ariaLabel = "Image Lightbox";
 		dialog.className = "lightbox";
 
-		const content = (figure.querySelector("img") || figure.querySelector("svg")).cloneNode(true);
+		const mediaToClone = figure.querySelector("picture") || figure.querySelector("img") || figure.querySelector("svg");
+		const content = mediaToClone.cloneNode(true);
 
 		dialog.append(content);
+
 		const figcaption = figure.querySelector("figcaption");
 		if (figcaption) {
 			const caption = figcaption.cloneNode(true);
@@ -48,7 +51,15 @@ class FigureGlowLightbox {
 			dialog.appendChild(caption);
 		}
 
-		const altText = content.tagName === "svg" ? content.querySelector("desc")?.textContent : content.getAttribute("alt");
+		let altText = null;
+		if (content.tagName === "SVG") {
+			altText = content.querySelector("desc")?.textContent;
+		} else if (content.tagName === "PICTURE") {
+			altText = content.querySelector("img")?.getAttribute("alt");
+		} else {
+			altText = content.getAttribute("alt");
+		}
+
 		if (altText) {
 			const altElement = document.createElement("p");
 			altElement.className = "alt-text";
@@ -68,16 +79,24 @@ class FigureGlowLightbox {
 		const img = figure.querySelector("img");
 		if (!img) return;
 
+		const elementToWrap = figure.querySelector("picture") || img;
+
 		const wrapper = document.createElement("div");
 		wrapper.className = "figure-content-wrapper";
 
 		const blur = document.createElement("div");
 		blur.className = "blur";
-		blur.style.backgroundImage = `url('${img.src}')`;
+
+		const updateBlurBackground = () => {
+			blur.style.backgroundImage = `url('${img.currentSrc || img.src}')`;
+		};
+
+		updateBlurBackground();
+		img.addEventListener("load", updateBlurBackground);
 
 		wrapper.appendChild(blur);
-		img.parentNode.insertBefore(wrapper, img);
-		wrapper.appendChild(img);
+		elementToWrap.parentNode.insertBefore(wrapper, elementToWrap);
+		wrapper.appendChild(elementToWrap);
 	}
 }
 

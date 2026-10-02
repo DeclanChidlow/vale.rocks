@@ -5,7 +5,6 @@ og_description: Static site generator bringing web projects to life.
 tags: [development]
 accent_colour: "#0019c6"
 repository: github.com/DeclanChidlow/Adduce
-hoisted: 3
 ---
 
 After experimenting with some popular static site generators, I found myself wanting something a bit different -- a tad more conducive to my workflow. So, I figured I'd try making one myself.
