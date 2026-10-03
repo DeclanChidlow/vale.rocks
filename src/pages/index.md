@@ -33,6 +33,8 @@ When not bodging together scripts (both the kinds you run and the kinds you read
         
 Today I'm at the [DDD Perth](https://dddperth.com) conference. I'm giving my talk 'Newly Acquired Powers of the Web Platform' at 14:50 local time in the Cygnet room on level 2. If you're attending the conference, send me a message. I'd love to have a chat.
 
+I've [published the slides](https://slides.cloudflare-7twxg.workers.dev/decks/newly-acquired-powers-of-the-web-platform/), at least until the recording of the talk goes public.
+
 </div>
 
 </section>
