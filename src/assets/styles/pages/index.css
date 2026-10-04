@@ -192,10 +192,3 @@ main {
 		display: none;
 	}
 }
-
-.ddd {
-	margin-block-start: 3rem;
-	background: var(--bright_red);
-	color: var(--black);
-	padding: 3rem
-}

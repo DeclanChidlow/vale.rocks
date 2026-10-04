@@ -27,16 +27,6 @@ I'm both a front-end developer and writer. As a developer I have a skew towards 
 
 When not bodging together scripts (both the kinds you run and the kinds you read), you may find me cruising around on a unicycle, browsing the crevices of cyberspace, or inadvertently converting an otherwise functional piece of technology into a paperweight.
 
-<div class="ddd">
-
-## DDD Perth
-        
-Today I'm at the [DDD Perth](https://dddperth.com) conference. I'm giving my talk 'Newly Acquired Powers of the Web Platform' at 14:50 local time in the Cygnet room on level 2. If you're attending the conference, send me a message. I'd love to have a chat.
-
-I've [published the slides](https://slides.cloudflare-7twxg.workers.dev/decks/newly-acquired-powers-of-the-web-platform/), at least until the recording of the talk goes public.
-
-</div>
-
 </section>
 
 <section data-pagefind-ignore>
