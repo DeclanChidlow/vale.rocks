@@ -20,9 +20,9 @@ Plenty of speakers have riders, including [Matthias Ott](https://matthiasott.com
 
 Your event must have a public code of conduct. It should define what is acceptable and what isn't, as well as how violations of the code will be enforced. It should be explicit and mustn't be buried away somewhere. This is absolutely critical, and lacking one is a deal breaker for me.
 
-The venue must be accessible to people who make use of mobility aids. It is basic human decency not to exclude people because of a disability, assuming a solution can be found. I take digital accessibility extremely seriously in my work, and I'm not willing to compromise on it. Masks should also be accepted and provided, with details on what ill attendees should do.
+The venue must be accessible to people who make use of mobility aids. It is basic human decency not to exclude people because of a disability when alternative arrangements can be made or a solution for their access can be found. I take digital accessibility extremely seriously in my work, and I'm not willing to compromise on it. Masks should also be accepted and provided, with details on what ill attendees should do.
 
-I expect a reasonable degree of diversity of speakers at any event. Many conferences (especially tech ones) tend to be dominated by able-bodied, white, cisgender men of high socio-economic status from the same collection of countries. Such a lineup is not representative of the wide variety of viewports and experiences that should be represented at an event. I don't want a token minority to tick a box; I want a varied speaker lineup. Diversity makes communities strong.
+I expect a reasonable degree of diversity of speakers at any event. Many conferences (especially tech ones) tend to be dominated by able-bodied, white, cisgender men of high socio-economic status from the same collection of countries. Such a lineup is not representative of the wide variety of viewpoints and experiences that should be represented at an event. I don't want a token minority to tick a box; I want a varied speaker lineup. Diversity makes communities strong.
 
 Time limits for talks must be enforced. I will honour them, and it is unfair for someone else's talk to creep over and into somebody else's time. It inconveniences the person whose slot is being disrupted, and it throws off the whole day's schedule.
 
