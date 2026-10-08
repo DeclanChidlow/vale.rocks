@@ -2,8 +2,9 @@
 
 @layer {
 	*,
-	*::before,
-	*::after {
+	::before,
+	::after,
+	::details-content {
 		box-sizing: border-box;
 		background-repeat: no-repeat;
 	}

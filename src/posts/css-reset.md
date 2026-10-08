@@ -3,6 +3,7 @@ title: My Opinionated CSS Reset
 description: A CSS reset for modern web development to provide a consistent and high-quality base for projects. Low-specificity and very opinionated to provide a strong foundation allowing seamless use in projects of varying scales and complexity.
 og_description: "* { all: unset; }"
 pub_time: 2026-01-22
+mod_time: 2026-10-08
 section: Essay
 tags: [front-end, CSS]
 standardsite_rkey: 3mn2dsmysar2s
@@ -23,8 +24,9 @@ Here is my complete unabridged reset:
 ```css
 @layer {
 	*,
-	*::before,
-	*::after {
+	::before,
+	::after,
+	::details-content {
 		box-sizing: border-box;
 		background-repeat: no-repeat;
 	}
@@ -170,14 +172,15 @@ The first thing you may notice in my reset is that it is entirely contained with
 
 ```css
 *,
-*::before,
-*::after {
+::before,
+::after,
+::details-content {
 	box-sizing: border-box;
 	background-repeat: no-repeat;
 }
 ```
 
-I find `content-box` to be unintuitive and confusing. I much prefer `border-box`'s inclusion of an element's padding and border in the width and height as a default.
+I find `content-box` to be unintuitive and confusing. I much prefer `border-box`'s inclusion of an element's padding and border in the width and height as a default. A [universal pseudo selector in CSS](https://kilianvalkhof.com/2026/css-html/id-like-to-have-a-universal-pseudo-selector-in-css/) would be really nice to use here should another element come along in the future. 
 
 Backgrounds repeating has always seemed to me like an unreasonable default that is overwritten more often than not, so I disable it.
 
