@@ -6,7 +6,7 @@
 
 main header {
 	margin-block-end: 3rem;
-	inline-size: calc(100vw - 13rem);
+	inline-size: calc(100vi - 13rem);
 	min-inline-size: 100%;
 	max-inline-size: 75rem;
 	border-bottom: 2px solid light-dark(var(--black), var(--bright_white));
@@ -136,8 +136,8 @@ article .readable p:first-child {
 }
 
 #challenger {
-	margin-block-start: 70vh;
-	margin-block-end: 20vh;
+	margin-block-start: 70vb;
+	margin-block-end: 20vb;
 	clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 13%);
 	animation: challenger-reveal ease-in both;
 	animation-timeline: view();

@@ -83,7 +83,7 @@ article {
 
 	.readable {
 		text-align: center;
-		padding-inline: clamp(0rem, 10vw, 4rem);
+		padding-inline: clamp(0rem, 10vi, 4rem);
 
 		svg {
 			display: block;

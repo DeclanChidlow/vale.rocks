@@ -1,17 +1,17 @@
 ---
 title: How I'm Using AI
-description: An overview of my personal usage of Large Language Models (LLMs) and other generative AI. Tracking my experiences with AI tools, specific models (ChatGPT, Claude, Gemini, etc), applying them practically, and realistic perspective on their strengths and limitations over time, from coding attempts to language learning assistance.
+description: An overview of my personal usage of Large Language Models (LLMs) and other generative AI. Tracking my experiences with AI tools, specific models (ChatGPT, Claude, Gemini, DeepSeek, etc), applying them practically, and realistic perspective on their strengths and limitations over time, from coding attempts to language learning assistance.
 og_description: As long as AI isn't using me...
 pub_time: 2025-05-02
-mod_time: 2026-05-15
+mod_time: 2026-10-08
 section: Essay
 tags: [AI, LLMs]
 standardsite_rkey: 3mn2djkrb2n2v
 ---
 
-AI is a divisive technology, and it has a lot of flaws. I'm not an AI evangelist, but I don't think it is a useless technology. I think we need more people engaging in realistic conversations about the technology and about how they can, do, and don't use it. This post is me trying to be part of the change I'd like to see by writing realistically about how I use and approach AI, including what doesn't work.
+Artificial Intelligence (AI) is a divisive technology, and it has a lot of flaws. I'm not an AI evangelist, but I don't think it is a useless technology. I think we need more people engaging in realistic conversations about the technology and about how they can, do, and don't use it. This post is me trying to be part of the change I'd like to see by writing realistically about how I use and approach AI, including what doesn't work.
 
-I have an interest in the underlying technologies behind large language models such that I spend time understanding and studying how they work and how the field is progressing. This sets me up well to use them in an effective manner while minimising the negative impacts. I usually understand why they fail in the odd and specific ways they do as a result of understanding how they work, and this helps me work around and mitigate common failure modes.
+I have an interest in the underlying technologies behind large language models (LLMs) such that I spend time understanding and studying how they work and how the field is progressing. This sets me up well to use them in an effective manner while minimising the negative impacts. I usually understand why they fail in the odd and specific ways they do as a result of understanding how they work, and this helps me work around and mitigate common failure modes.
 
 I am not certain that people without this underlying interest in LLMs entirely benefit from using them. Even knowing some of the shortcomings on a surface level isn't quite enough to work around the problems intrinsic to the transformer architecture. I remain unconvinced that LLMs have a net positive impact for most people without an understanding of their core mechanics.
 
@@ -101,7 +101,19 @@ Throughout early 2026 I remained on Gemini 3. I started a one-month free trial o
 
 In April I tried agentic coding, with a model given free-roam of a computer to make file changes and execute shell commands. It managed simple tasks, but models of all sizes seemed to get stuck on large changes, going in loops for as long as I'd leave them, just circling the problem. I found this extremely underwhelming, and diligently reviewing every single change was realistically no different to using an external interface and far less risky from a security perspective.
 
-In May, I gave agentic coding another try, partly because a lot of work expects competency with AI-driven development. I tried Google Antigravity, which seemed to do a decent enough job but did a lot of the same problem-circling (even with Google's current flagship model). Thinking about how often chatbots upchuck completely rubbish suggestions that one must skip past or step in to redirect, I suppose that it is no surprise that one must micromanage an agent to stop it going off-track. I also tried Codex CLI from OpenAI, which is certainly one of the slicker terminal apps I've ever used. It thoroughly educated me on how expensive agents can be when I asked for a simple bug (just some incorrect merging of some values) to be fixed, and it swiftly burnt through $5 AUD. I get the impression that people who are seeing great success with agents are spending a _lot_ of money.
+In May, I gave agentic coding another try, partly because a lot of work expects competency with AI-driven development. I tried Google Antigravity, which seemed to do a decent enough job but did a lot of the same problem-circling (even with Google's current flagship model). Thinking about how often chatbots upchuck completely rubbish suggestions that one must skip past or step in to redirect, I suppose that it is no surprise that one must micromanage an agent to stop it going off-track. I also tried Codex CLI from OpenAI, which is certainly one of the flashier terminal apps I've ever used. It thoroughly educated me on how expensive agents can be when I asked for a simple bug (just some incorrect merging of some values) to be fixed, and it swiftly burnt through $5 AUD. I get the impression that people who are seeing great success with agents are spending a _lot_ of money.
+
+In late June I decided to try agentic coding again. I saw the outcomes some people were seeing and felt compelled to replicate it myself. Claude Code was extremely popular as a terminal agent solution, so I figured I'd give it a try. I set it up on my [$25 MacBook Pro](/posts/25-dollar-macbook) for an experience closest to what I know tech bros use. Instead of Claude, which is costly, I set it up to use DeepSeek by providing DeepSeek's API endpoints. I used `deepseek-v4-pro` and `deepseek-v4-flash`, DeepSeek's then latest models, to test a game concept I had.
+
+I'm not a game developer, and this was a concept I had mediocre faith in. If it worked, I'd consider spending time learning Godot to create it myself, but there is enough friction that I'm unwilling to do so without a quick test of the concept. I either test it via an easier path (in this case AI) or won't do it at all. After a few follow-up prompts and a few dollars in tokens, I had a buggy mess that let me test my idea. Collision and many details were a mess, but it let me gauge if there was something here. I wasn't completely convinced by the idea, so didn't pursue it, but I wouldn't have had any idea had I not vibe-coded it. This was never anything I had intent to ship to an end user but was valuable for letting me test an idea. In having an LLM put the concept together, though, I did miss out on some of the potential for experimenting and changing details in development to fully explore the idea. While not a big deal in this case, it'd be a loss elsewhere.
+
+I followed up my game development experiment with some attempts at Android app concepts for my personal usage. I tried the sort of little tools and utilities I'd usually just build on the web just to gauge capability. They worked but regularly used old approaches for Android development that Android Studio complained about -- even when I instructed it not to. This is [no new issue](/posts/ai-is-stifling-tech-adoption).
+
+During August I switched from using Claude Code on my MacBook Pro, which I'd used for the previously mentioned tests, to using [OpenCode](https://opencode.ai) [on my primary laptop](/posts/a-year-with-the-framework-laptop-13). The difference between Claude Code and OpenCode was night and day. OpenCode is leagues faster, smoother, and more configurable. I continued using DeepSeek, only using it during off-peak periods, which cost half as much.
+
+I still dislike using LLMs for anything 'final'; however, I feel I've turned a corner into understanding that AI is going to be the future of software development. Regardless of how that makes me feel, I know it now to be true. I'm sure there will be an audience for 'artisan', hand-written software, but the days of humans authoring the majority of code are clearly meeting their match as of September 2026. Even should AI development impossibly completely halt, open models are of a capability that everything being AI-authored is set as the future.
+
+In early October, Google [dropped free access to Gemini Flash and Pro](https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/), spelling an end to my usage of the models. I'd been using them for writing feedback and as imperfect fact checkers.
 
 ## Specific Usage
 
@@ -115,7 +127,7 @@ However, AI can positively _assist_ in the writing process. I often write alone 
 
 It is valuable in this way more like a debug duck than an assistant. Not necessarily providing good analysis, but prompting the thought needed to overcome a hurdle. LLMs sometimes serve in more of an editor role. For instance, when struggling to rephrase a clunky sentence, asking an LLM for a few alternative phrasings often sparks the exact direction I need, though I can't say I've ever used any of the suggestions directly.
 
-I can get some feedback from an LLM in the same way I can get feedback from more typical grammar and style checkers. Offering suggestions similar to what a human reviewer might, picking up on wordiness or less-than-ideal grammar without changing my meaning and while remaining aware of context so as not to take unwanted action.
+I can get some feedback from an LLM in the same way I can get feedback from more typical grammar and style checkers. Offering suggestions similar to what a human reviewer might, picking up on wordiness, run on sentences, or less-than-ideal grammar without changing my meaning and while remaining aware of context so as not to take unwanted action.
 
 Apart from those uses, though, the absolute most useful function of LLMs when writing is their capabilities as context-aware thesauruses, as I realised back in 2023. Thesauruses are great, but sometimes one finds themself using words in more abstract or unique contexts where the typical equivalents don't quite fit. LLMs can recognise and process this where other tools can't.
 
@@ -127,7 +139,7 @@ I will happily get AI models to generate large portions of code, but any non-vib
 
 When I use AI to generate code, I do it separate from my editor. Every experience I have had with in-editor AI has been poor unless I give it complete control, which I dislike doing for what I hope are obvious reasons. Even if I give it full control, it is still not a silver bullet and is beholden to many flaws. AI is a tool, not a replacement, so leaving it to do things on its own usually goes awry.
 
-Inline suggestions are the most egregious of all the ways AI tries to help me in-editor. It gets directly underfoot and in my way to the fullest extent it can. Suggestions are worse than what can be sourced from my LSP or elsewhere in my buffer and are frequently so wrong they're distracting.
+Inline suggestions are the most egregious of all the ways AI tries to help me in-editor. It gets directly underfoot and in my way to the fullest extent it can. Suggestions are worse than what can be sourced from my Language Server Protocol (LSP) or elsewhere in my buffer and are frequently so wrong they're distracting.
 
 Instead, I'll always opt for an external interface where I supply the relevant code and allow it to be handled as I wish, and this works extremely smoothly. This is also often more cost-effective given available free plans for flagship models. I'm very careful with my usage and ensure that I understand and am capable of everything that is output.
 

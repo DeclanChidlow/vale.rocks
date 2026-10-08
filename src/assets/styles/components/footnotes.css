@@ -46,7 +46,7 @@
 .footnote-popover {
 	position: fixed;
 	inline-size: 100%;
-	max-inline-size: min(var(--article-width, 60ch), 100vw - 2rem);
+	max-inline-size: min(var(--article-width, 60ch), 100vi - 2rem);
 	inset-block-start: anchor(bottom);
 	inset-inline-start: 13.5rem;
 	margin-block-start: 0.5rem;

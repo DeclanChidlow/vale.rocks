@@ -11,7 +11,7 @@ img {
 }
 
 .long img {
-	inline-size: min(60vw, 35rem);
+	inline-size: min(60vi, 35rem);
 	object-fit: cover;
 	object-position: top;
 	mask-image: linear-gradient(black 90%, transparent);

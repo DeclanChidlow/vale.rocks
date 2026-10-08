@@ -142,7 +142,7 @@ In February 2009, [there was an experiment](https://web.archive.org/web/20110618
 
 ## Themes
 
-Following the death of significant individuals, the Hacker News navigation bar gains a thin black top border to commemorate them. The black bar was [first used in June 2009](https://news.ycombinator.com/item?id=644954) upon the passing of Rajeev Motwani.
+Following the death of significant individuals, the Hacker News navigation bar gains a thin black top border to commemorate them. The black bar was [first used in June 2009](https://news.ycombinator.com/item?id=644954) upon the passing of Rajeev Motwani. There isn't a consistent or built-in method to see who the black bar is for, however it can usually be surmised by viewing the front page.
 
 On Christmas day, Hacker News takes a festive colour scheme. The usually orange navigation bar becomes a deep red, and the usually grey numbers indicating a post's ranking alternate between red and green.
 
