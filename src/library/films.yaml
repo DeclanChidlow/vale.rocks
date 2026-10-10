@@ -1180,11 +1180,11 @@
 - title: Thunderbird 6
   release_year: 1968
   rating: 4.5
-  notes: Certainly not one of the best films, but certainly one of my favourites.
+  notes: Imperfect, but certainly one of my favourites. The score is just lovely. It is this sort of cohesive suite that intertwines the established Thunderbirds arrangements with various motifs and adjustments. The rendition of The Man on the Flying Trapeze is the best I've ever heard, and the variation of The Star-Spangled Banner as they travel over New York and the way it slips seamlessly into suspense as things go awry is masterful. The pure energy afforded to the conclusion by the score is enthralling, too. The Barry Gray Orchestra aced it.
   watches:
-    - date: 2025-03-08
-      format: Streaming
     - date: 2024-10-15
+      format: Streaming
+    - date: 2025-03-08
       format: Streaming
 - title: The Jungle Book
   release_year: 1967

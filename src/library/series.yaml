@@ -47,7 +47,7 @@
   release_year: 2017
   seasons:
     - number: 1
-- title: Yuri!!! on Ice
+- title: Yuri!!! on Ice (ユーリ!!! on ICE)
   release_year: 2016
   seasons:
     - number: 1
@@ -91,7 +91,7 @@
         - start: 2025-12-28
           finish: 2026-01-01
           notes: Some of the acting here was notably not great, but it was otherwise a clean wrap for the series.
-- title: My Hero Academia
+- title: My Hero Academia (僕のヒーローアカデミア)
   release_year: 2016
   seasons:
     - number: 1
@@ -130,7 +130,7 @@
 - title: "Anthony Bourdain: Parts Unknown"
   release_year: 2013
   sporadically_watched: true
-- title: "Danganronpa: The Animation"
+- title: "Danganronpa: The Animation (ダンガンロンパ The Animation)"
   release_year: 2013
   seasons:
     - number: 1
@@ -308,7 +308,7 @@
 - title: LazyTown
   release_year: 2002
   sporadically_watched: true
-- title: Cowboy Bebop
+- title: Cowboy Bebop (カウボーイビバップ)
   release_year: 1998
   rating: 4.5
   notes: Jazz, spaceships, outcasts, and worlds not too unlike our own. I have a preference for the more serious, complex episodes, and I unfortunately find the characterisation fluctuates a tad, but Bebop is still brilliant. I can largely credit the series for my interest in jazz. So long, space cowboy.
@@ -321,7 +321,7 @@
         - start: 2025-09-27
           finish: 2025-10-11
           notes: Watched subbed. I think I might genuinely prefer the dubbed version though, in a departure from my usual preference. This watch through had much more impact on me then my initial one.
-- title: Neon Genesis Evangelion
+- title: Neon Genesis Evangelion (新世紀エヴァンゲリオン)
   release_year: 1995
   rating: 4.5
   seasons:
@@ -339,6 +339,7 @@
 - title: Media Watch
   release_year: 1989
   sporadically_watched: true
+  notes: Media Watch is one of the most important shows airing on Australian television. Fantastic journalism and accountability. I particuarly enjoy when Media Watch goes after the <abbr title="Australian Broadcasting Corporation">ABC</abbr> themselves. They take no prisoners.
 - title: Seinfeld
   release_year: 1989
   rating: 3.5
