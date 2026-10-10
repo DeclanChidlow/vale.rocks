@@ -23,9 +23,10 @@
 				<div class="content">
 					<ul class="stats" data-pagefind-ignore="all">
 						<li>Published: <time class="dt-published" datetime="${ demo.pub_time }" data-timezone-ignore>${ functions/pretty-date.js(demo.pub_time) }</time></li>
-						${ demo.mod_time !== demo.pub_time ? `<li>Updated: <time class="dt-updated" datetime="${ demo.mod_time }" data-timezone-ignore>${ functions/pretty-date.js(demo.mod_time) }</time></li>
+						${ functions/pretty-date.js(demo.mod_time) !== functions/pretty-date.js(demo.pub_time) ? `
+							<li>Updated: <time class="dt-updated" datetime="${ demo.mod_time }" data-timezone-ignore>${ functions/pretty-date.js(demo.mod_time) }</time></li>
 						` : '' }
-						<li>Popularity: ${ demo.popularity } <svg viewBox="0 -960 960 960" width="14" height="14"><title>Likes</title><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg></li>
+						<li>Popularity: ${ demo.popularity } <svg viewBox="0 -960 960 960" width="14" height="14"><title>Hearts</title><path d="m480-144-50-45q-100-89-165-152T163-454t-52-91-15-84q0-89 61-150t150-61q49 0 95 21t78 59q32-38 78-59t95-21q89 0 150 61t61 150q0 43-14 83t-51 89-103 114-168 156z"/></svg></li>
 						<li>Editor: ${ demo.editor }</li>
 						${ demo.saved_version ? `<li>Version: <code>${ demo.saved_version.hash.slice(0, 7) }</code></li>` : '' }
 						${ demo.deployment ? `<li>Deployed: <a href="${ demo.deployment.url }">${ demo.deployment.url }</a></li>` : '' }

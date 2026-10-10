@@ -25,7 +25,7 @@ h1 {
 
 		li {
 			list-style: none;
-			margin-block: 0.5rem;
+			margin-block: 0.25rem;
 		}
 
 		@media (max-width: 50rem) {
