@@ -53,6 +53,15 @@
 		feed.xml = Origami.rss(video_syndication.ori(Tree.take(video_data.ori, 30)))
 	}
 
+	(paginated_demos) = Tree.paginate(demo_data.ori, 30)
+	demos.html = pages/demos.ori(Tree.first(paginated_demos))
+	demos/ = {
+		...Tree.mapExtension(paginated_demos, "→.html", {
+			value: pages/demos.ori
+		})
+		...Tree.map(demo_data.ori, demo_template.ori)
+	}
+
 	(elsewhere_data) = Tree.reverse(Tree.sort((https://vale.rocks/external/elsewhere.json), (item) => item.pub_time))
 	(paginated_elsewhere) = Tree.paginate(elsewhere_data , 50)
 	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))

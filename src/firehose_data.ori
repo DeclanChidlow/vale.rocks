@@ -10,12 +10,7 @@
 		}
 	}) → Tree.values)
 
-	...(demo_data.yaml → (_) => Tree.map(_, {
-		value: (demo) => {
-			...demo
-			type: "demo"
-		}
-	}) → Tree.values)
+	...(demo_data.ori → Tree.values)
 
 	...(sign-up_data.yaml → (_) => Tree.map(_, {
 		value: (signUp) => {

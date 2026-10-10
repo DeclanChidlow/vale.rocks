@@ -48,7 +48,7 @@ article {
 }
 
 .post {
-	background: light-dark(oklch(from var(--magenta) l c h / calc(alpha - 0.85)), oklch(from var(--magenta) l c h / calc(alpha - 0.85)));
+	background: oklch(from var(--magenta) l c h / calc(alpha - 0.85));
 }
 
 .photo {
@@ -60,7 +60,7 @@ article {
 }
 
 .video {
-	background: light-dark(oklch(from var(--red) l c h / calc(alpha - 0.85)), oklch(from var(--red) l c h / calc(alpha - 0.85)));
+	background: oklch(from var(--red) l c h / calc(alpha - 0.85));
 
 	img {
 		margin-block-start: 1rem;

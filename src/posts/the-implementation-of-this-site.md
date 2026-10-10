@@ -3,7 +3,7 @@ title: The Implementation of This Site
 description: A breakdown and overview of the implementation of Vale.Rocks, how it used to be built, how it's built now, and its associated infrastructure.
 og_description: No bodging here. None at all. Nope.
 pub_time: 2024-12-12
-mod_time: 2026-07-28
+mod_time: 2026-10-10
 section: Meta
 tags: [design, front-end]
 standardsite_rkey: 3mn2ecsiegd2b
@@ -121,6 +121,12 @@ I keep a catalogue of content I create which is released externally to Vale.Rock
 Historically, I manually maintained a YAML file which housed document metadata. However, I was maintaining two sources of truth: the YAML file and the external metadata-labelled mirrors of my content [I store for search indexing](#search). To address this, I modified my external content store to construct a JSON file from the frontmatter of the documents.[^3] I then expose this JSON file at <https://vale.rocks/external/elsewhere.json>. This maintains a single source of truth for external content.
 
 As part of the building of Vale.Rocks, the JSON file is fetched and used to populate all the templates expecting elsewhere data across the site -- principally, the [Elsewhere section](/elsewhere).
+
+### Demos
+
+I create a number of code snippets and front-end experiments or showcases and like to [display them on my website](/demos). As I use CodePen for my demos, I use [the service's <abbr title="Representational State Transfer">REST</abbr> API](https://blog.codepen.io/docs/api/api-v2/) to fetch the data using Origami during build, handling pagination and transforming the data to be in the state I need to work with it. The API is very comprehensive and lovely to work with. I then run the data through my templates so that all my pens are listed, each gets a dedicated page, and they appear in the firehose.
+
+I've got slightly different handling configured based on whether a pen is a Classic pen or a v2.0 pen. To stop a CodePen pen from appearing upon my site, I can apply the `no-site` tag on CodePen, which my code knows to filter out.
 
 ### 404 Handling
 
@@ -301,7 +307,7 @@ Individual pages (eg, contact, support, etc) are served as top-level pages and a
 
 ### Firehose
 
-Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose),[^4] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year, when I joined various online services, and links out to code demos I've created across the web.
+Given my decently high output, there are people who wish to be able to see everything in one place and then filter through it themselves. My [firehose page](/firehose),[^4] inspired by [Shellshark's Activity page](https://shellsharks.com/activity/), serves this purpose by providing a reverse-chronological list of things I publish and release. The firehose itself also presents some extra content, including notable events like the beginning of a new year and when I joined various online services.
 
 The firehose is implemented by taking the data for each content type and merging it into a single tree which is then split up for pagination and piped into a template for firehose pages.
 

@@ -1,0 +1,31 @@
+(paginated_demos) => main_template.ori({
+	title: "Demos"
+	description: "A collection of front-end experiments and demonstrations I've created, spanning art, experiments in interfaces and user interactions, animations, CSS-only showcases, and non-JavaScript trickery."
+	og_description: "Front-end experiments and code demos."
+	stylesheet: "pages/demos.css"
+	canonical: `/demos${ paginated_demos.pageNumber > 1 ? '/' + paginated_demos.pageNumber : '' }`
+
+	_body: `
+		<h1 class="section" data-pagefind-ignore>Demos</h1>
+
+		<div data-pagefind-ignore>
+			${ paginated_demos.previousPage ? '' : `<p class="readable"><em>Experiments and demonstrations in code</em>. Largely pulled from my <a href="https://codepen.io/OuterVale">CodePen account</a>. Many of these are developed for use as illustrative aids in articles while others are just loose practice, explorations, or art.</p>` }
+
+			<div id="demos">
+				${ Tree.map(paginated_demos.items, (demo, key) => `
+					<a class="demo" href="/demos/${ Origami.basename(key) }">
+						<img src="${ demo.screenshot_urls.medium }" alt="" width="512" height="288" loading="lazy">
+						<h2>${ functions/escape-html.js(demo.title) }</h2>
+						<time datetime="${ demo.pub_time }" data-timezone-ignore>${ functions/pretty-date.js(demo.pub_time) }</time>
+					</a>
+				`) }
+			</div>
+
+			<div class="pagination">
+				${ paginated_demos.previousPage ? `<a href="/demos/${ paginated_demos.previousPage === 1 ? '' : paginated_demos.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
+				<p>Page ${ paginated_demos.pageNumber } of ${ paginated_demos.pageCount }</p>
+				${ paginated_demos.nextPage ? `<a href="/demos/${ paginated_demos.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
+			</div>
+		</div>
+	`
+})

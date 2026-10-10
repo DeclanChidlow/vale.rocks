@@ -1,0 +1,61 @@
+.readable {
+	margin-block-end: 2rem;
+}
+
+#demos {
+	display: grid;
+	max-inline-size: 80rem;
+	gap: 2rem;
+
+	@media (min-width: 35rem) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (min-width: 55rem) {
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	}
+
+	.demo {
+		text-decoration: none;
+		color: currentColor;
+		padding: 0.5rem;
+
+		&:focus,
+		&:hover {
+			background: light-dark(oklch(from var(--blue) l c h / calc(alpha - 0.5)), oklch(from var(--blue) l c h / calc(alpha - 0.75)));
+			outline-offset: 0;
+		}
+
+		img {
+			margin-block-end: 0.5rem;
+		}
+
+		h2 {
+			font-size: 1rem;
+			line-height: 1.4rem;
+		}
+	}
+}
+
+.pagination {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	text-align: center;
+	max-width: 75ch;
+	margin-block-start: 2rem;
+
+	a {
+		padding: 2rem;
+	}
+
+	@media (min-width: 26rem) {
+		p {
+			padding-block: 2rem;
+		}
+	}
+
+	@media (max-width: 26rem) {
+		grid-template-columns: none;
+	}
+}

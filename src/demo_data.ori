@@ -1,0 +1,12 @@
+codepen_pens.ori(1)
+→ (_) => Tree.map(_, (pen) => {
+	...pen
+	type: "demo"
+	file_name: pen.id
+	codepen_slug: pen.id
+	pub_time: pen.created_at
+	mod_time: pen.updated_at
+})
+→ (_) => Tree.sort(_, (demo) => demo.pub_time)
+→ (_) => Tree.mapExtension(_, "→.html")
+→ Tree.reverse

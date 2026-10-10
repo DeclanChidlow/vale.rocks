@@ -1,0 +1,20 @@
+(page) =>
+	Origami.fetch(`https://api.codepen.io/v2/pens?per_page=100&page=${ page }`, {
+		headers: new Headers([["Authorization", `Bearer ${ process.env.CODEPEN_API_KEY }`]])
+	})
+	→ (_) => Origami.jsonParse(Origami.string(_))
+	→ (raw) => Tree.concat(
+		raw
+		→ (_) => Tree.filter(_, (pen) => pen.access === "Public" && !Tree.find(pen.tags, (tag) => tag === "no-site"))
+		→ (_) => Tree.map(_, ({ tags, ...pen }) => {
+			(user) = pen.urls.editor.split("/").at(-3)
+
+			...pen
+			embed_url: pen.editor === "Classic"
+				? `https://codepen.io/${ user }/embed/${ pen.id }?default-tab=result&editable=true`
+				: `https://codepen.io/editor/${ user }/embed/${ pen.id }?default-tab=result&editable=true`
+		})
+		→ (_) => Tree.groupBy(_, (pen) => pen.id)
+		→ (_) => Tree.map(_, (items) => Tree.first(items)),
+		Tree.size(raw) === 100 ? codepen_pens.ori(page + 1) : {}
+	)

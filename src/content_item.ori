@@ -60,17 +60,17 @@
 		<header>
 			<div>
 				<svg viewBox="0 -960 960 960"><title>Demo</title><path d="M336-240 96-480l240-240 51 51-189 189 189 189zm288 0-51-51 189-189-189-189 51-51 240 240z"/></svg>
-				<h2><a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
+				<h2><a href="/demos/${ item.file_name }"><time datetime="${ item.pub_time }" title="Date of publication.">${ functions/pretty-date.js(item.pub_time) } UTC</time></a></h2>
 			</div>
 
 			<div class="socials">
-				${ item.codepen_slug ? `<a href="https://codepen.io/OuterVale/pen/${ item.codepen_slug }" title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
+				${ item.urls?.editor ? `<a href="${ item.urls.editor }" title="CodePen">${ (icons.yaml).codepen }</a>` : '' }
 			</div>
 		</header>
 
 		<div class="readable">
-			<strong>${ item.title }</strong>
-			<img src="https://codepen.io/OuterVale/pen/${ item.codepen_slug }/image/large.png" alt="">
+			<strong><a href="/demos/${ item.file_name }">${ functions/escape-html.js(item.title) }</a></strong>
+			<img src="${ item.screenshot_urls.large }" alt="" loading="lazy">
 		</div>
 	</article>
 `

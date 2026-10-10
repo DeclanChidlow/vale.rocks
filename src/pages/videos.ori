@@ -18,7 +18,7 @@
 						<a class="video ${ video.format }" href="/videos/${ Origami.basename(key) }">
 							<img src="https://i.ytimg.com/vi_webp/${ video.youtube_id }/${ video.format === 'short' ? `oar2` : `sddefault` }.webp" alt=""/>
 							<h2>${ video.title }</h2>
-							<time datetime="${ video.pub_time }" title="Date of publication.">${ functions/pretty-date.js(video.pub_time) }</time>
+							<time datetime="${ video.pub_time }">${ functions/pretty-date.js(video.pub_time) }</time>
 						</a>
 					`)}
 				</div>
