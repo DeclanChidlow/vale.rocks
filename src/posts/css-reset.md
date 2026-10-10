@@ -180,7 +180,7 @@ The first thing you may notice in my reset is that it is entirely contained with
 }
 ```
 
-I find `content-box` to be unintuitive and confusing. I much prefer `border-box`'s inclusion of an element's padding and border in the width and height as a default. A [universal pseudo selector in CSS](https://kilianvalkhof.com/2026/css-html/id-like-to-have-a-universal-pseudo-selector-in-css/) would be really nice to use here should another element come along in the future. 
+I find `content-box` to be unintuitive and confusing. I much prefer `border-box`'s inclusion of an element's padding and border in the width and height as a default. A [universal pseudo selector](https://kilianvalkhof.com/2026/css-html/id-like-to-have-a-universal-pseudo-selector-in-css/) would be really nice to use here should another element come along in the future.
 
 Backgrounds repeating has always seemed to me like an unreasonable default that is overwritten more often than not, so I disable it.
 
@@ -262,7 +262,7 @@ textarea {
 }
 ```
 
-`textarea`s usually only need vertical resizing, not horizontal.
+Text areas usually only need vertical resizing, not horizontal.
 
 ```css
 fieldset,
@@ -296,7 +296,7 @@ p {
 }
 ```
 
-Not very well supported, but I'm a typography snob, and any improvement helps.
+Pretty wrapping is not very well supported, but I'm a typography snob and any improvement helps.
 
 `proportional-nums` enables numerals whose widths vary naturally instead of all taking up the same fixed width.
 
@@ -313,7 +313,7 @@ h6 {
 
 I like to make sure that I don't have `oldstyle-nums` in my headings, as they always look out of place. As an aside, I really am looking forward to `:heading`.
 
-I don't set any further rules on my headings as I configure them on a per-project basis. `text-wrap: balance;` is a common addition.
+I don't set any further rules on my headings as I configure them on a per-project basis. `text-wrap: balance` is a common addition.
 
 ```css
 p,
@@ -357,7 +357,7 @@ code {
 
 When clarity is necessary, such as with times, maths, or code, some typographical changes are always necessary. `tabular-nums` and `lining-nums` keep numbers aligned and consistent, making data easier to read.
 
-Slashed zeros (<span style="font-variant-numeric: slashed-zero;">0</span>) remove visual ambiguity.
+Slashed zeros (<span style="font-variant-numeric: slashed-zero;">0</span>) remove visual ambiguity which is important in coding.
 
 ```css
 table {
@@ -365,7 +365,7 @@ table {
 }
 ```
 
-Non-collapsed borders feel very 90s and are visually overwhelming.
+Non-collapsed borders feel very '90s and are visually overwhelming.
 
 ```css
 abbr {
@@ -379,7 +379,7 @@ abbr {
 }
 ```
 
-`<abbr>` is an odd element, really. The `title` attribute aspect isn't well exposed and is [only really usable with a pointer](https://adrianroselli.com/2024/01/using-abbr-element-with-title-attribute.html). I still like to cover it, but this should be kept in mind.
+`<abbr>` is an odd element, really. The `title` attribute aspect isn't well exposed and is [only really usable with a pointer](https://adrianroselli.com/2024/01/using-abbr-element-with-title-attribute.html). I still like to use it in non-critical cases, but this should be kept in mind.
 
 ```css
 sup,
@@ -397,7 +397,7 @@ Superscript and subscript annoyingly meddle with line heights, which I dislike. 
 }
 ```
 
-Firefox is the only major browser that doesn't reduce the opacity of disabled elements, so I reduce it for parity. I also apply a `not-allowed` cursor for some further clarity. Care must be taken here, as this could cause text to have insufficient contrast.
+Firefox is the only major browser that doesn't reduce the opacity of disabled elements, so I reduce it across the board for parity. I also apply a `not-allowed` cursor for some further clarity. Care must be taken here, as this could cause text to have insufficient contrast.
 
 ```css
 :focus-visible {
