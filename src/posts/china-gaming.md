@@ -24,7 +24,7 @@ Regarding hardware, in 2000 a ban was enacted on imported game consoles, leading
 
 Elsewhere in the world, the vast majority of games released are released to a global audience in more or less the same state that they are in their country of origin. China, however, has extremely different versions of many games. There are periodic freezes on game approvals, preventing them from being published in the country. Notably from 2018 to 2019 and a significant slowdown through the early 2020s, though approvals have been more common since.
 
-Games are expected to adhere to specific values and avoid allowing some immoral or unethical actions, which leads to them sometimes requiring alteration for distribution in China. The National Press and Publication Administration (<ruby>国<rt>Guó</rt>家<rt>jiā</rt>新<rt>Xīn</rt>闻<rt>wén</rt>出<rt>chū</rt>版<rt>bǎn</rt>署<rt>shǔ</rt></ruby>) is currently the primary force behind this and has a few stipulations against content which:
+Games are expected to adhere to specific values and avoid allowing some immoral or unethical actions, which leads to them sometimes requiring alteration for distribution in China. The National Press and Publication Administration (<ruby lang="zh-Hans">国<rt>guó</rt>家<rt>jiā</rt>新<rt>Xīn</rt>闻<rt>wén</rt>出<rt>chū</rt>版<rt>bǎn</rt>署<rt>shǔ</rt></ruby>) is currently the primary force behind this and has a few stipulations against content which:
 
 - Spreads superstition or is deemed too horrific or cruel. This particularly applies to corpses, skeletons and blood, which are often removed, replaced, or recoloured. Cult or occult content that conflicts with state ideology is also restricted. In some cases developers go further than what is necessitated, just to ensure there are no complications due to found infractions.
 
@@ -42,7 +42,7 @@ This requirement of state-issued ID is largely relevant to age gating. Throughou
 
 Many popular games have significantly altered China-specific variants, including:
 
-- Minecraft's Chinese variant is [My World: China Edition (<ruby>我<rt>wǒ</rt>的<rt>de</rt>世<rt>shì</rt>界<rt>jiè</rt></ruby>)](https://mc.163.com/). It is free-to-play with many micro-transactions and subscriptions. In addition to all that one would typically expect from Minecraft, it also has full additional gamemodes and takes cues from role-playing games. The mobile version even included a virtual house builder for a time, as you might see in a mobile match-three puzzle game.
+- Minecraft's Chinese variant is [My World: China Edition (<ruby lang="zh-Hans">我<rt>wǒ</rt>的<rt>de</rt>世<rt>shì</rt>界<rt>jiè</rt></ruby>)](https://mc.163.com/). It is free-to-play with many micro-transactions and subscriptions. In addition to all that one would typically expect from Minecraft, it also has full additional gamemodes and takes cues from role-playing games. The mobile version even included a virtual house builder for a time, as you might see in a mobile match-three puzzle game.
 
 - [Plants vs Zombies 2](https://game.talkweb.com.cn) was first developed by PopCap's Shanghai studio and then later by Talkweb Games. It is notable for having a huge amount of exclusive content, including extra worlds, plants, and game systems.
 
@@ -70,7 +70,7 @@ Regardless of regulation, much global gaming content and many services that aren
 
 The global version of Valve's game distribution powerhouse Steam operates to a degree within China. It is blocked intermittently, sometimes just in part, but is often available. The exact state of the service's accessibility from within China varies frequently, with especially the Steam Community portion of the site being blocked. In 2021, [Steam China](https://store.steamchina.com) launched, which adheres to China's requirements but has a much smaller catalogue of games and lacks many features present in the global version.
 
-Many people use VPNs to be able to access external gaming content, and a lot of people use game boosters (<ruby>加速器<rt>jiāshùqì</rt></ruby>), which are popular for improving performance of connections to overseas servers. The Great Firewall and poor international routing make them borderline mandatory for interacting with a global player base.
+Many people use VPNs to be able to access external gaming content, and a lot of people use game boosters (<ruby lang="zh-Hans">加<rt>jiā</rt>速<rt>sù</rt>器<rt>qì</rt></ruby>), which are popular for improving performance of connections to overseas servers. The Great Firewall and poor international routing make them borderline mandatory for interacting with a global player base.
 
 ## Internet Cafés
 

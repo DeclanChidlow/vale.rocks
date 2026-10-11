@@ -26,7 +26,7 @@ At the protest's peak on May 17th, there were some one million people at the squ
 
 Troops advanced into central Beijing and engaged with those trying to halt their progress. Unlike the previous non-violent resistance, this time demonstrators, bystanders, and soldiers were killed and injured. Estimates indicate anywhere from the high hundreds to the low thousands were killed, with many thousands more injured[^1]. Much of this violence actually occurred near the Muxidi area along Chang'an Avenue, which makes the popular names 'Tiananmen Square protests' and 'Tiananmen Square massacre' somewhat misnomers -- there is little evidence that anyone was killed in the square itself.
 
-Other protests also occurred around the country, with mass arrests occurring. Operation Yellowbird (<ruby>黃<rt>huáng</rt>雀<rt>qiè</rt>行<rt>xíng</rt>動<rt>dòng</rt></ruby>; Operation Siskin) took place, aiming to help dissidents who participated in the protests escape arrest. Britain's MI6, the United States of America's CIA, the Hong Kong Alliance in Support of Patriotic Democratic Movements of China (<ruby>香<rt>xiāng</rt>港<rt>gǎng</rt>市<rt>shì</rt>民<rt>mín</rt>支<rt>zhī</rt>援<rt>yuán</rt>愛<rt>ài</rt>國<rt>guó</rt>民<rt>mín</rt>主<rt>zhǔ</rt>運<rt>yùn</rt>動<rt>dòng</rt>聯<rt>lián</rt>合<rt>hé</rt>會<rt>huì</rt></ruby>; <ruby>支<rt>zhī</rt>聯<rt>lián</rt>會<rt>huì</rt></ruby>), and triad members all participated and helped them flee the country.
+Other protests also occurred around the country, with mass arrests occurring. Operation Yellowbird (<ruby lang="zh-Hans">黃<rt>huáng</rt>雀<rt>qiè</rt>行<rt>xíng</rt>動<rt>dòng</rt></ruby>; Operation Siskin) took place, aiming to help dissidents who participated in the protests escape arrest. Britain's MI6, the United States of America's CIA, the Hong Kong Alliance in Support of Patriotic Democratic Movements of China (<ruby lang="zh-Hans">香<rt>xiāng</rt>港<rt>gǎng</rt>市<rt>shì</rt>民<rt>mín</rt>支<rt>zhī</rt>援<rt>yuán</rt>愛<rt>ài</rt>國<rt>guó</rt>民<rt>mín</rt>主<rt>zhǔ</rt>運<rt>yùn</rt>動<rt>dòng</rt>聯<rt>lián</rt>合<rt>hé</rt>會<rt>huì</rt></ruby>; <ruby lang="zh-Hans">支<rt>zhī</rt>聯<rt>lián</rt>會<rt>huì</rt></ruby>), and triad members all participated and helped them flee the country.
 
 ## Censorship
 
@@ -46,18 +46,18 @@ For an example of the continued censorship, at publication I asked the Chinese d
 
 This response is then abruptly replaced by the text 'Sorry, that's beyond my current scope. Let's talk about something else.'. Attempting to search for protests and massacre on Baidu Search returns very little, and what is there is vague and limited.
 
-When it does scarcely reference it, the Chinese government calls the event 'Political turmoil between the Spring and Summer of 1989' (<ruby>1989年<rt>nián</rt>春<rt>chūn</rt>夏<rt>xià</rt>之<rt>zhī</rt>交<rt>jiāo</rt>的<rt>de</rt>政<rt>zhèng</rt>治<rt>zhì</rt>风<rt>fēng</rt>波<rt>bō</rt></ruby>). Outside of China and among those critical of the events, it is often known as the 'June Fourth Massacre' (<ruby>六<rt>liù</rt>四<rt>sì</rt>屠<rt>tú</rt>殺<rt>shā</rt></ruby>) or the 'June Fourth Crackdown' (<ruby>六<rt>liù</rt>四<rt>sì</rt>鎮<rt>zhèn</rt>壓<rt>yā</rt></ruby>).
+When it does scarcely reference it, the Chinese government calls the event 'Political turmoil between the Spring and Summer of 1989' (<ruby lang="zh-Hans">1989年<rt>nián</rt>春<rt>chūn</rt>夏<rt>xià</rt>之<rt>zhī</rt>交<rt>jiāo</rt>的<rt>de</rt>政<rt>zhèng</rt>治<rt>zhì</rt>风<rt>fēng</rt>波<rt>bō</rt></ruby>). Outside of China and among those critical of the events, it is often known as the 'June Fourth Massacre' (<ruby lang="zh-Hans">六<rt>liù</rt>四<rt>sì</rt>屠<rt>tú</rt>殺<rt>shā</rt></ruby>) or the 'June Fourth Crackdown' (<ruby lang="zh-Hans">六<rt>liù</rt>四<rt>sì</rt>鎮<rt>zhèn</rt>壓<rt>yā</rt></ruby>).
 
 Under China's censorship it goes by very many names designed to evade detection. These include:
 
-- 'May 35th' (<ruby>五<rt>wǔ</rt>月<rt>yuè</rt>三<rt>sān</rt>十<rt>shí</rt>五<rt>wǔ</rt>日<rt>rì</rt></ruby>)
+- 'May 35th' (<ruby lang="zh-Hans">五<rt>wǔ</rt>月<rt>yuè</rt>三<rt>sān</rt>十<rt>shí</rt>五<rt>wǔ</rt>日<rt>rì</rt></ruby>)
 - 'VIIV' (or 'VIII IX VI IV')
 - '8^2^' (or 'Eight Squared')
 - '63+1' and '8964'.
-- 'Internet Maintenance Day' (<ruby>网<rt>wǎng</rt>络<rt>luò</rt>维<rt>wéi</rt>护<rt>hù</rt>日<rt>rì</rt></ruby>), due to many online services having disabled or modified functionality to minimise activism.
-- '<ruby>白<rt>bái</rt>酒<rt>jiǔ</rt></ruby>', a Chinese liquor which is similar to Bā-Jiǔ, meaning 8-9. Sometimes people also just refer to opening a bottle or having a drink.
-- The 'The Day That Never Was' or 'Sensitive Day' (<ruby>敏<rt>mǐn</rt>感<rt>gǎn</rt>日<rt>rì</rt></ruby>).
-- 'The incident' or 'that thing' (<ruby>那<rt>nà</rt>个<rt>ge</rt>事<rt>shì</rt>儿<rt>er</rt></ruby>). Intentionally vague to avoid trigger words.
+- 'Internet Maintenance Day' (<ruby lang="zh-Hans">网<rt>wǎng</rt>络<rt>luò</rt>维<rt>wéi</rt>护<rt>hù</rt>日<rt>rì</rt></ruby>), due to many online services having disabled or modified functionality to minimise activism.
+- '<ruby lang="zh-Hans">白<rt>bái</rt>酒<rt>jiǔ</rt></ruby>', a Chinese liquor which is similar to Bā-Jiǔ, meaning 8-9. Sometimes people also just refer to opening a bottle or having a drink.
+- The 'The Day That Never Was' or 'Sensitive Day' (<ruby lang="zh-Hans">敏<rt>mǐn</rt>感<rt>gǎn</rt>日<rt>rì</rt></ruby>).
+- 'The incident' or 'that thing' (<ruby lang="zh-Hans">那<rt>nà</rt>个<rt>ge</rt>事<rt>shì</rt>儿<rt>er</rt></ruby>). Intentionally vague to avoid trigger words.
 
 Sometimes variations of the above will be written mirrored, or spliced with other characters to further prevent scanners recognising them.
 
@@ -89,7 +89,7 @@ It is commonly misconstrued that the man pictured was run down by the tank, but 
 
 Some publications spuriously identified him as a 19-year-old student by the name of Wang Weilin, though internal CCP documents indicate that they themselves were unable to identify him and that that name was incorrect. It isn't publicly known in any definitive sense who he was, just as it isn't known what fate befell him. It remains uncertain if the people who rushed him away were simply concerned bystanders or agents, and what fate befell Tank Man isn't clear. It is possible he was incarcerated, beaten, or killed, or that he faded back into the crowds.
 
-There was an edited version of the Tank Man photograph where the tanks were replaced by large rubber ducks that went viral in 2013, taking inspiration from Florentijn Hofman's sculptures. This led to 'Big Yellow Duck' (<ruby>大<rt>dà</rt>黄<rt>huáng</rt>鸭<rt>yā</rt></ruby>) being censored for a period. Periodically similar memes or images will gain some traction before being similarly censored.
+There was an edited version of the Tank Man photograph where the tanks were replaced by large rubber ducks that went viral in 2013, taking inspiration from Florentijn Hofman's sculptures. This led to 'Big Yellow Duck' (<ruby lang="zh-Hans">大<rt>dà</rt>黄<rt>huáng</rt>鸭<rt>yā</rt></ruby>) being censored for a period. Periodically similar memes or images will gain some traction before being similarly censored.
 
 ---
 

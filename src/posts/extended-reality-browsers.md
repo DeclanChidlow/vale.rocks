@@ -178,7 +178,7 @@ Firefox Reality was supported on a range of Pico devices before its discontinuat
 
 Huawei released two sets of smart glasses. In 2019 they released the three degrees of freedom Huawei VR Glass and followed it up in late 2020 with a six degrees of freedom variant, and in 2022 they released a successor called the Huawei Vision Glass.
 
-The glasses have no on-board compute, instead requiring tethering to another device. They're primarily intended for use with devices running Harmony OS (<ruby>鸿<rt>hóng</rt>蒙<rt>méng</rt>操<rt>cāo</rt>作<rt>zuò</rt>系<rt>xì</rt>统<rt>tǒng</rt></ruby>), which is roughly a Chinese equivalent of Android.
+The glasses have no on-board compute, instead requiring tethering to another device. They're primarily intended for use with devices running Harmony OS (<ruby lang="zh-Hans">鸿<rt>hóng</rt>蒙<rt>méng</rt>操<rt>cāo</rt>作<rt>zuò</rt>系<rt>xì</rt>统<rt>tǒng</rt></ruby>), which is roughly a Chinese equivalent of Android.
 
 Wolvic is available on the Huawei App Gallery both inside and outside of mainland China for use with the glasses.
 

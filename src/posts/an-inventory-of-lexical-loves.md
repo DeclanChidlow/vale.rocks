@@ -182,7 +182,7 @@ The extremely savvy reader could perhaps surmise what media I have been consumin
 <dt>Confabulation</dt>
 <dd>A fabricated or distorted memory believed to be genuine.</dd>
 
-<dt><ruby>木漏れ日<rp>(</rp><rt>Komorebi</rt><rp>)</rp></ruby></dt>
+<dt><ruby lang="ja">木<rt>ko</rt>漏<rt>mo</rt>れ<rt>re</rt>日<rt>bi</rt></ruby></dt>
 <dd>The splotches of sunlight that come through tree leaves.</dd>
 
 <dt>Synecdoche</dt>
