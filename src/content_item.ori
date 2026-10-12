@@ -69,7 +69,7 @@
 		</header>
 
 		<div class="readable">
-			<strong><a href="/demos/${ item.file_name }">${ functions/escape-html.js(item.title) }</a></strong>
+			<strong><a href="/demos/${ item.file_name }">${ item.title }</a></strong>
 			<img src="${ item.screenshot_urls.large }" alt="" loading="lazy">
 		</div>
 	</article>

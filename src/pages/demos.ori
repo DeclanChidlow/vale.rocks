@@ -15,7 +15,7 @@
 				${ Tree.map(paginated_demos.items, (demo, key) => `
 					<a class="demo" href="/demos/${ Origami.basename(key) }">
 						<img src="${ demo.screenshot_urls.medium }" alt="" width="512" height="288" loading="lazy">
-						<h2>${ functions/escape-html.js(demo.title) }</h2>
+						<h2>${ demo.title }</h2>
 						<time datetime="${ demo.pub_time }" data-timezone-ignore>${ functions/pretty-date.js(demo.pub_time) }</time>
 					</a>
 				`) }

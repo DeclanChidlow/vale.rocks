@@ -1,6 +1,6 @@
 (demo) => main_template.ori({
-	title: functions/escape-html.js(demo.title)
-	description: functions/escape-html.js(demo.description)
+	title: demo.title
+	description: Origami.htmlEscape(demo.description)
 	pub_time: demo.pub_time
 	mod_time: demo.mod_time
 	article: true
@@ -14,11 +14,11 @@
 		<div>
 			<article class="h-entry">
 				<header data-pagefind-ignore>
-					<h1 class="p-name">${ functions/escape-html.js(demo.title) }</h1>
+					<h1 class="p-name">${ demo.title }</h1>
 				</header>
 
 				<noscript><p class="no-ecma-warning">You don't currently have JavaScript enabled. This demo and the embed for it likely will not work fully.</p></noscript>
-				<iframe class="codepen-embed" title="${ functions/escape-html.js(demo.title) }" src="${ demo.embed_url }" style="width: 100%; height: 500px"></iframe>
+				<iframe class="codepen-embed" title="${ demo.title }" src="${ demo.embed_url }" style="width: 100%; height: 500px"></iframe>
 
 				<div class="content">
 					<ul class="stats" data-pagefind-ignore="all">
@@ -35,7 +35,7 @@
 
 					${ demo.description ? `
 						<div class="readable e-content">
-							<p>${ functions/escape-html.js(demo.description) }</p>
+							<p>${ demo.description }</p>
 						</div>
 					` : '' }
 				</div>
