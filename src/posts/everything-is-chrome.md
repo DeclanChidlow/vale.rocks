@@ -15,9 +15,9 @@ The chances are you've heard of Google Chrome. It's currently the biggest browse
 
 In 1990, [WorldWideWeb (later known as Nexus)](https://www.w3.org/People/Berners-Lee/WorldWideWeb.html) was released by Tim Berners-Lee for the NeXTSTEP operating system exclusively. This was the first web browser and the sole way to see the web. In 1992, the first stable version of the Line Mode Browser was released, with support for the more widely used X Window System. Following that came many more browsers, such as Erwise and ViolaWWW, and later Cello and Lynx, but there was one that really stood out. Releasing in 1993, the [National Center for Supercomputing Applications' Mosaic](https://ncsa.illinois.edu/research/project-highlights/ncsa-mosaic/) came with big changes and huge influence.
 
-<figure class="right">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/NCSA_Mosaic_Browser_Screenshot.png" alt="A vintage web browser interface displaying the homepage of the National Center for Supercomputing Applications at the University of Illinois. The website is shown in an early version of the Mosaic web browser, with a simple layout and minimal graphics.">
-<figcaption>Screenshot of Mosaic version 1.2.</figcaption>
+<figure class="right pixelated">
+<img src="/assets/posts/everything-is-chrome/mosaic.png" alt="A simple browser with minimal grey chrome. There are buttons for navigation, going home, history, and for searching. Under some text is an inline picture of a house next to a tree.">
+<figcaption>Mosaic version 1.0.3 on System 7.1.</figcaption>
 </figure>
 
 Mosaic was a marked shift. It was the first browser to display images in line with the rest of the content and was notably easier to set up. As with all things in this early stage of the web, it didn't stay stagnant for long. Towards the end of 1994, Mosaic began losing its dominance to a new player: Netscape.
