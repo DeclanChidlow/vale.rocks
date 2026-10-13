@@ -366,7 +366,7 @@ Like Sniper, the average public server has more than enough people playing Spy. 
 
 ## Modes and Maps
 
-It would appear that not all maps and modes are logged and accounted for in Team Fortress 2's tracking.
+It would appear that not all maps and modes are logged and accounted for in Team Fortress 2's tracking. Apparently tracking of all maps introduced after map play time tracking was added in December 2012 [has been broken for years](https://github.com/ValveSoftware/Source-1-Games/issues/5956).
 
 ### Payload
 
