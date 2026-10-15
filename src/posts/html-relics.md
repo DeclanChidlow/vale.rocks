@@ -3,6 +3,7 @@ title: Antiquated HTML Snippets and Artefacts
 description: Overviews of the very many snippets of HTML that were once commonly included on websites to address specific cases with certain technologies, browsers, operating systems, or extensions. Fragments dating back to the days of Internet Explorer and Netscape, to more modern bits that are nonetheless obsolete.
 og_description: We can mostly blame Internet Explorer, as always.
 pub_time: 2026-09-08
+mod_time: 2026-10-15
 section: Essay
 tags: ["HTML", "front-end", "development"]
 standardsite_rkey: 3muyazqfpvx2c
@@ -41,6 +42,50 @@ Before Chrome took over the market, Google released an Internet Explorer plugin 
 ```
 
 ICBM (an abbreviation of 'intercontinental ballistic missile') is hacker slang for one's geographical location that dates back to Usenet days. The meta tag was used for identifying the location of a website's subject and was referenced by the service [GeoURL](https://web.archive.org/web/20060701025123/http://geourl.org/) for plotting sites on the globe and helping people find sites of geographical proximity.
+
+## Hype Tag
+
+<!-- prettier-ignore -->
+```html
+<hype>
+```
+
+The `<hype>` tag is an extremely unknown tag, only being known of by a very few people, as the scarce mentions of it online as of 2026 can attest. It is named not for hype, as in excitement, but for 'hypermedia'.
+
+The tag displays as a document icon with a speaker on it and plays an audio clip titled 'hype' of Mosaic co-author and Netscape co-founder (later turned Donald Trump aide) Marc Andreessen, saying, 'What is global hypermedia?' when clicked. The audio comes from a longer clip embedded in [a demonstratory document](https://www.totic.org/nscp/demodoc/demo.html) which was used in the early 1990s to showcase NCSA Mosaic's capability and explain the World Wide Web as a concept. The clip could also be found by navigating to `about:hype` in the early versions of Netscape Navigator, which included the element.[^1]
+
+This was one of many non-spec HTML elements Mosaic/Netscape shipped in their browsers, something they were notorious for and which _made a lot of people very angry and was widely regarded as a bad move_. Most notably, Mosaic shipped `<img>` without it specced, and Navigator shipped `<blink>`.
+
+## Blink Tag
+
+```html
+<blink>Text here</blink>
+```
+
+One of the most infamous non-specced HTML tags, and often brought up alongside the [officially specced 'obsolete' marquee element](https://html.spec.whatwg.org/#the-marquee-element), the `<blink>` tag was introduced in Netscape Navigator and never saw status in the HTML specification. The contents of the tag would, expectedly, blink, <blink>disappearing and reappearing forever</blink>. People largely hated the tag, considering it obnoxious, gaudy, and silly.
+
+<style>
+    blink {
+        animation: blink 0.75s ease-in infinite alternate;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        75% {
+            opacity: 1;
+        }
+        76% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+</style>
+
+In a HTML Editorial Review Board (ERB) meeting, Netscape [agreed to remove `<blink>` on the condition that Microsoft remove `<marquee>`](https://www.w3.org/People/Raggett/book4/ch02.html#:~:text=The%20BLINK,parties%2E). While Netscape upheld their end of the deal and did indeed remove the blink tag from its browser, Microsoft never removed `<marquee>` and it [remains well supported across browsers](https://caniuse.com/mdn-html_elements_marquee). Support for `<blink>` was finally removed from the last major remaining browsers supporting it in 2013. It limps on in [the `blink` value of `text-decoration`](/micros/20260917-0350).
 
 ## Conditional Comments
 
@@ -84,7 +129,7 @@ Netscape [had its own way of handling conditional comments](https://www.masswerk
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 ```
 
-[Smart Tags](https://web.archive.org/web/20010625111031/http://www.microsoft.com/windows/ie/preview/smarttags/default.asp) was a system Microsoft experimented with in beta versions of Internet Explorer 6 which would automatically inject hyperlinks into pages.[^1] An example given by Microsoft was that 'a Smart Tag might detect the names of major companies on the Web and tag them, allowing you to access stock quotes and company information.'. Site owners were outraged, and the `MSSmartTagsPreventParsing` meta tag was introduced to allow opting out. The feature didn't make it into a full release of Internet Explorer, though was implemented in Microsoft Word.
+[Smart Tags](https://web.archive.org/web/20010625111031/http://www.microsoft.com/windows/ie/preview/smarttags/default.asp) was a system Microsoft experimented with in beta versions of Internet Explorer 6 which would automatically inject hyperlinks into pages.[^2] An example given by Microsoft was that 'a Smart Tag might detect the names of major companies on the Web and tag them, allowing you to access stock quotes and company information.'. Site owners were outraged, and the `MSSmartTagsPreventParsing` meta tag was introduced to allow opting out. The feature didn't make it into a full release of Internet Explorer, though was implemented in Microsoft Word.
 
 ## PICS
 
@@ -165,7 +210,7 @@ ClearType is Microsoft's system [for improving the legibility of typography](htt
 
 Google previously didn't run JavaScript when crawling pages, so sites which had AJAX-based content would not be indexed. This meta tag told Google's crawler to request a page with the `_escaped_fragment_` query parameter, which was expected to return a HTML version of the page's contents. Google began recommending this approach in 2009 and [stopped advising it in 2015](https://web.archive.org/web/20180707074702/https://webmasters.googleblog.com/2015/10/deprecating-our-ajax-crawling-scheme.html).
 
-## Directory
+## Directories Robots
 
 ```html
 <meta name="robots" content="noodp, noydir">
@@ -417,4 +462,6 @@ Twitter also had a Do Not Track meta tag for opting out of tracking when using T
 
 This article isn't comprehensive. These are only the more popular or notable non-standard bits. There are so many more obscure bits drifting through the shatters of cyberspace. For the curious mind, some more meta tags are listed -- albeit without associated detail -- on [the WhatWG Wiki](https://wiki.whatwg.org/wiki/MetaExtensions). There are also a very wide variety of similar [CSS relics from browser releases of years past](/posts/css-relics).
 
-[^1]: Google tried something very similar in late-2024 with a feature called '[Page Annotations](https://web.archive.org/web/20241121124222/https://support.google.com/websearch/thread/308719098/page-annotation-in-google-app-browser-for-ios?hl=en)' in their Google app on iOS. It was hated and ultimately discontinued in March 2025.
+[^1]: I've confirmed the Easter egg's presence in Netscape Navigator 2.0 on System 7.1. It seems to be absent from Windows releases.
+
+[^2]: Google tried something very similar in late-2024 with a feature called '[Page Annotations](https://web.archive.org/web/20241121124222/https://support.google.com/websearch/thread/308719098/page-annotation-in-google-app-browser-for-ios?hl=en)' in their Google app on iOS. It was hated and ultimately discontinued in March 2025.
