@@ -19,4 +19,6 @@ The Android System WebView has been Chromium-based since Android version 4.4 (Ki
 
 As it can be managed separately, some devices run Android with differing System WebViews, which can be hard to get details on. Android WebView Browser significantly simplifies any efforts to get these details. Using Chrome's DevTools, one can debug and inspect pages loaded in the WebView, too, making it easy to fix problems.
 
-The app is the first I've developed for Android, having written it in **Kotlin** using **Android Studio** and tested it on real devices. I took care to include compatibility with Android versions as low as Android 6 (Marshmallow), though the lowest I tested with during development was Android 8. As someone who typically develops for the web rather than a native target, the project taught me a lot.
+Beyond being useful for testing with a WebView, it is also valuable simply for the ability to manage browser features -- such as security protections, resource access, text sizing, and JavaScript functionality -- which many browsers don't allow users to configure.
+
+The app is the first I've developed for Android, having written it in **Kotlin** using the **IntelliJ IDEA**-based **Android Studio** and tested it on real devices as well as simulators. I took care to include compatibility for Android versions as low as Android 6 for optimal testing opportunities. As someone who typically develops for the web rather than a native target, the project taught me a lot.
