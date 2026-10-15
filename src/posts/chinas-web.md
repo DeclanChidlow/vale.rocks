@@ -4,7 +4,7 @@ description: The unique web and internet of China, largely cut off from the rest
 og_description: So much for the 'World Wide' Web.
 pub_time: 2026-04-14
 section: Essay
-tags: [politics]
+tags: ["politics"]
 standardsite_rkey: 3mn2domry6v2v
 ---
 

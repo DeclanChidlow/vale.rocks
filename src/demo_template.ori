@@ -1,6 +1,6 @@
 (demo) => main_template.ori({
 	title: demo.title
-	description: Origami.htmlEscape(demo.description)
+	// description: demo.description
 	pub_time: demo.pub_time
 	mod_time: demo.mod_time
 	article: true

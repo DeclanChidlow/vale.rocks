@@ -934,6 +934,12 @@
   watches:
     - date: 2025-09-14
       format: Streaming
+- title: Hyperland
+  release_year: 1990
+  notes: Brilliant fun. Douglas Adams and Tom Baker are a great pair of people to have explaining the idea of the World Wide Web, just very shortly before the World Wide Web came about. It is a very graphical sort of web that the picture portrays, but it very much is the web. 'Micon' is a great bit of slang that didn't catch on. In addition to forseeing the progresison of the internet, it also nicely captures the more complex graphical computing which was to come.
+  watches:
+    - date: 2026-10-14
+      format: Streaming
 - title: Death in Brunswick
   release_year: 1990
   rating: 2.5
