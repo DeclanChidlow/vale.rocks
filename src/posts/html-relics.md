@@ -3,7 +3,7 @@ title: Antiquated HTML Snippets and Artefacts
 description: Overviews of the very many snippets of HTML that were once commonly included on websites to address specific cases with certain technologies, browsers, operating systems, or extensions. Fragments dating back to the days of Internet Explorer and Netscape, to more modern bits that are nonetheless obsolete.
 og_description: We can mostly blame Internet Explorer, as always.
 pub_time: 2026-09-08
-mod_time: 2026-10-15
+mod_time: 2026-10-16
 section: Essay
 tags: ["HTML", "front-end", "development"]
 standardsite_rkey: 3muyazqfpvx2c
@@ -52,9 +52,20 @@ ICBM (an abbreviation of 'intercontinental ballistic missile') is hacker slang f
 
 The `<hype>` tag is an extremely unknown tag, only being known of by a very few people, as the scarce mentions of it online as of 2026 can attest. It is named not for hype, as in excitement, but for 'hypermedia'.
 
-The tag displays as a document icon with a speaker on it and plays an audio clip titled 'hype' of Mosaic co-author and Netscape co-founder (later turned Donald Trump aide) Marc Andreessen, saying, 'What is global hypermedia?' when clicked. The audio comes from a longer clip embedded in [a demonstratory document](https://www.totic.org/nscp/demodoc/demo.html) which was used in the early 1990s to showcase NCSA Mosaic's capability and explain the World Wide Web as a concept. The clip could also be found by navigating to `about:hype` in the early versions of Netscape Navigator, which included the element.[^1]
+The tag displays as a `internal-gopher-sound` icon (a document icon with a speaker on it) and plays an audio clip titled 'hype' of Mosaic co-author and Netscape co-founder (later turned Donald Trump aide) Marc Andreessen, saying, 'What is global hypermedia?' when clicked. The audio comes from a longer clip embedded in [a demonstratory document](https://www.totic.org/nscp/demodoc/demo.html) which was used in the early 1990s to showcase NCSA Mosaic's capability and explain the World Wide Web as a concept. The clip could also be found by navigating to `about:hype` in the early versions of Netscape Navigator, which included the element.[^1]
 
-This was one of many non-spec HTML elements Mosaic/Netscape shipped in their browsers, something they were notorious for and which _made a lot of people very angry and was widely regarded as a bad move_. Most notably, Mosaic shipped `<img>` without it specced, and Navigator shipped `<blink>`.
+The tag was implemented by [Jamie Zawinski](https://www.jwz.org/about.html), of Mosaic/Netscape and Mozilla fame, following Laura Lemay's blog post '[Top ten HTML extensions that didn't make it into Netscape 0.9](https://www.lauralemay.com/essays/top-ten-html-extensions-that-didnt-make-it-into-netscape-09.html)'. In correspondence with him, I was informed that 'What is global hypermedia?' was a 'sarcastic catchphrase' around the office. As is noted in Netscape's source code (`/lib/layout/laytags.c`):
+
+```c
+/*
+ * The hype tag is just for fun.
+ * It only effects the UNIX version
+ * which can affor to have a sound file
+ * compiled into the binary.
+ */
+```
+
+`<hype>` was one of many non-spec HTML elements Mosaic/Netscape shipped in their browsers, something they were notorious for and which _made a lot of people very angry and was widely regarded as a bad move_. Most notably, Mosaic shipped `<img>` without it specced, and Navigator shipped `<blink>`.
 
 ## Blink Tag
 
@@ -462,6 +473,6 @@ Twitter also had a Do Not Track meta tag for opting out of tracking when using T
 
 This article isn't comprehensive. These are only the more popular or notable non-standard bits. There are so many more obscure bits drifting through the shatters of cyberspace. For the curious mind, some more meta tags are listed -- albeit without associated detail -- on [the WhatWG Wiki](https://wiki.whatwg.org/wiki/MetaExtensions). There are also a very wide variety of similar [CSS relics from browser releases of years past](/posts/css-relics).
 
-[^1]: I've confirmed the Easter egg's presence in Netscape Navigator 2.0 on System 7.1. It seems to be absent from Windows releases.
+[^1]: The only other browser I've discovered to have implemented `<hype>` is Emacs/W3, which noted in its changelog for April 10th, 1995: 'Added thge marca sound for \<hype\> tag.'.
 
 [^2]: Google tried something very similar in late-2024 with a feature called '[Page Annotations](https://web.archive.org/web/20241121124222/https://support.google.com/websearch/thread/308719098/page-annotation-in-google-app-browser-for-ios?hl=en)' in their Google app on iOS. It was hated and ultimately discontinued in March 2025.
