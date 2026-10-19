@@ -1,4 +1,9 @@
 # $schema: films-schema.yaml
+- title: "Spider-Man: Brand New Day"
+  release_year: 2026
+  watches:
+    - date: 2026-10-17
+      format: Streaming
 - title: Project Hail Mary
   release_year: 2026
   rating: 4
@@ -595,6 +600,11 @@
     - date: 2026-10-10
       format: Streaming
     - date: 2025-02-02
+      format: Streaming
+- title: Idiocracy
+  release_year: 2006
+  watches:
+    - date: 2026-10-16
       format: Streaming
 - title: "X-Men: The Last Stand"
   release_year: 2006

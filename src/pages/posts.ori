@@ -36,6 +36,7 @@
 						<option value="fiction">Fiction</option>
 						<option value="data">Data</option>
 						<option value="meta">Meta</option>
+						<option value="note">Notes</option>
 					</select>
 				</div>
 			</form>

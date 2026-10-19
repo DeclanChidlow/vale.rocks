@@ -1,6 +1,6 @@
 ---
 title: The Ultimate LibreOffice Setup
-description: My comprehensive tutorial aimed at optimizing LibreOffice to match the functionality of Microsoft Office. Elevate your document editing experience with tips, tools, and enhancements for seamless and efficient productivity.
+description: My comprehensive tutorial aimed at optimising LibreOffice to match the functionality of Microsoft Office. Elevate your document editing experience with tips, tools, and enhancements for seamless and efficient productivity.
 og_description: A guide to sorting the office suite solution.
 pub_time: 2023-06-16
 mod_time: 2026-10-13
