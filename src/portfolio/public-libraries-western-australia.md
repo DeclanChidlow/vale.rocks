@@ -7,7 +7,7 @@ accent_colour: "#f97216"
 hoisted: 5
 ---
 
-During my Diploma of Information Technology (Front-End Web Development), I worked within a team on a website for Public Libraries Western Australia (PLWA) -- a not-for-profit organisation advocating for public libraries across the state. They collaborate with local and state governments, as well as a range of national organisations.
+During my Diploma of Information Technology (Front-End Web Development), I worked within a team on a website for [Public Libraries Western Australia (PLWA)](https://publiclibrarieswa.org.au) -- a not-for-profit organisation advocating for public libraries across the state. They collaborate with local and state governments, as well as a range of national organisations.
 
 We worked on the redevelopment of PLWA’s website, which was originally created in 2009 using now ancient versions of Joomla and Bootstrap. It was outdated, broken in places, vulnerable to security risks, and lacked adequate support from its previous hosting provider. Our team, which included [Emily Drage](https://emilydrage.com), [Zoe Chan](https://zoecchan.me), and Maria Benic, took on the challenge of modernising their online presence.
 
