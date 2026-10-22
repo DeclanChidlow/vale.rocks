@@ -20,6 +20,10 @@ img {
 figure {
 	inline-size: 100%;
 
+	img {
+		margin-inline: auto;
+	}
+
 	&:has(img, svg) {
 		margin-inline: auto;
 		position: relative;
