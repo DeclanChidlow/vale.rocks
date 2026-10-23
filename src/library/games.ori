@@ -59,7 +59,7 @@
 					${ game.notes ? `
 						<details>
 							<summary data-pagefind-ignore>Notes${ game.spoiler ? ' (Spoilers)' : '' }</summary>
-							<p>${ game.notes }</p>
+							<p>${ functions/parse-markdown.js(game.notes) }</p>
 						</details>
 					` : '' }
 					${ game.playthroughs ? `
@@ -69,7 +69,7 @@
 							${ Tree.map(game.playthroughs, (play) => `
 								<li>
 									<span data-pagefind-ignore><time datetime="${play.start}" data-timezone-ignore>${play.start}</time> - <time datetime="${play.finish}" data-timezone-ignore>${play.finish}</time></span>
-									${ play.notes ? `<p>${ play.notes }</p>` : '' }
+									${ play.notes ? `<p>${ functions/parse-markdown.js(play.notes) }</p>` : '' }
 								</li>
 							`) }
 							</ul>

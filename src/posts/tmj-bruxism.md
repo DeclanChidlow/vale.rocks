@@ -4,7 +4,7 @@ description: Notes on grinding and clenching from bruxism and temporomandibular 
 og_description: Pain and destruction of my own infliction.
 pub_time: 2026-10-19
 section: Note
-standardsite_rkey: 3mn2edahbdn2d
+standardsite_rkey: 3my7mfmpn5f2p
 ---
 
 > [!WARNING]

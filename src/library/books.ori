@@ -49,7 +49,7 @@
 					${ book.notes ? `
 						<details>
 							<summary data-pagefind-ignore>Notes${ book.spoiler ? ' (Spoilers)' : '' }</summary>
-							<p>${ book.notes }</p>
+							<p>${ functions/parse-markdown.js(book.notes) }</p>
 						</details>
 					` : '' }
 						${ book.reads ? `

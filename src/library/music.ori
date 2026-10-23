@@ -41,7 +41,7 @@
 						${ album.notes ? `
 							<details>
 								<summary data-pagefind-ignore>Notes${ album.spoiler ? ' (Spoilers)' : '' }</summary>
-								<p>${ album.notes }</p>
+								<p>${ functions/parse-markdown.js(album.notes) }</p>
 							</details>
 						` : '' }
 					</li>

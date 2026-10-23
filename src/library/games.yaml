@@ -1,8 +1,13 @@
 # $schema: games-schema.yaml
+- title: Mincraft Dungeons II
+  release_year: 2026 
+  platforms: ["Xbox Series"]
+  playthroughs:
+    - start: 2026-10-22
 - title: "Halo: Campaign Evolved"
   release_year: 2026
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-campaign-evolved">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-campaign-evolved)."
   playthroughs:
     - start: 2026-07-29
       finish: 2026-08-02
@@ -21,7 +26,7 @@
   release_year: 2021
   rating: 3.5
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-infinite">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-infinite)."
   playthroughs:
     - start: 2023-08-08
       finish: 2023-08-23
@@ -155,7 +160,7 @@
 - title: Ratz Instagib
   release_year: 2016
   platforms: ["PC"]
-  notes: 'See <a href="/posts/ratz-instagib">Experiencing Zen in the Ratz Instagib Meat Grinder</a>.'
+  notes: "See [Experiencing Zen in the Ratz Instagib Meat Grinder](/posts/ratz-instagib)."
 - title: Scrap Mechanic
   release_year: 2016
   platforms: ["PC"]
@@ -215,7 +220,7 @@
   release_year: 2015
   rating: 1
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-5-guardians">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-5-guardians)."
   playthroughs:
     - start: 2023-07-14
       finish: 2023-08-06
@@ -391,7 +396,7 @@
   release_year: 2012
   rating: 3
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-4">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-4)."
   playthroughs:
     - start: 2023-07-06
       finish: 2023-07-10
@@ -434,7 +439,7 @@
   release_year: 2011
   rating: 5
   platforms: ["PC", "PS3"]
-  notes: I'm yet to play another game that makes me <em>feel</em> like Portal 2.
+  notes: I'm yet to play another game that makes me _feel_ like Portal 2.
   playthroughs:
     - start: 2020-04-28
       finish: 2020-05-13
@@ -482,7 +487,7 @@
   release_year: 2010
   rating: 5
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-reach">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-reach)."
   playthroughs:
     - start: 2023-06-07
       finish: 2023-07-05
@@ -514,14 +519,14 @@
   release_year: 2009
   rating: 4.5
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-3-odst">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-3-odst)</a>."
   playthroughs:
     - start: 2023-06-03
       finish: 2023-06-05
 - title: Minecraft
   release_year: 2009
   platforms: ["Xbox 360", "PS3", "PS Vita", "Xbox Series", "PC", "iOS"]
-  notes: 'See <a href="/posts/minecraft-nostalgia-and-growing-up">Minecraft, Nostalgia, and Growing Up</a>.'
+  notes: "See [Minecraft, Nostalgia, and Growing Up](/posts/minecraft-nostalgia-and-growing-up)."
 - title: Supersonic Acrobatic Rocket-Powered Battle-Cars
   release_year: 2008
   platforms: ["PS3"]
@@ -562,7 +567,7 @@
   release_year: 2007
   rating: 4.5
   platforms: ["PC"]
-  notes: I can't think of another game with a community quite like TF2's. People regularly completely forego the objective in the name of being friendly with the 'enemy' and starting dance parties or showing off cool miscellanea. My in-game stats are recorded in <a href="/posts/team-fortress-stats">Examining My Team Fortress Statistics</a>.
+  notes: I can't think of another game with a community quite like TF2's. People regularly completely forego the objective in the name of being friendly with the 'enemy' and starting dance parties or showing off cool miscellanea. My in-game stats are recorded in [Examining My Team Fortress Statistics](/posts/team-fortress-stats).
 - title: Bee Movie Game
   release_year: 2007
   platforms: ["Xbox 360"]
@@ -570,7 +575,7 @@
   release_year: 2007
   rating: 4
   platforms: ["Xbox Series"]
-  notes: "See <a href='/posts/halo-my-thoughts.html#halo-3'>Halo: My Thoughts</a>. Having watched Red vs Blue before playing Halo 3 multiplayer for any significant amount of time, I can't help but think of the maps as sets from the show."
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-3). Having watched Red vs Blue before playing Halo 3 multiplayer for any significant amount of time, I can't help but think of the maps as sets from the show."
   playthroughs:
     - start: 2023-05-31
       finish: 2023-06-02
@@ -607,7 +612,7 @@
 - title: Halo 2
   release_year: 2004
   platforms: ["Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-2">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-2)."
   playthroughs:
     - start: 2023-04-18
       finish: 2023-05-30
@@ -623,7 +628,7 @@
 - title: "Halo: Combat Evolved"
   release_year: 2001
   platforms: ["PC", "Xbox Series"]
-  notes: 'See <a href="/posts/halo-my-thoughts.html#halo-combat-evolved">Halo: My Thoughts</a>.'
+  notes: "See [Halo: My Thoughts](/posts/halo-my-thoughts#halo-combat-evolved)."
   playthroughs:
     - start: 2023-04-09
       finish: 2023-04-16
@@ -643,7 +648,7 @@
 - title: Super Smash Bros
   release_year: 1999
   platforms: ["PC"]
-  notes: Good memories of being at college with a cobbled together assortment of controllers playing <a href="https://smashremix.net">Smash Remix</a> on my laptop with anyone who was up to play.
+  notes: Good memories of being at college with a cobbled together assortment of controllers playing [Smash Remix](https://smashremix.net) on my laptop with anyone who was up to play.
 - title: Half-Life
   release_year: 1998
   platforms: ["PC"]

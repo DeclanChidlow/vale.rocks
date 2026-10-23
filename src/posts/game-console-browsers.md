@@ -124,7 +124,7 @@ In 2002, Dreamkey 3.0 released, removing restrictions surrounding internet servi
 Launching in March 1999, the WonderSwan was a handheld game console that released exclusively in Japan. A tiny 16-bit console with a mere 16KB of RAM. In 2000, the MobileWonderGate launched -- a collaboration between Bandai and the mobile network NTT DoCoMo.
 
 <figure class="shorter pixelated">
-<img src="/assets/posts/game-console-browsers/wonderswan-mobilewondergate.avif" alt="A simple, monochrome display with a basic browser interface. Along the top runs a list of browser actions, while the bottom shows the connection status of the adapter.">
+<img src="/assets/posts/game-console-browsers/wonderswan-mobilewondergate.avif" width="400" alt="A simple, monochrome display with a basic browser interface. Along the top runs a list of browser actions, while the bottom shows the connection status of the adapter.">
 <figcaption>Interface of the MobileWonderGate browser.</figcaption>
 </figure>
 

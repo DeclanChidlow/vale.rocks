@@ -49,7 +49,7 @@
 						${ film.notes ? `
 							<details>
 								<summary data-pagefind-ignore>Notes${ film.spoiler ? ' (Spoilers)' : '' }</summary>
-								<p>${ film.notes }</p>
+								<p>${ functions/parse-markdown.js(film.notes) }</p>
 							</details>
 						` : '' }
 						${ film.watches ? `
@@ -59,7 +59,7 @@
 								${ Tree.map(film.watches, (watch) => `
 									<li>
 										<span data-pagefind-ignore><time datetime="${watch.date}" data-timezone-ignore>${watch.date}</time> | ${watch.format}</span>
-										${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
+										${ watch.notes ? `<p>${ functions/parse-markdown.js(watch.notes) }</p>` : '' }
 									</li>
 								`) }
 								</ul>
