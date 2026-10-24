@@ -47,6 +47,7 @@
 		<div class="readable">
 			${ item.contribution === 'writer' ? `<p>Wrote <a href="https://${ item.url }">${ item.title }</a>${ item.location ? ` over on ${ item.location }` : '' }.</p>` : '' }
 			${ item.contribution === 'contributor' ? `<p>Contributed to <a href="https://${ item.url }">${ item.title }</a>${ item.location ? ` on ${ item.location }` : '' }.</p>` : '' }
+			${ item.contribution === 'speaker' ? `<p>Gave the talk <a href="https://${ item.url }">${ item.title }</a>${ item.location ? ` at ${ item.location }` : '' }.</p>` : '' }
 			${ item.contribution === 'guest' ? `<p>Appeared in <a href="https://${ item.url }">${ item.title }</a>${ item.location ? ` on ${ item.location }` : '' }.</p>` : '' }
 			${ item.contribution === 'source' ? `<p>Provided source material for <a href="https://${ item.url }">${ item.title }</a>${ item.location ? ` on ${ item.location }` : '' }.</p>` : '' }
 			${ item.note ? `<p>${ item.note }</p>` : '' }
