@@ -116,7 +116,7 @@ The process of performing the shell swap was fairly hands-on, but not too diffic
 
 During the shell swap I chose to remove the iButton pogo pins because they were snagging on my pockets as mentioned previously. I considered installing the RGB mod I purchased, which would add LEDs that'd shine through the case, but opted not to, as the soldering is reasonably complex and beyond my ability. I think if I were to choose a shell now, I'd opt for a harder, slightly frosted plastic.
 
-Ray also threw in a diabolical little PCB with a button cell battery and speaker attached that, when on, emits a beep at irregular intervals between 5 and 45 minutes. A purely evil little prank device with no relevance to the Flipper Zero but which I've none the less got great use out of.
+Ray also threw in a diabolical little PCB with a button cell battery and speaker attached that, when on, emits a beep at irregular intervals between 5 and 45 minutes. A purely evil little prank device with no relevance to the Flipper Zero but which I've nonetheless got great use out of.
 
 ## Overall Evaluation
 

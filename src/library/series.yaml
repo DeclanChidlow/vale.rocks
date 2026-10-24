@@ -43,6 +43,11 @@
       watches:
         - start: 2026-06-10
           finish: 2026-06-24
+- title: Freelancers
+  release_year: 2019
+  seasons:
+    - number: 1
+    - number: 2
 - title: Trip for Biscuits
   release_year: 2017
   seasons:
@@ -116,6 +121,9 @@
   seasons:
     - number: 1
 - title: Utopia
+  release_year: 2014
+  sporadically_watched: true
+- title: Odd Squad
   release_year: 2014
   sporadically_watched: true
 - title: Hank Zipzer
