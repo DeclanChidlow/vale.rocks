@@ -2,6 +2,7 @@
 	assets
 	.well-known
 	opensearch.xml
+	syndication.opml = ./links/opml.ori(syndication_data.yaml)
 	robots.txt
 	app.webmanifest
 
@@ -60,6 +61,8 @@
 			value: pages/demos.ori
 		})
 		...Tree.map(demo_data.ori, demo_template.ori)
+		feed.json = Origami.json(demo_syndication.ori(Tree.take(demo_data.ori, 30)))
+		feed.xml = Origami.rss(demo_syndication.ori(Tree.take(demo_data.ori, 30)))
 	}
 
 	(elsewhere_data) = Tree.reverse(Tree.sort((https://vale.rocks/external/elsewhere.json), (item) => item.pub_time))

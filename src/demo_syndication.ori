@@ -1,0 +1,23 @@
+(demos) => {
+	version: "https://jsonfeed.org/version/1.1"
+	title: "Vale.Rocks Demos"
+	description: "Front-end experiments and code demos."
+	home_page_url: "https://vale.rocks/demos"
+	feed_url: "https://vale.rocks/demos/feed.json"
+	icon: "https://vale.rocks/assets/favicon.svg"
+	favicon: "https://vale.rocks/assets/favicon.svg"
+
+	items: Tree.values(Tree.map(demos, (demo, fileName) => {
+		id: `https://vale.rocks/demos/${ Origami.basename(fileName) }`
+		url: `https://vale.rocks/demos/${ Origami.basename(fileName) }`
+		title: demo.title
+		image: demo.screenshot_urls.xlarge
+		content_html: `
+			${ demo.description }
+			<p><a href="https://vale.rocks/demos/${ Origami.basename(fileName) }"><img src="${ demo.screenshot_urls.large }" alt=""></a></p>
+		`
+		...(demo.description ? { summary: demo.description } : {})
+		date_published: demo.pub_time
+		date_modified: demo.mod_time
+	}))
+}

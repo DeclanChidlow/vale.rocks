@@ -11,7 +11,7 @@ canonical: /syndication
 
 This website is home to a lot of stuff, and I also publish elsewhere on the web. This page shows ways to follow and stay up to date on the ongoings of this site and my other endeavours. If you'd just like to view everything all in one place, then check out [the firehose](/firehose).
 
-Feeds originating from this site are available in both RSS and JSON Feed formats, but availability may vary with external feeds.
+Feeds originating from this site are available in both RSS and JSON Feed formats, but availability may vary with external feeds. You can subscribe to the firehose of all these feeds at once by importing the [OPML file](/syndication.opml) containing all Vale.Rocks' feeds into your feed reader.
 
 <details id="what-and-how">
 <summary>What are syndication feeds and how do I use them?</summary>
@@ -101,6 +101,13 @@ You can find me on YouTube as [@outervale](https://www.youtube.com/@outervale). 
 - All Content RSS: <https://www.youtube.com/feeds/videos.xml?channel_id=UC8hQBcgwkZiG-cqhE1TDvzA>
 <!-- - Full Videos Only RSS: <https://www.youtube.com/feeds/videos.xml?playlist_id=UULF8hQBcgwkZiG-cqhE1TDvzA> -->
 - Shorts Only RSS: <https://www.youtube.com/feeds/videos.xml?playlist_id=UUSH8hQBcgwkZiG-cqhE1TDvzA>
+
+## Demos
+
+I [publish code demos](/demos) of front-end experiments and interactions, which you can follow via:
+
+- RSS: <https://vale.rocks/demos/feed.xml>
+- JSON Feed: <https://vale.rocks/demos/feed.json>
 
 ## Code
 

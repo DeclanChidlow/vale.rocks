@@ -184,6 +184,12 @@
 - title: Superhot VR
   release_year: 2016
   platforms: ["Quest 3"]
+- title: Slither.io
+  release_year: 2016
+  platforms: ["PC", "iOS"]
+- title: Diep.io
+  release_year: 2016
+  platforms: ["PC", "iOS"]
 - title: Superhot
   release_year: 2016
   platforms: ["PC"]
@@ -195,6 +201,9 @@
   release_year: 2015
   platforms: ["PC"]
   notes: A cracked version did the rounds at my high-school and the game way played a lot in classes.
+- title: Agar.io
+  release_year: 2015
+  platforms: ["PC", "iOS"]
 - title: Prune
   release_year: 2015
   platforms: ["iOS"]
@@ -494,6 +503,9 @@
 - title: "Planet 51: The Game"
   release_year: 2009
   platforms: ["Xbox 360"]
+- title: Tanki Online
+  release_year: 2009
+  platforms: ["PC"]
 - title: Plants vs Zombies
   release_year: 2009
   platforms: ["PC", "PS Vita", "Xbox Series"]
