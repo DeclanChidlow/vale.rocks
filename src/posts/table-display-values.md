@@ -5,10 +5,8 @@ og_description: Jokes about aligning divs will not be tolerated.
 pub_time: 2026-10-27
 section: Essay
 standardsite_rkey: 3mytjitglap2s
-tags: [HTML, accessibility]
+tags: [HTML, CSS, accessibility]
 ---
-
-Tables have been part of the HTML since some of its earliest days. In March 1995, Netscape Navigator version 1.1 premiered with support for tables -- the first browser to do so.
 
 The syntax for table markup is well known. `<table>` wraps the table, `<thead>` contains the table's header row, and is full of `<th>` elements which hold each header cell content, `<tbody>` contains the table's body rows, `<tr>` holds an individual table row, and `<td>` is a cell of table data within a row. Then `<colgroup>` and `<col>` are used together to define a group of columns. `<caption>` can provide an accessible name and description for a table and `<tfoot>` can provide a footer.
 
