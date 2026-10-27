@@ -8,6 +8,8 @@ standardsite_rkey: 3mytjitglap2s
 tags: [HTML, CSS, accessibility]
 ---
 
+I've long found the ability to use layouts of table elements with CSS rather odd. In addition to well known and loved values of CSS' `display` property, like `block`, `inline`, `flex`, and `grid`, there are values like `table` and `table-cell`. What do these values do and why would they be used?
+
 The syntax for table markup is well known. `<table>` wraps the table, `<thead>` contains the table's header row, and is full of `<th>` elements which hold each header cell content, `<tbody>` contains the table's body rows, `<tr>` holds an individual table row, and `<td>` is a cell of table data within a row. Then `<colgroup>` and `<col>` are used together to define a group of columns. `<caption>` can provide an accessible name and description for a table and `<tfoot>` can provide a footer.
 
 They come together into this structure:
@@ -51,7 +53,7 @@ They come together into this structure:
 </table>
 ```
 
-Which results in this output:
+Which results in this rendered table:
 
 <table>
 	<caption>
@@ -92,18 +94,26 @@ Which results in this output:
 
 All these table elements are semantic -- they have meaning. Unlike a `<div>` or `<span>` they all have roles which browsers and other technologies understand. All the table-related elements are specifically designed for tabular data (two-dimensional presentation of rows and columns containing cells). As [the HTML Living Standard](https://html.spec.whatwg.org/dev/tables.html) describes, a `<tr>`, for example, has an [<abbr title="Accessible Rich Internet Applications">ARIA</abbr> role of `row`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/row_role). Other table elements take different roles based on their purpose.
 
-This might not make much difference from a cursory glance, but it has impact on how assistive technologies interpret and parse a table. HTML tables are a fickle thing to meddle with and are nigh-impossible to reimplement with any other elements in an accessible way. However, their layout capabilities have many other uses beyond tabular data. Most of these uses are better achieved with other web platform features, but during the 2000s and early/mid 2010s, they were a go-to way to achieve many layouts.
+This might not make much difference from a cursory glance, but it has major impact on how assistive technologies interpret and parse a table. HTML tables are a fickle thing to meddle with and are nigh-impossible to reimplement with any other elements in a way equivalent to the real thing. However, their layout capabilities have many other uses beyond tabular data. Most of these uses are better achieved with other web platform features, but during the 2000s and early/mid 2010s, they were a go-to way to achieve many layouts.
 
 ## Table Display Values
 
 In almost every case, semantic HTML elements should be used to markup a table. They're fit for purpose for tabular data and universally supported. If you're making a table to be used as a table, make it a `<table>`. However, CSS has many table-related values for the `display` property:
 
-- `table` - behaves like `<table>` (with the same block-level box).
+- `table` - behave like `<table>` (with the same block-level box).
 - `block table` - equivalent to `table`.
-- `inline table` - behaves like `<table>` but with an inline-level box rather than a block-level box like a typical `<table>`.
-- `inline-table` - the legacy precomposed syntax for `inline table` from CSS 2.
+- `inline table` - behave like `<table>` but with an inline-level box rather than a block-level box like a typical `<table>`.
+- `inline-table` - legacy precomposed syntax from CSS 2 that is equivalent to `inline table`.
+- `table-caption` - behave like `<caption>`.
+- `table-cell` - behave like `<td>`.
+- `table-column` - behave like `<col>`.
+- `table-column-group` - behave like `<colgroup>`.
+- `table-footer-group` - behave like `<tfoot>`.
+- `table-header-group` - behave like `<thead>`.
+- `table-row` - behave like `<tr>`.
+- `table-row-group` - behave like `<tbody>`.
 
-These values don't actually assign the semantic role of a table -- just the layout. As such, they could be used for the benefits of table layout without the baked-in condition of tabular data.
+These values don't actually assign the semantic role of a table -- just the layout. As such, they can be used for the benefits of table layout without the baked-in condition of tabular data.
 
 In the days of responsive design before flexbox and grid, these display values would sometimes be used during the [table layout era](http://grid-layout.com/history.html#table-layout:~:text=Table%20Layout) to facilitate usage of the same HTML markup between desktop and mobile viewports. On desktop a full table layout could be used. On mobile inline layouts could be used without having to change the markup. As the table layout was only defined in CSS, there were no HTML-related semantics clashes involved in trying to void the table element's roles for a non-table application. Generic tags could be used and the layout toggled with CSS.
 
@@ -138,7 +148,7 @@ You could apply a table layout to `<div>` soup using CSS:
 
 ### Equal-Height Columns
 
-Regular block elements don't share heights, so developers would set `display: table` on a wrapper element, followed by `display: table-cell` on the children to prompt the children to stretch to match the height of the tallest element in the row. This would work because browsers force a strict hierarchy for table layout. A `table-cell` _must_ be within a `table-row`, so if it isn't, the browser generates an anonymous box as a sort of error-correction to make the layout function. Then, the standard styling of tables where all cells in different columns on the same row have the height of the tallest cell would apply.
+Regular block elements don't share heights, so developers would set `display: table` on a wrapper element, followed by `display: table-cell` on the children to prompt the children to stretch to match the height of the tallest element in the row. This would work because browsers force a strict hierarchy for table layout. A `table-cell` _must_ be within a `table-row`, so if it isn't, the browser generates an anonymous box as a sort of error-correction to make the layout function. Then, the standard styling of tables where all cells in different columns on the same row have the height of the tallest cell applies.
 
 ### Vertical Centring
 
