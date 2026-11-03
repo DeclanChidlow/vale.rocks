@@ -1,9 +1,11 @@
 # $schema: games-schema.yaml
 - title: Mincraft Dungeons II
-  release_year: 2026 
+  release_year: 2026
   platforms: ["Xbox Series"]
+  notes: Even without explictly knowing what engine the game uses I could tell this was an Unreal Engine 5 game thanks to the fuzzy lighting and ghosting artefacts.
   playthroughs:
     - start: 2026-10-22
+      notes: I encountered _so many_ areas with poor collision and _so many_ cases of broken ranged targeting. I found myself regularly being shot by enemies while my return fire went into the floor or obstacles. Even at point blank, with an enemy targeted, projectiles would sometimes miss somehow. I really enjoyed the music and sound design though. 
 - title: "Halo: Campaign Evolved"
   release_year: 2026
   platforms: ["Xbox Series"]

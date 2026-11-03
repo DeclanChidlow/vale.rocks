@@ -266,6 +266,13 @@
   release_year: 2016
 - title: "Odd Squad: The Movie"
   release_year: 2016
+- title: What Comes Next Is the Future
+  release_year: 2016
+  notes: Such passion and excitement for the web in one place. It is so much fun seeing so many of my peers on screen.
+  watches:
+    - date: 2026-10-30
+      format: Streaming
+      notes: Watching this a decade on from it's release, I'm sad that everything Alex Russell speaks of regarding progressive web apps (PWAs) and browser diversity is still so relevant.
 - title: "Middle School: The Worst Years of My Life"
   release_year: 2016
 - title: Hunt for the Wilderpeople
@@ -605,6 +612,7 @@
       format: Streaming
 - title: Idiocracy
   release_year: 2006
+  notes: Fitting for the film, of course, but I'm not a huge fan of crude American humour.
   watches:
     - date: 2026-10-16
       format: Streaming

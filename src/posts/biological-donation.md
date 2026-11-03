@@ -4,6 +4,7 @@ description: Discussing the donation of material produced by one's body, such as
 og_description: Betrayed by my mind.
 pub_time: 2025-08-18
 section: Memoir
+tags: [health]
 standardsite_rkey: 3mn2dmapb2z2w
 ---
 

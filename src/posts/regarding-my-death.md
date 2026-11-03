@@ -5,6 +5,7 @@ og_description: For when I cark it.
 pub_time: 2025-07-19
 mod_time: 2026-03-26
 section: Meta
+tags: [health]
 standardsite_rkey: 3mn2e65nuta26
 ---
 
@@ -21,23 +22,21 @@ I think it is important to accept the inevitability of death and make plans acco
 
 I care deeply about how I think -- about agency, clarity, curiosity, and creativity. If those are gone, then I am gone. Especially if I am brain dead, I am dead. Kill me.
 
-My biggest fear in life is a degenerative disease that slowly takes me, so in the event of motor neurone disease (MND), Alzheimer's, dementia, or similar, I have intent to pursue voluntary assisted dying.
+My biggest fear in life is a degenerative disease that slowly takes me, so in the event of motor neurone disease (MND), Alzheimer's, dementia, or similar, I have intent to pursue voluntary assisted dying. In the event of degenerative disease, I may show moments of lucidity or my old self, but these will not be representative and shouldn't be taken as reasons to prolong my suffering.
 
-In the event of degenerative disease, I may show moments of lucidity or my old self, but these will not be representative and shouldn't be taken as reasons to prolong my suffering.
+I support the right to voluntary assisted dying when suffering outweighs existence. I will take that option. I'd rather go early while still somewhat myself than late after I'm gone in everything but name. If, for some stupid reason, euthanasia isn't a legal option, I'll opt for suicide by the most humane option feasible while I am still capable of carrying it out. I do _not_ want any assistance with suicide that could implicate anyone or cause them problems.
 
-I support the right to voluntary assisted dying or equivalent options where suffering outweighs existence. I will take that option. I'd rather go early while still somewhat myself than late, after I'm gone in everything but name.
+If medical science ever advances to the point where my mind could be restored or repaired, then I'd like to pursue that, but otherwise, don't freeze me, tube me, or preserve me just for the idea of potential. I'm [undecided on my preference](/micros/20250413-1511) regarding whole brain emulation, so I wish to opt-out.
 
-If medical science ever advances to the point where my mind could be restored or repaired, then I'd like to pursue that, but otherwise, don't freeze me, tube me, or preserve me just for the idea of potential. I'm [undecided on my preference](https://vale.rocks/micros/20250413-1511) regarding whole brain emulation, so I wish to opt-out.
-
-I'd prefer that nobody attempt one of those creepy and distasteful 'speak to dead person by feeding their information into AI' things.
+I'd prefer that nobody attempt one of those creepy and distasteful 'speak to dead person by feeding their information into AI' things. That isn't healthy and it certainly isn't me.
 
 ## Dealing With My Body
 
 I am a registered organ donor in Australia and would like my organs to be donated if possible as first priority upon my death. If necessary, mangle my body to get anything valuable out. Please do not allow my organs or any other useful part of my body to be wasted for the sake of preserving my appearance or structure. My body without me is a resource and should be reaped as such.
 
-When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science or medical research,[^1] but otherwise they should be subject to cremation, resomation, promession, or being pushed off a jetty.
+When I die, I don't want my body to be buried with any permanency. It is a waste of valuable space on the surface of this planet. Ideally my remains following any potential organ donation will be donated to science, medical research, or medical education.[^1] Otherwise or afterwards, whatever is left should be subject to cremation, resomation, promession, or pushed off a jetty.
 
-I also wouldn't take issue with a mushroom burial suit as long as I don't have a marked grave plot taking up space. That kinda defeats the point. The matter that makes up my form has been other things before and will be other things after.
+I also wouldn't take issue with a mushroom burial suit as long as I don't have a marked grave plot taking up space. That rather defeats the point. The matter that makes up my form has been other things before and will be other things after. In the words of Carl Sagan, 'We are made of star-stuff.'.
 
 ## Funeral
 
@@ -61,13 +60,13 @@ If you need a musical playlist, here are my requests:
 
 If possible, please post a notice of my death on the social media pages linked in this site's footer and in a [micro post](/micros), as applicable.
 
-Please include my name, place of death, time of death, cause of death, and any other relevant information. For cause of death especially, please be specific. I do not want anyone to be left without knowledge or closure regarding my death. Unacceptable would be: 'Declan died last week.' The bare minimum of what is acceptable would be: 'Declan Chidlow died on `date` at `time` at `location`. The were `age` and died of `exact cause` following `events that proceeded`.'
+Please include my name, place of death, time of death, cause of death, and any other relevant information. For cause of death especially, please be specific. I do not want anyone to be left without knowledge or closure regarding my death. Unacceptable would be: 'Declan died last week.' The bare minimum of what is acceptable would be: 'Declan Chidlow died on `date` at `time` at `location`. They were `age` and died of `exact cause` following `events that preceeded`.'
 
-You may also use the aforementioned channels to advertise any funeral or memorial as seen fit, keeping in mind that as a semi-public person, this could attract undesirables. Some social media platforms have inbuilt functionality explicitly for noting the account owner as deceased. Please use this functionality.
+You may also use the aforementioned channels to advertise any funeral or memorial as seen fit, keeping in mind that as a semi-public person, this could attract undesirables. Some social media platforms have inbuilt functionality explicitly for noting the account owner as deceased. Please use this functionality where applicable.
 
 ## Preserving Vale.Rocks
 
-This site should be my legacy. I have documented its hosting and deployment on this website and its repository's `README.md`, which should be referenced. Please renew my domain (`vale.rocks`) regularly for the maximum possible term and make sure everything is backed up to the [Internet Archive](https://archive.org).
+This site should be my legacy. I have documented its hosting and deployment on this website and its repository's `README.md`, which should be referenced. Please renew my domain (`vale.rocks`) regularly for the maximum possible term and make sure everything is backed up to the [Internet Archive](https://archive.org). You'll find documentation about the software I use and how Vale.Rocks is build and deployed elsewhere on this site.
 
 By design, this site depends minimally on external dependencies and resources and is built close to the web platform such that it should remain usable for as long as browsers maintain backwards compatibility.
 
@@ -75,7 +74,7 @@ Otherwise, please do not modify this site beyond ensuring it is still available 
 
 ## Copyright and Ownership
 
-All my writing and photography on Vale.Rocks, as well as the code for the site itself, shall be dedicated to the public domain after my death has been confirmed. I give permission to modify the footer to reflect this change in licensing.
+All my writing and photography on Vale.Rocks, as well as the code for the site itself, shall be dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) after my death has been confirmed. I give permission to modify the footer to reflect this change in licensing.
 
 Any and all of my content published externally to this site should remain under the same licences it did prior to my death, unless otherwise noted.
 

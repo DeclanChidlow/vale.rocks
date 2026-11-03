@@ -95,9 +95,9 @@ aria:
 vim:
   short_description: Modal text editor.
   description: the Vim text editor. Primarily relating to Neovim.
-nootropics:
-  short_description: Substances used to improve cognitive function.
-  description: nootropics, 'smart drugs', and other substances used to improve cognitive function.
+health:
+  short_description: Medicine, nootropics, and the body.
+  description: physical and mental well-being. I am not a medical professional and nothing seen here is intended to replace professional medical advice, diagnosis, or treatment.
 gecko:
   short_description: Browser engine by Mozilla.
   description: the browser engine developed by Mozilla, and used most notably in Firefox.

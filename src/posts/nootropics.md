@@ -5,6 +5,7 @@ og_description: A cataloge of cognitively constructive chemical compounds.
 pub_time: 2025-10-17
 mod_time: 2025-11-05
 section: Essay
+tags: [health]
 standardsite_rkey: 3mn2e3ivc2l2x
 ---
 
