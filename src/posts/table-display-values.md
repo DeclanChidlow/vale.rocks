@@ -3,6 +3,7 @@ title: Quirks and Vintage Uses of CSS Table Display
 description: An overview of HTML tables and table related values for CSS' display property which were commonly utilised to achieve otherwise difficult to realise layouts in web design and development of the 2000s and 2010s. Touching on methods for equal-height columns, vertical centring, boosting rendering performance, and major accessibility considerations.
 og_description: Jokes about aligning divs will not be tolerated.
 pub_time: 2026-10-27
+mod_time: 2026-11-05
 section: Essay
 standardsite_rkey: 3mytjitglap2s
 tags: [HTML, CSS, accessibility]
@@ -165,6 +166,12 @@ This algorithm's simplicity makes it rather fast, which is something that can be
 That said, there are some very niche, specific situations where it can be advantageous to set `table-layout: fixed` to get a small performance gain. A really long list of data, for example, can benefit -- especially if it has complex cell content in later rows due to cells beyond the first row not being used for table layout and instead overflowing.
 
 Some developers thus use `display: table` with `table-layout: fixed` to unlock this quicker layout algorithm on non-table content. Sometimes instead of the performance gain, the overflowing behaviour is what is desired as it prevents width 'blow-outs' later in a column.
+
+### Forced Ordering
+
+In grid and flex containers, you can reorder items a few ways. Most commonly in flex with the `flex-direction` property, though also with `grid-template-areas` in grid or with the `order` property, which offers granular control over each item's position and works across both grid and flex. Using `order`, you can tell an item exactly where to be placed in the order via CSS without the need to rearrange items in the markup. Prior to flex and grid, however, people [used an approach popularised by Ian Devlin](https://iandevlin.com/blog/2013/06/css/css-stacking-with-display-table/) where table display values would be abused for ordering.
+
+To place an item at the bottom of a container, for example, you can use `display: table-footer-group`. It then places the element in the footer group location, which is the last position in the table. The same applies to other table layout display values and their locations, such as the header. The obvious shortcoming of this approach is that there are only a few values which change the layout, so you're limited in how vast your repositioning can be. It also is flawed from an accessibility perspective due to the visual order and <abbr title="Document Object Model">DOM</abbr> not matching.
 
 ---
 
