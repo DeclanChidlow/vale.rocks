@@ -167,6 +167,7 @@
 - title: Scooby-Doo! Mystery Incorporated
   release_year: 2010
   sporadically_watched: true
+  notes: A great take on the typical Scooby-Doo formula with a lot going on.
 - title: Into the Universe with Stephen Hawking
   release_year: 2010
 - title: Prank Patrol
@@ -314,6 +315,9 @@
     - number: "16: The Shisno Paradox"
     - number: "17: Singularity"
 - title: LazyTown
+  release_year: 2002
+  sporadically_watched: true
+- title: What's New, Scooby-Doo?
   release_year: 2002
   sporadically_watched: true
 - title: Cowboy Bebop (カウボーイビバップ)
