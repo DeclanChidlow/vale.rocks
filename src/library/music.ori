@@ -49,7 +49,7 @@
 			</ol>
 		</div>
 
-		<script defer src="/assets/scripts/current-media.js"></script>
+		<script defer src="/assets/scripts/current-status.js"></script>
 		<script defer src="/assets/scripts/library-sorting.js"></script>
 	`
 })

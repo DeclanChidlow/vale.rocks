@@ -16,7 +16,7 @@
 
 				<p>At this very moment, your charming webmaster finds themself…</p>
 				<ul>
-					<li>Feeling <img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></li>
+					<li id="currently-feeling">Feeling <span id="currently-mood-label" hidden></span> <img class="mood" id="currently-mood" alt="" hidden><noscript><img class="mood" src="https://moods.imood.com/display/uname-OuterVale/trans-1/imood.gif" alt="The current mood of OuterVale"></noscript></li>
 					<li id="currently-listening">Listening to </li>
 					<li id="currently-playing">Playing </li>
 					<li id="currently-watching">Watching </li>
@@ -69,6 +69,6 @@
 			`}
 		</div>
 
-		<script defer src="/assets/scripts/current-media.js"></script>
+		<script defer src="/assets/scripts/current-status.js"></script>
 	`
 })
