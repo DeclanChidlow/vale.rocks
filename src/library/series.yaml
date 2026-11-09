@@ -22,6 +22,11 @@
       watches:
         - start: 2024-04-14
           finish: 2024-04-19
+- title: Fisk
+  release_year: 2021
+  seasons:
+    - number: 1
+    - number: 2
 - title: Clarkson's Farm
   release_year: 2021
   rating: 3.5
