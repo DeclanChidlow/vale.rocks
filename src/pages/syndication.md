@@ -20,9 +20,53 @@ Instead of manually visiting sites to check if they've published new content, sy
 
 You end up with what is in essence a curated newspaper based on exactly what you want to read. It is similar to subscribing to newsletters, but with far less cruft clogging up your email inbox.
 
-To use a feed, you'll first need to get a feed reader. There are plenty of free options available, with [FeedFlow](https://www.feedflow.dev) and [Croissant](https://croissantrss.com) being my favourites. Lots of email clients like [Thunderbird](https://blog.thunderbird.net/2022/05/thunderbird-rss-feeds-guide-favorite-content-to-the-inbox/) and [Outlook](https://support.microsoft.com/en-au/office/subscribe-to-an-rss-feed-73c6e717-7815-4594-98e5-81fa369e951c) also have support for subscribing to feeds.
+To use a feed, you'll first need to get a feed reader. There are plenty of free (and paid) options available, with [FeedFlow](https://www.feedflow.dev) being my favourite. Sourced from the logs for this website, here are some of the feed readers people use to follow Vale.Rocks in no particular order:
 
-In your selected feed reader there will be a way to input the URL of a feed. Some sites even have auto-detection, so you can just paste in the normal link and the feed will be found. For others, you'll need to track down a direct link to the feed. They're often represented with a white wireless icon on an orange background.
+- [NetNewsWire](https://netnewswire.com)
+- [Feedbin](https://feedbin.com)
+- [Feedly](https://feedly.com/news-reader)
+- [Unread](https://www.goldenhillsoftware.com/unread/)
+- [Tiny Tiny RSS](https://tt-rss.org)
+- [FreshRSS](https://www.freshrss.org)
+- [CommaFeed](https://www.commafeed.com)
+- [Capy Reader](https://capyreader.com)
+- [Feeder](https://feeder.co)
+- [Roy and Rianne's Righteously Royalty-free RSS Reader](https://techrights.org/rrrrrr.shtml)
+- [Glean](https://glean.at)
+- [Newsflash](https://gitlab.com/news-flash/news_flash_gtk)
+- [NewsBlur](https://newsblur.com)
+
+<style>
+@media (min-width: 30rem) {
+    #what-and-how ul {
+        columns: 2;
+        column-gap: 2rem;
+
+        &:has(> li:only-child) {
+            columns: 1;
+        }
+
+        li {
+            break-inside: avoid;
+            margin-block-start: 0;
+        }
+    }
+}
+</style>
+
+You can't got wrong picking a feed reader and you can usually easily move to another reader by exporting your followed feeds as an <abbr title="Outline Processor Markup Language">OPML</abbr> file, which is essentially just a list of feeds. Some people use OPML to distribute lists of their favourite feeds in what is called a 'blogroll'. 
+
+In your selected feed reader there will be a way to input the URL of a feed. Some sites even have auto-detection, so you can just paste in the normal link and the feed will be found. For others, you'll need to track down a direct link to the feed. They're often represented with a simple icon which was first introduced by Firefox:
+
+<svg viewBox="0 0 456 456" height="3lh" style="display: block; margin-inline: auto;">
+    <title>An orange square with a white wireless icon upon it.</title>
+    <rect width="455.7" height="455.7" rx="70" ry="70" fill="#f78422"/>
+    <g fill="#fff">
+        <path d="M296 159C234 97 152 63 65 63v65a261 261 0 0 1 263 263h64c0-88-34-170-96-232"/>
+        <path d="M64 172v65c85 0 154 69 154 154h64c0-121-97-219-218-219"/>
+        <circle cx="109.8" cy="346.3" r="46.1"/>
+    </g>
+</svg>
 
 Syndication feeds come in a few different formats. The three most widely used are RSS (Really Simple Syndication), Atom, and JSON. They're slightly different on a technical level but largely identical in usage. They're all just big text files that list content and some information about them. You only need to provide one format if there are multiple provided. For instance, you don't need to provide a JSON Feed and an RSS feed, just one of them.
 
@@ -112,6 +156,7 @@ I [publish code demos](/demos) of front-end experiments and interactions, which 
 ## Code
 
 My Tangled account has an Atom feed: <https://tangled.org/vale.rocks/feed.atom>
+
 My GitHub account also has an Atom feed: <http://github.com/DeclanChidlow.atom>
 
 ## Elsewhere
