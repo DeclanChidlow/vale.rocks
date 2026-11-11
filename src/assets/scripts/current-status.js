@@ -1,4 +1,4 @@
-class CurrentMedia {
+class CurrentStatus {
 	static LAST_SEEN_WINDOW = 10 * 60 * 1000;
 	static LAST_PLAYED_REGEX = /\bI(?:'m|\s+am)\s+playing\b/i;
 	static LAST_PLAYED_TEXT = "I've just wrapped up playing";
@@ -12,17 +12,20 @@ class CurrentMedia {
 		this.musicEl = document.getElementById("currently-listening");
 		this.gameEl = document.getElementById("currently-playing");
 		this.filmEl = document.getElementById("currently-watching");
+		this.moodEl = document.getElementById("currently-mood");
+		this.moodLabel = document.getElementById("currently-mood-label");
 
-		if (!this.musicEl && !this.gameEl && !this.filmEl) return;
+		if (!this.musicEl && !this.gameEl && !this.filmEl && !this.moodEl) return;
 
 		if (this.musicEl) {
 			this.musicBase = this.musicEl.textContent;
 			this.musicApi = "https://api.listenbrainz.org/1/user/OuterVale/playing-now";
 		}
 
-		if (this.gameEl || this.filmEl) {
+		if (this.gameEl || this.filmEl || this.moodEl) {
 			if (this.gameEl) this.gameBase = this.gameEl.textContent;
 			if (this.filmEl) this.filmBase = this.filmEl.textContent;
+
 			this.gameApi = "https://vale-media-activity.cloudflare-7twxg.workers.dev";
 		}
 
@@ -59,11 +62,19 @@ class CurrentMedia {
 	}
 
 	async updateGame() {
-		if (!this.gameEl && !this.filmEl) return;
+		if (!this.gameEl && !this.filmEl && !this.moodEl) return;
 
 		try {
 			const response = await fetch(this.gameApi);
 			const data = await response.json();
+
+			if (this.moodEl) {
+				if (data.imood?.base) {
+					this.renderMood(data.imood);
+				} else {
+					this.clearMood();
+				}
+			}
 
 			let hasFilm = false;
 
@@ -116,7 +127,7 @@ class CurrentMedia {
 			clearTimeout(this.gameTimer);
 		} else {
 			if (this.musicEl) this.updateMusic();
-			if (this.gameEl || this.filmEl) this.updateGame();
+			if (this.gameEl || this.filmEl || this.moodEl) this.updateGame();
 		}
 	}
 
@@ -133,7 +144,7 @@ class CurrentMedia {
 				if (entry.activeTitle?.name) {
 					return {
 						game: entry.activeTitle.name,
-						device: CurrentMedia.deviceName(entry.activeTitle.deviceType, platform),
+						device: CurrentStatus.deviceName(entry.activeTitle.deviceType, platform),
 						richPresence: entry.activeTitle.richPresence || null,
 						idle: false,
 					};
@@ -141,22 +152,22 @@ class CurrentMedia {
 			} else if (entry.game) {
 				return {
 					game: entry.game,
-					device: CurrentMedia.deviceName(entry.device, platform),
+					device: CurrentStatus.deviceName(entry.device, platform),
 					richPresence: entry.richPresence || null,
 					idle: false,
 				};
 			}
 
 			if (!idle && entry.online) {
-				idle = { device: CurrentMedia.deviceName(entry.device, platform), idle: true, platform };
+				idle = { device: CurrentStatus.deviceName(entry.device, platform), idle: true, platform };
 			}
 
 			if (!recentLastSeen && entry.lastSeen) {
-				const lastSeenTime = CurrentMedia.parseTs(entry.lastSeen.timestamp).getTime();
-				if (lastSeenTime > Date.now() - CurrentMedia.LAST_SEEN_WINDOW) {
+				const lastSeenTime = CurrentStatus.parseTs(entry.lastSeen.timestamp).getTime();
+				if (lastSeenTime > Date.now() - CurrentStatus.LAST_SEEN_WINDOW) {
 					recentLastSeen = {
 						game: entry.lastSeen.titleName,
-						device: CurrentMedia.deviceName(entry.lastSeen.deviceType, platform),
+						device: CurrentStatus.deviceName(entry.lastSeen.deviceType, platform),
 						idle: false,
 						lastPlayed: true,
 					};
@@ -224,7 +235,7 @@ class CurrentMedia {
 			this.gameEl.textContent = this.gameBase.replace(/playing/i, verb);
 		} else {
 			if (status.lastPlayed) {
-				this.gameEl.textContent = this.gameBase.replace(CurrentMedia.LAST_PLAYED_REGEX, CurrentMedia.LAST_PLAYED_TEXT);
+				this.gameEl.textContent = this.gameBase.replace(CurrentStatus.LAST_PLAYED_REGEX, CurrentStatus.LAST_PLAYED_TEXT);
 			} else {
 				this.gameEl.textContent = this.gameBase;
 			}
@@ -244,6 +255,27 @@ class CurrentMedia {
 		this.gameEl.appendChild(deviceEm);
 		this.gameEl.appendChild(document.createTextNode("."));
 		this.gameEl.style.display = "revert";
+	}
+
+	renderMood(mood) {
+		if (!this.moodEl) return;
+
+		const hasFace = Number.isInteger(mood.face);
+
+		if (hasFace) {
+			this.moodEl.src = `https://images.imood.com/faces/${mood.face}.gif`;
+		} else {
+			this.moodEl.removeAttribute("src");
+		}
+
+		this.moodEl.alt = "";
+		this.moodEl.hidden = !hasFace;
+
+		if (this.moodLabel) {
+			this.moodLabel.textContent = `${mood.base}.`;
+			this.moodLabel.title = mood.personal || "";
+			this.moodLabel.hidden = false;
+		}
 	}
 
 	renderFilm(media) {
@@ -297,10 +329,25 @@ class CurrentMedia {
 		this.filmEl.style.display = "none";
 	}
 
+	clearMood() {
+		if (!this.moodEl) return;
+
+		this.moodEl.removeAttribute("src");
+		this.moodEl.alt = "";
+		this.moodEl.removeAttribute("title");
+		this.moodEl.hidden = true;
+
+		if (this.moodLabel) {
+			this.moodLabel.textContent = "";
+			this.moodLabel.removeAttribute("title");
+			this.moodLabel.hidden = true;
+		}
+	}
+
 	init() {
 		if (this.musicEl) this.updateMusic();
-		if (this.gameEl || this.filmEl) this.updateGame();
+		if (this.gameEl || this.filmEl || this.moodEl) this.updateGame();
 	}
 }
 
-new CurrentMedia();
+new CurrentStatus();
