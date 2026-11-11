@@ -32,7 +32,7 @@
 		<script defer src="/assets/scripts/footnotes.js"></script>
 		<script defer src="/assets/scripts/figures.js"></script>
 		${ post.repository ? `
-			<script defer src="/assets/scripts/repo-details.js"></script>
+			<script src="/assets/scripts/repo-details.js"></script>
 			<script>
 				const repo = new RepoDetails('${ post.repository }');
 				repo.render();
