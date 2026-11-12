@@ -14,15 +14,16 @@ class CurrentStatus {
 		this.filmEl = document.getElementById("currently-watching");
 		this.moodEl = document.getElementById("currently-mood");
 		this.moodLabel = document.getElementById("currently-mood-label");
+		this.illNoticeEl = document.getElementById("ill-notice");
 
-		if (!this.musicEl && !this.gameEl && !this.filmEl && !this.moodEl) return;
+		if (!this.musicEl && !this.gameEl && !this.filmEl && !this.moodEl && !this.illNoticeEl) return;
 
 		if (this.musicEl) {
 			this.musicBase = this.musicEl.textContent;
 			this.musicApi = "https://api.listenbrainz.org/1/user/OuterVale/playing-now";
 		}
 
-		if (this.gameEl || this.filmEl || this.moodEl) {
+		if (this.gameEl || this.filmEl || this.moodEl || this.illNoticeEl) {
 			if (this.gameEl) this.gameBase = this.gameEl.textContent;
 			if (this.filmEl) this.filmBase = this.filmEl.textContent;
 
@@ -62,7 +63,7 @@ class CurrentStatus {
 	}
 
 	async updateGame() {
-		if (!this.gameEl && !this.filmEl && !this.moodEl) return;
+		if (!this.gameEl && !this.filmEl && !this.moodEl && !this.illNoticeEl) return;
 
 		try {
 			const response = await fetch(this.gameApi);
@@ -74,6 +75,10 @@ class CurrentStatus {
 				} else {
 					this.clearMood();
 				}
+			}
+
+			if (this.illNoticeEl) {
+				this.illNoticeEl.hidden = !["ill", "sick"].includes(data.imood?.base?.trim().toLowerCase());
 			}
 
 			let hasFilm = false;
@@ -127,7 +132,7 @@ class CurrentStatus {
 			clearTimeout(this.gameTimer);
 		} else {
 			if (this.musicEl) this.updateMusic();
-			if (this.gameEl || this.filmEl || this.moodEl) this.updateGame();
+			if (this.gameEl || this.filmEl || this.moodEl || this.illNoticeEl) this.updateGame();
 		}
 	}
 
@@ -346,7 +351,7 @@ class CurrentStatus {
 
 	init() {
 		if (this.musicEl) this.updateMusic();
-		if (this.gameEl || this.filmEl || this.moodEl) this.updateGame();
+		if (this.gameEl || this.filmEl || this.moodEl || this.illNoticeEl) this.updateGame();
 	}
 }
 
