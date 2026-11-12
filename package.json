@@ -7,9 +7,10 @@
 		"audit": "ori audit src/site.ori"
 	},
 	"dependencies": {
+		"@webc.site/math-marked": "^0.1.1",
+		"@weborigami/json-schema": "0.0.20",
 		"@weborigami/origami": "^0.7.5",
 		"@weborigami/pagefind": "^0.0.21",
-		"@weborigami/json-schema": "^0.0.21",
 		"highlight.js": "^11.12.0",
 		"marked": "^18.2.0",
 		"marked-alert": "^2.1.2",
@@ -17,7 +18,6 @@
 		"marked-footnote": "^1.4.0",
 		"marked-gfm-heading-id": "^4.1.4",
 		"marked-highlight": "^2.2.4",
-		"marked-smartypants": "^1.1.12",
-		"@webc.site/math-marked": "^0.1.1"
+		"marked-smartypants": "^1.1.12"
 	}
 }

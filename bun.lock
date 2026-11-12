@@ -6,7 +6,7 @@
       "name": "vale-rocks",
       "dependencies": {
         "@webc.site/math-marked": "^0.1.1",
-        "@weborigami/json-schema": "^0.0.21",
+        "@weborigami/json-schema": "0.0.20",
         "@weborigami/origami": "^0.7.5",
         "@weborigami/pagefind": "^0.0.21",
         "highlight.js": "^11.12.0",
@@ -117,11 +117,11 @@
 
     "@webc.site/math-marked": ["@webc.site/math-marked@0.1.1", "", { "peerDependencies": { "@webc.site/math": ">=0.1.5", "marked": ">=18.0.5" } }, "sha512-CofqbvDUrL4W/MAQSmrq/cCMfsZlMSJIi4D++Q0cFLv27VSg1J4+Y2A3uZ0/LDFA3NLSfOBdV0HW/NhSY1nsJA=="],
 
-    "@weborigami/async-tree": ["@weborigami/async-tree@0.7.5", "", {}, "sha512-3HBpCkzFk7BMASwur5i+7bwNh3YfaGYr1ml7RNzP6n78eYWkIFRz06a66+taOVUxTF/04PWgPGxwP2amMouKtQ=="],
+    "@weborigami/async-tree": ["@weborigami/async-tree@0.7.2", "", {}, "sha512-YYugjvTEDSJRvisktTLorUcQWwSiMp1R1jbrUxjmAbF3AdushTcsybAADPJn1hRwxwqoRD/F3EQFCX2b/sJ7Jw=="],
 
     "@weborigami/json-feed-to-rss": ["@weborigami/json-feed-to-rss@1.0.2", "", {}, "sha512-XjTpeNLJDll0G/uZg/aG9F6eofWT8uo7xEDSFWx8QBeFzMlqJYhqsLnV7urW8QyBQQw9m5Cr4lQRyzB+3CP3FQ=="],
 
-    "@weborigami/json-schema": ["@weborigami/json-schema@0.0.21", "", { "dependencies": { "@weborigami/async-tree": "0.7.5", "ajv": "8.20.0" } }, "sha512-RzGVSsyYPTdhSYI68bW3Uu93A/+ojh8uXNadD5M4i4P4PUK7OZRwpgSW31iSPld4faflsqAPPKANLA5pQt04yQ=="],
+    "@weborigami/json-schema": ["@weborigami/json-schema@0.0.20", "", { "dependencies": { "@weborigami/async-tree": "0.7.2", "ajv": "8.20.0" } }, "sha512-Zp5Z17XsKMA35fr20Igo+1I30TFKmEXwPhj2RyDFvbrYdbxcPt/RyDqKLOXhs9srnRTNLGgvr+aNJYB4r375Ow=="],
 
     "@weborigami/language": ["@weborigami/language@0.7.5", "", { "dependencies": { "@weborigami/async-tree": "0.7.5", "adm-zip": "0.6.1", "exif-parser": "0.1.12", "watcher": "2.3.1", "yaml": "2.9.1" } }, "sha512-flx0EdgEqN64bpxig1bIk9VDxjX80XEq85rnKPoQIaahLnknsvWY3NSSETx9K/f1qfN7Lid6gWKF2IWTRi8GjQ=="],
 
@@ -253,6 +253,12 @@
 
     "yaml": ["yaml@2.9.1", "", { "bin": { "yaml": "bin.mjs" } }, "sha512-3NxN8+78OdzbT7C/WjGsyfPAtJaN3FNDsWxv7Y7mcDsT/oOmgW8BpyQQFFBnvZE3j9Y2Sdz1ULFLezL7Eb2yFw=="],
 
+    "@weborigami/language/@weborigami/async-tree": ["@weborigami/async-tree@0.7.5", "", {}, "sha512-3HBpCkzFk7BMASwur5i+7bwNh3YfaGYr1ml7RNzP6n78eYWkIFRz06a66+taOVUxTF/04PWgPGxwP2amMouKtQ=="],
+
+    "@weborigami/origami/@weborigami/async-tree": ["@weborigami/async-tree@0.7.5", "", {}, "sha512-3HBpCkzFk7BMASwur5i+7bwNh3YfaGYr1ml7RNzP6n78eYWkIFRz06a66+taOVUxTF/04PWgPGxwP2amMouKtQ=="],
+
     "@weborigami/origami/marked": ["marked@18.0.13", "", { "bin": { "marked": "bin/marked.js" } }, "sha512-xTxVzZsBFwunP6HDmtBkabUQEYArnP7/rMDGmPj9SlrKlQ4i8MdYVow+nJL0eOqwpUqhzBoTBRADGN6uYwPyOw=="],
+
+    "@weborigami/pagefind/@weborigami/async-tree": ["@weborigami/async-tree@0.7.5", "", {}, "sha512-3HBpCkzFk7BMASwur5i+7bwNh3YfaGYr1ml7RNzP6n78eYWkIFRz06a66+taOVUxTF/04PWgPGxwP2amMouKtQ=="],
   }
 }

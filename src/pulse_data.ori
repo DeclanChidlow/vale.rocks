@@ -1,4 +1,4 @@
-functions/validate-schema.js(pulse-schema.yaml)(pulse)
+functions/validate-schema.js(pulse-schema.yaml/)(pulse)
 → (_) => Tree.map(_, (pulse, fileName) => {
 	...pulse
 	type: "pulse"

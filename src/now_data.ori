@@ -1,4 +1,4 @@
-nows
+nows/
 → (_) => Tree.map(_, (slots, fileName) => {
 	...Tree.map(slots, (val) => functions/parse-markdown.js(val))
 	pub_time: functions/reading-pretty-date.js(Origami.basename(fileName))
