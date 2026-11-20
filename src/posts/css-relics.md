@@ -223,7 +223,7 @@ div {
 }
 ```
 
-Internet Explorer would display the above margin as 5px. However, without a `display` value of `inline`, it'd be rendered as 10px -- not 5px. As explained in Position Is Everything's Explorer Exposed article, [The IE Doubled Float-Margin Bug](https://web.archive.org/web/20080907120231/http://www.positioniseverything.net/explorer/doubled-margin.html):
+Internet Explorer would display the above margin as 5px. However, without a `display` value of `inline`, it'd be rendered as 10px -- not 5px. As explained in Position Is Everything's Explorer Exposed article, [The IE Doubled Float-Margin Bug](https://dev-archive.org/position-is-everything/doubled-margin.html):
 
 > Why is this happening? Don't ask such silly questions! This is IE, remember? Conformance with the specs is only to be hoped for, not expected. The simple fact is it does happen.
 
