@@ -27,6 +27,7 @@ article {
 
 		div:not(.socials) svg {
 			block-size: 1.2rem;
+			min-inline-size: 1.2rem;
 		}
 
 		h2 {

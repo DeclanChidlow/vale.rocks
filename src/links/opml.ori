@@ -1,16 +1,16 @@
 (data) => `<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
 	<head>
-		<title>${ data.title }</title>
-		<dateCreated>${ data.pubTime }</dateCreated>
-		<dateModified>${ data.modTime }</dateModified>
+		<title>${ functions/xml-escape.js(data.title) }</title>
+		${ data.pubTime ? `<dateCreated>${ data.pubTime }</dateCreated>` : '' }
+		${ data.modTime ? `<dateModified>${ data.modTime }</dateModified>` : '' }
 		<ownerName>Declan Chidlow (Vale)</ownerName>
 		<ownerId>https://vale.rocks/contact</ownerId>
 		<docs>https://opml.org/spec2.opml</docs>
 	</head>
 	<body>
 		${ data.items → (_) => Tree.map(_, (item) => item.rss || item.atom || item.json ? `
-			<outline text="${ item.title }" description="${ item.description }" htmlUrl="https://${ item.url }" title="${ item.title }" type="rss" version="${ item.rss ? 'RSS' : item.atom ? 'ATOM1' : item.json ? 'JSON' : '' }" xmlUrl="https://${ item.atom || item.rss || item.json }"/>`
+			<outline text="${ functions/xml-escape.js(item.title) }" description="${ functions/xml-escape.js(item.description) }" htmlUrl="https://${ functions/xml-escape.js(item.url) }" title="${ functions/xml-escape.js(item.title) }" type="rss" version="${ item.rss ? 'RSS' : item.atom ? 'ATOM1' : item.json ? 'JSON' : '' }" xmlUrl="https://${ functions/xml-escape.js(item.atom || item.rss || item.json) }"/>`
 			: '' )}
 	</body>
 </opml>`

@@ -23,11 +23,7 @@
 					`)}
 				</div>
 
-				<div class="pagination">
-					${ paginated_videos.previousPage ? `<a href="/videos/${ paginated_videos.previousPage === 1 ? '' : paginated_videos.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-					<p>Page ${ paginated_videos.pageNumber } of ${ paginated_videos.pageCount }</p>
-					${ paginated_videos.nextPage ? `<a href="/videos/${ paginated_videos.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
-				</div>
+				${ pagination.ori(paginated_videos, "/videos") }
 			</div>
 		</div>
 	`

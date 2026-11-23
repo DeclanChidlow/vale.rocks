@@ -24,11 +24,7 @@
 				`)}
 			</ol>
 
-			<div data-pagefind-ignore class="pagination">
-				${ paginated_elsewhere.previousPage ? `<a href="/elsewhere/${ paginated_elsewhere.previousPage === 1 ? '' : paginated_elsewhere.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-				<p>Page ${ paginated_elsewhere.pageNumber } of ${ paginated_elsewhere.pageCount }</p>
-				${ paginated_elsewhere.nextPage ? `<a href="/elsewhere/${ paginated_elsewhere.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
-			</div>
+			${ pagination.ori(paginated_elsewhere, "/elsewhere") }
 		</div>
 	`
 })

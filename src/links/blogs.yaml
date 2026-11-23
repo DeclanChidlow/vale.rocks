@@ -1,6 +1,6 @@
 title: Vale's Blog Links
 pubTime: 27 Feb 2025 00:00:00 +0000
-modTime: 11 Sep 2026 00:00:00 +0000
+modTime: 23 Nov 2026 00:00:00 +0000
 items:
   - title: Josh W Comeau
     url: www.joshwcomeau.com
@@ -21,10 +21,6 @@ items:
     url: www.citationneeded.news
     rss: www.citationneeded.news/rss/
     description: Coverage of the cryptocurrency industry and broader technology issues.
-  - title: Web3 is Going Just Great
-    url: www.web3isgoinggreat.com
-    rss: web3isgoinggreat.com/feed.xml
-    description: Tracking of how web3 projects are actually going.
   - title: The Evil Skeleton
     url: tesk.page
     atom: tesk.page/feed.xml
@@ -119,10 +115,6 @@ items:
     atom: karolinaszczur.com/feed/feed.xml
     json: karolinaszczur.com/feed/feed.json
     description: Assorted tech industry related commentary.
-  - title: Adam Argyle
-    url: nerdy.dev
-    rss: nerdy.dev/rss.xml
-    description: CSS and other aspects of the web platform.
   - title: Croissanthology
     url: croissanthology.com
     rss: croissanthology.com/feed.xml
@@ -538,3 +530,7 @@ items:
     url: unsung.aresluna.org
     rss: unsung.aresluna.org/feed.xml
     description: Fine analysis of user interface/experience craft and quality.
+  - title: Vadim Makeev
+    url: pepelsbey.dev
+    rss: pepelsbey.dev/feed/
+    description: Web development thoughts and notes.

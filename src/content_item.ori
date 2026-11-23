@@ -143,7 +143,7 @@
 		<header>
 			<div>
 				<svg viewBox="0 -960 960 960"><title>Micro</title><path d="M239-192q-91-3-141-40T48-333q0-63 50-101t139-44q35-2 55-12t20-27q0-27-27-40t-96-19l6-72q96 6 143 39t46 92q0 48-37 77t-105 34q-61 5-91 23t-31 50q0 33 29 50t93 19zm322-67L403-418l377-377 158 159zm-35 35-199 41 41-200z"/></svg>
-				<h2><a href="/micros/${ item.file_name }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) } UTC</time>${ item.title ? `<p> - ${ item.title }</p>` : '' }</a></h2>
+				<h2><a href="/micros/${ item.file_name }"><time datetime="${ item.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(item.pub_time) }, ${ functions/pretty-time.js(item.pub_time) } UTC</time>${ item.title ? `<span> - ${ functions/escape-html.js(item.title) }</span>` : '' }</a></h2>
 			</div>
 
 			<div class="socials">

@@ -5,7 +5,7 @@
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width">
 			<meta name="text-scale" content="scale">
-			<title>${ page.title}${ page.title !== 'Vale.Rocks' ? ' | Vale.Rocks' : ''}</title>
+			<title>${ functions/escape-html.js(page.title) }${ page.title !== 'Vale.Rocks' ? ' | Vale.Rocks' : ''}</title>
 
 			<script data-goatcounter="https://stats.vale.rocks/count" async src="//gc.zgo.at/count.js"></script>
 
@@ -24,10 +24,10 @@
 			<link rel="preload" href="/assets/typefaces/WorkSans.woff2" as="font" type="font/woff2" crossorigin>
 			<link rel="preload" href="/assets/typefaces/WorkSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
-			<meta property="og:title" content="${ page.title }">
+			<meta property="og:title" content="${ functions/escape-html.js(page.title) }">
 			${ page.description ? `
-				<meta name="description" content="${ page.description}">
-				<meta property="og:description" content="${ page.og_description || page.description }">
+				<meta name="description" content="${ functions/escape-html.js(page.description) }">
+				<meta property="og:description" content="${ functions/escape-html.js(page.og_description || page.description) }">
 			` : '' }
 
 			${ page.article ? `
@@ -42,8 +42,8 @@
 			<link rel="icon" type="image/svg+xml" href="https://vale.rocks/assets/favicon.svg">
 
 			${ page.image ? `
-				<meta property="og:image" content="${ page.image }">
-				${ page.alt_text ? `<meta property="og:image:alt" content="${ page.alt_text }">` : '' }
+				<meta property="og:image" content="${ functions/escape-html.js(page.image) }">
+				${ page.alt_text ? `<meta property="og:image:alt" content="${ functions/escape-html.js(page.alt_text) }">` : '' }
 			` : `
 				<meta property="og:image" content="https://vale.rocks/assets/og/${ page.template_image || 'standard' }.webp">
 				<meta property="og:image:alt" content="The name &lsquo;VALE&rsquo; with the link &lsquo;https://vale.rocks&rsquo;.">

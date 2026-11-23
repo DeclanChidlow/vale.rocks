@@ -15,11 +15,7 @@
 			<div>
 				${ Tree.map(paginated_micros.items, (item, key) => content_item.ori(item, `micros/${ key }`) ) }
 
-				<div class="pagination">
-					${ paginated_micros.previousPage ? `<a href="/micros/${ paginated_micros.previousPage === 1 ? '' : paginated_micros.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-					<p>Page ${ paginated_micros.pageNumber } of ${ paginated_micros.pageCount }</p>
-					${ paginated_micros.nextPage ? `<a href="/micros/${ paginated_micros.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
-				</div>
+				${ pagination.ori(paginated_micros, "/micros") }
 			</div>
 		</div>
 	`

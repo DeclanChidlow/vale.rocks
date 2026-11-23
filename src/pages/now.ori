@@ -55,17 +55,11 @@
 					</article>
 				`)}
 
-				<div class="pagination" data-pagefind-ignore>
-					${ paginated_nows.previousPage ?
-						`<a href="/now/${ paginated_nows.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>` :
-						`<a href="/now" rel="prev"><span aria-hidden="true">←</span> Current Now</a>`
-					}
-					<p>Page ${ paginated_nows.pageNumber } of ${ paginated_nows.pageCount }</p>
-					${ paginated_nows.nextPage ? `
-						<a href="/now/${ paginated_nows.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>
-					` : "<span></span>"
-					}
-				</div>
+				${ pagination.ori(paginated_nows, "/now", {
+					pageOneHref: "/now/1",
+					previousFallbackHref: "/now",
+					previousFallbackLabel: "Current Now"
+				}) }
 			`}
 		</div>
 

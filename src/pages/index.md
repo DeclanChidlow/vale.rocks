@@ -15,8 +15,10 @@ canonical: ""
     <p>Designer</p>
     <p>Writer</p>
 </section>
+</div>
 
 <div class="content">
+<div class="reasonable-width">
 <section class="readable">
 
 ## Ahoy!
@@ -28,12 +30,13 @@ I'm both a front-end developer and writer. As a developer I have a skew towards 
 When not bodging together scripts (both the kinds you run and the kinds you read), you may find me cruising around on a unicycle, browsing the crevices of cyberspace, or inadvertently converting an otherwise functional piece of technology into a paperweight.
 
 </section>
+</div>
 
 <section data-pagefind-ignore>
+<div class="reasonable-width">
 
 ## Explore My Site
 
-</div>
 </div>
 
 <div id="container" aria-hidden="true">
@@ -52,7 +55,7 @@ When not bodging together scripts (both the kinds you run and the kinds you read
                 <path d="M765-144 526-384q-30 23-66 36-36 12-76 12-100 0-170-70t-70-170 70-170 170-70 170 70 70 170q0 40-12 76-13 36-35 66l239 239zM384-408q70 0 119-49t49-119-49-119-119-49-119 49-49 119 49 119 119 49m-36-60v-72h-72v-72h72v-72h72v72h72v72h-72v72z"/>
             </svg>
         </button>
-        <span id="zoom-level">80%</span>
+        <p id="zoom-level">80%</p>
         <button id="zoom-out-btn">
             <svg viewBox="0 -960 960 960" height="21">
                 <title>Zoom out</title>
@@ -73,14 +76,14 @@ When not bodging together scripts (both the kinds you run and the kinds you read
 
 There is much here to explore and observe, and it is my hope that your curiosities will be catered to. Please mind the rabbit holes.
 
-- [**Posts**](/posts) - polished long-form structured writings
-- [**Portfolio**](/portfolio) - showing off
-- [**Micros**](/micros) - short-form, often ephemeral, micro-posts
-- [**Photography**](/photography) - captures of the world
-- [**Videos**](/videos) - pictures in motion
-- [**Elsewhere**](/elsewhere) - my external writings, contributions, and appearances
-- [**Library**](/library) - records of almost every piece of media I've ever consumed
-- [**Links**](/links) - directory of links
+- [Posts](/posts) - polished long-form structured writings.
+- [Portfolio](/portfolio) - showing off.
+- [Micros](/micros) - short-form, often ephemeral, micro-posts.
+- [Photography](/photography) - captures of the world.
+- [Videos](/videos) - pictures in motion.
+- [Elsewhere](/elsewhere) - my external writings, contributions, and appearances.
+- [Library](/library) - records of almost every piece of media I've ever consumed.
+- [Links](/links) - directory of links.
 
 You can also access my stream of consciousness via the <a href="/firehose">firehose</a>, <a href="/tags">filter by content topic</a>, and find ways to follow and subscribe to my output on my <a href="/syndication">syndication page</a>.
 
@@ -101,7 +104,9 @@ If you wish to know more about the specifics of this site, you can read [The Des
 </svg>
 
 </section>
+</div>
 
+<div class="reasonable-width">
 <div id="web-badges">
     <img src="/assets/buttons/valerocks_button.avif" alt="'Vale.Rocks' badge.">
     <a href="https://weborigami.org"><img src="/assets/buttons/web-origami_button.gif" alt="'Built with Origami' badge."></a>
@@ -128,34 +133,38 @@ If you wish to know more about the specifics of this site, you can read [The Des
         "1-15": " on this anniversary of Wikipedia's first edit",
         "1-24": " to see why 1984 won't be like 1984",
         "2-1": " when ELIZA feigned sentience",
-        "2-14": " on the day the ENIAC's was publicly unveiled",
+        "2-14": " on the day the ENIAC was publicly unveiled",
         "3-12": " on this anniversary of the World Wide Web proposal",
-        "3-15": " on this commemoration of RSS' premier",
+        "3-15": " on this commemoration of RSS' premiere",
         "4-1": " during this period ripe for tomfoolery",
         "4-12": " on from the first human leaving Earth",
         "5-3": " long past spam's advent",
         "5-11": " on the day Deep Blue checkmated humanity",
         "5-25": " with your towel",
-        "7-20": " in reflection of humanities first lunar footprints",
+        "7-20": " in reflection of humanity's first lunar footprints",
         "8-6": " on this birthday of the first public website",
         "8-10": " on the day Zero Cool crashed 1,507 systems",
         "9-17": " as we remember Linux's debut",
         "9-19": " ye landlubbers",
         "10-29": " on this, the anniversary of the first message over ARPANET",
         "11-2": " long past when the first worm wriggled through systems",
-        "11-9": " as Firefox rose from the Netscape ashes",
+        "11-9": " as Firefox rose from the ashesof Netscape",
         "12-31": " as the old year wanes into memory",
     };
 
     let period = events[key];
 
     if (!period) {
-        if (h < 6) period = " this sidereal nocturne";
-        else if (h < 12) period = " in these hours of the sun's first blush";
-        else if (h < 13) period = " this effulgent morn";
-        else if (h < 17) period = " this beautiful midday";
-        else if (h < 20) period = " this ambrosial post meridiem";
-        else if (h < 23) period = " on this vespertine eventide";
+        if (h < 1) period = " during the witching hour";
+        else if (h < 6) period = " this sidereal nocturne";
+        else if (h < 8) period = " in these hours of the sun's first blush";
+        else if (h < 12) period = " this effulgent morn";
+        else if (h < 13) period = " this beautiful midday";
+        else if (h < 15) period = " this ambrosial post meridiem";
+        else if (h < 17) period = " this languid afternoon tide";
+        else if (h < 19) period = " on this vespertine eventide";
+        else if (h < 20) period = " this gathering gloaming";
+        else if (h < 22) period = " in this velvet nightfall";
         else period = " at these late hours";
     }
 

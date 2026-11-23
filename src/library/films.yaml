@@ -540,6 +540,8 @@
   release_year: 2009
   rating: 3
   watches:
+    - date: 2026-11-14
+      format: Streaming
     - date: 2025-06-27
       format: Streaming
 - title: Arthur and the Revenge of Maltazard
@@ -839,6 +841,11 @@
   watches:
     - date: 2024-10-05
       format: Streaming
+- title: Starship Troopers
+  release_year: 1997
+  watches:
+    - date: 2026-11-20
+      format: Streaming
 - title: The Castle
   release_year: 1997
   rating: 4
@@ -910,6 +917,9 @@
   release_year: 1995
 - title: Jumanji
   release_year: 1995
+- title: The Santa Clause
+  release_year: 1994
+  notes: My first and entirely undesired exposure to Tim Allen. Not a film I viewed of my own volition.
 - title: "Naked Gun 33⅓: The Final Insult"
   release_year: 1994
   notes: Funny, but inferior to previous Naked Gun films.

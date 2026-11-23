@@ -26,9 +26,7 @@
 	(paginated_micros) = Tree.paginate(micro_data.ori, 30)
 	micros.html = pages/micros.ori(Tree.first(paginated_micros))
 	micros/ = {
-		...Tree.mapExtension(paginated_micros, "→.html", { 
-			value: pages/micros.ori
-		})
+		...functions/paginated-pages.js(paginated_micros, pages/micros.ori)
 		...Tree.map(micro_data.ori, micro_template.ori)
 		feed.json = Origami.json(micro_syndication.ori(Tree.take(micro_data.ori, 30)))
 		feed.xml = Origami.rss(micro_syndication.ori(Tree.take(micro_data.ori, 30)))
@@ -37,9 +35,7 @@
 	(paginated_photography) = Tree.paginate(photography_data.ori, 50)
 	photography.html = pages/photography.ori(Tree.first(paginated_photography))
 	photography/ = {
-		...Tree.mapExtension(paginated_photography, "→.html", {
-			value: pages/photography.ori
-		})
+		...functions/paginated-pages.js(paginated_photography, pages/photography.ori)
 		...Tree.map(photography_data.ori, photography_template.ori)
 		feed.json = Origami.json(photography_syndication.ori(Tree.take(photography_data.ori, 50)))
 		feed.xml = Origami.rss(photography_syndication.ori(Tree.take(photography_data.ori, 50)))
@@ -48,9 +44,7 @@
 	(paginated_videos) = Tree.paginate(video_data.ori, 30)
 	videos.html = pages/videos.ori(Tree.first(paginated_videos))
 	videos/ = {
-		...Tree.mapExtension(paginated_videos, "→.html", {
-			value: pages/videos.ori
-		})
+		...functions/paginated-pages.js(paginated_videos, pages/videos.ori)
 		...Tree.map(video_data.ori, video_template.ori)
 		feed.json = Origami.json(video_syndication.ori(Tree.take(video_data.ori, 30)))
 		feed.xml = Origami.rss(video_syndication.ori(Tree.take(video_data.ori, 30)))
@@ -60,9 +54,7 @@
 		(paginated_demos) = Tree.paginate(demo_data.ori, 30)
 		demos.html = pages/demos.ori(Tree.first(paginated_demos))
 		demos/ = {
-			...Tree.mapExtension(paginated_demos, "→.html", {
-				value: pages/demos.ori
-			})
+			...functions/paginated-pages.js(paginated_demos, pages/demos.ori)
 			...Tree.map(demo_data.ori, demo_template.ori)
 			feed.json = Origami.json(demo_syndication.ori(Tree.take(demo_data.ori, 30)))
 			feed.xml = Origami.rss(demo_syndication.ori(Tree.take(demo_data.ori, 30)))
@@ -73,9 +65,7 @@
 	(paginated_elsewhere) = Tree.paginate(elsewhere_data , 50)
 	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 	elsewhere/ = {
-		...Tree.mapExtension(paginated_elsewhere, "→.html", {
-			value: pages/elsewhere.ori
-		})
+		...functions/paginated-pages.js(paginated_elsewhere, pages/elsewhere.ori)
 		feed.json = Origami.json(elsewhere_syndication.ori(Tree.take(elsewhere_data, 100)))
 		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data, 100)))
 	}
@@ -112,15 +102,13 @@
 
 	(paginated_firehose) = Tree.paginate(firehose_data.ori, 30)
 	firehose.html = pages/firehose.ori(Tree.first(paginated_firehose))
-	firehose/ = Tree.mapExtension(paginated_firehose, "→.html", {
-		value: pages/firehose.ori
-	})
+	firehose/ = functions/paginated-pages.js(paginated_firehose, pages/firehose.ori)
 
 	(grouped_by_tag) = Tree.groupBy(firehose_data.ori, (item) => item.tags)
 	tags.html = pages/tags.ori(grouped_by_tag, tag_data.yaml)
 	tags/ = Tree.map(grouped_by_tag, {
 		key: (items, tag) => `${ Origami.slug(tag) }.html`
-		value: (items, tag) => tag_template.ori(items, tag, Origami.slug(tag), tag_data.yaml(Origami.slug(tag)))
+		value: (items, tag) => tag_template.ori(items, tag, Origami.slug(tag), functions/tag-info.js(tag_data.yaml, Origami.slug(tag)))
 	})
 
 	pulse/ = Tree.map(pulse_data.ori, pulse_template.ori)

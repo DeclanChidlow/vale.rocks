@@ -1,0 +1,1 @@
+(paginated, base, options) => functions/pagination.js(paginated, base, options)

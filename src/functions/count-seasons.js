@@ -1,7 +1,10 @@
-import { Tree } from "@weborigami/async-tree";
+import { isUnpackable, Tree } from "@weborigami/async-tree";
 
 export default async function countSeasons(series) {
 	if (!series) return 0;
+	if (isUnpackable(series)) {
+		series = await series.unpack();
+	}
 	const plainSeries = await Tree.plain(series);
 	const items = Array.isArray(plainSeries) ? plainSeries : Object.values(plainSeries);
 

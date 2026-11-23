@@ -28,7 +28,7 @@
 				${ Tree.map(grouped_by_tag, (items, tag) => `
 					<li data-tag-name="#${ tag }" data-item-count="${ Tree.size(items) }" data-last-date="${ Tree.first(items).pub_time || '' }">
 						<a href="/tags/${ Origami.slug(tag) }">#${ tag }</a> (${ Tree.size(items)} items)
-						<br>${ tags(Origami.slug(tag)).short_description }
+						<br>${ functions/tag-info.js(tags, Origami.slug(tag)).short_description }
 					</li>
 				`) }
 			</ul>

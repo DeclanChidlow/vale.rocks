@@ -47,11 +47,11 @@
 				<li id="${ Origami.slug(`${series.title}-${series.release_year}`) }">
 					<h2>${ series.title } <span data-pagefind-ignore>(${ series.release_year })</span></h2>
 					${ series.rating ? `<p class="star-rating" data-rating="${ series.rating }" data-pagefind-ignore>${ functions/num-to-stars.js(series.rating) }</p>` : '' }
-					${ series.part_watched ? `<small>Sporadically viewed.</small>` : '' }
+					${ series.sporadically_watched ? `<small>Sporadically viewed.</small>` : '' }
 					${ series.notes ? `
 						<details>
 							<summary data-pagefind-ignore>Notes${ series.spoiler ? ' (Spoilers)' : '' }</summary>
-							<p>${ series.notes }</p>
+							${ functions/parse-markdown.js(series.notes) }
 						</details>
 					` : '' }
 					${ series.seasons ? `
@@ -61,12 +61,13 @@
 							${ Tree.map(series.seasons, (season) => `
 								<li>
 									<span data-pagefind-ignore>Season ${season.number}</span>
+									${ season.notes ? functions/parse-markdown.js(season.notes) : '' }
 									${ season.watches ? `
 										<ul>
 											${ Tree.map(season.watches, (watch) => `
 												<li>
 													<span data-pagefind-ignore><time datetime="${watch.start}" data-timezone-ignore>${watch.start}</time> - <time datetime="${watch.finish}" data-timezone-ignore>${watch.finish}</time></span>
-													${ watch.notes ? `<p>${ watch.notes }</p>` : '' }
+													${ watch.notes ? functions/parse-markdown.js(watch.notes) : '' }
 												</li>
 											`) }
 										</ul>

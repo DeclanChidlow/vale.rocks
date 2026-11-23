@@ -18,11 +18,7 @@
 				`)}
 			</div>
 
-			<div class="pagination">
-				${ paginated_photography.previousPage ? `<a href="/photography/${ paginated_photography.previousPage === 1 ? '' : paginated_photography.previousPage }" rel="prev"><span aria-hidden="true">←</span> Newer</a>`	: "<span></span>" }
-				<p>Page ${ paginated_photography.pageNumber } of ${ paginated_photography.pageCount }</p>
-				${ paginated_photography.nextPage ? `<a href="/photography/${ paginated_photography.nextPage }" rel="next">Older <span aria-hidden="true">→</span></a>` : "<span></span>" }
-			</div>
+			${ pagination.ori(paginated_photography, "/photography") }
 		</div>
 	`
 })

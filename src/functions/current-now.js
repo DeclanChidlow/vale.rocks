@@ -1,9 +1,13 @@
-import { Tree } from "@weborigami/async-tree";
+import { isUnpackable, Tree } from "@weborigami/async-tree";
 
 const metaKeys = new Set(["pub_time", "date_raw", "overall"]);
 const isEmpty = (value) => value == null || (typeof value === "string" && value.trim() === "");
 
 export default async (nows) => {
+	if (isUnpackable(nows)) {
+		nows = await nows.unpack();
+	}
+
 	const tree = await Tree.plain(nows);
 
 	const merged = Object.keys(tree)

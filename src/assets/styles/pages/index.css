@@ -46,13 +46,16 @@ main {
 
 .reasonable-width {
 	max-width: 80rem;
-	margin-inline: auto;
 }
 
 .right-block {
 	margin-inline-start: auto;
 
 	ul {
+		a {
+			font-weight: bold;
+		}
+
 		> :nth-child(1) a {
 			text-decoration-color: var(--magenta);
 		}
@@ -144,8 +147,6 @@ main {
 }
 
 #zoom-controls {
-	display: grid;
-	gap: 0.5rem;
 	inset-block-end: 4rem;
 	inset-inline-end: 1rem;
 	padding: 0;
@@ -156,6 +157,10 @@ main {
 		background: none;
 		aspect-ratio: 1;
 	}
+}
+
+#zoom-level {
+	margin-block: 0.5rem;
 }
 
 #recenter-btn {

@@ -10,10 +10,6 @@ items:
     url: shoptalkshow.com
     rss: shoptalkshow.com/feed/podcast/default-podcast/
     description: Discussion of building websites with Dave Rupert and Chris Coyier.
-  - title: Unfinished Business
-    url: unfinished.bz
-    rss: feeds.simplecast.com/FRQZxP6k
-    description: Design discussion from Andy Clarke and Richard Rutter.
   - title: The Shellsharks Podcast
     url: shellsharks.com/podcast/
     rss: podcast.shellsharks.com/@ShellsharksPodcast/feed.xml

@@ -22,6 +22,9 @@ items:
       description: A personal rating for the series.
       minimum: 0
       maximum: 5
+    spoiler:
+      type: boolean
+      description: If the notes contain a spoiler.
     notes:
       type: string
       description: Analysis, more detailed reviews, and other free-form text associated with the series.
@@ -35,8 +38,10 @@ items:
         additionalProperties: false
         properties:
           number:
-            type: integer
-            description: The season number.
+            anyOf:
+              - type: integer
+              - type: string
+            description: The season number, or a label for a named season.
           notes:
             type: string
             description: Notes specific to this particular season.
@@ -52,13 +57,28 @@ items:
               properties:
                 start:
                   anyOf:
-                    - format: date # YYYY-MM-DD
-                    - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
-                    - pattern: '^\d{4}$' # YYYY
+                    - type: string
+                      format: date # YYYY-MM-DD
+                    - type: string
+                      pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+                    - type: string
+                      pattern: '^\d{4}$' # YYYY
+                    - type: integer
+                      minimum: 1000
+                      maximum: 9999
                   description: The start date of the season watch through.
                 finish:
                   anyOf:
-                    - format: date # YYYY-MM-DD
-                    - pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
-                    - pattern: '^\d{4}$' # YYYY
+                    - type: string
+                      format: date # YYYY-MM-DD
+                    - type: string
+                      pattern: '^\d{4}-(0[1-9]|1[0-2])$' # YYYY-MM
+                    - type: string
+                      pattern: '^\d{4}$' # YYYY
+                    - type: integer
+                      minimum: 1000
+                      maximum: 9999
                   description: The finish date of the season watch through.
+                notes:
+                  type: string
+                  description: Notes specific to this particular watch through.
