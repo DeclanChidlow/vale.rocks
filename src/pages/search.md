@@ -37,7 +37,7 @@ if (window.PagefindComponents) {
                 <script type="text/pagefind-template">
                     <li>
                         <div class="result">
-                            <p><a href="{{ meta.url | default(url) | replace(".html", "") }}">{{ meta.title | replace("| Vale.Rocks", "") }}</a></p>
+                            <p><a href="{{ meta.url | default(url) | replace("https://vale.rocks", "") | default("/") | replace(".html", "") }}">{{ meta.title | replace("| Vale.Rocks", "") }}</a></p>
                             {{#if excerpt}}
                                 <p>{{+ excerpt +}}</p>
                             {{/if}}
@@ -46,7 +46,7 @@ if (window.PagefindComponents) {
                         <ul>
                             {{#each sub_results as sub}}
                             <li>
-                                <p><a href="{{ sub.url | default(url) | replace(".html", "") }}">{{ sub.title }}</a></p>
+                                <p><a href="{{ sub.url | default(url) | replace("https://vale.rocks", "") | default("/") | replace(".html", "") }}">{{ sub.title }}</a></p>
                                 <p>{{+ sub.excerpt +}}</p>
                             </li>
                             {{/each}}

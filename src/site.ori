@@ -13,19 +13,21 @@
 	})
 
 	(combined_post_feed) = Tree.reverse(Tree.sort({ ...post_data.ori, ...pulse_data.ori }, (item) => item.pub_time)) 
-	posts.html = pages/posts.ori(post_data.ori)
 	posts/ = {
+		index.html = pages/posts.ori(post_data.ori)
 		...Tree.map(post_data.ori, post_template.ori)
 		feed.json = Origami.json(post_syndication.ori(Tree.take(combined_post_feed, 10)))
 		feed.xml = Origami.rss(post_syndication.ori(Tree.take(combined_post_feed, 10)))
 	}
 
-	portfolio.html = pages/portfolio.ori(portfolio_data.ori, testimonials_data.yaml)
-	portfolio/ = Tree.map(portfolio_data.ori, portfolio_template.ori)
+	portfolio/ = {
+		index.html = pages/portfolio.ori(portfolio_data.ori, testimonials_data.yaml)
+		...Tree.map(portfolio_data.ori, portfolio_template.ori)
+	}
 
 	(paginated_micros) = Tree.paginate(micro_data.ori, 30)
-	micros.html = pages/micros.ori(Tree.first(paginated_micros))
 	micros/ = {
+		index.html = pages/micros.ori(Tree.first(paginated_micros))
 		...functions/paginated-pages.js(paginated_micros, pages/micros.ori)
 		...Tree.map(micro_data.ori, micro_template.ori)
 		feed.json = Origami.json(micro_syndication.ori(Tree.take(micro_data.ori, 30)))
@@ -33,8 +35,8 @@
 	}
 
 	(paginated_photography) = Tree.paginate(photography_data.ori, 50)
-	photography.html = pages/photography.ori(Tree.first(paginated_photography))
 	photography/ = {
+		index.html = pages/photography.ori(Tree.first(paginated_photography))
 		...functions/paginated-pages.js(paginated_photography, pages/photography.ori)
 		...Tree.map(photography_data.ori, photography_template.ori)
 		feed.json = Origami.json(photography_syndication.ori(Tree.take(photography_data.ori, 50)))
@@ -42,8 +44,8 @@
 	}
 
 	(paginated_videos) = Tree.paginate(video_data.ori, 30)
-	videos.html = pages/videos.ori(Tree.first(paginated_videos))
 	videos/ = {
+		index.html = pages/videos.ori(Tree.first(paginated_videos))
 		...functions/paginated-pages.js(paginated_videos, pages/videos.ori)
 		...Tree.map(video_data.ori, video_template.ori)
 		feed.json = Origami.json(video_syndication.ori(Tree.take(video_data.ori, 30)))
@@ -52,8 +54,8 @@
 
 	...(process.env.CODEPEN_API_KEY ? {
 		(paginated_demos) = Tree.paginate(demo_data.ori, 30)
-		demos.html = pages/demos.ori(Tree.first(paginated_demos))
 		demos/ = {
+			index.html = pages/demos.ori(Tree.first(paginated_demos))
 			...functions/paginated-pages.js(paginated_demos, pages/demos.ori)
 			...Tree.map(demo_data.ori, demo_template.ori)
 			feed.json = Origami.json(demo_syndication.ori(Tree.take(demo_data.ori, 30)))
@@ -63,8 +65,8 @@
 
 	(elsewhere_data) = Tree.reverse(Tree.sort((https://vale.rocks/external/elsewhere.json), (item) => item.pub_time))
 	(paginated_elsewhere) = Tree.paginate(elsewhere_data , 50)
-	elsewhere.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 	elsewhere/ = {
+		index.html = pages/elsewhere.ori(Tree.first(paginated_elsewhere))
 		...functions/paginated-pages.js(paginated_elsewhere, pages/elsewhere.ori)
 		feed.json = Origami.json(elsewhere_syndication.ori(Tree.take(elsewhere_data, 100)))
 		feed.xml = Origami.rss(elsewhere_syndication.ori(Tree.take(elsewhere_data, 100)))
@@ -72,15 +74,15 @@
 
 	(paginated_now) = Tree.paginate(now_data.ori, 50)
 	(current_now) = functions/current-now.js(now_data.ori)
-	now.html = pages/now.ori(null, current_now)
 	now/ = {
+		index.html = pages/now.ori(null, current_now)
 		...Tree.mapExtension(paginated_now, "→.html", {
 			value: (page) => pages/now.ori(page, current_now)
 		})
 	}
 
-	links.html = pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
 	links/ = Tree.from({
+		index.html: pages/links.ori(./links/blogs.yaml, ./links/tools-and-resources.yaml, ./links/podcasts.yaml, ./links/video-channels.yaml, ./links/miscellaneous.yaml)
 		blogs.html: links/blogs.ori(links/blogs.yaml)
 		blogs.opml: links/opml.ori(links/blogs.yaml)
 		tools-and-resources.html: links/tools-and-resources.ori(links/tools-and-resources.yaml)
@@ -91,8 +93,8 @@
 		miscellaneous.html: links/miscellaneous.ori(links/miscellaneous.yaml)
 	})
 
-	library.html = pages/library.ori(./library/books.yaml, ./library/films.yaml, ./library/series.yaml, ./library/albums.yaml, ./library/games.yaml)
 	library/ = Tree.from({
+		index.html: pages/library.ori(./library/books.yaml, ./library/films.yaml, ./library/series.yaml, ./library/albums.yaml, ./library/games.yaml)
 		books.html: library/books.ori(library/books.yaml)
 		films.html: library/films.ori(library/films.yaml)
 		series.html: library/series.ori(library/series.yaml)
@@ -101,15 +103,19 @@
 	})
 
 	(paginated_firehose) = Tree.paginate(firehose_data.ori, 30)
-	firehose.html = pages/firehose.ori(Tree.first(paginated_firehose))
-	firehose/ = functions/paginated-pages.js(paginated_firehose, pages/firehose.ori)
+	firehose/ = {
+		index.html = pages/firehose.ori(Tree.first(paginated_firehose))
+		...functions/paginated-pages.js(paginated_firehose, pages/firehose.ori)
+	}
 
 	(grouped_by_tag) = Tree.groupBy(firehose_data.ori, (item) => item.tags)
-	tags.html = pages/tags.ori(grouped_by_tag, tag_data.yaml)
-	tags/ = Tree.map(grouped_by_tag, {
-		key: (items, tag) => `${ Origami.slug(tag) }.html`
-		value: (items, tag) => tag_template.ori(items, tag, Origami.slug(tag), functions/tag-info.js(tag_data.yaml, Origami.slug(tag)))
-	})
+	tags/ = {
+		index.html = pages/tags.ori(grouped_by_tag, tag_data.yaml)
+		...Tree.map(grouped_by_tag, {
+			key: (items, tag) => `${ Origami.slug(tag) }.html`
+			value: (items, tag) => tag_template.ori(items, tag, Origami.slug(tag), functions/tag-info.js(tag_data.yaml, Origami.slug(tag)))
+		})
+	}
 
 	pulse/ = Tree.map(pulse_data.ori, pulse_template.ori)
 }

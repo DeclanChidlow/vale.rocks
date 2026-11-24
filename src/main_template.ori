@@ -53,7 +53,7 @@
 			` }
 
 			${ page.canonical !== undefined ? `
-				<link rel="canonical" href="https://vale.rocks${ page.canonical }">
+				<link rel="canonical" href="https://vale.rocks${ page.canonical }" data-pagefind-meta="url[href]">
 				<meta property="og:url" content="https://vale.rocks${ page.canonical }">
 			` : '' }
 
