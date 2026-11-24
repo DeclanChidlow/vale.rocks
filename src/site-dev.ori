@@ -1,0 +1,6 @@
+Tree.map(./site.ori, {
+	deep: true,
+	keyNeedsSourceValue: false,
+	key: (value, key) => key,
+	inverseKey: (key) => key.endsWith(".html") ? key : `${ key }.html`
+})

@@ -2,7 +2,7 @@
 	"name": "vale-rocks",
 	"type": "module",
 	"scripts": {
-		"dev": "ori debug2 src/site.ori",
+		"dev": "ori debug2 src/site-dev.ori",
 		"build": "ori copy src/site.ori, clear files:build",
 		"audit": "ori audit src/site.ori"
 	},
