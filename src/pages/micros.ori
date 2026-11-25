@@ -14,9 +14,9 @@
 
 			<div>
 				${ Tree.map(paginated_micros.items, (item, key) => content_item.ori(item, `micros/${ key }`) ) }
-
-				${ pagination.ori(paginated_micros, "/micros") }
 			</div>
+
+			${ pagination.ori(paginated_micros, "/micros") }
 		</div>
 	`
 })

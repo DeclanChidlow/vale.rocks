@@ -18,9 +18,25 @@ items:
     platforms:
       type: array
       description: The platforms on which I've played the game.
+      uniqueItems: true
       items:
         type: string
-      minItems: 1
+        enum:
+          - Android
+          - Arcade
+          - DS
+          - Nintendo Switch
+          - Oculus Go
+          - PC
+          - PlayStation Vita
+          - PlayStation 3
+          - Quest 2
+          - Quest 3
+          - Wii
+          - Xbox 360
+          - Xbox One
+          - Xbox Series
+          - iOS
     rating:
       type: number
       description: A personal rating for the game.

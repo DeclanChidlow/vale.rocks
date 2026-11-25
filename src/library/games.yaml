@@ -68,7 +68,7 @@
       finish: 2023-02-11
 - title: Russian Subway Dogs
   release_year: 2018
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Krunker
   release_year: 2018
   platforms: ["PC"]
@@ -158,7 +158,7 @@
   platforms: ["Xbox Series"]
 - title: Iron Snout
   release_year: 2016
-  platforms: ["PC", "PS Vita"]
+  platforms: ["PC", "PlayStation Vita"]
 - title: Ratz Instagib
   release_year: 2016
   platforms: ["PC"]
@@ -226,7 +226,7 @@
   platforms: ["Xbox 360"]
 - title: Downwell
   release_year: 2015
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: "Halo 5: Guardians"
   release_year: 2015
   rating: 1
@@ -257,13 +257,13 @@
   platforms: ["Xbox 360"]
 - title: Nidhogg
   release_year: 2014
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Goat Simulator
   release_year: 2014
   platforms: ["iOS"]
 - title: VRChat
   release_year: 2014
-  platforms: ["PC", "Meta Quest 2"]
+  platforms: ["PC", "Quest 2"]
   notes: The social experiences I've had in VRChat have been some of the most interesting of my life. People seem to achieve a certain comfort in the skin that they choose, and dynamics are not hampered by such detractors as physics. As a very infrequent dreamer, I've been amazed to have dreams resulting from my VRChat experiences.
 - title: Crossy Road
   release_year: 2014
@@ -289,7 +289,7 @@
   platforms: ["iOS"]
 - title: BADLAND
   release_year: 2013
-  platforms: ["iOS", "PS Vita"]
+  platforms: ["iOS", "PlayStation Vita"]
 - title: Catapult King
   release_year: 2013
   platforms: ["iOS"]
@@ -327,10 +327,10 @@
   notes: One of the games my parents pre-loaded on my iPad 4 when they gifted it to me.
 - title: The Unfinished Swan
   release_year: 2012
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Journey
   release_year: 2012
-  platforms: ["PS3"]
+  platforms: ["PlayStation 3"]
 - title: Meeblings
   release_year: 2012
   platforms: ["iOS"]
@@ -342,11 +342,11 @@
   platforms: ["iOS"]
 - title: Smart As...
   release_year: 2012
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
   notes: Played regularly during 2021 as part of research into the effects of brain training games for a psychology class.
 - title: My Singing Monsters
   release_year: 2012
-  platforms: ["iOS", "PC", "PS Vita"]
+  platforms: ["iOS", "PC", "PlayStation Vita"]
 - title: "Skylanders: Giants"
   release_year: 2012
   platforms: ["Xbox 360"]
@@ -358,7 +358,7 @@
   platforms: ["iOS"]
 - title: Gravity Rush
   release_year: 2012
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Dumb Ways to Die
   release_year: 2012
   platforms: ["iOS"]
@@ -403,7 +403,7 @@
   platforms: ["iOS", "Android"]
 - title: Spelunky
   release_year: 2012
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Halo 4
   release_year: 2012
   rating: 3
@@ -437,10 +437,10 @@
   platforms: ["iOS"]
 - title: Rayman Origins
   release_year: 2011
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Jetpack Joyride
   release_year: 2011
-  platforms: ["iOS", "PS Vita"]
+  platforms: ["iOS", "PlayStation Vita"]
 - title: Marvel Super Hero Squad Online
   release_year: 2011
   platforms: ["PC"]
@@ -450,7 +450,7 @@
 - title: Portal 2
   release_year: 2011
   rating: 5
-  platforms: ["PC", "PS3"]
+  platforms: ["PC", "PlayStation 3"]
   notes: I'm yet to play another game that makes me _feel_ like Portal 2.
   playthroughs:
     - start: 2020-04-28
@@ -460,7 +460,7 @@
   platforms: ["iOS"]
 - title: Super Meat Boy
   release_year: 2010
-  platforms: ["PS Vita"]
+  platforms: ["PlayStation Vita"]
 - title: Cut the Rope
   release_year: 2010
   platforms: ["iOS"]
@@ -491,7 +491,7 @@
   platforms: ["Xbox 360"]
 - title: Fruit Ninja
   release_year: 2010
-  platforms: ["iOS", "PS Vita"]
+  platforms: ["iOS", "PlayStation Vita"]
 - title: Monster Dash
   release_year: 2010
   platforms: ["iOS"]
@@ -511,7 +511,7 @@
   platforms: ["PC"]
 - title: Plants vs Zombies
   release_year: 2009
-  platforms: ["PC", "PS Vita", "Xbox Series"]
+  platforms: ["PC", "PlayStation Vita", "Xbox Series"]
 - title: "Worms 2: Armageddon"
   release_year: 2009
   platforms: ["iOS"]
@@ -540,11 +540,11 @@
       finish: 2023-06-05
 - title: Minecraft
   release_year: 2009
-  platforms: ["Xbox 360", "PS3", "PS Vita", "Xbox Series", "PC", "iOS"]
+  platforms: ["Xbox 360", "PlayStation 3", "PlayStation Vita", "Xbox Series", "PC", "iOS"]
   notes: "See [Minecraft, Nostalgia, and Growing Up](/posts/minecraft-nostalgia-and-growing-up)."
 - title: Supersonic Acrobatic Rocket-Powered Battle-Cars
   release_year: 2008
-  platforms: ["PS3"]
+  platforms: ["PlayStation 3"]
 - title: Sonic Unleashed
   release_year: 2008
   platforms: ["Xbox 360"]
@@ -564,7 +564,7 @@
   notes: I purchased a copy second-hand at an op shop, and it was only once I got it home that I discovered the disc inside was for Company of Heroes. I later had to buy it elsewhere.
 - title: Castle Crashers
   release_year: 2008
-  platforms: ["PS3"]
+  platforms: ["PlayStation 3"]
 - title: Purble Place
   release_year: 2007
   platforms: ["PC"]
@@ -639,7 +639,7 @@
   platforms: ["PC"]
 - title: Cel Damage
   release_year: 2001
-  platforms: ["PS Vita", "Xbox Series"]
+  platforms: ["PlayStation Vita", "Xbox Series"]
 - title: "Halo: Combat Evolved"
   release_year: 2001
   platforms: ["PC", "Xbox Series"]
@@ -649,7 +649,7 @@
       finish: 2023-04-16
 - title: Jet Set Radio
   release_year: 2000
-  platforms: ["PC", "PS Vita"]
+  platforms: ["PC", "PlayStation Vita"]
 - title: Ricochet
   release_year: 2000
   platforms: ["PC"]
@@ -678,7 +678,7 @@
   platforms: ["PC"]
 - title: Super Mario 64
   release_year: 1996
-  platforms: ["PC", "PS Vita"]
+  platforms: ["PC", "PlayStation Vita"]
 - title: "1943: The Battle of Midway"
   release_year: 1987
   platforms: ["PC", "Arcade"]

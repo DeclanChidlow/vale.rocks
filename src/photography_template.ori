@@ -23,13 +23,21 @@
 							<li>${ photography.location }</li>
 							${ photography.unsplash_link ? `<li><a href="${ photography.unsplash_link }" target="_blank">View on Unsplash</a></li>` : '' }
 						</ul>
-						<ul>
-							<li>Camera: ${ photography.camera }</li>
-							<li>Focal Length: ${ photography.focal }</li>
-							<li>Aperture: <em>ƒ</em>/${ photography.aperture }</li>
-							${ photography.shutter ? `<li>Shutter: ${ photography.shutter }</li>` : '' }
-							${ photography.iso ? `<li>ISO: ${ photography.iso }</li>` : '' }
-						</ul>
+
+						${ photography.game ? `
+							<ul>
+								${ photography.version ? `<li>Version: ${ photography.version }</li>` : '' }
+								${ photography.fov ? `<li><abbr title="Field of View">FOV</abbr>: ${ photography.fov }</li>` : '' }
+							</ul>
+						` : `
+							<ul>
+								<li>Camera: ${ photography.camera }</li>
+								<li>Focal Length: ${ photography.focal }</li>
+								<li>Aperture: <em>ƒ</em>/${ photography.aperture }</li>
+								${ photography.shutter ? `<li>Shutter: ${ photography.shutter }</li>` : '' }
+								${ photography.iso ? `<li>ISO: ${ photography.iso }</li>` : '' }
+							</ul>
+						` }
 					</div>
 					
 					<div class="readable e-content">

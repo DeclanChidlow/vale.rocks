@@ -29,7 +29,7 @@ patternProperties:
         description: Publication date.
       location:
         type: string
-        description: Where the photo was taken.
+        description: Where the photo was taken or what game it was taken in.
       camera:
         type: string
         minLength: 1
@@ -46,6 +46,30 @@ patternProperties:
       iso:
         type: integer
         description: ISO setting.
+      game:
+        type: boolean
+        description: If the photo is from a game.
+      version:
+        type: string
+        description: Game version.
+      platform:
+        type: string
+        description: The platform on which the picture was captured.
+        enum:
+          - Android
+          - DS
+          - Nintendo Switch
+          - Oculus Go
+          - PC
+          - PlayStation Vita
+          - PlayStation 3
+          - Quest 2
+          - Quest 3
+          - Wii
+          - Xbox 360
+          - Xbox One
+          - Xbox Series
+          - iOS
       _body:
         type: string
         description: Details of the photograph.

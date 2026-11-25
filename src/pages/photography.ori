@@ -10,10 +10,13 @@
 		<h1 class="section" data-pagefind-ignore>Photography</h1>
 
 		<div data-pagefind-ignore>
+			${ paginated_photography.previousPage ? '' : `<p class="readable">Various artistic or otherwise interesting photographs I've taken. Included are some photographs taken in video games, which are indicated by a controller icon.</p>` }
+
 			<div id="photography">
 				${ Tree.map(paginated_photography.items, (item, key) => `
 					<a class="photo" href="/photography/${ Origami.basename(key) }">
 						<img src="${ item.image }?q=60&w=1500" alt="${ item.alt_text }" loading="lazy">
+						${ item.game ? `<svg viewBox="0 0 24 24"><title>Game</title><path d="M4.73 20q-1.5 0-2.56-1.07t-1.11-2.6l.02-.45q.02-.23.08-.45l2.1-8.4q.34-1.35 1.42-2.19T7.13 4h9.75q1.38 0 2.45.84t1.42 2.19l2.1 8.4.09.46q.04.23.04.46 0 1.52-1.09 2.59T19.28 20q-1.05 0-1.95-.55t-1.35-1.5l-.7-1.45q-.13-.25-.38-.38t-.52-.12H9.63q-.28 0-.53.13t-.37.37l-.7 1.45q-.45.95-1.35 1.5T4.73 20m.07-2q.47 0 .86-.25t.59-.68l.7-1.42q.38-.78 1.1-1.21T9.63 14h4.75q.85 0 1.58.45t1.12 1.2l.7 1.42q.2.43.59.68t.86.25q.7 0 1.2-.46t.53-1.16l-.05-.47-2.11-8.39q-.18-.68-.7-1.1T16.88 6H7.13q-.7 0-1.24.43T5.2 7.52L3.1 15.9q-.05.15-.05.45 0 .7.51 1.17.52.48 1.24.48m9.41-7.29q.29-.28.29-.71t-.29-.71T13.5 9t-.71.29-.29.71.29.71.71.29.71-.29m2-2q.29-.29.29-.71 0-.43-.29-.71T15.5 7t-.71.29-.29.71.29.71.71.29.71-.29m0 4q.29-.28.29-.71t-.29-.71-.71-.29-.71.29-.29.71.29.71.71.29.71-.29m2-2q.29-.28.29-.71t-.29-.71T17.5 9t-.71.29-.29.71.29.71.71.29.71-.29m-9.17 1.58q.21-.21.21-.54v-1h1q.33 0 .54-.21T11 10t-.21-.54-.54-.21h-1v-1q0-.32-.21-.54-.21-.21-.54-.21-.32 0-.54.21-.21.22-.21.54v1h-1q-.32 0-.54.21T6 10t.21.54.54.21h1v1q0 .32.21.54t.54.21.54-.21M12 12"/></svg>` : '' }
 					</a>
 				`)}
 			</div>

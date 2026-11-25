@@ -12,19 +12,17 @@
 		<div data-pagefind-ignore>
 			${ paginated_videos.previousPage ? '' : `<p class="readable"><em>Pictures, but moving</em>. My videos are usually published to YouTube first, but are available here <a href="https://indieweb.org/PESOS"><abbr title="Publish videos, Syndicate (to your) Own Site">PESOS</abbr></a> style with extra material. You can primarily expect content that can’t be presented or conveyed to its fullest in other mediums.</p>` }
 
-			<div>
-				<div id="videos">
-					${ Tree.map(paginated_videos.items,	(video, key) => `
-						<a class="video ${ video.format }" href="/videos/${ Origami.basename(key) }">
-							<img src="https://i.ytimg.com/vi_webp/${ video.youtube_id }/${ video.format === 'short' ? `oar2` : `sddefault` }.webp" alt=""/>
-							<h2>${ video.title }</h2>
-							<time datetime="${ video.pub_time }">${ functions/pretty-date.js(video.pub_time) }</time>
-						</a>
-					`)}
-				</div>
-
-				${ pagination.ori(paginated_videos, "/videos") }
+			<div id="videos">
+				${ Tree.map(paginated_videos.items,	(video, key) => `
+					<a class="video ${ video.format }" href="/videos/${ Origami.basename(key) }">
+						<img src="https://i.ytimg.com/vi_webp/${ video.youtube_id }/${ video.format === 'short' ? `oar2` : `sddefault` }.webp" alt=""/>
+						<h2>${ video.title }</h2>
+						<time datetime="${ video.pub_time }">${ functions/pretty-date.js(video.pub_time) }</time>
+					</a>
+				`)}
 			</div>
+
+			${ pagination.ori(paginated_videos, "/videos") }
 		</div>
 	`
 })

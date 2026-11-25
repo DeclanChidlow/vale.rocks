@@ -1,4 +1,10 @@
 # $schema: films-schema.yaml
+- title: You Can See Everything
+  release_year: 2026
+  notes: What a showcase of deceit and the efficacy of manipulation. I know Elizabeth Holmes to be a fraudster, yet still I found myself unsure of what in the film is reality and what is fabrication. I even watched Nathan Fielder and Amanda Seyfried slide towards believing her before pulling themselves back, and in many cases the lines between what is real and what is true only within Elizabeth's head are so blurred that it is impossible to discern. I truly believe that she believes the lies she tells and that she is innocent, even if she has forced herself into this way of thinking. Billy Evans reveals himself in my eyes to be a manipulative, controlling, abusive monster. Holmes and Evans are freaks.
+  watches:
+    - date: 2026-11-24
+      format: Cinema
 - title: "Spider-Man: Brand New Day"
   release_year: 2026
   watches:
