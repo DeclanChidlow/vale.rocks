@@ -3,7 +3,7 @@ title: How I'm Using AI
 description: An overview of my personal usage of Large Language Models (LLMs) and other generative AI. Tracking my experiences with AI tools, specific models (ChatGPT, Claude, Gemini, DeepSeek, etc), applying them practically, and realistic perspective on their strengths and limitations over time, from coding attempts to language learning assistance.
 og_description: As long as AI isn't using me...
 pub_time: 2025-05-02
-mod_time: 2026-10-08
+mod_time: 2026-11-25
 section: Essay
 tags: [AI, LLMs]
 standardsite_rkey: 3mn2djkrb2n2v
@@ -111,9 +111,13 @@ I followed up my game development experiment with some attempts at Android app c
 
 During August I switched from using Claude Code on my MacBook Pro, which I'd used for the previously mentioned tests, to using [OpenCode](https://opencode.ai) [on my primary laptop](/posts/a-year-with-the-framework-laptop-13). The difference between Claude Code and OpenCode was night and day. OpenCode is leagues faster, smoother, and more configurable. I continued using DeepSeek, only using it during off-peak periods, which cost half as much.
 
-I still dislike using LLMs for anything 'final'; however, I feel I've turned a corner into understanding that AI is going to be the future of software development. Regardless of how that makes me feel, I know it now to be true. I'm sure there will be an audience for 'artisan', hand-written software, but the days of humans authoring the majority of code are clearly meeting their match as of September 2026. Even should AI development impossibly completely halt, open models are of a capability that everything being AI-authored is set as the future.
+I still dislike using LLMs for anything 'final'; however, I feel I've turned a corner into understanding that AI is going to be the future of software development. Regardless of how that makes me feel, I know it now to be true. I'm sure there will be an audience for 'artisan', hand-written software, but the days of humans authoring the majority of code are clearly meeting their match as of September 2026. Should AI development impossibly completely halt, open models are of a capability that everything being AI-authored is set as the future.
 
-In early October, Google [dropped free access to Gemini Flash and Pro](https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/), spelling an end to my usage of the models. I'd been using them for writing feedback and as imperfect fact checkers.
+In early October, Google [dropped free access to Gemini Flash and Pro](https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/), spelling an end to my usage of the models through the website for most purposes. The remaining model is extremely poor and rarely worth using.
+
+In November I [updated the AI policy for the business under which I conduct my freelance work, CapChord](https://capchord.com/blog/revised-client-focused-ai-policy), to reflect the present state of the industry. I'd held out, but it is the clear reality that doing so is not sustainable. There is an audience for non-generative-AI development, but with so many people using AI that claim not to be, it is a hard niche to maintain. I think transparency with clients is important and that they should have a say, so clients have the choice on how AI is used in completion of services. In any case, it will never be used by CapChord for writing or art.
+
+My present workflow is working in my text editor and then spinning up OpenCode with DeepSeek V4.1-Flash-1017 to complete tasks when necessary. It feels fast, but I don't derive the same joy and I'm usually disappointed by the method of implementation. I find the same with other models. I do wonder if this is intentional because more complex code seems more impressive and because more complex code is less maintainable by humans, which creates a sort of AI lock-in.
 
 ## Specific Usage
 
@@ -137,10 +141,8 @@ AI must never write for me, for that is not something I ever want. They may, how
 
 I will happily get AI models to generate large portions of code, but any non-vibe-coded AI-generated code I commit must be at the quality of code I would write myself and be checked along the way. Code being AI-generated is not itself an excuse for it being bad, and vigilant oversight is required.
 
-When I use AI to generate code, I do it separate from my editor. Every experience I have had with in-editor AI has been poor unless I give it complete control, which I dislike doing for what I hope are obvious reasons. Even if I give it full control, it is still not a silver bullet and is beholden to many flaws. AI is a tool, not a replacement, so leaving it to do things on its own usually goes awry.
+When I use AI to generate code, I do it separate from my editor. Every experience I have had with in-editor AI has been poor. Inline suggestions are the most egregious of all the ways AI tries to help me in-editor. It gets directly underfoot and in my way to the fullest extent it can while I'm actively trying to write code. Suggestions are worse than what can be sourced from my Language Server Protocol (LSP) or elsewhere in my buffer and are frequently so wrong they're distracting.
 
-Inline suggestions are the most egregious of all the ways AI tries to help me in-editor. It gets directly underfoot and in my way to the fullest extent it can. Suggestions are worse than what can be sourced from my Language Server Protocol (LSP) or elsewhere in my buffer and are frequently so wrong they're distracting.
+Instead, I'll always opt for an external interface. Previously I'd use web interfaces where I'd supply the relevant code and allow it to be handled as I wish, which worked extremely smoothly. It was also often more cost-effective given available free plans for flagship models. I still use this approach on occasion for small things where I can provide snippets, but I now primarily use agentic coding harnesses for AI-driven development.
 
-Instead, I'll always opt for an external interface where I supply the relevant code and allow it to be handled as I wish, and this works extremely smoothly. This is also often more cost-effective given available free plans for flagship models. I'm very careful with my usage and ensure that I understand and am capable of everything that is output.
-
-AI can be incredibly useful for creating small, throwaway, non-mission-critical tools as part of the development process, as [I've discussed](/posts/build-use-and-improve-tools).
+AI can be incredibly useful for quickly creating small, throwaway, non-mission-critical tools as part of the development process, as [I've discussed](/posts/build-use-and-improve-tools).
