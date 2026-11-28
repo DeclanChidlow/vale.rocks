@@ -1,17 +1,31 @@
+.readable {
+	margin-block-end: 2rem;
+}
+
 #photography {
 	display: grid;
-	grid-template-rows: masonry;
+	display: grid-lanes;
 	gap: 2rem;
 
 	.photo {
-		animation: fade-in-up;
-		animation-timeline: view();
+		position: relative;
+		margin-block: auto;
 		scale: 0.98;
 		transition: scale 0.25s;
-		margin-block: auto;
+		animation: fade-in-up;
+		animation-timeline: view();
 
 		img {
 			margin-inline: auto;
+		}
+
+		svg {
+			position: absolute;
+			block-size: 1.75rem;
+			inset-block-end: 0.5rem;
+			inset-inline-end: 0.5rem;
+			fill: var(--bright_white);
+			filter: drop-shadow(0 0 0.5rem black);
 		}
 
 		&:hover {
